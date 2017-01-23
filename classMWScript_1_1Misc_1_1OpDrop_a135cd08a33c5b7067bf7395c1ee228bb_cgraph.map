@@ -1,0 +1,44 @@
+<map id="MWScript::Misc::OpDrop::execute" name="MWScript::Misc::OpDrop::execute">
+<area shape="rect" id="node2" href="$classInterpreter_1_1Runtime.html#a48ee08f88ec29e0b2f5432b685b89f83" title="Interpreter::Runtime\l::getStringLiteral" alt="" coords="247,5,382,46"/>
+<area shape="rect" id="node3" href="$classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64" title="pop stack " alt="" coords="233,71,396,97"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="237,121,393,148"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1Class.html#a23032de169e9d4dc8932bae21e46e9b0" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="218,173,411,214"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="219,238,410,279"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1ContainerStore.html#aff176edbad26cdd416517a42a87a39ea" title="MWWorld::ContainerStore\l::count" alt="" coords="471,277,641,318"/>
+<area shape="rect" id="node8" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="989,263,1109,305"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1InventoryStore.html#a00638734d306421a8aa211947d759e65" title="MWWorld::InventoryStore\l::getSlot" alt="" coords="231,406,398,447"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1ContainerStore.html#ab7165a7ef4e2053f7c0b712d017a9f5d" title="MWWorld::ContainerStore::end" alt="" coords="216,472,413,499"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="231,523,398,549"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="959,1036,1140,1063"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="470,621,642,648"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="461,672,651,699"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1InventoryStore.html#a0014a9cea26a28474ce116d43d6c3993" title="MWWorld::InventoryStore\l::unequipItemQuantity" alt="" coords="231,726,398,767"/>
+<area shape="rect" id="node23" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="962,1153,1137,1180"/>
+<area shape="rect" id="node24" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="974,1087,1125,1129"/>
+<area shape="rect" id="node38" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="217,955,412,997"/>
+<area shape="rect" id="node39" href="$classMWWorld_1_1ContainerStore.html#a71670323082addcc92d290120c409c6f" title="MWWorld::ContainerStore\l::begin" alt="" coords="229,1021,400,1062"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1InventoryStore.html#a680c3e2ce035f75127d16b25044d9488" title="Utility function, returns true if the given item is equipped in any slot. " alt="" coords="231,1086,398,1127"/>
+<area shape="rect" id="node41" href="$classMWWorld_1_1ContainerStore.html#a822cae39bd4e1f514cec973de6e643eb" title="MWWorld::ContainerStore\l::remove" alt="" coords="708,486,879,527"/>
+<area shape="rect" id="node42" href="$classMWBase_1_1World.html#a083d6a5afc417ff6dd282c3e8c38125c" title="MWBase::World::dropObject\lOnGround" alt="" coords="223,1203,406,1245"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1CellRef.html#ad93ef305a11039fe3de2accee764d727" title="MWWorld::CellRef::setOwner" alt="" coords="221,1269,408,1296"/>
+<area shape="rect" id="node9" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1247,261,1367,302"/>
+<area shape="rect" id="node17" href="$namespaceanonymous__namespace_02containeritemmodel_8cpp_03.html#a927449c20f8e0225a9c7e8ac7f41efa1" title="anonymous_namespace\l\{containeritemmodel\l::cpp\}::stacks" alt="" coords="476,723,636,779"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1RefData.html#a3ad2649a24b88d1ffc1b709f6d42e9f1" title="MWWorld::RefData::setCount" alt="" coords="699,1097,887,1124"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#a7e0b302dd59b86df5730fe6d90e575b0" title="May return a 0&#45;pointer, if reference is not in a container. " alt="" coords="703,665,883,706"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1ContainerStore.html#a8b6711749e7e251d1c43e81a4a8b459e" title="MWWorld::ContainerStore\l::stacks" alt="" coords="708,730,879,771"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1ConstPtr.html#a511e7a1e40414f8a34b88807654a3369" title="MWWorld::ConstPtr::\lgetClass" alt="" coords="979,431,1119,473"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1ConstPtr.html#afa407c744b51f45e0b8e3eec160cb7a2" title="MWWorld::ConstPtr::\lgetCellRef" alt="" coords="1237,467,1377,509"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="942,548,1157,575"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1World.html#a87aedd49e821a983ab17125a34666cb5" title="MWWorld::World::getStore" alt="" coords="963,599,1135,625"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="966,649,1133,676"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1CellRef.html#adfbe4ecec0fae39aef9dc599a2257248" title="MWWorld::CellRef::getEnchantment\lCharge" alt="" coords="936,701,1163,742"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1CellRef.html#a081ffa75eac6cf345f83b4b22b589267" title="MWWorld::CellRef::getOwner" alt="" coords="956,767,1143,793"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1CellRef.html#a4f92e5fcdd850e09b8e49a80f7c6f7de" title="MWWorld::CellRef::getSoul" alt="" coords="961,817,1137,844"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1Class.html#a076735d87a1695d7fdf2a8e572dfec7a" title="MWWorld::Class::getRemaining\lUsageTime" alt="" coords="949,869,1149,910"/>
+<area shape="rect" id="node31" href="$classMWWorld_1_1Class.html#a752c1c8b8184d383b275cb685ce8d8bb" title="MWWorld::Class::getScript" alt="" coords="963,935,1136,961"/>
+<area shape="rect" id="node32" href="$classMWWorld_1_1Class.html#a6689ca20c9048824b3da7832c156dc10" title="MWWorld::Class::hasItemHealth" alt="" coords="947,985,1151,1012"/>
+<area shape="rect" id="node33" href="$classMWWorld_1_1Class.html#a5537c9812ceb8e5a8100652eac05ec63" title="Return current item health or throw an exception if class does not have item health. " alt="" coords="948,380,1151,407"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1Class.html#a57ed3b8775968f13bb4460b3833a9021" title="MWWorld::Class::getItemMax\lHealth" alt="" coords="1212,326,1401,367"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1CellRef.html#a4b3b28f98b80448c7b7d5c3b364976b7" title="MWWorld::CellRef::getCharge" alt="" coords="1211,392,1402,419"/>
+<area shape="rect" id="node37" href="$classMWBase_1_1World.html#aacc3d8303f4963420c0a3053aac302fe" title="MWBase::World::removeRef\lScript" alt="" coords="959,1205,1140,1246"/>
+</map>

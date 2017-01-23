@@ -1,0 +1,51 @@
+<map id="MWMechanics::CreatureStats::getAiSequence" name="MWMechanics::CreatureStats::getAiSequence">
+<area shape="rect" id="node2" href="$classMWClass_1_1Actor.html#a6aa5aaccc6649532337dd8e32517bbc8" title="MWClass::Actor::canBeActivated" alt="" coords="253,5,464,32"/>
+<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a2b05916462047e35be6006ab8698a36b" title="MWClass::Creature::\lonHit" alt="" coords="290,57,427,98"/>
+<area shape="rect" id="node4" href="$classMWClass_1_1Creature.html#a17e5c2167f56292aacc395f7f4018ad6" title="Generate action for activation. " alt="" coords="290,122,427,163"/>
+<area shape="rect" id="node5" href="$classMWClass_1_1Creature.html#af77b9ccfe671335db4b5091d6a1753df" title="MWClass::Creature::\lhasToolTip" alt="" coords="290,187,427,229"/>
+<area shape="rect" id="node6" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="571,279,696,305"/>
+<area shape="rect" id="node7" href="$classMWClass_1_1Npc.html#ada4bd30292b7cd8588ecb21915d5c8ce" title="MWClass::Npc::onHit" alt="" coords="288,355,429,381"/>
+<area shape="rect" id="node8" href="$classMWClass_1_1Npc.html#a0a163cd7a793722b0abd5c01f33cd0a9" title="Generate action for activation. " alt="" coords="281,405,437,432"/>
+<area shape="rect" id="node9" href="$classMWClass_1_1Npc.html#a2468aba985c3ef18aba1a692bea218b3" title="MWClass::Npc::hasToolTip" alt="" coords="271,456,446,483"/>
+<area shape="rect" id="node10" href="$classMWDialogue_1_1Filter.html#a60b07e8170fb7aaff7e252554be1e4ba" title="MWDialogue::Filter\l::getSelectStructInteger" alt="" coords="279,507,438,549"/>
+<area shape="rect" id="node11" href="$namespaceanonymous__namespace_02actors_8cpp_03.html#a229146c18dcc3b72d7f13f271a0b7fc5" title="anonymous_namespace\l\{actors::cpp\}::adjustCommanded\lActor" alt="" coords="795,987,1000,1043"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1049,697,1199,738"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1Actors.html#a499f6bbd42387ac60a06e80c78f41dc5" title="MWMechanics::Actors\l::engageCombat" alt="" coords="558,1010,709,1051"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="531,762,735,803"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1Actors.html#a6cb2fcb13b34d92052dd53a23ba4f0e3" title="MWMechanics::Actors\l::updateEquippedLight" alt="" coords="558,550,709,591"/>
+<area shape="rect" id="node22" href="$classMWMechanics_1_1Actors.html#a41c4de50f4d384d438e68c523e88c5f5" title="MWMechanics::Actors\l::updateCrimePersuit" alt="" coords="822,609,973,650"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1Actors.html#a1ddbb3434f1da636a5e4055499781c3a" title="Returns the list of actors which are siding with the given actor in fights. " alt="" coords="283,945,434,986"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1Actors.html#a0189b028d29c93a8d3ef8022e39a758e" title="MWMechanics::Actors\l::getActorsFollowing" alt="" coords="283,1113,434,1154"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1Actors.html#a650e37102a8c0fe791fe8cc6a4f28a9a" title="Unlike getActorsFighting, also returns actors that would fight the given actor if they saw him..." alt="" coords="558,1094,709,1135"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1Actors.html#a11b32aa1e483a4688420ce116963929c" title="Get the list of AiFollow::mFollowIndex for all actors following this target. " alt="" coords="269,1178,448,1219"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1Actors.html#a6e82763b5f046204b5dc854e5e0b0ba3" title="Returns the list of actors which are fighting the given actor. " alt="" coords="283,1243,434,1285"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1Actors.html#a05a4f2cab0b621026febbd418c165385" title="Simulate the passing of time. " alt="" coords="558,827,709,869"/>
+<area shape="rect" id="node30" href="$namespaceMWMechanics.html#a0eca898ae05a994e8463ec1705205788" title="Get the chance (in percent) for attacker to successfully hit victim with a given weapon skill value..." alt="" coords="263,304,454,331"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1MechanicsManager.html#ac2c94a31b0bb42c76ad14898027db747" title="MWMechanics::MechanicsManager\l::reportCrime" alt="" coords="521,1327,746,1369"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1MechanicsManager.html#ac0295fc090e45cda7afb12f54cdb3ff4" title="MWMechanics::MechanicsManager\l::actorAttacked" alt="" coords="521,1406,746,1447"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1MechanicsManager.html#a4aa65d1f3b7835c31f9aef70aaf3873e" title="Makes ptr fight target. Also shouts a combat taunt. " alt="" coords="246,1361,471,1402"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="275,1478,443,1519"/>
+<area shape="rect" id="node35" href="$structMWMechanics_1_1UpdateSummonedCreatures.html#aca0efbdf8f6e7359e407a1b78716d96b" title="To call after all effect sources have been visited. " alt="" coords="249,777,469,818"/>
+<area shape="rect" id="node36" href="$classMWScript_1_1Ai_1_1OpAiActivate.html#a5592ac06915afb7e84edff9558fa24b0" title="MWScript::Ai::OpAiActivate\l::execute" alt="" coords="269,1543,448,1585"/>
+<area shape="rect" id="node37" href="$classMWScript_1_1Ai_1_1OpAiTravel.html#abc79004fb4bdc8547c4feb22d949b80a" title="MWScript::Ai::OpAiTravel\l::execute" alt="" coords="275,1609,442,1650"/>
+<area shape="rect" id="node38" href="$classMWScript_1_1Ai_1_1OpAiEscort.html#a592ce45fd43897fa74750d9e3df0718f" title="MWScript::Ai::OpAiEscort\l::execute" alt="" coords="275,1674,443,1715"/>
+<area shape="rect" id="node39" href="$classMWScript_1_1Ai_1_1OpAiEscortCell.html#a57d5d5b445419d7ec4437a0798de8040" title="MWScript::Ai::OpAiEscort\lCell::execute" alt="" coords="275,1739,443,1781"/>
+<area shape="rect" id="node40" href="$classMWScript_1_1Ai_1_1OpGetAiPackageDone.html#a14ff079e2d39ef40e3e31686224ca76d" title="MWScript::Ai::OpGetAiPackage\lDone::execute" alt="" coords="257,1805,461,1846"/>
+<area shape="rect" id="node41" href="$classMWScript_1_1Ai_1_1OpAiWander.html#a6c22971112408234246f30f8519473f1" title="MWScript::Ai::OpAiWander\l::execute" alt="" coords="271,1870,447,1911"/>
+<area shape="rect" id="node42" href="$classMWScript_1_1Ai_1_1OpAiFollow.html#a8c90dc000a4078930d7f018b82274652" title="MWScript::Ai::OpAiFollow\l::execute" alt="" coords="274,1935,443,1977"/>
+<area shape="rect" id="node43" href="$classMWScript_1_1Ai_1_1OpAiFollowCell.html#ace2c3f3e1644de3f5366d23353e14219" title="MWScript::Ai::OpAiFollow\lCell::execute" alt="" coords="274,2001,443,2042"/>
+<area shape="rect" id="node44" href="$classMWScript_1_1Ai_1_1OpGetCurrentAIPackage.html#a6ce53f9599693aded93080c244ce54ac" title="MWScript::Ai::OpGetCurrent\lAIPackage::execute" alt="" coords="267,2066,450,2107"/>
+<area shape="rect" id="node45" href="$classMWScript_1_1Ai_1_1OpGetTarget.html#aff9946738b51d31bfd9a24fb0c8096b6" title="MWScript::Ai::OpGetTarget\l::execute" alt="" coords="269,2131,448,2173"/>
+<area shape="rect" id="node46" href="$classMWScript_1_1Ai_1_1OpStopCombat.html#a21ef0ed22e45ee5527d3f86345e74bf0" title="MWScript::Ai::OpStopCombat\l::execute" alt="" coords="263,2197,455,2238"/>
+<area shape="rect" id="node47" href="$classMWScript_1_1Ai_1_1OpFace.html#a3580b165507412a04b33ff9868ac0a20" title="MWScript::Ai::OpFace\l::execute" alt="" coords="284,2262,433,2303"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1Player.html#a876852950d456fe425dee2f51b24aad0" title="MWWorld::Player::readRecord" alt="" coords="263,2328,455,2355"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1World.html#a932557cd72783eebb5eb04376225c4dc" title="Run physics simulation and modify world accordingly. " alt="" coords="259,2379,459,2405"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#aedee04f37a89b213121357938db6b167" title="Cast the actual spell, should be called mid&#45;animation. " alt="" coords="271,2429,447,2456"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1249,697,1474,738"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="822,791,973,833"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="822,726,973,767"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="822,922,973,963"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="822,857,973,898"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1Actors.html#a2ad05c57d27bc2b1609f6e99b34c90d0" title="MWMechanics::Actors\l::updateNpc" alt="" coords="822,543,973,585"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1Actors.html#aba070fbd58661ccd3e7b530290fd58c0" title="Recursive version of getActorsSidingWith. " alt="" coords="558,945,709,986"/>
+</map>

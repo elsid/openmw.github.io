@@ -1,0 +1,51 @@
+<map id="MWGui::WindowManager::changeCell" name="MWGui::WindowManager::changeCell">
+<area shape="rect" id="node2" href="$classMWGui_1_1LocalMapBase.html#aacaa6e94c7483249b4c1adc6d58a89ec" title="MWGui::LocalMapBase\l::requestMapRender" alt="" coords="526,381,682,422"/>
+<area shape="rect" id="node4" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="1312,11,1448,37"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1293,691,1467,717"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1305,806,1455,847"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="1311,625,1449,666"/>
+<area shape="rect" id="node9" href="$structESM_1_1Cell.html#a88979089a417025271e74645ca70b0a6" title="ESM::Cell::getGridX" alt="" coords="1313,79,1447,105"/>
+<area shape="rect" id="node10" href="$structESM_1_1Cell.html#a749c20ed60697b5a521c14eaf66164ec" title="ESM::Cell::getGridY" alt="" coords="1313,129,1447,156"/>
+<area shape="rect" id="node21" href="$classMWBase_1_1World.html#a634e51a12d42f77c8072991ad16dd489" title="MWBase::World::getCellName" alt="" coords="235,747,429,773"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1MapWindow.html#a22eaab3520d65036c1b0738d14a85821" title="MWGui::MapWindow::setCellName" alt="" coords="222,696,442,723"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1HUD.html#ab5bb811246aabed3dbd1d160875fb68f" title="MWGui::HUD::setCellName" alt="" coords="243,864,421,891"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1MapWindow.html#ab0dfdc8b105f454a53aee0cdb2290a7d" title="MWGui::MapWindow::addVisited\lLocation" alt="" coords="229,1046,435,1087"/>
+<area shape="rect" id="node34" href="$classMWGui_1_1MapWindow.html#a6b63c31adfc3ec2e6df0838440089b1b" title="MWGui::MapWindow::cellExplored" alt="" coords="224,965,440,992"/>
+<area shape="rect" id="node35" href="$classMWGui_1_1WindowManager.html#a0b7e908c4095a4640df64829c26dbdaf" title="set the indices of the map texture that should be used " alt="" coords="249,798,415,839"/>
+<area shape="rect" id="node43" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="1036,1047,1209,1073"/>
+<area shape="rect" id="node45" href="$classMWGui_1_1LocalMapBase.html#aad65f91cc8b5617fbd38c66b575201ff" title="MWGui::LocalMapBase\l::setCellPrefix" alt="" coords="254,1177,410,1218"/>
+<area shape="rect" id="node46" href="$classMWBase_1_1World.html#a2483e1063940cc108f85a4d5c2994d82" title="MWBase::World::findInterior\lPositionInWorldSpace" alt="" coords="243,1242,421,1283"/>
+<area shape="rect" id="node47" href="$classMWWorld_1_1Player.html#aa15c097b836a465e52b300c5bf3bb291" title="MWWorld::Player::getLast\lKnownExteriorPosition" alt="" coords="248,1307,416,1349"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1Player.html#ac2ca66e227b38727ca671ab9ec4b0591" title="MWWorld::Player::setLast\lKnownExteriorPosition" alt="" coords="249,1373,415,1414"/>
+<area shape="rect" id="node49" href="$classMWGui_1_1MapWindow.html#a252d88e99fe46c6280e1ab1d186a198b" title="MWGui::MapWindow::setGlobal\lMapPlayerPosition" alt="" coords="231,1111,433,1153"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1CellStore.html#a0cf5ba632c9f67dc25d28e4bebd8c8f5" title="MWWorld::CellStore\l::isExterior" alt="" coords="1054,246,1191,287"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1World.html#a02d840fdbfad8d3f105afbb08b9cc3e1" title="MWBase::World::getExterior" alt="" coords="777,388,957,415"/>
+<area shape="rect" id="node11" href="$classMWRender_1_1LocalMap.html#a77af39494a96fb9499da49897720eaf6" title="MWRender::LocalMap\l::requestMap" alt="" coords="793,318,941,359"/>
+<area shape="rect" id="node12" href="$classMWRender_1_1LocalMap.html#ab489ae70f6052443432cade451c22ace" title="MWRender::LocalMap\l::requestExteriorMap" alt="" coords="1049,311,1197,353"/>
+<area shape="rect" id="node16" href="$classMWRender_1_1LocalMap.html#aa734324143122bfe658a27e2e782147b" title="MWRender::LocalMap\l::requestInteriorMap" alt="" coords="1049,377,1197,418"/>
+<area shape="rect" id="node13" href="$classMWRender_1_1LocalMap.html#ad1ee3ef7f766db653875b0744530e7e0" title="MWRender::LocalMap\l::createOrthographicCamera" alt="" coords="1289,311,1471,353"/>
+<area shape="rect" id="node14" href="$classMWRender_1_1LocalMap.html#a92177c2a33088023063d67d54da1059a" title="MWRender::LocalMap\l::setupRenderToTexture" alt="" coords="1301,181,1459,222"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1CellStore.html#aa64213504da7e91b10eaf74bf9670d61" title="MWWorld::CellStore\l::getFog" alt="" coords="1311,246,1449,287"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1World.html#a8fb005fcb672e0b38dfa5c6967c5df1b" title="get north vector for given interior cell " alt="" coords="1277,508,1483,535"/>
+<area shape="rect" id="node18" href="$classMWRender_1_1LocalMap.html#a4f8e9e5a7b51417edeb081633c4d9def" title="MWRender::LocalMap\l::rotatePoint" alt="" coords="1306,559,1454,601"/>
+<area shape="rect" id="node19" href="$structMWRender_1_1LocalMap_1_1MapSegment.html#a29a41985a0bf28cf3dd407d8735d3a4b" title="MWRender::LocalMap\l::MapSegment::initFogOfWar" alt="" coords="1287,377,1473,418"/>
+<area shape="rect" id="node20" href="$structMWRender_1_1LocalMap_1_1MapSegment.html#a31b7b6aa3f178847f2f63b275c1c9fe1" title="MWRender::LocalMap\l::MapSegment::loadFogOfWar" alt="" coords="1283,442,1477,483"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1Layout.html#a95cf301d890af66d557d93c836089844" title="MWGui::Layout::setTitle" alt="" coords="525,696,683,723"/>
+<area shape="rect" id="node26" href="$classMWRender_1_1GlobalMap.html#af22cbf0feaa1cf1463ea5d3ff3d4c33a" title="MWRender::GlobalMap\l::cellTopLeftCornerToImage\lSpace" alt="" coords="513,1199,695,1255"/>
+<area shape="rect" id="node27" href="$classMWRender_1_1GlobalMap.html#a51a1dda09641bc9e04eddf638ad5d08a" title="MWRender::GlobalMap\l::getCellSize" alt="" coords="527,1017,681,1058"/>
+<area shape="rect" id="node28" href="$classMWRender_1_1GlobalMap.html#ad213b2bd6313bb9e312af0dcb54e1023" title="MWRender::GlobalMap\l::getWidth" alt="" coords="527,1278,681,1319"/>
+<area shape="rect" id="node29" href="$classMWRender_1_1GlobalMap.html#a0b99c3158e2660bfc58c5dd8f0c57d18" title="MWRender::GlobalMap\l::getHeight" alt="" coords="527,1343,681,1385"/>
+<area shape="rect" id="node30" href="$classMWGui_1_1MapWindow.html#acfdbef79b7cc07388f7a30883dc99dbd" title="MWGui::MapWindow::setGlobal\lMapMarkerTooltip" alt="" coords="766,1098,967,1139"/>
+<area shape="rect" id="node32" href="$classMWGui_1_1MapWindow.html#a77926626c84863a6a7272b8edd8d9076" title="MWGui::MapWindow::onMouseDrag" alt="" coords="491,1083,717,1109"/>
+<area shape="rect" id="node33" href="$classMWGui_1_1MapWindow.html#a93975885705f28b7940ab502b54366b9" title="MWGui::MapWindow::onDrag\lStart" alt="" coords="510,1134,698,1175"/>
+<area shape="rect" id="node31" href="$classMWGui_1_1CustomMarkerCollection.html#a97635313f0f038a299f5731e14730f9c" title="MWGui::CustomMarkerCollection\l::getMarkers" alt="" coords="1017,1098,1229,1139"/>
+<area shape="rect" id="node36" href="$classMWGui_1_1LocalMapBase.html#a04a3fef410b3ff37331aea5c7c4d30e9" title="MWGui::LocalMapBase\l::setActiveCell" alt="" coords="526,849,682,890"/>
+<area shape="rect" id="node37" href="$classMWGui_1_1LocalMapBase.html#ac7b6552fff80821bd976759d099a264d" title="MWGui::LocalMapBase\l::applyFogOfWar" alt="" coords="789,850,945,891"/>
+<area shape="rect" id="node40" href="$classMWRender_1_1LocalMap.html#a1a268da6e44e0c79e8ea0cba13bc55a2" title="MWRender::LocalMap\l::getMapTexture" alt="" coords="793,981,941,1022"/>
+<area shape="rect" id="node41" href="$classMWGui_1_1LocalMapBase.html#a098416ccb8f0bb4b252b0a6a4b165862" title="MWGui::LocalMapBase\l::updateMagicMarkers" alt="" coords="789,733,945,774"/>
+<area shape="rect" id="node44" href="$classMWGui_1_1LocalMapBase.html#a0d7417c6f9bf46e87954a2f850939dc9" title="MWGui::LocalMapBase\l::updateCustomMarkers" alt="" coords="788,915,945,957"/>
+<area shape="rect" id="node38" href="$classMWRender_1_1LocalMap.html#ac56090a564b6d0bec3c95d96b31338d4" title="MWRender::LocalMap\l::getFogOfWarTexture" alt="" coords="1049,915,1197,957"/>
+<area shape="rect" id="node39" href="$classMWGui_1_1LocalMapBase.html#ac1facc456798454d27e6c2068029c816" title="MWGui::LocalMapBase\l::redraw" alt="" coords="1045,981,1201,1022"/>
+<area shape="rect" id="node42" href="$classMWGui_1_1LocalMapBase.html#a088c8d71843aa8b1bf8f0bb95aa895e3" title="MWGui::LocalMapBase\l::addDetectionMarkers" alt="" coords="1045,747,1201,789"/>
+<area shape="rect" id="node50" href="$classMWRender_1_1GlobalMap.html#ac91aaa27d3c604927b65a4ea85889a64" title="MWRender::GlobalMap\l::worldPosToImageSpace" alt="" coords="520,1409,688,1450"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="MWMechanics::CastSpell::playSpellCastingEffects" name="MWMechanics::CastSpell::playSpellCastingEffects">
+<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="231,388,406,415"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="243,440,394,481"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="235,506,403,532"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="235,556,402,583"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1World.html#aea171eaf012a7d6eaa24c8c474f579dd" title="MWBase::World::getAnimation" alt="" coords="221,607,416,634"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="241,658,397,684"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="238,708,399,735"/>
+<area shape="rect" id="node9" href="$classMWRender_1_1Animation.html#a1ad2390344ae9c1560289082c500be9e" title="Add an effect mesh attached to a bone or the insert scene node. " alt="" coords="243,760,394,801"/>
+<area shape="rect" id="node42" href="$classMWRender_1_1Animation.html#abed989fb7189cb08942784a17bdc1261" title="MWRender::Animation\l::addSpellCastGlow" alt="" coords="483,952,634,993"/>
+<area shape="rect" id="node49" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="243,877,394,918"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1SoundManager.html#a29793d56f5aa3902dac261ba34b1cddd" title="MWBase::SoundManager\l::playSound3D" alt="" coords="235,942,402,984"/>
+<area shape="rect" id="node10" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="483,760,634,801"/>
+<area shape="rect" id="node11" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="499,528,619,569"/>
+<area shape="rect" id="node14" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="920,890,1099,932"/>
+<area shape="rect" id="node15" href="$classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b" title="Resource::SceneManager\l::getInstance" alt="" coords="474,825,643,866"/>
+<area shape="rect" id="node40" href="$classSceneUtil_1_1FindMaxControllerLengthVisitor.html#a368e3299dd11b6f195b4e6fa63c5db48" title="SceneUtil::FindMaxController\lLengthVisitor::getMaxLength" alt="" coords="465,629,653,670"/>
+<area shape="rect" id="node41" href="$namespaceMWRender.html#add8c2ed3ee5a5b2d525c32dc9c8b7a74" title="MWRender::overrideFirstRoot\lTexture" alt="" coords="464,694,653,736"/>
+<area shape="rect" id="node12" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="724,510,849,552"/>
+<area shape="rect" id="node13" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="949,466,1069,508"/>
+<area shape="rect" id="node16" href="$classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" title="VFS::Manager::normalizeFilename" alt="" coords="1147,912,1365,939"/>
+<area shape="rect" id="node18" href="$classResource_1_1SceneManager.html#a0b3d33cb5ff1935dcb2ef16b649878e2" title="Resource::SceneManager\l::createInstance" alt="" coords="702,825,871,866"/>
+<area shape="rect" id="node17" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#afff51e54666db5317a601da81b18897a" title="anonymous_namespace\l\{manager::cpp\}::normalize_path" alt="" coords="1413,921,1613,962"/>
+<area shape="rect" id="node19" href="$classResource_1_1SceneManager.html#a01903b2038c6bcda25436eccb0d10b04" title="Resource::SceneManager\l::getTemplate" alt="" coords="925,825,1094,866"/>
+<area shape="rect" id="node22" href="$esmtool_8cpp.html#a0bab682aaafd448095576d6716e53d79" title="clone" alt="" coords="983,532,1036,559"/>
+<area shape="rect" id="node20" href="$classVFS_1_1Manager.html#ac59e8f07d1b254b5e763cb34e3906c64" title="VFS::Manager::get" alt="" coords="1193,963,1319,990"/>
+<area shape="rect" id="node21" href="$classShader_1_1ShaderVisitor.html#a0e7546ca276948dc8b4f0d0201c256c1" title="Shader::ShaderVisitor\l::setForceShaders" alt="" coords="1183,1076,1329,1117"/>
+<area shape="rect" id="node23" href="$esmtool_8cpp.html#ac99c5aa1e9babf153d159744c70347d1" title="load" alt="" coords="1233,608,1279,635"/>
+<area shape="rect" id="node24" href="$namespaceToUTF8.html#a11f55638dc23c4881412f4147af08e56" title="ToUTF8::calculateEncoding" alt="" coords="1423,579,1603,606"/>
+<area shape="rect" id="node25" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="1417,641,1609,682"/>
+<area shape="rect" id="node26" href="$classEsmTool_1_1RecordBase.html#a1293e67c0c709c5e13c4ba1c7009be33" title="EsmTool::RecordBase\l::getType" alt="" coords="1439,838,1587,880"/>
+<area shape="rect" id="node27" href="$classEsmTool_1_1RecordBase.html#afdcd101f1a07edfb9697eced5edd7a4d" title="EsmTool::RecordBase\l::cast" alt="" coords="1439,393,1587,434"/>
+<area shape="rect" id="node28" href="$classESM_1_1ESMWriter.html#ac324dac2b05a35cdf94aec3083739dbe" title="ESM::ESMWriter::setEncoder" alt="" coords="1162,710,1350,736"/>
+<area shape="rect" id="node29" href="$classESM_1_1ESMWriter.html#a6cbe8b27a8bfe80c0bb52e1249bbd59b" title="ESM::ESMWriter::setAuthor" alt="" coords="1167,760,1345,787"/>
+<area shape="rect" id="node30" href="$classESM_1_1ESMWriter.html#a08b58c06c190a50c8d39d61d5e4c36ec" title="ESM::ESMWriter::setDescription" alt="" coords="1153,811,1359,838"/>
+<area shape="rect" id="node31" href="$classESM_1_1ESMWriter.html#a03a08273e92e865a4b1c946f8cd80e00" title="ESM::ESMWriter::setVersion" alt="" coords="1165,55,1347,82"/>
+<area shape="rect" id="node32" href="$classESM_1_1ESMWriter.html#a08d612ba9876b0e32aa871994533f05c" title="ESM::ESMWriter::setRecord\lCount" alt="" coords="1165,106,1347,148"/>
+<area shape="rect" id="node33" href="$classESM_1_1ESMWriter.html#ac99686de1c9e1d4ff1c093b6c5bb476d" title="ESM::ESMWriter::addMaster" alt="" coords="1164,172,1348,199"/>
+<area shape="rect" id="node34" href="$classESM_1_1ESMWriter.html#a0459825cbeae6f6266baea1f42c69a8c" title="Start saving a file by writing the TES3 header. " alt="" coords="1181,223,1331,250"/>
+<area shape="rect" id="node35" href="$classESM_1_1ESMWriter.html#ac94a9a420e00a23f8ac21ced4337bfe7" title="ESM::ESMWriter::startRecord" alt="" coords="1418,88,1609,115"/>
+<area shape="rect" id="node36" href="$classESM_1_1ESMWriter.html#aa9773ad75705c3078f4c4d7be8d90acb" title="ESM::ESMWriter::endRecord" alt="" coords="1420,248,1607,275"/>
+<area shape="rect" id="node37" href="$classEsmTool_1_1RecordBase.html#a277c44d2b838d3a19590fdad57786e23" title="EsmTool::RecordBase\l::getFlags" alt="" coords="1182,376,1330,417"/>
+<area shape="rect" id="node38" href="$classEsmTool_1_1RecordBase.html#af36e5b4b9ccd30f12dcdf8197533e3dd" title="EsmTool::RecordBase\l::save" alt="" coords="1182,441,1330,482"/>
+<area shape="rect" id="node39" href="$classESM_1_1ESMWriter.html#a173ea890cf4aa194979390d0b5c09670" title="ESM::ESMWriter::close" alt="" coords="1179,507,1333,534"/>
+<area shape="rect" id="node43" href="$classMWRender_1_1Animation.html#aee82ebb9884fbd0f8b563d8e0c2465fb" title="MWRender::Animation\l::addGlow" alt="" coords="711,956,862,997"/>
+<area shape="rect" id="node44" href="$classResource_1_1ResourceSystem.html#ac9829e6c125ba11b7615b1e5c566b641" title="Resource::ResourceSystem\l::getImageManager" alt="" coords="920,1152,1099,1193"/>
+<area shape="rect" id="node45" href="$classResource_1_1ImageManager.html#a225f9f7be2c2d86c57f52c0ae990fbb8" title="Resource::ImageManager\l::getImage" alt="" coords="925,956,1093,997"/>
+<area shape="rect" id="node47" href="$classResource_1_1SceneManager.html#a1fe71df9797650ddcb35b7d6dc8eb894" title="Resource::SceneManager\l::applyFilterSettings" alt="" coords="925,1021,1094,1062"/>
+<area shape="rect" id="node48" href="$classResource_1_1SceneManager.html#ac01af19b79e0f46bd186fef974e6fea1" title="Re&#45;create shaders for this node, need to call this if texture stages or vertex color mode have change..." alt="" coords="925,1086,1094,1128"/>
+<area shape="rect" id="node46" href="$namespaceResource.html#a348671c1b817ff6d44215a8ef0887350" title="Resource::checkSupported" alt="" coords="1168,1014,1344,1040"/>
+</map>

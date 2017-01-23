@@ -1,0 +1,51 @@
+<map id="MWDialogue::DialogueManager::startDialogue" name="MWDialogue::DialogueManager::startDialogue">
+<area shape="rect" id="node2" href="$classMWDialogue_1_1DialogueManager.html#a7c7fba44e4ab34a725c849abe7712462" title="MWDialogue::DialogueManager\l::updateGlobals" alt="" coords="758,446,959,487"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1265,438,1439,465"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1037,555,1187,596"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1034,153,1190,180"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="1018,322,1206,363"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="261,2075,453,2116"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1CreatureStats.html#ab3b8255090bc1dcc386d7acbf23a10ba" title="Has this creature talked with the player before? " alt="" coords="261,2140,453,2182"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="783,715,934,756"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1WindowManager.html#a2be5120a583ee0602266c6ac516e0d2e" title="MWBase::WindowManager\l::getDialogueWindow" alt="" coords="771,780,946,822"/>
+<area shape="rect" id="node12" href="$classMWBase_1_1WindowManager.html#a621464c802339d4a30733b8744ba4953" title="MWBase::WindowManager\l::containsMode" alt="" coords="270,2206,445,2247"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1DialogueWindow.html#a4b63137ae42631cd10086e2d50b8705d" title="MWGui::DialogueWindow\l::startDialogue" alt="" coords="525,234,691,275"/>
+<area shape="rect" id="node19" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1028,785,1196,812"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1029,917,1195,944"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1Class.html#a369a75a58f3c116f19e7a4365ba49ae9" title="MWWorld::Class::getName" alt="" coords="271,2272,444,2298"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1Store.html#a83317619858aa87c8c8d72e644139b16" title="MWWorld::Store::begin" alt="" coords="783,846,935,873"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Store.html#a8fba716aeb5a3f41111c2c515ba6e15c" title="MWWorld::Store::end" alt="" coords="787,1602,930,1629"/>
+<area shape="rect" id="node24" href="$classMWBase_1_1WindowManager.html#a3187de6c2225d538f0a1dd89c2c7e7b4" title="MWBase::WindowManager\l::pushGuiMode" alt="" coords="270,2323,445,2364"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1CreatureStats.html#ac204242cba6f64b01303ce483c9e9a0d" title="MWMechanics::CreatureStats\l::talkedToPlayer" alt="" coords="261,2388,453,2430"/>
+<area shape="rect" id="node26" href="$classMWDialogue_1_1DialogueManager.html#a1d9b3a25c03b00b9bae012734e111a5e" title="MWDialogue::DialogueManager\l::updateTopics" alt="" coords="507,1167,709,1208"/>
+<area shape="rect" id="node27" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1052,1534,1172,1575"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1Class.html#a752c1c8b8184d383b275cb685ce8d8bb" title="MWWorld::Class::getScript" alt="" coords="1025,1472,1199,1498"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="1026,1906,1198,1933"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1RefData.html#a15273a5feefb6fe708a0e1eb9607d18e" title="MWWorld::RefData::getLocals" alt="" coords="1016,1965,1208,1992"/>
+<area shape="rect" id="node38" href="$classMWScript_1_1Locals.html#a1f39ce1a274328fbc1234d4ca8609cc3" title="MWScript::Locals::getIntVar" alt="" coords="1022,1145,1202,1172"/>
+<area shape="rect" id="node40" href="$classMWDialogue_1_1DialogueManager.html#a58f35eb0d8ce2627035630349e29bdef" title="MWDialogue::DialogueManager\l::parseText" alt="" coords="257,1406,458,1447"/>
+<area shape="rect" id="node45" href="$classMWGui_1_1DialogueWindow.html#a006dce1cd576cefbaeee3232e3667dba" title="MWGui::DialogueWindow\l::addResponse" alt="" coords="274,1776,441,1818"/>
+<area shape="rect" id="node48" href="$namespaceInterpreter.html#a202c1b5ecf0bf0b6a4f01251abf8f503" title="Interpreter::fixDefinesDialog" alt="" coords="269,2454,446,2481"/>
+<area shape="rect" id="node49" href="$classMWDialogue_1_1DialogueManager.html#a9230798291bd67fcec5d0ce311a6ccee" title="MWDialogue::DialogueManager\l::executeScript" alt="" coords="758,1958,959,1999"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1WindowManager.html#a50231aeba3fd86513a1921fab020feb4" title="MWBase::WindowManager\l::showCompanionWindow" alt="" coords="270,2506,445,2547"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a423613af32adf5245ab309e114c9de21" title="MWBase::World::updateDialogue\lGlobals" alt="" coords="1008,490,1216,531"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1Layout.html#a95cf301d890af66d557d93c836089844" title="MWGui::Layout::setTitle" alt="" coords="780,212,937,238"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1DialogueWindow.html#ab73aeb141abff054864b82516a9e19e3" title="MWGui::DialogueWindow\l::clearChoices" alt="" coords="775,263,942,304"/>
+<area shape="rect" id="node16" href="$classGui_1_1MWList.html#a04d2c2053c822a9b2be18bdaee70d0d0" title="Gui::MWList::clear" alt="" coords="1049,204,1175,230"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1DialogueWindow.html#a7091c61714b9865391fa32025b1700b3" title="MWGui::DialogueWindow\l::updateOptions" alt="" coords="775,95,942,136"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1DialogueWindow.html#acd17fcce0dd0778cf68abd0b914c716b" title="MWGui::DialogueWindow\l::restock" alt="" coords="775,380,942,422"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1019,1400,1205,1426"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="796,1450,921,1477"/>
+<area shape="rect" id="node30" href="$structESM_1_1NPC.html#a75c54cc0cd7552cba8ec9eaae618f3d2" title="ESM::NPC::getTransport" alt="" coords="778,1298,939,1325"/>
+<area shape="rect" id="node31" href="$structESM_1_1Creature.html#af96817c9e7ff63268066ed64acf27a44" title="ESM::Creature::getTransport" alt="" coords="767,1349,950,1376"/>
+<area shape="rect" id="node32" href="$classMWGui_1_1DialogueWindow.html#a0277242a6b928465936685014824a754" title="MWGui::DialogueWindow\l::setServices" alt="" coords="775,1050,942,1091"/>
+<area shape="rect" id="node33" href="$classMisc_1_1StringUtils.html#a770932f1a7e4a76b29537f0bd15d13c4" title="Misc::StringUtils::\lciLess" alt="" coords="799,1232,919,1274"/>
+<area shape="rect" id="node34" href="$classMWGui_1_1DialogueWindow.html#aa2b3989db2f05611ebe3aa53418bf19e" title="MWGui::DialogueWindow\l::setKeywords" alt="" coords="775,1167,942,1208"/>
+<area shape="rect" id="node39" href="$classGui_1_1MWList.html#a9cf601db8982c3160da48f26f50cdf19" title="Gui::MWList::getItemCount" alt="" coords="1025,1677,1199,1704"/>
+<area shape="rect" id="node41" href="$namespaceMWDialogue_1_1HyperTextParser.html#aa174bd3bb68f9f70947215a5097d3afa" title="MWDialogue::HyperTextParser\l::parseHyperText" alt="" coords="510,1536,706,1578"/>
+<area shape="rect" id="node42" href="$namespaceMWDialogue_1_1HyperTextParser.html#a01fbae60ce89257b7d09ec9fa3e9962b" title="MWDialogue::HyperTextParser\l::removePseudoAsterisks" alt="" coords="510,1288,706,1330"/>
+<area shape="rect" id="node43" href="$classTranslation_1_1Storage.html#ad1728fa9d5b2f0c1dae8c4c05e813c34" title="Translation::Storage\l::topicStandardForm" alt="" coords="539,1406,677,1447"/>
+<area shape="rect" id="node44" href="$classTranslation_1_1Storage.html#a0fd2c14c78d1bc4cae3e0468e674e076" title="Translation::Storage\l::hasTranslation" alt="" coords="540,1471,676,1512"/>
+<area shape="rect" id="node46" href="$classGui_1_1MWList.html#a8a8a00ea462ad4c05bfdf495099ceb8b" title="Gui::MWList::getItemNameAt" alt="" coords="514,1805,702,1832"/>
+<area shape="rect" id="node47" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="548,1856,668,1898"/>
+</map>

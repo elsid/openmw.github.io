@@ -1,0 +1,51 @@
+<map id="MWWorld::World::startNewGame" name="MWWorld::World::startNewGame">
+<area shape="rect" id="node2" href="$classMWWorld_1_1World.html#ac02681fae70c96e65e9d2e4c2e067f6a" title="MWWorld::World::setupPlayer" alt="" coords="266,289,457,316"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="793,1171,967,1197"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1World.html#ac06bcccda0f3e8626dea1d273676f72a" title="MWWorld::World::getPlayerPtr" alt="" coords="523,1120,717,1147"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1World.html#acd09247a58246c25f2e0416d978f003c" title="MWWorld::World::renderPlayer" alt="" coords="264,777,459,804"/>
+<area shape="rect" id="node24" href="$classMWRender_1_1RenderingManager.html#aba53f12cdc900af02b863f9f09519694" title="MWRender::RenderingManager\l::resetCamera" alt="" coords="261,1222,461,1263"/>
+<area shape="rect" id="node25" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="286,1287,437,1329"/>
+<area shape="rect" id="node26" href="$classMWBase_1_1WindowManager.html#a1fb6d07bae98deeb1033e330267b7827" title="MWBase::WindowManager\l::updatePlayer" alt="" coords="274,1353,449,1394"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1World.html#aff6e0c9dfd2c2c7c342819929c4f36fb" title="MWWorld::World::findExterior\lPosition" alt="" coords="268,1769,455,1810"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1World.html#a74a5fc184f19e77231acbd7302258670" title="MWWorld::World::changeTo\lExteriorCell" alt="" coords="271,1470,451,1511"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1Scene.html#aa839931bb3be7256993237b5b5b886ce" title="MWWorld::Scene::changeTo\lExteriorCell" alt="" coords="528,1222,712,1263"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1World.html#acce5f58376c08ea20ef97cb48ab54681" title="Attempt to fix position so that the Ptr is no longer inside collision geometry. " alt="" coords="271,1900,452,1927"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1World.html#ac1b97665855f0f2bbc712cbdbc65ab0f" title="MWWorld::World::findInterior\lPosition" alt="" coords="270,1703,453,1745"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1World.html#a60987e10717123b8af23a4118907cb78" title="MWWorld::World::changeTo\lInteriorCell" alt="" coords="271,1535,451,1577"/>
+<area shape="rect" id="node44" href="$classMWBase_1_1Environment.html#a42b9fbc80ab94bbc51cbdd26e58b5150" title="MWBase::Environment\l::getScriptManager" alt="" coords="545,1653,695,1694"/>
+<area shape="rect" id="node45" href="$classMWBase_1_1ScriptManager.html#a29cfd610ae320b7b37165a50a36de51b" title="MWBase::ScriptManager\l::getGlobalScripts" alt="" coords="279,1834,443,1875"/>
+<area shape="rect" id="node46" href="$classMWScript_1_1GlobalScripts.html#a7aea261deb025dea36c8a9d79cd805aa" title="run all active global scripts " alt="" coords="268,1601,455,1628"/>
+<area shape="rect" id="node47" href="$classFallback_1_1Map.html#a9e3f96a700edb3ba7aa39f7edc6fa59f" title="Fallback::Map::getFallback\lString" alt="" coords="274,1951,449,1993"/>
+<area shape="rect" id="node48" href="$classMWBase_1_1WindowManager.html#a9a79e9a3b7aa0d8c356d601bc3251cb0" title="MWBase::WindowManager\l::playVideo" alt="" coords="274,2017,449,2058"/>
+<area shape="rect" id="node49" href="$classMWPhysics_1_1PhysicsSystem.html#a001607547b189825580c330906ebaf9f" title="MWPhysics::PhysicsSystem\l::toggleCollisionMode" alt="" coords="270,2082,453,2123"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1WindowManager.html#a00d2cf033d91e3bd565f0debea0f6887" title="MWBase::WindowManager\l::executeInConsole" alt="" coords="274,2147,449,2189"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="537,71,703,97"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="541,406,699,447"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1MechanicsManager.html#a83d3a00e88dbd2bdd0dd00b244cadbf7" title="Deregister an object for management. " alt="" coords="524,471,716,513"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Player.html#af44444776d68e15a21c03bb321aaaf88" title="MWWorld::Player::getPlayer" alt="" coords="790,621,970,648"/>
+<area shape="rect" id="node9" href="$classMWPhysics_1_1PhysicsSystem.html#ae2ed01c839d5e913afa685b016a82ef1" title="MWPhysics::PhysicsSystem\l::remove" alt="" coords="529,341,711,382"/>
+<area shape="rect" id="node10" href="$classMWRender_1_1RenderingManager.html#a8f46cc4685a7a1e90df12212f04fee2e" title="MWRender::RenderingManager\l::removePlayer" alt="" coords="520,173,720,214"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Player.html#aa9c19f9ea7ae13b94554b5e00902fff7" title="MWWorld::Player::set" alt="" coords="549,239,691,265"/>
+<area shape="rect" id="node12" href="$classMWRender_1_1RenderingManager.html#a39979eb037118cea78f8ce19150f0e90" title="MWRender::RenderingManager\l::setupPlayer" alt="" coords="520,5,720,46"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="794,1820,966,1847"/>
+<area shape="rect" id="node15" href="$classMWRender_1_1RenderingManager.html#a321d8bbfd95e7767439bfff07202cd29" title="MWRender::RenderingManager\l::renderPlayer" alt="" coords="520,705,720,746"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1World.html#ae234f7a6da9154bcfb7adec13762caa0" title="MWWorld::World::scaleObject" alt="" coords="525,1019,715,1045"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1MechanicsManager.html#af7c582ab8154859c6ac8de69c62b5158" title="Register an object for management. " alt="" coords="511,1069,729,1096"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1MechanicsManager.html#aec39afa8600f5030f60736aaa0f2c54d" title="MWBase::MechanicsManager\l::watchActor" alt="" coords="524,537,716,578"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="802,1360,958,1387"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html#a4c9a828dee3aeeb24cd5a896abd2550d" title="MWWorld::Class::getModel" alt="" coords="533,603,707,629"/>
+<area shape="rect" id="node21" href="$namespaceMisc_1_1ResourceHelpers.html#a47f40f938d2e34d19caef0c9bc6c6e79" title="Use &quot;xfoo.nif&quot; instead of &quot;foo.nif&quot; if available. " alt="" coords="539,770,701,811"/>
+<area shape="rect" id="node22" href="$classResource_1_1ResourceSystem.html#a33391822ee610422b7fa907d39f0d37c" title="Resource::ResourceSystem\l::getVFS" alt="" coords="531,835,709,877"/>
+<area shape="rect" id="node23" href="$classMWPhysics_1_1PhysicsSystem.html#abb8c02bd793c076f9fc57edb151277b2" title="MWPhysics::PhysicsSystem\l::addActor" alt="" coords="529,953,711,994"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1World.html#a8be1a71f676493883c7f9e7ac4e518d1" title="MWWorld::World::getExterior" alt="" coords="788,1719,972,1745"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1World.html#a7cca3cbc0855627d830d33dc4f68e23b" title="Convert cell numbers to position. " alt="" coords="513,1769,727,1796"/>
+<area shape="rect" id="node31" href="$classMWPhysics_1_1PhysicsSystem.html#a9b48460734d0e0a761175ac1f67619ca" title="Clear the queued movements list without applying. " alt="" coords="529,1470,711,1511"/>
+<area shape="rect" id="node32" href="$classMWRender_1_1RenderingManager.html#ae1456a1164fae4c0944bb2f8d2bb74c0" title="Clear all worldspace&#45;specific data. " alt="" coords="520,1287,720,1329"/>
+<area shape="rect" id="node33" href="$classMWWorld_1_1World.html#a025fcf0b51a346ab8cff3e26d952332c" title="MWWorld::World::removeContainer\lScripts" alt="" coords="510,1353,730,1394"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1World.html#aa1255acbee4fdd40adb1643fd967ee16" title="MWWorld::World::addContainer\lScripts" alt="" coords="521,1535,719,1577"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1World.html#a47ed99d23fff934fb20f5c27709682dd" title="MWWorld::World::getCell" alt="" coords="539,1419,701,1445"/>
+<area shape="rect" id="node38" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="779,1959,981,1985"/>
+<area shape="rect" id="node39" href="$classMWWorld_1_1RefData.html#a8c6c4838356c56543d513aa21feef10c" title="MWWorld::RefData::setPosition" alt="" coords="520,2039,720,2065"/>
+<area shape="rect" id="node40" href="$classMWPhysics_1_1PhysicsSystem.html#a2b5a96d26485849698b3e1da776924d3" title="MWPhysics::PhysicsSystem\l::traceDown" alt="" coords="529,1922,711,1963"/>
+<area shape="rect" id="node41" href="$classMWWorld_1_1World.html#a388ec6dacdd54a96e91a11b7a857c5d7" title="MWWorld::World::moveObject" alt="" coords="524,2089,716,2116"/>
+</map>

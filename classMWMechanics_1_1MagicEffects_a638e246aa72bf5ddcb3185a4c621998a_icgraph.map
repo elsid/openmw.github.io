@@ -1,0 +1,30 @@
+<map id="MWMechanics::MagicEffects::begin" name="MWMechanics::MagicEffects::begin">
+<area shape="rect" id="node2" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="729,266,933,307"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1MagicEffects.html#a8309f10f3f5c22045c780b9f6f37e739" title="Copy Modifier values from effects, but keep original mBase values. " alt="" coords="241,206,428,247"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1MagicEffects.html#ad6035b41e9eb2108286ffd45945e8ae8" title="MWMechanics::MagicEffects\l::operator+=" alt="" coords="241,323,428,365"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1MagicEffects.html#a31c772ff6372af591ddd17b293813ae8" title="Return changes from prev to now. " alt="" coords="241,389,428,430"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1MagicEffects.html#a1220b5876bdc7cb8247d6db88f1f81dc" title="MWMechanics::MagicEffects\l::writeState" alt="" coords="241,454,428,495"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1Spells.html#a050fa3b6e4ee915141ef4caa066385dc" title="MWMechanics::Spells\l::remove" alt="" coords="261,519,409,561"/>
+<area shape="rect" id="node29" href="$classMWScript_1_1Misc_1_1OpGetEffect.html#ad1fe6a2689bdc10ab87d013e2bcb8185" title="MWScript::Misc::OpGetEffect\l::execute" alt="" coords="241,585,429,626"/>
+<area shape="rect" id="node3" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="1030,397,1181,438"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="1030,201,1181,242"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="1030,266,1181,307"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="1030,331,1181,373"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1305,201,1455,242"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1542,201,1767,242"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#a0d59b750f6336af8a3db5007a3509054" title="MWMechanics::MechanicsManager\l::rest" alt="" coords="1267,266,1493,307"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1MechanicsManager.html#afc410b78620c72d4ec2447b495430128" title="MWMechanics::MechanicsManager\l::updateMagicEffects" alt="" coords="1267,331,1493,373"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1CreatureStats.html#a1f2eb44c0507917a0ea6ea038f46c9c0" title="Set Modifier for each magic effect according to effects. Does not touch Base values. " alt="" coords="477,205,669,246"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1Actors.html#ae564959119ba88f7956b901c357e2758" title="MWMechanics::Actors\l::adjustMagicEffects" alt="" coords="755,331,906,373"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1MechanicsManager.html#ac23cfdb32ea2282daf63c0c6f2f8b86e" title="MWMechanics::MechanicsManager\l::buildPlayer" alt="" coords="718,103,943,145"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1MechanicsManager.html#aa4cff5ce8c7bbf3db175e9ef1ed03340" title="Set player race. " alt="" coords="993,70,1218,111"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1MechanicsManager.html#a8bb81b01284b91cf17ad6245805ad1c4" title="Set player birthsign. " alt="" coords="993,135,1218,177"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1MechanicsManager.html#a466d672ca027794db3b1f0cb889bb3d9" title="Set player class to stock class. " alt="" coords="993,5,1218,46"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1CreatureStats.html#ad830000c337778a49460e5978eb13e56" title="MWMechanics::CreatureStats\l::writeState" alt="" coords="477,454,669,495"/>
+<area shape="rect" id="node22" href="$classMWClass_1_1Creature.html#abccd7da550ea2cf90705b9a2799e98d4" title="Write additional state from ptr into state. " alt="" coords="762,454,899,495"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1SpellWindow.html#a09c11de36a84739b10425640f7f4b8f5" title="MWGui::SpellWindow\l::onDeleteSpellAccept" alt="" coords="499,585,648,626"/>
+<area shape="rect" id="node28" href="$classMWScript_1_1Stats_1_1OpRemoveSpell.html#a82e2beba3b70b7bf742604d164d1d0cc" title="MWScript::Stats::OpRemove\lSpell::execute" alt="" coords="481,519,666,561"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1SpellWindow.html#a7d5efb2b6e2294d40675dd88beace37e" title="MWGui::SpellWindow\l::askDeleteSpell" alt="" coords="758,585,903,626"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" title="MWGui::SpellWindow\l::onModelIndexSelected" alt="" coords="1026,585,1185,626"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" title="MWGui::SpellWindow\l::SpellWindow" alt="" coords="1307,585,1453,626"/>
+</map>
