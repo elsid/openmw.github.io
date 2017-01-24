@@ -1,49 +1,49 @@
 <map id="MWWorld::World::adjustPosition" name="MWWorld::World::adjustPosition">
-<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="819,5,991,32"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="805,376,1006,403"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1RefData.html#a4e86f0a869f982a5e4273b6d0a37a0c8" title="Return base node (can be a null pointer). " alt="" coords="257,427,471,453"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="832,448,979,475"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1CellStore.html#a0cf5ba632c9f67dc25d28e4bebd8c8f5" title="MWWorld::CellStore\l::isExterior" alt="" coords="837,617,974,658"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1World.html#adcc68221c3d92620b0fb0a47bb28b5b0" title="Return terrain height at worldPos position. " alt="" coords="273,630,455,671"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1RefData.html#a8c6c4838356c56543d513aa21feef10c" title="MWWorld::RefData::setPosition" alt="" coords="264,696,464,723"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1World.html#ad980114d5c4b24e19564f387d93568d3" title="MWWorld::World::isFlying" alt="" coords="281,981,447,1008"/>
-<area shape="rect" id="node24" href="$classMWPhysics_1_1PhysicsSystem.html#a2b5a96d26485849698b3e1da776924d3" title="MWPhysics::PhysicsSystem\l::traceDown" alt="" coords="273,267,455,309"/>
-<area shape="rect" id="node34" href="$classMWWorld_1_1World.html#a388ec6dacdd54a96e91a11b7a857c5d7" title="MWWorld::World::moveObject" alt="" coords="268,528,460,555"/>
-<area shape="rect" id="node7" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="1091,624,1227,651"/>
-<area shape="rect" id="node9" href="$classMWRender_1_1RenderingManager.html#a24e0061833102e5bc8d60f1a0c117620" title="MWRender::RenderingManager\l::getTerrainHeightAt" alt="" coords="536,630,736,671"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="558,1280,714,1307"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="542,1331,730,1373"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="555,696,717,723"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="540,747,732,789"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1Class.html#a145982626f0a3fc6a1d9d54ef1bd46ce" title="MWWorld::Class::canFly" alt="" coords="557,813,715,840"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1CreatureStats.html#ae2b73054fdaf82052f81f3bde5a9c90c" title="MWMechanics::CreatureStats\l::isParalyzed" alt="" coords="540,915,732,957"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="800,893,1011,920"/>
-<area shape="rect" id="node19" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="814,945,997,986"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="540,1033,732,1074"/>
-<area shape="rect" id="node21" href="$classMWWorld_1_1World.html#ac2db4e433b04da1d595113988d8d5519" title="Returns true if levitation spell effect is allowed. " alt="" coords="543,1098,729,1139"/>
-<area shape="rect" id="node22" href="$classMWPhysics_1_1PhysicsSystem.html#a41f7de8a899eabcc878655c0d8012ab5" title="MWPhysics::PhysicsSystem\l::getActor" alt="" coords="545,1163,727,1205"/>
-<area shape="rect" id="node23" href="$classMWPhysics_1_1Actor.html#af982dc95a23c50662e6d7de288cc5fdd" title="MWPhysics::Actor::getCollisionMode" alt="" coords="521,1229,751,1256"/>
-<area shape="rect" id="node25" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="830,325,981,352"/>
-<area shape="rect" id="node26" href="$classMWPhysics_1_1MovementSolver.html#afb3ed5c88f5e680f9ac2ba4f28d1dad0" title="MWPhysics::MovementSolver\l::traceDown" alt="" coords="541,209,731,250"/>
-<area shape="rect" id="node27" href="$structMWPhysics_1_1ActorTracer.html#a90fd2d1a8911a04b9520618d29b71921" title="MWPhysics::ActorTracer\l::findGround" alt="" coords="824,158,987,199"/>
-<area shape="rect" id="node29" href="$namespaceMWPhysics.html#a8305cd8732ac128a1a1828256fdedf07" title="MWPhysics::toBullet" alt="" coords="1089,224,1228,251"/>
-<area shape="rect" id="node31" href="$classMWPhysics_1_1Actor.html#afdc073d5e88bb8fb2ec869c426057cd6" title="MWPhysics::Actor::setOnGround" alt="" coords="801,275,1009,301"/>
-<area shape="rect" id="node32" href="$namespaceMWPhysics.html#a48568f2568ff8af5ee9b7df250bccf94" title="MWPhysics::toOsg" alt="" coords="841,56,970,83"/>
-<area shape="rect" id="node33" href="$namespaceMWPhysics.html#afc35e8e95649a5c5abe9d55397ec6295" title="MWPhysics::isWalkableSlope" alt="" coords="810,107,1001,133"/>
-<area shape="rect" id="node28" href="$classMWPhysics_1_1Actor.html#a95cc3d71454f312077d35735a19d30d3" title="MWPhysics::Actor::getCollision\lObject" alt="" coords="1059,158,1258,199"/>
-<area shape="rect" id="node30" href="$classMWPhysics_1_1Actor.html#a64f5ca6f7d516f392b03a574f310d322" title="MWPhysics::Actor::getHalf\lExtents" alt="" coords="1072,93,1245,134"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1World.html#a9ce05309d0132991f266ad1aa369fb0c" title="MWWorld::World::moveObjectImp" alt="" coords="529,528,743,555"/>
-<area shape="rect" id="node36" href="$classMWWorld_1_1World.html#a465203a7a0a534083b490b9ea4a887de" title="Convert position to cell numbers. " alt="" coords="822,499,989,541"/>
-<area shape="rect" id="node37" href="$classMWWorld_1_1World.html#a8be1a71f676493883c7f9e7ac4e518d1" title="MWWorld::World::getExterior" alt="" coords="813,565,997,592"/>
-<area shape="rect" id="node38" href="$classMWWorld_1_1Cells.html#a1257e2d75862eb2f07de15e6169a17cd" title="MWWorld::Cells::getExterior" alt="" coords="1069,565,1248,592"/>
-<area shape="rect" id="node39" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1319,507,1494,533"/>
-<area shape="rect" id="node40" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1331,558,1482,599"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1World.html#a9d4504ed1121d38d32d52ba7b1b5e944" title="MWWorld::World::createRecord" alt="" coords="1307,624,1507,651"/>
-<area shape="rect" id="node42" href="$classMWWorld_1_1ESMStore.html#ab1cd84a1e53673631587072d76dc68cb" title="Insert a custom record (i.e. with a generated ID that will not clash will pre&#45;existing records) ..." alt="" coords="1555,617,1704,658"/>
-<area shape="rect" id="node43" href="$classMWWorld_1_1Store.html#aa531b5a392c7f3de29b33a13da105cd7" title="MWWorld::Store::search" alt="" coords="1753,649,1911,676"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1Store.html#a9f3584f7fe749f808cd1bcd18a409b17" title="MWWorld::Store::insert" alt="" coords="1756,599,1908,625"/>
-<area shape="rect" id="node44" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1960,591,2080,633"/>
-<area shape="rect" id="node47" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="2131,654,2251,695"/>
-<area shape="rect" id="node45" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="2128,589,2253,630"/>
-<area shape="rect" id="node46" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="2301,622,2421,663"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="874,5,1057,32"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="858,376,1073,403"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1RefData.html#a4e86f0a869f982a5e4273b6d0a37a0c8" title="Return base node (can be a null pointer). " alt="" coords="273,427,503,453"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="887,448,1043,475"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1CellStore.html#a0cf5ba632c9f67dc25d28e4bebd8c8f5" title="MWWorld::CellStore\l::isExterior" alt="" coords="893,617,1037,658"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1World.html#adcc68221c3d92620b0fb0a47bb28b5b0" title="Return terrain height at worldPos position. " alt="" coords="293,630,483,671"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1RefData.html#a8c6c4838356c56543d513aa21feef10c" title="MWWorld::RefData::setPosition" alt="" coords="281,696,495,723"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1World.html#ad980114d5c4b24e19564f387d93568d3" title="MWWorld::World::isFlying" alt="" coords="301,981,475,1008"/>
+<area shape="rect" id="node24" href="$classMWPhysics_1_1PhysicsSystem.html#a2b5a96d26485849698b3e1da776924d3" title="MWPhysics::PhysicsSystem\l::traceDown" alt="" coords="291,267,485,309"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1World.html#a388ec6dacdd54a96e91a11b7a857c5d7" title="MWWorld::World::moveObject" alt="" coords="285,528,491,555"/>
+<area shape="rect" id="node7" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="1162,624,1310,651"/>
+<area shape="rect" id="node9" href="$classMWRender_1_1RenderingManager.html#a24e0061833102e5bc8d60f1a0c117620" title="MWRender::RenderingManager\l::getTerrainHeightAt" alt="" coords="570,630,785,671"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="594,1280,761,1307"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="575,1331,780,1373"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="591,696,763,723"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="573,747,782,789"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1Class.html#a145982626f0a3fc6a1d9d54ef1bd46ce" title="MWWorld::Class::canFly" alt="" coords="593,813,761,840"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1CreatureStats.html#ae2b73054fdaf82052f81f3bde5a9c90c" title="MWMechanics::CreatureStats\l::isParalyzed" alt="" coords="573,915,782,957"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="851,893,1079,920"/>
+<area shape="rect" id="node19" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="867,945,1063,986"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="573,1033,782,1074"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1World.html#ac2db4e433b04da1d595113988d8d5519" title="Returns true if levitation spell effect is allowed. " alt="" coords="577,1098,777,1139"/>
+<area shape="rect" id="node22" href="$classMWPhysics_1_1PhysicsSystem.html#a41f7de8a899eabcc878655c0d8012ab5" title="MWPhysics::PhysicsSystem\l::getActor" alt="" coords="580,1163,775,1205"/>
+<area shape="rect" id="node23" href="$classMWPhysics_1_1Actor.html#af982dc95a23c50662e6d7de288cc5fdd" title="MWPhysics::Actor::getCollisionMode" alt="" coords="553,1229,802,1256"/>
+<area shape="rect" id="node25" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="884,325,1047,352"/>
+<area shape="rect" id="node26" href="$classMWPhysics_1_1MovementSolver.html#afb3ed5c88f5e680f9ac2ba4f28d1dad0" title="MWPhysics::MovementSolver\l::traceDown" alt="" coords="574,209,781,250"/>
+<area shape="rect" id="node27" href="$structMWPhysics_1_1ActorTracer.html#a90fd2d1a8911a04b9520618d29b71921" title="MWPhysics::ActorTracer\l::findGround" alt="" coords="880,158,1051,199"/>
+<area shape="rect" id="node29" href="$namespaceMWPhysics.html#a8305cd8732ac128a1a1828256fdedf07" title="MWPhysics::toBullet" alt="" coords="1162,224,1310,251"/>
+<area shape="rect" id="node31" href="$classMWPhysics_1_1Actor.html#afdc073d5e88bb8fb2ec869c426057cd6" title="MWPhysics::Actor::setOnGround" alt="" coords="852,275,1079,301"/>
+<area shape="rect" id="node32" href="$namespaceMWPhysics.html#a48568f2568ff8af5ee9b7df250bccf94" title="MWPhysics::toOsg" alt="" coords="897,56,1034,83"/>
+<area shape="rect" id="node33" href="$namespaceMWPhysics.html#afc35e8e95649a5c5abe9d55397ec6295" title="MWPhysics::isWalkableSlope" alt="" coords="865,107,1065,133"/>
+<area shape="rect" id="node28" href="$classMWPhysics_1_1Actor.html#a95cc3d71454f312077d35735a19d30d3" title="MWPhysics::Actor::getCollision\lObject" alt="" coords="1129,158,1343,199"/>
+<area shape="rect" id="node30" href="$classMWPhysics_1_1Actor.html#a64f5ca6f7d516f392b03a574f310d322" title="MWPhysics::Actor::getHalf\lExtents" alt="" coords="1143,93,1329,134"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1World.html#a9ce05309d0132991f266ad1aa369fb0c" title="MWWorld::World::moveObjectImp" alt="" coords="563,528,792,555"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1World.html#a465203a7a0a534083b490b9ea4a887de" title="Convert position to cell numbers. " alt="" coords="876,499,1055,541"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1World.html#a8be1a71f676493883c7f9e7ac4e518d1" title="MWWorld::World::getExterior" alt="" coords="866,565,1065,592"/>
+<area shape="rect" id="node38" href="$classMWWorld_1_1Cells.html#a1257e2d75862eb2f07de15e6169a17cd" title="MWWorld::Cells::getExterior" alt="" coords="1139,565,1333,592"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1401,507,1596,533"/>
+<area shape="rect" id="node40" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1416,558,1581,599"/>
+<area shape="rect" id="node41" href="$classMWWorld_1_1World.html#a9d4504ed1121d38d32d52ba7b1b5e944" title="MWWorld::World::createRecord" alt="" coords="1393,624,1605,651"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1ESMStore.html#ab1cd84a1e53673631587072d76dc68cb" title="Insert a custom record (i.e. with a generated ID that will not clash will pre&#45;existing records) ..." alt="" coords="1653,617,1811,658"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1Store.html#aa531b5a392c7f3de29b33a13da105cd7" title="MWWorld::Store::search" alt="" coords="1859,649,2031,676"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1Store.html#a9f3584f7fe749f808cd1bcd18a409b17" title="MWWorld::Store::insert" alt="" coords="1863,599,2028,625"/>
+<area shape="rect" id="node44" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="2081,591,2213,633"/>
+<area shape="rect" id="node47" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="2262,654,2394,695"/>
+<area shape="rect" id="node45" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="2262,589,2394,630"/>
+<area shape="rect" id="node46" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="2443,622,2575,663"/>
 </map>

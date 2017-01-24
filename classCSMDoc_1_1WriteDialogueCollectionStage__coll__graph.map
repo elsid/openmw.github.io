@@ -1,28 +1,28 @@
 <map id="CSMDoc::WriteDialogueCollectionStage" name="CSMDoc::WriteDialogueCollectionStage">
-<area shape="rect" id="node2" href="$classCSMDoc_1_1Stage.html" title="{CSMDoc::Stage\n||+ ~Stage()\l+ setup()\l+ perform()\l}" alt="" coords="477,2207,592,2313"/>
-<area shape="rect" id="node3" href="$classCSMWorld_1_1IdCollection.html" title="{CSMWorld::IdCollection\l\&lt; ESM::Dialogue \&gt;\n||+ load()\l+ load()\l+ tryDelete()\l&#45; loadRecord()\l}" alt="" coords="645,1536,803,1672"/>
-<area shape="rect" id="node4" href="$classCSMWorld_1_1Collection.html" title="Single&#45;type record collection. " alt="" coords="630,819,817,1146"/>
-<area shape="rect" id="node5" href="$classCSMWorld_1_1CollectionBase.html" title="Base class for record collections. " alt="" coords="388,424,564,677"/>
-<area shape="rect" id="node46" href="$classCSMWorld_1_1Collection.html" title="{CSMWorld::Collection\l\&lt; Info, IdAccessor\&lt; Info \&gt; \&gt;\n||+ Collection()\l+ ~Collection()\l+ add()\l+ getSize()\l+ getId()\l+ getIndex()\l+ getColumns()\l+ getData()\l+ setData()\l+ getColumn()\land 17 more...\l# getIdMap()\l# getRecords()\l# reorderRowsImp()\l&#45; Collection()\l&#45; operator=()\l}" alt="" coords="385,827,567,1139"/>
-<area shape="rect" id="node9" href="$classint.html" title="{int\n||}" alt="" coords="1778,216,1816,293"/>
-<area shape="rect" id="node22" href="$classESM_1_1ESMWriter.html" title="{ESM::ESMWriter\n||+ ESMWriter()\l+ getVersion()\l+ setVersion()\l+ setType()\l+ setEncoder()\l+ setAuthor()\l+ setDescription()\l+ setRecordCount()\l+ getRecordCount()\l+ setFormat()\land 23 more...\l&#45; writeHNT()\l&#45; writeT()\l}" alt="" coords="1734,1696,1868,1949"/>
-<area shape="rect" id="node23" href="$structESM_1_1Header.html" title="File header record. " alt="" coords="2319,1405,2416,1512"/>
-<area shape="rect" id="node25" href="$structESM_1_1Header_1_1MasterData.html" title="{ESM::Header::MasterData\n||}" alt="" coords="1835,512,2004,589"/>
-<area shape="rect" id="node31" href="$structESM_1_1Header_1_1Data.html" title="{ESM::Header::Data\n||}" alt="" coords="2369,944,2499,1021"/>
-<area shape="rect" id="node39" href="$classCSMDoc_1_1Operation.html" title="{CSMDoc::Operation\n||+ Operation()\l+ ~Operation()\l+ appendStage()\l+ setDefaultSeverity()\l+ hasError()\l+ abort()\l+ run()\l# operationDone()\l&#45; prepareStages()\l&#45; executeStage()\l}" alt="" coords="1106,1718,1251,1927"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="1190,216,1265,293"/>
-<area shape="rect" id="node35" href="$structESM_1_1ESMWriter_1_1RecordData.html" title="{ESM::ESMWriter::RecordData\n||}" alt="" coords="1411,944,1603,1021"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="1167,6,1288,98"/>
-<area shape="rect" id="node14" href="$classCSMDoc_1_1SavingState.html" title="{CSMDoc::SavingState\n||+ SavingState()\l+ hasError()\l+ start()\l+ getPath()\l+ getTmpPath()\l+ getStream()\l+ getWriter()\l+ isProjectFile()\l+ getSubRecords()\l}" alt="" coords="987,2163,1137,2357"/>
-<area shape="rect" id="node16" href="$classToUTF8_1_1Utf8Encoder.html" title="{ToUTF8::Utf8Encoder\n||+ Utf8Encoder()\l+ getUtf8()\l+ getUtf8()\l+ getLegacyEnc()\l+ getLegacyEnc()\l&#45; resize()\l&#45; getLength()\l&#45; copyFromArray()\l&#45; getLength2()\l&#45; copyFromArray2()\l}" alt="" coords="2023,1171,2169,1381"/>
-<area shape="rect" id="node27" href="$structESM_1_1FIXED__STRING.html" title="{ESM::FIXED_STRING\&lt; 64 \&gt;\n||+ ro_data()\l+ rw_data()\l}" alt="" coords="2915,505,3101,597"/>
-<area shape="rect" id="node29" href="$structESM_1_1FIXED__STRING.html" title="{ESM::FIXED_STRING\&lt; 32 \&gt;\n||+ ro_data()\l+ rw_data()\l}" alt="" coords="2464,505,2651,597"/>
-<area shape="rect" id="node26" href="$structESM_1_1Header_1_1GMDT.html" title="{ESM::Header::GMDT\n||}" alt="" coords="2652,944,2792,1021"/>
-<area shape="rect" id="node36" href="$classbool.html" title="{bool\n||}" alt="" coords="1175,1420,1221,1497"/>
-<area shape="rect" id="node37" title="STL class. " alt="" coords="1715,1420,1805,1497"/>
-<area shape="rect" id="node38" title="STL class. " alt="" coords="1627,937,1755,1029"/>
-<area shape="rect" id="node40" href="$classQObject.html" title="{QObject\n||}" alt="" coords="1246,1420,1316,1497"/>
-<area shape="rect" id="node45" href="$classCSMWorld_1_1InfoCollection.html" title="{CSMWorld::InfoCollection\n||+ getAppendIndex()\l+ reorderRows()\l+ load()\l+ getTopicRange()\l+ removeDialogueInfos()\l&#45; load()\l&#45; getInfoIndex()\l}" alt="" coords="490,1973,659,2139"/>
-<area shape="rect" id="node48" href="$structCSMWorld_1_1Record.html" title="{CSMWorld::Record\&lt; Info \&gt;\n||+ Record()\l+ Record()\l+ clone()\l+ modifiedCopy()\l+ assign()\l+ get()\l+ get()\l+ getBase()\l+ setModified()\l+ merge()\l}" alt="" coords="5,150,179,359"/>
-<area shape="rect" id="node50" href="$structCSMWorld_1_1Column.html" title="{CSMWorld::Column\&lt; Info \&gt;\n||+ Column()\l+ get()\l+ set()\l}" alt="" coords="204,201,383,308"/>
+<area shape="rect" id="node2" href="$classCSMDoc_1_1Stage.html" title="{CSMDoc::Stage\n||+ ~Stage()\l+ setup()\l+ perform()\l}" alt="" coords="507,2207,629,2313"/>
+<area shape="rect" id="node3" href="$classCSMWorld_1_1IdCollection.html" title="{CSMWorld::IdCollection\l\&lt; ESM::Dialogue \&gt;\n||+ load()\l+ load()\l+ tryDelete()\l&#45; loadRecord()\l}" alt="" coords="685,1536,851,1672"/>
+<area shape="rect" id="node4" href="$classCSMWorld_1_1Collection.html" title="Single&#45;type record collection. " alt="" coords="665,819,871,1146"/>
+<area shape="rect" id="node5" href="$classCSMWorld_1_1CollectionBase.html" title="Base class for record collections. " alt="" coords="417,424,604,677"/>
+<area shape="rect" id="node46" href="$classCSMWorld_1_1Collection.html" title="{CSMWorld::Collection\l\&lt; Info, IdAccessor\&lt; Info \&gt; \&gt;\n||+ Collection()\l+ ~Collection()\l+ add()\l+ getSize()\l+ getId()\l+ getIndex()\l+ getColumns()\l+ getData()\l+ setData()\l+ getColumn()\land 17 more...\l# getIdMap()\l# getRecords()\l# reorderRowsImp()\l&#45; Collection()\l&#45; operator=()\l}" alt="" coords="408,827,613,1139"/>
+<area shape="rect" id="node9" href="$classint.html" title="{int\n||}" alt="" coords="1905,216,1943,293"/>
+<area shape="rect" id="node22" href="$classESM_1_1ESMWriter.html" title="{ESM::ESMWriter\n||+ ESMWriter()\l+ getVersion()\l+ setVersion()\l+ setType()\l+ setEncoder()\l+ setAuthor()\l+ setDescription()\l+ setRecordCount()\l+ getRecordCount()\l+ setFormat()\land 23 more...\l&#45; writeHNT()\l&#45; writeT()\l}" alt="" coords="1853,1696,2001,1949"/>
+<area shape="rect" id="node23" href="$structESM_1_1Header.html" title="File header record. " alt="" coords="2478,1405,2583,1512"/>
+<area shape="rect" id="node25" href="$structESM_1_1Header_1_1MasterData.html" title="{ESM::Header::MasterData\n||}" alt="" coords="1962,512,2149,589"/>
+<area shape="rect" id="node31" href="$structESM_1_1Header_1_1Data.html" title="{ESM::Header::Data\n||}" alt="" coords="2529,944,2673,1021"/>
+<area shape="rect" id="node39" href="$classCSMDoc_1_1Operation.html" title="{CSMDoc::Operation\n||+ Operation()\l+ ~Operation()\l+ appendStage()\l+ setDefaultSeverity()\l+ hasError()\l+ abort()\l+ run()\l# operationDone()\l&#45; prepareStages()\l&#45; executeStage()\l}" alt="" coords="1183,1718,1347,1927"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="1299,216,1385,293"/>
+<area shape="rect" id="node35" href="$structESM_1_1ESMWriter_1_1RecordData.html" title="{ESM::ESMWriter::RecordData\n||}" alt="" coords="1501,944,1704,1021"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="1274,6,1411,98"/>
+<area shape="rect" id="node14" href="$classCSMDoc_1_1SavingState.html" title="{CSMDoc::SavingState\n||+ SavingState()\l+ hasError()\l+ start()\l+ getPath()\l+ getTmpPath()\l+ getStream()\l+ getWriter()\l+ isProjectFile()\l+ getSubRecords()\l}" alt="" coords="1065,2163,1228,2357"/>
+<area shape="rect" id="node16" href="$classToUTF8_1_1Utf8Encoder.html" title="{ToUTF8::Utf8Encoder\n||+ Utf8Encoder()\l+ getUtf8()\l+ getUtf8()\l+ getLegacyEnc()\l+ getLegacyEnc()\l&#45; resize()\l&#45; getLength()\l&#45; copyFromArray()\l&#45; getLength2()\l&#45; copyFromArray2()\l}" alt="" coords="2160,1171,2313,1381"/>
+<area shape="rect" id="node27" href="$structESM_1_1FIXED__STRING.html" title="{ESM::FIXED_STRING\&lt; 64 \&gt;\n||+ ro_data()\l+ rw_data()\l}" alt="" coords="3157,505,3352,597"/>
+<area shape="rect" id="node29" href="$structESM_1_1FIXED__STRING.html" title="{ESM::FIXED_STRING\&lt; 32 \&gt;\n||+ ro_data()\l+ rw_data()\l}" alt="" coords="2660,505,2855,597"/>
+<area shape="rect" id="node26" href="$structESM_1_1Header_1_1GMDT.html" title="{ESM::Header::GMDT\n||}" alt="" coords="2870,944,3020,1021"/>
+<area shape="rect" id="node36" href="$classbool.html" title="{bool\n||}" alt="" coords="1262,1420,1311,1497"/>
+<area shape="rect" id="node37" title="STL class. " alt="" coords="1832,1420,1936,1497"/>
+<area shape="rect" id="node38" title="STL class. " alt="" coords="1729,937,1873,1029"/>
+<area shape="rect" id="node40" href="$classQObject.html" title="{QObject\n||}" alt="" coords="1335,1420,1408,1497"/>
+<area shape="rect" id="node45" href="$classCSMWorld_1_1InfoCollection.html" title="{CSMWorld::InfoCollection\n||+ getAppendIndex()\l+ reorderRows()\l+ load()\l+ getTopicRange()\l+ removeDialogueInfos()\l&#45; load()\l&#45; getInfoIndex()\l}" alt="" coords="521,1973,703,2139"/>
+<area shape="rect" id="node48" href="$structCSMWorld_1_1Record.html" title="{CSMWorld::Record\&lt; Info \&gt;\n||+ Record()\l+ Record()\l+ clone()\l+ modifiedCopy()\l+ assign()\l+ get()\l+ get()\l+ getBase()\l+ setModified()\l+ merge()\l}" alt="" coords="5,150,195,359"/>
+<area shape="rect" id="node50" href="$structCSMWorld_1_1Column.html" title="{CSMWorld::Column\&lt; Info \&gt;\n||+ Column()\l+ get()\l+ set()\l}" alt="" coords="219,201,413,308"/>
 </map>

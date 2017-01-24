@@ -1,42 +1,42 @@
 <map id="MWGui::SpellBuyingWindow::startSpellBuying" name="MWGui::SpellBuyingWindow::startSpellBuying">
-<area shape="rect" id="node2" href="$classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c" title="MWGui::WindowBase::\lcenter" alt="" coords="254,5,405,46"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1SpellBuyingWindow.html#adecd8e8f8e282e23e7231d16da6e7815" title="MWGui::SpellBuyingWindow\l::clearSpells" alt="" coords="237,70,421,111"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="735,900,891,927"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="719,653,907,694"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="717,718,909,759"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1Spells.html#a93e0c5682a5985989dca90223f61f96d" title="MWMechanics::Spells\l::begin" alt="" coords="255,1737,403,1778"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1Spells.html#a662ef515230abd74e3cb28a0c5d27f62" title="MWMechanics::Spells::end" alt="" coords="242,1803,417,1829"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1Class.html#a93babe591b0f7b9bb79adbdeccff099a" title="MWWorld::Class::isNpc" alt="" coords="253,1853,406,1880"/>
-<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1203,740,1378,767"/>
-<area shape="rect" id="node11" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1215,1057,1366,1098"/>
-<area shape="rect" id="node12" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1207,187,1375,213"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1207,1285,1374,1312"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="267,1904,392,1931"/>
-<area shape="rect" id="node17" href="$structESM_1_1SpellList.html#a51364d2372b1a86d9abda6af94169245" title="Is this spell ID in mList? " alt="" coords="258,1635,401,1661"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1SpellBuyingWindow.html#a6a5f5d431ce08e8a1af70403a215c247" title="MWGui::SpellBuyingWindow\l::playerHasSpell" alt="" coords="475,666,659,707"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1SpellBuyingWindow.html#a5d6d01f89e9feb74a6f78032d38836a5" title="MWGui::SpellBuyingWindow\l::addSpell" alt="" coords="237,1002,421,1043"/>
-<area shape="rect" id="node41" href="$classMWGui_1_1SpellBuyingWindow.html#a480fd1ec3db7e77e12b82056079a953c" title="MWGui::SpellBuyingWindow\l::updateLabels" alt="" coords="237,1369,421,1410"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="473,1904,660,1931"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="713,1904,914,1931"/>
-<area shape="rect" id="node18" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="753,1619,873,1661"/>
-<area shape="rect" id="node19" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="999,1619,1119,1661"/>
-<area shape="rect" id="node21" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="730,849,897,876"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1Spells.html#a417c816975137eef7fda2bf853cb7760" title="MWMechanics::Spells\l::hasSpell" alt="" coords="739,783,887,825"/>
-<area shape="rect" id="node22" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="963,799,1154,825"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1Spells.html#a24959d02a1baaff2b2e44d8278872c15" title="Get spell from ID, throws exception if not found. " alt="" coords="985,733,1133,774"/>
-<area shape="rect" id="node26" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="474,1133,659,1160"/>
-<area shape="rect" id="node28" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="487,1002,646,1043"/>
-<area shape="rect" id="node29" href="$classMWBase_1_1MechanicsManager.html#a9c08bc46cec81a7f65f47ef060680eb4" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="471,1067,663,1109"/>
-<area shape="rect" id="node30" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="469,1337,664,1378"/>
-<area shape="rect" id="node31" href="$classMWWorld_1_1ContainerStore.html#aff176edbad26cdd416517a42a87a39ea" title="MWWorld::ContainerStore\l::count" alt="" coords="481,1467,652,1509"/>
-<area shape="rect" id="node32" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="485,1402,648,1443"/>
-<area shape="rect" id="node34" href="$classMWGui_1_1SpellBuyingWindow.html#ae9c50b612ca4ba53b4361b3c371c6fae" title="MWGui::SpellBuyingWindow\l::onMouseWheel" alt="" coords="475,834,659,875"/>
-<area shape="rect" id="node35" href="$classMWGui_1_1SpellBuyingWindow.html#aa008c4ffe8315436f2587de21cfda03a" title="MWGui::SpellBuyingWindow\l::onSpellButtonClick" alt="" coords="475,498,659,539"/>
-<area shape="rect" id="node27" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="739,1133,888,1160"/>
-<area shape="rect" id="node33" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="790,1409,837,1436"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1Spells.html#acb995a57e484a88c9360893e3aa3113b" title="Adding a spell that is already listed in *this is a no&#45;op. " alt="" coords="726,601,901,628"/>
-<area shape="rect" id="node37" href="$classMWMechanics_1_1CreatureStats.html#a6f7725f89c49f9cf4ee656f291931794" title="MWMechanics::CreatureStats\l::setGoldPool" alt="" coords="717,485,909,526"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1CreatureStats.html#a86a79f6bee0ab6ffc653bf89eaebc9d7" title="MWMechanics::CreatureStats\l::getGoldPool" alt="" coords="717,289,909,330"/>
-<area shape="rect" id="node39" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="738,354,889,395"/>
-<area shape="rect" id="node40" href="$classMWBase_1_1SoundManager.html#a86faa2600e30cc6fd9b127e12d1c12bc" title="MWBase::SoundManager\l::playSound" alt="" coords="730,419,897,461"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c" title="MWGui::WindowBase::\lcenter" alt="" coords="265,5,425,46"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1SpellBuyingWindow.html#adecd8e8f8e282e23e7231d16da6e7815" title="MWGui::SpellBuyingWindow\l::clearSpells" alt="" coords="248,70,443,111"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="774,900,941,927"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="755,653,960,694"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="753,718,962,759"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1Spells.html#a93e0c5682a5985989dca90223f61f96d" title="MWMechanics::Spells\l::begin" alt="" coords="267,1737,424,1778"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1Spells.html#a662ef515230abd74e3cb28a0c5d27f62" title="MWMechanics::Spells::end" alt="" coords="251,1803,440,1829"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1Class.html#a93babe591b0f7b9bb79adbdeccff099a" title="MWWorld::Class::isNpc" alt="" coords="264,1853,427,1880"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1267,740,1461,767"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1281,1057,1447,1098"/>
+<area shape="rect" id="node12" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1273,187,1455,213"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1275,1285,1453,1312"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="279,1904,412,1931"/>
+<area shape="rect" id="node17" href="$structESM_1_1SpellList.html#a51364d2372b1a86d9abda6af94169245" title="Is this spell ID in mList? " alt="" coords="267,1635,423,1661"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1SpellBuyingWindow.html#a6a5f5d431ce08e8a1af70403a215c247" title="MWGui::SpellBuyingWindow\l::playerHasSpell" alt="" coords="499,666,693,707"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1SpellBuyingWindow.html#a5d6d01f89e9feb74a6f78032d38836a5" title="MWGui::SpellBuyingWindow\l::addSpell" alt="" coords="248,1002,443,1043"/>
+<area shape="rect" id="node41" href="$classMWGui_1_1SpellBuyingWindow.html#a480fd1ec3db7e77e12b82056079a953c" title="MWGui::SpellBuyingWindow\l::updateLabels" alt="" coords="248,1369,443,1410"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="496,1904,696,1931"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="749,1904,965,1931"/>
+<area shape="rect" id="node18" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="791,1619,923,1661"/>
+<area shape="rect" id="node19" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1050,1619,1182,1661"/>
+<area shape="rect" id="node21" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="768,849,947,876"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1Spells.html#a417c816975137eef7fda2bf853cb7760" title="MWMechanics::Spells\l::hasSpell" alt="" coords="779,783,936,825"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1014,799,1218,825"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1Spells.html#a24959d02a1baaff2b2e44d8278872c15" title="Get spell from ID, throws exception if not found. " alt="" coords="1037,733,1195,774"/>
+<area shape="rect" id="node26" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="495,1133,697,1160"/>
+<area shape="rect" id="node28" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="509,1002,683,1043"/>
+<area shape="rect" id="node29" href="$classMWBase_1_1MechanicsManager.html#a9c08bc46cec81a7f65f47ef060680eb4" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="493,1067,699,1109"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="491,1337,701,1378"/>
+<area shape="rect" id="node31" href="$classMWWorld_1_1ContainerStore.html#aff176edbad26cdd416517a42a87a39ea" title="MWWorld::ContainerStore\l::count" alt="" coords="505,1467,687,1509"/>
+<area shape="rect" id="node32" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="501,1402,691,1443"/>
+<area shape="rect" id="node34" href="$classMWGui_1_1SpellBuyingWindow.html#ae9c50b612ca4ba53b4361b3c371c6fae" title="MWGui::SpellBuyingWindow\l::onMouseWheel" alt="" coords="499,834,693,875"/>
+<area shape="rect" id="node35" href="$classMWGui_1_1SpellBuyingWindow.html#aa008c4ffe8315436f2587de21cfda03a" title="MWGui::SpellBuyingWindow\l::onSpellButtonClick" alt="" coords="499,498,693,539"/>
+<area shape="rect" id="node27" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="776,1133,939,1160"/>
+<area shape="rect" id="node33" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="832,1409,883,1436"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1Spells.html#acb995a57e484a88c9360893e3aa3113b" title="Adding a spell that is already listed in *this is a no&#45;op. " alt="" coords="763,601,952,628"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1CreatureStats.html#a6f7725f89c49f9cf4ee656f291931794" title="MWMechanics::CreatureStats\l::setGoldPool" alt="" coords="753,485,962,526"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CreatureStats.html#a86a79f6bee0ab6ffc653bf89eaebc9d7" title="MWMechanics::CreatureStats\l::getGoldPool" alt="" coords="753,289,962,330"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="775,354,940,395"/>
+<area shape="rect" id="node40" href="$classMWBase_1_1SoundManager.html#a86faa2600e30cc6fd9b127e12d1c12bc" title="MWBase::SoundManager\l::playSound" alt="" coords="767,419,948,461"/>
 </map>

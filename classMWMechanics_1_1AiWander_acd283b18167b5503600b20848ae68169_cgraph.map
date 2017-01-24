@@ -1,35 +1,35 @@
 <map id="MWMechanics::AiWander::fastForward" name="MWMechanics::AiWander::fastForward">
-<area shape="rect" id="node2" href="$classMWMechanics_1_1DerivedClassStorage.html#a56ae630f8501a8ba3e12a66112c04199" title="returns reference to stored object or deletes it and creates a fitting " alt="" coords="232,227,419,269"/>
-<area shape="rect" id="node3" href="$classMWMechanics_1_1AiWander.html#ad4a280ba4c0a430cdf5d97a1b7edf640" title="MWMechanics::AiWander\l::getAllowedNodes" alt="" coords="241,395,410,437"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="503,5,678,32"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="515,57,666,98"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="517,656,664,683"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="513,707,669,733"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="257,563,394,605"/>
-<area shape="rect" id="node27" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="262,629,389,656"/>
-<area shape="rect" id="node28" href="$classMWMechanics_1_1DerivedClassStorage.html#a116a8f3f9bb7540a206aba3986239543" title="takes ownership of the passed object " alt="" coords="232,681,419,722"/>
-<area shape="rect" id="node29" href="$classMWMechanics_1_1AiWander.html#aa2c401c8ae2149859b8029228916b4fc" title="MWMechanics::AiWander\l::OffsetToPreventOvercrowding" alt="" coords="226,746,425,787"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1AiWander.html#a4645f47848fae60ac175f6e2f8453d81" title="convert point from local (i.e. cell) to world coordinates " alt="" coords="241,811,410,853"/>
-<area shape="rect" id="node33" href="$classMWBase_1_1World.html#a17a8cac052e2a08910954c263037bd40" title="MWBase::World::moveObject" alt="" coords="231,877,419,904"/>
-<area shape="rect" id="node34" href="$classMWWorld_1_1Class.html#a826164e3a2c316a8729fd1ba702adfc7" title="MWWorld::Class::adjustPosition" alt="" coords="225,928,426,955"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="507,123,675,149"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="507,173,674,200"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1Class.html#aca8839653301c8ee1afb747fcd709d8d" title="MWWorld::Class::isPureWater\lCreature" alt="" coords="495,225,686,266"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1CoordinateConverter.html#a9e7098b6461d3e94916907ac16ba8645" title="in&#45;place conversion from world to local " alt="" coords="475,290,706,331"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1PathFinder.html#a0bbefecc679b5643c7815c71887d35c4" title="MWMechanics::PathFinder\l::GetClosestPoint" alt="" coords="503,407,679,449"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1PathFinder.html#a6935863f8ff0315fd494c1537cf4e530" title="MWMechanics::PathFinder\l::MakeOsgVec3" alt="" coords="1056,473,1232,514"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1CellStore.html#aee9ec496615920a7bc3cd2a506ca4d3e" title="MWWorld::CellStore\l::isPointConnected" alt="" coords="522,473,659,514"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1AiWander.html#ae49b475b4b09a626ea10113cd1881dd6" title="MWMechanics::AiWander\l::AddNonPathGridAllowedPoints" alt="" coords="487,590,694,631"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1AiWander.html#a04de2f1ee7451dcd7c8fe23d98164ebe" title="MWMechanics::AiWander\l::SetCurrentNodeToClosestAllowedNode" alt="" coords="755,538,1007,579"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1Class.html#a5d311eddd6380dc13b0b884ce554eda3" title="MWWorld::Class::canSwim" alt="" coords="794,143,969,169"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="795,193,968,220"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a145982626f0a3fc6a1d9d54ef1bd46ce" title="MWWorld::Class::canFly" alt="" coords="802,244,961,271"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#ae56beff3d776b2672903eb7c6118c94b" title="MWWorld::Class::canWalk" alt="" coords="796,295,967,321"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1PathFinder.html#ac2afb31f2440ef6b292867a8dff73f7b" title="MWMechanics::PathFinder\l::DistanceSquared" alt="" coords="793,407,969,449"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1PathgridGraph.html#a1b2cccdadc62894dbf0f82b8f0adb007" title="MWMechanics::PathgridGraph\l::isPointConnected" alt="" coords="783,473,979,514"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1PathFinder.html#af4b18be8e6c7038c820d0f65e6bdec7b" title="utility function to convert a osg::Vec3f to a Pathgrid::Point " alt="" coords="1056,662,1232,703"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1AiWander.html#a9e8367dea401a6d119b13a3663864f48" title="MWMechanics::AiWander\l::AddPointBetweenPathGridPoints" alt="" coords="772,603,991,645"/>
-<area shape="rect" id="node24" href="$namespaceMWMechanics.html#afaefe26eb27357f7b27a34b4f0286450" title="MWMechanics::distance" alt="" coords="1063,611,1225,637"/>
-<area shape="rect" id="node30" href="$classMisc_1_1Rng.html#acfb4783fdcff26c8210356209520dd17" title="return value in range [0.0f, 1.0f) &lt;&#45; note open upper range. " alt="" coords="510,757,671,784"/>
-<area shape="rect" id="node32" href="$classMWMechanics_1_1CoordinateConverter.html#af6581b1a748aaa577be66e085b21e420" title="in&#45;place conversion from local to world " alt="" coords="475,811,706,853"/>
+<area shape="rect" id="node2" href="$classMWMechanics_1_1DerivedClassStorage.html#a56ae630f8501a8ba3e12a66112c04199" title="returns reference to stored object or deletes it and creates a fitting " alt="" coords="240,227,443,269"/>
+<area shape="rect" id="node3" href="$classMWMechanics_1_1AiWander.html#ad4a280ba4c0a430cdf5d97a1b7edf640" title="MWMechanics::AiWander\l::getAllowedNodes" alt="" coords="252,395,431,437"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="528,5,723,32"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="543,57,708,98"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="547,656,703,683"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="542,707,709,733"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="269,563,413,605"/>
+<area shape="rect" id="node27" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="273,629,410,656"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1DerivedClassStorage.html#a116a8f3f9bb7540a206aba3986239543" title="takes ownership of the passed object " alt="" coords="240,681,443,722"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1AiWander.html#aa2c401c8ae2149859b8029228916b4fc" title="MWMechanics::AiWander\l::OffsetToPreventOvercrowding" alt="" coords="233,746,449,787"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1AiWander.html#a4645f47848fae60ac175f6e2f8453d81" title="convert point from local (i.e. cell) to world coordinates " alt="" coords="252,811,431,853"/>
+<area shape="rect" id="node33" href="$classMWBase_1_1World.html#a17a8cac052e2a08910954c263037bd40" title="MWBase::World::moveObject" alt="" coords="240,877,443,904"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1Class.html#a826164e3a2c316a8729fd1ba702adfc7" title="MWWorld::Class::adjustPosition" alt="" coords="233,928,450,955"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="534,123,717,149"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="536,173,715,200"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1Class.html#aca8839653301c8ee1afb747fcd709d8d" title="MWWorld::Class::isPureWater\lCreature" alt="" coords="524,225,727,266"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CoordinateConverter.html#a9e7098b6461d3e94916907ac16ba8645" title="in&#45;place conversion from world to local " alt="" coords="499,290,751,331"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1PathFinder.html#a0bbefecc679b5643c7815c71887d35c4" title="MWMechanics::PathFinder\l::GetClosestPoint" alt="" coords="533,407,718,449"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1PathFinder.html#a6935863f8ff0315fd494c1537cf4e530" title="MWMechanics::PathFinder\l::MakeOsgVec3" alt="" coords="1126,473,1311,514"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1CellStore.html#aee9ec496615920a7bc3cd2a506ca4d3e" title="MWWorld::CellStore\l::isPointConnected" alt="" coords="553,473,697,514"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1AiWander.html#ae49b475b4b09a626ea10113cd1881dd6" title="MWMechanics::AiWander\l::AddNonPathGridAllowedPoints" alt="" coords="514,590,737,631"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1AiWander.html#a04de2f1ee7451dcd7c8fe23d98164ebe" title="MWMechanics::AiWander\l::SetCurrentNodeToClosestAllowedNode" alt="" coords="801,538,1077,579"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Class.html#a5d311eddd6380dc13b0b884ce554eda3" title="MWWorld::Class::canSwim" alt="" coords="846,143,1031,169"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="846,193,1031,220"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a145982626f0a3fc6a1d9d54ef1bd46ce" title="MWWorld::Class::canFly" alt="" coords="855,244,1023,271"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#ae56beff3d776b2672903eb7c6118c94b" title="MWWorld::Class::canWalk" alt="" coords="849,295,1028,321"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1PathFinder.html#ac2afb31f2440ef6b292867a8dff73f7b" title="MWMechanics::PathFinder\l::DistanceSquared" alt="" coords="846,407,1031,449"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1PathgridGraph.html#a1b2cccdadc62894dbf0f82b8f0adb007" title="MWMechanics::PathgridGraph\l::isPointConnected" alt="" coords="833,473,1044,514"/>
+<area shape="rect" id="node22" href="$classMWMechanics_1_1PathFinder.html#af4b18be8e6c7038c820d0f65e6bdec7b" title="utility function to convert a osg::Vec3f to a Pathgrid::Point " alt="" coords="1126,662,1311,703"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1AiWander.html#a9e8367dea401a6d119b13a3663864f48" title="MWMechanics::AiWander\l::AddPointBetweenPathGridPoints" alt="" coords="821,603,1056,645"/>
+<area shape="rect" id="node24" href="$namespaceMWMechanics.html#afaefe26eb27357f7b27a34b4f0286450" title="MWMechanics::distance" alt="" coords="1132,611,1305,637"/>
+<area shape="rect" id="node30" href="$classMisc_1_1Rng.html#acfb4783fdcff26c8210356209520dd17" title="return value in range [0.0f, 1.0f) &lt;&#45; note open upper range. " alt="" coords="538,757,713,784"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1CoordinateConverter.html#af6581b1a748aaa577be66e085b21e420" title="in&#45;place conversion from local to world " alt="" coords="499,811,751,853"/>
 </map>

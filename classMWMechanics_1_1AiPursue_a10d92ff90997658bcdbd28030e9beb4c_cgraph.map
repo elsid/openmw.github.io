@@ -1,30 +1,30 @@
 <map id="MWMechanics::AiPursue::execute" name="MWMechanics::AiPursue::execute">
-<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="975,221,1131,248"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="461,78,649,119"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="219,128,411,170"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="966,282,1141,309"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="239,259,390,300"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1World.html#afdea8dbf46f2775a00b0b02c0af0fc50" title="Search is limited to the active cells. " alt="" coords="227,324,402,366"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="967,580,1139,606"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="220,441,409,468"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1RefData.html#a694e176a54eebdb7547d26fcfa08896a" title="MWWorld::RefData::isEnabled" alt="" coords="219,492,411,518"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1AiPackage.html#aecdba6c42729451bf0a9ab5eee665cd3" title="MWMechanics::AiPackage\l::isTargetMagicallyHidden" alt="" coords="227,194,403,235"/>
-<area shape="rect" id="node13" href="$classMWMechanics_1_1CreatureStats.html#ab2f992edad82f67c362c2c1f0291807e" title="MWMechanics::CreatureStats\l::setDrawState" alt="" coords="219,608,411,650"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="953,849,1154,876"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1AiPackage.html#ac6b7be6f9b3738834f5bb81d55871ec0" title="Handles path building and shortcutting with obstacles avoiding. " alt="" coords="227,543,403,584"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1Class.html#a83b938e2a49f3d97a5f1d000b9ea88ac" title="Generate action for activation (default implementation: return a null action). " alt="" coords="231,950,398,977"/>
-<area shape="rect" id="node29" href="$classMWMechanics_1_1CreatureStats.html#a8e7e234fe88a5e669925dbc3d8d39505" title="MWMechanics::CreatureStats\l::setMovementFlag" alt="" coords="219,1002,411,1043"/>
-<area shape="rect" id="node12" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="459,195,651,236"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1Class.html#a2fe5e15560aa224f5e5ef4e92bda540b" title="Return desired movement. " alt="" coords="954,355,1153,396"/>
-<area shape="rect" id="node17" href="$namespaceMWMechanics.html#afaefe26eb27357f7b27a34b4f0286450" title="MWMechanics::distance" alt="" coords="474,464,635,490"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="481,514,628,541"/>
-<area shape="rect" id="node19" href="$namespaceMWMechanics.html#a1aedf83ed1acfac9f46b7690cf4458fa" title="MWMechanics::zTurn" alt="" coords="482,413,627,440"/>
-<area shape="rect" id="node20" href="$namespaceMWMechanics.html#a7595ded259b3f0aa09269d65d68448bb" title="MWMechanics::smoothTurn" alt="" coords="711,428,892,454"/>
-<area shape="rect" id="node23" href="$namespaceMWMechanics.html#ae3f4480044024ba5a924536c76e0afe7" title="MWMechanics::getZAngleTo\lPoint" alt="" coords="461,667,648,708"/>
-<area shape="rect" id="node26" href="$namespaceMWMechanics.html#a7c4a6d1a3a80a89291c7bd7e5cf8026d" title="MWMechanics::getXAngleTo\lPoint" alt="" coords="461,732,649,774"/>
-<area shape="rect" id="node21" href="$namespaceMWMechanics.html#a31ee88b36f3afdc3970b04ad84a343cf" title="MWMechanics::MAX_VEL\l_ANGULAR_RADIANS" alt="" coords="967,486,1139,527"/>
-<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#ab33533f19f73c1d99d08f8d2b66687de" title="MWBase::Environment\l::getFrameDuration" alt="" coords="978,420,1129,462"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1PathFinder.html#a6935863f8ff0315fd494c1537cf4e530" title="MWMechanics::PathFinder\l::MakeOsgVec3" alt="" coords="713,682,889,723"/>
-<area shape="rect" id="node25" href="$namespaceMWMechanics.html#a01a52a94be3e938ba62c681774a39848" title="MWMechanics::getZAngleToDir" alt="" coords="700,630,903,657"/>
-<area shape="rect" id="node27" href="$namespaceMWMechanics.html#ac93106335b8954bb8082d3462d62abd2" title="MWMechanics::getXAngleToDir" alt="" coords="699,748,903,774"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1039,227,1206,254"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="491,84,696,125"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="230,134,439,176"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1025,288,1220,315"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="252,265,417,306"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1World.html#afdea8dbf46f2775a00b0b02c0af0fc50" title="Search is limited to the active cells. " alt="" coords="241,330,428,372"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="1031,586,1214,612"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="233,447,436,474"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1RefData.html#a694e176a54eebdb7547d26fcfa08896a" title="MWWorld::RefData::isEnabled" alt="" coords="232,498,437,524"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1AiPackage.html#aecdba6c42729451bf0a9ab5eee665cd3" title="MWMechanics::AiPackage\l::isTargetMagicallyHidden" alt="" coords="243,200,427,241"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1CreatureStats.html#ab2f992edad82f67c362c2c1f0291807e" title="MWMechanics::CreatureStats\l::setDrawState" alt="" coords="230,614,439,656"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="1015,855,1230,882"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1AiPackage.html#ac6b7be6f9b3738834f5bb81d55871ec0" title="Handles path building and shortcutting with obstacles avoiding. " alt="" coords="243,549,427,590"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1Class.html#a83b938e2a49f3d97a5f1d000b9ea88ac" title="Generate action for activation (default implementation: return a null action). " alt="" coords="245,956,424,983"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1CreatureStats.html#a8e7e234fe88a5e669925dbc3d8d39505" title="MWMechanics::CreatureStats\l::setMovementFlag" alt="" coords="230,1008,439,1049"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="489,201,698,242"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1Class.html#a2fe5e15560aa224f5e5ef4e92bda540b" title="Return desired movement. " alt="" coords="1014,361,1231,402"/>
+<area shape="rect" id="node17" href="$namespaceMWMechanics.html#afaefe26eb27357f7b27a34b4f0286450" title="MWMechanics::distance" alt="" coords="507,470,680,496"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="515,520,671,547"/>
+<area shape="rect" id="node19" href="$namespaceMWMechanics.html#a1aedf83ed1acfac9f46b7690cf4458fa" title="MWMechanics::zTurn" alt="" coords="517,419,669,446"/>
+<area shape="rect" id="node20" href="$namespaceMWMechanics.html#a7595ded259b3f0aa09269d65d68448bb" title="MWMechanics::smoothTurn" alt="" coords="759,434,953,460"/>
+<area shape="rect" id="node23" href="$namespaceMWMechanics.html#ae3f4480044024ba5a924536c76e0afe7" title="MWMechanics::getZAngleTo\lPoint" alt="" coords="494,673,693,714"/>
+<area shape="rect" id="node26" href="$namespaceMWMechanics.html#a7c4a6d1a3a80a89291c7bd7e5cf8026d" title="MWMechanics::getXAngleTo\lPoint" alt="" coords="495,738,692,780"/>
+<area shape="rect" id="node21" href="$namespaceMWMechanics.html#a31ee88b36f3afdc3970b04ad84a343cf" title="MWMechanics::MAX_VEL\l_ANGULAR_RADIANS" alt="" coords="1033,492,1212,533"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#ab33533f19f73c1d99d08f8d2b66687de" title="MWBase::Environment\l::getFrameDuration" alt="" coords="1040,426,1205,468"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1PathFinder.html#a6935863f8ff0315fd494c1537cf4e530" title="MWMechanics::PathFinder\l::MakeOsgVec3" alt="" coords="763,688,949,729"/>
+<area shape="rect" id="node25" href="$namespaceMWMechanics.html#a01a52a94be3e938ba62c681774a39848" title="MWMechanics::getZAngleToDir" alt="" coords="747,636,965,663"/>
+<area shape="rect" id="node27" href="$namespaceMWMechanics.html#ac93106335b8954bb8082d3462d62abd2" title="MWMechanics::getXAngleToDir" alt="" coords="749,754,963,780"/>
 </map>

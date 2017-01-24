@@ -1,51 +1,51 @@
 <map id="MWGui::Console::Console" name="MWGui::Console::Console">
-<area shape="rect" id="node2" href="$classMWGui_1_1Layout.html#ac725a2afd1a0ad240bcf35b7d0238d79" title="MWGui::Layout::setCoord" alt="" coords="251,910,418,936"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab" title="MWGui::Layout::getWidget" alt="" coords="248,960,421,987"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1Console.html#ad92278fdad9d0f042fe7b0232e765047" title="MWGui::Console::acceptCommand" alt="" coords="224,1011,445,1038"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1Console.html#aa6572364be79063ca831595cde076b7a" title="MWGui::Console::keyPress" alt="" coords="511,891,686,918"/>
-<area shape="rect" id="node31" href="$namespaceCompiler.html#a02ca454ea4fb516a029cca67774a07ef" title="Compiler::registerExtensions" alt="" coords="243,1311,426,1338"/>
-<area shape="rect" id="node50" href="$classCompiler_1_1Context.html#a12400ee5c1846f1c9026c2969de5405c" title="Compiler::Context::\lsetExtensions" alt="" coords="270,1362,399,1404"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1Console.html#ab033e843ca6fb2049c0cccddfa3d7c49" title="MWGui::Console::execute" alt="" coords="515,330,683,356"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1Console.html#acc2c78e2bde0233bd03445ecd53b134a" title="MWGui::Console::print" alt="" coords="1225,338,1373,364"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1Console.html#a7739da471e02953030e691d140957fff" title="MWGui::Console::compile" alt="" coords="757,203,925,230"/>
-<area shape="rect" id="node11" href="$classCompiler_1_1Output.html#a8f87d46702dc2e36ddf404c2940d36af" title="store generated code in code. " alt="" coords="991,220,1163,247"/>
-<area shape="rect" id="node13" href="$classCompiler_1_1ErrorHandler.html#ae9df94e7ebfba1abd1f4744de29c4466" title="Generate an error message. " alt="" coords="1002,272,1153,313"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1Console.html#ad26c0032aeb97f9d6a6587fef1501573" title="Error message. " alt="" coords="990,338,1165,364"/>
-<area shape="rect" id="node15" href="$namespaceMWScript.html#a585737e54eee4209a8213e22ae502bb1" title="MWScript::installOpcodes" alt="" coords="757,431,926,458"/>
-<area shape="rect" id="node18" href="$classInterpreter_1_1Interpreter.html#ae733a1a809b309384c94445844624871" title="Interpreter::Interpreter::run" alt="" coords="756,482,927,508"/>
-<area shape="rect" id="node8" href="$classCompiler_1_1Context.html#a9f85afd546e5ba5aeada469fa7157443" title="Compiler::Context::\lgetExtensions" alt="" coords="1013,389,1142,430"/>
-<area shape="rect" id="node9" href="$classCompiler_1_1Output.html#a34bb777cbb5e745b66fd15285bea6bb6" title="Compiler::Output::getLocals" alt="" coords="988,52,1167,79"/>
-<area shape="rect" id="node10" href="$classCompiler_1_1Output.html#aa1c0e0a76936642009f3220878ba513a" title="Compiler::Output::getLiterals" alt="" coords="986,103,1169,130"/>
-<area shape="rect" id="node12" href="$classCompiler_1_1ErrorHandler.html#a240715f4ba60ed0174356a9eb30844e0" title="Was compiling successful? " alt="" coords="1002,154,1153,196"/>
-<area shape="rect" id="node16" href="$namespaceInterpreter.html#a0122059fdbb8956fa48c32bfb8a3e6de" title="Interpreter::installOpcodes" alt="" coords="992,455,1163,482"/>
-<area shape="rect" id="node17" href="$namespaceMWScript_1_1Cell.html#a23eede37e16c8a6bcd7d595e98f93686" title="MWScript::Cell::installOpcodes" alt="" coords="979,506,1176,532"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1Console.html#ae6d40a7c7a7449ff95f42a16b1f18888" title="MWGui::Console::listNames" alt="" coords="752,740,931,767"/>
-<area shape="rect" id="node28" href="$classMWGui_1_1Console.html#a1bd1849b23216bbbcb609b2a71515077" title="MWGui::Console::complete" alt="" coords="753,879,929,906"/>
-<area shape="rect" id="node30" href="$classMWGui_1_1Console.html#abadc5ddc610194629b7f4d959dc17d03" title="Output from successful console command. " alt="" coords="758,930,925,956"/>
-<area shape="rect" id="node21" href="$classCompiler_1_1Scanner.html#a1d9a3c7340027fe39a98ab93cdc33d26" title="Append all known keywords to keywords. " alt="" coords="1011,557,1144,598"/>
-<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="990,623,1165,650"/>
-<area shape="rect" id="node23" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1002,674,1153,716"/>
-<area shape="rect" id="node24" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="993,740,1161,767"/>
-<area shape="rect" id="node25" href="$classMWWorld_1_1ESMStore.html#a80f721554984d664cd82e6af1318b2a4" title="MWWorld::ESMStore::\lbegin" alt="" coords="1003,792,1152,833"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1ESMStore.html#aa12ad894c3a0ccb18807659bf66a1470" title="MWWorld::ESMStore::end" alt="" coords="992,858,1163,884"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="994,908,1161,935"/>
-<area shape="rect" id="node29" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1017,960,1137,1001"/>
-<area shape="rect" id="node32" href="$namespaceCompiler_1_1Ai.html#aceaf95e7f33638c4f8787ecafee459b3" title="Compiler::Ai::registerExtensions" alt="" coords="499,1034,699,1060"/>
-<area shape="rect" id="node35" href="$namespaceCompiler_1_1Animation.html#af549677c16b3c92f7836e94f0e5919ce" title="Compiler::Animation\l::registerExtensions" alt="" coords="530,1646,667,1688"/>
-<area shape="rect" id="node36" href="$namespaceCompiler_1_1Cell.html#ac1c58b0b3055cdced67757cf0fae574e" title="Compiler::Cell::register\lExtensions" alt="" coords="524,1085,673,1126"/>
-<area shape="rect" id="node37" href="$namespaceCompiler_1_1Container.html#a67ca585bf7df3d0495be913aac7307fa" title="Compiler::Container\l::registerExtensions" alt="" coords="531,1150,666,1192"/>
-<area shape="rect" id="node38" href="$namespaceCompiler_1_1Control.html#a63f4551812794722e62e3efe7c4ba9e0" title="Compiler::Control::\lregisterExtensions" alt="" coords="535,968,662,1009"/>
-<area shape="rect" id="node41" href="$namespaceCompiler_1_1Dialogue.html#a2a7820010e5befed334bc41ca5117cbd" title="Compiler::Dialogue\l::registerExtensions" alt="" coords="533,1216,664,1257"/>
-<area shape="rect" id="node42" href="$namespaceCompiler_1_1Gui.html#a154f1c53819a2a4ba2038bade3e47a1f" title="Compiler::Gui::registerExtensions" alt="" coords="495,1282,703,1308"/>
-<area shape="rect" id="node43" href="$namespaceCompiler_1_1Misc.html#a98995e47873112a2e1c0be5d9b98c1a1" title="Compiler::Misc::register\lExtensions" alt="" coords="521,1333,676,1374"/>
-<area shape="rect" id="node44" href="$namespaceCompiler_1_1Sky.html#a812404ece6eaa48f3804c142febdec17" title="Compiler::Sky::registerExtensions" alt="" coords="493,1399,704,1426"/>
-<area shape="rect" id="node45" href="$namespaceCompiler_1_1Sound.html#a96afe291be69850503edd278db25c0bc" title="Compiler::Sound::register\lExtensions" alt="" coords="517,1450,681,1492"/>
-<area shape="rect" id="node46" href="$namespaceCompiler_1_1Stats.html#a389ed4047742035639ee3c57306fd59b" title="Compiler::Stats::register\lExtensions" alt="" coords="520,1516,677,1557"/>
-<area shape="rect" id="node47" href="$namespaceCompiler_1_1Transformation.html#ae8183fa30d3b690816963c4241dcba42" title="Compiler::Transformation\l::registerExtensions" alt="" coords="516,1581,681,1622"/>
-<area shape="rect" id="node48" href="$namespaceCompiler_1_1Console.html#a4b374d0eb7940b261cdd994c85d8c098" title="Compiler::Console::\lregisterExtensions" alt="" coords="533,1712,664,1753"/>
-<area shape="rect" id="node49" href="$namespaceCompiler_1_1User.html#aa2606648615ba05de07954d1fc9c0780" title="Compiler::User::register\lExtensions" alt="" coords="522,1777,675,1818"/>
-<area shape="rect" id="node33" href="$classCompiler_1_1Extensions.html#ab5a9f063eba2118b1d52aa99b21c3f4e" title="Compiler::Extensions\l::registerInstruction" alt="" coords="771,1337,911,1378"/>
-<area shape="rect" id="node34" href="$classCompiler_1_1Extensions.html#a6f2954221dd0f9d98c3ba4c5606df54d" title="Compiler::Extensions\l::registerFunction" alt="" coords="771,1272,911,1313"/>
-<area shape="rect" id="node39" href="$namespaceCompiler_1_1Generator.html#a1d63b5cd16dc9d0d8e5afbf607cd6dd4" title="Compiler::Generator\l::enable" alt="" coords="773,981,909,1022"/>
-<area shape="rect" id="node40" href="$namespaceCompiler_1_1Generator.html#a72c1c7d3ea17f37a190bef5d24e4c7c2" title="Compiler::Generator\l::disable" alt="" coords="773,1046,909,1088"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1Layout.html#ac725a2afd1a0ad240bcf35b7d0238d79" title="MWGui::Layout::setCoord" alt="" coords="267,912,450,939"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab" title="MWGui::Layout::getWidget" alt="" coords="265,963,453,990"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1Console.html#ad92278fdad9d0f042fe7b0232e765047" title="MWGui::Console::acceptCommand" alt="" coords="237,1014,480,1040"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1Console.html#aa6572364be79063ca831595cde076b7a" title="MWGui::Console::keyPress" alt="" coords="551,894,740,920"/>
+<area shape="rect" id="node31" href="$namespaceCompiler.html#a02ca454ea4fb516a029cca67774a07ef" title="Compiler::registerExtensions" alt="" coords="256,1314,461,1340"/>
+<area shape="rect" id="node50" href="$classCompiler_1_1Context.html#a12400ee5c1846f1c9026c2969de5405c" title="Compiler::Context::\lsetExtensions" alt="" coords="286,1365,431,1406"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1Console.html#ab033e843ca6fb2049c0cccddfa3d7c49" title="MWGui::Console::execute" alt="" coords="554,332,737,359"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1Console.html#acc2c78e2bde0233bd03445ecd53b134a" title="MWGui::Console::print" alt="" coords="1318,340,1479,367"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1Console.html#a7739da471e02953030e691d140957fff" title="MWGui::Console::compile" alt="" coords="818,206,1001,232"/>
+<area shape="rect" id="node11" href="$classCompiler_1_1Output.html#a8f87d46702dc2e36ddf404c2940d36af" title="store generated code in code. " alt="" coords="1066,223,1259,250"/>
+<area shape="rect" id="node13" href="$classCompiler_1_1ErrorHandler.html#ae9df94e7ebfba1abd1f4744de29c4466" title="Generate an error message. " alt="" coords="1079,274,1247,316"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1Console.html#ad26c0032aeb97f9d6a6587fef1501573" title="Error message. " alt="" coords="1067,340,1259,367"/>
+<area shape="rect" id="node15" href="$namespaceMWScript.html#a585737e54eee4209a8213e22ae502bb1" title="MWScript::installOpcodes" alt="" coords="818,434,1001,460"/>
+<area shape="rect" id="node18" href="$classInterpreter_1_1Interpreter.html#ae733a1a809b309384c94445844624871" title="Interpreter::Interpreter::run" alt="" coords="812,484,1007,511"/>
+<area shape="rect" id="node8" href="$classCompiler_1_1Context.html#a9f85afd546e5ba5aeada469fa7157443" title="Compiler::Context::\lgetExtensions" alt="" coords="1090,392,1235,433"/>
+<area shape="rect" id="node9" href="$classCompiler_1_1Output.html#a34bb777cbb5e745b66fd15285bea6bb6" title="Compiler::Output::getLocals" alt="" coords="1063,55,1263,82"/>
+<area shape="rect" id="node10" href="$classCompiler_1_1Output.html#aa1c0e0a76936642009f3220878ba513a" title="Compiler::Output::getLiterals" alt="" coords="1059,106,1266,132"/>
+<area shape="rect" id="node12" href="$classCompiler_1_1ErrorHandler.html#a240715f4ba60ed0174356a9eb30844e0" title="Was compiling successful? " alt="" coords="1079,157,1247,198"/>
+<area shape="rect" id="node16" href="$namespaceInterpreter.html#a0122059fdbb8956fa48c32bfb8a3e6de" title="Interpreter::installOpcodes" alt="" coords="1067,458,1258,484"/>
+<area shape="rect" id="node17" href="$namespaceMWScript_1_1Cell.html#a23eede37e16c8a6bcd7d595e98f93686" title="MWScript::Cell::installOpcodes" alt="" coords="1056,508,1269,535"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1Console.html#ae6d40a7c7a7449ff95f42a16b1f18888" title="MWGui::Console::listNames" alt="" coords="811,743,1007,770"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1Console.html#a1bd1849b23216bbbcb609b2a71515077" title="MWGui::Console::complete" alt="" coords="813,882,1005,908"/>
+<area shape="rect" id="node30" href="$classMWGui_1_1Console.html#abadc5ddc610194629b7f4d959dc17d03" title="Output from successful console command. " alt="" coords="820,932,999,959"/>
+<area shape="rect" id="node21" href="$classCompiler_1_1Scanner.html#a1d9a3c7340027fe39a98ab93cdc33d26" title="Append all known keywords to keywords. " alt="" coords="1089,560,1237,601"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1065,626,1260,652"/>
+<area shape="rect" id="node23" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1080,677,1245,718"/>
+<area shape="rect" id="node24" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1071,743,1254,770"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1ESMStore.html#a80f721554984d664cd82e6af1318b2a4" title="MWWorld::ESMStore::\lbegin" alt="" coords="1084,794,1241,836"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1ESMStore.html#aa12ad894c3a0ccb18807659bf66a1470" title="MWWorld::ESMStore::end" alt="" coords="1072,860,1253,887"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1073,911,1252,938"/>
+<area shape="rect" id="node29" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1097,962,1229,1004"/>
+<area shape="rect" id="node32" href="$namespaceCompiler_1_1Ai.html#aceaf95e7f33638c4f8787ecafee459b3" title="Compiler::Ai::registerExtensions" alt="" coords="533,1036,758,1063"/>
+<area shape="rect" id="node35" href="$namespaceCompiler_1_1Animation.html#af549677c16b3c92f7836e94f0e5919ce" title="Compiler::Animation\l::registerExtensions" alt="" coords="569,1649,721,1690"/>
+<area shape="rect" id="node36" href="$namespaceCompiler_1_1Cell.html#ac1c58b0b3055cdced67757cf0fae574e" title="Compiler::Cell::register\lExtensions" alt="" coords="562,1088,729,1129"/>
+<area shape="rect" id="node37" href="$namespaceCompiler_1_1Container.html#a67ca585bf7df3d0495be913aac7307fa" title="Compiler::Container\l::registerExtensions" alt="" coords="571,1153,720,1194"/>
+<area shape="rect" id="node38" href="$namespaceCompiler_1_1Control.html#a63f4551812794722e62e3efe7c4ba9e0" title="Compiler::Control::\lregisterExtensions" alt="" coords="575,970,716,1012"/>
+<area shape="rect" id="node41" href="$namespaceCompiler_1_1Dialogue.html#a2a7820010e5befed334bc41ca5117cbd" title="Compiler::Dialogue\l::registerExtensions" alt="" coords="571,1218,719,1260"/>
+<area shape="rect" id="node42" href="$namespaceCompiler_1_1Gui.html#a154f1c53819a2a4ba2038bade3e47a1f" title="Compiler::Gui::registerExtensions" alt="" coords="528,1284,763,1311"/>
+<area shape="rect" id="node43" href="$namespaceCompiler_1_1Misc.html#a98995e47873112a2e1c0be5d9b98c1a1" title="Compiler::Misc::register\lExtensions" alt="" coords="559,1336,731,1377"/>
+<area shape="rect" id="node44" href="$namespaceCompiler_1_1Sky.html#a812404ece6eaa48f3804c142febdec17" title="Compiler::Sky::registerExtensions" alt="" coords="528,1402,763,1428"/>
+<area shape="rect" id="node45" href="$namespaceCompiler_1_1Sound.html#a96afe291be69850503edd278db25c0bc" title="Compiler::Sound::register\lExtensions" alt="" coords="553,1453,738,1494"/>
+<area shape="rect" id="node46" href="$namespaceCompiler_1_1Stats.html#a389ed4047742035639ee3c57306fd59b" title="Compiler::Stats::register\lExtensions" alt="" coords="556,1518,735,1560"/>
+<area shape="rect" id="node47" href="$namespaceCompiler_1_1Transformation.html#ae8183fa30d3b690816963c4241dcba42" title="Compiler::Transformation\l::registerExtensions" alt="" coords="554,1584,737,1625"/>
+<area shape="rect" id="node48" href="$namespaceCompiler_1_1Console.html#a4b374d0eb7940b261cdd994c85d8c098" title="Compiler::Console::\lregisterExtensions" alt="" coords="572,1714,719,1756"/>
+<area shape="rect" id="node49" href="$namespaceCompiler_1_1User.html#aa2606648615ba05de07954d1fc9c0780" title="Compiler::User::register\lExtensions" alt="" coords="558,1780,733,1821"/>
+<area shape="rect" id="node33" href="$classCompiler_1_1Extensions.html#ab5a9f063eba2118b1d52aa99b21c3f4e" title="Compiler::Extensions\l::registerInstruction" alt="" coords="831,1340,987,1381"/>
+<area shape="rect" id="node34" href="$classCompiler_1_1Extensions.html#a6f2954221dd0f9d98c3ba4c5606df54d" title="Compiler::Extensions\l::registerFunction" alt="" coords="831,1274,987,1316"/>
+<area shape="rect" id="node39" href="$namespaceCompiler_1_1Generator.html#a1d63b5cd16dc9d0d8e5afbf607cd6dd4" title="Compiler::Generator\l::enable" alt="" coords="833,984,985,1025"/>
+<area shape="rect" id="node40" href="$namespaceCompiler_1_1Generator.html#a72c1c7d3ea17f37a190bef5d24e4c7c2" title="Compiler::Generator\l::disable" alt="" coords="833,1049,985,1090"/>
 </map>

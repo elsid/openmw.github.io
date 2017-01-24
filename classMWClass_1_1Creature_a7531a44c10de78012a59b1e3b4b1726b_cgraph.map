@@ -1,32 +1,32 @@
 <map id="MWClass::Creature::ensureCustomData" name="MWClass::Creature::ensureCustomData">
-<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="753,39,925,65"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1RefData.html#a1ef7b41e2a72ec06e8631e42bbd42b85" title="May return a 0&#45;pointer. The ownership of the return data object is not transferred. " alt="" coords="725,160,952,187"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="509,331,635,357"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="218,448,393,475"/>
-<area shape="rect" id="node8" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="230,499,381,541"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="221,565,389,592"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="222,616,389,643"/>
-<area shape="rect" id="node11" href="$classMWClass_1_1Creature.html#a74cef99d0239a6cbd18eaeace3b7249d" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="503,239,641,281"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1RefData.html#a94031b8ea51ee0c861645eb41d5b6907" title="MWWorld::RefData::setCustomData" alt="" coords="193,667,418,693"/>
-<area shape="rect" id="node16" href="$classMWClass_1_1Creature.html#a49fd1741fb71fb78ee5d73025f818df7" title="Return container store. " alt="" coords="503,93,641,134"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1ContainerStore.html#abc01d712d586c20f0dfd326273c91888" title="Insert items into *this. " alt="" coords="220,718,391,759"/>
-<area shape="rect" id="node22" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="222,784,389,811"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="215,835,396,861"/>
-<area shape="rect" id="node24" href="$classMWClass_1_1Creature.html#ac45b1965de85573893ff0d9626c1bd51" title="Return inventory store. " alt="" coords="237,214,374,255"/>
-<area shape="rect" id="node25" href="$classMWWorld_1_1InventoryStore.html#a673a76aa5af1e86c052f18031e1bd564" title="Auto&#45;equip the shield with most health. " alt="" coords="222,382,389,423"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="745,331,932,357"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1001,331,1202,357"/>
-<area shape="rect" id="node12" href="$namespaceanonymous__namespace_02creature_8cpp_03.html#a052e331d3c98693982da8e83eca93567" title="anonymous_namespace\l\{creature::cpp\}::isFlagBitSet" alt="" coords="749,239,929,281"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1ConstPtr.html#ae3aece4775b5f86d04af63ce0de36cbd" title="MWWorld::ConstPtr::get" alt="" coords="1022,247,1181,273"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1ConstPtr.html#ace447c99102c91a088f5e51c9664f950" title="MWWorld::ConstPtr::\lgetTypeName" alt="" coords="1251,239,1391,281"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1CustomData.html#a04f32f8cea1d60609503487669c29d5c" title="MWWorld::CustomData\l::asCreatureCustomData" alt="" coords="758,93,919,134"/>
-<area shape="rect" id="node19" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="512,718,632,759"/>
-<area shape="rect" id="node20" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="776,718,901,759"/>
-<area shape="rect" id="node21" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1041,718,1161,759"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1ContainerStoreIterator.html#ade481e714cb243516fd8895e649c85f3" title="MWWorld::ContainerStoreIterator\l::getType" alt="" coords="467,382,677,423"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="494,448,650,475"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1Class.html#a5537c9812ceb8e5a8100652eac05ec63" title="Return current item health or throw an exception if class does not have item health. " alt="" coords="471,499,673,525"/>
-<area shape="rect" id="node29" href="$classMWWorld_1_1ConstPtr.html#afa407c744b51f45e0b8e3eec160cb7a2" title="MWWorld::ConstPtr::\lgetCellRef" alt="" coords="769,433,909,474"/>
-<area shape="rect" id="node30" href="$classMWWorld_1_1CellRef.html#a4b3b28f98b80448c7b7d5c3b364976b7" title="MWWorld::CellRef::getCharge" alt="" coords="743,499,934,525"/>
-<area shape="rect" id="node31" href="$classMWWorld_1_1Class.html#a57ed3b8775968f13bb4460b3833a9021" title="MWWorld::Class::getItemMax\lHealth" alt="" coords="744,550,933,591"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="811,44,994,71"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1RefData.html#a1ef7b41e2a72ec06e8631e42bbd42b85" title="May return a 0&#45;pointer. The ownership of the return data object is not transferred. " alt="" coords="779,165,1026,192"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="548,336,681,363"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="231,453,425,480"/>
+<area shape="rect" id="node8" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="245,505,411,546"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="237,571,419,597"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="239,621,417,648"/>
+<area shape="rect" id="node11" href="$classMWClass_1_1Creature.html#a74cef99d0239a6cbd18eaeace3b7249d" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="539,245,690,286"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1RefData.html#a94031b8ea51ee0c861645eb41d5b6907" title="MWWorld::RefData::setCustomData" alt="" coords="205,672,451,699"/>
+<area shape="rect" id="node16" href="$classMWClass_1_1Creature.html#a49fd1741fb71fb78ee5d73025f818df7" title="Return container store. " alt="" coords="539,98,690,139"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1ContainerStore.html#abc01d712d586c20f0dfd326273c91888" title="Insert items into *this. " alt="" coords="237,723,419,765"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="241,789,415,816"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="235,840,421,867"/>
+<area shape="rect" id="node24" href="$classMWClass_1_1Creature.html#ac45b1965de85573893ff0d9626c1bd51" title="Return inventory store. " alt="" coords="253,219,403,261"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1InventoryStore.html#a673a76aa5af1e86c052f18031e1bd564" title="Auto&#45;equip the shield with most health. " alt="" coords="238,387,418,429"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="803,336,1003,363"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1075,336,1291,363"/>
+<area shape="rect" id="node12" href="$namespaceanonymous__namespace_02creature_8cpp_03.html#a052e331d3c98693982da8e83eca93567" title="anonymous_namespace\l\{creature::cpp\}::isFlagBitSet" alt="" coords="799,245,1006,286"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1ConstPtr.html#ae3aece4775b5f86d04af63ce0de36cbd" title="MWWorld::ConstPtr::get" alt="" coords="1097,252,1268,279"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1ConstPtr.html#ace447c99102c91a088f5e51c9664f950" title="MWWorld::ConstPtr::\lgetTypeName" alt="" coords="1339,245,1488,286"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1CustomData.html#a04f32f8cea1d60609503487669c29d5c" title="MWWorld::CustomData\l::asCreatureCustomData" alt="" coords="811,98,994,139"/>
+<area shape="rect" id="node19" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="549,723,681,765"/>
+<area shape="rect" id="node20" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="837,723,969,765"/>
+<area shape="rect" id="node21" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1117,723,1249,765"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1ContainerStoreIterator.html#ade481e714cb243516fd8895e649c85f3" title="MWWorld::ContainerStoreIterator\l::getType" alt="" coords="499,387,730,429"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="531,453,698,480"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1Class.html#a5537c9812ceb8e5a8100652eac05ec63" title="Return current item health or throw an exception if class does not have item health. " alt="" coords="505,504,725,531"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1ConstPtr.html#afa407c744b51f45e0b8e3eec160cb7a2" title="MWWorld::ConstPtr::\lgetCellRef" alt="" coords="828,438,977,479"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1CellRef.html#a4b3b28f98b80448c7b7d5c3b364976b7" title="MWWorld::CellRef::getCharge" alt="" coords="801,504,1004,531"/>
+<area shape="rect" id="node31" href="$classMWWorld_1_1Class.html#a57ed3b8775968f13bb4460b3833a9021" title="MWWorld::Class::getItemMax\lHealth" alt="" coords="801,555,1005,597"/>
 </map>

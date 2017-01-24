@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['sound_5fin',['SOUND_IN',['../soundmanagerimp_8cpp.html#a5ed8c42b26f16cf61c45a91211b6313e',1,'soundmanagerimp.cpp']]],
-  ['sound_5fout',['SOUND_OUT',['../soundmanagerimp_8cpp.html#a14fbfea275a8724184f028de65fa7e3a',1,'soundmanagerimp.cpp']]]
+  ['unused',['UNUSED',['../crashcatcher_8cpp.html#a86d500a34c624c2cae56bc25a31b12f3',1,'crashcatcher.cpp']]],
+  ['use_5fcrash_5fcatcher',['USE_CRASH_CATCHER',['../openmw_2main_8cpp.html#a92ef3c4ebcdd38cff39e27f72bbeb7fc',1,'main.cpp']]]
 ];

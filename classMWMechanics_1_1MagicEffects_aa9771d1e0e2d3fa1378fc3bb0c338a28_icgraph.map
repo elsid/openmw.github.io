@@ -1,51 +1,51 @@
 <map id="MWMechanics::MagicEffects::get" name="MWMechanics::MagicEffects::get">
-<area shape="rect" id="node2" href="$classMWClass_1_1Actor.html#ac1a074340d7a860400f61de71b352f0e" title="MWClass::Actor::getEncumbrance" alt="" coords="269,154,485,180"/>
-<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a89aa284c77bdb07c7f40380206ce180a" title="Return movement speed. " alt="" coords="582,88,719,129"/>
-<area shape="rect" id="node5" href="$classMWClass_1_1Npc.html#acaf825c7d2108eb7707911c1abf97284" title="Return movement speed. " alt="" coords="813,70,979,96"/>
-<area shape="rect" id="node6" href="$classMWClass_1_1Npc.html#a9a9f4191138f024f027fff003aac080d" title="Return jump velocity (not accounting for movement) " alt="" coords="815,179,977,206"/>
-<area shape="rect" id="node7" href="$classMWClass_1_1Creature.html#afef30b56dd153096f60e4c92fddf0a1c" title="MWClass::Creature::\lgetArmorRating" alt="" coords="309,256,446,297"/>
-<area shape="rect" id="node8" href="$namespaceanonymous__namespace_02actors_8cpp_03.html#a1166f7679b7e7a0bc4fad2626d16438c" title="anonymous_namespace\l\{actors::cpp\}::getRestoration\lPerHourOfSleep" alt="" coords="287,320,468,376"/>
-<area shape="rect" id="node12" href="$classMWMechanics_1_1Actors.html#a0f3247dc3dcfdce41f500faff397904f" title="MWMechanics::Actors\l::calculateDynamicStats" alt="" coords="297,400,457,441"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="549,489,753,530"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1Actors.html#ad8b7b779facaaeb7e037bad5fb6a23f9" title="MWMechanics::Actors\l::calculateNpcStatModifiers" alt="" coords="288,634,467,676"/>
-<area shape="rect" id="node19" href="$classMWMechanics_1_1Actors.html#ae46f7c57519d942338677fd6a0915b54" title="MWMechanics::Actors\l::updateDrowning" alt="" coords="302,700,453,741"/>
-<area shape="rect" id="node20" href="$namespaceMWMechanics.html#a8addb1cc9040a8e5c061c1a1136a7284" title="MWMechanics::canFight" alt="" coords="569,806,732,832"/>
-<area shape="rect" id="node23" href="$namespaceanonymous__namespace_02character_8cpp_03.html#af0dadcd72679ae3e6f4cba46b50f2be4" title="anonymous_namespace\l\{character::cpp\}::getFallDamage" alt="" coords="275,1350,479,1392"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1CharacterController.html#adba483bc487443fdd94ba53bad66b4c1" title="MWMechanics::CharacterController\l::updateContinuousVfx" alt="" coords="265,1416,489,1457"/>
-<area shape="rect" id="node26" href="$classMWMechanics_1_1CharacterController.html#ab44ce38c8abedbd9cd2f900445dfda19" title="MWMechanics::CharacterController\l::updateMagicEffects" alt="" coords="265,1285,489,1326"/>
-<area shape="rect" id="node27" href="$namespaceMWMechanics.html#a5339d8729a5ad2ab4b7ebdff73420e8f" title="MWMechanics::resistNormal\lWeapon" alt="" coords="285,1481,469,1522"/>
-<area shape="rect" id="node30" href="$namespaceMWMechanics.html#a0eca898ae05a994e8463ec1705205788" title="Get the chance (in percent) for attacker to successfully hit victim with a given weapon skill value..." alt="" coords="555,948,746,975"/>
-<area shape="rect" id="node32" href="$namespaceMWMechanics.html#aa9628a68120fe3fbe5e75c0a078389c3" title="Applies damage to attacker based on the victim&#39;s elemental shields. " alt="" coords="551,1124,751,1165"/>
-<area shape="rect" id="node33" href="$classMWMechanics_1_1CreatureStats.html#a1f2eb44c0507917a0ea6ea038f46c9c0" title="Set Modifier for each magic effect according to effects. Does not touch Base values. " alt="" coords="555,554,747,596"/>
-<area shape="rect" id="node34" href="$classMWMechanics_1_1CreatureStats.html#ae2b73054fdaf82052f81f3bde5a9c90c" title="MWMechanics::CreatureStats\l::isParalyzed" alt="" coords="281,1000,473,1041"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1World.html#ad980114d5c4b24e19564f387d93568d3" title="MWWorld::World::isFlying" alt="" coords="567,1036,734,1063"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1CreatureStats.html#a73a6c44d487a1c5772380479236c257d" title="MWMechanics::CreatureStats\l::getEvasion" alt="" coords="281,882,473,924"/>
-<area shape="rect" id="node37" href="$namespaceMWMechanics.html#a8ac7efdb8dfc6be15d264727f4ebdcf9" title="MWMechanics::diseaseContact" alt="" coords="550,1219,751,1246"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1MagicEffects.html#a8309f10f3f5c22045c780b9f6f37e739" title="Copy Modifier values from effects, but keep original mBase values. " alt="" coords="284,517,471,558"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1MechanicsManager.html#abb57fd9c23912f213038666f1b4f89e2" title="Calculate the diposition of an NPC toward the player. " alt="" coords="265,1546,490,1588"/>
-<area shape="rect" id="node40" href="$classMWMechanics_1_1MechanicsManager.html#a2839aaaa7ce0a8024f6ba2daa3ce45a5" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="265,817,490,858"/>
-<area shape="rect" id="node41" href="$namespaceMWMechanics.html#ae09ef3992b635b2ab37a801b013b3c89" title="MWMechanics::getSpellSuccess\lChance" alt="" coords="273,1612,482,1653"/>
-<area shape="rect" id="node42" href="$namespaceMWMechanics.html#a26dac939f455e243fb82cd01cbc926b7" title="MWMechanics::getEffectResistance\lAttribute" alt="" coords="264,1168,491,1209"/>
-<area shape="rect" id="node43" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="293,1677,461,1718"/>
-<area shape="rect" id="node44" href="$classMWPhysics_1_1PhysicsSystem.html#a9277c35247eb2b649168b77e62cad326" title="Apply all queued movements, then clear the list. " alt="" coords="286,1742,469,1784"/>
-<area shape="rect" id="node45" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="291,1808,464,1849"/>
-<area shape="rect" id="node46" href="$classMWScript_1_1Stats_1_1OpGetMagicEffect.html#a0afeae5ca79e8bb57d6a5c6181e79a16" title="MWScript::Stats::OpGetMagic\lEffect::execute" alt="" coords="280,1873,475,1914"/>
-<area shape="rect" id="node47" href="$classMWScript_1_1Stats_1_1OpSetMagicEffect.html#a753333426ce45c8b6c112d3b8a73d272" title="MWScript::Stats::OpSetMagic\lEffect::execute" alt="" coords="281,1938,474,1980"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1World.html#a62b8b52938805c4cedc6c8e561101dc1" title="MWWorld::World::updatePlayer" alt="" coords="278,2004,477,2031"/>
-<area shape="rect" id="node49" href="$classMWWorld_1_1World.html#acf2df0522e81f92f10bf6b353c5e4b1c" title="MWWorld::World::isSlowFalling" alt="" coords="278,2055,477,2082"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#aee729dac6ead16bf730ba70864692330" title="MWWorld::World::listDetected\lReferences" alt="" coords="282,2106,473,2148"/>
-<area shape="rect" id="node4" href="$classMWClass_1_1Npc.html#ac36db52e4617b06043a71d0c13b41cb2" title="MWClass::Npc::getEncumbrance" alt="" coords="547,154,755,180"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1Actors.html#af347805d67d95cbdcf6afafe6d430cc5" title="MWMechanics::Actors\l::restoreDynamicStats" alt="" coords="575,321,726,362"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1Actors.html#af6f8df7ae0b4bac1cd078f0011ff347f" title="Calculate how many hours the given actor needs to rest in order to be fully healed. " alt="" coords="575,256,726,297"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="821,462,971,504"/>
-<area shape="rect" id="node13" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="821,390,971,432"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="821,549,971,590"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="821,629,971,670"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1Actors.html#a2ad05c57d27bc2b1609f6e99b34c90d0" title="MWMechanics::Actors\l::updateNpc" alt="" coords="575,722,726,764"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1Actors.html#a499f6bbd42387ac60a06e80c78f41dc5" title="MWMechanics::Actors\l::engageCombat" alt="" coords="821,830,971,872"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="811,765,981,806"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="539,1317,763,1358"/>
-<area shape="rect" id="node28" href="$classMWClass_1_1Creature.html#a2b05916462047e35be6006ab8698a36b" title="MWClass::Creature::\lonHit" alt="" coords="582,1510,719,1552"/>
-<area shape="rect" id="node29" href="$classMWClass_1_1Npc.html#ada4bd30292b7cd8588ecb21915d5c8ce" title="MWClass::Npc::onHit" alt="" coords="580,1459,721,1486"/>
-<area shape="rect" id="node31" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="821,1131,971,1158"/>
+<area shape="rect" id="node2" href="$classMWClass_1_1Actor.html#ac1a074340d7a860400f61de71b352f0e" title="MWClass::Actor::getEncumbrance" alt="" coords="287,160,524,187"/>
+<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a89aa284c77bdb07c7f40380206ce180a" title="Return movement speed. " alt="" coords="623,94,774,135"/>
+<area shape="rect" id="node5" href="$classMWClass_1_1Npc.html#acaf825c7d2108eb7707911c1abf97284" title="Return movement speed. " alt="" coords="871,76,1052,103"/>
+<area shape="rect" id="node6" href="$classMWClass_1_1Npc.html#a9a9f4191138f024f027fff003aac080d" title="Return jump velocity (not accounting for movement) " alt="" coords="875,185,1047,212"/>
+<area shape="rect" id="node7" href="$classMWClass_1_1Creature.html#afef30b56dd153096f60e4c92fddf0a1c" title="MWClass::Creature::\lgetArmorRating" alt="" coords="330,262,481,303"/>
+<area shape="rect" id="node8" href="$namespaceanonymous__namespace_02actors_8cpp_03.html#a1166f7679b7e7a0bc4fad2626d16438c" title="anonymous_namespace\l\{actors::cpp\}::getRestoration\lPerHourOfSleep" alt="" coords="300,327,511,383"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1Actors.html#a0f3247dc3dcfdce41f500faff397904f" title="MWMechanics::Actors\l::calculateDynamicStats" alt="" coords="317,406,494,447"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="585,495,812,537"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1Actors.html#ad8b7b779facaaeb7e037bad5fb6a23f9" title="MWMechanics::Actors\l::calculateNpcStatModifiers" alt="" coords="307,641,503,682"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1Actors.html#ae46f7c57519d942338677fd6a0915b54" title="MWMechanics::Actors\l::updateDrowning" alt="" coords="325,706,485,747"/>
+<area shape="rect" id="node20" href="$namespaceMWMechanics.html#a8addb1cc9040a8e5c061c1a1136a7284" title="MWMechanics::canFight" alt="" coords="613,812,785,839"/>
+<area shape="rect" id="node23" href="$namespaceanonymous__namespace_02character_8cpp_03.html#af0dadcd72679ae3e6f4cba46b50f2be4" title="anonymous_namespace\l\{character::cpp\}::getFallDamage" alt="" coords="288,1357,523,1398"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1CharacterController.html#adba483bc487443fdd94ba53bad66b4c1" title="MWMechanics::CharacterController\l::updateContinuousVfx" alt="" coords="283,1422,527,1463"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1CharacterController.html#ab44ce38c8abedbd9cd2f900445dfda19" title="MWMechanics::CharacterController\l::updateMagicEffects" alt="" coords="283,1291,527,1333"/>
+<area shape="rect" id="node27" href="$namespaceMWMechanics.html#a5339d8729a5ad2ab4b7ebdff73420e8f" title="MWMechanics::resistNormal\lWeapon" alt="" coords="305,1487,506,1529"/>
+<area shape="rect" id="node30" href="$namespaceMWMechanics.html#a0eca898ae05a994e8463ec1705205788" title="Get the chance (in percent) for attacker to successfully hit victim with a given weapon skill value..." alt="" coords="595,955,802,981"/>
+<area shape="rect" id="node32" href="$namespaceMWMechanics.html#aa9628a68120fe3fbe5e75c0a078389c3" title="Applies damage to attacker based on the victim&#39;s elemental shields. " alt="" coords="590,1130,807,1171"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1CreatureStats.html#a1f2eb44c0507917a0ea6ea038f46c9c0" title="Set Modifier for each magic effect according to effects. Does not touch Base values. " alt="" coords="594,561,803,602"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1CreatureStats.html#ae2b73054fdaf82052f81f3bde5a9c90c" title="MWMechanics::CreatureStats\l::isParalyzed" alt="" coords="301,1006,510,1047"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1World.html#ad980114d5c4b24e19564f387d93568d3" title="MWWorld::World::isFlying" alt="" coords="611,1043,786,1069"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1CreatureStats.html#a73a6c44d487a1c5772380479236c257d" title="MWMechanics::CreatureStats\l::getEvasion" alt="" coords="301,889,510,930"/>
+<area shape="rect" id="node37" href="$namespaceMWMechanics.html#a8ac7efdb8dfc6be15d264727f4ebdcf9" title="MWMechanics::diseaseContact" alt="" coords="589,1225,808,1252"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1MagicEffects.html#a8309f10f3f5c22045c780b9f6f37e739" title="Copy Modifier values from effects, but keep original mBase values. " alt="" coords="306,523,505,565"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1MechanicsManager.html#abb57fd9c23912f213038666f1b4f89e2" title="Calculate the diposition of an NPC toward the player. " alt="" coords="284,1553,527,1594"/>
+<area shape="rect" id="node40" href="$classMWMechanics_1_1MechanicsManager.html#a2839aaaa7ce0a8024f6ba2daa3ce45a5" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="284,823,527,865"/>
+<area shape="rect" id="node41" href="$namespaceMWMechanics.html#ae09ef3992b635b2ab37a801b013b3c89" title="MWMechanics::getSpellSuccess\lChance" alt="" coords="293,1618,517,1659"/>
+<area shape="rect" id="node42" href="$namespaceMWMechanics.html#a26dac939f455e243fb82cd01cbc926b7" title="MWMechanics::getEffectResistance\lAttribute" alt="" coords="283,1174,527,1215"/>
+<area shape="rect" id="node43" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="316,1683,495,1725"/>
+<area shape="rect" id="node44" href="$classMWPhysics_1_1PhysicsSystem.html#a9277c35247eb2b649168b77e62cad326" title="Apply all queued movements, then clear the list. " alt="" coords="308,1749,503,1790"/>
+<area shape="rect" id="node45" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="312,1814,499,1855"/>
+<area shape="rect" id="node46" href="$classMWScript_1_1Stats_1_1OpGetMagicEffect.html#a0afeae5ca79e8bb57d6a5c6181e79a16" title="MWScript::Stats::OpGetMagic\lEffect::execute" alt="" coords="301,1879,510,1921"/>
+<area shape="rect" id="node47" href="$classMWScript_1_1Stats_1_1OpSetMagicEffect.html#a753333426ce45c8b6c112d3b8a73d272" title="MWScript::Stats::OpSetMagic\lEffect::execute" alt="" coords="301,1945,509,1986"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1World.html#a62b8b52938805c4cedc6c8e561101dc1" title="MWWorld::World::updatePlayer" alt="" coords="299,2011,511,2037"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1World.html#acf2df0522e81f92f10bf6b353c5e4b1c" title="MWWorld::World::isSlowFalling" alt="" coords="302,2061,509,2088"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#aee729dac6ead16bf730ba70864692330" title="MWWorld::World::listDetected\lReferences" alt="" coords="303,2113,508,2154"/>
+<area shape="rect" id="node4" href="$classMWClass_1_1Npc.html#ac36db52e4617b06043a71d0c13b41cb2" title="MWClass::Npc::getEncumbrance" alt="" coords="585,160,813,187"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1Actors.html#af347805d67d95cbdcf6afafe6d430cc5" title="MWMechanics::Actors\l::restoreDynamicStats" alt="" coords="615,327,782,369"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1Actors.html#af6f8df7ae0b4bac1cd078f0011ff347f" title="Calculate how many hours the given actor needs to rest in order to be fully healed. " alt="" coords="619,262,779,303"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="881,469,1041,510"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="881,397,1041,438"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="881,555,1041,597"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="881,635,1041,677"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1Actors.html#a2ad05c57d27bc2b1609f6e99b34c90d0" title="MWMechanics::Actors\l::updateNpc" alt="" coords="619,729,779,770"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1Actors.html#a499f6bbd42387ac60a06e80c78f41dc5" title="MWMechanics::Actors\l::engageCombat" alt="" coords="881,837,1041,878"/>
+<area shape="rect" id="node22" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="870,771,1053,813"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="577,1323,821,1365"/>
+<area shape="rect" id="node28" href="$classMWClass_1_1Creature.html#a2b05916462047e35be6006ab8698a36b" title="MWClass::Creature::\lonHit" alt="" coords="623,1517,774,1558"/>
+<area shape="rect" id="node29" href="$classMWClass_1_1Npc.html#ada4bd30292b7cd8588ecb21915d5c8ce" title="MWClass::Npc::onHit" alt="" coords="622,1465,775,1492"/>
+<area shape="rect" id="node31" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="878,1137,1045,1164"/>
 </map>

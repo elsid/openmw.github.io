@@ -1,51 +1,51 @@
 <map id="MWGui::TradeWindow::borrowItem" name="MWGui::TradeWindow::borrowItem">
-<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1217,1035,1391,1062"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="723,296,874,337"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1WindowManager.html#ae48984ee3c004d7836b3103fd6567f25" title="MWBase::WindowManager\l::getInventoryWindow" alt="" coords="711,361,886,402"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1InventoryWindow.html#a7da0e5f20c2a93d43192682f4c512f57" title="MWGui::InventoryWindow\l::getTradeModel" alt="" coords="715,426,883,468"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1TradeItemModel.html#a672cb1af6cc2c02070c12644d4deafc6" title="MWGui::TradeItemModel\l::borrowItemToUs" alt="" coords="205,466,371,508"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1ItemView.html#afa008449a9f9d8eaaa29ecc85d78f304" title="MWGui::ItemView::update" alt="" coords="203,630,373,656"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1TradeWindow.html#a080d0c08850a1cdbcb1e59175ab72752" title="only used for adjusting the gold balance " alt="" coords="213,826,363,868"/>
-<area shape="rect" id="node50" href="$classMWGui_1_1TradeItemModel.html#a5d39bd5ac380cc1619d7d8a3abe6f77c" title="Throws for invalid index or out of range index. " alt="" coords="205,1174,371,1216"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1ItemModel.html#a0b8eac118694036582702bae1aef6338" title="Throws for invalid index or out of range index. " alt="" coords="441,474,623,500"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1TradeItemModel.html#afe72970560d7799f79eaa04cb7324441" title="MWGui::TradeItemModel\l::borrowImpl" alt="" coords="449,408,615,449"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1ItemModel.html#a8fd3e3a25fdd533079e5674e9dadfb5b" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="443,888,621,915"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1ItemView.html#a578d84477425a9c5dd3801f9e45b815f" title="MWGui::ItemView::onSelected\lBackground" alt="" coords="435,525,629,566"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1ItemView.html#a05e0915c936a5330a494284e4e3748b7" title="MWGui::ItemView::onMouse\lWheelMoved" alt="" coords="441,590,623,632"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1ItemModel.html#a2ba1d3f6b927de7f7c9c802d0a798f24" title="MWGui::ItemModel::getItem\lCount" alt="" coords="441,656,623,697"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1ItemWidget.html#a5f711291cd5dcf91b47b1471642000dd" title="ptr may be empty " alt="" coords="461,144,603,185"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1ItemWidget.html#aafe8ba39c2502cd7d22ea97952dce7fc" title="Set count to be displayed in a textbox over the item. " alt="" coords="461,721,603,762"/>
-<area shape="rect" id="node24" href="$classMWGui_1_1ItemView.html#a121c2411cee1a049d027d05ac24285e0" title="MWGui::ItemView::onSelectedItem" alt="" coords="421,787,643,814"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1ItemView.html#ae0cec4d5e51ae8f27af19d40bf9b8a74" title="MWGui::ItemView::layoutWidgets" alt="" coords="427,838,637,864"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="723,78,875,104"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1226,456,1382,483"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="691,179,906,206"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1ItemWidget.html#a337efa47c7a34bd2b5238ccfcee39dc5" title="MWGui::ItemWidget::\lsetFrame" alt="" coords="727,230,870,272"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1ItemWidget.html#a3f47473fba1f4622712370bc4ee723ad" title="MWGui::ItemWidget::\lsetIcon" alt="" coords="727,12,870,53"/>
-<area shape="rect" id="node21" href="$namespaceanonymous__namespace_02itemwidget_8cpp_03.html#ae3dd137ee75cc20150c72f9bd26b2a83" title="anonymous_namespace\l\{itemwidget::cpp\}::getCount\lString" alt="" coords="969,714,1146,770"/>
-<area shape="rect" id="node22" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="1223,793,1385,834"/>
-<area shape="rect" id="node23" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="1485,800,1531,827"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1TradeWindow.html#a5e411735000fe0ad57f674e77b8a93f3" title="MWGui::TradeWindow\l::updateOffer" alt="" coords="457,940,607,981"/>
-<area shape="rect" id="node28" href="$classMWGui_1_1TradeItemModel.html#a034887b1cdf4e26fa01c299eed2c137c" title="MWGui::TradeItemModel\l::getItemsBorrowedToUs" alt="" coords="716,1057,881,1098"/>
-<area shape="rect" id="node29" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="719,874,878,916"/>
-<area shape="rect" id="node30" href="$classMWBase_1_1MechanicsManager.html#a9c08bc46cec81a7f65f47ef060680eb4" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="703,940,895,981"/>
-<area shape="rect" id="node31" href="$namespaceanonymous__namespace_02tradewindow_8cpp_03.html#ad75cea9d3640e37e216b963bc7257b55" title="anonymous_namespace\l\{tradewindow::cpp\}::\lgetEffectiveValue" alt="" coords="719,491,879,547"/>
-<area shape="rect" id="node38" href="$classMWGui_1_1TradeWindow.html#a3188166252ca0c455883f8dff918e1ff" title="MWGui::TradeWindow\l::updateLabels" alt="" coords="724,801,873,842"/>
-<area shape="rect" id="node32" href="$classMWWorld_1_1Class.html#a2a42b6ff7fc3f516327ab9171a6834ba" title="MWWorld::Class::getValue" alt="" coords="972,431,1143,458"/>
-<area shape="rect" id="node33" href="$classMWWorld_1_1Class.html#a6689ca20c9048824b3da7832c156dc10" title="MWWorld::Class::hasItemHealth" alt="" coords="955,482,1159,508"/>
-<area shape="rect" id="node34" href="$classMWWorld_1_1Class.html#a5537c9812ceb8e5a8100652eac05ec63" title="Return current item health or throw an exception if class does not have item health. " alt="" coords="956,78,1159,104"/>
-<area shape="rect" id="node37" href="$classMWWorld_1_1Class.html#a57ed3b8775968f13bb4460b3833a9021" title="MWWorld::Class::getItemMax\lHealth" alt="" coords="1209,9,1399,50"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1ConstPtr.html#afa407c744b51f45e0b8e3eec160cb7a2" title="MWWorld::ConstPtr::\lgetCellRef" alt="" coords="1234,74,1374,116"/>
-<area shape="rect" id="node36" href="$classMWWorld_1_1CellRef.html#a4b3b28f98b80448c7b7d5c3b364976b7" title="MWWorld::CellRef::getCharge" alt="" coords="1209,140,1399,167"/>
-<area shape="rect" id="node39" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="974,976,1141,1003"/>
-<area shape="rect" id="node42" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="960,910,1155,952"/>
-<area shape="rect" id="node43" href="$classMWWorld_1_1ContainerStore.html#aff176edbad26cdd416517a42a87a39ea" title="MWWorld::ContainerStore\l::count" alt="" coords="972,584,1143,625"/>
-<area shape="rect" id="node46" href="$classGui_1_1NumericEditBox.html#ab6befad079d96d9a4f1be04d399ff67b" title="Gui::NumericEditBox\l::setValue" alt="" coords="987,793,1127,834"/>
-<area shape="rect" id="node47" href="$classMWGui_1_1TradeWindow.html#a096c1a0bed976abdd252ef2ec42817a3" title="MWGui::TradeWindow\l::getMerchantGold" alt="" coords="983,649,1132,690"/>
-<area shape="rect" id="node40" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1229,969,1379,1010"/>
-<area shape="rect" id="node41" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1209,918,1399,944"/>
-<area shape="rect" id="node44" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="1244,584,1364,625"/>
-<area shape="rect" id="node45" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1448,584,1568,625"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="1210,714,1398,756"/>
-<area shape="rect" id="node49" href="$classMWMechanics_1_1CreatureStats.html#a86a79f6bee0ab6ffc653bf89eaebc9d7" title="MWMechanics::CreatureStats\l::getGoldPool" alt="" coords="1208,649,1400,690"/>
+<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1291,1039,1485,1065"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="763,299,928,341"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1WindowManager.html#ae48984ee3c004d7836b3103fd6567f25" title="MWBase::WindowManager\l::getInventoryWindow" alt="" coords="752,365,939,406"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1InventoryWindow.html#a7da0e5f20c2a93d43192682f4c512f57" title="MWGui::InventoryWindow\l::getTradeModel" alt="" coords="756,430,935,471"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1TradeItemModel.html#a672cb1af6cc2c02070c12644d4deafc6" title="MWGui::TradeItemModel\l::borrowItemToUs" alt="" coords="213,470,387,511"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1ItemView.html#afa008449a9f9d8eaaa29ecc85d78f304" title="MWGui::ItemView::update" alt="" coords="209,633,391,660"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1TradeWindow.html#a080d0c08850a1cdbcb1e59175ab72752" title="only used for adjusting the gold balance " alt="" coords="223,830,377,871"/>
+<area shape="rect" id="node50" href="$classMWGui_1_1TradeItemModel.html#a5d39bd5ac380cc1619d7d8a3abe6f77c" title="Throws for invalid index or out of range index. " alt="" coords="213,1178,387,1219"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1ItemModel.html#a0b8eac118694036582702bae1aef6338" title="Throws for invalid index or out of range index. " alt="" coords="461,477,659,504"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1TradeItemModel.html#afe72970560d7799f79eaa04cb7324441" title="MWGui::TradeItemModel\l::borrowImpl" alt="" coords="473,411,647,453"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1ItemModel.html#a8fd3e3a25fdd533079e5674e9dadfb5b" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="463,892,657,919"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1ItemView.html#a578d84477425a9c5dd3801f9e45b815f" title="MWGui::ItemView::onSelected\lBackground" alt="" coords="455,529,665,570"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1ItemView.html#a05e0915c936a5330a494284e4e3748b7" title="MWGui::ItemView::onMouse\lWheelMoved" alt="" coords="462,594,658,635"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1ItemModel.html#a2ba1d3f6b927de7f7c9c802d0a798f24" title="MWGui::ItemModel::getItem\lCount" alt="" coords="461,659,659,701"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1ItemWidget.html#a5f711291cd5dcf91b47b1471642000dd" title="ptr may be empty " alt="" coords="483,147,637,189"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1ItemWidget.html#aafe8ba39c2502cd7d22ea97952dce7fc" title="Set count to be displayed in a textbox over the item. " alt="" coords="483,725,637,766"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1ItemView.html#a121c2411cee1a049d027d05ac24285e0" title="MWGui::ItemView::onSelectedItem" alt="" coords="441,791,679,817"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1ItemView.html#ae0cec4d5e51ae8f27af19d40bf9b8a74" title="MWGui::ItemView::layoutWidgets" alt="" coords="447,841,673,868"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="764,81,927,108"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1305,460,1471,487"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="728,183,963,209"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1ItemWidget.html#a337efa47c7a34bd2b5238ccfcee39dc5" title="MWGui::ItemWidget::\lsetFrame" alt="" coords="769,234,922,275"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1ItemWidget.html#a3f47473fba1f4622712370bc4ee723ad" title="MWGui::ItemWidget::\lsetIcon" alt="" coords="769,15,922,57"/>
+<area shape="rect" id="node21" href="$namespaceanonymous__namespace_02itemwidget_8cpp_03.html#ae3dd137ee75cc20150c72f9bd26b2a83" title="anonymous_namespace\l\{itemwidget::cpp\}::getCount\lString" alt="" coords="1019,717,1226,773"/>
+<area shape="rect" id="node22" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="1293,797,1483,838"/>
+<area shape="rect" id="node23" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="1583,804,1633,831"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1TradeWindow.html#a5e411735000fe0ad57f674e77b8a93f3" title="MWGui::TradeWindow\l::updateOffer" alt="" coords="483,943,637,985"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1TradeItemModel.html#a034887b1cdf4e26fa01c299eed2c137c" title="MWGui::TradeItemModel\l::getItemsBorrowedToUs" alt="" coords="757,1061,934,1102"/>
+<area shape="rect" id="node29" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="758,878,933,919"/>
+<area shape="rect" id="node30" href="$classMWBase_1_1MechanicsManager.html#a9c08bc46cec81a7f65f47ef060680eb4" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="742,943,949,985"/>
+<area shape="rect" id="node31" href="$namespaceanonymous__namespace_02tradewindow_8cpp_03.html#ad75cea9d3640e37e216b963bc7257b55" title="anonymous_namespace\l\{tradewindow::cpp\}::\lgetEffectiveValue" alt="" coords="756,495,935,551"/>
+<area shape="rect" id="node38" href="$classMWGui_1_1TradeWindow.html#a3188166252ca0c455883f8dff918e1ff" title="MWGui::TradeWindow\l::updateLabels" alt="" coords="768,805,923,846"/>
+<area shape="rect" id="node32" href="$classMWWorld_1_1Class.html#a2a42b6ff7fc3f516327ab9171a6834ba" title="MWWorld::Class::getValue" alt="" coords="1031,435,1215,461"/>
+<area shape="rect" id="node33" href="$classMWWorld_1_1Class.html#a6689ca20c9048824b3da7832c156dc10" title="MWWorld::Class::hasItemHealth" alt="" coords="1011,485,1234,512"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1Class.html#a5537c9812ceb8e5a8100652eac05ec63" title="Return current item health or throw an exception if class does not have item health. " alt="" coords="1013,81,1233,108"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1Class.html#a57ed3b8775968f13bb4460b3833a9021" title="MWWorld::Class::getItemMax\lHealth" alt="" coords="1286,13,1490,54"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1ConstPtr.html#afa407c744b51f45e0b8e3eec160cb7a2" title="MWWorld::ConstPtr::\lgetCellRef" alt="" coords="1313,78,1463,119"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1CellRef.html#a4b3b28f98b80448c7b7d5c3b364976b7" title="MWWorld::CellRef::getCharge" alt="" coords="1287,144,1489,171"/>
+<area shape="rect" id="node39" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="1033,980,1212,1007"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="1017,914,1228,955"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1ContainerStore.html#aff176edbad26cdd416517a42a87a39ea" title="MWWorld::ContainerStore\l::count" alt="" coords="1031,587,1214,629"/>
+<area shape="rect" id="node46" href="$classGui_1_1NumericEditBox.html#ab6befad079d96d9a4f1be04d399ff67b" title="Gui::NumericEditBox\l::setValue" alt="" coords="1046,797,1199,838"/>
+<area shape="rect" id="node47" href="$classMWGui_1_1TradeWindow.html#a096c1a0bed976abdd252ef2ec42817a3" title="MWGui::TradeWindow\l::getMerchantGold" alt="" coords="1045,653,1200,694"/>
+<area shape="rect" id="node40" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1305,973,1471,1014"/>
+<area shape="rect" id="node41" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1286,921,1490,948"/>
+<area shape="rect" id="node44" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="1322,587,1454,629"/>
+<area shape="rect" id="node45" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1542,587,1674,629"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="1285,718,1491,759"/>
+<area shape="rect" id="node49" href="$classMWMechanics_1_1CreatureStats.html#a86a79f6bee0ab6ffc653bf89eaebc9d7" title="MWMechanics::CreatureStats\l::getGoldPool" alt="" coords="1283,653,1493,694"/>
 </map>

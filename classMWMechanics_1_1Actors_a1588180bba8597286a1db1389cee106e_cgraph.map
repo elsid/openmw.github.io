@@ -1,51 +1,51 @@
 <map id="MWMechanics::Actors::update" name="MWMechanics::Actors::update">
-<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="499,741,666,768"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="745,1019,919,1045"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="757,1302,907,1343"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="497,172,669,199"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="482,223,683,249"/>
-<area shape="rect" id="node8" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="507,121,658,148"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1World.html#ae3dee76f73791fe241b9b31eb61232a7" title="Has the set of active cells changed, since the last frame? " alt="" coords="211,384,423,411"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1Actors.html#a2c9ef0e9aab4d686c6aa393bdb9e9f5b" title="Updates an actor with a new Ptr. " alt="" coords="242,5,393,46"/>
-<area shape="rect" id="node12" href="$namespaceanonymous__namespace_02actors_8cpp_03.html#a229146c18dcc3b72d7f13f271a0b7fc5" title="anonymous_namespace\l\{actors::cpp\}::adjustCommanded\lActor" alt="" coords="215,968,420,1024"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="505,1061,661,1088"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="489,1113,677,1154"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1CreatureStats.html#a41095b0401003a54a35299813ed2909f" title="MWMechanics::CreatureStats\l::getAiSequence" alt="" coords="487,793,679,834"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1Actors.html#a499f6bbd42387ac60a06e80c78f41dc5" title="MWMechanics::Actors\l::engageCombat" alt="" coords="242,587,393,629"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1AiSequence.html#a9700908faffb850096663704eaef39f4" title="Is there any combat package? " alt="" coords="491,375,674,417"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="487,1666,679,1707"/>
-<area shape="rect" id="node24" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="503,493,662,534"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1World.html#aae3a221bbcc01a4809dc900da7064969" title="get Line of Sight (morrowind stupid implementation) " alt="" coords="501,273,664,300"/>
-<area shape="rect" id="node26" href="$classMWBase_1_1MechanicsManager.html#ad4cf9151488f6d826b0a45e5e56fb8dc" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="487,558,679,599"/>
-<area shape="rect" id="node27" href="$classMWMechanics_1_1Actors.html#a198c59c3c8a2245c1b6a223f10df9a17" title="MWMechanics::Actors\l::updateHeadTracking" alt="" coords="242,1150,393,1191"/>
-<area shape="rect" id="node28" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="499,1331,667,1357"/>
-<area shape="rect" id="node29" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="499,1280,666,1307"/>
-<area shape="rect" id="node30" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="490,1615,675,1641"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1Actors.html#a41c4de50f4d384d438e68c523e88c5f5" title="MWMechanics::Actors\l::updateCrimePersuit" alt="" coords="242,851,393,893"/>
-<area shape="rect" id="node32" href="$structESM_1_1GameSetting.html#a1fcd19eb4d50405ecf1e9b4920a48f9d" title="Throws an exception if GMST is not of type int or float. " alt="" coords="497,960,668,987"/>
-<area shape="rect" id="node33" href="$namespaceanonymous__namespace_02actors_8cpp_03.html#aa433ef047bc5f039480c811e29d7e2fb" title="anonymous_namespace\l\{actors::cpp\}::isConscious" alt="" coords="234,1333,401,1374"/>
-<area shape="rect" id="node34" href="$classMWMechanics_1_1CreatureStats.html#a4a90e70442c62575c00017c0ea0626cc" title="MWMechanics::CreatureStats\l::getKnockedDown" alt="" coords="487,1899,679,1941"/>
-<area shape="rect" id="node35" href="$classMWMechanics_1_1AiSequence.html#a0039d58e1bc6e4efb0227bcb57ce8eec" title="Execute current package, switching if needed. " alt="" coords="226,223,409,265"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1Actors.html#a2ad05c57d27bc2b1609f6e99b34c90d0" title="MWMechanics::Actors\l::updateNpc" alt="" coords="242,1618,393,1659"/>
-<area shape="rect" id="node37" href="$classMWMechanics_1_1CharacterController.html#afb0d7242b8f1bd7ebd5185cd30855358" title="MWMechanics::CharacterController\l::skipAnim" alt="" coords="205,1683,429,1725"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="205,1267,429,1309"/>
-<area shape="rect" id="node39" href="$classMWWorld_1_1Class.html#a3593e974c4000b21d5a178093bc491cc" title="MWWorld::Class::skillUsage\lSucceeded" alt="" coords="493,1834,672,1875"/>
-<area shape="rect" id="node40" href="$classMWMechanics_1_1CreatureStats.html#ab27d0adbcc6da33c4bb2dfed24b0d07c" title="Returns true only for the first frame of the actor being knocked out; used for &quot;onKnockedOut&quot; command..." alt="" coords="221,1851,413,1893"/>
-<area shape="rect" id="node41" href="$classMWMechanics_1_1CreatureStats.html#ac5396525b7f510841c61bdfeed691c48" title="Returns true for all but the first frame of being knocked out; used to know to not reset mKnockedDown..." alt="" coords="209,1917,426,1958"/>
-<area shape="rect" id="node42" href="$classMWMechanics_1_1CreatureStats.html#aaad367bda655c559923a85f66eb5593f" title="MWMechanics::CreatureStats\l::setKnockedDownOneFrame" alt="" coords="221,1982,413,2023"/>
-<area shape="rect" id="node43" href="$classMWMechanics_1_1CreatureStats.html#a1575f1b868c0371eda42e0b9bd16ddec" title="MWMechanics::CreatureStats\l::setKnockedDownOverOneFrame" alt="" coords="209,2047,425,2089"/>
-<area shape="rect" id="node44" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="242,1501,393,1542"/>
-<area shape="rect" id="node45" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="507,1995,658,2037"/>
-<area shape="rect" id="node46" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="507,2119,658,2161"/>
-<area shape="rect" id="node47" href="$classMWBase_1_1SoundManager.html#a27799e3b5090147ed5ad350971d61542" title="Returns true if music is playing. " alt="" coords="234,2266,401,2307"/>
-<area shape="rect" id="node48" href="$classMWBase_1_1SoundManager.html#ae587b8ac118b236f17f6fa70be5fca3e" title="MWBase::SoundManager\l::playPlaylist" alt="" coords="234,2331,401,2373"/>
-<area shape="rect" id="node49" href="$classMWMechanics_1_1CharacterController.html#ac59beffe3d19f4b617093a4cd34580fa" title="MWMechanics::CharacterController\l::isSneaking" alt="" coords="205,2397,429,2438"/>
-<area shape="rect" id="node50" href="$classMWBase_1_1WindowManager.html#ae1f52c9558a7d7bb60c0a545c622cde1" title="MWBase::WindowManager\l::setSneakVisibility" alt="" coords="230,2462,405,2503"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="737,741,927,768"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1Actor.html#afd2598e7fb0b4b700ad950c4a30ad5e0" title="Notify this actor of its new base object Ptr, use when the object changed cells. " alt="" coords="511,5,655,46"/>
-<area shape="rect" id="node13" href="$namespaceInterpreter.html#af1718d8e881fe5c2cf5bd5802fb6f846" title="Interpreter::check" alt="" coords="521,1011,644,1037"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="487,1447,679,1489"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1ActiveSpells.html#ab70b2de3202110707efc8f5c2e1bc495" title="MWMechanics::ActiveSpells\l::visitEffectSources" alt="" coords="491,1382,675,1423"/>
-<area shape="rect" id="node19" href="$classMWMechanics_1_1AiSequence.html#a259c45fa5e5ddbb3105becf9ed8da16e" title="Iterator may be invalidated by any function calls other than begin() or end(). " alt="" coords="491,675,674,717"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1AiSequence.html#a3e287dcf831fd497ec8e41b5a6f904b3" title="MWMechanics::AiSequence::end" alt="" coords="477,624,688,651"/>
+<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="531,741,709,768"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="787,1019,981,1045"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="801,1302,967,1343"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="529,172,711,199"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="513,223,727,249"/>
+<area shape="rect" id="node8" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="539,121,701,148"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1World.html#ae3dee76f73791fe241b9b31eb61232a7" title="Has the set of active cells changed, since the last frame? " alt="" coords="221,384,451,411"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1Actors.html#a2c9ef0e9aab4d686c6aa393bdb9e9f5b" title="Updates an actor with a new Ptr. " alt="" coords="256,5,416,46"/>
+<area shape="rect" id="node12" href="$namespaceanonymous__namespace_02actors_8cpp_03.html#a229146c18dcc3b72d7f13f271a0b7fc5" title="anonymous_namespace\l\{actors::cpp\}::adjustCommanded\lActor" alt="" coords="217,968,455,1024"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="537,1061,703,1088"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="517,1113,723,1154"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1CreatureStats.html#a41095b0401003a54a35299813ed2909f" title="MWMechanics::CreatureStats\l::getAiSequence" alt="" coords="515,793,725,834"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1Actors.html#a499f6bbd42387ac60a06e80c78f41dc5" title="MWMechanics::Actors\l::engageCombat" alt="" coords="256,587,416,629"/>
+<area shape="rect" id="node22" href="$classMWMechanics_1_1AiSequence.html#a9700908faffb850096663704eaef39f4" title="Is there any combat package? " alt="" coords="523,375,717,417"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="515,1666,725,1707"/>
+<area shape="rect" id="node24" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="533,493,707,534"/>
+<area shape="rect" id="node25" href="$classMWBase_1_1World.html#aae3a221bbcc01a4809dc900da7064969" title="get Line of Sight (morrowind stupid implementation) " alt="" coords="533,273,707,300"/>
+<area shape="rect" id="node26" href="$classMWBase_1_1MechanicsManager.html#ad4cf9151488f6d826b0a45e5e56fb8dc" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="517,558,723,599"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1Actors.html#a198c59c3c8a2245c1b6a223f10df9a17" title="MWMechanics::Actors\l::updateHeadTracking" alt="" coords="256,1150,416,1191"/>
+<area shape="rect" id="node28" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="529,1331,711,1357"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="531,1280,709,1307"/>
+<area shape="rect" id="node30" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="519,1615,721,1641"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1Actors.html#a41c4de50f4d384d438e68c523e88c5f5" title="MWMechanics::Actors\l::updateCrimePersuit" alt="" coords="256,851,416,893"/>
+<area shape="rect" id="node32" href="$structESM_1_1GameSetting.html#a1fcd19eb4d50405ecf1e9b4920a48f9d" title="Throws an exception if GMST is not of type int or float. " alt="" coords="526,960,714,987"/>
+<area shape="rect" id="node33" href="$namespaceanonymous__namespace_02actors_8cpp_03.html#aa433ef047bc5f039480c811e29d7e2fb" title="anonymous_namespace\l\{actors::cpp\}::isConscious" alt="" coords="240,1333,432,1374"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1CreatureStats.html#a4a90e70442c62575c00017c0ea0626cc" title="MWMechanics::CreatureStats\l::getKnockedDown" alt="" coords="515,1899,725,1941"/>
+<area shape="rect" id="node35" href="$classMWMechanics_1_1AiSequence.html#a0039d58e1bc6e4efb0227bcb57ce8eec" title="Execute current package, switching if needed. " alt="" coords="239,223,433,265"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1Actors.html#a2ad05c57d27bc2b1609f6e99b34c90d0" title="MWMechanics::Actors\l::updateNpc" alt="" coords="256,1618,416,1659"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1CharacterController.html#afb0d7242b8f1bd7ebd5185cd30855358" title="MWMechanics::CharacterController\l::skipAnim" alt="" coords="214,1683,458,1725"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="214,1267,458,1309"/>
+<area shape="rect" id="node39" href="$classMWWorld_1_1Class.html#a3593e974c4000b21d5a178093bc491cc" title="MWWorld::Class::skillUsage\lSucceeded" alt="" coords="524,1834,716,1875"/>
+<area shape="rect" id="node40" href="$classMWMechanics_1_1CreatureStats.html#ab27d0adbcc6da33c4bb2dfed24b0d07c" title="Returns true only for the first frame of the actor being knocked out; used for &quot;onKnockedOut&quot; command..." alt="" coords="231,1851,441,1893"/>
+<area shape="rect" id="node41" href="$classMWMechanics_1_1CreatureStats.html#ac5396525b7f510841c61bdfeed691c48" title="Returns true for all but the first frame of being knocked out; used to know to not reset mKnockedDown..." alt="" coords="218,1917,454,1958"/>
+<area shape="rect" id="node42" href="$classMWMechanics_1_1CreatureStats.html#aaad367bda655c559923a85f66eb5593f" title="MWMechanics::CreatureStats\l::setKnockedDownOneFrame" alt="" coords="231,1982,441,2023"/>
+<area shape="rect" id="node43" href="$classMWMechanics_1_1CreatureStats.html#a1575f1b868c0371eda42e0b9bd16ddec" title="MWMechanics::CreatureStats\l::setKnockedDownOverOneFrame" alt="" coords="219,2047,453,2089"/>
+<area shape="rect" id="node44" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="256,1501,416,1542"/>
+<area shape="rect" id="node45" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="537,1995,703,2037"/>
+<area shape="rect" id="node46" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="537,2119,703,2161"/>
+<area shape="rect" id="node47" href="$classMWBase_1_1SoundManager.html#a27799e3b5090147ed5ad350971d61542" title="Returns true if music is playing. " alt="" coords="245,2266,427,2307"/>
+<area shape="rect" id="node48" href="$classMWBase_1_1SoundManager.html#ae587b8ac118b236f17f6fa70be5fca3e" title="MWBase::SoundManager\l::playPlaylist" alt="" coords="245,2331,427,2373"/>
+<area shape="rect" id="node49" href="$classMWMechanics_1_1CharacterController.html#ac59beffe3d19f4b617093a4cd34580fa" title="MWMechanics::CharacterController\l::isSneaking" alt="" coords="214,2397,458,2438"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1WindowManager.html#ae1f52c9558a7d7bb60c0a545c622cde1" title="MWBase::WindowManager\l::setSneakVisibility" alt="" coords="243,2462,429,2503"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="782,741,986,768"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1Actor.html#afd2598e7fb0b4b700ad950c4a30ad5e0" title="Notify this actor of its new base object Ptr, use when the object changed cells. " alt="" coords="543,5,697,46"/>
+<area shape="rect" id="node13" href="$namespaceInterpreter.html#af1718d8e881fe5c2cf5bd5802fb6f846" title="Interpreter::check" alt="" coords="553,1011,687,1037"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="515,1447,725,1489"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1ActiveSpells.html#ab70b2de3202110707efc8f5c2e1bc495" title="MWMechanics::ActiveSpells\l::visitEffectSources" alt="" coords="522,1382,718,1423"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1AiSequence.html#a259c45fa5e5ddbb3105becf9ed8da16e" title="Iterator may be invalidated by any function calls other than begin() or end(). " alt="" coords="523,675,717,717"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1AiSequence.html#a3e287dcf831fd497ec8e41b5a6f904b3" title="MWMechanics::AiSequence::end" alt="" coords="507,624,733,651"/>
 </map>

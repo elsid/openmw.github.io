@@ -1,39 +1,39 @@
 <map id="MWRender::GlobalMap::render" name="MWRender::GlobalMap::render">
-<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="209,5,383,32"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="221,57,371,98"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="212,123,380,149"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="213,173,379,200"/>
-<area shape="rect" id="node6" href="$classLoading_1_1Listener.html#aaaad5a85d9b1e89b9deb15b181c0eab9" title="Loading::Listener::\lloadingOn" alt="" coords="234,225,358,266"/>
-<area shape="rect" id="node7" href="$classLoading_1_1Listener.html#ab51c4d65855d29c1b194ce3011e01c62" title="Loading::Listener::\lsetLabel" alt="" coords="234,290,358,331"/>
-<area shape="rect" id="node8" href="$classLoading_1_1Listener.html#aa4ccb0e3fa9892b67f55de7195c5100f" title="Set the total range of progress (e.g. the number of objects to load). " alt="" coords="233,355,359,397"/>
-<area shape="rect" id="node9" href="$classLoading_1_1Listener.html#a2a0ca87b6be0b09f158358ba506247b3" title="Set current progress. Valid range is [0, progressRange) " alt="" coords="234,421,358,462"/>
-<area shape="rect" id="node10" href="$structESM_1_1Land.html#a39659f08545cd36978d562b0444c5a73" title="ESM::Land::isDataLoaded" alt="" coords="212,487,380,513"/>
-<area shape="rect" id="node11" href="$structESM_1_1Land.html#a9ca0eace2254195fc4a2128bb682ce47" title="ESM::Land::loadData" alt="" coords="460,561,601,588"/>
-<area shape="rect" id="node32" href="$structESM_1_1Land.html#a2df4f26980044b068986af6b74b4ecb3" title="ESM::Land::getLandData" alt="" coords="215,537,377,564"/>
-<area shape="rect" id="node33" href="$classLoading_1_1Listener.html#a06e917f47fdb33bc780ea5909a4fc3d2" title="Increase current progress, default by 1. " alt="" coords="234,639,358,681"/>
-<area shape="rect" id="node34" href="$structESM_1_1Land.html#ad61cc62654b84e8552d967acdac99af9" title="ESM::Land::unloadData" alt="" coords="219,705,373,732"/>
-<area shape="rect" id="node35" href="$classMWRender_1_1GlobalMap.html#afdffc54ca10f09837cb410be18168cfb" title="Clears the overlay. " alt="" coords="219,757,373,798"/>
-<area shape="rect" id="node38" href="$classLoading_1_1Listener.html#abdf5f35a55de41f4a0098aa0884b8d8f" title="Loading::Listener::\lloadingOff" alt="" coords="234,822,358,863"/>
-<area shape="rect" id="node12" href="$classESM_1_1ESMReader.html#ace62de398c94b922144f2d694cb0e766" title="ESM::ESMReader::restoreContext" alt="" coords="690,683,905,709"/>
-<area shape="rect" id="node16" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="703,416,892,443"/>
-<area shape="rect" id="node23" href="$structESM_1_1Land.html#ad4dd1550a7d939dc1f234ecc45e2c4b2" title="ESM::Land::condLoad" alt="" coords="724,527,871,553"/>
-<area shape="rect" id="node31" href="$structESM_1_1Land_1_1LandData.html#a3620e84edfd356b6a706da397f60fd23" title="ESM::Land::LandData\l::transposeTextureData" alt="" coords="721,578,874,619"/>
-<area shape="rect" id="node13" href="$classESM_1_1ESMReader.html#aec84cf1e1b4d63ed1b334fea4ad76966" title="ESM::ESMReader::openRaw" alt="" coords="979,696,1163,723"/>
-<area shape="rect" id="node14" href="$classESM_1_1ESMReader.html#a8d9023ee65e81dd049f1a2ed3ec77c55" title="ESM::ESMReader::close" alt="" coords="1239,739,1401,765"/>
-<area shape="rect" id="node15" href="$classESM_1_1FIXED__STRING__BASE.html#a154bd4f88b7711e6ebb709f6fbbb7dfe" title="ESM::FIXED_STRING_BASE\l::clear" alt="" coords="1475,735,1667,777"/>
-<area shape="rect" id="node17" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="967,409,1174,436"/>
-<area shape="rect" id="node18" href="$classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" title="ESM::FIXED_STRING_BASE\l::data_size" alt="" coords="1224,314,1416,355"/>
-<area shape="rect" id="node19" href="$classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" title="ESM::ESMReader::getExact" alt="" coords="1976,507,2157,533"/>
-<area shape="rect" id="node22" href="$structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data" alt="" coords="1241,431,1399,473"/>
-<area shape="rect" id="node20" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="2206,545,2354,572"/>
-<area shape="rect" id="node21" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="2403,538,2595,579"/>
-<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#ae682dd0473dd84c4e7155c3be70a3a02" title="ESM::ESMReader::getHExact" alt="" coords="1225,505,1415,532"/>
-<area shape="rect" id="node27" href="$classESM_1_1ESMReader.html#a91366fc3522e6e24929aeeb6a4e6b0e3" title="ESM::ESMReader::skipHSubSize" alt="" coords="965,628,1176,655"/>
-<area shape="rect" id="node25" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="1464,556,1677,583"/>
-<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1748,532,1905,559"/>
-<area shape="rect" id="node28" href="$classESM_1_1ESMReader.html#a1b4ca455240f53cfa6d49f9a4a084354" title="ESM::ESMReader::skipHSub" alt="" coords="1227,628,1413,655"/>
-<area shape="rect" id="node29" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="1493,632,1648,659"/>
-<area shape="rect" id="node30" href="$classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" title="Get the current position in the file. Make sure that the file has been opened! " alt="" coords="1725,633,1928,660"/>
-<area shape="rect" id="node36" href="$classMWRender_1_1GlobalMap.html#a94d5f6ba891651d7c458dda69cdd7e27" title="MWRender::GlobalMap\l::requestOverlayTextureUpdate" alt="" coords="432,757,629,798"/>
-<area shape="rect" id="node37" href="$namespaceanonymous__namespace_02globalmap_8cpp_03.html#a8310f071332da838c9a8a469f8581bac" title="anonymous_namespace\l\{globalmap::cpp\}::createTexturedQuad" alt="" coords="678,757,917,798"/>
+<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="216,5,411,32"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="231,57,396,98"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="222,123,405,149"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="224,173,403,200"/>
+<area shape="rect" id="node6" href="$classLoading_1_1Listener.html#aaaad5a85d9b1e89b9deb15b181c0eab9" title="Loading::Listener::\lloadingOn" alt="" coords="244,225,383,266"/>
+<area shape="rect" id="node7" href="$classLoading_1_1Listener.html#ab51c4d65855d29c1b194ce3011e01c62" title="Loading::Listener::\lsetLabel" alt="" coords="244,290,383,331"/>
+<area shape="rect" id="node8" href="$classLoading_1_1Listener.html#aa4ccb0e3fa9892b67f55de7195c5100f" title="Set the total range of progress (e.g. the number of objects to load). " alt="" coords="244,355,383,397"/>
+<area shape="rect" id="node9" href="$classLoading_1_1Listener.html#a2a0ca87b6be0b09f158358ba506247b3" title="Set current progress. Valid range is [0, progressRange) " alt="" coords="244,421,383,462"/>
+<area shape="rect" id="node10" href="$structESM_1_1Land.html#a39659f08545cd36978d562b0444c5a73" title="ESM::Land::isDataLoaded" alt="" coords="221,487,406,513"/>
+<area shape="rect" id="node11" href="$structESM_1_1Land.html#a9ca0eace2254195fc4a2128bb682ce47" title="ESM::Land::loadData" alt="" coords="492,561,647,588"/>
+<area shape="rect" id="node32" href="$structESM_1_1Land.html#a2df4f26980044b068986af6b74b4ecb3" title="ESM::Land::getLandData" alt="" coords="223,537,403,564"/>
+<area shape="rect" id="node33" href="$classLoading_1_1Listener.html#a06e917f47fdb33bc780ea5909a4fc3d2" title="Increase current progress, default by 1. " alt="" coords="244,639,383,681"/>
+<area shape="rect" id="node34" href="$structESM_1_1Land.html#ad61cc62654b84e8552d967acdac99af9" title="ESM::Land::unloadData" alt="" coords="228,705,399,732"/>
+<area shape="rect" id="node35" href="$classMWRender_1_1GlobalMap.html#afdffc54ca10f09837cb410be18168cfb" title="Clears the overlay. " alt="" coords="232,757,395,798"/>
+<area shape="rect" id="node38" href="$classLoading_1_1Listener.html#abdf5f35a55de41f4a0098aa0884b8d8f" title="Loading::Listener::\lloadingOff" alt="" coords="244,822,383,863"/>
+<area shape="rect" id="node12" href="$classESM_1_1ESMReader.html#ace62de398c94b922144f2d694cb0e766" title="ESM::ESMReader::restoreContext" alt="" coords="748,683,983,709"/>
+<area shape="rect" id="node16" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="764,416,967,443"/>
+<area shape="rect" id="node23" href="$structESM_1_1Land.html#ad4dd1550a7d939dc1f234ecc45e2c4b2" title="ESM::Land::condLoad" alt="" coords="786,527,945,553"/>
+<area shape="rect" id="node31" href="$structESM_1_1Land_1_1LandData.html#a3620e84edfd356b6a706da397f60fd23" title="ESM::Land::LandData\l::transposeTextureData" alt="" coords="780,578,951,619"/>
+<area shape="rect" id="node13" href="$classESM_1_1ESMReader.html#aec84cf1e1b4d63ed1b334fea4ad76966" title="ESM::ESMReader::openRaw" alt="" coords="1067,696,1261,723"/>
+<area shape="rect" id="node14" href="$classESM_1_1ESMReader.html#a8d9023ee65e81dd049f1a2ed3ec77c55" title="ESM::ESMReader::close" alt="" coords="1343,739,1513,765"/>
+<area shape="rect" id="node15" href="$classESM_1_1FIXED__STRING__BASE.html#a154bd4f88b7711e6ebb709f6fbbb7dfe" title="ESM::FIXED_STRING_BASE\l::clear" alt="" coords="1599,735,1790,777"/>
+<area shape="rect" id="node17" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="1053,409,1275,436"/>
+<area shape="rect" id="node18" href="$classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" title="ESM::FIXED_STRING_BASE\l::data_size" alt="" coords="1333,314,1523,355"/>
+<area shape="rect" id="node19" href="$classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" title="ESM::ESMReader::getExact" alt="" coords="2125,507,2320,533"/>
+<area shape="rect" id="node22" href="$structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data" alt="" coords="1349,431,1507,473"/>
+<area shape="rect" id="node20" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="2369,545,2525,572"/>
+<area shape="rect" id="node21" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="2574,538,2765,579"/>
+<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#ae682dd0473dd84c4e7155c3be70a3a02" title="ESM::ESMReader::getHExact" alt="" coords="1326,505,1530,532"/>
+<area shape="rect" id="node27" href="$classESM_1_1ESMReader.html#a91366fc3522e6e24929aeeb6a4e6b0e3" title="ESM::ESMReader::skipHSubSize" alt="" coords="1051,628,1277,655"/>
+<area shape="rect" id="node25" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="1579,556,1810,583"/>
+<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1885,532,2051,559"/>
+<area shape="rect" id="node28" href="$classESM_1_1ESMReader.html#a1b4ca455240f53cfa6d49f9a4a084354" title="ESM::ESMReader::skipHSub" alt="" coords="1329,628,1527,655"/>
+<area shape="rect" id="node29" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="1613,632,1776,659"/>
+<area shape="rect" id="node30" href="$classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" title="Get the current position in the file. Make sure that the file has been opened! " alt="" coords="1859,633,2077,660"/>
+<area shape="rect" id="node36" href="$classMWRender_1_1GlobalMap.html#a94d5f6ba891651d7c458dda69cdd7e27" title="MWRender::GlobalMap\l::requestOverlayTextureUpdate" alt="" coords="459,757,679,798"/>
+<area shape="rect" id="node37" href="$namespaceanonymous__namespace_02globalmap_8cpp_03.html#a8310f071332da838c9a8a469f8581bac" title="anonymous_namespace\l\{globalmap::cpp\}::createTexturedQuad" alt="" coords="729,757,1002,798"/>
 </map>

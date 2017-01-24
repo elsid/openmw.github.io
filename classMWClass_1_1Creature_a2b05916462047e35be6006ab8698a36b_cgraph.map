@@ -1,51 +1,51 @@
 <map id="MWClass::Creature::onHit" name="MWClass::Creature::onHit">
-<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="213,5,365,32"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="451,392,607,419"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="435,443,623,485"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1CreatureStats.html#a41095b0401003a54a35299813ed2909f" title="MWMechanics::CreatureStats\l::getAiSequence" alt="" coords="193,1091,385,1133"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1AiSequence.html#a9700908faffb850096663704eaef39f4" title="Is there any combat package? " alt="" coords="198,1157,381,1198"/>
-<area shape="rect" id="node7" href="$classMWClass_1_1Creature.html#a1e74fd5b7b7f698077da10276381f341" title="Return creature stats. " alt="" coords="221,217,358,258"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="699,107,871,133"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="723,341,848,368"/>
-<area shape="rect" id="node13" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="698,788,873,815"/>
-<area shape="rect" id="node14" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="710,915,861,957"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1CreatureStats.html#ae86bf157d1c38cc7ae4c168b0761a881" title="MWMechanics::CreatureStats\l::setAttacked" alt="" coords="193,1222,385,1263"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1Class.html#a7ccad5593c90945c7800bc4d5f4a6b8b" title="MWWorld::Class::isMobile" alt="" coords="205,1288,373,1315"/>
-<area shape="rect" id="node21" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="210,1339,369,1381"/>
-<area shape="rect" id="node22" href="$classMWBase_1_1MechanicsManager.html#a04f6dd8f0a23dfe228c458784ac2ad88" title="MWBase::MechanicsManager\l::actorAttacked" alt="" coords="193,1405,385,1446"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#a42bd4cc6a9cf2bf4ca8d7ca4eeb28f1a" title="MWMechanics::CreatureStats\l::setLastHitAttemptObject" alt="" coords="193,1470,385,1511"/>
-<area shape="rect" id="node24" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="446,712,613,739"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1RefData.html#a15273a5feefb6fe708a0e1eb9607d18e" title="MWWorld::RefData::getLocals" alt="" coords="193,1536,385,1563"/>
-<area shape="rect" id="node27" href="$classMWScript_1_1Locals.html#a280019b496848a01c61d9120eb009cd6" title="MWScript::Locals::setVar\lByInt" alt="" coords="207,974,371,1015"/>
-<area shape="rect" id="node33" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="214,1587,365,1629"/>
-<area shape="rect" id="node34" href="$classMWBase_1_1SoundManager.html#a29793d56f5aa3902dac261ba34b1cddd" title="MWBase::SoundManager\l::playSound3D" alt="" coords="206,1653,373,1694"/>
-<area shape="rect" id="node35" href="$classMWMechanics_1_1CreatureStats.html#a0ba237f4e0f64abe11ac3a1aadb67f78" title="MWMechanics::CreatureStats\l::setLastHitObject" alt="" coords="193,1718,385,1759"/>
-<area shape="rect" id="node36" href="$namespaceMWMechanics.html#a5339d8729a5ad2ab4b7ebdff73420e8f" title="MWMechanics::resistNormal\lWeapon" alt="" coords="197,574,381,615"/>
-<area shape="rect" id="node37" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="437,763,622,789"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="193,1783,385,1825"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="192,1849,387,1890"/>
-<area shape="rect" id="node40" href="$classMWClass_1_1Creature.html#adfc085da0188a5f7ac12751c6731e43a" title="MWClass::Creature::\lgetGmst" alt="" coords="461,915,598,957"/>
-<area shape="rect" id="node41" href="$structESM_1_1GameSetting.html#a1fcd19eb4d50405ecf1e9b4920a48f9d" title="Throws an exception if GMST is not of type int or float. " alt="" coords="204,1915,375,1941"/>
-<area shape="rect" id="node42" href="$classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1" title="return value in range [0, 99] " alt="" coords="223,1965,356,1992"/>
-<area shape="rect" id="node43" href="$classMWMechanics_1_1CreatureStats.html#ac7fead25f5a3eb62cf0945f6c6dce07d" title="MWMechanics::CreatureStats\l::setKnockedDown" alt="" coords="193,2017,385,2058"/>
-<area shape="rect" id="node44" href="$classMWMechanics_1_1CreatureStats.html#a32d79544742754ac2f571e688040b91d" title="MWMechanics::CreatureStats\l::setHitRecovery" alt="" coords="193,2082,385,2123"/>
-<area shape="rect" id="node45" href="$difficultyscaling_8cpp.html#a4bf9cf7ca28d79bc217be0695dcf3a67" title="Scales damage dealt to an actor based on difficulty setting. " alt="" coords="239,813,339,840"/>
-<area shape="rect" id="node46" href="$classMWBase_1_1World.html#a461a9d3867d8e651833dc13b0d207aa6" title="Spawn a blood effect for ptr at worldPosition. " alt="" coords="195,2147,383,2189"/>
-<area shape="rect" id="node47" href="$classMWMechanics_1_1DynamicStat.html#abb00fb02a2face04357f86ec5117d2ec" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="196,2213,383,2254"/>
-<area shape="rect" id="node48" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="196,2278,383,2319"/>
-<area shape="rect" id="node49" href="$classMWMechanics_1_1CreatureStats.html#ac2dce1e426c133341b70c14b850e1cf5" title="MWMechanics::CreatureStats\l::setHealth" alt="" coords="193,2343,385,2385"/>
-<area shape="rect" id="node50" href="$classMWMechanics_1_1CreatureStats.html#a670dcf81e6b972c3e15b045bc866a769" title="MWMechanics::CreatureStats\l::setFatigue" alt="" coords="193,2409,385,2450"/>
-<area shape="rect" id="node8" href="$classMWClass_1_1Creature.html#a7531a44c10de78012a59b1e3b4b1726b" title="MWClass::Creature::\lensureCustomData" alt="" coords="461,275,598,317"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1RefData.html#a1ef7b41e2a72ec06e8631e42bbd42b85" title="May return a 0&#45;pointer. The ownership of the return data object is not transferred. " alt="" coords="672,253,899,280"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1CustomData.html#a04f32f8cea1d60609503487669c29d5c" title="MWWorld::CustomData\l::asCreatureCustomData" alt="" coords="449,158,610,199"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="947,341,1133,368"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1Class.html#a5d311eddd6380dc13b0b884ce554eda3" title="MWWorld::Class::canSwim" alt="" coords="442,1368,617,1395"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1Class.html#ae56beff3d776b2672903eb7c6118c94b" title="MWWorld::Class::canWalk" alt="" coords="444,1419,615,1445"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html#a145982626f0a3fc6a1d9d54ef1bd46ce" title="MWWorld::Class::canFly" alt="" coords="450,1469,609,1496"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="690,712,881,739"/>
-<area shape="rect" id="node28" href="$classMWScript_1_1Locals.html#a13b8e8222477f5ba02e09f4e514e2571" title="MWScript::Locals::ensure" alt="" coords="446,981,613,1008"/>
-<area shape="rect" id="node29" href="$classMWBase_1_1Environment.html#a42b9fbc80ab94bbc51cbdd26e58b5150" title="MWBase::Environment\l::getScriptManager" alt="" coords="454,1251,605,1293"/>
-<area shape="rect" id="node30" href="$classMWBase_1_1ScriptManager.html#a2cc1d7ad2030821ad8cff82207db85c3" title="Return locals for script name. " alt="" coords="447,1083,611,1125"/>
-<area shape="rect" id="node31" href="$classCompiler_1_1Locals.html#aebe469cce39e686bd3c5709ec8eea4ae" title="return index for local variable name (&#45;1: does not exist). " alt="" coords="444,1149,615,1176"/>
-<area shape="rect" id="node32" href="$classCompiler_1_1Locals.html#a1b857fe1df392c43cd7e3b75ba5028e8" title="&#39;s&#39;: short, &#39;l&#39;: long, &#39;f&#39;: float, &#39; &#39;: does not exist. " alt="" coords="445,1200,613,1227"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="229,5,392,32"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="483,392,650,419"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="464,443,669,485"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1CreatureStats.html#a41095b0401003a54a35299813ed2909f" title="MWMechanics::CreatureStats\l::getAiSequence" alt="" coords="206,1091,415,1133"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1AiSequence.html#a9700908faffb850096663704eaef39f4" title="Is there any combat package? " alt="" coords="213,1157,408,1198"/>
+<area shape="rect" id="node7" href="$classMWClass_1_1Creature.html#a1e74fd5b7b7f698077da10276381f341" title="Return creature stats. " alt="" coords="235,217,386,258"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="750,107,933,133"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="775,341,908,368"/>
+<area shape="rect" id="node13" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="744,788,939,815"/>
+<area shape="rect" id="node14" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="759,915,924,957"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CreatureStats.html#ae86bf157d1c38cc7ae4c168b0761a881" title="MWMechanics::CreatureStats\l::setAttacked" alt="" coords="206,1222,415,1263"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1Class.html#a7ccad5593c90945c7800bc4d5f4a6b8b" title="MWWorld::Class::isMobile" alt="" coords="221,1288,400,1315"/>
+<area shape="rect" id="node21" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="223,1339,398,1381"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1MechanicsManager.html#a04f6dd8f0a23dfe228c458784ac2ad88" title="MWBase::MechanicsManager\l::actorAttacked" alt="" coords="207,1405,414,1446"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#a42bd4cc6a9cf2bf4ca8d7ca4eeb28f1a" title="MWMechanics::CreatureStats\l::setLastHitAttemptObject" alt="" coords="206,1470,415,1511"/>
+<area shape="rect" id="node24" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="477,712,656,739"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1RefData.html#a15273a5feefb6fe708a0e1eb9607d18e" title="MWWorld::RefData::getLocals" alt="" coords="208,1536,413,1563"/>
+<area shape="rect" id="node27" href="$classMWScript_1_1Locals.html#a280019b496848a01c61d9120eb009cd6" title="MWScript::Locals::setVar\lByInt" alt="" coords="221,974,400,1015"/>
+<area shape="rect" id="node33" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="228,1587,393,1629"/>
+<area shape="rect" id="node34" href="$classMWBase_1_1SoundManager.html#a29793d56f5aa3902dac261ba34b1cddd" title="MWBase::SoundManager\l::playSound3D" alt="" coords="220,1653,401,1694"/>
+<area shape="rect" id="node35" href="$classMWMechanics_1_1CreatureStats.html#a0ba237f4e0f64abe11ac3a1aadb67f78" title="MWMechanics::CreatureStats\l::setLastHitObject" alt="" coords="206,1718,415,1759"/>
+<area shape="rect" id="node36" href="$namespaceMWMechanics.html#a5339d8729a5ad2ab4b7ebdff73420e8f" title="MWMechanics::resistNormal\lWeapon" alt="" coords="210,574,411,615"/>
+<area shape="rect" id="node37" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="465,763,668,789"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="206,1783,415,1825"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="205,1849,416,1890"/>
+<area shape="rect" id="node40" href="$classMWClass_1_1Creature.html#adfc085da0188a5f7ac12751c6731e43a" title="MWClass::Creature::\lgetGmst" alt="" coords="491,915,642,957"/>
+<area shape="rect" id="node41" href="$structESM_1_1GameSetting.html#a1fcd19eb4d50405ecf1e9b4920a48f9d" title="Throws an exception if GMST is not of type int or float. " alt="" coords="217,1915,405,1941"/>
+<area shape="rect" id="node42" href="$classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1" title="return value in range [0, 99] " alt="" coords="237,1965,384,1992"/>
+<area shape="rect" id="node43" href="$classMWMechanics_1_1CreatureStats.html#ac7fead25f5a3eb62cf0945f6c6dce07d" title="MWMechanics::CreatureStats\l::setKnockedDown" alt="" coords="206,2017,415,2058"/>
+<area shape="rect" id="node44" href="$classMWMechanics_1_1CreatureStats.html#a32d79544742754ac2f571e688040b91d" title="MWMechanics::CreatureStats\l::setHitRecovery" alt="" coords="206,2082,415,2123"/>
+<area shape="rect" id="node45" href="$difficultyscaling_8cpp.html#a4bf9cf7ca28d79bc217be0695dcf3a67" title="Scales damage dealt to an actor based on difficulty setting. " alt="" coords="255,813,366,840"/>
+<area shape="rect" id="node46" href="$classMWBase_1_1World.html#a461a9d3867d8e651833dc13b0d207aa6" title="Spawn a blood effect for ptr at worldPosition. " alt="" coords="209,2147,412,2189"/>
+<area shape="rect" id="node47" href="$classMWMechanics_1_1DynamicStat.html#abb00fb02a2face04357f86ec5117d2ec" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="209,2213,412,2254"/>
+<area shape="rect" id="node48" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="209,2278,412,2319"/>
+<area shape="rect" id="node49" href="$classMWMechanics_1_1CreatureStats.html#ac2dce1e426c133341b70c14b850e1cf5" title="MWMechanics::CreatureStats\l::setHealth" alt="" coords="206,2343,415,2385"/>
+<area shape="rect" id="node50" href="$classMWMechanics_1_1CreatureStats.html#a670dcf81e6b972c3e15b045bc866a769" title="MWMechanics::CreatureStats\l::setFatigue" alt="" coords="206,2409,415,2450"/>
+<area shape="rect" id="node8" href="$classMWClass_1_1Creature.html#a7531a44c10de78012a59b1e3b4b1726b" title="MWClass::Creature::\lensureCustomData" alt="" coords="491,275,642,317"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1RefData.html#a1ef7b41e2a72ec06e8631e42bbd42b85" title="May return a 0&#45;pointer. The ownership of the return data object is not transferred. " alt="" coords="718,253,965,280"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1CustomData.html#a04f32f8cea1d60609503487669c29d5c" title="MWWorld::CustomData\l::asCreatureCustomData" alt="" coords="475,158,658,199"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1013,341,1213,368"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1Class.html#a5d311eddd6380dc13b0b884ce554eda3" title="MWWorld::Class::canSwim" alt="" coords="474,1368,659,1395"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1Class.html#ae56beff3d776b2672903eb7c6118c94b" title="MWWorld::Class::canWalk" alt="" coords="477,1419,656,1445"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html#a145982626f0a3fc6a1d9d54ef1bd46ce" title="MWWorld::Class::canFly" alt="" coords="483,1469,651,1496"/>
+<area shape="rect" id="node25" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="739,712,943,739"/>
+<area shape="rect" id="node28" href="$classMWScript_1_1Locals.html#a13b8e8222477f5ba02e09f4e514e2571" title="MWScript::Locals::ensure" alt="" coords="476,981,657,1008"/>
+<area shape="rect" id="node29" href="$classMWBase_1_1Environment.html#a42b9fbc80ab94bbc51cbdd26e58b5150" title="MWBase::Environment\l::getScriptManager" alt="" coords="484,1251,649,1293"/>
+<area shape="rect" id="node30" href="$classMWBase_1_1ScriptManager.html#a2cc1d7ad2030821ad8cff82207db85c3" title="Return locals for script name. " alt="" coords="478,1083,655,1125"/>
+<area shape="rect" id="node31" href="$classCompiler_1_1Locals.html#aebe469cce39e686bd3c5709ec8eea4ae" title="return index for local variable name (&#45;1: does not exist). " alt="" coords="471,1149,662,1176"/>
+<area shape="rect" id="node32" href="$classCompiler_1_1Locals.html#a1b857fe1df392c43cd7e3b75ba5028e8" title="&#39;s&#39;: short, &#39;l&#39;: long, &#39;f&#39;: float, &#39; &#39;: does not exist. " alt="" coords="475,1200,659,1227"/>
 </map>

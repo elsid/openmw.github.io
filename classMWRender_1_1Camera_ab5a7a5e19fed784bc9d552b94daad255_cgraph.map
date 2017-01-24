@@ -1,51 +1,51 @@
 <map id="MWRender::Camera::setAnimation" name="MWRender::Camera::setAnimation">
-<area shape="rect" id="node2" href="$classMWRender_1_1Camera.html#a0b9b9cf1b627b7c2fcca748ee18c5d41" title="MWRender::Camera::process\lViewChange" alt="" coords="272,1435,459,1477"/>
-<area shape="rect" id="node3" href="$classMWRender_1_1Camera.html#abe7d0377b0c82e10070b225fc295fdc0" title="MWRender::Camera::isFirst\lPerson" alt="" coords="526,1210,703,1251"/>
-<area shape="rect" id="node4" href="$classMWRender_1_1NpcAnimation.html#aed4db842528e550579621b23034ece08" title="MWRender::NpcAnimation\l::setViewMode" alt="" coords="528,1275,701,1317"/>
-<area shape="rect" id="node36" href="$classMWRender_1_1Animation.html#ad57fd81691e7f2d877800c88e784d21c" title="MWRender::Animation\l::getNode" alt="" coords="1502,1383,1653,1425"/>
-<area shape="rect" id="node43" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="529,1392,701,1419"/>
-<area shape="rect" id="node44" href="$classMWWorld_1_1RefData.html#a4e86f0a869f982a5e4273b6d0a37a0c8" title="Return base node (can be a null pointer). " alt="" coords="507,1443,722,1469"/>
-<area shape="rect" id="node45" href="$classSceneUtil_1_1PositionAttitudeTransform.html#aa3a49b5e96d63aa6a028a220ebc79672" title="SceneUtil::PositionAttitude\lTransform::getScale" alt="" coords="527,1494,702,1535"/>
-<area shape="rect" id="node46" href="$classMWRender_1_1Camera.html#a0abdadd900263e22e171ea3dcca5b414" title="MWRender::Camera::rotate\lCamera" alt="" coords="527,1611,703,1653"/>
-<area shape="rect" id="node47" href="$classMWRender_1_1Camera.html#a34efbc8b69d2341b5d5f38cb031d21b6" title="MWRender::Camera::getPitch" alt="" coords="771,1551,962,1577"/>
-<area shape="rect" id="node48" href="$classMWRender_1_1Camera.html#ad6bf6d32b25876657564588188879f2a" title="MWRender::Camera::getYaw" alt="" coords="773,1703,960,1729"/>
-<area shape="rect" id="node5" href="$classMWRender_1_1NpcAnimation.html#a8b37aef38ba00e4f82ffd785141c1321" title="Rebuilds the NPC, updating their root model, animation sources, and equipment. " alt="" coords="780,397,953,438"/>
-<area shape="rect" id="node41" href="$classMWRender_1_1NpcAnimation.html#ab9acf44d66bbf48983bf9641a96257a8" title="Set the render bin for this animation&#39;s object root. May be customized by subclasses. " alt="" coords="780,1275,953,1317"/>
-<area shape="rect" id="node6" href="$classMWRender_1_1NpcAnimation.html#acf50b96cffb19c225200c4bff36fbce7" title="MWRender::NpcAnimation\l::updateNpcBase" alt="" coords="1020,618,1193,659"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1731,525,1906,552"/>
-<area shape="rect" id="node25" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="1488,57,1667,98"/>
-<area shape="rect" id="node37" href="$classResource_1_1SceneManager.html#ac01af19b79e0f46bd186fef974e6fea1" title="Re&#45;create shaders for this node, need to call this if texture stages or vertex color mode have change..." alt="" coords="1022,5,1191,46"/>
-<area shape="rect" id="node39" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="1027,363,1186,405"/>
-<area shape="rect" id="node40" href="$classMWBase_1_1MechanicsManager.html#a3db0e12a32e05e190f26b4dc64535d04" title="Forces an object to refresh its animation state. " alt="" coords="1011,429,1203,470"/>
-<area shape="rect" id="node7" href="$classMWRender_1_1Animation.html#aa5739caddf776d68d560e24f912e9379" title="MWRender::Animation\l::clearAnimSources" alt="" coords="1262,559,1413,601"/>
-<area shape="rect" id="node8" href="$classMWRender_1_1NpcAnimation.html#a19745474066d5289f23025bad740d07d" title="MWRender::NpcAnimation\l::removeIndividualPart" alt="" coords="1491,661,1664,702"/>
-<area shape="rect" id="node12" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1502,493,1653,534"/>
-<area shape="rect" id="node13" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1493,559,1661,585"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1494,239,1661,265"/>
-<area shape="rect" id="node15" href="$namespaceanonymous__namespace_02npcanimation_8cpp_03.html#acaa261b286f761b2b7f4d398136b4051" title="anonymous_namespace\l\{npcanimation::cpp\}\l::getVampireHead" alt="" coords="1257,376,1417,432"/>
-<area shape="rect" id="node20" href="$structESM_1_1NPC.html#a8b7ee1fb404dac430b9c2d2648861b3d" title="ESM::NPC::isMale" alt="" coords="1514,1281,1641,1308"/>
-<area shape="rect" id="node21" href="$namespaceMisc_1_1ResourceHelpers.html#a47f40f938d2e34d19caef0c9bc6c6e79" title="Use &quot;xfoo.nif&quot; instead of &quot;foo.nif&quot; if available. " alt="" coords="1257,778,1418,819"/>
-<area shape="rect" id="node23" href="$classResource_1_1ResourceSystem.html#a33391822ee610422b7fa907d39f0d37c" title="Resource::ResourceSystem\l::getVFS" alt="" coords="1488,829,1667,870"/>
-<area shape="rect" id="node24" href="$classMWRender_1_1Animation.html#a79899e050e52d610acfeb3840d5a31d4" title="MWRender::Animation\l::setObjectRoot" alt="" coords="1262,122,1413,163"/>
-<area shape="rect" id="node27" href="$classMWRender_1_1Animation.html#aff362c03830efca83a352ab456362110" title="MWRender::Animation\l::addAnimSource" alt="" coords="1262,967,1413,1009"/>
-<area shape="rect" id="node32" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1759,1001,1879,1042"/>
-<area shape="rect" id="node35" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="1251,1226,1424,1267"/>
-<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="1743,629,1894,670"/>
-<area shape="rect" id="node11" href="$classMWBase_1_1SoundManager.html#a7cd51d2ef1f4999aad7e6e01b2f8ec08" title="Stop the given object from playing the given sound,. " alt="" coords="1735,694,1902,735"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1Store.html#a83317619858aa87c8c8d72e644139b16" title="MWWorld::Store::begin" alt="" coords="1501,391,1653,417"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1Store.html#a8fba716aeb5a3f41111c2c515ba6e15c" title="MWWorld::Store::end" alt="" coords="1506,340,1649,367"/>
-<area shape="rect" id="node18" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="1957,609,2077,650"/>
-<area shape="rect" id="node19" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="2128,805,2248,846"/>
-<area shape="rect" id="node22" href="$classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc" title="VFS::Manager::exists" alt="" coords="1507,777,1648,804"/>
-<area shape="rect" id="node26" href="$classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b" title="Resource::SceneManager\l::getInstance" alt="" coords="1493,122,1662,163"/>
-<area shape="rect" id="node28" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1955,1001,2080,1042"/>
-<area shape="rect" id="node29" href="$classResource_1_1ResourceSystem.html#a434ef9dcd8aecc649c518d3041a649d1" title="Resource::ResourceSystem\l::getKeyframeManager" alt="" coords="1488,1114,1667,1155"/>
-<area shape="rect" id="node30" href="$classResource_1_1KeyframeManager.html#adfec9e23071823b0d8d9b83aafa43e48" title="Resource::KeyframeManager::get" alt="" coords="1472,945,1683,972"/>
-<area shape="rect" id="node31" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="1743,1307,1894,1349"/>
-<area shape="rect" id="node33" href="$classMWRender_1_1Animation.html#ae52fc572b53558ea36c015d318a0e58b" title="MWRender::Animation\l::detectBlendMask" alt="" coords="1502,997,1653,1038"/>
-<area shape="rect" id="node34" href="$esmtool_8cpp.html#a0bab682aaafd448095576d6716e53d79" title="clone" alt="" coords="1551,1063,1604,1089"/>
-<area shape="rect" id="node38" href="$classShader_1_1ShaderVisitor.html#a0e7546ca276948dc8b4f0d0201c256c1" title="Shader::ShaderVisitor\l::setForceShaders" alt="" coords="1265,5,1410,46"/>
-<area shape="rect" id="node42" href="$classMWRender_1_1Animation.html#a8b1f60ad3b62da77e89e1f0f40d8a472" title="Set the render bin for this animation&#39;s object root. May be customized by subclasses. " alt="" coords="1031,1275,1182,1317"/>
-<area shape="rect" id="node49" href="$classMWRender_1_1Camera.html#a957b41e0a7208ba004d529483d00a0b8" title="MWRender::Camera::setYaw" alt="" coords="774,1601,959,1628"/>
-<area shape="rect" id="node50" href="$classMWRender_1_1Camera.html#a0ffa4dc5b9a2216d1b3c6b4188e4fd5b" title="MWRender::Camera::setPitch" alt="" coords="771,1652,962,1679"/>
+<area shape="rect" id="node2" href="$classMWRender_1_1Camera.html#a0b9b9cf1b627b7c2fcca748ee18c5d41" title="MWRender::Camera::process\lViewChange" alt="" coords="293,1435,499,1477"/>
+<area shape="rect" id="node3" href="$classMWRender_1_1Camera.html#abe7d0377b0c82e10070b225fc295fdc0" title="MWRender::Camera::isFirst\lPerson" alt="" coords="567,1210,758,1251"/>
+<area shape="rect" id="node4" href="$classMWRender_1_1NpcAnimation.html#aed4db842528e550579621b23034ece08" title="MWRender::NpcAnimation\l::setViewMode" alt="" coords="569,1275,756,1317"/>
+<area shape="rect" id="node36" href="$classMWRender_1_1Animation.html#ad57fd81691e7f2d877800c88e784d21c" title="MWRender::Animation\l::getNode" alt="" coords="1610,1383,1771,1425"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="571,1392,754,1419"/>
+<area shape="rect" id="node44" href="$classMWWorld_1_1RefData.html#a4e86f0a869f982a5e4273b6d0a37a0c8" title="Return base node (can be a null pointer). " alt="" coords="547,1443,778,1469"/>
+<area shape="rect" id="node45" href="$classSceneUtil_1_1PositionAttitudeTransform.html#aa3a49b5e96d63aa6a028a220ebc79672" title="SceneUtil::PositionAttitude\lTransform::getScale" alt="" coords="567,1494,759,1535"/>
+<area shape="rect" id="node46" href="$classMWRender_1_1Camera.html#a0abdadd900263e22e171ea3dcca5b414" title="MWRender::Camera::rotate\lCamera" alt="" coords="565,1611,760,1653"/>
+<area shape="rect" id="node47" href="$classMWRender_1_1Camera.html#a34efbc8b69d2341b5d5f38cb031d21b6" title="MWRender::Camera::getPitch" alt="" coords="827,1551,1034,1577"/>
+<area shape="rect" id="node48" href="$classMWRender_1_1Camera.html#ad6bf6d32b25876657564588188879f2a" title="MWRender::Camera::getYaw" alt="" coords="831,1703,1030,1729"/>
+<area shape="rect" id="node5" href="$classMWRender_1_1NpcAnimation.html#a8b37aef38ba00e4f82ffd785141c1321" title="Rebuilds the NPC, updating their root model, animation sources, and equipment. " alt="" coords="837,397,1024,438"/>
+<area shape="rect" id="node41" href="$classMWRender_1_1NpcAnimation.html#ab9acf44d66bbf48983bf9641a96257a8" title="Set the render bin for this animation&#39;s object root. May be customized by subclasses. " alt="" coords="837,1275,1024,1317"/>
+<area shape="rect" id="node6" href="$classMWRender_1_1NpcAnimation.html#acf50b96cffb19c225200c4bff36fbce7" title="MWRender::NpcAnimation\l::updateNpcBase" alt="" coords="1093,618,1280,659"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1856,525,2051,552"/>
+<area shape="rect" id="node25" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="1593,57,1788,98"/>
+<area shape="rect" id="node37" href="$classResource_1_1SceneManager.html#ac01af19b79e0f46bd186fef974e6fea1" title="Re&#45;create shaders for this node, need to call this if texture stages or vertex color mode have change..." alt="" coords="1095,5,1279,46"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="1099,363,1274,405"/>
+<area shape="rect" id="node40" href="$classMWBase_1_1MechanicsManager.html#a3db0e12a32e05e190f26b4dc64535d04" title="Forces an object to refresh its animation state. " alt="" coords="1083,429,1290,470"/>
+<area shape="rect" id="node7" href="$classMWRender_1_1Animation.html#aa5739caddf776d68d560e24f912e9379" title="MWRender::Animation\l::clearAnimSources" alt="" coords="1351,559,1513,601"/>
+<area shape="rect" id="node8" href="$classMWRender_1_1NpcAnimation.html#a19745474066d5289f23025bad740d07d" title="MWRender::NpcAnimation\l::removeIndividualPart" alt="" coords="1597,661,1784,702"/>
+<area shape="rect" id="node12" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1608,493,1773,534"/>
+<area shape="rect" id="node13" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1599,559,1782,585"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1601,239,1780,265"/>
+<area shape="rect" id="node15" href="$namespaceanonymous__namespace_02npcanimation_8cpp_03.html#acaa261b286f761b2b7f4d398136b4051" title="anonymous_namespace\l\{npcanimation::cpp\}\l::getVampireHead" alt="" coords="1343,376,1521,432"/>
+<area shape="rect" id="node20" href="$structESM_1_1NPC.html#a8b7ee1fb404dac430b9c2d2648861b3d" title="ESM::NPC::isMale" alt="" coords="1624,1281,1757,1308"/>
+<area shape="rect" id="node21" href="$namespaceMisc_1_1ResourceHelpers.html#a47f40f938d2e34d19caef0c9bc6c6e79" title="Use &quot;xfoo.nif&quot; instead of &quot;foo.nif&quot; if available. " alt="" coords="1345,778,1519,819"/>
+<area shape="rect" id="node23" href="$classResource_1_1ResourceSystem.html#a33391822ee610422b7fa907d39f0d37c" title="Resource::ResourceSystem\l::getVFS" alt="" coords="1593,829,1788,870"/>
+<area shape="rect" id="node24" href="$classMWRender_1_1Animation.html#a79899e050e52d610acfeb3840d5a31d4" title="MWRender::Animation\l::setObjectRoot" alt="" coords="1351,122,1513,163"/>
+<area shape="rect" id="node27" href="$classMWRender_1_1Animation.html#aff362c03830efca83a352ab456362110" title="MWRender::Animation\l::addAnimSource" alt="" coords="1351,967,1513,1009"/>
+<area shape="rect" id="node32" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1887,1001,2019,1042"/>
+<area shape="rect" id="node35" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="1339,1226,1525,1267"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="1871,629,2036,670"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1SoundManager.html#a7cd51d2ef1f4999aad7e6e01b2f8ec08" title="Stop the given object from playing the given sound,. " alt="" coords="1863,694,2044,735"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1Store.html#a83317619858aa87c8c8d72e644139b16" title="MWWorld::Store::begin" alt="" coords="1609,391,1773,417"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1Store.html#a8fba716aeb5a3f41111c2c515ba6e15c" title="MWWorld::Store::end" alt="" coords="1614,340,1767,367"/>
+<area shape="rect" id="node18" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="2099,609,2231,650"/>
+<area shape="rect" id="node19" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="2281,805,2413,846"/>
+<area shape="rect" id="node22" href="$classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc" title="VFS::Manager::exists" alt="" coords="1613,777,1769,804"/>
+<area shape="rect" id="node26" href="$classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b" title="Resource::SceneManager\l::getInstance" alt="" coords="1599,122,1783,163"/>
+<area shape="rect" id="node28" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="2099,1001,2231,1042"/>
+<area shape="rect" id="node29" href="$classResource_1_1ResourceSystem.html#a434ef9dcd8aecc649c518d3041a649d1" title="Resource::ResourceSystem\l::getKeyframeManager" alt="" coords="1593,1114,1788,1155"/>
+<area shape="rect" id="node30" href="$classResource_1_1KeyframeManager.html#adfec9e23071823b0d8d9b83aafa43e48" title="Resource::KeyframeManager::get" alt="" coords="1574,945,1807,972"/>
+<area shape="rect" id="node31" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="1873,1307,2034,1349"/>
+<area shape="rect" id="node33" href="$classMWRender_1_1Animation.html#ae52fc572b53558ea36c015d318a0e58b" title="MWRender::Animation\l::detectBlendMask" alt="" coords="1610,997,1771,1038"/>
+<area shape="rect" id="node34" href="$esmtool_8cpp.html#a0bab682aaafd448095576d6716e53d79" title="clone" alt="" coords="1663,1063,1719,1089"/>
+<area shape="rect" id="node38" href="$classShader_1_1ShaderVisitor.html#a0e7546ca276948dc8b4f0d0201c256c1" title="Shader::ShaderVisitor\l::setForceShaders" alt="" coords="1351,5,1513,46"/>
+<area shape="rect" id="node42" href="$classMWRender_1_1Animation.html#a8b1f60ad3b62da77e89e1f0f40d8a472" title="Set the render bin for this animation&#39;s object root. May be customized by subclasses. " alt="" coords="1106,1275,1267,1317"/>
+<area shape="rect" id="node49" href="$classMWRender_1_1Camera.html#a957b41e0a7208ba004d529483d00a0b8" title="MWRender::Camera::setYaw" alt="" coords="832,1601,1029,1628"/>
+<area shape="rect" id="node50" href="$classMWRender_1_1Camera.html#a0ffa4dc5b9a2216d1b3c6b4188e4fd5b" title="MWRender::Camera::setPitch" alt="" coords="827,1652,1034,1679"/>
 </map>

@@ -1,51 +1,51 @@
 <map id="MWWorld::ProjectileManager::moveMagicBolts" name="MWWorld::ProjectileManager::moveMagicBolts">
-<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="999,1497,1174,1524"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1011,1003,1162,1045"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="757,1061,925,1088"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="758,1112,925,1139"/>
-<area shape="rect" id="node6" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="749,245,934,272"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="243,449,431,490"/>
-<area shape="rect" id="node10" href="$classMWPhysics_1_1PhysicsSystem.html#a2d689bf63239c88145e0f38e7bfa2c16" title="MWPhysics::PhysicsSystem\l::castRay" alt="" coords="750,179,933,221"/>
-<area shape="rect" id="node17" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="758,1011,925,1037"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="765,609,917,636"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="253,1549,421,1590"/>
-<area shape="rect" id="node45" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="766,2353,917,2394"/>
-<area shape="rect" id="node49" href="$classMWBase_1_1World.html#abfa4e4bb40cbf3ae922f44cf2375539a" title="MWBase::World::explodeSpell" alt="" coords="492,2593,684,2620"/>
-<area shape="rect" id="node50" href="$classMWBase_1_1SoundManager.html#a715291fa8665e2bea38e64cb7abc4fd4" title="Stop the given sound from playing. " alt="" coords="254,2746,421,2787"/>
-<area shape="rect" id="node7" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="1012,369,1161,396"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="494,449,682,490"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="763,1264,919,1291"/>
-<area shape="rect" id="node11" href="$namespaceMWPhysics.html#a8305cd8732ac128a1a1828256fdedf07" title="MWPhysics::toBullet" alt="" coords="1017,187,1156,213"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1ConstPtr.html#a0e5140348ccabcba666b4dcd31aafbb4" title="MWWorld::ConstPtr::\lisEmpty" alt="" coords="1017,238,1157,279"/>
-<area shape="rect" id="node13" href="$classMWPhysics_1_1PhysicsSystem.html#a41f7de8a899eabcc878655c0d8012ab5" title="MWPhysics::PhysicsSystem\l::getActor" alt="" coords="995,303,1178,345"/>
-<area shape="rect" id="node14" href="$classMWPhysics_1_1Actor.html#a95cc3d71454f312077d35735a19d30d3" title="MWPhysics::Actor::getCollision\lObject" alt="" coords="987,5,1186,46"/>
-<area shape="rect" id="node15" href="$classMWPhysics_1_1PhysicsSystem.html#abe498f01b40a80ca03616eb4b40828b4" title="MWPhysics::PhysicsSystem\l::getObject" alt="" coords="995,70,1178,111"/>
-<area shape="rect" id="node16" href="$namespaceMWPhysics.html#a48568f2568ff8af5ee9b7df250bccf94" title="MWPhysics::toOsg" alt="" coords="1022,136,1151,163"/>
-<area shape="rect" id="node21" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="761,1891,922,1917"/>
-<area shape="rect" id="node22" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="747,1315,935,1357"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="492,1775,684,1817"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="492,1841,684,1882"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="483,1907,693,1933"/>
-<area shape="rect" id="node26" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="497,1958,679,1999"/>
-<area shape="rect" id="node27" href="$classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1" title="return value in range [0, 99] " alt="" coords="521,2024,655,2051"/>
-<area shape="rect" id="node28" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="766,1549,917,1590"/>
-<area shape="rect" id="node29" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="754,1614,929,1655"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="745,1381,937,1422"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1ActiveSpells.html#a9ba171768ba3a5d17264b8bca8c47d20" title="case insensitive " alt="" coords="496,2126,680,2167"/>
-<area shape="rect" id="node32" href="$namespaceMWMechanics.html#ae785ebe3339361c8803840d42f76cfa8" title="Check if the given effect can be applied to the target. If castByPlayer, emits a message box on failu..." alt="" coords="498,1490,678,1531"/>
-<area shape="rect" id="node33" href="$classMWBase_1_1WindowManager.html#a72b07f2f214b73d70d5698600c991555" title="MWBase::WindowManager\l::setEnemy" alt="" coords="501,2243,675,2285"/>
-<area shape="rect" id="node34" href="$classMWBase_1_1World.html#aea171eaf012a7d6eaa24c8c474f579dd" title="MWBase::World::getAnimation" alt="" coords="744,2025,939,2052"/>
-<area shape="rect" id="node35" href="$classMWRender_1_1Animation.html#a1ad2390344ae9c1560289082c500be9e" title="Add an effect mesh attached to a bone or the insert scene node. " alt="" coords="766,2245,917,2286"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1CreatureStats.html#ae018e386f2f53c18dc29f94782b0a67d" title="MWMechanics::CreatureStats\l::getMagicka" alt="" coords="492,2411,684,2453"/>
-<area shape="rect" id="node37" href="$classMWMechanics_1_1DynamicStat.html#abb00fb02a2face04357f86ec5117d2ec" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="495,2477,681,2518"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="495,819,681,861"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1CreatureStats.html#a78d03dfe3ab6e39911ba10395806b222" title="MWMechanics::CreatureStats\l::setMagicka" alt="" coords="492,885,684,926"/>
-<area shape="rect" id="node40" href="$classMWWorld_1_1Class.html#a3503db900cb375a4a305dc904e82ddbb" title="MWWorld::Class::onHit" alt="" coords="513,951,663,977"/>
-<area shape="rect" id="node41" href="$namespaceMWMechanics.html#a4818c40cb99439abde9167ad7c163456" title="MWMechanics::getEffectMultiplier" alt="" coords="481,1001,695,1028"/>
-<area shape="rect" id="node42" href="$namespaceCompiler_1_1Generator.html#aa493319ab1f0e031435346bc251f3c3c" title="Compiler::Generator\l::random" alt="" coords="520,1053,656,1094"/>
-<area shape="rect" id="node43" href="$classMisc_1_1Rng.html#af6b612debb560b1f231a7f9df8b6ecce" title="return value in range [0.0f, 1.0f] &lt;&#45; note closed upper range. " alt="" coords="488,1119,688,1145"/>
-<area shape="rect" id="node44" href="$classMWMechanics_1_1CastSpell.html#aad516a4d006a0d52f86cf871cb49503f" title="MWMechanics::CastSpell\l::applyInstantEffect" alt="" coords="504,1607,672,1649"/>
-<area shape="rect" id="node46" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="762,1782,921,1823"/>
-<area shape="rect" id="node47" href="$namespaceMWMechanics.html#a07f053e380858a1c9dca0b3577789014" title="MWMechanics::effectTick" alt="" coords="503,1287,673,1313"/>
-<area shape="rect" id="node48" href="$classMWBase_1_1MechanicsManager.html#a296e9033acc707700d9325ece86f0cc4" title="MWBase::MechanicsManager\l::actorKilled" alt="" coords="492,1221,684,1262"/>
+<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1056,1497,1251,1524"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1071,1003,1236,1045"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="799,1061,982,1088"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="801,1112,980,1139"/>
+<area shape="rect" id="node6" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="789,245,992,272"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="253,449,453,490"/>
+<area shape="rect" id="node10" href="$classMWPhysics_1_1PhysicsSystem.html#a2d689bf63239c88145e0f38e7bfa2c16" title="MWPhysics::PhysicsSystem\l::castRay" alt="" coords="793,179,988,221"/>
+<area shape="rect" id="node17" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="801,1011,980,1037"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="809,609,972,636"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="264,1549,443,1590"/>
+<area shape="rect" id="node45" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="808,2353,973,2394"/>
+<area shape="rect" id="node49" href="$classMWBase_1_1World.html#abfa4e4bb40cbf3ae922f44cf2375539a" title="MWBase::World::explodeSpell" alt="" coords="515,2593,722,2620"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1SoundManager.html#a715291fa8665e2bea38e64cb7abc4fd4" title="Stop the given sound from playing. " alt="" coords="263,2746,444,2787"/>
+<area shape="rect" id="node7" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="1072,369,1235,396"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="519,449,719,490"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="807,1264,974,1291"/>
+<area shape="rect" id="node11" href="$namespaceMWPhysics.html#a8305cd8732ac128a1a1828256fdedf07" title="MWPhysics::toBullet" alt="" coords="1079,187,1227,213"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1ConstPtr.html#a0e5140348ccabcba666b4dcd31aafbb4" title="MWWorld::ConstPtr::\lisEmpty" alt="" coords="1079,238,1228,279"/>
+<area shape="rect" id="node13" href="$classMWPhysics_1_1PhysicsSystem.html#a41f7de8a899eabcc878655c0d8012ab5" title="MWPhysics::PhysicsSystem\l::getActor" alt="" coords="1056,303,1251,345"/>
+<area shape="rect" id="node14" href="$classMWPhysics_1_1Actor.html#a95cc3d71454f312077d35735a19d30d3" title="MWPhysics::Actor::getCollision\lObject" alt="" coords="1046,5,1261,46"/>
+<area shape="rect" id="node15" href="$classMWPhysics_1_1PhysicsSystem.html#abe498f01b40a80ca03616eb4b40828b4" title="MWPhysics::PhysicsSystem\l::getObject" alt="" coords="1056,70,1251,111"/>
+<area shape="rect" id="node16" href="$namespaceMWPhysics.html#a48568f2568ff8af5ee9b7df250bccf94" title="MWPhysics::toOsg" alt="" coords="1085,136,1222,163"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="805,1891,977,1917"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="788,1315,993,1357"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="514,1775,723,1817"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="514,1841,723,1882"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="505,1907,733,1933"/>
+<area shape="rect" id="node26" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="521,1958,717,1999"/>
+<area shape="rect" id="node27" href="$classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1" title="return value in range [0, 99] " alt="" coords="545,2024,692,2051"/>
+<area shape="rect" id="node28" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="808,1549,973,1590"/>
+<area shape="rect" id="node29" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="797,1614,984,1655"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="786,1381,995,1422"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1ActiveSpells.html#a9ba171768ba3a5d17264b8bca8c47d20" title="case insensitive " alt="" coords="521,2126,717,2167"/>
+<area shape="rect" id="node32" href="$namespaceMWMechanics.html#ae785ebe3339361c8803840d42f76cfa8" title="Check if the given effect can be applied to the target. If castByPlayer, emits a message box on failu..." alt="" coords="523,1490,715,1531"/>
+<area shape="rect" id="node33" href="$classMWBase_1_1WindowManager.html#a72b07f2f214b73d70d5698600c991555" title="MWBase::WindowManager\l::setEnemy" alt="" coords="525,2243,712,2285"/>
+<area shape="rect" id="node34" href="$classMWBase_1_1World.html#aea171eaf012a7d6eaa24c8c474f579dd" title="MWBase::World::getAnimation" alt="" coords="785,2025,997,2052"/>
+<area shape="rect" id="node35" href="$classMWRender_1_1Animation.html#a1ad2390344ae9c1560289082c500be9e" title="Add an effect mesh attached to a bone or the insert scene node. " alt="" coords="810,2245,971,2286"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1CreatureStats.html#ae018e386f2f53c18dc29f94782b0a67d" title="MWMechanics::CreatureStats\l::getMagicka" alt="" coords="514,2411,723,2453"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1DynamicStat.html#abb00fb02a2face04357f86ec5117d2ec" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="517,2477,720,2518"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="517,819,720,861"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1CreatureStats.html#a78d03dfe3ab6e39911ba10395806b222" title="MWMechanics::CreatureStats\l::setMagicka" alt="" coords="514,885,723,926"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1Class.html#a3503db900cb375a4a305dc904e82ddbb" title="MWWorld::Class::onHit" alt="" coords="537,951,700,977"/>
+<area shape="rect" id="node41" href="$namespaceMWMechanics.html#a4818c40cb99439abde9167ad7c163456" title="MWMechanics::getEffectMultiplier" alt="" coords="502,1001,735,1028"/>
+<area shape="rect" id="node42" href="$namespaceCompiler_1_1Generator.html#aa493319ab1f0e031435346bc251f3c3c" title="Compiler::Generator\l::random" alt="" coords="543,1053,695,1094"/>
+<area shape="rect" id="node43" href="$classMisc_1_1Rng.html#af6b612debb560b1f231a7f9df8b6ecce" title="return value in range [0.0f, 1.0f] &lt;&#45; note closed upper range. " alt="" coords="509,1119,728,1145"/>
+<area shape="rect" id="node44" href="$classMWMechanics_1_1CastSpell.html#aad516a4d006a0d52f86cf871cb49503f" title="MWMechanics::CastSpell\l::applyInstantEffect" alt="" coords="529,1607,708,1649"/>
+<area shape="rect" id="node46" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="803,1782,978,1823"/>
+<area shape="rect" id="node47" href="$namespaceMWMechanics.html#a07f053e380858a1c9dca0b3577789014" title="MWMechanics::effectTick" alt="" coords="529,1287,708,1313"/>
+<area shape="rect" id="node48" href="$classMWBase_1_1MechanicsManager.html#a296e9033acc707700d9325ece86f0cc4" title="MWBase::MechanicsManager\l::actorKilled" alt="" coords="515,1221,722,1262"/>
 </map>

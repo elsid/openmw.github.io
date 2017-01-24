@@ -1,51 +1,51 @@
 <map id="MWScript::ScriptManager::compile" name="MWScript::ScriptManager::compile">
-<area shape="rect" id="node2" href="$classCompiler_1_1FileParser.html#a231fc232725d1fb3d114653c22df7a59" title="Reset parser to clean state. " alt="" coords="239,190,377,231"/>
-<area shape="rect" id="node9" href="$classCompiler_1_1ErrorHandler.html#a1d3f3bcc25e01e932bf3595ae0ba5c11" title="Remove all previous error/warning events. " alt="" coords="233,322,383,363"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="225,388,391,415"/>
-<area shape="rect" id="node11" href="$classCompiler_1_1Context.html#a9f85afd546e5ba5aeada469fa7157443" title="Compiler::Context::\lgetExtensions" alt="" coords="243,439,373,481"/>
-<area shape="rect" id="node12" href="$classCompiler_1_1Scanner.html#abbdc26c7dc6e07140a4ffa300603505f" title="Scan a token and deliver it to the parser. " alt="" coords="228,505,388,532"/>
-<area shape="rect" id="node42" href="$classCompiler_1_1ErrorHandler.html#a240715f4ba60ed0174356a9eb30844e0" title="Was compiling successful? " alt="" coords="233,557,383,598"/>
-<area shape="rect" id="node43" href="$classCompiler_1_1FileParser.html#ad70541ee55e67ebcdb768a742e3318fd" title="store generated code in code. " alt="" coords="239,622,377,663"/>
-<area shape="rect" id="node50" href="$classCompiler_1_1FileParser.html#a0944a2ef986c962ed05bf37f32ee4fa3" title="get local variable declarations. " alt="" coords="239,687,377,729"/>
-<area shape="rect" id="node3" href="$classCompiler_1_1ScriptParser.html#abb55333a37f70b8e3c9058d8b90e3aa0" title="Reset parser to clean state. " alt="" coords="441,63,591,105"/>
-<area shape="rect" id="node8" href="$classCompiler_1_1Parser.html#a0682c0b0d8dc86311456911ac2330c0c" title="Reset parser to clean state. " alt="" coords="441,197,591,224"/>
-<area shape="rect" id="node4" href="$classCompiler_1_1LineParser.html#a72cba9b6168287df8e2fe90a5ace7898" title="Reset parser to clean state. " alt="" coords="675,5,815,46"/>
-<area shape="rect" id="node5" href="$classCompiler_1_1Output.html#a506e82710573167c81d1e4833a84695e" title="Compiler::Output::clear" alt="" coords="669,71,821,97"/>
-<area shape="rect" id="node6" href="$classCompiler_1_1Literals.html#aeca20aa239406830437c0dcaa22a5fcb" title="remove all literals. " alt="" coords="940,93,1060,134"/>
-<area shape="rect" id="node7" href="$classCompiler_1_1Locals.html#a4b4c058a373c9fd419c6be8084783f11" title="remove all declarations. " alt="" coords="925,41,1075,68"/>
-<area shape="rect" id="node13" href="$classCompiler_1_1Scanner.html#a7c2553ca11e30c983dc1a3e795a41a89" title="Compiler::Scanner::\lscanToken" alt="" coords="449,498,583,539"/>
-<area shape="rect" id="node14" href="$classCompiler_1_1Parser.html#a282f90e670b07e6303662793010965ca" title="Compiler::Parser::parseSpecial" alt="" coords="902,943,1098,969"/>
-<area shape="rect" id="node16" href="$classCompiler_1_1ErrorHandler.html#ae9df94e7ebfba1abd1f4744de29c4466" title="Generate an error message. " alt="" coords="1611,790,1762,831"/>
-<area shape="rect" id="node20" href="$classCompiler_1_1Parser.html#aabcff3e9392f22dcf9d1d2c265be395d" title="Compiler::Parser::parseInt" alt="" coords="916,455,1084,481"/>
-<area shape="rect" id="node22" href="$classCompiler_1_1Parser.html#a8ab2c92cccbfbb76ddeb91caa35e7d67" title="Compiler::Parser::parseFloat" alt="" coords="1150,780,1333,807"/>
-<area shape="rect" id="node24" href="$classCompiler_1_1Parser.html#a397cd594eeb58b15523fac465fb23eb4" title="Compiler::Parser::parseName" alt="" coords="907,505,1093,532"/>
-<area shape="rect" id="node26" href="$classCompiler_1_1Parser.html#a019a87a3e56f7ed90600e446d2d08ba9" title="Compiler::Parser::parseKeyword" alt="" coords="899,272,1101,299"/>
-<area shape="rect" id="node28" href="$classCompiler_1_1Parser.html#aed5509d503c76b48bcd1cd58f634bb32" title="Compiler::Parser::parseEOF" alt="" coords="1152,221,1331,248"/>
-<area shape="rect" id="node31" href="$classCompiler_1_1Scanner.html#abfbe66e297ff1291cd3b13b4c9daf0c0" title="Compiler::Scanner::\lputback" alt="" coords="1175,698,1308,739"/>
-<area shape="rect" id="node32" href="$classCompiler_1_1Parser.html#ae16d18bda09c386d1d932d069f11fc23" title="Compiler::Parser::parseComment" alt="" coords="641,121,850,148"/>
-<area shape="rect" id="node33" href="$classCompiler_1_1Scanner.html#a6ec84b6ecc4126716782d0e6808767c0" title="Compiler::Scanner::\lisWhitespace" alt="" coords="679,173,812,214"/>
-<area shape="rect" id="node34" href="$classCompiler_1_1Scanner.html#a546ed02c1971493689a2117d206348d1" title="Compiler::Scanner::\lscanName" alt="" coords="679,389,812,430"/>
-<area shape="rect" id="node38" href="$classCompiler_1_1Scanner.html#ac1f9fd5b978eecf07217ea0f7ec65bb2" title="Compiler::Scanner::\lscanInt" alt="" coords="679,557,812,598"/>
-<area shape="rect" id="node41" href="$classCompiler_1_1Scanner.html#adb2ecadf06516682c3d7bfe42b256e6d" title="Compiler::Scanner::\lscanSpecial" alt="" coords="679,775,812,817"/>
-<area shape="rect" id="node15" href="$classCompiler_1_1Parser.html#adb01de7ed3ea7712ce40c48d2a3fa9b8" title="Report the error and throw a exception. " alt="" coords="1395,635,1549,677"/>
-<area shape="rect" id="node19" href="$classCompiler_1_1Scanner.html#a44feea592a0773f895c4bf53dca1d70b" title="put back a special token " alt="" coords="1175,939,1308,981"/>
-<area shape="rect" id="node17" href="$classCompiler_1_1ErrorHandler.html#a8e0dfa362392d5b038467fd9c5634ca9" title="Generate a warning message. " alt="" coords="1811,790,1962,831"/>
-<area shape="rect" id="node18" href="$classCompiler_1_1ErrorHandler.html#ac53ce58d40afab69709d78ce5192306f" title="Report error to the user. " alt="" coords="2011,731,2162,773"/>
-<area shape="rect" id="node21" href="$classCompiler_1_1Scanner.html#ab03716288c02c46e31b762b8fc615c74" title="put back an integer token " alt="" coords="1175,454,1308,495"/>
-<area shape="rect" id="node23" href="$classCompiler_1_1Scanner.html#ac35d6f6c2a7d010bbd5e4b40ded47307" title="put back a float token " alt="" coords="1405,771,1539,813"/>
-<area shape="rect" id="node25" href="$classCompiler_1_1Scanner.html#acb281333e2d70fc35d94d2da0eb4a34f" title="put back a name token " alt="" coords="1175,622,1308,663"/>
-<area shape="rect" id="node27" href="$classCompiler_1_1Scanner.html#aaebeff4902f5779ef18a80469b76acf3" title="put back a keyword token " alt="" coords="1175,323,1308,365"/>
-<area shape="rect" id="node29" href="$classCompiler_1_1Parser.html#ad1295841754ce69e97ba7c7d62e669df" title="Report an unexpected EOF condition. " alt="" coords="1381,403,1563,429"/>
-<area shape="rect" id="node30" href="$classCompiler_1_1ErrorHandler.html#a6cc75d28ad7d47b40cf4f5b985168030" title="Generate an error message for an unexpected EOF. " alt="" coords="1611,437,1762,478"/>
-<area shape="rect" id="node35" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="940,389,1060,430"/>
-<area shape="rect" id="node37" href="$classCompiler_1_1Extensions.html#a00cf7c5bb421ef8ba5b1a773698c9115" title="Compiler::Extensions\l::searchKeyword" alt="" coords="930,323,1070,365"/>
-<area shape="rect" id="node36" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1179,389,1304,430"/>
-<area shape="rect" id="node39" href="$classCompiler_1_1Scanner.html#a50175399343f73eeb96ef72d2fbb9f51" title="Compiler::Scanner::\lisStringCharacter" alt="" coords="933,607,1067,649"/>
-<area shape="rect" id="node40" href="$classCompiler_1_1Scanner.html#ad8aceaa346fed54980f09c6dd91de9d9" title="Compiler::Scanner::\lscanFloat" alt="" coords="933,775,1067,817"/>
-<area shape="rect" id="node44" href="$classCompiler_1_1ScriptParser.html#a9024a0f4d8ee4d03e7cb7b2dc549107f" title="store generated code in code. " alt="" coords="441,862,591,903"/>
-<area shape="rect" id="node45" href="$classCompiler_1_1Output.html#a8f87d46702dc2e36ddf404c2940d36af" title="store generated code in code. " alt="" coords="659,1115,831,1141"/>
-<area shape="rect" id="node46" href="$classCompiler_1_1Literals.html#ae78bd0b86b4f27bdb63ec222b223f875" title="Return size of integer block (in bytes). " alt="" coords="940,1107,1060,1149"/>
-<area shape="rect" id="node47" href="$classCompiler_1_1Literals.html#a68d26f6bd94839d290564e7292d84532" title="Return size of float block (in bytes). " alt="" coords="940,1173,1060,1214"/>
-<area shape="rect" id="node48" href="$classCompiler_1_1Literals.html#aa682ae0b268f265fa508605b0e20357c" title="Return size of string block (in bytes). " alt="" coords="1181,1147,1301,1189"/>
-<area shape="rect" id="node49" href="$classCompiler_1_1Literals.html#a64d96d7fa66ea59c035014327583abdd" title="Compiler::Literals\l::append" alt="" coords="940,1238,1060,1279"/>
+<area shape="rect" id="node2" href="$classCompiler_1_1FileParser.html#a231fc232725d1fb3d114653c22df7a59" title="Reset parser to clean state. " alt="" coords="253,190,400,231"/>
+<area shape="rect" id="node9" href="$classCompiler_1_1ErrorHandler.html#a1d3f3bcc25e01e932bf3595ae0ba5c11" title="Remove all previous error/warning events. " alt="" coords="243,322,411,363"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="237,388,416,415"/>
+<area shape="rect" id="node11" href="$classCompiler_1_1Context.html#a9f85afd546e5ba5aeada469fa7157443" title="Compiler::Context::\lgetExtensions" alt="" coords="254,439,399,481"/>
+<area shape="rect" id="node12" href="$classCompiler_1_1Scanner.html#abbdc26c7dc6e07140a4ffa300603505f" title="Scan a token and deliver it to the parser. " alt="" coords="237,505,416,532"/>
+<area shape="rect" id="node42" href="$classCompiler_1_1ErrorHandler.html#a240715f4ba60ed0174356a9eb30844e0" title="Was compiling successful? " alt="" coords="243,557,411,598"/>
+<area shape="rect" id="node43" href="$classCompiler_1_1FileParser.html#ad70541ee55e67ebcdb768a742e3318fd" title="store generated code in code. " alt="" coords="253,622,400,663"/>
+<area shape="rect" id="node50" href="$classCompiler_1_1FileParser.html#a0944a2ef986c962ed05bf37f32ee4fa3" title="get local variable declarations. " alt="" coords="253,687,400,729"/>
+<area shape="rect" id="node3" href="$classCompiler_1_1ScriptParser.html#abb55333a37f70b8e3c9058d8b90e3aa0" title="Reset parser to clean state. " alt="" coords="466,63,630,105"/>
+<area shape="rect" id="node8" href="$classCompiler_1_1Parser.html#a0682c0b0d8dc86311456911ac2330c0c" title="Reset parser to clean state. " alt="" coords="464,197,632,224"/>
+<area shape="rect" id="node4" href="$classCompiler_1_1LineParser.html#a72cba9b6168287df8e2fe90a5ace7898" title="Reset parser to clean state. " alt="" coords="721,5,874,46"/>
+<area shape="rect" id="node5" href="$classCompiler_1_1Output.html#a506e82710573167c81d1e4833a84695e" title="Compiler::Output::clear" alt="" coords="712,71,883,97"/>
+<area shape="rect" id="node6" href="$classCompiler_1_1Literals.html#aeca20aa239406830437c0dcaa22a5fcb" title="remove all literals. " alt="" coords="1008,93,1141,134"/>
+<area shape="rect" id="node7" href="$classCompiler_1_1Locals.html#a4b4c058a373c9fd419c6be8084783f11" title="remove all declarations. " alt="" coords="991,41,1158,68"/>
+<area shape="rect" id="node13" href="$classCompiler_1_1Scanner.html#a7c2553ca11e30c983dc1a3e795a41a89" title="Compiler::Scanner::\lscanToken" alt="" coords="474,498,622,539"/>
+<area shape="rect" id="node14" href="$classCompiler_1_1Parser.html#a282f90e670b07e6303662793010965ca" title="Compiler::Parser::parseSpecial" alt="" coords="966,943,1183,969"/>
+<area shape="rect" id="node16" href="$classCompiler_1_1ErrorHandler.html#ae9df94e7ebfba1abd1f4744de29c4466" title="Generate an error message. " alt="" coords="1733,790,1901,831"/>
+<area shape="rect" id="node20" href="$classCompiler_1_1Parser.html#aabcff3e9392f22dcf9d1d2c265be395d" title="Compiler::Parser::parseInt" alt="" coords="981,455,1168,481"/>
+<area shape="rect" id="node22" href="$classCompiler_1_1Parser.html#a8ab2c92cccbfbb76ddeb91caa35e7d67" title="Compiler::Parser::parseFloat" alt="" coords="1235,780,1437,807"/>
+<area shape="rect" id="node24" href="$classCompiler_1_1Parser.html#a397cd594eeb58b15523fac465fb23eb4" title="Compiler::Parser::parseName" alt="" coords="969,505,1180,532"/>
+<area shape="rect" id="node26" href="$classCompiler_1_1Parser.html#a019a87a3e56f7ed90600e446d2d08ba9" title="Compiler::Parser::parseKeyword" alt="" coords="963,272,1186,299"/>
+<area shape="rect" id="node28" href="$classCompiler_1_1Parser.html#aed5509d503c76b48bcd1cd58f634bb32" title="Compiler::Parser::parseEOF" alt="" coords="1238,221,1434,248"/>
+<area shape="rect" id="node31" href="$classCompiler_1_1Scanner.html#abfbe66e297ff1291cd3b13b4c9daf0c0" title="Compiler::Scanner::\lputback" alt="" coords="1262,698,1410,739"/>
+<area shape="rect" id="node32" href="$classCompiler_1_1Parser.html#ae16d18bda09c386d1d932d069f11fc23" title="Compiler::Parser::parseComment" alt="" coords="680,121,915,148"/>
+<area shape="rect" id="node33" href="$classCompiler_1_1Scanner.html#a6ec84b6ecc4126716782d0e6808767c0" title="Compiler::Scanner::\lisWhitespace" alt="" coords="723,173,871,214"/>
+<area shape="rect" id="node34" href="$classCompiler_1_1Scanner.html#a546ed02c1971493689a2117d206348d1" title="Compiler::Scanner::\lscanName" alt="" coords="723,389,871,430"/>
+<area shape="rect" id="node38" href="$classCompiler_1_1Scanner.html#ac1f9fd5b978eecf07217ea0f7ec65bb2" title="Compiler::Scanner::\lscanInt" alt="" coords="723,557,871,598"/>
+<area shape="rect" id="node41" href="$classCompiler_1_1Scanner.html#adb2ecadf06516682c3d7bfe42b256e6d" title="Compiler::Scanner::\lscanSpecial" alt="" coords="723,775,871,817"/>
+<area shape="rect" id="node15" href="$classCompiler_1_1Parser.html#adb01de7ed3ea7712ce40c48d2a3fa9b8" title="Report the error and throw a exception. " alt="" coords="1498,635,1673,677"/>
+<area shape="rect" id="node19" href="$classCompiler_1_1Scanner.html#a44feea592a0773f895c4bf53dca1d70b" title="put back a special token " alt="" coords="1262,939,1410,981"/>
+<area shape="rect" id="node17" href="$classCompiler_1_1ErrorHandler.html#a8e0dfa362392d5b038467fd9c5634ca9" title="Generate a warning message. " alt="" coords="1949,790,2117,831"/>
+<area shape="rect" id="node18" href="$classCompiler_1_1ErrorHandler.html#ac53ce58d40afab69709d78ce5192306f" title="Report error to the user. " alt="" coords="2165,731,2333,773"/>
+<area shape="rect" id="node21" href="$classCompiler_1_1Scanner.html#ab03716288c02c46e31b762b8fc615c74" title="put back an integer token " alt="" coords="1262,454,1410,495"/>
+<area shape="rect" id="node23" href="$classCompiler_1_1Scanner.html#ac35d6f6c2a7d010bbd5e4b40ded47307" title="put back a float token " alt="" coords="1511,771,1659,813"/>
+<area shape="rect" id="node25" href="$classCompiler_1_1Scanner.html#acb281333e2d70fc35d94d2da0eb4a34f" title="put back a name token " alt="" coords="1262,622,1410,663"/>
+<area shape="rect" id="node27" href="$classCompiler_1_1Scanner.html#aaebeff4902f5779ef18a80469b76acf3" title="put back a keyword token " alt="" coords="1262,323,1410,365"/>
+<area shape="rect" id="node29" href="$classCompiler_1_1Parser.html#ad1295841754ce69e97ba7c7d62e669df" title="Report an unexpected EOF condition. " alt="" coords="1486,403,1685,429"/>
+<area shape="rect" id="node30" href="$classCompiler_1_1ErrorHandler.html#a6cc75d28ad7d47b40cf4f5b985168030" title="Generate an error message for an unexpected EOF. " alt="" coords="1733,437,1901,478"/>
+<area shape="rect" id="node35" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1009,389,1141,430"/>
+<area shape="rect" id="node37" href="$classCompiler_1_1Extensions.html#a00cf7c5bb421ef8ba5b1a773698c9115" title="Compiler::Extensions\l::searchKeyword" alt="" coords="997,323,1153,365"/>
+<area shape="rect" id="node36" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1270,389,1402,430"/>
+<area shape="rect" id="node39" href="$classCompiler_1_1Scanner.html#a50175399343f73eeb96ef72d2fbb9f51" title="Compiler::Scanner::\lisStringCharacter" alt="" coords="1001,607,1149,649"/>
+<area shape="rect" id="node40" href="$classCompiler_1_1Scanner.html#ad8aceaa346fed54980f09c6dd91de9d9" title="Compiler::Scanner::\lscanFloat" alt="" coords="1001,775,1149,817"/>
+<area shape="rect" id="node44" href="$classCompiler_1_1ScriptParser.html#a9024a0f4d8ee4d03e7cb7b2dc549107f" title="store generated code in code. " alt="" coords="466,862,630,903"/>
+<area shape="rect" id="node45" href="$classCompiler_1_1Output.html#a8f87d46702dc2e36ddf404c2940d36af" title="store generated code in code. " alt="" coords="701,1115,894,1141"/>
+<area shape="rect" id="node46" href="$classCompiler_1_1Literals.html#ae78bd0b86b4f27bdb63ec222b223f875" title="Return size of integer block (in bytes). " alt="" coords="1008,1107,1141,1149"/>
+<area shape="rect" id="node47" href="$classCompiler_1_1Literals.html#a68d26f6bd94839d290564e7292d84532" title="Return size of float block (in bytes). " alt="" coords="1008,1173,1141,1214"/>
+<area shape="rect" id="node48" href="$classCompiler_1_1Literals.html#aa682ae0b268f265fa508605b0e20357c" title="Return size of string block (in bytes). " alt="" coords="1269,1147,1403,1189"/>
+<area shape="rect" id="node49" href="$classCompiler_1_1Literals.html#a64d96d7fa66ea59c035014327583abdd" title="Compiler::Literals\l::append" alt="" coords="1008,1238,1141,1279"/>
 </map>

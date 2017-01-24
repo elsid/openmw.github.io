@@ -1,51 +1,51 @@
 <map id="MWMechanics::CharacterController::CharacterController" name="MWMechanics::CharacterController::CharacterController">
-<area shape="rect" id="node2" href="$classMWRender_1_1Animation.html#a702943359ee49453dd90ba0adc930617" title="MWRender::Animation\l::setTextKeyListener" alt="" coords="314,5,465,46"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="855,507,1011,533"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="581,412,742,439"/>
-<area shape="rect" id="node5" href="$classMWRender_1_1Animation.html#ad59f6998cda9770aad73085305ddd81e" title="MWRender::Animation\l::setAccumulation" alt="" coords="314,173,465,214"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1Class.html#a23032de169e9d4dc8932bae21e46e9b0" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="293,238,486,279"/>
-<area shape="rect" id="node7" href="$namespaceMWMechanics.html#a2da38219ca9eb50fbb4cca0611cc12b4" title="MWMechanics::getActiveWeapon" alt="" coords="554,71,769,97"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="839,558,1027,599"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="294,406,485,447"/>
-<area shape="rect" id="node16" href="$namespaceMWMechanics.html#aebf31f7e84f120ace3d03c1fa792d0b1" title="MWMechanics::getWeaponGroup" alt="" coords="283,472,496,499"/>
-<area shape="rect" id="node17" href="$classMWRender_1_1Animation.html#ad875681c2ae7caf51ef14e40a7bf6b31" title="MWRender::Animation\l::showWeapons" alt="" coords="314,523,465,565"/>
-<area shape="rect" id="node18" href="$classMWRender_1_1Animation.html#a88a969784d9a351676350b7f83ffff1c" title="MWRender::Animation\l::setWeaponGroup" alt="" coords="314,589,465,630"/>
-<area shape="rect" id="node19" href="$classMWRender_1_1Animation.html#a4a247dfafe9c1efeeeaa8a609bca4758" title="MWRender::Animation\l::showCarriedLeft" alt="" coords="314,654,465,695"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1CharacterController.html#a7dbd96b4a83dd43b9b83b8b87ae71e63" title="MWMechanics::CharacterController\l::updateCarriedLeftVisible" alt="" coords="277,719,501,761"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="293,785,485,826"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1CreatureStats.html#a4738989684a470fc9db26f0368f1dc3b" title="MWMechanics::CreatureStats\l::isDeathAnimationFinished" alt="" coords="293,850,485,891"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#ab05282224b282423477875d803be96ce" title="MWMechanics::CreatureStats\l::getDeathAnimation" alt="" coords="293,915,485,957"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1CharacterController.html#a956c738af871a46d10a37e12c9a46b3b" title="MWMechanics::CharacterController\l::chooseRandomDeathState" alt="" coords="549,850,773,891"/>
-<area shape="rect" id="node29" href="$classMWMechanics_1_1CharacterController.html#a583dc9b83b06b368c48ac9abd1355902" title="MWMechanics::CharacterController\l::refreshCurrentAnims" alt="" coords="277,981,501,1022"/>
-<area shape="rect" id="node41" href="$classMWRender_1_1Animation.html#a94ac28687434bbcd3ad5d97eb594bc4c" title="MWRender::Animation\l::runAnimation" alt="" coords="858,1243,1009,1285"/>
-<area shape="rect" id="node46" href="$classMWMechanics_1_1CharacterController.html#a742dccae98965b17930d42603cb3e0cc" title="MWMechanics::CharacterController\l::unpersistAnimationState" alt="" coords="277,1149,501,1190"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1CreatureStats.html#a574d0e9716ba3e0cddcac22a3f943e7a" title="MWMechanics::CreatureStats\l::getDrawState" alt="" coords="837,5,1029,46"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1ContainerStore.html#ab7165a7ef4e2053f7c0b712d017a9f5d" title="MWWorld::ContainerStore::end" alt="" coords="835,71,1032,97"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1InventoryStore.html#a00638734d306421a8aa211947d759e65" title="MWWorld::InventoryStore\l::getSlot" alt="" coords="850,122,1017,163"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1093,412,1280,439"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="871,412,996,439"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1329,511,1530,537"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1CharacterController.html#a19c34bb28bca49127418b526d434def6" title="MWMechanics::CharacterController\l::chooseRandomGroup" alt="" coords="821,777,1045,818"/>
-<area shape="rect" id="node26" href="$classMWRender_1_1Animation.html#a38d2545a992af8eef9199a7c1b5f74eb" title="MWRender::Animation\l::hasAnimation" alt="" coords="1111,783,1262,825"/>
-<area shape="rect" id="node27" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="1105,718,1268,759"/>
-<area shape="rect" id="node28" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="1123,861,1250,888"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1CharacterController.html#ae7520b5a1c8a260cad126ef7f7799a48" title="MWMechanics::CharacterController\l::refreshHitRecoilAnims" alt="" coords="549,733,773,774"/>
-<area shape="rect" id="node37" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="575,799,748,825"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1CharacterController.html#a52bb024bb57b87a4ec574f5a95b9b1c6" title="MWMechanics::CharacterController\l::refreshJumpAnims" alt="" coords="549,981,773,1022"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1CharacterController.html#aca36244b01b14efca38a8e619222dd96" title="MWMechanics::CharacterController\l::refreshMovementAnims" alt="" coords="549,650,773,691"/>
-<area shape="rect" id="node40" href="$classMWMechanics_1_1CharacterController.html#ad6ce2c6e356ea107b9620211f45e4117" title="MWMechanics::CharacterController\l::refreshIdleAnims" alt="" coords="549,915,773,957"/>
-<area shape="rect" id="node31" href="$classMWRender_1_1Animation.html#af375135ae7834445da7479dde42b7528" title="MWRender::Animation\l::play" alt="" coords="858,995,1009,1037"/>
-<area shape="rect" id="node36" href="$classMWRender_1_1Animation.html#ae52ecaea6bbf327d968e6d388f37bf44" title="MWRender::Animation\l::disable" alt="" coords="858,1061,1009,1102"/>
-<area shape="rect" id="node32" href="$classMWRender_1_1Animation.html#a94cc64915a580e0d9818d7aa50acc3d5" title="MWRender::Animation\l::resetActiveGroups" alt="" coords="1111,1119,1262,1161"/>
-<area shape="rect" id="node33" href="$structMWRender_1_1Animation_1_1AnimState.html#a53d70c3f75d4b3dbdcbf0e47ce705b9e" title="MWRender::Animation\l::AnimState::getTime" alt="" coords="1354,1185,1505,1226"/>
-<area shape="rect" id="node34" href="$classMWRender_1_1Animation.html#ab7236ec1b0d9e4a328d1415324692188" title="MWRender::Animation\l::handleTextKey" alt="" coords="1111,1054,1262,1095"/>
-<area shape="rect" id="node35" href="$structMWRender_1_1Animation_1_1AnimState.html#a31b0a6dacb33aaed30137588db536ee6" title="MWRender::Animation\l::AnimState::setTime" alt="" coords="1111,989,1262,1030"/>
-<area shape="rect" id="node42" href="$structMWRender_1_1Animation_1_1AnimState.html#a8672c86b51c1e03783cae5d36fc0ffe6" title="MWRender::Animation\l::AnimState::shouldLoop" alt="" coords="1107,1185,1267,1226"/>
-<area shape="rect" id="node43" href="$classMWRender_1_1Animation.html#a3412b94715c623af49ff4ed249804f4f" title="MWRender::Animation\l::updatePosition" alt="" coords="1111,1302,1262,1343"/>
-<area shape="rect" id="node44" href="$classMWRender_1_1Animation.html#abe9eebb1a1cd7d4fdae6d82f3b2c2b6b" title="This is typically called as part of runAnimation, but may be called manually if needed. " alt="" coords="1111,1367,1262,1409"/>
-<area shape="rect" id="node45" href="$namespaceCompiler_1_1Generator.html#a1d63b5cd16dc9d0d8e5afbf607cd6dd4" title="Compiler::Generator\l::enable" alt="" coords="1119,1433,1255,1474"/>
-<area shape="rect" id="node47" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="575,1215,747,1241"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1RefData.html#a81ce13f5e23951f911669fd4757c3aa2" title="MWWorld::RefData::getAnimation\lState" alt="" coords="555,1266,768,1307"/>
-<area shape="rect" id="node49" href="$classMWMechanics_1_1CharacterController.html#a91cf734388359775935c4f22fdbd05fc" title="MWMechanics::CharacterController\l::clearAnimQueue" alt="" coords="549,1149,773,1190"/>
-<area shape="rect" id="node50" href="$classMWRender_1_1Animation.html#a79d86f263710ea5aa972be1e5da78fc2" title="Get the absolute position in the animation track of the text key. " alt="" coords="586,1331,737,1373"/>
+<area shape="rect" id="node2" href="$classMWRender_1_1Animation.html#a702943359ee49453dd90ba0adc930617" title="MWRender::Animation\l::setTextKeyListener" alt="" coords="341,5,502,46"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="925,507,1091,533"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="629,412,801,439"/>
+<area shape="rect" id="node5" href="$classMWRender_1_1Animation.html#ad59f6998cda9770aad73085305ddd81e" title="MWRender::Animation\l::setAccumulation" alt="" coords="341,173,502,214"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Class.html#a23032de169e9d4dc8932bae21e46e9b0" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="316,238,527,279"/>
+<area shape="rect" id="node7" href="$namespaceMWMechanics.html#a2da38219ca9eb50fbb4cca0611cc12b4" title="MWMechanics::getActiveWeapon" alt="" coords="600,71,829,97"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="905,558,1111,599"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="317,406,525,447"/>
+<area shape="rect" id="node16" href="$namespaceMWMechanics.html#aebf31f7e84f120ace3d03c1fa792d0b1" title="MWMechanics::getWeaponGroup" alt="" coords="307,472,536,499"/>
+<area shape="rect" id="node17" href="$classMWRender_1_1Animation.html#ad875681c2ae7caf51ef14e40a7bf6b31" title="MWRender::Animation\l::showWeapons" alt="" coords="341,523,502,565"/>
+<area shape="rect" id="node18" href="$classMWRender_1_1Animation.html#a88a969784d9a351676350b7f83ffff1c" title="MWRender::Animation\l::setWeaponGroup" alt="" coords="341,589,502,630"/>
+<area shape="rect" id="node19" href="$classMWRender_1_1Animation.html#a4a247dfafe9c1efeeeaa8a609bca4758" title="MWRender::Animation\l::showCarriedLeft" alt="" coords="341,654,502,695"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1CharacterController.html#a7dbd96b4a83dd43b9b83b8b87ae71e63" title="MWMechanics::CharacterController\l::updateCarriedLeftVisible" alt="" coords="299,719,543,761"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="317,785,526,826"/>
+<area shape="rect" id="node22" href="$classMWMechanics_1_1CreatureStats.html#a4738989684a470fc9db26f0368f1dc3b" title="MWMechanics::CreatureStats\l::isDeathAnimationFinished" alt="" coords="317,850,526,891"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#ab05282224b282423477875d803be96ce" title="MWMechanics::CreatureStats\l::getDeathAnimation" alt="" coords="317,915,526,957"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1CharacterController.html#a956c738af871a46d10a37e12c9a46b3b" title="MWMechanics::CharacterController\l::chooseRandomDeathState" alt="" coords="593,850,837,891"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1CharacterController.html#a583dc9b83b06b368c48ac9abd1355902" title="MWMechanics::CharacterController\l::refreshCurrentAnims" alt="" coords="299,981,543,1022"/>
+<area shape="rect" id="node41" href="$classMWRender_1_1Animation.html#a94ac28687434bbcd3ad5d97eb594bc4c" title="MWRender::Animation\l::runAnimation" alt="" coords="927,1243,1089,1285"/>
+<area shape="rect" id="node46" href="$classMWMechanics_1_1CharacterController.html#a742dccae98965b17930d42603cb3e0cc" title="MWMechanics::CharacterController\l::unpersistAnimationState" alt="" coords="299,1149,543,1190"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1CreatureStats.html#a574d0e9716ba3e0cddcac22a3f943e7a" title="MWMechanics::CreatureStats\l::getDrawState" alt="" coords="903,5,1113,46"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1ContainerStore.html#ab7165a7ef4e2053f7c0b712d017a9f5d" title="MWWorld::ContainerStore::end" alt="" coords="901,71,1115,97"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1InventoryStore.html#a00638734d306421a8aa211947d759e65" title="MWWorld::InventoryStore\l::getSlot" alt="" coords="918,122,1098,163"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1179,412,1379,439"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="941,412,1075,439"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1427,511,1643,537"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1CharacterController.html#a19c34bb28bca49127418b526d434def6" title="MWMechanics::CharacterController\l::chooseRandomGroup" alt="" coords="886,777,1130,818"/>
+<area shape="rect" id="node26" href="$classMWRender_1_1Animation.html#a38d2545a992af8eef9199a7c1b5f74eb" title="MWRender::Animation\l::hasAnimation" alt="" coords="1198,783,1359,825"/>
+<area shape="rect" id="node27" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="1184,718,1373,759"/>
+<area shape="rect" id="node28" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="1210,861,1347,888"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1CharacterController.html#ae7520b5a1c8a260cad126ef7f7799a48" title="MWMechanics::CharacterController\l::refreshHitRecoilAnims" alt="" coords="593,733,837,774"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="622,799,807,825"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CharacterController.html#a52bb024bb57b87a4ec574f5a95b9b1c6" title="MWMechanics::CharacterController\l::refreshJumpAnims" alt="" coords="593,981,837,1022"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1CharacterController.html#aca36244b01b14efca38a8e619222dd96" title="MWMechanics::CharacterController\l::refreshMovementAnims" alt="" coords="593,650,837,691"/>
+<area shape="rect" id="node40" href="$classMWMechanics_1_1CharacterController.html#ad6ce2c6e356ea107b9620211f45e4117" title="MWMechanics::CharacterController\l::refreshIdleAnims" alt="" coords="593,915,837,957"/>
+<area shape="rect" id="node31" href="$classMWRender_1_1Animation.html#af375135ae7834445da7479dde42b7528" title="MWRender::Animation\l::play" alt="" coords="927,995,1089,1037"/>
+<area shape="rect" id="node36" href="$classMWRender_1_1Animation.html#ae52ecaea6bbf327d968e6d388f37bf44" title="MWRender::Animation\l::disable" alt="" coords="927,1061,1089,1102"/>
+<area shape="rect" id="node32" href="$classMWRender_1_1Animation.html#a94cc64915a580e0d9818d7aa50acc3d5" title="MWRender::Animation\l::resetActiveGroups" alt="" coords="1198,1119,1359,1161"/>
+<area shape="rect" id="node33" href="$structMWRender_1_1Animation_1_1AnimState.html#a53d70c3f75d4b3dbdcbf0e47ce705b9e" title="MWRender::Animation\l::AnimState::getTime" alt="" coords="1454,1185,1615,1226"/>
+<area shape="rect" id="node34" href="$classMWRender_1_1Animation.html#ab7236ec1b0d9e4a328d1415324692188" title="MWRender::Animation\l::handleTextKey" alt="" coords="1198,1054,1359,1095"/>
+<area shape="rect" id="node35" href="$structMWRender_1_1Animation_1_1AnimState.html#a31b0a6dacb33aaed30137588db536ee6" title="MWRender::Animation\l::AnimState::setTime" alt="" coords="1198,989,1359,1030"/>
+<area shape="rect" id="node42" href="$structMWRender_1_1Animation_1_1AnimState.html#a8672c86b51c1e03783cae5d36fc0ffe6" title="MWRender::Animation\l::AnimState::shouldLoop" alt="" coords="1189,1185,1368,1226"/>
+<area shape="rect" id="node43" href="$classMWRender_1_1Animation.html#a3412b94715c623af49ff4ed249804f4f" title="MWRender::Animation\l::updatePosition" alt="" coords="1198,1302,1359,1343"/>
+<area shape="rect" id="node44" href="$classMWRender_1_1Animation.html#abe9eebb1a1cd7d4fdae6d82f3b2c2b6b" title="This is typically called as part of runAnimation, but may be called manually if needed. " alt="" coords="1198,1367,1359,1409"/>
+<area shape="rect" id="node45" href="$namespaceCompiler_1_1Generator.html#a1d63b5cd16dc9d0d8e5afbf607cd6dd4" title="Compiler::Generator\l::enable" alt="" coords="1203,1433,1355,1474"/>
+<area shape="rect" id="node47" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="623,1215,806,1241"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1RefData.html#a81ce13f5e23951f911669fd4757c3aa2" title="MWWorld::RefData::getAnimation\lState" alt="" coords="599,1266,830,1307"/>
+<area shape="rect" id="node49" href="$classMWMechanics_1_1CharacterController.html#a91cf734388359775935c4f22fdbd05fc" title="MWMechanics::CharacterController\l::clearAnimQueue" alt="" coords="593,1149,837,1190"/>
+<area shape="rect" id="node50" href="$classMWRender_1_1Animation.html#a79d86f263710ea5aa972be1e5da78fc2" title="Get the absolute position in the animation track of the text key. " alt="" coords="634,1331,795,1373"/>
 </map>

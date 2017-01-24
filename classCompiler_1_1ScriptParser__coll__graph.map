@@ -1,19 +1,19 @@
 <map id="Compiler::ScriptParser" name="Compiler::ScriptParser">
-<area shape="rect" id="node2" href="$classCompiler_1_1Parser.html" title="Parser base class. " alt="" coords="1328,1437,1470,1779"/>
-<area shape="rect" id="node25" href="$classCompiler_1_1LineParser.html" title="Line parser, to be used in console scripts and as part of ScriptParser. " alt="" coords="596,2350,735,2530"/>
-<area shape="rect" id="node26" href="$classCompiler_1_1ExprParser.html" title="{Compiler::ExprParser\n||+ ExprParser()\l+ getType()\l+ parseInt()\l+ parseFloat()\l+ parseName()\l+ parseKeyword()\l+ parseSpecial()\l+ reset()\l+ append()\l+ parseArguments()\l+ getTokenLoc()\l&#45; getPriority()\l&#45; getOperandType()\l&#45; getOperator()\l&#45; isOpen()\l&#45; popOperator()\l&#45; popOperand()\l&#45; replaceBinaryOperands()\l&#45; pop()\l&#45; pushIntegerLiteral()\l&#45; pushFloatLiteral()\l&#45; pushBinaryOperator()\l&#45; close()\l&#45; parseArguments()\l&#45; handleMemberAccess()\l}" alt="" coords="763,1843,934,2272"/>
-<area shape="rect" id="node30" href="$classCompiler_1_1ControlParser.html" title="{Compiler::ControlParser\n||+ ControlParser()\l+ appendCode()\l+ parseName()\l+ parseKeyword()\l+ parseSpecial()\l+ reset()\l&#45; parseIfBody()\l&#45; parseWhileBody()\l}" alt="" coords="883,2595,1041,2775"/>
-<area shape="rect" id="node3" href="$classCompiler_1_1Context.html" title="{Compiler::Context\n||+ Context()\l+ ~Context()\l+ canDeclareLocals()\l+ setExtensions()\l+ getExtensions()\l+ getGlobalType()\l+ getMemberType()\l+ isId()\l+ isJournalId()\l}" alt="" coords="1615,1091,1757,1285"/>
-<area shape="rect" id="node4" href="$classCompiler_1_1Extensions.html" title="Collection of compiler extensions. " alt="" coords="1558,773,1739,968"/>
-<area shape="rect" id="node6" href="$classint.html" title="{int\n||}" alt="" coords="1409,149,1447,227"/>
-<area shape="rect" id="node10" href="$structCompiler_1_1Extensions_1_1Instruction.html" title="{Compiler::Extensions\l::Instruction\n||}" alt="" coords="1223,321,1362,413"/>
-<area shape="rect" id="node12" href="$structCompiler_1_1Extensions_1_1Function.html" title="{Compiler::Extensions\l::Function\n||}" alt="" coords="887,321,1026,413"/>
-<area shape="rect" id="node14" href="$classCompiler_1_1ErrorHandler.html" title="Error handling. " alt="" coords="1440,1061,1590,1315"/>
-<area shape="rect" id="node28" href="$structCompiler_1_1TokenLoc.html" title="Location of a token in a source file. " alt="" coords="718,328,853,405"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="660,149,735,227"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="637,6,758,98"/>
-<area shape="rect" id="node15" href="$classbool.html" title="{bool\n||}" alt="" coords="1267,832,1313,909"/>
-<area shape="rect" id="node16" href="$classCompiler_1_1Output.html" title="{Compiler::Output\n||+ Output()\l+ getCode()\l+ getLiterals()\l+ getLocals()\l+ getCode()\l+ getLiterals()\l+ getCode()\l+ getLocals()\l+ clear()\l}" alt="" coords="307,1960,425,2155"/>
-<area shape="rect" id="node17" href="$classCompiler_1_1Literals.html" title="Literal values. " alt="" coords="479,1518,602,1698"/>
-<area shape="rect" id="node22" href="$classCompiler_1_1Locals.html" title="Local variable declarations. " alt="" coords="635,1511,750,1705"/>
+<area shape="rect" id="node2" href="$classCompiler_1_1Parser.html" title="Parser base class. " alt="" coords="1405,1437,1569,1779"/>
+<area shape="rect" id="node25" href="$classCompiler_1_1LineParser.html" title="Line parser, to be used in console scripts and as part of ScriptParser. " alt="" coords="633,2350,785,2530"/>
+<area shape="rect" id="node26" href="$classCompiler_1_1ExprParser.html" title="{Compiler::ExprParser\n||+ ExprParser()\l+ getType()\l+ parseInt()\l+ parseFloat()\l+ parseName()\l+ parseKeyword()\l+ parseSpecial()\l+ reset()\l+ append()\l+ parseArguments()\l+ getTokenLoc()\l&#45; getPriority()\l&#45; getOperandType()\l&#45; getOperator()\l&#45; isOpen()\l&#45; popOperator()\l&#45; popOperand()\l&#45; replaceBinaryOperands()\l&#45; pop()\l&#45; pushIntegerLiteral()\l&#45; pushFloatLiteral()\l&#45; pushBinaryOperator()\l&#45; close()\l&#45; parseArguments()\l&#45; handleMemberAccess()\l}" alt="" coords="814,1843,1004,2272"/>
+<area shape="rect" id="node30" href="$classCompiler_1_1ControlParser.html" title="{Compiler::ControlParser\n||+ ControlParser()\l+ appendCode()\l+ parseName()\l+ parseKeyword()\l+ parseSpecial()\l+ reset()\l&#45; parseIfBody()\l&#45; parseWhileBody()\l}" alt="" coords="931,2595,1104,2775"/>
+<area shape="rect" id="node3" href="$classCompiler_1_1Context.html" title="{Compiler::Context\n||+ Context()\l+ ~Context()\l+ canDeclareLocals()\l+ setExtensions()\l+ getExtensions()\l+ getGlobalType()\l+ getMemberType()\l+ isId()\l+ isJournalId()\l}" alt="" coords="1718,1091,1876,1285"/>
+<area shape="rect" id="node4" href="$classCompiler_1_1Extensions.html" title="Collection of compiler extensions. " alt="" coords="1679,773,1884,968"/>
+<area shape="rect" id="node6" href="$classint.html" title="{int\n||}" alt="" coords="1518,149,1556,227"/>
+<area shape="rect" id="node10" href="$structCompiler_1_1Extensions_1_1Instruction.html" title="{Compiler::Extensions\l::Instruction\n||}" alt="" coords="1309,321,1464,413"/>
+<area shape="rect" id="node12" href="$structCompiler_1_1Extensions_1_1Function.html" title="{Compiler::Extensions\l::Function\n||}" alt="" coords="941,321,1096,413"/>
+<area shape="rect" id="node14" href="$classCompiler_1_1ErrorHandler.html" title="Error handling. " alt="" coords="1525,1061,1693,1315"/>
+<area shape="rect" id="node28" href="$structCompiler_1_1TokenLoc.html" title="Location of a token in a source file. " alt="" coords="759,328,904,405"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="690,149,776,227"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="665,6,801,98"/>
+<area shape="rect" id="node15" href="$classbool.html" title="{bool\n||}" alt="" coords="1343,832,1392,909"/>
+<area shape="rect" id="node16" href="$classCompiler_1_1Output.html" title="{Compiler::Output\n||+ Output()\l+ getCode()\l+ getLiterals()\l+ getLocals()\l+ getCode()\l+ getLiterals()\l+ getCode()\l+ getLocals()\l+ clear()\l}" alt="" coords="329,1960,459,2155"/>
+<area shape="rect" id="node17" href="$classCompiler_1_1Literals.html" title="Literal values. " alt="" coords="495,1518,635,1698"/>
+<area shape="rect" id="node22" href="$classCompiler_1_1Locals.html" title="Local variable declarations. " alt="" coords="675,1511,801,1705"/>
 </map>

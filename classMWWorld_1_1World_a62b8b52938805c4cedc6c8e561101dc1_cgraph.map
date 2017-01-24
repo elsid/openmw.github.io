@@ -1,51 +1,51 @@
 <map id="MWWorld::World::updatePlayer" name="MWWorld::World::updatePlayer">
-<area shape="rect" id="node2" href="$classMWWorld_1_1World.html#ac06bcccda0f3e8626dea1d273676f72a" title="MWWorld::World::getPlayerPtr" alt="" coords="261,5,456,32"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="285,56,432,83"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1CellStore.html#a0cf5ba632c9f67dc25d28e4bebd8c8f5" title="MWWorld::CellStore\l::isExterior" alt="" coords="290,107,427,149"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="775,201,947,228"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="761,256,962,283"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1Player.html#ac2ca66e227b38727ca671ab9ec4b0591" title="MWWorld::Player::setLast\lKnownExteriorPosition" alt="" coords="275,389,442,430"/>
-<area shape="rect" id="node10" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="786,323,937,349"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="281,455,437,481"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="263,505,455,532"/>
-<area shape="rect" id="node13" href="$classMWMechanics_1_1NpcStats.html#af1693fef2b49c958fec69ec5a462b8c1" title="MWMechanics::NpcStats\l::isWerewolf" alt="" coords="275,557,442,598"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1World.html#a1c873089a21062dc3bc7e027ec6599ca" title="MWWorld::World::isFirstPerson" alt="" coords="260,673,457,700"/>
-<area shape="rect" id="node15" href="$classMWRender_1_1RenderingManager.html#a252953099cc911433d92220d4495df57" title="MWRender::RenderingManager\l::getCamera" alt="" coords="512,607,712,649"/>
-<area shape="rect" id="node16" href="$classMWRender_1_1Camera.html#abe7d0377b0c82e10070b225fc295fdc0" title="MWRender::Camera::isFirst\lPerson" alt="" coords="773,742,950,783"/>
-<area shape="rect" id="node17" href="$classFallback_1_1Map.html#a5e52e347392db20d8d54bc1e163051d1" title="Fallback::Map::getFallback\lFloat" alt="" coords="271,826,446,867"/>
-<area shape="rect" id="node19" href="$classMWRender_1_1RenderingManager.html#ae5916a403a8c597d57123cde9f629930" title="temporarily override the field of view with given value. " alt="" coords="259,891,459,933"/>
-<area shape="rect" id="node21" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="271,1023,446,1049"/>
-<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="283,1074,434,1115"/>
-<area shape="rect" id="node23" href="$classMWBase_1_1WindowManager.html#a3aa83c8890c51c2d6c169b0f7039afff" title="MWBase::WindowManager\l::setWerewolfOverlay" alt="" coords="271,1139,446,1181"/>
-<area shape="rect" id="node24" href="$classMWRender_1_1RenderingManager.html#a9a9fa5c3e7dac4bb00ac04fd86f1f2e7" title="reset a previous overrideFieldOfView() call, i.e. revert to field of view specified in the settings f..." alt="" coords="259,957,459,998"/>
-<area shape="rect" id="node25" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="265,1205,453,1246"/>
-<area shape="rect" id="node26" href="$classMWMechanics_1_1CreatureStats.html#a1b87fd5147564be617cb95bbbaf64022" title="Like getMovementFlag, but also takes into account if the flag is Forced. " alt="" coords="263,1270,455,1311"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1World.html#a16a90e32aafbe7833dbc925e87d8e835" title="MWWorld::World::isOnGround" alt="" coords="263,232,454,259"/>
-<area shape="rect" id="node30" href="$classMWWorld_1_1World.html#a3d1741b8675ff832c074fa4fe32fe46d" title="MWWorld::World::isSwimming" alt="" coords="263,1336,455,1363"/>
-<area shape="rect" id="node32" href="$classMWWorld_1_1World.html#a87aedd49e821a983ab17125a34666cb5" title="MWWorld::World::getStore" alt="" coords="273,1387,445,1413"/>
-<area shape="rect" id="node33" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="275,1437,442,1464"/>
-<area shape="rect" id="node34" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="266,1488,451,1515"/>
-<area shape="rect" id="node36" href="$classMWRender_1_1Camera.html#ac4cb9815ff2fb8b7887abca8186423bd" title="Lowers the camera for sneak. " alt="" coords="260,1539,457,1581"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="263,1605,455,1646"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="253,1671,464,1697"/>
-<area shape="rect" id="node40" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="267,1722,450,1763"/>
-<area shape="rect" id="node41" href="$classMWBase_1_1WindowManager.html#adda72f1e01d2fcdc9c4e700b53815c0a" title="Darken the screen to a specified percentage. " alt="" coords="271,1787,446,1829"/>
-<area shape="rect" id="node42" href="$classMWRender_1_1RenderingManager.html#ac304f418d04f9921df744b8582263ba8" title="MWRender::RenderingManager\l::setNightEyeFactor" alt="" coords="259,1853,459,1894"/>
-<area shape="rect" id="node44" href="$classMWRender_1_1Camera.html#a4fbdb0472bc2773d9925c1a3a0e3e455" title="MWRender::Camera::setCamera\lDistance" alt="" coords="256,1918,461,1959"/>
-<area shape="rect" id="node45" href="$classMWRender_1_1Camera.html#a06811aaa6f4acd0bb554dacb5eb10b14" title="Stores focal and camera world positions in passed arguments. " alt="" coords="255,775,462,801"/>
-<area shape="rect" id="node49" href="$classMWRender_1_1RenderingManager.html#affb59531350fda44df090283d2936be0" title="MWRender::RenderingManager\l::getNearClipDistance" alt="" coords="259,1983,459,2025"/>
-<area shape="rect" id="node50" href="$classMWPhysics_1_1PhysicsSystem.html#ad78ad82016390f34a93f7671658e6eda" title="MWPhysics::PhysicsSystem\l::castSphere" alt="" coords="267,2049,450,2090"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1Player.html#af44444776d68e15a21c03bb321aaaf88" title="MWWorld::Player::getPlayer" alt="" coords="522,5,702,32"/>
-<area shape="rect" id="node6" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="544,115,680,141"/>
-<area shape="rect" id="node18" href="$classFallback_1_1Map.html#a9e3f96a700edb3ba7aa39f7edc6fa59f" title="Fallback::Map::getFallback\lString" alt="" coords="525,994,699,1035"/>
-<area shape="rect" id="node20" href="$classMWRender_1_1RenderingManager.html#a6d7eaf6dacd09a03d18706f31109a272" title="MWRender::RenderingManager\l::updateProjectionMatrix" alt="" coords="512,1059,712,1101"/>
-<area shape="rect" id="node27" href="$classMWMechanics_1_1CreatureStats.html#a414af15352b5445923a2e9e50d8f8c5c" title="MWMechanics::CreatureStats\l::getMovementFlag" alt="" coords="516,1270,708,1311"/>
-<area shape="rect" id="node29" href="$classMWPhysics_1_1PhysicsSystem.html#afb214fa95a8da74a1347964f6e9f9b6f" title="MWPhysics::PhysicsSystem\l::isOnGround" alt="" coords="521,221,703,262"/>
-<area shape="rect" id="node31" href="$classMWWorld_1_1World.html#ac1a23bda9e1497379a3886dedff370e9" title="helper function for implementing isSwimming(), isSubmerged(), isWading() " alt="" coords="513,1336,711,1363"/>
-<area shape="rect" id="node35" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="537,1488,687,1515"/>
-<area shape="rect" id="node37" href="$classMWRender_1_1NpcAnimation.html#ab30e384c9f1ae4359d7fd69ec5670490" title="Set a translation offset (in object root space) to apply to meshes when in first person mode..." alt="" coords="525,1539,699,1581"/>
-<area shape="rect" id="node43" href="$classMWRender_1_1RenderingManager.html#adc21db71cf476981fcc10e263dad04ed" title="MWRender::RenderingManager\l::updateAmbient" alt="" coords="512,1853,712,1894"/>
-<area shape="rect" id="node46" href="$classMWRender_1_1Camera.html#af4d68599602c8cdbcd4ca6855a229a55" title="MWRender::Camera::getFocal\lPoint" alt="" coords="515,826,709,867"/>
-<area shape="rect" id="node47" href="$classMWRender_1_1Camera.html#a34efbc8b69d2341b5d5f38cb031d21b6" title="MWRender::Camera::getPitch" alt="" coords="517,892,707,919"/>
-<area shape="rect" id="node48" href="$classMWRender_1_1Camera.html#ad6bf6d32b25876657564588188879f2a" title="MWRender::Camera::getYaw" alt="" coords="519,943,705,969"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1World.html#ac06bcccda0f3e8626dea1d273676f72a" title="MWWorld::World::getPlayerPtr" alt="" coords="278,5,485,32"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="303,56,459,83"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1CellStore.html#a0cf5ba632c9f67dc25d28e4bebd8c8f5" title="MWWorld::CellStore\l::isExterior" alt="" coords="309,107,453,149"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="825,201,1007,228"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="809,256,1023,283"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1Player.html#ac2ca66e227b38727ca671ab9ec4b0591" title="MWWorld::Player::setLast\lKnownExteriorPosition" alt="" coords="291,389,471,430"/>
+<area shape="rect" id="node10" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="835,323,997,349"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="298,455,465,481"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="277,505,485,532"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1NpcStats.html#af1693fef2b49c958fec69ec5a462b8c1" title="MWMechanics::NpcStats\l::isWerewolf" alt="" coords="292,557,471,598"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1World.html#a1c873089a21062dc3bc7e027ec6599ca" title="MWWorld::World::isFirstPerson" alt="" coords="277,673,485,700"/>
+<area shape="rect" id="node15" href="$classMWRender_1_1RenderingManager.html#a252953099cc911433d92220d4495df57" title="MWRender::RenderingManager\l::getCamera" alt="" coords="545,607,759,649"/>
+<area shape="rect" id="node16" href="$classMWRender_1_1Camera.html#abe7d0377b0c82e10070b225fc295fdc0" title="MWRender::Camera::isFirst\lPerson" alt="" coords="821,742,1011,783"/>
+<area shape="rect" id="node17" href="$classFallback_1_1Map.html#a5e52e347392db20d8d54bc1e163051d1" title="Fallback::Map::getFallback\lFloat" alt="" coords="288,826,475,867"/>
+<area shape="rect" id="node19" href="$classMWRender_1_1RenderingManager.html#ae5916a403a8c597d57123cde9f629930" title="temporarily override the field of view with given value. " alt="" coords="274,891,489,933"/>
+<area shape="rect" id="node21" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="284,1023,479,1049"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="299,1074,464,1115"/>
+<area shape="rect" id="node23" href="$classMWBase_1_1WindowManager.html#a3aa83c8890c51c2d6c169b0f7039afff" title="MWBase::WindowManager\l::setWerewolfOverlay" alt="" coords="288,1139,475,1181"/>
+<area shape="rect" id="node24" href="$classMWRender_1_1RenderingManager.html#a9a9fa5c3e7dac4bb00ac04fd86f1f2e7" title="reset a previous overrideFieldOfView() call, i.e. revert to field of view specified in the settings f..." alt="" coords="274,957,489,998"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="279,1205,484,1246"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1CreatureStats.html#a1b87fd5147564be617cb95bbbaf64022" title="Like getMovementFlag, but also takes into account if the flag is Forced. " alt="" coords="277,1270,486,1311"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1World.html#a16a90e32aafbe7833dbc925e87d8e835" title="MWWorld::World::isOnGround" alt="" coords="280,232,483,259"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1World.html#a3d1741b8675ff832c074fa4fe32fe46d" title="MWWorld::World::isSwimming" alt="" coords="279,1336,483,1363"/>
+<area shape="rect" id="node32" href="$classMWWorld_1_1World.html#a87aedd49e821a983ab17125a34666cb5" title="MWWorld::World::getStore" alt="" coords="289,1387,473,1413"/>
+<area shape="rect" id="node33" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="292,1437,471,1464"/>
+<area shape="rect" id="node34" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="280,1488,483,1515"/>
+<area shape="rect" id="node36" href="$classMWRender_1_1Camera.html#ac4cb9815ff2fb8b7887abca8186423bd" title="Lowers the camera for sneak. " alt="" coords="274,1539,489,1581"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="277,1605,486,1646"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="267,1671,495,1697"/>
+<area shape="rect" id="node40" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="283,1722,479,1763"/>
+<area shape="rect" id="node41" href="$classMWBase_1_1WindowManager.html#adda72f1e01d2fcdc9c4e700b53815c0a" title="Darken the screen to a specified percentage. " alt="" coords="288,1787,475,1829"/>
+<area shape="rect" id="node42" href="$classMWRender_1_1RenderingManager.html#ac304f418d04f9921df744b8582263ba8" title="MWRender::RenderingManager\l::setNightEyeFactor" alt="" coords="274,1853,489,1894"/>
+<area shape="rect" id="node44" href="$classMWRender_1_1Camera.html#a4fbdb0472bc2773d9925c1a3a0e3e455" title="MWRender::Camera::setCamera\lDistance" alt="" coords="268,1918,495,1959"/>
+<area shape="rect" id="node45" href="$classMWRender_1_1Camera.html#a06811aaa6f4acd0bb554dacb5eb10b14" title="Stores focal and camera world positions in passed arguments. " alt="" coords="268,775,495,801"/>
+<area shape="rect" id="node49" href="$classMWRender_1_1RenderingManager.html#affb59531350fda44df090283d2936be0" title="MWRender::RenderingManager\l::getNearClipDistance" alt="" coords="274,1983,489,2025"/>
+<area shape="rect" id="node50" href="$classMWPhysics_1_1PhysicsSystem.html#ad78ad82016390f34a93f7671658e6eda" title="MWPhysics::PhysicsSystem\l::castSphere" alt="" coords="284,2049,479,2090"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1Player.html#af44444776d68e15a21c03bb321aaaf88" title="MWWorld::Player::getPlayer" alt="" coords="555,5,749,32"/>
+<area shape="rect" id="node6" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="578,115,726,141"/>
+<area shape="rect" id="node18" href="$classFallback_1_1Map.html#a9e3f96a700edb3ba7aa39f7edc6fa59f" title="Fallback::Map::getFallback\lString" alt="" coords="559,994,745,1035"/>
+<area shape="rect" id="node20" href="$classMWRender_1_1RenderingManager.html#a6d7eaf6dacd09a03d18706f31109a272" title="MWRender::RenderingManager\l::updateProjectionMatrix" alt="" coords="545,1059,759,1101"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1CreatureStats.html#a414af15352b5445923a2e9e50d8f8c5c" title="MWMechanics::CreatureStats\l::getMovementFlag" alt="" coords="547,1270,757,1311"/>
+<area shape="rect" id="node29" href="$classMWPhysics_1_1PhysicsSystem.html#afb214fa95a8da74a1347964f6e9f9b6f" title="MWPhysics::PhysicsSystem\l::isOnGround" alt="" coords="555,221,749,262"/>
+<area shape="rect" id="node31" href="$classMWWorld_1_1World.html#ac1a23bda9e1497379a3886dedff370e9" title="helper function for implementing isSwimming(), isSubmerged(), isWading() " alt="" coords="546,1336,758,1363"/>
+<area shape="rect" id="node35" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="571,1488,733,1515"/>
+<area shape="rect" id="node37" href="$classMWRender_1_1NpcAnimation.html#ab30e384c9f1ae4359d7fd69ec5670490" title="Set a translation offset (in object root space) to apply to meshes when in first person mode..." alt="" coords="559,1539,745,1581"/>
+<area shape="rect" id="node43" href="$classMWRender_1_1RenderingManager.html#adc21db71cf476981fcc10e263dad04ed" title="MWRender::RenderingManager\l::updateAmbient" alt="" coords="545,1853,759,1894"/>
+<area shape="rect" id="node46" href="$classMWRender_1_1Camera.html#af4d68599602c8cdbcd4ca6855a229a55" title="MWRender::Camera::getFocal\lPoint" alt="" coords="547,826,757,867"/>
+<area shape="rect" id="node47" href="$classMWRender_1_1Camera.html#a34efbc8b69d2341b5d5f38cb031d21b6" title="MWRender::Camera::getPitch" alt="" coords="549,892,755,919"/>
+<area shape="rect" id="node48" href="$classMWRender_1_1Camera.html#ad6bf6d32b25876657564588188879f2a" title="MWRender::Camera::getYaw" alt="" coords="553,943,751,969"/>
 </map>

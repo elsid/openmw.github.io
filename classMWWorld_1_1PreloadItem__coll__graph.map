@@ -1,20 +1,20 @@
 <map id="MWWorld::PreloadItem" name="MWWorld::PreloadItem">
-<area shape="rect" id="node2" href="$classSceneUtil_1_1WorkItem.html" title="{SceneUtil::WorkItem\n||+ WorkItem()\l+ ~WorkItem()\l+ doWork()\l+ isDone()\l+ waitTillDone()\l+ signalDone()\l}" alt="" coords="193,889,332,1039"/>
-<area shape="rect" id="node21" href="$classResource_1_1SceneManager.html" title="Handles loading and caching of scenes, e.g. .nif files or .osg files. " alt="" coords="1302,1398,1487,1666"/>
-<area shape="rect" id="node30" href="$classShader_1_1ShaderManager.html" title="Reads shader template files and turns them into a concrete shader, based on a list of define&#39;s..." alt="" coords="849,911,1008,1017"/>
-<area shape="rect" id="node7" href="$classResource_1_1KeyframeManager.html" title="Managing of keyframe resources. " alt="" coords="2479,1479,2665,1585"/>
-<area shape="rect" id="node8" href="$classResource_1_1ResourceManager.html" title="Base class for managers that require a virtual file system and object cache. " alt="" coords="2108,896,2295,1032"/>
-<area shape="rect" id="node23" href="$classResource_1_1ImageManager.html" title="Handles loading/caching of Images. " alt="" coords="1884,1105,2052,1255"/>
-<area shape="rect" id="node39" href="$classResource_1_1NifFileManager.html" title="Handles caching of NIFFiles. " alt="" coords="2161,1127,2329,1233"/>
-<area shape="rect" id="node40" href="$classResource_1_1BulletShapeManager.html" title="{Resource::BulletShapeManager\n||+ BulletShapeManager()\l+ ~BulletShapeManager()\l+ getShape()\l+ cacheInstance()\l+ getInstance()\l+ updateCache()\l&#45; createInstance()\l}" alt="" coords="1589,1808,1792,1973"/>
-<area shape="rect" id="node11" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="2256,568,2404,763"/>
-<area shape="rect" id="node44" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="2259,2051,2445,2304"/>
-<area shape="rect" id="node13" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="2183,150,2256,242"/>
-<area shape="rect" id="node14" title="STL class. " alt="" coords="1134,157,1209,235"/>
-<area shape="rect" id="node15" title="STL class. " alt="" coords="1111,6,1232,98"/>
-<area shape="rect" id="node16" href="$classbool.html" title="{bool\n||}" alt="" coords="2079,335,2125,412"/>
-<area shape="rect" id="node18" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="2347,150,2463,242"/>
-<area shape="rect" id="node42" href="$classTerrain_1_1World.html" title="The basic interface for a terrain world. How the terrain chunks are paged and displayed is up to the ..." alt="" coords="1909,2381,2077,2576"/>
-<area shape="rect" id="node27" href="$classint.html" title="{int\n||}" alt="" coords="573,1141,611,1219"/>
-<area shape="rect" id="node50" href="$classTerrain_1_1Storage.html" title="We keep storage of terrain data abstract here since we need different implementations for game and ed..." alt="" coords="1920,2080,2067,2275"/>
+<area shape="rect" id="node2" href="$classSceneUtil_1_1WorkItem.html" title="{SceneUtil::WorkItem\n||+ WorkItem()\l+ ~WorkItem()\l+ doWork()\l+ isDone()\l+ waitTillDone()\l+ signalDone()\l}" alt="" coords="209,889,359,1039"/>
+<area shape="rect" id="node21" href="$classResource_1_1SceneManager.html" title="Handles loading and caching of scenes, e.g. .nif files or .osg files. " alt="" coords="1443,1398,1645,1666"/>
+<area shape="rect" id="node30" href="$classShader_1_1ShaderManager.html" title="Reads shader template files and turns them into a concrete shader, based on a list of define&#39;s..." alt="" coords="960,911,1139,1017"/>
+<area shape="rect" id="node7" href="$classResource_1_1KeyframeManager.html" title="Managing of keyframe resources. " alt="" coords="2722,1479,2925,1585"/>
+<area shape="rect" id="node8" href="$classResource_1_1ResourceManager.html" title="Base class for managers that require a virtual file system and object cache. " alt="" coords="2293,896,2496,1032"/>
+<area shape="rect" id="node23" href="$classResource_1_1ImageManager.html" title="Handles loading/caching of Images. " alt="" coords="2073,1105,2257,1255"/>
+<area shape="rect" id="node39" href="$classResource_1_1NifFileManager.html" title="Handles caching of NIFFiles. " alt="" coords="2369,1127,2551,1233"/>
+<area shape="rect" id="node40" href="$classResource_1_1BulletShapeManager.html" title="{Resource::BulletShapeManager\n||+ BulletShapeManager()\l+ ~BulletShapeManager()\l+ getShape()\l+ cacheInstance()\l+ getInstance()\l+ updateCache()\l&#45; createInstance()\l}" alt="" coords="1752,1808,1973,1973"/>
+<area shape="rect" id="node11" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="2451,568,2617,763"/>
+<area shape="rect" id="node44" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="2488,2051,2697,2304"/>
+<area shape="rect" id="node13" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="2402,150,2480,242"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="1273,157,1359,235"/>
+<area shape="rect" id="node15" title="STL class. " alt="" coords="1247,6,1384,98"/>
+<area shape="rect" id="node16" href="$classbool.html" title="{bool\n||}" alt="" coords="2286,335,2335,412"/>
+<area shape="rect" id="node18" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="2587,150,2716,242"/>
+<area shape="rect" id="node42" href="$classTerrain_1_1World.html" title="The basic interface for a terrain world. How the terrain chunks are paged and displayed is up to the ..." alt="" coords="2099,2381,2285,2576"/>
+<area shape="rect" id="node27" href="$classint.html" title="{int\n||}" alt="" coords="639,1141,677,1219"/>
+<area shape="rect" id="node50" href="$classTerrain_1_1Storage.html" title="We keep storage of terrain data abstract here since we need different implementations for game and ed..." alt="" coords="2109,2080,2273,2275"/>
 </map>

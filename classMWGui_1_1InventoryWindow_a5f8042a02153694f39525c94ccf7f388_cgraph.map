@@ -1,51 +1,51 @@
 <map id="MWGui::InventoryWindow::dragItem" name="MWGui::InventoryWindow::dragItem">
-<area shape="rect" id="node2" href="$classMWGui_1_1InventoryWindow.html#acbe3b6eb50fde30d62837326cf99010d" title="Unequips count items from mSelectedItem, if it is equipped, and then updates mSelectedItem in case th..." alt="" coords="221,194,432,235"/>
-<area shape="rect" id="node33" href="$classMWGui_1_1DragAndDrop.html#a8b9f6b0644355ccd05ee84c3125c5e7d" title="MWGui::DragAndDrop\l::startDrag" alt="" coords="502,1357,650,1398"/>
-<area shape="rect" id="node46" href="$classMWGui_1_1InventoryWindow.html#a7e472852133ec64b6eff1f0b75ec0ee9" title="MWGui::InventoryWindow\l::notifyContentChanged" alt="" coords="492,651,660,693"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1TradeItemModel.html#a5d39bd5ac380cc1619d7d8a3abe6f77c" title="Throws for invalid index or out of range index. " alt="" coords="493,135,659,177"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1270,897,1426,924"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="481,5,671,46"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1InventoryStore.html#a0014a9cea26a28474ce116d43d6c3993" title="MWWorld::InventoryStore\l::unequipItemQuantity" alt="" coords="493,325,659,366"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1InventoryWindow.html#a54f3f2fa0bf6255423ba78cda2ba392f" title="MWGui::InventoryWindow\l::updateItemView" alt="" coords="492,814,660,855"/>
-<area shape="rect" id="node32" href="$classMWGui_1_1TradeItemModel.html#a77f1fbb16259e2a582ff3054a9508b05" title="MWGui::TradeItemModel\l::getItemCount" alt="" coords="493,70,659,111"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="735,383,907,409"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="727,433,916,460"/>
-<area shape="rect" id="node9" href="$namespaceanonymous__namespace_02containeritemmodel_8cpp_03.html#a927449c20f8e0225a9c7e8ac7f41efa1" title="anonymous_namespace\l\{containeritemmodel\l::cpp\}::stacks" alt="" coords="741,252,901,308"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1RefData.html#a3ad2649a24b88d1ffc1b709f6d42e9f1" title="MWWorld::RefData::setCount" alt="" coords="727,332,915,359"/>
-<area shape="rect" id="node11" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="994,509,1169,536"/>
-<area shape="rect" id="node12" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1006,397,1157,438"/>
-<area shape="rect" id="node14" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="746,847,897,889"/>
-<area shape="rect" id="node15" href="$classMWBase_1_1WindowManager.html#a7d0cee6f6491c1147f03e8194e548200" title="MWBase::WindowManager\l::updateSpellWindow" alt="" coords="734,717,909,758"/>
-<area shape="rect" id="node16" href="$classMWGui_1_1ItemView.html#afa008449a9f9d8eaaa29ecc85d78f304" title="MWGui::ItemView::update" alt="" coords="737,1132,906,1159"/>
-<area shape="rect" id="node31" href="$classMWGui_1_1InventoryWindow.html#a1e5575a3e276bdbb870b258980828998" title="MWGui::InventoryWindow\l::dirtyPreview" alt="" coords="737,782,905,823"/>
-<area shape="rect" id="node17" href="$classMWGui_1_1ItemModel.html#a8fd3e3a25fdd533079e5674e9dadfb5b" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="993,1183,1170,1209"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1ItemView.html#a578d84477425a9c5dd3801f9e45b815f" title="MWGui::ItemView::onSelected\lBackground" alt="" coords="984,1117,1179,1158"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1ItemView.html#a05e0915c936a5330a494284e4e3748b7" title="MWGui::ItemView::onMouse\lWheelMoved" alt="" coords="990,949,1173,990"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1ItemModel.html#a2ba1d3f6b927de7f7c9c802d0a798f24" title="MWGui::ItemModel::getItem\lCount" alt="" coords="990,1234,1173,1275"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1ItemModel.html#a0b8eac118694036582702bae1aef6338" title="Throws for invalid index or out of range index. " alt="" coords="990,1300,1173,1327"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1ItemWidget.html#a5f711291cd5dcf91b47b1471642000dd" title="ptr may be empty " alt="" coords="1010,1351,1153,1393"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1ItemWidget.html#aafe8ba39c2502cd7d22ea97952dce7fc" title="Set count to be displayed in a textbox over the item. " alt="" coords="1010,1502,1153,1543"/>
-<area shape="rect" id="node29" href="$classMWGui_1_1ItemView.html#a121c2411cee1a049d027d05ac24285e0" title="MWGui::ItemView::onSelectedItem" alt="" coords="971,1015,1192,1041"/>
-<area shape="rect" id="node30" href="$classMWGui_1_1ItemView.html#ae0cec4d5e51ae8f27af19d40bf9b8a74" title="MWGui::ItemView::layoutWidgets" alt="" coords="976,1065,1187,1092"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="1272,1321,1424,1348"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="1241,1372,1455,1399"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1ItemWidget.html#a337efa47c7a34bd2b5238ccfcee39dc5" title="MWGui::ItemWidget::\lsetFrame" alt="" coords="1277,1423,1419,1465"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1ItemWidget.html#a3f47473fba1f4622712370bc4ee723ad" title="MWGui::ItemWidget::\lsetIcon" alt="" coords="1277,1255,1419,1297"/>
-<area shape="rect" id="node28" href="$namespaceanonymous__namespace_02itemwidget_8cpp_03.html#ae3dd137ee75cc20150c72f9bd26b2a83" title="anonymous_namespace\l\{itemwidget::cpp\}::getCount\lString" alt="" coords="1259,1495,1437,1551"/>
-<area shape="rect" id="node34" href="$classMWBase_1_1WindowManager.html#ae48984ee3c004d7836b3103fd6567f25" title="MWBase::WindowManager\l::getInventoryWindow" alt="" coords="734,1386,909,1427"/>
-<area shape="rect" id="node35" href="$classMWGui_1_1InventoryWindow.html#abb6beb307fa7e1541e493f58d997181c" title="MWGui::InventoryWindow\l::getModel" alt="" coords="737,1451,905,1493"/>
-<area shape="rect" id="node36" href="$classMWGui_1_1ItemModel.html#ad8294f78b05efd0a558889df5ec4d32b" title="MWGui::ItemModel::moveItem" alt="" coords="724,1817,919,1844"/>
-<area shape="rect" id="node39" href="$classMWGui_1_1InventoryWindow.html#af002666325c074d204c5831b4770a584" title="MWGui::InventoryWindow\l::getSortFilterModel" alt="" coords="737,1569,905,1610"/>
-<area shape="rect" id="node40" href="$classMWWorld_1_1Class.html#a1ced7d6b4651bf3e674476330387e0d0" title="MWWorld::Class::getUpSoundId" alt="" coords="720,1635,923,1661"/>
-<area shape="rect" id="node41" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="746,1686,897,1727"/>
-<area shape="rect" id="node42" href="$classMWBase_1_1SoundManager.html#a86faa2600e30cc6fd9b127e12d1c12bc" title="MWBase::SoundManager\l::playSound" alt="" coords="738,1751,905,1793"/>
-<area shape="rect" id="node43" href="$classMWGui_1_1SortFilterItemModel.html#ab4621b1dd51309d3c8e4ca103e9c21d6" title="MWGui::SortFilterItemModel\l::clearDragItems" alt="" coords="729,1869,914,1910"/>
-<area shape="rect" id="node44" href="$classMWGui_1_1SortFilterItemModel.html#a35f703fdb756909aa2716b6d675d6a1a" title="Dragged items are not displayed. " alt="" coords="729,1934,914,1975"/>
-<area shape="rect" id="node45" href="$classMWBase_1_1WindowManager.html#a291ceebb65030800d0d8acc1cecb636e" title="MWBase::WindowManager\l::setDragDrop" alt="" coords="734,1015,909,1057"/>
-<area shape="rect" id="node37" href="$classMWGui_1_1ItemModel.html#ae1d5b6e9e9f8709e91ad6345ed83b2ff" title="MWGui::ItemModel::copyItem" alt="" coords="986,1792,1177,1819"/>
-<area shape="rect" id="node38" href="$classMWGui_1_1ItemModel.html#adbf4afa5bdb7916b7048d50209ea740c" title="MWGui::ItemModel::removeItem" alt="" coords="978,1843,1185,1869"/>
-<area shape="rect" id="node47" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="742,651,901,693"/>
-<area shape="rect" id="node48" href="$classMWBase_1_1MechanicsManager.html#a492b6773c7481ee98bebe185695ba915" title="MWBase::MechanicsManager\l::updateMagicEffects" alt="" coords="725,586,917,627"/>
-<area shape="rect" id="node49" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="738,535,905,561"/>
-<area shape="rect" id="node50" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="986,560,1177,587"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1InventoryWindow.html#acbe3b6eb50fde30d62837326cf99010d" title="Unequips count items from mSelectedItem, if it is equipped, and then updates mSelectedItem in case th..." alt="" coords="233,194,469,235"/>
+<area shape="rect" id="node33" href="$classMWGui_1_1DragAndDrop.html#a8b9f6b0644355ccd05ee84c3125c5e7d" title="MWGui::DragAndDrop\l::startDrag" alt="" coords="541,1357,701,1398"/>
+<area shape="rect" id="node46" href="$classMWGui_1_1InventoryWindow.html#a7e472852133ec64b6eff1f0b75ec0ee9" title="MWGui::InventoryWindow\l::notifyContentChanged" alt="" coords="532,651,711,693"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1TradeItemModel.html#a5d39bd5ac380cc1619d7d8a3abe6f77c" title="Throws for invalid index or out of range index. " alt="" coords="534,135,709,177"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1362,897,1529,924"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="517,5,725,46"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1InventoryStore.html#a0014a9cea26a28474ce116d43d6c3993" title="MWWorld::InventoryStore\l::unequipItemQuantity" alt="" coords="531,325,711,366"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1InventoryWindow.html#a54f3f2fa0bf6255423ba78cda2ba392f" title="MWGui::InventoryWindow\l::updateItemView" alt="" coords="532,814,711,855"/>
+<area shape="rect" id="node32" href="$classMWGui_1_1TradeItemModel.html#a77f1fbb16259e2a582ff3054a9508b05" title="MWGui::TradeItemModel\l::getItemCount" alt="" coords="534,70,709,111"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="791,383,974,409"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="781,433,984,460"/>
+<area shape="rect" id="node9" href="$namespaceanonymous__namespace_02containeritemmodel_8cpp_03.html#a927449c20f8e0225a9c7e8ac7f41efa1" title="anonymous_namespace\l\{containeritemmodel\l::cpp\}::stacks" alt="" coords="793,252,972,308"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1RefData.html#a3ad2649a24b88d1ffc1b709f6d42e9f1" title="MWWorld::RefData::setCount" alt="" coords="781,332,984,359"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1063,509,1257,536"/>
+<area shape="rect" id="node12" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1077,397,1243,438"/>
+<area shape="rect" id="node14" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="800,847,965,889"/>
+<area shape="rect" id="node15" href="$classMWBase_1_1WindowManager.html#a7d0cee6f6491c1147f03e8194e548200" title="MWBase::WindowManager\l::updateSpellWindow" alt="" coords="789,717,976,758"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1ItemView.html#afa008449a9f9d8eaaa29ecc85d78f304" title="MWGui::ItemView::update" alt="" coords="791,1132,974,1159"/>
+<area shape="rect" id="node31" href="$classMWGui_1_1InventoryWindow.html#a1e5575a3e276bdbb870b258980828998" title="MWGui::InventoryWindow\l::dirtyPreview" alt="" coords="793,782,972,823"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1ItemModel.html#a8fd3e3a25fdd533079e5674e9dadfb5b" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="1063,1183,1257,1209"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1ItemView.html#a578d84477425a9c5dd3801f9e45b815f" title="MWGui::ItemView::onSelected\lBackground" alt="" coords="1055,1117,1265,1158"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1ItemView.html#a05e0915c936a5330a494284e4e3748b7" title="MWGui::ItemView::onMouse\lWheelMoved" alt="" coords="1062,949,1258,990"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1ItemModel.html#a2ba1d3f6b927de7f7c9c802d0a798f24" title="MWGui::ItemModel::getItem\lCount" alt="" coords="1061,1234,1259,1275"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1ItemModel.html#a0b8eac118694036582702bae1aef6338" title="Throws for invalid index or out of range index. " alt="" coords="1061,1300,1259,1327"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1ItemWidget.html#a5f711291cd5dcf91b47b1471642000dd" title="ptr may be empty " alt="" coords="1083,1351,1237,1393"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1ItemWidget.html#aafe8ba39c2502cd7d22ea97952dce7fc" title="Set count to be displayed in a textbox over the item. " alt="" coords="1083,1502,1237,1543"/>
+<area shape="rect" id="node29" href="$classMWGui_1_1ItemView.html#a121c2411cee1a049d027d05ac24285e0" title="MWGui::ItemView::onSelectedItem" alt="" coords="1041,1015,1279,1041"/>
+<area shape="rect" id="node30" href="$classMWGui_1_1ItemView.html#ae0cec4d5e51ae8f27af19d40bf9b8a74" title="MWGui::ItemView::layoutWidgets" alt="" coords="1047,1065,1273,1092"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="1364,1321,1527,1348"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="1328,1372,1563,1399"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1ItemWidget.html#a337efa47c7a34bd2b5238ccfcee39dc5" title="MWGui::ItemWidget::\lsetFrame" alt="" coords="1369,1423,1522,1465"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1ItemWidget.html#a3f47473fba1f4622712370bc4ee723ad" title="MWGui::ItemWidget::\lsetIcon" alt="" coords="1369,1255,1522,1297"/>
+<area shape="rect" id="node28" href="$namespaceanonymous__namespace_02itemwidget_8cpp_03.html#ae3dd137ee75cc20150c72f9bd26b2a83" title="anonymous_namespace\l\{itemwidget::cpp\}::getCount\lString" alt="" coords="1342,1495,1549,1551"/>
+<area shape="rect" id="node34" href="$classMWBase_1_1WindowManager.html#ae48984ee3c004d7836b3103fd6567f25" title="MWBase::WindowManager\l::getInventoryWindow" alt="" coords="789,1386,976,1427"/>
+<area shape="rect" id="node35" href="$classMWGui_1_1InventoryWindow.html#abb6beb307fa7e1541e493f58d997181c" title="MWGui::InventoryWindow\l::getModel" alt="" coords="793,1451,972,1493"/>
+<area shape="rect" id="node36" href="$classMWGui_1_1ItemModel.html#ad8294f78b05efd0a558889df5ec4d32b" title="MWGui::ItemModel::moveItem" alt="" coords="776,1817,989,1844"/>
+<area shape="rect" id="node39" href="$classMWGui_1_1InventoryWindow.html#af002666325c074d204c5831b4770a584" title="MWGui::InventoryWindow\l::getSortFilterModel" alt="" coords="793,1569,972,1610"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1Class.html#a1ced7d6b4651bf3e674476330387e0d0" title="MWWorld::Class::getUpSoundId" alt="" coords="773,1635,992,1661"/>
+<area shape="rect" id="node41" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="800,1686,965,1727"/>
+<area shape="rect" id="node42" href="$classMWBase_1_1SoundManager.html#a86faa2600e30cc6fd9b127e12d1c12bc" title="MWBase::SoundManager\l::playSound" alt="" coords="792,1751,973,1793"/>
+<area shape="rect" id="node43" href="$classMWGui_1_1SortFilterItemModel.html#ab4621b1dd51309d3c8e4ca103e9c21d6" title="MWGui::SortFilterItemModel\l::clearDragItems" alt="" coords="784,1869,981,1910"/>
+<area shape="rect" id="node44" href="$classMWGui_1_1SortFilterItemModel.html#a35f703fdb756909aa2716b6d675d6a1a" title="Dragged items are not displayed. " alt="" coords="784,1934,981,1975"/>
+<area shape="rect" id="node45" href="$classMWBase_1_1WindowManager.html#a291ceebb65030800d0d8acc1cecb636e" title="MWBase::WindowManager\l::setDragDrop" alt="" coords="789,1015,976,1057"/>
+<area shape="rect" id="node37" href="$classMWGui_1_1ItemModel.html#ae1d5b6e9e9f8709e91ad6345ed83b2ff" title="MWGui::ItemModel::copyItem" alt="" coords="1057,1792,1263,1819"/>
+<area shape="rect" id="node38" href="$classMWGui_1_1ItemModel.html#adbf4afa5bdb7916b7048d50209ea740c" title="MWGui::ItemModel::removeItem" alt="" coords="1047,1843,1273,1869"/>
+<area shape="rect" id="node47" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="795,651,970,693"/>
+<area shape="rect" id="node48" href="$classMWBase_1_1MechanicsManager.html#a492b6773c7481ee98bebe185695ba915" title="MWBase::MechanicsManager\l::updateMagicEffects" alt="" coords="779,586,986,627"/>
+<area shape="rect" id="node49" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="793,535,972,561"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1058,560,1262,587"/>
 </map>

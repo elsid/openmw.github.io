@@ -1,51 +1,51 @@
 <map id="MWBase::Environment::getDialogueManager" name="MWBase::Environment::getDialogueManager">
-<area shape="rect" id="node2" href="$classMWGui_1_1PersuasionDialog.html#a3cd57da2f92e7edae756e523a2692c27" title="MWGui::PersuasionDialog\l::onPersuade" alt="" coords="233,106,404,147"/>
-<area shape="rect" id="node4" href="$structMWGui_1_1Choice.html#a1b868d6990975f4aa8da01c53d0a82fd" title="MWGui::Choice::activated" alt="" coords="234,273,403,300"/>
-<area shape="rect" id="node5" href="$structMWGui_1_1Topic.html#a56179776e92993e5eaf55fecd7ae0ebb" title="MWGui::Topic::activated" alt="" coords="238,324,399,351"/>
-<area shape="rect" id="node6" href="$structMWGui_1_1Goodbye.html#a5ef28d549a9f80fe6cd1d6b67dcef276" title="MWGui::Goodbye::activated" alt="" coords="229,375,409,401"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1DialogueWindow.html#a50c772a3986389c7e95f5bf61eaadd38" title="Gracefully exits the window. " alt="" coords="235,477,402,518"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1DialogueWindow.html#af37491ac2f1ffa2aef3da94db54f9be0" title="MWGui::DialogueWindow\l::onSelectTopic" alt="" coords="510,70,677,111"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1DialogueWindow.html#a985911ecd207aeafb0c149bb1f628921" title="MWGui::DialogueWindow\l::updateHistory" alt="" coords="235,542,402,583"/>
-<area shape="rect" id="node16" href="$classMWGui_1_1TradeWindow.html#ad32308a56f6e082e2b0c55d396c5842c" title="MWGui::TradeWindow\l::onOfferButtonClicked" alt="" coords="793,687,943,729"/>
-<area shape="rect" id="node22" href="$classMWClass_1_1Npc.html#ada4bd30292b7cd8588ecb21915d5c8ce" title="MWClass::Npc::onHit" alt="" coords="248,659,389,685"/>
-<area shape="rect" id="node23" href="$classMWDialogue_1_1Filter.html#a60b07e8170fb7aaff7e252554be1e4ba" title="MWDialogue::Filter\l::getSelectStructInteger" alt="" coords="239,710,398,751"/>
-<area shape="rect" id="node24" href="$classMWGui_1_1EnchantingDialog.html#aa23d6beb65f9018cc0e5482de7de25bf" title="MWGui::EnchantingDialog\l::onBuyButtonClicked" alt="" coords="233,775,404,817"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1TrainingWindow.html#a0f87fe9934f52a1eb4fce3332e41a80a" title="MWGui::TrainingWindow\l::onTrainingSelected" alt="" coords="237,841,400,882"/>
-<area shape="rect" id="node28" href="$classMWGui_1_1TravelWindow.html#aa8da69518ba8fb84d850135115815734" title="MWGui::TravelWindow\l::onTravelButtonClick" alt="" coords="243,906,394,947"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="243,971,394,1013"/>
-<area shape="rect" id="node32" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="508,1066,679,1107"/>
-<area shape="rect" id="node33" href="$structMWMechanics_1_1AiCombatStorage.html#ad24b5639b09d86d17043ee069c37f52c" title="MWMechanics::AiCombatStorage\l::startAttackIfReady" alt="" coords="211,1037,426,1078"/>
-<area shape="rect" id="node34" href="$classMWMechanics_1_1AiWander.html#ae39e228711bed7fda44658c3baae104f" title="MWMechanics::AiWander\l::playIdleDialogueRandomly" alt="" coords="229,1154,408,1195"/>
-<area shape="rect" id="node35" href="$classMWMechanics_1_1AiWander.html#a5fb3a02f5c00ea7f3c90db3ecfa9dc9c" title="MWMechanics::AiWander\l::playGreetingIfPlayerGetsToo\lClose" alt="" coords="222,1219,415,1275"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1MechanicsManager.html#abb57fd9c23912f213038666f1b4f89e2" title="Calculate the diposition of an NPC toward the player. " alt="" coords="206,1298,431,1339"/>
-<area shape="rect" id="node37" href="$classMWMechanics_1_1MechanicsManager.html#a3fa51ec4329cd8a71916c19a76b457b0" title="MWMechanics::MechanicsManager\l::commitCrime" alt="" coords="481,1470,706,1511"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1MechanicsManager.html#ac0295fc090e45cda7afb12f54cdb3ff4" title="MWMechanics::MechanicsManager\l::actorAttacked" alt="" coords="755,1411,981,1453"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1MechanicsManager.html#a4aa65d1f3b7835c31f9aef70aaf3873e" title="Makes ptr fight target. Also shouts a combat taunt. " alt="" coords="206,1415,431,1457"/>
-<area shape="rect" id="node40" href="$classMWScript_1_1Dialogue_1_1OpAddTopic.html#a264955bbfe2c8ebcfa5810c6ce742a5c" title="MWScript::Dialogue\l::OpAddTopic::execute" alt="" coords="243,1533,394,1574"/>
-<area shape="rect" id="node41" href="$classMWScript_1_1Dialogue_1_1OpChoice.html#a62c9574298ded0f4d2c751019d30c2d1" title="MWScript::Dialogue\l::OpChoice::execute" alt="" coords="251,1598,387,1639"/>
-<area shape="rect" id="node42" href="$classMWScript_1_1Dialogue_1_1OpForceGreeting.html#a90658ff686240c66e89af6004d748699" title="MWScript::Dialogue\l::OpForceGreeting::execute" alt="" coords="229,1663,408,1705"/>
-<area shape="rect" id="node43" href="$classMWScript_1_1Dialogue_1_1OpGoodbye.html#ab4e8206571a0acbe60f10e57008c69d4" title="MWScript::Dialogue\l::OpGoodbye::execute" alt="" coords="245,1729,392,1770"/>
-<area shape="rect" id="node44" href="$classMWScript_1_1Dialogue_1_1OpModFactionReaction.html#a02fd63a18000561ac908ec31f2b68179" title="MWScript::Dialogue\l::OpModFactionReaction\l::execute" alt="" coords="237,1793,401,1849"/>
-<area shape="rect" id="node45" href="$classMWScript_1_1Dialogue_1_1OpSetFactionReaction.html#a3f512abcba882993c6bb50ac1fad6c13" title="MWScript::Dialogue\l::OpSetFactionReaction\l::execute" alt="" coords="239,1873,398,1929"/>
-<area shape="rect" id="node46" href="$classMWScript_1_1Dialogue_1_1OpClearInfoActor.html#a7797812229d5fc6b0fd546745f0ab1ab" title="MWScript::Dialogue\l::OpClearInfoActor::\lexecute" alt="" coords="251,1953,386,2009"/>
-<area shape="rect" id="node47" href="$classMWState_1_1StateManager.html#a90782b56636264ccb1ff49916dd7382e" title="MWState::StateManager\l::cleanup" alt="" coords="237,2033,400,2074"/>
-<area shape="rect" id="node48" href="$classMWState_1_1StateManager.html#a50bc82b32704d460a56dd7d16a91b846" title="MWState::StateManager\l::saveGame" alt="" coords="237,2098,400,2139"/>
-<area shape="rect" id="node49" href="$classMWState_1_1StateManager.html#a709123862fc05e7a490d09ab20928f9c" title="Load a saved game file belonging to the given character. " alt="" coords="237,2163,400,2205"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1ActionTalk.html#abde5231b25c6c4fba61c8e21cb8620e9" title="MWWorld::ActionTalk\l::executeImp" alt="" coords="245,2229,392,2270"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1PersuasionDialog.html#a438e70708afb00bdc67c7a6da0a31552" title="MWGui::PersuasionDialog\l::PersuasionDialog" alt="" coords="508,5,679,46"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1DialogueWindow.html#aaa33e58bce04bd5b30a9f3fc7ae9a930" title="MWGui::DialogueWindow\l::onByeClicked" alt="" coords="510,201,677,242"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1WindowManager.html#a1d29eb164660e2bd45cb5641a90ac867" title="Gracefully attempts to exit the topmost GUI mode. " alt="" coords="510,135,677,177"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1DialogueWindow.html#a2b245c2f66314b03293e7bc62b325bc2" title="MWGui::DialogueWindow\l::DialogueWindow" alt="" coords="785,201,951,242"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1DialogueWindow.html#a34872a2151f975fa78b4e59ba56e9d31" title="MWGui::DialogueWindow\l::onWindowResize" alt="" coords="510,266,677,307"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1DialogueWindow.html#aa2b3989db2f05611ebe3aa53418bf19e" title="MWGui::DialogueWindow\l::setKeywords" alt="" coords="510,331,677,373"/>
-<area shape="rect" id="node15" href="$classMWGui_1_1DialogueWindow.html#a006dce1cd576cefbaeee3232e3667dba" title="MWGui::DialogueWindow\l::addResponse" alt="" coords="510,658,677,699"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1DialogueWindow.html#ab3c338f40575b932bf7406ffe1703a1e" title="MWGui::DialogueWindow\l::addMessageBox" alt="" coords="510,397,677,438"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1DialogueWindow.html#a550c590f7788d1790f86db011df88a5d" title="MWGui::DialogueWindow\l::addChoice" alt="" coords="510,462,677,503"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1DialogueWindow.html#ab73aeb141abff054864b82516a9e19e3" title="MWGui::DialogueWindow\l::clearChoices" alt="" coords="510,527,677,569"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1DialogueWindow.html#a90b9d01d11e6c1b8e098a3b8e970daef" title="MWGui::DialogueWindow\l::goodbye" alt="" coords="510,593,677,634"/>
-<area shape="rect" id="node17" href="$classMWGui_1_1TradeWindow.html#a248abab136a95b1b94939a386ed40c71" title="MWGui::TradeWindow\l::TradeWindow" alt="" coords="1029,687,1179,729"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1EnchantingDialog.html#a15630e6153b49f15b018e7432a8cb1d2" title="MWGui::EnchantingDialog\l::EnchantingDialog" alt="" coords="508,775,679,817"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1TrainingWindow.html#a4d3cc02cf7e12edb40b4abfc2283faf8" title="MWGui::TrainingWindow\l::startTraining" alt="" coords="512,841,675,882"/>
-<area shape="rect" id="node29" href="$classMWGui_1_1TravelWindow.html#a0cf872ffa1e9eed5133010d950588b3a" title="MWGui::TravelWindow\l::addDestination" alt="" coords="518,906,669,947"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="518,971,669,1013"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1PersuasionDialog.html#a3cd57da2f92e7edae756e523a2692c27" title="MWGui::PersuasionDialog\l::onPersuade" alt="" coords="249,106,431,147"/>
+<area shape="rect" id="node4" href="$structMWGui_1_1Choice.html#a1b868d6990975f4aa8da01c53d0a82fd" title="MWGui::Choice::activated" alt="" coords="249,273,431,300"/>
+<area shape="rect" id="node5" href="$structMWGui_1_1Topic.html#a56179776e92993e5eaf55fecd7ae0ebb" title="MWGui::Topic::activated" alt="" coords="255,324,425,351"/>
+<area shape="rect" id="node6" href="$structMWGui_1_1Goodbye.html#a5ef28d549a9f80fe6cd1d6b67dcef276" title="MWGui::Goodbye::activated" alt="" coords="241,375,439,401"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1DialogueWindow.html#a50c772a3986389c7e95f5bf61eaadd38" title="Gracefully exits the window. " alt="" coords="252,477,428,518"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1DialogueWindow.html#af37491ac2f1ffa2aef3da94db54f9be0" title="MWGui::DialogueWindow\l::onSelectTopic" alt="" coords="543,70,719,111"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1DialogueWindow.html#a985911ecd207aeafb0c149bb1f628921" title="MWGui::DialogueWindow\l::updateHistory" alt="" coords="252,542,428,583"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1TradeWindow.html#ad32308a56f6e082e2b0c55d396c5842c" title="MWGui::TradeWindow\l::onOfferButtonClicked" alt="" coords="839,687,1004,729"/>
+<area shape="rect" id="node22" href="$classMWClass_1_1Npc.html#ada4bd30292b7cd8588ecb21915d5c8ce" title="MWClass::Npc::onHit" alt="" coords="263,659,417,685"/>
+<area shape="rect" id="node23" href="$classMWDialogue_1_1Filter.html#a60b07e8170fb7aaff7e252554be1e4ba" title="MWDialogue::Filter\l::getSelectStructInteger" alt="" coords="253,710,427,751"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1EnchantingDialog.html#aa23d6beb65f9018cc0e5482de7de25bf" title="MWGui::EnchantingDialog\l::onBuyButtonClicked" alt="" coords="248,775,432,817"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1TrainingWindow.html#a0f87fe9934f52a1eb4fce3332e41a80a" title="MWGui::TrainingWindow\l::onTrainingSelected" alt="" coords="256,841,424,882"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1TravelWindow.html#aa8da69518ba8fb84d850135115815734" title="MWGui::TravelWindow\l::onTravelButtonClick" alt="" coords="262,906,418,947"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="260,971,420,1013"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="539,1066,722,1107"/>
+<area shape="rect" id="node33" href="$structMWMechanics_1_1AiCombatStorage.html#ad24b5639b09d86d17043ee069c37f52c" title="MWMechanics::AiCombatStorage\l::startAttackIfReady" alt="" coords="223,1037,457,1078"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1AiWander.html#ae39e228711bed7fda44658c3baae104f" title="MWMechanics::AiWander\l::playIdleDialogueRandomly" alt="" coords="241,1154,439,1195"/>
+<area shape="rect" id="node35" href="$classMWMechanics_1_1AiWander.html#a5fb3a02f5c00ea7f3c90db3ecfa9dc9c" title="MWMechanics::AiWander\l::playGreetingIfPlayerGetsToo\lClose" alt="" coords="236,1219,444,1275"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1MechanicsManager.html#abb57fd9c23912f213038666f1b4f89e2" title="Calculate the diposition of an NPC toward the player. " alt="" coords="219,1298,461,1339"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1MechanicsManager.html#a3fa51ec4329cd8a71916c19a76b457b0" title="MWMechanics::MechanicsManager\l::commitCrime" alt="" coords="509,1470,752,1511"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1MechanicsManager.html#ac0295fc090e45cda7afb12f54cdb3ff4" title="MWMechanics::MechanicsManager\l::actorAttacked" alt="" coords="800,1411,1043,1453"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1MechanicsManager.html#a4aa65d1f3b7835c31f9aef70aaf3873e" title="Makes ptr fight target. Also shouts a combat taunt. " alt="" coords="219,1415,461,1457"/>
+<area shape="rect" id="node40" href="$classMWScript_1_1Dialogue_1_1OpAddTopic.html#a264955bbfe2c8ebcfa5810c6ce742a5c" title="MWScript::Dialogue\l::OpAddTopic::execute" alt="" coords="259,1533,421,1574"/>
+<area shape="rect" id="node41" href="$classMWScript_1_1Dialogue_1_1OpChoice.html#a62c9574298ded0f4d2c751019d30c2d1" title="MWScript::Dialogue\l::OpChoice::execute" alt="" coords="265,1598,415,1639"/>
+<area shape="rect" id="node42" href="$classMWScript_1_1Dialogue_1_1OpForceGreeting.html#a90658ff686240c66e89af6004d748699" title="MWScript::Dialogue\l::OpForceGreeting::execute" alt="" coords="241,1663,439,1705"/>
+<area shape="rect" id="node43" href="$classMWScript_1_1Dialogue_1_1OpGoodbye.html#ab4e8206571a0acbe60f10e57008c69d4" title="MWScript::Dialogue\l::OpGoodbye::execute" alt="" coords="258,1729,422,1770"/>
+<area shape="rect" id="node44" href="$classMWScript_1_1Dialogue_1_1OpModFactionReaction.html#a02fd63a18000561ac908ec31f2b68179" title="MWScript::Dialogue\l::OpModFactionReaction\l::execute" alt="" coords="253,1793,427,1849"/>
+<area shape="rect" id="node45" href="$classMWScript_1_1Dialogue_1_1OpSetFactionReaction.html#a3f512abcba882993c6bb50ac1fad6c13" title="MWScript::Dialogue\l::OpSetFactionReaction\l::execute" alt="" coords="255,1873,425,1929"/>
+<area shape="rect" id="node46" href="$classMWScript_1_1Dialogue_1_1OpClearInfoActor.html#a7797812229d5fc6b0fd546745f0ab1ab" title="MWScript::Dialogue\l::OpClearInfoActor::\lexecute" alt="" coords="267,1953,413,2009"/>
+<area shape="rect" id="node47" href="$classMWState_1_1StateManager.html#a90782b56636264ccb1ff49916dd7382e" title="MWState::StateManager\l::cleanup" alt="" coords="251,2033,429,2074"/>
+<area shape="rect" id="node48" href="$classMWState_1_1StateManager.html#a50bc82b32704d460a56dd7d16a91b846" title="MWState::StateManager\l::saveGame" alt="" coords="251,2098,429,2139"/>
+<area shape="rect" id="node49" href="$classMWState_1_1StateManager.html#a709123862fc05e7a490d09ab20928f9c" title="Load a saved game file belonging to the given character. " alt="" coords="251,2163,429,2205"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1ActionTalk.html#abde5231b25c6c4fba61c8e21cb8620e9" title="MWWorld::ActionTalk\l::executeImp" alt="" coords="265,2229,415,2270"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1PersuasionDialog.html#a438e70708afb00bdc67c7a6da0a31552" title="MWGui::PersuasionDialog\l::PersuasionDialog" alt="" coords="539,5,722,46"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1DialogueWindow.html#aaa33e58bce04bd5b30a9f3fc7ae9a930" title="MWGui::DialogueWindow\l::onByeClicked" alt="" coords="543,201,719,242"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1WindowManager.html#a1d29eb164660e2bd45cb5641a90ac867" title="Gracefully attempts to exit the topmost GUI mode. " alt="" coords="543,135,719,177"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1DialogueWindow.html#a2b245c2f66314b03293e7bc62b325bc2" title="MWGui::DialogueWindow\l::DialogueWindow" alt="" coords="833,201,1009,242"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1DialogueWindow.html#a34872a2151f975fa78b4e59ba56e9d31" title="MWGui::DialogueWindow\l::onWindowResize" alt="" coords="543,266,719,307"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1DialogueWindow.html#aa2b3989db2f05611ebe3aa53418bf19e" title="MWGui::DialogueWindow\l::setKeywords" alt="" coords="543,331,719,373"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1DialogueWindow.html#a006dce1cd576cefbaeee3232e3667dba" title="MWGui::DialogueWindow\l::addResponse" alt="" coords="543,658,719,699"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1DialogueWindow.html#ab3c338f40575b932bf7406ffe1703a1e" title="MWGui::DialogueWindow\l::addMessageBox" alt="" coords="543,397,719,438"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1DialogueWindow.html#a550c590f7788d1790f86db011df88a5d" title="MWGui::DialogueWindow\l::addChoice" alt="" coords="543,462,719,503"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1DialogueWindow.html#ab73aeb141abff054864b82516a9e19e3" title="MWGui::DialogueWindow\l::clearChoices" alt="" coords="543,527,719,569"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1DialogueWindow.html#a90b9d01d11e6c1b8e098a3b8e970daef" title="MWGui::DialogueWindow\l::goodbye" alt="" coords="543,593,719,634"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1TradeWindow.html#a248abab136a95b1b94939a386ed40c71" title="MWGui::TradeWindow\l::TradeWindow" alt="" coords="1091,687,1245,729"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1EnchantingDialog.html#a15630e6153b49f15b018e7432a8cb1d2" title="MWGui::EnchantingDialog\l::EnchantingDialog" alt="" coords="539,775,723,817"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1TrainingWindow.html#a4d3cc02cf7e12edb40b4abfc2283faf8" title="MWGui::TrainingWindow\l::startTraining" alt="" coords="547,841,715,882"/>
+<area shape="rect" id="node29" href="$classMWGui_1_1TravelWindow.html#a0cf872ffa1e9eed5133010d950588b3a" title="MWGui::TravelWindow\l::addDestination" alt="" coords="553,906,709,947"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="551,971,711,1013"/>
 </map>

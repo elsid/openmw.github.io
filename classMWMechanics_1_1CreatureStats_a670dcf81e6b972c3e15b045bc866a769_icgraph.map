@@ -1,51 +1,51 @@
 <map id="MWMechanics::CreatureStats::setFatigue" name="MWMechanics::CreatureStats::setFatigue">
-<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#a2b05916462047e35be6006ab8698a36b" title="MWClass::Creature::\lonHit" alt="" coords="289,5,426,46"/>
-<area shape="rect" id="node3" href="$classMWClass_1_1Npc.html#ada4bd30292b7cd8588ecb21915d5c8ce" title="MWClass::Npc::onHit" alt="" coords="1347,133,1488,160"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1Actors.html#af347805d67d95cbdcf6afafe6d430cc5" title="MWMechanics::Actors\l::restoreDynamicStats" alt="" coords="282,399,433,441"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1Actors.html#aa845f11827de366ac04fb7c75c18588b" title="MWMechanics::Actors\l::calculateRestoration" alt="" coords="282,771,433,813"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="245,837,469,878"/>
-<area shape="rect" id="node12" href="$namespaceMWMechanics.html#a3a149737334b960ada4aa48228feae47" title="MWMechanics::blockMeleeAttack" alt="" coords="522,953,739,980"/>
-<area shape="rect" id="node15" href="$namespaceMWMechanics.html#a053f75c3b353f20c71cda72ae183c65e" title="Apply the fatigue loss incurred by attacking with the given weapon (weapon may be empty = hand&#45;to&#45;han..." alt="" coords="525,903,737,929"/>
-<area shape="rect" id="node19" href="$classMWMechanics_1_1CreatureStats.html#a8283f726e62dfd0744e115143e68c294" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="261,527,453,569"/>
-<area shape="rect" id="node42" href="$classMWMechanics_1_1CastSpell.html#a54e54268a860259340cbcca06a8d00fc" title="MWMechanics::CastSpell\l::cast" alt="" coords="273,1143,441,1185"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="1086,475,1237,517"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1MechanicsManager.html#a0d59b750f6336af8a3db5007a3509054" title="MWMechanics::MechanicsManager\l::rest" alt="" coords="1305,475,1530,517"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="1086,778,1237,819"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1342,774,1493,815"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1579,774,1805,815"/>
-<area shape="rect" id="node13" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="830,1012,981,1039"/>
-<area shape="rect" id="node14" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="843,961,968,988"/>
-<area shape="rect" id="node16" href="$classMWRender_1_1WeaponAnimation.html#a7038157f342b82a7146ae852aabf7994" title="MWRender::WeaponAnimation\l::releaseArrow" alt="" coords="807,895,1004,937"/>
-<area shape="rect" id="node17" href="$classMWRender_1_1CreatureWeaponAnimation.html#a2f639157afa73a82ba066cc3f85b260c" title="MWRender::CreatureWeapon\lAnimation::releaseArrow" alt="" coords="1067,961,1255,1002"/>
-<area shape="rect" id="node18" href="$classMWRender_1_1NpcAnimation.html#a5a9f6d004080d03d0c69f36cf32dc982" title="MWRender::NpcAnimation\l::releaseArrow" alt="" coords="1075,895,1248,937"/>
-<area shape="rect" id="node20" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#a28a6cc4f774a1bb063b2dce5a2d11e4f" title="anonymous_namespace\l\{npc::cpp\}::autoCalculateAttributes" alt="" coords="521,151,740,193"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1LevelupDialog.html#a1824392ea2e32d2848a39e0d641bb72a" title="MWGui::LevelupDialog\l::onOkButtonClicked" alt="" coords="555,494,706,535"/>
-<area shape="rect" id="node27" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="803,719,1007,761"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1CreatureStats.html#ac9fce0f75622f2c82c87ca1380e45ae8" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="535,677,727,718"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1MechanicsManager.html#ac23cfdb32ea2282daf63c0c6f2f8b86e" title="MWMechanics::MechanicsManager\l::buildPlayer" alt="" coords="518,246,743,287"/>
-<area shape="rect" id="node35" href="$namespaceMWMechanics.html#a07f053e380858a1c9dca0b3577789014" title="MWMechanics::effectTick" alt="" coords="546,625,715,652"/>
-<area shape="rect" id="node38" href="$classMWScript_1_1Stats_1_1OpSetAttribute.html#abf57f8de8fa1081e9003e6dce1f66cf5" title="MWScript::Stats::OpSetAttribute\l::execute" alt="" coords="527,363,734,405"/>
-<area shape="rect" id="node39" href="$classMWScript_1_1Stats_1_1OpModAttribute.html#ad059039a821a55b7b920efd3b7584529" title="MWScript::Stats::OpModAttribute\l::execute" alt="" coords="525,429,737,470"/>
-<area shape="rect" id="node40" href="$classMWWorld_1_1Player.html#aa6e49bc6dd4ad7c1cd498d076bc0a857" title="MWWorld::Player::restore\lSkillsAttributes" alt="" coords="548,559,713,601"/>
-<area shape="rect" id="node21" href="$classMWClass_1_1Npc.html#ae30c8287ffac6a498be75704ab56b1ce" title="MWClass::Npc::ensureCustomData" alt="" coords="795,129,1015,156"/>
-<area shape="rect" id="node22" href="$classMWClass_1_1Npc.html#a4e14fac84a2000f45324a8e49099d016" title="Return creature stats. " alt="" coords="1072,187,1251,229"/>
-<area shape="rect" id="node23" href="$classMWClass_1_1Npc.html#a0cc99909b3aa876f47b51f9a2f0787b8" title="Return NPC stats. " alt="" coords="1070,253,1253,280"/>
-<area shape="rect" id="node24" href="$classMWClass_1_1Npc.html#a280d9f4b1bbb5472e34d443b2e9d9a98" title="Return container store. " alt="" coords="1069,122,1253,163"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1LevelupDialog.html#aa69c5c771f4a8f275bfbaf634ba23379" title="MWGui::LevelupDialog\l::LevelupDialog" alt="" coords="830,458,981,499"/>
-<area shape="rect" id="node28" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="1086,713,1237,754"/>
-<area shape="rect" id="node29" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="1086,647,1237,689"/>
-<area shape="rect" id="node32" href="$classMWMechanics_1_1MechanicsManager.html#aa4cff5ce8c7bbf3db175e9ef1ed03340" title="Set player race. " alt="" coords="793,311,1018,353"/>
-<area shape="rect" id="node33" href="$classMWMechanics_1_1MechanicsManager.html#a8bb81b01284b91cf17ad6245805ad1c4" title="Set player birthsign. " alt="" coords="793,181,1018,222"/>
-<area shape="rect" id="node34" href="$classMWMechanics_1_1MechanicsManager.html#a466d672ca027794db3b1f0cb889bb3d9" title="Set player class to stock class. " alt="" coords="793,246,1018,287"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1ExpiryVisitor.html#a38923f8217da57845a32361c58100b2b" title="MWMechanics::ExpiryVisitor\l::visit" alt="" coords="814,654,997,695"/>
-<area shape="rect" id="node37" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="821,589,989,630"/>
-<area shape="rect" id="node41" href="$classMWMechanics_1_1MechanicsManager.html#aac554cc4280a59bcb2381e653c3f7b36" title="Turn actor into werewolf or normal form. " alt="" coords="793,523,1018,565"/>
-<area shape="rect" id="node43" href="$classMWClass_1_1Npc.html#af6723ba6a47b408d1af74c9d34613228" title="MWClass::Npc::apply" alt="" coords="560,1121,701,1148"/>
-<area shape="rect" id="node44" href="$namespaceMWMechanics.html#ab90221f566691b0961d8e8d5daea6ddf" title="MWMechanics::applyOnStrike\lEnchantment" alt="" coords="533,1055,728,1097"/>
-<area shape="rect" id="node46" href="$classMWMechanics_1_1CastSpell.html#a82cd49d48bac53c79545074d39f207f8" title="MWMechanics::CastSpell\l::cast" alt="" coords="547,1173,715,1214"/>
-<area shape="rect" id="node47" href="$classMWScript_1_1Misc_1_1OpCast.html#a99e2d9dcadf9665f1a9797363f202bf0" title="MWScript::Misc::OpCast\l::execute" alt="" coords="550,1238,711,1279"/>
-<area shape="rect" id="node48" href="$classMWScript_1_1Misc_1_1OpExplodeSpell.html#a918d78f5dc4f40aff9e75d9497e0eb1d" title="MWScript::Misc::OpExplode\lSpell::execute" alt="" coords="541,1303,721,1345"/>
-<area shape="rect" id="node49" href="$classMWWorld_1_1ActionTrap.html#a21871cf85cb42949268933ae49b34a98" title="MWWorld::ActionTrap\l::executeImp" alt="" coords="557,1369,704,1410"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#aedee04f37a89b213121357938db6b167" title="Cast the actual spell, should be called mid&#45;animation. " alt="" coords="543,1004,719,1031"/>
-<area shape="rect" id="node45" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="815,1063,996,1089"/>
+<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#a2b05916462047e35be6006ab8698a36b" title="MWClass::Creature::\lonHit" alt="" coords="311,5,462,46"/>
+<area shape="rect" id="node3" href="$classMWClass_1_1Npc.html#ada4bd30292b7cd8588ecb21915d5c8ce" title="MWClass::Npc::onHit" alt="" coords="1445,133,1598,160"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1Actors.html#af347805d67d95cbdcf6afafe6d430cc5" title="MWMechanics::Actors\l::restoreDynamicStats" alt="" coords="303,399,470,441"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1Actors.html#aa845f11827de366ac04fb7c75c18588b" title="MWMechanics::Actors\l::calculateRestoration" alt="" coords="307,771,467,813"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="265,837,509,878"/>
+<area shape="rect" id="node12" href="$namespaceMWMechanics.html#a3a149737334b960ada4aa48228feae47" title="MWMechanics::blockMeleeAttack" alt="" coords="567,953,798,980"/>
+<area shape="rect" id="node15" href="$namespaceMWMechanics.html#a053f75c3b353f20c71cda72ae183c65e" title="Apply the fatigue loss incurred by attacking with the given weapon (weapon may be empty = hand&#45;to&#45;han..." alt="" coords="569,903,797,929"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1CreatureStats.html#a8283f726e62dfd0744e115143e68c294" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="282,527,491,569"/>
+<area shape="rect" id="node42" href="$classMWMechanics_1_1CastSpell.html#a54e54268a860259340cbcca06a8d00fc" title="MWMechanics::CastSpell\l::cast" alt="" coords="297,1143,476,1185"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="1171,475,1331,517"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1MechanicsManager.html#a0d59b750f6336af8a3db5007a3509054" title="MWMechanics::MechanicsManager\l::rest" alt="" coords="1400,475,1643,517"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="1171,778,1331,819"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1441,774,1601,815"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1691,774,1933,815"/>
+<area shape="rect" id="node13" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="895,1012,1062,1039"/>
+<area shape="rect" id="node14" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="911,961,1046,988"/>
+<area shape="rect" id="node16" href="$classMWRender_1_1WeaponAnimation.html#a7038157f342b82a7146ae852aabf7994" title="MWRender::WeaponAnimation\l::releaseArrow" alt="" coords="873,895,1084,937"/>
+<area shape="rect" id="node17" href="$classMWRender_1_1CreatureWeaponAnimation.html#a2f639157afa73a82ba066cc3f85b260c" title="MWRender::CreatureWeapon\lAnimation::releaseArrow" alt="" coords="1149,961,1352,1002"/>
+<area shape="rect" id="node18" href="$classMWRender_1_1NpcAnimation.html#a5a9f6d004080d03d0c69f36cf32dc982" title="MWRender::NpcAnimation\l::releaseArrow" alt="" coords="1157,895,1344,937"/>
+<area shape="rect" id="node20" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#a28a6cc4f774a1bb063b2dce5a2d11e4f" title="anonymous_namespace\l\{npc::cpp\}::autoCalculateAttributes" alt="" coords="557,151,808,193"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1LevelupDialog.html#a1824392ea2e32d2848a39e0d641bb72a" title="MWGui::LevelupDialog\l::onOkButtonClicked" alt="" coords="601,494,764,535"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="865,719,1092,761"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1CreatureStats.html#ac9fce0f75622f2c82c87ca1380e45ae8" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="578,677,787,718"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1MechanicsManager.html#ac23cfdb32ea2282daf63c0c6f2f8b86e" title="MWMechanics::MechanicsManager\l::buildPlayer" alt="" coords="561,246,804,287"/>
+<area shape="rect" id="node35" href="$namespaceMWMechanics.html#a07f053e380858a1c9dca0b3577789014" title="MWMechanics::effectTick" alt="" coords="593,625,772,652"/>
+<area shape="rect" id="node38" href="$classMWScript_1_1Stats_1_1OpSetAttribute.html#abf57f8de8fa1081e9003e6dce1f66cf5" title="MWScript::Stats::OpSetAttribute\l::execute" alt="" coords="569,363,796,405"/>
+<area shape="rect" id="node39" href="$classMWScript_1_1Stats_1_1OpModAttribute.html#ad059039a821a55b7b920efd3b7584529" title="MWScript::Stats::OpModAttribute\l::execute" alt="" coords="567,429,799,470"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1Player.html#aa6e49bc6dd4ad7c1cd498d076bc0a857" title="MWWorld::Player::restore\lSkillsAttributes" alt="" coords="593,559,772,601"/>
+<area shape="rect" id="node21" href="$classMWClass_1_1Npc.html#ae30c8287ffac6a498be75704ab56b1ce" title="MWClass::Npc::ensureCustomData" alt="" coords="857,129,1101,156"/>
+<area shape="rect" id="node22" href="$classMWClass_1_1Npc.html#a4e14fac84a2000f45324a8e49099d016" title="Return creature stats. " alt="" coords="1153,187,1349,229"/>
+<area shape="rect" id="node23" href="$classMWClass_1_1Npc.html#a0cc99909b3aa876f47b51f9a2f0787b8" title="Return NPC stats. " alt="" coords="1151,253,1350,280"/>
+<area shape="rect" id="node24" href="$classMWClass_1_1Npc.html#a280d9f4b1bbb5472e34d443b2e9d9a98" title="Return container store. " alt="" coords="1149,122,1352,163"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1LevelupDialog.html#aa69c5c771f4a8f275bfbaf634ba23379" title="MWGui::LevelupDialog\l::LevelupDialog" alt="" coords="897,458,1060,499"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="1171,713,1331,754"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="1171,647,1331,689"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1MechanicsManager.html#aa4cff5ce8c7bbf3db175e9ef1ed03340" title="Set player race. " alt="" coords="857,311,1100,353"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1MechanicsManager.html#a8bb81b01284b91cf17ad6245805ad1c4" title="Set player birthsign. " alt="" coords="857,181,1100,222"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1MechanicsManager.html#a466d672ca027794db3b1f0cb889bb3d9" title="Set player class to stock class. " alt="" coords="857,246,1100,287"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1ExpiryVisitor.html#a38923f8217da57845a32361c58100b2b" title="MWMechanics::ExpiryVisitor\l::visit" alt="" coords="880,654,1077,695"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="889,589,1068,630"/>
+<area shape="rect" id="node41" href="$classMWMechanics_1_1MechanicsManager.html#aac554cc4280a59bcb2381e653c3f7b36" title="Turn actor into werewolf or normal form. " alt="" coords="857,523,1100,565"/>
+<area shape="rect" id="node43" href="$classMWClass_1_1Npc.html#af6723ba6a47b408d1af74c9d34613228" title="MWClass::Npc::apply" alt="" coords="606,1121,759,1148"/>
+<area shape="rect" id="node44" href="$namespaceMWMechanics.html#ab90221f566691b0961d8e8d5daea6ddf" title="MWMechanics::applyOnStrike\lEnchantment" alt="" coords="579,1055,787,1097"/>
+<area shape="rect" id="node46" href="$classMWMechanics_1_1CastSpell.html#a82cd49d48bac53c79545074d39f207f8" title="MWMechanics::CastSpell\l::cast" alt="" coords="593,1173,772,1214"/>
+<area shape="rect" id="node47" href="$classMWScript_1_1Misc_1_1OpCast.html#a99e2d9dcadf9665f1a9797363f202bf0" title="MWScript::Misc::OpCast\l::execute" alt="" coords="597,1238,769,1279"/>
+<area shape="rect" id="node48" href="$classMWScript_1_1Misc_1_1OpExplodeSpell.html#a918d78f5dc4f40aff9e75d9497e0eb1d" title="MWScript::Misc::OpExplode\lSpell::execute" alt="" coords="586,1303,779,1345"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1ActionTrap.html#a21871cf85cb42949268933ae49b34a98" title="MWWorld::ActionTrap\l::executeImp" alt="" coords="607,1369,759,1410"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#aedee04f37a89b213121357938db6b167" title="Cast the actual spell, should be called mid&#45;animation. " alt="" coords="589,1004,776,1031"/>
+<area shape="rect" id="node45" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="881,1063,1076,1089"/>
 </map>
