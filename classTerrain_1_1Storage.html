@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,20 +103,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>We keep storage of terrain data abstract here since we need different implementations for game and editor.  
- <a href="classTerrain_1_1Storage.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="terrain_2storage_8hpp_source.html">storage.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Terrain::Storage:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage__inherit__graph.svg" width="419" height="870"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage__inherit__graph.svg" width="419" height="912"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Terrain::Storage:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage__coll__graph.svg" width="174" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage__coll__graph.svg" width="179" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -141,17 +138,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7ca62818dc53dffde2e7247b0017c793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17d3d2423581b3e90217cb245f475426"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1Storage.html#a17d3d2423581b3e90217cb245f475426">getHeightAt</a> (const osg::Vec3f &amp;worldPos)=0</td></tr>
 <tr class="separator:a17d3d2423581b3e90217cb245f475426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b0abbe7708a782623cd6c84a6fb19e2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structTerrain_1_1LayerInfo.html">LayerInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1Storage.html#a5b0abbe7708a782623cd6c84a6fb19e2">getDefaultLayer</a> ()=0</td></tr>
-<tr class="separator:a5b0abbe7708a782623cd6c84a6fb19e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f8ed3c3ba822e0264edf115a226fba4"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1Storage.html#a8f8ed3c3ba822e0264edf115a226fba4">getCellWorldSize</a> ()=0</td></tr>
 <tr class="memdesc:a8f8ed3c3ba822e0264edf115a226fba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transformation factor for mapping cell units to world units.  <a href="#a8f8ed3c3ba822e0264edf115a226fba4">More...</a><br/></td></tr>
 <tr class="separator:a8f8ed3c3ba822e0264edf115a226fba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdb70cbe39f265a5825d0cfd202e53d3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1Storage.html#acdb70cbe39f265a5825d0cfd202e53d3">getCellVertices</a> ()=0</td></tr>
 <tr class="memdesc:acdb70cbe39f265a5825d0cfd202e53d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of vertices on one side for each cell. Should be (power of two)+1.  <a href="#acdb70cbe39f265a5825d0cfd202e53d3">More...</a><br/></td></tr>
 <tr class="separator:acdb70cbe39f265a5825d0cfd202e53d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac549a203dc430a24e25ce010b7b82e8a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1Storage.html#ac549a203dc430a24e25ce010b7b82e8a">getBlendmapScale</a> (float chunkSize)=0</td></tr>
+<tr class="separator:ac549a203dc430a24e25ce010b7b82e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>We keep storage of terrain data abstract here since we need different implementations for game and editor. </p>
+<div class="textblock"><p>We keep storage of terrain data abstract here since we need different implementations for game and editor </p>
+<dl class="section note"><dt>Note</dt><dd>The implementation must be thread safe. </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a34c9fbfcbb07c8711498b769e05c9ee3"></a>
 <div class="memitem">
@@ -268,7 +266,7 @@ Vertices should be written in row-major order (a row is defined as parallel to t
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_ae4ec405d3108b4542af3d5b114ab87e2_icgraph.svg" width="576" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_ae4ec405d3108b4542af3d5b114ab87e2_icgraph.svg" width="1283" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -344,7 +342,41 @@ May be called from background threads. Make sure to only call thread-safe functi
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_a7ca62818dc53dffde2e7247b0017c793_icgraph.svg" width="614" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_a7ca62818dc53dffde2e7247b0017c793_icgraph.svg" width="1816" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac549a203dc430a24e25ce010b7b82e8a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classint.html">int</a> Terrain::Storage::getBlendmapScale </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>chunkSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classESMTerrain_1_1Storage.html#a14bc52b9dc71bd5cd3123bc829f4f791">ESMTerrain::Storage</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_ac549a203dc430a24e25ce010b7b82e8a_icgraph.svg" width="1811" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -397,7 +429,15 @@ Here is the caller graph for this function:</div>
 
 <p>Get bounds of the whole terrain in cell units. </p>
 
-<p>Implemented in <a class="el" href="classESMTerrain_1_1Storage.html#a124390ccf18ab49fb209650edc629112">ESMTerrain::Storage</a>, <a class="el" href="classCSVRender_1_1TerrainStorage.html#a38a21d30ca7a58ca6ee99536a6c4fe56">CSVRender::TerrainStorage</a>, and <a class="el" href="classMWRender_1_1TerrainStorage.html#a2cb7b7f22ec2a4bf47a9cdcbb15756cd">MWRender::TerrainStorage</a>.</p>
+<p>Implemented in <a class="el" href="classESMTerrain_1_1Storage.html#a124390ccf18ab49fb209650edc629112">ESMTerrain::Storage</a>, <a class="el" href="classMWRender_1_1TerrainStorage.html#a2cb7b7f22ec2a4bf47a9cdcbb15756cd">MWRender::TerrainStorage</a>, and <a class="el" href="classCSVRender_1_1TerrainStorage.html#a38a21d30ca7a58ca6ee99536a6c4fe56">CSVRender::TerrainStorage</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_a4cfdc79294004cb12208b8b55b8e11d5_icgraph.svg" width="867" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -425,6 +465,14 @@ Here is the caller graph for this function:</div>
 <p>Get the number of vertices on one side for each cell. Should be (power of two)+1. </p>
 
 <p>Implemented in <a class="el" href="classESMTerrain_1_1Storage.html#a2de6aa2df6cf6802ddda36c1545b246d">ESMTerrain::Storage</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_acdb70cbe39f265a5825d0cfd202e53d3_icgraph.svg" width="1272" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -456,35 +504,10 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_a8f8ed3c3ba822e0264edf115a226fba4_icgraph.svg" width="566" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_a8f8ed3c3ba822e0264edf115a226fba4_icgraph.svg" width="1512" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="a5b0abbe7708a782623cd6c84a6fb19e2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="structTerrain_1_1LayerInfo.html">LayerInfo</a> Terrain::Storage::getDefaultLayer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classESMTerrain_1_1Storage.html#a258f91a786a28fa883b1833894265104">ESMTerrain::Storage</a>.</p>
 
 </div>
 </div>
@@ -515,7 +538,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_a17d3d2423581b3e90217cb245f475426_icgraph.svg" width="459" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_a17d3d2423581b3e90217cb245f475426_icgraph.svg" width="710" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -583,7 +606,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_acfbec50c7fd444292cd4b4f2244204b7_icgraph.svg" width="566" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1Storage_acfbec50c7fd444292cd4b4f2244204b7_icgraph.svg" width="1291" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -591,12 +614,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/terrain/<a class="el" href="terrain_2storage_8hpp_source.html">storage.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/terrain/<a class="el" href="terrain_2storage_8hpp_source.html">storage.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

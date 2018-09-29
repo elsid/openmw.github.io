@@ -1,12 +1,50 @@
 <map id="MWBase::WindowManager::isGuiMode" name="MWBase::WindowManager::isGuiMode">
-<area shape="rect" id="node2" href="$classMWGui_1_1ToolTips.html#a1acd92f92a8fc2f6c17860b31c3402d2" title="MWGui::ToolTips::onFrame" alt="" coords="251,15,437,41"/>
-<area shape="rect" id="node4" href="$classMWInput_1_1InputManager.html#a96e13e2c6f55fe6e3e8f839e37322df5" title="MWInput::InputManager\l::updateCursorMode" alt="" coords="258,67,430,109"/>
-<area shape="rect" id="node6" href="$classMWInput_1_1InputManager.html#a2e31663b88de020bd55f555a693bfe85" title="MWInput::InputManager\l::mousePressed" alt="" coords="258,133,430,174"/>
-<area shape="rect" id="node7" href="$classMWInput_1_1InputManager.html#aa1ab38b09d9609dc1e312cfd2a518022" title="MWInput::InputManager\l::mouseReleased" alt="" coords="258,198,430,239"/>
-<area shape="rect" id="node8" href="$classMWInput_1_1InputManager.html#a511df36d78c0ea54a10f6c15b2b62b68" title="MWInput::InputManager\l::buttonPressed" alt="" coords="258,263,430,305"/>
-<area shape="rect" id="node9" href="$classMWInput_1_1InputManager.html#a78886b81e494ea7c5d65c96deaa122d3" title="MWInput::InputManager\l::buttonReleased" alt="" coords="258,329,430,370"/>
-<area shape="rect" id="node10" href="$classMWRender_1_1Camera.html#aa377e2b61ed83eacf263d6f412e674b3" title="MWRender::Camera::update" alt="" coords="244,395,444,421"/>
-<area shape="rect" id="node11" href="$classMWScript_1_1InterpreterContext.html#a71e5532bf9e5e9d3456d15e4b3882494" title="MWScript::InterpreterContext\l::menuMode" alt="" coords="241,446,447,487"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1WindowManager.html#a2f52c12d86d6bb31adc62b06cef3de19" title="MWGui::WindowManager\l::onFrame" alt="" coords="496,5,672,46"/>
-<area shape="rect" id="node5" href="$classMWInput_1_1InputManager.html#a4b0ab846314afae0286b8ac579a407c8" title="MWInput::InputManager\l::update" alt="" coords="498,70,670,111"/>
+<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#af77b9ccfe671335db4b5091d6a1753df" title="MWClass::Creature::\lhasToolTip" alt="" coords="286,5,437,46"/>
+<area shape="rect" id="node3" href="$classMWClass_1_1Npc.html#a2468aba985c3ef18aba1a692bea218b3" title="MWClass::Npc::hasToolTip" alt="" coords="269,71,453,97"/>
+<area shape="rect" id="node4" href="$classMWClass_1_1Weapon.html#a5a2357ed01d41d297dbb21bfe09af11c" title="MWClass::Weapon::canBeEquipped" alt="" coords="240,121,483,148"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1ToolTips.html#af97a82d710afa9aad808f15f49c38547" title="MWGui::ToolTips::update" alt="" coords="274,172,449,199"/>
+<area shape="rect" id="node9" href="$classMWInput_1_1InputManager.html#a96e13e2c6f55fe6e3e8f839e37322df5" title="MWInput::InputManager\l::updateCursorMode" alt="" coords="275,223,447,265"/>
+<area shape="rect" id="node11" href="$classMWInput_1_1InputManager.html#a2e31663b88de020bd55f555a693bfe85" title="MWInput::InputManager\l::mousePressed" alt="" coords="275,289,447,330"/>
+<area shape="rect" id="node12" href="$classMWInput_1_1InputManager.html#aa1ab38b09d9609dc1e312cfd2a518022" title="MWInput::InputManager\l::mouseReleased" alt="" coords="275,354,447,395"/>
+<area shape="rect" id="node13" href="$classMWInput_1_1InputManager.html#a511df36d78c0ea54a10f6c15b2b62b68" title="MWInput::InputManager\l::buttonPressed" alt="" coords="275,419,447,461"/>
+<area shape="rect" id="node14" href="$classMWInput_1_1InputManager.html#a78886b81e494ea7c5d65c96deaa122d3" title="MWInput::InputManager\l::buttonReleased" alt="" coords="275,485,447,526"/>
+<area shape="rect" id="node15" href="$classMWRender_1_1Camera.html#aa377e2b61ed83eacf263d6f412e674b3" title="MWRender::Camera::update" alt="" coords="261,551,461,577"/>
+<area shape="rect" id="node16" href="$classMWScript_1_1InterpreterContext.html#a71e5532bf9e5e9d3456d15e4b3882494" title="MWScript::InterpreterContext\l::menuMode" alt="" coords="258,602,465,643"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1Action.html#a40a02d650fbcc77561d98c2ec4d50b18" title="MWWorld::Action::execute" alt="" coords="269,668,454,695"/>
+<area shape="rect" id="node47" href="$classMWWorld_1_1World.html#a1ca8de0e87fb401cff17fa9c405b1ef8" title="Return pointer to the object the player is looking at, if it is within activation range..." alt="" coords="268,997,455,1038"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1ToolTips.html#aa50c7649622f81fa86b1836475129b64" title="MWGui::ToolTips::setFocus\lObject" alt="" coords="548,161,735,202"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1WindowManager.html#a73279617752364728aaa6eeef7dd3850" title="MWGui::WindowManager\l::setFocusObject" alt="" coords="825,129,1001,170"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1WindowManager.html#a9825efe2509280a4e509c80fdb140513" title="Clear all savegame&#45;specific data. " alt="" coords="825,194,1001,235"/>
+<area shape="rect" id="node10" href="$classMWInput_1_1InputManager.html#a4b0ab846314afae0286b8ac579a407c8" title="MWInput::InputManager\l::update" alt="" coords="555,226,727,267"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1BookWindow.html#a002424dfc37863d6a6cec5100c25ee49" title="MWGui::BookWindow::\lonTakeButtonClicked" alt="" coords="562,291,721,333"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1ScrollWindow.html#a4a35dc1ef8ee74f09a27079377f77332" title="MWGui::ScrollWindow\l::onTakeButtonClicked" alt="" coords="560,357,723,398"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1TravelWindow.html#aa8da69518ba8fb84d850135115815734" title="MWGui::TravelWindow\l::onTravelButtonClick" alt="" coords="563,422,719,463"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1Actors.html#a07c684975b12d77a259fcc2d9e9440a5" title="MWMechanics::Actors\l::addBoundItem" alt="" coords="561,487,721,529"/>
+<area shape="rect" id="node35" href="$classMWMechanics_1_1Actors.html#a6e0e846b562573c6e0ccc057e244ad86" title="MWMechanics::Actors\l::removeBoundItem" alt="" coords="561,553,721,594"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1ActionWeapon.html#aafe3c0c61fef692d2c75699361223a16" title="Equips the given weapon. " alt="" coords="537,618,746,659"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1CastSpell.html#aad516a4d006a0d52f86cf871cb49503f" title="MWMechanics::CastSpell\l::applyInstantEffect" alt="" coords="552,683,731,725"/>
+<area shape="rect" id="node43" href="$classMWScript_1_1Cell_1_1OpCOC.html#a7050f40450bf3fce5d0837810b5f80d8" title="MWScript::Cell::OpCOC\l::execute" alt="" coords="558,749,725,790"/>
+<area shape="rect" id="node44" href="$classMWScript_1_1Cell_1_1OpCOE.html#affbef11ae7a50538b05b4027a58ea257" title="MWScript::Cell::OpCOE\l::execute" alt="" coords="559,814,724,855"/>
+<area shape="rect" id="node45" href="$classMWWorld_1_1World.html#a0045488c95dfe296d0c23d8ceb963555" title="Attempt to fix position so that the Ptr is no longer inside collision geometry. " alt="" coords="545,880,737,907"/>
+<area shape="rect" id="node46" href="$classMWWorld_1_1World.html#a302b3209f3ebcff7785e8a21d8d0d9b2" title="MWWorld::World::teleport\lToClosestMarker" alt="" coords="552,931,731,973"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1BookWindow.html#a9b9a94b6a555a8c61933dbda327b1e44" title="MWGui::BookWindow::\lBookWindow" alt="" coords="834,291,993,333"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1ScrollWindow.html#a773c0c58f840d6ed347805945c6493fd" title="MWGui::ScrollWindow\l::ScrollWindow" alt="" coords="836,357,991,398"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1TravelWindow.html#a0cf872ffa1e9eed5133010d950588b3a" title="MWGui::TravelWindow\l::addDestination" alt="" coords="835,422,991,463"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1TravelWindow.html#a50fea37fade58bf2411b89d9fc970af6" title="Open this object in the GUI, for windows that support it. " alt="" coords="1097,389,1253,430"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="800,553,1027,594"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="1095,454,1255,495"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="1095,519,1255,561"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="1095,585,1255,626"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="1095,650,1255,691"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1364,519,1524,561"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1613,519,1856,561"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1MechanicsManager.html#a0d59b750f6336af8a3db5007a3509054" title="MWMechanics::MechanicsManager\l::rest" alt="" coords="1323,585,1565,626"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1MechanicsManager.html#afc410b78620c72d4ec2447b495430128" title="MWMechanics::MechanicsManager\l::updateMagicEffects" alt="" coords="1323,650,1565,691"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="824,715,1003,757"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1CastSpell.html#a792b5c30e747b65d6c5f83166d716d59" title="MWMechanics::CastSpell\l::cast" alt="" coords="1085,715,1264,757"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="1075,781,1275,822"/>
+<area shape="rect" id="node41" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="1344,781,1544,822"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="1635,781,1835,822"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1World.html#a1cfbb97bc8ce3c0528ccf80b2c37a47c" title="MWWorld::World::updateWindow\lManager" alt="" coords="531,997,751,1038"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1World.html#aa018bf3e47a39bb1bf25bdbcd2116db5" title="Cast the actual spell, should be called mid&#45;animation. " alt="" coords="548,1063,735,1089"/>
 </map>

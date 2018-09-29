@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,7 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for CSMWorld::IdTable:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable__inherit__graph.svg" width="184" height="966"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable__inherit__graph.svg" width="415" height="966"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -150,6 +150,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a13b49a292c266df9996bca15b4b968fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd96af7aacb7a44fe10bd324d605bade"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdTable.html#abd96af7aacb7a44fe10bd324d605bade">cloneRecord</a> (const std::string &amp;origin, const std::string &amp;destination, <a class="el" href="classCSMWorld_1_1UniversalId.html#ad68e402e074c03aeffc692e97a7457b2">UniversalId::Type</a> type=<a class="el" href="classCSMWorld_1_1UniversalId.html#ad68e402e074c03aeffc692e97a7457b2a5a496e5f4cd35ae414415cc61a011289">UniversalId::Type_None</a>)</td></tr>
 <tr class="separator:abd96af7aacb7a44fe10bd324d605bade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41391540c0d5c9220fb0cfc110e59788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdTable.html#a41391540c0d5c9220fb0cfc110e59788">touchRecord</a> (const std::string &amp;id)</td></tr>
+<tr class="memdesc:a41391540c0d5c9220fb0cfc110e59788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will change the record state to modified, if it is not already.  <a href="#a41391540c0d5c9220fb0cfc110e59788">More...</a><br/></td></tr>
+<tr class="separator:a41391540c0d5c9220fb0cfc110e59788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a09d2aec4257ca32878055e46c6391"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdTable.html#a60a09d2aec4257ca32878055e46c6391">getId</a> (<a class="el" href="classint.html">int</a> row) const </td></tr>
+<tr class="separator:a60a09d2aec4257ca32878055e46c6391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91faddd532ddf8859a873abbf8cfb072"><td class="memItemLeft" align="right" valign="top">virtual QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdTable.html#a91faddd532ddf8859a873abbf8cfb072">getModelIndex</a> (const std::string &amp;id, <a class="el" href="classint.html">int</a> column) const </td></tr>
 <tr class="memdesc:a91faddd532ddf8859a873abbf8cfb072"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method can return only indexes to the top level table cells.  <a href="#a91faddd532ddf8859a873abbf8cfb072">More...</a><br/></td></tr>
 <tr class="separator:a91faddd532ddf8859a873abbf8cfb072"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,7 +211,8 @@ Additional Inherited Members</h2></td></tr>
 <a class="el" href="classCSMWorld_1_1IdTableBase.html#a10b0ff28a7c2a478000d24e7801ad0e4aafa82b0f31841183fc8d9a62a0f4a1da">Feature_View</a> = Feature_ViewId | Feature_ViewCell, 
 <br/>
 &#160;&#160;<a class="el" href="classCSMWorld_1_1IdTableBase.html#a10b0ff28a7c2a478000d24e7801ad0e4a76f3702903d51a5c165284741372ccdf">Feature_Preview</a> = 8, 
-<a class="el" href="classCSMWorld_1_1IdTableBase.html#a10b0ff28a7c2a478000d24e7801ad0e4a80f8e85ce5d45e61ae1436661037a189">Feature_Constant</a> = 16
+<a class="el" href="classCSMWorld_1_1IdTableBase.html#a10b0ff28a7c2a478000d24e7801ad0e4a80f8e85ce5d45e61ae1436661037a189">Feature_Constant</a> = 16, 
+<a class="el" href="classCSMWorld_1_1IdTableBase.html#a10b0ff28a7c2a478000d24e7801ad0e4ab6a9304478c1f0610bc041a02f365659">Feature_AllowTouch</a> = 32
 <br/>
  }</td></tr>
 <tr class="separator:a10b0ff28a7c2a478000d24e7801ad0e4 inherit pub_types_classCSMWorld_1_1IdTableBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -461,7 +467,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_a6f41152e5214041787d098ec780fd761_icgraph.svg" width="1000" height="1148"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_a6f41152e5214041787d098ec780fd761_icgraph.svg" width="1000" height="1344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -496,7 +502,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_ab6abf0e89c0fe1c15a5c1248496bfb99_icgraph.svg" width="944" height="1423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_ab6abf0e89c0fe1c15a5c1248496bfb99_icgraph.svg" width="944" height="1946"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -563,6 +569,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a60a09d2aec4257ca32878055e46c6391"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string CSMWorld::IdTable::getId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>row</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_a60a09d2aec4257ca32878055e46c6391_icgraph.svg" width="416" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a91faddd532ddf8859a873abbf8cfb072"></a>
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +632,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_a91faddd532ddf8859a873abbf8cfb072_icgraph.svg" width="691" height="1096"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_a91faddd532ddf8859a873abbf8cfb072_icgraph.svg" width="691" height="1423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -626,7 +656,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_a5f0818bca53ef95d696c2613f47659ba_icgraph.svg" width="731" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdTable_a5f0818bca53ef95d696c2613f47659ba_icgraph.svg" width="731" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1072,6 +1102,24 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a41391540c0d5c9220fb0cfc110e59788"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> CSMWorld::IdTable::touchRecord </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Will change the record state to modified, if it is not already. </p>
+
+</div>
+</div>
 <a class="anchor" id="a6c31c67ea2213b2c10ca211e6413ab63"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1121,13 +1169,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/world/<a class="el" href="idtable_8hpp_source.html">idtable.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/world/<a class="el" href="idtable_8cpp.html">idtable.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/world/<a class="el" href="idtable_8hpp_source.html">idtable.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/world/<a class="el" href="idtable_8cpp.html">idtable.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:57 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:29 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

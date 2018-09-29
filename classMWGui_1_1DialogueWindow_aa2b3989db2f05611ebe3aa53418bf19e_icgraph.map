@@ -1,10 +1,20 @@
 <map id="MWGui::DialogueWindow::setKeywords" name="MWGui::DialogueWindow::setKeywords">
-<area shape="rect" id="node2" href="$classMWDialogue_1_1DialogueManager.html#a1d9b3a25c03b00b9bae012734e111a5e" title="MWDialogue::DialogueManager\l::updateTopics" alt="" coords="230,166,450,207"/>
-<area shape="rect" id="node3" href="$classMWDialogue_1_1DialogueManager.html#a58f35eb0d8ce2627035630349e29bdef" title="MWDialogue::DialogueManager\l::parseText" alt="" coords="499,135,719,177"/>
-<area shape="rect" id="node4" href="$classMWDialogue_1_1DialogueManager.html#a2a537be1a3a201dfbede541ac70f42b5" title="MWDialogue::DialogueManager\l::startDialogue" alt="" coords="769,5,989,46"/>
-<area shape="rect" id="node6" href="$classMWDialogue_1_1DialogueManager.html#a06ee1184e48a0c987a081a01aa85d2eb" title="MWDialogue::DialogueManager\l::keywordSelected" alt="" coords="1038,197,1258,238"/>
-<area shape="rect" id="node8" href="$classMWDialogue_1_1DialogueManager.html#abe193ad66133d216a04d99427b702c3e" title="MWDialogue::DialogueManager\l::questionAnswered" alt="" coords="769,201,989,242"/>
-<area shape="rect" id="node5" href="$classMWDialogue_1_1DialogueManager.html#a73312fb56f31afd32ea5beaa71282fcc" title="MWDialogue::DialogueManager\l::executeTopic" alt="" coords="769,70,989,111"/>
-<area shape="rect" id="node9" href="$classMWDialogue_1_1DialogueManager.html#a08d435c6bda96b8802456a26131338ca" title="MWDialogue::DialogueManager\l::checkServiceRefused" alt="" coords="769,135,989,177"/>
-<area shape="rect" id="node7" href="$classMWDialogue_1_1DialogueManager.html#a6e9503322396b5610945e461164d4468" title="MWDialogue::DialogueManager\l::persuade" alt="" coords="1038,70,1258,111"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1DialogueWindow.html#adb4fa3fea35ec197ec40f5d44e141657" title="MWGui::DialogueWindow\l::updateTopics" alt="" coords="229,273,405,314"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1ResponseCallback.html#aa0b33e4b2186f583cf849b841f2123e1" title="MWGui::ResponseCallback\l::updateTopics" alt="" coords="453,155,640,197"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1DialogueWindow.html#a3c1804612ddbb452fd104465c0914bfd" title="MWGui::DialogueWindow\l::onSelectListItem" alt="" coords="688,207,864,249"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1DialogueWindow.html#a50879c49fd5cbcee479adb8a6c2d47b0" title="Open this object in the GUI, for windows that support it. " alt="" coords="1141,399,1317,441"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1DialogueWindow.html#aee4ad07321e72dedd3f5f9c74c5c9e8a" title="MWGui::DialogueWindow\l::onTopicActivated" alt="" coords="459,338,635,379"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1DialogueWindow.html#a1cf62b80a84178025b9d17a91406c280" title="MWGui::DialogueWindow\l::onChoiceActivated" alt="" coords="459,273,635,314"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1DialogueWindow.html#a32b742eafd77fcbd43ee10e33a540bcc" title="MWGui::DialogueWindow\l::addResponse" alt="" coords="912,57,1088,98"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1DialogueWindow.html#a2b245c2f66314b03293e7bc62b325bc2" title="MWGui::DialogueWindow\l::DialogueWindow" alt="" coords="1141,161,1317,202"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1DialogueWindow.html#a8add8658644d68550a609c0b01b15a08" title="MWGui::DialogueWindow\l::updateTopicsPane" alt="" coords="912,370,1088,411"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1DialogueWindow.html#a985911ecd207aeafb0c149bb1f628921" title="MWGui::DialogueWindow\l::updateHistory" alt="" coords="688,273,864,314"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1DialogueWindow.html#a34872a2151f975fa78b4e59ba56e9d31" title="MWGui::DialogueWindow\l::onWindowResize" alt="" coords="912,174,1088,215"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1DialogueWindow.html#ab3c338f40575b932bf7406ffe1703a1e" title="MWGui::DialogueWindow\l::addMessageBox" alt="" coords="912,305,1088,346"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1DialogueWindow.html#ad4f0ae6d7a39965bab6f5a0893bfcfdd" title="Called every frame if the window is in an active GUI mode. " alt="" coords="912,239,1088,281"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1ResponseCallback.html#adad566c5e9c5cb7fca90389cda35763c" title="MWGui::ResponseCallback\l::addResponse" alt="" coords="1136,70,1323,111"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1DialogueWindow.html#a77f0e2615701ec24be9bd0eb0e36f28d" title="MWGui::DialogueWindow\l::onTradeComplete" alt="" coords="1141,5,1317,46"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1WindowManager.html#a2066d296aa345dcb4008cbd07d3c52c2" title="MWGui::WindowManager\l::initUI" alt="" coords="1371,5,1547,46"/>
+<area shape="rect" id="node16" href="$classOMW_1_1Engine.html#a9edab665083b0f5db2cda761f3e9c2c3" title="Prepare engine for game play. " alt="" coords="1595,12,1800,39"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1WindowManager.html#ab571d396ff35e2266c6d022da31ab2c1" title="MWGui::WindowManager\l::messageBox" alt="" coords="1141,305,1317,346"/>
 </map>

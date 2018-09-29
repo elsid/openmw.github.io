@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -133,9 +133,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a663585442d5b01fe38db1459ea32cc33"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="structMWGui_1_1JournalViewModel.html">JournalViewModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a663585442d5b01fe38db1459ea32cc33">Ptr</a></td></tr>
-<tr class="separator:a663585442d5b01fe38db1459ea32cc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb240d5bae0e90c4b315b82fad1ae2e2"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="structMWGui_1_1JournalViewModel.html">JournalViewModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#acb240d5bae0e90c4b315b82fad1ae2e2">Ptr</a></td></tr>
+<tr class="separator:acb240d5bae0e90c4b315b82fad1ae2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d91317fada330b9788e45fedf9f524"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classintptr__t.html">intptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a92d91317fada330b9788e45fedf9f524">QuestId</a></td></tr>
 <tr class="separator:a92d91317fada330b9788e45fedf9f524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2641699d7af1f0ed110667c61faa0004"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classintptr__t.html">intptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a2641699d7af1f0ed110667c61faa0004">TopicId</a></td></tr>
@@ -157,36 +157,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9560488276adde3acbbbcee4f4f56d83"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a9560488276adde3acbbbcee4f4f56d83">isEmpty</a> () const =0</td></tr>
 <tr class="memdesc:a9560488276adde3acbbbcee4f4f56d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if their are no journal entries to display  <a href="#a9560488276adde3acbbbcee4f4f56d83">More...</a><br/></td></tr>
 <tr class="separator:a9560488276adde3acbbbcee4f4f56d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88a0da3c5ccd0be4c088f013ac3035f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a88a0da3c5ccd0be4c088f013ac3035f3">visitQuestNames</a> (<a class="el" href="classbool.html">bool</a> active_only, boost::function&lt; void(const std::string &amp;, <a class="el" href="classbool.html">bool</a>)&gt; visitor) const =0</td></tr>
-<tr class="memdesc:a88a0da3c5ccd0be4c088f013ac3035f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">walks the active and optionally completed, quests providing the name and completed status  <a href="#a88a0da3c5ccd0be4c088f013ac3035f3">More...</a><br/></td></tr>
-<tr class="separator:a88a0da3c5ccd0be4c088f013ac3035f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f1465de8052000834d745493e1dac2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#af2f1465de8052000834d745493e1dac2">visitJournalEntries</a> (const std::string &amp;questName, boost::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel_1_1JournalEntry.html">JournalEntry</a> const &amp;)&gt; visitor) const =0</td></tr>
-<tr class="separator:af2f1465de8052000834d745493e1dac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2bd73f5364571637756137eb9e2e3b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#aa2bd73f5364571637756137eb9e2e3b1">visitTopicName</a> (<a class="el" href="structMWGui_1_1JournalViewModel.html#a2641699d7af1f0ed110667c61faa0004">TopicId</a> topicId, boost::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel.html#abb2e3c086239a4e8b2b698110eb5d503">Utf8Span</a>)&gt; visitor) const =0</td></tr>
-<tr class="memdesc:aa2bd73f5364571637756137eb9e2e3b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides the name of the topic specified by its id  <a href="#aa2bd73f5364571637756137eb9e2e3b1">More...</a><br/></td></tr>
-<tr class="separator:aa2bd73f5364571637756137eb9e2e3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7887273ea49846f62eb77aca8deddd07"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a7887273ea49846f62eb77aca8deddd07">visitTopicNamesStartingWith</a> (char character, boost::function&lt; void(const std::string &amp;) &gt; visitor) const =0</td></tr>
-<tr class="memdesc:a7887273ea49846f62eb77aca8deddd07"><td class="mdescLeft">&#160;</td><td class="mdescRight">walks over the topics whose names start with the specified character providing the topics name  <a href="#a7887273ea49846f62eb77aca8deddd07">More...</a><br/></td></tr>
-<tr class="separator:a7887273ea49846f62eb77aca8deddd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd49cc395ad49e1dd41426070c53a536"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#acd49cc395ad49e1dd41426070c53a536">visitTopicEntries</a> (<a class="el" href="structMWGui_1_1JournalViewModel.html#a2641699d7af1f0ed110667c61faa0004">TopicId</a> topicId, boost::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel_1_1TopicEntry.html">TopicEntry</a> const &amp;)&gt; visitor) const =0</td></tr>
-<tr class="memdesc:acd49cc395ad49e1dd41426070c53a536"><td class="mdescLeft">&#160;</td><td class="mdescRight">walks over the topic entries for the topic specified by its identifier  <a href="#acd49cc395ad49e1dd41426070c53a536">More...</a><br/></td></tr>
-<tr class="separator:acd49cc395ad49e1dd41426070c53a536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673b2315c48e29c57cd2fe337e0de8be"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a673b2315c48e29c57cd2fe337e0de8be">visitQuestNames</a> (<a class="el" href="classbool.html">bool</a> active_only, std::function&lt; void(const std::string &amp;, <a class="el" href="classbool.html">bool</a>)&gt; visitor) const =0</td></tr>
+<tr class="memdesc:a673b2315c48e29c57cd2fe337e0de8be"><td class="mdescLeft">&#160;</td><td class="mdescRight">walks the active and optionally completed, quests providing the name and completed status  <a href="#a673b2315c48e29c57cd2fe337e0de8be">More...</a><br/></td></tr>
+<tr class="separator:a673b2315c48e29c57cd2fe337e0de8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af812a89ef71e5ec0ed4f6a15bf5b87ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#af812a89ef71e5ec0ed4f6a15bf5b87ce">visitJournalEntries</a> (const std::string &amp;questName, std::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel_1_1JournalEntry.html">JournalEntry</a> const &amp;)&gt; visitor) const =0</td></tr>
+<tr class="separator:af812a89ef71e5ec0ed4f6a15bf5b87ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126582335c3c2405471533367ddad0f9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a126582335c3c2405471533367ddad0f9">visitTopicName</a> (<a class="el" href="structMWGui_1_1JournalViewModel.html#a2641699d7af1f0ed110667c61faa0004">TopicId</a> topicId, std::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel.html#abb2e3c086239a4e8b2b698110eb5d503">Utf8Span</a>)&gt; visitor) const =0</td></tr>
+<tr class="memdesc:a126582335c3c2405471533367ddad0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides the name of the topic specified by its id  <a href="#a126582335c3c2405471533367ddad0f9">More...</a><br/></td></tr>
+<tr class="separator:a126582335c3c2405471533367ddad0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0cef48e18513f85cc8294098b65d664"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#ad0cef48e18513f85cc8294098b65d664">visitTopicNamesStartingWith</a> (<a class="el" href="classUtf8Stream.html#a00e128710f619274aebf3ccaa344d7dd">Utf8Stream::UnicodeChar</a> character, std::function&lt; void(const std::string &amp;) &gt; visitor) const =0</td></tr>
+<tr class="memdesc:ad0cef48e18513f85cc8294098b65d664"><td class="mdescLeft">&#160;</td><td class="mdescRight">walks over the topics whose names start with the character  <a href="#ad0cef48e18513f85cc8294098b65d664">More...</a><br/></td></tr>
+<tr class="separator:ad0cef48e18513f85cc8294098b65d664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13fcd531d732e3a0661897743d972e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#ac13fcd531d732e3a0661897743d972e7">visitTopicEntries</a> (<a class="el" href="structMWGui_1_1JournalViewModel.html#a2641699d7af1f0ed110667c61faa0004">TopicId</a> topicId, std::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel_1_1TopicEntry.html">TopicEntry</a> const &amp;)&gt; visitor) const =0</td></tr>
+<tr class="memdesc:ac13fcd531d732e3a0661897743d972e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">walks over the topic entries for the topic specified by its identifier  <a href="#ac13fcd531d732e3a0661897743d972e7">More...</a><br/></td></tr>
+<tr class="separator:ac13fcd531d732e3a0661897743d972e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a1ccc61681f723c8ebf23a3b26cbca273"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMWGui_1_1JournalViewModel.html#a663585442d5b01fe38db1459ea32cc33">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a1ccc61681f723c8ebf23a3b26cbca273">create</a> ()</td></tr>
+<tr class="memitem:a1ccc61681f723c8ebf23a3b26cbca273"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMWGui_1_1JournalViewModel.html#acb240d5bae0e90c4b315b82fad1ae2e2">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1JournalViewModel.html#a1ccc61681f723c8ebf23a3b26cbca273">create</a> ()</td></tr>
 <tr class="separator:a1ccc61681f723c8ebf23a3b26cbca273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>View-Model for the journal GUI</p>
 <p>This interface defines an abstract data model suited specifically to the needs of the journal GUI. It isolates the journal GUI from the implementation details of the game data store. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a663585442d5b01fe38db1459ea32cc33"></a>
+<a class="anchor" id="acb240d5bae0e90c4b315b82fad1ae2e2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::shared_ptr&lt;<a class="el" href="structMWGui_1_1JournalViewModel.html">JournalViewModel</a>&gt; <a class="el" href="structMWGui_1_1JournalViewModel.html#a663585442d5b01fe38db1459ea32cc33">MWGui::JournalViewModel::Ptr</a></td>
+          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="structMWGui_1_1JournalViewModel.html">JournalViewModel</a>&gt; <a class="el" href="structMWGui_1_1JournalViewModel.html#acb240d5bae0e90c4b315b82fad1ae2e2">MWGui::JournalViewModel::Ptr</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -250,7 +250,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMWGui_1_1JournalViewModel.html#a663585442d5b01fe38db1459ea32cc33">JournalViewModel::Ptr</a> MWGui::JournalViewModel::create </td>
+          <td class="memname"><a class="el" href="structMWGui_1_1JournalViewModel.html#acb240d5bae0e90c4b315b82fad1ae2e2">JournalViewModel::Ptr</a> MWGui::JournalViewModel::create </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -354,7 +354,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="af2f1465de8052000834d745493e1dac2"></a>
+<a class="anchor" id="af812a89ef71e5ec0ed4f6a15bf5b87ce"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -370,7 +370,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel_1_1JournalEntry.html">JournalEntry</a> const &amp;)&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel_1_1JournalEntry.html">JournalEntry</a> const &amp;)&gt;&#160;</td>
           <td class="paramname"><em>visitor</em>&#160;</td>
         </tr>
         <tr>
@@ -387,11 +387,11 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>walks over the journal entries related to all quests with the given name If <em>questName</em> is empty, simply visits all journal entries </p>
 
-<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#a153a8274d97e0039f0f09893c1f0a0ec">MWGui::JournalViewModelImpl</a>.</p>
+<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#a9c83260939248c8f7d06d68cd99d0ffb">MWGui::JournalViewModelImpl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a88a0da3c5ccd0be4c088f013ac3035f3"></a>
+<a class="anchor" id="a673b2315c48e29c57cd2fe337e0de8be"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -407,7 +407,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::function&lt; void(const std::string &amp;, <a class="el" href="classbool.html">bool</a>)&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; void(const std::string &amp;, <a class="el" href="classbool.html">bool</a>)&gt;&#160;</td>
           <td class="paramname"><em>visitor</em>&#160;</td>
         </tr>
         <tr>
@@ -425,11 +425,11 @@ Here is the caller graph for this function:</div>
 
 <p>walks the active and optionally completed, quests providing the name and completed status </p>
 
-<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#afa693b21ced933175c828b04184f955d">MWGui::JournalViewModelImpl</a>.</p>
+<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#a07fcf3dc81dae06bd74e1c8a3bfe32c8">MWGui::JournalViewModelImpl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acd49cc395ad49e1dd41426070c53a536"></a>
+<a class="anchor" id="ac13fcd531d732e3a0661897743d972e7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -445,7 +445,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel_1_1TopicEntry.html">TopicEntry</a> const &amp;)&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel_1_1TopicEntry.html">TopicEntry</a> const &amp;)&gt;&#160;</td>
           <td class="paramname"><em>visitor</em>&#160;</td>
         </tr>
         <tr>
@@ -463,11 +463,11 @@ Here is the caller graph for this function:</div>
 
 <p>walks over the topic entries for the topic specified by its identifier </p>
 
-<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#abf3f88a3ffc7b16eceb333de29a01394">MWGui::JournalViewModelImpl</a>.</p>
+<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#ac829c41e5459bda29bbfce640356e030">MWGui::JournalViewModelImpl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa2bd73f5364571637756137eb9e2e3b1"></a>
+<a class="anchor" id="a126582335c3c2405471533367ddad0f9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -483,7 +483,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel.html#abb2e3c086239a4e8b2b698110eb5d503">Utf8Span</a>)&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="structMWGui_1_1JournalViewModel.html#abb2e3c086239a4e8b2b698110eb5d503">Utf8Span</a>)&gt;&#160;</td>
           <td class="paramname"><em>visitor</em>&#160;</td>
         </tr>
         <tr>
@@ -501,11 +501,11 @@ Here is the caller graph for this function:</div>
 
 <p>provides the name of the topic specified by its id </p>
 
-<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#a127dd9367acb6ace3bb6d287b9ae2c3e">MWGui::JournalViewModelImpl</a>.</p>
+<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#a6d127820d710e2eb3c4af937280f9468">MWGui::JournalViewModelImpl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7887273ea49846f62eb77aca8deddd07"></a>
+<a class="anchor" id="ad0cef48e18513f85cc8294098b65d664"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -515,13 +515,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">virtual void MWGui::JournalViewModel::visitTopicNamesStartingWith </td>
           <td>(</td>
-          <td class="paramtype">char&#160;</td>
+          <td class="paramtype"><a class="el" href="classUtf8Stream.html#a00e128710f619274aebf3ccaa344d7dd">Utf8Stream::UnicodeChar</a>&#160;</td>
           <td class="paramname"><em>character</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::function&lt; void(const std::string &amp;) &gt;&#160;</td>
+          <td class="paramtype">std::function&lt; void(const std::string &amp;) &gt;&#160;</td>
           <td class="paramname"><em>visitor</em>&#160;</td>
         </tr>
         <tr>
@@ -537,20 +537,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>walks over the topics whose names start with the specified character providing the topics name </p>
+<p>walks over the topics whose names start with the character </p>
 
-<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#a22a5c2e630ee80ea1280fcd6c01ee43c">MWGui::JournalViewModelImpl</a>.</p>
+<p>Implemented in <a class="el" href="structMWGui_1_1JournalViewModelImpl.html#afc179d83f6d63fd7f6566ee8d68eb4fb">MWGui::JournalViewModelImpl</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="journalviewmodel_8hpp_source.html">journalviewmodel.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="journalviewmodel_8cpp.html">journalviewmodel.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="journalviewmodel_8hpp_source.html">journalviewmodel.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="journalviewmodel_8cpp.html">journalviewmodel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:02 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:35 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,7 +102,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>This is the complete list of members for <a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a5e0705d711ce55713e7bb01d1400cf71">adjustTransparency</a>(const float ratio)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html#a24032afc9a9b1d6f8bff5de6b780641d">CelestialBody</a>(osg::Group *parentNode, float scaleFactor, int numUvSets)</td><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html">MWRender::CelestialBody</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html#ad75c36072c4259757ebbbd1b70c9cf62">CelestialBody</a>(osg::Group *parentNode, float scaleFactor, int numUvSets, unsigned int visibleMask=~0)</td><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html">MWRender::CelestialBody</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a97a32c89cf2bc4f1e58b9ce6c7b66ea2">createOcclusionQueryNode</a>(osg::Group *parent, bool queryVisible)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#afb973183c90c5e14dd4a8ef7e34e108d">createSunFlash</a>(Resource::ImageManager &amp;imageManager)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#aa75549ead282fbc9a1f56f58334d3d89">createSunGlare</a>()</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span></td></tr>
@@ -118,17 +118,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a750da10c3b6adcd5261882f16d2a53ce">mSunGlareNode</a></td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html#ada9c02fd5cdbebe8b98721711e1f55aa">mTransform</a></td><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html">MWRender::CelestialBody</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a9fd4caca1667d2de0f7564dd9c7c6808">mUpdater</a></td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a8f40c989d3514d9fdb90396864e9b565">setColor</a>(const osg::Vec4f &amp;color)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a31d2c7f8b25928d1996d4dac08f2a5ae">setDirection</a>(const osg::Vec3f &amp;direction)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a24380e878ae16a15e4f02c44eb588a4e">setGlareTimeOfDayFade</a>(float val)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html#a9ab9cfe9fe7b32afeb09830be91a5bb2">setVisible</a>(bool visible)</td><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html">MWRender::CelestialBody</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a413b62da075c88aeeb35ccee0fe9cce9">Sun</a>(osg::Group *parentNode, Resource::ImageManager &amp;imageManager)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html#ad84c79d29d906deb49155b0c6014ec02">~CelestialBody</a>()</td><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html">MWRender::CelestialBody</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#abb1400e8c80a3148df9b310cca70b7a8">~Sun</a>()</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html#a09c2584dfeaa150e6de2e4e6eb591c4b">mVisibleMask</a></td><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html">MWRender::CelestialBody</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a8f40c989d3514d9fdb90396864e9b565">setColor</a>(const osg::Vec4f &amp;color)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a31d2c7f8b25928d1996d4dac08f2a5ae">setDirection</a>(const osg::Vec3f &amp;direction)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a24380e878ae16a15e4f02c44eb588a4e">setGlareTimeOfDayFade</a>(float val)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html#a9ab9cfe9fe7b32afeb09830be91a5bb2">setVisible</a>(bool visible)</td><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html">MWRender::CelestialBody</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#a413b62da075c88aeeb35ccee0fe9cce9">Sun</a>(osg::Group *parentNode, Resource::ImageManager &amp;imageManager)</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html#ad84c79d29d906deb49155b0c6014ec02">~CelestialBody</a>()</td><td class="entry"><a class="el" href="classMWRender_1_1CelestialBody.html">MWRender::CelestialBody</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1Sun.html#abb1400e8c80a3148df9b310cca70b7a8">~Sun</a>()</td><td class="entry"><a class="el" href="classMWRender_1_1Sun.html">MWRender::Sun</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:05 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:38 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

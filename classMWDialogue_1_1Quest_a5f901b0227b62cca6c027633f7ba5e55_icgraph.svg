@@ -29,33 +29,38 @@
 <path fill="none" stroke="midnightblue" d="M126.172,-50.1953C135.142,-51.6903 144.263,-53.2105 153.014,-54.669"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="126.576,-46.7144 116.136,-48.5227 125.425,-53.6192 126.576,-46.7144"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWDialogue_1_1Quest.html#a5cc434bed6040d0565072e8cf21f724b" target="_top" xlink:title="MWDialogue::Quest::\laddEntry">
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="classMWDialogue_1_1Quest.html#a5cc434bed6040d0565072e8cf21f724b" target="_top" xlink:title="MWDialogue::Quest::\laddEntry">
 <polygon fill="white" stroke="black" points="152,-0 152,-30 268,-30 268,-0 152,-0"/>
 <text text-anchor="start" x="160" y="-18" font-family="FreeSans" font-size="10.00">MWDialogue::Quest::</text>
 <text text-anchor="middle" x="210" y="-7" font-family="FreeSans" font-size="10.00">addEntry</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M126.033,-28.2747C134.54,-26.9135 143.186,-25.5302 151.525,-24.1959"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="125.458,-24.8221 116.136,-29.8582 126.564,-31.7342 125.458,-24.8221"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWDialogue_1_1Journal.html#ade1bbd2568569792117e07bae581069c" target="_top" xlink:title="MWDialogue::Journal\l::addEntry">
-<polygon fill="white" stroke="black" points="304.5,-0 304.5,-30 417.5,-30 417.5,-0 304.5,-0"/>
-<text text-anchor="start" x="312.5" y="-18" font-family="FreeSans" font-size="10.00">MWDialogue::Journal</text>
-<text text-anchor="middle" x="361" y="-7" font-family="FreeSans" font-size="10.00">::addEntry</text>
+<!-- Node3 -->
+<g id="node3" class="node"><title>Node3</title>
+<g id="a_node3"><a xlink:href="classMWDialogue_1_1Journal.html#ade1bbd2568569792117e07bae581069c" target="_top" xlink:title="MWDialogue::Journal\l::addEntry">
+<polygon fill="white" stroke="black" points="304.5,-24 304.5,-54 417.5,-54 417.5,-24 304.5,-24"/>
+<text text-anchor="start" x="312.5" y="-42" font-family="FreeSans" font-size="10.00">MWDialogue::Journal</text>
+<text text-anchor="middle" x="361" y="-31" font-family="FreeSans" font-size="10.00">::addEntry</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M278.27,-15C286.94,-15 295.742,-15 304.2,-15"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="278.181,-11.5001 268.181,-15 278.181,-18.5001 278.181,-11.5001"/>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M276.769,-52.9649C285.948,-51.4248 295.306,-49.8546 304.276,-48.3496"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="276.189,-49.5132 266.906,-54.6198 277.347,-56.4167 276.189,-49.5132"/>
+</g>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M278.27,-25.8354C286.94,-27.232 295.742,-28.6497 304.2,-30.0121"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="278.611,-22.3452 268.181,-24.2104 277.497,-29.2562 278.611,-22.3452"/>
 </g>
 </g>
 </svg>

@@ -1,51 +1,51 @@
 <map id="MWGui::WindowManager::cycleWeapon" name="MWGui::WindowManager::cycleWeapon">
-<area shape="rect" id="node2" href="$classMWGui_1_1InventoryWindow.html#a7ec2e0d7967f777ee7ee3f3cb830688f" title="Cycle to previous/next weapon. " alt="" coords="229,1872,408,1913"/>
-<area shape="rect" id="node3" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="1008,949,1187,975"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1SortFilterItemModel.html#a00a4234f3fc986e30363d2f246b2057b" title="Use ItemStack::Type for sorting? " alt="" coords="456,2032,653,2073"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1SortFilterItemModel.html#a7edf4ef5b74229477692bb4d965e7e1f" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="456,1821,653,1863"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1520,98,1736,125"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="1010,1930,1185,1957"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1014,207,1181,234"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="1004,1981,1191,2007"/>
-<area shape="rect" id="node29" href="$classMWGui_1_1SortFilterItemModel.html#a51d93a5c6e88c6c91910870dbd31a871" title="MWGui::SortFilterItemModel\l::getItemCount" alt="" coords="456,2097,653,2139"/>
-<area shape="rect" id="node30" href="$classMWGui_1_1SortFilterItemModel.html#aa23d088eb64a77aa4e87db8a71bb2ed2" title="Throws for invalid index or out of range index. " alt="" coords="456,2163,653,2204"/>
-<area shape="rect" id="node31" href="$namespaceanonymous__namespace_02inventorywindow_8cpp_03.html#aecd0b16be09a80e557886086b29c2e88" title="anonymous_namespace\l\{inventorywindow::cpp\}\l::isRightHandWeapon" alt="" coords="465,163,644,219"/>
-<area shape="rect" id="node33" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="489,2228,621,2269"/>
-<area shape="rect" id="node35" href="$classMWGui_1_1InventoryWindow.html#ad7f386f1dc8b5f1c3102582ea5c7d825" title="MWGui::InventoryWindow\l::useItem" alt="" coords="465,827,644,868"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1272,670,1467,697"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1287,999,1452,1040"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1267,947,1471,974"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1ItemModel.html#a8fd3e3a25fdd533079e5674e9dadfb5b" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="1273,1883,1466,1910"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1ItemModel.html#a2ba1d3f6b927de7f7c9c802d0a798f24" title="MWGui::ItemModel::getItem\lCount" alt="" coords="1270,1108,1469,1149"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1ItemModel.html#a0b8eac118694036582702bae1aef6338" title="Throws for invalid index or out of range index. " alt="" coords="1270,1262,1469,1289"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1SortFilterItemModel.html#a754da78418feff36dce2943eadc5d0cd" title="MWGui::SortFilterItemModel\l::filterAccepts" alt="" coords="716,1547,913,1588"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1269,1357,1469,1383"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1CellRef.html#a4f92e5fcdd850e09b8e49a80f7c6f7de" title="MWWorld::CellRef::getSoul" alt="" coords="1005,1727,1190,1754"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="1031,1407,1164,1434"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1Class.html#a752c1c8b8184d383b275cb685ce8d8bb" title="MWWorld::Class::getScript" alt="" coords="1004,1103,1191,1130"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html#a5fc32e1d2b49ae205d2c2fafba21bf60" title="MWWorld::Class::use" alt="" coords="1022,1154,1173,1181"/>
-<area shape="rect" id="node21" href="$classMWWorld_1_1Class.html#a6689ca20c9048824b3da7832c156dc10" title="MWWorld::Class::hasItemHealth" alt="" coords="986,1778,1209,1805"/>
-<area shape="rect" id="node22" href="$classMWWorld_1_1Class.html#a5537c9812ceb8e5a8100652eac05ec63" title="Return current item health or throw an exception if class does not have item health. " alt="" coords="987,1677,1207,1703"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1Class.html#a57ed3b8775968f13bb4460b3833a9021" title="MWWorld::Class::getItemMax\lHealth" alt="" coords="1267,1771,1471,1812"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="980,1525,1215,1551"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1006,1575,1189,1602"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1008,1626,1187,1653"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1CellRef.html#adfbe4ecec0fae39aef9dc599a2257248" title="MWWorld::CellRef::getEnchantment\lCharge" alt="" coords="976,1459,1219,1500"/>
-<area shape="rect" id="node32" href="$classMWWorld_1_1Class.html#a52f0c0c5d21fc6c3ba9bc85b923f137b" title="MWWorld::Class::getEquipment\lSlots" alt="" coords="705,200,924,241"/>
-<area shape="rect" id="node34" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="749,2228,881,2269"/>
-<area shape="rect" id="node36" href="$classMWWorld_1_1Class.html#a25f3a662bba018c9a49c440443c27dbf" title="MWWorld::Class::canBeEquipped" alt="" coords="701,1205,928,1231"/>
-<area shape="rect" id="node37" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="1015,604,1180,645"/>
-<area shape="rect" id="node38" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="721,1307,908,1348"/>
-<area shape="rect" id="node39" href="$classMWGui_1_1InventoryWindow.html#a54f3f2fa0bf6255423ba78cda2ba392f" title="MWGui::InventoryWindow\l::updateItemView" alt="" coords="725,768,904,809"/>
-<area shape="rect" id="node40" href="$classMWGui_1_1ItemView.html#afa008449a9f9d8eaaa29ecc85d78f304" title="MWGui::ItemView::update" alt="" coords="1006,1053,1189,1079"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="723,1373,906,1399"/>
-<area shape="rect" id="node42" href="$classMWWorld_1_1RefData.html#a15273a5feefb6fe708a0e1eb9607d18e" title="MWWorld::RefData::getLocals" alt="" coords="712,367,917,394"/>
-<area shape="rect" id="node43" href="$classMWScript_1_1Locals.html#a1f39ce1a274328fbc1234d4ca8609cc3" title="MWScript::Locals::getIntVar" alt="" coords="717,485,912,511"/>
-<area shape="rect" id="node44" href="$classMWBase_1_1Environment.html#a42b9fbc80ab94bbc51cbdd26e58b5150" title="MWBase::Environment\l::getScriptManager" alt="" coords="1015,419,1180,460"/>
-<area shape="rect" id="node45" href="$classMWScript_1_1Locals.html#a280019b496848a01c61d9120eb009cd6" title="MWScript::Locals::setVar\lByInt" alt="" coords="725,419,904,460"/>
-<area shape="rect" id="node46" href="$classMWBase_1_1World.html#a8588f8e2f7e101362bca6002bd93e429" title="MWBase::World::getScripts\lEnabled" alt="" coords="719,703,910,744"/>
-<area shape="rect" id="node47" href="$classMWBase_1_1ScriptManager.html#a0f9e2496fc25724f6efd4536c0f24930" title="Run the script with the given name (compile first, if not compiled yet) " alt="" coords="711,834,918,861"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="713,885,916,911"/>
-<area shape="rect" id="node49" href="$classMWGui_1_1WindowBase.html#a0adf445dca26b8bfb73479a5198b2c3b" title="Returns the visibility state of the window. " alt="" coords="735,936,895,977"/>
-<area shape="rect" id="node50" href="$classMWGui_1_1InventoryWindow.html#a7e472852133ec64b6eff1f0b75ec0ee9" title="MWGui::InventoryWindow\l::notifyContentChanged" alt="" coords="725,637,904,679"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1WindowManager.html#a0066087eb0e584bbb7c95d4c03f0d286" title="MWGui::WindowManager\l::isGuiMode" alt="" coords="231,637,407,678"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1InventoryWindow.html#a7ec2e0d7967f777ee7ee3f3cb830688f" title="Cycle to previous/next weapon. " alt="" coords="229,1366,408,1407"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1MessageBoxManager.html#aca28228daa86008b681508330f03ecc6" title="MWGui::MessageBoxManager\l::isInteractiveMessageBox" alt="" coords="456,5,667,46"/>
+<area shape="rect" id="node5" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="740,908,919,935"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1007,507,1201,533"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1021,1525,1187,1552"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="459,1071,664,1113"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1CreatureStats.html#ae2b73054fdaf82052f81f3bde5a9c90c" title="MWMechanics::CreatureStats\l::isParalyzed" alt="" coords="457,1137,666,1178"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1CreatureStats.html#a4a90e70442c62575c00017c0ea0626cc" title="MWMechanics::CreatureStats\l::getKnockedDown" alt="" coords="457,1202,666,1243"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="457,1267,666,1309"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CreatureStats.html#af22263b31335549cb2fa01a817d06199" title="MWMechanics::CreatureStats\l::getHitRecovery" alt="" coords="457,1333,666,1374"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1SortFilterItemModel.html#a00a4234f3fc986e30363d2f246b2057b" title="Use ItemStack::Type for sorting? " alt="" coords="463,1398,660,1439"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1SortFilterItemModel.html#a7edf4ef5b74229477692bb4d965e7e1f" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="463,1879,660,1921"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="1017,1657,1191,1684"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="1011,1743,1197,1769"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1SortFilterItemModel.html#a51d93a5c6e88c6c91910870dbd31a871" title="MWGui::SortFilterItemModel\l::getItemCount" alt="" coords="463,1646,660,1687"/>
+<area shape="rect" id="node29" href="$classMWGui_1_1SortFilterItemModel.html#aa23d088eb64a77aa4e87db8a71bb2ed2" title="Throws for invalid index or out of range index. " alt="" coords="463,1711,660,1753"/>
+<area shape="rect" id="node30" href="$namespaceanonymous__namespace_02inventorywindow_8cpp_03.html#aecd0b16be09a80e557886086b29c2e88" title="anonymous_namespace\l\{inventorywindow::cpp\}\l::isRightHandWeapon" alt="" coords="472,1515,651,1571"/>
+<area shape="rect" id="node31" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="721,1599,937,1625"/>
+<area shape="rect" id="node33" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="495,1947,627,1989"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1Class.html#a25f3a662bba018c9a49c440443c27dbf" title="MWWorld::Class::canBeEquipped" alt="" coords="716,1431,943,1457"/>
+<area shape="rect" id="node36" href="$classMWGui_1_1InventoryWindow.html#af9beb7fb88853430b62188dbb4ce98bb" title="MWGui::InventoryWindow\l::useItem" alt="" coords="472,733,651,774"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1021,959,1187,1001"/>
+<area shape="rect" id="node8" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1002,908,1206,935"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="715,1313,943,1340"/>
+<area shape="rect" id="node13" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="731,1365,927,1406"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1ItemModel.html#a8fd3e3a25fdd533079e5674e9dadfb5b" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="1267,1149,1461,1176"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1ItemModel.html#a2ba1d3f6b927de7f7c9c802d0a798f24" title="MWGui::ItemModel::getItem\lCount" alt="" coords="1265,1441,1463,1482"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1ItemModel.html#a0b8eac118694036582702bae1aef6338" title="Throws for invalid index or out of range index. " alt="" coords="1265,979,1463,1005"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1SortFilterItemModel.html#a754da78418feff36dce2943eadc5d0cd" title="MWGui::SortFilterItemModel\l::filterAccepts" alt="" coords="731,1650,928,1691"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1Class.html#a752c1c8b8184d383b275cb685ce8d8bb" title="MWWorld::Class::getScript" alt="" coords="1011,1215,1197,1241"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1Class.html#ab0c3a65cdbb20e35eb7624cda8e6591c" title="MWWorld::Class::use" alt="" coords="1029,1451,1179,1477"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1Class.html#a6689ca20c9048824b3da7832c156dc10" title="MWWorld::Class::hasItemHealth" alt="" coords="993,1072,1215,1099"/>
+<area shape="rect" id="node32" href="$classMWWorld_1_1Class.html#a52f0c0c5d21fc6c3ba9bc85b923f137b" title="MWWorld::Class::getEquipment\lSlots" alt="" coords="720,1482,939,1523"/>
+<area shape="rect" id="node34" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="763,1979,895,2021"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1CellRef.html#a4b3b28f98b80448c7b7d5c3b364976b7" title="MWWorld::CellRef::getCharge" alt="" coords="728,121,931,148"/>
+<area shape="rect" id="node38" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="1021,397,1187,438"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="736,223,923,265"/>
+<area shape="rect" id="node40" href="$classMWGui_1_1InventoryWindow.html#a54f3f2fa0bf6255423ba78cda2ba392f" title="MWGui::InventoryWindow\l::updateItemView" alt="" coords="740,558,919,599"/>
+<area shape="rect" id="node41" href="$classMWGui_1_1ItemView.html#afa008449a9f9d8eaaa29ecc85d78f304" title="MWGui::ItemView::update" alt="" coords="1013,857,1195,884"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="738,405,921,432"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1RefData.html#a15273a5feefb6fe708a0e1eb9607d18e" title="MWWorld::RefData::getLocals" alt="" coords="727,456,932,483"/>
+<area shape="rect" id="node44" href="$classMWScript_1_1Locals.html#a1f39ce1a274328fbc1234d4ca8609cc3" title="MWScript::Locals::getIntVar" alt="" coords="732,355,927,381"/>
+<area shape="rect" id="node45" href="$classMWBase_1_1Environment.html#a42b9fbc80ab94bbc51cbdd26e58b5150" title="MWBase::Environment\l::getScriptManager" alt="" coords="1021,289,1187,330"/>
+<area shape="rect" id="node46" href="$classMWScript_1_1Locals.html#a280019b496848a01c61d9120eb009cd6" title="MWScript::Locals::setVar\lByInt" alt="" coords="740,289,919,330"/>
+<area shape="rect" id="node47" href="$classMWBase_1_1World.html#a8588f8e2f7e101362bca6002bd93e429" title="MWBase::World::getScripts\lEnabled" alt="" coords="734,623,925,665"/>
+<area shape="rect" id="node48" href="$classMWBase_1_1ScriptManager.html#a0f9e2496fc25724f6efd4536c0f24930" title="Run the script with the given name (compile first, if not compiled yet) " alt="" coords="726,689,933,716"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="728,740,931,767"/>
+<area shape="rect" id="node50" href="$classMWGui_1_1WindowBase.html#a0adf445dca26b8bfb73479a5198b2c3b" title="Returns the visibility state of the window. " alt="" coords="749,791,909,833"/>
 </map>

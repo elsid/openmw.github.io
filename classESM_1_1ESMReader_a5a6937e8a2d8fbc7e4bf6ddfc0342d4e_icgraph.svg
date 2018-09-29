@@ -53,16 +53,16 @@
 <path fill="none" stroke="midnightblue" d="M167.537,-107.496C182.032,-105.922 196.526,-104.349 209.427,-102.948"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="167.086,-104.024 157.522,-108.583 167.841,-110.983 167.086,-104.024"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classESM_1_1Script.html#ae203ba3938df708bd4ecde9c2ba9e18a" target="_top" xlink:title="ESM::Script::loadSCVR">
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="classESM_1_1Script.html#ae203ba3938df708bd4ecde9c2ba9e18a" target="_top" xlink:title="ESM::Script::loadSCVR">
 <polygon fill="white" stroke="black" points="194,-25.5 194,-44.5 318,-44.5 318,-25.5 194,-25.5"/>
 <text text-anchor="middle" x="256" y="-32.5" font-family="FreeSans" font-size="10.00">ESM::Script::loadSCVR</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node11 -->
-<g id="edge11" class="edge"><title>Node1&#45;&gt;Node11</title>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge12" class="edge"><title>Node1&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M109.805,-103.034C145.397,-86.3567 203.968,-58.912 234.713,-44.506"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="107.987,-100.021 100.417,-107.433 110.958,-106.359 107.987,-100.021"/>
 </g>
@@ -96,29 +96,29 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classESSImport_1_1ConvertCell.html#a053d9f6b16cab1761d89cae10307da7d" target="_top" xlink:title="ESSImport::ConvertCell\l::read">
-<polygon fill="white" stroke="black" points="514,-143 514,-173 642,-173 642,-143 514,-143"/>
-<text text-anchor="start" x="522" y="-161" font-family="FreeSans" font-size="10.00">ESSImport::ConvertCell</text>
-<text text-anchor="middle" x="578" y="-150" font-family="FreeSans" font-size="10.00">::read</text>
+<polygon fill="white" stroke="black" points="514,-165 514,-195 642,-195 642,-165 514,-165"/>
+<text text-anchor="start" x="522" y="-183" font-family="FreeSans" font-size="10.00">ESSImport::ConvertCell</text>
+<text text-anchor="middle" x="578" y="-172" font-family="FreeSans" font-size="10.00">::read</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M469.869,-143.269C483.939,-145.204 499.28,-147.313 513.841,-149.316"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="470.261,-139.79 459.877,-141.896 469.307,-146.725 470.261,-139.79"/>
+<path fill="none" stroke="midnightblue" d="M461.51,-148.24C480.321,-153.413 502.417,-159.49 522.217,-164.935"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="462.288,-144.824 451.718,-145.547 460.432,-151.574 462.288,-144.824"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="structCSMWorld_1_1Cell.html#a3d83f5b310e6f863ada7d176597d82fb" target="_top" xlink:title="CSMWorld::Cell::load">
-<polygon fill="white" stroke="black" points="521.5,-104.5 521.5,-123.5 634.5,-123.5 634.5,-104.5 521.5,-104.5"/>
-<text text-anchor="middle" x="578" y="-111.5" font-family="FreeSans" font-size="10.00">CSMWorld::Cell::load</text>
+<polygon fill="white" stroke="black" points="521.5,-126.5 521.5,-145.5 634.5,-145.5 634.5,-126.5 521.5,-126.5"/>
+<text text-anchor="middle" x="578" y="-133.5" font-family="FreeSans" font-size="10.00">CSMWorld::Cell::load</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M469.899,-128.726C486.403,-126.457 504.653,-123.948 521.342,-121.653"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="469.307,-125.275 459.877,-130.104 470.261,-132.21 469.307,-125.275"/>
+<path fill="none" stroke="midnightblue" d="M469.899,-136C486.403,-136 504.653,-136 521.342,-136"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="469.877,-132.5 459.877,-136 469.877,-139.5 469.877,-132.5"/>
 </g>
 <!-- Node7&#45;&gt;Node3 -->
 <g id="edge7" class="edge"><title>Node7&#45;&gt;Node3</title>
@@ -138,30 +138,44 @@
 <path fill="none" stroke="midnightblue" d="M312.777,-98C326.921,-98 342.155,-98 356.433,-98"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="312.7,-94.5001 302.7,-98 312.7,-101.5 312.7,-94.5001"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classMWWorld_1_1Store_3_01ESM_1_1Land_01_4.html#a4ee036f0cc203d23be61def02fcc33af" target="_top" xlink:title="MWWorld::Store\&lt; ESM\l::Land \&gt;::load">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="classMWWorld_1_1Store_3_01ESM_1_1Land_01_4.html#a4ee036f0cc203d23be61def02fcc33af" target="_top" xlink:title="MWWorld::Store\&lt; ESM\l::Land \&gt;::load">
 <polygon fill="white" stroke="black" points="354.5,-39 354.5,-69 477.5,-69 477.5,-39 354.5,-39"/>
 <text text-anchor="start" x="362.5" y="-57" font-family="FreeSans" font-size="10.00">MWWorld::Store&lt; ESM</text>
 <text text-anchor="middle" x="416" y="-46" font-family="FreeSans" font-size="10.00">::Land &gt;::load</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node10 -->
-<g id="edge10" class="edge"><title>Node8&#45;&gt;Node10</title>
+<!-- Node8&#45;&gt;Node11 -->
+<g id="edge11" class="edge"><title>Node8&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M300.953,-85.7598C319.53,-80.5866 341.349,-74.5103 360.902,-69.0654"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="299.978,-82.3982 291.284,-88.4527 301.856,-89.1416 299.978,-82.3982"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classESM_1_1Script.html#a14493eb786b88410838a26d3bc8386eb" target="_top" xlink:title="ESM::Script::load">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="classCSMWorld_1_1IdCollection.html#ad966354b3cc967f5fa421a66c579f571" target="_top" xlink:title="CSMWorld::IdCollection\l::loadRecord">
+<polygon fill="white" stroke="black" points="515.5,-77 515.5,-107 640.5,-107 640.5,-77 515.5,-77"/>
+<text text-anchor="start" x="523.5" y="-95" font-family="FreeSans" font-size="10.00">CSMWorld::IdCollection</text>
+<text text-anchor="middle" x="578" y="-84" font-family="FreeSans" font-size="10.00">::loadRecord</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge10" class="edge"><title>Node9&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M485.806,-95.4198C495.638,-95.0511 505.699,-94.6738 515.381,-94.3107"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="485.531,-91.9275 475.67,-95.7999 485.794,-98.9226 485.531,-91.9275"/>
+</g>
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="classESM_1_1Script.html#a14493eb786b88410838a26d3bc8386eb" target="_top" xlink:title="ESM::Script::load">
 <polygon fill="white" stroke="black" points="367,-0.5 367,-19.5 465,-19.5 465,-0.5 367,-0.5"/>
 <text text-anchor="middle" x="416" y="-7.5" font-family="FreeSans" font-size="10.00">ESM::Script::load</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node12 -->
-<g id="edge12" class="edge"><title>Node11&#45;&gt;Node12</title>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge13" class="edge"><title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M327.291,-23.878C340.627,-21.7678 354.299,-19.6047 366.76,-17.6329"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="326.514,-20.4573 317.184,-25.4773 327.608,-27.3713 326.514,-20.4573"/>
 </g>

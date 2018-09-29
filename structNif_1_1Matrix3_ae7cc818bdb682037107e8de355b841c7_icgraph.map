@@ -1,51 +1,16 @@
 <map id="Nif::Matrix3::isIdentity" name="Nif::Matrix3::isIdentity">
-<area shape="rect" id="node2" href="$structNif_1_1Transformation.html#ae221afc88ccfb396d81eeaf01eac0462" title="Nif::Transformation\l::isIdentity" alt="" coords="214,94,357,135"/>
-<area shape="rect" id="node3" href="$classNifOsg_1_1LoaderImpl.html#a4d5e7fc185b5a0b86b32a67001d1a6bc" title="NifOsg::LoaderImpl\l::optimize" alt="" coords="406,65,549,106"/>
-<area shape="rect" id="node4" href="$classNifOsg_1_1LoaderImpl.html#a90d175c89e948a9736b07020c38e5e21" title="NifOsg::LoaderImpl\l::handleNode" alt="" coords="598,94,741,135"/>
-<area shape="rect" id="node5" href="$classNifOsg_1_1LoaderImpl.html#a43bf8ef11e322585196c9e26cfc7837d" title="NifOsg::LoaderImpl\l::load" alt="" coords="790,94,933,135"/>
-<area shape="rect" id="node6" href="$classNifOsg_1_1Loader.html#a523aa7cddc70d385f65c06278007eeeb" title="Create a scene graph for the given NIF. Auto&#45;detects when skinning is used and wraps the graph in a S..." alt="" coords="982,101,1133,128"/>
-<area shape="rect" id="node7" href="$namespaceResource.html#a1597cf6af8ffec1e4e0ae7a0fe7a10c6" title="Resource::load" alt="" coords="1181,101,1296,128"/>
-<area shape="rect" id="node8" href="$classResource_1_1SceneManager.html#a01903b2038c6bcda25436eccb0d10b04" title="Resource::SceneManager\l::getTemplate" alt="" coords="1344,94,1528,135"/>
-<area shape="rect" id="node9" href="$classMWRender_1_1PreloadCommonAssetsWorkItem.html#abe7ce2ed9089b68b583a692c5a5e58d6" title="Override in a derived WorkItem to perform actual work. " alt="" coords="1577,6,1823,47"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990" title="Preload work to be called from the worker thread. " alt="" coords="2451,141,2613,182"/>
-<area shape="rect" id="node11" href="$classResource_1_1BulletShapeManager.html#acad796a9d35e62be3c2ba0a9051d84a5" title="Resource::BulletShapeManager\l::getShape" alt="" coords="1589,123,1811,165"/>
-<area shape="rect" id="node15" href="$classResource_1_1SceneManager.html#a0b3d33cb5ff1935dcb2ef16b649878e2" title="Resource::SceneManager\l::createInstance" alt="" coords="1608,298,1792,339"/>
-<area shape="rect" id="node12" href="$classResource_1_1BulletShapeManager.html#aa01a8d4de0aa17cfd68778524d73c349" title="Resource::BulletShapeManager\l::createInstance" alt="" coords="1872,174,2093,215"/>
-<area shape="rect" id="node13" href="$classResource_1_1BulletShapeManager.html#a83ee51419a0e4da5ca07185fa1d65666" title="Resource::BulletShapeManager\l::cacheInstance" alt="" coords="2141,174,2363,215"/>
-<area shape="rect" id="node14" href="$classResource_1_1BulletShapeManager.html#acbcfcaca8069a77f1fc40477bfc956ac" title="Resource::BulletShapeManager\l::getInstance" alt="" coords="2141,239,2363,281"/>
-<area shape="rect" id="node16" href="$classResource_1_1SceneManager.html#a5eaac56a5cc1669b3a75e2acd142264e" title="Resource::SceneManager\l::cacheInstance" alt="" coords="1891,298,2075,339"/>
-<area shape="rect" id="node17" href="$classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b" title="Resource::SceneManager\l::getInstance" alt="" coords="1891,933,2075,974"/>
-<area shape="rect" id="node18" href="$classMWRender_1_1Animation.html#a79899e050e52d610acfeb3840d5a31d4" title="MWRender::Animation\l::setObjectRoot" alt="" coords="2171,357,2333,398"/>
-<area shape="rect" id="node25" href="$classMWRender_1_1Animation.html#a1ad2390344ae9c1560289082c500be9e" title="Add an effect mesh attached to a bone or the insert scene node. " alt="" coords="2171,637,2333,678"/>
-<area shape="rect" id="node34" href="$classMWRender_1_1CreatureWeaponAnimation.html#ab439fd428cc0c7adb0441bd701c52ca9" title="MWRender::CreatureWeapon\lAnimation::updatePart" alt="" coords="2723,826,2925,867"/>
-<area shape="rect" id="node36" href="$classMWRender_1_1EffectManager.html#ae0fca51c4858dc2be1e7f9175b3b0225" title="Add an effect. When it&#39;s finished playing, it will be removed automatically. " alt="" coords="2158,867,2346,909"/>
-<area shape="rect" id="node37" href="$classMWRender_1_1NpcAnimation.html#a40defa0c9de4fda5e0cc499d331b9a8b" title="MWRender::NpcAnimation\l::insertBoundedPart" alt="" coords="2159,933,2345,974"/>
-<area shape="rect" id="node39" href="$classMWRender_1_1SkyManager.html#a689ad526a72101c45c8738137d6d1b5c" title="no need to call this, automatically done on first enable() " alt="" coords="2165,998,2339,1039"/>
-<area shape="rect" id="node41" href="$classMWRender_1_1SkyManager.html#a2bf42c8734feb348d42efc8171d36986" title="MWRender::SkyManager\l::setWeather" alt="" coords="2165,1063,2339,1105"/>
-<area shape="rect" id="node43" href="$classMWRender_1_1WeaponAnimation.html#a5f6768a9fecfef40f8d82d7e8e7c8d65" title="MWRender::WeaponAnimation\l::attachArrow" alt="" coords="2147,1129,2357,1170"/>
-<area shape="rect" id="node46" href="$classMWWorld_1_1ProjectileManager.html#a1dd1d3fcab7df217bad61f34f3f6964d" title="MWWorld::ProjectileManager\l::createModel" alt="" coords="2152,1227,2352,1269"/>
-<area shape="rect" id="node50" href="$classResource_1_1SceneManager.html#a8e86b6f2121a6dae71edd662577d80d2" title="Resource::SceneManager\l::getInstance" alt="" coords="2160,1293,2344,1334"/>
-<area shape="rect" id="node19" href="$classMWRender_1_1ObjectAnimation.html#aef4ebbb9050af74efe7bae5749c06858" title="MWRender::ObjectAnimation\l::ObjectAnimation" alt="" coords="2431,219,2633,261"/>
-<area shape="rect" id="node20" href="$classMWRender_1_1CreatureAnimation.html#a59a0d6b902a85c22537bea81847a40d1" title="MWRender::CreatureAnimation\l::CreatureAnimation" alt="" coords="2423,285,2641,326"/>
-<area shape="rect" id="node21" href="$classMWRender_1_1CreatureWeaponAnimation.html#a1016608182292ace41cb8af7e72e87c0" title="MWRender::CreatureWeapon\lAnimation::CreatureWeaponAnimation" alt="" coords="3288,523,3555,565"/>
-<area shape="rect" id="node22" href="$classMWRender_1_1NpcAnimation.html#acf50b96cffb19c225200c4bff36fbce7" title="MWRender::NpcAnimation\l::updateNpcBase" alt="" coords="2439,402,2625,443"/>
-<area shape="rect" id="node23" href="$classMWRender_1_1NpcAnimation.html#a0f12942b0015ca2fae3b43f6c2f9d2b7" title="MWRender::NpcAnimation\l::NpcAnimation" alt="" coords="2731,402,2917,443"/>
-<area shape="rect" id="node24" href="$classMWRender_1_1NpcAnimation.html#a8b37aef38ba00e4f82ffd785141c1321" title="Rebuilds the NPC, updating their root model, animation sources, and equipment. " alt="" coords="2731,467,2917,509"/>
-<area shape="rect" id="node26" href="$classMWMechanics_1_1CharacterController.html#aca17757fd8136b502041f7637398f90e" title="MWMechanics::CharacterController\l::updateWeaponState" alt="" coords="2702,533,2946,574"/>
-<area shape="rect" id="node28" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="2735,618,2913,659"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1CastSpell.html#aad516a4d006a0d52f86cf871cb49503f" title="MWMechanics::CastSpell\l::applyInstantEffect" alt="" coords="2443,637,2621,678"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1CastSpell.html#a4e4369b3c09094115d3bdf6bf14445e9" title="MWMechanics::CastSpell\l::playSpellCastingEffects" alt="" coords="2443,519,2621,561"/>
-<area shape="rect" id="node32" href="$structMWMechanics_1_1UpdateSummonedCreatures.html#aca0efbdf8f6e7359e407a1b78716d96b" title="To call after all effect sources have been visited. " alt="" coords="2411,702,2653,743"/>
-<area shape="rect" id="node33" href="$classMWRender_1_1NpcAnimation.html#a5123d2532d4f47d76e0a32063a0abf8b" title="MWRender::NpcAnimation\l::permanentEffectAdded" alt="" coords="2439,767,2625,809"/>
-<area shape="rect" id="node27" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="2995,533,3239,574"/>
-<area shape="rect" id="node29" href="$classMWMechanics_1_1CastSpell.html#a792b5c30e747b65d6c5f83166d716d59" title="MWMechanics::CastSpell\l::cast" alt="" coords="3028,618,3207,659"/>
-<area shape="rect" id="node35" href="$classMWRender_1_1CreatureWeaponAnimation.html#ad43ad8570e5369c96fd8c5de51c2108e" title="MWRender::CreatureWeapon\lAnimation::updateParts" alt="" coords="3016,765,3219,806"/>
-<area shape="rect" id="node38" href="$classMWRender_1_1NpcAnimation.html#a8abdb2d2b05a81e40d2d3b21c49c32aa" title="MWRender::NpcAnimation\l::addOrReplaceIndividualPart" alt="" coords="2431,901,2633,942"/>
-<area shape="rect" id="node40" href="$classMWRender_1_1SkyManager.html#a2511c51871bafaefeb60025f24a7c492" title="MWRender::SkyManager\l::setEnabled" alt="" coords="2445,966,2619,1007"/>
-<area shape="rect" id="node42" href="$classMWWorld_1_1WeatherManager.html#af6be2dc2e9ee22adf937487728b100f6" title="MWWorld::WeatherManager\l::update" alt="" coords="2435,1031,2629,1073"/>
-<area shape="rect" id="node44" href="$classMWRender_1_1CreatureWeaponAnimation.html#a3459f798a9a1abdce89b442a91dfceaf" title="MWRender::CreatureWeapon\lAnimation::attachArrow" alt="" coords="2431,1097,2633,1138"/>
-<area shape="rect" id="node45" href="$classMWRender_1_1NpcAnimation.html#a6774635e61bf4ee569d5ad0d6dd326a1" title="MWRender::NpcAnimation\l::attachArrow" alt="" coords="2439,1162,2625,1203"/>
-<area shape="rect" id="node47" href="$classMWWorld_1_1ProjectileManager.html#ad1c8f065c091b127d2fab736f4511405" title="If caster is an actor, the actor&#39;s facing orientation is used. Otherwise fallbackDirection is used..." alt="" coords="2432,1227,2632,1269"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1ProjectileManager.html#ae23708ab82c04cbf55867398ec66a36e" title="MWWorld::ProjectileManager\l::launchProjectile" alt="" coords="2432,1293,2632,1334"/>
-<area shape="rect" id="node49" href="$classMWWorld_1_1ProjectileManager.html#ab16f1fd4aa5b6392de3fe9e4e26e76c5" title="MWWorld::ProjectileManager\l::readRecord" alt="" coords="2432,1358,2632,1399"/>
+<area shape="rect" id="node2" href="$structNif_1_1Transformation.html#ae221afc88ccfb396d81eeaf01eac0462" title="Nif::Transformation\l::isIdentity" alt="" coords="214,93,357,134"/>
+<area shape="rect" id="node3" href="$classNifOsg_1_1LoaderImpl.html#a2e8f2f4776f1ace52a1d5849d09146c9" title="NifOsg::LoaderImpl\l::createNode" alt="" coords="406,93,549,134"/>
+<area shape="rect" id="node4" href="$classNifOsg_1_1LoaderImpl.html#a31d90eaf9667d42062b4876a88ed069b" title="NifOsg::LoaderImpl\l::handleNode" alt="" coords="598,93,741,134"/>
+<area shape="rect" id="node5" href="$classNifOsg_1_1LoaderImpl.html#a43bf8ef11e322585196c9e26cfc7837d" title="NifOsg::LoaderImpl\l::load" alt="" coords="790,93,933,134"/>
+<area shape="rect" id="node6" href="$classNifOsg_1_1Loader.html#a523aa7cddc70d385f65c06278007eeeb" title="Create a scene graph for the given NIF. Auto&#45;detects when skinning is used and wraps the graph in a S..." alt="" coords="982,100,1133,127"/>
+<area shape="rect" id="node7" href="$namespaceResource.html#a1597cf6af8ffec1e4e0ae7a0fe7a10c6" title="Resource::load" alt="" coords="1181,100,1296,127"/>
+<area shape="rect" id="node8" href="$classResource_1_1SceneManager.html#a01903b2038c6bcda25436eccb0d10b04" title="Resource::SceneManager\l::getTemplate" alt="" coords="1344,93,1528,134"/>
+<area shape="rect" id="node9" href="$classMWRender_1_1RenderingManager.html#a0b607b8412681e767f0b2805619b490c" title="MWRender::RenderingManager\l::getHalfExtents" alt="" coords="1579,5,1794,46"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990" title="Preload work to be called from the worker thread. " alt="" coords="2384,121,2547,162"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1PreloadMeshItem.html#a247684d1d2a51b1d8c9cb26d00ac54eb" title="Override in a derived WorkItem to perform actual work. " alt="" coords="1588,122,1785,163"/>
+<area shape="rect" id="node12" href="$classResource_1_1BulletShapeManager.html#acad796a9d35e62be3c2ba0a9051d84a5" title="Resource::BulletShapeManager\l::getShape" alt="" coords="1576,187,1797,229"/>
+<area shape="rect" id="node13" href="$classResource_1_1BulletShapeManager.html#aa01a8d4de0aa17cfd68778524d73c349" title="Resource::BulletShapeManager\l::createInstance" alt="" coords="1845,187,2067,229"/>
+<area shape="rect" id="node14" href="$classResource_1_1BulletShapeManager.html#a83ee51419a0e4da5ca07185fa1d65666" title="Resource::BulletShapeManager\l::cacheInstance" alt="" coords="2115,179,2336,221"/>
+<area shape="rect" id="node15" href="$classResource_1_1BulletShapeManager.html#acbcfcaca8069a77f1fc40477bfc956ac" title="Resource::BulletShapeManager\l::getInstance" alt="" coords="2115,245,2336,286"/>
 </map>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for ESM::NPC:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC__coll__graph.svg" width="2180" height="1608"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC__coll__graph.svg" width="1963" height="1664"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -140,12 +140,13 @@ Public Types</h2></td></tr>
 <a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212ca9f1fabbc9204b58cd5eeb8651e7cb518">Misc</a> = 0x00400, 
 <a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212cae2d05338ad1926c48ed2e4b9762d3063">Potions</a> = 0x02000, 
 <br/>
-&#160;&#160;<a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212ca081e2935b4b8f768973d69d34b8745a4">Spells</a> = 0x00800, 
+&#160;&#160;<a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212caa6b1afc0590197cb8978e7624183566c">AllItems</a> = Weapon|Armor|Clothing|Books|Ingredients|Picks|Probes|Lights|Apparatus|RepairItem|Misc|Potions, 
+<a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212ca081e2935b4b8f768973d69d34b8745a4">Spells</a> = 0x00800, 
 <a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212cab62b8c2453e33b1e1138612eeae3926c">MagicItems</a> = 0x01000, 
 <a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212cacf3944ad825ca1fdad53d2dfbadb30fb">Training</a> = 0x04000, 
-<a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212ca70be29f4883ea329a46a6430463d24c1">Spellmaking</a> = 0x08000, 
 <br/>
-&#160;&#160;<a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212cab94d64ad0c494fcbb575f6bfa2a4e6b2">Enchanting</a> = 0x10000, 
+&#160;&#160;<a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212ca70be29f4883ea329a46a6430463d24c1">Spellmaking</a> = 0x08000, 
+<a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212cab94d64ad0c494fcbb575f6bfa2a4e6b2">Enchanting</a> = 0x10000, 
 <a class="el" href="structESM_1_1NPC.html#a16d797edacf6fafeb9bf15672e5b212ca09d9eca16c1533233a5cf8a42d2a7f54">Repair</a> = 0x20000
 <br/>
  }</td></tr>
@@ -184,6 +185,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0dab850e388282e698440515d64657a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structESM_1_1NPC.html#a0dab850e388282e698440515d64657a4">blank</a> ()</td></tr>
 <tr class="memdesc:a0dab850e388282e698440515d64657a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set record to default state (does not touch the ID).  <a href="#a0dab850e388282e698440515d64657a4">More...</a><br/></td></tr>
 <tr class="separator:a0dab850e388282e698440515d64657a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ca7e78df4280c9fc907ea3c40ae7655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structESM_1_1NPC.html#a6ca7e78df4280c9fc907ea3c40ae7655">blankNpdt</a> ()</td></tr>
+<tr class="memdesc:a6ca7e78df4280c9fc907ea3c40ae7655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the mNpdt object.  <a href="#a6ca7e78df4280c9fc907ea3c40ae7655">More...</a><br/></td></tr>
+<tr class="separator:a6ca7e78df4280c9fc907ea3c40ae7655"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -195,10 +199,8 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4a76d52ab3f91bb250d481ab4ac36b30"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structESM_1_1NPC.html#a4a76d52ab3f91bb250d481ab4ac36b30">mNpdtType</a></td></tr>
 <tr class="separator:a4a76d52ab3f91bb250d481ab4ac36b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab31621425f44ec374d7940740762d96b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structESM_1_1NPC_1_1NPDTstruct52.html">NPDTstruct52</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structESM_1_1NPC.html#ab31621425f44ec374d7940740762d96b">mNpdt52</a></td></tr>
-<tr class="separator:ab31621425f44ec374d7940740762d96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25554d1ce36cfa6eba4285a1d5717eed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structESM_1_1NPC_1_1NPDTstruct12.html">NPDTstruct12</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structESM_1_1NPC.html#a25554d1ce36cfa6eba4285a1d5717eed">mNpdt12</a></td></tr>
-<tr class="separator:a25554d1ce36cfa6eba4285a1d5717eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab36f4a73bb382d31586ebc5f79fdc9e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structESM_1_1NPC_1_1NPDTstruct52.html">NPDTstruct52</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structESM_1_1NPC.html#ab36f4a73bb382d31586ebc5f79fdc9e6">mNpdt</a></td></tr>
+<tr class="separator:ab36f4a73bb382d31586ebc5f79fdc9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08fbded86042de864818438678a932e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structESM_1_1NPC.html#a08fbded86042de864818438678a932e4">mFlags</a></td></tr>
 <tr class="memdesc:a08fbded86042de864818438678a932e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrapper for mNpdt*, -1 = no rank  <a href="#a08fbded86042de864818438678a932e4">More...</a><br/></td></tr>
 <tr class="separator:a08fbded86042de864818438678a932e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -319,6 +321,8 @@ Static Public Attributes</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a16d797edacf6fafeb9bf15672e5b212cae2d05338ad1926c48ed2e4b9762d3063"></a>Potions</em>&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a16d797edacf6fafeb9bf15672e5b212caa6b1afc0590197cb8978e7624183566c"></a>AllItems</em>&#160;</td><td class="fielddoc">
+</td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a16d797edacf6fafeb9bf15672e5b212ca081e2935b4b8f768973d69d34b8745a4"></a>Spells</em>&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a16d797edacf6fafeb9bf15672e5b212cab62b8c2453e33b1e1138612eeae3926c"></a>MagicItems</em>&#160;</td><td class="fielddoc">
@@ -354,7 +358,32 @@ Static Public Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC_a0dab850e388282e698440515d64657a4_cgraph.svg" width="331" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC_a0dab850e388282e698440515d64657a4_cgraph.svg" width="347" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ca7e78df4280c9fc907ea3c40ae7655"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ESM::NPC::blankNpdt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets the mNpdt object. </p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC_a6ca7e78df4280c9fc907ea3c40ae7655_icgraph.svg" width="571" height="95"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -425,7 +454,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC_a75c54cc0cd7552cba8ec9eaae618f3d2_icgraph.svg" width="1262" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC_a75c54cc0cd7552cba8ec9eaae618f3d2_icgraph.svg" width="2251" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -448,7 +477,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC_a8b7ee1fb404dac430b9c2d2648861b3d_icgraph.svg" width="1704" height="1494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structESM_1_1NPC_a8b7ee1fb404dac430b9c2d2648861b3d_icgraph.svg" width="1696" height="1243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -710,24 +739,12 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a25554d1ce36cfa6eba4285a1d5717eed"></a>
+<a class="anchor" id="ab36f4a73bb382d31586ebc5f79fdc9e6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structESM_1_1NPC_1_1NPDTstruct12.html">NPDTstruct12</a> ESM::NPC::mNpdt12</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab31621425f44ec374d7940740762d96b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structESM_1_1NPC_1_1NPDTstruct52.html">NPDTstruct52</a> ESM::NPC::mNpdt52</td>
+          <td class="memname"><a class="el" href="structESM_1_1NPC_1_1NPDTstruct52.html">NPDTstruct52</a> ESM::NPC::mNpdt</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -827,13 +844,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/esm/<a class="el" href="loadnpc_8hpp_source.html">loadnpc.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/esm/<a class="el" href="loadnpc_8cpp.html">loadnpc.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/esm/<a class="el" href="loadnpc_8hpp_source.html">loadnpc.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/esm/<a class="el" href="loadnpc_8cpp.html">loadnpc.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:59 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:32 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

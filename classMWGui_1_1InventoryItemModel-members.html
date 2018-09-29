@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -101,7 +101,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>This is the complete list of members for <a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html#a2e761658ce55b88e4b35d29b5bfb4bde">allowedToInsertItems</a>() const </td><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html">MWGui::ItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html#a0daeebe85d5478312a5d9c6fc016e906">allowedToUseItems</a>() const </td><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html">MWGui::ItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#a6ba7a1f4f25e86b2868ce902e97b7691">copyItem</a>(const ItemStack &amp;item, size_t count, bool setNewOwner=false)</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#a71b118f6e188ddb152d9124c650e4489">getIndex</a>(ItemStack item)</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#a969d5a54eccf730e924716a96dfb7c42">getItem</a>(ModelIndex index)</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
@@ -112,13 +112,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#a2e382b396c024cd6cfae2a01af202e94">mItems</a></td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html#ad2b42bcc76d06891a032a0fe2a1853fb">ModelIndex</a> typedef</td><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html">MWGui::ItemModel</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#a9f165f0beb53f6a26150181c2a25a391">moveItem</a>(const ItemStack &amp;item, size_t count, ItemModel *otherModel)</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#aad2ea55d86a5fa5fe84c3ec391b09451">removeItem</a>(const ItemStack &amp;item, size_t count)</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#a516d40dca86888fa06ee0456fe65b95d">update</a>()</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html#aacf273c18404dd2fdc8c35aded7d384c">~ItemModel</a>()</td><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html">MWGui::ItemModel</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html#ab3943b3c10986df4577587a3d3b2918d">onClose</a>()</td><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html">MWGui::ItemModel</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html#ad1402f237157d050103210682362a420">onDropItem</a>(const MWWorld::Ptr &amp;item, int count)</td><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html">MWGui::ItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#afdf5a99261486c89e6cf58043f01dc33">onTakeItem</a>(const MWWorld::Ptr &amp;item, int count)</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#aad2ea55d86a5fa5fe84c3ec391b09451">removeItem</a>(const ItemStack &amp;item, size_t count)</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html#a516d40dca86888fa06ee0456fe65b95d">update</a>()</td><td class="entry"><a class="el" href="classMWGui_1_1InventoryItemModel.html">MWGui::InventoryItemModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html#aacf273c18404dd2fdc8c35aded7d384c">~ItemModel</a>()</td><td class="entry"><a class="el" href="classMWGui_1_1ItemModel.html">MWGui::ItemModel</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:02 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:35 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

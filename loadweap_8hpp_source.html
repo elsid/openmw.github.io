@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/esm/loadweap.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/esm/loadweap.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -155,7 +155,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="structESM_1_1Weapon_1_1WPDTstruct.html#ab185b2884050813a83a6cdcdd430361e">   57</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#ab185b2884050813a83a6cdcdd430361e">mWeight</a>;</div>
 <div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="structESM_1_1Weapon_1_1WPDTstruct.html#a6edb4957b513be9ede1d5d37bc2ff34f">   58</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#a6edb4957b513be9ede1d5d37bc2ff34f">mValue</a>;</div>
 <div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="structESM_1_1Weapon_1_1WPDTstruct.html#ada86ae0212d57a12ed2082c44f00768d">   59</a></span>&#160;        <span class="keywordtype">short</span> <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#ada86ae0212d57a12ed2082c44f00768d">mType</a>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="structESM_1_1Weapon_1_1WPDTstruct.html#aad28e36325425802f52987d6007b8b07">   60</a></span>&#160;        <span class="keywordtype">short</span> <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#aad28e36325425802f52987d6007b8b07">mHealth</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="structESM_1_1Weapon_1_1WPDTstruct.html#a57e9675de1b5cf293ad958d0898072ef">   60</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#a57e9675de1b5cf293ad958d0898072ef">mHealth</a>;</div>
 <div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="structESM_1_1Weapon_1_1WPDTstruct.html#a4f0ddcef4b22d11c3f3525083a115929">   61</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#a4f0ddcef4b22d11c3f3525083a115929">mSpeed</a>, <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#ab67d3ebdede350483ebb1b9995783a55">mReach</a>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="structESM_1_1Weapon_1_1WPDTstruct.html#ad0726b73b64a70c54000f3db4434f6c6">   62</a></span>&#160;        <span class="keywordtype">short</span> <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#ad0726b73b64a70c54000f3db4434f6c6">mEnchant</a>; <span class="comment">// Enchantment points. The real value is mEnchant/10.f</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="structESM_1_1Weapon_1_1WPDTstruct.html#a1e805749bee7435292fec50c7e1a1172">   63</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#af49ad3e6e727b844f049f17bd61b14e6">mChop</a>[2], <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#acf2ada951faa496b656a75e03fd68d0f">mSlash</a>[2], <a class="code" href="structESM_1_1Weapon_1_1WPDTstruct.html#a1e805749bee7435292fec50c7e1a1172">mThrust</a>[2]; <span class="comment">// Min and max</span></div>
@@ -186,6 +186,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classESM_1_1ESMReader_html"><div class="ttname"><a href="classESM_1_1ESMReader.html">ESM::ESMReader</a></div><div class="ttdef"><b>Definition:</b> esmreader.hpp:21</div></div>
 <div class="ttc" id="structESM_1_1Weapon_html_a2afc7927dfe869b964940127bcd1a660"><div class="ttname"><a href="structESM_1_1Weapon.html#a2afc7927dfe869b964940127bcd1a660">ESM::Weapon::Flags</a></div><div class="ttdeci">Flags</div><div class="ttdef"><b>Definition:</b> loadweap.hpp:47</div></div>
 <div class="ttc" id="structESM_1_1Weapon_1_1WPDTstruct_html_a5ae0ca64c758a02e3426d2ff31bdc98e"><div class="ttname"><a href="structESM_1_1Weapon_1_1WPDTstruct.html#a5ae0ca64c758a02e3426d2ff31bdc98e">ESM::Weapon::WPDTstruct::mFlags</a></div><div class="ttdeci">int mFlags</div><div class="ttdef"><b>Definition:</b> loadweap.hpp:64</div></div>
+<div class="ttc" id="structESM_1_1Weapon_1_1WPDTstruct_html_a57e9675de1b5cf293ad958d0898072ef"><div class="ttname"><a href="structESM_1_1Weapon_1_1WPDTstruct.html#a57e9675de1b5cf293ad958d0898072ef">ESM::Weapon::WPDTstruct::mHealth</a></div><div class="ttdeci">unsigned short mHealth</div><div class="ttdef"><b>Definition:</b> loadweap.hpp:60</div></div>
 <div class="ttc" id="structESM_1_1Weapon_1_1WPDTstruct_html_ada86ae0212d57a12ed2082c44f00768d"><div class="ttname"><a href="structESM_1_1Weapon_1_1WPDTstruct.html#ada86ae0212d57a12ed2082c44f00768d">ESM::Weapon::WPDTstruct::mType</a></div><div class="ttdeci">short mType</div><div class="ttdef"><b>Definition:</b> loadweap.hpp:59</div></div>
 <div class="ttc" id="structESM_1_1Weapon_html_a33f136aa99b3a950b2c73dca5e978698a7a60db65163cebcfb4a1145e8c3ae478"><div class="ttname"><a href="structESM_1_1Weapon.html#a33f136aa99b3a950b2c73dca5e978698a7a60db65163cebcfb4a1145e8c3ae478">ESM::Weapon::Bolt</a></div><div class="ttdef"><b>Definition:</b> loadweap.hpp:37</div></div>
 <div class="ttc" id="structESM_1_1Weapon_html_a33f136aa99b3a950b2c73dca5e978698a1d05da3cf0bcaaa5fce208eec3c6ea5d"><div class="ttname"><a href="structESM_1_1Weapon.html#a33f136aa99b3a950b2c73dca5e978698a1d05da3cf0bcaaa5fce208eec3c6ea5d">ESM::Weapon::BluntTwoClose</a></div><div class="ttdef"><b>Definition:</b> loadweap.hpp:28</div></div>
@@ -210,7 +211,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structESM_1_1Weapon_html_a17f9208e1ac420c367305a325e87fad2"><div class="ttname"><a href="structESM_1_1Weapon.html#a17f9208e1ac420c367305a325e87fad2">ESM::Weapon::mName</a></div><div class="ttdeci">std::string mName</div><div class="ttdef"><b>Definition:</b> loadweap.hpp:70</div></div>
 <div class="ttc" id="structESM_1_1Weapon_1_1WPDTstruct_html_ab67d3ebdede350483ebb1b9995783a55"><div class="ttname"><a href="structESM_1_1Weapon_1_1WPDTstruct.html#ab67d3ebdede350483ebb1b9995783a55">ESM::Weapon::WPDTstruct::mReach</a></div><div class="ttdeci">float mReach</div><div class="ttdef"><b>Definition:</b> loadweap.hpp:61</div></div>
 <div class="ttc" id="structESM_1_1Weapon_html_a1d70c60821ab81611f427a81daecf22aa108b2fb603f3d683b7ba36b17f5068c6"><div class="ttname"><a href="structESM_1_1Weapon.html#a1d70c60821ab81611f427a81daecf22aa108b2fb603f3d683b7ba36b17f5068c6">ESM::Weapon::AT_Slash</a></div><div class="ttdef"><b>Definition:</b> loadweap.hpp:43</div></div>
-<div class="ttc" id="structESM_1_1Weapon_1_1WPDTstruct_html_aad28e36325425802f52987d6007b8b07"><div class="ttname"><a href="structESM_1_1Weapon_1_1WPDTstruct.html#aad28e36325425802f52987d6007b8b07">ESM::Weapon::WPDTstruct::mHealth</a></div><div class="ttdeci">short mHealth</div><div class="ttdef"><b>Definition:</b> loadweap.hpp:60</div></div>
 <div class="ttc" id="structESM_1_1Weapon_html_a25d774e78fd7829a2e26402d00e82165"><div class="ttname"><a href="structESM_1_1Weapon.html#a25d774e78fd7829a2e26402d00e82165">ESM::Weapon::save</a></div><div class="ttdeci">void save(ESMWriter &amp;esm, bool isDeleted=false) const </div><div class="ttdef"><b>Definition:</b> loadweap.cpp:59</div></div>
 <div class="ttc" id="structESM_1_1Weapon_html_a1d70c60821ab81611f427a81daecf22aa88a023afc7bdf144af104a1706f40aca"><div class="ttname"><a href="structESM_1_1Weapon.html#a1d70c60821ab81611f427a81daecf22aa88a023afc7bdf144af104a1706f40aca">ESM::Weapon::AT_Thrust</a></div><div class="ttdef"><b>Definition:</b> loadweap.hpp:44</div></div>
 <div class="ttc" id="structESM_1_1Weapon_html_a33f136aa99b3a950b2c73dca5e978698a89f7f23cbc41ee41f90e725a872b73b8"><div class="ttname"><a href="structESM_1_1Weapon.html#a33f136aa99b3a950b2c73dca5e978698a89f7f23cbc41ee41f90e725a872b73b8">ESM::Weapon::BluntTwoWide</a></div><div class="ttdef"><b>Definition:</b> loadweap.hpp:29</div></div>
@@ -226,7 +226,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

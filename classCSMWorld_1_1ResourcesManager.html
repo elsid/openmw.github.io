@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -108,7 +108,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for CSMWorld::ResourcesManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1ResourcesManager__coll__graph.svg" width="1112" height="1035"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1ResourcesManager__coll__graph.svg" width="1112" height="1080"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -120,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6c460bdeffa1ded783cd5d0600af4320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed002f21b3e659f51b9c10c269898ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1ResourcesManager.html#a3ed002f21b3e659f51b9c10c269898ac">setVFS</a> (const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a> *vfs)</td></tr>
 <tr class="separator:a3ed002f21b3e659f51b9c10c269898ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a083eedba17945d5dae061160f3126682"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1ResourcesManager.html#a083eedba17945d5dae061160f3126682">recreateResources</a> ()</td></tr>
+<tr class="separator:a083eedba17945d5dae061160f3126682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf48a26c1579b82f4623f145d81c7f21"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCSMWorld_1_1Resources.html">Resources</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1ResourcesManager.html#abf48a26c1579b82f4623f145d81c7f21">get</a> (<a class="el" href="classCSMWorld_1_1UniversalId.html#ad68e402e074c03aeffc692e97a7457b2">UniversalId::Type</a> type) const </td></tr>
 <tr class="separator:abf48a26c1579b82f4623f145d81c7f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -127,6 +129,8 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a94f8905eb6ea27dbc509fad501b7416c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1ResourcesManager.html#a94f8905eb6ea27dbc509fad501b7416c">addResources</a> (const <a class="el" href="classCSMWorld_1_1Resources.html">Resources</a> &amp;resources)</td></tr>
 <tr class="separator:a94f8905eb6ea27dbc509fad501b7416c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9445661a4c8b0a80c55c1e2e324379a4"><td class="memItemLeft" align="right" valign="top">const char *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1ResourcesManager.html#a9445661a4c8b0a80c55c1e2e324379a4">getMeshExtensions</a> ()</td></tr>
+<tr class="separator:a9445661a4c8b0a80c55c1e2e324379a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -209,6 +213,29 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a9445661a4c8b0a80c55c1e2e324379a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char *const * CSMWorld::ResourcesManager::getMeshExtensions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a6c460bdeffa1ded783cd5d0600af4320"></a>
 <div class="memitem">
 <div class="memproto">
@@ -218,6 +245,21 @@ Here is the caller graph for this function:</div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a083eedba17945d5dae061160f3126682"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CSMWorld::ResourcesManager::recreateResources </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -237,6 +279,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1ResourcesManager_a3ed002f21b3e659f51b9c10c269898ac_icgraph.svg" width="438" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -282,13 +332,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/world/<a class="el" href="resourcesmanager_8hpp_source.html">resourcesmanager.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/world/<a class="el" href="resourcesmanager_8cpp.html">resourcesmanager.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/world/<a class="el" href="resourcesmanager_8hpp_source.html">resourcesmanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/world/<a class="el" href="resourcesmanager_8cpp.html">resourcesmanager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:58 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:30 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

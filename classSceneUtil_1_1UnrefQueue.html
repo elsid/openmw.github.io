@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,13 +110,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for SceneUtil::UnrefQueue:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1UnrefQueue__inherit__graph.svg" width="179" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1UnrefQueue__inherit__graph.svg" width="179" height="259"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for SceneUtil::UnrefQueue:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1UnrefQueue__coll__graph.svg" width="298" height="275"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1UnrefQueue__coll__graph.svg" width="268" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -124,11 +124,13 @@ Collaboration diagram for SceneUtil::UnrefQueue:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8128d025347e417ada5892c4771f1e4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1UnrefQueue.html#a8128d025347e417ada5892c4771f1e4c">UnrefQueue</a> ()</td></tr>
 <tr class="separator:a8128d025347e417ada5892c4771f1e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7f8d161b2d03ce5b58de643fdcd6eec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1UnrefQueue.html#aa7f8d161b2d03ce5b58de643fdcd6eec">push</a> (const osg::Object *obj)</td></tr>
-<tr class="memdesc:aa7f8d161b2d03ce5b58de643fdcd6eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an object to the list of objects to be unreferenced. Call from the main thread.  <a href="#aa7f8d161b2d03ce5b58de643fdcd6eec">More...</a><br/></td></tr>
-<tr class="separator:aa7f8d161b2d03ce5b58de643fdcd6eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee28534c430391f6f5c928edb9444a74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1UnrefQueue.html#aee28534c430391f6f5c928edb9444a74">push</a> (const osg::Referenced *obj)</td></tr>
+<tr class="memdesc:aee28534c430391f6f5c928edb9444a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an object to the list of objects to be unreferenced. Call from the main thread.  <a href="#aee28534c430391f6f5c928edb9444a74">More...</a><br/></td></tr>
+<tr class="separator:aee28534c430391f6f5c928edb9444a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abebb9897b312c05c164cfbfdabc48c03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1UnrefQueue.html#abebb9897b312c05c164cfbfdabc48c03">flush</a> (<a class="el" href="classSceneUtil_1_1WorkQueue.html">SceneUtil::WorkQueue</a> *workQueue)</td></tr>
 <tr class="separator:abebb9897b312c05c164cfbfdabc48c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b8ef22d0375028811203dc8471c80f"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1UnrefQueue.html#af0b8ef22d0375028811203dc8471c80f">getNumItems</a> () const </td></tr>
+<tr class="separator:af0b8ef22d0375028811203dc8471c80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -179,14 +181,29 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="aa7f8d161b2d03ce5b58de643fdcd6eec"></a>
+<a class="anchor" id="af0b8ef22d0375028811203dc8471c80f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classint.html">int</a> SceneUtil::UnrefQueue::getNumItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aee28534c430391f6f5c928edb9444a74"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void SceneUtil::UnrefQueue::push </td>
           <td>(</td>
-          <td class="paramtype">const osg::Object *&#160;</td>
+          <td class="paramtype">const osg::Referenced *&#160;</td>
           <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
         </tr>
@@ -219,13 +236,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="unrefqueue_8hpp_source.html">unrefqueue.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="unrefqueue_8cpp.html">unrefqueue.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="unrefqueue_8hpp_source.html">unrefqueue.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="unrefqueue_8cpp.html">unrefqueue.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,51 +1,27 @@
 <map id="MWRender::TextureOverrideVisitor::apply" name="MWRender::TextureOverrideVisitor::apply">
-<area shape="rect" id="node2" href="$namespaceMWRender.html#a11217742ce5ec79f658280f30dd141fd" title="MWRender::overrideTexture" alt="" coords="251,376,445,403"/>
-<area shape="rect" id="node3" href="$namespaceMisc_1_1ResourceHelpers.html#a899430a270cdfc329635c2dbfc7c043c" title="Misc::ResourceHelpers\l::correctTexturePath" alt="" coords="508,190,673,231"/>
-<area shape="rect" id="node10" href="$classResource_1_1ResourceSystem.html#a33391822ee610422b7fa907d39f0d37c" title="Resource::ResourceSystem\l::getVFS" alt="" coords="493,369,688,410"/>
-<area shape="rect" id="node11" href="$classResource_1_1ResourceSystem.html#ac9829e6c125ba11b7615b1e5c566b641" title="Resource::ResourceSystem\l::getImageManager" alt="" coords="493,434,688,475"/>
-<area shape="rect" id="node12" href="$classResource_1_1ImageManager.html#a225f9f7be2c2d86c57f52c0ae990fbb8" title="Resource::ImageManager\l::getImage" alt="" coords="756,310,940,351"/>
-<area shape="rect" id="node17" href="$esmtool_8cpp.html#a0bab682aaafd448095576d6716e53d79" title="clone" alt="" coords="563,1164,619,1191"/>
-<area shape="rect" id="node4" href="$namespaceMisc_1_1ResourceHelpers.html#a60f7cce3be796f0aac56a81f5991204d" title="Misc::ResourceHelpers\l::correctResourcePath" alt="" coords="765,129,931,170"/>
-<area shape="rect" id="node5" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1062,5,1194,46"/>
-<area shape="rect" id="node6" href="$namespaceMisc_1_1ResourceHelpers.html#a762d24a99c2a88ef2f0daecc47044083" title="Misc::ResourceHelpers\l::changeExtensionToDds" alt="" coords="1039,70,1217,111"/>
-<area shape="rect" id="node7" href="$classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc" title="VFS::Manager::exists" alt="" coords="1050,136,1206,163"/>
-<area shape="rect" id="node9" href="$namespaceanonymous__namespace_02resourcehelpers_8cpp_03.html#af76c5ce9ba7f5c9e52a83ed9a5211360" title="anonymous_namespace\l\{resourcehelpers::cpp\}\l::getBasename" alt="" coords="1039,187,1217,243"/>
-<area shape="rect" id="node8" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#afff51e54666db5317a601da81b18897a" title="anonymous_namespace\l\{manager::cpp\}::normalize_path" alt="" coords="1296,255,1531,297"/>
-<area shape="rect" id="node13" href="$classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" title="VFS::Manager::normalizeFilename" alt="" coords="1009,267,1247,293"/>
-<area shape="rect" id="node14" href="$classVFS_1_1Manager.html#ac59e8f07d1b254b5e763cb34e3906c64" title="VFS::Manager::get" alt="" coords="1058,317,1198,344"/>
-<area shape="rect" id="node16" href="$namespaceResource.html#a348671c1b817ff6d44215a8ef0887350" title="Resource::checkSupported" alt="" coords="1032,368,1224,395"/>
-<area shape="rect" id="node15" href="$classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc" title="VFS::Manager::getNormalized" alt="" coords="1307,321,1520,348"/>
-<area shape="rect" id="node18" href="$esmtool_8cpp.html#ac99c5aa1e9babf153d159744c70347d1" title="load" alt="" coords="823,1037,873,1064"/>
-<area shape="rect" id="node19" href="$namespaceToUTF8.html#a11f55638dc23c4881412f4147af08e56" title="ToUTF8::calculateEncoding" alt="" coords="1033,469,1223,496"/>
-<area shape="rect" id="node25" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="1318,563,1509,605"/>
-<area shape="rect" id="node37" href="$classEsmTool_1_1RecordBase.html#a1293e67c0c709c5e13c4ba1c7009be33" title="EsmTool::RecordBase\l::getType" alt="" coords="1049,1445,1207,1486"/>
-<area shape="rect" id="node38" href="$classEsmTool_1_1RecordBase.html#afdcd101f1a07edfb9697eced5edd7a4d" title="EsmTool::RecordBase\l::cast" alt="" coords="1049,1510,1207,1551"/>
-<area shape="rect" id="node39" href="$classESM_1_1ESMWriter.html#ac324dac2b05a35cdf94aec3083739dbe" title="ESM::ESMWriter::setEncoder" alt="" coords="747,1240,949,1267"/>
-<area shape="rect" id="node40" href="$classESM_1_1ESMWriter.html#a6cbe8b27a8bfe80c0bb52e1249bbd59b" title="ESM::ESMWriter::setAuthor" alt="" coords="751,1291,945,1317"/>
-<area shape="rect" id="node41" href="$classESM_1_1ESMWriter.html#a08b58c06c190a50c8d39d61d5e4c36ec" title="ESM::ESMWriter::setDescription" alt="" coords="737,1341,959,1368"/>
-<area shape="rect" id="node42" href="$classESM_1_1ESMWriter.html#a03a08273e92e865a4b1c946f8cd80e00" title="ESM::ESMWriter::setVersion" alt="" coords="749,1392,947,1419"/>
-<area shape="rect" id="node43" href="$classESM_1_1ESMWriter.html#a08d612ba9876b0e32aa871994533f05c" title="ESM::ESMWriter::setRecord\lCount" alt="" coords="751,1443,945,1485"/>
-<area shape="rect" id="node44" href="$classESM_1_1ESMWriter.html#ac99686de1c9e1d4ff1c093b6c5bb476d" title="ESM::ESMWriter::addMaster" alt="" coords="749,1509,947,1536"/>
-<area shape="rect" id="node45" href="$classESM_1_1ESMWriter.html#a0459825cbeae6f6266baea1f42c69a8c" title="Start saving a file by writing the TES3 header. " alt="" coords="768,1576,928,1603"/>
-<area shape="rect" id="node46" href="$classESM_1_1ESMWriter.html#ac94a9a420e00a23f8ac21ced4337bfe7" title="ESM::ESMWriter::startRecord" alt="" coords="1027,1627,1229,1653"/>
-<area shape="rect" id="node47" href="$classESM_1_1ESMWriter.html#aa9773ad75705c3078f4c4d7be8d90acb" title="ESM::ESMWriter::endRecord" alt="" coords="1029,1576,1227,1603"/>
-<area shape="rect" id="node48" href="$classEsmTool_1_1RecordBase.html#a277c44d2b838d3a19590fdad57786e23" title="EsmTool::RecordBase\l::getFlags" alt="" coords="769,805,927,846"/>
-<area shape="rect" id="node49" href="$classEsmTool_1_1RecordBase.html#af36e5b4b9ccd30f12dcdf8197533e3dd" title="EsmTool::RecordBase\l::save" alt="" coords="769,870,927,911"/>
-<area shape="rect" id="node50" href="$classESM_1_1ESMWriter.html#a173ea890cf4aa194979390d0b5c09670" title="ESM::ESMWriter::close" alt="" coords="767,936,929,963"/>
-<area shape="rect" id="node20" href="$classESM_1_1ESMReader.html#a8532c34bbc42ae51eb7f63b1dd7b7ebc" title="Sets font encoder for ESM strings. " alt="" coords="1023,972,1233,999"/>
-<area shape="rect" id="node21" href="$classESM_1_1ESMReader.html#aec84cf1e1b4d63ed1b334fea4ad76966" title="ESM::ESMReader::openRaw" alt="" coords="1316,1263,1511,1289"/>
-<area shape="rect" id="node22" href="$esmtool_8cpp.html#afd313d9ffdcb3fed802e2dc07838b248" title="printRaw" alt="" coords="1090,1073,1166,1100"/>
-<area shape="rect" id="node23" href="$classESM_1_1ESMReader.html#a2beb1e8a02dc264d71e38b296ee4bb71" title="ESM::ESMReader::hasMoreRecs" alt="" coords="1579,1124,1802,1151"/>
-<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#aede9520d4b492f05b2636d96dfeb80ff" title="ESM::ESMReader::getRecName" alt="" coords="1303,1124,1523,1151"/>
-<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#a64fb13c5a2e1e73a2bf5c89d67226721" title="ESM::ESMReader::getRecHeader" alt="" coords="1299,1199,1527,1225"/>
-<area shape="rect" id="node27" href="$classESM_1_1ESMReader.html#a4ce912367d9c8e36ca0b34d9dd6a3a39" title="ESM::ESMReader::open" alt="" coords="1043,1225,1213,1252"/>
-<area shape="rect" id="node28" href="$classESM_1_1ESMReader.html#ac7aba34cb46267cb4283d51b8f0d5446" title="ESM::ESMReader::getAuthor" alt="" coords="1027,1023,1229,1049"/>
-<area shape="rect" id="node29" href="$classESM_1_1ESMReader.html#ae42cf95a5a21e497e637ed33c3267182" title="ESM::ESMReader::getDesc" alt="" coords="1033,520,1223,547"/>
-<area shape="rect" id="node30" href="$classESM_1_1ESMReader.html#aa22b2e3b0a3c0899445c293f290f4702" title="ESM::ESMReader::getGameFiles" alt="" coords="1015,621,1241,648"/>
-<area shape="rect" id="node31" href="$classESM_1_1ESMReader.html#a851481c932a81dff6a249ee3fc36d62c" title="ESM::ESMReader::getFVer" alt="" coords="1035,672,1221,699"/>
-<area shape="rect" id="node32" href="$classEsmTool_1_1RecordBase.html#a4f94306434aa1fc5cbebad26e0d63285" title="EsmTool::RecordBase\l::create" alt="" coords="1049,723,1207,765"/>
-<area shape="rect" id="node33" href="$classESM_1_1ESMReader.html#a7ba6d4076f766ae7cac77542fa0634c2" title="ESM::ESMReader::skipRecord" alt="" coords="1025,789,1231,816"/>
-<area shape="rect" id="node34" href="$classEsmTool_1_1RecordBase.html#a9eb98546c27e7a408fadcdbb3eb3972a" title="EsmTool::RecordBase\l::setFlags" alt="" coords="1049,841,1207,882"/>
-<area shape="rect" id="node35" href="$classEsmTool_1_1RecordBase.html#a636bfc2fc3946e26c0d2d22935542915" title="EsmTool::RecordBase\l::setPrintPlain" alt="" coords="1049,906,1207,947"/>
-<area shape="rect" id="node36" href="$classEsmTool_1_1RecordBase.html#a2b61cf796f2213c5f6c062f72ad128b1" title="EsmTool::RecordBase\l::load" alt="" coords="1049,1327,1207,1369"/>
+<area shape="rect" id="node2" href="$namespaceMWRender.html#a11217742ce5ec79f658280f30dd141fd" title="MWRender::overrideTexture" alt="" coords="251,240,445,267"/>
+<area shape="rect" id="node20" href="$namespaceTerrain.html#aad89e341593820050c424ef74fd150a9" title="Terrain::traverse" alt="" coords="285,456,411,483"/>
+<area shape="rect" id="node3" href="$namespaceMisc_1_1ResourceHelpers.html#a899430a270cdfc329635c2dbfc7c043c" title="Misc::ResourceHelpers\l::correctTexturePath" alt="" coords="508,102,673,143"/>
+<area shape="rect" id="node13" href="$classResource_1_1ResourceSystem.html#a33391822ee610422b7fa907d39f0d37c" title="Resource::ResourceSystem\l::getVFS" alt="" coords="493,167,688,209"/>
+<area shape="rect" id="node14" href="$classResource_1_1ResourceSystem.html#ac9829e6c125ba11b7615b1e5c566b641" title="Resource::ResourceSystem\l::getImageManager" alt="" coords="493,233,688,274"/>
+<area shape="rect" id="node15" href="$classResource_1_1ImageManager.html#a225f9f7be2c2d86c57f52c0ae990fbb8" title="Resource::ImageManager\l::getImage" alt="" coords="736,291,920,333"/>
+<area shape="rect" id="node4" href="$namespaceMisc_1_1ResourceHelpers.html#a60f7cce3be796f0aac56a81f5991204d" title="Misc::ResourceHelpers\l::correctResourcePath" alt="" coords="745,102,911,143"/>
+<area shape="rect" id="node5" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1307,5,1439,46"/>
+<area shape="rect" id="node7" href="$namespaceMisc_1_1ResourceHelpers.html#a762d24a99c2a88ef2f0daecc47044083" title="Misc::ResourceHelpers\l::changeExtensionToDds" alt="" coords="999,51,1177,93"/>
+<area shape="rect" id="node8" href="$classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc" title="VFS::Manager::exists" alt="" coords="1010,117,1166,144"/>
+<area shape="rect" id="node12" href="$namespaceanonymous__namespace_02resourcehelpers_8cpp_03.html#af76c5ce9ba7f5c9e52a83ed9a5211360" title="anonymous_namespace\l\{resourcehelpers::cpp\}\l::getBasename" alt="" coords="999,168,1177,224"/>
+<area shape="rect" id="node6" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1779,107,1911,149"/>
+<area shape="rect" id="node9" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#afff51e54666db5317a601da81b18897a" title="anonymous_namespace\l\{manager::cpp\}::normalize_path" alt="" coords="1256,186,1491,227"/>
+<area shape="rect" id="node10" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#a43766ad9c2dc269c62c8ec100bfd3b36" title="anonymous_namespace\l\{manager::cpp\}::strict\l_normalize_char" alt="" coords="1545,99,1724,155"/>
+<area shape="rect" id="node11" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#a0760071e5091c65283088c802ce83396" title="anonymous_namespace\l\{manager::cpp\}::nonstrict\l_normalize_char" alt="" coords="1539,179,1730,235"/>
+<area shape="rect" id="node16" href="$classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" title="VFS::Manager::normalizeFilename" alt="" coords="969,248,1207,275"/>
+<area shape="rect" id="node17" href="$classVFS_1_1Manager.html#ac59e8f07d1b254b5e763cb34e3906c64" title="VFS::Manager::get" alt="" coords="1018,299,1158,325"/>
+<area shape="rect" id="node19" href="$namespaceResource.html#a348671c1b817ff6d44215a8ef0887350" title="Resource::checkSupported" alt="" coords="992,349,1184,376"/>
+<area shape="rect" id="node18" href="$classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc" title="VFS::Manager::getNormalized" alt="" coords="1267,299,1480,325"/>
+<area shape="rect" id="node21" href="$classTerrain_1_1QuadTreeNode.html#ac790df8c46db2967c539932c60e52049" title="Terrain::QuadTreeNode\l::hasValidBounds" alt="" coords="507,350,674,391"/>
+<area shape="rect" id="node22" href="$classTerrain_1_1QuadTreeNode.html#a7e3bc8b56e4ccdf10e5e5824633b3511" title="Terrain::QuadTreeNode\l::getBoundingBox" alt="" coords="507,415,674,457"/>
+<area shape="rect" id="node23" href="$classTerrain_1_1LodCallback.html#ac6841ac51efcba58d253cb47591e75cb" title="Terrain::LodCallback\l::isSufficientDetail" alt="" coords="517,481,665,522"/>
+<area shape="rect" id="node24" href="$classTerrain_1_1ViewData.html#a35a3a615bfb159d28ba39a0213ca9e50" title="Terrain::ViewData::add" alt="" coords="509,547,673,573"/>
+<area shape="rect" id="node26" href="$classTerrain_1_1QuadTreeNode.html#a54d91fefcb6bc5b88c96ecb5c30fc998" title="Terrain::QuadTreeNode\l::getChild" alt="" coords="507,598,674,639"/>
+<area shape="rect" id="node25" href="$structTerrain_1_1ViewData_1_1Entry.html#a78d943c398504a29397bc29044df17b4" title="Terrain::ViewData::\lEntry::set" alt="" coords="758,539,898,581"/>
 </map>

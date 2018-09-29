@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/prefs/boolsetting.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/prefs/boolsetting.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,47 +102,54 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="setting_8hpp.html">setting.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="namespaceCSMPrefs.html">    6</a></span>&#160;<span class="keyword">namespace </span>CSMPrefs</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1BoolSetting.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMPrefs_1_1BoolSetting.html">BoolSetting</a> : <span class="keyword">public</span> <a class="code" href="classCSMPrefs_1_1Setting.html">Setting</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            Q_OBJECT</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1BoolSetting.html#ae39e9a973533d6df84b737d4b7ae803c">   12</a></span>&#160;            std::string <a class="code" href="classCSMPrefs_1_1BoolSetting.html#ae39e9a973533d6df84b737d4b7ae803c">mTooltip</a>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1BoolSetting.html#abf4e72a519c9686d4465c07e3b0c8180">   13</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMPrefs_1_1BoolSetting.html#abf4e72a519c9686d4465c07e3b0c8180">mDefault</a>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <a class="code" href="classCSMPrefs_1_1BoolSetting.html#a9c6ce6b114f72f27cd4feaa2fcfde246">BoolSetting</a> (<a class="code" href="classCSMPrefs_1_1Category.html">Category</a> *parent, <a class="code" href="classSettings_1_1Manager.html">Settings::Manager</a> *values,</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                QMutex *mutex, <span class="keyword">const</span> std::string&amp; key, <span class="keyword">const</span> std::string&amp; label, <span class="keywordtype">bool</span> default_);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span>QCheckBox;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="namespaceCSMPrefs.html">    8</a></span>&#160;<span class="keyword">namespace </span>CSMPrefs</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1BoolSetting.html">   10</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMPrefs_1_1BoolSetting.html">BoolSetting</a> : <span class="keyword">public</span> <a class="code" href="classCSMPrefs_1_1Setting.html">Setting</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            Q_OBJECT</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1BoolSetting.html#ae39e9a973533d6df84b737d4b7ae803c">   14</a></span>&#160;            std::string <a class="code" href="classCSMPrefs_1_1BoolSetting.html#ae39e9a973533d6df84b737d4b7ae803c">mTooltip</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1BoolSetting.html#abf4e72a519c9686d4465c07e3b0c8180">   15</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMPrefs_1_1BoolSetting.html#abf4e72a519c9686d4465c07e3b0c8180">mDefault</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1BoolSetting.html#a4b06fa9e825ab64f740c89a1c413aa8c">   16</a></span>&#160;            QCheckBox* <a class="code" href="classCSMPrefs_1_1BoolSetting.html#a4b06fa9e825ab64f740c89a1c413aa8c">mWidget</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="classCSMPrefs_1_1BoolSetting.html">BoolSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1BoolSetting.html#abdabc52278a4d9e034ed2a1010cb03a8">setTooltip</a> (<span class="keyword">const</span> std::string&amp; tooltip);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keyword">virtual</span> std::pair&lt;QWidget *, QWidget *&gt; <a class="code" href="classCSMPrefs_1_1BoolSetting.html#a83caf410d3407f77cecee330befe8890">makeWidgets</a> (<a class="code" href="classQWidget.html">QWidget</a> *parent);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="classCSMPrefs_1_1BoolSetting.html#a9c6ce6b114f72f27cd4feaa2fcfde246">BoolSetting</a> (<a class="code" href="classCSMPrefs_1_1Category.html">Category</a> *parent, <a class="code" href="classSettings_1_1Manager.html">Settings::Manager</a> *values,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                QMutex *mutex, <span class="keyword">const</span> std::string&amp; key, <span class="keyword">const</span> std::string&amp; label, <span class="keywordtype">bool</span> default_);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <a class="code" href="classCSMPrefs_1_1BoolSetting.html">BoolSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1BoolSetting.html#abdabc52278a4d9e034ed2a1010cb03a8">setTooltip</a> (<span class="keyword">const</span> std::string&amp; tooltip);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1BoolSetting.html#a66bceb58194eac02f1c25048a0e1509a">valueChanged</a> (<span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_a66bceb58194eac02f1c25048a0e1509a"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#a66bceb58194eac02f1c25048a0e1509a">CSMPrefs::BoolSetting::valueChanged</a></div><div class="ttdeci">void valueChanged(int value)</div><div class="ttdef"><b>Definition:</b> boolsetting.cpp:39</div></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keyword">virtual</span> std::pair&lt;QWidget *, QWidget *&gt; <a class="code" href="classCSMPrefs_1_1BoolSetting.html#a83caf410d3407f77cecee330befe8890">makeWidgets</a> (<a class="code" href="classQWidget.html">QWidget</a> *parent);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1BoolSetting.html#ad51c0d2e5190fc98a32bfef7b261dabb">updateWidget</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1BoolSetting.html#a66bceb58194eac02f1c25048a0e1509a">valueChanged</a> (<span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_a66bceb58194eac02f1c25048a0e1509a"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#a66bceb58194eac02f1c25048a0e1509a">CSMPrefs::BoolSetting::valueChanged</a></div><div class="ttdeci">void valueChanged(int value)</div><div class="ttdef"><b>Definition:</b> boolsetting.cpp:49</div></div>
 <div class="ttc" id="classQWidget_html"><div class="ttname"><a href="classQWidget.html">QWidget</a></div></div>
 <div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_abdabc52278a4d9e034ed2a1010cb03a8"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#abdabc52278a4d9e034ed2a1010cb03a8">CSMPrefs::BoolSetting::setTooltip</a></div><div class="ttdeci">BoolSetting &amp; setTooltip(const std::string &amp;tooltip)</div><div class="ttdef"><b>Definition:</b> boolsetting.cpp:17</div></div>
 <div class="ttc" id="classCSMPrefs_1_1Category_html"><div class="ttname"><a href="classCSMPrefs_1_1Category.html">CSMPrefs::Category</a></div><div class="ttdef"><b>Definition:</b> category.hpp:12</div></div>
-<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html">CSMPrefs::BoolSetting</a></div><div class="ttdef"><b>Definition:</b> boolsetting.hpp:8</div></div>
-<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_abf4e72a519c9686d4465c07e3b0c8180"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#abf4e72a519c9686d4465c07e3b0c8180">CSMPrefs::BoolSetting::mDefault</a></div><div class="ttdeci">bool mDefault</div><div class="ttdef"><b>Definition:</b> boolsetting.hpp:13</div></div>
+<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_ad51c0d2e5190fc98a32bfef7b261dabb"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#ad51c0d2e5190fc98a32bfef7b261dabb">CSMPrefs::BoolSetting::updateWidget</a></div><div class="ttdeci">virtual void updateWidget()</div><div class="ttdef"><b>Definition:</b> boolsetting.cpp:39</div></div>
+<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html">CSMPrefs::BoolSetting</a></div><div class="ttdef"><b>Definition:</b> boolsetting.hpp:10</div></div>
+<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_abf4e72a519c9686d4465c07e3b0c8180"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#abf4e72a519c9686d4465c07e3b0c8180">CSMPrefs::BoolSetting::mDefault</a></div><div class="ttdeci">bool mDefault</div><div class="ttdef"><b>Definition:</b> boolsetting.hpp:15</div></div>
 <div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_a83caf410d3407f77cecee330befe8890"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#a83caf410d3407f77cecee330befe8890">CSMPrefs::BoolSetting::makeWidgets</a></div><div class="ttdeci">virtual std::pair&lt; QWidget *, QWidget * &gt; makeWidgets(QWidget *parent)</div><div class="ttdoc">Return label, input widget. </div><div class="ttdef"><b>Definition:</b> boolsetting.cpp:23</div></div>
 <div class="ttc" id="classCSMPrefs_1_1Setting_html"><div class="ttname"><a href="classCSMPrefs_1_1Setting.html">CSMPrefs::Setting</a></div><div class="ttdef"><b>Definition:</b> setting.hpp:22</div></div>
+<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_a4b06fa9e825ab64f740c89a1c413aa8c"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#a4b06fa9e825ab64f740c89a1c413aa8c">CSMPrefs::BoolSetting::mWidget</a></div><div class="ttdeci">QCheckBox * mWidget</div><div class="ttdef"><b>Definition:</b> boolsetting.hpp:16</div></div>
 <div class="ttc" id="setting_8hpp_html"><div class="ttname"><a href="setting_8hpp.html">setting.hpp</a></div></div>
-<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_ae39e9a973533d6df84b737d4b7ae803c"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#ae39e9a973533d6df84b737d4b7ae803c">CSMPrefs::BoolSetting::mTooltip</a></div><div class="ttdeci">std::string mTooltip</div><div class="ttdef"><b>Definition:</b> boolsetting.hpp:12</div></div>
+<div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_ae39e9a973533d6df84b737d4b7ae803c"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#ae39e9a973533d6df84b737d4b7ae803c">CSMPrefs::BoolSetting::mTooltip</a></div><div class="ttdeci">std::string mTooltip</div><div class="ttdef"><b>Definition:</b> boolsetting.hpp:14</div></div>
 <div class="ttc" id="classSettings_1_1Manager_html"><div class="ttname"><a href="classSettings_1_1Manager.html">Settings::Manager</a></div><div class="ttdoc">Settings management (can change during runtime) </div><div class="ttdef"><b>Definition:</b> settings.hpp:17</div></div>
 <div class="ttc" id="classCSMPrefs_1_1BoolSetting_html_a9c6ce6b114f72f27cd4feaa2fcfde246"><div class="ttname"><a href="classCSMPrefs_1_1BoolSetting.html#a9c6ce6b114f72f27cd4feaa2fcfde246">CSMPrefs::BoolSetting::BoolSetting</a></div><div class="ttdeci">BoolSetting(Category *parent, Settings::Manager *values, QMutex *mutex, const std::string &amp;key, const std::string &amp;label, bool default_)</div><div class="ttdef"><b>Definition:</b> boolsetting.cpp:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

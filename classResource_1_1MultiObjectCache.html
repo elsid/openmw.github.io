@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,13 +111,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for Resource::MultiObjectCache:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1MultiObjectCache__inherit__graph.svg" width="232" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1MultiObjectCache__inherit__graph.svg" width="232" height="347"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Resource::MultiObjectCache:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1MultiObjectCache__coll__graph.svg" width="451" height="632"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1MultiObjectCache__coll__graph.svg" width="451" height="662"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -129,12 +129,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac4d149ce69a438611de7d4f42239f6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac95d74573197076807663aec9bae6f6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1MultiObjectCache.html#ac95d74573197076807663aec9bae6f6d">removeUnreferencedObjectsInCache</a> ()</td></tr>
 <tr class="separator:ac95d74573197076807663aec9bae6f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4124b053379adbfa7974130ab13368"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1MultiObjectCache.html#a2f4124b053379adbfa7974130ab13368">clear</a> ()</td></tr>
+<tr class="separator:a2f4124b053379adbfa7974130ab13368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b8c9533cd31920e37f76c24c326f09e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1MultiObjectCache.html#a5b8c9533cd31920e37f76c24c326f09e">addEntryToObjectCache</a> (const std::string &amp;filename, osg::Object *object)</td></tr>
 <tr class="separator:a5b8c9533cd31920e37f76c24c326f09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb381a58f0364df390d2cfba4f18eba5"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1MultiObjectCache.html#abb381a58f0364df390d2cfba4f18eba5">takeFromObjectCache</a> (const std::string &amp;fileName)</td></tr>
 <tr class="separator:abb381a58f0364df390d2cfba4f18eba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3497a1ef95dcd7039899ebe3ef112030"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1MultiObjectCache.html#a3497a1ef95dcd7039899ebe3ef112030">releaseGLObjects</a> (osg::State *state)</td></tr>
 <tr class="separator:a3497a1ef95dcd7039899ebe3ef112030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ddd1a43364e5d68cd7b790e1895ee2"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1MultiObjectCache.html#ab8ddd1a43364e5d68cd7b790e1895ee2">getCacheSize</a> () const </td></tr>
+<tr class="separator:ab8ddd1a43364e5d68cd7b790e1895ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
 Protected Types</h2></td></tr>
@@ -231,6 +235,37 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2f4124b053379adbfa7974130ab13368"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::MultiObjectCache::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Remove all objects from the cache. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab8ddd1a43364e5d68cd7b790e1895ee2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classint.html">int</a> Resource::MultiObjectCache::getCacheSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a3497a1ef95dcd7039899ebe3ef112030"></a>
 <div class="memitem">
 <div class="memproto">
@@ -314,7 +349,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -322,13 +357,13 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="multiobjectcache_8hpp_source.html">multiobjectcache.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="multiobjectcache_8cpp.html">multiobjectcache.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="multiobjectcache_8hpp_source.html">multiobjectcache.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="multiobjectcache_8cpp.html">multiobjectcache.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

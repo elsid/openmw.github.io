@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/soundcheck.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/soundcheck.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,40 +102,47 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="loadsoun_8hpp.html">components/esm/loadsoun.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../world/idcollection.hpp&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../doc/stage.hpp&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>CSMTools</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundCheckStage.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMTools_1_1SoundCheckStage.html">SoundCheckStage</a> : <span class="keyword">public</span> <a class="code" href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundCheckStage.html#ad71d4d3c3f09a0da64394cfb3ec0e147">   15</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Sound&gt;</a>&amp; <a class="code" href="classCSMTools_1_1SoundCheckStage.html#ad71d4d3c3f09a0da64394cfb3ec0e147">mSounds</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <a class="code" href="classCSMTools_1_1SoundCheckStage.html#a255ea0841afe9dac25d81b66fee8333b">SoundCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Sound&gt;</a>&amp; sounds);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1SoundCheckStage.html#a5c58420ff4bd150a5d65717c63d8b50d">setup</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1SoundCheckStage.html#a21a3ea51344ebf8a65644fe78331a520">perform</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../world/resources.hpp&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../world/idcollection.hpp&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;../doc/stage.hpp&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>CSMTools</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundCheckStage.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMTools_1_1SoundCheckStage.html">SoundCheckStage</a> : <span class="keyword">public</span> <a class="code" href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundCheckStage.html#ad71d4d3c3f09a0da64394cfb3ec0e147">   16</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Sound&gt;</a>&amp; <a class="code" href="classCSMTools_1_1SoundCheckStage.html#ad71d4d3c3f09a0da64394cfb3ec0e147">mSounds</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundCheckStage.html#a8584681c923f9f4371aa609526292bd1">   17</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Resources.html">CSMWorld::Resources</a> &amp;<a class="code" href="classCSMTools_1_1SoundCheckStage.html#a8584681c923f9f4371aa609526292bd1">mSoundFiles</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundCheckStage.html#ada1682fe7084644c1b5cf2d1555678b8">   18</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMTools_1_1SoundCheckStage.html#ada1682fe7084644c1b5cf2d1555678b8">mIgnoreBaseRecords</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="classCSMTools_1_1SoundCheckStage.html#a1cb57b98858aa8bd9dbfb6e7b45910a4">SoundCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Sound&gt;</a>&amp; sounds,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                             <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Resources.html">CSMWorld::Resources</a> &amp;soundfiles);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1SoundCheckStage.html#a5c58420ff4bd150a5d65717c63d8b50d">setup</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1SoundCheckStage.html#a21a3ea51344ebf8a65644fe78331a520">perform</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    };</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSMWorld_1_1IdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt; ESM::Sound &gt;</a></div></div>
-<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_ad71d4d3c3f09a0da64394cfb3ec0e147"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#ad71d4d3c3f09a0da64394cfb3ec0e147">CSMTools::SoundCheckStage::mSounds</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::Sound &gt; &amp; mSounds</div><div class="ttdef"><b>Definition:</b> soundcheck.hpp:15</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_ad71d4d3c3f09a0da64394cfb3ec0e147"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#ad71d4d3c3f09a0da64394cfb3ec0e147">CSMTools::SoundCheckStage::mSounds</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::Sound &gt; &amp; mSounds</div><div class="ttdef"><b>Definition:</b> soundcheck.hpp:16</div></div>
 <div class="ttc" id="loadsoun_8hpp_html"><div class="ttname"><a href="loadsoun_8hpp.html">loadsoun.hpp</a></div></div>
-<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_a5c58420ff4bd150a5d65717c63d8b50d"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#a5c58420ff4bd150a5d65717c63d8b50d">CSMTools::SoundCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> soundcheck.cpp:13</div></div>
-<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html">CSMTools::SoundCheckStage</a></div><div class="ttdoc">VerifyStage: make sure that sound records are internally consistent. </div><div class="ttdef"><b>Definition:</b> soundcheck.hpp:13</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_a5c58420ff4bd150a5d65717c63d8b50d"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#a5c58420ff4bd150a5d65717c63d8b50d">CSMTools::SoundCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> soundcheck.cpp:15</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html">CSMTools::SoundCheckStage</a></div><div class="ttdoc">VerifyStage: make sure that sound records are internally consistent. </div><div class="ttdef"><b>Definition:</b> soundcheck.hpp:14</div></div>
 <div class="ttc" id="classCSMDoc_1_1Messages_html"><div class="ttname"><a href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:38</div></div>
-<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_a255ea0841afe9dac25d81b66fee8333b"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#a255ea0841afe9dac25d81b66fee8333b">CSMTools::SoundCheckStage::SoundCheckStage</a></div><div class="ttdeci">SoundCheckStage(const CSMWorld::IdCollection&lt; ESM::Sound &gt; &amp;sounds)</div><div class="ttdef"><b>Definition:</b> soundcheck.cpp:9</div></div>
+<div class="ttc" id="classCSMWorld_1_1Resources_html"><div class="ttname"><a href="classCSMWorld_1_1Resources.html">CSMWorld::Resources</a></div><div class="ttdef"><b>Definition:</b> resources.hpp:17</div></div>
 <div class="ttc" id="classCSMDoc_1_1Stage_html"><div class="ttname"><a href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div><div class="ttdef"><b>Definition:</b> stage.hpp:15</div></div>
-<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_a21a3ea51344ebf8a65644fe78331a520"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#a21a3ea51344ebf8a65644fe78331a520">CSMTools::SoundCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this tage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> soundcheck.cpp:18</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_ada1682fe7084644c1b5cf2d1555678b8"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#ada1682fe7084644c1b5cf2d1555678b8">CSMTools::SoundCheckStage::mIgnoreBaseRecords</a></div><div class="ttdeci">bool mIgnoreBaseRecords</div><div class="ttdef"><b>Definition:</b> soundcheck.hpp:18</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_a1cb57b98858aa8bd9dbfb6e7b45910a4"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#a1cb57b98858aa8bd9dbfb6e7b45910a4">CSMTools::SoundCheckStage::SoundCheckStage</a></div><div class="ttdeci">SoundCheckStage(const CSMWorld::IdCollection&lt; ESM::Sound &gt; &amp;sounds, const CSMWorld::Resources &amp;soundfiles)</div><div class="ttdef"><b>Definition:</b> soundcheck.cpp:7</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_a21a3ea51344ebf8a65644fe78331a520"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#a21a3ea51344ebf8a65644fe78331a520">CSMTools::SoundCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this tage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> soundcheck.cpp:22</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundCheckStage_html_a8584681c923f9f4371aa609526292bd1"><div class="ttname"><a href="classCSMTools_1_1SoundCheckStage.html#a8584681c923f9f4371aa609526292bd1">CSMTools::SoundCheckStage::mSoundFiles</a></div><div class="ttdeci">const CSMWorld::Resources &amp; mSoundFiles</div><div class="ttdef"><b>Definition:</b> soundcheck.hpp:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

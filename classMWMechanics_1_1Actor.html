@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -106,11 +106,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Holds temporary state for an actor that will be discarded when the actor leaves the scene.  
  <a href="classMWMechanics_1_1Actor.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="mwmechanics_2actor_8hpp_source.html">actor.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="openmw_2mwmechanics_2actor_8hpp_source.html">actor.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for MWMechanics::Actor:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1Actor__coll__graph.svg" width="4498" height="3118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1Actor__coll__graph.svg" width="6084" height="2867"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -123,16 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afd2598e7fb0b4b700ad950c4a30ad5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0e93e3c74092235ba972990c7632ad1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWMechanics_1_1CharacterController.html">CharacterController</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1Actor.html#ae0e93e3c74092235ba972990c7632ad1">getCharacterController</a> ()</td></tr>
 <tr class="separator:ae0e93e3c74092235ba972990c7632ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a116f4c8fffa667333688afbd7ef35f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMWMechanics.html#af760b96a41c2866c95786897ecdf189c">AiState</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1Actor.html#a0a116f4c8fffa667333688afbd7ef35f">getAiState</a> ()</td></tr>
-<tr class="separator:a0a116f4c8fffa667333688afbd7ef35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af9e5940cf1280748b32615f407a2f035"><td class="memItemLeft" align="right" valign="top">std::auto_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classMWMechanics_1_1CharacterController.html">CharacterController</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1Actor.html#af9e5940cf1280748b32615f407a2f035">mCharacterController</a></td></tr>
-<tr class="separator:af9e5940cf1280748b32615f407a2f035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2680f1cc9f4fd788dc231105de613a8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMWMechanics.html#af760b96a41c2866c95786897ecdf189c">AiState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1Actor.html#a2680f1cc9f4fd788dc231105de613a8d">mAiState</a></td></tr>
-<tr class="separator:a2680f1cc9f4fd788dc231105de613a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5110dfecf22ffcd65777400397153bde"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classMWMechanics_1_1CharacterController.html">CharacterController</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1Actor.html#a5110dfecf22ffcd65777400397153bde">mCharacterController</a></td></tr>
+<tr class="separator:a5110dfecf22ffcd65777400397153bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds temporary state for an actor that will be discarded when the actor leaves the scene. </p>
@@ -164,21 +160,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a0a116f4c8fffa667333688afbd7ef35f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMWMechanics.html#af760b96a41c2866c95786897ecdf189c">AiState</a> &amp; MWMechanics::Actor::getAiState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ae0e93e3c74092235ba972990c7632ad1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +202,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a2680f1cc9f4fd788dc231105de613a8d"></a>
+<a class="anchor" id="a5110dfecf22ffcd65777400397153bde"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -229,27 +210,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMWMechanics.html#af760b96a41c2866c95786897ecdf189c">AiState</a> MWMechanics::Actor::mAiState</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af9e5940cf1280748b32615f407a2f035"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classMWMechanics_1_1CharacterController.html">CharacterController</a>&gt; MWMechanics::Actor::mCharacterController</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classMWMechanics_1_1CharacterController.html">CharacterController</a>&gt; MWMechanics::Actor::mCharacterController</td>
         </tr>
       </table>
   </td>
@@ -262,13 +223,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/<a class="el" href="mwmechanics_2actor_8hpp_source.html">actor.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/<a class="el" href="mwmechanics_2actor_8cpp.html">actor.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwmechanics/<a class="el" href="openmw_2mwmechanics_2actor_8hpp_source.html">actor.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwmechanics/<a class="el" href="openmw_2mwmechanics_2actor_8cpp.html">actor.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:03 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:37 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

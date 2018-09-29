@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/tools.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/tools.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -169,7 +169,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1Tools.html#aaf98105c173440629b7a56eb8e86c0e0">runSearch</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <a class="code" href="namespaceanonymous__namespace_02containerstore_8cpp_03.html#a48879aba894eb23709a04a3a700ad2f7">searchId</a>, <span class="keyword">const</span> <a class="code" href="classCSMTools_1_1Search.html">Search</a>&amp; search);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1Tools.html#ae40f58a483704c7ac843291c09594ab1">runMerge</a> (std::auto_ptr&lt;CSMDoc::Document&gt; target);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1Tools.html#ac1e2c564c5ca59628baec0ec3799c1fc">runMerge</a> (std::unique_ptr&lt;CSMDoc::Document&gt; target);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1Tools.html#aa6dc0eec8887ffed247213721011c3eb">abortOperation</a> (<span class="keywordtype">int</span> type);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
@@ -181,7 +181,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1Tools.html#a8d58596744a554b5fcb63290f4141104">verifierMessage</a> (<span class="keyword">const</span> <a class="code" href="structCSMDoc_1_1Message.html">CSMDoc::Message</a>&amp; <a class="code" href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">message</a>, <span class="keywordtype">int</span> type);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="crashcatcher_8cpp.html#acfd5a39eb1691178d0e18865b4bce90e">signals</a>:</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="crashcatcher_8cpp.html#a11433616918edf8c8674dc3dff31df8b">signals</a>:</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1Tools.html#ae1beecbafd47ee304b0d17fc2469cfcb">progress</a> (<span class="keywordtype">int</span> current, <span class="keywordtype">int</span> max, <span class="keywordtype">int</span> type);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
@@ -196,29 +196,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="namespaceCompiler_1_1Generator_html_ac2c59268b5bf1bf561fda12fdd27eb77"><div class="ttname"><a href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">Compiler::Generator::message</a></div><div class="ttdeci">void message(CodeContainer &amp;code, Literals &amp;literals, const std::string &amp;message, int buttons)</div><div class="ttdef"><b>Definition:</b> generator.cpp:537</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a6a4e0d715fe5de06e8dba54fe95eb99e"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a6a4e0d715fe5de06e8dba54fe95eb99e">CSMTools::Tools::Tools</a></div><div class="ttdeci">Tools(const Tools &amp;)</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_aef65189438d124689bede15a4f1b7997"><div class="ttname"><a href="classCSMTools_1_1Tools.html#aef65189438d124689bede15a4f1b7997">CSMTools::Tools::mVerifierOperation</a></div><div class="ttdeci">CSMDoc::Operation * mVerifierOperation</div><div class="ttdef"><b>Definition:</b> tools.hpp:40</div></div>
-<div class="ttc" id="crashcatcher_8cpp_html_acfd5a39eb1691178d0e18865b4bce90e"><div class="ttname"><a href="crashcatcher_8cpp.html#acfd5a39eb1691178d0e18865b4bce90e">signals</a></div><div class="ttdeci">static const struct @2 signals[]</div></div>
 <div class="ttc" id="classCSMDoc_1_1Operation_html"><div class="ttname"><a href="classCSMDoc_1_1Operation.html">CSMDoc::Operation</a></div><div class="ttdef"><b>Definition:</b> operation.hpp:22</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a5684d46de53809d4c0dfcb03d1b9fcaa"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a5684d46de53809d4c0dfcb03d1b9fcaa">CSMTools::Tools::mVerifier</a></div><div class="ttdeci">CSMDoc::OperationHolder mVerifier</div><div class="ttdef"><b>Definition:</b> tools.hpp:41</div></div>
+<div class="ttc" id="crashcatcher_8cpp_html_a11433616918edf8c8674dc3dff31df8b"><div class="ttname"><a href="crashcatcher_8cpp.html#a11433616918edf8c8674dc3dff31df8b">signals</a></div><div class="ttdeci">static const struct @8 signals[]</div></div>
 <div class="ttc" id="classCSMTools_1_1SearchOperation_html"><div class="ttname"><a href="classCSMTools_1_1SearchOperation.html">CSMTools::SearchOperation</a></div><div class="ttdef"><b>Definition:</b> searchoperation.hpp:17</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_aa1fed8eaa0dfac00853ce71abdc88b50"><div class="ttname"><a href="classCSMTools_1_1Tools.html#aa1fed8eaa0dfac00853ce71abdc88b50">CSMTools::Tools::done</a></div><div class="ttdeci">void done(int type, bool failed)</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a44c31b8b54848e8135747a344d589ca3"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a44c31b8b54848e8135747a344d589ca3">CSMTools::Tools::mSearchOperation</a></div><div class="ttdeci">SearchOperation * mSearchOperation</div><div class="ttdef"><b>Definition:</b> tools.hpp:42</div></div>
 <div class="ttc" id="structCSMDoc_1_1Message_html"><div class="ttname"><a href="structCSMDoc_1_1Message.html">CSMDoc::Message</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:13</div></div>
 <div class="ttc" id="classQObject_html"><div class="ttname"><a href="classQObject.html">QObject</a></div></div>
+<div class="ttc" id="classCSMTools_1_1Tools_html_ac1e2c564c5ca59628baec0ec3799c1fc"><div class="ttname"><a href="classCSMTools_1_1Tools.html#ac1e2c564c5ca59628baec0ec3799c1fc">CSMTools::Tools::runMerge</a></div><div class="ttdeci">void runMerge(std::unique_ptr&lt; CSMDoc::Document &gt; target)</div><div class="ttdef"><b>Definition:</b> tools.cpp:219</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a276f251a0ab6626b33f3cd342bc20804"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a276f251a0ab6626b33f3cd342bc20804">CSMTools::Tools::~Tools</a></div><div class="ttdeci">virtual ~Tools()</div><div class="ttdef"><b>Definition:</b> tools.cpp:158</div></div>
 <div class="ttc" id="classCSMTools_1_1ReportModel_html"><div class="ttname"><a href="classCSMTools_1_1ReportModel.html">CSMTools::ReportModel</a></div><div class="ttdef"><b>Definition:</b> reportmodel.hpp:15</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a527e15894fd4489ec70d546d343cdae6"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a527e15894fd4489ec70d546d343cdae6">CSMTools::Tools::mData</a></div><div class="ttdeci">CSMWorld::Data &amp; mData</div><div class="ttdef"><b>Definition:</b> tools.hpp:39</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_ae1beecbafd47ee304b0d17fc2469cfcb"><div class="ttname"><a href="classCSMTools_1_1Tools.html#ae1beecbafd47ee304b0d17fc2469cfcb">CSMTools::Tools::progress</a></div><div class="ttdeci">void progress(int current, int max, int type)</div></div>
-<div class="ttc" id="classCSMTools_1_1Tools_html_a555117b424234de1a92e623d10475b52"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a555117b424234de1a92e623d10475b52">CSMTools::Tools::getVerifier</a></div><div class="ttdeci">CSMDoc::OperationHolder * getVerifier()</div><div class="ttdef"><b>Definition:</b> tools.cpp:53</div></div>
+<div class="ttc" id="classCSMTools_1_1Tools_html_a555117b424234de1a92e623d10475b52"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a555117b424234de1a92e623d10475b52">CSMTools::Tools::getVerifier</a></div><div class="ttdeci">CSMDoc::OperationHolder * getVerifier()</div><div class="ttdef"><b>Definition:</b> tools.cpp:54</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a1cf88c616fbc506b8229a91aeab35961"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a1cf88c616fbc506b8229a91aeab35961">CSMTools::Tools::newSearch</a></div><div class="ttdeci">CSMWorld::UniversalId newSearch()</div><div class="ttdoc">Return ID of the report for this search. </div><div class="ttdef"><b>Definition:</b> tools.cpp:197</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_acaa5a5f68cfb031d6599e9318e5dc4c2"><div class="ttname"><a href="classCSMTools_1_1Tools.html#acaa5a5f68cfb031d6599e9318e5dc4c2">CSMTools::Tools::getRunningOperations</a></div><div class="ttdeci">int getRunningOperations() const </div><div class="ttdef"><b>Definition:</b> tools.cpp:244</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_aa7881c9a78edc79b51e3c646211e6e40"><div class="ttname"><a href="classCSMTools_1_1Tools.html#aa7881c9a78edc79b51e3c646211e6e40">CSMTools::Tools::mNextReportNumber</a></div><div class="ttdeci">int mNextReportNumber</div><div class="ttdef"><b>Definition:</b> tools.hpp:47</div></div>
-<div class="ttc" id="namespaceanonymous__namespace_02containerstore_8cpp_03_html_a48879aba894eb23709a04a3a700ad2f7"><div class="ttname"><a href="namespaceanonymous__namespace_02containerstore_8cpp_03.html#a48879aba894eb23709a04a3a700ad2f7">anonymous_namespace{containerstore.cpp}::searchId</a></div><div class="ttdeci">MWWorld::Ptr searchId(MWWorld::CellRefList&lt; T &gt; &amp;list, const std::string &amp;id, MWWorld::ContainerStore *store)</div><div class="ttdef"><b>Definition:</b> containerstore.cpp:42</div></div>
-<div class="ttc" id="classCSMTools_1_1Tools_html_ae40f58a483704c7ac843291c09594ab1"><div class="ttname"><a href="classCSMTools_1_1Tools.html#ae40f58a483704c7ac843291c09594ab1">CSMTools::Tools::runMerge</a></div><div class="ttdeci">void runMerge(std::auto_ptr&lt; CSMDoc::Document &gt; target)</div><div class="ttdef"><b>Definition:</b> tools.cpp:219</div></div>
+<div class="ttc" id="namespaceanonymous__namespace_02containerstore_8cpp_03_html_a48879aba894eb23709a04a3a700ad2f7"><div class="ttname"><a href="namespaceanonymous__namespace_02containerstore_8cpp_03.html#a48879aba894eb23709a04a3a700ad2f7">anonymous_namespace{containerstore.cpp}::searchId</a></div><div class="ttdeci">MWWorld::Ptr searchId(MWWorld::CellRefList&lt; T &gt; &amp;list, const std::string &amp;id, MWWorld::ContainerStore *store)</div><div class="ttdef"><b>Definition:</b> containerstore.cpp:43</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a5eca0f7a73c380acacfecd4e9250c29b"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a5eca0f7a73c380acacfecd4e9250c29b">CSMTools::Tools::mMerge</a></div><div class="ttdeci">CSMDoc::OperationHolder mMerge</div><div class="ttdef"><b>Definition:</b> tools.hpp:45</div></div>
 <div class="ttc" id="classCSMTools_1_1MergeOperation_html"><div class="ttname"><a href="classCSMTools_1_1MergeOperation.html">CSMTools::MergeOperation</a></div><div class="ttdef"><b>Definition:</b> mergeoperation.hpp:19</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_aa6dc0eec8887ffed247213721011c3eb"><div class="ttname"><a href="classCSMTools_1_1Tools.html#aa6dc0eec8887ffed247213721011c3eb">CSMTools::Tools::abortOperation</a></div><div class="ttdeci">void abortOperation(int type)</div><div class="ttdef"><b>Definition:</b> tools.cpp:238</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a3b4882d74f8ebb4fb8f9391977cd19bf"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a3b4882d74f8ebb4fb8f9391977cd19bf">CSMTools::Tools::getReport</a></div><div class="ttdeci">ReportModel * getReport(const CSMWorld::UniversalId &amp;id)</div><div class="ttdoc">The ownership of the returned report is not transferred. </div><div class="ttdef"><b>Definition:</b> tools.cpp:264</div></div>
-<div class="ttc" id="classCSMWorld_1_1Data_html"><div class="ttname"><a href="classCSMWorld_1_1Data.html">CSMWorld::Data</a></div><div class="ttdef"><b>Definition:</b> data.hpp:77</div></div>
+<div class="ttc" id="classCSMWorld_1_1Data_html"><div class="ttname"><a href="classCSMWorld_1_1Data.html">CSMWorld::Data</a></div><div class="ttdef"><b>Definition:</b> data.hpp:80</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_a6f908c0b60f97cf9a850ba5c1023c193"><div class="ttname"><a href="classCSMTools_1_1Tools.html#a6f908c0b60f97cf9a850ba5c1023c193">CSMTools::Tools::runVerifier</a></div><div class="ttdeci">CSMWorld::UniversalId runVerifier(const CSMWorld::UniversalId &amp;reportId=CSMWorld::UniversalId())</div><div class="ttdef"><b>Definition:</b> tools.cpp:182</div></div>
 <div class="ttc" id="namespaceToUTF8_html_af49c9c5fac0f53ebef744a9f42caec4f"><div class="ttname"><a href="namespaceToUTF8.html#af49c9c5fac0f53ebef744a9f42caec4f">ToUTF8::FromType</a></div><div class="ttdeci">FromType</div><div class="ttdef"><b>Definition:</b> to_utf8.hpp:11</div></div>
 <div class="ttc" id="classCSMTools_1_1Tools_html_aaf98105c173440629b7a56eb8e86c0e0"><div class="ttname"><a href="classCSMTools_1_1Tools.html#aaf98105c173440629b7a56eb8e86c0e0">CSMTools::Tools::runSearch</a></div><div class="ttdeci">void runSearch(const CSMWorld::UniversalId &amp;searchId, const Search &amp;search)</div><div class="ttdef"><b>Definition:</b> tools.cpp:204</div></div>
@@ -239,7 +239,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

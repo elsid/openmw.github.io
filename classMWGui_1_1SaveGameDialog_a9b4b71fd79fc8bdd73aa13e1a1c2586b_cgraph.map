@@ -1,29 +1,31 @@
 <map id="MWGui::SaveGameDialog::onSlotActivated" name="MWGui::SaveGameDialog::onSlotActivated">
-<area shape="rect" id="node2" href="$classMWGui_1_1SaveGameDialog.html#a2fe28da1d982c2876863c81fbb0c4c2c" title="MWGui::SaveGameDialog\l::onSlotSelected" alt="" coords="237,210,421,251"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1SaveGameDialog.html#aa25940916c10ed75e16b62e5e013b857" title="MWGui::SaveGameDialog\l::accept" alt="" coords="237,674,421,715"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1SaveGameDialog.html#a2fe28da1d982c2876863c81fbb0c4c2c" title="MWGui::SaveGameDialog\l::onSlotSelected" alt="" coords="237,217,421,258"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1SaveGameDialog.html#aa25940916c10ed75e16b62e5e013b857" title="MWGui::SaveGameDialog\l::accept" alt="" coords="237,813,421,854"/>
 <area shape="rect" id="node3" href="$classMWState_1_1Character.html#a46d862d1d655b0732474635994d57bbb" title="Any call to createSlot and updateSlot can invalidate the returned iterator. " alt="" coords="507,5,658,46"/>
 <area shape="rect" id="node4" href="$classMWState_1_1Character.html#af3c9879ded43ca7f911247d91119adab" title="MWState::Character::end" alt="" coords="491,71,674,97"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="984,407,1179,433"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="500,122,665,163"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1World.html#a7796036e96d42bbe0e3117ce0e089b28" title="Return name of month (&#45;1: current month) " alt="" coords="469,188,696,215"/>
-<area shape="rect" id="node8" href="$classSettings_1_1Manager.html#a7e998aa8bd957a6852d4232facb801a2" title="Settings::Manager::\lgetBool" alt="" coords="509,239,656,281"/>
-<area shape="rect" id="node13" href="$namespaceMWGui.html#a6a744b5d80973c41992f394b17dfd328" title="MWGui::formatTimeplayed" alt="" coords="488,305,677,332"/>
-<area shape="rect" id="node9" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="744,199,936,241"/>
-<area shape="rect" id="node12" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="767,265,913,306"/>
-<area shape="rect" id="node10" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="1015,199,1147,241"/>
-<area shape="rect" id="node11" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1227,199,1359,241"/>
-<area shape="rect" id="node15" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="999,943,1164,985"/>
-<area shape="rect" id="node16" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="988,769,1175,810"/>
-<area shape="rect" id="node17" href="$classMWBase_1_1WindowManager.html#a44278ba1956ea9dea0dc636983291834" title="MWBase::WindowManager\l::getConfirmationDialog" alt="" coords="489,458,676,499"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1ConfirmationDialog.html#a586c6ab382eaddb22b5819b3b782a23d" title="MWGui::ConfirmationDialog\l::askForConfirmation" alt="" coords="485,523,680,565"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea" title="Sets the visibility of the window. " alt="" coords="760,586,920,627"/>
-<area shape="rect" id="node23" href="$classMWGui_1_1SaveGameDialog.html#aec975d9c2b51a8b80b22e20b3915d1cc" title="MWGui::SaveGameDialog\l::onConfirmationGiven" alt="" coords="491,641,675,682"/>
-<area shape="rect" id="node24" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="489,706,676,747"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1WindowManager.html#ab36f5f1555718fb7cdfa2683a5779356" title="can be anywhere in the stack " alt="" coords="489,771,676,813"/>
-<area shape="rect" id="node26" href="$classMWBase_1_1Environment.html#ae60832df5f6fa126b04ebae43e075bfd" title="MWBase::Environment\l::getStateManager" alt="" coords="500,889,665,930"/>
-<area shape="rect" id="node27" href="$classMWBase_1_1StateManager.html#a99de4d766e4b9bd71eff4634f9e1d571" title="MWBase::StateManager\l::saveGame" alt="" coords="495,954,670,995"/>
-<area shape="rect" id="node28" href="$classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93" title="MWBase::StateManager\l::loadGame" alt="" coords="495,1019,670,1061"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c" title="MWGui::WindowBase::\lcenter" alt="" coords="760,521,920,562"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" title="Notify that window has been made visible. " alt="" coords="985,564,1177,591"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" title="Notify that window has been hidden. " alt="" coords="1001,615,1161,657"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="984,791,1179,817"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="500,187,665,229"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1World.html#a7796036e96d42bbe0e3117ce0e089b28" title="Return name of month (&#45;1: current month) " alt="" coords="469,253,696,280"/>
+<area shape="rect" id="node8" href="$classSettings_1_1Manager.html#a7e998aa8bd957a6852d4232facb801a2" title="Settings::Manager::\lgetBool" alt="" coords="509,122,656,163"/>
+<area shape="rect" id="node13" href="$namespaceMWGui.html#a6a744b5d80973c41992f394b17dfd328" title="MWGui::formatTimeplayed" alt="" coords="488,304,677,331"/>
+<area shape="rect" id="node9" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="744,90,936,131"/>
+<area shape="rect" id="node12" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="767,155,913,197"/>
+<area shape="rect" id="node10" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="1015,90,1147,131"/>
+<area shape="rect" id="node11" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1227,90,1359,131"/>
+<area shape="rect" id="node15" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="999,879,1164,921"/>
+<area shape="rect" id="node16" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="988,966,1175,1007"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1WindowManager.html#a44278ba1956ea9dea0dc636983291834" title="MWBase::WindowManager\l::getConfirmationDialog" alt="" coords="489,1017,676,1058"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1ConfirmationDialog.html#aab75f39a7f7857b3bae9d0380b50ac37" title="MWGui::ConfirmationDialog\l::askForConfirmation" alt="" coords="485,951,680,993"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea" title="Sets the visibility of the window. " alt="" coords="760,1075,920,1117"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1SaveGameDialog.html#aec975d9c2b51a8b80b22e20b3915d1cc" title="MWGui::SaveGameDialog\l::onConfirmationGiven" alt="" coords="491,1193,675,1234"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1SaveGameDialog.html#a112c15bbaae110184cd2757a7e6ba4e7" title="MWGui::SaveGameDialog\l::onConfirmationCancel" alt="" coords="748,842,932,883"/>
+<area shape="rect" id="node25" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="489,457,676,498"/>
+<area shape="rect" id="node26" href="$classMWBase_1_1Environment.html#ae60832df5f6fa126b04ebae43e075bfd" title="MWBase::Environment\l::getStateManager" alt="" coords="500,522,665,563"/>
+<area shape="rect" id="node27" href="$classMWBase_1_1StateManager.html#a6a3c99c541f6498df017949596cc44d3" title="MWBase::StateManager\l::getState" alt="" coords="495,587,670,629"/>
+<area shape="rect" id="node28" href="$classMWBase_1_1WindowManager.html#a06cceabaf883f8f8d017398f8b349c6a" title="can be anywhere in the stack " alt="" coords="489,653,676,694"/>
+<area shape="rect" id="node29" href="$classMWBase_1_1StateManager.html#a99de4d766e4b9bd71eff4634f9e1d571" title="MWBase::StateManager\l::saveGame" alt="" coords="495,718,670,759"/>
+<area shape="rect" id="node30" href="$classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93" title="MWBase::StateManager\l::loadGame" alt="" coords="495,783,670,825"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c" title="MWGui::WindowBase::\lcenter" alt="" coords="760,1010,920,1051"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" title="Notify that window has been made visible. " alt="" coords="1001,1061,1161,1102"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" title="Notify that window has been hidden. " alt="" coords="1001,1126,1161,1167"/>
 </map>

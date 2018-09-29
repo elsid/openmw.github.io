@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,11 +109,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> typedef</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a755f83a5ab5611949038cca92f745e1b">complete</a>()=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a5e5140e93c45cbb5f68f4c25bbaf1088">create</a>(int pageWidth, int pageHeight)</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a6852dccc3cceb00ee74438952b88bb4a">createHotStyle</a>(Style *BaseStyle, Colour NormalColour, Colour HoverColour, Colour ActiveColour, InteractiveId Id, bool Unique=true)=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#ab07e01e8a9c31a7976383252c9c3bd48">createStyle</a>(char const *Font, Colour Colour)=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#ae78aee9d94ea042743eacc3516577c46">createHotStyle</a>(Style *BaseStyle, const Colour &amp;NormalColour, const Colour &amp;HoverColour, const Colour &amp;ActiveColour, InteractiveId Id, bool Unique=true)=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a0c592663b7765d92b4677080d4e6eea1">createStyle</a>(const std::string &amp;fontName, const Colour &amp;colour, bool useBookFont=true)=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a583e34366c37113ce393ddc68892d239">InteractiveId</a> typedef</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a1f0d0d0c1b6d04b227ebe75bd7f0c1ab">lineBreak</a>(float margin=0)=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#af23986be6e8c85dff2dbfd0e7181c42d">Ptr</a> typedef</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a2736367cf915a61400fe9a3bddef9ff1">Ptr</a> typedef</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#afffc6273351441e9654c20f96732f7fb">sectionBreak</a>(int margin=0)=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a0c1b43fccaae845298ffebe4282dc9f2">selectContent</a>(intptr_t contentHandle)=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html#a04c6a25f40233dd0c368370792ef01ec">setSectionAlignment</a>(Alignment sectionAlignment)=0</td><td class="entry"><a class="el" href="structMWGui_1_1BookTypesetter.html">MWGui::BookTypesetter</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
@@ -124,7 +124,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:01 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:34 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,51 +1,51 @@
 <map id="MWMechanics::CastSpell::applyInstantEffect" name="MWMechanics::CastSpell::applyInstantEffect">
 <area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="257,5,423,32"/>
 <area shape="rect" id="node3" href="$classMWWorld_1_1Class.html#a50d4307fdbf1526901a81b8f5f1b7106" title="MWWorld::Class::canLock" alt="" coords="250,56,430,83"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="755,153,949,180"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="769,255,935,297"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="249,461,431,488"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="251,512,429,539"/>
-<area shape="rect" id="node8" href="$classMWBase_1_1World.html#aea171eaf012a7d6eaa24c8c474f579dd" title="MWBase::World::getAnimation" alt="" coords="234,563,446,589"/>
-<area shape="rect" id="node9" href="$classMWRender_1_1Animation.html#abed989fb7189cb08942784a17bdc1261" title="MWRender::Animation\l::addSpellCastGlow" alt="" coords="259,614,421,655"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="253,745,427,772"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1CellRef.html#af460188f6ef3dda8eee3ece8a412e3c4" title="MWWorld::CellRef::getLock\lLevel" alt="" coords="247,797,433,838"/>
-<area shape="rect" id="node16" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="509,208,688,235"/>
-<area shape="rect" id="node18" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="257,862,423,903"/>
-<area shape="rect" id="node19" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="247,927,433,969"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html#abf575ffd3200705cc6665afa69f2f0bd" title="Lock object (default implementation: throw an exception) " alt="" coords="263,993,417,1020"/>
-<area shape="rect" id="node21" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="516,375,681,417"/>
-<area shape="rect" id="node22" href="$classMWBase_1_1SoundManager.html#a29793d56f5aa3902dac261ba34b1cddd" title="MWBase::SoundManager\l::playSound3D" alt="" coords="508,441,689,482"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="259,1044,421,1071"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="254,1095,426,1121"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="253,1146,427,1187"/>
-<area shape="rect" id="node26" href="$classMWBase_1_1MechanicsManager.html#a3c1838e316597408520690cdb7e8b10b" title="Utility to check if opening (i.e. unlocking) this object is illegal and calling commitCrime if so..." alt="" coords="237,1211,443,1253"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1Class.html#a657f3de0d5662f790ecdff83f5601293" title="Unlock object (default implementation: throw an exception) " alt="" coords="255,1277,425,1304"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="237,1329,443,1370"/>
-<area shape="rect" id="node29" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="235,1394,445,1435"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1ActiveSpells.html#a8641f58f2416d03a01cebab5a97afc40" title="Remove all active effects, if roll succeeds (for each effect) " alt="" coords="242,1459,438,1501"/>
-<area shape="rect" id="node32" href="$classMWBase_1_1World.html#af4b1c526ed1f439559fdc42e3993a797" title="MWBase::World::teleportTo\lClosestMarker" alt="" coords="245,1525,435,1566"/>
-<area shape="rect" id="node33" href="$classMWRender_1_1Animation.html#a7e3cf398c2863d9d03128461eb06d13b" title="MWRender::Animation\l::removeEffect" alt="" coords="259,1590,421,1631"/>
-<area shape="rect" id="node34" href="$classMWRender_1_1Animation.html#a1ad2390344ae9c1560289082c500be9e" title="Add an effect mesh attached to a bone or the insert scene node. " alt="" coords="259,679,421,721"/>
-<area shape="rect" id="node40" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="247,1656,433,1683"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1Player.html#a8cb9e17d2d65df8168c38f92d54ca3ee" title="MWWorld::Player::markPosition" alt="" coords="232,1707,448,1733"/>
-<area shape="rect" id="node42" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="262,1757,418,1784"/>
-<area shape="rect" id="node43" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="249,1808,431,1835"/>
-<area shape="rect" id="node44" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="233,1859,447,1885"/>
-<area shape="rect" id="node45" href="$classMWWorld_1_1Player.html#a0c51b7bf12cadd164cdaf50d06b9d7b1" title="MWWorld::Player::getMarked\lPosition" alt="" coords="239,1910,441,1951"/>
-<area shape="rect" id="node46" href="$classMWWorld_1_1CellStore.html#a0cf5ba632c9f67dc25d28e4bebd8c8f5" title="MWWorld::CellStore\l::isExterior" alt="" coords="268,1975,412,2017"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="268,2041,412,2082"/>
-<area shape="rect" id="node49" href="$classMWWorld_1_1Action.html#aff8076501d1af8d06047220802293b5c" title="MWWorld::Action::execute" alt="" coords="247,309,433,336"/>
-<area shape="rect" id="node10" href="$classMWRender_1_1Animation.html#aee82ebb9884fbd0f8b563d8e0c2465fb" title="MWRender::Animation\l::addGlow" alt="" coords="518,506,679,547"/>
-<area shape="rect" id="node11" href="$classResource_1_1ResourceSystem.html#ac9829e6c125ba11b7615b1e5c566b641" title="Resource::ResourceSystem\l::getImageManager" alt="" coords="755,437,949,478"/>
-<area shape="rect" id="node12" href="$classResource_1_1ImageManager.html#a225f9f7be2c2d86c57f52c0ae990fbb8" title="Resource::ImageManager\l::getImage" alt="" coords="760,502,944,543"/>
-<area shape="rect" id="node13" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="755,567,949,609"/>
-<area shape="rect" id="node17" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="750,204,954,231"/>
-<area shape="rect" id="node31" href="$classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1" title="return value in range [0, 99] " alt="" coords="525,1467,672,1493"/>
-<area shape="rect" id="node35" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="518,623,679,665"/>
-<area shape="rect" id="node36" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="533,689,665,730"/>
-<area shape="rect" id="node37" href="$classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b" title="Resource::SceneManager\l::getInstance" alt="" coords="507,754,691,795"/>
-<area shape="rect" id="node38" href="$classSceneUtil_1_1FindMaxControllerLengthVisitor.html#a368e3299dd11b6f195b4e6fa63c5db48" title="SceneUtil::FindMaxController\lLengthVisitor::getMaxLength" alt="" coords="496,819,701,861"/>
-<area shape="rect" id="node39" href="$namespaceMWRender.html#add8c2ed3ee5a5b2d525c32dc9c8b7a74" title="MWRender::overrideFirstRoot\lTexture" alt="" coords="497,885,700,926"/>
-<area shape="rect" id="node47" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="525,1983,673,2009"/>
-<area shape="rect" id="node50" href="$classMWBase_1_1SoundManager.html#a86faa2600e30cc6fd9b127e12d1c12bc" title="MWBase::SoundManager\l::playSound" alt="" coords="508,310,689,351"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="755,461,949,488"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="769,201,935,242"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="507,157,690,184"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="509,360,688,387"/>
+<area shape="rect" id="node8" href="$classMWBase_1_1World.html#aea171eaf012a7d6eaa24c8c474f579dd" title="MWBase::World::getAnimation" alt="" coords="234,789,446,816"/>
+<area shape="rect" id="node9" href="$classMWRender_1_1Animation.html#abed989fb7189cb08942784a17bdc1261" title="MWRender::Animation\l::addSpellCastGlow" alt="" coords="259,841,421,882"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="253,972,427,999"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1CellRef.html#af460188f6ef3dda8eee3ece8a412e3c4" title="MWWorld::CellRef::getLock\lLevel" alt="" coords="247,1023,433,1065"/>
+<area shape="rect" id="node15" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="509,411,688,437"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="516,513,681,554"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="247,1089,433,1130"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1Class.html#abf575ffd3200705cc6665afa69f2f0bd" title="Lock object (default implementation: throw an exception) " alt="" coords="263,1155,417,1181"/>
+<area shape="rect" id="node20" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="516,761,681,802"/>
+<area shape="rect" id="node21" href="$classMWBase_1_1SoundManager.html#a8d1c492f97504786ce42225af0471af3" title="MWBase::SoundManager\l::playSound3D" alt="" coords="508,826,689,867"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="259,1205,421,1232"/>
+<area shape="rect" id="node23" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="253,1257,427,1298"/>
+<area shape="rect" id="node24" href="$classMWBase_1_1MechanicsManager.html#a3c1838e316597408520690cdb7e8b10b" title="Utility to check if opening (i.e. unlocking) this object is illegal and calling commitCrime if so..." alt="" coords="237,1322,443,1363"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1Class.html#a657f3de0d5662f790ecdff83f5601293" title="Unlock object (default implementation: throw an exception) " alt="" coords="255,1388,425,1415"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="254,1439,426,1465"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="237,1490,443,1531"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="235,1555,445,1597"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1ActiveSpells.html#a3079641d7058af1d279b45932dc96770" title="Remove all active effects, if roll succeeds (for each effect) " alt="" coords="242,273,438,314"/>
+<area shape="rect" id="node31" href="$classMWBase_1_1World.html#af4b1c526ed1f439559fdc42e3993a797" title="MWBase::World::teleportTo\lClosestMarker" alt="" coords="245,1621,435,1662"/>
+<area shape="rect" id="node32" href="$classMWRender_1_1Animation.html#a7e3cf398c2863d9d03128461eb06d13b" title="MWRender::Animation\l::removeEffect" alt="" coords="259,1686,421,1727"/>
+<area shape="rect" id="node33" href="$classMWRender_1_1Animation.html#aa8100b647609f31d4ecbdc0a78028e69" title="Add an effect mesh attached to a bone or the insert scene node. " alt="" coords="259,906,421,947"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="247,1752,433,1779"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1Player.html#a26d7f1098c4264589ad2b1430f8a9794" title="MWWorld::Player::markPosition" alt="" coords="232,1803,448,1829"/>
+<area shape="rect" id="node41" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="262,1853,418,1880"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="249,1904,431,1931"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="233,1955,447,1981"/>
+<area shape="rect" id="node44" href="$classMWWorld_1_1Player.html#a0c51b7bf12cadd164cdaf50d06b9d7b1" title="MWWorld::Player::getMarked\lPosition" alt="" coords="239,2006,441,2047"/>
+<area shape="rect" id="node45" href="$classMWWorld_1_1CellStore.html#a0cf5ba632c9f67dc25d28e4bebd8c8f5" title="MWWorld::CellStore\l::isExterior" alt="" coords="268,2071,412,2113"/>
+<area shape="rect" id="node47" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="268,2137,412,2178"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1Action.html#a40a02d650fbcc77561d98c2ec4d50b18" title="MWWorld::Action::execute" alt="" coords="247,637,433,664"/>
+<area shape="rect" id="node10" href="$classMWRender_1_1Animation.html#aee82ebb9884fbd0f8b563d8e0c2465fb" title="MWRender::Animation\l::addGlow" alt="" coords="518,891,679,933"/>
+<area shape="rect" id="node11" href="$classResource_1_1ResourceSystem.html#ac9829e6c125ba11b7615b1e5c566b641" title="Resource::ResourceSystem\l::getImageManager" alt="" coords="755,891,949,933"/>
+<area shape="rect" id="node12" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="755,1083,949,1125"/>
+<area shape="rect" id="node16" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="750,411,954,437"/>
+<area shape="rect" id="node30" href="$classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1" title="return value in range [0, 99] " alt="" coords="525,259,672,285"/>
+<area shape="rect" id="node34" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="518,1270,679,1311"/>
+<area shape="rect" id="node35" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="533,957,665,998"/>
+<area shape="rect" id="node36" href="$classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b" title="Resource::SceneManager\l::getInstance" alt="" coords="507,1022,691,1063"/>
+<area shape="rect" id="node37" href="$classSceneUtil_1_1FindMaxControllerLengthVisitor.html#a368e3299dd11b6f195b4e6fa63c5db48" title="SceneUtil::FindMaxController\lLengthVisitor::getMaxLength" alt="" coords="496,1087,701,1129"/>
+<area shape="rect" id="node38" href="$namespaceMWRender.html#add8c2ed3ee5a5b2d525c32dc9c8b7a74" title="MWRender::overrideFirstRoot\lTexture" alt="" coords="497,1153,700,1194"/>
+<area shape="rect" id="node46" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="525,2079,673,2105"/>
+<area shape="rect" id="node49" href="$classMWBase_1_1WindowManager.html#acbea74d90003b269859a0d8c8c2cc5c4" title="MWBase::WindowManager\l::isGuiMode" alt="" coords="505,695,692,737"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1SoundManager.html#a6cbd39be0a33c81c6f6da6ca37267d1a" title="MWBase::SoundManager\l::playSound" alt="" coords="508,630,689,671"/>
 </map>

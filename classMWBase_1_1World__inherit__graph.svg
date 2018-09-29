@@ -18,15 +18,15 @@
 <polyline fill="none" stroke="black" points="-0.5,-587.5 158.5,-587.5 "/>
 <text text-anchor="start" x="7.5" y="-575.5" font-family="FreeSans" font-size="10.00">+ World()</text>
 <text text-anchor="start" x="7.5" y="-564.5" font-family="FreeSans" font-size="10.00">+ ~World()</text>
-<text text-anchor="start" x="7.5" y="-553.5" font-family="FreeSans" font-size="10.00">+ preloadCommonAssets()</text>
-<text text-anchor="start" x="7.5" y="-542.5" font-family="FreeSans" font-size="10.00">+ startNewGame()</text>
-<text text-anchor="start" x="7.5" y="-531.5" font-family="FreeSans" font-size="10.00">+ clear()</text>
-<text text-anchor="start" x="7.5" y="-520.5" font-family="FreeSans" font-size="10.00">+ countSavedGameRecords()</text>
-<text text-anchor="start" x="7.5" y="-509.5" font-family="FreeSans" font-size="10.00">+ countSavedGameCells()</text>
-<text text-anchor="start" x="7.5" y="-498.5" font-family="FreeSans" font-size="10.00">+ write()</text>
-<text text-anchor="start" x="7.5" y="-487.5" font-family="FreeSans" font-size="10.00">+ readRecord()</text>
-<text text-anchor="start" x="7.5" y="-476.5" font-family="FreeSans" font-size="10.00">+ getExterior()</text>
-<text text-anchor="start" x="7.5" y="-465.5" font-family="FreeSans" font-size="10.00">and 167 more...</text>
+<text text-anchor="start" x="7.5" y="-553.5" font-family="FreeSans" font-size="10.00">+ startNewGame()</text>
+<text text-anchor="start" x="7.5" y="-542.5" font-family="FreeSans" font-size="10.00">+ clear()</text>
+<text text-anchor="start" x="7.5" y="-531.5" font-family="FreeSans" font-size="10.00">+ countSavedGameRecords()</text>
+<text text-anchor="start" x="7.5" y="-520.5" font-family="FreeSans" font-size="10.00">+ countSavedGameCells()</text>
+<text text-anchor="start" x="7.5" y="-509.5" font-family="FreeSans" font-size="10.00">+ write()</text>
+<text text-anchor="start" x="7.5" y="-498.5" font-family="FreeSans" font-size="10.00">+ readRecord()</text>
+<text text-anchor="start" x="7.5" y="-487.5" font-family="FreeSans" font-size="10.00">+ getExterior()</text>
+<text text-anchor="start" x="7.5" y="-476.5" font-family="FreeSans" font-size="10.00">+ getInterior()</text>
+<text text-anchor="start" x="7.5" y="-465.5" font-family="FreeSans" font-size="10.00">and 178 more...</text>
 <text text-anchor="start" x="7.5" y="-454.5" font-family="FreeSans" font-size="10.00">&#45; World()</text>
 <text text-anchor="start" x="7.5" y="-443.5" font-family="FreeSans" font-size="10.00">&#45; operator=()</text>
 </g>
@@ -38,27 +38,27 @@
 <polyline fill="none" stroke="black" points="-0.5,-380 158.5,-380 "/>
 <text text-anchor="start" x="7.5" y="-368" font-family="FreeSans" font-size="10.00">&#45; mResourceSystem</text>
 <text text-anchor="start" x="7.5" y="-357" font-family="FreeSans" font-size="10.00">&#45; mFallback</text>
-<text text-anchor="start" x="7.5" y="-346" font-family="FreeSans" font-size="10.00">&#45; mRendering</text>
-<text text-anchor="start" x="7.5" y="-335" font-family="FreeSans" font-size="10.00">&#45; mWeatherManager</text>
-<text text-anchor="start" x="7.5" y="-324" font-family="FreeSans" font-size="10.00">&#45; mWorldScene</text>
-<text text-anchor="start" x="7.5" y="-313" font-family="FreeSans" font-size="10.00">&#45; mPlayer</text>
-<text text-anchor="start" x="7.5" y="-302" font-family="FreeSans" font-size="10.00">&#45; mEsm</text>
-<text text-anchor="start" x="7.5" y="-291" font-family="FreeSans" font-size="10.00">&#45; mStore</text>
-<text text-anchor="start" x="7.5" y="-280" font-family="FreeSans" font-size="10.00">&#45; mLocalScripts</text>
-<text text-anchor="start" x="7.5" y="-269" font-family="FreeSans" font-size="10.00">&#45; mGlobalVariables</text>
-<text text-anchor="start" x="7.5" y="-258" font-family="FreeSans" font-size="10.00">and 24 more...</text>
+<text text-anchor="start" x="7.5" y="-346" font-family="FreeSans" font-size="10.00">&#45; mEsm</text>
+<text text-anchor="start" x="7.5" y="-335" font-family="FreeSans" font-size="10.00">&#45; mStore</text>
+<text text-anchor="start" x="7.5" y="-324" font-family="FreeSans" font-size="10.00">&#45; mLocalScripts</text>
+<text text-anchor="start" x="7.5" y="-313" font-family="FreeSans" font-size="10.00">&#45; mGlobalVariables</text>
+<text text-anchor="start" x="7.5" y="-302" font-family="FreeSans" font-size="10.00">&#45; mSky</text>
+<text text-anchor="start" x="7.5" y="-291" font-family="FreeSans" font-size="10.00">&#45; mGameHour</text>
+<text text-anchor="start" x="7.5" y="-280" font-family="FreeSans" font-size="10.00">&#45; mDaysPassed</text>
+<text text-anchor="start" x="7.5" y="-269" font-family="FreeSans" font-size="10.00">&#45; mDay</text>
+<text text-anchor="start" x="7.5" y="-258" font-family="FreeSans" font-size="10.00">and 28 more...</text>
 <polyline fill="none" stroke="black" points="-0.5,-251 158.5,-251 "/>
 <text text-anchor="start" x="7.5" y="-239" font-family="FreeSans" font-size="10.00">+ removeContainerScripts()</text>
 <text text-anchor="start" x="7.5" y="-228" font-family="FreeSans" font-size="10.00">+ World()</text>
 <text text-anchor="start" x="7.5" y="-217" font-family="FreeSans" font-size="10.00">+ ~World()</text>
 <text text-anchor="start" x="7.5" y="-206" font-family="FreeSans" font-size="10.00">+ startNewGame()</text>
-<text text-anchor="start" x="7.5" y="-195" font-family="FreeSans" font-size="10.00">+ preloadCommonAssets()</text>
-<text text-anchor="start" x="7.5" y="-184" font-family="FreeSans" font-size="10.00">+ clear()</text>
-<text text-anchor="start" x="7.5" y="-173" font-family="FreeSans" font-size="10.00">+ countSavedGameRecords()</text>
-<text text-anchor="start" x="7.5" y="-162" font-family="FreeSans" font-size="10.00">+ countSavedGameCells()</text>
-<text text-anchor="start" x="7.5" y="-151" font-family="FreeSans" font-size="10.00">+ write()</text>
-<text text-anchor="start" x="7.5" y="-140" font-family="FreeSans" font-size="10.00">+ readRecord()</text>
-<text text-anchor="start" x="7.5" y="-129" font-family="FreeSans" font-size="10.00">and 167 more...</text>
+<text text-anchor="start" x="7.5" y="-195" font-family="FreeSans" font-size="10.00">+ clear()</text>
+<text text-anchor="start" x="7.5" y="-184" font-family="FreeSans" font-size="10.00">+ countSavedGameRecords()</text>
+<text text-anchor="start" x="7.5" y="-173" font-family="FreeSans" font-size="10.00">+ countSavedGameCells()</text>
+<text text-anchor="start" x="7.5" y="-162" font-family="FreeSans" font-size="10.00">+ write()</text>
+<text text-anchor="start" x="7.5" y="-151" font-family="FreeSans" font-size="10.00">+ readRecord()</text>
+<text text-anchor="start" x="7.5" y="-140" font-family="FreeSans" font-size="10.00">+ getExterior()</text>
+<text text-anchor="start" x="7.5" y="-129" font-family="FreeSans" font-size="10.00">and 178 more...</text>
 <text text-anchor="start" x="7.5" y="-118" font-family="FreeSans" font-size="10.00">&#45; World()</text>
 <text text-anchor="start" x="7.5" y="-107" font-family="FreeSans" font-size="10.00">&#45; operator=()</text>
 <text text-anchor="start" x="7.5" y="-96" font-family="FreeSans" font-size="10.00">&#45; updateWeather()</text>
@@ -67,9 +67,9 @@
 <text text-anchor="start" x="7.5" y="-63" font-family="FreeSans" font-size="10.00">&#45; moveObjectImp()</text>
 <text text-anchor="start" x="7.5" y="-52" font-family="FreeSans" font-size="10.00">&#45; copyObjectToCell()</text>
 <text text-anchor="start" x="7.5" y="-41" font-family="FreeSans" font-size="10.00">&#45; updateSoundListener()</text>
-<text text-anchor="start" x="7.5" y="-30" font-family="FreeSans" font-size="10.00">&#45; updateWindowManager()</text>
-<text text-anchor="start" x="7.5" y="-19" font-family="FreeSans" font-size="10.00">&#45; updatePlayer()</text>
-<text text-anchor="start" x="7.5" y="-8" font-family="FreeSans" font-size="10.00">and 13 more...</text>
+<text text-anchor="start" x="7.5" y="-30" font-family="FreeSans" font-size="10.00">&#45; updatePlayer()</text>
+<text text-anchor="start" x="7.5" y="-19" font-family="FreeSans" font-size="10.00">&#45; preloadSpells()</text>
+<text text-anchor="start" x="7.5" y="-8" font-family="FreeSans" font-size="10.00">and 12 more...</text>
 </a>
 </g>
 </g>

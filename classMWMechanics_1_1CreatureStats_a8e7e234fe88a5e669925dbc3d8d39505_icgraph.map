@@ -1,17 +1,18 @@
 <map id="MWMechanics::CreatureStats::setMovementFlag" name="MWMechanics::CreatureStats::setMovementFlag">
 <area shape="rect" id="node2" href="$classMWMechanics_1_1AiAvoidDoor.html#a5fa68d42f604952261d79d52e50364eb" title="MWMechanics::AiAvoidDoor\l::execute" alt="" coords="274,5,470,46"/>
-<area shape="rect" id="node3" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="281,70,463,111"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1AiEscort.html#a8e777d65cdd79467e0cf3ca8a2b5ac64" title="MWMechanics::AiEscort\l::execute" alt="" coords="287,135,457,177"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1AiFollow.html#a46a78984dc926468b9db0ae888906a4f" title="MWMechanics::AiFollow\l::execute" alt="" coords="287,201,457,242"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1AiPursue.html#a10d92ff90997658bcdbd28030e9beb4c" title="MWMechanics::AiPursue\l::execute" alt="" coords="285,266,459,307"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1AiTravel.html#a4bddb7ecc2f427141eaf73cc91cfa6fd" title="MWMechanics::AiTravel\l::execute" alt="" coords="289,331,455,373"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1AiWander.html#a77aa326ba83d5024ec4cc5ebd207fa92" title="MWMechanics::AiWander\l::execute" alt="" coords="283,397,461,438"/>
-<area shape="rect" id="node10" href="$classMWScript_1_1Control_1_1OpClearMovementFlag.html#aa0e790b5a51f95a483dfafa379d87590" title="MWScript::Control::\lOpClearMovementFlag\l::execute" alt="" coords="289,461,455,517"/>
-<area shape="rect" id="node11" href="$classMWScript_1_1Control_1_1OpSetMovementFlag.html#af347003aed4568af1eb7c5ded15825ed" title="MWScript::Control::\lOpSetMovementFlag::execute" alt="" coords="265,541,479,582"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Player.html#ab50e23961647f93f2cdab41dcb100353" title="MWWorld::Player::setRunState" alt="" coords="267,607,477,633"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Player.html#a96d566d2a3a2e3b60ba64bf8e476efa0" title="MWWorld::Player::setSneak" alt="" coords="275,657,469,684"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="529,70,711,111"/>
-<area shape="rect" id="node13" href="$classMWInput_1_1InputManager.html#a4b0ab846314afae0286b8ac579a407c8" title="MWInput::InputManager\l::update" alt="" coords="534,599,706,641"/>
-<area shape="rect" id="node15" href="$classMWInput_1_1InputManager.html#a3f2a9ce0d3499966e4c2bc1a87ef6d64" title="MWInput::InputManager\l::toggleSneaking" alt="" coords="534,665,706,706"/>
-<area shape="rect" id="node16" href="$classMWInput_1_1InputManager.html#a36df0af06e2c3c1d192cc7f9fccfde5d" title="MWInput::InputManager\l::channelChanged" alt="" coords="761,665,933,706"/>
+<area shape="rect" id="node3" href="$classMWMechanics_1_1AiBreathe.html#a389756b790a4013947431064efaed8e1" title="MWMechanics::AiBreathe\l::execute" alt="" coords="281,70,463,111"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="281,135,463,177"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1AiEscort.html#a8e777d65cdd79467e0cf3ca8a2b5ac64" title="MWMechanics::AiEscort\l::execute" alt="" coords="287,201,457,242"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1AiFollow.html#a46a78984dc926468b9db0ae888906a4f" title="MWMechanics::AiFollow\l::execute" alt="" coords="287,266,457,307"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1AiPursue.html#a10d92ff90997658bcdbd28030e9beb4c" title="MWMechanics::AiPursue\l::execute" alt="" coords="285,331,459,373"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1AiTravel.html#a4bddb7ecc2f427141eaf73cc91cfa6fd" title="MWMechanics::AiTravel\l::execute" alt="" coords="289,397,455,438"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1AiWander.html#a77aa326ba83d5024ec4cc5ebd207fa92" title="MWMechanics::AiWander\l::execute" alt="" coords="283,462,461,503"/>
+<area shape="rect" id="node11" href="$classMWScript_1_1Control_1_1OpClearMovementFlag.html#aa0e790b5a51f95a483dfafa379d87590" title="MWScript::Control::\lOpClearMovementFlag\l::execute" alt="" coords="289,527,455,583"/>
+<area shape="rect" id="node12" href="$classMWScript_1_1Control_1_1OpSetMovementFlag.html#af347003aed4568af1eb7c5ded15825ed" title="MWScript::Control::\lOpSetMovementFlag::execute" alt="" coords="265,606,479,647"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Player.html#ab50e23961647f93f2cdab41dcb100353" title="MWWorld::Player::setRunState" alt="" coords="267,672,477,699"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1Player.html#a96d566d2a3a2e3b60ba64bf8e476efa0" title="MWWorld::Player::setSneak" alt="" coords="275,723,469,749"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="529,135,711,177"/>
+<area shape="rect" id="node14" href="$classMWInput_1_1InputManager.html#a4b0ab846314afae0286b8ac579a407c8" title="MWInput::InputManager\l::update" alt="" coords="534,665,706,706"/>
+<area shape="rect" id="node16" href="$classMWInput_1_1InputManager.html#a3f2a9ce0d3499966e4c2bc1a87ef6d64" title="MWInput::InputManager\l::toggleSneaking" alt="" coords="534,730,706,771"/>
+<area shape="rect" id="node17" href="$classMWInput_1_1InputManager.html#a36df0af06e2c3c1d192cc7f9fccfde5d" title="MWInput::InputManager\l::channelChanged" alt="" coords="761,730,933,771"/>
 </map>

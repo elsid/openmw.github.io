@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,13 +111,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for CSMDoc::DocumentManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMDoc_1_1DocumentManager__inherit__graph.svg" width="216" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMDoc_1_1DocumentManager__inherit__graph.svg" width="216" height="582"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CSMDoc::DocumentManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMDoc_1_1DocumentManager__coll__graph.svg" width="4008" height="3171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMDoc_1_1DocumentManager__coll__graph.svg" width="5824" height="2755"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -168,8 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1175f7fc5cdc9508eb217968944ad6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab23baeb3f15e0c042ad4e6232d9b06a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#ab23baeb3f15e0c042ad4e6232d9b06a1">setBlacklistedScripts</a> (const std::vector&lt; std::string &gt; &amp;scriptIds)</td></tr>
 <tr class="separator:ab23baeb3f15e0c042ad4e6232d9b06a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af67788860202fbdfb9fa2d80a703d294"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#af67788860202fbdfb9fa2d80a703d294">setVFS</a> (const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a> *vfs)</td></tr>
-<tr class="separator:af67788860202fbdfb9fa2d80a703d294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a31081a682104b9d56667debfe8993"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#a98a31081a682104b9d56667debfe8993">setFileData</a> (<a class="el" href="classbool.html">bool</a> strict, const <a class="el" href="namespaceFiles.html#ad89bb52784ce0cc7541cf8a254646233">Files::PathContainer</a> &amp;dataPaths, const std::vector&lt; std::string &gt; &amp;archives)</td></tr>
+<tr class="memdesc:a98a31081a682104b9d56667debfe8993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the file data that gets passed to newly created documents.  <a href="#a98a31081a682104b9d56667debfe8993">More...</a><br/></td></tr>
+<tr class="separator:a98a31081a682104b9d56667debfe8993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fc30d11fde45369991199c02ea83c47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#a1fc30d11fde45369991199c02ea83c47">isEmpty</a> ()</td></tr>
 <tr class="separator:a1fc30d11fde45369991199c02ea83c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -200,16 +201,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0c9009f027ef11b620ebefb0e0fe61a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ba30dacae3c8556d0d60487c516de11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceToUTF8.html#af49c9c5fac0f53ebef744a9f42caec4f">ToUTF8::FromType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#a8ba30dacae3c8556d0d60487c516de11">mEncoding</a></td></tr>
 <tr class="separator:a8ba30dacae3c8556d0d60487c516de11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed53c7b8e16e03be6dc2382c1bc326c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCSMWorld_1_1ResourcesManager.html">CSMWorld::ResourcesManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#aed53c7b8e16e03be6dc2382c1bc326c7">mResourcesManager</a></td></tr>
-<tr class="separator:aed53c7b8e16e03be6dc2382c1bc326c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e5d7aadf00fb7fb166c385cd0713651"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#a1e5d7aadf00fb7fb166c385cd0713651">mBlacklistedScripts</a></td></tr>
 <tr class="separator:a1e5d7aadf00fb7fb166c385cd0713651"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0775d0057feb4ac036366f37ba01cb1b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#a0775d0057feb4ac036366f37ba01cb1b">mVFS</a></td></tr>
-<tr class="separator:a0775d0057feb4ac036366f37ba01cb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae434c2b3e44172a633828b416a1c0b58"><td class="memItemLeft" align="right" valign="top">boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#ae434c2b3e44172a633828b416a1c0b58">mResDir</a></td></tr>
 <tr class="separator:ae434c2b3e44172a633828b416a1c0b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f5a664364cd82ac0ac898aab61b98b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFallback_1_1Map.html">Fallback::Map</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#a0f5a664364cd82ac0ac898aab61b98b3">mFallbackMap</a></td></tr>
 <tr class="separator:a0f5a664364cd82ac0ac898aab61b98b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290093ed65086abadce4fce1673415c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#a290093ed65086abadce4fce1673415c8">mFsStrict</a></td></tr>
+<tr class="separator:a290093ed65086abadce4fce1673415c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af989f47b98f773ab4f5ed711c027a088"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceFiles.html#ad89bb52784ce0cc7541cf8a254646233">Files::PathContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#af989f47b98f773ab4f5ed711c027a088">mDataPaths</a></td></tr>
+<tr class="separator:af989f47b98f773ab4f5ed711c027a088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a092fd94d699084ba834aaa84c822edd2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMDoc_1_1DocumentManager.html#a092fd94d699084ba834aaa84c822edd2">mArchives</a></td></tr>
+<tr class="separator:a092fd94d699084ba834aaa84c822edd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="adf5575cd432ba70a9eb69cea143afa05"></a>
@@ -875,6 +878,48 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a98a31081a682104b9d56667debfe8993"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CSMDoc::DocumentManager::setFileData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>strict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceFiles.html#ad89bb52784ce0cc7541cf8a254646233">Files::PathContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>dataPaths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>archives</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the file data that gets passed to newly created documents. </p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMDoc_1_1DocumentManager_a98a31081a682104b9d56667debfe8993_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="ad9d0ee3853e69f25f67b6bbdcf667bca"></a>
 <div class="memitem">
 <div class="memproto">
@@ -891,31 +936,27 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="af67788860202fbdfb9fa2d80a703d294"></a>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a092fd94d699084ba834aaa84c822edd2"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CSMDoc::DocumentManager::setVFS </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a> *&#160;</td>
-          <td class="paramname"><em>vfs</em></td><td>)</td>
-          <td></td>
+          <td class="memname">std::vector&lt;std::string&gt; CSMDoc::DocumentManager::mArchives</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMDoc_1_1DocumentManager_af67788860202fbdfb9fa2d80a703d294_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a1e5d7aadf00fb7fb166c385cd0713651"></a>
 <div class="memitem">
 <div class="memproto">
@@ -945,6 +986,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="structFiles_1_1ConfigurationManager.html">Files::ConfigurationManager</a>&amp; CSMDoc::DocumentManager::mConfiguration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af989f47b98f773ab4f5ed711c027a088"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceFiles.html#ad89bb52784ce0cc7541cf8a254646233">Files::PathContainer</a> CSMDoc::DocumentManager::mDataPaths</td>
         </tr>
       </table>
   </td>
@@ -1016,6 +1077,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a290093ed65086abadce4fce1673415c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> CSMDoc::DocumentManager::mFsStrict</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a0c9009f027ef11b620ebefb0e0fe61a5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1076,54 +1157,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="aed53c7b8e16e03be6dc2382c1bc326c7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classCSMWorld_1_1ResourcesManager.html">CSMWorld::ResourcesManager</a> CSMDoc::DocumentManager::mResourcesManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0775d0057feb4ac036366f37ba01cb1b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a>* CSMDoc::DocumentManager::mVFS</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/doc/<a class="el" href="documentmanager_8hpp_source.html">documentmanager.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/doc/<a class="el" href="documentmanager_8cpp.html">documentmanager.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/doc/<a class="el" href="documentmanager_8hpp_source.html">documentmanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/doc/<a class="el" href="documentmanager_8cpp.html">documentmanager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:56 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:28 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -59,23 +59,24 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" target="_top" xlink:title="Notify that window has been made visible. ">
-<polygon fill="white" stroke="black" points="365,-186.5 365,-205.5 509,-205.5 509,-186.5 365,-186.5"/>
-<text text-anchor="middle" x="437" y="-193.5" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::open</text>
+<g id="a_node5"><a xlink:href="classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" target="_top" xlink:title="Notify that window has been made visible. ">
+<polygon fill="white" stroke="black" points="377,-186 377,-216 497,-216 497,-186 377,-186"/>
+<text text-anchor="start" x="385" y="-204" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
+<text text-anchor="middle" x="437" y="-193" font-family="FreeSans" font-size="10.00">onOpen</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M311.095,-123.093C317.03,-125.953 322.837,-129.247 328,-133 348.161,-147.655 343.048,-162.5 364,-176 368.015,-178.587 372.364,-180.843 376.867,-182.81"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="375.684,-186.105 386.273,-186.457 378.214,-179.579 375.684,-186.105"/>
+<path fill="none" stroke="midnightblue" d="M311.095,-123.093C317.03,-125.953 322.837,-129.247 328,-133 348.161,-147.655 343.485,-161.845 364,-176 366.864,-177.976 369.899,-179.81 373.041,-181.51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="371.599,-184.701 382.119,-185.954 374.676,-178.414 371.599,-184.701"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" target="_top" xlink:title="Notify that window has been hidden. ">
+<g id="a_node6"><a xlink:href="classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" target="_top" xlink:title="Notify that window has been hidden. ">
 <polygon fill="white" stroke="black" points="377,-137 377,-167 497,-167 497,-137 377,-137"/>
 <text text-anchor="start" x="385" y="-155" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
-<text text-anchor="middle" x="437" y="-144" font-family="FreeSans" font-size="10.00">close</text>
+<text text-anchor="middle" x="437" y="-144" font-family="FreeSans" font-size="10.00">onClose</text>
 </a>
 </g>
 </g>

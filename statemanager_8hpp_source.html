@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwbase/statemanager.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwbase/statemanager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -148,31 +148,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a2928b6cd25036d7ce8719ec2345353a2">endGame</a>() = 0;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a551779a4b0d452753ce081f7bc573040">deleteGame</a> (<span class="keyword">const</span> <a class="code" href="classMWState_1_1Character.html">MWState::Character</a> *character, <span class="keyword">const</span> <a class="code" href="structMWState_1_1Slot.html">MWState::Slot</a> *slot) = 0;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#abea516e683812e2eda789c36adc352bb">resumeGame</a>() = 0;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a99de4d766e4b9bd71eff4634f9e1d571">saveGame</a> (<span class="keyword">const</span> std::string&amp; description, <span class="keyword">const</span> <a class="code" href="structMWState_1_1Slot.html">MWState::Slot</a> *slot = 0) = 0;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93">loadGame</a> (<span class="keyword">const</span> std::string&amp; filepath) = 0;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93">loadGame</a> (<span class="keyword">const</span> <a class="code" href="classMWState_1_1Character.html">MWState::Character</a> *character, <span class="keyword">const</span> std::string&amp; filepath) = 0;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a551779a4b0d452753ce081f7bc573040">deleteGame</a> (<span class="keyword">const</span> <a class="code" href="classMWState_1_1Character.html">MWState::Character</a> *character, <span class="keyword">const</span> <a class="code" href="structMWState_1_1Slot.html">MWState::Slot</a> *slot) = 0;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a99de4d766e4b9bd71eff4634f9e1d571">saveGame</a> (<span class="keyword">const</span> std::string&amp; description, <span class="keyword">const</span> <a class="code" href="structMWState_1_1Slot.html">MWState::Slot</a> *slot = 0) = 0;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93">loadGame</a> (<span class="keyword">const</span> std::string&amp; filepath) = 0;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93">loadGame</a> (<span class="keyword">const</span> <a class="code" href="classMWState_1_1Character.html">MWState::Character</a> *character, <span class="keyword">const</span> std::string&amp; filepath) = 0;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a6853a1bd650f8a68b8e37fdc1e57a17f">quickSave</a>(std::string = <span class="stringliteral">&quot;Quicksave&quot;</span>)=0;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a6853a1bd650f8a68b8e37fdc1e57a17f">quickSave</a>(std::string = <span class="stringliteral">&quot;Quicksave&quot;</span>)=0;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a800b5ffb485dbcb7e21b265939e40e13">quickLoad</a>()=0;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classMWState_1_1Character.html">MWState::Character</a> *<a class="code" href="classMWBase_1_1StateManager.html#a92110ac13d9c07b569fb8ae3b7e87edf">getCurrentCharacter</a> () = 0;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classMWBase_1_1StateManager.html#ac82a9b4e61c55ab172b003bb5b5eff24">CharacterIterator</a> <a class="code" href="classMWBase_1_1StateManager.html#aa737a1cbe9de84a99cc19c3881071cf6">characterBegin</a>() = 0;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classMWBase_1_1StateManager.html#ac82a9b4e61c55ab172b003bb5b5eff24">CharacterIterator</a> <a class="code" href="classMWBase_1_1StateManager.html#a08aee180fce373e834603b2ca481bdd4">characterEnd</a>() = 0;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#a800b5ffb485dbcb7e21b265939e40e13">quickLoad</a>()=0;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classMWState_1_1Character.html">MWState::Character</a> *<a class="code" href="classMWBase_1_1StateManager.html#a92110ac13d9c07b569fb8ae3b7e87edf">getCurrentCharacter</a> () = 0;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classMWBase_1_1StateManager.html#ac82a9b4e61c55ab172b003bb5b5eff24">CharacterIterator</a> <a class="code" href="classMWBase_1_1StateManager.html#aa737a1cbe9de84a99cc19c3881071cf6">characterBegin</a>() = 0;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#aea8eb61f0f184fe6c9dac6a476942eea">update</a> (<span class="keywordtype">float</span> duration) = 0;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    };</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classMWBase_1_1StateManager.html#ac82a9b4e61c55ab172b003bb5b5eff24">CharacterIterator</a> <a class="code" href="classMWBase_1_1StateManager.html#a08aee180fce373e834603b2ca481bdd4">characterEnd</a>() = 0;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWBase_1_1StateManager.html#aea8eb61f0f184fe6c9dac6a476942eea">update</a> (<span class="keywordtype">float</span> duration) = 0;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    };</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classMWBase_1_1StateManager_html_a1984721106154973f4757fe29081bf3e"><div class="ttname"><a href="classMWBase_1_1StateManager.html#a1984721106154973f4757fe29081bf3e">MWBase::StateManager::askLoadRecent</a></div><div class="ttdeci">virtual void askLoadRecent()=0</div></div>
 <div class="ttc" id="classMWState_1_1Character_html"><div class="ttname"><a href="classMWState_1_1Character.html">MWState::Character</a></div><div class="ttdef"><b>Definition:</b> character.hpp:19</div></div>
 <div class="ttc" id="classMWBase_1_1StateManager_html_a92110ac13d9c07b569fb8ae3b7e87edf"><div class="ttname"><a href="classMWBase_1_1StateManager.html#a92110ac13d9c07b569fb8ae3b7e87edf">MWBase::StateManager::getCurrentCharacter</a></div><div class="ttdeci">virtual MWState::Character * getCurrentCharacter()=0</div></div>
@@ -185,6 +187,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classMWBase_1_1StateManager_html_aa51b82861d3d7bfbb52d8852785b5b93"><div class="ttname"><a href="classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93">MWBase::StateManager::loadGame</a></div><div class="ttdeci">virtual void loadGame(const std::string &amp;filepath)=0</div></div>
 <div class="ttc" id="classMWBase_1_1StateManager_html_a4bfd73ce1b50d75a636d160d10b26499a1a7a8d295f5410f2adf86f69b565066a"><div class="ttname"><a href="classMWBase_1_1StateManager.html#a4bfd73ce1b50d75a636d160d10b26499a1a7a8d295f5410f2adf86f69b565066a">MWBase::StateManager::State_Ended</a></div><div class="ttdef"><b>Definition:</b> statemanager.hpp:23</div></div>
 <div class="ttc" id="classMWBase_1_1StateManager_html_a800b5ffb485dbcb7e21b265939e40e13"><div class="ttname"><a href="classMWBase_1_1StateManager.html#a800b5ffb485dbcb7e21b265939e40e13">MWBase::StateManager::quickLoad</a></div><div class="ttdeci">virtual void quickLoad()=0</div><div class="ttdoc">Simple loader, loads the last saved file. </div></div>
+<div class="ttc" id="classMWBase_1_1StateManager_html_abea516e683812e2eda789c36adc352bb"><div class="ttname"><a href="classMWBase_1_1StateManager.html#abea516e683812e2eda789c36adc352bb">MWBase::StateManager::resumeGame</a></div><div class="ttdeci">virtual void resumeGame()=0</div></div>
 <div class="ttc" id="classMWBase_1_1StateManager_html_af65bfd80810d4971a64f0a37f89818b7"><div class="ttname"><a href="classMWBase_1_1StateManager.html#af65bfd80810d4971a64f0a37f89818b7">MWBase::StateManager::StateManager</a></div><div class="ttdeci">StateManager()</div><div class="ttdef"><b>Definition:</b> statemanager.hpp:39</div></div>
 <div class="ttc" id="classMWBase_1_1StateManager_html"><div class="ttname"><a href="classMWBase_1_1StateManager.html">MWBase::StateManager</a></div><div class="ttdoc">Interface for game state manager (implemented in MWState) </div><div class="ttdef"><b>Definition:</b> statemanager.hpp:16</div></div>
 <div class="ttc" id="classMWBase_1_1StateManager_html_a4bfd73ce1b50d75a636d160d10b26499"><div class="ttname"><a href="classMWBase_1_1StateManager.html#a4bfd73ce1b50d75a636d160d10b26499">MWBase::StateManager::State</a></div><div class="ttdeci">State</div><div class="ttdef"><b>Definition:</b> statemanager.hpp:20</div></div>
@@ -202,7 +205,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:49 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:20 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

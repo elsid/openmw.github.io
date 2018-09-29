@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -113,31 +113,29 @@ Collaboration diagram for NifOsg::LoaderImpl:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNifOsg_1_1LoaderImpl_1_1CompareMaterial.html">CompareMaterial</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNifOsg_1_1LoaderImpl_1_1CompareStateAttribute.html">CompareStateAttribute</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a38ff5ed360e985b1eb120458eeb86e6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a38ff5ed360e985b1eb120458eeb86e6b">LoaderImpl</a> (const std::string &amp;filename)</td></tr>
 <tr class="separator:a38ff5ed360e985b1eb120458eeb86e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43bf8ef11e322585196c9e26cfc7837d"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a43bf8ef11e322585196c9e26cfc7837d">load</a> (<a class="el" href="namespaceNif.html#a45c725188bb548292e4ab91f20522e93">Nif::NIFFilePtr</a> nif, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager)</td></tr>
+<tr class="memitem:a43bf8ef11e322585196c9e26cfc7837d"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a43bf8ef11e322585196c9e26cfc7837d">load</a> (<a class="el" href="namespaceNif.html#a70679f3dd492f9642c37cb6352037cd8">Nif::NIFFilePtr</a> nif, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager)</td></tr>
 <tr class="separator:a43bf8ef11e322585196c9e26cfc7837d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54821ffb61a6f3c95bd2428318c9e9e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a54821ffb61a6f3c95bd2428318c9e9e8">applyNodeProperties</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::Node *applyTo, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager, std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;boundTextures, <a class="el" href="classint.html">int</a> animflags)</td></tr>
 <tr class="separator:a54821ffb61a6f3c95bd2428318c9e9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6605c5238d9e4b1a726c99ed1be30ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#ac6605c5238d9e4b1a726c99ed1be30ca">setupController</a> (const <a class="el" href="classNif_1_1Controller.html">Nif::Controller</a> *ctrl, <a class="el" href="classSceneUtil_1_1Controller.html">SceneUtil::Controller</a> *toSetup, <a class="el" href="classint.html">int</a> animflags)</td></tr>
 <tr class="separator:ac6605c5238d9e4b1a726c99ed1be30ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27673ad7b73c2289ad26d38dd90214c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a27673ad7b73c2289ad26d38dd90214c3">setupParticleController</a> (const <a class="el" href="classNif_1_1Controller.html">Nif::Controller</a> *ctrl, <a class="el" href="classSceneUtil_1_1Controller.html">SceneUtil::Controller</a> *toSetup, <a class="el" href="classint.html">int</a> particleflags)</td></tr>
-<tr class="separator:a27673ad7b73c2289ad26d38dd90214c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d5e7fc185b5a0b86b32a67001d1a6bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a4d5e7fc185b5a0b86b32a67001d1a6bc">optimize</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::Group *node, <a class="el" href="classbool.html">bool</a> skipMeshes)</td></tr>
-<tr class="separator:a4d5e7fc185b5a0b86b32a67001d1a6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab73c6a4bfb9f13a386e07a32fbbc7688"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::LOD &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#ab73c6a4bfb9f13a386e07a32fbbc7688">handleLodNode</a> (const <a class="el" href="structNif_1_1NiLODNode.html">Nif::NiLODNode</a> *niLodNode)</td></tr>
 <tr class="separator:ab73c6a4bfb9f13a386e07a32fbbc7688"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da630d5407fd20059bacdb0f3da4e3b"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Image &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a9da630d5407fd20059bacdb0f3da4e3b">handleSourceTexture</a> (const <a class="el" href="classNif_1_1NiSourceTexture.html">Nif::NiSourceTexture</a> *st, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager)</td></tr>
 <tr class="separator:a9da630d5407fd20059bacdb0f3da4e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf725fc3f9d0c9e93916e2cba54723b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a1cf725fc3f9d0c9e93916e2cba54723b">handleEffect</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::Node *node, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager)</td></tr>
 <tr class="separator:a1cf725fc3f9d0c9e93916e2cba54723b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90d175c89e948a9736b07020c38e5e21"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a90d175c89e948a9736b07020c38e5e21">handleNode</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::Group *parentNode, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager, std::vector&lt; <a class="el" href="classint.html">int</a> &gt; boundTextures, <a class="el" href="classint.html">int</a> animflags, <a class="el" href="classint.html">int</a> particleflags, <a class="el" href="classbool.html">bool</a> skipMeshes, <a class="el" href="namespaceNifOsg.html#aa2a380295231645dd8d69bedaf0c79ab">TextKeyMap</a> *textKeys, osg::Node *rootNode=NULL)</td></tr>
-<tr class="separator:a90d175c89e948a9736b07020c38e5e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8f2f4776f1ace52a1d5849d09146c9"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Group &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a2e8f2f4776f1ace52a1d5849d09146c9">createNode</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode)</td></tr>
+<tr class="separator:a2e8f2f4776f1ace52a1d5849d09146c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d90eaf9667d42062b4876a88ed069b"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a31d90eaf9667d42062b4876a88ed069b">handleNode</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::Group *parentNode, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager, std::vector&lt; <a class="el" href="classint.html">int</a> &gt; boundTextures, <a class="el" href="classint.html">int</a> animflags, <a class="el" href="classbool.html">bool</a> skipMeshes, <a class="el" href="classbool.html">bool</a> hasMarkers, <a class="el" href="classbool.html">bool</a> isAnimated, <a class="el" href="namespaceNifOsg.html#aa2a380295231645dd8d69bedaf0c79ab">TextKeyMap</a> *textKeys, osg::Node *rootNode=NULL)</td></tr>
+<tr class="separator:a31d90eaf9667d42062b4876a88ed069b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04fd22c9e086a02bdf7c0329d9743bce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a04fd22c9e086a02bdf7c0329d9743bce">handleMeshControllers</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::Node *node, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;boundTextures, <a class="el" href="classint.html">int</a> animflags)</td></tr>
 <tr class="separator:a04fd22c9e086a02bdf7c0329d9743bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72bf2bd6d88fca1037022d22d9067ce6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a72bf2bd6d88fca1037022d22d9067ce6">handleNodeControllers</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::MatrixTransform *transformNode, <a class="el" href="classint.html">int</a> animflags)</td></tr>
@@ -154,14 +152,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2c65e05412da1f8cc0fc12b8da7b0641"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed06ed1512f3b4ae83c20b3ab33c1b1a"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; <a class="el" href="classNifOsg_1_1Emitter.html">Emitter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#aed06ed1512f3b4ae83c20b3ab33c1b1a">handleParticleEmitter</a> (const <a class="el" href="classNif_1_1NiParticleSystemController.html">Nif::NiParticleSystemController</a> *partctrl)</td></tr>
 <tr class="separator:aed06ed1512f3b4ae83c20b3ab33c1b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa77b7c890fa3e1f0cce4e4dc51ad618d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#aa77b7c890fa3e1f0cce4e4dc51ad618d">handleParticleSystem</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::Group *parentNode, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, <a class="el" href="classint.html">int</a> animflags, <a class="el" href="classint.html">int</a> particleflags, osg::Node *rootNode)</td></tr>
-<tr class="separator:aa77b7c890fa3e1f0cce4e4dc51ad618d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da466c877113dcf3cde32bdb4adf36d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a7da466c877113dcf3cde32bdb4adf36d">handleParticleSystem</a> (const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *nifNode, osg::Group *parentNode, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, <a class="el" href="classint.html">int</a> animflags, osg::Node *rootNode)</td></tr>
+<tr class="separator:a7da466c877113dcf3cde32bdb4adf36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1f7ab7e16a81b15b77387c8017790d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#aa1f7ab7e16a81b15b77387c8017790d0">triShapeToGeometry</a> (const <a class="el" href="structNif_1_1NiTriShape.html">Nif::NiTriShape</a> *triShape, osg::Geometry *geometry, osg::Node *parentNode, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;boundTextures, <a class="el" href="classint.html">int</a> animflags)</td></tr>
 <tr class="separator:aa1f7ab7e16a81b15b77387c8017790d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aada89a0706b45db0af7ceab21c8bda4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#aada89a0706b45db0af7ceab21c8bda4e">handleTriShape</a> (const <a class="el" href="structNif_1_1NiTriShape.html">Nif::NiTriShape</a> *triShape, osg::Group *parentNode, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;boundTextures, <a class="el" href="classint.html">int</a> animflags)</td></tr>
 <tr class="separator:aada89a0706b45db0af7ceab21c8bda4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05fba469d76133c8e05857fba18827e0"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Geometry &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a05fba469d76133c8e05857fba18827e0">handleMorphGeometry</a> (const <a class="el" href="classNif_1_1NiGeomMorpherController.html">Nif::NiGeomMorpherController</a> *morpher, const <a class="el" href="structNif_1_1NiTriShape.html">Nif::NiTriShape</a> *triShape, osg::Node *parentNode, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;boundTextures, <a class="el" href="classint.html">int</a> animflags)</td></tr>
-<tr class="separator:a05fba469d76133c8e05857fba18827e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affedd1b61694fb1947d605bd113b29ee"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Drawable &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#affedd1b61694fb1947d605bd113b29ee">handleMorphGeometry</a> (const <a class="el" href="classNif_1_1NiGeomMorpherController.html">Nif::NiGeomMorpherController</a> *morpher, const <a class="el" href="structNif_1_1NiTriShape.html">Nif::NiTriShape</a> *triShape, osg::Node *parentNode, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;boundTextures, <a class="el" href="classint.html">int</a> animflags)</td></tr>
+<tr class="separator:affedd1b61694fb1947d605bd113b29ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aebf4d6b3d881f8a5ec171b33faae96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a2aebf4d6b3d881f8a5ec171b33faae96">handleSkinnedTriShape</a> (const <a class="el" href="structNif_1_1NiTriShape.html">Nif::NiTriShape</a> *triShape, osg::Group *parentNode, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;boundTextures, <a class="el" href="classint.html">int</a> animflags)</td></tr>
 <tr class="separator:a2aebf4d6b3d881f8a5ec171b33faae96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a396f15e651f5aade32b93fc0183f6504"><td class="memItemLeft" align="right" valign="top">osg::BlendFunc::BlendFuncMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a396f15e651f5aade32b93fc0183f6504">getBlendMode</a> (<a class="el" href="classint.html">int</a> mode)</td></tr>
@@ -178,14 +176,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a77e549bc47da8976b2bdf0b776307862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae56d321bd507a39dee8a71463e5763b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#ae56d321bd507a39dee8a71463e5763b5">handleProperty</a> (const <a class="el" href="classNif_1_1Property.html">Nif::Property</a> *property, osg::Node *node, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager, std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;boundTextures, <a class="el" href="classint.html">int</a> animflags)</td></tr>
 <tr class="separator:ae56d321bd507a39dee8a71463e5763b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cb037f751117dd8bf79e317322b67d7"><td class="memItemLeft" align="right" valign="top">osg::Material *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a4cb037f751117dd8bf79e317322b67d7">shareMaterial</a> (osg::Material *mat)</td></tr>
-<tr class="separator:a4cb037f751117dd8bf79e317322b67d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a737a5e9ce4d6677426bde7063ba21420"><td class="memTemplParams" colspan="2">template&lt;class Attribute &gt; </td></tr>
+<tr class="memitem:a737a5e9ce4d6677426bde7063ba21420"><td class="memTemplItemLeft" align="right" valign="top">Attribute *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a737a5e9ce4d6677426bde7063ba21420">shareAttribute</a> (const osg::ref_ptr&lt; Attribute &gt; &amp;attr)</td></tr>
+<tr class="separator:a737a5e9ce4d6677426bde7063ba21420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a927b3c281e2b858c011dd5d14001ce56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a927b3c281e2b858c011dd5d14001ce56">applyDrawableProperties</a> (osg::Node *node, const std::vector&lt; const <a class="el" href="classNif_1_1Property.html">Nif::Property</a> * &gt; &amp;properties, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html">SceneUtil::CompositeStateSetUpdater</a> *composite, <a class="el" href="classbool.html">bool</a> hasVertexColors, <a class="el" href="classint.html">int</a> animflags, <a class="el" href="classbool.html">bool</a> particleMaterial)</td></tr>
 <tr class="separator:a927b3c281e2b858c011dd5d14001ce56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a39502f3edf665b573ae110ea801d913c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a39502f3edf665b573ae110ea801d913c">loadKf</a> (<a class="el" href="namespaceNif.html#a45c725188bb548292e4ab91f20522e93">Nif::NIFFilePtr</a> nif, <a class="el" href="classNifOsg_1_1KeyframeHolder.html">KeyframeHolder</a> &amp;target)</td></tr>
+<tr class="memitem:a39502f3edf665b573ae110ea801d913c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html#a39502f3edf665b573ae110ea801d913c">loadKf</a> (<a class="el" href="namespaceNif.html#a70679f3dd492f9642c37cb6352037cd8">Nif::NIFFilePtr</a> nif, <a class="el" href="classNifOsg_1_1KeyframeHolder.html">KeyframeHolder</a> &amp;target)</td></tr>
 <tr class="separator:a39502f3edf665b573ae110ea801d913c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -296,7 +295,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a927b3c281e2b858c011dd5d14001ce56_icgraph.svg" width="3816" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a927b3c281e2b858c011dd5d14001ce56_icgraph.svg" width="2851" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -370,7 +369,47 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a54821ffb61a6f3c95bd2428318c9e9e8_icgraph.svg" width="3179" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a54821ffb61a6f3c95bd2428318c9e9e8_icgraph.svg" width="2171" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2e8f2f4776f1ace52a1d5849d09146c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt;osg::Group&gt; NifOsg::LoaderImpl::createNode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *&#160;</td>
+          <td class="paramname"><em>nifNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a2e8f2f4776f1ace52a1d5849d09146c9_cgraph.svg" width="574" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a2e8f2f4776f1ace52a1d5849d09146c9_icgraph.svg" width="2152" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -402,7 +441,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a396f15e651f5aade32b93fc0183f6504_icgraph.svg" width="4008" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a396f15e651f5aade32b93fc0183f6504_icgraph.svg" width="3043" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -434,7 +473,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a38d9bcc54cd7f6436db9853bff0a3fad_icgraph.svg" width="3566" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a38d9bcc54cd7f6436db9853bff0a3fad_icgraph.svg" width="2558" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -466,7 +505,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ad7dcad3013746e71cc0136277530f2c4_icgraph.svg" width="3576" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ad7dcad3013746e71cc0136277530f2c4_icgraph.svg" width="2568" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -498,7 +537,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aeb5c639b7e2d60710ea526402f0f0fbb_icgraph.svg" width="4008" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aeb5c639b7e2d60710ea526402f0f0fbb_icgraph.svg" width="3043" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -554,7 +593,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a1cf725fc3f9d0c9e93916e2cba54723b_icgraph.svg" width="3160" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a1cf725fc3f9d0c9e93916e2cba54723b_icgraph.svg" width="2152" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -586,7 +625,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a8fb26aff2ac79961c60e56bb4cf42b35_icgraph.svg" width="4216" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a8fb26aff2ac79961c60e56bb4cf42b35_icgraph.svg" width="3251" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -618,7 +657,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ab73c6a4bfb9f13a386e07a32fbbc7688_icgraph.svg" width="3160" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ab73c6a4bfb9f13a386e07a32fbbc7688_icgraph.svg" width="2152" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -674,7 +713,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ace8a068b54a0c8faf18cfb17ab9d9865_icgraph.svg" width="4059" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ace8a068b54a0c8faf18cfb17ab9d9865_icgraph.svg" width="3094" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -742,14 +781,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a04fd22c9e086a02bdf7c0329d9743bce_icgraph.svg" width="3192" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a04fd22c9e086a02bdf7c0329d9743bce_icgraph.svg" width="2184" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a05fba469d76133c8e05857fba18827e0"></a>
+<a class="anchor" id="affedd1b61694fb1947d605bd113b29ee"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -757,7 +796,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">osg::ref_ptr&lt;osg::Geometry&gt; NifOsg::LoaderImpl::handleMorphGeometry </td>
+          <td class="memname">osg::ref_ptr&lt;osg::Drawable&gt; NifOsg::LoaderImpl::handleMorphGeometry </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classNif_1_1NiGeomMorpherController.html">Nif::NiGeomMorpherController</a> *&#160;</td>
           <td class="paramname"><em>morpher</em>, </td>
@@ -808,7 +847,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a05fba469d76133c8e05857fba18827e0_cgraph.svg" width="1368" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_affedd1b61694fb1947d605bd113b29ee_cgraph.svg" width="1368" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -816,14 +855,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a05fba469d76133c8e05857fba18827e0_icgraph.svg" width="3387" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_affedd1b61694fb1947d605bd113b29ee_icgraph.svg" width="2379" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a90d175c89e948a9736b07020c38e5e21"></a>
+<a class="anchor" id="a31d90eaf9667d42062b4876a88ed069b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -863,14 +902,20 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>particleflags</em>, </td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>skipMeshes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
-          <td class="paramname"><em>skipMeshes</em>, </td>
+          <td class="paramname"><em>hasMarkers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>isAnimated</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -900,7 +945,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a90d175c89e948a9736b07020c38e5e21_cgraph.svg" width="1608" height="2295"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a31d90eaf9667d42062b4876a88ed069b_cgraph.svg" width="1854" height="1992"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -908,7 +953,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a90d175c89e948a9736b07020c38e5e21_icgraph.svg" width="2968" height="1384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a31d90eaf9667d42062b4876a88ed069b_icgraph.svg" width="1960" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -964,7 +1009,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a72bf2bd6d88fca1037022d22d9067ce6_icgraph.svg" width="3192" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a72bf2bd6d88fca1037022d22d9067ce6_icgraph.svg" width="2184" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1004,7 +1049,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aed06ed1512f3b4ae83c20b3ab33c1b1a_icgraph.svg" width="3400" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aed06ed1512f3b4ae83c20b3ab33c1b1a_icgraph.svg" width="2392" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1052,7 +1097,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a2c65e05412da1f8cc0fc12b8da7b0641_icgraph.svg" width="3419" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a2c65e05412da1f8cc0fc12b8da7b0641_icgraph.svg" width="2411" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1120,14 +1165,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a16f7684dfa13c6a3f38e45d055ce2e22_icgraph.svg" width="3414" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a16f7684dfa13c6a3f38e45d055ce2e22_icgraph.svg" width="2406" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="aa77b7c890fa3e1f0cce4e4dc51ad618d"></a>
+<a class="anchor" id="a7da466c877113dcf3cde32bdb4adf36d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1161,12 +1206,6 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>particleflags</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">osg::Node *&#160;</td>
           <td class="paramname"><em>rootNode</em>&#160;</td>
         </tr>
@@ -1186,7 +1225,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aa77b7c890fa3e1f0cce4e4dc51ad618d_cgraph.svg" width="1147" height="750"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a7da466c877113dcf3cde32bdb4adf36d_cgraph.svg" width="1147" height="763"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1194,7 +1233,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aa77b7c890fa3e1f0cce4e4dc51ad618d_icgraph.svg" width="3184" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a7da466c877113dcf3cde32bdb4adf36d_icgraph.svg" width="2176" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1268,7 +1307,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ae56d321bd507a39dee8a71463e5763b5_icgraph.svg" width="3371" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ae56d321bd507a39dee8a71463e5763b5_icgraph.svg" width="2363" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1328,7 +1367,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a2aebf4d6b3d881f8a5ec171b33faae96_cgraph.svg" width="1504" height="2123"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a2aebf4d6b3d881f8a5ec171b33faae96_cgraph.svg" width="1368" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1336,7 +1375,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a2aebf4d6b3d881f8a5ec171b33faae96_icgraph.svg" width="3195" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a2aebf4d6b3d881f8a5ec171b33faae96_icgraph.svg" width="2187" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1386,7 +1425,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a9da630d5407fd20059bacdb0f3da4e3b_icgraph.svg" width="4000" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a9da630d5407fd20059bacdb0f3da4e3b_icgraph.svg" width="3035" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1454,7 +1493,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a1fa496f6d8c35df817128c180e577129_icgraph.svg" width="3830" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a1fa496f6d8c35df817128c180e577129_icgraph.svg" width="2822" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1528,7 +1567,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a77e549bc47da8976b2bdf0b776307862_icgraph.svg" width="3592" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a77e549bc47da8976b2bdf0b776307862_icgraph.svg" width="2584" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1588,7 +1627,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aada89a0706b45db0af7ceab21c8bda4e_cgraph.svg" width="1686" height="1880"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aada89a0706b45db0af7ceab21c8bda4e_cgraph.svg" width="1560" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1596,7 +1635,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aada89a0706b45db0af7ceab21c8bda4e_icgraph.svg" width="3160" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aada89a0706b45db0af7ceab21c8bda4e_icgraph.svg" width="2152" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1652,7 +1691,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aa639824cc8664569961604a5d5433ef4_icgraph.svg" width="3395" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aa639824cc8664569961604a5d5433ef4_icgraph.svg" width="2387" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1669,7 +1708,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">osg::ref_ptr&lt;osg::Node&gt; NifOsg::LoaderImpl::load </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceNif.html#a45c725188bb548292e4ab91f20522e93">Nif::NIFFilePtr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceNif.html#a70679f3dd492f9642c37cb6352037cd8">Nif::NIFFilePtr</a>&#160;</td>
           <td class="paramname"><em>nif</em>, </td>
         </tr>
         <tr>
@@ -1694,7 +1733,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a43bf8ef11e322585196c9e26cfc7837d_cgraph.svg" width="1800" height="2242"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a43bf8ef11e322585196c9e26cfc7837d_cgraph.svg" width="2046" height="2099"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1702,7 +1741,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a43bf8ef11e322585196c9e26cfc7837d_icgraph.svg" width="2776" height="1384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a43bf8ef11e322585196c9e26cfc7837d_icgraph.svg" width="1768" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1719,7 +1758,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static void NifOsg::LoaderImpl::loadKf </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceNif.html#a45c725188bb548292e4ab91f20522e93">Nif::NIFFilePtr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceNif.html#a70679f3dd492f9642c37cb6352037cd8">Nif::NIFFilePtr</a>&#160;</td>
           <td class="paramname"><em>nif</em>, </td>
         </tr>
         <tr>
@@ -1752,63 +1791,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a39502f3edf665b573ae110ea801d913c_icgraph.svg" width="2523" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a4d5e7fc185b5a0b86b32a67001d1a6bc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void NifOsg::LoaderImpl::optimize </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classNif_1_1Node.html">Nif::Node</a> *&#160;</td>
-          <td class="paramname"><em>nifNode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">osg::Group *&#160;</td>
-          <td class="paramname"><em>node</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
-          <td class="paramname"><em>skipMeshes</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a4d5e7fc185b5a0b86b32a67001d1a6bc_cgraph.svg" width="555" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a4d5e7fc185b5a0b86b32a67001d1a6bc_icgraph.svg" width="3160" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a39502f3edf665b573ae110ea801d913c_icgraph.svg" width="3062" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1864,81 +1847,27 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ac6605c5238d9e4b1a726c99ed1be30ca_icgraph.svg" width="3718" height="1259"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_ac6605c5238d9e4b1a726c99ed1be30ca_icgraph.svg" width="3302" height="435"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a27673ad7b73c2289ad26d38dd90214c3"></a>
+<a class="anchor" id="a737a5e9ce4d6677426bde7063ba21420"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class Attribute &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void NifOsg::LoaderImpl::setupParticleController </td>
+          <td class="memname">Attribute* NifOsg::LoaderImpl::shareAttribute </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classNif_1_1Controller.html">Nif::Controller</a> *&#160;</td>
-          <td class="paramname"><em>ctrl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSceneUtil_1_1Controller.html">SceneUtil::Controller</a> *&#160;</td>
-          <td class="paramname"><em>toSetup</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>particleflags</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a27673ad7b73c2289ad26d38dd90214c3_cgraph.svg" width="390" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a27673ad7b73c2289ad26d38dd90214c3_icgraph.svg" width="3408" height="1403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a4cb037f751117dd8bf79e317322b67d7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">osg::Material* NifOsg::LoaderImpl::shareMaterial </td>
-          <td>(</td>
-          <td class="paramtype">osg::Material *&#160;</td>
-          <td class="paramname"><em>mat</em></td><td>)</td>
+          <td class="paramtype">const osg::ref_ptr&lt; Attribute &gt; &amp;&#160;</td>
+          <td class="paramname"><em>attr</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1952,7 +1881,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a4cb037f751117dd8bf79e317322b67d7_icgraph.svg" width="4008" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_a737a5e9ce4d6677426bde7063ba21420_icgraph.svg" width="3043" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2026,7 +1955,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aa1f7ab7e16a81b15b77387c8017790d0_icgraph.svg" width="3632" height="1404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1LoaderImpl_aa1f7ab7e16a81b15b77387c8017790d0_icgraph.svg" width="2624" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2071,12 +2000,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/nifosg/<a class="el" href="nifloader_8cpp.html">nifloader.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/nifosg/<a class="el" href="nifloader_8cpp.html">nifloader.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

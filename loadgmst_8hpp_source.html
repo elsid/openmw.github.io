@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/esm/loadgmst.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/esm/loadgmst.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -126,41 +126,31 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structESM_1_1GameSetting.html#ac370391eaa42c6712f3d8cba584b4a52">load</a>(<a class="code" href="classESM_1_1ESMReader.html">ESMReader</a> &amp;esm, <span class="keywordtype">bool</span> &amp;isDeleted);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structESM_1_1GameSetting.html#a9bb7866c040b6874c29455c5a2c20a5f">save</a>(<a class="code" href="classESM_1_1ESMWriter.html">ESMWriter</a> &amp;esm, <span class="keywordtype">bool</span> isDeleted = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structESM_1_1GameSetting.html#a1fcd19eb4d50405ecf1e9b4920a48f9d">getInt</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344">getFloat</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    std::string <a class="code" href="structESM_1_1GameSetting.html#a5a65ccb12013396de6a17c3a41051391">getString</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structESM_1_1GameSetting.html#a9bb7866c040b6874c29455c5a2c20a5f">save</a>(<a class="code" href="classESM_1_1ESMWriter.html">ESMWriter</a> &amp;esm, <span class="keywordtype">bool</span> isDeleted = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structESM_1_1GameSetting.html#aeac079f39728c5393b0163952aff9128">blank</a>();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;};</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="namespaceESM.html#a4f9503bf9f7f999de95dc88d035e589b">operator== </a>(<span class="keyword">const</span> <a class="code" href="structESM_1_1GameSetting.html">GameSetting</a>&amp; left, <span class="keyword">const</span> <a class="code" href="structESM_1_1GameSetting.html">GameSetting</a>&amp; right);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structESM_1_1GameSetting.html#aeac079f39728c5393b0163952aff9128">blank</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="namespaceESM.html#a4f9503bf9f7f999de95dc88d035e589b">operator== </a>(<span class="keyword">const</span> <a class="code" href="structESM_1_1GameSetting.html">GameSetting</a>&amp; left, <span class="keyword">const</span> <a class="code" href="structESM_1_1GameSetting.html">GameSetting</a>&amp; right);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="namespaceESM_html_a4f9503bf9f7f999de95dc88d035e589b"><div class="ttname"><a href="namespaceESM.html#a4f9503bf9f7f999de95dc88d035e589b">ESM::operator==</a></div><div class="ttdeci">bool operator==(const CellId &amp;left, const CellId &amp;right)</div><div class="ttdef"><b>Definition:</b> cellid.cpp:29</div></div>
 <div class="ttc" id="classESM_1_1ESMReader_html"><div class="ttname"><a href="classESM_1_1ESMReader.html">ESM::ESMReader</a></div><div class="ttdef"><b>Definition:</b> esmreader.hpp:21</div></div>
 <div class="ttc" id="structESM_1_1GameSetting_html"><div class="ttname"><a href="structESM_1_1GameSetting.html">ESM::GameSetting</a></div><div class="ttdef"><b>Definition:</b> loadgmst.hpp:19</div></div>
-<div class="ttc" id="structESM_1_1GameSetting_html_adf86d0e6166ce3e4ec8a75ab31380344"><div class="ttname"><a href="structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344">ESM::GameSetting::getFloat</a></div><div class="ttdeci">float getFloat() const </div><div class="ttdoc">Throws an exception if GMST is not of type int or float. </div><div class="ttdef"><b>Definition:</b> loadgmst.cpp:30</div></div>
 <div class="ttc" id="structESM_1_1GameSetting_html_ac370391eaa42c6712f3d8cba584b4a52"><div class="ttname"><a href="structESM_1_1GameSetting.html#ac370391eaa42c6712f3d8cba584b4a52">ESM::GameSetting::load</a></div><div class="ttdeci">void load(ESMReader &amp;esm, bool &amp;isDeleted)</div><div class="ttdef"><b>Definition:</b> loadgmst.cpp:11</div></div>
 <div class="ttc" id="classESM_1_1ESMWriter_html"><div class="ttname"><a href="classESM_1_1ESMWriter.html">ESM::ESMWriter</a></div><div class="ttdef"><b>Definition:</b> esmwriter.hpp:17</div></div>
 <div class="ttc" id="variant_8hpp_html"><div class="ttname"><a href="variant_8hpp.html">variant.hpp</a></div></div>
 <div class="ttc" id="structESM_1_1GameSetting_html_ac8da63b4853bcec14f1ce958365db97f"><div class="ttname"><a href="structESM_1_1GameSetting.html#ac8da63b4853bcec14f1ce958365db97f">ESM::GameSetting::mId</a></div><div class="ttdeci">std::string mId</div><div class="ttdef"><b>Definition:</b> loadgmst.hpp:25</div></div>
-<div class="ttc" id="structESM_1_1GameSetting_html_a1fcd19eb4d50405ecf1e9b4920a48f9d"><div class="ttname"><a href="structESM_1_1GameSetting.html#a1fcd19eb4d50405ecf1e9b4920a48f9d">ESM::GameSetting::getInt</a></div><div class="ttdeci">int getInt() const </div><div class="ttdoc">Throws an exception if GMST is not of type int or float. </div><div class="ttdef"><b>Definition:</b> loadgmst.cpp:25</div></div>
 <div class="ttc" id="structESM_1_1GameSetting_html_a9bb7866c040b6874c29455c5a2c20a5f"><div class="ttname"><a href="structESM_1_1GameSetting.html#a9bb7866c040b6874c29455c5a2c20a5f">ESM::GameSetting::save</a></div><div class="ttdeci">void save(ESMWriter &amp;esm, bool isDeleted=false) const </div><div class="ttdef"><b>Definition:</b> loadgmst.cpp:19</div></div>
 <div class="ttc" id="structESM_1_1GameSetting_html_a3eaf8ec017cb085d7a993c551065d13e"><div class="ttname"><a href="structESM_1_1GameSetting.html#a3eaf8ec017cb085d7a993c551065d13e">ESM::GameSetting::getRecordType</a></div><div class="ttdeci">static std::string getRecordType()</div><div class="ttdoc">Return a string descriptor for this record type. Currently used for debugging / error logs only...</div><div class="ttdef"><b>Definition:</b> loadgmst.hpp:23</div></div>
-<div class="ttc" id="structESM_1_1GameSetting_html_aeac079f39728c5393b0163952aff9128"><div class="ttname"><a href="structESM_1_1GameSetting.html#aeac079f39728c5393b0163952aff9128">ESM::GameSetting::blank</a></div><div class="ttdeci">void blank()</div><div class="ttdoc">Set record to default state (does not touch the ID). </div><div class="ttdef"><b>Definition:</b> loadgmst.cpp:40</div></div>
+<div class="ttc" id="structESM_1_1GameSetting_html_aeac079f39728c5393b0163952aff9128"><div class="ttname"><a href="structESM_1_1GameSetting.html#aeac079f39728c5393b0163952aff9128">ESM::GameSetting::blank</a></div><div class="ttdeci">void blank()</div><div class="ttdoc">Set record to default state (does not touch the ID). </div><div class="ttdef"><b>Definition:</b> loadgmst.cpp:25</div></div>
 <div class="ttc" id="classESM_1_1Variant_html"><div class="ttname"><a href="classESM_1_1Variant.html">ESM::Variant</a></div><div class="ttdef"><b>Definition:</b> variant.hpp:25</div></div>
 <div class="ttc" id="structESM_1_1GameSetting_html_a05962e96350aa0b120aa4f5aad51d67f"><div class="ttname"><a href="structESM_1_1GameSetting.html#a05962e96350aa0b120aa4f5aad51d67f">ESM::GameSetting::mValue</a></div><div class="ttdeci">Variant mValue</div><div class="ttdef"><b>Definition:</b> loadgmst.hpp:27</div></div>
 <div class="ttc" id="structESM_1_1GameSetting_html_a6b4713a26cdcfe8842873437202b7eb1"><div class="ttname"><a href="structESM_1_1GameSetting.html#a6b4713a26cdcfe8842873437202b7eb1">ESM::GameSetting::sRecordId</a></div><div class="ttdeci">static unsigned int sRecordId</div><div class="ttdef"><b>Definition:</b> loadgmst.hpp:21</div></div>
-<div class="ttc" id="structESM_1_1GameSetting_html_a5a65ccb12013396de6a17c3a41051391"><div class="ttname"><a href="structESM_1_1GameSetting.html#a5a65ccb12013396de6a17c3a41051391">ESM::GameSetting::getString</a></div><div class="ttdeci">std::string getString() const </div><div class="ttdoc">Throwns an exception if GMST is not of type string. </div><div class="ttdef"><b>Definition:</b> loadgmst.cpp:35</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,25 +1,51 @@
 <map id="MWMechanics::rateEffect" name="MWMechanics::rateEffect">
-<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="551,5,718,32"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1Class.html#ab7faa52d10908b636947819a16dcd3f7" title="MWWorld::Class::getEncumbrance" alt="" coords="235,463,472,489"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#a5969231dc5558154176b8522e3a3cf70" title="MWWorld::Class::getCapacity" alt="" coords="251,513,455,540"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1Class.html#a93babe591b0f7b9bb79adbdeccff099a" title="MWWorld::Class::isNpc" alt="" coords="272,564,435,591"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="287,615,420,641"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="537,56,732,83"/>
-<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="552,107,717,149"/>
-<area shape="rect" id="node11" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="543,355,726,381"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="545,405,724,432"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="532,457,737,498"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1DynamicStat.html#a5341e59c91e5cc6782ef8f8fa1177bda" title="MWMechanics::DynamicStat\l::getModified" alt="" coords="252,666,455,707"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="252,731,455,773"/>
-<area shape="rect" id="node16" href="$namespaceanonymous__namespace_02aicombataction_8cpp_03.html#adb64155ef70fd5747955b139a16cec0b" title="anonymous_namespace\l\{aicombataction::cpp\}\l::numEffectsToCure" alt="" coords="264,231,443,287"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="272,797,435,824"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="249,849,458,890"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="248,914,459,955"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="249,980,457,1007"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1NpcStats.html#ab1e372c44ef1d0159a4c5041ca5a0b57" title="MWMechanics::NpcStats\l::getSkill" alt="" coords="264,1031,443,1073"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="535,615,735,641"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="797,615,1013,641"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="530,173,739,214"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1ActiveSpells.html#a7cd012fbaf717271309900a900a35ec0" title="MWMechanics::ActiveSpells\l::begin" alt="" coords="537,238,733,279"/>
-<area shape="rect" id="node19" href="$classMWMechanics_1_1ActiveSpells.html#a75ca6b2c4c1be33c74400096e9df6926" title="MWMechanics::ActiveSpells::end" alt="" coords="521,304,749,331"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="839,123,1001,150"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="837,911,1003,938"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="817,1714,1023,1756"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1CreatureStats.html#ae2b73054fdaf82052f81f3bde5a9c90c" title="MWMechanics::CreatureStats\l::isParalyzed" alt="" coords="253,230,462,272"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="529,238,757,264"/>
+<area shape="rect" id="node7" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="545,289,741,330"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1CreatureStats.html#a4a90e70442c62575c00017c0ea0626cc" title="MWMechanics::CreatureStats\l::getKnockedDown" alt="" coords="253,348,462,389"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1CreatureStats.html#a574d0e9716ba3e0cddcac22a3f943e7a" title="MWMechanics::CreatureStats\l::getDrawState" alt="" coords="253,413,462,454"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="253,478,462,520"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Class.html#a23032de169e9d4dc8932bae21e46e9b0" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="537,614,748,656"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#ab7faa52d10908b636947819a16dcd3f7" title="MWWorld::Class::getEncumbrance" alt="" coords="239,610,476,636"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a5969231dc5558154176b8522e3a3cf70" title="MWWorld::Class::getCapacity" alt="" coords="255,660,459,687"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#a93babe591b0f7b9bb79adbdeccff099a" title="MWWorld::Class::isNpc" alt="" coords="839,270,1001,296"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="853,512,987,539"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="823,1007,1017,1034"/>
+<area shape="rect" id="node19" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="837,1058,1003,1100"/>
+<area shape="rect" id="node20" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="829,1124,1011,1151"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="831,1175,1009,1202"/>
+<area shape="rect" id="node22" href="$namespaceMWMechanics.html#a2c14c536d3440ca240707db7bf78b2ea" title="MWMechanics::rateAmmo" alt="" coords="263,812,451,839"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="539,848,747,889"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1ContainerStore.html#af12bf9cfbe2b86e1d053036f38a2afc7" title="MWWorld::ContainerStore::end" alt="" coords="535,914,750,940"/>
+<area shape="rect" id="node31" href="$classMWBase_1_1World.html#a0948a6dc379f460a865b37d1d81ec531" title="MWBase::World::isUnderwater" alt="" coords="815,563,1025,590"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1CreatureStats.html#a6b391d11a5122da96a2ddf2acef0ead9" title="MWMechanics::CreatureStats\l::getDynamic" alt="" coords="253,1218,462,1260"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1DynamicStat.html#a5341e59c91e5cc6782ef8f8fa1177bda" title="MWMechanics::DynamicStat\l::getModified" alt="" coords="256,1284,459,1325"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="256,1349,459,1390"/>
+<area shape="rect" id="node35" href="$namespaceanonymous__namespace_02spellpriority_8cpp_03.html#a346d829e8e7f8b4dcb982257d95f4f83" title="anonymous_namespace\l\{spellpriority::cpp\}\l::numEffectsToDispel" alt="" coords="553,1218,732,1274"/>
+<area shape="rect" id="node39" href="$classMWWorld_1_1InventoryStore.html#a00638734d306421a8aa211947d759e65" title="MWWorld::InventoryStore\l::getSlot" alt="" coords="267,1466,447,1508"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1ContainerStoreIteratorBase.html#ab70e81fa7a0643d21ad2cef734391074" title="MWWorld::ContainerStoreIterator\lBase::getType" alt="" coords="242,1532,473,1573"/>
+<area shape="rect" id="node41" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="253,1597,462,1638"/>
+<area shape="rect" id="node42" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="252,1662,463,1704"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="253,1728,461,1755"/>
+<area shape="rect" id="node44" href="$classMWMechanics_1_1NpcStats.html#ab1e372c44ef1d0159a4c5041ca5a0b57" title="MWMechanics::NpcStats\l::getSkill" alt="" coords="268,1780,447,1821"/>
+<area shape="rect" id="node45" href="$namespaceMWMechanics.html#a11576ea3be400200021d9ba1e77bb7a2" title="MWMechanics::isSummoning\lEffect" alt="" coords="254,1845,461,1886"/>
+<area shape="rect" id="node46" href="$classMWMechanics_1_1CreatureStats.html#ab41095fd635ce81dae52e9c8068027ff" title="MWMechanics::CreatureStats\l::getSummonedCreatureMap" alt="" coords="253,1910,462,1952"/>
+<area shape="rect" id="node47" href="$namespaceMWMechanics.html#a26dac939f455e243fb82cd01cbc926b7" title="MWMechanics::getEffectResistance\lAttribute" alt="" coords="235,544,479,585"/>
+<area shape="rect" id="node50" href="$namespaceMWMechanics.html#a10cddd585ac9e4e4dba3f7c2e6f346d1" title="MWMechanics::calcEffectCost" alt="" coords="538,1116,747,1143"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1083,563,1283,590"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1331,563,1547,590"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1ContainerStore.html#a2113e2bf66f50d062d1cea38ae2d5224" title="MWWorld::ContainerStore\l::begin" alt="" coords="551,782,734,824"/>
+<area shape="rect" id="node26" href="$namespaceMWMechanics.html#a34361714bc630a0c921be69cf14f6aa5" title="MWMechanics::rateWeapon" alt="" coords="545,680,740,707"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1Class.html#a6689ca20c9048824b3da7832c156dc10" title="MWWorld::Class::hasItemHealth" alt="" coords="809,664,1031,691"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1Class.html#a5537c9812ceb8e5a8100652eac05ec63" title="Return current item health or throw an exception if class does not have item health. " alt="" coords="810,715,1030,742"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="844,766,996,792"/>
+<area shape="rect" id="node30" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="839,816,1001,843"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="815,1226,1025,1268"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1ActiveSpells.html#a7cd012fbaf717271309900a900a35ec0" title="MWMechanics::ActiveSpells\l::begin" alt="" coords="822,1292,1018,1333"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1ActiveSpells.html#a75ca6b2c4c1be33c74400096e9df6926" title="MWMechanics::ActiveSpells::end" alt="" coords="806,1358,1034,1384"/>
+<area shape="rect" id="node48" href="$structESM_1_1MagicEffect.html#aae709a791e95c8772d0a0cd2efc3821e" title="Returns the effect that provides resistance against effect (or &#45;1 if there&#39;s none) ..." alt="" coords="529,432,757,473"/>
+<area shape="rect" id="node49" href="$structESM_1_1MagicEffect.html#a81f7fa57c459a3454c10fb513ed3328f" title="Returns the effect that induces weakness against effect (or &#45;1 if there&#39;s none) " alt="" coords="531,497,754,538"/>
 </map>

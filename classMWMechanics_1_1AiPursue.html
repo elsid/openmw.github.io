@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -96,7 +96,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classMWMechanics_1_1AiPursue-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MWMechanics::AiPursue Class Reference</div>  </div>
@@ -110,13 +109,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWMechanics::AiPursue:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1AiPursue__inherit__graph.svg" width="248" height="683"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1AiPursue__inherit__graph.svg" width="248" height="742"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWMechanics::AiPursue:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1AiPursue__coll__graph.svg" width="6315" height="2947"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1AiPursue__coll__graph.svg" width="7227" height="2576"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -158,6 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b922f7e40fc54ee58fef1da44385132 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a8b922f7e40fc54ee58fef1da44385132">fastForward</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, <a class="el" href="namespaceMWMechanics.html#af760b96a41c2866c95786897ecdf189c">AiState</a> &amp;state)</td></tr>
 <tr class="memdesc:a8b922f7e40fc54ee58fef1da44385132 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulates the passing of time.  <a href="#a8b922f7e40fc54ee58fef1da44385132">More...</a><br/></td></tr>
 <tr class="separator:a8b922f7e40fc54ee58fef1da44385132 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8831fc3660926f8635630f13ba3c800 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">virtual osg::Vec3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#ad8831fc3660926f8635630f13ba3c800">getDestination</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor) const </td></tr>
+<tr class="memdesc:ad8831fc3660926f8635630f13ba3c800 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the destination point of the AI package (not applicable to all AI packages, default return (0, 0, 0))  <a href="#ad8831fc3660926f8635630f13ba3c800">More...</a><br/></td></tr>
+<tr class="separator:ad8831fc3660926f8635630f13ba3c800 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6357a3d129aa9ab847c3f4d8343e3bc4 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a6357a3d129aa9ab847c3f4d8343e3bc4">sideWithTarget</a> () const </td></tr>
 <tr class="memdesc:a6357a3d129aa9ab847c3f4d8343e3bc4 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if having this <a class="el" href="classMWMechanics_1_1AiPackage.html" title="Base class for AI packages. ">AiPackage</a> makes the actor side with the target in fights (default false)  <a href="#a6357a3d129aa9ab847c3f4d8343e3bc4">More...</a><br/></td></tr>
 <tr class="separator:a6357a3d129aa9ab847c3f4d8343e3bc4 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,11 +174,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae58c2668d9294f23ebcfc7b2fc2d0220 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecdba6c42729451bf0a9ab5eee665cd3 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#aecdba6c42729451bf0a9ab5eee665cd3">isTargetMagicallyHidden</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;target)</td></tr>
 <tr class="separator:aecdba6c42729451bf0a9ab5eee665cd3 inherit pub_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:af4d2a91b1f35a11084318a648ab997c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPursue.html#af4d2a91b1f35a11084318a648ab997c7">mTargetActorId</a></td></tr>
-<tr class="separator:af4d2a91b1f35a11084318a648ab997c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -193,7 +190,11 @@ Additional Inherited Members</h2></td></tr>
 <a class="el" href="classMWMechanics_1_1AiPackage.html#a992b2d9822e94126ab5b1cd3fd8a3469ac5124c73885833d975f3c045291fbea1">TypeIdPursue</a> = 6, 
 <br/>
 &#160;&#160;<a class="el" href="classMWMechanics_1_1AiPackage.html#a992b2d9822e94126ab5b1cd3fd8a3469a63391ef420c69b39a11337e8bdc6a579">TypeIdAvoidDoor</a> = 7, 
-<a class="el" href="classMWMechanics_1_1AiPackage.html#a992b2d9822e94126ab5b1cd3fd8a3469afb85d4834087baef5190ac39c6ac3f40">TypeIdFace</a> = 8
+<a class="el" href="classMWMechanics_1_1AiPackage.html#a992b2d9822e94126ab5b1cd3fd8a3469afb85d4834087baef5190ac39c6ac3f40">TypeIdFace</a> = 8, 
+<a class="el" href="classMWMechanics_1_1AiPackage.html#a992b2d9822e94126ab5b1cd3fd8a3469a0a1a337c8166ae6291d3e404da48d229">TypeIdBreathe</a> = 9, 
+<a class="el" href="classMWMechanics_1_1AiPackage.html#a992b2d9822e94126ab5b1cd3fd8a3469a86c57f9c502f3a322e0af5bd77e74f6a">TypeIdInternalTravel</a> = 10, 
+<br/>
+&#160;&#160;<a class="el" href="classMWMechanics_1_1AiPackage.html#a992b2d9822e94126ab5b1cd3fd8a3469a05235d1eca5a988a4f43137fb7e5e0e9">TypeIdCast</a> = 11
 <br/>
  }</td></tr>
 <tr class="memdesc:a992b2d9822e94126ab5b1cd3fd8a3469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerates the various AITypes available.  <a href="classMWMechanics_1_1AiPackage.html#a992b2d9822e94126ab5b1cd3fd8a3469">More...</a><br/></td></tr>
@@ -206,8 +207,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac6b7be6f9b3738834f5bb81d55871ec0 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#ac6b7be6f9b3738834f5bb81d55871ec0">pathTo</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;dest, float duration, float destTolerance=0.0f)</td></tr>
 <tr class="memdesc:ac6b7be6f9b3738834f5bb81d55871ec0 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles path building and shortcutting with obstacles avoiding.  <a href="#ac6b7be6f9b3738834f5bb81d55871ec0">More...</a><br/></td></tr>
 <tr class="separator:ac6b7be6f9b3738834f5bb81d55871ec0 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2029e622b1ff9bb4ab55dcd55649ad4f inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a2029e622b1ff9bb4ab55dcd55649ad4f">shortcutPath</a> (const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;startPoint, const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;endPoint, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, <a class="el" href="classbool.html">bool</a> *destInLOS)</td></tr>
-<tr class="separator:a2029e622b1ff9bb4ab55dcd55649ad4f inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef017fec4858de7e2e7c1fe979419b09 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#aef017fec4858de7e2e7c1fe979419b09">shortcutPath</a> (const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;startPoint, const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;endPoint, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, <a class="el" href="classbool.html">bool</a> *destInLOS, <a class="el" href="classbool.html">bool</a> isPathClear)</td></tr>
+<tr class="separator:aef017fec4858de7e2e7c1fe979419b09 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63aaed0e3a5a8fcd2c309dae88465ace inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a63aaed0e3a5a8fcd2c309dae88465ace">checkWayIsClearForActor</a> (const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;startPoint, const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;endPoint, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor)</td></tr>
 <tr class="memdesc:a63aaed0e3a5a8fcd2c309dae88465ace inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the way to the destination is clear, taking into account actor speed.  <a href="#a63aaed0e3a5a8fcd2c309dae88465ace">More...</a><br/></td></tr>
 <tr class="separator:a63aaed0e3a5a8fcd2c309dae88465ace inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,6 +216,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a72a97e4a972d5cdfa3dbd4f76001ec88 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac360f30acc237ca586ce88dc544ffaed inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#ac360f30acc237ca586ce88dc544ffaed">evadeObstacles</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, float duration, const <a class="el" href="structESM_1_1Position.html">ESM::Position</a> &amp;pos)</td></tr>
 <tr class="separator:ac360f30acc237ca586ce88dc544ffaed inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93366b3b75510d03b7917179d1e5bd66 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a93366b3b75510d03b7917179d1e5bd66">openDoors</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor)</td></tr>
+<tr class="separator:a93366b3b75510d03b7917179d1e5bd66 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a417f3af3bb5fbd59d1eda1267a3dba78 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMWMechanics_1_1PathgridGraph.html">PathgridGraph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a417f3af3bb5fbd59d1eda1267a3dba78">getPathGridGraph</a> (const <a class="el" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a> *cell)</td></tr>
+<tr class="separator:a417f3af3bb5fbd59d1eda1267a3dba78 inherit pro_methods_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMWMechanics_1_1AiPackage"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMWMechanics_1_1AiPackage')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMWMechanics_1_1AiPackage.html">MWMechanics::AiPackage</a></td></tr>
 <tr class="memitem:a1ffd1d83e652b8bfee07432f2355ac39 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWMechanics_1_1PathFinder.html">PathFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a1ffd1d83e652b8bfee07432f2355ac39">mPathFinder</a></td></tr>
 <tr class="separator:a1ffd1d83e652b8bfee07432f2355ac39 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,6 +227,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:afa376d172e5a6c35a3fa3fae0a5bd0fb inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a9b92dceeeee6e3b18d1996ec37c9a6 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a5a9b92dceeeee6e3b18d1996ec37c9a6">mTimer</a></td></tr>
 <tr class="separator:a5a9b92dceeeee6e3b18d1996ec37c9a6 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a600003e439f76081540d483df5e95270 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a600003e439f76081540d483df5e95270">mTargetActorRefId</a></td></tr>
+<tr class="separator:a600003e439f76081540d483df5e95270 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36bf072818b6c4556d5a7c83d273736 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#ac36bf072818b6c4556d5a7c83d273736">mTargetActorId</a></td></tr>
+<tr class="separator:ac36bf072818b6c4556d5a7c83d273736 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dad4ef55a24f55e63c610bc366b08b9 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">osg::Vec3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a9dad4ef55a24f55e63c610bc366b08b9">mLastActorPos</a></td></tr>
 <tr class="separator:a9dad4ef55a24f55e63c610bc366b08b9 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a1f5e78f0b8a108d06dd682f0642936 inherit pro_attribs_classMWMechanics_1_1AiPackage"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1AiPackage.html#a6a1f5e78f0b8a108d06dd682f0642936">mRotateOnTheRunChecks</a></td></tr>
@@ -258,6 +267,14 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1AiPursue_ab325180ec32af1c8686ebf8dc87b71aa_cgraph.svg" width="446" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -383,7 +400,7 @@ Additional Inherited Members</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1AiPursue_a10d92ff90997658bcdbd28030e9beb4c_cgraph.svg" width="1238" height="1054"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1AiPursue_a10d92ff90997658bcdbd28030e9beb4c_cgraph.svg" width="1238" height="1368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -505,35 +522,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="af4d2a91b1f35a11084318a648ab997c7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classint.html">int</a> MWMechanics::AiPursue::mTargetActorId</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/<a class="el" href="aipursue_8hpp_source.html">aipursue.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/<a class="el" href="aipursue_8cpp.html">aipursue.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwmechanics/<a class="el" href="aipursue_8hpp_source.html">aipursue.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwmechanics/<a class="el" href="aipursue_8cpp.html">aipursue.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:04 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:37 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

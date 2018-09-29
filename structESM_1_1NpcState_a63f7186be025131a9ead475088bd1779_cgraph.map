@@ -1,47 +1,48 @@
 <map id="ESM::NpcState::load" name="ESM::NpcState::load">
-<area shape="rect" id="node2" href="$structESM_1_1ObjectState.html#abbff22222174f0dcc0a2b4d9fe8508eb" title="ESM::ObjectState::load" alt="" coords="409,1418,578,1445"/>
-<area shape="rect" id="node34" href="$structESM_1_1InventoryState.html#ac90baa18a51141cf8054709d58cf9b4f" title="ESM::InventoryState\l::load" alt="" coords="208,1249,360,1291"/>
-<area shape="rect" id="node39" href="$structESM_1_1NpcStats.html#aac6a0bc8541295a5924bd879b0365105" title="ESM::NpcStats::load" alt="" coords="627,455,779,482"/>
-<area shape="rect" id="node42" href="$structESM_1_1CreatureStats.html#adf3da8aa4c120ee4038eee168e18a3be" title="ESM::CreatureStats\l::load" alt="" coords="629,777,777,819"/>
-<area shape="rect" id="node3" href="$classESM_1_1ESMReader.html#af8e828d8eba11aa561a364175418e2d8" title="ESM::ESMReader::getFormat" alt="" coords="827,1086,1032,1113"/>
-<area shape="rect" id="node4" href="$classESM_1_1CellRef.html#abd34b72c847222551cdd690332b3951d" title="Implicitly called by load. " alt="" coords="846,1814,1013,1841"/>
-<area shape="rect" id="node22" href="$classESM_1_1ESMReader.html#a1b4ca455240f53cfa6d49f9a4a084354" title="ESM::ESMReader::skipHSub" alt="" coords="1101,1687,1299,1714"/>
-<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#a45b4c4d5076772a527726f6d22b08759" title="ESM::ESMReader::getHNOT" alt="" coords="1102,573,1298,599"/>
-<area shape="rect" id="node27" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="1384,485,1587,511"/>
-<area shape="rect" id="node28" href="$structESM_1_1Locals.html#a1f5c95f10b331e68cb7e644f52d52622" title="ESM::Locals::load" alt="" coords="636,1502,769,1529"/>
-<area shape="rect" id="node32" href="$structESM_1_1AnimationState.html#a959c5645e54e55bfa12c957998f40e3e" title="ESM::AnimationState\l::load" alt="" coords="850,1419,1009,1460"/>
-<area shape="rect" id="node5" href="$classESM_1_1ESMReader.html#abfd3da13c7227ed9d445ceed1a70f874" title="ESM::ESMReader::hasMoreSubs" alt="" coords="1087,1941,1313,1967"/>
-<area shape="rect" id="node6" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="1655,1179,1878,1206"/>
-<area shape="rect" id="node12" href="$classESM_1_1ESMReader.html#afe83c43d1818dd2c3815307d97beae45" title="ESM::ESMReader::retSubName" alt="" coords="1090,1991,1310,2018"/>
-<area shape="rect" id="node13" href="$classESM_1_1ESMReader.html#a1499e8005481bc7f13f4de0c2f3b9ee4" title="ESM::ESMReader::getHT" alt="" coords="1397,1114,1573,1141"/>
-<area shape="rect" id="node16" href="$classESM_1_1ESMReader.html#ab0b044c1028b117dfb0aae39135af948" title="ESM::ESMReader::getHString" alt="" coords="1382,1383,1589,1410"/>
-<area shape="rect" id="node25" href="$classESM_1_1ESMReader.html#a0fc314c81508490aa816a49ce0ec37ac" title="ESM::ESMReader::cacheSubName" alt="" coords="1080,1890,1320,1917"/>
-<area shape="rect" id="node7" href="$classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" title="ESM::FIXED_STRING_BASE\l::data_size" alt="" coords="1931,1267,2122,1308"/>
-<area shape="rect" id="node8" href="$classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" title="ESM::ESMReader::getExact" alt="" coords="2171,1385,2365,1411"/>
-<area shape="rect" id="node11" href="$structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data" alt="" coords="1947,1201,2106,1243"/>
-<area shape="rect" id="node9" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="2414,1385,2570,1411"/>
-<area shape="rect" id="node10" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="2619,1377,2810,1419"/>
-<area shape="rect" id="node14" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="1651,1635,1882,1662"/>
-<area shape="rect" id="node15" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1943,1485,2110,1511"/>
-<area shape="rect" id="node17" href="$classESM_1_1ESMReader.html#a8743de63f7c4cb6d89d82f38ba452127" title="ESM::ESMReader::getString" alt="" coords="1668,1485,1865,1511"/>
-<area shape="rect" id="node18" href="$classToUTF8_1_1Utf8Encoder.html#a69a05afd17b7270edf61c1e5edce79e9" title="ToUTF8::Utf8Encoder\l::getUtf8" alt="" coords="1949,1536,2104,1577"/>
-<area shape="rect" id="node19" href="$classToUTF8_1_1Utf8Encoder.html#a1dd97261b538a0a33218d31c82c37f74" title="ToUTF8::Utf8Encoder\l::getLength" alt="" coords="2191,1504,2345,1545"/>
-<area shape="rect" id="node20" href="$classToUTF8_1_1Utf8Encoder.html#a80b3e05967c1f28c1ce5325093bda679" title="ToUTF8::Utf8Encoder\l::resize" alt="" coords="2191,1569,2345,1611"/>
-<area shape="rect" id="node21" href="$classToUTF8_1_1Utf8Encoder.html#a203f6c96dde89ec98b709f3e4f95c1f6" title="ToUTF8::Utf8Encoder\l::copyFromArray" alt="" coords="2191,1439,2345,1480"/>
-<area shape="rect" id="node23" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="1404,2055,1567,2082"/>
-<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" title="Get the current position in the file. Make sure that the file has been opened! " alt="" coords="1658,1846,1875,1873"/>
-<area shape="rect" id="node29" href="$classESM_1_1Variant.html#a0eb4319c39f48f97e2c3aaf9e827e8b6" title="ESM::Variant::read" alt="" coords="859,1991,999,2018"/>
-<area shape="rect" id="node30" href="$classESM_1_1ESMReader.html#a0389fd3553a1e7a7da94b869780bca02" title="ESM::ESMReader::getHNString" alt="" coords="1091,1130,1309,1157"/>
-<area shape="rect" id="node31" href="$classESM_1_1ESMReader.html#ab60b38a81482ba22cac72e334055988f" title="ESM::ESMReader::getSubNameIs" alt="" coords="1369,1063,1602,1090"/>
-<area shape="rect" id="node33" href="$classESM_1_1ESMReader.html#aee231c113f51bd7c28f3b99067af626b" title="ESM::ESMReader::getSubSize" alt="" coords="1095,1485,1305,1511"/>
-<area shape="rect" id="node35" href="$classESM_1_1CellRef.html#a425f16505440813662db8c1da753f0cf" title="ESM::CellRef::loadId" alt="" coords="856,1231,1003,1258"/>
-<area shape="rect" id="node38" href="$classESM_1_1ESMReader.html#a3bad93594c2a15ef9c8cd8857d2acf62" title="ESM::ESMReader::getHNT" alt="" coords="1107,405,1293,431"/>
-<area shape="rect" id="node36" href="$classESM_1_1ESMReader.html#a126070ed257a9c3751eb4c188e72e036" title="ESM::ESMReader::getHNOString" alt="" coords="1087,826,1313,853"/>
-<area shape="rect" id="node37" href="$classESM_1_1ESMReader.html#a3446177572508dd219cb3a0bf6e95c2b" title="ESM::ESMReader::getName" alt="" coords="1101,1231,1299,1258"/>
-<area shape="rect" id="node40" href="$classESM_1_1ESMReader.html#a2421d4c0ab8b6ca62d5d7aa1afcc9841" title="ESM::ESMReader::peekNextSub" alt="" coords="1373,253,1597,279"/>
-<area shape="rect" id="node41" href="$structESM_1_1StatState.html#af83798b13fd91f29e5f18af35f3030ab" title="ESM::StatState::load" alt="" coords="852,506,1007,533"/>
-<area shape="rect" id="node43" href="$structESM_1_1SpellState.html#a2f02f9761144450fa2b3b5f11042466d" title="ESM::SpellState::load" alt="" coords="850,759,1009,786"/>
-<area shape="rect" id="node44" href="$structESM_1_1ActiveSpells.html#a9d2148dfdf6a6e3997765b5bdcba9ed1" title="ESM::ActiveSpells::load" alt="" coords="844,810,1015,837"/>
-<area shape="rect" id="node45" href="$structESM_1_1AiSequence_1_1AiSequence.html#ac008491420e019b85fa3dc9912d06383" title="ESM::AiSequence::AiSequence\l::load" alt="" coords="1091,507,1309,548"/>
-<area shape="rect" id="node46" href="$structESM_1_1MagicEffects.html#a57dcf15396957c4b4f67c5f4e38cc4d1" title="ESM::MagicEffects::load" alt="" coords="843,303,1016,330"/>
+<area shape="rect" id="node2" href="$structESM_1_1ObjectState.html#abbff22222174f0dcc0a2b4d9fe8508eb" title="ESM::ObjectState::load" alt="" coords="409,853,578,880"/>
+<area shape="rect" id="node34" href="$structESM_1_1InventoryState.html#ac90baa18a51141cf8054709d58cf9b4f" title="ESM::InventoryState\l::load" alt="" coords="208,1846,360,1887"/>
+<area shape="rect" id="node39" href="$structESM_1_1NpcStats.html#aac6a0bc8541295a5924bd879b0365105" title="ESM::NpcStats::load" alt="" coords="627,245,779,272"/>
+<area shape="rect" id="node43" href="$structESM_1_1CreatureStats.html#adf3da8aa4c120ee4038eee168e18a3be" title="ESM::CreatureStats\l::load" alt="" coords="629,1374,777,1415"/>
+<area shape="rect" id="node3" href="$classESM_1_1ESMReader.html#af8e828d8eba11aa561a364175418e2d8" title="ESM::ESMReader::getFormat" alt="" coords="833,1107,1039,1133"/>
+<area shape="rect" id="node4" href="$classESM_1_1CellRef.html#abd34b72c847222551cdd690332b3951d" title="Implicitly called by load. " alt="" coords="853,643,1019,669"/>
+<area shape="rect" id="node22" href="$classESM_1_1ESMReader.html#a1b4ca455240f53cfa6d49f9a4a084354" title="ESM::ESMReader::skipHSub" alt="" coords="1114,1107,1313,1133"/>
+<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#a45b4c4d5076772a527726f6d22b08759" title="ESM::ESMReader::getHNOT" alt="" coords="1115,1157,1311,1184"/>
+<area shape="rect" id="node27" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="1397,1297,1600,1324"/>
+<area shape="rect" id="node28" href="$structESM_1_1Locals.html#a1f5c95f10b331e68cb7e644f52d52622" title="ESM::Locals::load" alt="" coords="636,448,769,475"/>
+<area shape="rect" id="node32" href="$structESM_1_1AnimationState.html#a959c5645e54e55bfa12c957998f40e3e" title="ESM::AnimationState\l::load" alt="" coords="857,737,1015,778"/>
+<area shape="rect" id="node5" href="$classESM_1_1ESMReader.html#abfd3da13c7227ed9d445ceed1a70f874" title="ESM::ESMReader::hasMoreSubs" alt="" coords="1101,397,1326,424"/>
+<area shape="rect" id="node6" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="1669,551,1891,577"/>
+<area shape="rect" id="node12" href="$classESM_1_1ESMReader.html#afe83c43d1818dd2c3815307d97beae45" title="ESM::ESMReader::retSubName" alt="" coords="1103,448,1323,475"/>
+<area shape="rect" id="node13" href="$classESM_1_1ESMReader.html#a1499e8005481bc7f13f4de0c2f3b9ee4" title="ESM::ESMReader::getHT" alt="" coords="1411,1373,1587,1400"/>
+<area shape="rect" id="node16" href="$classESM_1_1ESMReader.html#ab0b044c1028b117dfb0aae39135af948" title="ESM::ESMReader::getHString" alt="" coords="1395,1005,1602,1032"/>
+<area shape="rect" id="node25" href="$classESM_1_1ESMReader.html#a0fc314c81508490aa816a49ce0ec37ac" title="ESM::ESMReader::cacheSubName" alt="" coords="1093,549,1333,576"/>
+<area shape="rect" id="node7" href="$classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" title="ESM::FIXED_STRING_BASE\l::data_size" alt="" coords="1945,541,2135,582"/>
+<area shape="rect" id="node8" href="$classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" title="ESM::ESMReader::getExact" alt="" coords="2184,859,2379,885"/>
+<area shape="rect" id="node11" href="$structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data" alt="" coords="1961,475,2119,517"/>
+<area shape="rect" id="node9" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="2427,760,2583,787"/>
+<area shape="rect" id="node10" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="2633,599,2823,641"/>
+<area shape="rect" id="node14" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="1665,1107,1895,1133"/>
+<area shape="rect" id="node15" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1957,960,2123,987"/>
+<area shape="rect" id="node17" href="$classESM_1_1ESMReader.html#a8743de63f7c4cb6d89d82f38ba452127" title="ESM::ESMReader::getString" alt="" coords="1681,1005,1879,1032"/>
+<area shape="rect" id="node18" href="$classToUTF8_1_1Utf8Encoder.html#a69a05afd17b7270edf61c1e5edce79e9" title="ToUTF8::Utf8Encoder\l::getUtf8" alt="" coords="1963,1011,2117,1053"/>
+<area shape="rect" id="node19" href="$classToUTF8_1_1Utf8Encoder.html#a1dd97261b538a0a33218d31c82c37f74" title="ToUTF8::Utf8Encoder\l::getLength" alt="" coords="2204,975,2359,1017"/>
+<area shape="rect" id="node20" href="$classToUTF8_1_1Utf8Encoder.html#a80b3e05967c1f28c1ce5325093bda679" title="ToUTF8::Utf8Encoder\l::resize" alt="" coords="2204,1041,2359,1082"/>
+<area shape="rect" id="node21" href="$classToUTF8_1_1Utf8Encoder.html#a203f6c96dde89ec98b709f3e4f95c1f6" title="ToUTF8::Utf8Encoder\l::copyFromArray" alt="" coords="2204,910,2359,951"/>
+<area shape="rect" id="node23" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="1417,1208,1580,1235"/>
+<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" title="Get the current position in the file. Make sure that the file has been opened! " alt="" coords="1671,1703,1889,1729"/>
+<area shape="rect" id="node29" href="$classESM_1_1Variant.html#a0eb4319c39f48f97e2c3aaf9e827e8b6" title="ESM::Variant::read" alt="" coords="866,347,1006,373"/>
+<area shape="rect" id="node30" href="$classESM_1_1ESMReader.html#a0389fd3553a1e7a7da94b869780bca02" title="ESM::ESMReader::getHNString" alt="" coords="1105,701,1322,728"/>
+<area shape="rect" id="node31" href="$classESM_1_1ESMReader.html#ab60b38a81482ba22cac72e334055988f" title="ESM::ESMReader::getSubNameIs" alt="" coords="1382,653,1615,680"/>
+<area shape="rect" id="node33" href="$classESM_1_1ESMReader.html#aee231c113f51bd7c28f3b99067af626b" title="ESM::ESMReader::getSubSize" alt="" coords="1108,904,1319,931"/>
+<area shape="rect" id="node35" href="$classESM_1_1CellRef.html#a425f16505440813662db8c1da753f0cf" title="ESM::CellRef::loadId" alt="" coords="863,1904,1009,1931"/>
+<area shape="rect" id="node38" href="$classESM_1_1ESMReader.html#a3bad93594c2a15ef9c8cd8857d2acf62" title="ESM::ESMReader::getHNT" alt="" coords="1120,1411,1307,1437"/>
+<area shape="rect" id="node36" href="$classESM_1_1ESMReader.html#a126070ed257a9c3751eb4c188e72e036" title="ESM::ESMReader::getHNOString" alt="" coords="1100,1765,1327,1792"/>
+<area shape="rect" id="node37" href="$classESM_1_1ESMReader.html#a3446177572508dd219cb3a0bf6e95c2b" title="ESM::ESMReader::getName" alt="" coords="1114,2019,1313,2045"/>
+<area shape="rect" id="node40" href="$classESM_1_1ESMReader.html#a2421d4c0ab8b6ca62d5d7aa1afcc9841" title="ESM::ESMReader::peekNextSub" alt="" coords="1387,144,1611,171"/>
+<area shape="rect" id="node41" href="$structESM_1_1StatState.html#af83798b13fd91f29e5f18af35f3030ab" title="ESM::StatState::load" alt="" coords="859,1005,1013,1032"/>
+<area shape="rect" id="node42" href="$namespaceanonymous__namespace_02testbulletnifloader_8cpp_03.html#a1b04c33613d9f0c8a6bff603d0fb681e" title="anonymous_namespace\l\{testbulletnifloader\l::cpp\}::copy" alt="" coords="847,93,1025,149"/>
+<area shape="rect" id="node44" href="$structESM_1_1SpellState.html#a2f02f9761144450fa2b3b5f11042466d" title="ESM::SpellState::load" alt="" coords="857,1683,1015,1709"/>
+<area shape="rect" id="node45" href="$structESM_1_1ActiveSpells.html#a9d2148dfdf6a6e3997765b5bdcba9ed1" title="ESM::ActiveSpells::load" alt="" coords="851,1309,1021,1336"/>
+<area shape="rect" id="node46" href="$structESM_1_1AiSequence_1_1AiSequence.html#ac008491420e019b85fa3dc9912d06383" title="ESM::AiSequence::AiSequence\l::load" alt="" coords="827,1585,1045,1626"/>
+<area shape="rect" id="node47" href="$structESM_1_1MagicEffects.html#a57dcf15396957c4b4f67c5f4e38cc4d1" title="ESM::MagicEffects::load" alt="" coords="849,1512,1023,1539"/>
 </map>

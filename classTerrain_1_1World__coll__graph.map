@@ -1,17 +1,19 @@
 <map id="Terrain::World" name="Terrain::World">
-<area shape="rect" id="node21" href="$classResource_1_1SceneManager.html" title="Handles loading and caching of scenes, e.g. .nif files or .osg files. " alt="" coords="1105,1393,1308,1661"/>
-<area shape="rect" id="node4" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="803,1960,1012,2213"/>
-<area shape="rect" id="node6" href="$classResource_1_1ImageManager.html" title="Handles loading/caching of Images. " alt="" coords="195,1099,379,1250"/>
-<area shape="rect" id="node7" href="$classResource_1_1ResourceManager.html" title="Base class for managers that require a virtual file system and object cache. " alt="" coords="561,821,764,957"/>
-<area shape="rect" id="node36" href="$classResource_1_1NifFileManager.html" title="Handles caching of NIFFiles. " alt="" coords="683,1121,864,1228"/>
-<area shape="rect" id="node40" href="$classResource_1_1KeyframeManager.html" title="Managing of keyframe resources. " alt="" coords="403,1121,607,1228"/>
-<area shape="rect" id="node10" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="1363,533,1529,728"/>
-<area shape="rect" id="node12" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="1618,157,1696,249"/>
-<area shape="rect" id="node13" title="STL class. " alt="" coords="1786,164,1872,241"/>
-<area shape="rect" id="node27" href="$classShader_1_1ShaderManager.html" title="Reads shader template files and turns them into a concrete shader, based on a list of define&#39;s..." alt="" coords="1804,577,1983,684"/>
-<area shape="rect" id="node14" title="STL class. " alt="" coords="1761,6,1897,98"/>
-<area shape="rect" id="node15" href="$classbool.html" title="{bool\n||}" alt="" coords="1269,363,1317,440"/>
-<area shape="rect" id="node17" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="1381,157,1511,249"/>
-<area shape="rect" id="node24" href="$classint.html" title="{int\n||}" alt="" coords="1050,1136,1088,1213"/>
-<area shape="rect" id="node41" href="$classTerrain_1_1Storage.html" title="We keep storage of terrain data abstract here since we need different implementations for game and ed..." alt="" coords="2227,1989,2391,2184"/>
+<area shape="rect" id="node47" href="$classMWRender_1_1CellBorder.html" title="{MWRender::CellBorder\n||+ CellBorder()\l+ createCellBorderGeometry()\l+ destroyCellBorderGeometry()\l+ destroyCellBorderGeometry()\l}" alt="" coords="3346,2929,3571,3050"/>
+<area shape="rect" id="node4" href="$classTerrain_1_1ChunkManager.html" title="Handles loading and caching of terrain chunks. " alt="" coords="2444,1997,2687,2206"/>
+<area shape="rect" id="node5" href="$classResource_1_1ResourceManager.html" title="Base class for managers that require a virtual file system and object cache. " alt="" coords="616,625,819,805"/>
+<area shape="rect" id="node26" href="$classTerrain_1_1TextureManager.html" title="{Terrain::TextureManager\n||+ TextureManager()\l+ updateTextureFiltering()\l+ getTexture()\l+ reportStats()\l}" alt="" coords="1839,1653,2025,1774"/>
+<area shape="rect" id="node27" href="$classResource_1_1SceneManager.html" title="Handles loading and caching of scenes, e.g. .nif files or .osg files. " alt="" coords="1585,1206,1788,1474"/>
+<area shape="rect" id="node29" href="$classResource_1_1ImageManager.html" title="Handles loading/caching of Images. " alt="" coords="419,869,603,1035"/>
+<area shape="rect" id="node34" href="$classResource_1_1NifFileManager.html" title="Handles caching of NIFFiles. " alt="" coords="627,891,808,1013"/>
+<area shape="rect" id="node42" href="$classResource_1_1KeyframeManager.html" title="Managing of keyframe resources. " alt="" coords="238,1059,441,1181"/>
+<area shape="rect" id="node20" href="$classTerrain_1_1CompositeMapRenderer.html" title="The CompositeMapRenderer is responsible for updating composite map textures in a blocking or non&#45;bloc..." alt="" coords="2717,1243,2941,1437"/>
+<area shape="rect" id="node8" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="634,321,800,530"/>
+<area shape="rect" id="node38" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="416,1953,625,2250"/>
+<area shape="rect" id="node10" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="678,6,756,98"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="1322,13,1408,91"/>
+<area shape="rect" id="node12" href="$classbool.html" title="{bool\n||}" alt="" coords="2695,171,2744,248"/>
+<area shape="rect" id="node14" href="$classTerrain_1_1BufferCache.html" title="Implements creation and caching of vertex buffers for terrain chunks. " alt="" coords="2486,1653,2644,1774"/>
+<area shape="rect" id="node19" href="$classint.html" title="{int\n||}" alt="" coords="2227,913,2265,991"/>
+<area shape="rect" id="node36" href="$classTerrain_1_1Storage.html" title="{Terrain::Storage\n||+ ~Storage()\l+ getBounds()\l+ getMinMaxHeights()\l+ fillVertexBuffers()\l+ getBlendmaps()\l+ getHeightAt()\l+ getCellWorldSize()\l+ getCellVertices()\l+ getBlendmapScale()\l}" alt="" coords="3147,1616,3315,1811"/>
 </map>

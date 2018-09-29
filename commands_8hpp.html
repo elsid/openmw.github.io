@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/world/commands.hpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/world/commands.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,22 +103,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &quot;<a class="el" href="apps_2opencs_2model_2world_2record_8hpp_source.html">record.hpp</a>&quot;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;map&gt;</code><br/>
+<code>#include &lt;memory&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;QVariant&gt;</code><br/>
 <code>#include &lt;QUndoCommand&gt;</code><br/>
 <code>#include &lt;QModelIndex&gt;</code><br/>
+<code>#include &quot;<a class="el" href="columnimp_8hpp_source.html">columnimp.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="universalid_8hpp_source.html">universalid.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="nestedtablewrapper_8hpp_source.html">nestedtablewrapper.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for commands.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="commands_8hpp__incl.svg" width="1019" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="commands_8hpp__incl.svg" width="2779" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="commands_8hpp__dep__incl.svg" width="7411" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="commands_8hpp__dep__incl.svg" width="7670" height="275"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -126,6 +128,17 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1TouchCommand.html">CSMWorld::TouchCommand</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1ImportLandTexturesCommand.html">CSMWorld::ImportLandTexturesCommand</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds <a class="el" href="structCSMWorld_1_1LandTexture.html" title="Wrapper for LandTexture record, providing info which plugin the LandTexture was loaded from...">LandTexture</a> records and modifies texture indices as needed.  <a href="classCSMWorld_1_1ImportLandTexturesCommand.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1CopyLandTexturesCommand.html">CSMWorld::CopyLandTexturesCommand</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This command is used to fix <a class="el" href="structCSMWorld_1_1LandTexture.html" title="Wrapper for LandTexture record, providing info which plugin the LandTexture was loaded from...">LandTexture</a> records and texture indices after cloning a <a class="el" href="structCSMWorld_1_1Land.html" title="Wrapper for Land record. Encodes X and Y cell index in the ID. ">Land</a>. See <a class="el" href="classCSMWorld_1_1ImportLandTexturesCommand.html" title="Adds LandTexture records and modifies texture indices as needed. ">ImportLandTexturesCommand</a> for details.  <a href="classCSMWorld_1_1CopyLandTexturesCommand.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1TouchLandCommand.html">CSMWorld::TouchLandCommand</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This command brings a land record into the current plugin, adding <a class="el" href="structCSMWorld_1_1LandTexture.html" title="Wrapper for LandTexture record, providing info which plugin the LandTexture was loaded from...">LandTexture</a> records and modifying texture indices as needed.  <a href="classCSMWorld_1_1TouchLandCommand.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1ModifyCommand.html">CSMWorld::ModifyCommand</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1CreateCommand.html">CSMWorld::CreateCommand</a></td></tr>
@@ -159,7 +172,7 @@ Namespaces</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/sceneutil/lightmanager.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/sceneutil/lightmanager.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,25 +103,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="lightmanager_8hpp_source.html">lightmanager.hpp</a>&quot;</code><br/>
-<code>#include &lt;stdexcept&gt;</code><br/>
-<code>#include &lt;osg/NodeVisitor&gt;</code><br/>
 <code>#include &lt;osgUtil/CullVisitor&gt;</code><br/>
 <code>#include &lt;<a class="el" href="components_2sceneutil_2util_8hpp_source.html">components/sceneutil/util.hpp</a>&gt;</code><br/>
-<code>#include &lt;boost/functional/hash.hpp&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for lightmanager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="lightmanager_8cpp__incl.svg" width="1131" height="232"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="lightmanager_8cpp__incl.svg" width="970" height="232"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1LightStateCache.html">SceneUtil::LightStateCache</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1LightStateAttribute.html">SceneUtil::LightStateAttribute</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1CollectLightCallback.html">SceneUtil::CollectLightCallback</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1LightManagerUpdateCallback.html">SceneUtil::LightManagerUpdateCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1DisableLight.html">SceneUtil::DisableLight</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -131,8 +132,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a089210d79b7d50a4109d0a968f1518d7"><td class="memItemLeft" align="right" valign="top">LightStateCache *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSceneUtil.html#a089210d79b7d50a4109d0a968f1518d7">SceneUtil::getLightStateCache</a> (unsigned <a class="el" href="classint.html">int</a> contextid)</td></tr>
+<tr class="separator:a089210d79b7d50a4109d0a968f1518d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a727ec46ccf6ab479153165e54dc63c8b"><td class="memItemLeft" align="right" valign="top">LightManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSceneUtil.html#a727ec46ccf6ab479153165e54dc63c8b">SceneUtil::findLightManager</a> (const osg::NodePath &amp;path)</td></tr>
 <tr class="separator:a727ec46ccf6ab479153165e54dc63c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5f7427f82722cdec60139a018dffc0"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aca5f7427f82722cdec60139a018dffc0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceSceneUtil.html#aca5f7427f82722cdec60139a018dffc0">SceneUtil::hash_combine</a> (std::size_t &amp;seed, const <a class="el" href="classGui_1_1T.html">T</a> &amp;v)</td></tr>
+<tr class="separator:aca5f7427f82722cdec60139a018dffc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49b9b5788279f3320283ab9be52d5dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSceneUtil.html#a49b9b5788279f3320283ab9be52d5dd9">SceneUtil::sortLights</a> (const LightManager::LightSourceViewBound *left, const LightManager::LightSourceViewBound *right)</td></tr>
 <tr class="separator:a49b9b5788279f3320283ab9be52d5dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -144,7 +150,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

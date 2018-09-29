@@ -1,10 +1,10 @@
 <map id="ESMTerrain::Storage" name="ESMTerrain::Storage">
-<area shape="rect" id="node2" href="$classTerrain_1_1Storage.html" title="We keep storage of terrain data abstract here since we need different implementations for game and ed..." alt="" coords="5,507,169,701"/>
-<area shape="rect" id="node5" href="$structTerrain_1_1LayerInfo.html" title="{Terrain::LayerInfo\n||+ requiresShaders()\l}" alt="" coords="456,328,608,405"/>
-<area shape="rect" id="node6" href="$classbool.html" title="{bool\n||}" alt="" coords="393,157,441,235"/>
-<area shape="rect" id="node9" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="934,507,1100,701"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="706,157,792,235"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="681,6,817,98"/>
-<area shape="rect" id="node11" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="925,150,1003,242"/>
-<area shape="rect" id="node13" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="1108,150,1237,242"/>
+<area shape="rect" id="node2" href="$classTerrain_1_1Storage.html" title="{Terrain::Storage\n||+ ~Storage()\l+ getBounds()\l+ getMinMaxHeights()\l+ fillVertexBuffers()\l+ getBlendmaps()\l+ getHeightAt()\l+ getCellWorldSize()\l+ getCellVertices()\l+ getBlendmapScale()\l}" alt="" coords="5,515,173,709"/>
+<area shape="rect" id="node5" href="$structTerrain_1_1LayerInfo.html" title="{Terrain::LayerInfo\n||+ requiresShaders()\l}" alt="" coords="459,328,611,405"/>
+<area shape="rect" id="node6" href="$classbool.html" title="{bool\n||}" alt="" coords="395,157,444,235"/>
+<area shape="rect" id="node9" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="937,507,1103,717"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="709,157,795,235"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="683,6,820,98"/>
+<area shape="rect" id="node11" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="927,150,1005,242"/>
+<area shape="rect" id="node13" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="1111,150,1240,242"/>
 </map>

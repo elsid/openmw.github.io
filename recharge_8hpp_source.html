@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwgui/recharge.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwgui/recharge.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,73 +102,86 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="windowbase_8hpp.html">windowbase.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>MWWorld</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">class </span>Ptr;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>MWGui</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>ItemWidget;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>ItemChargeView;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMWGui_1_1Recharge.html">Recharge</a> : <span class="keyword">public</span> <a class="code" href="classMWGui_1_1WindowBase.html">WindowBase</a></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="classMWGui_1_1Recharge.html#ac784d7f3d77e54934047e5c4e5db8815">Recharge</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#ac2980aec4d4f66ca275599fd724879f8">open</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a9e8d6de1e8d21d7ef3f100093c365a6e">exit</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a2c2eaf5dc5f9910df9f2af5a9c6ac1c8">start</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; gem);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#aaa77ede253c7bc1fa43d33e5996aa192">   29</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemChargeView.html">ItemChargeView</a>* <a class="code" href="classMWGui_1_1Recharge.html#aaa77ede253c7bc1fa43d33e5996aa192">mBox</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#a67b21cb0459bdfa3ab82edea27ea313f">   31</a></span>&#160;    MyGUI::Widget* <a class="code" href="classMWGui_1_1Recharge.html#a67b21cb0459bdfa3ab82edea27ea313f">mGemBox</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#a64734c00901a643fd1c89967f296c3b3">   33</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemWidget.html">ItemWidget</a>* <a class="code" href="classMWGui_1_1Recharge.html#a64734c00901a643fd1c89967f296c3b3">mGemIcon</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#ac16930327e060668dc4406ebdc494794">   35</a></span>&#160;    MyGUI::TextBox* <a class="code" href="classMWGui_1_1Recharge.html#ac16930327e060668dc4406ebdc494794">mChargeLabel</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#a6b82e874ddf4a09e5256abda54eadee2">   37</a></span>&#160;    MyGUI::Button* <a class="code" href="classMWGui_1_1Recharge.html#a6b82e874ddf4a09e5256abda54eadee2">mCancelButton</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a24222e05f8083ba68ab3eaa15b6287fd">updateView</a>();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a994cd812a36bc0e835f8284306b3576c">onItemClicked</a> (MyGUI::Widget* sender, <span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; item);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a685b676e5250d3f32b2d10cc25ac58d7">onCancel</a> (MyGUI::Widget* sender);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a3e3389cfefdb9a2872ba9f7e92e2835a">onMouseWheel</a>(MyGUI::Widget* _sender, <span class="keywordtype">int</span> _rel);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="itemselection_8hpp.html">itemselection.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>MWWorld</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">class </span>Ptr;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>MWGui</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>ItemSelectionDialog;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>ItemWidget;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span>ItemChargeView;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMWGui_1_1Recharge.html">Recharge</a> : <span class="keyword">public</span> <a class="code" href="classMWGui_1_1WindowBase.html">WindowBase</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="classMWGui_1_1Recharge.html#ac784d7f3d77e54934047e5c4e5db8815">Recharge</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#ae5d6b2d8f52f9a5ee0b563553cafd4e4">onOpen</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a1c50acd1c0c0d55280f6845a01bf53a6">setPtr</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; gem);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#aaa77ede253c7bc1fa43d33e5996aa192">   30</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemChargeView.html">ItemChargeView</a>* <a class="code" href="classMWGui_1_1Recharge.html#aaa77ede253c7bc1fa43d33e5996aa192">mBox</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#a67b21cb0459bdfa3ab82edea27ea313f">   32</a></span>&#160;    MyGUI::Widget* <a class="code" href="classMWGui_1_1Recharge.html#a67b21cb0459bdfa3ab82edea27ea313f">mGemBox</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#a64734c00901a643fd1c89967f296c3b3">   34</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemWidget.html">ItemWidget</a>* <a class="code" href="classMWGui_1_1Recharge.html#a64734c00901a643fd1c89967f296c3b3">mGemIcon</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#a7cb30d732066b3133ce6c0f897f2395a">   36</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemSelectionDialog.html">ItemSelectionDialog</a>* <a class="code" href="classMWGui_1_1Recharge.html#a7cb30d732066b3133ce6c0f897f2395a">mItemSelectionDialog</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#ac16930327e060668dc4406ebdc494794">   38</a></span>&#160;    MyGUI::TextBox* <a class="code" href="classMWGui_1_1Recharge.html#ac16930327e060668dc4406ebdc494794">mChargeLabel</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classMWGui_1_1Recharge.html#a6b82e874ddf4a09e5256abda54eadee2">   40</a></span>&#160;    MyGUI::Button* <a class="code" href="classMWGui_1_1Recharge.html#a6b82e874ddf4a09e5256abda54eadee2">mCancelButton</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a24222e05f8083ba68ab3eaa15b6287fd">updateView</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#ad589e0c8d7e68899bd55828d4f573bd3">onSelectItem</a>(MyGUI::Widget* sender);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#af7c791c2272c55c00915573b85f2d0c8">onItemSelected</a>(<a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> item);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a3397cd9f8522799807015622634198ef">onItemCancel</a>();</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a994cd812a36bc0e835f8284306b3576c">onItemClicked</a> (MyGUI::Widget* sender, <span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; item);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a685b676e5250d3f32b2d10cc25ac58d7">onCancel</a> (MyGUI::Widget* sender);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Recharge.html#a3e3389cfefdb9a2872ba9f7e92e2835a">onMouseWheel</a>(MyGUI::Widget* _sender, <span class="keywordtype">int</span> _rel);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="windowbase_8hpp_html"><div class="ttname"><a href="windowbase_8hpp.html">windowbase.hpp</a></div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_a64734c00901a643fd1c89967f296c3b3"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a64734c00901a643fd1c89967f296c3b3">MWGui::Recharge::mGemIcon</a></div><div class="ttdeci">ItemWidget * mGemIcon</div><div class="ttdef"><b>Definition:</b> recharge.hpp:33</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_ac784d7f3d77e54934047e5c4e5db8815"><div class="ttname"><a href="classMWGui_1_1Recharge.html#ac784d7f3d77e54934047e5c4e5db8815">MWGui::Recharge::Recharge</a></div><div class="ttdeci">Recharge()</div><div class="ttdef"><b>Definition:</b> recharge.cpp:33</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_a9e8d6de1e8d21d7ef3f100093c365a6e"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a9e8d6de1e8d21d7ef3f100093c365a6e">MWGui::Recharge::exit</a></div><div class="ttdeci">virtual void exit()</div><div class="ttdoc">Gracefully exits the window. </div><div class="ttdef"><b>Definition:</b> recharge.cpp:62</div></div>
+<div class="ttc" id="itemselection_8hpp_html"><div class="ttname"><a href="itemselection_8hpp.html">itemselection.hpp</a></div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a64734c00901a643fd1c89967f296c3b3"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a64734c00901a643fd1c89967f296c3b3">MWGui::Recharge::mGemIcon</a></div><div class="ttdeci">ItemWidget * mGemIcon</div><div class="ttdef"><b>Definition:</b> recharge.hpp:34</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_ac784d7f3d77e54934047e5c4e5db8815"><div class="ttname"><a href="classMWGui_1_1Recharge.html#ac784d7f3d77e54934047e5c4e5db8815">MWGui::Recharge::Recharge</a></div><div class="ttdeci">Recharge()</div><div class="ttdef"><b>Definition:</b> recharge.cpp:32</div></div>
+<div class="ttc" id="classMWGui_1_1ItemSelectionDialog_html"><div class="ttname"><a href="classMWGui_1_1ItemSelectionDialog.html">MWGui::ItemSelectionDialog</a></div><div class="ttdef"><b>Definition:</b> itemselection.hpp:19</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_ad589e0c8d7e68899bd55828d4f573bd3"><div class="ttname"><a href="classMWGui_1_1Recharge.html#ad589e0c8d7e68899bd55828d4f573bd3">MWGui::Recharge::onSelectItem</a></div><div class="ttdeci">void onSelectItem(MyGUI::Widget *sender)</div><div class="ttdef"><b>Definition:</b> recharge.cpp:105</div></div>
 <div class="ttc" id="classMWGui_1_1Recharge_html_a3e3389cfefdb9a2872ba9f7e92e2835a"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a3e3389cfefdb9a2872ba9f7e92e2835a">MWGui::Recharge::onMouseWheel</a></div><div class="ttdeci">void onMouseWheel(MyGUI::Widget *_sender, int _rel)</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_ac16930327e060668dc4406ebdc494794"><div class="ttname"><a href="classMWGui_1_1Recharge.html#ac16930327e060668dc4406ebdc494794">MWGui::Recharge::mChargeLabel</a></div><div class="ttdeci">MyGUI::TextBox * mChargeLabel</div><div class="ttdef"><b>Definition:</b> recharge.hpp:35</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html"><div class="ttname"><a href="classMWGui_1_1Recharge.html">MWGui::Recharge</a></div><div class="ttdef"><b>Definition:</b> recharge.hpp:17</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_a24222e05f8083ba68ab3eaa15b6287fd"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a24222e05f8083ba68ab3eaa15b6287fd">MWGui::Recharge::updateView</a></div><div class="ttdeci">void updateView()</div><div class="ttdef"><b>Definition:</b> recharge.cpp:76</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_ac2980aec4d4f66ca275599fd724879f8"><div class="ttname"><a href="classMWGui_1_1Recharge.html#ac2980aec4d4f66ca275599fd724879f8">MWGui::Recharge::open</a></div><div class="ttdeci">virtual void open()</div><div class="ttdoc">Notify that window has been made visible. </div><div class="ttdef"><b>Definition:</b> recharge.cpp:50</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_a6b82e874ddf4a09e5256abda54eadee2"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a6b82e874ddf4a09e5256abda54eadee2">MWGui::Recharge::mCancelButton</a></div><div class="ttdeci">MyGUI::Button * mCancelButton</div><div class="ttdef"><b>Definition:</b> recharge.hpp:37</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_a994cd812a36bc0e835f8284306b3576c"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a994cd812a36bc0e835f8284306b3576c">MWGui::Recharge::onItemClicked</a></div><div class="ttdeci">void onItemClicked(MyGUI::Widget *sender, const MWWorld::Ptr &amp;item)</div><div class="ttdef"><b>Definition:</b> recharge.cpp:104</div></div>
-<div class="ttc" id="classMWGui_1_1WindowBase_html"><div class="ttname"><a href="classMWGui_1_1WindowBase.html">MWGui::WindowBase</a></div><div class="ttdef"><b>Definition:</b> windowbase.hpp:16</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_ac16930327e060668dc4406ebdc494794"><div class="ttname"><a href="classMWGui_1_1Recharge.html#ac16930327e060668dc4406ebdc494794">MWGui::Recharge::mChargeLabel</a></div><div class="ttdeci">MyGUI::TextBox * mChargeLabel</div><div class="ttdef"><b>Definition:</b> recharge.hpp:38</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html"><div class="ttname"><a href="classMWGui_1_1Recharge.html">MWGui::Recharge</a></div><div class="ttdef"><b>Definition:</b> recharge.hpp:20</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a24222e05f8083ba68ab3eaa15b6287fd"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a24222e05f8083ba68ab3eaa15b6287fd">MWGui::Recharge::updateView</a></div><div class="ttdeci">void updateView()</div><div class="ttdef"><b>Definition:</b> recharge.cpp:71</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a6b82e874ddf4a09e5256abda54eadee2"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a6b82e874ddf4a09e5256abda54eadee2">MWGui::Recharge::mCancelButton</a></div><div class="ttdeci">MyGUI::Button * mCancelButton</div><div class="ttdef"><b>Definition:</b> recharge.hpp:40</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_ae5d6b2d8f52f9a5ee0b563553cafd4e4"><div class="ttname"><a href="classMWGui_1_1Recharge.html#ae5d6b2d8f52f9a5ee0b563553cafd4e4">MWGui::Recharge::onOpen</a></div><div class="ttdeci">virtual void onOpen()</div><div class="ttdoc">Notify that window has been made visible. </div><div class="ttdef"><b>Definition:</b> recharge.cpp:50</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a994cd812a36bc0e835f8284306b3576c"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a994cd812a36bc0e835f8284306b3576c">MWGui::Recharge::onItemClicked</a></div><div class="ttdeci">void onItemClicked(MyGUI::Widget *sender, const MWWorld::Ptr &amp;item)</div><div class="ttdef"><b>Definition:</b> recharge.cpp:133</div></div>
+<div class="ttc" id="classMWGui_1_1WindowBase_html"><div class="ttname"><a href="classMWGui_1_1WindowBase.html">MWGui::WindowBase</a></div><div class="ttdef"><b>Definition:</b> windowbase.hpp:21</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a1c50acd1c0c0d55280f6845a01bf53a6"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a1c50acd1c0c0d55280f6845a01bf53a6">MWGui::Recharge::setPtr</a></div><div class="ttdeci">void setPtr(const MWWorld::Ptr &amp;gem)</div><div class="ttdoc">Open this object in the GUI, for windows that support it. </div><div class="ttdef"><b>Definition:</b> recharge.cpp:62</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a7cb30d732066b3133ce6c0f897f2395a"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a7cb30d732066b3133ce6c0f897f2395a">MWGui::Recharge::mItemSelectionDialog</a></div><div class="ttdeci">ItemSelectionDialog * mItemSelectionDialog</div><div class="ttdef"><b>Definition:</b> recharge.hpp:36</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_af7c791c2272c55c00915573b85f2d0c8"><div class="ttname"><a href="classMWGui_1_1Recharge.html#af7c791c2272c55c00915573b85f2d0c8">MWGui::Recharge::onItemSelected</a></div><div class="ttdeci">void onItemSelected(MWWorld::Ptr item)</div><div class="ttdef"><b>Definition:</b> recharge.cpp:116</div></div>
 <div class="ttc" id="classMWWorld_1_1Ptr_html"><div class="ttname"><a href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a></div><div class="ttdoc">Pointer to a LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:19</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_a685b676e5250d3f32b2d10cc25ac58d7"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a685b676e5250d3f32b2d10cc25ac58d7">MWGui::Recharge::onCancel</a></div><div class="ttdeci">void onCancel(MyGUI::Widget *sender)</div><div class="ttdef"><b>Definition:</b> recharge.cpp:99</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a3397cd9f8522799807015622634198ef"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a3397cd9f8522799807015622634198ef">MWGui::Recharge::onItemCancel</a></div><div class="ttdeci">void onItemCancel()</div><div class="ttdef"><b>Definition:</b> recharge.cpp:128</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a685b676e5250d3f32b2d10cc25ac58d7"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a685b676e5250d3f32b2d10cc25ac58d7">MWGui::Recharge::onCancel</a></div><div class="ttdeci">void onCancel(MyGUI::Widget *sender)</div><div class="ttdef"><b>Definition:</b> recharge.cpp:100</div></div>
 <div class="ttc" id="classMWGui_1_1ItemChargeView_html"><div class="ttname"><a href="classMWGui_1_1ItemChargeView.html">MWGui::ItemChargeView</a></div><div class="ttdef"><b>Definition:</b> itemchargeview.hpp:24</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_aaa77ede253c7bc1fa43d33e5996aa192"><div class="ttname"><a href="classMWGui_1_1Recharge.html#aaa77ede253c7bc1fa43d33e5996aa192">MWGui::Recharge::mBox</a></div><div class="ttdeci">ItemChargeView * mBox</div><div class="ttdef"><b>Definition:</b> recharge.hpp:29</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_a67b21cb0459bdfa3ab82edea27ea313f"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a67b21cb0459bdfa3ab82edea27ea313f">MWGui::Recharge::mGemBox</a></div><div class="ttdeci">MyGUI::Widget * mGemBox</div><div class="ttdef"><b>Definition:</b> recharge.hpp:31</div></div>
-<div class="ttc" id="classMWGui_1_1Recharge_html_a2c2eaf5dc5f9910df9f2af5a9c6ac1c8"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a2c2eaf5dc5f9910df9f2af5a9c6ac1c8">MWGui::Recharge::start</a></div><div class="ttdeci">void start(const MWWorld::Ptr &amp;gem)</div><div class="ttdef"><b>Definition:</b> recharge.cpp:67</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_aaa77ede253c7bc1fa43d33e5996aa192"><div class="ttname"><a href="classMWGui_1_1Recharge.html#aaa77ede253c7bc1fa43d33e5996aa192">MWGui::Recharge::mBox</a></div><div class="ttdeci">ItemChargeView * mBox</div><div class="ttdef"><b>Definition:</b> recharge.hpp:30</div></div>
+<div class="ttc" id="classMWGui_1_1Recharge_html_a67b21cb0459bdfa3ab82edea27ea313f"><div class="ttname"><a href="classMWGui_1_1Recharge.html#a67b21cb0459bdfa3ab82edea27ea313f">MWGui::Recharge::mGemBox</a></div><div class="ttdeci">MyGUI::Widget * mGemBox</div><div class="ttdef"><b>Definition:</b> recharge.hpp:32</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html">MWGui::ItemWidget</a></div><div class="ttdoc">A widget that shows an icon for an MWWorld::Ptr. </div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:50 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:21 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

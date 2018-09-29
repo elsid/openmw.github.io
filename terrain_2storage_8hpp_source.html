@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/terrain/storage.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/terrain/storage.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -116,55 +116,54 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span>Terrain</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classTerrain_1_1Storage.html">   21</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classTerrain_1_1Storage.html">Storage</a></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classTerrain_1_1Storage.html#a2ed30552457ea67635c22306be24c5bb">   24</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classTerrain_1_1Storage.html#a2ed30552457ea67635c22306be24c5bb">~Storage</a>() {}</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classTerrain_1_1Storage.html#a4cfdc79294004cb12208b8b55b8e11d5">getBounds</a>(<span class="keywordtype">float</span>&amp; minX, <span class="keywordtype">float</span>&amp; maxX, <span class="keywordtype">float</span>&amp; minY, <span class="keywordtype">float</span>&amp; maxY) = 0;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classTerrain_1_1Storage.html#acfbec50c7fd444292cd4b4f2244204b7">getMinMaxHeights</a> (<span class="keywordtype">float</span> size, <span class="keyword">const</span> osg::Vec2f&amp; center, <span class="keywordtype">float</span>&amp; min, <span class="keywordtype">float</span>&amp; max) = 0;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classTerrain_1_1Storage.html#ae4ec405d3108b4542af3d5b114ab87e2">fillVertexBuffers</a> (<span class="keywordtype">int</span> lodLevel, <span class="keywordtype">float</span> size, <span class="keyword">const</span> osg::Vec2f&amp; center,</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                osg::ref_ptr&lt;osg::Vec3Array&gt; positions,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                osg::ref_ptr&lt;osg::Vec3Array&gt; normals,</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                osg::ref_ptr&lt;osg::Vec4Array&gt; colours) = 0;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">   56</a></span>&#160;        <span class="keyword">typedef</span> std::vector&lt;osg::ref_ptr&lt;osg::Image&gt; &gt; <a class="code" href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">ImageVector</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classTerrain_1_1Storage.html#a7ca62818dc53dffde2e7247b0017c793">getBlendmaps</a> (<span class="keywordtype">float</span> chunkSize, <span class="keyword">const</span> osg::Vec2f&amp; chunkCenter, <span class="keywordtype">bool</span> pack,</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                           <a class="code" href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">ImageVector</a>&amp; blendmaps,</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                           std::vector&lt;LayerInfo&gt;&amp; layerList) = 0;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">float</span> <a class="code" href="classTerrain_1_1Storage.html#a17d3d2423581b3e90217cb245f475426">getHeightAt</a> (<span class="keyword">const</span> osg::Vec3f&amp; worldPos) = 0;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="structTerrain_1_1LayerInfo.html">LayerInfo</a> <a class="code" href="classTerrain_1_1Storage.html#a5b0abbe7708a782623cd6c84a6fb19e2">getDefaultLayer</a>() = 0;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">float</span> <a class="code" href="classTerrain_1_1Storage.html#a8f8ed3c3ba822e0264edf115a226fba4">getCellWorldSize</a>() = 0;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain_1_1Storage.html#acdb70cbe39f265a5825d0cfd202e53d3">getCellVertices</a>() = 0;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    };</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classTerrain_1_1Storage.html">   22</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classTerrain_1_1Storage.html">Storage</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classTerrain_1_1Storage.html#a2ed30552457ea67635c22306be24c5bb">   25</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classTerrain_1_1Storage.html#a2ed30552457ea67635c22306be24c5bb">~Storage</a>() {}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classTerrain_1_1Storage.html#a4cfdc79294004cb12208b8b55b8e11d5">getBounds</a>(<span class="keywordtype">float</span>&amp; minX, <span class="keywordtype">float</span>&amp; maxX, <span class="keywordtype">float</span>&amp; minY, <span class="keywordtype">float</span>&amp; maxY) = 0;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classTerrain_1_1Storage.html#acfbec50c7fd444292cd4b4f2244204b7">getMinMaxHeights</a> (<span class="keywordtype">float</span> size, <span class="keyword">const</span> osg::Vec2f&amp; center, <span class="keywordtype">float</span>&amp; min, <span class="keywordtype">float</span>&amp; max) = 0;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classTerrain_1_1Storage.html#ae4ec405d3108b4542af3d5b114ab87e2">fillVertexBuffers</a> (<span class="keywordtype">int</span> lodLevel, <span class="keywordtype">float</span> size, <span class="keyword">const</span> osg::Vec2f&amp; center,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                osg::ref_ptr&lt;osg::Vec3Array&gt; positions,</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                osg::ref_ptr&lt;osg::Vec3Array&gt; normals,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                osg::ref_ptr&lt;osg::Vec4Array&gt; colours) = 0;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">   57</a></span>&#160;        <span class="keyword">typedef</span> std::vector&lt;osg::ref_ptr&lt;osg::Image&gt; &gt; <a class="code" href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">ImageVector</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classTerrain_1_1Storage.html#a7ca62818dc53dffde2e7247b0017c793">getBlendmaps</a> (<span class="keywordtype">float</span> chunkSize, <span class="keyword">const</span> osg::Vec2f&amp; chunkCenter, <span class="keywordtype">bool</span> pack,</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                           <a class="code" href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">ImageVector</a>&amp; blendmaps,</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                           std::vector&lt;LayerInfo&gt;&amp; layerList) = 0;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">float</span> <a class="code" href="classTerrain_1_1Storage.html#a17d3d2423581b3e90217cb245f475426">getHeightAt</a> (<span class="keyword">const</span> osg::Vec3f&amp; worldPos) = 0;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">float</span> <a class="code" href="classTerrain_1_1Storage.html#a8f8ed3c3ba822e0264edf115a226fba4">getCellWorldSize</a>() = 0;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain_1_1Storage.html#acdb70cbe39f265a5825d0cfd202e53d3">getCellVertices</a>() = 0;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain_1_1Storage.html#ac549a203dc430a24e25ce010b7b82e8a">getBlendmapScale</a>(<span class="keywordtype">float</span> chunkSize) = 0;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    };</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classTerrain_1_1Storage_html_ae4ec405d3108b4542af3d5b114ab87e2"><div class="ttname"><a href="classTerrain_1_1Storage.html#ae4ec405d3108b4542af3d5b114ab87e2">Terrain::Storage::fillVertexBuffers</a></div><div class="ttdeci">virtual void fillVertexBuffers(int lodLevel, float size, const osg::Vec2f &amp;center, osg::ref_ptr&lt; osg::Vec3Array &gt; positions, osg::ref_ptr&lt; osg::Vec3Array &gt; normals, osg::ref_ptr&lt; osg::Vec4Array &gt; colours)=0</div></div>
 <div class="ttc" id="classTerrain_1_1Storage_html_a7ca62818dc53dffde2e7247b0017c793"><div class="ttname"><a href="classTerrain_1_1Storage.html#a7ca62818dc53dffde2e7247b0017c793">Terrain::Storage::getBlendmaps</a></div><div class="ttdeci">virtual void getBlendmaps(float chunkSize, const osg::Vec2f &amp;chunkCenter, bool pack, ImageVector &amp;blendmaps, std::vector&lt; LayerInfo &gt; &amp;layerList)=0</div></div>
+<div class="ttc" id="classTerrain_1_1Storage_html_ac549a203dc430a24e25ce010b7b82e8a"><div class="ttname"><a href="classTerrain_1_1Storage.html#ac549a203dc430a24e25ce010b7b82e8a">Terrain::Storage::getBlendmapScale</a></div><div class="ttdeci">virtual int getBlendmapScale(float chunkSize)=0</div></div>
 <div class="ttc" id="classTerrain_1_1Storage_html_a8f8ed3c3ba822e0264edf115a226fba4"><div class="ttname"><a href="classTerrain_1_1Storage.html#a8f8ed3c3ba822e0264edf115a226fba4">Terrain::Storage::getCellWorldSize</a></div><div class="ttdeci">virtual float getCellWorldSize()=0</div><div class="ttdoc">Get the transformation factor for mapping cell units to world units. </div></div>
-<div class="ttc" id="classTerrain_1_1Storage_html_a34c9fbfcbb07c8711498b769e05c9ee3"><div class="ttname"><a href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">Terrain::Storage::ImageVector</a></div><div class="ttdeci">std::vector&lt; osg::ref_ptr&lt; osg::Image &gt; &gt; ImageVector</div><div class="ttdef"><b>Definition:</b> storage.hpp:56</div></div>
+<div class="ttc" id="classTerrain_1_1Storage_html_a34c9fbfcbb07c8711498b769e05c9ee3"><div class="ttname"><a href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">Terrain::Storage::ImageVector</a></div><div class="ttdeci">std::vector&lt; osg::ref_ptr&lt; osg::Image &gt; &gt; ImageVector</div><div class="ttdef"><b>Definition:</b> storage.hpp:57</div></div>
 <div class="ttc" id="terrain_2defs_8hpp_html"><div class="ttname"><a href="terrain_2defs_8hpp.html">defs.hpp</a></div></div>
-<div class="ttc" id="classTerrain_1_1Storage_html"><div class="ttname"><a href="classTerrain_1_1Storage.html">Terrain::Storage</a></div><div class="ttdoc">We keep storage of terrain data abstract here since we need different implementations for game and ed...</div><div class="ttdef"><b>Definition:</b> storage.hpp:21</div></div>
+<div class="ttc" id="classTerrain_1_1Storage_html"><div class="ttname"><a href="classTerrain_1_1Storage.html">Terrain::Storage</a></div><div class="ttdef"><b>Definition:</b> storage.hpp:22</div></div>
 <div class="ttc" id="classTerrain_1_1Storage_html_a4cfdc79294004cb12208b8b55b8e11d5"><div class="ttname"><a href="classTerrain_1_1Storage.html#a4cfdc79294004cb12208b8b55b8e11d5">Terrain::Storage::getBounds</a></div><div class="ttdeci">virtual void getBounds(float &amp;minX, float &amp;maxX, float &amp;minY, float &amp;maxY)=0</div><div class="ttdoc">Get bounds of the whole terrain in cell units. </div></div>
 <div class="ttc" id="classTerrain_1_1Storage_html_a17d3d2423581b3e90217cb245f475426"><div class="ttname"><a href="classTerrain_1_1Storage.html#a17d3d2423581b3e90217cb245f475426">Terrain::Storage::getHeightAt</a></div><div class="ttdeci">virtual float getHeightAt(const osg::Vec3f &amp;worldPos)=0</div></div>
 <div class="ttc" id="classTerrain_1_1Storage_html_acfbec50c7fd444292cd4b4f2244204b7"><div class="ttname"><a href="classTerrain_1_1Storage.html#acfbec50c7fd444292cd4b4f2244204b7">Terrain::Storage::getMinMaxHeights</a></div><div class="ttdeci">virtual bool getMinMaxHeights(float size, const osg::Vec2f &amp;center, float &amp;min, float &amp;max)=0</div></div>
-<div class="ttc" id="structTerrain_1_1LayerInfo_html"><div class="ttname"><a href="structTerrain_1_1LayerInfo.html">Terrain::LayerInfo</a></div><div class="ttdef"><b>Definition:</b> defs.hpp:17</div></div>
-<div class="ttc" id="classTerrain_1_1Storage_html_a2ed30552457ea67635c22306be24c5bb"><div class="ttname"><a href="classTerrain_1_1Storage.html#a2ed30552457ea67635c22306be24c5bb">Terrain::Storage::~Storage</a></div><div class="ttdeci">virtual ~Storage()</div><div class="ttdef"><b>Definition:</b> storage.hpp:24</div></div>
+<div class="ttc" id="classTerrain_1_1Storage_html_a2ed30552457ea67635c22306be24c5bb"><div class="ttname"><a href="classTerrain_1_1Storage.html#a2ed30552457ea67635c22306be24c5bb">Terrain::Storage::~Storage</a></div><div class="ttdeci">virtual ~Storage()</div><div class="ttdef"><b>Definition:</b> storage.hpp:25</div></div>
 <div class="ttc" id="classTerrain_1_1Storage_html_acdb70cbe39f265a5825d0cfd202e53d3"><div class="ttname"><a href="classTerrain_1_1Storage.html#acdb70cbe39f265a5825d0cfd202e53d3">Terrain::Storage::getCellVertices</a></div><div class="ttdeci">virtual int getCellVertices()=0</div><div class="ttdoc">Get the number of vertices on one side for each cell. Should be (power of two)+1. ...</div></div>
-<div class="ttc" id="classTerrain_1_1Storage_html_a5b0abbe7708a782623cd6c84a6fb19e2"><div class="ttname"><a href="classTerrain_1_1Storage.html#a5b0abbe7708a782623cd6c84a6fb19e2">Terrain::Storage::getDefaultLayer</a></div><div class="ttdeci">virtual LayerInfo getDefaultLayer()=0</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

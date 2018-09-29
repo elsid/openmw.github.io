@@ -1,31 +1,29 @@
 <map id="MWWorld::ActionOpen::executeImp" name="MWWorld::ActionOpen::executeImp">
 <area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="989,240,1184,267"/>
 <area shape="rect" id="node3" href="$namespaceMWMechanics.html#a8ac7efdb8dfc6be15d264727f4ebdcf9" title="MWMechanics::diseaseContact" alt="" coords="213,663,432,690"/>
-<area shape="rect" id="node27" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="512,1256,677,1297"/>
-<area shape="rect" id="node29" href="$classMWWorld_1_1Action.html#a6f251a38ff6fdedac4169c8c4f327088" title="MWWorld::Action::getTarget" alt="" coords="225,764,420,791"/>
-<area shape="rect" id="node30" href="$classMWBase_1_1WindowManager.html#ab0c66aed1924ca7fd665117e91e6daaa" title="MWBase::WindowManager\l::openContainer" alt="" coords="229,816,416,857"/>
+<area shape="rect" id="node25" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="512,1256,677,1297"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1Action.html#a6f251a38ff6fdedac4169c8c4f327088" title="MWWorld::Action::getTarget" alt="" coords="225,764,420,791"/>
+<area shape="rect" id="node28" href="$classMWBase_1_1WindowManager.html#a032fb5482e330180b67d927816204327" title="MWBase::WindowManager\l::pushGuiMode" alt="" coords="229,816,416,857"/>
 <area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="511,638,678,664"/>
 <area shape="rect" id="node5" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="509,688,681,715"/>
 <area shape="rect" id="node6" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="757,466,936,492"/>
 <area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1004,516,1169,557"/>
 <area shape="rect" id="node9" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="995,723,1178,750"/>
 <area shape="rect" id="node10" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="997,840,1176,867"/>
-<area shape="rect" id="node11" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="493,891,696,918"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="492,942,697,984"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="490,1008,699,1049"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="490,1073,699,1114"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1Spells.html#a93e0c5682a5985989dca90223f61f96d" title="MWMechanics::Spells\l::begin" alt="" coords="516,1138,673,1180"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1Spells.html#a662ef515230abd74e3cb28a0c5d27f62" title="MWMechanics::Spells::end" alt="" coords="500,1204,689,1231"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1Spells.html#a417c816975137eef7fda2bf853cb7760" title="MWMechanics::Spells\l::hasSpell" alt="" coords="516,572,673,613"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1Spells.html#ad5b2b59d5da65f6a5d5cf760d3f6e683" title="MWMechanics::Spells\l::hasCorprusEffect" alt="" coords="516,118,673,160"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="481,184,709,211"/>
-<area shape="rect" id="node22" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="497,236,693,277"/>
-<area shape="rect" id="node23" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="526,302,663,328"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1Spells.html#acb995a57e484a88c9360893e3aa3113b" title="Adding a spell that is already listed in *this is a no&#45;op. " alt="" coords="500,739,689,766"/>
-<area shape="rect" id="node25" href="$structESM_1_1GameSetting.html#a5a65ccb12013396de6a17c3a41051391" title="Throwns an exception if GMST is not of type string. " alt="" coords="489,352,700,379"/>
-<area shape="rect" id="node28" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="501,404,688,445"/>
+<area shape="rect" id="node11" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="513,891,676,918"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="492,942,697,984"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="490,1008,699,1049"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="490,1073,699,1114"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1Spells.html#a93e0c5682a5985989dca90223f61f96d" title="MWMechanics::Spells\l::begin" alt="" coords="516,1138,673,1180"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1Spells.html#a662ef515230abd74e3cb28a0c5d27f62" title="MWMechanics::Spells::end" alt="" coords="500,1204,689,1231"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1Spells.html#a417c816975137eef7fda2bf853cb7760" title="MWMechanics::Spells\l::hasSpell" alt="" coords="516,572,673,613"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1Spells.html#ad5b2b59d5da65f6a5d5cf760d3f6e683" title="MWMechanics::Spells\l::hasCorprusEffect" alt="" coords="516,118,673,160"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="481,184,709,211"/>
+<area shape="rect" id="node21" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="497,236,693,277"/>
+<area shape="rect" id="node22" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="526,302,663,328"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1Spells.html#acb995a57e484a88c9360893e3aa3113b" title="Adding a spell that is already listed in *this is a no&#45;op. " alt="" coords="500,739,689,766"/>
+<area shape="rect" id="node24" href="$classESM_1_1Variant.html#a26ca2816c99d80fa9f91c1ad235d9e13" title="Will throw an exception, if value can not be represented as a string. " alt="" coords="509,352,680,379"/>
+<area shape="rect" id="node26" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="501,404,688,445"/>
 <area shape="rect" id="node8" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="985,464,1189,491"/>
-<area shape="rect" id="node12" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="765,891,928,918"/>
-<area shape="rect" id="node19" href="$classMWMechanics_1_1Spells.html#a24959d02a1baaff2b2e44d8278872c15" title="Get spell from ID, throws exception if not found. " alt="" coords="768,648,925,689"/>
-<area shape="rect" id="node26" href="$classESM_1_1Variant.html#a26ca2816c99d80fa9f91c1ad235d9e13" title="Will throw an exception, if value can not be represented as a string. " alt="" coords="761,352,932,379"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1Spells.html#a24959d02a1baaff2b2e44d8278872c15" title="Get spell from ID, throws exception if not found. " alt="" coords="768,648,925,689"/>
 </map>

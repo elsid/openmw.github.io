@@ -1,51 +1,51 @@
 <map id="MWClass::Creature::getSpeed" name="MWClass::Creature::getSpeed">
-<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#a1e74fd5b7b7f698077da10276381f341" title="Return creature stats. " alt="" coords="534,1179,685,1221"/>
-<area shape="rect" id="node8" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1028,1055,1223,1081"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1043,1106,1208,1147"/>
-<area shape="rect" id="node25" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1329,583,1495,609"/>
-<area shape="rect" id="node26" href="$classMWClass_1_1Creature.html#adfc085da0188a5f7ac12751c6731e43a" title="MWClass::Creature::\lgetGmst" alt="" coords="790,946,941,987"/>
-<area shape="rect" id="node28" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="223,1397,425,1424"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="505,1245,714,1286"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="504,1310,715,1351"/>
-<area shape="rect" id="node32" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="505,1427,714,1469"/>
-<area shape="rect" id="node33" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="507,1493,712,1534"/>
-<area shape="rect" id="node34" href="$classMWMechanics_1_1CreatureStats.html#a1b87fd5147564be617cb95bbbaf64022" title="Like getMovementFlag, but also takes into account if the flag is Forced. " alt="" coords="219,1710,429,1751"/>
-<area shape="rect" id="node36" href="$classMWClass_1_1Actor.html#ac1a074340d7a860400f61de71b352f0e" title="MWClass::Actor::getEncumbrance" alt="" coords="205,1557,443,1584"/>
-<area shape="rect" id="node40" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="495,1689,723,1716"/>
-<area shape="rect" id="node41" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="511,1741,707,1782"/>
-<area shape="rect" id="node42" href="$classMWClass_1_1Creature.html#a08aa1c17e8357d69a71966102094f57e" title="MWClass::Creature::\lgetCapacity" alt="" coords="249,1281,399,1322"/>
-<area shape="rect" id="node43" href="$classMWClass_1_1Creature.html#a0be86a528d8b67234583302a599fa1e1" title="MWClass::Creature::\lcanFly" alt="" coords="790,5,941,46"/>
-<area shape="rect" id="node44" href="$classMWBase_1_1World.html#ab3abaa45f5da0316faa1b1da75cba5e8" title="Returns true if levitation spell effect is allowed. " alt="" coords="225,1775,423,1817"/>
-<area shape="rect" id="node45" href="$classMWWorld_1_1Class.html#a4b42fcf786a3235a5b278cdefbad53f3" title="Returns encumbrance re&#45;scaled to capacity. " alt="" coords="213,1857,435,1898"/>
-<area shape="rect" id="node48" href="$classMWBase_1_1World.html#afcb13e418993a9442cf3a02275fa211d" title="MWBase::World::isSwimming" alt="" coords="223,1923,425,1949"/>
-<area shape="rect" id="node49" href="$classMWClass_1_1Creature.html#a4c2636adcc2763e551ca3c7c6b8f6703" title="MWClass::Creature::\lgetSkill" alt="" coords="790,1011,941,1053"/>
-<area shape="rect" id="node50" href="$classMWClass_1_1Creature.html#ac1a21719483b48f0ca42f9e543cd925a" title="Return desired movement. " alt="" coords="527,165,691,206"/>
-<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a7531a44c10de78012a59b1e3b4b1726b" title="MWClass::Creature::\lensureCustomData" alt="" coords="790,663,941,705"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="1609,641,1791,668"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1RefData.html#a1ef7b41e2a72ec06e8631e42bbd42b85" title="May return a 0&#45;pointer. The ownership of the return data object is not transferred. " alt="" coords="1577,747,1823,773"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1CustomData.html#a04f32f8cea1d60609503487669c29d5c" title="MWWorld::CustomData\l::asCreatureCustomData" alt="" coords="1609,517,1791,558"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="1345,852,1479,879"/>
-<area shape="rect" id="node10" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1034,903,1217,929"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1036,953,1215,980"/>
-<area shape="rect" id="node12" href="$classMWClass_1_1Creature.html#a74cef99d0239a6cbd18eaeace3b7249d" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="1337,223,1487,265"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1RefData.html#a94031b8ea51ee0c861645eb41d5b6907" title="MWWorld::RefData::setCustomData" alt="" coords="1003,751,1248,777"/>
-<area shape="rect" id="node16" href="$classMWClass_1_1Creature.html#a49fd1741fb71fb78ee5d73025f818df7" title="Return container store. " alt="" coords="1337,517,1487,558"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1ContainerStore.html#abc01d712d586c20f0dfd326273c91888" title="Insert items into *this. " alt="" coords="1034,442,1217,483"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="1038,391,1213,417"/>
-<area shape="rect" id="node21" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="1032,508,1219,535"/>
-<area shape="rect" id="node22" href="$classMWClass_1_1Creature.html#ac45b1965de85573893ff0d9626c1bd51" title="Return inventory store. " alt="" coords="1050,274,1201,315"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1InventoryStore.html#a673a76aa5af1e86c052f18031e1bd564" title="Auto&#45;equip the shield with most health. " alt="" coords="1035,634,1215,675"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1600,852,1800,879"/>
-<area shape="rect" id="node13" href="$namespaceanonymous__namespace_02creature_8cpp_03.html#a052e331d3c98693982da8e83eca93567" title="anonymous_namespace\l\{creature::cpp\}::isFlagBitSet" alt="" coords="1597,117,1803,158"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1ConstPtr.html#ae3aece4775b5f86d04af63ce0de36cbd" title="MWWorld::ConstPtr::get" alt="" coords="1872,124,2043,151"/>
-<area shape="rect" id="node19" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1346,442,1478,483"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1ContainerStoreIterator.html#ade481e714cb243516fd8895e649c85f3" title="MWWorld::ContainerStoreIterator\l::getType" alt="" coords="1297,634,1527,675"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="1049,1004,1201,1031"/>
-<area shape="rect" id="node29" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="528,1376,691,1403"/>
-<area shape="rect" id="node35" href="$classMWMechanics_1_1CreatureStats.html#a414af15352b5445923a2e9e50d8f8c5c" title="MWMechanics::CreatureStats\l::getMovementFlag" alt="" coords="505,1806,714,1847"/>
-<area shape="rect" id="node37" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="504,1558,715,1599"/>
-<area shape="rect" id="node38" href="$classMWWorld_1_1ContainerStore.html#a39ae7addfeb98f09a4e8d7fb3e37f808" title="Return total weight of the items contained in *this. " alt="" coords="518,1623,701,1665"/>
-<area shape="rect" id="node39" href="$namespaceanonymous__namespace_02containerstore_8cpp_03.html#aee84133de89be14b40bb4fc4174f84b0" title="anonymous_namespace\l\{containerstore::cpp\}\l::getTotalWeight" alt="" coords="776,1616,955,1672"/>
-<area shape="rect" id="node46" href="$classMWWorld_1_1Class.html#a5969231dc5558154176b8522e3a3cf70" title="MWWorld::Class::getCapacity" alt="" coords="507,1872,711,1899"/>
-<area shape="rect" id="node47" href="$classMWWorld_1_1Class.html#ab7faa52d10908b636947819a16dcd3f7" title="MWWorld::Class::getEncumbrance" alt="" coords="491,1923,728,1949"/>
+<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#a1e74fd5b7b7f698077da10276381f341" title="Return creature stats. " alt="" coords="534,634,685,675"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1297,882,1463,909"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1028,336,1223,362"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1043,539,1208,580"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1CreatureStats.html#ae2b73054fdaf82052f81f3bde5a9c90c" title="MWMechanics::CreatureStats\l::isParalyzed" alt="" coords="219,867,429,908"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="495,830,723,857"/>
+<area shape="rect" id="node26" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="511,882,707,923"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1CreatureStats.html#a4a90e70442c62575c00017c0ea0626cc" title="MWMechanics::CreatureStats\l::getKnockedDown" alt="" coords="219,1136,429,1178"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="219,1202,429,1243"/>
+<area shape="rect" id="node29" href="$classMWClass_1_1Creature.html#adfc085da0188a5f7ac12751c6731e43a" title="MWClass::Creature::\lgetGmst" alt="" coords="790,480,941,522"/>
+<area shape="rect" id="node31" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="243,1268,405,1294"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="505,699,714,740"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="504,764,715,806"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="505,1078,714,1119"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="507,1143,712,1184"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1CreatureStats.html#a1b87fd5147564be617cb95bbbaf64022" title="Like getMovementFlag, but also takes into account if the flag is Forced. " alt="" coords="219,1319,429,1360"/>
+<area shape="rect" id="node38" href="$classMWClass_1_1Actor.html#ac1a074340d7a860400f61de71b352f0e" title="MWClass::Actor::getEncumbrance" alt="" coords="205,984,443,1010"/>
+<area shape="rect" id="node42" href="$classMWClass_1_1Creature.html#a08aa1c17e8357d69a71966102094f57e" title="MWClass::Creature::\lgetCapacity" alt="" coords="249,699,399,740"/>
+<area shape="rect" id="node43" href="$classMWClass_1_1Creature.html#a0be86a528d8b67234583302a599fa1e1" title="MWClass::Creature::\lcanFly" alt="" coords="790,16,941,58"/>
+<area shape="rect" id="node44" href="$classMWBase_1_1World.html#ab3abaa45f5da0316faa1b1da75cba5e8" title="Returns true if levitation spell effect is allowed. " alt="" coords="225,1384,423,1426"/>
+<area shape="rect" id="node45" href="$classMWWorld_1_1Class.html#a4b42fcf786a3235a5b278cdefbad53f3" title="Returns encumbrance re&#45;scaled to capacity. " alt="" coords="213,1450,435,1491"/>
+<area shape="rect" id="node48" href="$classMWBase_1_1World.html#afcb13e418993a9442cf3a02275fa211d" title="MWBase::World::isSwimming" alt="" coords="223,1516,425,1542"/>
+<area shape="rect" id="node49" href="$classMWClass_1_1Creature.html#a4c2636adcc2763e551ca3c7c6b8f6703" title="MWClass::Creature::\lgetSkill" alt="" coords="790,415,941,456"/>
+<area shape="rect" id="node50" href="$classMWClass_1_1Creature.html#ac1a21719483b48f0ca42f9e543cd925a" title="Return desired movement. " alt="" coords="527,168,691,210"/>
+<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a7531a44c10de78012a59b1e3b4b1726b" title="MWClass::Creature::\lensureCustomData" alt="" coords="790,791,941,832"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="1545,1116,1727,1142"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1RefData.html#a1ef7b41e2a72ec06e8631e42bbd42b85" title="May return a 0&#45;pointer. The ownership of the return data object is not transferred. " alt="" coords="1513,1277,1759,1304"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1CustomData.html#a04f32f8cea1d60609503487669c29d5c" title="MWWorld::CustomData\l::asCreatureCustomData" alt="" coords="1545,1047,1727,1088"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="1313,773,1447,800"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Class.html#aad3f1668098dcb555bf9deb185b7ba79" title="MWWorld::Class::isPersistent" alt="" coords="1024,824,1227,850"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1034,488,1217,514"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1036,437,1215,464"/>
+<area shape="rect" id="node13" href="$classMWClass_1_1Creature.html#a74cef99d0239a6cbd18eaeace3b7249d" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="1305,598,1455,639"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1RefData.html#a94031b8ea51ee0c861645eb41d5b6907" title="MWWorld::RefData::setCustomData" alt="" coords="1003,941,1248,968"/>
+<area shape="rect" id="node17" href="$classMWClass_1_1Creature.html#a49fd1741fb71fb78ee5d73025f818df7" title="Return container store. " alt="" coords="1305,1047,1455,1088"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1ContainerStore.html#abc01d712d586c20f0dfd326273c91888" title="Insert items into *this. " alt="" coords="1034,1168,1217,1210"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="1038,1234,1213,1261"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="1032,722,1219,749"/>
+<area shape="rect" id="node22" href="$classMWClass_1_1Creature.html#ac45b1965de85573893ff0d9626c1bd51" title="Return inventory store. " alt="" coords="1050,656,1201,698"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1InventoryStore.html#a673a76aa5af1e86c052f18031e1bd564" title="Auto&#45;equip the shield with most health. " alt="" coords="1035,875,1215,916"/>
+<area shape="rect" id="node14" href="$namespaceanonymous__namespace_02creature_8cpp_03.html#a052e331d3c98693982da8e83eca93567" title="anonymous_namespace\l\{creature::cpp\}::isFlagBitSet" alt="" coords="1533,310,1739,351"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1ConstPtr.html#ae3aece4775b5f86d04af63ce0de36cbd" title="MWWorld::ConstPtr::get" alt="" coords="1808,317,1979,344"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="1049,386,1201,413"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1CreatureStats.html#a414af15352b5445923a2e9e50d8f8c5c" title="MWMechanics::CreatureStats\l::getMovementFlag" alt="" coords="505,1319,714,1360"/>
+<area shape="rect" id="node39" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="504,947,715,988"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1ContainerStore.html#a39ae7addfeb98f09a4e8d7fb3e37f808" title="Return total weight of the items contained in *this. " alt="" coords="518,1012,701,1054"/>
+<area shape="rect" id="node41" href="$namespaceanonymous__namespace_02containerstore_8cpp_03.html#aee84133de89be14b40bb4fc4174f84b0" title="anonymous_namespace\l\{containerstore::cpp\}\l::getTotalWeight" alt="" coords="776,1488,955,1544"/>
+<area shape="rect" id="node46" href="$classMWWorld_1_1Class.html#a5969231dc5558154176b8522e3a3cf70" title="MWWorld::Class::getCapacity" alt="" coords="507,1432,711,1458"/>
+<area shape="rect" id="node47" href="$classMWWorld_1_1Class.html#ab7faa52d10908b636947819a16dcd3f7" title="MWWorld::Class::getEncumbrance" alt="" coords="491,1482,728,1509"/>
 </map>

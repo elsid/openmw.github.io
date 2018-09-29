@@ -57,15 +57,15 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWGui_1_1WindowModal.html" target="_top" xlink:title="{MWGui::WindowModal\n||+ WindowModal()\l+ open()\l+ close()\l+ exit()\l}">
+<g id="a_node3"><a xlink:href="classMWGui_1_1WindowModal.html" target="_top" xlink:title="{MWGui::WindowModal\n||+ WindowModal()\l+ onOpen()\l+ onClose()\l+ exit()\l}">
 <polygon fill="white" stroke="black" points="480.5,-647 480.5,-737 599.5,-737 599.5,-647 480.5,-647"/>
 <text text-anchor="middle" x="540" y="-725" font-family="FreeSans" font-size="10.00">MWGui::WindowModal</text>
 <polyline fill="none" stroke="black" points="480.5,-718 599.5,-718 "/>
 <text text-anchor="middle" x="540" y="-706" font-family="FreeSans" font-size="10.00"> </text>
 <polyline fill="none" stroke="black" points="480.5,-699 599.5,-699 "/>
 <text text-anchor="start" x="488.5" y="-687" font-family="FreeSans" font-size="10.00">+ WindowModal()</text>
-<text text-anchor="start" x="488.5" y="-676" font-family="FreeSans" font-size="10.00">+ open()</text>
-<text text-anchor="start" x="488.5" y="-665" font-family="FreeSans" font-size="10.00">+ close()</text>
+<text text-anchor="start" x="488.5" y="-676" font-family="FreeSans" font-size="10.00">+ onOpen()</text>
+<text text-anchor="start" x="488.5" y="-665" font-family="FreeSans" font-size="10.00">+ onClose()</text>
 <text text-anchor="start" x="488.5" y="-654" font-family="FreeSans" font-size="10.00">+ exit()</text>
 </a>
 </g>
@@ -77,14 +77,14 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classMWGui_1_1EditEffectDialog.html" target="_top" xlink:title="{MWGui::EditEffectDialog\n||+ EditEffectDialog()\l+ open()\l+ exit()\l+ setConstantEffect()\l+ setSkill()\l+ setAttribute()\l+ newEffect()\l+ editEffect()\l# onRangeButtonClicked()\l# onDeleteButtonClicked()\l# onOkButtonClicked()\l# onCancelButtonClicked()\l# onMagnitudeMinChanged()\l# onMagnitudeMaxChanged()\l# onDurationChanged()\l# onAreaChanged()\l# setMagicEffect()\l# updateBoxes()\l}">
+<g id="a_node15"><a xlink:href="classMWGui_1_1EditEffectDialog.html" target="_top" xlink:title="{MWGui::EditEffectDialog\n||+ EditEffectDialog()\l+ onOpen()\l+ exit()\l+ setConstantEffect()\l+ setSkill()\l+ setAttribute()\l+ newEffect()\l+ editEffect()\l# onRangeButtonClicked()\l# onDeleteButtonClicked()\l# onOkButtonClicked()\l# onCancelButtonClicked()\l# onMagnitudeMinChanged()\l# onMagnitudeMaxChanged()\l# onDurationChanged()\l# onAreaChanged()\l# setMagicEffect()\l# updateBoxes()\l}">
 <polygon fill="white" stroke="black" points="961,-261 961,-505 1121,-505 1121,-261 961,-261"/>
 <text text-anchor="middle" x="1041" y="-493" font-family="FreeSans" font-size="10.00">MWGui::EditEffectDialog</text>
 <polyline fill="none" stroke="black" points="961,-486 1121,-486 "/>
 <text text-anchor="middle" x="1041" y="-474" font-family="FreeSans" font-size="10.00"> </text>
 <polyline fill="none" stroke="black" points="961,-467 1121,-467 "/>
 <text text-anchor="start" x="969" y="-455" font-family="FreeSans" font-size="10.00">+ EditEffectDialog()</text>
-<text text-anchor="start" x="969" y="-444" font-family="FreeSans" font-size="10.00">+ open()</text>
+<text text-anchor="start" x="969" y="-444" font-family="FreeSans" font-size="10.00">+ onOpen()</text>
 <text text-anchor="start" x="969" y="-433" font-family="FreeSans" font-size="10.00">+ exit()</text>
 <text text-anchor="start" x="969" y="-422" font-family="FreeSans" font-size="10.00">+ setConstantEffect()</text>
 <text text-anchor="start" x="969" y="-411" font-family="FreeSans" font-size="10.00">+ setSkill()</text>
@@ -133,52 +133,57 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWGui_1_1WindowBase.html" target="_top" xlink:title="{MWGui::WindowBase\n||+ WindowBase()\l+ open()\l+ close()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l}">
-<polygon fill="white" stroke="black" points="787,-868.5 787,-991.5 901,-991.5 901,-868.5 787,-868.5"/>
-<text text-anchor="middle" x="844" y="-979.5" font-family="FreeSans" font-size="10.00">MWGui::WindowBase</text>
-<polyline fill="none" stroke="black" points="787,-972.5 901,-972.5 "/>
-<text text-anchor="middle" x="844" y="-960.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="787,-953.5 901,-953.5 "/>
-<text text-anchor="start" x="795" y="-941.5" font-family="FreeSans" font-size="10.00">+ WindowBase()</text>
-<text text-anchor="start" x="795" y="-930.5" font-family="FreeSans" font-size="10.00">+ open()</text>
-<text text-anchor="start" x="795" y="-919.5" font-family="FreeSans" font-size="10.00">+ close()</text>
-<text text-anchor="start" x="795" y="-908.5" font-family="FreeSans" font-size="10.00">+ exit()</text>
-<text text-anchor="start" x="795" y="-897.5" font-family="FreeSans" font-size="10.00">+ setVisible()</text>
-<text text-anchor="start" x="795" y="-886.5" font-family="FreeSans" font-size="10.00">+ isVisible()</text>
-<text text-anchor="start" x="795" y="-875.5" font-family="FreeSans" font-size="10.00">+ center()</text>
+<g id="a_node4"><a xlink:href="classMWGui_1_1WindowBase.html" target="_top" xlink:title="{MWGui::WindowBase\n||+ WindowBase()\l+ getDefaultKeyFocus()\l+ setPtr()\l+ onFrame()\l+ onOpen()\l+ onClose()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l+ clear()\l+ onResChange()\l}">
+<polygon fill="white" stroke="black" points="775,-841 775,-1019 905,-1019 905,-841 775,-841"/>
+<text text-anchor="middle" x="840" y="-1007" font-family="FreeSans" font-size="10.00">MWGui::WindowBase</text>
+<polyline fill="none" stroke="black" points="775,-1000 905,-1000 "/>
+<text text-anchor="middle" x="840" y="-988" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="775,-981 905,-981 "/>
+<text text-anchor="start" x="783" y="-969" font-family="FreeSans" font-size="10.00">+ WindowBase()</text>
+<text text-anchor="start" x="783" y="-958" font-family="FreeSans" font-size="10.00">+ getDefaultKeyFocus()</text>
+<text text-anchor="start" x="783" y="-947" font-family="FreeSans" font-size="10.00">+ setPtr()</text>
+<text text-anchor="start" x="783" y="-936" font-family="FreeSans" font-size="10.00">+ onFrame()</text>
+<text text-anchor="start" x="783" y="-925" font-family="FreeSans" font-size="10.00">+ onOpen()</text>
+<text text-anchor="start" x="783" y="-914" font-family="FreeSans" font-size="10.00">+ onClose()</text>
+<text text-anchor="start" x="783" y="-903" font-family="FreeSans" font-size="10.00">+ exit()</text>
+<text text-anchor="start" x="783" y="-892" font-family="FreeSans" font-size="10.00">+ setVisible()</text>
+<text text-anchor="start" x="783" y="-881" font-family="FreeSans" font-size="10.00">+ isVisible()</text>
+<text text-anchor="start" x="783" y="-870" font-family="FreeSans" font-size="10.00">+ center()</text>
+<text text-anchor="start" x="783" y="-859" font-family="FreeSans" font-size="10.00">+ clear()</text>
+<text text-anchor="start" x="783" y="-848" font-family="FreeSans" font-size="10.00">+ onResChange()</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M777.556,-892.993C728.328,-864.652 661.042,-822.31 609,-776 595.981,-764.415 583.315,-750.294 572.464,-737.007"/>
-<polygon fill="none" stroke="midnightblue" points="776.111,-896.198 786.53,-898.119 779.583,-890.12 776.111,-896.198"/>
+<path fill="none" stroke="midnightblue" d="M766.213,-887.739C718.807,-859.452 657.291,-819.314 609,-776 596.166,-764.489 583.646,-750.532 572.87,-737.374"/>
+<polygon fill="none" stroke="midnightblue" points="764.507,-890.797 774.895,-892.882 768.075,-884.774 764.507,-890.797"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classMWGui_1_1Layout.html" target="_top" xlink:title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}">
-<polygon fill="white" stroke="black" points="844.5,-1195 844.5,-1351 931.5,-1351 931.5,-1195 844.5,-1195"/>
-<text text-anchor="middle" x="888" y="-1339" font-family="FreeSans" font-size="10.00">MWGui::Layout</text>
-<polyline fill="none" stroke="black" points="844.5,-1332 931.5,-1332 "/>
-<text text-anchor="middle" x="888" y="-1320" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="844.5,-1313 931.5,-1313 "/>
-<text text-anchor="start" x="852.5" y="-1301" font-family="FreeSans" font-size="10.00">+ Layout()</text>
-<text text-anchor="start" x="852.5" y="-1290" font-family="FreeSans" font-size="10.00">+ ~Layout()</text>
-<text text-anchor="start" x="852.5" y="-1279" font-family="FreeSans" font-size="10.00">+ getWidget()</text>
-<text text-anchor="start" x="852.5" y="-1268" font-family="FreeSans" font-size="10.00">+ getWidget()</text>
-<text text-anchor="start" x="852.5" y="-1257" font-family="FreeSans" font-size="10.00">+ setCoord()</text>
-<text text-anchor="start" x="852.5" y="-1246" font-family="FreeSans" font-size="10.00">+ setVisible()</text>
-<text text-anchor="start" x="852.5" y="-1235" font-family="FreeSans" font-size="10.00">+ setText()</text>
-<text text-anchor="start" x="852.5" y="-1224" font-family="FreeSans" font-size="10.00">+ setTitle()</text>
-<text text-anchor="start" x="852.5" y="-1213" font-family="FreeSans" font-size="10.00">&#45; initialise()</text>
-<text text-anchor="start" x="852.5" y="-1202" font-family="FreeSans" font-size="10.00">&#45; shutdown()</text>
+<polygon fill="white" stroke="black" points="843.5,-1195 843.5,-1351 930.5,-1351 930.5,-1195 843.5,-1195"/>
+<text text-anchor="middle" x="887" y="-1339" font-family="FreeSans" font-size="10.00">MWGui::Layout</text>
+<polyline fill="none" stroke="black" points="843.5,-1332 930.5,-1332 "/>
+<text text-anchor="middle" x="887" y="-1320" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="843.5,-1313 930.5,-1313 "/>
+<text text-anchor="start" x="851.5" y="-1301" font-family="FreeSans" font-size="10.00">+ Layout()</text>
+<text text-anchor="start" x="851.5" y="-1290" font-family="FreeSans" font-size="10.00">+ ~Layout()</text>
+<text text-anchor="start" x="851.5" y="-1279" font-family="FreeSans" font-size="10.00">+ getWidget()</text>
+<text text-anchor="start" x="851.5" y="-1268" font-family="FreeSans" font-size="10.00">+ getWidget()</text>
+<text text-anchor="start" x="851.5" y="-1257" font-family="FreeSans" font-size="10.00">+ setCoord()</text>
+<text text-anchor="start" x="851.5" y="-1246" font-family="FreeSans" font-size="10.00">+ setVisible()</text>
+<text text-anchor="start" x="851.5" y="-1235" font-family="FreeSans" font-size="10.00">+ setText()</text>
+<text text-anchor="start" x="851.5" y="-1224" font-family="FreeSans" font-size="10.00">+ setTitle()</text>
+<text text-anchor="start" x="851.5" y="-1213" font-family="FreeSans" font-size="10.00">&#45; initialise()</text>
+<text text-anchor="start" x="851.5" y="-1202" font-family="FreeSans" font-size="10.00">&#45; shutdown()</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M876.688,-1184.33C868.893,-1123.92 858.734,-1045.19 851.825,-991.642"/>
-<polygon fill="none" stroke="midnightblue" points="873.265,-1185.15 878.016,-1194.62 880.207,-1184.26 873.265,-1185.15"/>
+<path fill="none" stroke="midnightblue" d="M874.961,-1184.65C867.964,-1133.89 859.173,-1070.11 852.156,-1019.2"/>
+<polygon fill="none" stroke="midnightblue" points="871.502,-1185.19 876.335,-1194.62 878.437,-1184.24 871.502,-1185.19"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
@@ -191,8 +196,8 @@
 </g>
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="#404040" d="M965.355,-1430.99C944.891,-1424.43 918.509,-1412.47 904,-1392 897.834,-1383.3 893.503,-1373.31 890.518,-1362.91"/>
-<polygon fill="none" stroke="#404040" points="890.471,-1362.72 885.191,-1357.81 887.694,-1351.04 892.974,-1355.95 890.471,-1362.72"/>
+<path fill="none" stroke="#404040" d="M965.404,-1430.96C944.966,-1424.37 918.594,-1412.41 904,-1392 897.79,-1383.31 893.393,-1373.34 890.329,-1362.94"/>
+<polygon fill="none" stroke="#404040" points="890.277,-1362.73 884.96,-1357.86 887.412,-1351.08 892.729,-1355.95 890.277,-1362.73"/>
 <text text-anchor="middle" x="942" y="-1378.5" font-family="FreeSans" font-size="10.00"> +mMainWidget</text>
 </g>
 <!-- Node6&#45;&gt;Node15 -->
@@ -246,8 +251,8 @@
 </g>
 <!-- Node7&#45;&gt;Node5 -->
 <g id="edge6" class="edge"><title>Node7&#45;&gt;Node5</title>
-<path fill="none" stroke="#404040" d="M781.641,-1410.49C780.786,-1397.68 781.506,-1382.55 787,-1370 797.252,-1346.59 816.244,-1326.15 835.017,-1310.22"/>
-<polygon fill="none" stroke="#404040" points="835.157,-1310.1 837.29,-1303.22 844.469,-1302.54 842.336,-1309.42 835.157,-1310.1"/>
+<path fill="none" stroke="#404040" d="M781.647,-1410.17C780.833,-1397.44 781.585,-1382.45 787,-1370 797.059,-1346.87 815.64,-1326.59 834.08,-1310.71"/>
+<polygon fill="none" stroke="#404040" points="834.117,-1310.67 836.199,-1303.77 843.372,-1303.04 841.291,-1309.94 834.117,-1310.67"/>
 <text text-anchor="middle" x="834" y="-1378.5" font-family="FreeSans" font-size="10.00"> #mListWindowRoot</text>
 </g>
 <!-- Node8 -->
@@ -264,8 +269,8 @@
 </g>
 <!-- Node8&#45;&gt;Node5 -->
 <g id="edge7" class="edge"><title>Node8&#45;&gt;Node5</title>
-<path fill="none" stroke="#404040" d="M1264.32,-1437.86C1212.01,-1436.46 1107.28,-1428.83 1028,-1392 995.648,-1376.97 964.758,-1352.45 940.264,-1329.63"/>
-<polygon fill="none" stroke="#404040" points="940.231,-1329.6 933.127,-1328.36 931.539,-1321.33 938.643,-1322.57 940.231,-1329.6"/>
+<path fill="none" stroke="#404040" d="M1264.34,-1437.82C1212.04,-1436.39 1107.34,-1428.69 1028,-1392 995.358,-1376.91 964.137,-1352.24 939.41,-1329.36"/>
+<polygon fill="none" stroke="#404040" points="939.321,-1329.27 932.213,-1328.06 930.603,-1321.03 937.711,-1322.24 939.321,-1329.27"/>
 <text text-anchor="middle" x="1069.5" y="-1384" font-family="FreeSans" font-size="10.00"> #mLayoutName</text>
 <text text-anchor="middle" x="1069.5" y="-1373" font-family="FreeSans" font-size="10.00">#mPrefix</text>
 </g>

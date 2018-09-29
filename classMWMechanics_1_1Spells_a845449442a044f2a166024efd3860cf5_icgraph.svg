@@ -29,73 +29,87 @@
 <path fill="none" stroke="midnightblue" d="M126.535,-81.6229C146.775,-86.9837 168.82,-92.8225 188.344,-97.9938"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="127.326,-78.2117 116.763,-79.0346 125.534,-84.9784 127.326,-78.2117"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWMechanics_1_1ActionEnchantedItem.html#a46f189a951a8d27aa56ff2d27703e82b" target="_top" xlink:title="Sets the given item as selected enchanted item in the actor&#39;s InventoryStore. ">
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="classMWMechanics_1_1ActionEnchantedItem.html#a46f189a951a8d27aa56ff2d27703e82b" target="_top" xlink:title="Sets the given item as selected enchanted item in the actor&#39;s InventoryStore. ">
 <polygon fill="white" stroke="black" points="161,-49 161,-79 331,-79 331,-49 161,-49"/>
 <text text-anchor="start" x="169" y="-67" font-family="FreeSans" font-size="10.00">MWMechanics::ActionEnchanted</text>
 <text text-anchor="middle" x="246" y="-56" font-family="FreeSans" font-size="10.00">Item::prepare</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M128.065,-64C138.704,-64 149.808,-64 160.756,-64"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="128.028,-60.5001 118.028,-64 128.028,-67.5001 128.028,-60.5001"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWMechanics_1_1CharacterController.html#aca17757fd8136b502041f7637398f90e" target="_top" xlink:title="MWMechanics::CharacterController\l::updateWeaponState">
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="classMWMechanics_1_1CharacterController.html#adbe55fec5b46749238b06528363709ce" target="_top" xlink:title="MWMechanics::CharacterController\l::updateWeaponState">
 <polygon fill="white" stroke="black" points="154.5,-0 154.5,-30 337.5,-30 337.5,-0 154.5,-0"/>
 <text text-anchor="start" x="162.5" y="-18" font-family="FreeSans" font-size="10.00">MWMechanics::CharacterController</text>
 <text text-anchor="middle" x="246" y="-7" font-family="FreeSans" font-size="10.00">::updateWeaponState</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M126.535,-46.3771C146.775,-41.0163 168.82,-35.1775 188.344,-30.0062"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="125.534,-43.0216 116.763,-48.9654 127.326,-49.7883 125.534,-43.0216"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" target="_top" xlink:title="MWMechanics::CharacterController\l::update">
+<!-- Node3 -->
+<g id="node3" class="node"><title>Node3</title>
+<g id="a_node3"><a xlink:href="classMWMechanics_1_1CharacterController.html#aabe2e75071daf735e1d3b471b70e78dd" target="_top" xlink:title="MWMechanics::CharacterController\l::castSpell">
+<polygon fill="white" stroke="black" points="374.5,-98 374.5,-128 557.5,-128 557.5,-98 374.5,-98"/>
+<text text-anchor="start" x="382.5" y="-116" font-family="FreeSans" font-size="10.00">MWMechanics::CharacterController</text>
+<text text-anchor="middle" x="466" y="-105" font-family="FreeSans" font-size="10.00">::castSpell</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M328.072,-113C343.138,-113 358.968,-113 374.301,-113"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="327.778,-109.5 317.778,-113 327.778,-116.5 327.778,-109.5"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" target="_top" xlink:title="MWMechanics::CharacterController\l::update">
 <polygon fill="white" stroke="black" points="374.5,-0 374.5,-30 557.5,-30 557.5,-0 374.5,-0"/>
 <text text-anchor="start" x="382.5" y="-18" font-family="FreeSans" font-size="10.00">MWMechanics::CharacterController</text>
 <text text-anchor="middle" x="466" y="-7" font-family="FreeSans" font-size="10.00">::update</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M347.596,-15C356.526,-15 365.533,-15 374.373,-15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="347.558,-11.5001 337.558,-15 347.558,-18.5001 347.558,-11.5001"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" target="_top" xlink:title="Update actor stats and store desired velocity vectors in movement. ">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" target="_top" xlink:title="Update actor stats and store desired velocity vectors in movement. ">
 <polygon fill="white" stroke="black" points="594,-0 594,-30 714,-30 714,-0 594,-0"/>
 <text text-anchor="start" x="602" y="-18" font-family="FreeSans" font-size="10.00">MWMechanics::Actors</text>
 <text text-anchor="middle" x="654" y="-7" font-family="FreeSans" font-size="10.00">::update</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M567.699,-15C576.669,-15 585.543,-15 593.984,-15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="567.548,-11.5001 557.548,-15 567.548,-18.5001 567.548,-11.5001"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" target="_top" xlink:title="MWMechanics::MechanicsManager\l::update">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" target="_top" xlink:title="MWMechanics::MechanicsManager\l::update">
 <polygon fill="white" stroke="black" points="750,-0 750,-30 932,-30 932,-0 750,-0"/>
 <text text-anchor="start" x="758" y="-18" font-family="FreeSans" font-size="10.00">MWMechanics::MechanicsManager</text>
 <text text-anchor="middle" x="841" y="-7" font-family="FreeSans" font-size="10.00">::update</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M724.124,-15C732.517,-15 741.184,-15 749.824,-15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="724.044,-11.5001 714.044,-15 724.044,-18.5001 724.044,-11.5001"/>
 </g>

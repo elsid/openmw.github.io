@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/sceneutil/riggeometry.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/sceneutil/riggeometry.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -94,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -103,40 +102,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="riggeometry_8hpp_source.html">riggeometry.hpp</a>&quot;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;cstdlib&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="skeleton_8hpp_source.html">skeleton.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="components_2sceneutil_2util_8hpp_source.html">util.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for riggeometry.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="riggeometry_8cpp__incl.svg" width="1007" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="riggeometry_8cpp__incl.svg" width="1186" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1UpdateRigBounds.html">SceneUtil::UpdateRigBounds</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1UpdateRigGeometry.html">SceneUtil::UpdateRigGeometry</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1DummyComputeBoundCallback.html">SceneUtil::DummyComputeBoundCallback</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespaceanonymous__namespace_02riggeometry_8cpp_03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02riggeometry_8cpp_03.html">anonymous_namespace{riggeometry.cpp}</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceSceneUtil"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSceneUtil.html">SceneUtil</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a69a04edb37b3bc09ee41dc1cfee871e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSceneUtil.html#a69a04edb37b3bc09ee41dc1cfee871e0">SceneUtil::accumulateMatrix</a> (const osg::Matrixf &amp;invBindMatrix, const osg::Matrixf &amp;matrix, float weight, osg::Matrixf &amp;result)</td></tr>
-<tr class="separator:a69a04edb37b3bc09ee41dc1cfee871e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac46ce5600ca5ccc1e1ce9cda45eca77d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02riggeometry_8cpp_03.html#ac46ce5600ca5ccc1e1ce9cda45eca77d">anonymous_namespace{riggeometry.cpp}::accumulateMatrix</a> (const osg::Matrixf &amp;invBindMatrix, const osg::Matrixf &amp;matrix, const float weight, osg::Matrixf &amp;result)</td></tr>
+<tr class="separator:ac46ce5600ca5ccc1e1ce9cda45eca77d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

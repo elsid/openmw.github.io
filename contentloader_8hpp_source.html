@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwworld/contentloader.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwworld/contentloader.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -101,50 +101,54 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CONTENTLOADER_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;iosfwd&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;boost/filesystem/path.hpp&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;boost/filesystem/path.hpp&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;MyGUI_TextIterator.h&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="loadinglistener_8hpp.html">components/loadinglistener/loadinglistener.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>MWWorld</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html">   13</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structMWWorld_1_1ContentLoader.html">ContentLoader</a></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html#a3477e994be1aa5d4de6d627d30051921">   15</a></span>&#160;    <a class="code" href="structMWWorld_1_1ContentLoader.html#a3477e994be1aa5d4de6d627d30051921">ContentLoader</a>(<a class="code" href="classLoading_1_1Listener.html">Loading::Listener</a>&amp; listener)</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;      : <a class="code" href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">mListener</a>(listener)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html#af444bb84b5374d6d70d0918fda91ae4f">   20</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="structMWWorld_1_1ContentLoader.html#af444bb84b5374d6d70d0918fda91ae4f">~ContentLoader</a>()</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html#a7fae7afc58aa98a31e43e774b0886b5f">   24</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structMWWorld_1_1ContentLoader.html#a7fae7afc58aa98a31e43e774b0886b5f">load</a>(<span class="keyword">const</span> boost::filesystem::path&amp; filepath, <span class="keywordtype">int</span>&amp; index)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;Loading content file &quot;</span> &lt;&lt; filepath.string() &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;      <a class="code" href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">mListener</a>.<a class="code" href="classLoading_1_1Listener.html#ab51c4d65855d29c1b194ce3011e01c62">setLabel</a>(filepath.string());</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">   31</a></span>&#160;        <a class="code" href="classLoading_1_1Listener.html">Loading::Listener</a>&amp; <a class="code" href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">mListener</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;} <span class="comment">/* namespace MWWorld */</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* CONTENTLOADER_HPP */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="structMWWorld_1_1ContentLoader_html_a7fae7afc58aa98a31e43e774b0886b5f"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html#a7fae7afc58aa98a31e43e774b0886b5f">MWWorld::ContentLoader::load</a></div><div class="ttdeci">virtual void load(const boost::filesystem::path &amp;filepath, int &amp;index)</div><div class="ttdef"><b>Definition:</b> contentloader.hpp:24</div></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="debuglog_8hpp.html">components/debug/debuglog.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="loadinglistener_8hpp.html">components/loadinglistener/loadinglistener.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>MWWorld</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html">   14</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structMWWorld_1_1ContentLoader.html">ContentLoader</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html#a3477e994be1aa5d4de6d627d30051921">   16</a></span>&#160;    <a class="code" href="structMWWorld_1_1ContentLoader.html#a3477e994be1aa5d4de6d627d30051921">ContentLoader</a>(<a class="code" href="classLoading_1_1Listener.html">Loading::Listener</a>&amp; listener)</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;      : <a class="code" href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">mListener</a>(listener)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html#af444bb84b5374d6d70d0918fda91ae4f">   21</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="structMWWorld_1_1ContentLoader.html#af444bb84b5374d6d70d0918fda91ae4f">~ContentLoader</a>()</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html#a7fae7afc58aa98a31e43e774b0886b5f">   25</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structMWWorld_1_1ContentLoader.html#a7fae7afc58aa98a31e43e774b0886b5f">load</a>(<span class="keyword">const</span> boost::filesystem::path&amp; filepath, <span class="keywordtype">int</span>&amp; index)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classLog.html">Log</a>(<a class="code" href="namespaceDebug.html#ace4ffe62c9cedc3322c1f2fd2097f1c4aea5e2942e4535fe7fb01b461070beaf2">Debug::Info</a>) &lt;&lt; <span class="stringliteral">&quot;Loading content file &quot;</span> &lt;&lt; filepath.string();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">mListener</a>.<a class="code" href="classLoading_1_1Listener.html#ab51c4d65855d29c1b194ce3011e01c62">setLabel</a>(MyGUI::TextIterator::toTagsString(filepath.string()));</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">   32</a></span>&#160;        <a class="code" href="classLoading_1_1Listener.html">Loading::Listener</a>&amp; <a class="code" href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">mListener</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;} <span class="comment">/* namespace MWWorld */</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* CONTENTLOADER_HPP */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="structMWWorld_1_1ContentLoader_html_a7fae7afc58aa98a31e43e774b0886b5f"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html#a7fae7afc58aa98a31e43e774b0886b5f">MWWorld::ContentLoader::load</a></div><div class="ttdeci">virtual void load(const boost::filesystem::path &amp;filepath, int &amp;index)</div><div class="ttdef"><b>Definition:</b> contentloader.hpp:25</div></div>
+<div class="ttc" id="classLog_html"><div class="ttname"><a href="classLog.html">Log</a></div><div class="ttdef"><b>Definition:</b> debuglog.hpp:22</div></div>
 <div class="ttc" id="classLoading_1_1Listener_html"><div class="ttname"><a href="classLoading_1_1Listener.html">Loading::Listener</a></div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:8</div></div>
-<div class="ttc" id="structMWWorld_1_1ContentLoader_html_a3477e994be1aa5d4de6d627d30051921"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html#a3477e994be1aa5d4de6d627d30051921">MWWorld::ContentLoader::ContentLoader</a></div><div class="ttdeci">ContentLoader(Loading::Listener &amp;listener)</div><div class="ttdef"><b>Definition:</b> contentloader.hpp:15</div></div>
-<div class="ttc" id="structMWWorld_1_1ContentLoader_html_af444bb84b5374d6d70d0918fda91ae4f"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html#af444bb84b5374d6d70d0918fda91ae4f">MWWorld::ContentLoader::~ContentLoader</a></div><div class="ttdeci">virtual ~ContentLoader()</div><div class="ttdef"><b>Definition:</b> contentloader.hpp:20</div></div>
-<div class="ttc" id="structMWWorld_1_1ContentLoader_html"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html">MWWorld::ContentLoader</a></div><div class="ttdef"><b>Definition:</b> contentloader.hpp:13</div></div>
+<div class="ttc" id="namespaceDebug_html_ace4ffe62c9cedc3322c1f2fd2097f1c4aea5e2942e4535fe7fb01b461070beaf2"><div class="ttname"><a href="namespaceDebug.html#ace4ffe62c9cedc3322c1f2fd2097f1c4aea5e2942e4535fe7fb01b461070beaf2">Debug::Info</a></div><div class="ttdef"><b>Definition:</b> debuglog.hpp:14</div></div>
+<div class="ttc" id="structMWWorld_1_1ContentLoader_html_a3477e994be1aa5d4de6d627d30051921"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html#a3477e994be1aa5d4de6d627d30051921">MWWorld::ContentLoader::ContentLoader</a></div><div class="ttdeci">ContentLoader(Loading::Listener &amp;listener)</div><div class="ttdef"><b>Definition:</b> contentloader.hpp:16</div></div>
+<div class="ttc" id="structMWWorld_1_1ContentLoader_html_af444bb84b5374d6d70d0918fda91ae4f"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html#af444bb84b5374d6d70d0918fda91ae4f">MWWorld::ContentLoader::~ContentLoader</a></div><div class="ttdeci">virtual ~ContentLoader()</div><div class="ttdef"><b>Definition:</b> contentloader.hpp:21</div></div>
+<div class="ttc" id="structMWWorld_1_1ContentLoader_html"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html">MWWorld::ContentLoader</a></div><div class="ttdef"><b>Definition:</b> contentloader.hpp:14</div></div>
 <div class="ttc" id="loadinglistener_8hpp_html"><div class="ttname"><a href="loadinglistener_8hpp.html">loadinglistener.hpp</a></div></div>
-<div class="ttc" id="structMWWorld_1_1ContentLoader_html_a57044c1540652bdf6f0d19bf485b826f"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">MWWorld::ContentLoader::mListener</a></div><div class="ttdeci">Loading::Listener &amp; mListener</div><div class="ttdef"><b>Definition:</b> contentloader.hpp:31</div></div>
+<div class="ttc" id="structMWWorld_1_1ContentLoader_html_a57044c1540652bdf6f0d19bf485b826f"><div class="ttname"><a href="structMWWorld_1_1ContentLoader.html#a57044c1540652bdf6f0d19bf485b826f">MWWorld::ContentLoader::mListener</a></div><div class="ttdeci">Loading::Listener &amp; mListener</div><div class="ttdef"><b>Definition:</b> contentloader.hpp:32</div></div>
 <div class="ttc" id="classLoading_1_1Listener_html_ab51c4d65855d29c1b194ce3011e01c62"><div class="ttname"><a href="classLoading_1_1Listener.html#ab51c4d65855d29c1b194ce3011e01c62">Loading::Listener::setLabel</a></div><div class="ttdeci">virtual void setLabel(const std::string &amp;label, bool important=false)</div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:17</div></div>
+<div class="ttc" id="debuglog_8hpp_html"><div class="ttname"><a href="debuglog_8hpp.html">debuglog.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:23 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

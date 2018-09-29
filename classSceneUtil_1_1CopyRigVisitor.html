@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -106,13 +106,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for SceneUtil::CopyRigVisitor:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor__inherit__graph.svg" width="192" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor__inherit__graph.svg" width="192" height="331"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for SceneUtil::CopyRigVisitor:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor__coll__graph.svg" width="632" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor__coll__graph.svg" width="632" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -120,8 +120,14 @@ Collaboration diagram for SceneUtil::CopyRigVisitor:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af0990617f6683838eab4891e61ba9e2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1CopyRigVisitor.html#af0990617f6683838eab4891e61ba9e2d">CopyRigVisitor</a> (osg::ref_ptr&lt; osg::Group &gt; parent, const std::string &amp;filter)</td></tr>
 <tr class="separator:af0990617f6683838eab4891e61ba9e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6952ba5a92f1f50459d2a321fb03502"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1CopyRigVisitor.html#aa6952ba5a92f1f50459d2a321fb03502">apply</a> (osg::MatrixTransform &amp;node)</td></tr>
+<tr class="separator:aa6952ba5a92f1f50459d2a321fb03502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a808427f40cd659c34567171677b1559d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1CopyRigVisitor.html#a808427f40cd659c34567171677b1559d">apply</a> (osg::Node &amp;node)</td></tr>
 <tr class="separator:a808427f40cd659c34567171677b1559d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87443239fdd448772ccbe74cb6fbe8ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1CopyRigVisitor.html#a87443239fdd448772ccbe74cb6fbe8ea">apply</a> (osg::Group &amp;node)</td></tr>
+<tr class="separator:a87443239fdd448772ccbe74cb6fbe8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a795fdd3557efcfd7b5290bbe8fa9e5ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1CopyRigVisitor.html#a795fdd3557efcfd7b5290bbe8fa9e5ff">apply</a> (osg::Drawable &amp;drawable)</td></tr>
+<tr class="separator:a795fdd3557efcfd7b5290bbe8fa9e5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18d15abfe975d348a99436664d43d368"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1CopyRigVisitor.html#a18d15abfe975d348a99436664d43d368">doCopy</a> ()</td></tr>
 <tr class="separator:a18d15abfe975d348a99436664d43d368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -199,6 +205,38 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa6952ba5a92f1f50459d2a321fb03502"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SceneUtil::CopyRigVisitor::apply </td>
+          <td>(</td>
+          <td class="paramtype">osg::MatrixTransform &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor_aa6952ba5a92f1f50459d2a321fb03502_cgraph.svg" width="774" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a808427f40cd659c34567171677b1559d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +262,71 @@ Private Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor_a808427f40cd659c34567171677b1559d_cgraph.svg" width="739" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor_a808427f40cd659c34567171677b1559d_cgraph.svg" width="774" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a87443239fdd448772ccbe74cb6fbe8ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SceneUtil::CopyRigVisitor::apply </td>
+          <td>(</td>
+          <td class="paramtype">osg::Group &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor_a87443239fdd448772ccbe74cb6fbe8ea_cgraph.svg" width="774" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a795fdd3557efcfd7b5290bbe8fa9e5ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SceneUtil::CopyRigVisitor::apply </td>
+          <td>(</td>
+          <td class="paramtype">osg::Drawable &amp;&#160;</td>
+          <td class="paramname"><em>drawable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor_a795fdd3557efcfd7b5290bbe8fa9e5ff_cgraph.svg" width="739" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -255,7 +357,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor_a18d15abfe975d348a99436664d43d368_icgraph.svg" width="3027" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1CopyRigVisitor_a18d15abfe975d348a99436664d43d368_icgraph.svg" width="3075" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -344,12 +446,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="attach_8cpp.html">attach.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="attach_8cpp.html">attach.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -109,30 +109,34 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classCSVTools_1_1SearchSubView.html" target="_top" xlink:title="{CSVTools::SearchSubView\n|&#45; mTable\l&#45; mSearchBox\l&#45; mDocument\l&#45; mSearch\l&#45; mLocked\l|+ SearchSubView()\l+ setEditLock()\l# showEvent()\l&#45; replace()\l&#45; stateChanged()\l&#45; startSearch()\l&#45; replaceRequest()\l&#45; replaceAllRequest()\l}">
-<polygon fill="white" stroke="black" points="310,-287 310,-465 450,-465 450,-287 310,-287"/>
-<text text-anchor="middle" x="380" y="-453" font-family="FreeSans" font-size="10.00">CSVTools::SearchSubView</text>
-<polyline fill="none" stroke="black" points="310,-446 450,-446 "/>
-<text text-anchor="start" x="318" y="-434" font-family="FreeSans" font-size="10.00">&#45; mTable</text>
-<text text-anchor="start" x="318" y="-423" font-family="FreeSans" font-size="10.00">&#45; mSearchBox</text>
-<text text-anchor="start" x="318" y="-412" font-family="FreeSans" font-size="10.00">&#45; mDocument</text>
-<text text-anchor="start" x="318" y="-401" font-family="FreeSans" font-size="10.00">&#45; mSearch</text>
-<text text-anchor="start" x="318" y="-390" font-family="FreeSans" font-size="10.00">&#45; mLocked</text>
-<polyline fill="none" stroke="black" points="310,-383 450,-383 "/>
-<text text-anchor="start" x="318" y="-371" font-family="FreeSans" font-size="10.00">+ SearchSubView()</text>
-<text text-anchor="start" x="318" y="-360" font-family="FreeSans" font-size="10.00">+ setEditLock()</text>
+<g id="a_node6"><a xlink:href="classCSVTools_1_1SearchSubView.html" target="_top" xlink:title="{CSVTools::SearchSubView\n|&#45; mTable\l&#45; mSearchBox\l&#45; mDocument\l&#45; mSearch\l&#45; mLocked\l&#45; mBottom\l|+ SearchSubView()\l+ setEditLock()\l+ setStatusBar()\l# showEvent()\l&#45; replace()\l&#45; stateChanged()\l&#45; startSearch()\l&#45; replaceRequest()\l&#45; replaceAllRequest()\l&#45; tableSizeUpdate()\l&#45; operationDone()\l}">
+<polygon fill="white" stroke="black" points="310,-265 310,-487 450,-487 450,-265 310,-265"/>
+<text text-anchor="middle" x="380" y="-475" font-family="FreeSans" font-size="10.00">CSVTools::SearchSubView</text>
+<polyline fill="none" stroke="black" points="310,-468 450,-468 "/>
+<text text-anchor="start" x="318" y="-456" font-family="FreeSans" font-size="10.00">&#45; mTable</text>
+<text text-anchor="start" x="318" y="-445" font-family="FreeSans" font-size="10.00">&#45; mSearchBox</text>
+<text text-anchor="start" x="318" y="-434" font-family="FreeSans" font-size="10.00">&#45; mDocument</text>
+<text text-anchor="start" x="318" y="-423" font-family="FreeSans" font-size="10.00">&#45; mSearch</text>
+<text text-anchor="start" x="318" y="-412" font-family="FreeSans" font-size="10.00">&#45; mLocked</text>
+<text text-anchor="start" x="318" y="-401" font-family="FreeSans" font-size="10.00">&#45; mBottom</text>
+<polyline fill="none" stroke="black" points="310,-394 450,-394 "/>
+<text text-anchor="start" x="318" y="-382" font-family="FreeSans" font-size="10.00">+ SearchSubView()</text>
+<text text-anchor="start" x="318" y="-371" font-family="FreeSans" font-size="10.00">+ setEditLock()</text>
+<text text-anchor="start" x="318" y="-360" font-family="FreeSans" font-size="10.00">+ setStatusBar()</text>
 <text text-anchor="start" x="318" y="-349" font-family="FreeSans" font-size="10.00"># showEvent()</text>
 <text text-anchor="start" x="318" y="-338" font-family="FreeSans" font-size="10.00">&#45; replace()</text>
 <text text-anchor="start" x="318" y="-327" font-family="FreeSans" font-size="10.00">&#45; stateChanged()</text>
 <text text-anchor="start" x="318" y="-316" font-family="FreeSans" font-size="10.00">&#45; startSearch()</text>
 <text text-anchor="start" x="318" y="-305" font-family="FreeSans" font-size="10.00">&#45; replaceRequest()</text>
 <text text-anchor="start" x="318" y="-294" font-family="FreeSans" font-size="10.00">&#45; replaceAllRequest()</text>
+<text text-anchor="start" x="318" y="-283" font-family="FreeSans" font-size="10.00">&#45; tableSizeUpdate()</text>
+<text text-anchor="start" x="318" y="-272" font-family="FreeSans" font-size="10.00">&#45; operationDone()</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node3&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M654.558,-606.366C654.373,-606.243 654.187,-606.121 654,-606 580.101,-557.979 527.394,-625.582 459,-570 426.969,-543.97 407.8,-502.85 396.389,-465.242"/>
+<path fill="none" stroke="midnightblue" d="M654.558,-606.366C654.373,-606.243 654.187,-606.121 654,-606 580.101,-557.979 527.394,-625.582 459,-570 433.08,-548.936 415.583,-517.991 403.803,-487.022"/>
 <polygon fill="none" stroke="midnightblue" points="652.522,-609.214 662.632,-612.384 656.706,-603.602 652.522,-609.214"/>
 </g>
 <!-- Node7 -->

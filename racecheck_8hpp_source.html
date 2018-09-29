@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/racecheck.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/racecheck.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -112,38 +112,40 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMTools_1_1RaceCheckStage.html#a3a697160832d6e414ff493c3905ac4a0">   15</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Race&gt;</a>&amp; <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a3a697160832d6e414ff493c3905ac4a0">mRaces</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCSMTools_1_1RaceCheckStage.html#a3abba3fb9fd2e7daec54a35d5c0323ae">   16</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a3abba3fb9fd2e7daec54a35d5c0323ae">mPlayable</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a764409728c184fd3918f0533cdfac106">performPerRecord</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a6800f9ee6031d2cafc5c5acbb7b0a82b">performFinal</a> (<a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a7b2c8b50825b8c3d0220d1b8fde7c483">RaceCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Race&gt;</a>&amp; races);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a846e46254eba553c0052f26de6d6b2fb">setup</a>();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#ac37b78dce574c173163bc81c0fd7e5ac">perform</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    };</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCSMTools_1_1RaceCheckStage.html#a551638d25205f5c2ab6edc6ad39c76ba">   17</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a551638d25205f5c2ab6edc6ad39c76ba">mIgnoreBaseRecords</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a764409728c184fd3918f0533cdfac106">performPerRecord</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a6800f9ee6031d2cafc5c5acbb7b0a82b">performFinal</a> (<a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a7b2c8b50825b8c3d0220d1b8fde7c483">RaceCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Race&gt;</a>&amp; races);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#a846e46254eba553c0052f26de6d6b2fb">setup</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1RaceCheckStage.html#ac37b78dce574c173163bc81c0fd7e5ac">perform</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    };</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSMWorld_1_1IdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt; ESM::Race &gt;</a></div></div>
-<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_ac37b78dce574c173163bc81c0fd7e5ac"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#ac37b78dce574c173163bc81c0fd7e5ac">CSMTools::RaceCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this tage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> racecheck.cpp:66</div></div>
-<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a7b2c8b50825b8c3d0220d1b8fde7c483"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a7b2c8b50825b8c3d0220d1b8fde7c483">CSMTools::RaceCheckStage::RaceCheckStage</a></div><div class="ttdeci">RaceCheckStage(const CSMWorld::IdCollection&lt; ESM::Race &gt; &amp;races)</div><div class="ttdef"><b>Definition:</b> racecheck.cpp:56</div></div>
-<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a846e46254eba553c0052f26de6d6b2fb"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a846e46254eba553c0052f26de6d6b2fb">CSMTools::RaceCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> racecheck.cpp:60</div></div>
+<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_ac37b78dce574c173163bc81c0fd7e5ac"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#ac37b78dce574c173163bc81c0fd7e5ac">CSMTools::RaceCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this tage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> racecheck.cpp:72</div></div>
+<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a7b2c8b50825b8c3d0220d1b8fde7c483"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a7b2c8b50825b8c3d0220d1b8fde7c483">CSMTools::RaceCheckStage::RaceCheckStage</a></div><div class="ttdeci">RaceCheckStage(const CSMWorld::IdCollection&lt; ESM::Race &gt; &amp;races)</div><div class="ttdef"><b>Definition:</b> racecheck.cpp:58</div></div>
+<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a846e46254eba553c0052f26de6d6b2fb"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a846e46254eba553c0052f26de6d6b2fb">CSMTools::RaceCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> racecheck.cpp:64</div></div>
 <div class="ttc" id="classCSMDoc_1_1Messages_html"><div class="ttname"><a href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:38</div></div>
 <div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a3abba3fb9fd2e7daec54a35d5c0323ae"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a3abba3fb9fd2e7daec54a35d5c0323ae">CSMTools::RaceCheckStage::mPlayable</a></div><div class="ttdeci">bool mPlayable</div><div class="ttdef"><b>Definition:</b> racecheck.hpp:16</div></div>
 <div class="ttc" id="classCSMDoc_1_1Stage_html"><div class="ttname"><a href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div><div class="ttdef"><b>Definition:</b> stage.hpp:15</div></div>
 <div class="ttc" id="classCSMTools_1_1RaceCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html">CSMTools::RaceCheckStage</a></div><div class="ttdoc">VerifyStage: make sure that race records are internally consistent. </div><div class="ttdef"><b>Definition:</b> racecheck.hpp:13</div></div>
-<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a6800f9ee6031d2cafc5c5acbb7b0a82b"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a6800f9ee6031d2cafc5c5acbb7b0a82b">CSMTools::RaceCheckStage::performFinal</a></div><div class="ttdeci">void performFinal(CSMDoc::Messages &amp;messages)</div><div class="ttdef"><b>Definition:</b> racecheck.cpp:48</div></div>
+<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a6800f9ee6031d2cafc5c5acbb7b0a82b"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a6800f9ee6031d2cafc5c5acbb7b0a82b">CSMTools::RaceCheckStage::performFinal</a></div><div class="ttdeci">void performFinal(CSMDoc::Messages &amp;messages)</div><div class="ttdef"><b>Definition:</b> racecheck.cpp:50</div></div>
 <div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a3a697160832d6e414ff493c3905ac4a0"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a3a697160832d6e414ff493c3905ac4a0">CSMTools::RaceCheckStage::mRaces</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::Race &gt; &amp; mRaces</div><div class="ttdef"><b>Definition:</b> racecheck.hpp:15</div></div>
-<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a764409728c184fd3918f0533cdfac106"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a764409728c184fd3918f0533cdfac106">CSMTools::RaceCheckStage::performPerRecord</a></div><div class="ttdeci">void performPerRecord(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdef"><b>Definition:</b> racecheck.cpp:9</div></div>
+<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a764409728c184fd3918f0533cdfac106"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a764409728c184fd3918f0533cdfac106">CSMTools::RaceCheckStage::performPerRecord</a></div><div class="ttdeci">void performPerRecord(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdef"><b>Definition:</b> racecheck.cpp:7</div></div>
 <div class="ttc" id="loadrace_8hpp_html"><div class="ttname"><a href="loadrace_8hpp.html">loadrace.hpp</a></div></div>
+<div class="ttc" id="classCSMTools_1_1RaceCheckStage_html_a551638d25205f5c2ab6edc6ad39c76ba"><div class="ttname"><a href="classCSMTools_1_1RaceCheckStage.html#a551638d25205f5c2ab6edc6ad39c76ba">CSMTools::RaceCheckStage::mIgnoreBaseRecords</a></div><div class="ttdeci">bool mIgnoreBaseRecords</div><div class="ttdef"><b>Definition:</b> racecheck.hpp:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/nifosg/nifloader.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/nifosg/nifloader.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,10 +109,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;osg/LOD&gt;</code><br/>
 <code>#include &lt;osg/TexGen&gt;</code><br/>
 <code>#include &lt;osg/ValueObject&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="stringops_8hpp_source.html">components/misc/stringops.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="resourcehelpers_8hpp_source.html">components/misc/resourcehelpers.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="imagemanager_8hpp_source.html">components/resource/imagemanager.hpp</a>&gt;</code><br/>
-<code>#include &lt;osgAnimation/MorphGeometry&gt;</code><br/>
 <code>#include &lt;osgParticle/ParticleSystem&gt;</code><br/>
 <code>#include &lt;osgParticle/ParticleSystemUpdater&gt;</code><br/>
 <code>#include &lt;osgParticle/ConstantRateCounter&gt;</code><br/>
@@ -133,28 +133,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;<a class="el" href="effect_8hpp_source.html">components/nif/effect.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="skeleton_8hpp_source.html">components/sceneutil/skeleton.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="riggeometry_8hpp_source.html">components/sceneutil/riggeometry.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="morphgeometry_8hpp_source.html">components/sceneutil/morphgeometry.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="particle_8hpp_source.html">particle.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="userdata_8hpp_source.html">userdata.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for nifloader.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="nifloader_8cpp__incl.svg" width="5175" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="nifloader_8cpp__incl.svg" width="5220" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02nifloader_8cpp_03_1_1FrameSwitch.html">anonymous_namespace{nifloader.cpp}::FrameSwitch</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02nifloader_8cpp_03_1_1BillboardCallback.html">anonymous_namespace{nifloader.cpp}::BillboardCallback</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02nifloader_8cpp_03_1_1UpdateMorphGeometry.html">anonymous_namespace{nifloader.cpp}::UpdateMorphGeometry</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02nifloader_8cpp_03_1_1StaticBoundingBoxCallback.html">anonymous_namespace{nifloader.cpp}::StaticBoundingBoxCallback</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1LoaderImpl.html">NifOsg::LoaderImpl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNifOsg_1_1LoaderImpl_1_1CompareMaterial.html">NifOsg::LoaderImpl::CompareMaterial</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNifOsg_1_1LoaderImpl_1_1CompareStateAttribute.html">NifOsg::LoaderImpl::CompareStateAttribute</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -176,7 +171,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

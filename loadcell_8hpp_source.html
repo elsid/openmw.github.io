@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/esm/loadcell.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/esm/loadcell.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -175,14 +175,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1DATAstruct.html">   79</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structESM_1_1Cell_1_1DATAstruct.html">DATAstruct</a></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  {</div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1DATAstruct.html#a020653136cccd65eb12ba9039a232c48">   81</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structESM_1_1Cell_1_1DATAstruct.html#a020653136cccd65eb12ba9039a232c48">mFlags</a>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1DATAstruct.html#a1203765a6bc44085d66480c3d7a47b71">   82</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structESM_1_1Cell_1_1DATAstruct.html#ac4742c1e888352c5623e7934dcf47dce">mX</a>, <a class="code" href="structESM_1_1Cell_1_1DATAstruct.html#a1203765a6bc44085d66480c3d7a47b71">mY</a>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1DATAstruct.html#a020653136cccd65eb12ba9039a232c48">   81</a></span>&#160;      <span class="keywordtype">int</span> <a class="code" href="structESM_1_1Cell_1_1DATAstruct.html#a020653136cccd65eb12ba9039a232c48">mFlags</a> {0};</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1DATAstruct.html#a1203765a6bc44085d66480c3d7a47b71">   82</a></span>&#160;      <span class="keywordtype">int</span> <a class="code" href="structESM_1_1Cell_1_1DATAstruct.html#ac4742c1e888352c5623e7934dcf47dce">mX</a> {0}, <a class="code" href="structESM_1_1Cell_1_1DATAstruct.html#a1203765a6bc44085d66480c3d7a47b71">mY</a> {0};</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  };</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
 <div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1AMBIstruct.html">   85</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html">AMBIstruct</a></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  {</div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1AMBIstruct.html#a90319420e94d7526d0b47d3bc835d190">   87</a></span>&#160;    <a class="code" href="namespaceESM.html#aa959270f3074e500bc27981d284d9146">Color</a> <a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html#a9a1b3ff605c01c010f346e3af8725fe5">mAmbient</a>, <a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html#a90319420e94d7526d0b47d3bc835d190">mSunlight</a>, <a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html#a38c88ebc7bba62e1b40abeb04fbfacf1">mFog</a>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1AMBIstruct.html#af3936bc46a65640f1948e5b6f0a22667">   88</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html#af3936bc46a65640f1948e5b6f0a22667">mFogDensity</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1AMBIstruct.html#a90319420e94d7526d0b47d3bc835d190">   87</a></span>&#160;      <a class="code" href="namespaceESM.html#aa959270f3074e500bc27981d284d9146">Color</a> <a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html#a9a1b3ff605c01c010f346e3af8725fe5">mAmbient</a> {0}, <a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html#a90319420e94d7526d0b47d3bc835d190">mSunlight</a> {0}, <a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html#a38c88ebc7bba62e1b40abeb04fbfacf1">mFog</a> {0};</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="structESM_1_1Cell_1_1AMBIstruct.html#af3936bc46a65640f1948e5b6f0a22667">   88</a></span>&#160;      <span class="keywordtype">float</span> <a class="code" href="structESM_1_1Cell_1_1AMBIstruct.html#af3936bc46a65640f1948e5b6f0a22667">mFogDensity</a> {0.f};</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  };</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
 <div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="structESM_1_1Cell.html#ae5c9f7541f5f186101d09a2f8a8ee8de">   91</a></span>&#160;  <a class="code" href="structESM_1_1Cell.html#ae5c9f7541f5f186101d09a2f8a8ee8de">Cell</a>() : <a class="code" href="structESM_1_1Cell.html#aa0e534a280267b2b162a385290d7a046">mName</a>(<span class="stringliteral">&quot;&quot;</span>),</div>
@@ -306,7 +306,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classESM_1_1ESMWriter_html"><div class="ttname"><a href="classESM_1_1ESMWriter.html">ESM::ESMWriter</a></div><div class="ttdef"><b>Definition:</b> esmwriter.hpp:17</div></div>
 <div class="ttc" id="structESM_1_1Cell_html_a98cab4b22c7a80a063b3b324ea139901"><div class="ttname"><a href="structESM_1_1Cell.html#a98cab4b22c7a80a063b3b324ea139901">ESM::Cell::mLeasedRefs</a></div><div class="ttdeci">CellRefTracker mLeasedRefs</div><div class="ttdef"><b>Definition:</b> loadcell.hpp:122</div></div>
 <div class="ttc" id="structESM_1_1Cell_html_a12ba0ed5b1a64c3bb26b19c4ce16b28a"><div class="ttname"><a href="structESM_1_1Cell.html#a12ba0ed5b1a64c3bb26b19c4ce16b28a">ESM::Cell::getDescription</a></div><div class="ttdeci">std::string getDescription() const </div><div class="ttdoc">Return a short string describing the cell (mostly used for debugging/logging purpose) ...</div><div class="ttdef"><b>Definition:</b> loadcell.cpp:204</div></div>
-<div class="ttc" id="structESM_1_1RefNum_html"><div class="ttname"><a href="structESM_1_1RefNum.html">ESM::RefNum</a></div><div class="ttdef"><b>Definition:</b> cellref.hpp:14</div></div>
+<div class="ttc" id="structESM_1_1RefNum_html"><div class="ttname"><a href="structESM_1_1RefNum.html">ESM::RefNum</a></div><div class="ttdef"><b>Definition:</b> cellref.hpp:16</div></div>
 <div class="ttc" id="structESM_1_1Cell_html_ae0d398ce40a6dd8ec503246d42ff286b"><div class="ttname"><a href="structESM_1_1Cell.html#ae0d398ce40a6dd8ec503246d42ff286b">ESM::Cell::mData</a></div><div class="ttdeci">DATAstruct mData</div><div class="ttdef"><b>Definition:</b> loadcell.hpp:107</div></div>
 <div class="ttc" id="namespaceESM_html_afcbacb4ceb4bea5297e719476adb2a2d"><div class="ttname"><a href="namespaceESM.html#afcbacb4ceb4bea5297e719476adb2a2d">ESM::CellRefTracker</a></div><div class="ttdeci">std::list&lt; std::pair&lt; CellRef, bool &gt; &gt; CellRefTracker</div><div class="ttdef"><b>Definition:</b> loadcell.hpp:46</div></div>
 <div class="ttc" id="structESM_1_1CellRefTrackerPredicate_html_a0e56cfcf929e418ae7a15f76cb4d6948"><div class="ttname"><a href="structESM_1_1CellRefTrackerPredicate.html#a0e56cfcf929e418ae7a15f76cb4d6948">ESM::CellRefTrackerPredicate::mRefNum</a></div><div class="ttdeci">RefNum mRefNum</div><div class="ttdef"><b>Definition:</b> loadcell.hpp:50</div></div>
@@ -318,7 +318,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structESM_1_1Cell_html_a397bd56f4fd345353910ef363811a97e"><div class="ttname"><a href="structESM_1_1Cell.html#a397bd56f4fd345353910ef363811a97e">ESM::Cell::hasWater</a></div><div class="ttdeci">bool hasWater() const </div><div class="ttdef"><b>Definition:</b> loadcell.hpp:150</div></div>
 <div class="ttc" id="structESM_1_1Cell_html_a2633a4649c5df0e7c970854e3a3dce63"><div class="ttname"><a href="structESM_1_1Cell.html#a2633a4649c5df0e7c970854e3a3dce63">ESM::Cell::loadCell</a></div><div class="ttdeci">void loadCell(ESMReader &amp;esm, bool saveContext=true)</div><div class="ttdef"><b>Definition:</b> loadcell.cpp:111</div></div>
 <div class="ttc" id="structESM_1_1Cell_html_afdd2bb155f17d6173887fa0cebd47f5d"><div class="ttname"><a href="structESM_1_1Cell.html#afdd2bb155f17d6173887fa0cebd47f5d">ESM::Cell::mWater</a></div><div class="ttdeci">float mWater</div><div class="ttdef"><b>Definition:</b> loadcell.hpp:112</div></div>
-<div class="ttc" id="classESM_1_1CellRef_html"><div class="ttname"><a href="classESM_1_1CellRef.html">ESM::CellRef</a></div><div class="ttdef"><b>Definition:</b> cellref.hpp:34</div></div>
+<div class="ttc" id="classESM_1_1CellRef_html"><div class="ttname"><a href="classESM_1_1CellRef.html">ESM::CellRef</a></div><div class="ttdef"><b>Definition:</b> cellref.hpp:36</div></div>
 <div class="ttc" id="structESM_1_1Cell_html"><div class="ttname"><a href="structESM_1_1Cell.html">ESM::Cell</a></div><div class="ttdef"><b>Definition:</b> loadcell.hpp:64</div></div>
 <div class="ttc" id="structESM_1_1Cell_1_1DATAstruct_html"><div class="ttname"><a href="structESM_1_1Cell_1_1DATAstruct.html">ESM::Cell::DATAstruct</a></div><div class="ttdef"><b>Definition:</b> loadcell.hpp:79</div></div>
 <div class="ttc" id="structESM_1_1Cell_html_afc8def245a89fe37257f2c0f608826ce"><div class="ttname"><a href="structESM_1_1Cell.html#afc8def245a89fe37257f2c0f608826ce">ESM::Cell::blank</a></div><div class="ttdeci">void blank()</div><div class="ttdoc">Set record to default state (does not touch the ID/index). </div><div class="ttdef"><b>Definition:</b> loadcell.cpp:265</div></div>
@@ -349,7 +349,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

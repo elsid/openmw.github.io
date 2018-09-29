@@ -21,6 +21,7 @@ var searchData=
   ['posdata',['posData',['../classNif_1_1NiPathController.html#aa123edc9f37aa9d1989d96373aefed85',1,'Nif::NiPathController']]],
   ['position',['position',['../structESM_1_1ESMWriter_1_1RecordData.html#adee4f463be19c1fae7cdf67fa57de34b',1,'ESM::ESMWriter::RecordData']]],
   ['potions',['potions',['../classMWWorld_1_1ContainerStore.html#af01f27826bbfb2dcfae333fc8297bfdc',1,'MWWorld::ContainerStore']]],
+  ['previousselectedfiles',['previousSelectedFiles',['../classLauncher_1_1DataFilesPage.html#a80858950f7c806b9d21cfacc8471a553',1,'Launcher::DataFilesPage']]],
   ['prevpagebtn',['PrevPageBTN',['../namespaceanonymous__namespace_02journalwindow_8cpp_03.html#aae53cabe9850db4936fdd3134989a300',1,'anonymous_namespace{journalwindow.cpp}']]],
   ['probes',['probes',['../classMWWorld_1_1ContainerStore.html#a6fc04ae19375ec3c7c4461ca25097cd8',1,'MWWorld::ContainerStore']]],
   ['props',['props',['../classNif_1_1Node.html#abe95376bfe3643b4225ec6bce62098e5',1,'Nif::Node']]],

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/resource/resourcemanager.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/resource/resourcemanager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,45 +107,61 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">class </span>Manager;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>Resource</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>osg</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">class </span>ObjectCache;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html">   17</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classResource_1_1ResourceManager.html">ResourceManager</a></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="classResource_1_1ResourceManager.html#a93e234fca2a9ebded0ce220d44fb6a98">ResourceManager</a>(<span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* vfs);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classResource_1_1ResourceManager.html#a26bba1452f433fc155819a9da6586cc9">~ResourceManager</a>();</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ResourceManager.html#ab21594177a4b50780abde3c14058ad2e">updateCache</a>(<span class="keywordtype">double</span> referenceTime);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ResourceManager.html#a48df30434099d0d3e7d3ac47e9e4a1f9">setExpiryDelay</a> (<span class="keywordtype">double</span> expiryDelay);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">class </span>Stats;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">class </span><a class="code" href="namespaceCSMDoc.html#a46ff3c989b498a8d4aba49fea84a560a">State</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>Resource</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">class </span>ObjectCache;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html">   23</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classResource_1_1ResourceManager.html">ResourceManager</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="classResource_1_1ResourceManager.html#a93e234fca2a9ebded0ce220d44fb6a98">ResourceManager</a>(<span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* vfs);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classResource_1_1ResourceManager.html#a26bba1452f433fc155819a9da6586cc9">~ResourceManager</a>();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* <a class="code" href="classResource_1_1ResourceManager.html#aa5845cf6b86938d665fb22ccd7888d7e">getVFS</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html#a9827cb026337c230dc9b593c402e29f7">   32</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* <a class="code" href="classResource_1_1ResourceManager.html#a9827cb026337c230dc9b593c402e29f7">mVFS</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html#a9ce94c17bb3a78545b4db337ae45ec51">   33</a></span>&#160;        osg::ref_ptr&lt;Resource::ObjectCache&gt; <a class="code" href="classResource_1_1ResourceManager.html#a9ce94c17bb3a78545b4db337ae45ec51">mCache</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html#a82fc9c55763d5074182fdd13a60ecccc">   34</a></span>&#160;        <span class="keywordtype">double</span> <a class="code" href="classResource_1_1ResourceManager.html#a82fc9c55763d5074182fdd13a60ecccc">mExpiryDelay</a>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    };</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html_a9ce94c17bb3a78545b4db337ae45ec51"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a9ce94c17bb3a78545b4db337ae45ec51">Resource::ResourceManager::mCache</a></div><div class="ttdeci">osg::ref_ptr&lt; Resource::ObjectCache &gt; mCache</div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:33</div></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ResourceManager.html#ab21594177a4b50780abde3c14058ad2e">updateCache</a>(<span class="keywordtype">double</span> referenceTime);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ResourceManager.html#a0c1b31cb5bf2c5da3cde79d1f85a909e">clearCache</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ResourceManager.html#a48df30434099d0d3e7d3ac47e9e4a1f9">setExpiryDelay</a> (<span class="keywordtype">double</span> expiryDelay);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* <a class="code" href="classResource_1_1ResourceManager.html#aa5845cf6b86938d665fb22ccd7888d7e">getVFS</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html#a641a1d586312f5fb0e50bdefef8973e3">   40</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ResourceManager.html#a641a1d586312f5fb0e50bdefef8973e3">reportStats</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> frameNumber, osg::Stats* stats)<span class="keyword"> const </span>{}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ResourceManager.html#a10277aa6a185c8d7528b0d553fb4d795">releaseGLObjects</a>(<a class="code" href="namespaceCSMDoc.html#a46ff3c989b498a8d4aba49fea84a560a">osg::State</a>* state);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html#a9827cb026337c230dc9b593c402e29f7">   45</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* <a class="code" href="classResource_1_1ResourceManager.html#a9827cb026337c230dc9b593c402e29f7">mVFS</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html#a9ce94c17bb3a78545b4db337ae45ec51">   46</a></span>&#160;        osg::ref_ptr&lt;Resource::ObjectCache&gt; <a class="code" href="classResource_1_1ResourceManager.html#a9ce94c17bb3a78545b4db337ae45ec51">mCache</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classResource_1_1ResourceManager.html#a82fc9c55763d5074182fdd13a60ecccc">   47</a></span>&#160;        <span class="keywordtype">double</span> <a class="code" href="classResource_1_1ResourceManager.html#a82fc9c55763d5074182fdd13a60ecccc">mExpiryDelay</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    };</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html_a9ce94c17bb3a78545b4db337ae45ec51"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a9ce94c17bb3a78545b4db337ae45ec51">Resource::ResourceManager::mCache</a></div><div class="ttdeci">osg::ref_ptr&lt; Resource::ObjectCache &gt; mCache</div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:46</div></div>
 <div class="ttc" id="classResource_1_1ResourceManager_html_a26bba1452f433fc155819a9da6586cc9"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a26bba1452f433fc155819a9da6586cc9">Resource::ResourceManager::~ResourceManager</a></div><div class="ttdeci">virtual ~ResourceManager()</div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:16</div></div>
 <div class="ttc" id="classResource_1_1ResourceManager_html_a93e234fca2a9ebded0ce220d44fb6a98"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a93e234fca2a9ebded0ce220d44fb6a98">Resource::ResourceManager::ResourceManager</a></div><div class="ttdeci">ResourceManager(const VFS::Manager *vfs)</div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:8</div></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html_aa5845cf6b86938d665fb22ccd7888d7e"><div class="ttname"><a href="classResource_1_1ResourceManager.html#aa5845cf6b86938d665fb22ccd7888d7e">Resource::ResourceManager::getVFS</a></div><div class="ttdeci">const VFS::Manager * getVFS() const </div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:31</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html_aa5845cf6b86938d665fb22ccd7888d7e"><div class="ttname"><a href="classResource_1_1ResourceManager.html#aa5845cf6b86938d665fb22ccd7888d7e">Resource::ResourceManager::getVFS</a></div><div class="ttdeci">const VFS::Manager * getVFS() const </div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:36</div></div>
 <div class="ttc" id="classResource_1_1ResourceManager_html_ab21594177a4b50780abde3c14058ad2e"><div class="ttname"><a href="classResource_1_1ResourceManager.html#ab21594177a4b50780abde3c14058ad2e">Resource::ResourceManager::updateCache</a></div><div class="ttdeci">virtual void updateCache(double referenceTime)</div><div class="ttdoc">Clear cache entries that have not been referenced for longer than expiryDelay. </div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:20</div></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html_a48df30434099d0d3e7d3ac47e9e4a1f9"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a48df30434099d0d3e7d3ac47e9e4a1f9">Resource::ResourceManager::setExpiryDelay</a></div><div class="ttdeci">void setExpiryDelay(double expiryDelay)</div><div class="ttdoc">How long to keep objects in cache after no longer being referenced. </div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:26</div></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html_a82fc9c55763d5074182fdd13a60ecccc"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a82fc9c55763d5074182fdd13a60ecccc">Resource::ResourceManager::mExpiryDelay</a></div><div class="ttdeci">double mExpiryDelay</div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:34</div></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html_a9827cb026337c230dc9b593c402e29f7"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a9827cb026337c230dc9b593c402e29f7">Resource::ResourceManager::mVFS</a></div><div class="ttdeci">const VFS::Manager * mVFS</div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:32</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html_a641a1d586312f5fb0e50bdefef8973e3"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a641a1d586312f5fb0e50bdefef8973e3">Resource::ResourceManager::reportStats</a></div><div class="ttdeci">virtual void reportStats(unsigned int frameNumber, osg::Stats *stats) const </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:40</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html_a48df30434099d0d3e7d3ac47e9e4a1f9"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a48df30434099d0d3e7d3ac47e9e4a1f9">Resource::ResourceManager::setExpiryDelay</a></div><div class="ttdeci">void setExpiryDelay(double expiryDelay)</div><div class="ttdoc">How long to keep objects in cache after no longer being referenced. </div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:31</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html_a0c1b31cb5bf2c5da3cde79d1f85a909e"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a0c1b31cb5bf2c5da3cde79d1f85a909e">Resource::ResourceManager::clearCache</a></div><div class="ttdeci">virtual void clearCache()</div><div class="ttdoc">Clear all cache entries. </div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:26</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html_a10277aa6a185c8d7528b0d553fb4d795"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a10277aa6a185c8d7528b0d553fb4d795">Resource::ResourceManager::releaseGLObjects</a></div><div class="ttdeci">virtual void releaseGLObjects(osg::State *state)</div><div class="ttdef"><b>Definition:</b> resourcemanager.cpp:41</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html_a82fc9c55763d5074182fdd13a60ecccc"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a82fc9c55763d5074182fdd13a60ecccc">Resource::ResourceManager::mExpiryDelay</a></div><div class="ttdeci">double mExpiryDelay</div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:47</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html_a9827cb026337c230dc9b593c402e29f7"><div class="ttname"><a href="classResource_1_1ResourceManager.html#a9827cb026337c230dc9b593c402e29f7">Resource::ResourceManager::mVFS</a></div><div class="ttdeci">const VFS::Manager * mVFS</div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:45</div></div>
+<div class="ttc" id="namespaceCSMDoc_html_a46ff3c989b498a8d4aba49fea84a560a"><div class="ttname"><a href="namespaceCSMDoc.html#a46ff3c989b498a8d4aba49fea84a560a">CSMDoc::State</a></div><div class="ttdeci">State</div><div class="ttdef"><b>Definition:</b> state.hpp:6</div></div>
 <div class="ttc" id="classVFS_1_1Manager_html"><div class="ttname"><a href="classVFS_1_1Manager.html">VFS::Manager</a></div><div class="ttdoc">The main class responsible for loading files from a virtual file system. </div><div class="ttdef"><b>Definition:</b> manager.hpp:20</div></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html"><div class="ttname"><a href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></div><div class="ttdoc">Base class for managers that require a virtual file system and object cache. </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:17</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html"><div class="ttname"><a href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></div><div class="ttdoc">Base class for managers that require a virtual file system and object cache. </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -108,7 +108,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWMechanics::DynamicStat&lt; T &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat__coll__graph.svg" width="248" height="422"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat__coll__graph.svg" width="248" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -131,6 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0d63da7d2ef44216a8535b68c581bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5341e59c91e5cc6782ef8f8fa1177bda"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#a5341e59c91e5cc6782ef8f8fa1177bda">getModified</a> () const </td></tr>
 <tr class="separator:a5341e59c91e5cc6782ef8f8fa1177bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1389c36677a281adaa9d737a4d60eda"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#ac1389c36677a281adaa9d737a4d60eda">getCurrentModified</a> () const </td></tr>
+<tr class="separator:ac1389c36677a281adaa9d737a4d60eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a396a1a67b23dde7489b7afa6bcdc2dee"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee">getCurrent</a> () const </td></tr>
 <tr class="separator:a396a1a67b23dde7489b7afa6bcdc2dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a974638df2d1631d82dadfb8bf20e0242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#a974638df2d1631d82dadfb8bf20e0242">set</a> (const T &amp;value)</td></tr>
@@ -140,12 +142,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a763b97fb382de28e591e8568f8acdfab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set base and adjust modified accordingly.  <a href="#a763b97fb382de28e591e8568f8acdfab">More...</a><br/></td></tr>
 <tr class="separator:a763b97fb382de28e591e8568f8acdfab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc22a236f06b223eb3451b5607d5f5ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#abc22a236f06b223eb3451b5607d5f5ef">setModified</a> (T value, const T &amp;min, const T &amp;max=std::numeric_limits&lt; T &gt;::max())</td></tr>
-<tr class="memdesc:abc22a236f06b223eb3451b5607d5f5ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set modified value an adjust base accordingly.  <a href="#abc22a236f06b223eb3451b5607d5f5ef">More...</a><br/></td></tr>
+<tr class="memdesc:abc22a236f06b223eb3451b5607d5f5ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set modified value and adjust base accordingly.  <a href="#abc22a236f06b223eb3451b5607d5f5ef">More...</a><br/></td></tr>
 <tr class="separator:abc22a236f06b223eb3451b5607d5f5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb00fb02a2face04357f86ec5117d2ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#abb00fb02a2face04357f86ec5117d2ec">setCurrent</a> (const T &amp;value, <a class="el" href="classbool.html">bool</a> allowDecreaseBelowZero=false)</td></tr>
-<tr class="separator:abb00fb02a2face04357f86ec5117d2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad790612fbb12a028056c4fbb9a19e445"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#ad790612fbb12a028056c4fbb9a19e445">setModifier</a> (const T &amp;modifier, <a class="el" href="classbool.html">bool</a> allowCurrentDecreaseBelowZero=false)</td></tr>
-<tr class="separator:ad790612fbb12a028056c4fbb9a19e445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c53d3391fceb55d73ba7cb79f66a30c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#a6c53d3391fceb55d73ba7cb79f66a30c">setCurrentModified</a> (T value)</td></tr>
+<tr class="separator:a6c53d3391fceb55d73ba7cb79f66a30c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af114d4cb38a9d185a77154a620528049"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#af114d4cb38a9d185a77154a620528049">setCurrent</a> (const T &amp;value, <a class="el" href="classbool.html">bool</a> allowDecreaseBelowZero=false, <a class="el" href="classbool.html">bool</a> allowIncreaseAboveModified=false)</td></tr>
+<tr class="separator:af114d4cb38a9d185a77154a620528049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1bf19302339be678e237f6cdaf2554b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#aa1bf19302339be678e237f6cdaf2554b">setModifier</a> (const T &amp;modifier, <a class="el" href="classbool.html">bool</a> allowCurrentToDecreaseBelowZero=false)</td></tr>
+<tr class="separator:aa1bf19302339be678e237f6cdaf2554b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a41102193562350a182bad2f3c9602"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#ab9a41102193562350a182bad2f3c9602">setCurrentModifier</a> (const T &amp;modifier, <a class="el" href="classbool.html">bool</a> allowCurrentToDecreaseBelowZero=false)</td></tr>
+<tr class="separator:ab9a41102193562350a182bad2f3c9602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5017a3edf9f6e0b89f9543e87fe181e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#a5017a3edf9f6e0b89f9543e87fe181e6">writeState</a> (<a class="el" href="structESM_1_1StatState.html">ESM::StatState</a>&lt; T &gt; &amp;state) const </td></tr>
 <tr class="separator:a5017a3edf9f6e0b89f9543e87fe181e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e2fdfdab418fb459bd85b15a6775105"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWMechanics_1_1DynamicStat.html#a9e2fdfdab418fb459bd85b15a6775105">readState</a> (const <a class="el" href="structESM_1_1StatState.html">ESM::StatState</a>&lt; T &gt; &amp;state)</td></tr>
@@ -290,7 +296,7 @@ template&lt;typename T &gt; </div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_ae0d63da7d2ef44216a8535b68c581bd0_icgraph.svg" width="1939" height="1119"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_ae0d63da7d2ef44216a8535b68c581bd0_icgraph.svg" width="1974" height="1088"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -315,10 +321,27 @@ template&lt;typename T &gt; </div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_a396a1a67b23dde7489b7afa6bcdc2dee_icgraph.svg" width="1027" height="2211"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_a396a1a67b23dde7489b7afa6bcdc2dee_icgraph.svg" width="1046" height="2180"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="ac1389c36677a281adaa9d737a4d60eda"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="classMWMechanics_1_1DynamicStat.html">MWMechanics::DynamicStat</a>&lt; T &gt;::getCurrentModified </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -340,7 +363,7 @@ template&lt;typename T &gt; </div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_a5341e59c91e5cc6782ef8f8fa1177bda_icgraph.svg" width="1334" height="1908"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_a5341e59c91e5cc6782ef8f8fa1177bda_icgraph.svg" width="1334" height="1936"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -403,9 +426,17 @@ template&lt;typename T&gt; </div>
 
 <p>Set base and adjust modified accordingly. </p>
 
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_a763b97fb382de28e591e8568f8acdfab_icgraph.svg" width="862" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<a class="anchor" id="abb00fb02a2face04357f86ec5117d2ec"></a>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af114d4cb38a9d185a77154a620528049"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -421,7 +452,13 @@ template&lt;typename T&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
-          <td class="paramname"><em>allowDecreaseBelowZero</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>allowDecreaseBelowZero</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>allowIncreaseAboveModified</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -434,7 +471,62 @@ template&lt;typename T&gt; </div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_abb00fb02a2face04357f86ec5117d2ec_icgraph.svg" width="1894" height="1583"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_af114d4cb38a9d185a77154a620528049_icgraph.svg" width="1872" height="1620"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c53d3391fceb55d73ba7cb79f66a30c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMWMechanics_1_1DynamicStat.html">MWMechanics::DynamicStat</a>&lt; T &gt;::setCurrentModified </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set "current modified," used for drain and fortify. Unlike the regular modifier this just adds and subtracts from the current value without changing the maximum. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab9a41102193562350a182bad2f3c9602"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMWMechanics_1_1DynamicStat.html">MWMechanics::DynamicStat</a>&lt; T &gt;::setCurrentModifier </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>modifier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>allowCurrentToDecreaseBelowZero</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_ab9a41102193562350a182bad2f3c9602_icgraph.svg" width="2510" height="1158"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -473,19 +565,19 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Set modified value an adjust base accordingly. </p>
+<p>Set modified value and adjust base accordingly. </p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_abc22a236f06b223eb3451b5607d5f5ef_icgraph.svg" width="1926" height="1070"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_abc22a236f06b223eb3451b5607d5f5ef_icgraph.svg" width="1926" height="1096"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ad790612fbb12a028056c4fbb9a19e445"></a>
+<a class="anchor" id="aa1bf19302339be678e237f6cdaf2554b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -501,7 +593,7 @@ template&lt;typename T&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
-          <td class="paramname"><em>allowCurrentDecreaseBelowZero</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>allowCurrentToDecreaseBelowZero</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -514,7 +606,7 @@ template&lt;typename T&gt; </div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_ad790612fbb12a028056c4fbb9a19e445_icgraph.svg" width="2478" height="1240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWMechanics_1_1DynamicStat_aa1bf19302339be678e237f6cdaf2554b_icgraph.svg" width="2219" height="1150"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -585,14 +677,14 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwbase/<a class="el" href="windowmanager_8hpp_source.html">windowmanager.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/<a class="el" href="stat_8hpp_source.html">stat.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/<a class="el" href="stat_8cpp.html">stat.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwbase/<a class="el" href="windowmanager_8hpp_source.html">windowmanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwmechanics/<a class="el" href="stat_8hpp_source.html">stat.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwmechanics/<a class="el" href="stat_8cpp.html">stat.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:03 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:37 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,16 +102,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">MWMechanics::AiFollowStorage Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="aifollow_8hpp_source.html">aifollow.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MWMechanics::AiFollowStorage:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structMWMechanics_1_1AiFollowStorage__inherit__graph.svg" width="240" height="230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structMWMechanics_1_1AiFollowStorage__inherit__graph.svg" width="240" height="259"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWMechanics::AiFollowStorage:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structMWMechanics_1_1AiFollowStorage__coll__graph.svg" width="440" height="230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structMWMechanics_1_1AiFollowStorage__coll__graph.svg" width="596" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -129,6 +131,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4c395f3da0fa4522138b213b93563eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeab4b11b8e939c54458b16154f4ad292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWMechanics_1_1AiFollowStorage.html#aeab4b11b8e939c54458b16154f4ad292">mMoving</a></td></tr>
 <tr class="separator:aeab4b11b8e939c54458b16154f4ad292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab45c3067772b802c8c3b2b0ffad7663"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWMechanics_1_1AiFollowStorage.html#aab45c3067772b802c8c3b2b0ffad7663">mTargetAngleRadians</a></td></tr>
+<tr class="separator:aab45c3067772b802c8c3b2b0ffad7663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae282f7cdf12e4d8e097fcff364fbccc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWMechanics_1_1AiFollowStorage.html#ae282f7cdf12e4d8e097fcff364fbccc5">mTurnActorToTarget</a></td></tr>
+<tr class="separator:ae282f7cdf12e4d8e097fcff364fbccc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab9216670b0ec97b3da3b6579b85cd85b"></a>
@@ -167,6 +173,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aab45c3067772b802c8c3b2b0ffad7663"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MWMechanics::AiFollowStorage::mTargetAngleRadians</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a4c395f3da0fa4522138b213b93563eef"></a>
 <div class="memitem">
 <div class="memproto">
@@ -179,13 +197,25 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae282f7cdf12e4d8e097fcff364fbccc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWMechanics::AiFollowStorage::mTurnActorToTarget</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/<a class="el" href="aifollow_8cpp.html">aifollow.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwmechanics/<a class="el" href="aifollow_8hpp_source.html">aifollow.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:04 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:37 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

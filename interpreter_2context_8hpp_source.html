@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/interpreter/context.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/interpreter/context.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -154,7 +154,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keyword">virtual</span> std::string <a class="code" href="classInterpreter_1_1Context.html#aa3cf20fdb2e3f8b80ff8bb7084fa3e1e">getActionBinding</a>(<span class="keyword">const</span> std::string&amp; action) <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keyword">virtual</span> std::string <a class="code" href="classInterpreter_1_1Context.html#ad0cccf27acc82f6b8625cda7f6f32e69">getNPCName</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keyword">virtual</span> std::string <a class="code" href="classInterpreter_1_1Context.html#a236765b83fa494d3f1a2c068ff8488df">getActorName</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keyword">virtual</span> std::string <a class="code" href="classInterpreter_1_1Context.html#a2cf9b83ea2ba708103addfb03b63dd1b">getNPCRace</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
@@ -225,7 +225,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classInterpreter_1_1Context_html_a95b2a7958932bf94e093edcac2a642f9"><div class="ttname"><a href="classInterpreter_1_1Context.html#a95b2a7958932bf94e093edcac2a642f9">Interpreter::Context::setGlobalFloat</a></div><div class="ttdeci">virtual void setGlobalFloat(const std::string &amp;name, float value)=0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_aafb6220c923f72f079e8ae7b92c0d0d5"><div class="ttname"><a href="classInterpreter_1_1Context.html#aafb6220c923f72f079e8ae7b92c0d0d5">Interpreter::Context::getPCNextRank</a></div><div class="ttdeci">virtual std::string getPCNextRank() const =0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_a9e3782cb317bd2a1d7e2798c92e1e16c"><div class="ttname"><a href="classInterpreter_1_1Context.html#a9e3782cb317bd2a1d7e2798c92e1e16c">Interpreter::Context::setMemberFloat</a></div><div class="ttdeci">virtual void setMemberFloat(const std::string &amp;id, const std::string &amp;name, float value, bool global)=0</div></div>
-<div class="ttc" id="classInterpreter_1_1Context_html_ad0cccf27acc82f6b8625cda7f6f32e69"><div class="ttname"><a href="classInterpreter_1_1Context.html#ad0cccf27acc82f6b8625cda7f6f32e69">Interpreter::Context::getNPCName</a></div><div class="ttdeci">virtual std::string getNPCName() const =0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_a6cfc1936fd0a71d1b4f327598c7e9132"><div class="ttname"><a href="classInterpreter_1_1Context.html#a6cfc1936fd0a71d1b4f327598c7e9132">Interpreter::Context::getPCRace</a></div><div class="ttdeci">virtual std::string getPCRace() const =0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_a5f24bb9d6a89aeec0ef59f6229ab9ddb"><div class="ttname"><a href="classInterpreter_1_1Context.html#a5f24bb9d6a89aeec0ef59f6229ab9ddb">Interpreter::Context::getLocalLong</a></div><div class="ttdeci">virtual int getLocalLong(int index) const =0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_ad39588e00a69760c8fd622da30225faf"><div class="ttname"><a href="classInterpreter_1_1Context.html#ad39588e00a69760c8fd622da30225faf">Interpreter::Context::getPCRank</a></div><div class="ttdeci">virtual std::string getPCRank() const =0</div></div>
@@ -255,6 +254,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classInterpreter_1_1Context_html_afee2314ecbec756143285c4002cb4c21"><div class="ttname"><a href="classInterpreter_1_1Context.html#afee2314ecbec756143285c4002cb4c21">Interpreter::Context::getGlobals</a></div><div class="ttdeci">virtual std::vector&lt; std::string &gt; getGlobals() const =0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_a39270b64b659ea7f5ebed79ec78979e9"><div class="ttname"><a href="classInterpreter_1_1Context.html#a39270b64b659ea7f5ebed79ec78979e9">Interpreter::Context::getNPCClass</a></div><div class="ttdeci">virtual std::string getNPCClass() const =0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_aa0485aef310b52526a308a3fbff3946f"><div class="ttname"><a href="classInterpreter_1_1Context.html#aa0485aef310b52526a308a3fbff3946f">Interpreter::Context::messageBox</a></div><div class="ttdeci">void messageBox(const std::string &amp;message)</div><div class="ttdef"><b>Definition:</b> context.hpp:30</div></div>
+<div class="ttc" id="classInterpreter_1_1Context_html_a236765b83fa494d3f1a2c068ff8488df"><div class="ttname"><a href="classInterpreter_1_1Context.html#a236765b83fa494d3f1a2c068ff8488df">Interpreter::Context::getActorName</a></div><div class="ttdeci">virtual std::string getActorName() const =0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_a34f0e4289ce1a61bd10e559381658766"><div class="ttname"><a href="classInterpreter_1_1Context.html#a34f0e4289ce1a61bd10e559381658766">Interpreter::Context::stopScript</a></div><div class="ttdeci">virtual void stopScript(const std::string &amp;name)=0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_a8cc40ba02b8db00ebe52295380220ca8"><div class="ttname"><a href="classInterpreter_1_1Context.html#a8cc40ba02b8db00ebe52295380220ca8">Interpreter::Context::disable</a></div><div class="ttdeci">virtual void disable(const std::string &amp;id=&quot;&quot;)=0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_a818c2e14385d2640f27861341e7c5ea4"><div class="ttname"><a href="classInterpreter_1_1Context.html#a818c2e14385d2640f27861341e7c5ea4">Interpreter::Context::isScriptRunning</a></div><div class="ttdeci">virtual bool isScriptRunning(const std::string &amp;name) const =0</div></div>
@@ -262,11 +262,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classInterpreter_1_1Context_html_a4611cd26308038bcd7244df54f9ad5ee"><div class="ttname"><a href="classInterpreter_1_1Context.html#a4611cd26308038bcd7244df54f9ad5ee">Interpreter::Context::getGlobalType</a></div><div class="ttdeci">virtual char getGlobalType(const std::string &amp;name) const =0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_ad4de91942e1ec50ee951c96a9e78f1bd"><div class="ttname"><a href="classInterpreter_1_1Context.html#ad4de91942e1ec50ee951c96a9e78f1bd">Interpreter::Context::report</a></div><div class="ttdeci">virtual void report(const std::string &amp;message)=0</div></div>
 <div class="ttc" id="classInterpreter_1_1Context_html_ae2fba5906266d36a940443b8a6fcda12"><div class="ttname"><a href="classInterpreter_1_1Context.html#ae2fba5906266d36a940443b8a6fcda12">Interpreter::Context::getPCClass</a></div><div class="ttdeci">virtual std::string getPCClass() const =0</div></div>
-<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:59</div></div>
+<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

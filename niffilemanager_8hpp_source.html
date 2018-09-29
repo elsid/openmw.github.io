@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/resource/niffilemanager.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/resource/niffilemanager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -115,25 +115,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classResource_1_1NifFileManager.html#afe9ffe049d836c275cfdfd4221376640">NifFileManager</a>(<span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* vfs);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="classResource_1_1NifFileManager.html#ab5f7870eafab190c77f9232300bf38e5">~NifFileManager</a>();</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="namespaceNif.html#a45c725188bb548292e4ab91f20522e93">Nif::NIFFilePtr</a> <span class="keyword">get</span>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    };</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="namespaceNif.html#a70679f3dd492f9642c37cb6352037cd8">Nif::NIFFilePtr</a> <span class="keyword">get</span>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1NifFileManager.html#aaea89a3113c9fa005e8612b6ae7da663">reportStats</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> frameNumber, osg::Stats *stats) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    };</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="niffile_8hpp_html"><div class="ttname"><a href="niffile_8hpp.html">niffile.hpp</a></div></div>
-<div class="ttc" id="classResource_1_1NifFileManager_html_afe9ffe049d836c275cfdfd4221376640"><div class="ttname"><a href="classResource_1_1NifFileManager.html#afe9ffe049d836c275cfdfd4221376640">Resource::NifFileManager::NifFileManager</a></div><div class="ttdeci">NifFileManager(const VFS::Manager *vfs)</div><div class="ttdef"><b>Definition:</b> niffilemanager.cpp:33</div></div>
+<div class="ttc" id="classResource_1_1NifFileManager_html_afe9ffe049d836c275cfdfd4221376640"><div class="ttname"><a href="classResource_1_1NifFileManager.html#afe9ffe049d836c275cfdfd4221376640">Resource::NifFileManager::NifFileManager</a></div><div class="ttdeci">NifFileManager(const VFS::Manager *vfs)</div><div class="ttdef"><b>Definition:</b> niffilemanager.cpp:34</div></div>
+<div class="ttc" id="namespaceNif_html_a70679f3dd492f9642c37cb6352037cd8"><div class="ttname"><a href="namespaceNif.html#a70679f3dd492f9642c37cb6352037cd8">Nif::NIFFilePtr</a></div><div class="ttdeci">std::shared_ptr&lt; const Nif::NIFFile &gt; NIFFilePtr</div><div class="ttdef"><b>Definition:</b> niffile.hpp:117</div></div>
 <div class="ttc" id="resourcemanager_8hpp_html"><div class="ttname"><a href="resourcemanager_8hpp.html">resourcemanager.hpp</a></div></div>
-<div class="ttc" id="namespaceNif_html_a45c725188bb548292e4ab91f20522e93"><div class="ttname"><a href="namespaceNif.html#a45c725188bb548292e4ab91f20522e93">Nif::NIFFilePtr</a></div><div class="ttdeci">boost::shared_ptr&lt; const Nif::NIFFile &gt; NIFFilePtr</div><div class="ttdef"><b>Definition:</b> niffile.hpp:95</div></div>
 <div class="ttc" id="classResource_1_1NifFileManager_html"><div class="ttname"><a href="classResource_1_1NifFileManager.html">Resource::NifFileManager</a></div><div class="ttdoc">Handles caching of NIFFiles. </div><div class="ttdef"><b>Definition:</b> niffilemanager.hpp:15</div></div>
-<div class="ttc" id="classResource_1_1NifFileManager_html_ab5f7870eafab190c77f9232300bf38e5"><div class="ttname"><a href="classResource_1_1NifFileManager.html#ab5f7870eafab190c77f9232300bf38e5">Resource::NifFileManager::~NifFileManager</a></div><div class="ttdeci">~NifFileManager()</div><div class="ttdef"><b>Definition:</b> niffilemanager.cpp:38</div></div>
+<div class="ttc" id="classResource_1_1NifFileManager_html_ab5f7870eafab190c77f9232300bf38e5"><div class="ttname"><a href="classResource_1_1NifFileManager.html#ab5f7870eafab190c77f9232300bf38e5">Resource::NifFileManager::~NifFileManager</a></div><div class="ttdeci">~NifFileManager()</div><div class="ttdef"><b>Definition:</b> niffilemanager.cpp:39</div></div>
+<div class="ttc" id="classResource_1_1NifFileManager_html_aaea89a3113c9fa005e8612b6ae7da663"><div class="ttname"><a href="classResource_1_1NifFileManager.html#aaea89a3113c9fa005e8612b6ae7da663">Resource::NifFileManager::reportStats</a></div><div class="ttdeci">void reportStats(unsigned int frameNumber, osg::Stats *stats) const </div><div class="ttdef"><b>Definition:</b> niffilemanager.cpp:59</div></div>
 <div class="ttc" id="classVFS_1_1Manager_html"><div class="ttname"><a href="classVFS_1_1Manager.html">VFS::Manager</a></div><div class="ttdoc">The main class responsible for loading files from a virtual file system. </div><div class="ttdef"><b>Definition:</b> manager.hpp:20</div></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html"><div class="ttname"><a href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></div><div class="ttdoc">Base class for managers that require a virtual file system and object cache. </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:17</div></div>
-<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:59</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html"><div class="ttname"><a href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></div><div class="ttdoc">Base class for managers that require a virtual file system and object cache. </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:23</div></div>
+<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

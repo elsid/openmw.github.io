@@ -309,16 +309,16 @@
 </g>
 <!-- Node35 -->
 <g id="node35" class="node"><title>Node35</title>
-<g id="a_node35"><a xlink:href="structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" target="_top" xlink:title="Throws an exception if GMST is not of type int or float. ">
-<polygon fill="white" stroke="red" points="409,-420.5 409,-439.5 561,-439.5 561,-420.5 409,-420.5"/>
-<text text-anchor="middle" x="485" y="-427.5" font-family="FreeSans" font-size="10.00">ESM::GameSetting::getFloat</text>
+<g id="a_node35"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
+<polygon fill="white" stroke="black" points="424,-420.5 424,-439.5 546,-439.5 546,-420.5 424,-420.5"/>
+<text text-anchor="middle" x="485" y="-427.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node35 -->
 <g id="edge46" class="edge"><title>Node4&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M338.184,-740.58C345.668,-737.411 352.549,-733.024 358,-727 441.596,-634.622 309.464,-540.518 394,-449 395.849,-446.998 397.851,-445.179 399.978,-443.527"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="402.183,-446.273 408.739,-437.95 398.424,-440.367 402.183,-446.273"/>
+<path fill="none" stroke="midnightblue" d="M338.184,-740.58C345.668,-737.411 352.549,-733.024 358,-727 441.596,-634.622 309.464,-540.518 394,-449 399.624,-442.912 406.666,-438.511 414.321,-435.365"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="415.558,-438.641 423.907,-432.118 413.313,-432.011 415.558,-438.641"/>
 </g>
 <!-- Node36 -->
 <g id="node36" class="node"><title>Node36</title>
@@ -568,7 +568,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classMWMechanics_1_1DynamicStat.html#abc22a236f06b223eb3451b5607d5f5ef" target="_top" xlink:title="Set modified value an adjust base accordingly. ">
+<g id="a_node12"><a xlink:href="classMWMechanics_1_1DynamicStat.html#abc22a236f06b223eb3451b5607d5f5ef" target="_top" xlink:title="Set modified value and adjust base accordingly. ">
 <polygon fill="white" stroke="black" points="617,-1180 617,-1210 769,-1210 769,-1180 617,-1180"/>
 <text text-anchor="start" x="625" y="-1198" font-family="FreeSans" font-size="10.00">MWMechanics::DynamicStat</text>
 <text text-anchor="middle" x="693" y="-1187" font-family="FreeSans" font-size="10.00">::setModified</text>
@@ -596,7 +596,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classMWMechanics_1_1DynamicStat.html#abb00fb02a2face04357f86ec5117d2ec" target="_top" xlink:title="MWMechanics::DynamicStat\l::setCurrent">
+<g id="a_node14"><a xlink:href="classMWMechanics_1_1DynamicStat.html#af114d4cb38a9d185a77154a620528049" target="_top" xlink:title="MWMechanics::DynamicStat\l::setCurrent">
 <polygon fill="white" stroke="black" points="1011,-1087 1011,-1117 1163,-1117 1163,-1087 1011,-1087"/>
 <text text-anchor="start" x="1019" y="-1105" font-family="FreeSans" font-size="10.00">MWMechanics::DynamicStat</text>
 <text text-anchor="middle" x="1087" y="-1094" font-family="FreeSans" font-size="10.00">::setCurrent</text>
@@ -734,7 +734,7 @@
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="classMWWorld_1_1ContainerStore.html#ab7165a7ef4e2053f7c0b712d017a9f5d" target="_top" xlink:title="MWWorld::ContainerStore::end">
+<g id="a_node27"><a xlink:href="classMWWorld_1_1ContainerStore.html#af12bf9cfbe2b86e1d053036f38a2afc7" target="_top" xlink:title="MWWorld::ContainerStore::end">
 <polygon fill="white" stroke="black" points="612.5,-780.5 612.5,-799.5 773.5,-799.5 773.5,-780.5 612.5,-780.5"/>
 <text text-anchor="middle" x="693" y="-787.5" font-family="FreeSans" font-size="10.00">MWWorld::ContainerStore::end</text>
 </a>

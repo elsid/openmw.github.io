@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/filter/parser.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/filter/parser.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,81 +100,79 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="apps_2opencs_2model_2filter_2parser_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CSM_FILTER_PARSER_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CSM_FILTER_PARSER_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;boost/shared_ptr.hpp&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="apps_2opencs_2model_2filter_2node_8hpp.html">node.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="apps_2opencs_2model_2filter_2node_8hpp.html">node.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>CSMWorld</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">class </span>Data;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>CSMFilter</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">struct </span>Token;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html">   17</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMFilter_1_1Parser.html">Parser</a></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#a34730efb6b7e2723befc4362fc46bca6">   19</a></span>&#160;            boost::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#a34730efb6b7e2723befc4362fc46bca6">mFilter</a>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#a423d00eeaa88cb234c9a40a7854aa063">   20</a></span>&#160;            std::string <a class="code" href="classCSMFilter_1_1Parser.html#a423d00eeaa88cb234c9a40a7854aa063">mInput</a>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#ac159e7df4bd76a19ca3f2e70db242fc0">   21</a></span>&#160;            <span class="keywordtype">int</span> <a class="code" href="classCSMFilter_1_1Parser.html#ac159e7df4bd76a19ca3f2e70db242fc0">mIndex</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#a64b7715b87b971954d674eaeaa005b7a">   22</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMFilter_1_1Parser.html#a64b7715b87b971954d674eaeaa005b7a">mError</a>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#acdd049394643a99c7b7ce97f77eac66d">   23</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Data.html">CSMWorld::Data</a>&amp; <a class="code" href="classCSMFilter_1_1Parser.html#acdd049394643a99c7b7ce97f77eac66d">mData</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>CSMWorld</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">class </span>Data;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>CSMFilter</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">struct </span>Token;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html">   15</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMFilter_1_1Parser.html">Parser</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#af1b1081bd48918e9aeceb6fbfbac8b49">   17</a></span>&#160;            std::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#af1b1081bd48918e9aeceb6fbfbac8b49">mFilter</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#a423d00eeaa88cb234c9a40a7854aa063">   18</a></span>&#160;            std::string <a class="code" href="classCSMFilter_1_1Parser.html#a423d00eeaa88cb234c9a40a7854aa063">mInput</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#ac159e7df4bd76a19ca3f2e70db242fc0">   19</a></span>&#160;            <span class="keywordtype">int</span> <a class="code" href="classCSMFilter_1_1Parser.html#ac159e7df4bd76a19ca3f2e70db242fc0">mIndex</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#a64b7715b87b971954d674eaeaa005b7a">   20</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMFilter_1_1Parser.html#a64b7715b87b971954d674eaeaa005b7a">mError</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classCSMFilter_1_1Parser.html#acdd049394643a99c7b7ce97f77eac66d">   21</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Data.html">CSMWorld::Data</a>&amp; <a class="code" href="classCSMFilter_1_1Parser.html#acdd049394643a99c7b7ce97f77eac66d">mData</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <a class="code" href="structCSMFilter_1_1Token.html">Token</a> <a class="code" href="classCSMFilter_1_1Parser.html#a36c645f24b2dc6daf65e1af67acde22f">getStringToken</a>();</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <a class="code" href="structCSMFilter_1_1Token.html">Token</a> <a class="code" href="classCSMFilter_1_1Parser.html#a36c645f24b2dc6daf65e1af67acde22f">getStringToken</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <a class="code" href="structCSMFilter_1_1Token.html">Token</a> <a class="code" href="classCSMFilter_1_1Parser.html#a620153238a85ad7764f3f98b09041db4">getNumberToken</a>();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="structCSMFilter_1_1Token.html">Token</a> <a class="code" href="classCSMFilter_1_1Parser.html#a620153238a85ad7764f3f98b09041db4">getNumberToken</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="structCSMFilter_1_1Token.html">Token</a> <a class="code" href="classCSMFilter_1_1Parser.html#a6045f107e61676e70cb211c1a282ccc1">getNextToken</a>();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="structCSMFilter_1_1Token.html">Token</a> <a class="code" href="classCSMFilter_1_1Parser.html#a6045f107e61676e70cb211c1a282ccc1">getNextToken</a>();</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <a class="code" href="structCSMFilter_1_1Token.html">Token</a> <a class="code" href="classCSMFilter_1_1Parser.html#a06aa26de0347e92c2d1e4dcd8bfe0eb3">checkKeywords</a> (<span class="keyword">const</span> <a class="code" href="structCSMFilter_1_1Token.html">Token</a>&amp; token);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            boost::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#aca86843fb151678df06460c692a024b1">parseImp</a> (<span class="keywordtype">bool</span> allowEmpty = <span class="keyword">false</span>, <span class="keywordtype">bool</span> ignoreOneShot = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="structCSMFilter_1_1Token.html">Token</a> <a class="code" href="classCSMFilter_1_1Parser.html#a06aa26de0347e92c2d1e4dcd8bfe0eb3">checkKeywords</a> (<span class="keyword">const</span> <a class="code" href="structCSMFilter_1_1Token.html">Token</a>&amp; token);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            std::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#a8f35fbfea53607e5bcfcf45de5098bdd">parseImp</a> (<span class="keywordtype">bool</span> allowEmpty = <span class="keyword">false</span>, <span class="keywordtype">bool</span> ignoreOneShot = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            std::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#a674ee8863ef8d435bf4f8684bee31787">parseNAry</a> (<span class="keyword">const</span> <a class="code" href="structCSMFilter_1_1Token.html">Token</a>&amp; keyword);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            boost::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#a325a0cc1d5caa0a4b87f736f7207b3ca">parseNAry</a> (<span class="keyword">const</span> <a class="code" href="structCSMFilter_1_1Token.html">Token</a>&amp; keyword);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            std::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#aedfaa97b20621ee87348ef268c4fe417">parseText</a>();</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            boost::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#a732e0846f472c730b518d39c3ea84139">parseText</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            std::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#a2e371a8c5e35b70ea41939b39e5af53a">parseValue</a>();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            boost::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#a40b739f32dad8b4550eab8a5a397c3e2">parseValue</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMFilter_1_1Parser.html#adcfc73a4197763045251951bb3e8a407">error</a>();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMFilter_1_1Parser.html#adcfc73a4197763045251951bb3e8a407">error</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="classCSMFilter_1_1Parser.html#a5f18e8cbcb0e61034b2c4a4646c51086">Parser</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Data.html">CSMWorld::Data</a>&amp; data);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="classCSMFilter_1_1Parser.html#a5f18e8cbcb0e61034b2c4a4646c51086">Parser</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Data.html">CSMWorld::Data</a>&amp; data);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMFilter_1_1Parser.html#aa0ae3d02d407345103295e9527d611ea">parse</a> (<span class="keyword">const</span> std::string&amp; filter, <span class="keywordtype">bool</span> allowPredefined = <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            boost::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#a0f3c1f5c7be9943407a775e83259b794">getFilter</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    };</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMFilter_1_1Parser.html#aa0ae3d02d407345103295e9527d611ea">parse</a> (<span class="keyword">const</span> std::string&amp; filter, <span class="keywordtype">bool</span> allowPredefined = <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            std::shared_ptr&lt;Node&gt; <a class="code" href="classCSMFilter_1_1Parser.html#ad4d1cc2912b35520b8e4893261e5712f">getFilter</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    };</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSMFilter_1_1Parser_html_a5f18e8cbcb0e61034b2c4a4646c51086"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a5f18e8cbcb0e61034b2c4a4646c51086">CSMFilter::Parser::Parser</a></div><div class="ttdeci">Parser(const CSMWorld::Data &amp;data)</div><div class="ttdef"><b>Definition:</b> parser.cpp:536</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_aedfaa97b20621ee87348ef268c4fe417"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#aedfaa97b20621ee87348ef268c4fe417">CSMFilter::Parser::parseText</a></div><div class="ttdeci">std::shared_ptr&lt; Node &gt; parseText()</div><div class="ttdef"><b>Definition:</b> parser.cpp:342</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_a8f35fbfea53607e5bcfcf45de5098bdd"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a8f35fbfea53607e5bcfcf45de5098bdd">CSMFilter::Parser::parseImp</a></div><div class="ttdeci">std::shared_ptr&lt; Node &gt; parseImp(bool allowEmpty=false, bool ignoreOneShot=false)</div><div class="ttdoc">Will return a null-pointer, if there is nothing more to parse. </div><div class="ttdef"><b>Definition:</b> parser.cpp:238</div></div>
 <div class="ttc" id="classCSMFilter_1_1Parser_html_a620153238a85ad7764f3f98b09041db4"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a620153238a85ad7764f3f98b09041db4">CSMFilter::Parser::getNumberToken</a></div><div class="ttdeci">Token getNumberToken()</div><div class="ttdef"><b>Definition:</b> parser.cpp:140</div></div>
 <div class="ttc" id="classCSMFilter_1_1Parser_html_aa0ae3d02d407345103295e9527d611ea"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#aa0ae3d02d407345103295e9527d611ea">CSMFilter::Parser::parse</a></div><div class="ttdeci">bool parse(const std::string &amp;filter, bool allowPredefined=true)</div><div class="ttdef"><b>Definition:</b> parser.cpp:539</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_a40b739f32dad8b4550eab8a5a397c3e2"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a40b739f32dad8b4550eab8a5a397c3e2">CSMFilter::Parser::parseValue</a></div><div class="ttdeci">boost::shared_ptr&lt; Node &gt; parseValue()</div><div class="ttdef"><b>Definition:</b> parser.cpp:406</div></div>
 <div class="ttc" id="apps_2opencs_2model_2filter_2node_8hpp_html"><div class="ttname"><a href="apps_2opencs_2model_2filter_2node_8hpp.html">node.hpp</a></div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_a423d00eeaa88cb234c9a40a7854aa063"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a423d00eeaa88cb234c9a40a7854aa063">CSMFilter::Parser::mInput</a></div><div class="ttdeci">std::string mInput</div><div class="ttdef"><b>Definition:</b> parser.hpp:20</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_a64b7715b87b971954d674eaeaa005b7a"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a64b7715b87b971954d674eaeaa005b7a">CSMFilter::Parser::mError</a></div><div class="ttdeci">bool mError</div><div class="ttdef"><b>Definition:</b> parser.hpp:22</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_ac159e7df4bd76a19ca3f2e70db242fc0"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#ac159e7df4bd76a19ca3f2e70db242fc0">CSMFilter::Parser::mIndex</a></div><div class="ttdeci">int mIndex</div><div class="ttdef"><b>Definition:</b> parser.hpp:21</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_a732e0846f472c730b518d39c3ea84139"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a732e0846f472c730b518d39c3ea84139">CSMFilter::Parser::parseText</a></div><div class="ttdeci">boost::shared_ptr&lt; Node &gt; parseText()</div><div class="ttdef"><b>Definition:</b> parser.cpp:342</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_a423d00eeaa88cb234c9a40a7854aa063"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a423d00eeaa88cb234c9a40a7854aa063">CSMFilter::Parser::mInput</a></div><div class="ttdeci">std::string mInput</div><div class="ttdef"><b>Definition:</b> parser.hpp:18</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_a64b7715b87b971954d674eaeaa005b7a"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a64b7715b87b971954d674eaeaa005b7a">CSMFilter::Parser::mError</a></div><div class="ttdeci">bool mError</div><div class="ttdef"><b>Definition:</b> parser.hpp:20</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_ac159e7df4bd76a19ca3f2e70db242fc0"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#ac159e7df4bd76a19ca3f2e70db242fc0">CSMFilter::Parser::mIndex</a></div><div class="ttdeci">int mIndex</div><div class="ttdef"><b>Definition:</b> parser.hpp:19</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_a2e371a8c5e35b70ea41939b39e5af53a"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a2e371a8c5e35b70ea41939b39e5af53a">CSMFilter::Parser::parseValue</a></div><div class="ttdeci">std::shared_ptr&lt; Node &gt; parseValue()</div><div class="ttdef"><b>Definition:</b> parser.cpp:406</div></div>
 <div class="ttc" id="classCSMFilter_1_1Parser_html_adcfc73a4197763045251951bb3e8a407"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#adcfc73a4197763045251951bb3e8a407">CSMFilter::Parser::error</a></div><div class="ttdeci">void error()</div><div class="ttdef"><b>Definition:</b> parser.cpp:531</div></div>
-<div class="ttc" id="classCSMWorld_1_1Data_html"><div class="ttname"><a href="classCSMWorld_1_1Data.html">CSMWorld::Data</a></div><div class="ttdef"><b>Definition:</b> data.hpp:77</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_a674ee8863ef8d435bf4f8684bee31787"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a674ee8863ef8d435bf4f8684bee31787">CSMFilter::Parser::parseNAry</a></div><div class="ttdeci">std::shared_ptr&lt; Node &gt; parseNAry(const Token &amp;keyword)</div><div class="ttdef"><b>Definition:</b> parser.cpp:295</div></div>
+<div class="ttc" id="classCSMWorld_1_1Data_html"><div class="ttname"><a href="classCSMWorld_1_1Data.html">CSMWorld::Data</a></div><div class="ttdef"><b>Definition:</b> data.hpp:80</div></div>
 <div class="ttc" id="classCSMFilter_1_1Parser_html_a6045f107e61676e70cb211c1a282ccc1"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a6045f107e61676e70cb211c1a282ccc1">CSMFilter::Parser::getNextToken</a></div><div class="ttdeci">Token getNextToken()</div><div class="ttdef"><b>Definition:</b> parser.cpp:201</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_acdd049394643a99c7b7ce97f77eac66d"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#acdd049394643a99c7b7ce97f77eac66d">CSMFilter::Parser::mData</a></div><div class="ttdeci">const CSMWorld::Data &amp; mData</div><div class="ttdef"><b>Definition:</b> parser.hpp:23</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_a0f3c1f5c7be9943407a775e83259b794"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a0f3c1f5c7be9943407a775e83259b794">CSMFilter::Parser::getFilter</a></div><div class="ttdeci">boost::shared_ptr&lt; Node &gt; getFilter() const </div><div class="ttdoc">Throws an exception if the last call to parse did not return true. </div><div class="ttdef"><b>Definition:</b> parser.cpp:615</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html"><div class="ttname"><a href="classCSMFilter_1_1Parser.html">CSMFilter::Parser</a></div><div class="ttdef"><b>Definition:</b> parser.hpp:17</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_acdd049394643a99c7b7ce97f77eac66d"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#acdd049394643a99c7b7ce97f77eac66d">CSMFilter::Parser::mData</a></div><div class="ttdeci">const CSMWorld::Data &amp; mData</div><div class="ttdef"><b>Definition:</b> parser.hpp:21</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_ad4d1cc2912b35520b8e4893261e5712f"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#ad4d1cc2912b35520b8e4893261e5712f">CSMFilter::Parser::getFilter</a></div><div class="ttdeci">std::shared_ptr&lt; Node &gt; getFilter() const </div><div class="ttdoc">Throws an exception if the last call to parse did not return true. </div><div class="ttdef"><b>Definition:</b> parser.cpp:615</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html"><div class="ttname"><a href="classCSMFilter_1_1Parser.html">CSMFilter::Parser</a></div><div class="ttdef"><b>Definition:</b> parser.hpp:15</div></div>
 <div class="ttc" id="classCSMFilter_1_1Parser_html_a06aa26de0347e92c2d1e4dcd8bfe0eb3"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a06aa26de0347e92c2d1e4dcd8bfe0eb3">CSMFilter::Parser::checkKeywords</a></div><div class="ttdeci">Token checkKeywords(const Token &amp;token)</div><div class="ttdoc">Turn string token into keyword token, if possible. </div><div class="ttdef"><b>Definition:</b> parser.cpp:182</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_aca86843fb151678df06460c692a024b1"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#aca86843fb151678df06460c692a024b1">CSMFilter::Parser::parseImp</a></div><div class="ttdeci">boost::shared_ptr&lt; Node &gt; parseImp(bool allowEmpty=false, bool ignoreOneShot=false)</div><div class="ttdoc">Will return a null-pointer, if there is nothing more to parse. </div><div class="ttdef"><b>Definition:</b> parser.cpp:238</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_a34730efb6b7e2723befc4362fc46bca6"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a34730efb6b7e2723befc4362fc46bca6">CSMFilter::Parser::mFilter</a></div><div class="ttdeci">boost::shared_ptr&lt; Node &gt; mFilter</div><div class="ttdef"><b>Definition:</b> parser.hpp:19</div></div>
+<div class="ttc" id="classCSMFilter_1_1Parser_html_af1b1081bd48918e9aeceb6fbfbac8b49"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#af1b1081bd48918e9aeceb6fbfbac8b49">CSMFilter::Parser::mFilter</a></div><div class="ttdeci">std::shared_ptr&lt; Node &gt; mFilter</div><div class="ttdef"><b>Definition:</b> parser.hpp:17</div></div>
 <div class="ttc" id="structCSMFilter_1_1Token_html"><div class="ttname"><a href="structCSMFilter_1_1Token.html">CSMFilter::Token</a></div><div class="ttdef"><b>Definition:</b> parser.cpp:22</div></div>
 <div class="ttc" id="classCSMFilter_1_1Parser_html_a36c645f24b2dc6daf65e1af67acde22f"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a36c645f24b2dc6daf65e1af67acde22f">CSMFilter::Parser::getStringToken</a></div><div class="ttdeci">Token getStringToken()</div><div class="ttdef"><b>Definition:</b> parser.cpp:96</div></div>
-<div class="ttc" id="classCSMFilter_1_1Parser_html_a325a0cc1d5caa0a4b87f736f7207b3ca"><div class="ttname"><a href="classCSMFilter_1_1Parser.html#a325a0cc1d5caa0a4b87f736f7207b3ca">CSMFilter::Parser::parseNAry</a></div><div class="ttdeci">boost::shared_ptr&lt; Node &gt; parseNAry(const Token &amp;keyword)</div><div class="ttdef"><b>Definition:</b> parser.cpp:295</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

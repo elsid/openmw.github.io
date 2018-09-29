@@ -1,43 +1,42 @@
 <map id="MWWorld::Player" name="MWWorld::Player">
-<area shape="rect" id="node2" href="$structMWWorld_1_1LiveCellRef.html" title="{MWWorld::LiveCellRef\l\&lt; ESM::NPC \&gt;\n||+ LiveCellRef()\l+ LiveCellRef()\l+ load()\l+ save()\l+ checkState()\l}" alt="" coords="749,1141,901,1291"/>
-<area shape="rect" id="node3" href="$structMWWorld_1_1LiveCellRefBase.html" title="Used to create pointers to hold any type of LiveCellRef&lt;&gt; object. " alt="" coords="622,808,807,973"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1CellRef.html" title="Encapsulated variant of ESM::CellRef with change tracking. " alt="" coords="537,399,677,623"/>
-<area shape="rect" id="node5" href="$classbool.html" title="{bool\n||}" alt="" coords="922,176,971,253"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1RefData.html" title="{MWWorld::RefData\n||+ RefData()\l+ RefData()\l+ RefData()\l+ RefData()\l+ ~RefData()\l+ write()\l+ operator=()\l+ getBaseNode()\l+ getBaseNode()\l+ setBaseNode()\land 21 more...\l&#45; copy()\l&#45; cleanup()\l}" alt="" coords="703,384,837,637"/>
-<area shape="rect" id="node13" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ getRecordType()\l}" alt="" coords="5215,801,5359,981"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1CellStore.html" title="Mutable state of a cell. " alt="" coords="3387,1421,3545,1792"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1PathgridGraph.html" title="{MWMechanics::PathgridGraph\n||+ PathgridGraph()\l+ load()\l+ isPointConnected()\l+ aStarSearch()\l&#45; recursiveStrongConnect()\l&#45; buildConnectedPoints()\l}" alt="" coords="4891,815,5100,966"/>
-<area shape="rect" id="node23" href="$structESM_1_1Cell.html" title="{ESM::Cell\n||+ Cell()\l+ postLoad()\l+ load()\l+ loadNameAndData()\l+ loadCell()\l+ save()\l+ isExterior()\l+ getGridX()\l+ getGridY()\l+ hasWater()\l+ restore()\l+ getDescription()\l+ blank()\l+ getCellId()\l+ getRecordType()\l+ getNextRef()\l+ getNextMVRF()\l}" alt="" coords="4750,355,4919,667"/>
-<area shape="rect" id="node7" href="$classint.html" title="{int\n||}" alt="" coords="4999,176,5037,253"/>
-<area shape="rect" id="node15" href="$structESM_1_1AIData.html" title="{ESM::AIData\n||+ blank()\l}" alt="" coords="5236,472,5337,549"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1AttributeValue.html" title="{MWMechanics::AttributeValue\n||+ AttributeValue()\l+ getModified()\l+ getBase()\l+ getModifier()\l+ setBase()\l+ setModifier()\l+ damage()\l+ restore()\l+ getDamage()\l+ writeState()\l+ readState()\l}" alt="" coords="303,399,512,623"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1ESMStore.html" title="{MWWorld::ESMStore\n||+ begin()\l+ end()\l+ find()\l+ ESMStore()\l+ clearDynamic()\l+ movePlayerRecord()\l+ load()\l+ get()\l+ insert()\l+ overrideRecord()\l+ insertStatic()\l+ setUp()\l+ countSavedGameRecords()\l+ write()\l+ readRecord()\l}" alt="" coords="5563,1075,5775,1357"/>
-<area shape="rect" id="node46" href="$classMWWorld_1_1TimeStamp.html" title="In&#45;game time stamp. " alt="" coords="5583,435,5741,586"/>
-<area shape="rect" id="node8" href="$structESM_1_1Position.html" title="{ESM::Position\n||+ asVec3()\l}" alt="" coords="613,176,720,253"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1SkillValue.html" title="{MWMechanics::SkillValue\n||+ SkillValue()\l+ getProgress()\l+ setProgress()\l+ writeState()\l+ readState()\l}" alt="" coords="193,823,372,959"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1Class.html" title="Base class for referenceable esm records. " alt="" coords="5767,347,5953,674"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="5989,176,6075,253"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="6174,6,6311,98"/>
-<area shape="rect" id="node14" href="$structESM_1_1AIPackageList.html" title="{ESM::AIPackageList\n||+ add()\l+ save()\l}" alt="" coords="5362,465,5507,557"/>
-<area shape="rect" id="node19" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="978,1155,1139,1277"/>
-<area shape="rect" id="node20" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Ingredient \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1164,1155,1316,1277"/>
-<area shape="rect" id="node21" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::CreatureLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1341,1155,1528,1277"/>
-<area shape="rect" id="node25" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Weapon \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1553,1155,1703,1277"/>
-<area shape="rect" id="node26" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Container \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1727,1155,1877,1277"/>
-<area shape="rect" id="node27" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Lockpick \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1902,1155,2052,1277"/>
-<area shape="rect" id="node28" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Static \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2077,1155,2227,1277"/>
-<area shape="rect" id="node29" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Creature \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2251,1155,2401,1277"/>
-<area shape="rect" id="node30" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Clothing \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2426,1155,2576,1277"/>
-<area shape="rect" id="node31" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Book \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2601,1155,2751,1277"/>
-<area shape="rect" id="node32" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Potion \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2775,1155,2925,1277"/>
-<area shape="rect" id="node33" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::NPC \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2950,1155,3100,1277"/>
-<area shape="rect" id="node34" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Light \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3125,1155,3275,1277"/>
-<area shape="rect" id="node35" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Apparatus \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3300,1155,3453,1277"/>
-<area shape="rect" id="node37" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Repair \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3479,1155,3629,1277"/>
-<area shape="rect" id="node38" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Probe \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3654,1155,3804,1277"/>
-<area shape="rect" id="node39" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Door \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3829,1155,3979,1277"/>
-<area shape="rect" id="node40" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Armor \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4003,1155,4153,1277"/>
-<area shape="rect" id="node42" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Activator \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4417,1155,4567,1277"/>
-<area shape="rect" id="node44" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::BodyPart \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4591,1155,4741,1277"/>
-<area shape="rect" id="node45" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Miscellaneous \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4766,1155,4943,1277"/>
+<area shape="rect" id="node2" href="$structMWWorld_1_1LiveCellRef.html" title="{MWWorld::LiveCellRef\l\&lt; ESM::NPC \&gt;\n||+ LiveCellRef()\l+ LiveCellRef()\l+ load()\l+ save()\l+ checkState()\l}" alt="" coords="5141,1210,5294,1361"/>
+<area shape="rect" id="node3" href="$structMWWorld_1_1LiveCellRefBase.html" title="Used to create pointers to hold any type of LiveCellRef&lt;&gt; object. " alt="" coords="4800,815,4984,980"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1CellRef.html" title="Encapsulated variant of ESM::CellRef with change tracking. " alt="" coords="4624,399,4764,623"/>
+<area shape="rect" id="node5" href="$classbool.html" title="{bool\n||}" alt="" coords="4770,176,4819,253"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1RefData.html" title="{MWWorld::RefData\n||+ RefData()\l+ RefData()\l+ RefData()\l+ RefData()\l+ ~RefData()\l+ write()\l+ operator=()\l+ getBaseNode()\l+ getBaseNode()\l+ setBaseNode()\land 21 more...\l&#45; copy()\l&#45; cleanup()\l}" alt="" coords="5159,384,5294,637"/>
+<area shape="rect" id="node13" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ blankNpdt()\l+ getRecordType()\l}" alt="" coords="5114,800,5258,995"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1CellStore.html" title="Mutable state of a cell. " alt="" coords="2862,1499,3020,1869"/>
+<area shape="rect" id="node31" href="$structESM_1_1Cell.html" title="{ESM::Cell\n||+ Cell()\l+ postLoad()\l+ load()\l+ loadNameAndData()\l+ loadCell()\l+ save()\l+ isExterior()\l+ getGridX()\l+ getGridY()\l+ hasWater()\l+ restore()\l+ getDescription()\l+ blank()\l+ getCellId()\l+ getRecordType()\l+ getNextRef()\l+ getNextMVRF()\l}" alt="" coords="4316,355,4484,667"/>
+<area shape="rect" id="node7" href="$classint.html" title="{int\n||}" alt="" coords="5496,176,5534,253"/>
+<area shape="rect" id="node15" href="$structESM_1_1AIData.html" title="{ESM::AIData\n||+ blank()\l}" alt="" coords="5428,472,5530,549"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1AttributeValue.html" title="{MWMechanics::AttributeValue\n||+ AttributeValue()\l+ getModified()\l+ getBase()\l+ getModifier()\l+ setBase()\l+ setModifier()\l+ damage()\l+ restore()\l+ getDamage()\l+ writeState()\l+ readState()\l}" alt="" coords="5892,399,6102,623"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1ESMStore.html" title="{MWWorld::ESMStore\n||+ begin()\l+ end()\l+ find()\l+ ESMStore()\l+ clearDynamic()\l+ movePlayerRecord()\l+ load()\l+ get()\l+ insert()\l+ overrideRecord()\l+ insertStatic()\l+ setUp()\l+ countSavedGameRecords()\l+ write()\l+ readRecord()\l&#45; validate()\l}" alt="" coords="5318,1137,5530,1434"/>
+<area shape="rect" id="node44" href="$classMWWorld_1_1TimeStamp.html" title="In&#45;game time stamp. " alt="" coords="5698,435,5856,586"/>
+<area shape="rect" id="node8" href="$structESM_1_1Position.html" title="{ESM::Position\n||+ asVec3()\l}" alt="" coords="5773,176,5880,253"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1SkillValue.html" title="{MWMechanics::SkillValue\n||+ SkillValue()\l+ getProgress()\l+ setProgress()\l+ writeState()\l+ readState()\l}" alt="" coords="5940,829,6119,965"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1Class.html" title="Base class for referenceable esm records. " alt="" coords="3802,347,3988,674"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="1458,176,1544,253"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="1433,6,1570,98"/>
+<area shape="rect" id="node14" href="$structESM_1_1AIPackageList.html" title="{ESM::AIPackageList\n||+ add()\l+ save()\l}" alt="" coords="4938,465,5083,557"/>
+<area shape="rect" id="node19" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2952,1225,3112,1346"/>
+<area shape="rect" id="node20" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Ingredient \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3188,1225,3340,1346"/>
+<area shape="rect" id="node21" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::CreatureLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3365,1225,3552,1346"/>
+<area shape="rect" id="node23" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Weapon \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2777,1225,2927,1346"/>
+<area shape="rect" id="node24" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Container \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3577,1225,3727,1346"/>
+<area shape="rect" id="node25" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Lockpick \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3804,1225,3954,1346"/>
+<area shape="rect" id="node26" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Static \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4164,1225,4314,1346"/>
+<area shape="rect" id="node27" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Creature \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4338,1225,4488,1346"/>
+<area shape="rect" id="node28" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Clothing \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4513,1225,4663,1346"/>
+<area shape="rect" id="node29" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Book \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4688,1225,4838,1346"/>
+<area shape="rect" id="node30" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Potion \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="4914,1225,5064,1346"/>
+<area shape="rect" id="node32" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::NPC \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="426,1225,576,1346"/>
+<area shape="rect" id="node33" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Light \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="601,1225,751,1346"/>
+<area shape="rect" id="node34" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Apparatus \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="776,1225,930,1346"/>
+<area shape="rect" id="node36" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Repair \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="956,1225,1106,1346"/>
+<area shape="rect" id="node37" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Probe \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1130,1225,1280,1346"/>
+<area shape="rect" id="node38" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Door \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1305,1225,1455,1346"/>
+<area shape="rect" id="node39" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Armor \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1480,1225,1630,1346"/>
+<area shape="rect" id="node40" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Activator \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1654,1225,1804,1346"/>
+<area shape="rect" id="node42" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::BodyPart \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1829,1225,1979,1346"/>
+<area shape="rect" id="node43" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Miscellaneous \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2004,1225,2180,1346"/>
 </map>

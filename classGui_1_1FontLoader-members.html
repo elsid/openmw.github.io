@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -101,20 +101,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>This is the complete list of members for <a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a3fb2e78f2545b892eca50e32a81bfdf1">FontLoader</a>(ToUTF8::FromType encoding, const VFS::Manager *vfs)</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#acfc0fb0a044bbdc0af8a52a2dee6d01a">FontLoader</a>(ToUTF8::FromType encoding, const VFS::Manager *vfs, const std::string &amp;userDataPath)</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a86b2a894ab18277fd0480547e807b9db">FontLoader</a>(const FontLoader &amp;)</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a3b8a392c108ed4bec205901ab139c4c3">loadAllFonts</a>(bool exportToFile)</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a7f001909dcc1207be6de3079ddea4915">loadBitmapFonts</a>(bool exportToFile)</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#ac5ac334a33969ada05b42f7adfab3086">loadFont</a>(const std::string &amp;fileName, bool exportToFile)</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#afb812583f43cc0df9213ebc4719ca19c">mEncoding</a></td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#af7df66917b4e7c92ef9aa7034824dad3">mFonts</a></td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a7171eaee747772f662c20586a5a15373">mTextures</a></td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#af9943c4639f5757fd83d9308654cd464">loadTrueTypeFonts</a>()</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#afb812583f43cc0df9213ebc4719ca19c">mEncoding</a></td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#af7df66917b4e7c92ef9aa7034824dad3">mFonts</a></td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a7171eaee747772f662c20586a5a15373">mTextures</a></td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a776d25fdc675a8e5d2d84f9fd35c5165">mUserDataPath</a></td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#aeb9d562e89a61484de85412f4b6ac3d2">mVFS</a></td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a9fe709e0cc5b6a351c9b733e2af0f6eb">operator=</a>(const FontLoader &amp;)</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classGui_1_1FontLoader.html#a82a34ed347245e15c5b40e96a98e4ec7">~FontLoader</a>()</td><td class="entry"><a class="el" href="classGui_1_1FontLoader.html">Gui::FontLoader</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

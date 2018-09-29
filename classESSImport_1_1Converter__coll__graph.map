@@ -1,32 +1,29 @@
 <map id="ESSImport::Converter" name="ESSImport::Converter">
-<area shape="rect" id="node2" href="$structESSImport_1_1Context.html" title="{ESSImport::Context\n||+ Context()\l}" alt="" coords="3315,1373,3463,1451"/>
-<area shape="rect" id="node3" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ getRecordType()\l}" alt="" coords="3243,958,3387,1138"/>
-<area shape="rect" id="node4" href="$structESM_1_1AIPackageList.html" title="{ESM::AIPackageList\n||+ add()\l+ save()\l}" alt="" coords="437,681,581,773"/>
-<area shape="rect" id="node33" href="$structESSImport_1_1NPCC.html" title="{ESSImport::NPCC\n||+ load()\l}" alt="" coords="450,1009,584,1087"/>
-<area shape="rect" id="node39" href="$structESM_1_1Creature.html" title="{ESM::Creature\n||+ getTransport()\l+ load()\l+ save()\l+ blank()\l+ getRecordType()\l}" alt="" coords="3725,980,3864,1116"/>
-<area shape="rect" id="node50" href="$structESSImport_1_1CREC.html" title="Creature changes. " alt="" coords="106,1009,237,1087"/>
-<area shape="rect" id="node6" href="$structESM_1_1AIData.html" title="{ESM::AIData\n||+ blank()\l}" alt="" coords="3387,688,3488,765"/>
-<area shape="rect" id="node9" href="$structESM_1_1NPC_1_1NPDTstruct12.html" title="{ESM::NPC::NPDTstruct12\n||}" alt="" coords="3512,688,3691,765"/>
-<area shape="rect" id="node14" href="$structESM_1_1NPC_1_1NPDTstruct52.html" title="{ESM::NPC::NPDTstruct52\n|+ mEndurance\l+ mSkills\l|}" alt="" coords="3011,681,3189,773"/>
-<area shape="rect" id="node31" href="$structESM_1_1CreatureStats.html" title="{ESM::CreatureStats\n|+ mMurdered\l+ mAlarmed\l+ mKnockdown\l+ mBlock\l|+ blank()\l+ load()\l+ save()\l}" alt="" coords="1951,651,2099,802"/>
-<area shape="rect" id="node8" href="$classint.html" title="{int\n||}" alt="" coords="1537,149,1575,227"/>
-<area shape="rect" id="node22" href="$structESM_1_1Player.html" title="{ESM::Player\n||+ load()\l+ save()\l}" alt="" coords="2217,1210,2313,1302"/>
-<area shape="rect" id="node24" href="$structESM_1_1StatState.html" title="{ESM::StatState\&lt; int \&gt;\n||+ StatState()\l+ load()\l+ save()\l}" alt="" coords="2002,333,2168,440"/>
-<area shape="rect" id="node26" href="$structESM_1_1CellId_1_1CellIndex.html" title="{ESM::CellId::CellIndex\n||}" alt="" coords="1124,348,1281,425"/>
-<area shape="rect" id="node29" href="$structESM_1_1ObjectState.html" title="&lt; " alt="" coords="1695,659,1829,795"/>
-<area shape="rect" id="node30" href="$structESM_1_1InventoryState.html" title="State for inventories and containers. " alt="" coords="923,485,1075,606"/>
-<area shape="rect" id="node41" href="$structESSImport_1_1CNTC.html" title="Changed container contents. " alt="" coords="5,507,136,584"/>
-<area shape="rect" id="node44" href="$structESM_1_1GlobalMap_1_1Bounds.html" title="{ESM::GlobalMap::Bounds\n||}" alt="" coords="241,507,423,584"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="4414,149,4500,227"/>
-<area shape="rect" id="node25" href="$structESM_1_1CellId.html" title="{ESM::CellId\n||+ load()\l+ save()\l}" alt="" coords="1303,681,1395,773"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="4389,6,4525,98"/>
-<area shape="rect" id="node13" href="$classbool.html" title="{bool\n||}" alt="" coords="1321,348,1369,425"/>
-<area shape="rect" id="node35" href="$structESM_1_1ControlsState.html" title="{ESM::ControlsState\n||+ ControlsState()\l+ load()\l+ save()\l}" alt="" coords="696,827,843,933"/>
-<area shape="rect" id="node43" href="$structESM_1_1GlobalMap.html" title="&lt; " alt="" coords="1071,1002,1196,1094"/>
-<area shape="rect" id="node16" href="$structESM_1_1Transport.html" title="List of travel service destination. Shared by CREA and NPC_ records. " alt="" coords="3765,681,3881,773"/>
-<area shape="rect" id="node18" href="$structESM_1_1SpellList.html" title="{ESM::SpellList\n||+ exists()\l+ add()\l+ save()\l}" alt="" coords="4223,673,4333,780"/>
-<area shape="rect" id="node36" href="$structESM_1_1DialogueState.html" title="{ESM::DialogueState\n||+ load()\l+ save()\l}" alt="" coords="4808,681,4956,773"/>
-<area shape="rect" id="node20" href="$structESM_1_1InventoryList.html" title="InventoryList, NPCO subrecord. " alt="" coords="3907,681,4045,773"/>
-<area shape="rect" id="node27" href="$structESM_1_1Position.html" title="{ESM::Position\n||+ asVec3()\l}" alt="" coords="2333,348,2440,425"/>
-<area shape="rect" id="node28" href="$structESM_1_1NpcState.html" title="{ESM::NpcState\n||+ blank()\l+ load()\l+ save()\l}" alt="" coords="1506,995,1624,1101"/>
+<area shape="rect" id="node2" href="$structESSImport_1_1Context.html" title="{ESSImport::Context\n||+ Context()\l+ generateActorId()\l}" alt="" coords="1647,1342,1797,1434"/>
+<area shape="rect" id="node4" href="$structESSImport_1_1SPLM_1_1ActiveSpell.html" title="{ESSImport::SPLM::ActiveSpell\n||}" alt="" coords="356,971,565,1048"/>
+<area shape="rect" id="node6" href="$structESSImport_1_1SPLM_1_1SPDT.html" title="{ESSImport::SPLM::SPDT\n||}" alt="" coords="562,651,736,728"/>
+<area shape="rect" id="node7" href="$classint.html" title="{int\n||}" alt="" coords="1334,319,1372,396"/>
+<area shape="rect" id="node11" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ blankNpdt()\l+ getRecordType()\l}" alt="" coords="2177,912,2321,1107"/>
+<area shape="rect" id="node14" href="$structESM_1_1AIData.html" title="{ESM::AIData\n||+ blank()\l}" alt="" coords="2263,651,2364,728"/>
+<area shape="rect" id="node17" href="$structESM_1_1NPC_1_1NPDTstruct52.html" title="{ESM::NPC::NPDTstruct52\n|+ mWillpower\l+ mEndurance\l+ mLuck\l+ mSkills\l+ mReputation\l|}" alt="" coords="1935,621,2113,757"/>
+<area shape="rect" id="node24" href="$structESM_1_1Player.html" title="{ESM::Player\n||+ load()\l+ save()\l}" alt="" coords="4393,963,4489,1055"/>
+<area shape="rect" id="node26" href="$structESM_1_1StatState.html" title="{ESM::StatState\&lt; int \&gt;\n||+ StatState()\l+ load()\l+ save()\l}" alt="" coords="4142,636,4308,743"/>
+<area shape="rect" id="node38" href="$structESM_1_1Creature.html" title="{ESM::Creature\n||+ getTransport()\l+ load()\l+ save()\l+ blank()\l+ getRecordType()\l}" alt="" coords="2995,941,3133,1077"/>
+<area shape="rect" id="node40" href="$structESSImport_1_1CNTC.html" title="Changed container contents. " alt="" coords="1138,796,1269,873"/>
+<area shape="rect" id="node43" href="$structESM_1_1GlobalMap_1_1Bounds.html" title="{ESM::GlobalMap::Bounds\n||}" alt="" coords="1193,651,1375,728"/>
+<area shape="rect" id="node50" href="$structESSImport_1_1CREC.html" title="Creature changes. " alt="" coords="750,971,881,1048"/>
+<area shape="rect" id="node42" href="$structESM_1_1GlobalMap.html" title="&lt; " alt="" coords="1591,963,1716,1055"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="3494,149,3580,227"/>
+<area shape="rect" id="node28" href="$structESM_1_1CellId.html" title="{ESM::CellId\n||+ load()\l+ save()\l}" alt="" coords="4694,643,4785,735"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="3469,6,3605,98"/>
+<area shape="rect" id="node12" href="$structESM_1_1AIPackageList.html" title="{ESM::AIPackageList\n||+ add()\l+ save()\l}" alt="" coords="761,643,905,735"/>
+<area shape="rect" id="node32" href="$structESSImport_1_1NPCC.html" title="{ESSImport::NPCC\n||+ load()\l}" alt="" coords="591,971,725,1048"/>
+<area shape="rect" id="node16" href="$classbool.html" title="{bool\n||}" alt="" coords="3771,319,3820,396"/>
+<area shape="rect" id="node34" href="$structESM_1_1ControlsState.html" title="{ESM::ControlsState\n||+ ControlsState()\l+ load()\l+ save()\l}" alt="" coords="3708,781,3855,888"/>
+<area shape="rect" id="node19" href="$structESM_1_1Transport.html" title="List of travel service destination. Shared by CREA and NPC_ records. " alt="" coords="2968,643,3084,735"/>
+<area shape="rect" id="node21" href="$structESM_1_1SpellList.html" title="{ESM::SpellList\n||+ exists()\l+ add()\l+ save()\l}" alt="" coords="3435,636,3545,743"/>
+<area shape="rect" id="node35" href="$structESM_1_1DialogueState.html" title="{ESM::DialogueState\n||+ load()\l+ save()\l}" alt="" coords="5187,643,5335,735"/>
+<area shape="rect" id="node23" href="$structESM_1_1InventoryList.html" title="InventoryList, NPCO subrecord. " alt="" coords="2680,643,2819,735"/>
+<area shape="rect" id="node29" href="$structESM_1_1Position.html" title="{ESM::Position\n||+ asVec3()\l}" alt="" coords="4810,651,4917,728"/>
+<area shape="rect" id="node30" href="$structESM_1_1NpcState.html" title="{ESM::NpcState\n||+ blank()\l+ load()\l+ save()\l}" alt="" coords="4333,636,4451,743"/>
 </map>

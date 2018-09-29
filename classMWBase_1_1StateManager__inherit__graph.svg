@@ -24,15 +24,15 @@
 <text text-anchor="start" x="18.5" y="-376.5" font-family="FreeSans" font-size="10.00">+ getState()</text>
 <text text-anchor="start" x="18.5" y="-365.5" font-family="FreeSans" font-size="10.00">+ newGame()</text>
 <text text-anchor="start" x="18.5" y="-354.5" font-family="FreeSans" font-size="10.00">+ endGame()</text>
-<text text-anchor="start" x="18.5" y="-343.5" font-family="FreeSans" font-size="10.00">+ deleteGame()</text>
-<text text-anchor="start" x="18.5" y="-332.5" font-family="FreeSans" font-size="10.00">+ saveGame()</text>
-<text text-anchor="start" x="18.5" y="-321.5" font-family="FreeSans" font-size="10.00">and 8 more...</text>
+<text text-anchor="start" x="18.5" y="-343.5" font-family="FreeSans" font-size="10.00">+ resumeGame()</text>
+<text text-anchor="start" x="18.5" y="-332.5" font-family="FreeSans" font-size="10.00">+ deleteGame()</text>
+<text text-anchor="start" x="18.5" y="-321.5" font-family="FreeSans" font-size="10.00">and 9 more...</text>
 <text text-anchor="start" x="18.5" y="-310.5" font-family="FreeSans" font-size="10.00">&#45; StateManager()</text>
 <text text-anchor="start" x="18.5" y="-299.5" font-family="FreeSans" font-size="10.00">&#45; operator=()</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWState_1_1StateManager.html" target="_top" xlink:title="{MWState::StateManager\n|&#45; mQuitRequest\l&#45; mAskLoadRecent\l&#45; mState\l&#45; mCharacterManager\l&#45; mTimePlayed\l|+ StateManager()\l+ requestQuit()\l+ hasQuitRequest()\l+ askLoadRecent()\l+ getState()\l+ newGame()\l+ endGame()\l+ deleteGame()\l+ saveGame()\l+ quickSave()\land 7 more...\l&#45; cleanup()\l&#45; verifyProfile()\l&#45; writeScreenshot()\l&#45; buildContentFileIndexMap()\l}">
+<g id="a_node2"><a xlink:href="classMWState_1_1StateManager.html" target="_top" xlink:title="{MWState::StateManager\n|&#45; mQuitRequest\l&#45; mAskLoadRecent\l&#45; mState\l&#45; mCharacterManager\l&#45; mTimePlayed\l|+ StateManager()\l+ requestQuit()\l+ hasQuitRequest()\l+ askLoadRecent()\l+ getState()\l+ newGame()\l+ endGame()\l+ resumeGame()\l+ deleteGame()\l+ saveGame()\land 8 more...\l&#45; cleanup()\l&#45; verifyProfile()\l&#45; writeScreenshot()\l&#45; buildContentFileIndexMap()\l}">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-255.5 152,-255.5 152,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="76" y="-243.5" font-family="FreeSans" font-size="10.00">MWState::StateManager</text>
 <polyline fill="none" stroke="black" points="0,-236.5 152,-236.5 "/>
@@ -49,10 +49,10 @@
 <text text-anchor="start" x="8" y="-117.5" font-family="FreeSans" font-size="10.00">+ getState()</text>
 <text text-anchor="start" x="8" y="-106.5" font-family="FreeSans" font-size="10.00">+ newGame()</text>
 <text text-anchor="start" x="8" y="-95.5" font-family="FreeSans" font-size="10.00">+ endGame()</text>
-<text text-anchor="start" x="8" y="-84.5" font-family="FreeSans" font-size="10.00">+ deleteGame()</text>
-<text text-anchor="start" x="8" y="-73.5" font-family="FreeSans" font-size="10.00">+ saveGame()</text>
-<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00">+ quickSave()</text>
-<text text-anchor="start" x="8" y="-51.5" font-family="FreeSans" font-size="10.00">and 7 more...</text>
+<text text-anchor="start" x="8" y="-84.5" font-family="FreeSans" font-size="10.00">+ resumeGame()</text>
+<text text-anchor="start" x="8" y="-73.5" font-family="FreeSans" font-size="10.00">+ deleteGame()</text>
+<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00">+ saveGame()</text>
+<text text-anchor="start" x="8" y="-51.5" font-family="FreeSans" font-size="10.00">and 8 more...</text>
 <text text-anchor="start" x="8" y="-40.5" font-family="FreeSans" font-size="10.00">&#45; cleanup()</text>
 <text text-anchor="start" x="8" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; verifyProfile()</text>
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; writeScreenshot()</text>

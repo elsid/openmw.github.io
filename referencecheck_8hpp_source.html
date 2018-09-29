@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/referencecheck.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/referencecheck.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -118,33 +118,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ReferenceCheckStage.html#a9499cc55ec59c3678246d02ba294ee52">   21</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1RefCollection.html">CSMWorld::RefCollection</a>&amp; <a class="code" href="classCSMTools_1_1ReferenceCheckStage.html#a9499cc55ec59c3678246d02ba294ee52">mReferences</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ReferenceCheckStage.html#a7dd5a781ce934d8a28e0e7984ea2c939">   22</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a>&amp; <a class="code" href="classCSMTools_1_1ReferenceCheckStage.html#a7dd5a781ce934d8a28e0e7984ea2c939">mReferencables</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ReferenceCheckStage.html#afdd5fa5e869ed635615758628c86faeb">   22</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a>&amp; <a class="code" href="classCSMTools_1_1ReferenceCheckStage.html#afdd5fa5e869ed635615758628c86faeb">mObjects</a>;</div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ReferenceCheckStage.html#a75f0bdc6678c7cb71fc469324464822d">   23</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1RefIdData.html">CSMWorld::RefIdData</a>&amp; <a class="code" href="classCSMTools_1_1ReferenceCheckStage.html#a75f0bdc6678c7cb71fc469324464822d">mDataSet</a>;</div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ReferenceCheckStage.html#a949fb84ce46dadd6a1c3d8f8b50482d7">   24</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;CSMWorld::Cell&gt;</a>&amp; <a class="code" href="classCSMTools_1_1ReferenceCheckStage.html#a949fb84ce46dadd6a1c3d8f8b50482d7">mCells</a>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ReferenceCheckStage.html#a8e72c8f289f41e25335ca13e111a94cb">   25</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Faction&gt;</a>&amp; <a class="code" href="classCSMTools_1_1ReferenceCheckStage.html#a8e72c8f289f41e25335ca13e111a94cb">mFactions</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // CSM_TOOLS_REFERENCECHECK_H</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ReferenceCheckStage.html#acabbba426fba3c420c334409abf48361">   26</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMTools_1_1ReferenceCheckStage.html#acabbba426fba3c420c334409abf48361">mIgnoreBaseRecords</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    };</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif // CSM_TOOLS_REFERENCECHECK_H</span></div>
 <div class="ttc" id="classCSMWorld_1_1IdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt; CSMWorld::Cell &gt;</a></div></div>
 <div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html">CSMTools::ReferenceCheckStage</a></div><div class="ttdef"><b>Definition:</b> referencecheck.hpp:9</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdData_html"><div class="ttname"><a href="classCSMWorld_1_1RefIdData.html">CSMWorld::RefIdData</a></div><div class="ttdef"><b>Definition:</b> refiddata.hpp:219</div></div>
 <div class="ttc" id="classCSMDoc_1_1Messages_html"><div class="ttname"><a href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:38</div></div>
-<div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_a7dd5a781ce934d8a28e0e7984ea2c939"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#a7dd5a781ce934d8a28e0e7984ea2c939">CSMTools::ReferenceCheckStage::mReferencables</a></div><div class="ttdeci">const CSMWorld::RefIdCollection &amp; mReferencables</div><div class="ttdef"><b>Definition:</b> referencecheck.hpp:22</div></div>
+<div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_acabbba426fba3c420c334409abf48361"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#acabbba426fba3c420c334409abf48361">CSMTools::ReferenceCheckStage::mIgnoreBaseRecords</a></div><div class="ttdeci">bool mIgnoreBaseRecords</div><div class="ttdef"><b>Definition:</b> referencecheck.hpp:26</div></div>
 <div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_a75f0bdc6678c7cb71fc469324464822d"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#a75f0bdc6678c7cb71fc469324464822d">CSMTools::ReferenceCheckStage::mDataSet</a></div><div class="ttdeci">const CSMWorld::RefIdData &amp; mDataSet</div><div class="ttdef"><b>Definition:</b> referencecheck.hpp:23</div></div>
 <div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_a9499cc55ec59c3678246d02ba294ee52"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#a9499cc55ec59c3678246d02ba294ee52">CSMTools::ReferenceCheckStage::mReferences</a></div><div class="ttdeci">const CSMWorld::RefCollection &amp; mReferences</div><div class="ttdef"><b>Definition:</b> referencecheck.hpp:21</div></div>
-<div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_ae656a80515e48545d75c3359c09b6084"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#ae656a80515e48545d75c3359c09b6084">CSMTools::ReferenceCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this stage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> referencecheck.cpp:19</div></div>
+<div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_ae656a80515e48545d75c3359c09b6084"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#ae656a80515e48545d75c3359c09b6084">CSMTools::ReferenceCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this stage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> referencecheck.cpp:20</div></div>
 <div class="ttc" id="classCSMDoc_1_1Stage_html"><div class="ttname"><a href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div><div class="ttdef"><b>Definition:</b> stage.hpp:15</div></div>
+<div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_afdd5fa5e869ed635615758628c86faeb"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#afdd5fa5e869ed635615758628c86faeb">CSMTools::ReferenceCheckStage::mObjects</a></div><div class="ttdeci">const CSMWorld::RefIdCollection &amp; mObjects</div><div class="ttdef"><b>Definition:</b> referencecheck.hpp:22</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a></div><div class="ttdef"><b>Definition:</b> refidcollection.hpp:40</div></div>
 <div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_a949fb84ce46dadd6a1c3d8f8b50482d7"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#a949fb84ce46dadd6a1c3d8f8b50482d7">CSMTools::ReferenceCheckStage::mCells</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; CSMWorld::Cell &gt; &amp; mCells</div><div class="ttdef"><b>Definition:</b> referencecheck.hpp:24</div></div>
 <div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_a8e72c8f289f41e25335ca13e111a94cb"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#a8e72c8f289f41e25335ca13e111a94cb">CSMTools::ReferenceCheckStage::mFactions</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::Faction &gt; &amp; mFactions</div><div class="ttdef"><b>Definition:</b> referencecheck.hpp:25</div></div>
 <div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_ae8051e7df01272f6313f9889d859ddc1"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#ae8051e7df01272f6313f9889d859ddc1">CSMTools::ReferenceCheckStage::ReferenceCheckStage</a></div><div class="ttdeci">ReferenceCheckStage(const CSMWorld::RefCollection &amp;references, const CSMWorld::RefIdCollection &amp;referencables, const CSMWorld::IdCollection&lt; CSMWorld::Cell &gt; &amp;cells, const CSMWorld::IdCollection&lt; ESM::Faction &gt; &amp;factions)</div><div class="ttdef"><b>Definition:</b> referencecheck.cpp:5</div></div>
-<div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_a5f79094328f6f88d3a78478e6934a4e8"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#a5f79094328f6f88d3a78478e6934a4e8">CSMTools::ReferenceCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> referencecheck.cpp:103</div></div>
+<div class="ttc" id="classCSMTools_1_1ReferenceCheckStage_html_a5f79094328f6f88d3a78478e6934a4e8"><div class="ttname"><a href="classCSMTools_1_1ReferenceCheckStage.html#a5f79094328f6f88d3a78478e6934a4e8">CSMTools::ReferenceCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> referencecheck.cpp:86</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefCollection_html"><div class="ttname"><a href="classCSMWorld_1_1RefCollection.html">CSMWorld::RefCollection</a></div><div class="ttdoc">References in cells. </div><div class="ttdef"><b>Definition:</b> refcollection.hpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

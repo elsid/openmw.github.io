@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/resource/imagemanager.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/resource/imagemanager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -127,32 +127,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        osg::Image* <a class="code" href="classResource_1_1ImageManager.html#aaa19e69888457f8ea749ac5a6ce49f66">getWarningImage</a>();</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classResource_1_1ImageManager.html#ad0d92d4433e0da6429736a8a76b2f1eb">   36</a></span>&#160;        osg::ref_ptr&lt;osg::Image&gt; <a class="code" href="classResource_1_1ImageManager.html#ad0d92d4433e0da6429736a8a76b2f1eb">mWarningImage</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classResource_1_1ImageManager.html#a71be9f1a784906b9203eba73cd3cb7dc">   37</a></span>&#160;        osg::ref_ptr&lt;osgDB::Options&gt; <a class="code" href="classResource_1_1ImageManager.html#a71be9f1a784906b9203eba73cd3cb7dc">mOptions</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classResource_1_1ImageManager.html#a899884c3edca66e68d4f0bb95be7cef4">ImageManager</a>(<span class="keyword">const</span> <a class="code" href="classResource_1_1ImageManager.html">ImageManager</a>&amp;);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ImageManager.html#ad045910947646b85f85aa252899a1d48">operator = </a>(<span class="keyword">const</span> <a class="code" href="classResource_1_1ImageManager.html">ImageManager</a>&amp;);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    };</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ImageManager.html#a1775bdab5e58481564894598651c9870">reportStats</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> frameNumber, osg::Stats* stats) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classResource_1_1ImageManager.html#ad0d92d4433e0da6429736a8a76b2f1eb">   38</a></span>&#160;        osg::ref_ptr&lt;osg::Image&gt; <a class="code" href="classResource_1_1ImageManager.html#ad0d92d4433e0da6429736a8a76b2f1eb">mWarningImage</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classResource_1_1ImageManager.html#a71be9f1a784906b9203eba73cd3cb7dc">   39</a></span>&#160;        osg::ref_ptr&lt;osgDB::Options&gt; <a class="code" href="classResource_1_1ImageManager.html#a71be9f1a784906b9203eba73cd3cb7dc">mOptions</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classResource_1_1ImageManager.html#a899884c3edca66e68d4f0bb95be7cef4">ImageManager</a>(<span class="keyword">const</span> <a class="code" href="classResource_1_1ImageManager.html">ImageManager</a>&amp;);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1ImageManager.html#ad045910947646b85f85aa252899a1d48">operator = </a>(<span class="keyword">const</span> <a class="code" href="classResource_1_1ImageManager.html">ImageManager</a>&amp;);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    };</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classResource_1_1ImageManager_html_a71be9f1a784906b9203eba73cd3cb7dc"><div class="ttname"><a href="classResource_1_1ImageManager.html#a71be9f1a784906b9203eba73cd3cb7dc">Resource::ImageManager::mOptions</a></div><div class="ttdeci">osg::ref_ptr&lt; osgDB::Options &gt; mOptions</div><div class="ttdef"><b>Definition:</b> imagemanager.hpp:37</div></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classResource_1_1ImageManager_html_a71be9f1a784906b9203eba73cd3cb7dc"><div class="ttname"><a href="classResource_1_1ImageManager.html#a71be9f1a784906b9203eba73cd3cb7dc">Resource::ImageManager::mOptions</a></div><div class="ttdeci">osg::ref_ptr&lt; osgDB::Options &gt; mOptions</div><div class="ttdef"><b>Definition:</b> imagemanager.hpp:39</div></div>
+<div class="ttc" id="classResource_1_1ImageManager_html_a1775bdab5e58481564894598651c9870"><div class="ttname"><a href="classResource_1_1ImageManager.html#a1775bdab5e58481564894598651c9870">Resource::ImageManager::reportStats</a></div><div class="ttdeci">void reportStats(unsigned int frameNumber, osg::Stats *stats) const </div><div class="ttdef"><b>Definition:</b> imagemanager.cpp:163</div></div>
 <div class="ttc" id="classResource_1_1ImageManager_html_ad045910947646b85f85aa252899a1d48"><div class="ttname"><a href="classResource_1_1ImageManager.html#ad045910947646b85f85aa252899a1d48">Resource::ImageManager::operator=</a></div><div class="ttdeci">void operator=(const ImageManager &amp;)</div></div>
 <div class="ttc" id="classResource_1_1ImageManager_html"><div class="ttname"><a href="classResource_1_1ImageManager.html">Resource::ImageManager</a></div><div class="ttdoc">Handles loading/caching of Images. </div><div class="ttdef"><b>Definition:</b> imagemanager.hpp:23</div></div>
 <div class="ttc" id="resourcemanager_8hpp_html"><div class="ttname"><a href="resourcemanager_8hpp.html">resourcemanager.hpp</a></div></div>
-<div class="ttc" id="classResource_1_1ImageManager_html_a55977867378ada6e24a868bdab1cf72c"><div class="ttname"><a href="classResource_1_1ImageManager.html#a55977867378ada6e24a868bdab1cf72c">Resource::ImageManager::~ImageManager</a></div><div class="ttdeci">~ImageManager()</div><div class="ttdef"><b>Definition:</b> imagemanager.cpp:53</div></div>
-<div class="ttc" id="classResource_1_1ImageManager_html_aaa19e69888457f8ea749ac5a6ce49f66"><div class="ttname"><a href="classResource_1_1ImageManager.html#aaa19e69888457f8ea749ac5a6ce49f66">Resource::ImageManager::getWarningImage</a></div><div class="ttdeci">osg::Image * getWarningImage()</div><div class="ttdef"><b>Definition:</b> imagemanager.cpp:139</div></div>
+<div class="ttc" id="classResource_1_1ImageManager_html_a55977867378ada6e24a868bdab1cf72c"><div class="ttname"><a href="classResource_1_1ImageManager.html#a55977867378ada6e24a868bdab1cf72c">Resource::ImageManager::~ImageManager</a></div><div class="ttdeci">~ImageManager()</div><div class="ttdef"><b>Definition:</b> imagemanager.cpp:54</div></div>
+<div class="ttc" id="classResource_1_1ImageManager_html_aaa19e69888457f8ea749ac5a6ce49f66"><div class="ttname"><a href="classResource_1_1ImageManager.html#aaa19e69888457f8ea749ac5a6ce49f66">Resource::ImageManager::getWarningImage</a></div><div class="ttdeci">osg::Image * getWarningImage()</div><div class="ttdef"><b>Definition:</b> imagemanager.cpp:158</div></div>
 <div class="ttc" id="classResource_1_1ImageManager_html_a225f9f7be2c2d86c57f52c0ae990fbb8"><div class="ttname"><a href="classResource_1_1ImageManager.html#a225f9f7be2c2d86c57f52c0ae990fbb8">Resource::ImageManager::getImage</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Image &gt; getImage(const std::string &amp;filename)</div><div class="ttdef"><b>Definition:</b> imagemanager.cpp:84</div></div>
-<div class="ttc" id="classResource_1_1ImageManager_html_a899884c3edca66e68d4f0bb95be7cef4"><div class="ttname"><a href="classResource_1_1ImageManager.html#a899884c3edca66e68d4f0bb95be7cef4">Resource::ImageManager::ImageManager</a></div><div class="ttdeci">ImageManager(const VFS::Manager *vfs)</div><div class="ttdef"><b>Definition:</b> imagemanager.cpp:46</div></div>
+<div class="ttc" id="classResource_1_1ImageManager_html_a899884c3edca66e68d4f0bb95be7cef4"><div class="ttname"><a href="classResource_1_1ImageManager.html#a899884c3edca66e68d4f0bb95be7cef4">Resource::ImageManager::ImageManager</a></div><div class="ttdeci">ImageManager(const VFS::Manager *vfs)</div><div class="ttdef"><b>Definition:</b> imagemanager.cpp:47</div></div>
 <div class="ttc" id="classVFS_1_1Manager_html"><div class="ttname"><a href="classVFS_1_1Manager.html">VFS::Manager</a></div><div class="ttdoc">The main class responsible for loading files from a virtual file system. </div><div class="ttdef"><b>Definition:</b> manager.hpp:20</div></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html"><div class="ttname"><a href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></div><div class="ttdoc">Base class for managers that require a virtual file system and object cache. </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:17</div></div>
-<div class="ttc" id="classResource_1_1ImageManager_html_ad0d92d4433e0da6429736a8a76b2f1eb"><div class="ttname"><a href="classResource_1_1ImageManager.html#ad0d92d4433e0da6429736a8a76b2f1eb">Resource::ImageManager::mWarningImage</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Image &gt; mWarningImage</div><div class="ttdef"><b>Definition:</b> imagemanager.hpp:36</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html"><div class="ttname"><a href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></div><div class="ttdoc">Base class for managers that require a virtual file system and object cache. </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:23</div></div>
+<div class="ttc" id="classResource_1_1ImageManager_html_ad0d92d4433e0da6429736a8a76b2f1eb"><div class="ttname"><a href="classResource_1_1ImageManager.html#ad0d92d4433e0da6429736a8a76b2f1eb">Resource::ImageManager::mWarningImage</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Image &gt; mWarningImage</div><div class="ttdef"><b>Definition:</b> imagemanager.hpp:38</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

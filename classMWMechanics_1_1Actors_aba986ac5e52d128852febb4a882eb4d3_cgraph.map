@@ -1,0 +1,51 @@
+<map id="MWMechanics::Actors::engageCombat" name="MWMechanics::Actors::engageCombat">
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="810,1342,977,1368"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="791,921,996,962"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1CreatureStats.html#a41095b0401003a54a35299813ed2909f" title="MWMechanics::CreatureStats\l::getAiSequence" alt="" coords="505,92,714,133"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1AiSequence.html#a9700908faffb850096663704eaef39f4" title="Is there any combat package? " alt="" coords="229,244,424,285"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1CreatureStats.html#af8087276da474ea537036c2eb9cd2096" title="MWMechanics::CreatureStats\l::isDead" alt="" coords="789,216,998,257"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="802,1203,985,1230"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="786,1275,1001,1302"/>
+<area shape="rect" id="node9" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="812,998,975,1024"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1Class.html#a7ccad5593c90945c7800bc4d5f4a6b8b" title="MWWorld::Class::isMobile" alt="" coords="520,2390,699,2416"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1Actors.html#a1ddbb3434f1da636a5e4055499781c3a" title="Returns the list of actors which are siding with the given actor in fights. " alt="" coords="247,309,407,350"/>
+<area shape="rect" id="node16" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="520,426,699,452"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="796,1070,991,1096"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="811,1126,976,1168"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1AiSequence.html#a259c45fa5e5ddbb3105becf9ed8da16e" title="Iterator may be invalidated by any function calls other than begin() or end(). " alt="" coords="512,157,707,198"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1CreatureStats.html#ab05423f76952fd2591bccb40b4153b9b" title="MWMechanics::CreatureStats\l::matchesActorId" alt="" coords="222,1233,431,1274"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="522,862,697,904"/>
+<area shape="rect" id="node23" href="$classMWBase_1_1MechanicsManager.html#a1886fe1a2ec07749e0243a028c55cc91" title="Makes ptr fight target. Also shouts a combat taunt. " alt="" coords="223,1350,430,1392"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1CreatureStats.html#a10b13c04139e3336f644d8598cd0a89f" title="MWMechanics::CreatureStats\l::setHitAttemptActorId" alt="" coords="222,1416,431,1457"/>
+<area shape="rect" id="node25" href="$classSettings_1_1Manager.html#a7e998aa8bd957a6852d4232facb801a2" title="Settings::Manager::\lgetBool" alt="" coords="253,644,400,685"/>
+<area shape="rect" id="node28" href="$namespaceMWMechanics.html#a8addb1cc9040a8e5c061c1a1136a7284" title="MWMechanics::canFight" alt="" coords="241,1543,413,1570"/>
+<area shape="rect" id="node33" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="802,1627,985,1654"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="804,1678,983,1704"/>
+<area shape="rect" id="node36" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="812,1728,975,1755"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1Class.html#a93babe591b0f7b9bb79adbdeccff099a" title="MWWorld::Class::isNpc" alt="" coords="812,1779,975,1806"/>
+<area shape="rect" id="node46" href="$classMWBase_1_1MechanicsManager.html#a4366029cace62cbfd8a3afea2c8aa16d" title="MWBase::MechanicsManager\l::isAggressive" alt="" coords="223,2244,430,2285"/>
+<area shape="rect" id="node47" href="$classMWWorld_1_1Class.html#a58430b64973e43d785c1fb5b8204bb64" title="MWWorld::Class::isClass" alt="" coords="241,2310,413,2336"/>
+<area shape="rect" id="node48" href="$classMWMechanics_1_1AiSequence.html#a3e287dcf831fd497ec8e41b5a6f904b3" title="MWMechanics::AiSequence::end" alt="" coords="213,2360,440,2387"/>
+<area shape="rect" id="node49" href="$classMWBase_1_1World.html#aae3a221bbcc01a4809dc900da7064969" title="get Line of Sight (morrowind stupid implementation) " alt="" coords="240,2411,413,2438"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1MechanicsManager.html#ad4cf9151488f6d826b0a45e5e56fb8dc" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="223,2462,430,2504"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Class.html#a5d311eddd6380dc13b0b884ce554eda3" title="MWWorld::Class::canSwim" alt="" coords="801,2312,986,2339"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#ae56beff3d776b2672903eb7c6118c94b" title="MWWorld::Class::canWalk" alt="" coords="804,2262,983,2288"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a145982626f0a3fc6a1d9d54ef1bd46ce" title="MWWorld::Class::canFly" alt="" coords="809,2363,977,2390"/>
+<area shape="rect" id="node15" href="$bsatool_8cpp.html#a6e7f1179c5854ac3883506e79162011b" title="list" alt="" coords="589,324,629,351"/>
+<area shape="rect" id="node19" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="791,426,995,452"/>
+<area shape="rect" id="node26" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="513,578,705,620"/>
+<area shape="rect" id="node27" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="536,644,683,685"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="789,1393,998,1434"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="779,1459,1007,1486"/>
+<area shape="rect" id="node31" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="795,1510,991,1552"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1MechanicsManager.html#a2839aaaa7ce0a8024f6ba2daa3ce45a5" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="488,1452,731,1493"/>
+<area shape="rect" id="node35" href="$classMWBase_1_1World.html#afcb13e418993a9442cf3a02275fa211d" title="MWBase::World::isSwimming" alt="" coords="792,1576,995,1603"/>
+<area shape="rect" id="node38" href="$classMWWorld_1_1Class.html#aca8839653301c8ee1afb747fcd709d8d" title="MWWorld::Class::isPureWater\lCreature" alt="" coords="508,2193,711,2234"/>
+<area shape="rect" id="node39" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="801,2204,986,2231"/>
+<area shape="rect" id="node40" href="$classMWBase_1_1World.html#a4f63e77d4b02d58acede3a37ae3c65dd" title="MWBase::World::isWading" alt="" coords="519,1838,700,1864"/>
+<area shape="rect" id="node41" href="$namespaceMWMechanics.html#a58cd78218943fcc8a4a31dcf781b7b3b" title="MWMechanics::getMaxAttack\lDistance" alt="" coords="506,1620,713,1661"/>
+<area shape="rect" id="node42" href="$namespaceMWMechanics.html#a65da0bf4dc9002b76449d92e4be13ee5" title="MWMechanics::getDistance\lMinusHalfExtents" alt="" coords="511,1132,707,1173"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1Class.html#a7685956fa685ca09b62f827818c30d8a" title="MWWorld::Class::isPureFlying\lCreature" alt="" coords="508,2324,711,2365"/>
+<area shape="rect" id="node44" href="$classMWWorld_1_1Class.html#acdba44d74cb233d2e7ed42e634562d65" title="MWWorld::Class::isPureLand\lCreature" alt="" coords="510,2258,709,2300"/>
+<area shape="rect" id="node45" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="531,1568,687,1595"/>
+</map>

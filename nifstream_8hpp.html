@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/nif/nifstream.hpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/nif/nifstream.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -95,31 +95,31 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">nifstream.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br/>
+<div class="textblock"><code>#include &lt;cassert&gt;</code><br/>
+<code>#include &lt;stdint.h&gt;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;<a class="el" href="constrainedfilestream_8hpp_source.html">components/files/constrainedfilestream.hpp</a>&gt;</code><br/>
 <code>#include &lt;osg/Vec3f&gt;</code><br/>
 <code>#include &lt;osg/Vec4f&gt;</code><br/>
 <code>#include &lt;osg/Quat&gt;</code><br/>
-<code>#include &lt;osg/Array&gt;</code><br/>
-<code>#include &lt;osg/PrimitiveSet&gt;</code><br/>
 <code>#include &quot;<a class="el" href="niftypes_8hpp_source.html">niftypes.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for nifstream.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="nifstream_8hpp__incl.svg" width="1251" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="nifstream_8hpp__incl.svg" width="1087" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="nifstream_8hpp__dep__incl.svg" width="2819" height="691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="nifstream_8hpp__dep__incl.svg" width="2744" height="795"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -135,11 +135,23 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceNif"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html">Nif</a></td></tr>
 <tr class="memdesc:namespaceNif"><td class="mdescLeft">&#160;</td><td class="mdescRight">This file holds the main classes of NIF Records used by everything else. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a99d3782d7c2b54ca647141062ba297d6"><td class="memTemplParams" colspan="2">template&lt;uint32_t numInstances, typename T , typename IntegerT &gt; </td></tr>
+<tr class="memitem:a99d3782d7c2b54ca647141062ba297d6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a99d3782d7c2b54ca647141062ba297d6">Nif::readLittleEndianBufferOfType</a> (<a class="el" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a> &amp;pIStream, <a class="el" href="classGui_1_1T.html">T</a> *dest)</td></tr>
+<tr class="separator:a99d3782d7c2b54ca647141062ba297d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3744f6b5d3a77f80a2637aff910d530"><td class="memTemplParams" colspan="2">template&lt;typename T , typename IntegerT &gt; </td></tr>
+<tr class="memitem:ab3744f6b5d3a77f80a2637aff910d530"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceNif.html#ab3744f6b5d3a77f80a2637aff910d530">Nif::readLittleEndianDynamicBufferOfType</a> (<a class="el" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a> &amp;pIStream, <a class="el" href="classGui_1_1T.html">T</a> *dest, uint32_t numInstances)</td></tr>
+<tr class="separator:ab3744f6b5d3a77f80a2637aff910d530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a577c48e16b70a3917944dcc98e9a5fb5"><td class="memTemplParams" colspan="2">template&lt;typename type , typename IntegerT &gt; </td></tr>
+<tr class="memitem:a577c48e16b70a3917944dcc98e9a5fb5"><td class="memTemplItemLeft" align="right" valign="top">type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a577c48e16b70a3917944dcc98e9a5fb5">Nif::readLittleEndianType</a> (<a class="el" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a> &amp;pIStream)</td></tr>
+<tr class="separator:a577c48e16b70a3917944dcc98e9a5fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

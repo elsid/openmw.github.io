@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['nifversion',['NIFVersion',['../classNif_1_1NIFFile.html#a5b4799d92f00e643a74535ab711c7aff',1,'Nif::NIFFile']]],
-  ['npctype',['NpcType',['../classMWRender_1_1NpcAnimation.html#a827683ad94de2bdd32e2ec708a6227a8',1,'MWRender::NpcAnimation::NpcType()'],['../structESM_1_1NPC.html#ac93869363a134060b4bdc8f7ae30870b',1,'ESM::NPC::NpcType()']]]
+  ['magnitudedisplaytype',['MagnitudeDisplayType',['../structESM_1_1MagicEffect.html#ab0f4bfb8cc478ddafe0b4cd9b936c455',1,'ESM::MagicEffect']]],
+  ['mask',['Mask',['../namespaceCSVRender.html#a4abeb9ff4983f863dddcd0454f31bfa3',1,'CSVRender']]],
+  ['matchresult',['MatchResult',['../classCSMPrefs_1_1ShortcutEventHandler.html#a254de09e5278a8418e9ffc9663486189',1,'CSMPrefs::ShortcutEventHandler']]],
+  ['meshpart',['MeshPart',['../structESM_1_1BodyPart.html#ac75286ee65b7126491da487184b1d1eb',1,'ESM::BodyPart']]],
+  ['meshtype',['MeshType',['../structESM_1_1BodyPart.html#a841ac6e82c267ccfe5e858483ffae1de',1,'ESM::BodyPart']]],
+  ['mode',['Mode',['../classCSVWorld_1_1ExtendedCommandConfigurator.html#ad7a9cae10dd6e26616cc3c98fa9f4aff',1,'CSVWorld::ExtendedCommandConfigurator::Mode()'],['../classCSVWorld_1_1ScriptHighlighter.html#a12e108e6da15d01e74f13b863fa0a254',1,'CSVWorld::ScriptHighlighter::Mode()']]]
 ];

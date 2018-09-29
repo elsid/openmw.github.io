@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/aitravel.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwmechanics/aitravel.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -117,8 +117,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMWMechanics_1_1AiTravel.html">   19</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMWMechanics_1_1AiTravel.html">AiTravel</a> : <span class="keyword">public</span> <a class="code" href="classMWMechanics_1_1AiPackage.html">AiPackage</a></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <a class="code" href="classMWMechanics_1_1AiTravel.html#a7b696ba85c7889416794d28c3b190505">AiTravel</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> z);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="classMWMechanics_1_1AiTravel.html#a7b696ba85c7889416794d28c3b190505">AiTravel</a>(<span class="keyword">const</span> <a class="code" href="structESM_1_1AiSequence_1_1AiTravel.html">ESM::AiSequence::AiTravel</a>* travel);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <a class="code" href="classMWMechanics_1_1AiTravel.html#a5cf739b77712eda4c36d4ef2462dc6e0">AiTravel</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> z, <span class="keywordtype">bool</span> hidden = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="classMWMechanics_1_1AiTravel.html#a5cf739b77712eda4c36d4ef2462dc6e0">AiTravel</a>(<span class="keyword">const</span> <a class="code" href="structESM_1_1AiSequence_1_1AiTravel.html">ESM::AiSequence::AiTravel</a>* travel);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWMechanics_1_1AiTravel.html#a242788635759e20a8045a7aa70908291">fastForward</a>(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; actor, <a class="code" href="classMWMechanics_1_1DerivedClassStorage.html">AiState</a>&amp; state);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
@@ -134,32 +134,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classMWMechanics_1_1AiTravel.html#a0bddcf9422fee7031b74c2e2819790fd">   38</a></span>&#160;            <span class="keywordtype">float</span> <a class="code" href="classMWMechanics_1_1AiTravel.html#a0bddcf9422fee7031b74c2e2819790fd">mX</a>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classMWMechanics_1_1AiTravel.html#abdda81e9b4637ca2c65b500238d46d73">   39</a></span>&#160;            <span class="keywordtype">float</span> <a class="code" href="classMWMechanics_1_1AiTravel.html#abdda81e9b4637ca2c65b500238d46d73">mY</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classMWMechanics_1_1AiTravel.html#a830036576512c1d4b88a0828a79d6710">   40</a></span>&#160;            <span class="keywordtype">float</span> <a class="code" href="classMWMechanics_1_1AiTravel.html#a830036576512c1d4b88a0828a79d6710">mZ</a>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    };</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classMWMechanics_1_1AiTravel.html#a60a51449e2d62bd908b8c2c17dd696b7">   42</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classMWMechanics_1_1AiTravel.html#a60a51449e2d62bd908b8c2c17dd696b7">mHidden</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    };</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classMWMechanics_1_1DerivedClassStorage_html"><div class="ttname"><a href="classMWMechanics_1_1DerivedClassStorage.html">MWMechanics::DerivedClassStorage&lt; AiTemporaryBase &gt;</a></div></div>
-<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a242788635759e20a8045a7aa70908291"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a242788635759e20a8045a7aa70908291">MWMechanics::AiTravel::fastForward</a></div><div class="ttdeci">virtual void fastForward(const MWWorld::Ptr &amp;actor, AiState &amp;state)</div><div class="ttdoc">Simulates the passing of time. </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:70</div></div>
+<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a242788635759e20a8045a7aa70908291"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a242788635759e20a8045a7aa70908291">MWMechanics::AiTravel::fastForward</a></div><div class="ttdeci">virtual void fastForward(const MWWorld::Ptr &amp;actor, AiState &amp;state)</div><div class="ttdoc">Simulates the passing of time. </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:85</div></div>
 <div class="ttc" id="classMWMechanics_1_1AiTravel_html_a830036576512c1d4b88a0828a79d6710"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a830036576512c1d4b88a0828a79d6710">MWMechanics::AiTravel::mZ</a></div><div class="ttdeci">float mZ</div><div class="ttdef"><b>Definition:</b> aitravel.hpp:40</div></div>
 <div class="ttc" id="pathfinding_8hpp_html"><div class="ttname"><a href="pathfinding_8hpp.html">pathfinding.hpp</a></div></div>
 <div class="ttc" id="structESM_1_1AiSequence_1_1AiTravel_html"><div class="ttname"><a href="structESM_1_1AiSequence_1_1AiTravel.html">ESM::AiSequence::AiTravel</a></div><div class="ttdef"><b>Definition:</b> aisequence.hpp:80</div></div>
-<div class="ttc" id="classMWMechanics_1_1AiTravel_html_aa7b531e7c3eecb0070ff6c5f1ce1baf3"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#aa7b531e7c3eecb0070ff6c5f1ce1baf3">MWMechanics::AiTravel::getTypeId</a></div><div class="ttdeci">virtual int getTypeId() const </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:65</div></div>
-<div class="ttc" id="classMWMechanics_1_1AiPackage_html"><div class="ttname"><a href="classMWMechanics_1_1AiPackage.html">MWMechanics::AiPackage</a></div><div class="ttdoc">Base class for AI packages. </div><div class="ttdef"><b>Definition:</b> aipackage.hpp:32</div></div>
-<div class="ttc" id="classMWMechanics_1_1CharacterController_html"><div class="ttname"><a href="classMWMechanics_1_1CharacterController.html">MWMechanics::CharacterController</a></div><div class="ttdef"><b>Definition:</b> character.hpp:145</div></div>
-<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a4bddb7ecc2f427141eaf73cc91cfa6fd"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a4bddb7ecc2f427141eaf73cc91cfa6fd">MWMechanics::AiTravel::execute</a></div><div class="ttdeci">virtual bool execute(const MWWorld::Ptr &amp;actor, CharacterController &amp;characterController, AiState &amp;state, float duration)</div><div class="ttdef"><b>Definition:</b> aitravel.cpp:47</div></div>
-<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a7b696ba85c7889416794d28c3b190505"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a7b696ba85c7889416794d28c3b190505">MWMechanics::AiTravel::AiTravel</a></div><div class="ttdeci">AiTravel(float x, float y, float z)</div><div class="ttdoc">Default constructor. </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:31</div></div>
-<div class="ttc" id="structESM_1_1AiSequence_1_1AiSequence_html"><div class="ttname"><a href="structESM_1_1AiSequence_1_1AiSequence.html">ESM::AiSequence::AiSequence</a></div><div class="ttdef"><b>Definition:</b> aisequence.hpp:148</div></div>
+<div class="ttc" id="classMWMechanics_1_1AiTravel_html_aa7b531e7c3eecb0070ff6c5f1ce1baf3"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#aa7b531e7c3eecb0070ff6c5f1ce1baf3">MWMechanics::AiTravel::getTypeId</a></div><div class="ttdeci">virtual int getTypeId() const </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:80</div></div>
+<div class="ttc" id="classMWMechanics_1_1AiPackage_html"><div class="ttname"><a href="classMWMechanics_1_1AiPackage.html">MWMechanics::AiPackage</a></div><div class="ttdoc">Base class for AI packages. </div><div class="ttdef"><b>Definition:</b> aipackage.hpp:33</div></div>
+<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a60a51449e2d62bd908b8c2c17dd696b7"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a60a51449e2d62bd908b8c2c17dd696b7">MWMechanics::AiTravel::mHidden</a></div><div class="ttdeci">bool mHidden</div><div class="ttdef"><b>Definition:</b> aitravel.hpp:42</div></div>
+<div class="ttc" id="classMWMechanics_1_1CharacterController_html"><div class="ttname"><a href="classMWMechanics_1_1CharacterController.html">MWMechanics::CharacterController</a></div><div class="ttdef"><b>Definition:</b> character.hpp:154</div></div>
+<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a4bddb7ecc2f427141eaf73cc91cfa6fd"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a4bddb7ecc2f427141eaf73cc91cfa6fd">MWMechanics::AiTravel::execute</a></div><div class="ttdeci">virtual bool execute(const MWWorld::Ptr &amp;actor, CharacterController &amp;characterController, AiState &amp;state, float duration)</div><div class="ttdef"><b>Definition:</b> aitravel.cpp:46</div></div>
+<div class="ttc" id="structESM_1_1AiSequence_1_1AiSequence_html"><div class="ttname"><a href="structESM_1_1AiSequence_1_1AiSequence.html">ESM::AiSequence::AiSequence</a></div><div class="ttdef"><b>Definition:</b> aisequence.hpp:151</div></div>
 <div class="ttc" id="classMWMechanics_1_1AiTravel_html"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html">MWMechanics::AiTravel</a></div><div class="ttdoc">Causes the AI to travel to the specified point. </div><div class="ttdef"><b>Definition:</b> aitravel.hpp:19</div></div>
 <div class="ttc" id="classMWMechanics_1_1AiTravel_html_a0bddcf9422fee7031b74c2e2819790fd"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a0bddcf9422fee7031b74c2e2819790fd">MWMechanics::AiTravel::mX</a></div><div class="ttdeci">float mX</div><div class="ttdef"><b>Definition:</b> aitravel.hpp:38</div></div>
 <div class="ttc" id="classMWWorld_1_1Ptr_html"><div class="ttname"><a href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a></div><div class="ttdoc">Pointer to a LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:19</div></div>
-<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a5a93c46c19974bbc2b8a0aa7911e9cdb"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a5a93c46c19974bbc2b8a0aa7911e9cdb">MWMechanics::AiTravel::writeState</a></div><div class="ttdeci">void writeState(ESM::AiSequence::AiSequence &amp;sequence) const </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:80</div></div>
+<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a5a93c46c19974bbc2b8a0aa7911e9cdb"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a5a93c46c19974bbc2b8a0aa7911e9cdb">MWMechanics::AiTravel::writeState</a></div><div class="ttdeci">void writeState(ESM::AiSequence::AiSequence &amp;sequence) const </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:95</div></div>
+<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a5cf739b77712eda4c36d4ef2462dc6e0"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a5cf739b77712eda4c36d4ef2462dc6e0">MWMechanics::AiTravel::AiTravel</a></div><div class="ttdeci">AiTravel(float x, float y, float z, bool hidden=false)</div><div class="ttdoc">Default constructor. </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:31</div></div>
 <div class="ttc" id="classMWMechanics_1_1AiTravel_html_abdda81e9b4637ca2c65b500238d46d73"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#abdda81e9b4637ca2c65b500238d46d73">MWMechanics::AiTravel::mY</a></div><div class="ttdeci">float mY</div><div class="ttdef"><b>Definition:</b> aitravel.hpp:39</div></div>
 <div class="ttc" id="apps_2openmw_2mwmechanics_2aipackage_8hpp_html"><div class="ttname"><a href="apps_2openmw_2mwmechanics_2aipackage_8hpp.html">aipackage.hpp</a></div></div>
-<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a71cb161d615605fb3a44b72ea12af485"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a71cb161d615605fb3a44b72ea12af485">MWMechanics::AiTravel::clone</a></div><div class="ttdeci">virtual AiTravel * clone() const </div><div class="ttdoc">Clones the package. </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:42</div></div>
+<div class="ttc" id="classMWMechanics_1_1AiTravel_html_a71cb161d615605fb3a44b72ea12af485"><div class="ttname"><a href="classMWMechanics_1_1AiTravel.html#a71cb161d615605fb3a44b72ea12af485">MWMechanics::AiTravel::clone</a></div><div class="ttdeci">virtual AiTravel * clone() const </div><div class="ttdoc">Clones the package. </div><div class="ttdef"><b>Definition:</b> aitravel.cpp:41</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:50 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:22 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -29,7 +29,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWWorld_1_1Store.html" target="_top" xlink:title="{MWWorld::Store\&lt; T \&gt;\n|&#45; mStatic\l&#45; mShared\l&#45; mDynamic\l|+ Store()\l+ Store()\l+ clearDynamic()\l+ setUp()\l+ search()\l+ isDynamic()\l+ searchRandom()\l+ find()\l+ findRandom()\l+ begin()\land 14 more...\l}">
+<g id="a_node2"><a xlink:href="classMWWorld_1_1Store.html" target="_top" xlink:title="{MWWorld::Store\&lt; T \&gt;\n|&#45; mStatic\l&#45; mShared\l&#45; mDynamic\l|+ Store()\l+ Store()\l+ clearDynamic()\l+ setUp()\l+ search()\l+ isDynamic()\l+ searchRandom()\l+ find()\l+ findRandom()\l+ begin()\land 15 more...\l}">
 <polygon fill="white" stroke="black" points="-0.5,-33.5 -0.5,-222.5 118.5,-222.5 118.5,-33.5 -0.5,-33.5"/>
 <text text-anchor="middle" x="59" y="-210.5" font-family="FreeSans" font-size="10.00">MWWorld::Store&lt; T &gt;</text>
 <polyline fill="none" stroke="black" points="-0.5,-203.5 118.5,-203.5 "/>
@@ -47,7 +47,7 @@
 <text text-anchor="start" x="7.5" y="-73.5" font-family="FreeSans" font-size="10.00">+ find()</text>
 <text text-anchor="start" x="7.5" y="-62.5" font-family="FreeSans" font-size="10.00">+ findRandom()</text>
 <text text-anchor="start" x="7.5" y="-51.5" font-family="FreeSans" font-size="10.00">+ begin()</text>
-<text text-anchor="start" x="7.5" y="-40.5" font-family="FreeSans" font-size="10.00">and 14 more...</text>
+<text text-anchor="start" x="7.5" y="-40.5" font-family="FreeSans" font-size="10.00">and 15 more...</text>
 </a>
 </g>
 </g>
@@ -58,7 +58,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWWorld_1_1Store_3_01ESM_1_1Cell_01_4.html" target="_top" xlink:title="{MWWorld::Store\&lt; ESM\l::Cell \&gt;\n|&#45; mInt\l&#45; mExt\l&#45; mSharedInt\l&#45; mSharedExt\l&#45; mDynamicInt\l&#45; mDynamicExt\l|+ search()\l+ search()\l+ searchOrCreate()\l+ find()\l+ find()\l+ setUp()\l+ load()\l+ intBegin()\l+ intEnd()\l+ extBegin()\land 9 more...\l&#45; search()\l&#45; handleMovedCellRefs()\l}">
+<g id="a_node3"><a xlink:href="classMWWorld_1_1Store_3_01ESM_1_1Cell_01_4.html" target="_top" xlink:title="{MWWorld::Store\&lt; ESM\l::Cell \&gt;\n|&#45; mInt\l&#45; mExt\l&#45; mSharedInt\l&#45; mSharedExt\l&#45; mDynamicInt\l&#45; mDynamicExt\l|+ search()\l+ search()\l+ searchOrCreate()\l+ find()\l+ find()\l+ clearDynamic()\l+ setUp()\l+ load()\l+ intBegin()\l+ intEnd()\land 10 more...\l&#45; search()\l&#45; handleMovedCellRefs()\l}">
 <polygon fill="white" stroke="black" points="136.5,-0.5 136.5,-255.5 267.5,-255.5 267.5,-0.5 136.5,-0.5"/>
 <text text-anchor="start" x="144.5" y="-243.5" font-family="FreeSans" font-size="10.00">MWWorld::Store&lt; ESM</text>
 <text text-anchor="middle" x="202" y="-232.5" font-family="FreeSans" font-size="10.00">::Cell &gt;</text>
@@ -75,12 +75,12 @@
 <text text-anchor="start" x="144.5" y="-117.5" font-family="FreeSans" font-size="10.00">+ searchOrCreate()</text>
 <text text-anchor="start" x="144.5" y="-106.5" font-family="FreeSans" font-size="10.00">+ find()</text>
 <text text-anchor="start" x="144.5" y="-95.5" font-family="FreeSans" font-size="10.00">+ find()</text>
-<text text-anchor="start" x="144.5" y="-84.5" font-family="FreeSans" font-size="10.00">+ setUp()</text>
-<text text-anchor="start" x="144.5" y="-73.5" font-family="FreeSans" font-size="10.00">+ load()</text>
-<text text-anchor="start" x="144.5" y="-62.5" font-family="FreeSans" font-size="10.00">+ intBegin()</text>
-<text text-anchor="start" x="144.5" y="-51.5" font-family="FreeSans" font-size="10.00">+ intEnd()</text>
-<text text-anchor="start" x="144.5" y="-40.5" font-family="FreeSans" font-size="10.00">+ extBegin()</text>
-<text text-anchor="start" x="144.5" y="-29.5" font-family="FreeSans" font-size="10.00">and 9 more...</text>
+<text text-anchor="start" x="144.5" y="-84.5" font-family="FreeSans" font-size="10.00">+ clearDynamic()</text>
+<text text-anchor="start" x="144.5" y="-73.5" font-family="FreeSans" font-size="10.00">+ setUp()</text>
+<text text-anchor="start" x="144.5" y="-62.5" font-family="FreeSans" font-size="10.00">+ load()</text>
+<text text-anchor="start" x="144.5" y="-51.5" font-family="FreeSans" font-size="10.00">+ intBegin()</text>
+<text text-anchor="start" x="144.5" y="-40.5" font-family="FreeSans" font-size="10.00">+ intEnd()</text>
+<text text-anchor="start" x="144.5" y="-29.5" font-family="FreeSans" font-size="10.00">and 10 more...</text>
 <text text-anchor="start" x="144.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; search()</text>
 <text text-anchor="start" x="144.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; handleMovedCellRefs()</text>
 </a>

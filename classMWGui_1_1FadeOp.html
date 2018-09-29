@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -108,19 +108,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWGui::FadeOp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1FadeOp__coll__graph.svg" width="551" height="1296"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1FadeOp__coll__graph.svg" width="560" height="1400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7ca8e6c05af26d718e3148d76defd104"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr&lt; <a class="el" href="classMWGui_1_1FadeOp.html">FadeOp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#a7ca8e6c05af26d718e3148d76defd104">Ptr</a></td></tr>
-<tr class="separator:a7ca8e6c05af26d718e3148d76defd104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d589e70cc2df71028e3530674ce4045"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr&lt; <a class="el" href="classMWGui_1_1FadeOp.html">FadeOp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#a5d589e70cc2df71028e3530674ce4045">Ptr</a></td></tr>
+<tr class="separator:a5d589e70cc2df71028e3530674ce4045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4eb98af337a53dc1ff77c0e84d740a63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#a4eb98af337a53dc1ff77c0e84d740a63">FadeOp</a> (<a class="el" href="classMWGui_1_1ScreenFader.html">ScreenFader</a> *fader, float time, float targetAlpha)</td></tr>
-<tr class="separator:a4eb98af337a53dc1ff77c0e84d740a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c158a166afb97f8613260cb79dee6c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#a09c158a166afb97f8613260cb79dee6c">FadeOp</a> (<a class="el" href="classMWGui_1_1ScreenFader.html">ScreenFader</a> *fader, float time, float targetAlpha, float delay)</td></tr>
+<tr class="separator:a09c158a166afb97f8613260cb79dee6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5b0054af3a1b0c9434443e16943e363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#ae5b0054af3a1b0c9434443e16943e363">isRunning</a> ()</td></tr>
 <tr class="separator:ae5b0054af3a1b0c9434443e16943e363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2de6afa0229f99649a865109e16b6a40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#a2de6afa0229f99649a865109e16b6a40">start</a> ()</td></tr>
@@ -142,16 +142,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a1be3e943e8717f2a82f3a75c81a68824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa420fd25caba3783a83f742eeb5d5f5a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#aa420fd25caba3783a83f742eeb5d5f5a">mStartAlpha</a></td></tr>
 <tr class="separator:aa420fd25caba3783a83f742eeb5d5f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d71ae70b4e14322181c1b3fa39162cc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#a6d71ae70b4e14322181c1b3fa39162cc">mDelay</a></td></tr>
+<tr class="separator:a6d71ae70b4e14322181c1b3fa39162cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c57f22145e277cfca1fc3d5e51efae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1FadeOp.html#a1c57f22145e277cfca1fc3d5e51efae7">mRunning</a></td></tr>
 <tr class="separator:a1c57f22145e277cfca1fc3d5e51efae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a7ca8e6c05af26d718e3148d76defd104"></a>
+<a class="anchor" id="a5d589e70cc2df71028e3530674ce4045"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::shared_ptr&lt;<a class="el" href="classMWGui_1_1FadeOp.html">FadeOp</a>&gt; <a class="el" href="classMWGui_1_1FadeOp.html#a7ca8e6c05af26d718e3148d76defd104">MWGui::FadeOp::Ptr</a></td>
+          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="classMWGui_1_1FadeOp.html">FadeOp</a>&gt; <a class="el" href="classMWGui_1_1FadeOp.html#a5d589e70cc2df71028e3530674ce4045">MWGui::FadeOp::Ptr</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -159,7 +161,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4eb98af337a53dc1ff77c0e84d740a63"></a>
+<a class="anchor" id="a09c158a166afb97f8613260cb79dee6c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -179,7 +181,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>targetAlpha</em>&#160;</td>
+          <td class="paramname"><em>targetAlpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delay</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -286,6 +294,26 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a6d71ae70b4e14322181c1b3fa39162cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MWGui::FadeOp::mDelay</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a4820002ffe695bc8f7b5986e30dc7d97"></a>
 <div class="memitem">
 <div class="memproto">
@@ -407,13 +435,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="screenfader_8hpp_source.html">screenfader.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="screenfader_8cpp.html">screenfader.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="screenfader_8hpp_source.html">screenfader.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="screenfader_8cpp.html">screenfader.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:02 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:35 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

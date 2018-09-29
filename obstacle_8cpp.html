@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/obstacle.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwmechanics/obstacle.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,6 +103,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="obstacle_8hpp_source.html">obstacle.hpp</a>&quot;</code><br/>
 <code>#include &lt;<a class="el" href="loadcell_8hpp_source.html">components/esm/loadcell.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="positionattitudetransform_8hpp_source.html">components/sceneutil/positionattitudetransform.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwbase_2world_8hpp_source.html">../mwbase/world.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="mwworld_2class_8hpp_source.html">../mwworld/class.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="cellstore_8hpp_source.html">../mwworld/cellstore.hpp</a>&quot;</code><br/>
@@ -110,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for obstacle.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="obstacle_8cpp__incl.svg" width="4262" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="obstacle_8cpp__incl.svg" width="4552" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -122,12 +123,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad10117ede1e0a6574a91179d0372827d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWMechanics.html#ad10117ede1e0a6574a91179d0372827d">MWMechanics::proximityToDoor</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, float minSqr=MIN_DIST_TO_DOOR_SQUARED)</td></tr>
-<tr class="memdesc:ad10117ede1e0a6574a91179d0372827d"><td class="mdescLeft">&#160;</td><td class="mdescRight">tests actor's proximity to a closed door by default  <a href="#ad10117ede1e0a6574a91179d0372827d">More...</a><br/></td></tr>
-<tr class="separator:ad10117ede1e0a6574a91179d0372827d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07cf62f35d3ffbd0473fd710b008b41c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWMechanics.html#a07cf62f35d3ffbd0473fd710b008b41c">MWMechanics::getNearbyDoor</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, float minSqr=MIN_DIST_TO_DOOR_SQUARED)</td></tr>
-<tr class="memdesc:a07cf62f35d3ffbd0473fd710b008b41c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns door pointer within range. No guarantee is given as to which one.  <a href="#a07cf62f35d3ffbd0473fd710b008b41c">More...</a><br/></td></tr>
-<tr class="separator:a07cf62f35d3ffbd0473fd710b008b41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a098adc60472e95d26a423cd63cf0681b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWMechanics.html#a098adc60472e95d26a423cd63cf0681b">MWMechanics::proximityToDoor</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, float minDist)</td></tr>
+<tr class="memdesc:a098adc60472e95d26a423cd63cf0681b"><td class="mdescLeft">&#160;</td><td class="mdescRight">tests actor's proximity to a closed door by default  <a href="#a098adc60472e95d26a423cd63cf0681b">More...</a><br/></td></tr>
+<tr class="separator:a098adc60472e95d26a423cd63cf0681b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9e8ea77f73a42c74c6a46c190da28f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWMechanics.html#a9e9e8ea77f73a42c74c6a46c190da28f">MWMechanics::getNearbyDoor</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, float minDist)</td></tr>
+<tr class="memdesc:a9e9e8ea77f73a42c74c6a46c190da28f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns door pointer within range. No guarantee is given as to which one.  <a href="#a9e9e8ea77f73a42c74c6a46c190da28f">More...</a><br/></td></tr>
+<tr class="separator:a9e9e8ea77f73a42c74c6a46c190da28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -141,7 +142,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

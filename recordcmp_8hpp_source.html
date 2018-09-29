@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwworld/recordcmp.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwworld/recordcmp.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structMWWorld_1_1RecordCmp.html">   12</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structMWWorld_1_1RecordCmp.html">RecordCmp</a></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structMWWorld_1_1RecordCmp.html#a6f0292aebb5f5b2e25dacf5b17139fed">   15</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="structMWWorld_1_1RecordCmp.html#a6f0292aebb5f5b2e25dacf5b17139fed">operator()</a>(<span class="keyword">const</span> T &amp;x, <span class="keyword">const</span> T&amp; y)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structMWWorld_1_1RecordCmp.html#a6f0292aebb5f5b2e25dacf5b17139fed">   15</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="structMWWorld_1_1RecordCmp.html#a6f0292aebb5f5b2e25dacf5b17139fed">operator()</a>(<span class="keyword">const</span> <a class="code" href="classGui_1_1T.html">T</a> &amp;x, <span class="keyword">const</span> <a class="code" href="classGui_1_1T.html">T</a>&amp; y)<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keywordflow">return</span> x.mId &lt; y.mId;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        }</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    };</div>
@@ -134,17 +134,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;} <span class="comment">// end namespace</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="stringops_8hpp_html"><div class="ttname"><a href="stringops_8hpp.html">stringops.hpp</a></div></div>
-<div class="ttc" id="classMisc_1_1StringUtils_html_a770932f1a7e4a76b29537f0bd15d13c4"><div class="ttname"><a href="classMisc_1_1StringUtils.html#a770932f1a7e4a76b29537f0bd15d13c4">Misc::StringUtils::ciLess</a></div><div class="ttdeci">static bool ciLess(const std::string &amp;x, const std::string &amp;y)</div><div class="ttdef"><b>Definition:</b> stringops.hpp:58</div></div>
+<div class="ttc" id="classMisc_1_1StringUtils_html_a770932f1a7e4a76b29537f0bd15d13c4"><div class="ttname"><a href="classMisc_1_1StringUtils.html#a770932f1a7e4a76b29537f0bd15d13c4">Misc::StringUtils::ciLess</a></div><div class="ttdeci">static bool ciLess(const std::string &amp;x, const std::string &amp;y)</div><div class="ttdef"><b>Definition:</b> stringops.hpp:125</div></div>
 <div class="ttc" id="records_8hpp_html"><div class="ttname"><a href="records_8hpp.html">records.hpp</a></div></div>
 <div class="ttc" id="structESM_1_1Dialogue_html"><div class="ttname"><a href="structESM_1_1Dialogue.html">ESM::Dialogue</a></div><div class="ttdef"><b>Definition:</b> loaddial.hpp:21</div></div>
 <div class="ttc" id="structMWWorld_1_1RecordCmp_html"><div class="ttname"><a href="structMWWorld_1_1RecordCmp.html">MWWorld::RecordCmp</a></div><div class="ttdef"><b>Definition:</b> recordcmp.hpp:12</div></div>
 <div class="ttc" id="structMWWorld_1_1RecordCmp_html_a6f0292aebb5f5b2e25dacf5b17139fed"><div class="ttname"><a href="structMWWorld_1_1RecordCmp.html#a6f0292aebb5f5b2e25dacf5b17139fed">MWWorld::RecordCmp::operator()</a></div><div class="ttdeci">bool operator()(const T &amp;x, const T &amp;y) const </div><div class="ttdef"><b>Definition:</b> recordcmp.hpp:15</div></div>
+<div class="ttc" id="classGui_1_1T_html"><div class="ttname"><a href="classGui_1_1T.html">T</a></div></div>
 <div class="ttc" id="structESM_1_1Pathgrid_html"><div class="ttname"><a href="structESM_1_1Pathgrid.html">ESM::Pathgrid</a></div><div class="ttdef"><b>Definition:</b> loadpgrd.hpp:16</div></div>
 <div class="ttc" id="structESM_1_1Cell_html"><div class="ttname"><a href="structESM_1_1Cell.html">ESM::Cell</a></div><div class="ttdef"><b>Definition:</b> loadcell.hpp:64</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:23 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

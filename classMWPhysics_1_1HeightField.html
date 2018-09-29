@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -106,14 +106,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWPhysics::HeightField:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1HeightField__coll__graph.svg" width="360" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1HeightField__coll__graph.svg" width="547" height="304"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab33cd71141d7f894caa31c44981fa626"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1HeightField.html#ab33cd71141d7f894caa31c44981fa626">HeightField</a> (const float *heights, <a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y, float triSize, float sqrtVerts)</td></tr>
-<tr class="separator:ab33cd71141d7f894caa31c44981fa626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1365bb821a56e65f4fbce45d49097718"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1HeightField.html#a1365bb821a56e65f4fbce45d49097718">HeightField</a> (const float *heights, <a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y, float triSize, float sqrtVerts, float minH, float maxH, const osg::Object *holdObject)</td></tr>
+<tr class="separator:a1365bb821a56e65f4fbce45d49097718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a516e391a30948dd6bec2d6d8afa4f909"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1HeightField.html#a516e391a30948dd6bec2d6d8afa4f909">~HeightField</a> ()</td></tr>
 <tr class="separator:a516e391a30948dd6bec2d6d8afa4f909"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8c19778dc572fd8ffd8ac57bb339e21"><td class="memItemLeft" align="right" valign="top">btCollisionObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1HeightField.html#ae8c19778dc572fd8ffd8ac57bb339e21">getCollisionObject</a> ()</td></tr>
@@ -132,9 +132,11 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8b2a7282f2c1fb165446de2a215e9c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fc5fe7cb6440af49ed452b8116738ee"><td class="memItemLeft" align="right" valign="top">btCollisionObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1HeightField.html#a5fc5fe7cb6440af49ed452b8116738ee">mCollisionObject</a></td></tr>
 <tr class="separator:a5fc5fe7cb6440af49ed452b8116738ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1d770c6e7296c5fc1ec111b68f0bb7"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; const osg::Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1HeightField.html#a9f1d770c6e7296c5fc1ec111b68f0bb7">mHoldObject</a></td></tr>
+<tr class="separator:a9f1d770c6e7296c5fc1ec111b68f0bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ab33cd71141d7f894caa31c44981fa626"></a>
+<a class="anchor" id="a1365bb821a56e65f4fbce45d49097718"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -169,7 +171,25 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>sqrtVerts</em>&#160;</td>
+          <td class="paramname"><em>sqrtVerts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const osg::Object *&#160;</td>
+          <td class="paramname"><em>holdObject</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -310,6 +330,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a9f1d770c6e7296c5fc1ec111b68f0bb7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt;const osg::Object&gt; MWPhysics::HeightField::mHoldObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a8b2a7282f2c1fb165446de2a215e9c15"></a>
 <div class="memitem">
 <div class="memproto">
@@ -331,12 +371,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwphysics/<a class="el" href="physicssystem_8cpp.html">physicssystem.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwphysics/<a class="el" href="physicssystem_8cpp.html">physicssystem.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:04 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:38 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

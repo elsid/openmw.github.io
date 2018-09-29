@@ -11,92 +11,92 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-230 750,-230 750,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0.5,-152.5 0.5,-171.5 159.5,-171.5 159.5,-152.5 0.5,-152.5"/>
-<text text-anchor="middle" x="80" y="-159.5" font-family="FreeSans" font-size="10.00">MWWorld::Player::getBirthSign</text>
+<polygon fill="#bfbfbf" stroke="black" points="0.5,-127.5 0.5,-146.5 159.5,-146.5 159.5,-127.5 0.5,-127.5"/>
+<text text-anchor="middle" x="80" y="-134.5" font-family="FreeSans" font-size="10.00">MWWorld::Player::getBirthSign</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWGui_1_1SpellWindow.html#a7d5efb2b6e2294d40675dd88beace37e" target="_top" xlink:title="MWGui::SpellWindow\l::askDeleteSpell">
-<polygon fill="white" stroke="black" points="230.5,-196 230.5,-226 343.5,-226 343.5,-196 230.5,-196"/>
-<text text-anchor="start" x="238.5" y="-214" font-family="FreeSans" font-size="10.00">MWGui::SpellWindow</text>
-<text text-anchor="middle" x="287" y="-203" font-family="FreeSans" font-size="10.00">::askDeleteSpell</text>
+<g id="a_node2"><a xlink:href="classMWGui_1_1BirthDialog.html#ad54e635d07d4bdc0f56108945bb8d010" target="_top" xlink:title="Notify that window has been made visible. ">
+<polygon fill="white" stroke="black" points="233.5,-196 233.5,-226 340.5,-226 340.5,-196 233.5,-196"/>
+<text text-anchor="start" x="241.5" y="-214" font-family="FreeSans" font-size="10.00">MWGui::BirthDialog</text>
+<text text-anchor="middle" x="287" y="-203" font-family="FreeSans" font-size="10.00">::onOpen</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M130.854,-173.916C160.873,-181.092 199.162,-190.244 230.191,-197.66"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="131.552,-170.485 121.013,-171.564 129.925,-177.293 131.552,-170.485"/>
+<path fill="none" stroke="midnightblue" d="M110.659,-150.917C133.635,-161.384 166.429,-175.644 196,-186 207.938,-190.181 220.956,-194.135 233.289,-197.612"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="112,-147.681 101.452,-146.686 109.077,-154.042 112,-147.681"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classMWGui_1_1StatsWindow.html#abca7914b0e28b6ba0e5475d99f4b6310" target="_top" xlink:title="automatically updates all the data in the stats window, but only if it has changed. ">
-<polygon fill="white" stroke="black" points="229,-147 229,-177 345,-177 345,-147 229,-147"/>
-<text text-anchor="start" x="237" y="-165" font-family="FreeSans" font-size="10.00">MWGui::StatsWindow</text>
-<text text-anchor="middle" x="287" y="-154" font-family="FreeSans" font-size="10.00">::onFrame</text>
+<!-- Node3 -->
+<g id="node3" class="node"><title>Node3</title>
+<g id="a_node3"><a xlink:href="classMWGui_1_1SpellWindow.html#a7d5efb2b6e2294d40675dd88beace37e" target="_top" xlink:title="MWGui::SpellWindow\l::askDeleteSpell">
+<polygon fill="white" stroke="black" points="230.5,-147 230.5,-177 343.5,-177 343.5,-147 230.5,-147"/>
+<text text-anchor="start" x="238.5" y="-165" font-family="FreeSans" font-size="10.00">MWGui::SpellWindow</text>
+<text text-anchor="middle" x="287" y="-154" font-family="FreeSans" font-size="10.00">::askDeleteSpell</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M169.751,-162C189.787,-162 210.536,-162 228.862,-162"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="169.672,-158.5 159.672,-162 169.672,-165.5 169.672,-158.5"/>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M169.206,-147.757C189.981,-150.29 211.556,-152.921 230.425,-155.223"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="169.437,-144.259 159.087,-146.523 168.589,-151.208 169.437,-144.259"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="classMWGui_1_1StatsWindow.html#abca7914b0e28b6ba0e5475d99f4b6310" target="_top" xlink:title="automatically updates all the data in the stats window, but only if it has changed. ">
+<polygon fill="white" stroke="black" points="229,-98 229,-128 345,-128 345,-98 229,-98"/>
+<text text-anchor="start" x="237" y="-116" font-family="FreeSans" font-size="10.00">MWGui::StatsWindow</text>
+<text text-anchor="middle" x="287" y="-105" font-family="FreeSans" font-size="10.00">::onFrame</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M169.751,-126.61C189.787,-124.264 210.536,-121.835 228.862,-119.689"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="169.197,-123.15 159.672,-127.79 170.011,-130.103 169.197,-123.15"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classMWMechanics_1_1MechanicsManager.html#ac23cfdb32ea2282daf63c0c6f2f8b86e" target="_top" xlink:title="MWMechanics::MechanicsManager\l::buildPlayer">
-<polygon fill="white" stroke="black" points="196,-73 196,-103 378,-103 378,-73 196,-73"/>
-<text text-anchor="start" x="204" y="-91" font-family="FreeSans" font-size="10.00">MWMechanics::MechanicsManager</text>
-<text text-anchor="middle" x="287" y="-80" font-family="FreeSans" font-size="10.00">::buildPlayer</text>
+<polygon fill="white" stroke="black" points="196,-49 196,-79 378,-79 378,-49 196,-49"/>
+<text text-anchor="start" x="204" y="-67" font-family="FreeSans" font-size="10.00">MWMechanics::MechanicsManager</text>
+<text text-anchor="middle" x="287" y="-56" font-family="FreeSans" font-size="10.00">::buildPlayer</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M116.86,-149.055C152.342,-136.247 206.628,-116.651 244.082,-103.131"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="115.598,-145.79 107.38,-152.477 117.975,-152.374 115.598,-145.79"/>
-</g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" target="_top" xlink:title="MWGui::SpellWindow\l::onModelIndexSelected">
-<polygon fill="white" stroke="black" points="439.5,-196 439.5,-226 570.5,-226 570.5,-196 439.5,-196"/>
-<text text-anchor="start" x="447.5" y="-214" font-family="FreeSans" font-size="10.00">MWGui::SpellWindow</text>
-<text text-anchor="middle" x="505" y="-203" font-family="FreeSans" font-size="10.00">::onModelIndexSelected</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M353.808,-211C380.963,-211 412.341,-211 439.371,-211"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="353.625,-207.5 343.625,-211 353.625,-214.5 353.625,-207.5"/>
+<path fill="none" stroke="midnightblue" d="M110.213,-123.186C133.191,-112.656 166.196,-98.2652 196,-88 205.174,-84.8404 214.991,-81.8435 224.647,-79.1065"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="108.624,-120.065 101.017,-127.44 111.563,-126.418 108.624,-120.065"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" target="_top" xlink:title="MWGui::SpellWindow\l::SpellWindow">
-<polygon fill="white" stroke="black" points="632.5,-196 632.5,-226 745.5,-226 745.5,-196 632.5,-196"/>
-<text text-anchor="start" x="640.5" y="-214" font-family="FreeSans" font-size="10.00">MWGui::SpellWindow</text>
-<text text-anchor="middle" x="689" y="-203" font-family="FreeSans" font-size="10.00">::SpellWindow</text>
+<g id="a_node4"><a xlink:href="classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" target="_top" xlink:title="MWGui::SpellWindow\l::onModelIndexSelected">
+<polygon fill="white" stroke="black" points="439.5,-147 439.5,-177 570.5,-177 570.5,-147 439.5,-147"/>
+<text text-anchor="start" x="447.5" y="-165" font-family="FreeSans" font-size="10.00">MWGui::SpellWindow</text>
+<text text-anchor="middle" x="505" y="-154" font-family="FreeSans" font-size="10.00">::onModelIndexSelected</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M580.718,-211C597.959,-211 616.007,-211 632.275,-211"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="580.679,-207.5 570.679,-211 580.679,-214.5 580.679,-207.5"/>
+<path fill="none" stroke="midnightblue" d="M353.808,-162C380.963,-162 412.341,-162 439.371,-162"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="353.625,-158.5 343.625,-162 353.625,-165.5 353.625,-158.5"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classMWGui_1_1WindowManager.html#a2f52c12d86d6bb31adc62b06cef3de19" target="_top" xlink:title="MWGui::WindowManager\l::onFrame">
-<polygon fill="white" stroke="black" points="439,-147 439,-177 571,-177 571,-147 439,-147"/>
-<text text-anchor="start" x="447" y="-165" font-family="FreeSans" font-size="10.00">MWGui::WindowManager</text>
-<text text-anchor="middle" x="505" y="-154" font-family="FreeSans" font-size="10.00">::onFrame</text>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" target="_top" xlink:title="MWGui::SpellWindow\l::SpellWindow">
+<polygon fill="white" stroke="black" points="632.5,-147 632.5,-177 745.5,-177 745.5,-147 632.5,-147"/>
+<text text-anchor="start" x="640.5" y="-165" font-family="FreeSans" font-size="10.00">MWGui::SpellWindow</text>
+<text text-anchor="middle" x="689" y="-154" font-family="FreeSans" font-size="10.00">::SpellWindow</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M355.38,-162C381.913,-162 412.276,-162 438.612,-162"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="355.034,-158.5 345.034,-162 355.034,-165.5 355.034,-158.5"/>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M580.718,-162C597.959,-162 616.007,-162 632.275,-162"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="580.679,-158.5 570.679,-162 580.679,-165.5 580.679,-158.5"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
@@ -109,8 +109,8 @@
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M388.059,-99.5809C396.631,-100.573 405.27,-101.573 413.759,-102.555"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="388.375,-96.0943 378.039,-98.4212 387.571,-103.048 388.375,-96.0943"/>
+<path fill="none" stroke="midnightblue" d="M364.077,-81.2581C388.144,-86.718 414.536,-92.705 437.85,-97.9938"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="364.802,-77.8337 354.275,-79.0346 363.253,-84.6603 364.802,-77.8337"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
@@ -123,8 +123,8 @@
 </g>
 <!-- Node7&#45;&gt;Node9 -->
 <g id="edge8" class="edge"><title>Node7&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M388.059,-76.8824C396.631,-75.9299 405.27,-74.97 413.759,-74.0268"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="387.592,-73.4126 378.039,-77.9956 388.365,-80.3698 387.592,-73.4126"/>
+<path fill="none" stroke="midnightblue" d="M388.059,-64C396.631,-64 405.27,-64 413.759,-64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="388.039,-60.5001 378.039,-64 388.039,-67.5001 388.039,-60.5001"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
@@ -137,8 +137,8 @@
 </g>
 <!-- Node7&#45;&gt;Node10 -->
 <g id="edge9" class="edge"><title>Node7&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M332.955,-69.1271C356.807,-59.4689 386.744,-47.904 414,-39 423.53,-35.8867 433.723,-32.8736 443.699,-30.0949"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="331.403,-65.9803 323.466,-72.9987 334.047,-72.4617 331.403,-65.9803"/>
+<path fill="none" stroke="midnightblue" d="M364.077,-46.7419C388.144,-41.282 414.536,-35.295 437.85,-30.0062"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="363.253,-43.3397 354.275,-48.9654 364.802,-50.1663 363.253,-43.3397"/>
 </g>
 </g>
 </svg>

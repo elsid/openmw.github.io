@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/android_main.c File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/android_main.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,14 +93,260 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">android_main.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><code>#include &quot;SDL_main.h&quot;</code><br/>
+<code>#include &lt;SDL_gamecontroller.h&gt;</code><br/>
+<code>#include &lt;SDL_mouse.h&gt;</code><br/>
+<code>#include &lt;SDL_events.h&gt;</code><br/>
+<code>#include &lt;jni.h&gt;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for android_main.c:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="android__main_8c__incl.svg" width="639" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a86e982681b508a734d368b670101f80b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#a86e982681b508a734d368b670101f80b">SDL_Android_Init</a> (JNIEnv *env, jclass cls)</td></tr>
+<tr class="separator:a86e982681b508a734d368b670101f80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf58adadd576e9617472185f5ea01e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#afcf58adadd576e9617472185f5ea01e5">releaseArgv</a> ()</td></tr>
+<tr class="separator:afcf58adadd576e9617472185f5ea01e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247f0c0bff6d383eeedc1278ce18b18c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#a247f0c0bff6d383eeedc1278ce18b18c">Java_org_libsdl_app_SDLActivity_getMouseX</a> (JNIEnv *env, jclass cls, jobject obj)</td></tr>
+<tr class="separator:a247f0c0bff6d383eeedc1278ce18b18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae946f7d4f61e1b8a87452fb7747676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#adae946f7d4f61e1b8a87452fb7747676">Java_org_libsdl_app_SDLActivity_getMouseY</a> (JNIEnv *env, jclass cls, jobject obj)</td></tr>
+<tr class="separator:adae946f7d4f61e1b8a87452fb7747676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2758f4a012a02baf5101b3e1666e2e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#ab2758f4a012a02baf5101b3e1666e2e5">Java_org_libsdl_app_SDLActivity_isMouseShown</a> (JNIEnv *env, jclass cls, jobject obj)</td></tr>
+<tr class="separator:ab2758f4a012a02baf5101b3e1666e2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b657ed3fd4356fcf341657c9804d63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#a44b657ed3fd4356fcf341657c9804d63">Java_org_libsdl_app_SDLActivity_nativeInit</a> (JNIEnv *env, jclass cls, jobject obj)</td></tr>
+<tr class="separator:a44b657ed3fd4356fcf341657c9804d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab0f0b20d693b98a10b76d736bc099678"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#ab0f0b20d693b98a10b76d736bc099678">stderr</a> = 0</td></tr>
+<tr class="separator:ab0f0b20d693b98a10b76d736bc099678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c36611c48479a1c0ded31ab34b6fb96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#a8c36611c48479a1c0ded31ab34b6fb96">argcData</a></td></tr>
+<tr class="separator:a8c36611c48479a1c0ded31ab34b6fb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7eecce6fe87aed081be66f59a76090"><td class="memItemLeft" align="right" valign="top">const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="android__main_8c.html#aad7eecce6fe87aed081be66f59a76090">argvData</a></td></tr>
+<tr class="separator:aad7eecce6fe87aed081be66f59a76090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a247f0c0bff6d383eeedc1278ce18b18c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classint.html">int</a> Java_org_libsdl_app_SDLActivity_getMouseX </td>
+          <td>(</td>
+          <td class="paramtype">JNIEnv *&#160;</td>
+          <td class="paramname"><em>env</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jclass&#160;</td>
+          <td class="paramname"><em>cls</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jobject&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adae946f7d4f61e1b8a87452fb7747676"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classint.html">int</a> Java_org_libsdl_app_SDLActivity_getMouseY </td>
+          <td>(</td>
+          <td class="paramtype">JNIEnv *&#160;</td>
+          <td class="paramname"><em>env</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jclass&#160;</td>
+          <td class="paramname"><em>cls</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jobject&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab2758f4a012a02baf5101b3e1666e2e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classint.html">int</a> Java_org_libsdl_app_SDLActivity_isMouseShown </td>
+          <td>(</td>
+          <td class="paramtype">JNIEnv *&#160;</td>
+          <td class="paramname"><em>env</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jclass&#160;</td>
+          <td class="paramname"><em>cls</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jobject&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a44b657ed3fd4356fcf341657c9804d63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classint.html">int</a> Java_org_libsdl_app_SDLActivity_nativeInit </td>
+          <td>(</td>
+          <td class="paramtype">JNIEnv *&#160;</td>
+          <td class="paramname"><em>env</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jclass&#160;</td>
+          <td class="paramname"><em>cls</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jobject&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afcf58adadd576e9617472185f5ea01e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void releaseArgv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a86e982681b508a734d368b670101f80b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SDL_Android_Init </td>
+          <td>(</td>
+          <td class="paramtype">JNIEnv *&#160;</td>
+          <td class="paramname"><em>env</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jclass&#160;</td>
+          <td class="paramname"><em>cls</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a8c36611c48479a1c0ded31ab34b6fb96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classint.html">int</a> argcData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad7eecce6fe87aed081be66f59a76090"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char** argvData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab0f0b20d693b98a10b76d736bc099678"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classint.html">int</a> stderr = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

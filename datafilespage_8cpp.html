@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/launcher/datafilespage.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/launcher/datafilespage.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +93,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">datafilespage.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -104,24 +106,47 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;QCheckBox&gt;</code><br/>
 <code>#include &lt;QMenu&gt;</code><br/>
 <code>#include &lt;QSortFilterProxyModel&gt;</code><br/>
+<code>#include &lt;thread&gt;</code><br/>
+<code>#include &lt;mutex&gt;</code><br/>
+<code>#include &lt;<a class="el" href="cellnameloader_8hpp_source.html">apps/launcher/utils/cellnameloader.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="configurationmanager_8hpp_source.html">components/files/configurationmanager.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="esmfile_8hpp_source.html">components/contentselector/model/esmfile.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="naturalsort_8hpp_source.html">components/contentselector/model/naturalsort.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="contentselector_8hpp_source.html">components/contentselector/view/contentselector.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="gamesettings_8hpp_source.html">components/config/gamesettings.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="launchersettings_8hpp_source.html">components/config/launchersettings.hpp</a>&gt;</code><br/>
+<code>#include &lt;iostream&gt;</code><br/>
 <code>#include &quot;<a class="el" href="textinputdialog_8hpp_source.html">utils/textinputdialog.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="profilescombobox_8hpp_source.html">utils/profilescombobox.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for datafilespage.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="datafilespage_8cpp__incl.svg" width="3456" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="datafilespage_8cpp__incl.svg" width="3358" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-</div></div><!-- contents -->
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a38b5160d17c0a2d288c865975a5ffbf9"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="datafilespage_8cpp.html#a38b5160d17c0a2d288c865975a5ffbf9">_reloadCellsMutex</a></td></tr>
+<tr class="separator:a38b5160d17c0a2d288c865975a5ffbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a38b5160d17c0a2d288c865975a5ffbf9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex _reloadCellsMutex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

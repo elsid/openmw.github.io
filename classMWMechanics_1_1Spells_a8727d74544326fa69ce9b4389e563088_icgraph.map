@@ -1,42 +1,50 @@
 <map id="MWMechanics::Spells::canUsePower" name="MWMechanics::Spells::canUsePower">
-<area shape="rect" id="node2" href="$namespaceMWMechanics.html#ae09ef3992b635b2ab37a801b013b3c89" title="MWMechanics::getSpellSuccess\lChance" alt="" coords="211,318,435,359"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1World.html#a7b2b3dc797f09f109c0aabf731f709c3" title="startSpellCast attempt to start casting a spell. Might fail immediately if conditions are not met..." alt="" coords="213,384,432,411"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1QuickKeysMenu.html#aa7c560a32efd714d9dc6859a4b31f537" title="MWGui::QuickKeysMenu\l::activateQuickKey" alt="" coords="519,5,691,46"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1SpellCreationDialog.html#ae434902e41a9288d7f678ec5d4641c0e" title="MWGui::SpellCreationDialog\l::notifyEffectsChanged" alt="" coords="506,70,705,111"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1SpellModel.html#ada16c79f789884160c3f21fe0012da97" title="MWGui::SpellModel::\lupdate" alt="" coords="530,135,681,177"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1SpellWindow.html#a8709851ec5cea18a39bad6b66a819c24" title="MWGui::SpellWindow\l::onSpellSelected" alt="" coords="530,201,681,242"/>
-<area shape="rect" id="node12" href="$namespaceMWMechanics.html#a9ea06096b26b59bb714ecbd570d51e23" title="MWMechanics::rateSpell" alt="" coords="517,267,693,293"/>
-<area shape="rect" id="node16" href="$namespaceMWMechanics.html#a365a67735e3b8974db69d5eb1d5fc1ce" title="MWMechanics::vanillaRate\lSpell" alt="" coords="511,318,699,359"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="484,383,727,425"/>
-<area shape="rect" id="node18" href="$namespaceMWMechanics.html#aa9bb69aad3379dd47d636cb6fdb6bd92" title="MWMechanics::getSpellSuccess\lChance" alt="" coords="493,449,717,490"/>
-<area shape="rect" id="node19" href="$namespaceMWMechanics.html#ac9bd726d183784da95ff5b1ea7a8d810" title="MWMechanics::getSpellSchool" alt="" coords="498,515,713,541"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1CastSpell.html#a54e54268a860259340cbcca06a8d00fc" title="MWMechanics::CastSpell\l::cast" alt="" coords="804,558,983,599"/>
-<area shape="rect" id="node36" href="$namespaceMWMechanics.html#a238e3b05e43db2603c898d50b4be1e9f" title="MWMechanics::getEffectResistance" alt="" coords="483,725,727,752"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1WindowManager.html#a94e1ffc2b2ee425889ffe260d7f05fdc" title="MWGui::WindowManager\l::activateQuickKey" alt="" coords="805,5,981,46"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" title="MWGui::SpellWindow\l::onModelIndexSelected" alt="" coords="806,135,981,177"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1SpellWindow.html#afca63da3134b4eac91d9802d8e078f8b" title="Cycle to next/previous spell. " alt="" coords="818,201,969,242"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" title="MWGui::SpellWindow\l::SpellWindow" alt="" coords="1087,135,1238,177"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1WindowManager.html#a42618aab1fe6b391027243676cf35535" title="Cycle to next or previous spell. " alt="" coords="1075,201,1251,242"/>
-<area shape="rect" id="node13" href="$namespaceMWMechanics.html#a2f24aadfa3ffbb60450dc007e7143492" title="MWMechanics::prepareNext\lAction" alt="" coords="794,266,993,307"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="1071,266,1254,307"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="1321,266,1503,307"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1ToolTips.html#a1acd92f92a8fc2f6c17860b31c3402d2" title="MWGui::ToolTips::onFrame" alt="" coords="800,423,987,449"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1WindowManager.html#a2f52c12d86d6bb31adc62b06cef3de19" title="MWGui::WindowManager\l::onFrame" alt="" coords="1075,331,1251,373"/>
-<area shape="rect" id="node23" href="$classMWClass_1_1Npc.html#af6723ba6a47b408d1af74c9d34613228" title="MWClass::Npc::apply" alt="" coords="1086,397,1239,424"/>
-<area shape="rect" id="node24" href="$namespaceMWMechanics.html#ab90221f566691b0961d8e8d5daea6ddf" title="MWMechanics::applyOnStrike\lEnchantment" alt="" coords="1059,449,1267,490"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1CastSpell.html#a82cd49d48bac53c79545074d39f207f8" title="MWMechanics::CastSpell\l::cast" alt="" coords="1073,514,1252,555"/>
-<area shape="rect" id="node32" href="$classMWScript_1_1Misc_1_1OpCast.html#a99e2d9dcadf9665f1a9797363f202bf0" title="MWScript::Misc::OpCast\l::execute" alt="" coords="1077,579,1249,621"/>
-<area shape="rect" id="node33" href="$classMWScript_1_1Misc_1_1OpExplodeSpell.html#a918d78f5dc4f40aff9e75d9497e0eb1d" title="MWScript::Misc::OpExplode\lSpell::execute" alt="" coords="1066,645,1259,686"/>
-<area shape="rect" id="node34" href="$classMWWorld_1_1ActionTrap.html#a21871cf85cb42949268933ae49b34a98" title="MWWorld::ActionTrap\l::executeImp" alt="" coords="1087,710,1239,751"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1World.html#aedee04f37a89b213121357938db6b167" title="Cast the actual spell, should be called mid&#45;animation. " alt="" coords="1069,776,1256,803"/>
-<area shape="rect" id="node25" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="1329,431,1495,457"/>
-<area shape="rect" id="node26" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="1345,481,1479,508"/>
-<area shape="rect" id="node27" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="1315,612,1509,639"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="1557,657,1757,698"/>
-<area shape="rect" id="node29" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="1805,657,2005,698"/>
-<area shape="rect" id="node30" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="2053,657,2253,698"/>
-<area shape="rect" id="node37" href="$namespaceMWMechanics.html#a4818c40cb99439abde9167ad7c163456" title="MWMechanics::getEffectMultiplier" alt="" coords="777,835,1010,861"/>
-<area shape="rect" id="node38" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="1073,827,1252,869"/>
-<area shape="rect" id="node40" href="$classMWWorld_1_1InventoryStore.html#a445d41c0a05b047030d69f188f6d683e" title="MWWorld::InventoryStore\l::updateMagicEffects" alt="" coords="1073,893,1253,934"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1CastSpell.html#a792b5c30e747b65d6c5f83166d716d59" title="MWMechanics::CastSpell\l::cast" alt="" coords="1323,827,1501,869"/>
+<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a65a268ee6f80771d88688cfa0c8b707f" title="MWMechanics::getSpellSuccess\lChance" alt="" coords="211,343,435,385"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1World.html#a8f7bb14a918ca96a4b44feeba3d28c79" title="startSpellCast attempt to start casting a spell. Might fail immediately if conditions are not met..." alt="" coords="213,409,432,436"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1QuickKeysMenu.html#aa7c560a32efd714d9dc6859a4b31f537" title="MWGui::QuickKeysMenu\l::activateQuickKey" alt="" coords="519,70,691,111"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1SpellModel.html#ada16c79f789884160c3f21fe0012da97" title="MWGui::SpellModel::\lupdate" alt="" coords="530,135,681,177"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1SpellWindow.html#a8709851ec5cea18a39bad6b66a819c24" title="MWGui::SpellWindow\l::onSpellSelected" alt="" coords="530,201,681,242"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1557,289,1800,330"/>
+<area shape="rect" id="node15" href="$namespaceMWMechanics.html#a89bf40c015188417cdcb88b8ca120136" title="MWMechanics::getSpellSuccess\lChance" alt="" coords="493,438,717,479"/>
+<area shape="rect" id="node16" href="$namespaceMWMechanics.html#ac9bd726d183784da95ff5b1ea7a8d810" title="MWMechanics::getSpellSchool" alt="" coords="498,504,713,531"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1CastSpell.html#a54e54268a860259340cbcca06a8d00fc" title="MWMechanics::CastSpell\l::cast" alt="" coords="804,762,983,803"/>
+<area shape="rect" id="node36" href="$namespaceMWMechanics.html#a238e3b05e43db2603c898d50b4be1e9f" title="MWMechanics::getEffectResistance" alt="" coords="483,555,727,581"/>
+<area shape="rect" id="node41" href="$namespaceMWMechanics.html#a9ea06096b26b59bb714ecbd570d51e23" title="MWMechanics::rateSpell" alt="" coords="517,321,693,348"/>
+<area shape="rect" id="node48" href="$namespaceMWMechanics.html#a365a67735e3b8974db69d5eb1d5fc1ce" title="MWMechanics::vanillaRate\lSpell" alt="" coords="511,373,699,414"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1QuickKeysMenu.html#a6f70858bcd40a0bc7561df0a67a2faf9" title="MWGui::QuickKeysMenu\l::updateActivatedQuickKey" alt="" coords="797,5,989,46"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1WindowManager.html#a94e1ffc2b2ee425889ffe260d7f05fdc" title="activate selected quick key " alt="" coords="805,70,981,111"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1WindowManager.html#a76015413bb0dd073360e8661f5988937" title="update activated quick key state (if action executing was delayed for some reason) ..." alt="" coords="1067,5,1259,46"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1WindowManager.html#a2f52c12d86d6bb31adc62b06cef3de19" title="MWGui::WindowManager\l::onFrame" alt="" coords="1324,5,1500,46"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" title="MWGui::SpellWindow\l::onModelIndexSelected" alt="" coords="806,135,981,177"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1SpellWindow.html#afca63da3134b4eac91d9802d8e078f8b" title="Cycle to next/previous spell. " alt="" coords="818,201,969,242"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" title="MWGui::SpellWindow\l::SpellWindow" alt="" coords="1087,135,1238,177"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1WindowManager.html#a42618aab1fe6b391027243676cf35535" title="Cycle to next or previous spell. " alt="" coords="1075,201,1251,242"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1ToolTips.html#af97a82d710afa9aad808f15f49c38547" title="MWGui::ToolTips::update" alt="" coords="806,480,981,507"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1ToolTips.html#aa50c7649622f81fa86b1836475129b64" title="MWGui::ToolTips::setFocus\lObject" alt="" coords="1069,449,1256,490"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#a73279617752364728aaa6eeef7dd3850" title="MWGui::WindowManager\l::setFocusObject" alt="" coords="1324,514,1500,555"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1WindowManager.html#a9825efe2509280a4e509c80fdb140513" title="Clear all savegame&#45;specific data. " alt="" coords="1324,449,1500,490"/>
+<area shape="rect" id="node22" href="$classMWClass_1_1Npc.html#af6723ba6a47b408d1af74c9d34613228" title="MWClass::Npc::apply" alt="" coords="1086,893,1239,920"/>
+<area shape="rect" id="node23" href="$namespaceMWMechanics.html#ab90221f566691b0961d8e8d5daea6ddf" title="MWMechanics::applyOnStrike\lEnchantment" alt="" coords="1059,945,1267,986"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1CastSpell.html#a82cd49d48bac53c79545074d39f207f8" title="MWMechanics::CastSpell\l::cast" alt="" coords="1073,697,1252,738"/>
+<area shape="rect" id="node32" href="$classMWScript_1_1Misc_1_1OpCast.html#a99e2d9dcadf9665f1a9797363f202bf0" title="MWScript::Misc::OpCast\l::execute" alt="" coords="1077,762,1249,803"/>
+<area shape="rect" id="node33" href="$classMWScript_1_1Misc_1_1OpExplodeSpell.html#a918d78f5dc4f40aff9e75d9497e0eb1d" title="MWScript::Misc::OpExplode\lSpell::execute" alt="" coords="1066,827,1259,869"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1ActionTrap.html#a21871cf85cb42949268933ae49b34a98" title="MWWorld::ActionTrap\l::executeImp" alt="" coords="1087,1010,1239,1051"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1World.html#aa018bf3e47a39bb1bf25bdbcd2116db5" title="Cast the actual spell, should be called mid&#45;animation. " alt="" coords="1069,645,1256,672"/>
+<area shape="rect" id="node24" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="1329,927,1495,953"/>
+<area shape="rect" id="node25" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="1345,977,1479,1004"/>
+<area shape="rect" id="node26" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="1315,845,1509,872"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="1579,838,1779,879"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1World.html#ae5903ca0dd09782dc14695a7f3c7d99c" title="MWWorld::World::launchProjectile" alt="" coords="1565,787,1793,813"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="1848,838,2048,879"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="2096,838,2296,879"/>
+<area shape="rect" id="node37" href="$namespaceMWMechanics.html#a4818c40cb99439abde9167ad7c163456" title="MWMechanics::getEffectMultiplier" alt="" coords="777,555,1010,581"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="1073,514,1252,555"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1InventoryStore.html#a445d41c0a05b047030d69f188f6d683e" title="MWWorld::InventoryStore\l::updateMagicEffects" alt="" coords="1073,579,1253,621"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1CastSpell.html#a792b5c30e747b65d6c5f83166d716d59" title="MWMechanics::CastSpell\l::cast" alt="" coords="1323,579,1501,621"/>
+<area shape="rect" id="node42" href="$namespaceMWMechanics.html#a830c73b5935624c014c7f8c28cce9aff" title="MWMechanics::prepareNext\lAction" alt="" coords="794,383,993,425"/>
+<area shape="rect" id="node45" href="$namespaceMWMechanics.html#a2063cb7e43a9a94667efe9865bcae60f" title="MWMechanics::getBestAction\lRating" alt="" coords="789,318,998,359"/>
+<area shape="rect" id="node43" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="1071,383,1254,425"/>
+<area shape="rect" id="node44" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="1321,383,1503,425"/>
+<area shape="rect" id="node46" href="$classMWMechanics_1_1AiSequence.html#afcefe571332a2f759ce594c9e95c43ee" title="Execute current package, switching if needed. " alt="" coords="1065,318,1260,359"/>
+<area shape="rect" id="node47" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1332,318,1492,359"/>
 </map>

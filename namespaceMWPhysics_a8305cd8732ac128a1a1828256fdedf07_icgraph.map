@@ -1,51 +1,29 @@
 <map id="MWPhysics::toBullet" name="MWPhysics::toBullet">
-<area shape="rect" id="node2" href="$classMWPhysics_1_1Actor.html#a57f40f7d87920df0dc386088f63666bc" title="MWPhysics::Actor::Actor" alt="" coords="741,109,915,135"/>
-<area shape="rect" id="node3" href="$classMWPhysics_1_1Actor.html#aa92418baf0bfa3afe9e206aa357cabb6" title="MWPhysics::Actor::update\lCollisionObjectPosition" alt="" coords="207,199,393,240"/>
-<area shape="rect" id="node10" href="$classMWPhysics_1_1Actor.html#a1d09a0653ad7f1505831837c04df5aa8" title="MWPhysics::Actor::update\lRotation" alt="" coords="464,133,651,175"/>
-<area shape="rect" id="node11" href="$classMWPhysics_1_1Actor.html#a18d4a5ac255c8bd69ba1eaab84ead434" title="MWPhysics::Actor::update\lScale" alt="" coords="464,68,651,109"/>
-<area shape="rect" id="node12" href="$classMWPhysics_1_1MovementSolver.html#afb3ed5c88f5e680f9ac2ba4f28d1dad0" title="MWPhysics::MovementSolver\l::traceDown" alt="" coords="454,615,661,656"/>
-<area shape="rect" id="node17" href="$classMWPhysics_1_1Object.html#a8d7243a685e80e101b2b475d54e6b32a" title="MWPhysics::Object::\lObject" alt="" coords="226,627,374,668"/>
-<area shape="rect" id="node18" href="$classMWPhysics_1_1Object.html#a25b0cd470f42eda7700546bce5cf83d2" title="MWPhysics::Object::\lanimateCollisionShapes" alt="" coords="213,692,387,733"/>
-<area shape="rect" id="node19" href="$classMWPhysics_1_1PhysicsSystem.html#a6129da6a0decae5ac65db23f36d74a2a" title="MWPhysics::PhysicsSystem\l::getHitContact" alt="" coords="203,757,397,799"/>
-<area shape="rect" id="node21" href="$classMWPhysics_1_1PhysicsSystem.html#a37ee32e78b01b06640f73a40dc423c41" title="MWPhysics::PhysicsSystem\l::getHitDistance" alt="" coords="203,823,397,864"/>
-<area shape="rect" id="node23" href="$classMWPhysics_1_1PhysicsSystem.html#a2d689bf63239c88145e0f38e7bfa2c16" title="MWPhysics::PhysicsSystem\l::castRay" alt="" coords="203,900,397,941"/>
-<area shape="rect" id="node34" href="$classMWPhysics_1_1PhysicsSystem.html#ad78ad82016390f34a93f7671658e6eda" title="MWPhysics::PhysicsSystem\l::castSphere" alt="" coords="203,444,397,485"/>
-<area shape="rect" id="node36" href="$classMWPhysics_1_1PhysicsSystem.html#a7a279147539d9081ecd464d977758f45" title="MWPhysics::PhysicsSystem\l::updateRotation" alt="" coords="203,1053,397,1095"/>
-<area shape="rect" id="node42" href="$classMWPhysics_1_1PhysicsSystem.html#a169a2b1b885ab0695d57cb704c30d410" title="MWPhysics::PhysicsSystem\l::updatePosition" alt="" coords="1000,1207,1195,1248"/>
-<area shape="rect" id="node43" href="$structMWPhysics_1_1ActorTracer.html#a14d9a06d27e58b2519430650d028af4a" title="MWPhysics::ActorTracer\l::doTrace" alt="" coords="215,372,385,413"/>
-<area shape="rect" id="node48" href="$structMWPhysics_1_1ActorTracer.html#a90fd2d1a8911a04b9520618d29b71921" title="MWPhysics::ActorTracer\l::findGround" alt="" coords="215,509,385,551"/>
-<area shape="rect" id="node4" href="$classMWPhysics_1_1Actor.html#a9d25a61470092195e2adb6b5e48da8ca" title="MWPhysics::Actor::update\lPosition" alt="" coords="464,199,651,240"/>
-<area shape="rect" id="node5" href="$classMWPhysics_1_1Actor.html#a378bafee436ae9680772440ee5647628" title="MWPhysics::Actor::setPosition" alt="" coords="723,263,933,290"/>
-<area shape="rect" id="node6" href="$classMWPhysics_1_1PhysicsSystem.html#a9277c35247eb2b649168b77e62cad326" title="Apply all queued movements, then clear the list. " alt="" coords="1000,344,1195,385"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1World.html#a2f5d290bb1dd1000c604b0bd488567c7" title="Run physics simulation and modify world accordingly. " alt="" coords="1273,375,1463,402"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1World.html#abf77486e8f0325210afe56bbe2021960" title="MWWorld::World::update" alt="" coords="1528,425,1701,451"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1World.html#ab658191aa2c94a4ea8256db10678c102" title="MWWorld::World::createRecord" alt="" coords="1750,425,1962,451"/>
-<area shape="rect" id="node13" href="$classMWPhysics_1_1PhysicsSystem.html#a2b5a96d26485849698b3e1da776924d3" title="MWPhysics::PhysicsSystem\l::traceDown" alt="" coords="731,615,925,656"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1World.html#a82c7905099570268cd3d2123a5097353" title="MWWorld::World::adjustPosition" alt="" coords="989,597,1206,623"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1World.html#acce5f58376c08ea20ef97cb48ab54681" title="Attempt to fix position so that the Ptr is no longer inside collision geometry. " alt="" coords="1001,647,1193,674"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1World.html#a7fafd9a8c05b57ea9bb378cc9262b918" title="MWWorld::World::startNewGame" alt="" coords="1256,647,1480,674"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1World.html#aafd2e85757d8a3800258a788b92e795d" title="MWWorld::World::getHitContact" alt="" coords="449,681,666,707"/>
-<area shape="rect" id="node22" href="$classMWWorld_1_1World.html#ae8c1b5c728af1e17d27167f6a8331258" title="Return the distance between actor&#39;s weapon and target&#39;s collision box. " alt="" coords="446,731,669,758"/>
-<area shape="rect" id="node24" href="$classMWPhysics_1_1PhysicsSystem.html#afe7f262b2bfd87644311029c227b8912" title="Return true if actor1 can see actor2. " alt="" coords="460,783,655,824"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="457,900,657,941"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="997,900,1197,941"/>
-<area shape="rect" id="node29" href="$classMWWorld_1_1World.html#ab0ba3f1a3402526d4c8af207fd6618a6" title="cast a Ray and return true if there is an object in the ray path. " alt="" coords="468,966,647,993"/>
-<area shape="rect" id="node32" href="$classMWWorld_1_1World.html#abc5303a731d6106653d5c99ca2c825f6" title="MWWorld::World::getDistTo\lNearestRayHit" alt="" coords="464,1017,651,1059"/>
-<area shape="rect" id="node33" href="$classMWWorld_1_1World.html#aedee04f37a89b213121357938db6b167" title="Cast the actual spell, should be called mid&#45;animation. " alt="" coords="464,1083,651,1110"/>
-<area shape="rect" id="node25" href="$classMWWorld_1_1World.html#ad8af640b04e0cd5090d377288730f2d3" title="get Line of Sight (morrowind stupid implementation) " alt="" coords="741,790,915,817"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="728,900,928,941"/>
-<area shape="rect" id="node30" href="$classMWWorld_1_1World.html#ac2fcb0b5aa231d2d674b14ca36febf3b" title="MWWorld::World::safePlace\lObject" alt="" coords="733,965,923,1007"/>
-<area shape="rect" id="node31" href="$classMWWorld_1_1World.html#acb386f5e35f58951394f0a5174888bd1" title="Spawn a random creature from a levelled list next to the player. " alt="" coords="987,965,1208,1007"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1World.html#a62b8b52938805c4cedc6c8e561101dc1" title="MWWorld::World::updatePlayer" alt="" coords="991,498,1203,525"/>
-<area shape="rect" id="node37" href="$namespaceanonymous__namespace_02scene_8cpp_03.html#a42fc6dc7d7b595cd98436e260b6798f4" title="anonymous_namespace\l\{scene::cpp\}::updateObject\lRotation" alt="" coords="457,1134,658,1190"/>
-<area shape="rect" id="node38" href="$structanonymous__namespace_02scene_8cpp_03_1_1InsertVisitor.html#ab51eeb280acb714d9c51d10c1c82b802" title="anonymous_namespace\l\{scene::cpp\}::InsertVisitor\l::insert" alt="" coords="733,1062,923,1118"/>
-<area shape="rect" id="node39" href="$classMWWorld_1_1Scene.html#a6ee5ba76699d229e2f39786b2959158c" title="MWWorld::Scene::updateObject\lRotation" alt="" coords="718,1141,938,1183"/>
-<area shape="rect" id="node40" href="$classMWWorld_1_1Scene.html#a53eb5bcf1b9ea13fad66f82968d3bbf3" title="Add an object that already exists in the world model to the scene. " alt="" coords="998,1141,1197,1183"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1World.html#aa66f9502010313a20d0f20339f473400" title="MWWorld::World::moveObject" alt="" coords="1265,1181,1471,1207"/>
-<area shape="rect" id="node44" href="$classMWPhysics_1_1Stepper.html#a8afe0939ce71bda817388001f34bc572" title="MWPhysics::Stepper\l::step" alt="" coords="482,367,633,408"/>
-<area shape="rect" id="node45" href="$classMWPhysics_1_1MovementSolver.html#a610630c1cbbf96ffce24bba0ebc30b89" title="MWPhysics::MovementSolver\l::move" alt="" coords="725,315,931,356"/>
-<area shape="rect" id="node46" href="$classMWPhysics_1_1PhysicsSystem.html#a856170e0d93ca4b8b99d83e7137735bf" title="MWPhysics::PhysicsSystem\l::canMoveToWaterSurface" alt="" coords="460,432,655,473"/>
-<area shape="rect" id="node47" href="$classMWWorld_1_1World.html#ace88bf9b988531a5a47c55734b9718ab" title="MWWorld::World::isWaterWalking\lCastableOnTarget" alt="" coords="717,432,939,473"/>
-<area shape="rect" id="node49" href="$classMWPhysics_1_1PhysicsSystem.html#afb214fa95a8da74a1347964f6e9f9b6f" title="MWPhysics::PhysicsSystem\l::isOnGround" alt="" coords="460,549,655,591"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#a16a90e32aafbe7833dbc925e87d8e835" title="MWWorld::World::isOnGround" alt="" coords="727,553,929,579"/>
+<area shape="rect" id="node2" href="$classMWPhysics_1_1Actor.html#a57f40f7d87920df0dc386088f63666bc" title="MWPhysics::Actor::Actor" alt="" coords="733,106,907,133"/>
+<area shape="rect" id="node3" href="$classMWPhysics_1_1Actor.html#aa92418baf0bfa3afe9e206aa357cabb6" title="MWPhysics::Actor::update\lCollisionObjectPosition" alt="" coords="213,196,400,237"/>
+<area shape="rect" id="node7" href="$classMWPhysics_1_1Actor.html#a1d09a0653ad7f1505831837c04df5aa8" title="MWPhysics::Actor::update\lRotation" alt="" coords="467,65,653,107"/>
+<area shape="rect" id="node8" href="$classMWPhysics_1_1Actor.html#a18d4a5ac255c8bd69ba1eaab84ead434" title="MWPhysics::Actor::update\lScale" alt="" coords="467,131,653,172"/>
+<area shape="rect" id="node9" href="$classMWPhysics_1_1MovementSolver.html#a651f6c3322355d5e951f2041f81557d8" title="MWPhysics::MovementSolver\l::traceDown" alt="" coords="203,367,410,408"/>
+<area shape="rect" id="node11" href="$classMWPhysics_1_1Object.html#a8d7243a685e80e101b2b475d54e6b32a" title="MWPhysics::Object::\lObject" alt="" coords="233,432,381,473"/>
+<area shape="rect" id="node12" href="$classMWPhysics_1_1Object.html#a25b0cd470f42eda7700546bce5cf83d2" title="MWPhysics::Object::\lanimateCollisionShapes" alt="" coords="219,497,394,539"/>
+<area shape="rect" id="node13" href="$classMWPhysics_1_1PhysicsSystem.html#ac43c763aa562c7644f7b334baa66a488" title="MWPhysics::PhysicsSystem\l::getHitContact" alt="" coords="463,549,657,591"/>
+<area shape="rect" id="node14" href="$classMWPhysics_1_1PhysicsSystem.html#a37ee32e78b01b06640f73a40dc423c41" title="MWPhysics::PhysicsSystem\l::getHitDistance" alt="" coords="209,680,404,721"/>
+<area shape="rect" id="node15" href="$classMWPhysics_1_1PhysicsSystem.html#a5f6011c42fad11eeb00f30a64672566b" title="MWPhysics::PhysicsSystem\l::castRay" alt="" coords="209,615,404,656"/>
+<area shape="rect" id="node20" href="$classMWPhysics_1_1PhysicsSystem.html#ad78ad82016390f34a93f7671658e6eda" title="MWPhysics::PhysicsSystem\l::castSphere" alt="" coords="209,745,404,787"/>
+<area shape="rect" id="node21" href="$classMWPhysics_1_1PhysicsSystem.html#a7a279147539d9081ecd464d977758f45" title="MWPhysics::PhysicsSystem\l::updateRotation" alt="" coords="209,811,404,852"/>
+<area shape="rect" id="node24" href="$classMWPhysics_1_1PhysicsSystem.html#a169a2b1b885ab0695d57cb704c30d410" title="MWPhysics::PhysicsSystem\l::updatePosition" alt="" coords="209,876,404,917"/>
+<area shape="rect" id="node25" href="$structMWPhysics_1_1ActorTracer.html#a14d9a06d27e58b2519430650d028af4a" title="MWPhysics::ActorTracer\l::doTrace" alt="" coords="221,301,392,343"/>
+<area shape="rect" id="node4" href="$classMWPhysics_1_1Actor.html#a9d25a61470092195e2adb6b5e48da8ca" title="MWPhysics::Actor::update\lPosition" alt="" coords="467,196,653,237"/>
+<area shape="rect" id="node5" href="$classMWPhysics_1_1Actor.html#a378bafee436ae9680772440ee5647628" title="MWPhysics::Actor::setPosition" alt="" coords="715,258,925,285"/>
+<area shape="rect" id="node6" href="$classMWPhysics_1_1PhysicsSystem.html#a9277c35247eb2b649168b77e62cad326" title="Apply all queued movements, then clear the list. " alt="" coords="981,309,1176,351"/>
+<area shape="rect" id="node10" href="$classMWPhysics_1_1PhysicsSystem.html#a276ea96b7199ee90db843d7ae08e4ac1" title="MWPhysics::PhysicsSystem\l::traceDown" alt="" coords="463,481,657,523"/>
+<area shape="rect" id="node16" href="$classMWPhysics_1_1PhysicsSystem.html#afe7f262b2bfd87644311029c227b8912" title="Return true if actor1 can see actor2. " alt="" coords="463,615,657,656"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="460,732,660,773"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="979,732,1179,773"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="720,732,920,773"/>
+<area shape="rect" id="node22" href="$namespaceanonymous__namespace_02scene_8cpp_03.html#a42fc6dc7d7b595cd98436e260b6798f4" title="anonymous_namespace\l\{scene::cpp\}::updateObject\lRotation" alt="" coords="459,803,661,859"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Scene.html#a6ee5ba76699d229e2f39786b2959158c" title="MWWorld::Scene::updateObject\lRotation" alt="" coords="710,811,930,852"/>
+<area shape="rect" id="node26" href="$classMWPhysics_1_1Stepper.html#a8afe0939ce71bda817388001f34bc572" title="MWPhysics::Stepper\l::step" alt="" coords="485,364,635,405"/>
+<area shape="rect" id="node27" href="$classMWPhysics_1_1MovementSolver.html#a610630c1cbbf96ffce24bba0ebc30b89" title="MWPhysics::MovementSolver\l::move" alt="" coords="717,375,923,416"/>
+<area shape="rect" id="node28" href="$classMWPhysics_1_1PhysicsSystem.html#a856170e0d93ca4b8b99d83e7137735bf" title="MWPhysics::PhysicsSystem\l::canMoveToWaterSurface" alt="" coords="723,309,917,351"/>
 </map>

@@ -149,153 +149,153 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" target="_top" xlink:title="Throws an exception if GMST is not of type int or float. ">
-<polygon fill="white" stroke="black" points="231,-480.5 231,-499.5 383,-499.5 383,-480.5 231,-480.5"/>
-<text text-anchor="middle" x="307" y="-487.5" font-family="FreeSans" font-size="10.00">ESM::GameSetting::getFloat</text>
+<g id="a_node15"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
+<polygon fill="white" stroke="black" points="246,-480.5 246,-499.5 368,-499.5 368,-480.5 246,-480.5"/>
+<text text-anchor="middle" x="307" y="-487.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node15 -->
 <g id="edge16" class="edge"><title>Node1&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M182.135,-490C194.934,-490 208.063,-490 220.765,-490"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="220.846,-493.5 230.845,-490 220.845,-486.5 220.846,-493.5"/>
+<path fill="none" stroke="midnightblue" d="M182.135,-490C199.919,-490 218.34,-490 235.367,-490"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="235.771,-493.5 245.771,-490 235.771,-486.5 235.771,-493.5"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" target="_top" xlink:title="Misc::StringUtils::\lciEqual">
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" target="_top" xlink:title="Misc::StringUtils::\lciEqual">
 <polygon fill="white" stroke="black" points="257.5,-431 257.5,-461 356.5,-461 356.5,-431 257.5,-431"/>
 <text text-anchor="start" x="265.5" y="-449" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
 <text text-anchor="middle" x="307" y="-438" font-family="FreeSans" font-size="10.00">ciEqual</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node17 -->
-<g id="edge18" class="edge"><title>Node1&#45;&gt;Node17</title>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge17" class="edge"><title>Node1&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M165.048,-474.981C191.985,-469.442 222.125,-463.245 247.598,-458.008"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="248.388,-461.419 257.478,-455.977 246.978,-454.562 248.388,-461.419"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classMWWorld_1_1Class.html#af1283dc2b448d03aa04d0f9deff0370c" target="_top" xlink:title="MWWorld::Class::getPrimary\lFaction">
+<!-- Node18 -->
+<g id="node18" class="node"><title>Node18</title>
+<g id="a_node18"><a xlink:href="classMWWorld_1_1Class.html#af1283dc2b448d03aa04d0f9deff0370c" target="_top" xlink:title="MWWorld::Class::getPrimary\lFaction">
 <polygon fill="white" stroke="black" points="232.5,-382 232.5,-412 381.5,-412 381.5,-382 232.5,-382"/>
 <text text-anchor="start" x="240.5" y="-400" font-family="FreeSans" font-size="10.00">MWWorld::Class::getPrimary</text>
 <text text-anchor="middle" x="307" y="-389" font-family="FreeSans" font-size="10.00">Faction</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node19 -->
-<g id="edge20" class="edge"><title>Node1&#45;&gt;Node19</title>
+<!-- Node1&#45;&gt;Node18 -->
+<g id="edge19" class="edge"><title>Node1&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M116.322,-474.799C141.145,-459.788 181.152,-436.968 218,-422 223.89,-419.607 230.091,-417.352 236.359,-415.248"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="237.785,-418.467 246.232,-412.072 235.641,-411.803 237.785,-418.467"/>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" target="_top" xlink:title="Transforms input string to lower case w/o copy. ">
+<!-- Node19 -->
+<g id="node19" class="node"><title>Node19</title>
+<g id="a_node19"><a xlink:href="classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" target="_top" xlink:title="Transforms input string to lower case w/o copy. ">
 <polygon fill="white" stroke="black" points="257.5,-333 257.5,-363 356.5,-363 356.5,-333 257.5,-333"/>
 <text text-anchor="start" x="265.5" y="-351" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
 <text text-anchor="middle" x="307" y="-340" font-family="FreeSans" font-size="10.00">lowerCaseInPlace</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node20 -->
-<g id="edge21" class="edge"><title>Node1&#45;&gt;Node20</title>
+<!-- Node1&#45;&gt;Node19 -->
+<g id="edge20" class="edge"><title>Node1&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M104.257,-474.648C125.023,-449.655 169.612,-400.231 218,-373 227.125,-367.865 237.387,-363.716 247.595,-360.387"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="248.769,-363.688 257.326,-357.441 246.741,-356.989 248.769,-363.688"/>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classMWBase_1_1Environment.html#a772a5fed081fca8ac127ce997c5fa9a3" target="_top" xlink:title="MWBase::Environment\l::getDialogueManager">
+<!-- Node20 -->
+<g id="node20" class="node"><title>Node20</title>
+<g id="a_node20"><a xlink:href="classMWBase_1_1Environment.html#a772a5fed081fca8ac127ce997c5fa9a3" target="_top" xlink:title="MWBase::Environment\l::getDialogueManager">
 <polygon fill="white" stroke="black" points="245,-284 245,-314 369,-314 369,-284 245,-284"/>
 <text text-anchor="start" x="253" y="-302" font-family="FreeSans" font-size="10.00">MWBase::Environment</text>
 <text text-anchor="middle" x="307" y="-291" font-family="FreeSans" font-size="10.00">::getDialogueManager</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node21 -->
-<g id="edge23" class="edge"><title>Node1&#45;&gt;Node21</title>
+<!-- Node1&#45;&gt;Node20 -->
+<g id="edge22" class="edge"><title>Node1&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M99.3622,-474.52C115.819,-441.609 158.84,-364.401 218,-324 223.336,-320.356 229.2,-317.238 235.287,-314.572"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="236.976,-317.669 244.994,-310.744 234.408,-311.157 236.976,-317.669"/>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classMWBase_1_1DialogueManager.html#a297ec9095755a34a31900e9a9d277cec" target="_top" xlink:title="MWBase::DialogueManager\l::getFactionReaction">
+<!-- Node21 -->
+<g id="node21" class="node"><title>Node21</title>
+<g id="a_node21"><a xlink:href="classMWBase_1_1DialogueManager.html#a297ec9095755a34a31900e9a9d277cec" target="_top" xlink:title="MWBase::DialogueManager\l::getFactionReaction">
 <polygon fill="white" stroke="black" points="233.5,-235 233.5,-265 380.5,-265 380.5,-235 233.5,-235"/>
 <text text-anchor="start" x="241.5" y="-253" font-family="FreeSans" font-size="10.00">MWBase::DialogueManager</text>
 <text text-anchor="middle" x="307" y="-242" font-family="FreeSans" font-size="10.00">::getFactionReaction</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node22 -->
-<g id="edge24" class="edge"><title>Node1&#45;&gt;Node22</title>
+<!-- Node1&#45;&gt;Node21 -->
+<g id="edge23" class="edge"><title>Node1&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M96.4767,-474.842C108.883,-435.528 147.525,-329.555 218,-275 220.433,-273.116 223.002,-271.375 225.673,-269.764"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="227.327,-272.849 234.503,-265.054 224.033,-266.672 227.327,-272.849"/>
 </g>
-<!-- Node23 -->
-<g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" target="_top" xlink:title="MWWorld::Class::getCreature\lStats">
+<!-- Node22 -->
+<g id="node22" class="node"><title>Node22</title>
+<g id="a_node22"><a xlink:href="classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" target="_top" xlink:title="MWWorld::Class::getCreature\lStats">
 <polygon fill="white" stroke="black" points="230,-186 230,-216 384,-216 384,-186 230,-186"/>
 <text text-anchor="start" x="238" y="-204" font-family="FreeSans" font-size="10.00">MWWorld::Class::getCreature</text>
 <text text-anchor="middle" x="307" y="-193" font-family="FreeSans" font-size="10.00">Stats</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node23 -->
-<g id="edge25" class="edge"><title>Node1&#45;&gt;Node23</title>
+<!-- Node1&#45;&gt;Node22 -->
+<g id="edge24" class="edge"><title>Node1&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M94.7211,-474.804C103.618,-429.647 136.12,-295.127 218,-226 220.018,-224.297 222.144,-222.709 224.357,-221.23"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="226.391,-224.096 233.274,-216.041 222.87,-218.046 226.391,-224.096"/>
 </g>
-<!-- Node24 -->
-<g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" target="_top" xlink:title="MWMechanics::CreatureStats\l::getMagicEffects">
+<!-- Node23 -->
+<g id="node23" class="node"><title>Node23</title>
+<g id="a_node23"><a xlink:href="classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" target="_top" xlink:title="MWMechanics::CreatureStats\l::getMagicEffects">
 <polygon fill="white" stroke="black" points="228.5,-137 228.5,-167 385.5,-167 385.5,-137 228.5,-137"/>
 <text text-anchor="start" x="236.5" y="-155" font-family="FreeSans" font-size="10.00">MWMechanics::CreatureStats</text>
 <text text-anchor="middle" x="307" y="-144" font-family="FreeSans" font-size="10.00">::getMagicEffects</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node24 -->
-<g id="edge26" class="edge"><title>Node1&#45;&gt;Node24</title>
+<!-- Node1&#45;&gt;Node23 -->
+<g id="edge25" class="edge"><title>Node1&#45;&gt;Node23</title>
 <path fill="none" stroke="midnightblue" d="M93.4546,-474.967C99.1322,-424.746 124.356,-261.216 218,-177 219.727,-175.447 221.544,-173.989 223.435,-172.622"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="225.519,-175.448 232.15,-167.185 221.813,-169.508 225.519,-175.448"/>
 </g>
-<!-- Node25 -->
-<g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" target="_top" xlink:title="This function can safely be used for keys that are not present. ">
+<!-- Node24 -->
+<g id="node24" class="node"><title>Node24</title>
+<g id="a_node24"><a xlink:href="classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" target="_top" xlink:title="This function can safely be used for keys that are not present. ">
 <polygon fill="white" stroke="black" points="221.5,-98.5 221.5,-117.5 392.5,-117.5 392.5,-98.5 221.5,-98.5"/>
 <text text-anchor="middle" x="307" y="-105.5" font-family="FreeSans" font-size="10.00">MWMechanics::MagicEffects::get</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node25 -->
-<g id="edge27" class="edge"><title>Node1&#45;&gt;Node25</title>
+<!-- Node1&#45;&gt;Node24 -->
+<g id="edge26" class="edge"><title>Node1&#45;&gt;Node24</title>
 <path fill="none" stroke="midnightblue" d="M92.3567,-474.832C94.5276,-419.217 109.866,-224.705 218,-128 220.244,-125.993 222.648,-124.174 225.174,-122.527"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="227.111,-125.456 234.18,-117.564 223.733,-119.325 227.111,-125.456"/>
 </g>
-<!-- Node26 -->
-<g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" target="_top" xlink:title="Get the total magnitude including base and modifier. ">
+<!-- Node25 -->
+<g id="node25" class="node"><title>Node25</title>
+<g id="a_node25"><a xlink:href="structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" target="_top" xlink:title="Get the total magnitude including base and modifier. ">
 <polygon fill="white" stroke="black" points="233.5,-49 233.5,-79 380.5,-79 380.5,-49 233.5,-49"/>
 <text text-anchor="start" x="241.5" y="-67" font-family="FreeSans" font-size="10.00">MWMechanics::EffectParam</text>
 <text text-anchor="middle" x="307" y="-56" font-family="FreeSans" font-size="10.00">::getMagnitude</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node26 -->
-<g id="edge28" class="edge"><title>Node1&#45;&gt;Node26</title>
+<!-- Node1&#45;&gt;Node25 -->
+<g id="edge27" class="edge"><title>Node1&#45;&gt;Node25</title>
 <path fill="none" stroke="midnightblue" d="M91.9516,-474.681C92.6273,-415.652 103.182,-200.686 218,-89 220.135,-86.9236 222.429,-85.0172 224.847,-83.2672"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="226.847,-86.1451 233.5,-77.899 223.157,-80.1968 226.847,-86.1451"/>
 </g>
-<!-- Node27 -->
-<g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="classMWBase_1_1DialogueManager.html#a983111f847f6fdbc0e0b619ef1cabeec" target="_top" xlink:title="MWBase::DialogueManager\l::getTemporaryDispositionChange">
+<!-- Node26 -->
+<g id="node26" class="node"><title>Node26</title>
+<g id="a_node26"><a xlink:href="classMWBase_1_1DialogueManager.html#a983111f847f6fdbc0e0b619ef1cabeec" target="_top" xlink:title="MWBase::DialogueManager\l::getTemporaryDispositionChange">
 <polygon fill="white" stroke="black" points="218,-0 218,-30 396,-30 396,-0 218,-0"/>
 <text text-anchor="start" x="226" y="-18" font-family="FreeSans" font-size="10.00">MWBase::DialogueManager</text>
 <text text-anchor="middle" x="307" y="-7" font-family="FreeSans" font-size="10.00">::getTemporaryDispositionChange</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node27 -->
-<g id="edge29" class="edge"><title>Node1&#45;&gt;Node27</title>
+<!-- Node1&#45;&gt;Node26 -->
+<g id="edge28" class="edge"><title>Node1&#45;&gt;Node26</title>
 <path fill="none" stroke="midnightblue" d="M91.3381,-474.621C89.4885,-411.198 91.1723,-167.309 218,-40 219.429,-38.5654 220.934,-37.2117 222.504,-35.9344"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="224.612,-38.7324 230.842,-30.1635 220.628,-32.9765 224.612,-38.7324"/>
 </g>
@@ -348,35 +348,22 @@
 <path fill="none" stroke="midnightblue" d="M374.042,-680C389.349,-680 405.86,-680 421.887,-680"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="422.331,-683.5 432.331,-680 422.331,-676.5 422.331,-683.5"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
-<polygon fill="white" stroke="black" points="448,-480.5 448,-499.5 570,-499.5 570,-480.5 448,-480.5"/>
-<text text-anchor="middle" x="509" y="-487.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
-</a>
-</g>
-</g>
-<!-- Node15&#45;&gt;Node16 -->
-<g id="edge17" class="edge"><title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M383.042,-490C400.924,-490 419.945,-490 437.61,-490"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="437.836,-493.5 447.836,-490 437.836,-486.5 437.836,-493.5"/>
-</g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" target="_top" xlink:title="Misc::StringUtils::\ltoLower">
+<!-- Node17 -->
+<g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:href="classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" target="_top" xlink:title="Misc::StringUtils::\ltoLower">
 <polygon fill="white" stroke="black" points="459.5,-382 459.5,-412 558.5,-412 558.5,-382 459.5,-382"/>
 <text text-anchor="start" x="467.5" y="-400" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
 <text text-anchor="middle" x="509" y="-389" font-family="FreeSans" font-size="10.00">toLower</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
-<g id="edge19" class="edge"><title>Node17&#45;&gt;Node18</title>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge18" class="edge"><title>Node16&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M356.67,-434.076C384.718,-427.204 420.158,-418.521 449.69,-411.286"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="450.579,-414.672 459.459,-408.893 448.913,-407.873 450.579,-414.672"/>
 </g>
-<!-- Node20&#45;&gt;Node18 -->
-<g id="edge22" class="edge"><title>Node20&#45;&gt;Node18</title>
+<!-- Node19&#45;&gt;Node17 -->
+<g id="edge21" class="edge"><title>Node19&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M356.67,-359.924C384.718,-366.796 420.158,-375.479 449.69,-382.714"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="448.913,-386.127 459.459,-385.107 450.579,-379.328 448.913,-386.127"/>
 </g>

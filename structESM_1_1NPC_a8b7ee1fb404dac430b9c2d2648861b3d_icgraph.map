@@ -1,51 +1,51 @@
 <map id="ESM::NPC::isMale" name="ESM::NPC::isMale">
-<area shape="rect" id="node2" href="$classMWClass_1_1Npc.html#aff53146d2a260a2416558edf0d4522b2" title="MWClass::Npc::adjustScale" alt="" coords="197,1087,390,1113"/>
-<area shape="rect" id="node3" href="$classMWDialogue_1_1Filter.html#a60b07e8170fb7aaff7e252554be1e4ba" title="MWDialogue::Filter\l::getSelectStructInteger" alt="" coords="206,1138,381,1179"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1CharacterCreation.html#a8d12e29ee6100c24ec5959c9fc901243" title="MWGui::CharacterCreation\l::selectRace" alt="" coords="198,1203,389,1245"/>
-<area shape="rect" id="node35" href="$classMWRender_1_1NpcAnimation.html#acf50b96cffb19c225200c4bff36fbce7" title="MWRender::NpcAnimation\l::updateNpcBase" alt="" coords="200,1269,387,1310"/>
-<area shape="rect" id="node44" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="703,1363,889,1405"/>
-<area shape="rect" id="node49" href="$classMWRender_1_1NpcAnimation.html#ae94ad12697744a31deb24ab48b8f1e74" title="MWRender::NpcAnimation\l::addPartGroup" alt="" coords="451,1411,637,1453"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#ab658191aa2c94a4ea8256db10678c102" title="MWWorld::World::createRecord" alt="" coords="187,1461,399,1488"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1CharacterCreation.html#ad93c21a479aa6a12b75e2a5b82caeda5" title="MWGui::CharacterCreation\l::onRaceDialogBack" alt="" coords="449,1047,639,1089"/>
-<area shape="rect" id="node34" href="$classMWGui_1_1CharacterCreation.html#ac8a2fa9c545c30970a27693097377bba" title="MWGui::CharacterCreation\l::onRaceDialogDone" alt="" coords="449,1113,639,1154"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1CharacterCreation.html#a56a9e33b81417cbf53bb8006908c2296" title="MWGui::CharacterCreation\l::spawnDialog" alt="" coords="701,1047,891,1089"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1WindowManager.html#ab9fdbfdc3d3b76fe9813cbb743d334da" title="MWGui::WindowManager\l::updateVisible" alt="" coords="967,678,1143,719"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1WindowManager.html#a2066d296aa345dcb4008cbd07d3c52c2" title="MWGui::WindowManager\l::initUI" alt="" coords="1237,94,1413,135"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1WindowManager.html#a044fcf2ab107f7c97dbf184ab0e3e868" title="MWGui::WindowManager\l::interactiveMessageBox" alt="" coords="1236,286,1415,327"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1WindowManager.html#a0767a1ab9cb727c7bd0243c35226b428" title="MWGui::WindowManager\l::pushGuiMode" alt="" coords="1237,351,1413,393"/>
-<area shape="rect" id="node23" href="$classMWGui_1_1WindowManager.html#a0b79ceda0174bec3ff9efc8ee03ea336" title="MWGui::WindowManager\l::popGuiMode" alt="" coords="1237,417,1413,458"/>
-<area shape="rect" id="node24" href="$classMWGui_1_1WindowManager.html#a6162cf9ad2be7221c1b83ce122af4851" title="can be anywhere in the stack " alt="" coords="1237,482,1413,523"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1WindowManager.html#aeb2d42ff40077e3b3513c5ed67732fc5" title="Allow one or more windows. " alt="" coords="1237,547,1413,589"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1WindowManager.html#a9f2fb85060c4d0ff97fc8e8be332192d" title="Disallow all inventory mode windows. " alt="" coords="1237,613,1413,654"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1WindowManager.html#a19dfd4c859d0d058631664bdb3317d58" title="MWGui::WindowManager\l::toggleVisible" alt="" coords="1237,678,1413,719"/>
-<area shape="rect" id="node28" href="$classMWGui_1_1WindowManager.html#a8c06ac694968e2167fd0180621c5fde1" title="MWGui::WindowManager\l::forceHide" alt="" coords="1237,743,1413,785"/>
-<area shape="rect" id="node29" href="$classMWGui_1_1WindowManager.html#ae9b8cc0be0202b8db35cde4268a5980f" title="MWGui::WindowManager\l::unsetForceHide" alt="" coords="1237,809,1413,850"/>
-<area shape="rect" id="node30" href="$classMWGui_1_1WindowManager.html#a905661719f4bec66a53d06005ee4c185" title="Turn visibility of all GUI elements on or off (HUD and all windows, except the console) ..." alt="" coords="1237,874,1413,915"/>
-<area shape="rect" id="node31" href="$classMWGui_1_1WindowManager.html#afb89d5bc0e8f5c530bc1e40e151877c1" title="MWGui::WindowManager\l::showSoulgemDialog" alt="" coords="1237,939,1413,981"/>
-<area shape="rect" id="node32" href="$classMWGui_1_1WindowManager.html#a9825efe2509280a4e509c80fdb140513" title="Clear all savegame&#45;specific data. " alt="" coords="1237,1005,1413,1046"/>
-<area shape="rect" id="node33" href="$classMWGui_1_1WindowManager.html#a2ebf9d8952c285e995a7a3681bfb2c30" title="MWGui::WindowManager\l::pinWindow" alt="" coords="1237,1070,1413,1111"/>
-<area shape="rect" id="node9" href="$classOMW_1_1Engine.html#a9edab665083b0f5db2cda761f3e9c2c3" title="Prepare engine for game play. " alt="" coords="1493,5,1699,32"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1WindowManager.html#a601bb982ab0708ae59f272cf67cfd9e7" title="MWGui::WindowManager\l::goToJail" alt="" coords="1508,57,1684,98"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1WindowManager.html#ab27b3a1d079d81ff649d0a301d781b95" title="MWGui::WindowManager\l::startSpellMaking" alt="" coords="1508,122,1684,163"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1WindowManager.html#a169ee28e16d96b8e085726ad4c095880" title="MWGui::WindowManager\l::startEnchanting" alt="" coords="1508,187,1684,229"/>
-<area shape="rect" id="node15" href="$classMWGui_1_1WindowManager.html#acb3621cc1a80db64e1ac0b9352233a73" title="MWGui::WindowManager\l::startTraining" alt="" coords="1508,253,1684,294"/>
-<area shape="rect" id="node16" href="$classMWGui_1_1WindowManager.html#aade231b3374027ad04211629868f83bf" title="MWGui::WindowManager\l::startRepair" alt="" coords="1508,318,1684,359"/>
-<area shape="rect" id="node17" href="$classMWGui_1_1WindowManager.html#a2c4b9b3d62012f7a1e4bf23a7205f734" title="MWGui::WindowManager\l::startRepairItem" alt="" coords="1508,383,1684,425"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1WindowManager.html#a678823d516ff55e041cc33a93f3add8c" title="MWGui::WindowManager\l::showCompanionWindow" alt="" coords="1505,449,1687,490"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#ad9a458d0b83ce7784c76194f41534454" title="MWGui::WindowManager\l::startTravel" alt="" coords="1508,514,1684,555"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1WindowManager.html#a0d6f0bf76209bdcc312f2fc983b1b542" title="MWGui::WindowManager\l::startSpellBuying" alt="" coords="1508,579,1684,621"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1WindowManager.html#a4b7027f6a09b5ab6a55cd57862afc16d" title="MWGui::WindowManager\l::startTrade" alt="" coords="1508,645,1684,686"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1WindowManager.html#aad6ad9c6fd5953271278ae322ba590dd" title="MWGui::WindowManager\l::openContainer" alt="" coords="1508,710,1684,751"/>
-<area shape="rect" id="node36" href="$classMWRender_1_1NpcAnimation.html#a0f12942b0015ca2fae3b43f6c2f9d2b7" title="MWRender::NpcAnimation\l::NpcAnimation" alt="" coords="451,1178,637,1219"/>
-<area shape="rect" id="node37" href="$classMWRender_1_1NpcAnimation.html#a8b37aef38ba00e4f82ffd785141c1321" title="Rebuilds the NPC, updating their root model, animation sources, and equipment. " alt="" coords="451,1243,637,1285"/>
-<area shape="rect" id="node38" href="$classMWRender_1_1NpcAnimation.html#aed4db842528e550579621b23034ece08" title="MWRender::NpcAnimation\l::setViewMode" alt="" coords="703,1167,889,1209"/>
-<area shape="rect" id="node46" href="$classMWRender_1_1NpcAnimation.html#a4020bbf960b561c7df1de59b78b6d8a9" title="MWRender::NpcAnimation\l::setVampire" alt="" coords="703,1233,889,1274"/>
-<area shape="rect" id="node47" href="$classMWRender_1_1RenderingManager.html#a9e4ed5892fefee1137616dee112148ed" title="MWRender::RenderingManager\l::rebuildPtr" alt="" coords="689,1298,903,1339"/>
-<area shape="rect" id="node39" href="$classMWRender_1_1Camera.html#a0b9b9cf1b627b7c2fcca748ee18c5d41" title="MWRender::Camera::process\lViewChange" alt="" coords="952,1201,1157,1242"/>
-<area shape="rect" id="node40" href="$classMWRender_1_1Camera.html#a477d5edf8fca551155bf93dc5e34c595" title="MWRender::Camera::toggle\lViewMode" alt="" coords="1228,1135,1423,1177"/>
-<area shape="rect" id="node41" href="$classMWRender_1_1Camera.html#a0c2c4ab36df92e1e0c64066327d550d3" title="MWRender::Camera::toggle\lVanityMode" alt="" coords="1228,1201,1423,1242"/>
-<area shape="rect" id="node42" href="$classMWRender_1_1Camera.html#a253daff447caae0e554a1b25ab4d4537" title="MWRender::Camera::toggle\lPreviewMode" alt="" coords="1228,1266,1423,1307"/>
-<area shape="rect" id="node43" href="$classMWRender_1_1Camera.html#ab5a7a5e19fed784bc9d552b94daad255" title="MWRender::Camera::setAnimation" alt="" coords="1205,1332,1445,1359"/>
-<area shape="rect" id="node45" href="$classMWRender_1_1NpcAnimation.html#ab59d8ebd14b1f0c770a8443bc738d842" title="MWRender::NpcAnimation\l::equipmentChanged" alt="" coords="961,1363,1148,1405"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1World.html#a71d398a25a102e875e94f1ad1c642113" title="MWWorld::World::reattach\lPlayerCamera" alt="" coords="963,1298,1146,1339"/>
+<area shape="rect" id="node2" href="$classMWClass_1_1Npc.html#aff53146d2a260a2416558edf0d4522b2" title="MWClass::Npc::adjustScale" alt="" coords="197,608,390,635"/>
+<area shape="rect" id="node3" href="$classMWDialogue_1_1Filter.html#a60b07e8170fb7aaff7e252554be1e4ba" title="MWDialogue::Filter\l::getSelectStructInteger" alt="" coords="206,659,381,701"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1CharacterCreation.html#a8d12e29ee6100c24ec5959c9fc901243" title="MWGui::CharacterCreation\l::selectRace" alt="" coords="198,725,389,766"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1RaceDialog.html#abb69dd02c7ba1753cc5e68664af637e5" title="Notify that window has been made visible. " alt="" coords="217,790,369,831"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1CastSpell.html#a4e4369b3c09094115d3bdf6bf14445e9" title="MWMechanics::CastSpell\l::playSpellCastingEffects" alt="" coords="204,855,383,897"/>
+<area shape="rect" id="node40" href="$classMWRender_1_1NpcAnimation.html#acf50b96cffb19c225200c4bff36fbce7" title="MWRender::NpcAnimation\l::updateNpcBase" alt="" coords="200,931,387,973"/>
+<area shape="rect" id="node45" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="771,1161,957,1202"/>
+<area shape="rect" id="node49" href="$classMWRender_1_1NpcAnimation.html#ae94ad12697744a31deb24ab48b8f1e74" title="MWRender::NpcAnimation\l::addPartGroup" alt="" coords="477,1161,664,1202"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#a7d0ab2f8828263def8994634d3aee770" title="MWWorld::World::createRecord" alt="" coords="187,1211,399,1237"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1CharacterCreation.html#ad93c21a479aa6a12b75e2a5b82caeda5" title="MWGui::CharacterCreation\l::onRaceDialogBack" alt="" coords="475,407,666,449"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1CharacterCreation.html#ac8a2fa9c545c30970a27693097377bba" title="MWGui::CharacterCreation\l::onRaceDialogDone" alt="" coords="475,479,666,521"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1CharacterCreation.html#a56a9e33b81417cbf53bb8006908c2296" title="MWGui::CharacterCreation\l::spawnDialog" alt="" coords="769,403,959,445"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1WindowManager.html#ab9fdbfdc3d3b76fe9813cbb743d334da" title="MWGui::WindowManager\l::updateVisible" alt="" coords="1049,403,1225,445"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1WindowManager.html#a2066d296aa345dcb4008cbd07d3c52c2" title="MWGui::WindowManager\l::initUI" alt="" coords="1289,5,1465,46"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1WindowManager.html#a044fcf2ab107f7c97dbf184ab0e3e868" title="MWGui::WindowManager\l::interactiveMessageBox" alt="" coords="1288,70,1467,111"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1WindowManager.html#a1c324aaf572326e89420cfec288b433c" title="MWGui::WindowManager\l::pushGuiMode" alt="" coords="1289,135,1465,177"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1WindowManager.html#a8f63377cbff070264ed7da37076040c1" title="MWGui::WindowManager\l::popGuiMode" alt="" coords="1289,253,1465,294"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1WindowManager.html#a6b2a76f33e841032740681216f2fcc7b" title="can be anywhere in the stack " alt="" coords="1515,207,1691,249"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1WindowManager.html#a9825efe2509280a4e509c80fdb140513" title="Clear all savegame&#45;specific data. " alt="" coords="1515,286,1691,327"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1WindowManager.html#aeb2d42ff40077e3b3513c5ed67732fc5" title="Allow one or more windows. " alt="" coords="1289,370,1465,411"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1WindowManager.html#a9f2fb85060c4d0ff97fc8e8be332192d" title="Disallow all inventory mode windows. " alt="" coords="1289,435,1465,477"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1WindowManager.html#a19dfd4c859d0d058631664bdb3317d58" title="MWGui::WindowManager\l::toggleVisible" alt="" coords="1289,501,1465,542"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1WindowManager.html#a8c06ac694968e2167fd0180621c5fde1" title="MWGui::WindowManager\l::forceHide" alt="" coords="1289,566,1465,607"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1WindowManager.html#ae9b8cc0be0202b8db35cde4268a5980f" title="MWGui::WindowManager\l::unsetForceHide" alt="" coords="1289,631,1465,673"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#a0af4fdd65c849f2481367a76d9dc54da" title="Turn visibility of HUD on or off. " alt="" coords="1289,697,1465,738"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1WindowManager.html#afb89d5bc0e8f5c530bc1e40e151877c1" title="MWGui::WindowManager\l::showSoulgemDialog" alt="" coords="1289,762,1465,803"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1WindowManager.html#a2ebf9d8952c285e995a7a3681bfb2c30" title="MWGui::WindowManager\l::pinWindow" alt="" coords="1289,827,1465,869"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1CharacterController.html#a4175bf09276ead0120e4ad83f0cc42ad" title="MWMechanics::CharacterController\l::updateCreatureState" alt="" coords="449,559,693,601"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1CharacterController.html#adbe55fec5b46749238b06528363709ce" title="MWMechanics::CharacterController\l::updateWeaponState" alt="" coords="449,654,693,695"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1CastSpell.html#a54e54268a860259340cbcca06a8d00fc" title="MWMechanics::CastSpell\l::cast" alt="" coords="481,778,660,819"/>
+<area shape="rect" id="node36" href="$classMWScript_1_1Misc_1_1OpCast.html#a99e2d9dcadf9665f1a9797363f202bf0" title="MWScript::Misc::OpCast\l::execute" alt="" coords="778,899,950,941"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="742,469,986,510"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1057,469,1217,510"/>
+<area shape="rect" id="node30" href="$classMWClass_1_1Npc.html#af6723ba6a47b408d1af74c9d34613228" title="MWClass::Npc::apply" alt="" coords="787,535,941,561"/>
+<area shape="rect" id="node31" href="$namespaceMWMechanics.html#ab90221f566691b0961d8e8d5daea6ddf" title="MWMechanics::applyOnStrike\lEnchantment" alt="" coords="760,586,968,627"/>
+<area shape="rect" id="node35" href="$classMWMechanics_1_1CastSpell.html#a82cd49d48bac53c79545074d39f207f8" title="MWMechanics::CastSpell\l::cast" alt="" coords="775,651,953,693"/>
+<area shape="rect" id="node37" href="$classMWScript_1_1Misc_1_1OpExplodeSpell.html#a918d78f5dc4f40aff9e75d9497e0eb1d" title="MWScript::Misc::OpExplode\lSpell::execute" alt="" coords="767,717,961,758"/>
+<area shape="rect" id="node38" href="$classMWWorld_1_1ActionTrap.html#a21871cf85cb42949268933ae49b34a98" title="MWWorld::ActionTrap\l::executeImp" alt="" coords="788,782,940,823"/>
+<area shape="rect" id="node39" href="$classMWWorld_1_1World.html#aa018bf3e47a39bb1bf25bdbcd2116db5" title="Cast the actual spell, should be called mid&#45;animation. " alt="" coords="771,848,957,875"/>
+<area shape="rect" id="node32" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="1054,543,1221,569"/>
+<area shape="rect" id="node33" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="1070,593,1205,620"/>
+<area shape="rect" id="node34" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="1040,644,1235,671"/>
+<area shape="rect" id="node41" href="$classMWRender_1_1NpcAnimation.html#a7ac96f6eb30820fe43445b549c66dd10" title="MWRender::NpcAnimation\l::NpcAnimation" alt="" coords="477,927,664,969"/>
+<area shape="rect" id="node42" href="$classMWRender_1_1NpcAnimation.html#a8b37aef38ba00e4f82ffd785141c1321" title="Rebuilds the NPC, updating their root model, animation sources, and equipment. " alt="" coords="477,993,664,1034"/>
+<area shape="rect" id="node43" href="$classMWRender_1_1NpcAnimation.html#aed4db842528e550579621b23034ece08" title="MWRender::NpcAnimation\l::setViewMode" alt="" coords="771,965,957,1006"/>
+<area shape="rect" id="node47" href="$classMWRender_1_1NpcAnimation.html#a4020bbf960b561c7df1de59b78b6d8a9" title="MWRender::NpcAnimation\l::setVampire" alt="" coords="771,1030,957,1071"/>
+<area shape="rect" id="node48" href="$classMWRender_1_1RenderingManager.html#a9e4ed5892fefee1137616dee112148ed" title="MWRender::RenderingManager\l::rebuildPtr" alt="" coords="757,1095,971,1137"/>
+<area shape="rect" id="node44" href="$classMWRender_1_1Camera.html#a0b9b9cf1b627b7c2fcca748ee18c5d41" title="MWRender::Camera::process\lViewChange" alt="" coords="1035,965,1240,1006"/>
+<area shape="rect" id="node46" href="$classMWRender_1_1NpcAnimation.html#ab59d8ebd14b1f0c770a8443bc738d842" title="MWRender::NpcAnimation\l::equipmentChanged" alt="" coords="1044,1161,1231,1202"/>
 </map>

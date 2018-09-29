@@ -111,16 +111,16 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" target="_top" xlink:title="Throws an exception if GMST is not of type int or float. ">
-<polygon fill="white" stroke="black" points="192,-0.5 192,-19.5 344,-19.5 344,-0.5 192,-0.5"/>
-<text text-anchor="middle" x="268" y="-7.5" font-family="FreeSans" font-size="10.00">ESM::GameSetting::getFloat</text>
+<g id="a_node10"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
+<polygon fill="white" stroke="black" points="207,-0.5 207,-19.5 329,-19.5 329,-0.5 207,-0.5"/>
+<text text-anchor="middle" x="268" y="-7.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
 <g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M81.3482,-139.792C96.9579,-112.883 133.257,-57.0758 180,-29 183.653,-26.8059 187.528,-24.864 191.534,-23.1455"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="192.97,-26.3445 201.08,-19.5273 190.489,-19.799 192.97,-26.3445"/>
+<path fill="none" stroke="midnightblue" d="M81.3482,-139.792C96.9579,-112.883 133.257,-57.0758 180,-29 185.392,-25.7611 191.268,-23.0718 197.338,-20.8392"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="198.57,-24.1191 206.994,-17.6935 196.401,-17.4634 198.57,-24.1191"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -134,19 +134,6 @@
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M339.753,-306C353.458,-306 367.819,-306 381.516,-306"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="381.838,-309.5 391.838,-306 381.838,-302.5 381.838,-309.5"/>
-</g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
-<polygon fill="white" stroke="black" points="392,-0.5 392,-19.5 514,-19.5 514,-0.5 392,-0.5"/>
-<text text-anchor="middle" x="453" y="-7.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
-</a>
-</g>
-</g>
-<!-- Node10&#45;&gt;Node11 -->
-<g id="edge10" class="edge"><title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M344.225,-10C356.625,-10 369.437,-10 381.71,-10"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="381.872,-13.5001 391.872,-10 381.872,-6.5001 381.872,-13.5001"/>
 </g>
 </g>
 </svg>

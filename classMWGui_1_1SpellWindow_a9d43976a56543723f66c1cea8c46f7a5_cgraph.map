@@ -1,21 +1,51 @@
 <map id="MWGui::SpellWindow::onFrame" name="MWGui::SpellWindow::onFrame">
-<area shape="rect" id="node2" href="$classMWGui_1_1NoDrop.html#a01d7181ce6174852d31d3df2cb88cc45" title="MWGui::NoDrop::onFrame" alt="" coords="220,84,407,111"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1SpellView.html#a95e54a1e8d2dffafe0bee574c10f6010" title="simplified update called each frame " alt="" coords="205,135,421,177"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1NoDrop.html#a752b285f012a11943d191c221ab19fd8" title="MWGui::NoDrop::setAlpha" alt="" coords="469,84,656,111"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1SpellView.html#ad48b1bca872a48bb954f5baba1178070" title="MWGui::SpellView::update" alt="" coords="470,143,655,169"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1SpellView.html#a7cd136b6f9283fa5a25a0b488a33809d" title="MWGui::SpellView::addGroup" alt="" coords="704,19,907,45"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1SpellView.html#a853e08bef14ed02f3b2d668910869800" title="MWGui::SpellView::adjust\lSpellWidget" alt="" coords="716,70,895,111"/>
-<area shape="rect" id="node14" href="$classGui_1_1SharedStateButton.html#a8b12bd53a8c2f60cf1b0392b45550a4b" title="Gui::SharedStateButton\l::createButtonGroup" alt="" coords="718,135,893,177"/>
-<area shape="rect" id="node15" href="$classGui_1_1SharedStateButton.html#a6f987b9009ca1d30be035b39ca4f35fa" title="Set button selected state. " alt="" coords="718,201,893,242"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1SpellView.html#a64eae54eecdb47590acb3afd0b90c807" title="MWGui::SpellView::layout\lWidgets" alt="" coords="716,266,895,307"/>
-<area shape="rect" id="node8" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="960,5,1149,46"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1SpellView.html#a86614bbfeda00c2bee878b62200f03e5" title="MWGui::SpellView::onMouse\lWheelMoved" alt="" coords="955,70,1154,111"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1SpellView.html#a06d01f76715b4ce8758ab429eebd6666" title="MWGui::SpellView::onSpell\lSelected" alt="" coords="961,135,1148,177"/>
-<area shape="rect" id="node9" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="1273,12,1324,39"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1SpellView.html#a99c21885185531c38e5ee3cb02c7453e" title="MWGui::SpellView::getSpell\lModelIndex" alt="" coords="1203,135,1395,177"/>
-<area shape="rect" id="node13" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a1b1be5e90ec855097d0bb28ea12e3e1f" title="anonymous_namespace\l\{settings::cpp\}::parseInt" alt="" coords="1443,135,1623,177"/>
-<area shape="rect" id="node16" href="$classGui_1_1SharedStateButton.html#acf8499df1fdbd362b9db44b4614015f6" title="Gui::SharedStateButton\l::updateButtonState" alt="" coords="967,201,1142,242"/>
-<area shape="rect" id="node17" href="$classGui_1_1SharedStateButton.html#a1b0d95eedf4ca4936277d3f30dafd310" title="Gui::SharedStateButton\l::_setState" alt="" coords="1211,201,1386,242"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1SpellView.html#ac2dba676d0d82e8bd8afd1e741bba25e" title="MWGui::SpellView::setCoord" alt="" coords="955,269,1154,296"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1SpellView.html#a84a5caa6653a2cafada4eca7f54a5caf" title="MWGui::SpellView::setSize" alt="" coords="961,320,1148,347"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1NoDrop.html#a01d7181ce6174852d31d3df2cb88cc45" title="MWGui::NoDrop::onFrame" alt="" coords="220,85,407,112"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1SpellView.html#a95e54a1e8d2dffafe0bee574c10f6010" title="simplified update called each frame " alt="" coords="205,246,421,287"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="761,472,956,499"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1SpellIcons.html#ad1a1586837925af84958253a49d1bc13" title="MWGui::SpellIcons::\lupdateWidgets" alt="" coords="241,990,386,1031"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1NoDrop.html#a752b285f012a11943d191c221ab19fd8" title="MWGui::NoDrop::setAlpha" alt="" coords="489,5,676,32"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1ToolTips.html#a194fa80660d696e3017a0df1b80f7b7e" title="MWGui::ToolTips::getCount\lString" alt="" coords="764,41,953,82"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1SpellView.html#ad48b1bca872a48bb954f5baba1178070" title="MWGui::SpellView::update" alt="" coords="490,253,675,280"/>
+<area shape="rect" id="node6" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="1027,93,1216,134"/>
+<area shape="rect" id="node7" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="1269,100,1320,127"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1SpellView.html#a7cd136b6f9283fa5a25a0b488a33809d" title="MWGui::SpellView::addGroup" alt="" coords="757,224,960,251"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1SpellView.html#a853e08bef14ed02f3b2d668910869800" title="MWGui::SpellView::adjust\lSpellWidget" alt="" coords="769,158,948,199"/>
+<area shape="rect" id="node13" href="$classGui_1_1SharedStateButton.html#a8b12bd53a8c2f60cf1b0392b45550a4b" title="Gui::SharedStateButton\l::createButtonGroup" alt="" coords="771,275,946,317"/>
+<area shape="rect" id="node14" href="$classGui_1_1SharedStateButton.html#a6f987b9009ca1d30be035b39ca4f35fa" title="Set button selected state. " alt="" coords="771,341,946,382"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1SpellView.html#a64eae54eecdb47590acb3afd0b90c807" title="MWGui::SpellView::layout\lWidgets" alt="" coords="769,406,948,447"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1SpellView.html#a86614bbfeda00c2bee878b62200f03e5" title="MWGui::SpellView::onMouse\lWheelMoved" alt="" coords="1022,158,1221,199"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1SpellView.html#a06d01f76715b4ce8758ab429eebd6666" title="MWGui::SpellView::onSpell\lSelected" alt="" coords="1028,223,1215,265"/>
+<area shape="rect" id="node15" href="$classGui_1_1SharedStateButton.html#acf8499df1fdbd362b9db44b4614015f6" title="Gui::SharedStateButton\l::updateButtonState" alt="" coords="1034,341,1209,382"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1SpellView.html#ac2dba676d0d82e8bd8afd1e741bba25e" title="MWGui::SpellView::setCoord" alt="" coords="1022,413,1221,440"/>
+<area shape="rect" id="node20" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="493,523,672,549"/>
+<area shape="rect" id="node21" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="776,574,941,615"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="499,873,666,900"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="480,925,685,966"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="479,990,687,1031"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1InventoryStore.html#aeb4d01b723a90c8337eb1ca4cd3d2d5b" title="MWWorld::InventoryStore\l::visitEffectSources" alt="" coords="493,625,673,666"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="769,691,948,717"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="478,1055,687,1097"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1Spells.html#a6dd7e130d5bf716af0a691b8eec9c64a" title="MWMechanics::Spells\l::visitEffectSources" alt="" coords="504,742,661,783"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1CreatureStats.html#a3b0d65eeea640e83e98ec402534742c4" title="MWMechanics::CreatureStats\l::getActiveSpells" alt="" coords="478,1121,687,1162"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1ActiveSpells.html#ab70b2de3202110707efc8f5c2e1bc495" title="MWMechanics::ActiveSpells\l::visitEffectSources" alt="" coords="485,807,681,849"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="491,1187,674,1213"/>
+<area shape="rect" id="node40" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="501,1237,664,1264"/>
+<area shape="rect" id="node41" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="500,1289,665,1330"/>
+<area shape="rect" id="node42" href="$classMWBase_1_1WindowManager.html#abf41d3bcda8d80e24d3e859bd9238afa" title="MWBase::WindowManager\l::getGameSettingString" alt="" coords="489,1354,676,1395"/>
+<area shape="rect" id="node43" href="$structESM_1_1MagicEffect.html#aa860fe480a7798c435222b58c4a2d661" title="ESM::MagicEffect::getMagnitude\lDisplayType" alt="" coords="469,1419,696,1461"/>
+<area shape="rect" id="node44" href="$classSettings_1_1Manager.html#a7e998aa8bd957a6852d4232facb801a2" title="Settings::Manager::\lgetBool" alt="" coords="509,1485,656,1526"/>
+<area shape="rect" id="node47" href="$classMWGui_1_1ToolTips.html#a8d60c8c7be3bbc5952d9e2b81e5350da" title="MWGui::ToolTips::toString" alt="" coords="492,1551,673,1577"/>
+<area shape="rect" id="node48" href="$namespaceMisc_1_1ResourceHelpers.html#ab9be8dea9abed3a219879047eae78c78" title="Misc::ResourceHelpers\l::correctIconPath" alt="" coords="500,1602,665,1643"/>
+<area shape="rect" id="node50" href="$structESM_1_1MagicEffect.html#ad14b1f6afd175dda88c758348543c70d" title="ESM::MagicEffect::effect\lIdToString" alt="" coords="495,1667,670,1709"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="757,523,961,549"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1World.html#a0f00495e9e4289c5176eacb4c37f4f61" title="MWWorld::World::getStore" alt="" coords="767,640,951,667"/>
+<area shape="rect" id="node29" href="$structMWMechanics_1_1EffectSourceVisitor.html#a4f745b819a1b5402265162f4febcf5eb" title="MWMechanics::EffectSource\lVisitor::visit" alt="" coords="759,742,959,783"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1Spells.html#af0b10e0144a4b8249b5dfa09253197e2" title="MWMechanics::Spells\l::rebuildEffects" alt="" coords="780,807,937,849"/>
+<area shape="rect" id="node35" href="$classMWMechanics_1_1ActiveSpells.html#a7cd012fbaf717271309900a900a35ec0" title="MWMechanics::ActiveSpells\l::begin" alt="" coords="761,873,957,914"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1ActiveSpells.html#a75ca6b2c4c1be33c74400096e9df6926" title="MWMechanics::ActiveSpells::end" alt="" coords="745,939,973,965"/>
+<area shape="rect" id="node37" href="$classMWBase_1_1World.html#a76f7409bf6610ddd1287d089ea9d245f" title="MWBase::World::getTimeScale\lFactor" alt="" coords="752,990,965,1031"/>
+<area shape="rect" id="node38" href="$classMWBase_1_1World.html#afedfaa8a949d00d5905eb8ae070492fe" title="Return current in&#45;game time stamp. " alt="" coords="748,1056,969,1083"/>
+<area shape="rect" id="node45" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="763,1445,955,1486"/>
+<area shape="rect" id="node46" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="785,1510,932,1551"/>
+<area shape="rect" id="node49" href="$namespaceMisc_1_1ResourceHelpers.html#a60f7cce3be796f0aac56a81f5991204d" title="Misc::ResourceHelpers\l::correctResourcePath" alt="" coords="776,1602,941,1643"/>
 </map>

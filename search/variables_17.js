@@ -4,7 +4,7 @@ var searchData=
   ['weatherupdatetimerecord',['weatherUpdateTimeRecord',['../namespaceanonymous__namespace_02weatherstate_8cpp_03.html#a80280ca99094554141ccf7bff51314b0',1,'anonymous_namespace{weatherstate.cpp}']]],
   ['weight',['weight',['../structNif_1_1NiSkinData_1_1VertWeight.html#af74e5ecd665f820b74eaf8623f637050',1,'Nif::NiSkinData::VertWeight']]],
   ['weights',['weights',['../structNif_1_1NiSkinData_1_1BoneInfo.html#a06ee0ab7b456a0da0b7eca0fa49c45e9',1,'Nif::NiSkinData::BoneInfo']]],
-  ['width',['width',['../structGui_1_1GlyphInfo.html#a54ec8a0d6a490b5461c6b6e1574536cf',1,'Gui::GlyphInfo::width()'],['../structNif_1_1NiPixelData_1_1Mipmap.html#af305dd01029a18410f8fdc37f70d6cda',1,'Nif::NiPixelData::Mipmap::width()']]],
+  ['width',['width',['../structMWGui_1_1GlyphInfo.html#a6f86ab0a0e8f89097d1d954a58dfa64f',1,'MWGui::GlyphInfo::width()'],['../structGui_1_1GlyphInfo.html#a54ec8a0d6a490b5461c6b6e1574536cf',1,'Gui::GlyphInfo::width()'],['../structNif_1_1NiPixelData_1_1Mipmap.html#af305dd01029a18410f8fdc37f70d6cda',1,'Nif::NiPixelData::Mipmap::width()']]],
   ['windows_5f1250',['windows_1250',['../namespaceToUTF8.html#a6a9aacb9389a939f0fb3689cfe434b4b',1,'ToUTF8']]],
   ['windows_5f1251',['windows_1251',['../namespaceToUTF8.html#a8f34d9e2148f7f54e42fa55570f055ac',1,'ToUTF8']]],
   ['windows_5f1252',['windows_1252',['../namespaceToUTF8.html#aeb7e3588449f986822ed1a4c378fb52c',1,'ToUTF8']]],

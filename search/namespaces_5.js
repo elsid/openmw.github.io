@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['gui',['Gui',['../namespaceGui.html',1,'']]]
+  ['fallback',['Fallback',['../namespaceFallback.html',1,'']]],
+  ['filefinder',['FileFinder',['../namespaceFileFinder.html',1,'']]],
+  ['files',['Files',['../namespaceFiles.html',1,'']]]
 ];

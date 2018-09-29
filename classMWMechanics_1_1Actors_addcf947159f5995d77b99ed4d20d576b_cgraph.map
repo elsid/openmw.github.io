@@ -1,0 +1,51 @@
+<map id="MWMechanics::Actors::updateCrimePursuit" name="MWMechanics::Actors::updateCrimePursuit">
+<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="519,132,697,159"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="779,31,973,57"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="793,82,959,123"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="245,477,411,504"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Class.html#a93babe591b0f7b9bb79adbdeccff099a" title="MWWorld::Class::isNpc" alt="" coords="247,528,409,555"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="225,579,431,621"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="224,645,432,672"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1NpcStats.html#af1693fef2b49c958fec69ec5a462b8c1" title="MWMechanics::NpcStats\l::isWerewolf" alt="" coords="239,697,417,738"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Class.html#a58430b64973e43d785c1fb5b8204bb64" title="MWWorld::Class::isClass" alt="" coords="242,763,414,789"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1CreatureStats.html#a41095b0401003a54a35299813ed2909f" title="MWMechanics::CreatureStats\l::getAiSequence" alt="" coords="223,814,433,855"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1AiSequence.html#a37cd79acd4ac66c554dec862b8fe3074" title="Returns currently executing AiPackage type. " alt="" coords="511,183,705,225"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1AiSequence.html#a9700908faffb850096663704eaef39f4" title="Is there any combat package? " alt="" coords="231,879,425,921"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="223,945,433,986"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="214,1011,442,1037"/>
+<area shape="rect" id="node17" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="230,1062,426,1103"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="237,1128,419,1155"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="239,1179,417,1205"/>
+<area shape="rect" id="node20" href="$classESM_1_1Variant.html#aad77cad9a160b176ea71e09ecf2c55a5" title="ESM::Variant::getInteger" alt="" coords="239,1229,417,1256"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1NpcStats.html#a704803c76df3605741dd76ad4f8ad416" title="MWMechanics::NpcStats\l::getBounty" alt="" coords="239,1281,417,1322"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1World.html#aae3a221bbcc01a4809dc900da7064969" title="get Line of Sight (morrowind stupid implementation) " alt="" coords="241,1347,415,1373"/>
+<area shape="rect" id="node23" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="241,1398,415,1439"/>
+<area shape="rect" id="node24" href="$classMWBase_1_1MechanicsManager.html#ad4cf9151488f6d826b0a45e5e56fb8dc" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="225,1463,431,1505"/>
+<area shape="rect" id="node25" href="$classMWBase_1_1MechanicsManager.html#a1886fe1a2ec07749e0243a028c55cc91" title="Makes ptr fight target. Also shouts a combat taunt. " alt="" coords="225,1529,431,1570"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1CreatureStats.html#a10b13c04139e3336f644d8598cd0a89f" title="MWMechanics::CreatureStats\l::setHitAttemptActorId" alt="" coords="223,1594,433,1635"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1CreatureStats.html#a461bce247ab87237abd9238051f9bdee" title="Will generate an actor ID, if the actor does not have one yet. " alt="" coords="223,1659,433,1701"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1AiSequence.html#aaf3a6fc0797cb952d027f374c2a325af" title="MWMechanics::AiSequence\l::stack" alt="" coords="231,411,425,453"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1AiSequence.html#a351aa9dce91b9e9eac5f8de555997a8d" title="Removes all combat packages until first non&#45;combat or stack empty. " alt="" coords="511,249,705,290"/>
+<area shape="rect" id="node42" href="$classMWMechanics_1_1CreatureStats.html#aadc7a13d9f0e982156405b6631a15efd" title="MWMechanics::CreatureStats\l::setAlarmed" alt="" coords="223,1725,433,1766"/>
+<area shape="rect" id="node43" href="$classMWMechanics_1_1NpcStats.html#a8a11943a4c621528885804e5808e843e" title="MWMechanics::NpcStats\l::setCrimeId" alt="" coords="239,1790,417,1831"/>
+<area shape="rect" id="node44" href="$classMWMechanics_1_1NpcStats.html#a2342f987323ddc762b5e8ad7ce861cfc" title="MWMechanics::NpcStats\l::getCrimeId" alt="" coords="239,1855,417,1897"/>
+<area shape="rect" id="node45" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="235,1921,421,1948"/>
+<area shape="rect" id="node46" href="$classMWWorld_1_1Player.html#a9fac262a7c077b0e0809516f7e067574" title="MWWorld::Player::getCrimeId" alt="" coords="227,1972,429,1999"/>
+<area shape="rect" id="node47" href="$classMWMechanics_1_1AiSequence.html#a8c42636cea0409a230f610263ceae5fe" title="Removes all pursue packages until first non&#45;pursue or stack empty. " alt="" coords="231,2023,425,2065"/>
+<area shape="rect" id="node48" href="$classMWMechanics_1_1CreatureStats.html#ae86bf157d1c38cc7ae4c168b0761a881" title="MWMechanics::CreatureStats\l::setAttacked" alt="" coords="223,2089,433,2130"/>
+<area shape="rect" id="node49" href="$classMWMechanics_1_1CreatureStats.html#ace63bd5ef649c66ec1409e74f632a953" title="MWMechanics::CreatureStats\l::setAiSetting" alt="" coords="223,2154,433,2195"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1Class.html#a711d6bbf22f143ba4cfee4bd91ff03ed" title="MWWorld::Class::getBaseFight\lRating" alt="" coords="223,2219,433,2261"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="774,148,978,175"/>
+<area shape="rect" id="node29" href="$namespaceMWMechanics.html#a794ad3ada7ff83ab435c368a224c6fbd" title="MWMechanics::isActualAiPackage" alt="" coords="491,511,725,537"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1AiPackage.html#a65efe0a8b26a64a972e1e88f8231900d" title="MWMechanics::AiPackage\l::getTypeId" alt="" coords="516,562,700,603"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1AiSequence.html#a384b331bd40753450d599e3411e49a75" title="Does this AI sequence have the given package type? " alt="" coords="511,627,705,669"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1AiSequence.html#a6fd12b64e3605085c64157f205d8d928" title="Return the current active package. " alt="" coords="511,693,705,734"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1AiPackage.html#ad8831fc3660926f8635630f13ba3c800" title="Get the destination point of the AI package (not applicable to all AI packages, default return (0..." alt="" coords="516,758,700,799"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="517,824,699,851"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="501,875,715,901"/>
+<area shape="rect" id="node37" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="527,925,689,952"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1AiPackage.html#ac4a9ff2150d84e42700e3e348ed93a8b" title="Upon adding this Ai package, should the Ai Sequence attempt to cancel previous Ai packages (default t..." alt="" coords="516,977,700,1018"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1AiPackage.html#a799403fa700b84b157560cc018bf979d" title="Higher number is higher priority (0 being the lowest) " alt="" coords="516,314,700,355"/>
+<area shape="rect" id="node40" href="$classMWMechanics_1_1AiPackage.html#accc18823204668ac8865b2919f001252" title="Clones the package. " alt="" coords="516,379,700,421"/>
+<area shape="rect" id="node41" href="$classMWMechanics_1_1DerivedClassStorage.html#a116a8f3f9bb7540a206aba3986239543" title="takes ownership of the passed object " alt="" coords="507,445,709,486"/>
+</map>

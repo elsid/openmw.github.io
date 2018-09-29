@@ -114,7 +114,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classMWBase_1_1WindowManager.html#a2bd841a5f56e0a5cbbd69a839f505c89" target="_top" xlink:title="Fade the screen out to black, over time seconds. ">
+<g id="a_node13"><a xlink:href="classMWBase_1_1WindowManager.html#ad064ce18dc32430d0ecc98963a3dd11d" target="_top" xlink:title="Fade the screen out to black, over time seconds. ">
 <polygon fill="white" stroke="black" points="303,-377 303,-407 443,-407 443,-377 303,-377"/>
 <text text-anchor="start" x="311" y="-395" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
 <text text-anchor="middle" x="373" y="-384" font-family="FreeSans" font-size="10.00">::fadeScreenOut</text>
@@ -235,86 +235,86 @@
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" target="_top" xlink:title="Throws an exception if GMST is not of type int or float. ">
-<polygon fill="white" stroke="black" points="297,-49.5 297,-68.5 449,-68.5 449,-49.5 297,-49.5"/>
-<text text-anchor="middle" x="373" y="-56.5" font-family="FreeSans" font-size="10.00">ESM::GameSetting::getFloat</text>
+<g id="a_node26"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
+<polygon fill="white" stroke="black" points="312,-49.5 312,-68.5 434,-68.5 434,-49.5 312,-49.5"/>
+<text text-anchor="middle" x="373" y="-56.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node26 -->
 <g id="edge27" class="edge"><title>Node2&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M206.262,-332.798C207.913,-286.976 219.324,-149.005 296,-78 297.534,-76.5792 299.158,-75.2606 300.856,-74.0369"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="303.07,-76.7926 309.881,-68.677 299.496,-70.7739 303.07,-76.7926"/>
+<path fill="none" stroke="midnightblue" d="M206.262,-332.798C207.913,-286.976 219.324,-149.005 296,-78 298.152,-76.0074 300.48,-74.2157 302.94,-72.6052"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="304.646,-75.6619 311.746,-67.7988 301.292,-69.5175 304.646,-75.6619"/>
 </g>
-<!-- Node28 -->
-<g id="node28" class="node"><title>Node28</title>
-<g id="a_node28"><a xlink:href="classMWGui_1_1WaitDialogProgressBar.html#a7c528e10b17e9489f153fc19da7fc7a0" target="_top" xlink:title="MWGui::WaitDialogProgress\lBar::setProgress">
+<!-- Node27 -->
+<g id="node27" class="node"><title>Node27</title>
+<g id="a_node27"><a xlink:href="classMWGui_1_1WaitDialogProgressBar.html#a7c528e10b17e9489f153fc19da7fc7a0" target="_top" xlink:title="MWGui::WaitDialogProgress\lBar::setProgress">
 <polygon fill="white" stroke="black" points="300,-0 300,-30 446,-30 446,-0 300,-0"/>
 <text text-anchor="start" x="308" y="-18" font-family="FreeSans" font-size="10.00">MWGui::WaitDialogProgress</text>
 <text text-anchor="middle" x="373" y="-7" font-family="FreeSans" font-size="10.00">Bar::setProgress</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node28 -->
-<g id="edge29" class="edge"><title>Node2&#45;&gt;Node28</title>
+<!-- Node2&#45;&gt;Node27 -->
+<g id="edge28" class="edge"><title>Node2&#45;&gt;Node27</title>
 <path fill="none" stroke="midnightblue" d="M205.781,-332.77C205.916,-283.348 213.126,-125.699 296,-40 297.412,-38.5397 298.911,-37.1647 300.482,-35.8699"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="302.655,-38.6219 308.871,-30.0422 298.662,-32.8728 302.655,-38.6219"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" target="_top" xlink:title="anonymous_namespace\l\{settings::cpp\}::parseBool">
-<polygon fill="white" stroke="black" points="487,-752 487,-782 631,-782 631,-752 487,-752"/>
-<text text-anchor="start" x="495" y="-770" font-family="FreeSans" font-size="10.00">anonymous_namespace</text>
-<text text-anchor="middle" x="559" y="-759" font-family="FreeSans" font-size="10.00">{settings::cpp}::parseBool</text>
+<polygon fill="white" stroke="black" points="487,-703 487,-733 631,-733 631,-703 487,-703"/>
+<text text-anchor="start" x="495" y="-721" font-family="FreeSans" font-size="10.00">anonymous_namespace</text>
+<text text-anchor="middle" x="559" y="-710" font-family="FreeSans" font-size="10.00">{settings::cpp}::parseBool</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M428.211,-732.437C448.161,-737.749 470.98,-743.826 491.864,-749.388"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="491.058,-752.795 501.622,-751.986 492.859,-746.031 491.058,-752.795"/>
+<path fill="none" stroke="midnightblue" d="M428.211,-718C443.398,-718 460.248,-718 476.641,-718"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="476.77,-721.5 486.77,-718 476.77,-714.5 476.77,-721.5"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" target="_top" xlink:title="Settings::Manager::\lgetString">
-<polygon fill="white" stroke="black" points="504,-703 504,-733 614,-733 614,-703 504,-703"/>
-<text text-anchor="start" x="512" y="-721" font-family="FreeSans" font-size="10.00">Settings::Manager::</text>
-<text text-anchor="middle" x="559" y="-710" font-family="FreeSans" font-size="10.00">getString</text>
+<polygon fill="white" stroke="black" points="504,-752 504,-782 614,-782 614,-752 504,-752"/>
+<text text-anchor="start" x="512" y="-770" font-family="FreeSans" font-size="10.00">Settings::Manager::</text>
+<text text-anchor="middle" x="559" y="-759" font-family="FreeSans" font-size="10.00">getString</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node3&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M428.211,-718C448.708,-718 472.235,-718 493.579,-718"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="493.859,-721.5 503.859,-718 493.859,-714.5 493.859,-721.5"/>
+<path fill="none" stroke="midnightblue" d="M428.211,-732.437C448.895,-737.945 472.663,-744.274 494.161,-749.999"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="493.295,-753.391 503.859,-752.582 495.096,-746.626 493.295,-753.391"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" target="_top" xlink:title="Misc::StringUtils::\lciEqual">
-<polygon fill="white" stroke="black" points="668.5,-752 668.5,-782 767.5,-782 767.5,-752 668.5,-752"/>
-<text text-anchor="start" x="676.5" y="-770" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
-<text text-anchor="middle" x="718" y="-759" font-family="FreeSans" font-size="10.00">ciEqual</text>
+<polygon fill="white" stroke="black" points="668.5,-703 668.5,-733 767.5,-733 767.5,-703 668.5,-703"/>
+<text text-anchor="start" x="676.5" y="-721" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
+<text text-anchor="middle" x="718" y="-710" font-family="FreeSans" font-size="10.00">ciEqual</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M631.15,-767C640.131,-767 649.241,-767 658.004,-767"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="658.104,-770.5 668.104,-767 658.104,-763.5 658.104,-770.5"/>
+<path fill="none" stroke="midnightblue" d="M631.15,-718C640.131,-718 649.241,-718 658.004,-718"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="658.104,-721.5 668.104,-718 658.104,-714.5 658.104,-721.5"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" target="_top" xlink:title="Misc::StringUtils::\ltoLower">
-<polygon fill="white" stroke="black" points="804.5,-752 804.5,-782 903.5,-782 903.5,-752 804.5,-752"/>
-<text text-anchor="start" x="812.5" y="-770" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
-<text text-anchor="middle" x="854" y="-759" font-family="FreeSans" font-size="10.00">toLower</text>
+<polygon fill="white" stroke="black" points="804.5,-703 804.5,-733 903.5,-733 903.5,-703 804.5,-703"/>
+<text text-anchor="start" x="812.5" y="-721" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
+<text text-anchor="middle" x="854" y="-710" font-family="FreeSans" font-size="10.00">toLower</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M767.756,-767C776.254,-767 785.176,-767 793.916,-767"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="794.056,-770.5 804.056,-767 794.056,-763.5 794.056,-770.5"/>
+<path fill="none" stroke="midnightblue" d="M767.756,-718C776.254,-718 785.176,-718 793.916,-718"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="794.056,-721.5 804.056,-718 794.056,-714.5 794.056,-721.5"/>
 </g>
 <!-- Node14&#45;&gt;Node8 -->
 <g id="edge16" class="edge"><title>Node14&#45;&gt;Node8</title>
@@ -328,44 +328,45 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" target="_top" xlink:title="Notify that window has been made visible. ">
-<polygon fill="white" stroke="black" points="487,-576.5 487,-595.5 631,-595.5 631,-576.5 487,-576.5"/>
-<text text-anchor="middle" x="559" y="-583.5" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::open</text>
+<g id="a_node15"><a xlink:href="classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" target="_top" xlink:title="Notify that window has been made visible. ">
+<polygon fill="white" stroke="black" points="499,-566 499,-596 619,-596 619,-566 499,-566"/>
+<text text-anchor="start" x="507" y="-584" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
+<text text-anchor="middle" x="559" y="-573" font-family="FreeSans" font-size="10.00">onOpen</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node15 -->
 <g id="edge14" class="edge"><title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M433.232,-587.356C447.145,-587.205 462.209,-587.041 476.897,-586.882"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="477.025,-590.38 486.986,-586.772 476.949,-583.381 477.025,-590.38"/>
+<path fill="none" stroke="midnightblue" d="M433.232,-585.747C450.96,-585.072 470.556,-584.327 488.862,-583.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="489.02,-587.127 498.879,-583.249 488.754,-580.132 489.02,-587.127"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" target="_top" xlink:title="Notify that window has been hidden. ">
-<polygon fill="white" stroke="black" points="499,-527 499,-557 619,-557 619,-527 499,-527"/>
-<text text-anchor="start" x="507" y="-545" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
-<text text-anchor="middle" x="559" y="-534" font-family="FreeSans" font-size="10.00">close</text>
+<g id="a_node16"><a xlink:href="classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" target="_top" xlink:title="Notify that window has been hidden. ">
+<polygon fill="white" stroke="black" points="499,-517 499,-547 619,-547 619,-517 499,-517"/>
+<text text-anchor="start" x="507" y="-535" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
+<text text-anchor="middle" x="559" y="-524" font-family="FreeSans" font-size="10.00">onClose</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node16 -->
 <g id="edge15" class="edge"><title>Node14&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M433.232,-573.192C451.042,-568.74 470.737,-563.816 489.116,-559.221"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="490.027,-562.601 498.879,-556.78 488.329,-555.81 490.027,-562.601"/>
+<path fill="none" stroke="midnightblue" d="M423.309,-572.993C446.512,-565.931 474.37,-557.453 498.714,-550.043"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="500.008,-553.308 508.555,-547.048 497.969,-546.612 500.008,-553.308"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
 <g id="a_node17"><a xlink:href="classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" target="_top" xlink:title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. ">
-<polygon fill="white" stroke="black" points="489,-478 489,-508 629,-508 629,-478 489,-478"/>
-<text text-anchor="start" x="497" y="-496" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
-<text text-anchor="middle" x="559" y="-485" font-family="FreeSans" font-size="10.00">::setKeyFocusWidget</text>
+<polygon fill="white" stroke="black" points="489,-468 489,-498 629,-498 629,-468 489,-468"/>
+<text text-anchor="start" x="497" y="-486" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
+<text text-anchor="middle" x="559" y="-475" font-family="FreeSans" font-size="10.00">::setKeyFocusWidget</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node17 -->
 <g id="edge18" class="edge"><title>Node14&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M432.14,-572.838C438.429,-570.058 444.524,-566.803 450,-563 471.038,-548.392 465.082,-532.78 486,-518 488.702,-516.091 491.562,-514.317 494.525,-512.668"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="496.287,-515.701 503.663,-508.095 493.154,-509.441 496.287,-515.701"/>
+<path fill="none" stroke="midnightblue" d="M433.287,-572.984C439.23,-570.189 444.931,-566.89 450,-563 473.178,-545.214 462.969,-525.975 486,-508 488.298,-506.206 490.734,-504.536 493.267,-502.982"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="495.078,-505.981 502.193,-498.13 491.735,-499.831 495.078,-505.981"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
@@ -380,43 +381,30 @@
 <path fill="none" stroke="midnightblue" d="M427.22,-266C447.836,-266 471.632,-266 493.228,-266"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="493.302,-269.5 503.302,-266 493.302,-262.5 493.302,-269.5"/>
 </g>
-<!-- Node27 -->
-<g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
-<polygon fill="white" stroke="black" points="498,-49.5 498,-68.5 620,-68.5 620,-49.5 498,-49.5"/>
-<text text-anchor="middle" x="559" y="-56.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
-</a>
-</g>
-</g>
-<!-- Node26&#45;&gt;Node27 -->
-<g id="edge28" class="edge"><title>Node26&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M449.105,-59C461.76,-59 474.855,-59 487.39,-59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="487.766,-62.5001 497.766,-59 487.766,-55.5001 487.766,-62.5001"/>
-</g>
-<!-- Node29 -->
-<g id="node29" class="node"><title>Node29</title>
-<g id="a_node29"><a xlink:href="namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" target="_top" xlink:title="anonymous_namespace\l\{character::cpp\}::toString">
+<!-- Node28 -->
+<g id="node28" class="node"><title>Node28</title>
+<g id="a_node28"><a xlink:href="namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" target="_top" xlink:title="anonymous_namespace\l\{character::cpp\}::toString">
 <polygon fill="white" stroke="black" points="488,-0 488,-30 630,-30 630,-0 488,-0"/>
 <text text-anchor="start" x="496" y="-18" font-family="FreeSans" font-size="10.00">anonymous_namespace</text>
 <text text-anchor="middle" x="559" y="-7" font-family="FreeSans" font-size="10.00">{character::cpp}::toString</text>
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node29 -->
-<g id="edge30" class="edge"><title>Node28&#45;&gt;Node29</title>
+<!-- Node27&#45;&gt;Node28 -->
+<g id="edge29" class="edge"><title>Node27&#45;&gt;Node28</title>
 <path fill="none" stroke="midnightblue" d="M446.194,-15C456.57,-15 467.299,-15 477.819,-15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="477.822,-18.5001 487.822,-15 477.822,-11.5001 477.822,-18.5001"/>
 </g>
-<!-- Node30 -->
-<g id="node30" class="node"><title>Node30</title>
-<g id="a_node30"><a xlink:href="gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" target="_top" xlink:title="num">
+<!-- Node29 -->
+<g id="node29" class="node"><title>Node29</title>
+<g id="a_node29"><a xlink:href="gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" target="_top" xlink:title="num">
 <polygon fill="white" stroke="black" points="699,-5.5 699,-24.5 737,-24.5 737,-5.5 699,-5.5"/>
 <text text-anchor="middle" x="718" y="-12.5" font-family="FreeSans" font-size="10.00">num</text>
 </a>
 </g>
 </g>
-<!-- Node29&#45;&gt;Node30 -->
-<g id="edge31" class="edge"><title>Node29&#45;&gt;Node30</title>
+<!-- Node28&#45;&gt;Node29 -->
+<g id="edge30" class="edge"><title>Node28&#45;&gt;Node29</title>
 <path fill="none" stroke="midnightblue" d="M630.234,-15C650.799,-15 672.128,-15 688.493,-15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="688.959,-18.5001 698.959,-15 688.959,-11.5001 688.959,-18.5001"/>
 </g>

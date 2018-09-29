@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/world/resourcetable.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/world/resourcetable.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -143,11 +143,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classCSMWorld_1_1ResourceTable.html#abb8de710580928c12acf050d594dd809">isDeleted</a> (<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMWorld_1_1ResourceTable.html#a476448b19a123ecea688d6823d7b0829">getColumnId</a> (<span class="keywordtype">int</span> column) <span class="keyword">const</span>;            </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    };</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMWorld_1_1ResourceTable.html#a476448b19a123ecea688d6823d7b0829">getColumnId</a> (<span class="keywordtype">int</span> column) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMWorld_1_1ResourceTable.html#a7ac1d8525af9a0f9b582553973ae7a97">beginReset</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMWorld_1_1ResourceTable.html#a6b2bb8d59eb27fe96b2551fcc031cb2b">endReset</a>();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    };</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_a28c3a2e3ef94a9538123330ee58c2694"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#a28c3a2e3ef94a9538123330ee58c2694">CSMWorld::ResourceTable::data</a></div><div class="ttdeci">virtual QVariant data(const QModelIndex &amp;index, int role=Qt::DisplayRole) const </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:31</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_a532e4eebd1d3a7cc6280b4d97d7664f1"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#a532e4eebd1d3a7cc6280b4d97d7664f1">CSMWorld::ResourceTable::setData</a></div><div class="ttdeci">virtual bool setData(const QModelIndex &amp;index, const QVariant &amp;value, int role=Qt::EditRole)</div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:80</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_aad6e683f0f18df1a2569602628cdf30e"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#aad6e683f0f18df1a2569602628cdf30e">CSMWorld::ResourceTable::headerData</a></div><div class="ttdeci">virtual QVariant headerData(int section, Qt::Orientation orientation, int role=Qt::DisplayRole) const </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:45</div></div>
@@ -159,6 +162,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="idtablebase_8hpp_html"><div class="ttname"><a href="idtablebase_8hpp.html">idtablebase.hpp</a></div></div>
 <div class="ttc" id="classCSMWorld_1_1Resources_html"><div class="ttname"><a href="classCSMWorld_1_1Resources.html">CSMWorld::Resources</a></div><div class="ttdef"><b>Definition:</b> resources.hpp:17</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_a90ae01fa743b8f1ad8aacc8780b6cec4"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#a90ae01fa743b8f1ad8aacc8780b6cec4">CSMWorld::ResourceTable::findColumnIndex</a></div><div class="ttdeci">virtual int findColumnIndex(Columns::ColumnId id) const </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:127</div></div>
+<div class="ttc" id="classCSMWorld_1_1ResourceTable_html_a6b2bb8d59eb27fe96b2551fcc031cb2b"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#a6b2bb8d59eb27fe96b2551fcc031cb2b">CSMWorld::ResourceTable::endReset</a></div><div class="ttdeci">void endReset()</div><div class="ttdoc">Signal Qt that the data has been changed. </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:163</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_adc20f04b40c19586bb950e677630d26a"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#adc20f04b40c19586bb950e677630d26a">CSMWorld::ResourceTable::ResourceTable</a></div><div class="ttdeci">ResourceTable(const Resources *resources, unsigned int features=0)</div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:9</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_a93fb71d6dbf07b2f52899c6068cff364"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#a93fb71d6dbf07b2f52899c6068cff364">CSMWorld::ResourceTable::getModelIndex</a></div><div class="ttdeci">virtual QModelIndex getModelIndex(const std::string &amp;id, int column) const </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:111</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_a4b5d23850678010b756af3a136b3b9bd"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#a4b5d23850678010b756af3a136b3b9bd">CSMWorld::ResourceTable::columnCount</a></div><div class="ttdeci">virtual int columnCount(const QModelIndex &amp;parent=QModelIndex()) const </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:23</div></div>
@@ -169,11 +173,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html">CSMWorld::ResourceTable</a></div><div class="ttdef"><b>Definition:</b> resourcetable.hpp:10</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_af8ba0e2f244565f5f84251cf1873c6ca"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#af8ba0e2f244565f5f84251cf1873c6ca">CSMWorld::ResourceTable::searchColumnIndex</a></div><div class="ttdeci">virtual int searchColumnIndex(Columns::ColumnId id) const </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:116</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_af54525218eca24fba39830d44c6ec947"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#af54525218eca24fba39830d44c6ec947">CSMWorld::ResourceTable::rowCount</a></div><div class="ttdeci">virtual int rowCount(const QModelIndex &amp;parent=QModelIndex()) const </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:15</div></div>
+<div class="ttc" id="classCSMWorld_1_1ResourceTable_html_a7ac1d8525af9a0f9b582553973ae7a97"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#a7ac1d8525af9a0f9b582553973ae7a97">CSMWorld::ResourceTable::beginReset</a></div><div class="ttdeci">void beginReset()</div><div class="ttdoc">Signal Qt that the data is about to change. </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:158</div></div>
 <div class="ttc" id="classCSMWorld_1_1ResourceTable_html_afb2277849ad8fb1d7f4d09014bded74e"><div class="ttname"><a href="classCSMWorld_1_1ResourceTable.html#afb2277849ad8fb1d7f4d09014bded74e">CSMWorld::ResourceTable::parent</a></div><div class="ttdeci">virtual QModelIndex parent(const QModelIndex &amp;index) const </div><div class="ttdef"><b>Definition:</b> resourcetable.cpp:106</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:20 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

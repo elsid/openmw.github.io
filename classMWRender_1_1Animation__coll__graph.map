@@ -1,22 +1,20 @@
 <map id="MWRender::Animation" name="MWRender::Animation">
-<area shape="rect" id="node6" title="STL class. " alt="" coords="3954,279,4040,356"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1ContainerStore.html" title="{MWWorld::ContainerStore\n|+ Type_Potion\l+ Type_Weapon\l+ Type_Last\l+ Type_All\l|+ ContainerStore()\l+ ~ContainerStore()\l+ clone()\l+ begin()\l+ end()\l+ add()\l+ add()\l+ remove()\l+ remove()\l+ unstack()\land 13 more...\l+ getType()\l# addNewStack()\l# flagAsModified()\l&#45; addImp()\l&#45; addInitialItem()\l&#45; getState()\l&#45; storeState()\l&#45; storeStates()\l&#45; storeEquipmentState()\l&#45; readEquipmentState()\l}" alt="" coords="1817,582,1999,997"/>
-<area shape="rect" id="node27" href="$structMWRender_1_1Animation_1_1EffectParams.html" title="{MWRender::Animation\l::EffectParams\n||}" alt="" coords="2439,743,2600,835"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="4179,6,4316,98"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1Ptr.html" title="Pointer to a LiveCellRef. " alt="" coords="1661,1091,1843,1344"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1CellStore.html" title="Mutable state of a cell. " alt="" coords="1269,604,1428,975"/>
-<area shape="rect" id="node11" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="851,257,1012,378"/>
-<area shape="rect" id="node12" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Ingredient \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1617,257,1769,378"/>
-<area shape="rect" id="node13" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::CreatureLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1037,257,1224,378"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1PathgridGraph.html" title="{MWMechanics::PathgridGraph\n||+ PathgridGraph()\l+ load()\l+ isPointConnected()\l+ aStarSearch()\l&#45; recursiveStrongConnect()\l&#45; buildConnectedPoints()\l}" alt="" coords="441,242,651,393"/>
-<area shape="rect" id="node15" href="$classbool.html" title="{bool\n||}" alt="" coords="2093,13,2141,91"/>
-<area shape="rect" id="node30" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="2327,220,2493,415"/>
-<area shape="rect" id="node36" href="$classSceneUtil_1_1Skeleton.html" title="Handles the bone matrices for any number of child RigGeometries. " alt="" coords="4015,1127,4161,1307"/>
-<area shape="rect" id="node42" href="$structMWRender_1_1Animation_1_1AnimState.html" title="{MWRender::Animation\l::AnimState\n||+ AnimState()\l+ ~AnimState()\l+ getTime()\l+ setTime()\l+ shouldLoop()\l}" alt="" coords="3723,714,3884,865"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1ESMStore.html" title="{MWWorld::ESMStore\n||+ begin()\l+ end()\l+ find()\l+ ESMStore()\l+ clearDynamic()\l+ movePlayerRecord()\l+ load()\l+ get()\l+ insert()\l+ overrideRecord()\l+ insertStatic()\l+ setUp()\l+ countSavedGameRecords()\l+ write()\l+ readRecord()\l}" alt="" coords="1381,176,1592,459"/>
-<area shape="rect" id="node17" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Weapon \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1794,257,1944,378"/>
-<area shape="rect" id="node18" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Container \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="677,257,827,378"/>
-<area shape="rect" id="node21" href="$structMWWorld_1_1LiveCellRefBase.html" title="Used to create pointers to hold any type of LiveCellRef&lt;&gt; object. " alt="" coords="1607,707,1792,872"/>
-<area shape="rect" id="node25" href="$classMWRender_1_1Animation_1_1TextKeyListener.html" title="{MWRender::Animation\l::TextKeyListener\n||+ handleTextKey()\l}" alt="" coords="4762,1171,4923,1263"/>
-<area shape="rect" id="node28" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="2843,663,3052,916"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="2015,260,2101,337"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1ContainerStore.html" title="{MWWorld::ContainerStore\n|+ Type_Potion\l+ Type_Weapon\l+ Type_Last\l+ Type_All\l|+ ContainerStore()\l+ ~ContainerStore()\l+ clone()\l+ cbegin()\l+ cend()\l+ begin()\l+ end()\l+ begin()\l+ end()\l+ add()\land 19 more...\l+ getType()\l# addNewStack()\l# flagAsModified()\l&#45; addImp()\l&#45; addInitialItem()\l&#45; getState()\l&#45; storeState()\l&#45; storeStates()\l&#45; storeEquipmentState()\l&#45; readEquipmentState()\l}" alt="" coords="1115,571,1297,986"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="1990,6,2127,98"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1Ptr.html" title="Pointer to a LiveCellRef. " alt="" coords="1325,1103,1507,1356"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1CellStore.html" title="Mutable state of a cell. " alt="" coords="683,593,841,964"/>
+<area shape="rect" id="node12" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="627,238,788,359"/>
+<area shape="rect" id="node13" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Ingredient \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="844,238,996,359"/>
+<area shape="rect" id="node14" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::CreatureLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="5,238,192,359"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1ESMStore.html" title="{MWWorld::ESMStore\n||+ begin()\l+ end()\l+ find()\l+ ESMStore()\l+ clearDynamic()\l+ movePlayerRecord()\l+ load()\l+ get()\l+ insert()\l+ overrideRecord()\l+ insertStatic()\l+ setUp()\l+ countSavedGameRecords()\l+ write()\l+ readRecord()\l&#45; validate()\l}" alt="" coords="217,150,428,447"/>
+<area shape="rect" id="node16" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Weapon \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1050,238,1200,359"/>
+<area shape="rect" id="node17" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Container \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="453,238,603,359"/>
+<area shape="rect" id="node45" href="$structMWRender_1_1Animation_1_1AnimState.html" title="{MWRender::Animation\l::AnimState\n||+ AnimState()\l+ ~AnimState()\l+ getTime()\l+ setTime()\l+ shouldLoop()\l}" alt="" coords="3411,703,3572,854"/>
+<area shape="rect" id="node19" href="$classbool.html" title="{bool\n||}" alt="" coords="3391,260,3440,337"/>
+<area shape="rect" id="node30" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="3221,674,3387,883"/>
+<area shape="rect" id="node38" href="$classSceneUtil_1_1Skeleton.html" title="Handles the bone matrices for any number of child RigGeometries. " alt="" coords="3923,1139,4069,1319"/>
+<area shape="rect" id="node21" href="$structMWWorld_1_1LiveCellRefBase.html" title="Used to create pointers to hold any type of LiveCellRef&lt;&gt; object. " alt="" coords="1322,696,1507,861"/>
+<area shape="rect" id="node28" href="$classMWRender_1_1Animation_1_1TextKeyListener.html" title="{MWRender::Animation\l::TextKeyListener\n||+ handleTextKey()\l}" alt="" coords="4973,1183,5133,1275"/>
+<area shape="rect" id="node29" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="2687,1081,2896,1378"/>
 </map>

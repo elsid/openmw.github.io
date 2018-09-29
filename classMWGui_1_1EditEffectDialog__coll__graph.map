@@ -1,12 +1,12 @@
 <map id="MWGui::EditEffectDialog" name="MWGui::EditEffectDialog">
-<area shape="rect" id="node2" href="$classMWGui_1_1WindowModal.html" title="{MWGui::WindowModal\n||+ WindowModal()\l+ open()\l+ close()\l+ exit()\l}" alt="" coords="49,926,207,1047"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html" title="{MWGui::WindowBase\n||+ WindowBase()\l+ open()\l+ close()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l}" alt="" coords="151,653,303,819"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1Layout.html" title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}" alt="" coords="169,350,284,559"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="619,149,705,227"/>
-<area shape="rect" id="node15" href="$structESM_1_1MagicEffect.html" title="{ESM::MagicEffect\n|+ mArea\l+ mDescription\l|+ getMagnitudeDisplayType()\l+ load()\l+ save()\l+ blank()\l+ getRecordType()\l+ effectIdToString()\l+ effectStringToId()\l+ getResistanceEffect()\l+ getWeaknessEffect()\l+ indexToId()\l}" alt="" coords="835,624,1044,848"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="594,6,731,98"/>
-<area shape="rect" id="node13" href="$classbool.html" title="{bool\n||}" alt="" coords="890,948,939,1025"/>
-<area shape="rect" id="node16" href="$structESM_1_1MagicEffect_1_1MEDTstruct.html" title="{ESM::MagicEffect::MEDTstruct\n||}" alt="" coords="964,416,1173,493"/>
-<area shape="rect" id="node18" href="$classint.html" title="{int\n||}" alt="" coords="1203,149,1241,227"/>
-<area shape="rect" id="node22" href="$structESM_1_1ENAMstruct.html" title="{ESM::ENAMstruct\n||}" alt="" coords="1309,416,1443,493"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1WindowModal.html" title="{MWGui::WindowModal\n||+ WindowModal()\l+ onOpen()\l+ onClose()\l+ exit()\l}" alt="" coords="46,942,204,1063"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html" title="{MWGui::WindowBase\n||+ WindowBase()\l+ getDefaultKeyFocus()\l+ setPtr()\l+ onFrame()\l+ onOpen()\l+ onClose()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l+ clear()\l+ onResChange()\l}" alt="" coords="148,625,321,863"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1Layout.html" title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}" alt="" coords="177,350,292,559"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="617,149,703,227"/>
+<area shape="rect" id="node15" href="$structESM_1_1MagicEffect.html" title="{ESM::MagicEffect\n|+ mArea\l+ mDescription\l|+ getMagnitudeDisplayType()\l+ load()\l+ save()\l+ blank()\l+ getRecordType()\l+ effectIdToString()\l+ effectStringToId()\l+ getResistanceEffect()\l+ getWeaknessEffect()\l+ indexToId()\l}" alt="" coords="833,632,1041,856"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="591,6,728,98"/>
+<area shape="rect" id="node13" href="$classbool.html" title="{bool\n||}" alt="" coords="887,964,936,1041"/>
+<area shape="rect" id="node16" href="$structESM_1_1MagicEffect_1_1MEDTstruct.html" title="{ESM::MagicEffect::MEDTstruct\n||}" alt="" coords="961,416,1171,493"/>
+<area shape="rect" id="node18" href="$classint.html" title="{int\n||}" alt="" coords="1201,149,1239,227"/>
+<area shape="rect" id="node22" href="$structESM_1_1ENAMstruct.html" title="{ESM::ENAMstruct\n||}" alt="" coords="1307,416,1440,493"/>
 </map>

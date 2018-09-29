@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -108,13 +108,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWGui::ContainerWindow:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow__inherit__graph.svg" width="390" height="926"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow__inherit__graph.svg" width="411" height="987"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWGui::ContainerWindow:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow__coll__graph.svg" width="5383" height="3230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow__coll__graph.svg" width="5170" height="3190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -122,22 +122,31 @@ Collaboration diagram for MWGui::ContainerWindow:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acfb914937a6eb3a24bde7ea54266dbcd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#acfb914937a6eb3a24bde7ea54266dbcd">ContainerWindow</a> (<a class="el" href="classMWGui_1_1DragAndDrop.html">DragAndDrop</a> *dragAndDrop)</td></tr>
 <tr class="separator:acfb914937a6eb3a24bde7ea54266dbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91ae27e6c44e4485e6e2be2d93191299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a91ae27e6c44e4485e6e2be2d93191299">openContainer</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;container, <a class="el" href="classbool.html">bool</a> loot=false)</td></tr>
-<tr class="separator:a91ae27e6c44e4485e6e2be2d93191299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3346a52dee3c9852f784f35086b63fe5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a3346a52dee3c9852f784f35086b63fe5">close</a> ()</td></tr>
-<tr class="memdesc:a3346a52dee3c9852f784f35086b63fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been hidden.  <a href="#a3346a52dee3c9852f784f35086b63fe5">More...</a><br/></td></tr>
-<tr class="separator:a3346a52dee3c9852f784f35086b63fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7ba4403c54159736b016b5343935f9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#ad7ba4403c54159736b016b5343935f9b">setPtr</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;container)</td></tr>
+<tr class="memdesc:ad7ba4403c54159736b016b5343935f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open this object in the GUI, for windows that support it.  <a href="#ad7ba4403c54159736b016b5343935f9b">More...</a><br/></td></tr>
+<tr class="separator:ad7ba4403c54159736b016b5343935f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa07d81bccff984334a3579bb13030bc9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#aa07d81bccff984334a3579bb13030bc9">onClose</a> ()</td></tr>
+<tr class="memdesc:aa07d81bccff984334a3579bb13030bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been hidden.  <a href="#aa07d81bccff984334a3579bb13030bc9">More...</a><br/></td></tr>
+<tr class="separator:aa07d81bccff984334a3579bb13030bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4e9e374ff29f3081c5e629f781e318"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a8e4e9e374ff29f3081c5e629f781e318">clear</a> ()</td></tr>
+<tr class="memdesc:a8e4e9e374ff29f3081c5e629f781e318"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear any state specific to the running game.  <a href="#a8e4e9e374ff29f3081c5e629f781e318">More...</a><br/></td></tr>
+<tr class="separator:a8e4e9e374ff29f3081c5e629f781e318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122b6a700b0061734ca7041a52bb4748"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a122b6a700b0061734ca7041a52bb4748">onFrame</a> (float dt)</td></tr>
+<tr class="memdesc:a122b6a700b0061734ca7041a52bb4748"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every frame if the window is in an active GUI mode.  <a href="#a122b6a700b0061734ca7041a52bb4748">More...</a><br/></td></tr>
+<tr class="separator:a122b6a700b0061734ca7041a52bb4748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74d7368fb0e82d4f92d63eeae71192be"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a74d7368fb0e82d4f92d63eeae71192be">resetReference</a> ()</td></tr>
 <tr class="separator:a74d7368fb0e82d4f92d63eeae71192be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a394d795765e41d3ac8fd8ee35aa71cf4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a394d795765e41d3ac8fd8ee35aa71cf4">exit</a> ()</td></tr>
-<tr class="memdesc:a394d795765e41d3ac8fd8ee35aa71cf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gracefully exits the window.  <a href="#a394d795765e41d3ac8fd8ee35aa71cf4">More...</a><br/></td></tr>
-<tr class="separator:a394d795765e41d3ac8fd8ee35aa71cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMWGui_1_1WindowBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMWGui_1_1WindowBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMWGui_1_1WindowBase.html">MWGui::WindowBase</a></td></tr>
 <tr class="memitem:a0426d1788782312025173686f25177ae inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a0426d1788782312025173686f25177ae">WindowBase</a> (const std::string &amp;parLayout)</td></tr>
 <tr class="separator:a0426d1788782312025173686f25177ae inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace3dc06d8e89a926cd05fb5f94ac757e inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e">open</a> ()</td></tr>
-<tr class="memdesc:ace3dc06d8e89a926cd05fb5f94ac757e inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been made visible.  <a href="#ace3dc06d8e89a926cd05fb5f94ac757e">More...</a><br/></td></tr>
-<tr class="separator:ace3dc06d8e89a926cd05fb5f94ac757e inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa30b109d3b4129faf7b580ff1548aad inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual MyGUI::Widget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#afa30b109d3b4129faf7b580ff1548aad">getDefaultKeyFocus</a> ()</td></tr>
+<tr class="separator:afa30b109d3b4129faf7b580ff1548aad inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a091bb146c2ece2d351185dd4da898 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898">onOpen</a> ()</td></tr>
+<tr class="memdesc:a73a091bb146c2ece2d351185dd4da898 inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been made visible.  <a href="#a73a091bb146c2ece2d351185dd4da898">More...</a><br/></td></tr>
+<tr class="separator:a73a091bb146c2ece2d351185dd4da898 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#afbc46218f9e2b4222bac63f197436570">exit</a> ()</td></tr>
+<tr class="memdesc:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gracefully exits the window.  <a href="#afbc46218f9e2b4222bac63f197436570">More...</a><br/></td></tr>
+<tr class="separator:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea">setVisible</a> (<a class="el" href="classbool.html">bool</a> visible)</td></tr>
 <tr class="memdesc:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the window.  <a href="#a4f681670522d795ac3b38f13500ff7ea">More...</a><br/></td></tr>
 <tr class="separator:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +155,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0adf445dca26b8bfb73479a5198b2c3b inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a619c3722639059076d24ae157fdaa18c inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c">center</a> ()</td></tr>
 <tr class="separator:a619c3722639059076d24ae157fdaa18c inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a204f771569a45a200ea417963c28ceec inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a204f771569a45a200ea417963c28ceec">onResChange</a> (<a class="el" href="classint.html">int</a> width, <a class="el" href="classint.html">int</a> height)</td></tr>
+<tr class="memdesc:a204f771569a45a200ea417963c28ceec inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when GUI viewport changes size.  <a href="#a204f771569a45a200ea417963c28ceec">More...</a><br/></td></tr>
+<tr class="separator:a204f771569a45a200ea417963c28ceec inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMWGui_1_1Layout"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMWGui_1_1Layout')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMWGui_1_1Layout.html">MWGui::Layout</a></td></tr>
 <tr class="memitem:a491b72b8d974a982dada0f3ca2d07179 inherit pub_methods_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#a491b72b8d974a982dada0f3ca2d07179">Layout</a> (const std::string &amp;_layout, MyGUI::Widget *_parent=nullptr)</td></tr>
 <tr class="separator:a491b72b8d974a982dada0f3ca2d07179 inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,7 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4904cbbaf603f098aa0842ce8357aab inherit pub_methods_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">MyGUI::Widget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab">getWidget</a> (const std::string &amp;_name)</td></tr>
 <tr class="separator:ab4904cbbaf603f098aa0842ce8357aab inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">getWidget</a> (T *&amp;_widget, const std::string &amp;_name)</td></tr>
+<tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">getWidget</a> (<a class="el" href="classGui_1_1T.html">T</a> *&amp;_widget, const std::string &amp;_name)</td></tr>
 <tr class="separator:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac725a2afd1a0ad240bcf35b7d0238d79 inherit pub_methods_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#ac725a2afd1a0ad240bcf35b7d0238d79">setCoord</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y, <a class="el" href="classint.html">int</a> w, <a class="el" href="classint.html">int</a> h)</td></tr>
 <tr class="separator:ac725a2afd1a0ad240bcf35b7d0238d79 inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,8 +199,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a02e1c3c58e2f8440c7506ae2093af2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e57628fe744aa644abf4dbd6e5b931"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#ad9e57628fe744aa644abf4dbd6e5b931">onDisposeCorpseButtonClicked</a> (MyGUI::Widget *sender)</td></tr>
 <tr class="separator:ad9e57628fe744aa644abf4dbd6e5b931"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bef0b9d5e5f4814fdb45123f5a9a3ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a2bef0b9d5e5f4814fdb45123f5a9a3ab">onKeyPressed</a> (MyGUI::Widget *_sender, MyGUI::KeyCode _key, MyGUI::Char _char)</td></tr>
-<tr class="separator:a2bef0b9d5e5f4814fdb45123f5a9a3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2291f9984ddfa6e44c19dde407800f77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a2291f9984ddfa6e44c19dde407800f77">onTakeItem</a> (const <a class="el" href="structMWGui_1_1ItemStack.html">ItemStack</a> &amp;item, <a class="el" href="classint.html">int</a> count)</td></tr>
 <tr class="separator:a2291f9984ddfa6e44c19dde407800f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32438cdc0dcaf3fe528e4f2025b6ae5d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a32438cdc0dcaf3fe528e4f2025b6ae5d">onReferenceUnavailable</a> ()</td></tr>
@@ -199,8 +209,6 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a13adf5c3270e08fea2634daa9f8de01e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWGui_1_1DragAndDrop.html">DragAndDrop</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a13adf5c3270e08fea2634daa9f8de01e">mDragAndDrop</a></td></tr>
 <tr class="separator:a13adf5c3270e08fea2634daa9f8de01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa904f9a4e7496364053c70ba35b3325"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#afa904f9a4e7496364053c70ba35b3325">mPickpocketDetected</a></td></tr>
-<tr class="separator:afa904f9a4e7496364053c70ba35b3325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60aeb94f9a6b3ba974c72f73747dc827"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWGui_1_1ItemView.html">MWGui::ItemView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a60aeb94f9a6b3ba974c72f73747dc827">mItemView</a></td></tr>
 <tr class="separator:a60aeb94f9a6b3ba974c72f73747dc827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95a512aab1aaa90f206ebfc902d5567a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWGui_1_1SortFilterItemModel.html">SortFilterItemModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerWindow.html#a95a512aab1aaa90f206ebfc902d5567a">mSortModel</a></td></tr>
@@ -255,7 +263,7 @@ MyGUI::delegates::CMultiDelegate1<br class="typebreak"/>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_acfb914937a6eb3a24bde7ea54266dbcd_cgraph.svg" width="1526" height="2424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_acfb914937a6eb3a24bde7ea54266dbcd_cgraph.svg" width="1784" height="1915"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -263,7 +271,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3346a52dee3c9852f784f35086b63fe5"></a>
+<a class="anchor" id="a8e4e9e374ff29f3081c5e629f781e318"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -271,7 +279,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MWGui::ContainerWindow::close </td>
+          <td class="memname">void MWGui::ContainerWindow::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -279,19 +287,19 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Notify that window has been hidden. </p>
+<p>Clear any state specific to the running game. </p>
 
-<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa">MWGui::WindowBase</a>.</p>
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#ad28d0e410302d90fe067ace11124cc54">MWGui::WindowBase</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a3346a52dee3c9852f784f35086b63fe5_cgraph.svg" width="1651" height="814"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a8e4e9e374ff29f3081c5e629f781e318_cgraph.svg" width="1811" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -333,7 +341,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a07b86358cb427c9724ec72ae75b5997b_cgraph.svg" width="1264" height="1986"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a07b86358cb427c9724ec72ae75b5997b_cgraph.svg" width="1603" height="1203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -372,7 +380,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a7b3b20e84d133f523b26c98b306fe838_cgraph.svg" width="1947" height="1192"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a7b3b20e84d133f523b26c98b306fe838_cgraph.svg" width="2176" height="1103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -381,49 +389,6 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a7b3b20e84d133f523b26c98b306fe838_icgraph.svg" width="659" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a394d795765e41d3ac8fd8ee35aa71cf4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MWGui::ContainerWindow::exit </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gracefully exits the window. </p>
-
-<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#ab5c167ecd1439d4784d87225136b5248">MWGui::WindowBase</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a394d795765e41d3ac8fd8ee35aa71cf4_cgraph.svg" width="438" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a394d795765e41d3ac8fd8ee35aa71cf4_icgraph.svg" width="891" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -454,7 +419,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a699198d251bc0263a25c3f6d0b705c6a_cgraph.svg" width="2190" height="1198"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a699198d251bc0263a25c3f6d0b705c6a_cgraph.svg" width="2408" height="1103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -463,6 +428,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a699198d251bc0263a25c3f6d0b705c6a_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa07d81bccff984334a3579bb13030bc9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::ContainerWindow::onClose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notify that window has been hidden. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_aa07d81bccff984334a3579bb13030bc9_cgraph.svg" width="443" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -494,7 +494,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a0bc309e4c956a8f7fb523bf35a2e04b7_cgraph.svg" width="670" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a0bc309e4c956a8f7fb523bf35a2e04b7_cgraph.svg" width="438" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -502,7 +502,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a0bc309e4c956a8f7fb523bf35a2e04b7_icgraph.svg" width="659" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a0bc309e4c956a8f7fb523bf35a2e04b7_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -534,7 +534,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_ad9e57628fe744aa644abf4dbd6e5b931_cgraph.svg" width="2240" height="1252"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_ad9e57628fe744aa644abf4dbd6e5b931_cgraph.svg" width="1040" height="1080"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -543,6 +543,42 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_ad9e57628fe744aa644abf4dbd6e5b931_icgraph.svg" width="475" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a122b6a700b0061734ca7041a52bb4748"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::ContainerWindow::onFrame </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>duration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called every frame if the window is in an active GUI mode. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#a13d63b2a9a63bd42ed8dc8a306e761a5">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a122b6a700b0061734ca7041a52bb4748_cgraph.svg" width="686" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -574,7 +610,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a4ffe65e3e73969e3f9928b622cbc20c6_cgraph.svg" width="1523" height="2300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a4ffe65e3e73969e3f9928b622cbc20c6_cgraph.svg" width="2003" height="1608"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -583,62 +619,6 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a4ffe65e3e73969e3f9928b622cbc20c6_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a2bef0b9d5e5f4814fdb45123f5a9a3ab"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MWGui::ContainerWindow::onKeyPressed </td>
-          <td>(</td>
-          <td class="paramtype">MyGUI::Widget *&#160;</td>
-          <td class="paramname"><em>_sender</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MyGUI::KeyCode&#160;</td>
-          <td class="paramname"><em>_key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MyGUI::Char&#160;</td>
-          <td class="paramname"><em>_char</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a2bef0b9d5e5f4814fdb45123f5a9a3ab_cgraph.svg" width="2168" height="1231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a2bef0b9d5e5f4814fdb45123f5a9a3ab_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -705,7 +685,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a02e1c3c58e2f8440c7506ae2093af2dc_cgraph.svg" width="1936" height="1754"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a02e1c3c58e2f8440c7506ae2093af2dc_cgraph.svg" width="736" height="1080"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -713,7 +693,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a02e1c3c58e2f8440c7506ae2093af2dc_icgraph.svg" width="707" height="138"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a02e1c3c58e2f8440c7506ae2093af2dc_icgraph.svg" width="707" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -756,7 +736,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a2291f9984ddfa6e44c19dde407800f77_cgraph.svg" width="1654" height="1739"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a2291f9984ddfa6e44c19dde407800f77_cgraph.svg" width="464" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -764,49 +744,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a2291f9984ddfa6e44c19dde407800f77_icgraph.svg" width="939" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a91ae27e6c44e4485e6e2be2d93191299"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MWGui::ContainerWindow::openContainer </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
-          <td class="paramname"><em>container</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
-          <td class="paramname"><em>loot</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a91ae27e6c44e4485e6e2be2d93191299_cgraph.svg" width="1648" height="788"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a91ae27e6c44e4485e6e2be2d93191299_icgraph.svg" width="419" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a2291f9984ddfa6e44c19dde407800f77_icgraph.svg" width="939" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -847,7 +785,43 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a74d7368fb0e82d4f92d63eeae71192be_icgraph.svg" width="419" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_a74d7368fb0e82d4f92d63eeae71192be_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7ba4403c54159736b016b5343935f9b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::ContainerWindow::setPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open this object in the GUI, for windows that support it. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#afbe769f161e068ccb8be68c2d568377b">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerWindow_ad7ba4403c54159736b016b5343935f9b_cgraph.svg" width="1616" height="834"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -955,26 +929,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="afa904f9a4e7496364053c70ba35b3325"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classbool.html">bool</a> MWGui::ContainerWindow::mPickpocketDetected</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a80261736e5c8b5ef4bf375a9280e3e24"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1036,13 +990,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="mwgui_2container_8hpp_source.html">container.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="mwgui_2container_8cpp.html">container.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="mwgui_2container_8hpp_source.html">container.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="mwgui_2container_8cpp.html">container.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:02 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:35 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,51 +1,51 @@
 <map id="MWWorld::CellStore::moveFrom" name="MWWorld::CellStore::moveFrom">
-<area shape="rect" id="node2" href="$classMWWorld_1_1CellStore.html#a4f9b347f98f13a287dd5b99354fda22b" title="Load references from content file. " alt="" coords="197,726,341,767"/>
-<area shape="rect" id="node34" href="$classMWWorld_1_1CellStore.html#adac471f571fbc735f6223da79448e159" title="Repopulate mMergedRefs. " alt="" coords="679,898,828,939"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1CellStore.html#a3a1884a54f131cda455d08f42445e209" title="MWWorld::CellStore\l::loadRefs" alt="" coords="423,726,567,767"/>
-<area shape="rect" id="node42" href="$classMWMechanics_1_1PathgridGraph.html#a2cfa2615f3c8bfbb49bcb13101b00a81" title="MWMechanics::PathgridGraph\l::load" alt="" coords="389,247,600,289"/>
-<area shape="rect" id="node4" href="$structESM_1_1Cell.html#af812968bd998cb0b96f7940171b77609" title="ESM::Cell::restore" alt="" coords="686,763,821,789"/>
-<area shape="rect" id="node8" href="$structESM_1_1Cell.html#a16416e62fedafd8315bf3a2317a6bef4" title="ESM::Cell::getNextRef" alt="" coords="674,379,833,405"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1CellStore.html#a21e322bc945ea21805fa720ddea72cdc" title="MWWorld::CellStore\l::loadRef" alt="" coords="681,697,825,738"/>
-<area shape="rect" id="node32" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="681,615,825,657"/>
-<area shape="rect" id="node33" href="$structESM_1_1Cell.html#a12ba0ed5b1a64c3bb26b19c4ce16b28a" title="Return a short string describing the cell (mostly used for debugging/logging purpose) ..." alt="" coords="662,813,845,840"/>
-<area shape="rect" id="node5" href="$classESM_1_1ESMReader.html#ace62de398c94b922144f2d694cb0e766" title="ESM::ESMReader::restoreContext" alt="" coords="907,856,1141,883"/>
-<area shape="rect" id="node6" href="$classESM_1_1ESMReader.html#aec84cf1e1b4d63ed1b334fea4ad76966" title="ESM::ESMReader::openRaw" alt="" coords="1205,856,1400,883"/>
-<area shape="rect" id="node7" href="$classESM_1_1ESMReader.html#a8d9023ee65e81dd049f1a2ed3ec77c55" title="ESM::ESMReader::close" alt="" coords="1495,856,1665,883"/>
-<area shape="rect" id="node9" href="$classESM_1_1ESMReader.html#abfd3da13c7227ed9d445ceed1a70f874" title="ESM::ESMReader::hasMoreSubs" alt="" coords="911,404,1137,431"/>
-<area shape="rect" id="node10" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="1201,303,1404,329"/>
-<area shape="rect" id="node12" href="$classESM_1_1ESMReader.html#a1499e8005481bc7f13f4de0c2f3b9ee4" title="ESM::ESMReader::getHT" alt="" coords="1215,480,1391,507"/>
-<area shape="rect" id="node16" href="$classESM_1_1ESMReader.html#a45b4c4d5076772a527726f6d22b08759" title="ESM::ESMReader::getHNOT" alt="" coords="926,455,1122,481"/>
-<area shape="rect" id="node17" href="$namespaceanonymous__namespace_02loadcell_8cpp_03.html#ad8e82b9eb9700b2719fe35d4852e069e" title="&lt; Translate 8bit/24bit code (stored in refNum.mIndex) into a proper refNum " alt="" coords="917,135,1131,177"/>
-<area shape="rect" id="node20" href="$classESM_1_1ESMReader.html#a7ba6d4076f766ae7cac77542fa0634c2" title="ESM::ESMReader::skipRecord" alt="" coords="921,201,1127,228"/>
-<area shape="rect" id="node22" href="$classESM_1_1ESMReader.html#a2421d4c0ab8b6ca62d5d7aa1afcc9841" title="ESM::ESMReader::peekNextSub" alt="" coords="1191,252,1415,279"/>
-<area shape="rect" id="node23" href="$classESM_1_1CellRef.html#ac25512f415f0f907d1331508d4b3229c" title="Calls loadId and loadData. " alt="" coords="957,353,1091,380"/>
-<area shape="rect" id="node11" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="1469,277,1691,304"/>
-<area shape="rect" id="node13" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="1465,480,1695,507"/>
-<area shape="rect" id="node14" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="1782,519,1938,545"/>
-<area shape="rect" id="node15" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1777,455,1943,481"/>
-<area shape="rect" id="node18" href="$classESM_1_1ESMReader.html#aa22b2e3b0a3c0899445c293f290f4702" title="ESM::ESMReader::getGameFiles" alt="" coords="1190,147,1415,173"/>
-<area shape="rect" id="node19" href="$classESM_1_1ESMReader.html#a8ffa599f7b71a3964d4fc3ea0da160ac" title="ESM::ESMReader::getIndex" alt="" coords="1206,96,1399,123"/>
-<area shape="rect" id="node21" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="1221,201,1384,228"/>
-<area shape="rect" id="node25" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="958,725,1090,766"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1ESMStore.html#a0f03e8dd68d415f684a95a0bfce90e7a" title="MWWorld::ESMStore::find" alt="" coords="934,673,1114,700"/>
-<area shape="rect" id="node28" href="$structMWWorld_1_1CellRefList.html#a6015bf250c7a84cfe1ca6b655848f1df" title="Remove all references with the given refNum from this list. " alt="" coords="949,790,1099,831"/>
-<area shape="rect" id="node29" href="$structMWWorld_1_1CellRefList.html#a87a71682d152ff953339e2f9334f413b" title="MWWorld::CellRefList\l::load" alt="" coords="949,607,1099,649"/>
-<area shape="rect" id="node26" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1237,725,1369,766"/>
-<area shape="rect" id="node30" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1213,560,1392,587"/>
-<area shape="rect" id="node31" href="$classMWWorld_1_1Store.html#aa531b5a392c7f3de29b33a13da105cd7" title="MWWorld::Store::search" alt="" coords="1217,615,1389,641"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1CellStore.html#a392348bc44d7f28c24a869e8ff157723" title="MWWorld::CellStore\l::forEachInternal" alt="" coords="952,973,1096,1014"/>
-<area shape="rect" id="node41" href="$structMWWorld_1_1MergeVisitor.html#abfa4488084b470eb5224945fcb8c4535" title="MWWorld::MergeVisitor\l::merge" alt="" coords="941,907,1107,949"/>
-<area shape="rect" id="node36" href="$classMWWorld_1_1CellStore.html#a14f1e9420bb109213356b124e5166d31" title="MWWorld::CellStore\l::forEachImp" alt="" coords="1231,973,1375,1014"/>
-<area shape="rect" id="node37" href="$classMWWorld_1_1CellStore.html#ab706aebc06b5f99667203c8dcc670369" title="MWWorld::CellStore\l::isAccessible" alt="" coords="1508,973,1652,1014"/>
-<area shape="rect" id="node38" href="$classMWWorld_1_1RefData.html#abfb41213bbf1459bcb511783bb654f8d" title="Returns true if the object was deleted by a content file. " alt="" coords="1758,914,1962,955"/>
-<area shape="rect" id="node39" href="$classMWWorld_1_1CellRef.html#abc0b42ed0ef6655f90582a4ca3fb5580" title="Does the RefNum have a content file? " alt="" coords="1745,980,1975,1007"/>
-<area shape="rect" id="node40" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="1759,1031,1961,1057"/>
-<area shape="rect" id="node43" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="679,28,827,55"/>
-<area shape="rect" id="node44" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="656,79,851,105"/>
-<area shape="rect" id="node45" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="671,130,836,171"/>
-<area shape="rect" id="node46" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="662,196,845,223"/>
-<area shape="rect" id="node47" href="$namespaceanonymous__namespace_02pathgrid_8cpp_03.html#a405ea66c19a5735ede1af55fca912d4b" title="anonymous_namespace\l\{pathgrid::cpp\}::costAStar" alt="" coords="657,247,850,289"/>
-<area shape="rect" id="node49" href="$classMWMechanics_1_1PathgridGraph.html#a20b65a7c3ebabf94d9b62801774afa12" title="MWMechanics::PathgridGraph\l::buildConnectedPoints" alt="" coords="648,313,859,354"/>
-<area shape="rect" id="node48" href="$namespaceanonymous__namespace_02pathgrid_8cpp_03.html#aa6cea2ebc49ec4c251b2e72e50d89462" title="anonymous_namespace\l\{pathgrid::cpp\}::manhattan" alt="" coords="923,5,1125,46"/>
-<area shape="rect" id="node50" href="$classMWMechanics_1_1PathgridGraph.html#a496869dba80912a99e3f37b21fc7c9da" title="MWMechanics::PathgridGraph\l::recursiveStrongConnect" alt="" coords="919,70,1129,111"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1CellStore.html#a4f9b347f98f13a287dd5b99354fda22b" title="Load references from content file. " alt="" coords="197,445,341,486"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1CellStore.html#adac471f571fbc735f6223da79448e159" title="Repopulate mMergedRefs. " alt="" coords="599,609,748,650"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1CellStore.html#a3a1884a54f131cda455d08f42445e209" title="MWWorld::CellStore\l::loadRefs" alt="" coords="389,419,533,461"/>
+<area shape="rect" id="node4" href="$structESM_1_1Cell.html#af812968bd998cb0b96f7940171b77609" title="ESM::Cell::restore" alt="" coords="606,427,741,453"/>
+<area shape="rect" id="node9" href="$structESM_1_1Cell.html#a16416e62fedafd8315bf3a2317a6bef4" title="ESM::Cell::getNextRef" alt="" coords="594,477,753,504"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1CellStore.html#a21e322bc945ea21805fa720ddea72cdc" title="MWWorld::CellStore\l::loadRef" alt="" coords="601,122,745,163"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="601,310,745,351"/>
+<area shape="rect" id="node41" href="$structESM_1_1Cell.html#a12ba0ed5b1a64c3bb26b19c4ce16b28a" title="Return a short string describing the cell (mostly used for debugging/logging purpose) ..." alt="" coords="582,376,765,403"/>
+<area shape="rect" id="node5" href="$classESM_1_1ESMReader.html#ace62de398c94b922144f2d694cb0e766" title="ESM::ESMReader::restoreContext" alt="" coords="813,245,1048,272"/>
+<area shape="rect" id="node6" href="$classESM_1_1ESMReader.html#aec84cf1e1b4d63ed1b334fea4ad76966" title="ESM::ESMReader::openRaw" alt="" coords="1112,249,1307,276"/>
+<area shape="rect" id="node7" href="$classESM_1_1ESMReader.html#a8d9023ee65e81dd049f1a2ed3ec77c55" title="ESM::ESMReader::close" alt="" coords="1401,253,1572,280"/>
+<area shape="rect" id="node8" href="$classESM_1_1FIXED__STRING__BASE.html#a154bd4f88b7711e6ebb709f6fbbb7dfe" title="ESM::FIXED_STRING_BASE\l::clear" alt="" coords="1671,246,1862,287"/>
+<area shape="rect" id="node10" href="$classESM_1_1ESMReader.html#abfd3da13c7227ed9d445ceed1a70f874" title="ESM::ESMReader::hasMoreSubs" alt="" coords="818,347,1043,373"/>
+<area shape="rect" id="node11" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="1108,600,1311,627"/>
+<area shape="rect" id="node18" href="$classESM_1_1ESMReader.html#a1499e8005481bc7f13f4de0c2f3b9ee4" title="ESM::ESMReader::getHT" alt="" coords="1121,651,1297,677"/>
+<area shape="rect" id="node21" href="$classESM_1_1ESMReader.html#a45b4c4d5076772a527726f6d22b08759" title="ESM::ESMReader::getHNOT" alt="" coords="833,616,1029,643"/>
+<area shape="rect" id="node22" href="$namespaceanonymous__namespace_02loadcell_8cpp_03.html#ad8e82b9eb9700b2719fe35d4852e069e" title="&lt; Translate 8bit/24bit code (stored in refNum.mIndex) into a proper refNum " alt="" coords="823,499,1038,541"/>
+<area shape="rect" id="node25" href="$classESM_1_1ESMReader.html#a7ba6d4076f766ae7cac77542fa0634c2" title="ESM::ESMReader::skipRecord" alt="" coords="827,397,1034,424"/>
+<area shape="rect" id="node28" href="$classESM_1_1ESMReader.html#a2421d4c0ab8b6ca62d5d7aa1afcc9841" title="ESM::ESMReader::peekNextSub" alt="" coords="1097,448,1321,475"/>
+<area shape="rect" id="node29" href="$classESM_1_1CellRef.html#ac25512f415f0f907d1331508d4b3229c" title="Calls loadId and loadData. " alt="" coords="863,296,998,323"/>
+<area shape="rect" id="node12" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="1375,461,1598,488"/>
+<area shape="rect" id="node13" href="$classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" title="ESM::FIXED_STRING_BASE\l::data_size" alt="" coords="1671,454,1862,495"/>
+<area shape="rect" id="node14" href="$classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" title="ESM::ESMReader::getExact" alt="" coords="1939,535,2133,561"/>
+<area shape="rect" id="node17" href="$structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data" alt="" coords="1687,519,1846,561"/>
+<area shape="rect" id="node15" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="2190,585,2346,612"/>
+<area shape="rect" id="node16" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="2395,578,2586,619"/>
+<area shape="rect" id="node19" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="1371,687,1602,713"/>
+<area shape="rect" id="node20" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1683,636,1850,663"/>
+<area shape="rect" id="node23" href="$classESM_1_1ESMReader.html#aa22b2e3b0a3c0899445c293f290f4702" title="ESM::ESMReader::getGameFiles" alt="" coords="1097,549,1322,576"/>
+<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#a8ffa599f7b71a3964d4fc3ea0da160ac" title="ESM::ESMReader::getIndex" alt="" coords="1113,499,1306,525"/>
+<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="1128,397,1291,424"/>
+<area shape="rect" id="node27" href="$classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" title="Get the current position in the file. Make sure that the file has been opened! " alt="" coords="1378,397,1595,424"/>
+<area shape="rect" id="node31" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1701,122,1833,163"/>
+<area shape="rect" id="node33" href="$classMWWorld_1_1ESMStore.html#a0f03e8dd68d415f684a95a0bfce90e7a" title="MWWorld::ESMStore::find" alt="" coords="841,188,1021,215"/>
+<area shape="rect" id="node34" href="$structMWWorld_1_1CellRefList.html#a6015bf250c7a84cfe1ca6b655848f1df" title="Remove all references with the given refNum from this list. " alt="" coords="855,5,1006,46"/>
+<area shape="rect" id="node35" href="$structMWWorld_1_1CellRefList.html#a87a71682d152ff953339e2f9334f413b" title="MWWorld::CellRefList\l::load" alt="" coords="855,122,1006,163"/>
+<area shape="rect" id="node32" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1970,154,2102,195"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1120,180,1299,207"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1Store.html#aa531b5a392c7f3de29b33a13da105cd7" title="MWWorld::Store::search" alt="" coords="1123,129,1295,156"/>
+<area shape="rect" id="node38" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1421,122,1553,163"/>
+<area shape="rect" id="node39" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="1421,187,1553,229"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1CellStore.html#a392348bc44d7f28c24a869e8ff157723" title="MWWorld::CellStore\l::forEachInternal" alt="" coords="859,790,1003,831"/>
+<area shape="rect" id="node50" href="$structMWWorld_1_1MergeVisitor.html#abfa4488084b470eb5224945fcb8c4535" title="MWWorld::MergeVisitor\l::merge" alt="" coords="847,718,1014,759"/>
+<area shape="rect" id="node44" href="$classMWWorld_1_1CellStore.html#a14f1e9420bb109213356b124e5166d31" title="MWWorld::CellStore\l::forEachImp" alt="" coords="1137,790,1281,831"/>
+<area shape="rect" id="node45" href="$classMWWorld_1_1CellStore.html#ab706aebc06b5f99667203c8dcc670369" title="MWWorld::CellStore\l::isAccessible" alt="" coords="1415,790,1559,831"/>
+<area shape="rect" id="node46" href="$classMWWorld_1_1RefData.html#abfb41213bbf1459bcb511783bb654f8d" title="Returns true if the object was deleted by a content file. " alt="" coords="1665,738,1869,779"/>
+<area shape="rect" id="node47" href="$classMWWorld_1_1CellRef.html#abc0b42ed0ef6655f90582a4ca3fb5580" title="Does the RefNum have a content file? " alt="" coords="1651,804,1882,831"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="1665,855,1868,881"/>
+<area shape="rect" id="node48" href="$structESM_1_1RefNum.html#a2b87d84313f4b83bdcb1ce9efed775c6" title="ESM::RefNum::hasContentFile" alt="" coords="1931,804,2141,831"/>
 </map>

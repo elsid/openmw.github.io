@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/myguiplatform/myguiloglistener.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/myguiplatform/myguiloglistener.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -146,7 +146,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;          : <a class="code" href="classosgMyGUI_1_1LogFacility.html#a2bcd6b53e94e9e1b1f7ccff1a7f74f1c">mFile</a>(output)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        {</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="classosgMyGUI_1_1LogFacility.html#abfc0f5e72a57d12ed9c401fd5831d100">mConsole</a>.setEnabled(console);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="classosgMyGUI_1_1LogFacility.html#a01623b702be1036bd23220d91b94e9e1">mFilter</a>.setLoggingLevel(MyGUI::LogLevel::Info);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="classosgMyGUI_1_1LogFacility.html#a01623b702be1036bd23220d91b94e9e1">mFilter</a>.setLoggingLevel(<a class="code" href="namespaceDebug.html#ace4ffe62c9cedc3322c1f2fd2097f1c4aea5e2942e4535fe7fb01b461070beaf2">MyGUI::LogLevel::Info</a>);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="classosgMyGUI_1_1LogFacility.html#a4899b84aded949eaa10d5cc2fd3dac1c">mSource</a>.addLogListener(&amp;<a class="code" href="classosgMyGUI_1_1LogFacility.html#a2bcd6b53e94e9e1b1f7ccff1a7f74f1c">mFile</a>);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="classosgMyGUI_1_1LogFacility.html#a4899b84aded949eaa10d5cc2fd3dac1c">mSource</a>.addLogListener(&amp;<a class="code" href="classosgMyGUI_1_1LogFacility.html#abfc0f5e72a57d12ed9c401fd5831d100">mConsole</a>);</div>
@@ -166,23 +166,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html">osgMyGUI::CustomLogListener</a></div><div class="ttdoc">Custom MyGUI::ILogListener interface implementation being able to portably handle UTF-8 encoded path...</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:18</div></div>
 <div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_a3e5542272d67abe0eef82f8e10e31012"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#a3e5542272d67abe0eef82f8e10e31012">osgMyGUI::CustomLogListener::~CustomLogListener</a></div><div class="ttdeci">~CustomLogListener()</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:25</div></div>
 <div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_a28e9f60111aef54cbac8ae4049a1233a"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#a28e9f60111aef54cbac8ae4049a1233a">osgMyGUI::CustomLogListener::CustomLogListener</a></div><div class="ttdeci">CustomLogListener(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:21</div></div>
+<div class="ttc" id="namespaceDebug_html_ace4ffe62c9cedc3322c1f2fd2097f1c4aea5e2942e4535fe7fb01b461070beaf2"><div class="ttname"><a href="namespaceDebug.html#ace4ffe62c9cedc3322c1f2fd2097f1c4aea5e2942e4535fe7fb01b461070beaf2">Debug::Info</a></div><div class="ttdef"><b>Definition:</b> debuglog.hpp:14</div></div>
 <div class="ttc" id="classosgMyGUI_1_1LogFacility_html_a5db978dfae38dcadd71d9efdd5b6d387"><div class="ttname"><a href="classosgMyGUI_1_1LogFacility.html#a5db978dfae38dcadd71d9efdd5b6d387">osgMyGUI::LogFacility::LogFacility</a></div><div class="ttdeci">LogFacility(const std::string &amp;output, bool console)</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:51</div></div>
 <div class="ttc" id="classosgMyGUI_1_1LogFacility_html_a01623b702be1036bd23220d91b94e9e1"><div class="ttname"><a href="classosgMyGUI_1_1LogFacility.html#a01623b702be1036bd23220d91b94e9e1">osgMyGUI::LogFacility::mFilter</a></div><div class="ttdeci">MyGUI::LevelLogFilter mFilter</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:46</div></div>
-<div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_a63de2649a9627b65e42874a3d9a7ed17"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#a63de2649a9627b65e42874a3d9a7ed17">osgMyGUI::CustomLogListener::flush</a></div><div class="ttdeci">virtual void flush()</div><div class="ttdef"><b>Definition:</b> myguiloglistener.cpp:21</div></div>
-<div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_aa6c88b74a06708e73a4a7487e8d4f4d0"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#aa6c88b74a06708e73a4a7487e8d4f4d0">osgMyGUI::CustomLogListener::log</a></div><div class="ttdeci">virtual void log(const std::string &amp;_section, MyGUI::LogLevel _level, const struct tm *_time, const std::string &amp;_message, const char *_file, int _line)</div><div class="ttdef"><b>Definition:</b> myguiloglistener.cpp:27</div></div>
+<div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_a63de2649a9627b65e42874a3d9a7ed17"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#a63de2649a9627b65e42874a3d9a7ed17">osgMyGUI::CustomLogListener::flush</a></div><div class="ttdeci">virtual void flush()</div><div class="ttdef"><b>Definition:</b> myguiloglistener.cpp:18</div></div>
+<div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_aa6c88b74a06708e73a4a7487e8d4f4d0"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#aa6c88b74a06708e73a4a7487e8d4f4d0">osgMyGUI::CustomLogListener::log</a></div><div class="ttdeci">virtual void log(const std::string &amp;_section, MyGUI::LogLevel _level, const struct tm *_time, const std::string &amp;_message, const char *_file, int _line)</div><div class="ttdef"><b>Definition:</b> myguiloglistener.cpp:24</div></div>
 <div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_a95d46b2f7111d9fe3115e3fef38efd79"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#a95d46b2f7111d9fe3115e3fef38efd79">osgMyGUI::CustomLogListener::mFileName</a></div><div class="ttdeci">std::string mFileName</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:37</div></div>
 <div class="ttc" id="classosgMyGUI_1_1LogFacility_html_a2bcd6b53e94e9e1b1f7ccff1a7f74f1c"><div class="ttname"><a href="classosgMyGUI_1_1LogFacility.html#a2bcd6b53e94e9e1b1f7ccff1a7f74f1c">osgMyGUI::LogFacility::mFile</a></div><div class="ttdeci">CustomLogListener mFile</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:45</div></div>
 <div class="ttc" id="classosgMyGUI_1_1LogFacility_html_a76c073e947392ef220e2c0b288ed5213"><div class="ttname"><a href="classosgMyGUI_1_1LogFacility.html#a76c073e947392ef220e2c0b288ed5213">osgMyGUI::LogFacility::getSource</a></div><div class="ttdeci">MyGUI::LogSource * getSource()</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:64</div></div>
 <div class="ttc" id="classosgMyGUI_1_1LogFacility_html"><div class="ttname"><a href="classosgMyGUI_1_1LogFacility.html">osgMyGUI::LogFacility</a></div><div class="ttdoc">Helper class holding data that required during MyGUI log creation. </div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:42</div></div>
 <div class="ttc" id="classosgMyGUI_1_1LogFacility_html_abfc0f5e72a57d12ed9c401fd5831d100"><div class="ttname"><a href="classosgMyGUI_1_1LogFacility.html#abfc0f5e72a57d12ed9c401fd5831d100">osgMyGUI::LogFacility::mConsole</a></div><div class="ttdeci">MyGUI::ConsoleLogListener mConsole</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:44</div></div>
-<div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_addc5bfa3872fc1cae570fa8bf5e6b9b6"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#addc5bfa3872fc1cae570fa8bf5e6b9b6">osgMyGUI::CustomLogListener::open</a></div><div class="ttdeci">virtual void open()</div><div class="ttdef"><b>Definition:</b> myguiloglistener.cpp:10</div></div>
+<div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_addc5bfa3872fc1cae570fa8bf5e6b9b6"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#addc5bfa3872fc1cae570fa8bf5e6b9b6">osgMyGUI::CustomLogListener::open</a></div><div class="ttdeci">virtual void open()</div><div class="ttdef"><b>Definition:</b> myguiloglistener.cpp:7</div></div>
 <div class="ttc" id="classosgMyGUI_1_1LogFacility_html_a4899b84aded949eaa10d5cc2fd3dac1c"><div class="ttname"><a href="classosgMyGUI_1_1LogFacility.html#a4899b84aded949eaa10d5cc2fd3dac1c">osgMyGUI::LogFacility::mSource</a></div><div class="ttdeci">MyGUI::LogSource mSource</div><div class="ttdef"><b>Definition:</b> myguiloglistener.hpp:47</div></div>
-<div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_a51f4073efe415e7825608173a70fb3b4"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#a51f4073efe415e7825608173a70fb3b4">osgMyGUI::CustomLogListener::close</a></div><div class="ttdeci">virtual void close()</div><div class="ttdef"><b>Definition:</b> myguiloglistener.cpp:15</div></div>
-<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:59</div></div>
+<div class="ttc" id="classosgMyGUI_1_1CustomLogListener_html_a51f4073efe415e7825608173a70fb3b4"><div class="ttname"><a href="classosgMyGUI_1_1CustomLogListener.html#a51f4073efe415e7825608173a70fb3b4">osgMyGUI::CustomLogListener::close</a></div><div class="ttdeci">virtual void close()</div><div class="ttdef"><b>Definition:</b> myguiloglistener.cpp:12</div></div>
+<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

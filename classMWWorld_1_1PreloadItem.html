@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,21 +109,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWWorld::PreloadItem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1PreloadItem__inherit__graph.svg" width="187" height="590"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1PreloadItem__inherit__graph.svg" width="187" height="662"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWWorld::PreloadItem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1PreloadItem__coll__graph.svg" width="3227" height="2739"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1PreloadItem__coll__graph.svg" width="4062" height="2715"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae94817a8b706706ff12fb363e950e1b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#ae94817a8b706706ff12fb363e950e1b1">PreloadItem</a> (<a class="el" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a> *cell, <a class="el" href="classResource_1_1SceneManager.html">Resource::SceneManager</a> *sceneManager, <a class="el" href="classResource_1_1BulletShapeManager.html">Resource::BulletShapeManager</a> *bulletShapeManager, <a class="el" href="classResource_1_1KeyframeManager.html">Resource::KeyframeManager</a> *keyframeManager, <a class="el" href="classTerrain_1_1World.html">Terrain::World</a> *terrain, <a class="el" href="classbool.html">bool</a> preloadInstances)</td></tr>
-<tr class="memdesc:ae94817a8b706706ff12fb363e950e1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to be called from the main thread.  <a href="#ae94817a8b706706ff12fb363e950e1b1">More...</a><br/></td></tr>
-<tr class="separator:ae94817a8b706706ff12fb363e950e1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6dbbda6754ef2e87e80f4cfc75bf57d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#aa6dbbda6754ef2e87e80f4cfc75bf57d">PreloadItem</a> (<a class="el" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a> *cell, <a class="el" href="classResource_1_1SceneManager.html">Resource::SceneManager</a> *sceneManager, <a class="el" href="classResource_1_1BulletShapeManager.html">Resource::BulletShapeManager</a> *bulletShapeManager, <a class="el" href="classResource_1_1KeyframeManager.html">Resource::KeyframeManager</a> *keyframeManager, <a class="el" href="classTerrain_1_1World.html">Terrain::World</a> *terrain, <a class="el" href="classMWRender_1_1LandManager.html">MWRender::LandManager</a> *landManager, <a class="el" href="classbool.html">bool</a> preloadInstances)</td></tr>
+<tr class="memdesc:aa6dbbda6754ef2e87e80f4cfc75bf57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to be called from the main thread.  <a href="#aa6dbbda6754ef2e87e80f4cfc75bf57d">More...</a><br/></td></tr>
+<tr class="separator:aa6dbbda6754ef2e87e80f4cfc75bf57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677b04c35bc579fac67b710b4fdec84c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#a677b04c35bc579fac67b710b4fdec84c">abort</a> ()</td></tr>
+<tr class="memdesc:a677b04c35bc579fac67b710b4fdec84c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set abort flag in order to return from <a class="el" href="classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990" title="Preload work to be called from the worker thread. ">doWork()</a> as soon as possible. May not be respected by all WorkItems.  <a href="#a677b04c35bc579fac67b710b4fdec84c">More...</a><br/></td></tr>
+<tr class="separator:a677b04c35bc579fac67b710b4fdec84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeb59859079ca1443a470503b6e22990"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990">doWork</a> ()</td></tr>
 <tr class="memdesc:aeeb59859079ca1443a470503b6e22990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preload work to be called from the worker thread.  <a href="#aeeb59859079ca1443a470503b6e22990">More...</a><br/></td></tr>
 <tr class="separator:aeeb59859079ca1443a470503b6e22990"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,8 +167,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac44a8fe134175c38e0a3fe8e2b3b3aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab023019f284508c426955d444eef3bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTerrain_1_1World.html">Terrain::World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#ab023019f284508c426955d444eef3bd2">mTerrain</a></td></tr>
 <tr class="separator:ab023019f284508c426955d444eef3bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a2579ec46b6e13d2ae87cbff060a75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWRender_1_1LandManager.html">MWRender::LandManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#ab4a2579ec46b6e13d2ae87cbff060a75">mLandManager</a></td></tr>
+<tr class="separator:ab4a2579ec46b6e13d2ae87cbff060a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41d3675afc7f3966511445f1046d0bbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#a41d3675afc7f3966511445f1046d0bbd">mPreloadInstances</a></td></tr>
 <tr class="separator:a41d3675afc7f3966511445f1046d0bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d998823a22be848bc176705c74e0366"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#a7d998823a22be848bc176705c74e0366">mAbort</a></td></tr>
+<tr class="separator:a7d998823a22be848bc176705c74e0366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a654a79362b762c26f458836860bdb0"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; <a class="el" href="classTerrain_1_1View.html">Terrain::View</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#a7a654a79362b762c26f458836860bdb0">mTerrainView</a></td></tr>
+<tr class="separator:a7a654a79362b762c26f458836860bdb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8275524bb95803566774b787da80c78"><td class="memItemLeft" align="right" valign="top">std::vector&lt; osg::ref_ptr<br class="typebreak"/>
 &lt; const osg::Object &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1PreloadItem.html#ad8275524bb95803566774b787da80c78">mPreloadedObjects</a></td></tr>
 <tr class="separator:ad8275524bb95803566774b787da80c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,7 +213,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae94817a8b706706ff12fb363e950e1b1"></a>
+<a class="anchor" id="aa6dbbda6754ef2e87e80f4cfc75bf57d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -244,6 +253,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMWRender_1_1LandManager.html">MWRender::LandManager</a> *&#160;</td>
+          <td class="paramname"><em>landManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
           <td class="paramname"><em>preloadInstances</em>&#160;</td>
         </tr>
@@ -265,7 +280,7 @@ Additional Inherited Members</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1PreloadItem_ae94817a8b706706ff12fb363e950e1b1_cgraph.svg" width="1147" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1PreloadItem_aa6dbbda6754ef2e87e80f4cfc75bf57d_cgraph.svg" width="1147" height="454"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -273,6 +288,33 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a677b04c35bc579fac67b710b4fdec84c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MWWorld::PreloadItem::abort </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set abort flag in order to return from <a class="el" href="classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990" title="Preload work to be called from the worker thread. ">doWork()</a> as soon as possible. May not be respected by all WorkItems. </p>
+
+<p>Reimplemented from <a class="el" href="classSceneUtil_1_1WorkItem.html#a284acee9dd8550c41736d25faeb14e81">SceneUtil::WorkItem</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aeeb59859079ca1443a470503b6e22990"></a>
 <div class="memitem">
 <div class="memproto">
@@ -301,7 +343,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1PreloadItem_aeeb59859079ca1443a470503b6e22990_cgraph.svg" width="2256" height="1543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1PreloadItem_aeeb59859079ca1443a470503b6e22990_cgraph.svg" width="1870" height="1432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -309,6 +351,26 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a7d998823a22be848bc176705c74e0366"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile <a class="el" href="classbool.html">bool</a> MWWorld::PreloadItem::mAbort</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a744a255149bdb40d4b6f13bd9ed7b031"></a>
 <div class="memitem">
 <div class="memproto">
@@ -358,6 +420,26 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classResource_1_1KeyframeManager.html">Resource::KeyframeManager</a>* MWWorld::PreloadItem::mKeyframeManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab4a2579ec46b6e13d2ae87cbff060a75"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMWRender_1_1LandManager.html">MWRender::LandManager</a>* MWWorld::PreloadItem::mLandManager</td>
         </tr>
       </table>
   </td>
@@ -469,6 +551,26 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a7a654a79362b762c26f458836860bdb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt;<a class="el" href="classTerrain_1_1View.html">Terrain::View</a>&gt; MWWorld::PreloadItem::mTerrainView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac16d11fb9ea86faf2a96526ce0905af4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -510,12 +612,12 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="cellpreloader_8cpp.html">cellpreloader.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="cellpreloader_8cpp.html">cellpreloader.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:06 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:40 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

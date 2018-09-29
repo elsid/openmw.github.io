@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,13 +110,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for Resource::ResourceManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceManager__inherit__graph.svg" width="1106" height="640"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceManager__inherit__graph.svg" width="1791" height="686"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Resource::ResourceManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceManager__coll__graph.svg" width="651" height="864"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceManager__coll__graph.svg" width="651" height="926"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -129,11 +129,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab21594177a4b50780abde3c14058ad2e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceManager.html#ab21594177a4b50780abde3c14058ad2e">updateCache</a> (double referenceTime)</td></tr>
 <tr class="memdesc:ab21594177a4b50780abde3c14058ad2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear cache entries that have not been referenced for longer than expiryDelay.  <a href="#ab21594177a4b50780abde3c14058ad2e">More...</a><br/></td></tr>
 <tr class="separator:ab21594177a4b50780abde3c14058ad2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1b31cb5bf2c5da3cde79d1f85a909e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceManager.html#a0c1b31cb5bf2c5da3cde79d1f85a909e">clearCache</a> ()</td></tr>
+<tr class="memdesc:a0c1b31cb5bf2c5da3cde79d1f85a909e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all cache entries.  <a href="#a0c1b31cb5bf2c5da3cde79d1f85a909e">More...</a><br/></td></tr>
+<tr class="separator:a0c1b31cb5bf2c5da3cde79d1f85a909e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48df30434099d0d3e7d3ac47e9e4a1f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceManager.html#a48df30434099d0d3e7d3ac47e9e4a1f9">setExpiryDelay</a> (double expiryDelay)</td></tr>
 <tr class="memdesc:a48df30434099d0d3e7d3ac47e9e4a1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">How long to keep objects in cache after no longer being referenced.  <a href="#a48df30434099d0d3e7d3ac47e9e4a1f9">More...</a><br/></td></tr>
 <tr class="separator:a48df30434099d0d3e7d3ac47e9e4a1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5845cf6b86938d665fb22ccd7888d7e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceManager.html#aa5845cf6b86938d665fb22ccd7888d7e">getVFS</a> () const </td></tr>
 <tr class="separator:aa5845cf6b86938d665fb22ccd7888d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641a1d586312f5fb0e50bdefef8973e3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceManager.html#a641a1d586312f5fb0e50bdefef8973e3">reportStats</a> (unsigned <a class="el" href="classint.html">int</a> frameNumber, osg::Stats *stats) const </td></tr>
+<tr class="separator:a641a1d586312f5fb0e50bdefef8973e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10277aa6a185c8d7528b0d553fb4d795"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceManager.html#a10277aa6a185c8d7528b0d553fb4d795">releaseGLObjects</a> (osg::State *state)</td></tr>
+<tr class="separator:a10277aa6a185c8d7528b0d553fb4d795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -189,6 +196,41 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0c1b31cb5bf2c5da3cde79d1f85a909e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::ResourceManager::clearCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear all cache entries. </p>
+
+<p>Reimplemented in <a class="el" href="classResource_1_1SceneManager.html#a2855f0c3af41e51e83000c314d76e11a">Resource::SceneManager</a>, <a class="el" href="classResource_1_1BulletShapeManager.html#ae71d78364dc388abcab3726338584339">Resource::BulletShapeManager</a>, and <a class="el" href="classTerrain_1_1ChunkManager.html#ac76dbefc6e4881faa5ff37982df3ddf9">Terrain::ChunkManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceManager_a0c1b31cb5bf2c5da3cde79d1f85a909e_icgraph.svg" width="483" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="aa5845cf6b86938d665fb22ccd7888d7e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -205,10 +247,72 @@ Protected Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceManager_aa5845cf6b86938d665fb22ccd7888d7e_icgraph.svg" width="4200" height="1272"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceManager_aa5845cf6b86938d665fb22ccd7888d7e_icgraph.svg" width="3302" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a10277aa6a185c8d7528b0d553fb4d795"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::ResourceManager::releaseGLObjects </td>
+          <td>(</td>
+          <td class="paramtype">osg::State *&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classResource_1_1SceneManager.html#a82d8cfaf5e1c596d5607222129f769f6">Resource::SceneManager</a>, and <a class="el" href="classTerrain_1_1ChunkManager.html#a5e74ce5d5978b0e388f09474544460d9">Terrain::ChunkManager</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a641a1d586312f5fb0e50bdefef8973e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Resource::ResourceManager::reportStats </td>
+          <td>(</td>
+          <td class="paramtype">unsigned <a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>frameNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">osg::Stats *&#160;</td>
+          <td class="paramname"><em>stats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classResource_1_1SceneManager.html#ab57856c253830ed33de93a97e2d284cc">Resource::SceneManager</a>, <a class="el" href="classResource_1_1BulletShapeManager.html#a16941286d59a8ec0fce78dbbf713a317">Resource::BulletShapeManager</a>, <a class="el" href="classResource_1_1ImageManager.html#a1775bdab5e58481564894598651c9870">Resource::ImageManager</a>, <a class="el" href="classTerrain_1_1ChunkManager.html#a90690a495f814826a435d488f981a87c">Terrain::ChunkManager</a>, <a class="el" href="classTerrain_1_1TextureManager.html#a39f723181c7944c0cf08d6e8ae8e331e">Terrain::TextureManager</a>, <a class="el" href="classResource_1_1KeyframeManager.html#af9873384c1b00c5b0ff257da53b918bb">Resource::KeyframeManager</a>, <a class="el" href="classResource_1_1NifFileManager.html#aaea89a3113c9fa005e8612b6ae7da663">Resource::NifFileManager</a>, and <a class="el" href="classMWRender_1_1LandManager.html#a917d688f58897b2a557b72ff62d0363e">MWRender::LandManager</a>.</p>
 
 </div>
 </div>
@@ -254,7 +358,7 @@ Here is the caller graph for this function:</div>
 
 <p>Clear cache entries that have not been referenced for longer than expiryDelay. </p>
 
-<p>Reimplemented in <a class="el" href="classResource_1_1SceneManager.html#a3a241e177b80267035e00a550a853e3b">Resource::SceneManager</a>, and <a class="el" href="classResource_1_1BulletShapeManager.html#a3a18dbc711a293356b52a5e576093f25">Resource::BulletShapeManager</a>.</p>
+<p>Reimplemented in <a class="el" href="classResource_1_1SceneManager.html#a9632fe21d921bc3dfafe1f5069b58372">Resource::SceneManager</a>, and <a class="el" href="classResource_1_1BulletShapeManager.html#a3a18dbc711a293356b52a5e576093f25">Resource::BulletShapeManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -328,13 +432,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="resourcemanager_8hpp_source.html">resourcemanager.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="resourcemanager_8cpp.html">resourcemanager.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="resourcemanager_8hpp_source.html">resourcemanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="resourcemanager_8cpp.html">resourcemanager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

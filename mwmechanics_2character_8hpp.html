@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/character.hpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwmechanics/character.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -105,17 +105,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &lt;deque&gt;</code><br/>
 <code>#include &lt;<a class="el" href="loadmgef_8hpp_source.html">components/esm/loadmgef.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="ptr_8hpp_source.html">../mwworld/ptr.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="containerstore_8hpp_source.html">../mwworld/containerstore.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="animation_8hpp_source.html">../mwrender/animation.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for character.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="mwmechanics_2character_8hpp__incl.svg" width="1035" height="622"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="mwmechanics_2character_8hpp__incl.svg" width="2751" height="622"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="mwmechanics_2character_8hpp__dep__incl.svg" width="2132" height="379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="mwmechanics_2character_8hpp__dep__incl.svg" width="1882" height="379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -148,8 +149,8 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a8fefd3ebacb3b2bd2925792a94ae0de1">MWMechanics::Priority_SneakIdleLowerBody</a>, 
 <a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a2a75165ee5f1e2a60d55a2a353aded6f">MWMechanics::Priority_SwimIdle</a>, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a9c12499ae1a75c6ed51fce3c47418626">MWMechanics::Priority_Jump</a>, 
-<a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1ad9e90c40dda46e21347861ab567c6f9b">MWMechanics::Priority_Movement</a>, 
+&#160;&#160;<a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1ad9e90c40dda46e21347861ab567c6f9b">MWMechanics::Priority_Movement</a>, 
+<a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a9c12499ae1a75c6ed51fce3c47418626">MWMechanics::Priority_Jump</a>, 
 <a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a73b0b41c721e843d1a5409df8dfe3e24">MWMechanics::Priority_Hit</a>, 
 <a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a82b02adb1c944ce086dde096ce278207">MWMechanics::Priority_Weapon</a>, 
 <br/>
@@ -159,6 +160,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1aa9d873391913f3ffa50b62d8d5f0d92d">MWMechanics::Priority_Storm</a>, 
 <br/>
 &#160;&#160;<a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a0a1a0d1a53f37b093d6c524ab0f5a778">MWMechanics::Priority_Death</a>, 
+<a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a54898feddddb8ea5cae5a410bfa63dd9">MWMechanics::Priority_Persistent</a>, 
 <a class="el" href="namespaceMWMechanics.html#aa16e6fcd56aed1002789283fc826eae1a6dff10b2570328dba6a4cf5370b63973">MWMechanics::Num_Priorities</a>
 <br/>
  }</td></tr>
@@ -207,21 +209,30 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfad549dc9d6ed748d34d837cc3aeb2bb77">MWMechanics::CharState_SneakRight</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa7986e28e47b4a5a7031a2bef39645b41">MWMechanics::CharState_TurnLeft</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa11b438477566354696421b1b24527652">MWMechanics::CharState_TurnRight</a>, 
+<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa4ee78e53334c646ad51caeec37f571c1">MWMechanics::CharState_SwimTurnLeft</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa987fdea7d0467407958d67471919afb0">MWMechanics::CharState_SwimTurnRight</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa25826e39ff6799da1e0aad7d3091d3bc">MWMechanics::CharState_Jump</a>, 
-<br/>
-&#160;&#160;<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfaf6fb75edfa2f7c6dbf26ede9826a450d">MWMechanics::CharState_Death1</a>, 
+<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfaf6fb75edfa2f7c6dbf26ede9826a450d">MWMechanics::CharState_Death1</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa64535499374142cb33e535cd7b8b971d">MWMechanics::CharState_Death2</a>, 
-<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfacf9e8209c030243768a3eea57eb1aeda">MWMechanics::CharState_Death3</a>, 
-<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa5f3b573ebf864126222c90b86773a260">MWMechanics::CharState_Death4</a>, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa3fab4aec7684259cf76f2533a14c97f4">MWMechanics::CharState_Death5</a>, 
+&#160;&#160;<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfacf9e8209c030243768a3eea57eb1aeda">MWMechanics::CharState_Death3</a>, 
+<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa5f3b573ebf864126222c90b86773a260">MWMechanics::CharState_Death4</a>, 
+<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa3fab4aec7684259cf76f2533a14c97f4">MWMechanics::CharState_Death5</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfaa0d5813b4031f77a64786b5519a28db0">MWMechanics::CharState_SwimDeath</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfaa728b03f094c35cdd55f7e207a0768ba">MWMechanics::CharState_SwimDeathKnockDown</a>, 
+<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfaf26c2850491b900bc37d6b50da831e21">MWMechanics::CharState_SwimDeathKnockOut</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfaebf0b25c732435913ddca496de487aaf">MWMechanics::CharState_DeathKnockDown</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa80f236a552cd752934b2acdc4b6423e2">MWMechanics::CharState_DeathKnockOut</a>, 
 <br/>
 &#160;&#160;<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa0006618cab8659f7b6f77263b0d1ebb0">MWMechanics::CharState_Hit</a>, 
+<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa91f7a10eed394620f5452812676765aa">MWMechanics::CharState_SwimHit</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa33f66d9b974379d30920e180a5bad476">MWMechanics::CharState_KnockDown</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa6e598ab3273731a6eec3a4030ffb16c6">MWMechanics::CharState_KnockOut</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa9550c2e6699a0dda4ef75b8e7f342b2c">MWMechanics::CharState_SwimKnockDown</a>, 
+<a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa3267c1e8dd80da72160cba4ab14f7233">MWMechanics::CharState_SwimKnockOut</a>, 
 <a class="el" href="namespaceMWMechanics.html#a54e1ad33c1470a6e30130e34c09e8fdfa88fa062ea27bf40fb8e26064b8158763">MWMechanics::CharState_Block</a>
 <br/>
  }</td></tr>
@@ -266,13 +277,13 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2da38219ca9eb50fbb4cca0611cc12b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWWorld_1_1ContainerStoreIterator.html">MWWorld::ContainerStoreIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWMechanics.html#a2da38219ca9eb50fbb4cca0611cc12b4">MWMechanics::getActiveWeapon</a> (<a class="el" href="classMWMechanics_1_1CreatureStats.html">CreatureStats</a> &amp;stats, <a class="el" href="classMWWorld_1_1InventoryStore.html">MWWorld::InventoryStore</a> &amp;inv, <a class="el" href="namespaceMWMechanics.html#a3d4a6ff637e01395b1ef553477c10e8c">WeaponType</a> *weaptype)</td></tr>
+<tr class="memitem:a2da38219ca9eb50fbb4cca0611cc12b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMWWorld.html#a7743d2749e78d0e8e09844d0e044d71c">MWWorld::ContainerStoreIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWMechanics.html#a2da38219ca9eb50fbb4cca0611cc12b4">MWMechanics::getActiveWeapon</a> (<a class="el" href="classMWMechanics_1_1CreatureStats.html">CreatureStats</a> &amp;stats, <a class="el" href="classMWWorld_1_1InventoryStore.html">MWWorld::InventoryStore</a> &amp;inv, <a class="el" href="namespaceMWMechanics.html#a3d4a6ff637e01395b1ef553477c10e8c">WeaponType</a> *weaptype)</td></tr>
 <tr class="separator:a2da38219ca9eb50fbb4cca0611cc12b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

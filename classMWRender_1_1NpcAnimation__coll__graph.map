@@ -1,24 +1,23 @@
 <map id="MWRender::NpcAnimation" name="MWRender::NpcAnimation">
-<area shape="rect" id="node2" href="$classMWRender_1_1ActorAnimation.html" title="{MWRender::ActorAnimation\n||+ ActorAnimation()\l+ ~ActorAnimation()\l+ itemAdded()\l+ itemRemoved()\l&#45; addHiddenItemLight()\l&#45; removeHiddenItemLight()\l}" alt="" coords="3829,1321,4023,1471"/>
-<area shape="rect" id="node3" href="$classMWRender_1_1Animation.html" title="{MWRender::Animation\n||+ setTextKeyListener()\l+ Animation()\l+ ~Animation()\l+ getPtr()\l+ setActive()\l+ getOrCreateObjectRoot()\l+ getObjectRoot()\l+ addEffect()\l+ removeEffect()\l+ getLoopingEffects()\land 34 more...\l# getNodeMap()\l# resetActiveGroups()\l# detectBlendMask()\l# updatePosition()\l# reset()\l# handleTextKey()\l# setObjectRoot()\l# addAnimSource()\l# addExtraLight()\l# clearAnimSources()\l# addControllers()\l# getEnchantmentColor()\l# addGlow()\l# setRenderBin()\l&#45; Animation()\l&#45; operator=()\l}" alt="" coords="2034,784,2229,1243"/>
-<area shape="rect" id="node31" href="$classMWRender_1_1WeaponAnimation.html" title="Handles attach &amp; release of projectiles for ranged weapons. " alt="" coords="4222,887,4431,1140"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="287,149,373,227"/>
-<area shape="rect" id="node38" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ getRecordType()\l}" alt="" coords="5271,923,5415,1103"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="261,6,398,98"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1Ptr.html" title="Pointer to a LiveCellRef. " alt="" coords="3137,437,3319,691"/>
-<area shape="rect" id="node15" href="$classMWRender_1_1Animation_1_1TextKeyListener.html" title="{MWRender::Animation\l::TextKeyListener\n||+ handleTextKey()\l}" alt="" coords="1613,518,1774,610"/>
-<area shape="rect" id="node17" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="2026,437,2235,691"/>
-<area shape="rect" id="node19" href="$classbool.html" title="{bool\n||}" alt="" coords="4037,149,4086,227"/>
-<area shape="rect" id="node20" href="$classSceneUtil_1_1Skeleton.html" title="Handles the bone matrices for any number of child RigGeometries. " alt="" coords="3699,474,3846,654"/>
-<area shape="rect" id="node43" href="$structESM_1_1NPC_1_1NPDTstruct52.html" title="{ESM::NPC::NPDTstruct52\n|+ mEndurance\l+ mSkills\l|}" alt="" coords="5281,518,5459,610"/>
-<area shape="rect" id="node29" href="$classMWWorld_1_1ContainerStoreListener.html" title="{MWWorld::ContainerStoreListener\n||+ itemAdded()\l+ itemRemoved()\l}" alt="" coords="3963,967,4197,1059"/>
-<area shape="rect" id="node33" href="$classMWWorld_1_1InventoryStoreListener.html" title="Variant of the ContainerStore for NPCs. " alt="" coords="4675,1350,4905,1442"/>
-<area shape="rect" id="node34" title="STL class. " alt="" coords="4929,1357,5061,1435"/>
-<area shape="rect" id="node39" href="$structESM_1_1AIPackageList.html" title="{ESM::AIPackageList\n||+ add()\l+ save()\l}" alt="" coords="5111,518,5255,610"/>
-<area shape="rect" id="node40" href="$structESM_1_1AIData.html" title="{ESM::AIData\n||+ blank()\l}" alt="" coords="5483,525,5585,603"/>
-<area shape="rect" id="node41" href="$classint.html" title="{int\n||}" alt="" coords="5511,149,5549,227"/>
-<area shape="rect" id="node42" href="$structESM_1_1NPC_1_1NPDTstruct12.html" title="{ESM::NPC::NPDTstruct12\n||}" alt="" coords="4907,525,5086,603"/>
-<area shape="rect" id="node44" href="$structESM_1_1Transport.html" title="List of travel service destination. Shared by CREA and NPC_ records. " alt="" coords="5718,518,5834,610"/>
-<area shape="rect" id="node45" href="$structESM_1_1SpellList.html" title="{ESM::SpellList\n||+ exists()\l+ add()\l+ save()\l}" alt="" coords="5860,511,5970,617"/>
-<area shape="rect" id="node46" href="$structESM_1_1InventoryList.html" title="InventoryList, NPCO subrecord. " alt="" coords="5995,518,6134,610"/>
+<area shape="rect" id="node2" href="$classMWRender_1_1ActorAnimation.html" title="{MWRender::ActorAnimation\n||+ ActorAnimation()\l+ ~ActorAnimation()\l+ itemAdded()\l+ itemRemoved()\l&#45; addHiddenItemLight()\l&#45; removeHiddenItemLight()\l}" alt="" coords="1921,1294,2116,1445"/>
+<area shape="rect" id="node3" href="$classMWRender_1_1Animation.html" title="{MWRender::Animation\n||+ setTextKeyListener()\l+ Animation()\l+ ~Animation()\l+ getPtr()\l+ getPtr()\l+ setActive()\l+ getOrCreateObjectRoot()\l+ getObjectRoot()\l+ addEffect()\l+ removeEffect()\land 35 more...\l# getNodeMap()\l# resetActiveGroups()\l# detectBlendMask()\l# updatePosition()\l# reset()\l# handleTextKey()\l# setObjectRoot()\l# loadAllAnimationsInFolder()\l# addAnimSource()\l# addSingleAnimSource()\land 6 more...\l&#45; Animation()\l&#45; operator=()\l}" alt="" coords="2091,814,2300,1229"/>
+<area shape="rect" id="node32" href="$classMWRender_1_1WeaponAnimation.html" title="Handles attach &amp; release of projectiles for ranged weapons. " alt="" coords="4484,895,4693,1148"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="1019,149,1105,227"/>
+<area shape="rect" id="node39" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ blankNpdt()\l+ getRecordType()\l}" alt="" coords="5456,924,5600,1119"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="994,6,1131,98"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html" title="Pointer to a LiveCellRef. " alt="" coords="1907,460,2089,713"/>
+<area shape="rect" id="node18" href="$classMWRender_1_1Animation_1_1TextKeyListener.html" title="{MWRender::Animation\l::TextKeyListener\n||+ handleTextKey()\l}" alt="" coords="3158,541,3319,633"/>
+<area shape="rect" id="node19" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="3343,438,3552,735"/>
+<area shape="rect" id="node21" href="$classbool.html" title="{bool\n||}" alt="" coords="3966,149,4015,227"/>
+<area shape="rect" id="node23" href="$classSceneUtil_1_1Skeleton.html" title="Handles the bone matrices for any number of child RigGeometries. " alt="" coords="3817,497,3964,677"/>
+<area shape="rect" id="node43" href="$structESM_1_1NPC_1_1NPDTstruct52.html" title="{ESM::NPC::NPDTstruct52\n|+ mWillpower\l+ mEndurance\l+ mLuck\l+ mSkills\l+ mReputation\l|}" alt="" coords="5676,519,5855,655"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1ContainerStoreListener.html" title="{MWWorld::ContainerStoreListener\n||+ itemAdded()\l+ itemRemoved()\l}" alt="" coords="1832,975,2065,1067"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1InventoryStoreListener.html" title="Variant of the ContainerStore for NPCs. " alt="" coords="4915,1323,5145,1415"/>
+<area shape="rect" id="node35" title="STL class. " alt="" coords="5170,1331,5301,1408"/>
+<area shape="rect" id="node40" href="$structESM_1_1AIPackageList.html" title="{ESM::AIPackageList\n||+ add()\l+ save()\l}" alt="" coords="5374,541,5519,633"/>
+<area shape="rect" id="node41" href="$structESM_1_1AIData.html" title="{ESM::AIData\n||+ blank()\l}" alt="" coords="5988,548,6089,625"/>
+<area shape="rect" id="node42" href="$classint.html" title="{int\n||}" alt="" coords="5929,149,5967,227"/>
+<area shape="rect" id="node44" href="$structESM_1_1Transport.html" title="List of travel service destination. Shared by CREA and NPC_ records. " alt="" coords="6113,541,6229,633"/>
+<area shape="rect" id="node45" href="$structESM_1_1SpellList.html" title="{ESM::SpellList\n||+ exists()\l+ add()\l+ save()\l}" alt="" coords="5075,533,5185,640"/>
+<area shape="rect" id="node46" href="$structESM_1_1InventoryList.html" title="InventoryList, NPCO subrecord. " alt="" coords="5211,541,5349,633"/>
 </map>

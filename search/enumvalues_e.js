@@ -2,6 +2,7 @@ var searchData=
 [
   ['offdefault',['OffDefault',['../structESM_1_1Light.html#ad3a93f703dbee96a01f8e529a96f57beaa3742d511b8af238144e5a83ee258dea',1,'ESM::Light']]],
   ['open',['Open',['../structESM_1_1MagicEffect.html#ad713b064a04784c527a6b87471d9b277a1367a639532019137ba771c7fffdc318',1,'ESM::MagicEffect']]],
+  ['optimize_5ftexture_5fsettings',['OPTIMIZE_TEXTURE_SETTINGS',['../classSceneUtil_1_1Optimizer.html#a8dbb142e4cc5b0b70bb03b9526cdf87caa628abdc2f427e790c2d33ea5083c882',1,'SceneUtil::Optimizer']]],
   ['organic',['Organic',['../structESM_1_1Container.html#a088e3eebd03eec96ee7766c134dda83ea69f9aaf212421cd11967b3ce6ff5b879',1,'ESM::Container']]],
   ['ot_5fassault',['OT_Assault',['../classMWBase_1_1MechanicsManager.html#a4fb8cf123054fdfc8c38f2000e0ffaa9a24e9aa9b74119fcc1b3b1baa9e2ab1f9',1,'MWBase::MechanicsManager']]],
   ['ot_5fmurder',['OT_Murder',['../classMWBase_1_1MechanicsManager.html#a4fb8cf123054fdfc8c38f2000e0ffaa9af436d4ad51375acf4a6ec63cf237b6f8',1,'MWBase::MechanicsManager']]],

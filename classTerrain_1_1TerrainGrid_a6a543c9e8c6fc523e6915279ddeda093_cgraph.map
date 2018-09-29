@@ -1,24 +1,31 @@
 <map id="Terrain::TerrainGrid::loadCell" name="Terrain::TerrainGrid::loadCell">
-<area shape="rect" id="node2" href="$classTerrain_1_1TerrainGrid.html#a7bf80dae47ad5b429311d4118631a627" title="Terrain::TerrainGrid\l::buildTerrain" alt="" coords="195,383,335,425"/>
-<area shape="rect" id="node3" href="$classTerrain_1_1Storage.html#acfbec50c7fd444292cd4b4f2244204b7" title="Terrain::Storage::getMin\lMaxHeights" alt="" coords="409,5,583,46"/>
-<area shape="rect" id="node4" href="$classTerrain_1_1Storage.html#a8f8ed3c3ba822e0264edf115a226fba4" title="Get the transformation factor for mapping cell units to world units. " alt="" coords="409,70,583,111"/>
-<area shape="rect" id="node5" href="$classTerrain_1_1Storage.html#ae4ec405d3108b4542af3d5b114ab87e2" title="Terrain::Storage::fillVertex\lBuffers" alt="" coords="403,135,589,177"/>
-<area shape="rect" id="node6" href="$classTerrain_1_1BufferCache.html#a8aff8a55f2533773d6ef6620ee85b001" title="Terrain::BufferCache\l::getIndexBuffer" alt="" coords="421,201,571,242"/>
-<area shape="rect" id="node7" href="$classTerrain_1_1Storage.html#a7ca62818dc53dffde2e7247b0017c793" title="Terrain::Storage::getBlendmaps" alt="" coords="384,267,608,293"/>
-<area shape="rect" id="node8" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="399,318,593,359"/>
-<area shape="rect" id="node9" href="$classResource_1_1SceneManager.html#acefc440fd18a4ac39cee1e15f1b1deb0" title="Resource::SceneManager\l::getForceShaders" alt="" coords="404,383,588,425"/>
-<area shape="rect" id="node10" href="$classResource_1_1SceneManager.html#a911a29e81896686ba624bfd8894b6b71" title="Resource::SceneManager\l::getClampLighting" alt="" coords="404,449,588,490"/>
-<area shape="rect" id="node11" href="$classResource_1_1ResourceSystem.html#ac9829e6c125ba11b7615b1e5c566b641" title="Resource::ResourceSystem\l::getImageManager" alt="" coords="399,514,593,555"/>
-<area shape="rect" id="node12" href="$classResource_1_1ImageManager.html#a225f9f7be2c2d86c57f52c0ae990fbb8" title="Resource::ImageManager\l::getImage" alt="" coords="404,579,588,621"/>
-<area shape="rect" id="node21" href="$classResource_1_1SceneManager.html#a1fe71df9797650ddcb35b7d6dc8eb894" title="Resource::SceneManager\l::applyFilterSettings" alt="" coords="404,645,588,686"/>
-<area shape="rect" id="node22" href="$classTerrain_1_1BufferCache.html#a1ba42107c4b89013864114a609c1bc83" title="Terrain::BufferCache\l::getUVBuffer" alt="" coords="421,710,571,751"/>
-<area shape="rect" id="node23" href="$classResource_1_1SceneManager.html#ab6242b2be2b3693f12177c0586af73a1" title="Resource::SceneManager\l::getForcePerPixelLighting" alt="" coords="403,775,589,817"/>
-<area shape="rect" id="node13" href="$classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" title="VFS::Manager::normalizeFilename" alt="" coords="657,536,895,563"/>
-<area shape="rect" id="node18" href="$classVFS_1_1Manager.html#ac59e8f07d1b254b5e763cb34e3906c64" title="VFS::Manager::get" alt="" coords="706,587,846,613"/>
-<area shape="rect" id="node20" href="$namespaceResource.html#a348671c1b817ff6d44215a8ef0887350" title="Resource::checkSupported" alt="" coords="680,637,872,664"/>
-<area shape="rect" id="node14" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#afff51e54666db5317a601da81b18897a" title="anonymous_namespace\l\{manager::cpp\}::normalize_path" alt="" coords="944,529,1179,570"/>
-<area shape="rect" id="node15" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#a43766ad9c2dc269c62c8ec100bfd3b36" title="anonymous_namespace\l\{manager::cpp\}::strict\l_normalize_char" alt="" coords="1233,481,1412,537"/>
-<area shape="rect" id="node16" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#a0760071e5091c65283088c802ce83396" title="anonymous_namespace\l\{manager::cpp\}::nonstrict\l_normalize_char" alt="" coords="1227,561,1418,617"/>
-<area shape="rect" id="node17" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1467,569,1599,610"/>
-<area shape="rect" id="node19" href="$classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc" title="VFS::Manager::getNormalized" alt="" coords="955,595,1168,621"/>
+<area shape="rect" id="node2" href="$classTerrain_1_1TerrainGrid.html#a7bf80dae47ad5b429311d4118631a627" title="Terrain::TerrainGrid\l::buildTerrain" alt="" coords="195,90,335,131"/>
+<area shape="rect" id="node3" href="$esmtool_8cpp.html#ac0c3c7eeabfce7868110ff99f7d5c25a" title="loadCell" alt="" coords="229,156,301,183"/>
+<area shape="rect" id="node4" href="$structESM_1_1Cell.html#af812968bd998cb0b96f7940171b77609" title="ESM::Cell::restore" alt="" coords="397,92,531,119"/>
+<area shape="rect" id="node10" href="$structESM_1_1Cell.html#a16416e62fedafd8315bf3a2317a6bef4" title="ESM::Cell::getNextRef" alt="" coords="385,219,543,245"/>
+<area shape="rect" id="node5" href="$classESM_1_1ESMReader.html#ace62de398c94b922144f2d694cb0e766" title="ESM::ESMReader::restoreContext" alt="" coords="592,16,827,43"/>
+<area shape="rect" id="node6" href="$classESM_1_1ESMReader.html#aec84cf1e1b4d63ed1b334fea4ad76966" title="ESM::ESMReader::openRaw" alt="" coords="891,16,1085,43"/>
+<area shape="rect" id="node7" href="$classESM_1_1ESMReader.html#a8d9023ee65e81dd049f1a2ed3ec77c55" title="ESM::ESMReader::close" alt="" coords="1180,16,1351,43"/>
+<area shape="rect" id="node8" href="$classESM_1_1FIXED__STRING__BASE.html#a154bd4f88b7711e6ebb709f6fbbb7dfe" title="ESM::FIXED_STRING_BASE\l::clear" alt="" coords="1430,5,1621,46"/>
+<area shape="rect" id="node9" href="$structESM_1_1Header.html#aac52065005e89d529724f71c85c6954f" title="ESM::Header::blank" alt="" coords="1452,71,1599,97"/>
+<area shape="rect" id="node11" href="$classESM_1_1ESMReader.html#abfd3da13c7227ed9d445ceed1a70f874" title="ESM::ESMReader::hasMoreSubs" alt="" coords="597,117,822,144"/>
+<area shape="rect" id="node12" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="887,235,1089,261"/>
+<area shape="rect" id="node19" href="$classESM_1_1ESMReader.html#a1499e8005481bc7f13f4de0c2f3b9ee4" title="ESM::ESMReader::getHT" alt="" coords="900,177,1076,204"/>
+<area shape="rect" id="node22" href="$classESM_1_1ESMReader.html#a45b4c4d5076772a527726f6d22b08759" title="ESM::ESMReader::getHNOT" alt="" coords="611,219,807,245"/>
+<area shape="rect" id="node23" href="$namespaceanonymous__namespace_02loadcell_8cpp_03.html#ad8e82b9eb9700b2719fe35d4852e069e" title="&lt; Translate 8bit/24bit code (stored in refNum.mIndex) into a proper refNum " alt="" coords="602,321,817,362"/>
+<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#a7ba6d4076f766ae7cac77542fa0634c2" title="ESM::ESMReader::skipRecord" alt="" coords="606,437,813,464"/>
+<area shape="rect" id="node29" href="$classESM_1_1ESMReader.html#a2421d4c0ab8b6ca62d5d7aa1afcc9841" title="ESM::ESMReader::peekNextSub" alt="" coords="876,387,1100,413"/>
+<area shape="rect" id="node30" href="$classESM_1_1CellRef.html#ac25512f415f0f907d1331508d4b3229c" title="Calls loadId and loadData. " alt="" coords="642,67,777,93"/>
+<area shape="rect" id="node13" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="1154,337,1377,364"/>
+<area shape="rect" id="node14" href="$classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" title="ESM::FIXED_STRING_BASE\l::data_size" alt="" coords="1430,395,1621,437"/>
+<area shape="rect" id="node15" href="$classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" title="ESM::ESMReader::getExact" alt="" coords="1669,228,1864,255"/>
+<area shape="rect" id="node18" href="$structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data" alt="" coords="1446,330,1605,371"/>
+<area shape="rect" id="node16" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="1913,177,2069,204"/>
+<area shape="rect" id="node17" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="2118,170,2309,211"/>
+<area shape="rect" id="node20" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="1150,177,1381,204"/>
+<area shape="rect" id="node21" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1442,228,1609,255"/>
+<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#aa22b2e3b0a3c0899445c293f290f4702" title="ESM::ESMReader::getGameFiles" alt="" coords="875,336,1101,363"/>
+<area shape="rect" id="node25" href="$classESM_1_1ESMReader.html#a8ffa599f7b71a3964d4fc3ea0da160ac" title="ESM::ESMReader::getIndex" alt="" coords="891,285,1085,312"/>
+<area shape="rect" id="node27" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="907,437,1069,464"/>
+<area shape="rect" id="node28" href="$classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" title="Get the current position in the file. Make sure that the file has been opened! " alt="" coords="1157,437,1374,464"/>
 </map>

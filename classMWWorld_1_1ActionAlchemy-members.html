@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,10 +102,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>This is the complete list of members for <a class="el" href="classMWWorld_1_1ActionAlchemy.html">MWWorld::ActionAlchemy</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#abe89cf3f3e374a1c4fa5525e42d73d00">Action</a>(bool keepSound=false, const Ptr &amp;target=Ptr())</td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#aff8076501d1af8d06047220802293b5c">execute</a>(const Ptr &amp;actor)</td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMWWorld_1_1ActionAlchemy.html#a4a815ed648ffe6fe95dc35e9512c4c2f">executeImp</a>(const Ptr &amp;actor)</td><td class="entry"><a class="el" href="classMWWorld_1_1ActionAlchemy.html">MWWorld::ActionAlchemy</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#a6f251a38ff6fdedac4169c8c4f327088">getTarget</a>() const </td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#aa50da4c525b43175ccd7071737a5b443">isNullAction</a>()</td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWWorld_1_1ActionAlchemy.html#ac975012e5285de2807e78a381c7fa5da">ActionAlchemy</a>(bool force=false)</td><td class="entry"><a class="el" href="classMWWorld_1_1ActionAlchemy.html">MWWorld::ActionAlchemy</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#a40a02d650fbcc77561d98c2ec4d50b18">execute</a>(const Ptr &amp;actor, bool noSound=false)</td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWWorld_1_1ActionAlchemy.html#a4a815ed648ffe6fe95dc35e9512c4c2f">executeImp</a>(const Ptr &amp;actor)</td><td class="entry"><a class="el" href="classMWWorld_1_1ActionAlchemy.html">MWWorld::ActionAlchemy</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#a6f251a38ff6fdedac4169c8c4f327088">getTarget</a>() const </td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#aa50da4c525b43175ccd7071737a5b443">isNullAction</a>()</td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWWorld_1_1ActionAlchemy.html#a69d59dd9dcb4d9532ffc7396767b4309">mForce</a></td><td class="entry"><a class="el" href="classMWWorld_1_1ActionAlchemy.html">MWWorld::ActionAlchemy</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#af710c7b43d6ee6f72c4a8e75f6c9e42b">setSound</a>(const std::string &amp;id)</td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#a221a63f80f3909f754076f09caa00e0d">setSoundOffset</a>(float offset)</td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classMWWorld_1_1Action.html#a0350d058e707a3345492f276294f1487">setTarget</a>(const Ptr &amp;)</td><td class="entry"><a class="el" href="classMWWorld_1_1Action.html">MWWorld::Action</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
@@ -113,7 +115,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:06 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:40 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

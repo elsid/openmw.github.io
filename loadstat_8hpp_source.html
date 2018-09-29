@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/esm/loadstat.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/esm/loadstat.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -124,21 +124,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structESM_1_1Static.html#a696f738b14914947388dba70a0fc4a5d">   25</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structESM_1_1Static.html#a696f738b14914947388dba70a0fc4a5d">sRecordId</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="structESM_1_1Static.html#af7e13d712a0c59a722489bd2bd815b96">   27</a></span>&#160;    <span class="keyword">static</span> std::string <a class="code" href="structESM_1_1Static.html#af7e13d712a0c59a722489bd2bd815b96">getRecordType</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Static&quot;</span>; }</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structESM_1_1Static.html#ac4c4369d8b336de2a53aae0b4399d1be">   29</a></span>&#160;  std::string <a class="code" href="structESM_1_1Static.html#afeb2a36238070c0df6f6719731c2da15">mId</a>, <a class="code" href="structESM_1_1Static.html#ac4c4369d8b336de2a53aae0b4399d1be">mModel</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structESM_1_1Static.html#ac4c4369d8b336de2a53aae0b4399d1be">   29</a></span>&#160;    std::string <a class="code" href="structESM_1_1Static.html#afeb2a36238070c0df6f6719731c2da15">mId</a>, <a class="code" href="structESM_1_1Static.html#ac4c4369d8b336de2a53aae0b4399d1be">mModel</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Static.html#a3441e40673195f90b74a6508d0a4e0ee">load</a>(<a class="code" href="classESM_1_1ESMReader.html">ESMReader</a> &amp;esm, <span class="keywordtype">bool</span> &amp;isDeleted);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Static.html#aafde1b9afb5dde9c7c8b07a247286e32">save</a>(<a class="code" href="classESM_1_1ESMWriter.html">ESMWriter</a> &amp;esm, <span class="keywordtype">bool</span> isDeleted = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Static.html#a3441e40673195f90b74a6508d0a4e0ee">load</a>(<a class="code" href="classESM_1_1ESMReader.html">ESMReader</a> &amp;esm, <span class="keywordtype">bool</span> &amp;isDeleted);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Static.html#aafde1b9afb5dde9c7c8b07a247286e32">save</a>(<a class="code" href="classESM_1_1ESMWriter.html">ESMWriter</a> &amp;esm, <span class="keywordtype">bool</span> isDeleted = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Static.html#aba3e3e2207daf4df623ad11046ac5a45">blank</a>();</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structESM_1_1Static.html#a6df36907acf0a45f6bb7ec4f73202ead">   37</a></span>&#160;    <a class="code" href="structESM_1_1Static.html#a6df36907acf0a45f6bb7ec4f73202ead">Static</a>(<span class="keyword">const</span> std::string <span class="keywordtype">id</span>, <span class="keyword">const</span> std::string &amp;model)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    : <a class="code" href="structESM_1_1Static.html#afeb2a36238070c0df6f6719731c2da15">mId</a>(id)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    , <a class="code" href="structESM_1_1Static.html#ac4c4369d8b336de2a53aae0b4399d1be">mModel</a>(model)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="structESM_1_1Static.html#ae58390e92dd174ee30e09f4b71604ce6">   43</a></span>&#160;    <a class="code" href="structESM_1_1Static.html#ae58390e92dd174ee30e09f4b71604ce6">Static</a>()</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;};</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="structESM_1_1Static_html_aafde1b9afb5dde9c7c8b07a247286e32"><div class="ttname"><a href="structESM_1_1Static.html#aafde1b9afb5dde9c7c8b07a247286e32">ESM::Static::save</a></div><div class="ttdeci">void save(ESMWriter &amp;esm, bool isDeleted=false) const </div><div class="ttdef"><b>Definition:</b> loadstat.cpp:41</div></div>
+<div class="ttc" id="structESM_1_1Static_html_ae58390e92dd174ee30e09f4b71604ce6"><div class="ttname"><a href="structESM_1_1Static.html#ae58390e92dd174ee30e09f4b71604ce6">ESM::Static::Static</a></div><div class="ttdeci">Static()</div><div class="ttdef"><b>Definition:</b> loadstat.hpp:43</div></div>
 <div class="ttc" id="classESM_1_1ESMReader_html"><div class="ttname"><a href="classESM_1_1ESMReader.html">ESM::ESMReader</a></div><div class="ttdef"><b>Definition:</b> esmreader.hpp:21</div></div>
 <div class="ttc" id="structESM_1_1Static_html_a3441e40673195f90b74a6508d0a4e0ee"><div class="ttname"><a href="structESM_1_1Static.html#a3441e40673195f90b74a6508d0a4e0ee">ESM::Static::load</a></div><div class="ttdeci">void load(ESMReader &amp;esm, bool &amp;isDeleted)</div><div class="ttdef"><b>Definition:</b> loadstat.cpp:11</div></div>
 <div class="ttc" id="structESM_1_1Static_html_a696f738b14914947388dba70a0fc4a5d"><div class="ttname"><a href="structESM_1_1Static.html#a696f738b14914947388dba70a0fc4a5d">ESM::Static::sRecordId</a></div><div class="ttdeci">static unsigned int sRecordId</div><div class="ttdef"><b>Definition:</b> loadstat.hpp:25</div></div>
 <div class="ttc" id="structESM_1_1Static_html_aba3e3e2207daf4df623ad11046ac5a45"><div class="ttname"><a href="structESM_1_1Static.html#aba3e3e2207daf4df623ad11046ac5a45">ESM::Static::blank</a></div><div class="ttdeci">void blank()</div><div class="ttdoc">Set record to default state (does not touch the ID). </div><div class="ttdef"><b>Definition:</b> loadstat.cpp:54</div></div>
 <div class="ttc" id="classESM_1_1ESMWriter_html"><div class="ttname"><a href="classESM_1_1ESMWriter.html">ESM::ESMWriter</a></div><div class="ttdef"><b>Definition:</b> esmwriter.hpp:17</div></div>
+<div class="ttc" id="structESM_1_1Static_html_a6df36907acf0a45f6bb7ec4f73202ead"><div class="ttname"><a href="structESM_1_1Static.html#a6df36907acf0a45f6bb7ec4f73202ead">ESM::Static::Static</a></div><div class="ttdeci">Static(const std::string id, const std::string &amp;model)</div><div class="ttdef"><b>Definition:</b> loadstat.hpp:37</div></div>
 <div class="ttc" id="structESM_1_1Static_html_af7e13d712a0c59a722489bd2bd815b96"><div class="ttname"><a href="structESM_1_1Static.html#af7e13d712a0c59a722489bd2bd815b96">ESM::Static::getRecordType</a></div><div class="ttdeci">static std::string getRecordType()</div><div class="ttdoc">Return a string descriptor for this record type. Currently used for debugging / error logs only...</div><div class="ttdef"><b>Definition:</b> loadstat.hpp:27</div></div>
 <div class="ttc" id="structESM_1_1Static_html_afeb2a36238070c0df6f6719731c2da15"><div class="ttname"><a href="structESM_1_1Static.html#afeb2a36238070c0df6f6719731c2da15">ESM::Static::mId</a></div><div class="ttdeci">std::string mId</div><div class="ttdef"><b>Definition:</b> loadstat.hpp:29</div></div>
 <div class="ttc" id="structESM_1_1Static_html_ac4c4369d8b336de2a53aae0b4399d1be"><div class="ttname"><a href="structESM_1_1Static.html#ac4c4369d8b336de2a53aae0b4399d1be">ESM::Static::mModel</a></div><div class="ttdeci">std::string mModel</div><div class="ttdef"><b>Definition:</b> loadstat.hpp:29</div></div>
@@ -146,7 +158,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

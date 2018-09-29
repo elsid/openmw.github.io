@@ -11,230 +11,244 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-461 1744,-461 1744,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0.5,-274 0.5,-304 107.5,-304 107.5,-274 0.5,-274"/>
-<text text-anchor="start" x="8.5" y="-292" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
-<text text-anchor="middle" x="54" y="-281" font-family="FreeSans" font-size="10.00">::handleProperty</text>
+<polygon fill="#bfbfbf" stroke="black" points="0.5,-298 0.5,-328 107.5,-328 107.5,-298 0.5,-298"/>
+<text text-anchor="start" x="8.5" y="-316" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
+<text text-anchor="middle" x="54" y="-305" font-family="FreeSans" font-size="10.00">::handleProperty</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a38d9bcc54cd7f6436db9853bff0a3fad" target="_top" xlink:title="NifOsg::LoaderImpl\l::getStencilFunction">
+<g id="a_node2"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a737a5e9ce4d6677426bde7063ba21420" target="_top" xlink:title="NifOsg::LoaderImpl\l::shareAttribute">
+<polygon fill="white" stroke="black" points="155.5,-372 155.5,-402 262.5,-402 262.5,-372 155.5,-372"/>
+<text text-anchor="start" x="163.5" y="-390" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
+<text text-anchor="middle" x="209" y="-379" font-family="FreeSans" font-size="10.00">::shareAttribute</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<path fill="none" stroke="midnightblue" d="M80.2445,-328.057C97.8149,-338.247 121.955,-351.68 144,-362 148.362,-364.042 152.94,-366.062 157.557,-368.015"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="156.454,-371.346 167.034,-371.919 159.121,-364.874 156.454,-371.346"/>
+</g>
+<!-- Node3 -->
+<g id="node3" class="node"><title>Node3</title>
+<g id="a_node3"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a38d9bcc54cd7f6436db9853bff0a3fad" target="_top" xlink:title="NifOsg::LoaderImpl\l::getStencilFunction">
 <polygon fill="white" stroke="black" points="154,-323 154,-353 264,-353 264,-323 154,-323"/>
 <text text-anchor="start" x="162" y="-341" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
 <text text-anchor="middle" x="209" y="-330" font-family="FreeSans" font-size="10.00">::getStencilFunction</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M102.153,-304.101C117.641,-309.062 135.02,-314.627 151.149,-319.793"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="150.411,-323.232 161.002,-322.948 152.546,-316.565 150.411,-323.232"/>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M107.654,-321.604C119.337,-323.513 131.844,-325.556 143.927,-327.531"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="143.515,-331.01 153.949,-329.168 144.644,-324.101 143.515,-331.01"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classNifOsg_1_1LoaderImpl.html#ad7dcad3013746e71cc0136277530f2c4" target="_top" xlink:title="NifOsg::LoaderImpl\l::getStencilOperation">
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="classNifOsg_1_1LoaderImpl.html#ad7dcad3013746e71cc0136277530f2c4" target="_top" xlink:title="NifOsg::LoaderImpl\l::getStencilOperation">
 <polygon fill="white" stroke="black" points="150,-274 150,-304 268,-304 268,-274 150,-274"/>
 <text text-anchor="start" x="158" y="-292" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
 <text text-anchor="middle" x="209" y="-281" font-family="FreeSans" font-size="10.00">::getStencilOperation</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M107.654,-289C117.938,-289 128.862,-289 139.571,-289"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="139.746,-292.5 149.746,-289 139.746,-285.5 139.746,-292.5"/>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M107.654,-304.741C117.938,-303.127 128.862,-301.414 139.571,-299.734"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="140.41,-303.145 149.746,-298.138 139.325,-296.23 140.41,-303.145"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a77e549bc47da8976b2bdf0b776307862" target="_top" xlink:title="NifOsg::LoaderImpl\l::handleTextureProperty">
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a77e549bc47da8976b2bdf0b776307862" target="_top" xlink:title="NifOsg::LoaderImpl\l::handleTextureProperty">
 <polygon fill="white" stroke="black" points="144,-225 144,-255 274,-255 274,-225 144,-225"/>
 <text text-anchor="start" x="152" y="-243" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
 <text text-anchor="middle" x="209" y="-232" font-family="FreeSans" font-size="10.00">::handleTextureProperty</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M102.153,-273.899C117.641,-268.938 135.02,-263.373 151.149,-258.207"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="152.546,-261.435 161.002,-255.052 150.411,-254.768 152.546,-261.435"/>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M80.2,-297.847C97.7506,-287.614 121.885,-274.17 144,-264 147.821,-262.243 151.81,-260.513 155.848,-258.835"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="157.332,-262.01 165.302,-255.029 154.718,-255.517 157.332,-262.01"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classNif_1_1RecordPtrT.html#a68d4256af5ae88e775427d7d150952c3" target="_top" xlink:title="Pointers are allowed to be empty. ">
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="classNif_1_1RecordPtrT.html#a68d4256af5ae88e775427d7d150952c3" target="_top" xlink:title="Pointers are allowed to be empty. ">
 <polygon fill="white" stroke="black" points="685,-339.5 685,-358.5 807,-358.5 807,-339.5 685,-339.5"/>
 <text text-anchor="middle" x="746" y="-346.5" font-family="FreeSans" font-size="10.00">Nif::RecordPtrT::empty</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M252.259,-255.092C306.233,-273.755 402.856,-305.117 488,-322 550.503,-334.394 622.76,-341.346 674.708,-345.08"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="674.599,-348.581 684.818,-345.785 675.085,-341.598 674.599,-348.581"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classNif_1_1RecordPtrT.html#aef01008d4fa996e8b0a5b3c7e92f0853" target="_top" xlink:title="Look up the actual object from the index. ">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="classNif_1_1RecordPtrT.html#aef01008d4fa996e8b0a5b3c7e92f0853" target="_top" xlink:title="Look up the actual object from the index. ">
 <polygon fill="white" stroke="black" points="685.5,-114.5 685.5,-133.5 806.5,-133.5 806.5,-114.5 685.5,-114.5"/>
 <text text-anchor="middle" x="746" y="-121.5" font-family="FreeSans" font-size="10.00">Nif::RecordPtrT::getPtr</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M233.278,-224.856C279.513,-195.79 387.174,-133.107 488,-111 555.912,-96.1093 636.231,-104.127 688.775,-112.704"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="688.457,-116.2 698.901,-114.42 689.627,-109.298 688.457,-116.2"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a9da630d5407fd20059bacdb0f3da4e3b" target="_top" xlink:title="NifOsg::LoaderImpl\l::handleSourceTexture">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a9da630d5407fd20059bacdb0f3da4e3b" target="_top" xlink:title="NifOsg::LoaderImpl\l::handleSourceTexture">
 <polygon fill="white" stroke="black" points="499.5,-247 499.5,-277 622.5,-277 622.5,-247 499.5,-247"/>
 <text text-anchor="start" x="507.5" y="-265" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
 <text text-anchor="middle" x="561" y="-254" font-family="FreeSans" font-size="10.00">::handleSourceTexture</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node4&#45;&gt;Node7</title>
+<!-- Node5&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node5&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M274.195,-244.035C335.045,-247.86 426.256,-253.593 489.193,-257.549"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="489.231,-261.058 499.431,-258.193 489.67,-254.072 489.231,-261.058"/>
 </g>
-<!-- Node25 -->
-<g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a1fa496f6d8c35df817128c180e577129" target="_top" xlink:title="NifOsg::LoaderImpl\l::handleTextureControllers">
+<!-- Node26 -->
+<g id="node26" class="node"><title>Node26</title>
+<g id="a_node26"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a1fa496f6d8c35df817128c180e577129" target="_top" xlink:title="NifOsg::LoaderImpl\l::handleTextureControllers">
 <polygon fill="white" stroke="black" points="310.5,-203 310.5,-233 451.5,-233 451.5,-203 310.5,-203"/>
 <text text-anchor="start" x="318.5" y="-221" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
 <text text-anchor="middle" x="381" y="-210" font-family="FreeSans" font-size="10.00">::handleTextureControllers</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node25 -->
-<g id="edge29" class="edge"><title>Node4&#45;&gt;Node25</title>
+<!-- Node5&#45;&gt;Node26 -->
+<g id="edge30" class="edge"><title>Node5&#45;&gt;Node26</title>
 <path fill="none" stroke="midnightblue" d="M274.27,-231.683C282.717,-230.59 291.456,-229.459 300.123,-228.337"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="300.775,-231.782 310.243,-227.027 299.877,-224.84 300.775,-231.782"/>
 </g>
-<!-- Node7&#45;&gt;Node5 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node5</title>
+<!-- Node8&#45;&gt;Node6 -->
+<g id="edge8" class="edge"><title>Node8&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M600.99,-277.073C612.06,-282.085 623.854,-288.158 634,-295 652.247,-307.305 650.779,-318.281 670,-329 674.855,-331.707 680.092,-334.062 685.463,-336.106"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="684.627,-339.519 695.221,-339.461 686.903,-332.9 684.627,-339.519"/>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge9" class="edge"><title>Node7&#45;&gt;Node6</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge10" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M612.832,-246.896C620.591,-242.96 627.999,-238.064 634,-232 664.014,-201.672 637.844,-171.048 670,-143 671.993,-141.262 674.123,-139.678 676.357,-138.237"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="678.281,-141.175 685.421,-133.348 674.958,-135.014 678.281,-141.175"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a8fb26aff2ac79961c60e56bb4cf42b35" target="_top" xlink:title="NifOsg::LoaderImpl\l::handleInternalTexture">
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="classNifOsg_1_1LoaderImpl.html#a8fb26aff2ac79961c60e56bb4cf42b35" target="_top" xlink:title="NifOsg::LoaderImpl\l::handleInternalTexture">
 <polygon fill="white" stroke="black" points="683.5,-153 683.5,-183 808.5,-183 808.5,-153 683.5,-153"/>
 <text text-anchor="start" x="691.5" y="-171" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
 <text text-anchor="middle" x="746" y="-160" font-family="FreeSans" font-size="10.00">::handleInternalTexture</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge8" class="edge"><title>Node7&#45;&gt;Node8</title>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge9" class="edge"><title>Node8&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M607.031,-246.855C616.358,-242.744 625.823,-237.793 634,-232 653.516,-218.173 649.914,-204.984 670,-192 672.558,-190.346 675.239,-188.799 678.002,-187.351"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="679.518,-190.506 687.056,-183.062 676.521,-184.18 679.518,-190.506"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="namespaceMisc_1_1ResourceHelpers.html#a899430a270cdfc329635c2dbfc7c043c" target="_top" xlink:title="Misc::ResourceHelpers\l::correctTexturePath">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="namespaceMisc_1_1ResourceHelpers.html#a899430a270cdfc329635c2dbfc7c043c" target="_top" xlink:title="Misc::ResourceHelpers\l::correctTexturePath">
 <polygon fill="white" stroke="black" points="684,-290 684,-320 808,-320 808,-290 684,-290"/>
 <text text-anchor="start" x="692" y="-308" font-family="FreeSans" font-size="10.00">Misc::ResourceHelpers</text>
 <text text-anchor="middle" x="746" y="-297" font-family="FreeSans" font-size="10.00">::correctTexturePath</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node9 -->
-<g id="edge10" class="edge"><title>Node7&#45;&gt;Node9</title>
+<!-- Node8&#45;&gt;Node10 -->
+<g id="edge11" class="edge"><title>Node8&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M622.682,-276.259C639.12,-280.121 657.06,-284.337 674.011,-288.319"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="673.322,-291.753 683.857,-290.633 674.923,-284.938 673.322,-291.753"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classResource_1_1ResourceManager.html#aa5845cf6b86938d665fb22ccd7888d7e" target="_top" xlink:title="Resource::ResourceManager\l::getVFS">
+<!-- Node20 -->
+<g id="node20" class="node"><title>Node20</title>
+<g id="a_node20"><a xlink:href="classResource_1_1ResourceManager.html#aa5845cf6b86938d665fb22ccd7888d7e" target="_top" xlink:title="Resource::ResourceManager\l::getVFS">
 <polygon fill="white" stroke="black" points="670,-202 670,-232 822,-232 822,-202 670,-202"/>
 <text text-anchor="start" x="678" y="-220" font-family="FreeSans" font-size="10.00">Resource::ResourceManager</text>
 <text text-anchor="middle" x="746" y="-209" font-family="FreeSans" font-size="10.00">::getVFS</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node19 -->
-<g id="edge21" class="edge"><title>Node7&#45;&gt;Node19</title>
+<!-- Node8&#45;&gt;Node20 -->
+<g id="edge22" class="edge"><title>Node8&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M622.682,-247.078C639.12,-243.036 657.06,-238.625 674.011,-234.456"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="674.983,-237.822 683.857,-232.035 673.311,-231.024 674.983,-237.822"/>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classResource_1_1ImageManager.html#a225f9f7be2c2d86c57f52c0ae990fbb8" target="_top" xlink:title="Resource::ImageManager\l::getImage">
+<!-- Node21 -->
+<g id="node21" class="node"><title>Node21</title>
+<g id="a_node21"><a xlink:href="classResource_1_1ImageManager.html#a225f9f7be2c2d86c57f52c0ae990fbb8" target="_top" xlink:title="Resource::ImageManager\l::getImage">
 <polygon fill="white" stroke="black" points="858,-227 858,-257 996,-257 996,-227 858,-227"/>
 <text text-anchor="start" x="866" y="-245" font-family="FreeSans" font-size="10.00">Resource::ImageManager</text>
 <text text-anchor="middle" x="927" y="-234" font-family="FreeSans" font-size="10.00">::getImage</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node20 -->
-<g id="edge22" class="edge"><title>Node7&#45;&gt;Node20</title>
+<!-- Node8&#45;&gt;Node21 -->
+<g id="edge23" class="edge"><title>Node8&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M622.516,-258.675C684.24,-255.284 780.272,-250.007 847.744,-246.3"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="848.108,-249.785 857.901,-245.742 847.724,-242.796 848.108,-249.785"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="namespaceMisc_1_1ResourceHelpers.html#a60f7cce3be796f0aac56a81f5991204d" target="_top" xlink:title="Misc::ResourceHelpers\l::correctResourcePath">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="namespaceMisc_1_1ResourceHelpers.html#a60f7cce3be796f0aac56a81f5991204d" target="_top" xlink:title="Misc::ResourceHelpers\l::correctResourcePath">
 <polygon fill="white" stroke="black" points="865,-328 865,-358 989,-358 989,-328 865,-328"/>
 <text text-anchor="start" x="873" y="-346" font-family="FreeSans" font-size="10.00">Misc::ResourceHelpers</text>
 <text text-anchor="middle" x="927" y="-335" font-family="FreeSans" font-size="10.00">::correctResourcePath</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge11" class="edge"><title>Node9&#45;&gt;Node10</title>
+<!-- Node10&#45;&gt;Node11 -->
+<g id="edge12" class="edge"><title>Node10&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M808.101,-317.971C823.139,-321.163 839.369,-324.609 854.837,-327.893"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="854.362,-331.37 864.871,-330.023 855.816,-324.522 854.362,-331.37"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" target="_top" xlink:title="Transforms input string to lower case w/o copy. ">
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" target="_top" xlink:title="Transforms input string to lower case w/o copy. ">
 <polygon fill="white" stroke="black" points="1286.5,-371 1286.5,-401 1385.5,-401 1385.5,-371 1286.5,-371"/>
 <text text-anchor="start" x="1294.5" y="-389" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
 <text text-anchor="middle" x="1336" y="-378" font-family="FreeSans" font-size="10.00">lowerCaseInPlace</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node11 -->
-<g id="edge12" class="edge"><title>Node10&#45;&gt;Node11</title>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge13" class="edge"><title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M985.441,-358.029C1000.5,-361.48 1016.78,-364.782 1032,-367 1116.31,-379.287 1214.96,-383.632 1276.22,-385.167"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1276.39,-388.671 1286.47,-385.406 1276.55,-381.673 1276.39,-388.671"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="namespaceMisc_1_1ResourceHelpers.html#a762d24a99c2a88ef2f0daecc47044083" target="_top" xlink:title="Misc::ResourceHelpers\l::changeExtensionToDds">
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="namespaceMisc_1_1ResourceHelpers.html#a762d24a99c2a88ef2f0daecc47044083" target="_top" xlink:title="Misc::ResourceHelpers\l::changeExtensionToDds">
 <polygon fill="white" stroke="black" points="1055.5,-328 1055.5,-358 1188.5,-358 1188.5,-328 1055.5,-328"/>
 <text text-anchor="start" x="1063.5" y="-346" font-family="FreeSans" font-size="10.00">Misc::ResourceHelpers</text>
 <text text-anchor="middle" x="1122" y="-335" font-family="FreeSans" font-size="10.00">::changeExtensionToDds</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node13 -->
-<g id="edge14" class="edge"><title>Node10&#45;&gt;Node13</title>
+<!-- Node11&#45;&gt;Node14 -->
+<g id="edge15" class="edge"><title>Node11&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M989.066,-343C1006.86,-343 1026.53,-343 1045.12,-343"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1045.32,-346.5 1055.32,-343 1045.32,-339.5 1045.32,-346.5"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc" target="_top" xlink:title="VFS::Manager::exists">
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc" target="_top" xlink:title="VFS::Manager::exists">
 <polygon fill="white" stroke="black" points="1063.5,-289.5 1063.5,-308.5 1180.5,-308.5 1180.5,-289.5 1063.5,-289.5"/>
 <text text-anchor="middle" x="1122" y="-296.5" font-family="FreeSans" font-size="10.00">VFS::Manager::exists</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node14 -->
-<g id="edge15" class="edge"><title>Node10&#45;&gt;Node14</title>
+<!-- Node11&#45;&gt;Node15 -->
+<g id="edge16" class="edge"><title>Node11&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M989.256,-327.999C1003.29,-324.641 1018.15,-321.143 1032,-318 1042.73,-315.564 1054.22,-313.047 1065.25,-310.673"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1066.17,-314.055 1075.22,-308.54 1064.71,-307.21 1066.17,-314.055"/>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="namespaceanonymous__namespace_02resourcehelpers_8cpp_03.html#af76c5ce9ba7f5c9e52a83ed9a5211360" target="_top" xlink:title="anonymous_namespace\l\{resourcehelpers::cpp\}\l::getBasename">
+<!-- Node19 -->
+<g id="node19" class="node"><title>Node19</title>
+<g id="a_node19"><a xlink:href="namespaceanonymous__namespace_02resourcehelpers_8cpp_03.html#af76c5ce9ba7f5c9e52a83ed9a5211360" target="_top" xlink:title="anonymous_namespace\l\{resourcehelpers::cpp\}\l::getBasename">
 <polygon fill="white" stroke="black" points="1055,-415.5 1055,-456.5 1189,-456.5 1189,-415.5 1055,-415.5"/>
 <text text-anchor="start" x="1063" y="-444.5" font-family="FreeSans" font-size="10.00">anonymous_namespace</text>
 <text text-anchor="start" x="1063" y="-433.5" font-family="FreeSans" font-size="10.00">{resourcehelpers::cpp}</text>
@@ -242,42 +256,42 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node18 -->
-<g id="edge20" class="edge"><title>Node10&#45;&gt;Node18</title>
+<!-- Node11&#45;&gt;Node19 -->
+<g id="edge21" class="edge"><title>Node11&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M952.723,-358.026C973.49,-370.344 1004.15,-387.832 1032,-401 1039.66,-404.622 1047.8,-408.191 1055.93,-411.584"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1054.86,-414.926 1065.44,-415.478 1057.51,-408.448 1054.86,-414.926"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" target="_top" xlink:title="Misc::StringUtils::\ltoLower">
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" target="_top" xlink:title="Misc::StringUtils::\ltoLower">
 <polygon fill="white" stroke="black" points="1640.5,-343 1640.5,-373 1739.5,-373 1739.5,-343 1640.5,-343"/>
 <text text-anchor="start" x="1648.5" y="-361" font-family="FreeSans" font-size="10.00">Misc::StringUtils::</text>
 <text text-anchor="middle" x="1690" y="-350" font-family="FreeSans" font-size="10.00">toLower</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node12 -->
-<g id="edge13" class="edge"><title>Node11&#45;&gt;Node12</title>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge14" class="edge"><title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M1385.57,-382.136C1449.44,-377.056 1561.55,-368.138 1630.15,-362.681"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1630.67,-366.151 1640.36,-361.869 1630.11,-359.173 1630.67,-366.151"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="namespaceanonymous__namespace_02manager_8cpp_03.html#afff51e54666db5317a601da81b18897a" target="_top" xlink:title="anonymous_namespace\l\{manager::cpp\}::normalize_path">
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="namespaceanonymous__namespace_02manager_8cpp_03.html#afff51e54666db5317a601da81b18897a" target="_top" xlink:title="anonymous_namespace\l\{manager::cpp\}::normalize_path">
 <polygon fill="white" stroke="black" points="1248,-257 1248,-287 1424,-287 1424,-257 1248,-257"/>
 <text text-anchor="start" x="1256" y="-275" font-family="FreeSans" font-size="10.00">anonymous_namespace</text>
 <text text-anchor="middle" x="1336" y="-264" font-family="FreeSans" font-size="10.00">{manager::cpp}::normalize_path</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node15 -->
-<g id="edge16" class="edge"><title>Node14&#45;&gt;Node15</title>
+<!-- Node15&#45;&gt;Node16 -->
+<g id="edge17" class="edge"><title>Node15&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M1180.65,-291.658C1198.3,-289.41 1218.22,-286.873 1237.74,-284.387"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1238.42,-287.829 1247.9,-283.093 1237.54,-280.885 1238.42,-287.829"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="namespaceanonymous__namespace_02manager_8cpp_03.html#a43766ad9c2dc269c62c8ec100bfd3b36" target="_top" xlink:title="anonymous_namespace\l\{manager::cpp\}::strict\l_normalize_char">
+<!-- Node17 -->
+<g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:href="namespaceanonymous__namespace_02manager_8cpp_03.html#a43766ad9c2dc269c62c8ec100bfd3b36" target="_top" xlink:title="anonymous_namespace\l\{manager::cpp\}::strict\l_normalize_char">
 <polygon fill="white" stroke="black" points="1465,-251.5 1465,-292.5 1599,-292.5 1599,-251.5 1465,-251.5"/>
 <text text-anchor="start" x="1473" y="-280.5" font-family="FreeSans" font-size="10.00">anonymous_namespace</text>
 <text text-anchor="start" x="1473" y="-269.5" font-family="FreeSans" font-size="10.00">{manager::cpp}::strict</text>
@@ -285,14 +299,14 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node16 -->
-<g id="edge17" class="edge"><title>Node15&#45;&gt;Node16</title>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge18" class="edge"><title>Node16&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M1424.07,-272C1434.24,-272 1444.55,-272 1454.56,-272"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1454.86,-275.5 1464.86,-272 1454.86,-268.5 1454.86,-275.5"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="namespaceanonymous__namespace_02manager_8cpp_03.html#a0760071e5091c65283088c802ce83396" target="_top" xlink:title="anonymous_namespace\l\{manager::cpp\}::nonstrict\l_normalize_char">
+<!-- Node18 -->
+<g id="node18" class="node"><title>Node18</title>
+<g id="a_node18"><a xlink:href="namespaceanonymous__namespace_02manager_8cpp_03.html#a0760071e5091c65283088c802ce83396" target="_top" xlink:title="anonymous_namespace\l\{manager::cpp\}::nonstrict\l_normalize_char">
 <polygon fill="white" stroke="black" points="1460.5,-312.5 1460.5,-353.5 1603.5,-353.5 1603.5,-312.5 1460.5,-312.5"/>
 <text text-anchor="start" x="1468.5" y="-341.5" font-family="FreeSans" font-size="10.00">anonymous_namespace</text>
 <text text-anchor="start" x="1468.5" y="-330.5" font-family="FreeSans" font-size="10.00">{manager::cpp}::nonstrict</text>
@@ -300,159 +314,159 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node17 -->
-<g id="edge18" class="edge"><title>Node15&#45;&gt;Node17</title>
+<!-- Node16&#45;&gt;Node18 -->
+<g id="edge19" class="edge"><title>Node16&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M1384.96,-287.079C1406.36,-293.808 1432.08,-301.895 1455.93,-309.396"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1455.08,-312.797 1465.67,-312.458 1457.18,-306.119 1455.08,-312.797"/>
 </g>
-<!-- Node17&#45;&gt;Node12 -->
-<g id="edge19" class="edge"><title>Node17&#45;&gt;Node12</title>
+<!-- Node18&#45;&gt;Node13 -->
+<g id="edge20" class="edge"><title>Node18&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M1603.7,-344.33C1612.62,-345.76 1621.67,-347.21 1630.38,-348.606"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1629.99,-352.088 1640.42,-350.214 1631.1,-345.176 1629.99,-352.088"/>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" target="_top" xlink:title="VFS::Manager::normalizeFilename">
+<!-- Node22 -->
+<g id="node22" class="node"><title>Node22</title>
+<g id="a_node22"><a xlink:href="classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" target="_top" xlink:title="VFS::Manager::normalizeFilename">
 <polygon fill="white" stroke="black" points="1032.5,-251.5 1032.5,-270.5 1211.5,-270.5 1211.5,-251.5 1032.5,-251.5"/>
 <text text-anchor="middle" x="1122" y="-258.5" font-family="FreeSans" font-size="10.00">VFS::Manager::normalizeFilename</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node21 -->
-<g id="edge23" class="edge"><title>Node20&#45;&gt;Node21</title>
+<!-- Node21&#45;&gt;Node22 -->
+<g id="edge24" class="edge"><title>Node21&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M996.045,-248.699C1004.56,-249.537 1013.4,-250.407 1022.27,-251.28"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1021.98,-254.768 1032.27,-252.265 1022.66,-247.802 1021.98,-254.768"/>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classVFS_1_1Manager.html#ac59e8f07d1b254b5e763cb34e3906c64" target="_top" xlink:title="VFS::Manager::get">
+<!-- Node23 -->
+<g id="node23" class="node"><title>Node23</title>
+<g id="a_node23"><a xlink:href="classVFS_1_1Manager.html#ac59e8f07d1b254b5e763cb34e3906c64" target="_top" xlink:title="VFS::Manager::get">
 <polygon fill="white" stroke="black" points="1069.5,-213.5 1069.5,-232.5 1174.5,-232.5 1174.5,-213.5 1069.5,-213.5"/>
 <text text-anchor="middle" x="1122" y="-220.5" font-family="FreeSans" font-size="10.00">VFS::Manager::get</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node22 -->
-<g id="edge25" class="edge"><title>Node20&#45;&gt;Node22</title>
+<!-- Node21&#45;&gt;Node23 -->
+<g id="edge26" class="edge"><title>Node21&#45;&gt;Node23</title>
 <path fill="none" stroke="midnightblue" d="M996.045,-235.301C1016.66,-233.272 1039.17,-231.056 1059.34,-229.071"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1059.73,-232.549 1069.34,-228.086 1059.04,-225.583 1059.73,-232.549"/>
 </g>
-<!-- Node24 -->
-<g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="namespaceResource.html#a348671c1b817ff6d44215a8ef0887350" target="_top" xlink:title="Resource::checkSupported">
+<!-- Node25 -->
+<g id="node25" class="node"><title>Node25</title>
+<g id="a_node25"><a xlink:href="namespaceResource.html#a348671c1b817ff6d44215a8ef0887350" target="_top" xlink:title="Resource::checkSupported">
 <polygon fill="white" stroke="black" points="1050,-175.5 1050,-194.5 1194,-194.5 1194,-175.5 1050,-175.5"/>
 <text text-anchor="middle" x="1122" y="-182.5" font-family="FreeSans" font-size="10.00">Resource::checkSupported</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node24 -->
-<g id="edge28" class="edge"><title>Node20&#45;&gt;Node24</title>
+<!-- Node21&#45;&gt;Node25 -->
+<g id="edge29" class="edge"><title>Node21&#45;&gt;Node25</title>
 <path fill="none" stroke="midnightblue" d="M965.129,-226.998C984.787,-219.423 1009.46,-210.488 1032,-204 1041.13,-201.372 1050.88,-198.931 1060.45,-196.733"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1061.33,-200.123 1070.33,-194.534 1059.81,-193.29 1061.33,-200.123"/>
 </g>
-<!-- Node21&#45;&gt;Node15 -->
-<g id="edge24" class="edge"><title>Node21&#45;&gt;Node15</title>
+<!-- Node22&#45;&gt;Node16 -->
+<g id="edge25" class="edge"><title>Node22&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M1211.68,-265.601C1220.24,-266.046 1228.96,-266.498 1237.6,-266.946"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1237.53,-270.447 1247.7,-267.47 1237.89,-263.457 1237.53,-270.447"/>
 </g>
-<!-- Node22&#45;&gt;Node15 -->
-<g id="edge26" class="edge"><title>Node22&#45;&gt;Node15</title>
+<!-- Node23&#45;&gt;Node16 -->
+<g id="edge27" class="edge"><title>Node23&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M1168.79,-232.511C1182.69,-235.468 1197.98,-238.795 1212,-242 1229.11,-245.911 1247.5,-250.3 1264.73,-254.489"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1264.17,-257.955 1274.71,-256.927 1265.83,-251.155 1264.17,-257.955"/>
 </g>
-<!-- Node23 -->
-<g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc" target="_top" xlink:title="VFS::Manager::getNormalized">
+<!-- Node24 -->
+<g id="node24" class="node"><title>Node24</title>
+<g id="a_node24"><a xlink:href="classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc" target="_top" xlink:title="VFS::Manager::getNormalized">
 <polygon fill="white" stroke="black" points="1256,-213.5 1256,-232.5 1416,-232.5 1416,-213.5 1256,-213.5"/>
 <text text-anchor="middle" x="1336" y="-220.5" font-family="FreeSans" font-size="10.00">VFS::Manager::getNormalized</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
-<g id="edge27" class="edge"><title>Node22&#45;&gt;Node23</title>
+<!-- Node23&#45;&gt;Node24 -->
+<g id="edge28" class="edge"><title>Node23&#45;&gt;Node24</title>
 <path fill="none" stroke="midnightblue" d="M1174.59,-223C1195.93,-223 1221.31,-223 1245.51,-223"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1245.8,-226.5 1255.8,-223 1245.8,-219.5 1245.8,-226.5"/>
 </g>
-<!-- Node25&#45;&gt;Node5 -->
-<g id="edge30" class="edge"><title>Node25&#45;&gt;Node5</title>
+<!-- Node26&#45;&gt;Node6 -->
+<g id="edge31" class="edge"><title>Node26&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M401.214,-233.122C421.649,-248.511 455.451,-272.031 488,-286 548.58,-311.999 621.998,-328.646 674.826,-338.256"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="674.315,-341.72 684.774,-340.027 675.542,-334.829 674.315,-341.72"/>
 </g>
-<!-- Node25&#45;&gt;Node6 -->
-<g id="edge33" class="edge"><title>Node25&#45;&gt;Node6</title>
+<!-- Node26&#45;&gt;Node7 -->
+<g id="edge34" class="edge"><title>Node26&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M451.669,-228.7C505.253,-233.346 579.16,-231.676 634,-199 659.418,-183.855 645.984,-160.283 670,-143 672.671,-141.078 675.518,-139.349 678.482,-137.795"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="680.003,-140.949 687.67,-133.637 677.116,-134.572 680.003,-140.949"/>
 </g>
-<!-- Node25&#45;&gt;Node7 -->
-<g id="edge32" class="edge"><title>Node25&#45;&gt;Node7</title>
+<!-- Node26&#45;&gt;Node8 -->
+<g id="edge33" class="edge"><title>Node26&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M442.76,-233.019C457.713,-236.716 473.853,-240.705 489.234,-244.507"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="488.664,-247.972 499.212,-246.974 490.344,-241.176 488.664,-247.972"/>
 </g>
-<!-- Node26 -->
-<g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="classNif_1_1RecordListT.html#a87b79faa1d7751a8d88e27fd6f80dabb" target="_top" xlink:title="Nif::RecordListT::length">
+<!-- Node27 -->
+<g id="node27" class="node"><title>Node27</title>
+<g id="a_node27"><a xlink:href="classNif_1_1RecordListT.html#a87b79faa1d7751a8d88e27fd6f80dabb" target="_top" xlink:title="Nif::RecordListT::length">
 <polygon fill="white" stroke="black" points="498.5,-170.5 498.5,-189.5 623.5,-189.5 623.5,-170.5 498.5,-170.5"/>
 <text text-anchor="middle" x="561" y="-177.5" font-family="FreeSans" font-size="10.00">Nif::RecordListT::length</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node26 -->
-<g id="edge31" class="edge"><title>Node25&#45;&gt;Node26</title>
+<!-- Node26&#45;&gt;Node27 -->
+<g id="edge32" class="edge"><title>Node26&#45;&gt;Node27</title>
 <path fill="none" stroke="midnightblue" d="M451.584,-203.145C469.349,-199.352 488.198,-195.328 505.111,-191.718"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="506.316,-195.04 515.365,-189.529 504.854,-188.194 506.316,-195.04"/>
 </g>
-<!-- Node27 -->
-<g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="classNifOsg_1_1LoaderImpl.html#ac6605c5238d9e4b1a726c99ed1be30ca" target="_top" xlink:title="NifOsg::LoaderImpl\l::setupController">
+<!-- Node28 -->
+<g id="node28" class="node"><title>Node28</title>
+<g id="a_node28"><a xlink:href="classNifOsg_1_1LoaderImpl.html#ac6605c5238d9e4b1a726c99ed1be30ca" target="_top" xlink:title="NifOsg::LoaderImpl\l::setupController">
 <polygon fill="white" stroke="black" points="507.5,-33 507.5,-63 614.5,-63 614.5,-33 507.5,-33"/>
 <text text-anchor="start" x="515.5" y="-51" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
 <text text-anchor="middle" x="561" y="-40" font-family="FreeSans" font-size="10.00">::setupController</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node27 -->
-<g id="edge34" class="edge"><title>Node25&#45;&gt;Node27</title>
+<!-- Node26&#45;&gt;Node28 -->
+<g id="edge35" class="edge"><title>Node26&#45;&gt;Node28</title>
 <path fill="none" stroke="midnightblue" d="M396.419,-202.776C416.514,-181.715 454.276,-142.699 488,-111 502.973,-96.9259 520.29,-81.7412 534.188,-69.8063"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="536.604,-72.3454 541.932,-63.1878 532.056,-67.0239 536.604,-72.3454"/>
 </g>
-<!-- Node30 -->
-<g id="node30" class="node"><title>Node30</title>
-<g id="a_node30"><a xlink:href="classSceneUtil_1_1CompositeStateSetUpdater.html#abe3c8c3835da130059bda0bac9c1df95" target="_top" xlink:title="SceneUtil::CompositeState\lSetUpdater::addController">
+<!-- Node31 -->
+<g id="node31" class="node"><title>Node31</title>
+<g id="a_node31"><a xlink:href="classSceneUtil_1_1CompositeStateSetUpdater.html#abe3c8c3835da130059bda0bac9c1df95" target="_top" xlink:title="SceneUtil::CompositeState\lSetUpdater::addController">
 <polygon fill="white" stroke="black" points="488,-121 488,-151 634,-151 634,-121 488,-121"/>
 <text text-anchor="start" x="496" y="-139" font-family="FreeSans" font-size="10.00">SceneUtil::CompositeState</text>
 <text text-anchor="middle" x="561" y="-128" font-family="FreeSans" font-size="10.00">SetUpdater::addController</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node30 -->
-<g id="edge37" class="edge"><title>Node25&#45;&gt;Node30</title>
+<!-- Node26&#45;&gt;Node31 -->
+<g id="edge38" class="edge"><title>Node26&#45;&gt;Node31</title>
 <path fill="none" stroke="midnightblue" d="M407.561,-202.764C428.682,-190.542 459.686,-173.434 488,-161 492.998,-158.805 498.254,-156.669 503.556,-154.629"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="504.956,-157.842 513.103,-151.069 502.51,-151.283 504.956,-157.842"/>
 </g>
-<!-- Node28 -->
-<g id="node28" class="node"><title>Node28</title>
-<g id="a_node28"><a xlink:href="classSceneUtil_1_1Controller.html#a8a4a3bc32ce3f0bcb5a1a0bd21de84d5" target="_top" xlink:title="SceneUtil::Controller\l::setSource">
+<!-- Node29 -->
+<g id="node29" class="node"><title>Node29</title>
+<g id="a_node29"><a xlink:href="classSceneUtil_1_1Controller.html#ac0301a73cfac7774834619376c42ea13" target="_top" xlink:title="SceneUtil::Controller\l::setSource">
 <polygon fill="white" stroke="black" points="688.5,-49 688.5,-79 803.5,-79 803.5,-49 688.5,-49"/>
 <text text-anchor="start" x="696.5" y="-67" font-family="FreeSans" font-size="10.00">SceneUtil::Controller</text>
 <text text-anchor="middle" x="746" y="-56" font-family="FreeSans" font-size="10.00">::setSource</text>
 </a>
 </g>
 </g>
-<!-- Node27&#45;&gt;Node28 -->
-<g id="edge35" class="edge"><title>Node27&#45;&gt;Node28</title>
+<!-- Node28&#45;&gt;Node29 -->
+<g id="edge36" class="edge"><title>Node28&#45;&gt;Node29</title>
 <path fill="none" stroke="midnightblue" d="M614.931,-52.6279C634.707,-54.3569 657.425,-56.3432 678.285,-58.167"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="678.088,-61.663 688.355,-59.0474 678.698,-54.6896 678.088,-61.663"/>
 </g>
-<!-- Node29 -->
-<g id="node29" class="node"><title>Node29</title>
-<g id="a_node29"><a xlink:href="classSceneUtil_1_1Controller.html#aee833a81472645d8f04818b0ec03db9b" target="_top" xlink:title="SceneUtil::Controller\l::setFunction">
+<!-- Node30 -->
+<g id="node30" class="node"><title>Node30</title>
+<g id="a_node30"><a xlink:href="classSceneUtil_1_1Controller.html#a22d5427233050a8cde8cc5d947de9858" target="_top" xlink:title="SceneUtil::Controller\l::setFunction">
 <polygon fill="white" stroke="black" points="688.5,-0 688.5,-30 803.5,-30 803.5,-0 688.5,-0"/>
 <text text-anchor="start" x="696.5" y="-18" font-family="FreeSans" font-size="10.00">SceneUtil::Controller</text>
 <text text-anchor="middle" x="746" y="-7" font-family="FreeSans" font-size="10.00">::setFunction</text>
 </a>
 </g>
 </g>
-<!-- Node27&#45;&gt;Node29 -->
-<g id="edge36" class="edge"><title>Node27&#45;&gt;Node29</title>
+<!-- Node28&#45;&gt;Node30 -->
+<g id="edge37" class="edge"><title>Node28&#45;&gt;Node30</title>
 <path fill="none" stroke="midnightblue" d="M614.931,-38.455C634.707,-34.8889 657.425,-30.7921 678.285,-27.0306"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="679.135,-30.4339 688.355,-25.2147 677.892,-23.545 679.135,-30.4339"/>
 </g>

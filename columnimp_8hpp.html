@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/world/columnimp.hpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/world/columnimp.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -101,26 +101,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;cassert&gt;</code><br/>
+<code>#include &lt;cstdint&gt;</code><br/>
 <code>#include &lt;sstream&gt;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
-<code>#include &lt;boost/lexical_cast.hpp&gt;</code><br/>
 <code>#include &lt;QColor&gt;</code><br/>
+<code>#include &lt;QVector&gt;</code><br/>
 <code>#include &lt;<a class="el" href="loadbody_8hpp_source.html">components/esm/loadbody.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="loadskil_8hpp_source.html">components/esm/loadskil.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="loadrace_8hpp_source.html">components/esm/loadrace.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="columnbase_8hpp_source.html">columnbase.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="columns_8hpp_source.html">columns.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="info_8hpp_source.html">info.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="land_8hpp_source.html">land.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="landtexture_8hpp_source.html">landtexture.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for columnimp.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="columnimp_8hpp__incl.svg" width="1543" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="columnimp_8hpp__incl.svg" width="2194" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="columnimp_8hpp__dep__incl.svg" width="503" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="columnimp_8hpp__dep__incl.svg" width="7670" height="379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -248,6 +251,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1GenderColumn.html">CSMWorld::GenderColumn&lt; ESXRecordT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1GenderNpcColumn.html">CSMWorld::GenderNpcColumn&lt; ESXRecordT &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1EnchantmentTypeColumn.html">CSMWorld::EnchantmentTypeColumn&lt; ESXRecordT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1ChargesColumn2.html">CSMWorld::ChargesColumn2&lt; ESXRecordT &gt;</a></td></tr>
@@ -290,6 +295,24 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1FileDescriptionColumn.html">CSMWorld::FileDescriptionColumn&lt; ESXRecordT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandTextureNicknameColumn.html">CSMWorld::LandTextureNicknameColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandTextureIndexColumn.html">CSMWorld::LandTextureIndexColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandPluginIndexColumn.html">CSMWorld::LandPluginIndexColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandTexturePluginIndexColumn.html">CSMWorld::LandTexturePluginIndexColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandMapLodColumn.html">CSMWorld::LandMapLodColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandNormalsColumn.html">CSMWorld::LandNormalsColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandHeightsColumn.html">CSMWorld::LandHeightsColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandColoursColumn.html">CSMWorld::LandColoursColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1LandTexturesColumn.html">CSMWorld::LandTexturesColumn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCSMWorld_1_1BodyPartRaceColumn.html">CSMWorld::BodyPartRaceColumn</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -302,7 +325,7 @@ Namespaces</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

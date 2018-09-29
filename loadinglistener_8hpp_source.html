@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/loadinglistener/loadinglistener.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/loadinglistener/loadinglistener.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,7 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classLoading_1_1Listener.html#ab51c4d65855d29c1b194ce3011e01c62">   17</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classLoading_1_1Listener.html#ab51c4d65855d29c1b194ce3011e01c62">setLabel</a> (<span class="keyword">const</span> std::string&amp; label, <span class="keywordtype">bool</span> important=<span class="keyword">false</span>) {}</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classLoading_1_1Listener.html#aaaad5a85d9b1e89b9deb15b181c0eab9">   23</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classLoading_1_1Listener.html#aaaad5a85d9b1e89b9deb15b181c0eab9">loadingOn</a>() {}</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classLoading_1_1Listener.html#aff0e58f01fe098c52d0208410f819789">   23</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classLoading_1_1Listener.html#aff0e58f01fe098c52d0208410f819789">loadingOn</a>(<span class="keywordtype">bool</span> visible=<span class="keyword">true</span>) {}</div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classLoading_1_1Listener.html#abdf5f35a55de41f4a0098aa0884b8d8f">   24</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classLoading_1_1Listener.html#abdf5f35a55de41f4a0098aa0884b8d8f">loadingOff</a>() {}</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classLoading_1_1Listener.html#aa4ccb0e3fa9892b67f55de7195c5100f">   27</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classLoading_1_1Listener.html#aa4ccb0e3fa9892b67f55de7195c5100f">setProgressRange</a> (<span class="keywordtype">size_t</span> range) {}</div>
@@ -119,7 +119,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structLoading_1_1ScopedLoad.html">   35</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structLoading_1_1ScopedLoad.html">ScopedLoad</a></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structLoading_1_1ScopedLoad.html#a3cfde00018fcd2c295b40a6c2f036173">   37</a></span>&#160;        <a class="code" href="structLoading_1_1ScopedLoad.html#a3cfde00018fcd2c295b40a6c2f036173">ScopedLoad</a>(<a class="code" href="classLoading_1_1Listener.html">Listener</a>* l) : <a class="code" href="structLoading_1_1ScopedLoad.html#a5c101066d80514032d199036206cac15">mListener</a>(l) { <a class="code" href="structLoading_1_1ScopedLoad.html#a5c101066d80514032d199036206cac15">mListener</a>-&gt;<a class="code" href="classLoading_1_1Listener.html#aaaad5a85d9b1e89b9deb15b181c0eab9">loadingOn</a>(); }</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structLoading_1_1ScopedLoad.html#a3cfde00018fcd2c295b40a6c2f036173">   37</a></span>&#160;        <a class="code" href="structLoading_1_1ScopedLoad.html#a3cfde00018fcd2c295b40a6c2f036173">ScopedLoad</a>(<a class="code" href="classLoading_1_1Listener.html">Listener</a>* l) : <a class="code" href="structLoading_1_1ScopedLoad.html#a5c101066d80514032d199036206cac15">mListener</a>(l) { <a class="code" href="structLoading_1_1ScopedLoad.html#a5c101066d80514032d199036206cac15">mListener</a>-&gt;<a class="code" href="classLoading_1_1Listener.html#aff0e58f01fe098c52d0208410f819789">loadingOn</a>(); }</div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="structLoading_1_1ScopedLoad.html#a108bf1a1207a3ef032806b2c968e8a34">   38</a></span>&#160;        <a class="code" href="structLoading_1_1ScopedLoad.html#a108bf1a1207a3ef032806b2c968e8a34">~ScopedLoad</a>() { <a class="code" href="structLoading_1_1ScopedLoad.html#a5c101066d80514032d199036206cac15">mListener</a>-&gt;<a class="code" href="classLoading_1_1Listener.html#abdf5f35a55de41f4a0098aa0884b8d8f">loadingOff</a>(); }</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structLoading_1_1ScopedLoad.html#a5c101066d80514032d199036206cac15">   39</a></span>&#160;        <a class="code" href="classLoading_1_1Listener.html">Listener</a>* <a class="code" href="structLoading_1_1ScopedLoad.html#a5c101066d80514032d199036206cac15">mListener</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    };</div>
@@ -128,19 +128,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classLoading_1_1Listener_html_abdf5f35a55de41f4a0098aa0884b8d8f"><div class="ttname"><a href="classLoading_1_1Listener.html#abdf5f35a55de41f4a0098aa0884b8d8f">Loading::Listener::loadingOff</a></div><div class="ttdeci">virtual void loadingOff()</div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:24</div></div>
 <div class="ttc" id="structLoading_1_1ScopedLoad_html_a5c101066d80514032d199036206cac15"><div class="ttname"><a href="structLoading_1_1ScopedLoad.html#a5c101066d80514032d199036206cac15">Loading::ScopedLoad::mListener</a></div><div class="ttdeci">Listener * mListener</div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:39</div></div>
+<div class="ttc" id="classLoading_1_1Listener_html_aff0e58f01fe098c52d0208410f819789"><div class="ttname"><a href="classLoading_1_1Listener.html#aff0e58f01fe098c52d0208410f819789">Loading::Listener::loadingOn</a></div><div class="ttdeci">virtual void loadingOn(bool visible=true)</div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:23</div></div>
 <div class="ttc" id="classLoading_1_1Listener_html_a2a0ca87b6be0b09f158358ba506247b3"><div class="ttname"><a href="classLoading_1_1Listener.html#a2a0ca87b6be0b09f158358ba506247b3">Loading::Listener::setProgress</a></div><div class="ttdeci">virtual void setProgress(size_t value)</div><div class="ttdoc">Set current progress. Valid range is [0, progressRange) </div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:29</div></div>
 <div class="ttc" id="structLoading_1_1ScopedLoad_html"><div class="ttname"><a href="structLoading_1_1ScopedLoad.html">Loading::ScopedLoad</a></div><div class="ttdoc">Used for stopping a loading sequence when the object goes out of scope. </div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:35</div></div>
 <div class="ttc" id="classLoading_1_1Listener_html_aa4ccb0e3fa9892b67f55de7195c5100f"><div class="ttname"><a href="classLoading_1_1Listener.html#aa4ccb0e3fa9892b67f55de7195c5100f">Loading::Listener::setProgressRange</a></div><div class="ttdeci">virtual void setProgressRange(size_t range)</div><div class="ttdoc">Set the total range of progress (e.g. the number of objects to load). </div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:27</div></div>
 <div class="ttc" id="classLoading_1_1Listener_html"><div class="ttname"><a href="classLoading_1_1Listener.html">Loading::Listener</a></div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:8</div></div>
 <div class="ttc" id="structLoading_1_1ScopedLoad_html_a108bf1a1207a3ef032806b2c968e8a34"><div class="ttname"><a href="structLoading_1_1ScopedLoad.html#a108bf1a1207a3ef032806b2c968e8a34">Loading::ScopedLoad::~ScopedLoad</a></div><div class="ttdeci">~ScopedLoad()</div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:38</div></div>
 <div class="ttc" id="structLoading_1_1ScopedLoad_html_a3cfde00018fcd2c295b40a6c2f036173"><div class="ttname"><a href="structLoading_1_1ScopedLoad.html#a3cfde00018fcd2c295b40a6c2f036173">Loading::ScopedLoad::ScopedLoad</a></div><div class="ttdeci">ScopedLoad(Listener *l)</div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:37</div></div>
-<div class="ttc" id="classLoading_1_1Listener_html_aaaad5a85d9b1e89b9deb15b181c0eab9"><div class="ttname"><a href="classLoading_1_1Listener.html#aaaad5a85d9b1e89b9deb15b181c0eab9">Loading::Listener::loadingOn</a></div><div class="ttdeci">virtual void loadingOn()</div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:23</div></div>
 <div class="ttc" id="classLoading_1_1Listener_html_ab51c4d65855d29c1b194ce3011e01c62"><div class="ttname"><a href="classLoading_1_1Listener.html#ab51c4d65855d29c1b194ce3011e01c62">Loading::Listener::setLabel</a></div><div class="ttdeci">virtual void setLabel(const std::string &amp;label, bool important=false)</div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:17</div></div>
 <div class="ttc" id="classLoading_1_1Listener_html_a06e917f47fdb33bc780ea5909a4fc3d2"><div class="ttname"><a href="classLoading_1_1Listener.html#a06e917f47fdb33bc780ea5909a4fc3d2">Loading::Listener::increaseProgress</a></div><div class="ttdeci">virtual void increaseProgress(size_t increase=1)</div><div class="ttdoc">Increase current progress, default by 1. </div><div class="ttdef"><b>Definition:</b> loadinglistener.hpp:31</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

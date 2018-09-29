@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwrender/localmap.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwrender/localmap.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,16 +102,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="localmap_8hpp_source.html">localmap.hpp</a>&quot;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;stdint.h&gt;</code><br/>
 <code>#include &lt;osg/Fog&gt;</code><br/>
 <code>#include &lt;osg/LightModel&gt;</code><br/>
 <code>#include &lt;osg/Texture2D&gt;</code><br/>
 <code>#include &lt;osg/ComputeBoundsVisitor&gt;</code><br/>
 <code>#include &lt;osg/LightSource&gt;</code><br/>
+<code>#include &lt;osg/PolygonMode&gt;</code><br/>
 <code>#include &lt;osgDB/ReadFile&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="fogstate_8hpp_source.html">components/esm/fogstate.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="loadcell_8hpp_source.html">components/esm/loadcell.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="constants_8hpp_source.html">components/misc/constants.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="settings_8hpp_source.html">components/settings/settings.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="visitor_8hpp_source.html">components/sceneutil/visitor.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="memorystream_8hpp_source.html">components/files/memorystream.hpp</a>&gt;</code><br/>
@@ -122,7 +124,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for localmap.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="localmap_8cpp__incl.svg" width="4220" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="localmap_8cpp__incl.svg" width="4878" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -143,11 +145,13 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a44f5cad4147a296771eb40894721018e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02localmap_8cpp_03.html#a44f5cad4147a296771eb40894721018e">anonymous_namespace{localmap.cpp}::square</a> (float val)</td></tr>
 <tr class="separator:a44f5cad4147a296771eb40894721018e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3b39926905b1e921d7b7d39b9ac9d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWRender.html#afd3b39926905b1e921d7b7d39b9ac9d5">MWRender::needUpdate</a> (std::set&lt; std::pair&lt; <a class="el" href="classint.html">int</a>, <a class="el" href="classint.html">int</a> &gt; &gt; &amp;renderedGrid, std::set&lt; std::pair&lt; <a class="el" href="classint.html">int</a>, <a class="el" href="classint.html">int</a> &gt; &gt; &amp;currentGrid, <a class="el" href="classint.html">int</a> cellX, <a class="el" href="classint.html">int</a> cellY)</td></tr>
+<tr class="separator:afd3b39926905b1e921d7b7d39b9ac9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

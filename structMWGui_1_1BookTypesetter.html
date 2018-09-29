@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -134,9 +134,9 @@ Public Types</h2></td></tr>
 <a class="el" href="structMWGui_1_1BookTypesetter.html#a45075013ccf4e7932c9ed2d507a6dfdbacbb63a5d543a29ef451455eef78e7259">AlignRight</a> = +1
  }</td></tr>
 <tr class="separator:a45075013ccf4e7932c9ed2d507a6dfdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af23986be6e8c85dff2dbfd0e7181c42d"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="structMWGui_1_1BookTypesetter.html">BookTypesetter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#af23986be6e8c85dff2dbfd0e7181c42d">Ptr</a></td></tr>
-<tr class="separator:af23986be6e8c85dff2dbfd0e7181c42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2736367cf915a61400fe9a3bddef9ff1"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="structMWGui_1_1BookTypesetter.html">BookTypesetter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a2736367cf915a61400fe9a3bddef9ff1">Ptr</a></td></tr>
+<tr class="separator:a2736367cf915a61400fe9a3bddef9ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a583e34366c37113ce393ddc68892d239"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structMWGui_1_1TypesetBook.html#ad2f84f8a6432ddf9b76001db62186865">TypesetBook::InteractiveId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a583e34366c37113ce393ddc68892d239">InteractiveId</a></td></tr>
 <tr class="separator:a583e34366c37113ce393ddc68892d239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5d88bd01a8abadf2d79ae6fe7643ca0"><td class="memItemLeft" align="right" valign="top">typedef MyGUI::Colour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a></td></tr>
@@ -149,11 +149,11 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab07e01e8a9c31a7976383252c9c3bd48"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#ab07e01e8a9c31a7976383252c9c3bd48">createStyle</a> (char const *Font, <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a>)=0</td></tr>
-<tr class="memdesc:ab07e01e8a9c31a7976383252c9c3bd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a simple text style consisting of a font and a text color.  <a href="#ab07e01e8a9c31a7976383252c9c3bd48">More...</a><br/></td></tr>
-<tr class="separator:ab07e01e8a9c31a7976383252c9c3bd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6852dccc3cceb00ee74438952b88bb4a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a6852dccc3cceb00ee74438952b88bb4a">createHotStyle</a> (<a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a> *BaseStyle, <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> NormalColour, <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> HoverColour, <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> ActiveColour, <a class="el" href="structMWGui_1_1BookTypesetter.html#a583e34366c37113ce393ddc68892d239">InteractiveId</a> Id, <a class="el" href="classbool.html">bool</a> Unique=true)=0</td></tr>
-<tr class="separator:a6852dccc3cceb00ee74438952b88bb4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c592663b7765d92b4677080d4e6eea1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a0c592663b7765d92b4677080d4e6eea1">createStyle</a> (const std::string &amp;fontName, const <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> &amp;colour, <a class="el" href="classbool.html">bool</a> useBookFont=true)=0</td></tr>
+<tr class="memdesc:a0c592663b7765d92b4677080d4e6eea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a simple text style consisting of a font and a text color.  <a href="#a0c592663b7765d92b4677080d4e6eea1">More...</a><br/></td></tr>
+<tr class="separator:a0c592663b7765d92b4677080d4e6eea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae78aee9d94ea042743eacc3516577c46"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#ae78aee9d94ea042743eacc3516577c46">createHotStyle</a> (<a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a> *BaseStyle, const <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> &amp;NormalColour, const <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> &amp;HoverColour, const <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> &amp;ActiveColour, <a class="el" href="structMWGui_1_1BookTypesetter.html#a583e34366c37113ce393ddc68892d239">InteractiveId</a> Id, <a class="el" href="classbool.html">bool</a> Unique=true)=0</td></tr>
+<tr class="separator:ae78aee9d94ea042743eacc3516577c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f0d0d0c1b6d04b227ebe75bd7f0c1ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a1f0d0d0c1b6d04b227ebe75bd7f0c1ab">lineBreak</a> (float margin=0)=0</td></tr>
 <tr class="separator:a1f0d0d0c1b6d04b227ebe75bd7f0c1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afffc6273351441e9654c20f96732f7fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#afffc6273351441e9654c20f96732f7fb">sectionBreak</a> (<a class="el" href="classint.html">int</a> margin=0)=0</td></tr>
@@ -170,13 +170,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0c1b43fccaae845298ffebe4282dc9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ccc0dfc3ead34d2e53c28a666d5c599"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a7ccc0dfc3ead34d2e53c28a666d5c599">write</a> (<a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a> *<a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a>, size_t Begin, size_t End)=0</td></tr>
 <tr class="separator:a7ccc0dfc3ead34d2e53c28a666d5c599"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a755f83a5ab5611949038cca92f745e1b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMWGui_1_1TypesetBook.html#ad7cc7bdcdba8c95906e8f2772cbbc3f1">TypesetBook::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a755f83a5ab5611949038cca92f745e1b">complete</a> ()=0</td></tr>
+<tr class="memitem:a755f83a5ab5611949038cca92f745e1b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMWGui_1_1TypesetBook.html#a26a0196228b192150a77091dc98d8b91">TypesetBook::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a755f83a5ab5611949038cca92f745e1b">complete</a> ()=0</td></tr>
 <tr class="memdesc:a755f83a5ab5611949038cca92f745e1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalize the document layout, and return a pointer to it.  <a href="#a755f83a5ab5611949038cca92f745e1b">More...</a><br/></td></tr>
 <tr class="separator:a755f83a5ab5611949038cca92f745e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5e5140e93c45cbb5f68f4c25bbaf1088"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMWGui_1_1BookTypesetter.html#af23986be6e8c85dff2dbfd0e7181c42d">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a5e5140e93c45cbb5f68f4c25bbaf1088">create</a> (<a class="el" href="classint.html">int</a> pageWidth, <a class="el" href="classint.html">int</a> pageHeight)</td></tr>
+<tr class="memitem:a5e5140e93c45cbb5f68f4c25bbaf1088"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMWGui_1_1BookTypesetter.html#a2736367cf915a61400fe9a3bddef9ff1">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWGui_1_1BookTypesetter.html#a5e5140e93c45cbb5f68f4c25bbaf1088">create</a> (<a class="el" href="classint.html">int</a> pageWidth, <a class="el" href="classint.html">int</a> pageHeight)</td></tr>
 <tr class="memdesc:a5e5140e93c45cbb5f68f4c25bbaf1088"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory function for creating the default implementation of a book typesetter.  <a href="#a5e5140e93c45cbb5f68f4c25bbaf1088">More...</a><br/></td></tr>
 <tr class="separator:a5e5140e93c45cbb5f68f4c25bbaf1088"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -207,12 +207,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af23986be6e8c85dff2dbfd0e7181c42d"></a>
+<a class="anchor" id="a2736367cf915a61400fe9a3bddef9ff1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::shared_ptr&lt;<a class="el" href="structMWGui_1_1BookTypesetter.html">BookTypesetter</a>&gt; <a class="el" href="structMWGui_1_1BookTypesetter.html#af23986be6e8c85dff2dbfd0e7181c42d">MWGui::BookTypesetter::Ptr</a></td>
+          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="structMWGui_1_1BookTypesetter.html">BookTypesetter</a>&gt; <a class="el" href="structMWGui_1_1BookTypesetter.html#a2736367cf915a61400fe9a3bddef9ff1">MWGui::BookTypesetter::Ptr</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -310,7 +310,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="structMWGui_1_1TypesetBook.html#ad7cc7bdcdba8c95906e8f2772cbbc3f1">TypesetBook::Ptr</a> MWGui::BookTypesetter::complete </td>
+          <td class="memname">virtual <a class="el" href="structMWGui_1_1TypesetBook.html#a26a0196228b192150a77091dc98d8b91">TypesetBook::Ptr</a> MWGui::BookTypesetter::complete </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -337,7 +337,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMWGui_1_1BookTypesetter.html#af23986be6e8c85dff2dbfd0e7181c42d">BookTypesetter::Ptr</a> MWGui::BookTypesetter::create </td>
+          <td class="memname"><a class="el" href="structMWGui_1_1BookTypesetter.html#a2736367cf915a61400fe9a3bddef9ff1">BookTypesetter::Ptr</a> MWGui::BookTypesetter::create </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>pageWidth</em>, </td>
@@ -366,14 +366,14 @@ Static Public Member Functions</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structMWGui_1_1BookTypesetter_a5e5140e93c45cbb5f68f4c25bbaf1088_icgraph.svg" width="1718" height="787"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structMWGui_1_1BookTypesetter_a5e5140e93c45cbb5f68f4c25bbaf1088_icgraph.svg" width="2048" height="751"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a6852dccc3cceb00ee74438952b88bb4a"></a>
+<a class="anchor" id="ae78aee9d94ea042743eacc3516577c46"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -389,19 +389,19 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> &amp;&#160;</td>
           <td class="paramname"><em>NormalColour</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> &amp;&#160;</td>
           <td class="paramname"><em>HoverColour</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> &amp;&#160;</td>
           <td class="paramname"><em>ActiveColour</em>, </td>
         </tr>
         <tr>
@@ -430,11 +430,11 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Create a hyper-link style with a user-defined identifier based on an existing style. The unique flag forces a new instance of this style to be created even if an existing instance is present. </p>
 
-<p>Implemented in <a class="el" href="structMWGui_1_1TypesetBookImpl_1_1Typesetter.html#a01fb5a04f469fec788dd0f206a447235">MWGui::TypesetBookImpl::Typesetter</a>.</p>
+<p>Implemented in <a class="el" href="structMWGui_1_1TypesetBookImpl_1_1Typesetter.html#a8a5d1213fd3c99f66871c79530e2ffea">MWGui::TypesetBookImpl::Typesetter</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab07e01e8a9c31a7976383252c9c3bd48"></a>
+<a class="anchor" id="a0c592663b7765d92b4677080d4e6eea1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -444,14 +444,20 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">virtual <a class="el" href="structMWGui_1_1BookTypesetter_1_1Style.html">Style</a>* MWGui::BookTypesetter::createStyle </td>
           <td>(</td>
-          <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>Font</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fontName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a>&#160;</td>
-          <td class="paramname"><em>Colour</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMWGui_1_1BookTypesetter.html#af5d88bd01a8abadf2d79ae6fe7643ca0">Colour</a> &amp;&#160;</td>
+          <td class="paramname"><em>colour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>useBookFont</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -468,7 +474,7 @@ Here is the caller graph for this function:</div>
 
 <p>Create a simple text style consisting of a font and a text color. </p>
 
-<p>Implemented in <a class="el" href="structMWGui_1_1TypesetBookImpl_1_1Typesetter.html#a0697a0cbb364773747a26269c0f70384">MWGui::TypesetBookImpl::Typesetter</a>.</p>
+<p>Implemented in <a class="el" href="structMWGui_1_1TypesetBookImpl_1_1Typesetter.html#af87dc2464702a359df9d1891c034ed58">MWGui::TypesetBookImpl::Typesetter</a>.</p>
 
 </div>
 </div>
@@ -662,13 +668,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="bookpage_8hpp_source.html">bookpage.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="bookpage_8cpp.html">bookpage.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="bookpage_8hpp_source.html">bookpage.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="bookpage_8cpp.html">bookpage.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:01 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:34 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,13 +1,13 @@
 <map id="MWGui::SaveGameDialog" name="MWGui::SaveGameDialog">
-<area shape="rect" id="node2" href="$classMWGui_1_1WindowModal.html" title="{MWGui::WindowModal\n||+ WindowModal()\l+ open()\l+ close()\l+ exit()\l}" alt="" coords="59,1187,217,1309"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html" title="{MWGui::WindowBase\n||+ WindowBase()\l+ open()\l+ close()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l}" alt="" coords="115,907,267,1072"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1Layout.html" title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}" alt="" coords="138,633,253,842"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="702,149,788,227"/>
-<area shape="rect" id="node21" href="$structESM_1_1SavedGame.html" title="{ESM::SavedGame\n||+ load()\l+ save()\l}" alt="" coords="1189,475,1325,567"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="677,6,813,98"/>
-<area shape="rect" id="node11" href="$classbool.html" title="{bool\n||}" alt="" coords="510,1209,559,1287"/>
-<area shape="rect" id="node17" href="$classMWState_1_1Character.html" title="{MWState::Character\n||+ Character()\l+ cleanup()\l+ createSlot()\l+ deleteSlot()\l+ updateSlot()\l+ begin()\l+ end()\l+ getPath()\l+ getSignature()\l&#45; addSlot()\l&#45; addSlot()\l}" alt="" coords="1162,1136,1312,1360"/>
-<area shape="rect" id="node20" href="$structMWState_1_1Slot.html" title="{MWState::Slot\n||}" alt="" coords="1215,699,1325,776"/>
-<area shape="rect" id="node25" href="$structESM_1_1SavedGame_1_1TimeStamp.html" title="{ESM::SavedGame::TimeStamp\n||}" alt="" coords="1391,320,1609,397"/>
-<area shape="rect" id="node27" href="$classint.html" title="{int\n||}" alt="" coords="1593,149,1631,227"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1WindowModal.html" title="{MWGui::WindowModal\n||+ WindowModal()\l+ onOpen()\l+ onClose()\l+ exit()\l}" alt="" coords="58,1262,216,1383"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html" title="{MWGui::WindowBase\n||+ WindowBase()\l+ getDefaultKeyFocus()\l+ setPtr()\l+ onFrame()\l+ onOpen()\l+ onClose()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l+ clear()\l+ onResChange()\l}" alt="" coords="112,907,285,1146"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1Layout.html" title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}" alt="" coords="141,633,256,842"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="701,149,787,227"/>
+<area shape="rect" id="node21" href="$structESM_1_1SavedGame.html" title="{ESM::SavedGame\n||+ load()\l+ save()\l}" alt="" coords="1187,475,1324,567"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="675,6,812,98"/>
+<area shape="rect" id="node13" href="$classbool.html" title="{bool\n||}" alt="" coords="687,1284,736,1361"/>
+<area shape="rect" id="node17" href="$classMWState_1_1Character.html" title="{MWState::Character\n||+ Character()\l+ cleanup()\l+ createSlot()\l+ deleteSlot()\l+ updateSlot()\l+ begin()\l+ end()\l+ getPath()\l+ getSignature()\l&#45; addSlot()\l&#45; addSlot()\l}" alt="" coords="1161,1211,1311,1435"/>
+<area shape="rect" id="node20" href="$structMWState_1_1Slot.html" title="{MWState::Slot\n||}" alt="" coords="1213,699,1324,776"/>
+<area shape="rect" id="node25" href="$structESM_1_1SavedGame_1_1TimeStamp.html" title="{ESM::SavedGame::TimeStamp\n||}" alt="" coords="1389,320,1608,397"/>
+<area shape="rect" id="node27" href="$classint.html" title="{int\n||}" alt="" coords="1591,149,1629,227"/>
 </map>

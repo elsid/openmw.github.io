@@ -11,23 +11,23 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-408 381,-408 381,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="95.5,-1 95.5,-179 238.5,-179 238.5,-1 95.5,-1"/>
+<polygon fill="#bfbfbf" stroke="black" points="94.5,-1 94.5,-179 239.5,-179 239.5,-1 94.5,-1"/>
 <text text-anchor="middle" x="167" y="-167" font-family="FreeSans" font-size="10.00">NifOsg::LoaderImpl</text>
-<polyline fill="none" stroke="black" points="95.5,-160 238.5,-160 "/>
+<polyline fill="none" stroke="black" points="94.5,-160 239.5,-160 "/>
 <text text-anchor="middle" x="167" y="-148" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="95.5,-141 238.5,-141 "/>
-<text text-anchor="start" x="103.5" y="-129" font-family="FreeSans" font-size="10.00">+ LoaderImpl()</text>
-<text text-anchor="start" x="103.5" y="-118" font-family="FreeSans" font-size="10.00">+ load()</text>
-<text text-anchor="start" x="103.5" y="-107" font-family="FreeSans" font-size="10.00">+ applyNodeProperties()</text>
-<text text-anchor="start" x="103.5" y="-96" font-family="FreeSans" font-size="10.00">+ setupController()</text>
-<text text-anchor="start" x="103.5" y="-85" font-family="FreeSans" font-size="10.00">+ setupParticleController()</text>
-<text text-anchor="start" x="103.5" y="-74" font-family="FreeSans" font-size="10.00">+ optimize()</text>
-<text text-anchor="start" x="103.5" y="-63" font-family="FreeSans" font-size="10.00">+ handleLodNode()</text>
-<text text-anchor="start" x="103.5" y="-52" font-family="FreeSans" font-size="10.00">+ handleSourceTexture()</text>
-<text text-anchor="start" x="103.5" y="-41" font-family="FreeSans" font-size="10.00">+ handleEffect()</text>
-<text text-anchor="start" x="103.5" y="-30" font-family="FreeSans" font-size="10.00">+ handleNode()</text>
-<text text-anchor="start" x="103.5" y="-19" font-family="FreeSans" font-size="10.00">and 22 more...</text>
-<text text-anchor="start" x="103.5" y="-8" font-family="FreeSans" font-size="10.00">+ loadKf()</text>
+<polyline fill="none" stroke="black" points="94.5,-141 239.5,-141 "/>
+<text text-anchor="start" x="102.5" y="-129" font-family="FreeSans" font-size="10.00">+ LoaderImpl()</text>
+<text text-anchor="start" x="102.5" y="-118" font-family="FreeSans" font-size="10.00">+ load()</text>
+<text text-anchor="start" x="102.5" y="-107" font-family="FreeSans" font-size="10.00">+ applyNodeProperties()</text>
+<text text-anchor="start" x="102.5" y="-96" font-family="FreeSans" font-size="10.00">+ setupController()</text>
+<text text-anchor="start" x="102.5" y="-85" font-family="FreeSans" font-size="10.00">+ handleLodNode()</text>
+<text text-anchor="start" x="102.5" y="-74" font-family="FreeSans" font-size="10.00">+ handleSourceTexture()</text>
+<text text-anchor="start" x="102.5" y="-63" font-family="FreeSans" font-size="10.00">+ handleEffect()</text>
+<text text-anchor="start" x="102.5" y="-52" font-family="FreeSans" font-size="10.00">+ createNode()</text>
+<text text-anchor="start" x="102.5" y="-41" font-family="FreeSans" font-size="10.00">+ handleNode()</text>
+<text text-anchor="start" x="102.5" y="-30" font-family="FreeSans" font-size="10.00">+ handleMeshControllers()</text>
+<text text-anchor="start" x="102.5" y="-19" font-family="FreeSans" font-size="10.00">and 21 more...</text>
+<text text-anchor="start" x="102.5" y="-8" font-family="FreeSans" font-size="10.00">+ loadKf()</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -40,8 +40,8 @@
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M25.8809,-238.31C28.6322,-225.319 33.2655,-210.077 41,-198 52.9489,-179.342 69.1502,-162.206 85.9523,-147.372"/>
-<polygon fill="none" stroke="#404040" points="86.1979,-147.162 88.1649,-140.224 95.3255,-139.372 93.3585,-146.309 86.1979,-147.162"/>
+<path fill="none" stroke="#404040" d="M25.8809,-238.31C28.6322,-225.319 33.2655,-210.077 41,-198 52.753,-179.648 68.6201,-162.769 85.1265,-148.103"/>
+<polygon fill="none" stroke="#404040" points="85.2378,-148.007 87.1826,-141.064 94.3404,-140.188 92.3956,-147.132 85.2378,-148.007"/>
 <text text-anchor="middle" x="102" y="-206.5" font-family="FreeSans" font-size="10.00"> +mFirstRootTextureIndex</text>
 </g>
 <!-- Node3 -->
@@ -77,8 +77,8 @@
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M318.907,-238.176C315.584,-225.155 310.278,-209.926 302,-198 287.639,-177.309 268.116,-158.651 248.382,-142.929"/>
-<polygon fill="none" stroke="#404040" points="248.196,-142.785 241.002,-142.283 238.699,-135.45 245.892,-135.952 248.196,-142.785"/>
+<path fill="none" stroke="#404040" d="M318.907,-238.176C315.584,-225.155 310.278,-209.926 302,-198 287.858,-177.625 268.712,-159.223 249.288,-143.653"/>
+<polygon fill="none" stroke="#404040" points="249.225,-143.604 242.033,-143.081 239.75,-136.24 246.942,-136.764 249.225,-143.604"/>
 <text text-anchor="middle" x="345" y="-206.5" font-family="FreeSans" font-size="10.00"> +mFilename</text>
 </g>
 <!-- Node5 -->

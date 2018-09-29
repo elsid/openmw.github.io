@@ -1,21 +1,21 @@
 <map id="CSVPrefs::PageBase" name="CSVPrefs::PageBase">
 <area shape="rect" id="node2" href="$classQScrollArea.html" title="{QScrollArea\n||}" alt="" coords="531,480,628,557"/>
-<area shape="rect" id="node3" href="$classCSMPrefs_1_1Category.html" title="{CSMPrefs::Category\n||+ Category()\l+ getKey()\l+ getState()\l+ addSetting()\l+ begin()\l+ end()\l+ operator[]()\l+ update()\l}" alt="" coords="1109,429,1257,609"/>
-<area shape="rect" id="node42" href="$classCSMPrefs_1_1Setting.html" title="{CSMPrefs::Setting\n||+ Setting()\l+ ~Setting()\l+ makeWidgets()\l+ getParent()\l+ getKey()\l+ getLabel()\l+ toInt()\l+ toDouble()\l+ toString()\l+ isTrue()\l+ toColor()\l# getValues()\l# getMutex()\l}" alt="" coords="878,724,1015,977"/>
-<area shape="rect" id="node4" href="$classCSMPrefs_1_1State.html" title="User settings state. " alt="" coords="1336,1403,1515,1818"/>
+<area shape="rect" id="node3" href="$classCSMPrefs_1_1Category.html" title="{CSMPrefs::Category\n||+ Category()\l+ getKey()\l+ getState()\l+ addSetting()\l+ begin()\l+ end()\l+ operator[]()\l+ update()\l}" alt="" coords="1117,429,1265,609"/>
+<area shape="rect" id="node42" href="$classCSMPrefs_1_1Setting.html" title="{CSMPrefs::Setting\n||+ Setting()\l+ ~Setting()\l+ makeWidgets()\l+ updateWidget()\l+ getParent()\l+ getKey()\l+ getLabel()\l+ toInt()\l+ toDouble()\l+ toString()\l+ isTrue()\l+ toColor()\l# getValues()\l# getMutex()\l}" alt="" coords="893,717,1029,985"/>
+<area shape="rect" id="node4" href="$classCSMPrefs_1_1State.html" title="User settings state. " alt="" coords="1351,1403,1529,1847"/>
 <area shape="rect" id="node5" href="$classQObject.html" title="{QObject\n||}" alt="" coords="457,163,529,240"/>
-<area shape="rect" id="node20" href="$classCSMPrefs_1_1ShortcutManager.html" title="Class used to track and update shortcuts/sequences. " alt="" coords="1588,1056,1791,1339"/>
+<area shape="rect" id="node20" href="$classCSMPrefs_1_1ShortcutManager.html" title="Class used to track and update shortcuts/sequences. " alt="" coords="1603,1056,1805,1339"/>
 <area shape="rect" id="node22" href="$classCSMPrefs_1_1ShortcutEventHandler.html" title="Users of this class should install it as an event handler. " alt="" coords="180,739,412,963"/>
-<area shape="rect" id="node31" href="$classCSMPrefs_1_1Shortcut.html" title="A class similar in purpose to QShortcut, but with the ability to use mouse buttons. " alt="" coords="2385,399,2556,638"/>
-<area shape="rect" id="node6" href="$structFiles_1_1ConfigurationManager.html" title="{Files::ConfigurationManager\n||+ ConfigurationManager()\l+ ~ConfigurationManager()\l+ readConfiguration()\l+ processPaths()\l+ getGlobalPath()\l+ getUserConfigPath()\l+ getLocalPath()\l+ getGlobalDataPath()\l+ getUserDataPath()\l+ getLocalDataPath()\l+ getInstallPath()\l+ getCachePath()\l+ getLogPath()\l&#45; loadConfig()\l&#45; setupTokensMapping()\l}" alt="" coords="3087,709,3285,992"/>
-<area shape="rect" id="node8" href="$structFiles_1_1FixedPath.html" title="{Files::FixedPath\&lt; P \&gt;\n||+ FixedPath()\l+ getUserConfigPath()\l+ getUserDataPath()\l+ getGlobalConfigPath()\l+ getLocalPath()\l+ getInstallPath()\l+ getGlobalDataPath()\l+ getCachePath()\l}" alt="" coords="3424,429,3600,609"/>
-<area shape="rect" id="node10" href="$classbool.html" title="{bool\n||}" alt="" coords="3070,163,3119,240"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="1507,163,1593,240"/>
-<area shape="rect" id="node13" title="STL class. " alt="" coords="1482,6,1619,98"/>
+<area shape="rect" id="node31" href="$classCSMPrefs_1_1Shortcut.html" title="A class similar in purpose to QShortcut, but with the ability to use mouse buttons. " alt="" coords="2408,399,2579,638"/>
+<area shape="rect" id="node6" href="$structFiles_1_1ConfigurationManager.html" title="{Files::ConfigurationManager\n||+ ConfigurationManager()\l+ ~ConfigurationManager()\l+ readConfiguration()\l+ processPaths()\l+ getGlobalPath()\l+ getUserConfigPath()\l+ getLocalPath()\l+ getGlobalDataPath()\l+ getUserDataPath()\l+ getLocalDataPath()\l+ getInstallPath()\l+ getCachePath()\l+ getLogPath()\l&#45; loadConfig()\l&#45; setupTokensMapping()\l}" alt="" coords="3110,709,3308,992"/>
+<area shape="rect" id="node8" href="$structFiles_1_1FixedPath.html" title="{Files::FixedPath\&lt; P \&gt;\n||+ FixedPath()\l+ getUserConfigPath()\l+ getUserDataPath()\l+ getGlobalConfigPath()\l+ getLocalPath()\l+ getInstallPath()\l+ getGlobalDataPath()\l+ getCachePath()\l}" alt="" coords="3447,429,3623,609"/>
+<area shape="rect" id="node10" href="$classbool.html" title="{bool\n||}" alt="" coords="3093,163,3141,240"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="1530,163,1616,240"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="1505,6,1641,98"/>
 <area shape="rect" id="node15" href="$classSettings_1_1Manager.html" title="Settings management (can change during runtime) " alt="" coords="811,392,949,645"/>
 <area shape="rect" id="node16" title="STL class. " alt="" coords="645,163,776,240"/>
 <area shape="rect" id="node19" title="STL class. " alt="" coords="809,163,916,240"/>
 <area shape="rect" id="node26" title="STL class. " alt="" coords="38,163,164,240"/>
-<area shape="rect" id="node28" href="$classint.html" title="{int\n||}" alt="" coords="1822,163,1860,240"/>
-<area shape="rect" id="node40" title="STL iterator class. " alt="" coords="2500,1159,2687,1236"/>
+<area shape="rect" id="node28" href="$classint.html" title="{int\n||}" alt="" coords="1845,163,1883,240"/>
+<area shape="rect" id="node40" title="STL iterator class. " alt="" coords="2515,1159,2701,1236"/>
 </map>

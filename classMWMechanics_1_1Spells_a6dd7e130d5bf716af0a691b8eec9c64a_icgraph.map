@@ -1,16 +1,21 @@
 <map id="MWMechanics::Spells::visitEffectSources" name="MWMechanics::Spells::visitEffectSources">
-<area shape="rect" id="node2" href="$classMWGui_1_1SpellIcons.html#ad1a1586837925af84958253a49d1bc13" title="MWGui::SpellIcons::\lupdateWidgets" alt="" coords="211,106,357,147"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1HUD.html#a3e030180492b74b5e54016b989d5f07e" title="MWGui::HUD::update" alt="" coords="406,49,562,76"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1SpellWindow.html#a64c73bc5d18dad5728499158d3449b48" title="MWGui::SpellWindow\l::updateSpells" alt="" coords="409,169,559,210"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1WindowManager.html#ad5ec44de27deec8fd33e4e2160360f94" title="MWGui::WindowManager\l::update" alt="" coords="623,5,799,46"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1SpellWindow.html#a2351dfe057b8a3d9aae23d3a55bf587e" title="Notify that window has been made visible. " alt="" coords="635,266,786,307"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1SpellWindow.html#a0456e57ed643afd53a8a2e16bd9a7ab4" title="MWGui::SpellWindow\l::onEnchantedItemSelected" alt="" coords="611,331,810,373"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1SpellWindow.html#a8709851ec5cea18a39bad6b66a819c24" title="MWGui::SpellWindow\l::onSpellSelected" alt="" coords="635,135,786,177"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1SpellWindow.html#a09c11de36a84739b10425640f7f4b8f5" title="MWGui::SpellWindow\l::onDeleteSpellAccept" alt="" coords="629,70,792,111"/>
-<area shape="rect" id="node15" href="$classMWGui_1_1WindowManager.html#a0613d50e6d7cefe6bbe488e6c5573e7c" title="MWGui::WindowManager\l::updateSpellWindow" alt="" coords="623,201,799,242"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" title="MWGui::SpellWindow\l::onModelIndexSelected" alt="" coords="1059,135,1234,177"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1SpellWindow.html#afca63da3134b4eac91d9802d8e078f8b" title="Cycle to next/previous spell. " alt="" coords="859,218,1010,259"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" title="MWGui::SpellWindow\l::SpellWindow" alt="" coords="1283,135,1434,177"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1WindowManager.html#a42618aab1fe6b391027243676cf35535" title="Cycle to next or previous spell. " alt="" coords="1059,218,1235,259"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1SpellWindow.html#a7d5efb2b6e2294d40675dd88beace37e" title="MWGui::SpellWindow\l::askDeleteSpell" alt="" coords="859,74,1010,115"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1SpellIcons.html#ad1a1586837925af84958253a49d1bc13" title="MWGui::SpellIcons::\lupdateWidgets" alt="" coords="245,169,390,210"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1World.html#a6ab0029af5fd5f6e5bc7b5520416c953" title="MWWorld::World::applyLooping\lParticles" alt="" coords="211,311,423,353"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1HUD.html#a884b7d30a63c3ee4de03adf2f6911531" title="Called every frame if the window is in an active GUI mode. " alt="" coords="494,48,661,75"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1SpellWindow.html#a9d43976a56543723f66c1cea8c46f7a5" title="Called every frame if the window is in an active GUI mode. " alt="" coords="502,135,653,177"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1SpellWindow.html#a64c73bc5d18dad5728499158d3449b48" title="MWGui::SpellWindow\l::updateSpells" alt="" coords="502,201,653,242"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1WindowManager.html#a2f52c12d86d6bb31adc62b06cef3de19" title="MWGui::WindowManager\l::onFrame" alt="" coords="755,5,931,46"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1SpellWindow.html#a778b6cb6ac33cdb6cc1d3c25ef27905b" title="Notify that window has been made visible. " alt="" coords="767,266,918,307"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1SpellWindow.html#a0456e57ed643afd53a8a2e16bd9a7ab4" title="MWGui::SpellWindow\l::onEnchantedItemSelected" alt="" coords="743,331,942,373"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1SpellWindow.html#a8709851ec5cea18a39bad6b66a819c24" title="MWGui::SpellWindow\l::onSpellSelected" alt="" coords="767,135,918,177"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1SpellWindow.html#a09c11de36a84739b10425640f7f4b8f5" title="MWGui::SpellWindow\l::onDeleteSpellAccept" alt="" coords="761,70,924,111"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1WindowManager.html#a0613d50e6d7cefe6bbe488e6c5573e7c" title="MWGui::WindowManager\l::updateSpellWindow" alt="" coords="755,201,931,242"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" title="MWGui::SpellWindow\l::onModelIndexSelected" alt="" coords="1203,135,1378,177"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1SpellWindow.html#afca63da3134b4eac91d9802d8e078f8b" title="Cycle to next/previous spell. " alt="" coords="1003,218,1154,259"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" title="MWGui::SpellWindow\l::SpellWindow" alt="" coords="1427,135,1578,177"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1WindowManager.html#a42618aab1fe6b391027243676cf35535" title="Cycle to next or previous spell. " alt="" coords="1203,218,1379,259"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1SpellWindow.html#a7d5efb2b6e2294d40675dd88beace37e" title="MWGui::SpellWindow\l::askDeleteSpell" alt="" coords="1003,74,1154,115"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1World.html#a9d8e3dad4d86185e440cb86957dd5c6b" title="MWWorld::World::renderPlayer" alt="" coords="473,397,682,424"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1World.html#a33b8441f680734ed2de7679bc614d172" title="MWWorld::World::startNewGame" alt="" coords="731,397,955,424"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1World.html#a7d0ab2f8828263def8994634d3aee770" title="MWWorld::World::createRecord" alt="" coords="737,448,949,475"/>
 </map>

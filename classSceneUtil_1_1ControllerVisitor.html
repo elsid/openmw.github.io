@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,13 +109,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for SceneUtil::ControllerVisitor:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor__inherit__graph.svg" width="750" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor__inherit__graph.svg" width="750" height="488"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for SceneUtil::ControllerVisitor:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor__coll__graph.svg" width="203" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor__coll__graph.svg" width="203" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -125,6 +125,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92f24d9aaeee8098cd2d7620687373a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72da948f622d6aae33c03ba5aba17bc0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1ControllerVisitor.html#a72da948f622d6aae33c03ba5aba17bc0">apply</a> (osg::Node &amp;node)</td></tr>
 <tr class="separator:a72da948f622d6aae33c03ba5aba17bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4bd24808a6c1ff4b02acb50c3a6d6b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1ControllerVisitor.html#ae4bd24808a6c1ff4b02acb50c3a6d6b4">apply</a> (osg::MatrixTransform &amp;node)</td></tr>
+<tr class="separator:ae4bd24808a6c1ff4b02acb50c3a6d6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b12e9a72bc3f7aab6680344f96204c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1ControllerVisitor.html#ab2b12e9a72bc3f7aab6680344f96204c">apply</a> (osg::Geometry &amp;node)</td></tr>
+<tr class="separator:ab2b12e9a72bc3f7aab6680344f96204c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae8233ab3ed860c2c364b290d194361"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1ControllerVisitor.html#adae8233ab3ed860c2c364b290d194361">applyNode</a> (osg::Node &amp;node)</td></tr>
+<tr class="separator:adae8233ab3ed860c2c364b290d194361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ee615b09d685861a21146900e45a836"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1ControllerVisitor.html#a2ee615b09d685861a21146900e45a836">visit</a> (osg::Node &amp;node, <a class="el" href="classSceneUtil_1_1Controller.html">Controller</a> &amp;ctrl)=0</td></tr>
 <tr class="separator:a2ee615b09d685861a21146900e45a836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -172,7 +178,103 @@ Public Member Functions</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor_a72da948f622d6aae33c03ba5aba17bc0_cgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor_a72da948f622d6aae33c03ba5aba17bc0_cgraph.svg" width="1096" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae4bd24808a6c1ff4b02acb50c3a6d6b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneUtil::ControllerVisitor::apply </td>
+          <td>(</td>
+          <td class="paramtype">osg::MatrixTransform &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor_ae4bd24808a6c1ff4b02acb50c3a6d6b4_cgraph.svg" width="1096" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2b12e9a72bc3f7aab6680344f96204c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneUtil::ControllerVisitor::apply </td>
+          <td>(</td>
+          <td class="paramtype">osg::Geometry &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor_ab2b12e9a72bc3f7aab6680344f96204c_cgraph.svg" width="1096" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adae8233ab3ed860c2c364b290d194361"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneUtil::ControllerVisitor::applyNode </td>
+          <td>(</td>
+          <td class="paramtype">osg::Node &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor_adae8233ab3ed860c2c364b290d194361_cgraph.svg" width="854" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor_adae8233ab3ed860c2c364b290d194361_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -216,7 +318,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor_a2ee615b09d685861a21146900e45a836_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1ControllerVisitor_a2ee615b09d685861a21146900e45a836_icgraph.svg" width="691" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -224,13 +326,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="sceneutil_2controller_8hpp_source.html">controller.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="sceneutil_2controller_8cpp.html">controller.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="sceneutil_2controller_8hpp_source.html">controller.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="sceneutil_2controller_8cpp.html">controller.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

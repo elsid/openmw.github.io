@@ -1,15 +1,17 @@
 <map id="MWScript::Transformation::OpSetPos::execute" name="MWScript::Transformation::OpSetPos::execute">
-<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#a9a321d959c8bf56a29ad35f0bbdefe75" title="MWWorld::Ptr::isInCell" alt="" coords="269,5,425,32"/>
-<area shape="rect" id="node3" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="257,107,436,133"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="509,56,704,83"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="524,158,689,199"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="253,208,440,235"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1Player.html#adfdc7702c2fc6b8a542598cd1821ab6e" title="MWWorld::Player::setTeleported" alt="" coords="237,259,456,285"/>
-<area shape="rect" id="node9" href="$classInterpreter_1_1Runtime.html#a48ee08f88ec29e0b2f5432b685b89f83" title="Interpreter::Runtime\l::getStringLiteral" alt="" coords="271,310,422,351"/>
-<area shape="rect" id="node10" href="$classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64" title="pop stack " alt="" coords="255,376,438,403"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="255,427,438,453"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="239,477,454,504"/>
-<area shape="rect" id="node13" href="$classMWBase_1_1World.html#a17a8cac052e2a08910954c263037bd40" title="MWBase::World::moveObject" alt="" coords="245,528,448,555"/>
-<area shape="rect" id="node14" href="$classInterpreter_1_1Runtime.html#aa223afbad1aa6668168b74de61c92e0a" title="Interpreter::Runtime\l::getContext" alt="" coords="271,579,422,621"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="505,107,709,133"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#a9a321d959c8bf56a29ad35f0bbdefe75" title="MWWorld::Ptr::isInCell" alt="" coords="267,5,423,32"/>
+<area shape="rect" id="node3" href="$classInterpreter_1_1Runtime.html#a48ee08f88ec29e0b2f5432b685b89f83" title="Interpreter::Runtime\l::getStringLiteral" alt="" coords="270,57,421,98"/>
+<area shape="rect" id="node4" href="$classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64" title="pop stack " alt="" coords="254,123,437,149"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="254,173,437,200"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="238,224,453,251"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="248,275,443,301"/>
+<area shape="rect" id="node8" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="263,326,428,367"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1World.html#a17a8cac052e2a08910954c263037bd40" title="MWBase::World::moveObject" alt="" coords="244,392,447,419"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="262,443,429,469"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="259,493,431,520"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="267,544,423,571"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1CellStore.html#a0cf5ba632c9f67dc25d28e4bebd8c8f5" title="MWWorld::CellStore\l::isExterior" alt="" coords="273,595,417,637"/>
+<area shape="rect" id="node15" href="$classMWBase_1_1World.html#ad7f84fe3cf192b2f60fc23bc1ede71d7" title="Return terrain height at worldPos position. " alt="" coords="251,661,440,702"/>
+<area shape="rect" id="node16" href="$classInterpreter_1_1Runtime.html#aa223afbad1aa6668168b74de61c92e0a" title="Interpreter::Runtime\l::getContext" alt="" coords="270,726,421,767"/>
+<area shape="rect" id="node14" href="$structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" title="ESM::Cell::isExterior" alt="" coords="502,603,650,629"/>
 </map>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/prefs/modifiersetting.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/prefs/modifiersetting.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -120,47 +120,50 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">virtual</span> std::pair&lt;QWidget*, QWidget*&gt; <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a79864234c89c8a69386e4564774421a6">makeWidgets</a>(<a class="code" href="classQWidget.html">QWidget</a>* parent);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a04953f3ed41c8a55909f13cdeeb42f44">updateWidget</a>();</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a21a767447959398e69d33ebdac8900b8">eventFilter</a>(<a class="code" href="classQObject.html">QObject</a>* target, QEvent* event);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a21a767447959398e69d33ebdac8900b8">eventFilter</a>(<a class="code" href="classQObject.html">QObject</a>* target, QEvent* event);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#af8e9f24310abf7976da515c4dd765e51">handleEvent</a>(<a class="code" href="classQObject.html">QObject</a>* target, <span class="keywordtype">int</span> mod, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#aceee508ee272fe31a8c8380d6677fc3b">storeValue</a>(<span class="keywordtype">int</span> modifier);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a2a8aae04dfe50e923e2916c4974088be">resetState</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1ModifierSetting.html#a1c3326f47b0c835ab75f260ecda2034a">   35</a></span>&#160;            QPushButton* <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a1c3326f47b0c835ab75f260ecda2034a">mButton</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1ModifierSetting.html#a41947001d2811d779a97e831ce07fa18">   36</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a41947001d2811d779a97e831ce07fa18">mEditorActive</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#af8e9f24310abf7976da515c4dd765e51">handleEvent</a>(<a class="code" href="classQObject.html">QObject</a>* target, <span class="keywordtype">int</span> mod, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#aceee508ee272fe31a8c8380d6677fc3b">storeValue</a>(<span class="keywordtype">int</span> modifier);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a2a8aae04dfe50e923e2916c4974088be">resetState</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1ModifierSetting.html#a1c3326f47b0c835ab75f260ecda2034a">   37</a></span>&#160;            QPushButton* <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a1c3326f47b0c835ab75f260ecda2034a">mButton</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1ModifierSetting.html#a41947001d2811d779a97e831ce07fa18">   38</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a41947001d2811d779a97e831ce07fa18">mEditorActive</a>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a317c8d292ea7b684072edb519904cfd7">buttonToggled</a>(<span class="keywordtype">bool</span> checked);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    };</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a41947001d2811d779a97e831ce07fa18"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a41947001d2811d779a97e831ce07fa18">CSMPrefs::ModifierSetting::mEditorActive</a></div><div class="ttdeci">bool mEditorActive</div><div class="ttdef"><b>Definition:</b> modifiersetting.hpp:36</div></div>
-<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a317c8d292ea7b684072edb519904cfd7"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a317c8d292ea7b684072edb519904cfd7">CSMPrefs::ModifierSetting::buttonToggled</a></div><div class="ttdeci">void buttonToggled(bool checked)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:140</div></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1ModifierSetting.html#a317c8d292ea7b684072edb519904cfd7">buttonToggled</a>(<span class="keywordtype">bool</span> checked);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    };</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a41947001d2811d779a97e831ce07fa18"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a41947001d2811d779a97e831ce07fa18">CSMPrefs::ModifierSetting::mEditorActive</a></div><div class="ttdeci">bool mEditorActive</div><div class="ttdef"><b>Definition:</b> modifiersetting.hpp:38</div></div>
+<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a317c8d292ea7b684072edb519904cfd7"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a317c8d292ea7b684072edb519904cfd7">CSMPrefs::ModifierSetting::buttonToggled</a></div><div class="ttdeci">void buttonToggled(bool checked)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:157</div></div>
 <div class="ttc" id="classQWidget_html"><div class="ttname"><a href="classQWidget.html">QWidget</a></div></div>
 <div class="ttc" id="classCSMPrefs_1_1Category_html"><div class="ttname"><a href="classCSMPrefs_1_1Category.html">CSMPrefs::Category</a></div><div class="ttdef"><b>Definition:</b> category.hpp:12</div></div>
-<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_aceee508ee272fe31a8c8380d6677fc3b"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#aceee508ee272fe31a8c8380d6677fc3b">CSMPrefs::ModifierSetting::storeValue</a></div><div class="ttdeci">void storeValue(int modifier)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:112</div></div>
+<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_aceee508ee272fe31a8c8380d6677fc3b"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#aceee508ee272fe31a8c8380d6677fc3b">CSMPrefs::ModifierSetting::storeValue</a></div><div class="ttdeci">void storeValue(int modifier)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:129</div></div>
 <div class="ttc" id="classQObject_html"><div class="ttname"><a href="classQObject.html">QObject</a></div></div>
-<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a2a8aae04dfe50e923e2916c4974088be"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a2a8aae04dfe50e923e2916c4974088be">CSMPrefs::ModifierSetting::resetState</a></div><div class="ttdeci">void resetState()</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:127</div></div>
-<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a1c3326f47b0c835ab75f260ecda2034a"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a1c3326f47b0c835ab75f260ecda2034a">CSMPrefs::ModifierSetting::mButton</a></div><div class="ttdeci">QPushButton * mButton</div><div class="ttdef"><b>Definition:</b> modifiersetting.hpp:35</div></div>
+<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a2a8aae04dfe50e923e2916c4974088be"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a2a8aae04dfe50e923e2916c4974088be">CSMPrefs::ModifierSetting::resetState</a></div><div class="ttdeci">void resetState()</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:144</div></div>
+<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a1c3326f47b0c835ab75f260ecda2034a"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a1c3326f47b0c835ab75f260ecda2034a">CSMPrefs::ModifierSetting::mButton</a></div><div class="ttdeci">QPushButton * mButton</div><div class="ttdef"><b>Definition:</b> modifiersetting.hpp:37</div></div>
 <div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html">CSMPrefs::ModifierSetting</a></div><div class="ttdef"><b>Definition:</b> modifiersetting.hpp:13</div></div>
 <div class="ttc" id="classCSMPrefs_1_1Setting_html"><div class="ttname"><a href="classCSMPrefs_1_1Setting.html">CSMPrefs::Setting</a></div><div class="ttdef"><b>Definition:</b> setting.hpp:22</div></div>
 <div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a6e1730ffebb016ecfaa29446212d3833"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a6e1730ffebb016ecfaa29446212d3833">CSMPrefs::ModifierSetting::ModifierSetting</a></div><div class="ttdeci">ModifierSetting(Category *parent, Settings::Manager *values, QMutex *mutex, const std::string &amp;key, const std::string &amp;label)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:15</div></div>
-<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_af8e9f24310abf7976da515c4dd765e51"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#af8e9f24310abf7976da515c4dd765e51">CSMPrefs::ModifierSetting::handleEvent</a></div><div class="ttdeci">bool handleEvent(QObject *target, int mod, int value)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:71</div></div>
+<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a04953f3ed41c8a55909f13cdeeb42f44"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a04953f3ed41c8a55909f13cdeeb42f44">CSMPrefs::ModifierSetting::updateWidget</a></div><div class="ttdeci">virtual void updateWidget()</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:46</div></div>
+<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_af8e9f24310abf7976da515c4dd765e51"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#af8e9f24310abf7976da515c4dd765e51">CSMPrefs::ModifierSetting::handleEvent</a></div><div class="ttdeci">bool handleEvent(QObject *target, int mod, int value)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:88</div></div>
 <div class="ttc" id="setting_8hpp_html"><div class="ttname"><a href="setting_8hpp.html">setting.hpp</a></div></div>
 <div class="ttc" id="classSettings_1_1Manager_html"><div class="ttname"><a href="classSettings_1_1Manager.html">Settings::Manager</a></div><div class="ttdoc">Settings management (can change during runtime) </div><div class="ttdef"><b>Definition:</b> settings.hpp:17</div></div>
-<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a21a767447959398e69d33ebdac8900b8"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a21a767447959398e69d33ebdac8900b8">CSMPrefs::ModifierSetting::eventFilter</a></div><div class="ttdeci">bool eventFilter(QObject *target, QEvent *event)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:42</div></div>
+<div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a21a767447959398e69d33ebdac8900b8"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a21a767447959398e69d33ebdac8900b8">CSMPrefs::ModifierSetting::eventFilter</a></div><div class="ttdeci">bool eventFilter(QObject *target, QEvent *event)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:59</div></div>
 <div class="ttc" id="classCSMPrefs_1_1ModifierSetting_html_a79864234c89c8a69386e4564774421a6"><div class="ttname"><a href="classCSMPrefs_1_1ModifierSetting.html#a79864234c89c8a69386e4564774421a6">CSMPrefs::ModifierSetting::makeWidgets</a></div><div class="ttdeci">virtual std::pair&lt; QWidget *, QWidget * &gt; makeWidgets(QWidget *parent)</div><div class="ttdef"><b>Definition:</b> modifiersetting.cpp:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

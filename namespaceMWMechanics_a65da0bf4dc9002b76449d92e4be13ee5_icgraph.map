@@ -1,9 +1,20 @@
 <map id="MWMechanics::getDistanceMinusHalfExtents" name="MWMechanics::getDistanceMinusHalfExtents">
-<area shape="rect" id="node2" href="$classMWMechanics_1_1AiCombat.html#a0fa2b55e28fbab442b7f8c6d497f8dbf" title="MWMechanics::AiCombat\l::updateFleeing" alt="" coords="251,5,434,46"/>
-<area shape="rect" id="node4" href="$namespaceMWMechanics.html#a8addb1cc9040a8e5c061c1a1136a7284" title="MWMechanics::canFight" alt="" coords="257,71,429,97"/>
-<area shape="rect" id="node3" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="715,34,898,75"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#a499f6bbd42387ac60a06e80c78f41dc5" title="MWMechanics::Actors\l::engageCombat" alt="" coords="495,129,655,170"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="483,63,666,105"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="727,129,887,170"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="947,129,1189,170"/>
+<area shape="rect" id="node2" href="$classMWMechanics_1_1AiCombat.html#a0fa2b55e28fbab442b7f8c6d497f8dbf" title="MWMechanics::AiCombat\l::updateFleeing" alt="" coords="497,6,679,47"/>
+<area shape="rect" id="node4" href="$namespaceMWMechanics.html#a8addb1cc9040a8e5c061c1a1136a7284" title="MWMechanics::canFight" alt="" coords="1483,105,1655,132"/>
+<area shape="rect" id="node9" href="$namespaceMWMechanics.html#a34361714bc630a0c921be69cf14f6aa5" title="MWMechanics::rateWeapon" alt="" coords="251,173,445,200"/>
+<area shape="rect" id="node3" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="1966,67,2149,109"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#aba986ac5e52d128852febb4a882eb4d3" title="MWMechanics::Actors\l::engageCombat" alt="" coords="1740,163,1900,205"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="1729,98,1911,139"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1977,194,2137,235"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="2197,194,2440,235"/>
+<area shape="rect" id="node10" href="$namespaceMWMechanics.html#a830c73b5935624c014c7f8c28cce9aff" title="MWMechanics::prepareNext\lAction" alt="" coords="1470,191,1669,233"/>
+<area shape="rect" id="node11" href="$namespaceMWMechanics.html#a2063cb7e43a9a94667efe9865bcae60f" title="MWMechanics::getBestAction\lRating" alt="" coords="1465,318,1674,359"/>
+<area shape="rect" id="node13" href="$namespaceMWMechanics.html#a2c14c536d3440ca240707db7bf78b2ea" title="MWMechanics::rateAmmo" alt="" coords="494,275,682,301"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1AiSequence.html#afcefe571332a2f759ce594c9e95c43ee" title="Execute current package, switching if needed. " alt="" coords="1723,287,1917,329"/>
+<area shape="rect" id="node14" href="$namespaceMWMechanics.html#ab7eadd05e39e29738227aeb394c096ec" title="MWMechanics::rateEffect" alt="" coords="735,325,916,352"/>
+<area shape="rect" id="node19" href="$namespaceMWMechanics.html#afb3891c89c0574755a4cbe5f94748ef1" title="MWMechanics::rateAmmo" alt="" coords="731,275,919,301"/>
+<area shape="rect" id="node15" href="$namespaceMWMechanics.html#a2d6e40b5807589d4725ad64e263dfe1f" title="MWMechanics::rateEffects" alt="" coords="969,275,1157,301"/>
+<area shape="rect" id="node16" href="$namespaceMWMechanics.html#aec953882946f6e11ec708949f7a1d0da" title="MWMechanics::ratePotion" alt="" coords="1218,224,1403,251"/>
+<area shape="rect" id="node17" href="$namespaceMWMechanics.html#a9ea06096b26b59bb714ecbd570d51e23" title="MWMechanics::rateSpell" alt="" coords="1223,325,1399,352"/>
+<area shape="rect" id="node18" href="$namespaceMWMechanics.html#a9586872bfeceb99e5f4fc2399c5011fb" title="MWMechanics::rateMagicItem" alt="" coords="1205,275,1416,301"/>
 </map>

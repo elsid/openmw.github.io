@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwgui/itemwidget.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwgui/itemwidget.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -142,25 +142,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classMWGui_1_1ItemWidget.html#a1e0cefc7f175c93160c7d332b4c398d3">   47</a></span>&#160;        MyGUI::ImageBox* <a class="code" href="classMWGui_1_1ItemWidget.html#a1e0cefc7f175c93160c7d332b4c398d3">mItemShadow</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classMWGui_1_1ItemWidget.html#af129b23bd04806a5bd0ecec2308e5954">   48</a></span>&#160;        MyGUI::ImageBox* <a class="code" href="classMWGui_1_1ItemWidget.html#af129b23bd04806a5bd0ecec2308e5954">mFrame</a>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classMWGui_1_1ItemWidget.html#ab419ff489e375d68afa7481b57aaaeb8">   49</a></span>&#160;        MyGUI::TextBox* <a class="code" href="classMWGui_1_1ItemWidget.html#ab419ff489e375d68afa7481b57aaaeb8">mText</a>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    };</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classMWGui_1_1ItemWidget_html_aafe8ba39c2502cd7d22ea97952dce7fc"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#aafe8ba39c2502cd7d22ea97952dce7fc">MWGui::ItemWidget::setCount</a></div><div class="ttdeci">void setCount(int count)</div><div class="ttdoc">Set count to be displayed in a textbox over the item. </div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:61</div></div>
-<div class="ttc" id="classMWGui_1_1ItemWidget_html_a5f711291cd5dcf91b47b1471642000dd"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a5f711291cd5dcf91b47b1471642000dd">MWGui::ItemWidget::setItem</a></div><div class="ttdeci">void setItem(const MWWorld::Ptr &amp;ptr, ItemState state=None)</div><div class="ttdoc">ptr may be empty </div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:95</div></div>
-<div class="ttc" id="classMWGui_1_1ItemWidget_html_a337efa47c7a34bd2b5238ccfcee39dc5"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a337efa47c7a34bd2b5238ccfcee39dc5">MWGui::ItemWidget::setFrame</a></div><div class="ttdeci">void setFrame(const std::string &amp;frame, const MyGUI::IntCoord &amp;coord)</div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:76</div></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classMWGui_1_1ItemWidget.html#ac0015d4313fbf0c9233b0ee38e690a9c">   51</a></span>&#160;        std::string <a class="code" href="classMWGui_1_1ItemWidget.html#ac0015d4313fbf0c9233b0ee38e690a9c">mCurrentIcon</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classMWGui_1_1ItemWidget.html#a14bf969cbd1936080a72d33e2417f8db">   52</a></span>&#160;        std::string <a class="code" href="classMWGui_1_1ItemWidget.html#a14bf969cbd1936080a72d33e2417f8db">mCurrentFrame</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    };</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_aafe8ba39c2502cd7d22ea97952dce7fc"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#aafe8ba39c2502cd7d22ea97952dce7fc">MWGui::ItemWidget::setCount</a></div><div class="ttdeci">void setCount(int count)</div><div class="ttdoc">Set count to be displayed in a textbox over the item. </div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:66</div></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_a5f711291cd5dcf91b47b1471642000dd"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a5f711291cd5dcf91b47b1471642000dd">MWGui::ItemWidget::setItem</a></div><div class="ttdeci">void setItem(const MWWorld::Ptr &amp;ptr, ItemState state=None)</div><div class="ttdoc">ptr may be empty </div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:110</div></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_a337efa47c7a34bd2b5238ccfcee39dc5"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a337efa47c7a34bd2b5238ccfcee39dc5">MWGui::ItemWidget::setFrame</a></div><div class="ttdeci">void setFrame(const std::string &amp;frame, const MyGUI::IntCoord &amp;coord)</div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:86</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html_ab070ab805bebff4e6879c589c0d776bbab852989327c503756dcb1f22c93538c2"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ab070ab805bebff4e6879c589c0d776bbab852989327c503756dcb1f22c93538c2">MWGui::ItemWidget::None</a></div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:26</div></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_ac0015d4313fbf0c9233b0ee38e690a9c"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ac0015d4313fbf0c9233b0ee38e690a9c">MWGui::ItemWidget::mCurrentIcon</a></div><div class="ttdeci">std::string mCurrentIcon</div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:51</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html_a3ada547935e8e1fa20dfa2540477609d"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a3ada547935e8e1fa20dfa2540477609d">MWGui::ItemWidget::mItem</a></div><div class="ttdeci">MyGUI::ImageBox * mItem</div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:46</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html_ab070ab805bebff4e6879c589c0d776bba6bb3b390c7935999458f45cc41f88e1b"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ab070ab805bebff4e6879c589c0d776bba6bb3b390c7935999458f45cc41f88e1b">MWGui::ItemWidget::Magic</a></div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:29</div></div>
-<div class="ttc" id="classMWGui_1_1ItemWidget_html_a65b61c7e441b7c16886b9ff2826ea38d"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a65b61c7e441b7c16886b9ff2826ea38d">MWGui::ItemWidget::initialiseOverride</a></div><div class="ttdeci">virtual void initialiseOverride()</div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:43</div></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_a65b61c7e441b7c16886b9ff2826ea38d"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a65b61c7e441b7c16886b9ff2826ea38d">MWGui::ItemWidget::initialiseOverride</a></div><div class="ttdeci">virtual void initialiseOverride()</div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:48</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html_ab070ab805bebff4e6879c589c0d776bba6675e4c9a1f92d5335f9989c343199f5"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ab070ab805bebff4e6879c589c0d776bba6675e4c9a1f92d5335f9989c343199f5">MWGui::ItemWidget::Equip</a></div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:27</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html_ab070ab805bebff4e6879c589c0d776bbafe33e0b3ca28cfb507dc7fe3307e35ed"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ab070ab805bebff4e6879c589c0d776bbafe33e0b3ca28cfb507dc7fe3307e35ed">MWGui::ItemWidget::Barter</a></div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:28</div></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_a14bf969cbd1936080a72d33e2417f8db"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a14bf969cbd1936080a72d33e2417f8db">MWGui::ItemWidget::mCurrentFrame</a></div><div class="ttdeci">std::string mCurrentFrame</div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:52</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html_ab419ff489e375d68afa7481b57aaaeb8"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ab419ff489e375d68afa7481b57aaaeb8">MWGui::ItemWidget::mText</a></div><div class="ttdeci">MyGUI::TextBox * mText</div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:49</div></div>
-<div class="ttc" id="classMWGui_1_1ItemWidget_html_ac7b77de124eb6dd67e03a012d966a7a8"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ac7b77de124eb6dd67e03a012d966a7a8">MWGui::ItemWidget::registerComponents</a></div><div class="ttdeci">static void registerComponents()</div><div class="ttdoc">Register needed components with MyGUI&#39;s factory manager. </div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:38</div></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_ac7b77de124eb6dd67e03a012d966a7a8"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ac7b77de124eb6dd67e03a012d966a7a8">MWGui::ItemWidget::registerComponents</a></div><div class="ttdeci">static void registerComponents()</div><div class="ttdoc">Register needed components with MyGUI&#39;s factory manager. </div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:43</div></div>
 <div class="ttc" id="classMWWorld_1_1Ptr_html"><div class="ttname"><a href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a></div><div class="ttdoc">Pointer to a LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:19</div></div>
-<div class="ttc" id="classMWGui_1_1ItemWidget_html_a3f47473fba1f4622712370bc4ee723ad"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a3f47473fba1f4622712370bc4ee723ad">MWGui::ItemWidget::setIcon</a></div><div class="ttdeci">void setIcon(const std::string &amp;icon)</div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:68</div></div>
-<div class="ttc" id="classMWGui_1_1ItemWidget_html_a687b7ba9526dd236d85497114c8be6f0"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a687b7ba9526dd236d85497114c8be6f0">MWGui::ItemWidget::ItemWidget</a></div><div class="ttdeci">ItemWidget()</div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:29</div></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_a3f47473fba1f4622712370bc4ee723ad"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a3f47473fba1f4622712370bc4ee723ad">MWGui::ItemWidget::setIcon</a></div><div class="ttdeci">void setIcon(const std::string &amp;icon)</div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:73</div></div>
+<div class="ttc" id="classMWGui_1_1ItemWidget_html_a687b7ba9526dd236d85497114c8be6f0"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#a687b7ba9526dd236d85497114c8be6f0">MWGui::ItemWidget::ItemWidget</a></div><div class="ttdeci">ItemWidget()</div><div class="ttdef"><b>Definition:</b> itemwidget.cpp:34</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html_af129b23bd04806a5bd0ecec2308e5954"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#af129b23bd04806a5bd0ecec2308e5954">MWGui::ItemWidget::mFrame</a></div><div class="ttdeci">MyGUI::ImageBox * mFrame</div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:48</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html">MWGui::ItemWidget</a></div><div class="ttdoc">A widget that shows an icon for an MWWorld::Ptr. </div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:15</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html_ab070ab805bebff4e6879c589c0d776bb"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html#ab070ab805bebff4e6879c589c0d776bb">MWGui::ItemWidget::ItemState</a></div><div class="ttdeci">ItemState</div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:24</div></div>
@@ -168,7 +173,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:50 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:21 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

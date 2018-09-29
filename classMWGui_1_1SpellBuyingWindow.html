@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="classMWGui_1_1SpellBuyingWindow-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MWGui::SpellBuyingWindow Class Reference</div>  </div>
@@ -109,13 +109,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWGui::SpellBuyingWindow:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow__inherit__graph.svg" width="390" height="838"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow__inherit__graph.svg" width="411" height="942"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWGui::SpellBuyingWindow:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow__coll__graph.svg" width="6268" height="2552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow__coll__graph.svg" width="7112" height="2278"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -123,11 +123,20 @@ Collaboration diagram for MWGui::SpellBuyingWindow:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ded38c36df8a160d3582f0cf92ca739"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a3ded38c36df8a160d3582f0cf92ca739">SpellBuyingWindow</a> ()</td></tr>
 <tr class="separator:a3ded38c36df8a160d3582f0cf92ca739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14ba9df9d80a5f81db505abd3869999c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a14ba9df9d80a5f81db505abd3869999c">startSpellBuying</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor)</td></tr>
-<tr class="separator:a14ba9df9d80a5f81db505abd3869999c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c291a54f4ac047736e1616963a93d5f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a8c291a54f4ac047736e1616963a93d5f">exit</a> ()</td></tr>
-<tr class="memdesc:a8c291a54f4ac047736e1616963a93d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gracefully exits the window.  <a href="#a8c291a54f4ac047736e1616963a93d5f">More...</a><br/></td></tr>
-<tr class="separator:a8c291a54f4ac047736e1616963a93d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa25d2278f78fbccb7b29c712301606e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#aa25d2278f78fbccb7b29c712301606e3">setPtr</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor)</td></tr>
+<tr class="memdesc:aa25d2278f78fbccb7b29c712301606e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open this object in the GUI, for windows that support it.  <a href="#aa25d2278f78fbccb7b29c712301606e3">More...</a><br/></td></tr>
+<tr class="separator:aa25d2278f78fbccb7b29c712301606e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affee867c40106a4286c390e921cceb35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#affee867c40106a4286c390e921cceb35">setPtr</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, <a class="el" href="classint.html">int</a> startOffset)</td></tr>
+<tr class="separator:affee867c40106a4286c390e921cceb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96d6833c651dbd27ad746c80869b024d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a96d6833c651dbd27ad746c80869b024d">onFrame</a> (float dt)</td></tr>
+<tr class="memdesc:a96d6833c651dbd27ad746c80869b024d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every frame if the window is in an active GUI mode.  <a href="#a96d6833c651dbd27ad746c80869b024d">More...</a><br/></td></tr>
+<tr class="separator:a96d6833c651dbd27ad746c80869b024d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7805f6375f9d22bd263c607b264857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a6d7805f6375f9d22bd263c607b264857">clear</a> ()</td></tr>
+<tr class="memdesc:a6d7805f6375f9d22bd263c607b264857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear any state specific to the running game.  <a href="#a6d7805f6375f9d22bd263c607b264857">More...</a><br/></td></tr>
+<tr class="separator:a6d7805f6375f9d22bd263c607b264857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7045c774d455b788bad29fd1b53e3df3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a7045c774d455b788bad29fd1b53e3df3">onResChange</a> (<a class="el" href="classint.html">int</a>, <a class="el" href="classint.html">int</a>)</td></tr>
+<tr class="memdesc:a7045c774d455b788bad29fd1b53e3df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when GUI viewport changes size.  <a href="#a7045c774d455b788bad29fd1b53e3df3">More...</a><br/></td></tr>
+<tr class="separator:a7045c774d455b788bad29fd1b53e3df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMWGui_1_1ReferenceInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMWGui_1_1ReferenceInterface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMWGui_1_1ReferenceInterface.html">MWGui::ReferenceInterface</a></td></tr>
 <tr class="memitem:aed56466e80fa4292c1323d5fa01afb60 inherit pub_methods_classMWGui_1_1ReferenceInterface"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ReferenceInterface.html#aed56466e80fa4292c1323d5fa01afb60">ReferenceInterface</a> ()</td></tr>
 <tr class="separator:aed56466e80fa4292c1323d5fa01afb60 inherit pub_methods_classMWGui_1_1ReferenceInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,12 +150,17 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classMWGui_1_1WindowBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMWGui_1_1WindowBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMWGui_1_1WindowBase.html">MWGui::WindowBase</a></td></tr>
 <tr class="memitem:a0426d1788782312025173686f25177ae inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a0426d1788782312025173686f25177ae">WindowBase</a> (const std::string &amp;parLayout)</td></tr>
 <tr class="separator:a0426d1788782312025173686f25177ae inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace3dc06d8e89a926cd05fb5f94ac757e inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e">open</a> ()</td></tr>
-<tr class="memdesc:ace3dc06d8e89a926cd05fb5f94ac757e inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been made visible.  <a href="#ace3dc06d8e89a926cd05fb5f94ac757e">More...</a><br/></td></tr>
-<tr class="separator:ace3dc06d8e89a926cd05fb5f94ac757e inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af986f66b831360eceacc01740a0a16fa inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa">close</a> ()</td></tr>
-<tr class="memdesc:af986f66b831360eceacc01740a0a16fa inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been hidden.  <a href="#af986f66b831360eceacc01740a0a16fa">More...</a><br/></td></tr>
-<tr class="separator:af986f66b831360eceacc01740a0a16fa inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa30b109d3b4129faf7b580ff1548aad inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual MyGUI::Widget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#afa30b109d3b4129faf7b580ff1548aad">getDefaultKeyFocus</a> ()</td></tr>
+<tr class="separator:afa30b109d3b4129faf7b580ff1548aad inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a091bb146c2ece2d351185dd4da898 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898">onOpen</a> ()</td></tr>
+<tr class="memdesc:a73a091bb146c2ece2d351185dd4da898 inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been made visible.  <a href="#a73a091bb146c2ece2d351185dd4da898">More...</a><br/></td></tr>
+<tr class="separator:a73a091bb146c2ece2d351185dd4da898 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b03bd34ca48db739c6aa7b5fdb194d inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d">onClose</a> ()</td></tr>
+<tr class="memdesc:ac4b03bd34ca48db739c6aa7b5fdb194d inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been hidden.  <a href="#ac4b03bd34ca48db739c6aa7b5fdb194d">More...</a><br/></td></tr>
+<tr class="separator:ac4b03bd34ca48db739c6aa7b5fdb194d inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#afbc46218f9e2b4222bac63f197436570">exit</a> ()</td></tr>
+<tr class="memdesc:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gracefully exits the window.  <a href="#afbc46218f9e2b4222bac63f197436570">More...</a><br/></td></tr>
+<tr class="separator:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea">setVisible</a> (<a class="el" href="classbool.html">bool</a> visible)</td></tr>
 <tr class="memdesc:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the window.  <a href="#a4f681670522d795ac3b38f13500ff7ea">More...</a><br/></td></tr>
 <tr class="separator:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,7 +177,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4904cbbaf603f098aa0842ce8357aab inherit pub_methods_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">MyGUI::Widget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab">getWidget</a> (const std::string &amp;_name)</td></tr>
 <tr class="separator:ab4904cbbaf603f098aa0842ce8357aab inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">getWidget</a> (T *&amp;_widget, const std::string &amp;_name)</td></tr>
+<tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">getWidget</a> (<a class="el" href="classGui_1_1T.html">T</a> *&amp;_widget, const std::string &amp;_name)</td></tr>
 <tr class="separator:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac725a2afd1a0ad240bcf35b7d0238d79 inherit pub_methods_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#ac725a2afd1a0ad240bcf35b7d0238d79">setCoord</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y, <a class="el" href="classint.html">int</a> w, <a class="el" href="classint.html">int</a> h)</td></tr>
 <tr class="separator:ac725a2afd1a0ad240bcf35b7d0238d79 inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,8 +194,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aa008c4ffe8315436f2587de21cfda03a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9c50b612ca4ba53b4361b3c371c6fae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#ae9c50b612ca4ba53b4361b3c371c6fae">onMouseWheel</a> (MyGUI::Widget *_sender, <a class="el" href="classint.html">int</a> _rel)</td></tr>
 <tr class="separator:ae9c50b612ca4ba53b4361b3c371c6fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d6d01f89e9feb74a6f78032d38836a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a5d6d01f89e9feb74a6f78032d38836a5">addSpell</a> (const std::string &amp;spellID)</td></tr>
-<tr class="separator:a5d6d01f89e9feb74a6f78032d38836a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a484ce7e74b178a82b36109850cffcc7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a484ce7e74b178a82b36109850cffcc7a">addSpell</a> (const <a class="el" href="structESM_1_1Spell.html">ESM::Spell</a> &amp;spell)</td></tr>
+<tr class="separator:a484ce7e74b178a82b36109850cffcc7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adecd8e8f8e282e23e7231d16da6e7815"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#adecd8e8f8e282e23e7231d16da6e7815">clearSpells</a> ()</td></tr>
 <tr class="separator:adecd8e8f8e282e23e7231d16da6e7815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a480fd1ec3db7e77e12b82056079a953c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a480fd1ec3db7e77e12b82056079a953c">updateLabels</a> ()</td></tr>
@@ -203,8 +217,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ab7d0f4f58f9846b5ed54ddaeecee75d9"><td class="memItemLeft" align="right" valign="top">std::map&lt; MyGUI::Widget <br class="typebreak"/>
 *, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#ab7d0f4f58f9846b5ed54ddaeecee75d9">mSpellsWidgetMap</a></td></tr>
 <tr class="separator:ab7d0f4f58f9846b5ed54ddaeecee75d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6398d7ffa6e317ce7d31261d19ae8f96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a6398d7ffa6e317ce7d31261d19ae8f96">mLastPos</a></td></tr>
-<tr class="separator:a6398d7ffa6e317ce7d31261d19ae8f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a087e8d0f7109914bef087b6fd30f4165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a087e8d0f7109914bef087b6fd30f4165">mCurrentY</a></td></tr>
 <tr class="separator:a087e8d0f7109914bef087b6fd30f4165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMWGui_1_1ReferenceInterface"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMWGui_1_1ReferenceInterface')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMWGui_1_1ReferenceInterface.html">MWGui::ReferenceInterface</a></td></tr>
@@ -218,10 +230,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ab013ca862b7d378f52b6043a9646c029 inherit pro_attribs_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">MyGUI::VectorWidgetPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#ab013ca862b7d378f52b6043a9646c029">mListWindowRoot</a></td></tr>
 <tr class="separator:ab013ca862b7d378f52b6043a9646c029 inherit pro_attribs_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:ab674afb75018212e80600f7922f3d52b"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#ab674afb75018212e80600f7922f3d52b">sLineHeight</a> = 18</td></tr>
-<tr class="separator:ab674afb75018212e80600f7922f3d52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a3f61d1780ba1658855ff2e04b2f1038a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1SpellBuyingWindow.html#a3f61d1780ba1658855ff2e04b2f1038a">sortSpells</a> (const <a class="el" href="structESM_1_1Spell.html">ESM::Spell</a> *left, const <a class="el" href="structESM_1_1Spell.html">ESM::Spell</a> *right)</td></tr>
+<tr class="separator:a3f61d1780ba1658855ff2e04b2f1038a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -251,7 +263,7 @@ MyGUI::delegates::CMultiDelegate1<br class="typebreak"/>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a3ded38c36df8a160d3582f0cf92ca739_cgraph.svg" width="934" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a3ded38c36df8a160d3582f0cf92ca739_cgraph.svg" width="691" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -259,7 +271,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5d6d01f89e9feb74a6f78032d38836a5"></a>
+<a class="anchor" id="a484ce7e74b178a82b36109850cffcc7a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -269,8 +281,8 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void MWGui::SpellBuyingWindow::addSpell </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>spellID</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structESM_1_1Spell.html">ESM::Spell</a> &amp;&#160;</td>
+          <td class="paramname"><em>spell</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -284,7 +296,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a5d6d01f89e9feb74a6f78032d38836a5_cgraph.svg" width="1728" height="1868"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a484ce7e74b178a82b36109850cffcc7a_cgraph.svg" width="1219" height="1360"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -292,7 +304,42 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a5d6d01f89e9feb74a6f78032d38836a5_icgraph.svg" width="691" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a484ce7e74b178a82b36109850cffcc7a_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6d7805f6375f9d22bd263c607b264857"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::SpellBuyingWindow::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear any state specific to the running game. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#ad28d0e410302d90fe067ace11124cc54">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a6d7805f6375f9d22bd263c607b264857_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -323,50 +370,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_adecd8e8f8e282e23e7231d16da6e7815_icgraph.svg" width="934" height="136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a8c291a54f4ac047736e1616963a93d5f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MWGui::SpellBuyingWindow::exit </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gracefully exits the window. </p>
-
-<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#ab5c167ecd1439d4784d87225136b5248">MWGui::WindowBase</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a8c291a54f4ac047736e1616963a93d5f_cgraph.svg" width="448" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a8c291a54f4ac047736e1616963a93d5f_icgraph.svg" width="691" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_adecd8e8f8e282e23e7231d16da6e7815_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -398,7 +402,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a59c321933bbfbc074f749569f6dec613_cgraph.svg" width="691" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a59c321933bbfbc074f749569f6dec613_cgraph.svg" width="448" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -407,6 +411,42 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a59c321933bbfbc074f749569f6dec613_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a96d6833c651dbd27ad746c80869b024d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::SpellBuyingWindow::onFrame </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>duration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called every frame if the window is in an active GUI mode. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#a13d63b2a9a63bd42ed8dc8a306e761a5">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a96d6833c651dbd27ad746c80869b024d_cgraph.svg" width="696" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -448,7 +488,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_ae9c50b612ca4ba53b4361b3c371c6fae_icgraph.svg" width="934" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_ae9c50b612ca4ba53b4361b3c371c6fae_icgraph.svg" width="691" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -483,7 +523,53 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a047f1244993e0d1ae0b60a009ed33155_cgraph.svg" width="448" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a047f1244993e0d1ae0b60a009ed33155_cgraph.svg" width="448" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7045c774d455b788bad29fd1b53e3df3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::SpellBuyingWindow::onResChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when GUI viewport changes size. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#a204f771569a45a200ea417963c28ceec">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a7045c774d455b788bad29fd1b53e3df3_cgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -515,7 +601,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_aa008c4ffe8315436f2587de21cfda03a_cgraph.svg" width="1472" height="1510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_aa008c4ffe8315436f2587de21cfda03a_cgraph.svg" width="944" height="674"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -523,7 +609,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_aa008c4ffe8315436f2587de21cfda03a_icgraph.svg" width="915" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_aa008c4ffe8315436f2587de21cfda03a_icgraph.svg" width="691" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -563,23 +649,69 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a6a5f5d431ce08e8a1af70403a215c247_icgraph.svg" width="934" height="136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a6a5f5d431ce08e8a1af70403a215c247_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a14ba9df9d80a5f81db505abd3869999c"></a>
+<a class="anchor" id="aa25d2278f78fbccb7b29c712301606e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::SpellBuyingWindow::setPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open this object in the GUI, for windows that support it. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#afbe769f161e068ccb8be68c2d568377b">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_aa25d2278f78fbccb7b29c712301606e3_icgraph.svg" width="934" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="affee867c40106a4286c390e921cceb35"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MWGui::SpellBuyingWindow::startSpellBuying </td>
+          <td class="memname">void MWGui::SpellBuyingWindow::setPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
-          <td class="paramname"><em>actor</em></td><td>)</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>startOffset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -587,7 +719,49 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a14ba9df9d80a5f81db505abd3869999c_cgraph.svg" width="1467" height="1936"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_affee867c40106a4286c390e921cceb35_cgraph.svg" width="1467" height="1860"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3f61d1780ba1658855ff2e04b2f1038a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWGui::SpellBuyingWindow::sortSpells </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structESM_1_1Spell.html">ESM::Spell</a> *&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structESM_1_1Spell.html">ESM::Spell</a> *&#160;</td>
+          <td class="paramname"><em>right</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a3f61d1780ba1658855ff2e04b2f1038a_cgraph.svg" width="750" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -595,7 +769,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a14ba9df9d80a5f81db505abd3869999c_icgraph.svg" width="691" height="136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a3f61d1780ba1658855ff2e04b2f1038a_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -634,7 +808,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a480fd1ec3db7e77e12b82056079a953c_icgraph.svg" width="934" height="136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1SpellBuyingWindow_a480fd1ec3db7e77e12b82056079a953c_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -671,26 +845,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classint.html">int</a> MWGui::SpellBuyingWindow::mCurrentY</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6398d7ffa6e317ce7d31261d19ae8f96"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classint.html">int</a> MWGui::SpellBuyingWindow::mLastPos</td>
         </tr>
       </table>
   </td>
@@ -762,34 +916,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ab674afb75018212e80600f7922f3d52b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classint.html">int</a> MWGui::SpellBuyingWindow::sLineHeight = 18</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="spellbuyingwindow_8hpp_source.html">spellbuyingwindow.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="spellbuyingwindow_8cpp.html">spellbuyingwindow.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="spellbuyingwindow_8hpp_source.html">spellbuyingwindow.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="spellbuyingwindow_8cpp.html">spellbuyingwindow.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:02 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:36 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

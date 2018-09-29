@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -95,6 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMWWorld_1_1TimeOfDaySettings-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -106,10 +107,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWWorld::TimeOfDaySettings:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structMWWorld_1_1TimeOfDaySettings__coll__graph.svg" width="219" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structMWWorld_1_1TimeOfDaySettings__coll__graph.svg" width="427" height="691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aedae50ad13d43ef869340513ba4db31a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMWWorld_1_1WeatherSetting.html">WeatherSetting</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#aedae50ad13d43ef869340513ba4db31a">getSetting</a> (const std::string &amp;type) const </td></tr>
+<tr class="separator:aedae50ad13d43ef869340513ba4db31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb9d8a15d9b4335d8fbc17afcf20350"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#a3eb9d8a15d9b4335d8fbc17afcf20350">addSetting</a> (const <a class="el" href="classFallback_1_1Map.html">Fallback::Map</a> &amp;fallback, const std::string &amp;type)</td></tr>
+<tr class="separator:a3eb9d8a15d9b4335d8fbc17afcf20350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a68c27933130d0b3ed631d88bb2729797"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#a68c27933130d0b3ed631d88bb2729797">mNightStart</a></td></tr>
@@ -120,9 +128,99 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7d72a804bfdf61d28c7edc16435f9fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2970c9f2eb4a65678084369a07ed82a6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#a2970c9f2eb4a65678084369a07ed82a6">mDayEnd</a></td></tr>
 <tr class="separator:a2970c9f2eb4a65678084369a07ed82a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a172f76edf83c456eff6f518133c6bacc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#a172f76edf83c456eff6f518133c6bacc">mSunriseTime</a></td></tr>
-<tr class="separator:a172f76edf83c456eff6f518133c6bacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a854135933f374a6c67b2e1ebf077abfd"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <br class="typebreak"/>
+<a class="el" href="structMWWorld_1_1WeatherSetting.html">WeatherSetting</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#a854135933f374a6c67b2e1ebf077abfd">mSunriseTransitions</a></td></tr>
+<tr class="separator:a854135933f374a6c67b2e1ebf077abfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad961b3b92f6b7c2194efb823c2814564"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#ad961b3b92f6b7c2194efb823c2814564">mStarsPostSunsetStart</a></td></tr>
+<tr class="separator:ad961b3b92f6b7c2194efb823c2814564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba4ed6081eb98141b953a0f18c34802"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#aeba4ed6081eb98141b953a0f18c34802">mStarsPreSunriseFinish</a></td></tr>
+<tr class="separator:aeba4ed6081eb98141b953a0f18c34802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae361ad99d1a406bbd242b774829dcdb6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWWorld_1_1TimeOfDaySettings.html#ae361ad99d1a406bbd242b774829dcdb6">mStarsFadingDuration</a></td></tr>
+<tr class="separator:ae361ad99d1a406bbd242b774829dcdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a3eb9d8a15d9b4335d8fbc17afcf20350"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWWorld::TimeOfDaySettings::addSetting </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFallback_1_1Map.html">Fallback::Map</a> &amp;&#160;</td>
+          <td class="paramname"><em>fallback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="structMWWorld_1_1TimeOfDaySettings_a3eb9d8a15d9b4335d8fbc17afcf20350_cgraph.svg" width="691" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="structMWWorld_1_1TimeOfDaySettings_a3eb9d8a15d9b4335d8fbc17afcf20350_icgraph.svg" width="464" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aedae50ad13d43ef869340513ba4db31a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMWWorld_1_1WeatherSetting.html">WeatherSetting</a> MWWorld::TimeOfDaySettings::getSetting </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="structMWWorld_1_1TimeOfDaySettings_aedae50ad13d43ef869340513ba4db31a_icgraph.svg" width="1472" height="164"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a2970c9f2eb4a65678084369a07ed82a6"></a>
 <div class="memitem">
@@ -172,12 +270,48 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a172f76edf83c456eff6f518133c6bacc"></a>
+<a class="anchor" id="ae361ad99d1a406bbd242b774829dcdb6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MWWorld::TimeOfDaySettings::mSunriseTime</td>
+          <td class="memname">float MWWorld::TimeOfDaySettings::mStarsFadingDuration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad961b3b92f6b7c2194efb823c2814564"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MWWorld::TimeOfDaySettings::mStarsPostSunsetStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeba4ed6081eb98141b953a0f18c34802"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MWWorld::TimeOfDaySettings::mStarsPreSunriseFinish</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a854135933f374a6c67b2e1ebf077abfd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, <a class="el" href="structMWWorld_1_1WeatherSetting.html">WeatherSetting</a>&gt; MWWorld::TimeOfDaySettings::mSunriseTransitions</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -185,12 +319,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="weather_8hpp_source.html">weather.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="weather_8hpp_source.html">weather.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:07 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:41 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

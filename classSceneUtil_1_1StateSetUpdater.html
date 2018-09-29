@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for SceneUtil::StateSetUpdater:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1StateSetUpdater__inherit__graph.svg" width="2778" height="774"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1StateSetUpdater__inherit__graph.svg" width="2778" height="803"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -230,7 +230,7 @@ Do not add multiple StateSetControllers on the same Node as they will conflict -
 <p>Apply state - to override in derived classes </p>
 <dl class="section note"><dt>Note</dt><dd>Due to the double buffering approach you <em>have</em> to apply all state even if it has not changed since the last frame. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classMWRender_1_1AlphaFader.html#a16615d1ba2a57a425a93064ea05ed29e">MWRender::AlphaFader</a>, <a class="el" href="structMWRender_1_1Moon_1_1Updater.html#ae685016127593e8e0e4759d6b440abba">MWRender::Moon::Updater</a>, <a class="el" href="classMWRender_1_1Sun_1_1Updater.html#a2433854bd91b0ea3d0458331fcb0a556">MWRender::Sun::Updater</a>, <a class="el" href="classNifOsg_1_1FlipController.html#a2b94b8d9115e1bf42cbfc53652d25e58">NifOsg::FlipController</a>, <a class="el" href="classMWRender_1_1GlowUpdater.html#a6c458ce8b8b248b563d8a7493886641e">MWRender::GlowUpdater</a>, <a class="el" href="classNifOsg_1_1AlphaController.html#a705869dd61a15f14eb242886f9e3b07f">NifOsg::AlphaController</a>, <a class="el" href="classMWRender_1_1CloudUpdater.html#a6c90d1d17de99477df8c6d40d7fce1b8">MWRender::CloudUpdater</a>, <a class="el" href="classMWRender_1_1AtmosphereNightUpdater.html#a8edc0816ad55a96ed471cd5cde5fffad">MWRender::AtmosphereNightUpdater</a>, <a class="el" href="classMWRender_1_1AtmosphereUpdater.html#a441010f56a8fab209406b63435efda18">MWRender::AtmosphereUpdater</a>, <a class="el" href="classMWRender_1_1StateUpdater.html#a6a8bf58396cfb0ca6185414bbad36ecf">MWRender::StateUpdater</a>, and <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html#a2b6c140b8aa41694ed426e92463cecc9">SceneUtil::CompositeStateSetUpdater</a>.</p>
+<p>Reimplemented in <a class="el" href="classMWRender_1_1RainFader.html#aba8c597f5451a55c0b77544a0e829202">MWRender::RainFader</a>, <a class="el" href="classMWRender_1_1AlphaFader.html#a16615d1ba2a57a425a93064ea05ed29e">MWRender::AlphaFader</a>, <a class="el" href="structMWRender_1_1Moon_1_1Updater.html#ae685016127593e8e0e4759d6b440abba">MWRender::Moon::Updater</a>, <a class="el" href="classMWRender_1_1Sun_1_1Updater.html#a2433854bd91b0ea3d0458331fcb0a556">MWRender::Sun::Updater</a>, <a class="el" href="classMWRender_1_1GlowUpdater.html#a6c458ce8b8b248b563d8a7493886641e">MWRender::GlowUpdater</a>, <a class="el" href="classNifOsg_1_1FlipController.html#a2b94b8d9115e1bf42cbfc53652d25e58">NifOsg::FlipController</a>, <a class="el" href="classNifOsg_1_1AlphaController.html#a705869dd61a15f14eb242886f9e3b07f">NifOsg::AlphaController</a>, <a class="el" href="classMWRender_1_1CloudUpdater.html#a6c90d1d17de99477df8c6d40d7fce1b8">MWRender::CloudUpdater</a>, <a class="el" href="classMWRender_1_1AtmosphereNightUpdater.html#a8edc0816ad55a96ed471cd5cde5fffad">MWRender::AtmosphereNightUpdater</a>, <a class="el" href="classMWRender_1_1AtmosphereUpdater.html#a441010f56a8fab209406b63435efda18">MWRender::AtmosphereUpdater</a>, <a class="el" href="classMWRender_1_1StateUpdater.html#a6a8bf58396cfb0ca6185414bbad36ecf">MWRender::StateUpdater</a>, and <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html#a2b6c140b8aa41694ed426e92463cecc9">SceneUtil::CompositeStateSetUpdater</a>.</p>
 
 </div>
 </div>
@@ -291,7 +291,7 @@ Here is the caller graph for this function:</div>
 <p>Set default state - optionally override in derived classes </p>
 <dl class="section user"><dt>May be used e.g. to allocate StateAttributes. </dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="classMWRender_1_1RainFader.html#a7e7ca2cf9b311b4e90bf8bba4db57b6b">MWRender::RainFader</a>, <a class="el" href="classMWRender_1_1AlphaFader.html#ac629331ab3f0c9eca7f2d483315f13df">MWRender::AlphaFader</a>, <a class="el" href="structMWRender_1_1Moon_1_1Updater.html#aa9f66878d2d380ef7f937e5cf3c7ebdb">MWRender::Moon::Updater</a>, <a class="el" href="classMWRender_1_1Sun_1_1Updater.html#aefeec48ea8bdf5f8b319ab8915801165">MWRender::Sun::Updater</a>, <a class="el" href="classMWRender_1_1GlowUpdater.html#a965291c24bdfb92b34db9ebf830fd2c3">MWRender::GlowUpdater</a>, <a class="el" href="classNifOsg_1_1AlphaController.html#aab26ce8fcaf3cba2ba9613a3c1282100">NifOsg::AlphaController</a>, <a class="el" href="classMWRender_1_1CloudUpdater.html#abf9216503d12576513d64bdb00e66306">MWRender::CloudUpdater</a>, <a class="el" href="classMWRender_1_1AtmosphereNightUpdater.html#ade1dcd8d2434a2437536904ad0965d8d">MWRender::AtmosphereNightUpdater</a>, <a class="el" href="classMWRender_1_1AtmosphereUpdater.html#aa748707ecb9cd88d248b70446f581f43">MWRender::AtmosphereUpdater</a>, <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html#a553f20d149a1ccb412ae6764e7eb292c">SceneUtil::CompositeStateSetUpdater</a>, and <a class="el" href="classMWRender_1_1StateUpdater.html#a3e6d2dfdcfff997e42d889e03624a17c">MWRender::StateUpdater</a>.</p>
+<p>Reimplemented in <a class="el" href="classMWRender_1_1RainFader.html#a7e7ca2cf9b311b4e90bf8bba4db57b6b">MWRender::RainFader</a>, <a class="el" href="classMWRender_1_1AlphaFader.html#ac629331ab3f0c9eca7f2d483315f13df">MWRender::AlphaFader</a>, <a class="el" href="structMWRender_1_1Moon_1_1Updater.html#aa9f66878d2d380ef7f937e5cf3c7ebdb">MWRender::Moon::Updater</a>, <a class="el" href="classMWRender_1_1Sun_1_1Updater.html#aefeec48ea8bdf5f8b319ab8915801165">MWRender::Sun::Updater</a>, <a class="el" href="classMWRender_1_1GlowUpdater.html#a965291c24bdfb92b34db9ebf830fd2c3">MWRender::GlowUpdater</a>, <a class="el" href="classNifOsg_1_1AlphaController.html#aab26ce8fcaf3cba2ba9613a3c1282100">NifOsg::AlphaController</a>, <a class="el" href="classMWRender_1_1CloudUpdater.html#abf9216503d12576513d64bdb00e66306">MWRender::CloudUpdater</a>, <a class="el" href="classMWRender_1_1AtmosphereNightUpdater.html#ade1dcd8d2434a2437536904ad0965d8d">MWRender::AtmosphereNightUpdater</a>, <a class="el" href="classMWRender_1_1AtmosphereUpdater.html#aa748707ecb9cd88d248b70446f581f43">MWRender::AtmosphereUpdater</a>, <a class="el" href="classMWRender_1_1StateUpdater.html#a3e6d2dfdcfff997e42d889e03624a17c">MWRender::StateUpdater</a>, and <a class="el" href="classSceneUtil_1_1CompositeStateSetUpdater.html#a553f20d149a1ccb412ae6764e7eb292c">SceneUtil::CompositeStateSetUpdater</a>.</p>
 
 </div>
 </div>
@@ -317,13 +317,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="statesetupdater_8hpp_source.html">statesetupdater.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="statesetupdater_8cpp.html">statesetupdater.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="statesetupdater_8hpp_source.html">statesetupdater.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="statesetupdater_8cpp.html">statesetupdater.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

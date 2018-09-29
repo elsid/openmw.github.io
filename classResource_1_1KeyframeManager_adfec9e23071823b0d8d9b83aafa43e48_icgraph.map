@@ -1,25 +1,26 @@
 <map id="Resource::KeyframeManager::get" name="Resource::KeyframeManager::get">
-<area shape="rect" id="node2" href="$classMWRender_1_1Animation.html#aff362c03830efca83a352ab456362110" title="MWRender::Animation\l::addAnimSource" alt="" coords="289,102,450,143"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990" title="Preload work to be called from the worker thread. " alt="" coords="288,167,451,209"/>
-<area shape="rect" id="node3" href="$classMWRender_1_1ObjectAnimation.html#aef4ebbb9050af74efe7bae5749c06858" title="MWRender::ObjectAnimation\l::ObjectAnimation" alt="" coords="531,5,733,46"/>
-<area shape="rect" id="node4" href="$classMWRender_1_1CreatureAnimation.html#a59a0d6b902a85c22537bea81847a40d1" title="MWRender::CreatureAnimation\l::CreatureAnimation" alt="" coords="523,70,741,111"/>
-<area shape="rect" id="node5" href="$classMWRender_1_1CreatureWeaponAnimation.html#a1016608182292ace41cb8af7e72e87c0" title="MWRender::CreatureWeapon\lAnimation::CreatureWeaponAnimation" alt="" coords="499,135,765,177"/>
-<area shape="rect" id="node6" href="$classMWRender_1_1NpcAnimation.html#acf50b96cffb19c225200c4bff36fbce7" title="MWRender::NpcAnimation\l::updateNpcBase" alt="" coords="539,201,725,242"/>
-<area shape="rect" id="node7" href="$classMWRender_1_1NpcAnimation.html#a0f12942b0015ca2fae3b43f6c2f9d2b7" title="MWRender::NpcAnimation\l::NpcAnimation" alt="" coords="813,142,1000,183"/>
-<area shape="rect" id="node8" href="$classMWRender_1_1NpcAnimation.html#a8b37aef38ba00e4f82ffd785141c1321" title="Rebuilds the NPC, updating their root model, animation sources, and equipment. " alt="" coords="813,262,1000,303"/>
-<area shape="rect" id="node9" href="$classMWRender_1_1NpcAnimation.html#aed4db842528e550579621b23034ece08" title="MWRender::NpcAnimation\l::setViewMode" alt="" coords="1063,393,1249,434"/>
-<area shape="rect" id="node19" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="1063,197,1249,238"/>
-<area shape="rect" id="node21" href="$classMWRender_1_1NpcAnimation.html#a4020bbf960b561c7df1de59b78b6d8a9" title="MWRender::NpcAnimation\l::setVampire" alt="" coords="1063,327,1249,369"/>
-<area shape="rect" id="node22" href="$classMWRender_1_1RenderingManager.html#a9e4ed5892fefee1137616dee112148ed" title="MWRender::RenderingManager\l::rebuildPtr" alt="" coords="1049,262,1263,303"/>
-<area shape="rect" id="node10" href="$classMWRender_1_1Camera.html#a0b9b9cf1b627b7c2fcca748ee18c5d41" title="MWRender::Camera::process\lViewChange" alt="" coords="1312,393,1517,434"/>
-<area shape="rect" id="node11" href="$classMWRender_1_1Camera.html#a477d5edf8fca551155bf93dc5e34c595" title="MWRender::Camera::toggle\lViewMode" alt="" coords="1588,294,1783,335"/>
-<area shape="rect" id="node15" href="$classMWRender_1_1Camera.html#a0c2c4ab36df92e1e0c64066327d550d3" title="MWRender::Camera::toggle\lVanityMode" alt="" coords="1588,425,1783,466"/>
-<area shape="rect" id="node17" href="$classMWRender_1_1Camera.html#a253daff447caae0e554a1b25ab4d4537" title="MWRender::Camera::toggle\lPreviewMode" alt="" coords="1588,359,1783,401"/>
-<area shape="rect" id="node18" href="$classMWRender_1_1Camera.html#ab5a7a5e19fed784bc9d552b94daad255" title="MWRender::Camera::setAnimation" alt="" coords="1565,491,1805,517"/>
-<area shape="rect" id="node12" href="$classMWRender_1_1Camera.html#a6f28e63d1e4703a6b497914a37055a1d" title="Reset to defaults. " alt="" coords="1890,309,2078,336"/>
-<area shape="rect" id="node13" href="$classMWRender_1_1Camera.html#aa377e2b61ed83eacf263d6f412e674b3" title="MWRender::Camera::update" alt="" coords="1884,360,2084,387"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1World.html#af674c5097ccae4e6b65633a6dce3fabe" title="MWWorld::World::useDeath\lCamera" alt="" coords="1889,411,2079,453"/>
-<area shape="rect" id="node16" href="$classMWRender_1_1Camera.html#ac50992e1883bf71b1924278f5654a6b8" title="MWRender::Camera::allowVanityMode" alt="" coords="1854,477,2114,504"/>
-<area shape="rect" id="node20" href="$classMWRender_1_1NpcAnimation.html#ab59d8ebd14b1f0c770a8443bc738d842" title="MWRender::NpcAnimation\l::equipmentChanged" alt="" coords="1321,197,1508,238"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1World.html#a71d398a25a102e875e94f1ad1c642113" title="MWWorld::World::reattach\lPlayerCamera" alt="" coords="1323,262,1506,303"/>
+<area shape="rect" id="node2" href="$classMWRender_1_1Animation.html#af2ccd533606e5ffcdc9d5b3409b6d0fb" title="MWRender::Animation\l::addSingleAnimSource" alt="" coords="327,103,497,145"/>
+<area shape="rect" id="node24" href="$classMWRender_1_1PreloadCommonAssetsWorkItem.html#abe7ce2ed9089b68b583a692c5a5e58d6" title="Override in a derived WorkItem to perform actual work. " alt="" coords="289,169,535,210"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990" title="Preload work to be called from the worker thread. " alt="" coords="331,234,493,275"/>
+<area shape="rect" id="node3" href="$classMWRender_1_1Animation.html#a7921bbab6cc09786b2ec14e0220af7b5" title="MWRender::Animation\l::loadAllAnimationsInFolder" alt="" coords="584,133,779,174"/>
+<area shape="rect" id="node4" href="$classMWRender_1_1Animation.html#a3ce28ac5b7bb50847af133b85ae406ce" title="MWRender::Animation\l::addAnimSource" alt="" coords="827,103,989,145"/>
+<area shape="rect" id="node5" href="$classMWRender_1_1ObjectAnimation.html#aef4ebbb9050af74efe7bae5749c06858" title="MWRender::ObjectAnimation\l::ObjectAnimation" alt="" coords="1069,5,1272,46"/>
+<area shape="rect" id="node6" href="$classMWRender_1_1CreatureAnimation.html#a59a0d6b902a85c22537bea81847a40d1" title="MWRender::CreatureAnimation\l::CreatureAnimation" alt="" coords="1062,70,1279,111"/>
+<area shape="rect" id="node7" href="$classMWRender_1_1CreatureWeaponAnimation.html#a1016608182292ace41cb8af7e72e87c0" title="MWRender::CreatureWeapon\lAnimation::CreatureWeaponAnimation" alt="" coords="1037,135,1304,177"/>
+<area shape="rect" id="node8" href="$classMWRender_1_1NpcAnimation.html#acf50b96cffb19c225200c4bff36fbce7" title="MWRender::NpcAnimation\l::updateNpcBase" alt="" coords="1077,201,1264,242"/>
+<area shape="rect" id="node9" href="$classMWRender_1_1NpcAnimation.html#a7ac96f6eb30820fe43445b549c66dd10" title="MWRender::NpcAnimation\l::NpcAnimation" alt="" coords="1352,142,1539,183"/>
+<area shape="rect" id="node10" href="$classMWRender_1_1NpcAnimation.html#a8b37aef38ba00e4f82ffd785141c1321" title="Rebuilds the NPC, updating their root model, animation sources, and equipment. " alt="" coords="1352,262,1539,303"/>
+<area shape="rect" id="node11" href="$classMWRender_1_1NpcAnimation.html#aed4db842528e550579621b23034ece08" title="MWRender::NpcAnimation\l::setViewMode" alt="" coords="1601,393,1788,434"/>
+<area shape="rect" id="node20" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="1601,197,1788,238"/>
+<area shape="rect" id="node22" href="$classMWRender_1_1NpcAnimation.html#a4020bbf960b561c7df1de59b78b6d8a9" title="MWRender::NpcAnimation\l::setVampire" alt="" coords="1601,327,1788,369"/>
+<area shape="rect" id="node23" href="$classMWRender_1_1RenderingManager.html#a9e4ed5892fefee1137616dee112148ed" title="MWRender::RenderingManager\l::rebuildPtr" alt="" coords="1587,262,1802,303"/>
+<area shape="rect" id="node12" href="$classMWRender_1_1Camera.html#a0b9b9cf1b627b7c2fcca748ee18c5d41" title="MWRender::Camera::process\lViewChange" alt="" coords="1851,393,2056,434"/>
+<area shape="rect" id="node13" href="$classMWRender_1_1Camera.html#a477d5edf8fca551155bf93dc5e34c595" title="MWRender::Camera::toggle\lViewMode" alt="" coords="2127,294,2321,335"/>
+<area shape="rect" id="node16" href="$classMWRender_1_1Camera.html#a0c2c4ab36df92e1e0c64066327d550d3" title="MWRender::Camera::toggle\lVanityMode" alt="" coords="2127,425,2321,466"/>
+<area shape="rect" id="node18" href="$classMWRender_1_1Camera.html#a253daff447caae0e554a1b25ab4d4537" title="MWRender::Camera::toggle\lPreviewMode" alt="" coords="2127,359,2321,401"/>
+<area shape="rect" id="node19" href="$classMWRender_1_1Camera.html#ab5a7a5e19fed784bc9d552b94daad255" title="MWRender::Camera::setAnimation" alt="" coords="2104,491,2344,517"/>
+<area shape="rect" id="node14" href="$classMWRender_1_1Camera.html#a6f28e63d1e4703a6b497914a37055a1d" title="Reset to defaults. " alt="" coords="2429,375,2617,401"/>
+<area shape="rect" id="node15" href="$classMWRender_1_1Camera.html#aa377e2b61ed83eacf263d6f412e674b3" title="MWRender::Camera::update" alt="" coords="2423,324,2623,351"/>
+<area shape="rect" id="node17" href="$classMWRender_1_1Camera.html#ac50992e1883bf71b1924278f5654a6b8" title="MWRender::Camera::allowVanityMode" alt="" coords="2393,432,2653,459"/>
+<area shape="rect" id="node21" href="$classMWRender_1_1NpcAnimation.html#ab59d8ebd14b1f0c770a8443bc738d842" title="MWRender::NpcAnimation\l::equipmentChanged" alt="" coords="1860,197,2047,238"/>
 </map>

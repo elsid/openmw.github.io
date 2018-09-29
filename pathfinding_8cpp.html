@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwmechanics/pathfinding.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwmechanics/pathfinding.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -104,13 +104,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;limits&gt;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwbase_2world_8hpp_source.html">../mwbase/world.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="environment_8hpp_source.html">../mwbase/environment.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="esmstore_8hpp_source.html">../mwworld/esmstore.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="cellstore_8hpp_source.html">../mwworld/cellstore.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="openmw_2mwmechanics_2pathgrid_8hpp_source.html">pathgrid.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="coordinateconverter_8hpp_source.html">coordinateconverter.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for pathfinding.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pathfinding_8cpp__incl.svg" width="4750" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pathfinding_8cpp__incl.svg" width="5083" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -124,8 +124,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3f136d16e6f62a03136eef371ff82104"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classint.html">int</a>, <a class="el" href="classbool.html">bool</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02pathfinding_8cpp_03.html#a3f136d16e6f62a03136eef371ff82104">anonymous_namespace{pathfinding.cpp}::getClosestReachablePoint</a> (const <a class="el" href="structESM_1_1Pathgrid.html">ESM::Pathgrid</a> *grid, const <a class="el" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a> *cell, const osg::Vec3f pos, <a class="el" href="classint.html">int</a> start)</td></tr>
-<tr class="separator:a3f136d16e6f62a03136eef371ff82104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abffb096999c71d394753d9d871a308a1"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classint.html">int</a>, <a class="el" href="classbool.html">bool</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02pathfinding_8cpp_03.html#abffb096999c71d394753d9d871a308a1">anonymous_namespace{pathfinding.cpp}::getClosestReachablePoint</a> (const <a class="el" href="structESM_1_1Pathgrid.html">ESM::Pathgrid</a> *grid, const <a class="el" href="classMWMechanics_1_1PathgridGraph.html">MWMechanics::PathgridGraph</a> *graph, const osg::Vec3f &amp;pos, <a class="el" href="classint.html">int</a> start)</td></tr>
+<tr class="separator:abffb096999c71d394753d9d871a308a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac1d3361a910e951017a109bdca66a12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWMechanics.html#aac1d3361a910e951017a109bdca66a12">MWMechanics::sqrDistanceIgnoreZ</a> (const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;point, float x, float y)</td></tr>
 <tr class="separator:aac1d3361a910e951017a109bdca66a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaefe26eb27357f7b27a34b4f0286450"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWMechanics.html#afaefe26eb27357f7b27a34b4f0286450">MWMechanics::distance</a> (const <a class="el" href="structESM_1_1Pathgrid_1_1Point.html">ESM::Pathgrid::Point</a> &amp;point, float x, float y, float z)</td></tr>
@@ -146,7 +146,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

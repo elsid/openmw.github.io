@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,20 +109,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWRender::CelestialBody:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1CelestialBody__inherit__graph.svg" width="434" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1CelestialBody__inherit__graph.svg" width="434" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWRender::CelestialBody:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1CelestialBody__coll__graph.svg" width="510" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1CelestialBody__coll__graph.svg" width="612" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a24032afc9a9b1d6f8bff5de6b780641d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1CelestialBody.html#a24032afc9a9b1d6f8bff5de6b780641d">CelestialBody</a> (osg::Group *parentNode, float scaleFactor, <a class="el" href="classint.html">int</a> numUvSets)</td></tr>
-<tr class="separator:a24032afc9a9b1d6f8bff5de6b780641d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad75c36072c4259757ebbbd1b70c9cf62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1CelestialBody.html#ad75c36072c4259757ebbbd1b70c9cf62">CelestialBody</a> (osg::Group *parentNode, float scaleFactor, <a class="el" href="classint.html">int</a> numUvSets, unsigned <a class="el" href="classint.html">int</a> visibleMask=~0)</td></tr>
+<tr class="separator:ad75c36072c4259757ebbbd1b70c9cf62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad84c79d29d906deb49155b0c6014ec02"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1CelestialBody.html#ad84c79d29d906deb49155b0c6014ec02">~CelestialBody</a> ()</td></tr>
 <tr class="separator:ad84c79d29d906deb49155b0c6014ec02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1107e4d4defbc61322ba85305956a786"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1CelestialBody.html#a1107e4d4defbc61322ba85305956a786">adjustTransparency</a> (const float ratio)=0</td></tr>
@@ -132,6 +132,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a09c2584dfeaa150e6de2e4e6eb591c4b"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1CelestialBody.html#a09c2584dfeaa150e6de2e4e6eb591c4b">mVisibleMask</a></td></tr>
+<tr class="separator:a09c2584dfeaa150e6de2e4e6eb591c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada9c02fd5cdbebe8b98721711e1f55aa"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
 &lt; osg::PositionAttitudeTransform &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1CelestialBody.html#ada9c02fd5cdbebe8b98721711e1f55aa">mTransform</a></td></tr>
 <tr class="separator:ada9c02fd5cdbebe8b98721711e1f55aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,7 +148,7 @@ Static Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A base class for the sun and moons. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a24032afc9a9b1d6f8bff5de6b780641d"></a>
+<a class="anchor" id="ad75c36072c4259757ebbbd1b70c9cf62"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -169,7 +171,13 @@ Static Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>numUvSets</em>&#160;</td>
+          <td class="paramname"><em>numUvSets</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned <a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>visibleMask</em> = <code>~0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -187,7 +195,7 @@ Static Protected Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1CelestialBody_a24032afc9a9b1d6f8bff5de6b780641d_cgraph.svg" width="470" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1CelestialBody_ad75c36072c4259757ebbbd1b70c9cf62_cgraph.svg" width="470" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -337,13 +345,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a09c2584dfeaa150e6de2e4e6eb591c4b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classint.html">int</a> MWRender::CelestialBody::mVisibleMask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwrender/<a class="el" href="sky_8cpp.html">sky.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwrender/<a class="el" href="sky_8cpp.html">sky.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:05 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:38 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

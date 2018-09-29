@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwbase/soundmanager.hpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwbase/soundmanager.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -96,25 +96,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">soundmanager.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br/>
+<div class="textblock"><code>#include &lt;memory&gt;</code><br/>
+<code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;set&gt;</code><br/>
-<code>#include &lt;boost/shared_ptr.hpp&gt;</code><br/>
 <code>#include &quot;<a class="el" href="ptr_8hpp_source.html">../mwworld/ptr.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for soundmanager.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="soundmanager_8hpp__incl.svg" width="1123" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="soundmanager_8hpp__incl.svg" width="1058" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="soundmanager_8hpp__dep__incl.svg" width="13091" height="275"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="soundmanager_8hpp__dep__incl.svg" width="7714" height="483"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -139,20 +141,55 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a9af7bd97094456943f0f38a13f773d6b"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; Sound_Decoder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a9af7bd97094456943f0f38a13f773d6b">MWSound::DecoderPtr</a></td></tr>
-<tr class="separator:a9af7bd97094456943f0f38a13f773d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00ffaefcf6bfdfb58240498937f63bdc"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classMWSound_1_1Sound.html">MWSound::Sound</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWBase.html#a00ffaefcf6bfdfb58240498937f63bdc">MWBase::SoundPtr</a></td></tr>
-<tr class="separator:a00ffaefcf6bfdfb58240498937f63bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d9f7264c51b0081992c7d28061f3c14"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classMWSound_1_1Stream.html">MWSound::Stream</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWBase.html#a9d9f7264c51b0081992c7d28061f3c14">MWBase::SoundStreamPtr</a></td></tr>
-<tr class="separator:a9d9f7264c51b0081992c7d28061f3c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80836049b1e8a99ff9f046278be315b"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
+&lt; Sound_Decoder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#ae80836049b1e8a99ff9f046278be315b">MWSound::DecoderPtr</a></td></tr>
+<tr class="separator:ae80836049b1e8a99ff9f046278be315b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ec24b754f974590d17f732a26ef8dc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWBase.html#a89ec24b754f974590d17f732a26ef8dc">MWBase::Sound</a> = <a class="el" href="classMWSound_1_1Sound.html">MWSound::Sound</a></td></tr>
+<tr class="separator:a89ec24b754f974590d17f732a26ef8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b9b41b6e174a9e0e8c7f6604a50bb7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWBase.html#a56b9b41b6e174a9e0e8c7f6604a50bb7">MWBase::SoundStream</a> = <a class="el" href="classMWSound_1_1Stream.html">MWSound::Stream</a></td></tr>
+<tr class="separator:a56b9b41b6e174a9e0e8c7f6604a50bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aea11e52a38de4431ba3b76c391c9f518"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#aea11e52a38de4431ba3b76c391c9f518">MWSound::PlayMode</a> { <br/>
+&#160;&#160;<a class="el" href="namespaceMWSound.html#aea11e52a38de4431ba3b76c391c9f518a960b44c579bc2f6818d2daaf9e4c16f0">MWSound::PlayMode::Normal</a> = 0, 
+<a class="el" href="namespaceMWSound.html#aea11e52a38de4431ba3b76c391c9f518a89d7b10cb4238977d2b523dfd9ea7745">MWSound::PlayMode::Loop</a> = 1&lt;&lt;0, 
+<a class="el" href="namespaceMWSound.html#aea11e52a38de4431ba3b76c391c9f518a8744821a433d68afa00eb99b168f6812">MWSound::PlayMode::NoEnv</a> = 1&lt;&lt;1, 
+<a class="el" href="namespaceMWSound.html#aea11e52a38de4431ba3b76c391c9f518aa389bc1f989a5b130606ebc7c8e4d43e">MWSound::PlayMode::RemoveAtDistance</a> = 1&lt;&lt;2, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceMWSound.html#aea11e52a38de4431ba3b76c391c9f518acb035703f6b0c88521291196107d0931">MWSound::PlayMode::NoPlayerLocal</a> = 1&lt;&lt;3, 
+<a class="el" href="namespaceMWSound.html#aea11e52a38de4431ba3b76c391c9f518a65be7976fe59d8a6c5c293701facdc48">MWSound::PlayMode::LoopNoEnv</a> = Loop | NoEnv, 
+<a class="el" href="namespaceMWSound.html#aea11e52a38de4431ba3b76c391c9f518afd9df0820f67f5be29bd3641a6143267">MWSound::PlayMode::LoopRemoveAtDistance</a> = Loop | RemoveAtDistance
+<br/>
+ }</td></tr>
+<tr class="separator:aea11e52a38de4431ba3b76c391c9f518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bddb76c4a8b2546b8858d6c8395a358"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a8bddb76c4a8b2546b8858d6c8395a358">MWSound::Type</a> { <br/>
+&#160;&#160;<a class="el" href="namespaceMWSound.html#a8bddb76c4a8b2546b8858d6c8395a358a8e74cb085887902ba25fcf109de2f7a3">MWSound::Type::Sfx</a> = 1&lt;&lt;4, 
+<a class="el" href="namespaceMWSound.html#a8bddb76c4a8b2546b8858d6c8395a358ad7a3fdf1351b72249a47454751549deb">MWSound::Type::Voice</a> = 1&lt;&lt;5, 
+<a class="el" href="namespaceMWSound.html#a8bddb76c4a8b2546b8858d6c8395a358a129e74dde7b475c8848310e16754c965">MWSound::Type::Foot</a> = 1&lt;&lt;6, 
+<a class="el" href="namespaceMWSound.html#a8bddb76c4a8b2546b8858d6c8395a358a47dcbd834e669233d7eb8a51456ed217">MWSound::Type::Music</a> = 1&lt;&lt;7, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceMWSound.html#a8bddb76c4a8b2546b8858d6c8395a358a1526e0ac850c241ee1631d9ad5664475">MWSound::Type::Movie</a> = 1&lt;&lt;8, 
+<a class="el" href="namespaceMWSound.html#a8bddb76c4a8b2546b8858d6c8395a358a4a18312b5b75f549d5551e5912ad6ebf">MWSound::Type::Mask</a> = Sfx | Voice | Foot | Music | Movie
+<br/>
+ }</td></tr>
+<tr class="separator:a8bddb76c4a8b2546b8858d6c8395a358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a16e5eb060580ef1bfa01eba2d87f5c10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a16e5eb060580ef1bfa01eba2d87f5c10">MWSound::operator~</a> (Type a)</td></tr>
+<tr class="separator:a16e5eb060580ef1bfa01eba2d87f5c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af73c97090e80211267cf3d85227d4f84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#af73c97090e80211267cf3d85227d4f84">MWSound::operator&amp;</a> (Type a, Type b)</td></tr>
+<tr class="separator:af73c97090e80211267cf3d85227d4f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6285860b7138ca76d4dd687f8babe577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a6285860b7138ca76d4dd687f8babe577">MWSound::operator&amp;</a> (<a class="el" href="classint.html">int</a> a, Type b)</td></tr>
+<tr class="separator:a6285860b7138ca76d4dd687f8babe577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa3aecb54860872562915e52bb58de2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#acaa3aecb54860872562915e52bb58de2">MWSound::operator|</a> (Type a, Type b)</td></tr>
+<tr class="separator:acaa3aecb54860872562915e52bb58de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

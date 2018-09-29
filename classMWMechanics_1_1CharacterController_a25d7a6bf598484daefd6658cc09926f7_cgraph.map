@@ -1,31 +1,33 @@
 <map id="MWMechanics::CharacterController::playRandomDeath" name="MWMechanics::CharacterController::playRandomDeath">
-<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="332,56,511,83"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="617,5,812,32"/>
+<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="332,72,511,99"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="617,56,812,83"/>
 <area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="632,107,797,149"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1World.html#ada194e87d7e27952eebb5d450f5df68e" title="MWBase::World::useDeathCamera" alt="" coords="302,157,541,184"/>
-<area shape="rect" id="node7" href="$classMWRender_1_1Animation.html#a38d2545a992af8eef9199a7c1b5f74eb" title="MWRender::Animation\l::hasAnimation" alt="" coords="899,201,1061,242"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1CharacterController.html#a956c738af871a46d10a37e12c9a46b3b" title="MWMechanics::CharacterController\l::chooseRandomDeathState" alt="" coords="299,259,543,301"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1CharacterController.html#adb9b5a438290f00e857a8ec5caabcbf2" title="MWMechanics::CharacterController\l::playDeath" alt="" coords="299,438,543,479"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="613,56,817,83"/>
-<area shape="rect" id="node8" href="$namespaceanonymous__namespace_02animation_8cpp_03.html#a1621e3d167ededdfbe43af8640a8b3d2" title="anonymous_namespace\l\{animation::cpp\}::findGroup\lStart" alt="" coords="1135,193,1337,249"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1CharacterController.html#a19c34bb28bca49127418b526d434def6" title="MWMechanics::CharacterController\l::chooseRandomGroup" alt="" coords="593,259,837,301"/>
-<area shape="rect" id="node11" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="885,318,1075,359"/>
-<area shape="rect" id="node13" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="911,267,1049,293"/>
-<area shape="rect" id="node12" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="1211,325,1261,352"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1407,388,1574,415"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="612,594,817,635"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1CreatureStats.html#ac43ae18d9879575c313ca983ded19b7f" title="MWMechanics::CreatureStats\l::setDeathAnimation" alt="" coords="610,659,819,701"/>
-<area shape="rect" id="node18" href="$classMWRender_1_1Animation.html#ae52ecaea6bbf327d968e6d388f37bf44" title="MWRender::Animation\l::disable" alt="" coords="634,438,795,479"/>
-<area shape="rect" id="node23" href="$classMWRender_1_1Animation.html#af375135ae7834445da7479dde42b7528" title="MWRender::Animation\l::play" alt="" coords="634,529,795,570"/>
-<area shape="rect" id="node19" href="$classMWRender_1_1Animation.html#a94cc64915a580e0d9818d7aa50acc3d5" title="MWRender::Animation\l::resetActiveGroups" alt="" coords="899,438,1061,479"/>
-<area shape="rect" id="node20" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="1410,494,1571,535"/>
-<area shape="rect" id="node21" href="$classMWRender_1_1Animation.html#a459a7199da8cad0d9fe4a7fd1571f3cb" title="MWRender::Animation\l::addControllers" alt="" coords="1155,435,1317,477"/>
-<area shape="rect" id="node22" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="1398,443,1583,469"/>
-<area shape="rect" id="node24" href="$classMWRender_1_1Animation.html#a78dd036addc4f13e9b47805643f10247" title="MWRender::Animation\l::reset" alt="" coords="899,555,1061,597"/>
-<area shape="rect" id="node25" href="$structMWRender_1_1Animation_1_1AnimState.html#a31b0a6dacb33aaed30137588db536ee6" title="MWRender::Animation\l::AnimState::setTime" alt="" coords="1155,553,1317,594"/>
-<area shape="rect" id="node26" href="$structMWRender_1_1Animation_1_1AnimState.html#a53d70c3f75d4b3dbdcbf0e47ce705b9e" title="MWRender::Animation\l::AnimState::getTime" alt="" coords="1155,618,1317,659"/>
-<area shape="rect" id="node27" href="$classMWRender_1_1Animation.html#ab7236ec1b0d9e4a328d1415324692188" title="MWRender::Animation\l::handleTextKey" alt="" coords="899,673,1061,714"/>
-<area shape="rect" id="node29" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="893,739,1067,765"/>
-<area shape="rect" id="node30" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="887,789,1073,816"/>
-<area shape="rect" id="node28" href="$classMWRender_1_1Animation_1_1TextKeyListener.html#a67153739c95c33dc40ccad0eb47fd741" title="MWRender::Animation\l::TextKeyListener::handleTextKey" alt="" coords="1123,683,1349,725"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1World.html#ada194e87d7e27952eebb5d450f5df68e" title="MWBase::World::useDeathCamera" alt="" coords="302,408,541,435"/>
+<area shape="rect" id="node7" href="$classMWRender_1_1Animation.html#a38d2545a992af8eef9199a7c1b5f74eb" title="MWRender::Animation\l::hasAnimation" alt="" coords="899,166,1061,207"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1World.html#afcb13e418993a9442cf3a02275fa211d" title="MWBase::World::isSwimming" alt="" coords="613,291,816,317"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1CharacterController.html#a956c738af871a46d10a37e12c9a46b3b" title="MWMechanics::CharacterController\l::chooseRandomDeathState" alt="" coords="299,225,543,266"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CharacterController.html#ab1b93fb328749639129fa8e5412d7150" title="MWMechanics::CharacterController\l::isPersistentAnimPlaying" alt="" coords="299,627,543,669"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1CharacterController.html#adb9b5a438290f00e857a8ec5caabcbf2" title="MWMechanics::CharacterController\l::playDeath" alt="" coords="299,342,543,383"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="613,5,817,32"/>
+<area shape="rect" id="node8" href="$namespaceanonymous__namespace_02animation_8cpp_03.html#a1621e3d167ededdfbe43af8640a8b3d2" title="anonymous_namespace\l\{animation::cpp\}::findGroup\lStart" alt="" coords="1135,159,1337,215"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1CharacterController.html#a19c34bb28bca49127418b526d434def6" title="MWMechanics::CharacterController\l::chooseRandomGroup" alt="" coords="593,225,837,266"/>
+<area shape="rect" id="node12" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="885,370,1075,411"/>
+<area shape="rect" id="node14" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="911,232,1049,259"/>
+<area shape="rect" id="node13" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="1211,377,1261,404"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CharacterController.html#a11a69e83f382cb057369e705f9c0782f" title="MWMechanics::CharacterController\l::isAnimPlaying" alt="" coords="593,795,837,837"/>
+<area shape="rect" id="node17" href="$classMWRender_1_1Animation.html#a5b8f16b3c1ae5e7d515a5f9be97df6a4" title="MWRender::Animation\l::isPlaying" alt="" coords="899,881,1061,922"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1407,528,1574,555"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="612,342,817,383"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1CreatureStats.html#ac43ae18d9879575c313ca983ded19b7f" title="MWMechanics::CreatureStats\l::setDeathAnimation" alt="" coords="610,407,819,449"/>
+<area shape="rect" id="node22" href="$classMWRender_1_1Animation.html#ae52ecaea6bbf327d968e6d388f37bf44" title="MWRender::Animation\l::disable" alt="" coords="634,577,795,618"/>
+<area shape="rect" id="node27" href="$classMWRender_1_1Animation.html#af375135ae7834445da7479dde42b7528" title="MWRender::Animation\l::play" alt="" coords="634,675,795,717"/>
+<area shape="rect" id="node23" href="$classMWRender_1_1Animation.html#a94cc64915a580e0d9818d7aa50acc3d5" title="MWRender::Animation\l::resetActiveGroups" alt="" coords="899,579,1061,621"/>
+<area shape="rect" id="node24" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="1410,634,1571,675"/>
+<area shape="rect" id="node25" href="$classMWRender_1_1Animation.html#a459a7199da8cad0d9fe4a7fd1571f3cb" title="MWRender::Animation\l::addControllers" alt="" coords="1155,575,1317,617"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="1398,583,1583,609"/>
+<area shape="rect" id="node28" href="$classMWRender_1_1Animation.html#a78dd036addc4f13e9b47805643f10247" title="MWRender::Animation\l::reset" alt="" coords="899,763,1061,805"/>
+<area shape="rect" id="node29" href="$structMWRender_1_1Animation_1_1AnimState.html#a31b0a6dacb33aaed30137588db536ee6" title="MWRender::Animation\l::AnimState::setTime" alt="" coords="1155,823,1317,865"/>
+<area shape="rect" id="node30" href="$structMWRender_1_1Animation_1_1AnimState.html#a53d70c3f75d4b3dbdcbf0e47ce705b9e" title="MWRender::Animation\l::AnimState::getTime" alt="" coords="1155,758,1317,799"/>
+<area shape="rect" id="node31" href="$classMWRender_1_1Animation.html#ab7236ec1b0d9e4a328d1415324692188" title="MWRender::Animation\l::handleTextKey" alt="" coords="899,646,1061,687"/>
+<area shape="rect" id="node32" href="$classMWRender_1_1Animation_1_1TextKeyListener.html#a67153739c95c33dc40ccad0eb47fd741" title="MWRender::Animation\l::TextKeyListener::handleTextKey" alt="" coords="1123,693,1349,734"/>
 </map>

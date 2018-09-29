@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/resource/multiobjectcache.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/resource/multiobjectcache.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -123,39 +123,45 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1MultiObjectCache.html#ac95d74573197076807663aec9bae6f6d">removeUnreferencedObjectsInCache</a>();</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1MultiObjectCache.html#a5b8c9533cd31920e37f76c24c326f09e">addEntryToObjectCache</a>(<span class="keyword">const</span> std::string&amp; filename, osg::Object* <span class="keywordtype">object</span>);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        osg::ref_ptr&lt;osg::Object&gt; <a class="code" href="classResource_1_1MultiObjectCache.html#abb381a58f0364df390d2cfba4f18eba5">takeFromObjectCache</a>(<span class="keyword">const</span> std::string&amp; fileName);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1MultiObjectCache.html#a2f4124b053379adbfa7974130ab13368">clear</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1MultiObjectCache.html#a5b8c9533cd31920e37f76c24c326f09e">addEntryToObjectCache</a>(<span class="keyword">const</span> std::string&amp; filename, osg::Object* <span class="keywordtype">object</span>);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1MultiObjectCache.html#a3497a1ef95dcd7039899ebe3ef112030">releaseGLObjects</a>(<a class="code" href="namespaceCSMDoc.html#a46ff3c989b498a8d4aba49fea84a560a">osg::State</a>* state);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        osg::ref_ptr&lt;osg::Object&gt; <a class="code" href="classResource_1_1MultiObjectCache.html#abb381a58f0364df390d2cfba4f18eba5">takeFromObjectCache</a>(<span class="keyword">const</span> std::string&amp; fileName);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classResource_1_1MultiObjectCache.html#aaef607f6f930d6849e547fbe18a96370">   38</a></span>&#160;        <span class="keyword">typedef</span> std::multimap&lt;std::string, osg::ref_ptr&lt;osg::Object&gt; &gt;             <a class="code" href="classResource_1_1MultiObjectCache.html#aaef607f6f930d6849e547fbe18a96370">ObjectCacheMap</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classResource_1_1MultiObjectCache.html#a23b4fd8e3ce8652c7b974b3e00561013">   40</a></span>&#160;        <a class="code" href="classResource_1_1MultiObjectCache.html#aaef607f6f930d6849e547fbe18a96370">ObjectCacheMap</a>                          <a class="code" href="classResource_1_1MultiObjectCache.html#a23b4fd8e3ce8652c7b974b3e00561013">_objectCache</a>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classResource_1_1MultiObjectCache.html#ad716ce1c2af6ee1ebcc51f021232b7e0">   41</a></span>&#160;        OpenThreads::Mutex                      <a class="code" href="classResource_1_1MultiObjectCache.html#ad716ce1c2af6ee1ebcc51f021232b7e0">_objectCacheMutex</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1MultiObjectCache.html#a3497a1ef95dcd7039899ebe3ef112030">releaseGLObjects</a>(<a class="code" href="namespaceCSMDoc.html#a46ff3c989b498a8d4aba49fea84a560a">osg::State</a>* state);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classResource_1_1MultiObjectCache.html#ab8ddd1a43364e5d68cd7b790e1895ee2">getCacheSize</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    };</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classResource_1_1MultiObjectCache.html#aaef607f6f930d6849e547fbe18a96370">   43</a></span>&#160;        <span class="keyword">typedef</span> std::multimap&lt;std::string, osg::ref_ptr&lt;osg::Object&gt; &gt;             <a class="code" href="classResource_1_1MultiObjectCache.html#aaef607f6f930d6849e547fbe18a96370">ObjectCacheMap</a>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classResource_1_1MultiObjectCache_html_a23b4fd8e3ce8652c7b974b3e00561013"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#a23b4fd8e3ce8652c7b974b3e00561013">Resource::MultiObjectCache::_objectCache</a></div><div class="ttdeci">ObjectCacheMap _objectCache</div><div class="ttdef"><b>Definition:</b> multiobjectcache.hpp:40</div></div>
-<div class="ttc" id="classResource_1_1MultiObjectCache_html_a5b8c9533cd31920e37f76c24c326f09e"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#a5b8c9533cd31920e37f76c24c326f09e">Resource::MultiObjectCache::addEntryToObjectCache</a></div><div class="ttdeci">void addEntryToObjectCache(const std::string &amp;filename, osg::Object *object)</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:46</div></div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classResource_1_1MultiObjectCache.html#a23b4fd8e3ce8652c7b974b3e00561013">   45</a></span>&#160;        <a class="code" href="classResource_1_1MultiObjectCache.html#aaef607f6f930d6849e547fbe18a96370">ObjectCacheMap</a>                          <a class="code" href="classResource_1_1MultiObjectCache.html#a23b4fd8e3ce8652c7b974b3e00561013">_objectCache</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classResource_1_1MultiObjectCache.html#ad716ce1c2af6ee1ebcc51f021232b7e0">   46</a></span>&#160;        <span class="keyword">mutable</span> OpenThreads::Mutex              <a class="code" href="classResource_1_1MultiObjectCache.html#ad716ce1c2af6ee1ebcc51f021232b7e0">_objectCacheMutex</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    };</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classResource_1_1MultiObjectCache_html_a2f4124b053379adbfa7974130ab13368"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#a2f4124b053379adbfa7974130ab13368">Resource::MultiObjectCache::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:46</div></div>
+<div class="ttc" id="classResource_1_1MultiObjectCache_html_a23b4fd8e3ce8652c7b974b3e00561013"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#a23b4fd8e3ce8652c7b974b3e00561013">Resource::MultiObjectCache::_objectCache</a></div><div class="ttdeci">ObjectCacheMap _objectCache</div><div class="ttdef"><b>Definition:</b> multiobjectcache.hpp:45</div></div>
+<div class="ttc" id="classResource_1_1MultiObjectCache_html_a5b8c9533cd31920e37f76c24c326f09e"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#a5b8c9533cd31920e37f76c24c326f09e">Resource::MultiObjectCache::addEntryToObjectCache</a></div><div class="ttdeci">void addEntryToObjectCache(const std::string &amp;filename, osg::Object *object)</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:52</div></div>
+<div class="ttc" id="classResource_1_1MultiObjectCache_html_ab8ddd1a43364e5d68cd7b790e1895ee2"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#ab8ddd1a43364e5d68cd7b790e1895ee2">Resource::MultiObjectCache::getCacheSize</a></div><div class="ttdeci">unsigned int getCacheSize() const </div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:90</div></div>
 <div class="ttc" id="classResource_1_1MultiObjectCache_html_ac4d149ce69a438611de7d4f42239f6c2"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#ac4d149ce69a438611de7d4f42239f6c2">Resource::MultiObjectCache::~MultiObjectCache</a></div><div class="ttdeci">~MultiObjectCache()</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:15</div></div>
-<div class="ttc" id="classResource_1_1MultiObjectCache_html_ad716ce1c2af6ee1ebcc51f021232b7e0"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#ad716ce1c2af6ee1ebcc51f021232b7e0">Resource::MultiObjectCache::_objectCacheMutex</a></div><div class="ttdeci">OpenThreads::Mutex _objectCacheMutex</div><div class="ttdef"><b>Definition:</b> multiobjectcache.hpp:41</div></div>
+<div class="ttc" id="classResource_1_1MultiObjectCache_html_ad716ce1c2af6ee1ebcc51f021232b7e0"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#ad716ce1c2af6ee1ebcc51f021232b7e0">Resource::MultiObjectCache::_objectCacheMutex</a></div><div class="ttdeci">OpenThreads::Mutex _objectCacheMutex</div><div class="ttdef"><b>Definition:</b> multiobjectcache.hpp:46</div></div>
 <div class="ttc" id="classResource_1_1MultiObjectCache_html"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html">Resource::MultiObjectCache</a></div><div class="ttdoc">Cache for &quot;non reusable&quot; objects. </div><div class="ttdef"><b>Definition:</b> multiobjectcache.hpp:20</div></div>
-<div class="ttc" id="classResource_1_1MultiObjectCache_html_abb381a58f0364df390d2cfba4f18eba5"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#abb381a58f0364df390d2cfba4f18eba5">Resource::MultiObjectCache::takeFromObjectCache</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Object &gt; takeFromObjectCache(const std::string &amp;fileName)</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:52</div></div>
+<div class="ttc" id="classResource_1_1MultiObjectCache_html_abb381a58f0364df390d2cfba4f18eba5"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#abb381a58f0364df390d2cfba4f18eba5">Resource::MultiObjectCache::takeFromObjectCache</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Object &gt; takeFromObjectCache(const std::string &amp;fileName)</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:63</div></div>
 <div class="ttc" id="namespaceCSMDoc_html_a46ff3c989b498a8d4aba49fea84a560a"><div class="ttname"><a href="namespaceCSMDoc.html#a46ff3c989b498a8d4aba49fea84a560a">CSMDoc::State</a></div><div class="ttdeci">State</div><div class="ttdef"><b>Definition:</b> state.hpp:6</div></div>
-<div class="ttc" id="classResource_1_1MultiObjectCache_html_a3497a1ef95dcd7039899ebe3ef112030"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#a3497a1ef95dcd7039899ebe3ef112030">Resource::MultiObjectCache::releaseGLObjects</a></div><div class="ttdeci">void releaseGLObjects(osg::State *state)</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:66</div></div>
+<div class="ttc" id="classResource_1_1MultiObjectCache_html_a3497a1ef95dcd7039899ebe3ef112030"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#a3497a1ef95dcd7039899ebe3ef112030">Resource::MultiObjectCache::releaseGLObjects</a></div><div class="ttdeci">void releaseGLObjects(osg::State *state)</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:77</div></div>
 <div class="ttc" id="classResource_1_1MultiObjectCache_html_ac95d74573197076807663aec9bae6f6d"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#ac95d74573197076807663aec9bae6f6d">Resource::MultiObjectCache::removeUnreferencedObjectsInCache</a></div><div class="ttdeci">void removeUnreferencedObjectsInCache()</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:20</div></div>
 <div class="ttc" id="classResource_1_1MultiObjectCache_html_adbc772d55d171dcc176cd8afbb96213b"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#adbc772d55d171dcc176cd8afbb96213b">Resource::MultiObjectCache::MultiObjectCache</a></div><div class="ttdeci">MultiObjectCache()</div><div class="ttdef"><b>Definition:</b> multiobjectcache.cpp:10</div></div>
-<div class="ttc" id="classResource_1_1MultiObjectCache_html_aaef607f6f930d6849e547fbe18a96370"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#aaef607f6f930d6849e547fbe18a96370">Resource::MultiObjectCache::ObjectCacheMap</a></div><div class="ttdeci">std::multimap&lt; std::string, osg::ref_ptr&lt; osg::Object &gt; &gt; ObjectCacheMap</div><div class="ttdef"><b>Definition:</b> multiobjectcache.hpp:38</div></div>
+<div class="ttc" id="classResource_1_1MultiObjectCache_html_aaef607f6f930d6849e547fbe18a96370"><div class="ttname"><a href="classResource_1_1MultiObjectCache.html#aaef607f6f930d6849e547fbe18a96370">Resource::MultiObjectCache::ObjectCacheMap</a></div><div class="ttdeci">std::multimap&lt; std::string, osg::ref_ptr&lt; osg::Object &gt; &gt; ObjectCacheMap</div><div class="ttdef"><b>Definition:</b> multiobjectcache.hpp:43</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

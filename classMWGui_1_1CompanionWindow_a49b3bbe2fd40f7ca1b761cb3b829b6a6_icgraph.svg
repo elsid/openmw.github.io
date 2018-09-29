@@ -45,10 +45,10 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classMWGui_1_1CompanionWindow.html#aca450f1bd162b6a90b9b5a72a71e4c8b" target="_top" xlink:title="MWGui::CompanionWindow\l::openCompanion">
+<g id="a_node5"><a xlink:href="classMWGui_1_1CompanionWindow.html#a52f4515aace3f078cea11e428d143d9c" target="_top" xlink:title="Open this object in the GUI, for windows that support it. ">
 <polygon fill="white" stroke="black" points="182.5,-49 182.5,-79 327.5,-79 327.5,-49 182.5,-49"/>
 <text text-anchor="start" x="190.5" y="-67" font-family="FreeSans" font-size="10.00">MWGui::CompanionWindow</text>
-<text text-anchor="middle" x="255" y="-56" font-family="FreeSans" font-size="10.00">::openCompanion</text>
+<text text-anchor="middle" x="255" y="-56" font-family="FreeSans" font-size="10.00">::setPtr</text>
 </a>
 </g>
 </g>
@@ -57,17 +57,17 @@
 <path fill="none" stroke="midnightblue" d="M155.634,-77.1154C164.528,-75.9296 173.532,-74.729 182.295,-73.5607"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="155.108,-73.6546 145.658,-78.4456 156.033,-80.5932 155.108,-73.6546"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classMWGui_1_1CompanionWindow.html#aba35fc2a3d764a2946510114d135d3ff" target="_top" xlink:title="MWGui::CompanionWindow\l::onFrame">
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="classMWGui_1_1CompanionWindow.html#ada824d59a233814933037aa841a1973c" target="_top" xlink:title="Called every frame if the window is in an active GUI mode. ">
 <polygon fill="white" stroke="black" points="182.5,-0 182.5,-30 327.5,-30 327.5,-0 182.5,-0"/>
 <text text-anchor="start" x="190.5" y="-18" font-family="FreeSans" font-size="10.00">MWGui::CompanionWindow</text>
 <text text-anchor="middle" x="255" y="-7" font-family="FreeSans" font-size="10.00">::onFrame</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node7</title>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node1&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M115.431,-68.6078C135.386,-59.5199 159.76,-48.7856 182,-40 190.615,-36.597 199.901,-33.1858 208.849,-30.0253"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="113.942,-65.4402 106.308,-72.7875 116.857,-71.804 113.942,-65.4402"/>
 </g>
@@ -89,34 +89,6 @@
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M337.634,-123.885C346.528,-125.07 355.532,-126.271 364.295,-127.439"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="338.033,-120.407 327.658,-122.554 337.108,-127.345 338.033,-120.407"/>
-</g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classMWGui_1_1WindowManager.html#a678823d516ff55e041cc33a93f3add8c" target="_top" xlink:title="MWGui::WindowManager\l::showCompanionWindow">
-<polygon fill="white" stroke="black" points="368.5,-49 368.5,-79 505.5,-79 505.5,-49 368.5,-49"/>
-<text text-anchor="start" x="376.5" y="-67" font-family="FreeSans" font-size="10.00">MWGui::WindowManager</text>
-<text text-anchor="middle" x="437" y="-56" font-family="FreeSans" font-size="10.00">::showCompanionWindow</text>
-</a>
-</g>
-</g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge6" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M337.818,-64C348.046,-64 358.416,-64 368.393,-64"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="337.658,-60.5001 327.658,-64 337.658,-67.5001 337.658,-60.5001"/>
-</g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classMWGui_1_1WindowManager.html#a2f52c12d86d6bb31adc62b06cef3de19" target="_top" xlink:title="MWGui::WindowManager\l::onFrame">
-<polygon fill="white" stroke="black" points="371,-0 371,-30 503,-30 503,-0 371,-0"/>
-<text text-anchor="start" x="379" y="-18" font-family="FreeSans" font-size="10.00">MWGui::WindowManager</text>
-<text text-anchor="middle" x="437" y="-7" font-family="FreeSans" font-size="10.00">::onFrame</text>
-</a>
-</g>
-</g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge8" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M337.739,-15C348.789,-15 360.006,-15 370.717,-15"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="337.658,-11.5001 327.658,-15 337.658,-18.5001 337.658,-11.5001"/>
 </g>
 </g>
 </svg>

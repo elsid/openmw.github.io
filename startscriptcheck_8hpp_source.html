@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/startscriptcheck.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/startscriptcheck.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -113,33 +113,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMTools_1_1StartScriptCheckStage.html#aaeab1286e057241d46571e770b35ce48">   15</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::StartScript&gt;</a>&amp; <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#aaeab1286e057241d46571e770b35ce48">mStartScripts</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCSMTools_1_1StartScriptCheckStage.html#a5b0f41a80185b435fb53e837062158ef">   16</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Script&gt;</a>&amp; <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#a5b0f41a80185b435fb53e837062158ef">mScripts</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#ae70ed9efad7e4dbeaa99c4fdcf6d6cea">StartScriptCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::StartScript&gt;</a>&amp; startScripts,</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Script&gt;</a>&amp; scripts);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#a937cfd7fad47df6c6736712af84baa15">perform</a>(<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#ac8b209ca5bac877489378e6c8872b770">setup</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    };</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCSMTools_1_1StartScriptCheckStage.html#a3609ede541f140a49bc6a1034dbba35a">   17</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#a3609ede541f140a49bc6a1034dbba35a">mIgnoreBaseRecords</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#ae70ed9efad7e4dbeaa99c4fdcf6d6cea">StartScriptCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::StartScript&gt;</a>&amp; startScripts,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Script&gt;</a>&amp; scripts);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#a937cfd7fad47df6c6736712af84baa15">perform</a>(<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1StartScriptCheckStage.html#ac8b209ca5bac877489378e6c8872b770">setup</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSMWorld_1_1IdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt; ESM::StartScript &gt;</a></div></div>
 <div class="ttc" id="classCSMDoc_1_1Messages_html"><div class="ttname"><a href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:38</div></div>
-<div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_a937cfd7fad47df6c6736712af84baa15"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#a937cfd7fad47df6c6736712af84baa15">CSMTools::StartScriptCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this stage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> startscriptcheck.cpp:11</div></div>
+<div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_a937cfd7fad47df6c6736712af84baa15"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#a937cfd7fad47df6c6736712af84baa15">CSMTools::StartScriptCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this stage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> startscriptcheck.cpp:15</div></div>
 <div class="ttc" id="classCSMDoc_1_1Stage_html"><div class="ttname"><a href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div><div class="ttdef"><b>Definition:</b> stage.hpp:15</div></div>
-<div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_ac8b209ca5bac877489378e6c8872b770"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#ac8b209ca5bac877489378e6c8872b770">CSMTools::StartScriptCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> startscriptcheck.cpp:27</div></div>
+<div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_ac8b209ca5bac877489378e6c8872b770"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#ac8b209ca5bac877489378e6c8872b770">CSMTools::StartScriptCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> startscriptcheck.cpp:31</div></div>
 <div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_a5b0f41a80185b435fb53e837062158ef"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#a5b0f41a80185b435fb53e837062158ef">CSMTools::StartScriptCheckStage::mScripts</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::Script &gt; &amp; mScripts</div><div class="ttdef"><b>Definition:</b> startscriptcheck.hpp:16</div></div>
 <div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html">CSMTools::StartScriptCheckStage</a></div><div class="ttdef"><b>Definition:</b> startscriptcheck.hpp:13</div></div>
+<div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_a3609ede541f140a49bc6a1034dbba35a"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#a3609ede541f140a49bc6a1034dbba35a">CSMTools::StartScriptCheckStage::mIgnoreBaseRecords</a></div><div class="ttdeci">bool mIgnoreBaseRecords</div><div class="ttdef"><b>Definition:</b> startscriptcheck.hpp:17</div></div>
 <div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_aaeab1286e057241d46571e770b35ce48"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#aaeab1286e057241d46571e770b35ce48">CSMTools::StartScriptCheckStage::mStartScripts</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::StartScript &gt; &amp; mStartScripts</div><div class="ttdef"><b>Definition:</b> startscriptcheck.hpp:15</div></div>
-<div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_ae70ed9efad7e4dbeaa99c4fdcf6d6cea"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#ae70ed9efad7e4dbeaa99c4fdcf6d6cea">CSMTools::StartScriptCheckStage::StartScriptCheckStage</a></div><div class="ttdeci">StartScriptCheckStage(const CSMWorld::IdCollection&lt; ESM::StartScript &gt; &amp;startScripts, const CSMWorld::IdCollection&lt; ESM::Script &gt; &amp;scripts)</div><div class="ttdef"><b>Definition:</b> startscriptcheck.cpp:5</div></div>
+<div class="ttc" id="classCSMTools_1_1StartScriptCheckStage_html_ae70ed9efad7e4dbeaa99c4fdcf6d6cea"><div class="ttname"><a href="classCSMTools_1_1StartScriptCheckStage.html#ae70ed9efad7e4dbeaa99c4fdcf6d6cea">CSMTools::StartScriptCheckStage::StartScriptCheckStage</a></div><div class="ttdeci">StartScriptCheckStage(const CSMWorld::IdCollection&lt; ESM::StartScript &gt; &amp;startScripts, const CSMWorld::IdCollection&lt; ESM::Script &gt; &amp;scripts)</div><div class="ttdef"><b>Definition:</b> startscriptcheck.cpp:7</div></div>
 <div class="ttc" id="loadsscr_8hpp_html"><div class="ttname"><a href="loadsscr_8hpp.html">loadsscr.hpp</a></div></div>
 <div class="ttc" id="loadscpt_8hpp_html"><div class="ttname"><a href="loadscpt_8hpp.html">loadscpt.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

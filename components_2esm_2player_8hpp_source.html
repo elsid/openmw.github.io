@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/esm/player.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/esm/player.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -133,12 +133,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structESM_1_1Player.html#adae5683ec67b67faca1d5a6187fb218e">   34</a></span>&#160;        <a class="code" href="structESM_1_1StatState.html">StatState&lt;int&gt;</a> <a class="code" href="structESM_1_1Player.html#adae5683ec67b67faca1d5a6187fb218e">mSaveAttributes</a>[<a class="code" href="structESM_1_1Attribute.html#a3060ff60a07f9909a967395e69f9ee5cacd49795598665657bd5fd76cc22198d2">ESM::Attribute::Length</a>];</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structESM_1_1Player.html#ab7b140c9555ed89b8ea20b4fb25f9b85">   35</a></span>&#160;        <a class="code" href="structESM_1_1StatState.html">StatState&lt;int&gt;</a> <a class="code" href="structESM_1_1Player.html#ab7b140c9555ed89b8ea20b4fb25f9b85">mSaveSkills</a>[<a class="code" href="structESM_1_1Skill.html#a6c76e3e7116271b76f74f1d08cdd3229a831624ef3642a7f3915a5b6e1406b42c">ESM::Skill::Length</a>];</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Player.html#ad06f11dfee6197d1f9c602f4c972b63b">load</a> (<a class="code" href="classESM_1_1ESMReader.html">ESMReader</a> &amp;esm);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Player.html#a628ec580a7672154cbe37fe97b3ab200">save</a> (<a class="code" href="classESM_1_1ESMWriter.html">ESMWriter</a> &amp;esm) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    };</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structESM_1_1Player.html#a716867141bfa151cbdf1f72a9db6ad7b">   37</a></span>&#160;        <span class="keyword">typedef</span> std::map&lt;std::string, std::string&gt; <a class="code" href="structESM_1_1Player.html#a716867141bfa151cbdf1f72a9db6ad7b">PreviousItems</a>; <span class="comment">// previous equipped items, needed for bound spells</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="structESM_1_1Player.html#ac9abd57a458cbfbf1b2c3e4cc05886bb">   38</a></span>&#160;        <a class="code" href="structESM_1_1Player.html#a716867141bfa151cbdf1f72a9db6ad7b">PreviousItems</a> <a class="code" href="structESM_1_1Player.html#ac9abd57a458cbfbf1b2c3e4cc05886bb">mPreviousItems</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Player.html#ad06f11dfee6197d1f9c602f4c972b63b">load</a> (<a class="code" href="classESM_1_1ESMReader.html">ESMReader</a> &amp;esm);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structESM_1_1Player.html#a628ec580a7672154cbe37fe97b3ab200">save</a> (<a class="code" href="classESM_1_1ESMWriter.html">ESMWriter</a> &amp;esm) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    };</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="structESM_1_1Player_html_ac9abd57a458cbfbf1b2c3e4cc05886bb"><div class="ttname"><a href="structESM_1_1Player.html#ac9abd57a458cbfbf1b2c3e4cc05886bb">ESM::Player::mPreviousItems</a></div><div class="ttdeci">PreviousItems mPreviousItems</div><div class="ttdef"><b>Definition:</b> player.hpp:38</div></div>
 <div class="ttc" id="structESM_1_1StatState_html"><div class="ttname"><a href="structESM_1_1StatState.html">ESM::StatState&lt; int &gt;</a></div></div>
 <div class="ttc" id="structESM_1_1Player_html_ac06a5c26650e5c0f75c2da14b75f2af9"><div class="ttname"><a href="structESM_1_1Player.html#ac06a5c26650e5c0f75c2da14b75f2af9">ESM::Player::mBirthsign</a></div><div class="ttdeci">std::string mBirthsign</div><div class="ttdef"><b>Definition:</b> player.hpp:29</div></div>
 <div class="ttc" id="loadskil_8hpp_html"><div class="ttname"><a href="loadskil_8hpp.html">loadskil.hpp</a></div></div>
@@ -148,8 +152,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structESM_1_1Player_html_adae5683ec67b67faca1d5a6187fb218e"><div class="ttname"><a href="structESM_1_1Player.html#adae5683ec67b67faca1d5a6187fb218e">ESM::Player::mSaveAttributes</a></div><div class="ttdeci">StatState&lt; int &gt; mSaveAttributes[ESM::Attribute::Length]</div><div class="ttdef"><b>Definition:</b> player.hpp:34</div></div>
 <div class="ttc" id="structESM_1_1Skill_html_a6c76e3e7116271b76f74f1d08cdd3229a831624ef3642a7f3915a5b6e1406b42c"><div class="ttname"><a href="structESM_1_1Skill.html#a6c76e3e7116271b76f74f1d08cdd3229a831624ef3642a7f3915a5b6e1406b42c">ESM::Skill::Length</a></div><div class="ttdef"><b>Definition:</b> loadskil.hpp:74</div></div>
 <div class="ttc" id="structESM_1_1Player_html_a54cdcc86d8c59e76cede1328f0b6f965"><div class="ttname"><a href="structESM_1_1Player.html#a54cdcc86d8c59e76cede1328f0b6f965">ESM::Player::mObject</a></div><div class="ttdeci">NpcState mObject</div><div class="ttdef"><b>Definition:</b> player.hpp:22</div></div>
-<div class="ttc" id="structESM_1_1Player_html_a628ec580a7672154cbe37fe97b3ab200"><div class="ttname"><a href="structESM_1_1Player.html#a628ec580a7672154cbe37fe97b3ab200">ESM::Player::save</a></div><div class="ttdeci">void save(ESMWriter &amp;esm) const </div><div class="ttdef"><b>Definition:</b> player.cpp:43</div></div>
+<div class="ttc" id="structESM_1_1Player_html_a628ec580a7672154cbe37fe97b3ab200"><div class="ttname"><a href="structESM_1_1Player.html#a628ec580a7672154cbe37fe97b3ab200">ESM::Player::save</a></div><div class="ttdeci">void save(ESMWriter &amp;esm) const </div><div class="ttdef"><b>Definition:</b> player.cpp:55</div></div>
 <div class="ttc" id="classESM_1_1ESMWriter_html"><div class="ttname"><a href="classESM_1_1ESMWriter.html">ESM::ESMWriter</a></div><div class="ttdef"><b>Definition:</b> esmwriter.hpp:17</div></div>
+<div class="ttc" id="structESM_1_1Player_html_a716867141bfa151cbdf1f72a9db6ad7b"><div class="ttname"><a href="structESM_1_1Player.html#a716867141bfa151cbdf1f72a9db6ad7b">ESM::Player::PreviousItems</a></div><div class="ttdeci">std::map&lt; std::string, std::string &gt; PreviousItems</div><div class="ttdef"><b>Definition:</b> player.hpp:37</div></div>
 <div class="ttc" id="cellid_8hpp_html"><div class="ttname"><a href="cellid_8hpp.html">cellid.hpp</a></div></div>
 <div class="ttc" id="structESM_1_1Player_html_a10848547646e3376a79271dade787f67"><div class="ttname"><a href="structESM_1_1Player.html#a10848547646e3376a79271dade787f67">ESM::Player::mMarkedCell</a></div><div class="ttdeci">CellId mMarkedCell</div><div class="ttdef"><b>Definition:</b> player.hpp:27</div></div>
 <div class="ttc" id="structESM_1_1Player_html_ad6e22ef7d7634c59120a7731e3fe7f94"><div class="ttname"><a href="structESM_1_1Player.html#ad6e22ef7d7634c59120a7731e3fe7f94">ESM::Player::mLastKnownExteriorPosition</a></div><div class="ttdeci">float mLastKnownExteriorPosition[3]</div><div class="ttdef"><b>Definition:</b> player.hpp:24</div></div>
@@ -170,7 +175,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:23 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

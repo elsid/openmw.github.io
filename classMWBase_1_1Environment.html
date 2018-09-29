@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWBase::Environment:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment__coll__graph.svg" width="2106" height="598"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment__coll__graph.svg" width="2106" height="611"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -144,6 +144,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30803dbda925583fe161417f3c9b4d8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1Environment.html#a30803dbda925583fe161417f3c9b4d8b">setFrameDuration</a> (float duration)</td></tr>
 <tr class="memdesc:a30803dbda925583fe161417f3c9b4d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set length of current frame in seconds.  <a href="#a30803dbda925583fe161417f3c9b4d8b">More...</a><br/></td></tr>
 <tr class="separator:a30803dbda925583fe161417f3c9b4d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56e82454dd6d0beee516c3c66bd45da6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1Environment.html#a56e82454dd6d0beee516c3c66bd45da6">setFrameRateLimit</a> (float frameRateLimit)</td></tr>
+<tr class="separator:a56e82454dd6d0beee516c3c66bd45da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a267e581a9a3dad3d4870233bee0b88"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1Environment.html#a2a267e581a9a3dad3d4870233bee0b88">getFrameRateLimit</a> () const </td></tr>
+<tr class="separator:a2a267e581a9a3dad3d4870233bee0b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fea51a104c72f9f43effcfe423afcf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1Environment.html#a5fea51a104c72f9f43effcfe423afcf9">limitFrameRate</a> (double dt) const </td></tr>
+<tr class="separator:a5fea51a104c72f9f43effcfe423afcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae14e166d8f5ff8629be119333d502660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWBase_1_1World.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660">getWorld</a> () const </td></tr>
 <tr class="separator:ae14e166d8f5ff8629be119333d502660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4506cf05dc1136ff7262f69a7a0860c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWBase_1_1SoundManager.html">SoundManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1">getSoundManager</a> () const </td></tr>
@@ -205,6 +211,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9790e36c2b76d388cc90030f0b225748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af625a898755b8aed3b854fc999ad06c6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1Environment.html#af625a898755b8aed3b854fc999ad06c6">mFrameDuration</a></td></tr>
 <tr class="separator:af625a898755b8aed3b854fc999ad06c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c35cd0cb8b3d5e433a9ed93b0d162a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1Environment.html#a90c35cd0cb8b3d5e433a9ed93b0d162a">mFrameRateLimit</a></td></tr>
+<tr class="separator:a90c35cd0cb8b3d5e433a9ed93b0d162a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -331,7 +339,7 @@ Static Private Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_a772a5fed081fca8ac127ce997c5fa9a3_icgraph.svg" width="1251" height="2275"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_a772a5fed081fca8ac127ce997c5fa9a3_icgraph.svg" width="1339" height="1814"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -354,7 +362,30 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_ab33533f19f73c1d99d08f8d2b66687de_icgraph.svg" width="1755" height="702"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_ab33533f19f73c1d99d08f8d2b66687de_icgraph.svg" width="1755" height="699"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2a267e581a9a3dad3d4870233bee0b88"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MWBase::Environment::getFrameRateLimit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_a2a267e581a9a3dad3d4870233bee0b88_icgraph.svg" width="1075" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -377,7 +408,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_a4c428318d9f8a484ee5a3538e84103ba_icgraph.svg" width="1200" height="1867"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_a4c428318d9f8a484ee5a3538e84103ba_icgraph.svg" width="1419" height="1779"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -476,7 +507,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_ae60832df5f6fa126b04ebae43e075bfd_icgraph.svg" width="2014" height="1147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_ae60832df5f6fa126b04ebae43e075bfd_icgraph.svg" width="1534" height="1210"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -510,6 +541,30 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5fea51a104c72f9f43effcfe423afcf9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWBase::Environment::limitFrameRate </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1Environment_a5fea51a104c72f9f43effcfe423afcf9_icgraph.svg" width="656" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -570,6 +625,22 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Set length of current frame in seconds. </p>
+
+</div>
+</div>
+<a class="anchor" id="a56e82454dd6d0beee516c3c66bd45da6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWBase::Environment::setFrameRateLimit </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>frameRateLimit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -731,6 +802,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">float MWBase::Environment::mFrameDuration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a90c35cd0cb8b3d5e433a9ed93b0d162a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MWBase::Environment::mFrameRateLimit</td>
         </tr>
       </table>
   </td>
@@ -923,13 +1014,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwbase/<a class="el" href="environment_8hpp_source.html">environment.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwbase/<a class="el" href="environment_8cpp.html">environment.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwbase/<a class="el" href="environment_8hpp_source.html">environment.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwbase/<a class="el" href="environment_8cpp.html">environment.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,31 +1,31 @@
 <map id="MWGui::SettingsWindow::onResolutionSelected" name="MWGui::SettingsWindow::onResolutionSelected">
-<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="735,188,929,215"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="749,239,915,281"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1WindowManager.html#a44278ba1956ea9dea0dc636983291834" title="MWBase::WindowManager\l::getConfirmationDialog" alt="" coords="231,625,417,666"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1ConfirmationDialog.html#a586c6ab382eaddb22b5819b3b782a23d" title="MWGui::ConfirmationDialog\l::askForConfirmation" alt="" coords="227,225,421,266"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1SettingsWindow.html#a101a0a799ee03ee1154855d323526d40" title="MWGui::SettingsWindow\l::onResolutionAccept" alt="" coords="237,494,411,535"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1SettingsWindow.html#a014e66544e6ebfe04edf70987fcf332c" title="MWGui::SettingsWindow\l::onResolutionCancel" alt="" coords="237,559,411,601"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea" title="Sets the visibility of the window. " alt="" coords="488,151,648,193"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c" title="MWGui::WindowBase::\lcenter" alt="" coords="488,225,648,266"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" title="Notify that window has been made visible. " alt="" coords="736,5,928,32"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" title="Notify that window has been hidden. " alt="" coords="752,57,912,98"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="739,122,925,163"/>
-<area shape="rect" id="node12" href="$namespaceanonymous__namespace_02settingswindow_8cpp_03.html#aeff426f3dd556a87fb23e8c247ce7070" title="anonymous_namespace\l\{settingswindow::cpp\}\l::parseResolution" alt="" coords="743,957,921,1013"/>
-<area shape="rect" id="node15" href="$classSettings_1_1Manager.html#af72c5eb316e8605a2b800071690f5f71" title="Settings::Manager::\lsetInt" alt="" coords="495,827,641,869"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1SettingsWindow.html#a4ef263cc91a3eb0e8dd71614b10f47a1" title="MWGui::SettingsWindow\l::apply" alt="" coords="481,494,655,535"/>
-<area shape="rect" id="node13" href="$namespaceMWMechanics.html#a1fe981b47f89365d1b67c713e0c04b16" title="MWMechanics::split" alt="" coords="1015,945,1161,972"/>
-<area shape="rect" id="node14" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a1b1be5e90ec855097d0bb28ea12e3e1f" title="anonymous_namespace\l\{settings::cpp\}::parseInt" alt="" coords="998,997,1178,1038"/>
-<area shape="rect" id="node16" href="$classSettings_1_1Manager.html#acead7bf409b5b14c78af0572add22264" title="Settings::Manager::\lsetString" alt="" coords="759,893,905,934"/>
-<area shape="rect" id="node17" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a7a7cee298f001cdc54762d4b9d444e38" title="anonymous_namespace\l\{settings::cpp\}::toString" alt="" coords="743,827,921,869"/>
-<area shape="rect" id="node19" href="$classSettings_1_1Manager.html#a75df482528da6ada283a591b16a012a2" title="returns the list of changed settings and then clears it " alt="" coords="759,501,905,542"/>
-<area shape="rect" id="node20" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="749,566,915,607"/>
-<area shape="rect" id="node21" href="$classMWBase_1_1World.html#a54a6148de911502027a6012af14478fe" title="MWBase::World::processChanged\lSettings" alt="" coords="715,631,949,673"/>
-<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="749,697,915,738"/>
-<area shape="rect" id="node23" href="$classMWBase_1_1SoundManager.html#a14e834196f24da15891517890b4941e6" title="MWBase::SoundManager\l::processChangedSettings" alt="" coords="737,762,927,803"/>
-<area shape="rect" id="node24" href="$classMWBase_1_1WindowManager.html#a741c19bbe04f26c531535b0318380fd1" title="MWBase::WindowManager\l::processChangedSettings" alt="" coords="737,305,927,346"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1Environment.html#a4c428318d9f8a484ee5a3538e84103ba" title="MWBase::Environment\l::getInputManager" alt="" coords="749,370,915,411"/>
-<area shape="rect" id="node26" href="$classMWBase_1_1InputManager.html#a06fbceec0f84c5e6cf9df3ac0f4eac30" title="MWBase::InputManager\l::processChangedSettings" alt="" coords="737,435,927,477"/>
-<area shape="rect" id="node28" href="$classMWGui_1_1SettingsWindow.html#ad03e33fb05a673c8dee33968b2b5235d" title="MWGui::SettingsWindow\l::highlightCurrentResolution" alt="" coords="469,965,667,1006"/>
-<area shape="rect" id="node29" href="$classSettings_1_1Manager.html#a57ac366d14d68b494079c5ece3919415" title="Settings::Manager::\lgetInt" alt="" coords="759,1037,905,1078"/>
-<area shape="rect" id="node30" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="1015,1062,1161,1103"/>
+<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="735,5,929,32"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="749,253,915,294"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1WindowManager.html#a44278ba1956ea9dea0dc636983291834" title="MWBase::WindowManager\l::getConfirmationDialog" alt="" coords="231,618,417,659"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1ConfirmationDialog.html#aab75f39a7f7857b3bae9d0380b50ac37" title="MWGui::ConfirmationDialog\l::askForConfirmation" alt="" coords="227,210,421,251"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1SettingsWindow.html#a101a0a799ee03ee1154855d323526d40" title="MWGui::SettingsWindow\l::onResolutionAccept" alt="" coords="237,487,411,529"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1SettingsWindow.html#a014e66544e6ebfe04edf70987fcf332c" title="MWGui::SettingsWindow\l::onResolutionCancel" alt="" coords="237,553,411,594"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea" title="Sets the visibility of the window. " alt="" coords="488,122,648,163"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="739,187,925,229"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c" title="MWGui::WindowBase::\lcenter" alt="" coords="488,239,648,281"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" title="Notify that window has been made visible. " alt="" coords="752,57,912,98"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" title="Notify that window has been hidden. " alt="" coords="752,122,912,163"/>
+<area shape="rect" id="node12" href="$namespaceanonymous__namespace_02settingswindow_8cpp_03.html#aeff426f3dd556a87fb23e8c247ce7070" title="anonymous_namespace\l\{settingswindow::cpp\}\l::parseResolution" alt="" coords="743,971,921,1027"/>
+<area shape="rect" id="node15" href="$classSettings_1_1Manager.html#af72c5eb316e8605a2b800071690f5f71" title="Settings::Manager::\lsetInt" alt="" coords="495,841,641,882"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1SettingsWindow.html#a4ef263cc91a3eb0e8dd71614b10f47a1" title="MWGui::SettingsWindow\l::apply" alt="" coords="481,487,655,529"/>
+<area shape="rect" id="node13" href="$namespaceMWMechanics.html#a1fe981b47f89365d1b67c713e0c04b16" title="MWMechanics::split" alt="" coords="1015,959,1161,985"/>
+<area shape="rect" id="node14" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a1b1be5e90ec855097d0bb28ea12e3e1f" title="anonymous_namespace\l\{settings::cpp\}::parseInt" alt="" coords="998,1010,1178,1051"/>
+<area shape="rect" id="node16" href="$classSettings_1_1Manager.html#acead7bf409b5b14c78af0572add22264" title="Settings::Manager::\lsetString" alt="" coords="759,841,905,882"/>
+<area shape="rect" id="node17" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a7a7cee298f001cdc54762d4b9d444e38" title="anonymous_namespace\l\{settings::cpp\}::toString" alt="" coords="743,906,921,947"/>
+<area shape="rect" id="node19" href="$classSettings_1_1Manager.html#a75df482528da6ada283a591b16a012a2" title="returns the list of changed settings and then clears it " alt="" coords="759,645,905,686"/>
+<area shape="rect" id="node20" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="749,710,915,751"/>
+<area shape="rect" id="node21" href="$classMWBase_1_1World.html#a54a6148de911502027a6012af14478fe" title="MWBase::World::processChanged\lSettings" alt="" coords="715,775,949,817"/>
+<area shape="rect" id="node22" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="749,318,915,359"/>
+<area shape="rect" id="node23" href="$classMWBase_1_1SoundManager.html#a14e834196f24da15891517890b4941e6" title="MWBase::SoundManager\l::processChangedSettings" alt="" coords="737,383,927,425"/>
+<area shape="rect" id="node24" href="$classMWBase_1_1WindowManager.html#a741c19bbe04f26c531535b0318380fd1" title="MWBase::WindowManager\l::processChangedSettings" alt="" coords="737,449,927,490"/>
+<area shape="rect" id="node25" href="$classMWBase_1_1Environment.html#a4c428318d9f8a484ee5a3538e84103ba" title="MWBase::Environment\l::getInputManager" alt="" coords="749,514,915,555"/>
+<area shape="rect" id="node26" href="$classMWBase_1_1InputManager.html#a06fbceec0f84c5e6cf9df3ac0f4eac30" title="MWBase::InputManager\l::processChangedSettings" alt="" coords="737,579,927,621"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1SettingsWindow.html#ad03e33fb05a673c8dee33968b2b5235d" title="MWGui::SettingsWindow\l::highlightCurrentResolution" alt="" coords="469,978,667,1019"/>
+<area shape="rect" id="node29" href="$classSettings_1_1Manager.html#a57ac366d14d68b494079c5ece3919415" title="Settings::Manager::\lgetInt" alt="" coords="759,1050,905,1091"/>
+<area shape="rect" id="node30" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="1015,1075,1161,1117"/>
 </map>

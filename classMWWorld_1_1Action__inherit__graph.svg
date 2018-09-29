@@ -33,19 +33,20 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWWorld_1_1ActionAlchemy.html" target="_top" xlink:title="{MWWorld::ActionAlchemy\n||&#45; executeImp()\l}">
-<polygon fill="white" stroke="black" points="0,-28.5 0,-85.5 136,-85.5 136,-28.5 0,-28.5"/>
-<text text-anchor="middle" x="68" y="-73.5" font-family="FreeSans" font-size="10.00">MWWorld::ActionAlchemy</text>
-<polyline fill="none" stroke="black" points="0,-66.5 136,-66.5 "/>
-<text text-anchor="middle" x="68" y="-54.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="0,-47.5 136,-47.5 "/>
-<text text-anchor="start" x="8" y="-35.5" font-family="FreeSans" font-size="10.00">&#45; executeImp()</text>
+<g id="a_node2"><a xlink:href="classMWWorld_1_1ActionAlchemy.html" target="_top" xlink:title="{MWWorld::ActionAlchemy\n|&#45; mForce\l|+ ActionAlchemy()\l&#45; executeImp()\l}">
+<polygon fill="white" stroke="black" points="0,-23 0,-91 136,-91 136,-23 0,-23"/>
+<text text-anchor="middle" x="68" y="-79" font-family="FreeSans" font-size="10.00">MWWorld::ActionAlchemy</text>
+<polyline fill="none" stroke="black" points="0,-72 136,-72 "/>
+<text text-anchor="start" x="8" y="-60" font-family="FreeSans" font-size="10.00">&#45; mForce</text>
+<polyline fill="none" stroke="black" points="0,-53 136,-53 "/>
+<text text-anchor="start" x="8" y="-41" font-family="FreeSans" font-size="10.00">+ ActionAlchemy()</text>
+<text text-anchor="start" x="8" y="-30" font-family="FreeSans" font-size="10.00">&#45; executeImp()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M1057.83,-245.089C867.025,-230.063 312.517,-181.586 145,-114 128.291,-107.259 111.852,-96.1059 98.4815,-85.5203"/>
+<path fill="none" stroke="midnightblue" d="M1057.83,-245.089C867.025,-230.063 312.517,-181.586 145,-114 131.204,-108.434 117.591,-99.86 105.738,-91.0812"/>
 <polygon fill="none" stroke="midnightblue" points="1057.74,-248.593 1067.99,-245.885 1058.29,-241.615 1057.74,-248.593"/>
 </g>
 <!-- Node3 -->
@@ -125,11 +126,11 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classMWWorld_1_1ActionEquip.html" target="_top" xlink:title="{MWWorld::ActionEquip\n||+ ActionEquip()\l&#45; executeImp()\l}">
+<g id="a_node7"><a xlink:href="classMWWorld_1_1ActionEquip.html" target="_top" xlink:title="{MWWorld::ActionEquip\n|&#45; mForce\l|+ ActionEquip()\l&#45; executeImp()\l}">
 <polygon fill="white" stroke="black" points="717.5,-23 717.5,-91 838.5,-91 838.5,-23 717.5,-23"/>
 <text text-anchor="middle" x="778" y="-79" font-family="FreeSans" font-size="10.00">MWWorld::ActionEquip</text>
 <polyline fill="none" stroke="black" points="717.5,-72 838.5,-72 "/>
-<text text-anchor="middle" x="778" y="-60" font-family="FreeSans" font-size="10.00"> </text>
+<text text-anchor="start" x="725.5" y="-60" font-family="FreeSans" font-size="10.00">&#45; mForce</text>
 <polyline fill="none" stroke="black" points="717.5,-53 838.5,-53 "/>
 <text text-anchor="start" x="725.5" y="-41" font-family="FreeSans" font-size="10.00">+ ActionEquip()</text>
 <text text-anchor="start" x="725.5" y="-30" font-family="FreeSans" font-size="10.00">&#45; executeImp()</text>
@@ -143,11 +144,11 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classMWWorld_1_1ActionOpen.html" target="_top" xlink:title="{MWWorld::ActionOpen\n|&#45; mLoot\l|+ ActionOpen()\l&#45; executeImp()\l}">
+<g id="a_node8"><a xlink:href="classMWWorld_1_1ActionOpen.html" target="_top" xlink:title="{MWWorld::ActionOpen\n||+ ActionOpen()\l&#45; executeImp()\l}">
 <polygon fill="white" stroke="black" points="857,-23 857,-91 977,-91 977,-23 857,-23"/>
 <text text-anchor="middle" x="917" y="-79" font-family="FreeSans" font-size="10.00">MWWorld::ActionOpen</text>
 <polyline fill="none" stroke="black" points="857,-72 977,-72 "/>
-<text text-anchor="start" x="865" y="-60" font-family="FreeSans" font-size="10.00">&#45; mLoot</text>
+<text text-anchor="middle" x="917" y="-60" font-family="FreeSans" font-size="10.00"> </text>
 <polyline fill="none" stroke="black" points="857,-53 977,-53 "/>
 <text text-anchor="start" x="865" y="-41" font-family="FreeSans" font-size="10.00">+ ActionOpen()</text>
 <text text-anchor="start" x="865" y="-30" font-family="FreeSans" font-size="10.00">&#45; executeImp()</text>
@@ -179,11 +180,11 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classMWWorld_1_1ActionRepair.html" target="_top" xlink:title="{MWWorld::ActionRepair\n||+ ActionRepair()\l&#45; executeImp()\l}">
+<g id="a_node10"><a xlink:href="classMWWorld_1_1ActionRepair.html" target="_top" xlink:title="{MWWorld::ActionRepair\n|&#45; mForce\l|+ ActionRepair()\l&#45; executeImp()\l}">
 <polygon fill="white" stroke="black" points="1131,-23 1131,-91 1255,-91 1255,-23 1131,-23"/>
 <text text-anchor="middle" x="1193" y="-79" font-family="FreeSans" font-size="10.00">MWWorld::ActionRepair</text>
 <polyline fill="none" stroke="black" points="1131,-72 1255,-72 "/>
-<text text-anchor="middle" x="1193" y="-60" font-family="FreeSans" font-size="10.00"> </text>
+<text text-anchor="start" x="1139" y="-60" font-family="FreeSans" font-size="10.00">&#45; mForce</text>
 <polyline fill="none" stroke="black" points="1131,-53 1255,-53 "/>
 <text text-anchor="start" x="1139" y="-41" font-family="FreeSans" font-size="10.00">+ ActionRepair()</text>
 <text text-anchor="start" x="1139" y="-30" font-family="FreeSans" font-size="10.00">&#45; executeImp()</text>

@@ -83,9 +83,9 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" target="_top" xlink:title="Throws an exception if GMST is not of type int or float. ">
-<polygon fill="white" stroke="black" points="184,-289.5 184,-308.5 336,-308.5 336,-289.5 184,-289.5"/>
-<text text-anchor="middle" x="260" y="-296.5" font-family="FreeSans" font-size="10.00">ESM::GameSetting::getFloat</text>
+<g id="a_node7"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
+<polygon fill="white" stroke="black" points="199,-289.5 199,-308.5 321,-308.5 321,-289.5 199,-289.5"/>
+<text text-anchor="middle" x="260" y="-296.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
 </a>
 </g>
 </g>
@@ -94,135 +94,122 @@
 <path fill="none" stroke="midnightblue" d="M141.632,-275.15C161.525,-279.192 182.963,-283.549 202.004,-287.418"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="201.519,-290.891 212.016,-289.452 202.913,-284.031 201.519,-290.891"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" target="_top" xlink:title="MWWorld::Ptr::isEmpty">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" target="_top" xlink:title="MWWorld::Ptr::isEmpty">
 <polygon fill="white" stroke="black" points="199,-251.5 199,-270.5 321,-270.5 321,-251.5 199,-251.5"/>
 <text text-anchor="middle" x="260" y="-258.5" font-family="FreeSans" font-size="10.00">MWWorld::Ptr::isEmpty</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M141.632,-261C156.903,-261 173.085,-261 188.394,-261"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="188.831,-264.5 198.831,-261 188.831,-257.5 188.831,-264.5"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" target="_top" xlink:title="MWWorld::Ptr::getClass">
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" target="_top" xlink:title="MWWorld::Ptr::getClass">
 <polygon fill="white" stroke="black" points="197.5,-213.5 197.5,-232.5 322.5,-232.5 322.5,-213.5 197.5,-213.5"/>
 <text text-anchor="middle" x="260" y="-220.5" font-family="FreeSans" font-size="10.00">MWWorld::Ptr::getClass</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M141.632,-246.85C161.525,-242.808 182.963,-238.451 202.004,-234.582"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="202.913,-237.969 212.016,-232.548 201.519,-231.109 202.913,-237.969"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classMWWorld_1_1Class.html#a34eba4af23abc1b06b41fc93bf816b5c" target="_top" xlink:title="MWWorld::Class::getSkill">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="classMWWorld_1_1Class.html#a34eba4af23abc1b06b41fc93bf816b5c" target="_top" xlink:title="MWWorld::Class::getSkill">
 <polygon fill="white" stroke="black" points="194.5,-175.5 194.5,-194.5 325.5,-194.5 325.5,-175.5 194.5,-175.5"/>
 <text text-anchor="middle" x="260" y="-182.5" font-family="FreeSans" font-size="10.00">MWWorld::Class::getSkill</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node11 -->
-<g id="edge10" class="edge"><title>Node1&#45;&gt;Node11</title>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M95.562,-245.989C116.497,-233.231 148.297,-215.244 178,-204 184.78,-201.433 192.014,-199.143 199.265,-197.119"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="200.342,-200.455 209.12,-194.523 198.559,-193.686 200.342,-200.455"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classMWWorld_1_1Class.html#acf147f9b28758f5515f382777ef97f05" target="_top" xlink:title="MWWorld::Class::getEquipment\lSkill">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="classMWWorld_1_1Class.html#acf147f9b28758f5515f382777ef97f05" target="_top" xlink:title="MWWorld::Class::getEquipment\lSkill">
 <polygon fill="white" stroke="black" points="178,-126 178,-156 342,-156 342,-126 178,-126"/>
 <text text-anchor="start" x="186" y="-144" font-family="FreeSans" font-size="10.00">MWWorld::Class::getEquipment</text>
 <text text-anchor="middle" x="260" y="-133" font-family="FreeSans" font-size="10.00">Skill</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node12 -->
-<g id="edge11" class="edge"><title>Node1&#45;&gt;Node12</title>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge10" class="edge"><title>Node1&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M84.8635,-245.951C103.426,-225.132 139.719,-187.667 178,-166 181.85,-163.821 185.913,-161.808 190.086,-159.954"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="191.438,-163.183 199.356,-156.143 188.776,-156.708 191.438,-163.183"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" target="_top" xlink:title="MWWorld::Ptr::get">
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" target="_top" xlink:title="MWWorld::Ptr::get">
 <polygon fill="white" stroke="black" points="210,-87.5 210,-106.5 310,-106.5 310,-87.5 210,-87.5"/>
 <text text-anchor="middle" x="260" y="-94.5" font-family="FreeSans" font-size="10.00">MWWorld::Ptr::get</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node13 -->
-<g id="edge12" class="edge"><title>Node1&#45;&gt;Node13</title>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge11" class="edge"><title>Node1&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M78.8301,-245.641C92.8736,-215.905 127.93,-150.464 178,-117 184.605,-112.586 192.097,-109.145 199.794,-106.463"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="201.066,-109.734 209.601,-103.456 199.014,-103.042 201.066,-109.734"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classMWBase_1_1World.html#afcb13e418993a9442cf3a02275fa211d" target="_top" xlink:title="MWBase::World::isSwimming">
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="classMWBase_1_1World.html#afcb13e418993a9442cf3a02275fa211d" target="_top" xlink:title="MWBase::World::isSwimming">
 <polygon fill="white" stroke="black" points="184,-49.5 184,-68.5 336,-68.5 336,-49.5 184,-49.5"/>
 <text text-anchor="middle" x="260" y="-56.5" font-family="FreeSans" font-size="10.00">MWBase::World::isSwimming</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node16 -->
-<g id="edge15" class="edge"><title>Node1&#45;&gt;Node16</title>
+<!-- Node1&#45;&gt;Node15 -->
+<g id="edge14" class="edge"><title>Node1&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M76.2076,-245.905C86.8702,-210.577 118.428,-122.178 178,-78 180.529,-76.1246 183.214,-74.4308 186.011,-72.9014"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="187.705,-75.973 195.269,-68.5545 184.729,-69.6367 187.705,-75.973"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classMWWorld_1_1Class.html#ada0af1a43244d374f539cb33992c65fc" target="_top" xlink:title="MWWorld::Class::getArmor\lRating">
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="classMWWorld_1_1Class.html#ada0af1a43244d374f539cb33992c65fc" target="_top" xlink:title="MWWorld::Class::getArmor\lRating">
 <polygon fill="white" stroke="black" points="189,-0 189,-30 331,-30 331,-0 189,-0"/>
 <text text-anchor="start" x="197" y="-18" font-family="FreeSans" font-size="10.00">MWWorld::Class::getArmor</text>
 <text text-anchor="middle" x="260" y="-7" font-family="FreeSans" font-size="10.00">Rating</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node17 -->
-<g id="edge16" class="edge"><title>Node1&#45;&gt;Node17</title>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge15" class="edge"><title>Node1&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M74.8917,-245.843C83.2911,-205.986 111.445,-97.3759 178,-40 179.951,-38.3183 182.013,-36.7498 184.163,-35.2867"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="186.016,-38.2572 192.837,-30.1504 182.449,-32.2339 186.016,-38.2572"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
-<polygon fill="white" stroke="black" points="392,-289.5 392,-308.5 514,-308.5 514,-289.5 392,-289.5"/>
-<text text-anchor="middle" x="453" y="-296.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
-</a>
-</g>
-</g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M336.214,-299C351.227,-299 366.941,-299 381.778,-299"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="381.891,-302.5 391.89,-299 381.89,-295.5 381.891,-302.5"/>
-</g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" target="_top" xlink:title="MWWorld::Ptr::getTypeName">
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" target="_top" xlink:title="MWWorld::Ptr::getTypeName">
 <polygon fill="white" stroke="black" points="378,-87.5 378,-106.5 528,-106.5 528,-87.5 378,-87.5"/>
 <text text-anchor="middle" x="453" y="-94.5" font-family="FreeSans" font-size="10.00">MWWorld::Ptr::getTypeName</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
-<g id="edge13" class="edge"><title>Node13&#45;&gt;Node14</title>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge12" class="edge"><title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M310.187,-97C327.694,-97 347.941,-97 367.557,-97"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="367.74,-100.5 377.74,-97 367.74,-93.5001 367.74,-100.5"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" target="_top" xlink:title="MWWorld::Class::getTypeName">
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" target="_top" xlink:title="MWWorld::Class::getTypeName">
 <polygon fill="white" stroke="black" points="564,-87.5 564,-106.5 726,-106.5 726,-87.5 564,-87.5"/>
 <text text-anchor="middle" x="645" y="-94.5" font-family="FreeSans" font-size="10.00">MWWorld::Class::getTypeName</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node15 -->
-<g id="edge14" class="edge"><title>Node14&#45;&gt;Node15</title>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge13" class="edge"><title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M528.003,-97C536.466,-97 545.163,-97 553.806,-97"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="553.911,-100.5 563.911,-97 553.911,-93.5001 553.911,-100.5"/>
 </g>

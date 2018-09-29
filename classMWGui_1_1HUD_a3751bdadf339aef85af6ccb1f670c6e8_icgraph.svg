@@ -16,15 +16,15 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWGui_1_1HUD.html#a3e030180492b74b5e54016b989d5f07e" target="_top" xlink:title="MWGui::HUD::update">
-<polygon fill="white" stroke="black" points="241.5,-51.5 241.5,-70.5 358.5,-70.5 358.5,-51.5 241.5,-51.5"/>
-<text text-anchor="middle" x="300" y="-58.5" font-family="FreeSans" font-size="10.00">MWGui::HUD::update</text>
+<g id="a_node2"><a xlink:href="classMWGui_1_1HUD.html#a884b7d30a63c3ee4de03adf2f6911531" target="_top" xlink:title="Called every frame if the window is in an active GUI mode. ">
+<polygon fill="white" stroke="black" points="237.5,-51.5 237.5,-70.5 362.5,-70.5 362.5,-51.5 237.5,-51.5"/>
+<text text-anchor="middle" x="300" y="-58.5" font-family="FreeSans" font-size="10.00">MWGui::HUD::onFrame</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M200.395,-50.5945C214.435,-52.076 228.45,-53.5551 241.324,-54.9136"/>
+<path fill="none" stroke="midnightblue" d="M200.298,-50.5842C212.925,-51.9167 225.534,-53.2473 237.313,-54.4903"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="200.496,-47.0858 190.184,-49.5169 199.761,-54.0471 200.496,-47.0858"/>
 </g>
 <!-- Node4 -->
@@ -42,17 +42,17 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWGui_1_1WindowManager.html#ad5ec44de27deec8fd33e4e2160360f94" target="_top" xlink:title="MWGui::WindowManager\l::update">
+<g id="a_node3"><a xlink:href="classMWGui_1_1WindowManager.html#a2f52c12d86d6bb31adc62b06cef3de19" target="_top" xlink:title="MWGui::WindowManager\l::onFrame">
 <polygon fill="white" stroke="black" points="402,-49 402,-79 534,-79 534,-49 402,-49"/>
 <text text-anchor="start" x="410" y="-67" font-family="FreeSans" font-size="10.00">MWGui::WindowManager</text>
-<text text-anchor="middle" x="468" y="-56" font-family="FreeSans" font-size="10.00">::update</text>
+<text text-anchor="middle" x="468" y="-56" font-family="FreeSans" font-size="10.00">::onFrame</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M368.891,-62.227C379.774,-62.4236 391.015,-62.6268 401.833,-62.8223"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="368.655,-58.7222 358.593,-62.0408 368.528,-65.7211 368.655,-58.7222"/>
+<path fill="none" stroke="midnightblue" d="M373.075,-62.3026C382.627,-62.4752 392.375,-62.6514 401.802,-62.8217"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="372.874,-58.7984 362.812,-62.1171 372.747,-65.7973 372.874,-58.7984"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>

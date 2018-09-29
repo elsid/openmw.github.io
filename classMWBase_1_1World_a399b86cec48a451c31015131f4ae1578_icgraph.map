@@ -1,16 +1,22 @@
 <map id="MWBase::World::isFlying" name="MWBase::World::isFlying">
-<area shape="rect" id="node2" href="$classMWMechanics_1_1AiPackage.html#a2029e622b1ff9bb4ab55dcd55649ad4f" title="MWMechanics::AiPackage\l::shortcutPath" alt="" coords="257,5,441,46"/>
-<area shape="rect" id="node3" href="$classMWMechanics_1_1AiPackage.html#a63aaed0e3a5a8fcd2c309dae88465ace" title="Check if the way to the destination is clear, taking into account actor speed. " alt="" coords="255,70,444,111"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1CharacterController.html#aca36244b01b14efca38a8e619222dd96" title="MWMechanics::CharacterController\l::refreshMovementAnims" alt="" coords="227,135,471,177"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="814,194,1058,235"/>
-<area shape="rect" id="node11" href="$classMWPhysics_1_1PhysicsSystem.html#a9277c35247eb2b649168b77e62cad326" title="Apply all queued movements, then clear the list. " alt="" coords="252,253,447,294"/>
-<area shape="rect" id="node15" href="$classMWScript_1_1Misc_1_1OpGetPcJumping.html#a30efc6c4cde4339398f09f2528c986b6" title="MWScript::Misc::OpGetPcJumping\l::execute" alt="" coords="233,318,465,359"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1CharacterController.html#a583dc9b83b06b368c48ac9abd1355902" title="MWMechanics::CharacterController\l::refreshCurrentAnims" alt="" coords="521,133,765,174"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1CharacterController.html#a47540403fbd9f18bbe047cff2c5a3c5f" title="MWMechanics::CharacterController\l::CharacterController" alt="" coords="814,63,1058,105"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1CharacterController.html#a81f372cb6cf17fe5b2e49a1d00a99114" title="MWMechanics::CharacterController\l::forceStateUpdate" alt="" coords="814,129,1058,170"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1133,194,1293,235"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1368,194,1611,235"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1World.html#a2f5d290bb1dd1000c604b0bd488567c7" title="Run physics simulation and modify world accordingly. " alt="" coords="547,260,738,287"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1World.html#abf77486e8f0325210afe56bbe2021960" title="MWWorld::World::update" alt="" coords="849,260,1023,287"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1World.html#ab658191aa2c94a4ea8256db10678c102" title="MWWorld::World::createRecord" alt="" coords="1107,260,1319,287"/>
+<area shape="rect" id="node2" href="$classMWMechanics_1_1AiPackage.html#ac6b7be6f9b3738834f5bb81d55871ec0" title="Handles path building and shortcutting with obstacles avoiding. " alt="" coords="257,234,441,275"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1AiPackage.html#a63aaed0e3a5a8fcd2c309dae88465ace" title="Check if the way to the destination is clear, taking into account actor speed. " alt="" coords="255,435,444,477"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1AiWander.html#a5e3c9c52cd020409ce338b1eae76224d" title="MWMechanics::AiWander\l::reactionTimeActions" alt="" coords="847,442,1025,483"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1CharacterController.html#a38de53aea957843d35240393575e5058" title="MWMechanics::CharacterController\l::refreshMovementAnims" alt="" coords="227,553,471,594"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="814,638,1058,679"/>
+<area shape="rect" id="node21" href="$classMWPhysics_1_1PhysicsSystem.html#a9277c35247eb2b649168b77e62cad326" title="Apply all queued movements, then clear the list. " alt="" coords="252,670,447,711"/>
+<area shape="rect" id="node3" href="$classMWMechanics_1_1AiActivate.html#a973f4cacaa0a8e9ce51a549ec49bd624" title="MWMechanics::AiActivate\l::execute" alt="" coords="551,5,734,46"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="551,70,734,111"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1AiEscort.html#a8e777d65cdd79467e0cf3ca8a2b5ac64" title="MWMechanics::AiEscort\l::execute" alt="" coords="557,135,728,177"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1AiFollow.html#a46a78984dc926468b9db0ae888906a4f" title="MWMechanics::AiFollow\l::execute" alt="" coords="558,201,727,242"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1AiPursue.html#a10d92ff90997658bcdbd28030e9beb4c" title="MWMechanics::AiPursue\l::execute" alt="" coords="555,266,730,307"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1AiTravel.html#a4bddb7ecc2f427141eaf73cc91cfa6fd" title="MWMechanics::AiTravel\l::execute" alt="" coords="559,331,726,373"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1AiWander.html#a8add04d52848e2e29c918cb639299af5" title="MWMechanics::AiWander\l::onWalkingStatePerFrameActions" alt="" coords="525,397,761,438"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1AiWander.html#a67316f42d6e11e16f7e1bab961549cf1" title="MWMechanics::AiWander\l::doPerFrameActionsForState" alt="" coords="831,377,1041,418"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1AiWander.html#a77aa326ba83d5024ec4cc5ebd207fa92" title="MWMechanics::AiWander\l::execute" alt="" coords="1107,410,1285,451"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CharacterController.html#a583dc9b83b06b368c48ac9abd1355902" title="MWMechanics::CharacterController\l::refreshCurrentAnims" alt="" coords="521,553,765,594"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CharacterController.html#a47540403fbd9f18bbe047cff2c5a3c5f" title="MWMechanics::CharacterController\l::CharacterController" alt="" coords="814,507,1058,549"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1CharacterController.html#a81f372cb6cf17fe5b2e49a1d00a99114" title="MWMechanics::CharacterController\l::forceStateUpdate" alt="" coords="814,573,1058,614"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1116,638,1276,679"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1333,638,1576,679"/>
 </map>

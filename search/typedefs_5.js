@@ -7,5 +7,5 @@ var searchData=
   ['floatinterpolator',['FloatInterpolator',['../namespaceNifOsg.html#a13c0f6132ff92d9203c4f9280cd23676',1,'NifOsg']]],
   ['floatkey',['FloatKey',['../namespaceNif.html#a7a69667acb55b5df069105f7fe248a2d',1,'Nif']]],
   ['floatkeymap',['FloatKeyMap',['../namespaceNif.html#aba0e50a7c9bc29dbb4cccb6ac037db72',1,'Nif']]],
-  ['floatkeymapptr',['FloatKeyMapPtr',['../namespaceNif.html#a5487c2119c7df207c40909168b688410',1,'Nif']]]
+  ['floatkeymapptr',['FloatKeyMapPtr',['../namespaceNif.html#a0cf4cb384867163e665955c972eed6d2',1,'Nif']]]
 ];

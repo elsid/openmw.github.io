@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWWorld::ConstPtr:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr__coll__graph.svg" width="5834" height="2051"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr__coll__graph.svg" width="6607" height="2067"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -127,7 +127,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a511e7a1e40414f8a34b88807654a3369"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMWWorld_1_1Class.html">Class</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ConstPtr.html#a511e7a1e40414f8a34b88807654a3369">getClass</a> () const </td></tr>
 <tr class="separator:a511e7a1e40414f8a34b88807654a3369"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3aece4775b5f86d04af63ce0de36cbd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ae3aece4775b5f86d04af63ce0de36cbd"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="structMWWorld_1_1LiveCellRef.html">MWWorld::LiveCellRef</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ConstPtr.html#ae3aece4775b5f86d04af63ce0de36cbd">get</a> () const </td></tr>
+<tr class="memitem:ae3aece4775b5f86d04af63ce0de36cbd"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="structMWWorld_1_1LiveCellRef.html">MWWorld::LiveCellRef</a>&lt; <a class="el" href="classGui_1_1T.html">T</a> &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ConstPtr.html#ae3aece4775b5f86d04af63ce0de36cbd">get</a> () const </td></tr>
 <tr class="separator:ae3aece4775b5f86d04af63ce0de36cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f2e904e90d45af3b23fbb239c5d6bab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMWWorld_1_1LiveCellRefBase.html">MWWorld::LiveCellRefBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ConstPtr.html#a1f2e904e90d45af3b23fbb239c5d6bab">getBase</a> () const </td></tr>
 <tr class="separator:a1f2e904e90d45af3b23fbb239c5d6bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +139,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1f1c707b7cb74ab7cce05651fad5fb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d2c83d4cbf2ce865c29f1b34d7d643f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ConstPtr.html#a6d2c83d4cbf2ce865c29f1b34d7d643f">isInCell</a> () const </td></tr>
 <tr class="separator:a6d2c83d4cbf2ce865c29f1b34d7d643f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4be04e6df4564c41212efeb1a8c66a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ConstPtr.html#acc4be04e6df4564c41212efeb1a8c66a">setContainerStore</a> (const <a class="el" href="classMWWorld_1_1ContainerStore.html">ContainerStore</a> *store)</td></tr>
+<tr class="memdesc:acc4be04e6df4564c41212efeb1a8c66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must not be called on references that are in a cell.  <a href="#acc4be04e6df4564c41212efeb1a8c66a">More...</a><br/></td></tr>
+<tr class="separator:acc4be04e6df4564c41212efeb1a8c66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bb07399324875b293bc032153527cbd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMWWorld_1_1ContainerStore.html">ContainerStore</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ConstPtr.html#a1bb07399324875b293bc032153527cbd">getContainerStore</a> () const </td></tr>
 <tr class="memdesc:a1bb07399324875b293bc032153527cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">May return a 0-pointer, if reference is not in a container.  <a href="#a1bb07399324875b293bc032153527cbd">More...</a><br/></td></tr>
 <tr class="separator:a1bb07399324875b293bc032153527cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,7 +231,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structMWWorld_1_1LiveCellRef.html">MWWorld::LiveCellRef</a>&lt;T&gt;* MWWorld::ConstPtr::get </td>
+          <td class="memname">const <a class="el" href="structMWWorld_1_1LiveCellRef.html">MWWorld::LiveCellRef</a>&lt;<a class="el" href="classGui_1_1T.html">T</a>&gt;* MWWorld::ConstPtr::get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -290,7 +293,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a1f1c707b7cb74ab7cce05651fad5fb20_icgraph.svg" width="1187" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a1f1c707b7cb74ab7cce05651fad5fb20_icgraph.svg" width="670" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -321,7 +324,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_afa407c744b51f45e0b8e3eec160cb7a2_icgraph.svg" width="734" height="2026"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_afa407c744b51f45e0b8e3eec160cb7a2_icgraph.svg" width="734" height="2044"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -352,7 +355,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a511e7a1e40414f8a34b88807654a3369_icgraph.svg" width="1520" height="1104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a511e7a1e40414f8a34b88807654a3369_icgraph.svg" width="1536" height="1140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -408,7 +411,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a1fecee4644b43851c0f09c1f6c808225_icgraph.svg" width="1224" height="1926"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a1fecee4644b43851c0f09c1f6c808225_icgraph.svg" width="944" height="1874"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -431,7 +434,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_ace447c99102c91a088f5e51c9664f950_icgraph.svg" width="1235" height="2660"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_ace447c99102c91a088f5e51c9664f950_icgraph.svg" width="1235" height="2612"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -462,7 +465,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a0e5140348ccabcba666b4dcd31aafbb4_icgraph.svg" width="1547" height="838"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a0e5140348ccabcba666b4dcd31aafbb4_icgraph.svg" width="1547" height="708"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -493,7 +496,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a6d2c83d4cbf2ce865c29f1b34d7d643f_icgraph.svg" width="939" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ConstPtr_a6d2c83d4cbf2ce865c29f1b34d7d643f_icgraph.svg" width="664" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -514,6 +517,24 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Return a 0-pointer, if <a class="el" href="classMWWorld_1_1Ptr.html" title="Pointer to a LiveCellRef. ">Ptr</a> is empty; return a non-0-pointer, if <a class="el" href="classMWWorld_1_1Ptr.html" title="Pointer to a LiveCellRef. ">Ptr</a> is not empty. </p>
+
+</div>
+</div>
+<a class="anchor" id="acc4be04e6df4564c41212efeb1a8c66a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWWorld::ConstPtr::setContainerStore </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1ContainerStore.html">ContainerStore</a> *&#160;</td>
+          <td class="paramname"><em>store</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Must not be called on references that are in a cell. </p>
 
 </div>
 </div>
@@ -555,13 +576,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="ptr_8hpp_source.html">ptr.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="ptr_8cpp.html">ptr.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="ptr_8hpp_source.html">ptr.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="ptr_8cpp.html">ptr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:07 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:40 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

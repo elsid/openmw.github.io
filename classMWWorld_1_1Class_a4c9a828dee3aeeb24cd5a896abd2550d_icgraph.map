@@ -1,51 +1,25 @@
 <map id="MWWorld::Class::getModel" name="MWWorld::Class::getModel">
-<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#aa6da6e32f38944a2579697c44e298b66" title="Get a list of models to preload that this object may use (directly or indirectly). default implementation: list getModel(). " alt="" coords="283,5,434,46"/>
-<area shape="rect" id="node3" href="$classMWClass_1_1Npc.html#ae4af7c0cda1a1670e24aa48a68c2467f" title="Get a list of models to preload that this object may use (directly or indirectly). default implementation: list getModel(). " alt="" coords="259,70,458,111"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#a2f51e5048fddb9f8ce689299956d23f5" title="Get a list of models to preload that this object may use (directly or indirectly). default implementation: list getModel(). " alt="" coords="261,135,456,177"/>
-<area shape="rect" id="node6" href="$classMWRender_1_1CreatureWeaponAnimation.html#ab439fd428cc0c7adb0441bd701c52ca9" title="MWRender::CreatureWeapon\lAnimation::updatePart" alt="" coords="799,194,1001,235"/>
-<area shape="rect" id="node13" href="$classMWRender_1_1NpcAnimation.html#a0276bb5ac593134ce644726301e83e56" title="MWRender::NpcAnimation\l::showWeapons" alt="" coords="807,442,993,483"/>
-<area shape="rect" id="node28" href="$classMWRender_1_1NpcAnimation.html#a35c220adada0a5bd759d5513dc8309a8" title="MWRender::NpcAnimation\l::showCarriedLeft" alt="" coords="807,377,993,418"/>
-<area shape="rect" id="node29" href="$classMWRender_1_1WeaponAnimation.html#a5f6768a9fecfef40f8d82d7e8e7c8d65" title="MWRender::WeaponAnimation\l::attachArrow" alt="" coords="253,318,464,359"/>
-<area shape="rect" id="node32" href="$classMWScript_1_1Misc_1_1OpBetaComment.html#acf16e4e38069b2493ca56491364b8f58" title="MWScript::Misc::OpBetaComment\l::execute" alt="" coords="240,486,477,527"/>
-<area shape="rect" id="node33" href="$classMWWorld_1_1PreloadItem.html#ae94817a8b706706ff12fb363e950e1b1" title="Constructor to be called from the main thread. " alt="" coords="277,551,440,593"/>
-<area shape="rect" id="node34" href="$classMWWorld_1_1ProjectileManager.html#ab16f1fd4aa5b6392de3fe9e4e26e76c5" title="MWWorld::ProjectileManager\l::readRecord" alt="" coords="259,617,459,658"/>
-<area shape="rect" id="node35" href="$namespaceanonymous__namespace_02scene_8cpp_03.html#a4b78549a220eb0e0ceb1e875a4f18de4" title="anonymous_namespace\l\{scene::cpp\}::addObject" alt="" coords="269,682,449,723"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1World.html#acd09247a58246c25f2e0416d978f003c" title="MWWorld::World::renderPlayer" alt="" coords="254,748,463,775"/>
-<area shape="rect" id="node5" href="$structMWWorld_1_1ListModelsVisitor.html#a8e6eb268aeb12a5fed8591bbddb7747a" title="MWWorld::ListModelsVisitor\l::operator()" alt="" coords="541,135,734,177"/>
-<area shape="rect" id="node7" href="$classMWRender_1_1CreatureWeaponAnimation.html#ad43ad8570e5369c96fd8c5de51c2108e" title="MWRender::CreatureWeapon\lAnimation::updateParts" alt="" coords="1069,191,1272,233"/>
-<area shape="rect" id="node8" href="$classMWRender_1_1CreatureWeaponAnimation.html#a1016608182292ace41cb8af7e72e87c0" title="MWRender::CreatureWeapon\lAnimation::CreatureWeaponAnimation" alt="" coords="1339,61,1605,102"/>
-<area shape="rect" id="node9" href="$classMWRender_1_1CreatureWeaponAnimation.html#a2c393e8ec8d226d0d12bc41f0beca996" title="MWRender::CreatureWeapon\lAnimation::showWeapons" alt="" coords="1371,126,1573,167"/>
-<area shape="rect" id="node11" href="$classMWRender_1_1CreatureWeaponAnimation.html#af7d6c9a26014b4eac951c641b7f9d692" title="MWRender::CreatureWeapon\lAnimation::showCarriedLeft" alt="" coords="1371,191,1573,233"/>
-<area shape="rect" id="node12" href="$classMWRender_1_1CreatureWeaponAnimation.html#a2638014a28f41b19e07256e4e8f75a4e" title="MWRender::CreatureWeapon\lAnimation::equipmentChanged" alt="" coords="1361,257,1583,298"/>
-<area shape="rect" id="node10" href="$classMWRender_1_1CreatureWeaponAnimation.html#a7e342fe2c10789982c85178ce872c925" title="MWRender::CreatureWeapon\lAnimation::showWeapon" alt="" coords="1653,126,1856,167"/>
-<area shape="rect" id="node14" href="$classMWRender_1_1NpcAnimation.html#a1fd4637c3b5e7ee4c5895227ea983acd" title="MWRender::NpcAnimation\l::updateParts" alt="" coords="1077,377,1264,418"/>
-<area shape="rect" id="node27" href="$classMWRender_1_1NpcAnimation.html#ad1d0b34143c41941f931db43ea7ea7ec" title="MWRender::NpcAnimation\l::showWeapon" alt="" coords="1077,442,1264,483"/>
-<area shape="rect" id="node15" href="$classMWRender_1_1NpcAnimation.html#acf50b96cffb19c225200c4bff36fbce7" title="MWRender::NpcAnimation\l::updateNpcBase" alt="" coords="1379,322,1565,363"/>
-<area shape="rect" id="node26" href="$classMWRender_1_1NpcAnimation.html#ab59d8ebd14b1f0c770a8443bc738d842" title="MWRender::NpcAnimation\l::equipmentChanged" alt="" coords="1379,439,1565,481"/>
-<area shape="rect" id="node16" href="$classMWRender_1_1NpcAnimation.html#a0f12942b0015ca2fae3b43f6c2f9d2b7" title="MWRender::NpcAnimation\l::NpcAnimation" alt="" coords="1661,315,1848,357"/>
-<area shape="rect" id="node17" href="$classMWRender_1_1NpcAnimation.html#a8b37aef38ba00e4f82ffd785141c1321" title="Rebuilds the NPC, updating their root model, animation sources, and equipment. " alt="" coords="1661,381,1848,422"/>
-<area shape="rect" id="node18" href="$classMWRender_1_1NpcAnimation.html#aed4db842528e550579621b23034ece08" title="MWRender::NpcAnimation\l::setViewMode" alt="" coords="1919,315,2105,357"/>
-<area shape="rect" id="node23" href="$classMWRender_1_1NpcAnimation.html#a4020bbf960b561c7df1de59b78b6d8a9" title="MWRender::NpcAnimation\l::setVampire" alt="" coords="1919,381,2105,422"/>
-<area shape="rect" id="node24" href="$classMWRender_1_1RenderingManager.html#a9e4ed5892fefee1137616dee112148ed" title="MWRender::RenderingManager\l::rebuildPtr" alt="" coords="1905,446,2119,487"/>
-<area shape="rect" id="node19" href="$classMWRender_1_1Camera.html#a0b9b9cf1b627b7c2fcca748ee18c5d41" title="MWRender::Camera::process\lViewChange" alt="" coords="2168,315,2373,357"/>
-<area shape="rect" id="node20" href="$classMWRender_1_1Camera.html#a477d5edf8fca551155bf93dc5e34c595" title="MWRender::Camera::toggle\lViewMode" alt="" coords="2421,250,2616,291"/>
-<area shape="rect" id="node21" href="$classMWRender_1_1Camera.html#a0c2c4ab36df92e1e0c64066327d550d3" title="MWRender::Camera::toggle\lVanityMode" alt="" coords="2421,315,2616,357"/>
-<area shape="rect" id="node22" href="$classMWRender_1_1Camera.html#a253daff447caae0e554a1b25ab4d4537" title="MWRender::Camera::toggle\lPreviewMode" alt="" coords="2421,381,2616,422"/>
-<area shape="rect" id="node25" href="$classMWWorld_1_1World.html#a71d398a25a102e875e94f1ad1c642113" title="MWWorld::World::reattach\lPlayerCamera" alt="" coords="2179,446,2362,487"/>
-<area shape="rect" id="node30" href="$classMWRender_1_1CreatureWeaponAnimation.html#a3459f798a9a1abdce89b442a91dfceaf" title="MWRender::CreatureWeapon\lAnimation::attachArrow" alt="" coords="536,253,739,294"/>
-<area shape="rect" id="node31" href="$classMWRender_1_1NpcAnimation.html#a6774635e61bf4ee569d5ad0d6dd326a1" title="MWRender::NpcAnimation\l::attachArrow" alt="" coords="544,318,731,359"/>
-<area shape="rect" id="node36" href="$structanonymous__namespace_02scene_8cpp_03_1_1InsertVisitor.html#ab51eeb280acb714d9c51d10c1c82b802" title="anonymous_namespace\l\{scene::cpp\}::InsertVisitor\l::insert" alt="" coords="542,603,733,659"/>
-<area shape="rect" id="node37" href="$classMWWorld_1_1Scene.html#a53eb5bcf1b9ea13fad66f82968d3bbf3" title="Add an object that already exists in the world model to the scene. " alt="" coords="538,682,737,723"/>
-<area shape="rect" id="node38" href="$classMWWorld_1_1World.html#a0f25bb67c7df01019296ca872b650bd7" title="MWWorld::World::enable" alt="" coords="815,601,985,628"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1World.html#a99c6059be2a68bc061d6ed2f89708827" title="MWWorld::World::undelete\lObject" alt="" coords="808,653,992,694"/>
-<area shape="rect" id="node42" href="$classMWWorld_1_1World.html#aa66f9502010313a20d0f20339f473400" title="MWWorld::World::moveObject" alt="" coords="797,719,1003,745"/>
-<area shape="rect" id="node43" href="$classMWWorld_1_1World.html#a98389839846b32c3a135eceba99aed17" title="MWWorld::World::copyObject\lToCell" alt="" coords="801,770,999,811"/>
-<area shape="rect" id="node39" href="$classMWWorld_1_1World.html#a00a2fb93a2a82538de5fc12cb5c10def" title="Enables or disables use of teleport spell effects (recall, intervention, etc). " alt="" coords="1051,576,1291,603"/>
-<area shape="rect" id="node40" href="$classMWWorld_1_1World.html#a4d3dd728ebb6da3cc1d7ebe652c53163" title="Enables or disables use of levitation spell effect. " alt="" coords="1054,627,1287,653"/>
-<area shape="rect" id="node44" href="$classMWWorld_1_1World.html#a71bce1320e2d8399a1630d3c3a0b4da4" title="Place an object. Makes a copy of the Ptr. " alt="" coords="1069,719,1272,745"/>
-<area shape="rect" id="node45" href="$classMWWorld_1_1World.html#ac2fcb0b5aa231d2d674b14ca36febf3b" title="MWWorld::World::safePlace\lObject" alt="" coords="1076,770,1265,811"/>
-<area shape="rect" id="node47" href="$classMWWorld_1_1World.html#aec1f4a474f193b1fb88433e5748f2253" title="MWWorld::World::dropObject\lOnGround" alt="" coords="1071,835,1270,877"/>
-<area shape="rect" id="node46" href="$classMWWorld_1_1World.html#acb386f5e35f58951394f0a5174888bd1" title="Spawn a random creature from a levelled list next to the player. " alt="" coords="1361,770,1583,811"/>
-<area shape="rect" id="node49" href="$classMWWorld_1_1World.html#a7fafd9a8c05b57ea9bb378cc9262b918" title="MWWorld::World::startNewGame" alt="" coords="525,748,749,775"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1World.html#ab658191aa2c94a4ea8256db10678c102" title="MWWorld::World::createRecord" alt="" coords="531,799,743,825"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Class.html#a2f51e5048fddb9f8ce689299956d23f5" title="Get a list of models to preload that this object may use (directly or indirectly). default implementation: list getModel(). " alt="" coords="261,37,456,78"/>
+<area shape="rect" id="node4" href="$classMWRender_1_1CreatureWeaponAnimation.html#ab439fd428cc0c7adb0441bd701c52ca9" title="MWRender::CreatureWeapon\lAnimation::updatePart" alt="" coords="257,102,460,143"/>
+<area shape="rect" id="node11" href="$classMWScript_1_1Misc_1_1OpBetaComment.html#acf16e4e38069b2493ca56491364b8f58" title="MWScript::Misc::OpBetaComment\l::execute" alt="" coords="240,167,477,209"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1PreloadItem.html#aa6dbbda6754ef2e87e80f4cfc75bf57d" title="Constructor to be called from the main thread. " alt="" coords="277,233,440,274"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1ProjectileManager.html#ae23708ab82c04cbf55867398ec66a36e" title="MWWorld::ProjectileManager\l::launchProjectile" alt="" coords="259,298,459,339"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1ProjectileManager.html#ab16f1fd4aa5b6392de3fe9e4e26e76c5" title="MWWorld::ProjectileManager\l::readRecord" alt="" coords="259,363,459,405"/>
+<area shape="rect" id="node15" href="$namespaceanonymous__namespace_02scene_8cpp_03.html#a4b78549a220eb0e0ceb1e875a4f18de4" title="anonymous_namespace\l\{scene::cpp\}::addObject" alt="" coords="269,429,449,470"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1World.html#a9d8e3dad4d86185e440cb86957dd5c6b" title="MWWorld::World::renderPlayer" alt="" coords="254,495,463,521"/>
+<area shape="rect" id="node21" href="$namespaceMWWorld.html#af02d878306bccf238ba293983fd422b9" title="MWWorld::preload" alt="" coords="291,571,426,597"/>
+<area shape="rect" id="node3" href="$structMWWorld_1_1ListModelsVisitor.html#a8e6eb268aeb12a5fed8591bbddb7747a" title="MWWorld::ListModelsVisitor\l::operator()" alt="" coords="541,37,734,78"/>
+<area shape="rect" id="node5" href="$classMWRender_1_1CreatureWeaponAnimation.html#ad43ad8570e5369c96fd8c5de51c2108e" title="MWRender::CreatureWeapon\lAnimation::updateParts" alt="" coords="536,102,739,143"/>
+<area shape="rect" id="node6" href="$classMWRender_1_1CreatureWeaponAnimation.html#a1016608182292ace41cb8af7e72e87c0" title="MWRender::CreatureWeapon\lAnimation::CreatureWeaponAnimation" alt="" coords="797,5,1064,46"/>
+<area shape="rect" id="node7" href="$classMWRender_1_1CreatureWeaponAnimation.html#a2c393e8ec8d226d0d12bc41f0beca996" title="MWRender::CreatureWeapon\lAnimation::showWeapons" alt="" coords="829,70,1032,111"/>
+<area shape="rect" id="node9" href="$classMWRender_1_1CreatureWeaponAnimation.html#af7d6c9a26014b4eac951c641b7f9d692" title="MWRender::CreatureWeapon\lAnimation::showCarriedLeft" alt="" coords="829,135,1032,177"/>
+<area shape="rect" id="node10" href="$classMWRender_1_1CreatureWeaponAnimation.html#a2638014a28f41b19e07256e4e8f75a4e" title="MWRender::CreatureWeapon\lAnimation::equipmentChanged" alt="" coords="820,201,1041,242"/>
+<area shape="rect" id="node8" href="$classMWRender_1_1CreatureWeaponAnimation.html#a7e342fe2c10789982c85178ce872c925" title="MWRender::CreatureWeapon\lAnimation::showWeapon" alt="" coords="1112,70,1315,111"/>
+<area shape="rect" id="node16" href="$structanonymous__namespace_02scene_8cpp_03_1_1InsertVisitor.html#ab51eeb280acb714d9c51d10c1c82b802" title="anonymous_namespace\l\{scene::cpp\}::InsertVisitor\l::insert" alt="" coords="542,349,733,405"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1Scene.html#a53eb5bcf1b9ea13fad66f82968d3bbf3" title="Add an object that already exists in the world model to the scene. " alt="" coords="538,429,737,470"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1World.html#a33b8441f680734ed2de7679bc614d172" title="MWWorld::World::startNewGame" alt="" coords="525,495,749,521"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1World.html#a7d0ab2f8828263def8994634d3aee770" title="MWWorld::World::createRecord" alt="" coords="1363,571,1575,597"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1World.html#ab6fac233c5487d230f3eb05c402f3aa7" title="Preload VFX associated with this effect list. " alt="" coords="528,596,747,623"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1World.html#ae142137a402b349b87203f5b149a2eab" title="MWWorld::World::preloadSpells" alt="" coords="823,596,1038,623"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1World.html#a6488529748fc772e6e9b1e23a4484f74" title="MWWorld::World::update" alt="" coords="1127,596,1300,623"/>
 </map>

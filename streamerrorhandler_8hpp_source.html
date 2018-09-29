@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/compiler/streamerrorhandler.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/compiler/streamerrorhandler.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,27 +111,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classCompiler_1_1StreamErrorHandler.html#ac9327fa11650511532100548916587a4">   14</a></span>&#160;            std::ostream&amp; <a class="code" href="classCompiler_1_1StreamErrorHandler.html#ac9327fa11650511532100548916587a4">mStream</a>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="comment">// not implemented</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCompiler_1_1StreamErrorHandler.html#aeef93fa7ba9510f4edb53d25bd658bec">   16</a></span>&#160;            std::string <a class="code" href="classCompiler_1_1StreamErrorHandler.html#aeef93fa7ba9510f4edb53d25bd658bec">mContext</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <a class="code" href="classCompiler_1_1StreamErrorHandler.html#afeb254863400aa88e4d7ade165192ac4">StreamErrorHandler</a> (<span class="keyword">const</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html">StreamErrorHandler</a>&amp;);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <a class="code" href="classCompiler_1_1StreamErrorHandler.html">StreamErrorHandler</a>&amp; <a class="code" href="classCompiler_1_1StreamErrorHandler.html#a15946ed70ebfe419fae27c447496ce0d">operator= </a>(<span class="keyword">const</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html">StreamErrorHandler</a>&amp;);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html#abf0f4d4a4c60ed46d6208ce6e515950f">report</a> (<span class="keyword">const</span> std::string&amp; <a class="code" href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">message</a>, <span class="keyword">const</span> <a class="code" href="structCompiler_1_1TokenLoc.html">TokenLoc</a>&amp; loc, <a class="code" href="classCompiler_1_1ErrorHandler.html#a2aa56cded3ac6c154e0c0319cfcce658">Type</a> type);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html#abf0f4d4a4c60ed46d6208ce6e515950f">report</a> (<span class="keyword">const</span> std::string&amp; <a class="code" href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">message</a>, <a class="code" href="classCompiler_1_1ErrorHandler.html#a2aa56cded3ac6c154e0c0319cfcce658">Type</a> type);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="comment">// not implemented</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="classCompiler_1_1StreamErrorHandler.html#afeb254863400aa88e4d7ade165192ac4">StreamErrorHandler</a> (<span class="keyword">const</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html">StreamErrorHandler</a>&amp;);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <a class="code" href="classCompiler_1_1StreamErrorHandler.html">StreamErrorHandler</a>&amp; <a class="code" href="classCompiler_1_1StreamErrorHandler.html#a15946ed70ebfe419fae27c447496ce0d">operator= </a>(<span class="keyword">const</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html">StreamErrorHandler</a>&amp;);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html#abf0f4d4a4c60ed46d6208ce6e515950f">report</a> (<span class="keyword">const</span> std::string&amp; <a class="code" href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">message</a>, <span class="keyword">const</span> <a class="code" href="structCompiler_1_1TokenLoc.html">TokenLoc</a>&amp; loc, <a class="code" href="classCompiler_1_1ErrorHandler.html#a2aa56cded3ac6c154e0c0319cfcce658">Type</a> type);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html#abf0f4d4a4c60ed46d6208ce6e515950f">report</a> (<span class="keyword">const</span> std::string&amp; <a class="code" href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">message</a>, <a class="code" href="classCompiler_1_1ErrorHandler.html#a2aa56cded3ac6c154e0c0319cfcce658">Type</a> type);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="comment">// constructors</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <a class="code" href="classCompiler_1_1StreamErrorHandler.html#afeb254863400aa88e4d7ade165192ac4">StreamErrorHandler</a> (std::ostream&amp; ErrorStream);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCompiler_1_1StreamErrorHandler.html#a411b4b45d70da7286e581771a3a8c52f">setContext</a>(<span class="keyword">const</span> std::string&amp; context);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="comment">// constructors</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <a class="code" href="classCompiler_1_1StreamErrorHandler.html#afeb254863400aa88e4d7ade165192ac4">StreamErrorHandler</a> (std::ostream&amp; ErrorStream);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCompiler_1_1ErrorHandler_html_a2aa56cded3ac6c154e0c0319cfcce658"><div class="ttname"><a href="classCompiler_1_1ErrorHandler.html#a2aa56cded3ac6c154e0c0319cfcce658">Compiler::ErrorHandler::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> errorhandler.hpp:23</div></div>
 <div class="ttc" id="namespaceCompiler_1_1Generator_html_ac2c59268b5bf1bf561fda12fdd27eb77"><div class="ttname"><a href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">Compiler::Generator::message</a></div><div class="ttdeci">void message(CodeContainer &amp;code, Literals &amp;literals, const std::string &amp;message, int buttons)</div><div class="ttdef"><b>Definition:</b> generator.cpp:537</div></div>
 <div class="ttc" id="classCompiler_1_1StreamErrorHandler_html_ac9327fa11650511532100548916587a4"><div class="ttname"><a href="classCompiler_1_1StreamErrorHandler.html#ac9327fa11650511532100548916587a4">Compiler::StreamErrorHandler::mStream</a></div><div class="ttdeci">std::ostream &amp; mStream</div><div class="ttdef"><b>Definition:</b> streamerrorhandler.hpp:14</div></div>
+<div class="ttc" id="classCompiler_1_1StreamErrorHandler_html_a411b4b45d70da7286e581771a3a8c52f"><div class="ttname"><a href="classCompiler_1_1StreamErrorHandler.html#a411b4b45d70da7286e581771a3a8c52f">Compiler::StreamErrorHandler::setContext</a></div><div class="ttdeci">void setContext(const std::string &amp;context)</div><div class="ttdef"><b>Definition:</b> streamerrorhandler.cpp:40</div></div>
+<div class="ttc" id="classCompiler_1_1StreamErrorHandler_html_aeef93fa7ba9510f4edb53d25bd658bec"><div class="ttname"><a href="classCompiler_1_1StreamErrorHandler.html#aeef93fa7ba9510f4edb53d25bd658bec">Compiler::StreamErrorHandler::mContext</a></div><div class="ttdeci">std::string mContext</div><div class="ttdef"><b>Definition:</b> streamerrorhandler.hpp:16</div></div>
 <div class="ttc" id="structCompiler_1_1TokenLoc_html"><div class="ttname"><a href="structCompiler_1_1TokenLoc.html">Compiler::TokenLoc</a></div><div class="ttdoc">Location of a token in a source file. </div><div class="ttdef"><b>Definition:</b> tokenloc.hpp:10</div></div>
 <div class="ttc" id="classCompiler_1_1StreamErrorHandler_html"><div class="ttname"><a href="classCompiler_1_1StreamErrorHandler.html">Compiler::StreamErrorHandler</a></div><div class="ttdoc">Error handler implementation: Write errors into stream. </div><div class="ttdef"><b>Definition:</b> streamerrorhandler.hpp:12</div></div>
 <div class="ttc" id="classCompiler_1_1StreamErrorHandler_html_a15946ed70ebfe419fae27c447496ce0d"><div class="ttname"><a href="classCompiler_1_1StreamErrorHandler.html#a15946ed70ebfe419fae27c447496ce0d">Compiler::StreamErrorHandler::operator=</a></div><div class="ttdeci">StreamErrorHandler &amp; operator=(const StreamErrorHandler &amp;)</div></div>
@@ -142,7 +148,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -11,12 +11,12 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-448 658,-448 658,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="260.5,-0.5 260.5,-57.5 373.5,-57.5 373.5,-0.5 260.5,-0.5"/>
-<text text-anchor="middle" x="317" y="-45.5" font-family="FreeSans" font-size="10.00">Nif::NiKeyframeData</text>
-<polyline fill="none" stroke="black" points="260.5,-38.5 373.5,-38.5 "/>
-<text text-anchor="middle" x="317" y="-26.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="260.5,-19.5 373.5,-19.5 "/>
-<text text-anchor="start" x="268.5" y="-7.5" font-family="FreeSans" font-size="10.00">+ read()</text>
+<polygon fill="#bfbfbf" stroke="black" points="256.5,-0.5 256.5,-57.5 369.5,-57.5 369.5,-0.5 256.5,-0.5"/>
+<text text-anchor="middle" x="313" y="-45.5" font-family="FreeSans" font-size="10.00">Nif::NiKeyframeData</text>
+<polyline fill="none" stroke="black" points="256.5,-38.5 369.5,-38.5 "/>
+<text text-anchor="middle" x="313" y="-26.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="256.5,-19.5 369.5,-19.5 "/>
+<text text-anchor="start" x="264.5" y="-7.5" font-family="FreeSans" font-size="10.00">+ read()</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -35,8 +35,8 @@
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M142.895,-138.865C143.264,-138.575 143.632,-138.286 144,-138 183.133,-107.574 231.204,-78.1266 266.733,-57.687"/>
-<polygon fill="none" stroke="midnightblue" points="140.637,-136.191 135.159,-145.259 145.097,-141.587 140.637,-136.191"/>
+<path fill="none" stroke="midnightblue" d="M142.9,-138.871C143.267,-138.578 143.634,-138.288 144,-138 182.463,-107.768 229.611,-78.1895 264.326,-57.6533"/>
+<polygon fill="none" stroke="midnightblue" points="140.631,-136.206 135.186,-145.295 145.11,-141.585 140.631,-136.206"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -118,43 +118,43 @@
 </g>
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge6" class="edge"><title>Node7&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M244.936,-155.293C258.953,-130.922 279.492,-95.212 295.061,-68.1445"/>
-<polygon fill="none" stroke="#404040" points="295.199,-67.9032 294.724,-60.7078 301.182,-57.501 301.658,-64.6964 295.199,-67.9032"/>
-<text text-anchor="middle" x="325" y="-112" font-family="FreeSans" font-size="10.00"> +mXRotations</text>
-<text text-anchor="middle" x="325" y="-101" font-family="FreeSans" font-size="10.00">+mScales</text>
-<text text-anchor="middle" x="325" y="-90" font-family="FreeSans" font-size="10.00">+mYRotations</text>
-<text text-anchor="middle" x="325" y="-79" font-family="FreeSans" font-size="10.00">+mZRotations</text>
+<path fill="none" stroke="#404040" d="M244.212,-155.293C257.592,-130.922 277.197,-95.212 292.058,-68.1445"/>
+<polygon fill="none" stroke="#404040" points="292.126,-68.02 291.508,-60.8354 297.901,-57.501 298.52,-64.6856 292.126,-68.02"/>
+<text text-anchor="middle" x="322" y="-112" font-family="FreeSans" font-size="10.00"> +mXRotations</text>
+<text text-anchor="middle" x="322" y="-101" font-family="FreeSans" font-size="10.00">+mScales</text>
+<text text-anchor="middle" x="322" y="-90" font-family="FreeSans" font-size="10.00">+mYRotations</text>
+<text text-anchor="middle" x="322" y="-79" font-family="FreeSans" font-size="10.00">+mZRotations</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<polygon fill="white" stroke="#bfbfbf" points="323,-155.5 323,-212.5 487,-212.5 487,-155.5 323,-155.5"/>
-<text text-anchor="middle" x="405" y="-200.5" font-family="FreeSans" font-size="10.00">shared_ptr&lt; Vector3KeyMap &gt;</text>
-<polyline fill="none" stroke="#bfbfbf" points="323,-193.5 487,-193.5 "/>
-<text text-anchor="middle" x="405" y="-181.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="323,-174.5 487,-174.5 "/>
-<text text-anchor="middle" x="405" y="-162.5" font-family="FreeSans" font-size="10.00"> </text>
+<polygon fill="white" stroke="#bfbfbf" points="322.5,-150 322.5,-218 471.5,-218 471.5,-150 322.5,-150"/>
+<text text-anchor="start" x="330.5" y="-206" font-family="FreeSans" font-size="10.00">shared_ptr&lt; QuaternionKey</text>
+<text text-anchor="middle" x="397" y="-195" font-family="FreeSans" font-size="10.00">Map &gt;</text>
+<polyline fill="none" stroke="#bfbfbf" points="322.5,-188 471.5,-188 "/>
+<text text-anchor="middle" x="397" y="-176" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="322.5,-169 471.5,-169 "/>
+<text text-anchor="middle" x="397" y="-157" font-family="FreeSans" font-size="10.00"> </text>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
 <g id="edge7" class="edge"><title>Node8&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M398.393,-155.483C392.133,-132.879 381.248,-100.681 365,-76 362.94,-72.8713 360.631,-69.7966 358.17,-66.8125"/>
-<polygon fill="none" stroke="#404040" points="357.935,-66.5517 350.947,-64.7701 349.904,-57.6348 356.892,-59.4164 357.935,-66.5517"/>
-<text text-anchor="middle" x="425" y="-95.5" font-family="FreeSans" font-size="10.00"> +mTranslations</text>
+<path fill="none" stroke="#404040" d="M390.659,-149.779C385.385,-127.648 376.372,-98.5929 362,-76 359.998,-72.8526 357.732,-69.774 355.299,-66.796"/>
+<polygon fill="none" stroke="#404040" points="355.108,-66.5841 348.12,-64.8017 347.078,-57.6663 354.066,-59.4487 355.108,-66.5841"/>
+<text text-anchor="middle" x="415" y="-95.5" font-family="FreeSans" font-size="10.00"> +mRotations</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<polygon fill="white" stroke="#bfbfbf" points="505.5,-150 505.5,-218 654.5,-218 654.5,-150 505.5,-150"/>
-<text text-anchor="start" x="513.5" y="-206" font-family="FreeSans" font-size="10.00">shared_ptr&lt; QuaternionKey</text>
-<text text-anchor="middle" x="580" y="-195" font-family="FreeSans" font-size="10.00">Map &gt;</text>
-<polyline fill="none" stroke="#bfbfbf" points="505.5,-188 654.5,-188 "/>
-<text text-anchor="middle" x="580" y="-176" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="505.5,-169 654.5,-169 "/>
-<text text-anchor="middle" x="580" y="-157" font-family="FreeSans" font-size="10.00"> </text>
+<polygon fill="white" stroke="#bfbfbf" points="490,-155.5 490,-212.5 654,-212.5 654,-155.5 490,-155.5"/>
+<text text-anchor="middle" x="572" y="-200.5" font-family="FreeSans" font-size="10.00">shared_ptr&lt; Vector3KeyMap &gt;</text>
+<polyline fill="none" stroke="#bfbfbf" points="490,-193.5 654,-193.5 "/>
+<text text-anchor="middle" x="572" y="-181.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="490,-174.5 654,-174.5 "/>
+<text text-anchor="middle" x="572" y="-162.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
 <!-- Node9&#45;&gt;Node1 -->
 <g id="edge8" class="edge"><title>Node9&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M552.762,-149.71C531.819,-126.089 500.964,-95.2761 468,-76 442.756,-61.2383 412.321,-50.7904 385.408,-43.625"/>
-<polygon fill="none" stroke="#404040" points="385.351,-43.6105 378.551,-46.0102 373.72,-40.6562 380.521,-38.2564 385.351,-43.6105"/>
-<text text-anchor="middle" x="555" y="-95.5" font-family="FreeSans" font-size="10.00"> +mRotations</text>
+<path fill="none" stroke="#404040" d="M547.313,-155.35C524.619,-131.411 488.978,-97.3639 452,-76 430.253,-63.4358 404.586,-53.7177 381.266,-46.5204"/>
+<polygon fill="none" stroke="#404040" points="381.182,-46.4958 374.293,-48.6265 369.677,-43.0868 376.566,-40.9561 381.182,-46.4958"/>
+<text text-anchor="middle" x="548" y="-95.5" font-family="FreeSans" font-size="10.00"> +mTranslations</text>
 </g>
 </g>
 </svg>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/world/land.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/world/land.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -108,23 +108,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structCSMWorld_1_1Land.html">   13</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structCSMWorld_1_1Land.html">Land</a> : <span class="keyword">public</span> <a class="code" href="structESM_1_1Land.html">ESM::Land</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structCSMWorld_1_1Land.html#a9e558668210a24093e6589dbaefdc7e7">   15</a></span>&#160;        std::string <a class="code" href="structCSMWorld_1_1Land.html#a9e558668210a24093e6589dbaefdc7e7">mId</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structCSMWorld_1_1Land.html#ab479a937bab767591878cc9c8c38b23d">load</a> (<a class="code" href="classESM_1_1ESMReader.html">ESM::ESMReader</a> &amp;esm, <span class="keywordtype">bool</span> &amp;isDeleted);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    };</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structCSMWorld_1_1Land.html#ab479a937bab767591878cc9c8c38b23d">load</a> (<a class="code" href="classESM_1_1ESMReader.html">ESM::ESMReader</a> &amp;esm, <span class="keywordtype">bool</span> &amp;isDeleted);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">static</span> std::string <a class="code" href="structCSMWorld_1_1Land.html#ae5f65ef2b6119e2fabffcb515d8a9666">createUniqueRecordId</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="structCSMWorld_1_1Land.html#a03958dcec2866bf013d2fbf9d5386707">parseUniqueRecordId</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>, <span class="keywordtype">int</span>&amp; x, <span class="keywordtype">int</span>&amp; y);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    };</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="structCSMWorld_1_1Land_html_a03958dcec2866bf013d2fbf9d5386707"><div class="ttname"><a href="structCSMWorld_1_1Land.html#a03958dcec2866bf013d2fbf9d5386707">CSMWorld::Land::parseUniqueRecordId</a></div><div class="ttdeci">static void parseUniqueRecordId(const std::string &amp;id, int &amp;x, int &amp;y)</div><div class="ttdef"><b>Definition:</b> land.cpp:20</div></div>
 <div class="ttc" id="classESM_1_1ESMReader_html"><div class="ttname"><a href="classESM_1_1ESMReader.html">ESM::ESMReader</a></div><div class="ttdef"><b>Definition:</b> esmreader.hpp:21</div></div>
-<div class="ttc" id="structCSMWorld_1_1Land_html_a9e558668210a24093e6589dbaefdc7e7"><div class="ttname"><a href="structCSMWorld_1_1Land.html#a9e558668210a24093e6589dbaefdc7e7">CSMWorld::Land::mId</a></div><div class="ttdeci">std::string mId</div><div class="ttdef"><b>Definition:</b> land.hpp:15</div></div>
 <div class="ttc" id="structCSMWorld_1_1Land_html"><div class="ttname"><a href="structCSMWorld_1_1Land.html">CSMWorld::Land</a></div><div class="ttdoc">Wrapper for Land record. Encodes X and Y cell index in the ID. </div><div class="ttdef"><b>Definition:</b> land.hpp:13</div></div>
 <div class="ttc" id="structESM_1_1Land_html"><div class="ttname"><a href="structESM_1_1Land.html">ESM::Land</a></div><div class="ttdef"><b>Definition:</b> loadland.hpp:20</div></div>
 <div class="ttc" id="loadland_8hpp_html"><div class="ttname"><a href="loadland_8hpp.html">loadland.hpp</a></div></div>
-<div class="ttc" id="structCSMWorld_1_1Land_html_ab479a937bab767591878cc9c8c38b23d"><div class="ttname"><a href="structCSMWorld_1_1Land.html#ab479a937bab767591878cc9c8c38b23d">CSMWorld::Land::load</a></div><div class="ttdeci">void load(ESM::ESMReader &amp;esm, bool &amp;isDeleted)</div><div class="ttdoc">Loads the metadata and ID. </div><div class="ttdef"><b>Definition:</b> land.cpp:7</div></div>
+<div class="ttc" id="structCSMWorld_1_1Land_html_ae5f65ef2b6119e2fabffcb515d8a9666"><div class="ttname"><a href="structCSMWorld_1_1Land.html#ae5f65ef2b6119e2fabffcb515d8a9666">CSMWorld::Land::createUniqueRecordId</a></div><div class="ttdeci">static std::string createUniqueRecordId(int x, int y)</div><div class="ttdef"><b>Definition:</b> land.cpp:13</div></div>
+<div class="ttc" id="structCSMWorld_1_1Land_html_ab479a937bab767591878cc9c8c38b23d"><div class="ttname"><a href="structCSMWorld_1_1Land.html#ab479a937bab767591878cc9c8c38b23d">CSMWorld::Land::load</a></div><div class="ttdeci">void load(ESM::ESMReader &amp;esm, bool &amp;isDeleted)</div><div class="ttdoc">Loads the metadata and ID. </div><div class="ttdef"><b>Definition:</b> land.cpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

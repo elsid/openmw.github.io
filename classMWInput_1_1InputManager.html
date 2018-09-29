@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -118,14 +118,14 @@ Inheritance diagram for MWInput::InputManager:</div>
 <div class="dynheader">
 Collaboration diagram for MWInput::InputManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager__coll__graph.svg" width="6767" height="2600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager__coll__graph.svg" width="6430" height="2528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a43b43a3ee68cc3408166f4df556502ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#a43b43a3ee68cc3408166f4df556502ae">InputManager</a> (SDL_Window *window, osg::ref_ptr&lt; osgViewer::Viewer &gt; viewer, osg::ref_ptr&lt; osgViewer::ScreenCaptureHandler &gt; screenCaptureHandler, const std::string &amp;userFile, <a class="el" href="classbool.html">bool</a> userFileExists, const std::string &amp;controllerBindingsFile, <a class="el" href="classbool.html">bool</a> grab)</td></tr>
-<tr class="separator:a43b43a3ee68cc3408166f4df556502ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5fbb217a897b94b33a39da8c6435524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#ae5fbb217a897b94b33a39da8c6435524">InputManager</a> (SDL_Window *window, osg::ref_ptr&lt; osgViewer::Viewer &gt; viewer, osg::ref_ptr&lt; osgViewer::ScreenCaptureHandler &gt; screenCaptureHandler, <a class="el" href="classosgViewer_1_1ScreenCaptureHandler_1_1CaptureOperation.html">osgViewer::ScreenCaptureHandler::CaptureOperation</a> *screenCaptureOperation, const std::string &amp;userFile, <a class="el" href="classbool.html">bool</a> userFileExists, const std::string &amp;controllerBindingsFile, <a class="el" href="classbool.html">bool</a> grab)</td></tr>
+<tr class="separator:ae5fbb217a897b94b33a39da8c6435524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcf1bbba370928bef90579459d4b0d7b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#abcf1bbba370928bef90579459d4b0d7b">~InputManager</a> ()</td></tr>
 <tr class="separator:abcf1bbba370928bef90579459d4b0d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42a500270e5eb5987d436df8032ce0d9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#a42a500270e5eb5987d436df8032ce0d9">isWindowVisible</a> ()</td></tr>
@@ -324,6 +324,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a63f0cf1339defd5da594636e9881ba2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c0fd2933d26db3d153e92f9cea13c4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#a1c0fd2933d26db3d153e92f9cea13c4d">setPlayerControlsEnabled</a> (<a class="el" href="classbool.html">bool</a> enabled)</td></tr>
 <tr class="separator:a1c0fd2933d26db3d153e92f9cea13c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f62988d42a4f6146f7731e09712357"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#a24f62988d42a4f6146f7731e09712357">handleGuiArrowKey</a> (<a class="el" href="classint.html">int</a> action)</td></tr>
+<tr class="separator:a24f62988d42a4f6146f7731e09712357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96e13e2c6f55fe6e3e8f839e37322df5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#a96e13e2c6f55fe6e3e8f839e37322df5">updateCursorMode</a> ()</td></tr>
 <tr class="separator:a96e13e2c6f55fe6e3e8f839e37322df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a871c69588a3652536aba126b3d482f0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#a871c69588a3652536aba126b3d482f0b">checkAllowedToUseItems</a> () const </td></tr>
@@ -378,6 +380,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac1050bcfd6e31cfc8f5b49148cb2f3f8"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
 &lt; osgViewer::ScreenCaptureHandler &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#ac1050bcfd6e31cfc8f5b49148cb2f3f8">mScreenCaptureHandler</a></td></tr>
 <tr class="separator:ac1050bcfd6e31cfc8f5b49148cb2f3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84aa72148de4394511412d44648bba19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classosgViewer_1_1ScreenCaptureHandler_1_1CaptureOperation.html">osgViewer::ScreenCaptureHandler::CaptureOperation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#a84aa72148de4394511412d44648bba19">mScreenCaptureOperation</a></td></tr>
+<tr class="separator:a84aa72148de4394511412d44648bba19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c380c6d7bc9fcb46f7ce062df27ec6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#a2c380c6d7bc9fcb46f7ce062df27ec6f">mJoystickLastUsed</a></td></tr>
 <tr class="separator:a2c380c6d7bc9fcb46f7ce062df27ec6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab04715c802769ae069a17cd23d923761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWWorld_1_1Player.html">MWWorld::Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWInput_1_1InputManager.html#ab04715c802769ae069a17cd23d923761">mPlayer</a></td></tr>
@@ -561,7 +565,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a43b43a3ee68cc3408166f4df556502ae"></a>
+<a class="anchor" id="ae5fbb217a897b94b33a39da8c6435524"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -582,6 +586,12 @@ Private Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">osg::ref_ptr&lt; osgViewer::ScreenCaptureHandler &gt;&#160;</td>
           <td class="paramname"><em>screenCaptureHandler</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classosgViewer_1_1ScreenCaptureHandler_1_1CaptureOperation.html">osgViewer::ScreenCaptureHandler::CaptureOperation</a> *&#160;</td>
+          <td class="paramname"><em>screenCaptureOperation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -618,7 +628,7 @@ Private Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a43b43a3ee68cc3408166f4df556502ae_cgraph.svg" width="678" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_ae5fbb217a897b94b33a39da8c6435524_cgraph.svg" width="678" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -707,7 +717,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a77f10ab96aa77c020244d30679e42a3d_cgraph.svg" width="971" height="655"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a77f10ab96aa77c020244d30679e42a3d_cgraph.svg" width="995" height="655"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -797,7 +807,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a511df36d78c0ea54a10f6c15b2b62b68_cgraph.svg" width="427" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a511df36d78c0ea54a10f6c15b2b62b68_cgraph.svg" width="427" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -925,7 +935,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a36df0af06e2c3c1d192cc7f9fccfde5d_cgraph.svg" width="1000" height="2772"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a36df0af06e2c3c1d192cc7f9fccfde5d_cgraph.svg" width="974" height="2552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1414,6 +1424,46 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a24f62988d42a4f6146f7731e09712357"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWInput::InputManager::handleGuiArrowKey </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>action</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a24f62988d42a4f6146f7731e09712357_cgraph.svg" width="440" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a24f62988d42a4f6146f7731e09712357_icgraph.svg" width="406" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a42a500270e5eb5987d436df8032ce0d9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1667,7 +1717,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_ae98c4feb4d82db17676ff958bb1c8461_cgraph.svg" width="427" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_ae98c4feb4d82db17676ff958bb1c8461_cgraph.svg" width="427" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1915,7 +1965,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_aef9770e0bcacd6dcc031668e8e1a2c4e_cgraph.svg" width="1096" height="524"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_aef9770e0bcacd6dcc031668e8e1a2c4e_cgraph.svg" width="1096" height="659"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2035,7 +2085,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a574fc3392e198c989508f71732f0ff0f_cgraph.svg" width="1022" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a574fc3392e198c989508f71732f0ff0f_cgraph.svg" width="1051" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2333,7 +2383,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_ac4354ac1f0eceba6e49948fb4a7f98ed_cgraph.svg" width="678" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_ac4354ac1f0eceba6e49948fb4a7f98ed_cgraph.svg" width="427" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2372,7 +2422,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_acadf95360729814d7906093cf72d8a8c_cgraph.svg" width="427" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_acadf95360729814d7906093cf72d8a8c_cgraph.svg" width="427" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2837,7 +2887,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_ad3d4597acbdfc676bb5d5aa4d52aa89d_cgraph.svg" width="427" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_ad3d4597acbdfc676bb5d5aa4d52aa89d_cgraph.svg" width="427" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2954,7 +3004,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a3578776355377cd0c6566615d1fd9358_cgraph.svg" width="960" height="776"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a3578776355377cd0c6566615d1fd9358_cgraph.svg" width="960" height="907"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -3032,7 +3082,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_aeaaa4a123bf108c8b83e81aad9757e54_cgraph.svg" width="686" height="270"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_aeaaa4a123bf108c8b83e81aad9757e54_cgraph.svg" width="704" height="284"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -3090,7 +3140,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a4b0ab846314afae0286b8ac579a407c8_cgraph.svg" width="944" height="2691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a4b0ab846314afae0286b8ac579a407c8_cgraph.svg" width="944" height="2610"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -3161,7 +3211,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a63f0cf1339defd5da594636e9881ba2c_cgraph.svg" width="683" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWInput_1_1InputManager_a63f0cf1339defd5da594636e9881ba2c_cgraph.svg" width="472" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -3832,6 +3882,26 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a84aa72148de4394511412d44648bba19"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classosgViewer_1_1ScreenCaptureHandler_1_1CaptureOperation.html">osgViewer::ScreenCaptureHandler::CaptureOperation</a>* MWInput::InputManager::mScreenCaptureOperation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ace20e8014890fca64d7ddeb867d4983b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4013,13 +4083,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwinput/<a class="el" href="inputmanagerimp_8hpp_source.html">inputmanagerimp.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwinput/<a class="el" href="inputmanagerimp_8cpp.html">inputmanagerimp.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwinput/<a class="el" href="inputmanagerimp_8hpp_source.html">inputmanagerimp.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwinput/<a class="el" href="inputmanagerimp_8cpp.html">inputmanagerimp.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:03 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:36 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

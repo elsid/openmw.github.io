@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/resource/scenemanager.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/resource/scenemanager.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,19 +102,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="scenemanager_8hpp_source.html">scenemanager.hpp</a>&quot;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;cstdlib&gt;</code><br/>
 <code>#include &lt;osg/Node&gt;</code><br/>
 <code>#include &lt;osg/UserDataContainer&gt;</code><br/>
 <code>#include &lt;osgParticle/ParticleSystem&gt;</code><br/>
 <code>#include &lt;osgUtil/IncrementalCompileOperation&gt;</code><br/>
 <code>#include &lt;osgDB/SharedStateManager&gt;</code><br/>
 <code>#include &lt;osgDB/Registry&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="nifloader_8hpp_source.html">components/nifosg/nifloader.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="niffile_8hpp_source.html">components/nif/niffile.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="stringops_8hpp_source.html">components/misc/stringops.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="manager_8hpp_source.html">components/vfs/manager.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="clone_8hpp_source.html">components/sceneutil/clone.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="components_2sceneutil_2util_8hpp_source.html">components/sceneutil/util.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="sceneutil_2controller_8hpp_source.html">components/sceneutil/controller.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="optimizer_8hpp_source.html">components/sceneutil/optimizer.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="shadervisitor_8hpp_source.html">components/shader/shadervisitor.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="shadermanager_8hpp_source.html">components/shader/shadermanager.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="imagemanager_8hpp_source.html">imagemanager.hpp</a>&quot;</code><br/>
@@ -124,13 +127,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for scenemanager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="scenemanager_8cpp__incl.svg" width="4022" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="scenemanager_8cpp__incl.svg" width="4199" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02scenemanager_8cpp_03_1_1InitWorldSpaceParticlesVisitor.html">anonymous_namespace{scenemanager.cpp}::InitWorldSpaceParticlesVisitor</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02scenemanager_8cpp_03_1_1InitWorldSpaceParticlesCallback.html">anonymous_namespace{scenemanager.cpp}::InitWorldSpaceParticlesCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02scenemanager_8cpp_03_1_1InitParticlesVisitor.html">anonymous_namespace{scenemanager.cpp}::InitParticlesVisitor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SharedStateManager.html">Resource::SharedStateManager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SetFilterSettingsControllerVisitor.html">Resource::SetFilterSettingsControllerVisitor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set texture filtering settings on textures contained in a FlipController.  <a href="classResource_1_1SetFilterSettingsControllerVisitor.html#details">More...</a><br/></td></tr>
@@ -140,6 +147,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ImageReadCallback.html">Resource::ImageReadCallback</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to read image files from the <a class="el" href="namespaceVFS.html">VFS</a>.  <a href="classResource_1_1ImageReadCallback.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1CanOptimizeCallback.html">Resource::CanOptimizeCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1TemplateRef.html">Resource::TemplateRef</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -153,13 +164,17 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a87a9a3a76a3d5435fe50a7ed833cc58f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a87a9a3a76a3d5435fe50a7ed833cc58f">Resource::getFileExtension</a> (const std::string &amp;file)</td></tr>
 <tr class="separator:a87a9a3a76a3d5435fe50a7ed833cc58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1597cf6af8ffec1e4e0ae7a0fe7a10c6"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a1597cf6af8ffec1e4e0ae7a0fe7a10c6">Resource::load</a> (<a class="el" href="namespaceFiles.html#aba837ada2130f11d385768dcd8f0a950">Files::IStreamPtr</a> file, const std::string &amp;normalizedFilename, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager, <a class="el" href="classResource_1_1NifFileManager.html">Resource::NifFileManager</a> *nifFileManager)</td></tr>
+<tr class="memitem:a1597cf6af8ffec1e4e0ae7a0fe7a10c6"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a1597cf6af8ffec1e4e0ae7a0fe7a10c6">Resource::load</a> (<a class="el" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a> file, const std::string &amp;normalizedFilename, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager, <a class="el" href="classResource_1_1NifFileManager.html">Resource::NifFileManager</a> *nifFileManager)</td></tr>
 <tr class="separator:a1597cf6af8ffec1e4e0ae7a0fe7a10c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265f95228cebbc4aafd91f5f7eeb21e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a265f95228cebbc4aafd91f5f7eeb21e6">Resource::canOptimize</a> (const std::string &amp;filename)</td></tr>
+<tr class="separator:a265f95228cebbc4aafd91f5f7eeb21e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac460d7775e0e6651446ad0b5d319b16f"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#ac460d7775e0e6651446ad0b5d319b16f">Resource::getOptimizationOptions</a> ()</td></tr>
+<tr class="separator:ac460d7775e0e6651446ad0b5d319b16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

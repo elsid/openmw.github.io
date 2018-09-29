@@ -45,7 +45,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWGui_1_1ScreenFader.html#aa55fa8bcf167d5fece7c90233ef7fe2a" target="_top" xlink:title="MWGui::ScreenFader\l::fadeTo">
+<g id="a_node4"><a xlink:href="classMWGui_1_1ScreenFader.html#aeb87bceb68eddd59ec865a2abaeb8147" target="_top" xlink:title="MWGui::ScreenFader\l::fadeTo">
 <polygon fill="white" stroke="black" points="168.5,-93 168.5,-123 283.5,-123 283.5,-93 168.5,-93"/>
 <text text-anchor="start" x="176.5" y="-111" font-family="FreeSans" font-size="10.00">MWGui::ScreenFader</text>
 <text text-anchor="middle" x="226" y="-100" font-family="FreeSans" font-size="10.00">::fadeTo</text>
@@ -59,7 +59,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classMWGui_1_1ScreenFader.html#aa8c480fa918cd25fce2b7bc42a25d3b7" target="_top" xlink:title="MWGui::ScreenFader\l::queue">
+<g id="a_node5"><a xlink:href="classMWGui_1_1ScreenFader.html#a2bc248df324d29ce8833cfb086a3bc33" target="_top" xlink:title="MWGui::ScreenFader\l::queue">
 <polygon fill="white" stroke="black" points="320.5,-93 320.5,-123 435.5,-123 435.5,-93 320.5,-93"/>
 <text text-anchor="start" x="328.5" y="-111" font-family="FreeSans" font-size="10.00">MWGui::ScreenFader</text>
 <text text-anchor="middle" x="378" y="-100" font-family="FreeSans" font-size="10.00">::queue</text>
@@ -101,23 +101,24 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" target="_top" xlink:title="Notify that window has been made visible. ">
-<polygon fill="white" stroke="black" points="781,-186.5 781,-205.5 925,-205.5 925,-186.5 781,-186.5"/>
-<text text-anchor="middle" x="853" y="-193.5" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::open</text>
+<g id="a_node8"><a xlink:href="classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" target="_top" xlink:title="Notify that window has been made visible. ">
+<polygon fill="white" stroke="black" points="793,-186 793,-216 913,-216 913,-186 793,-186"/>
+<text text-anchor="start" x="801" y="-204" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
+<text text-anchor="middle" x="853" y="-193" font-family="FreeSans" font-size="10.00">onOpen</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M702.029,-123.038C720.188,-138.358 750.357,-161.823 780,-176 785.76,-178.755 791.967,-181.19 798.236,-183.326"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="797.492,-186.761 808.082,-186.44 799.603,-180.087 797.492,-186.761"/>
+<path fill="none" stroke="midnightblue" d="M702.9,-123.221C721.276,-138.247 751.181,-161.08 780,-176 784.186,-178.167 788.602,-180.215 793.101,-182.136"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="791.827,-185.396 802.41,-185.895 794.448,-178.905 791.827,-185.396"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" target="_top" xlink:title="Notify that window has been hidden. ">
+<g id="a_node9"><a xlink:href="classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" target="_top" xlink:title="Notify that window has been hidden. ">
 <polygon fill="white" stroke="black" points="793,-137 793,-167 913,-167 913,-137 793,-137"/>
 <text text-anchor="start" x="801" y="-155" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
-<text text-anchor="middle" x="853" y="-144" font-family="FreeSans" font-size="10.00">close</text>
+<text text-anchor="middle" x="853" y="-144" font-family="FreeSans" font-size="10.00">onClose</text>
 </a>
 </g>
 </g>

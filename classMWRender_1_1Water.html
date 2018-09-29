@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -98,7 +98,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classMWRender_1_1Water-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MWRender::Water Class Reference</div>  </div>
@@ -112,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWRender::Water:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Water__coll__graph.svg" width="3386" height="3008"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Water__coll__graph.svg" width="4039" height="3083"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -150,8 +149,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a714b8dcd48ba00965e5f2610d42f86a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb6e517c17e95f06adffeb51073a21de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#abb6e517c17e95f06adffeb51073a21de">update</a> (float dt)</td></tr>
 <tr class="separator:abb6e517c17e95f06adffeb51073a21de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3a87f0dc4111d2ddf230e94bd18b85"><td class="memItemLeft" align="right" valign="top">osg::Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a9d3a87f0dc4111d2ddf230e94bd18b85">getReflectionCamera</a> ()</td></tr>
+<tr class="separator:a9d3a87f0dc4111d2ddf230e94bd18b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430c8d355ad9755f386d5aaf48db49c7"><td class="memItemLeft" align="right" valign="top">osg::Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a430c8d355ad9755f386d5aaf48db49c7">getRefractionCamera</a> ()</td></tr>
+<tr class="separator:a430c8d355ad9755f386d5aaf48db49c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae25c8a0a19876dbda7a83c22195fa730"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#ae25c8a0a19876dbda7a83c22195fa730">processChangedSettings</a> (const <a class="el" href="namespaceSettings.html#adad59589b05f5de9789b9067622d67f7">Settings::CategorySettingVector</a> &amp;settings)</td></tr>
 <tr class="separator:ae25c8a0a19876dbda7a83c22195fa730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8423fb515bb61cc8eaff697f3e4e634d"><td class="memItemLeft" align="right" valign="top">osg::Uniform *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a8423fb515bb61cc8eaff697f3e4e634d">getRainIntensityUniform</a> ()</td></tr>
+<tr class="separator:a8423fb515bb61cc8eaff697f3e4e634d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -168,6 +173,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:ae4ab0f1057c0f601b927d3d771092860"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Uniform &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#ae4ab0f1057c0f601b927d3d771092860">mRainIntensityUniform</a></td></tr>
+<tr class="separator:ae4ab0f1057c0f601b927d3d771092860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2c407cdda0bd7f53c25477fd52d92c7"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Group &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#ae2c407cdda0bd7f53c25477fd52d92c7">mParent</a></td></tr>
 <tr class="separator:ae2c407cdda0bd7f53c25477fd52d92c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72a3eda59bf7ce9066a44d7fa5df36e7"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Group &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a72a3eda59bf7ce9066a44d7fa5df36e7">mSceneRoot</a></td></tr>
@@ -184,8 +191,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa0b6a14165fcaea2fe3d27cf39c8c9c8"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
 &lt; osgUtil::IncrementalCompileOperation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#aa0b6a14165fcaea2fe3d27cf39c8c9c8">mIncrementalCompileOperation</a></td></tr>
 <tr class="separator:aa0b6a14165fcaea2fe3d27cf39c8c9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f697944077bcc21713636d3466c5341"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; <a class="el" href="classMWRender_1_1RippleSimulation.html">RippleSimulation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a3f697944077bcc21713636d3466c5341">mSimulation</a></td></tr>
-<tr class="separator:a3f697944077bcc21713636d3466c5341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f2bab8d3000cd898c114ed8ea5d043f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMWRender_1_1RippleSimulation.html">RippleSimulation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a5f2bab8d3000cd898c114ed8ea5d043f">mSimulation</a></td></tr>
+<tr class="separator:a5f2bab8d3000cd898c114ed8ea5d043f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9434d40ffd353a50b6bf2672d9111b41"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; <a class="el" href="classMWRender_1_1Refraction.html">Refraction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a9434d40ffd353a50b6bf2672d9111b41">mRefraction</a></td></tr>
 <tr class="separator:a9434d40ffd353a50b6bf2672d9111b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a224f3e455209e8c8052fdc8914dc6cda"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; <a class="el" href="classMWRender_1_1Reflection.html">Reflection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a224f3e455209e8c8052fdc8914dc6cda">mReflection</a></td></tr>
@@ -198,11 +205,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a34c3c8589f933e81574b7bcb474e05bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d600e9b733775bfb79c8395818b20e0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#a4d600e9b733775bfb79c8395818b20e0">mTop</a></td></tr>
 <tr class="separator:a4d600e9b733775bfb79c8395818b20e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ab3aed128044e3af54abda5e9f0fb1bcb"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Water.html#ab3aed128044e3af54abda5e9f0fb1bcb">CELL_SIZE</a> = 8192</td></tr>
-<tr class="separator:ab3aed128044e3af54abda5e9f0fb1bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classMWRender_1_1Water.html" title="Water rendering. ">Water</a> rendering. </p>
@@ -258,7 +260,7 @@ Static Private Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Water_a54a42da8c7313f5496dd442557339e8a_cgraph.svg" width="1566" height="2099"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Water_a54a42da8c7313f5496dd442557339e8a_cgraph.svg" width="1566" height="2200"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -452,7 +454,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Water_ab50b20b00ac80cec728d3a622a089883_cgraph.svg" width="1491" height="611"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Water_ab50b20b00ac80cec728d3a622a089883_cgraph.svg" width="1491" height="872"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -476,6 +478,51 @@ Here is the caller graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8423fb515bb61cc8eaff697f3e4e634d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::Uniform * MWRender::Water::getRainIntensityUniform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9d3a87f0dc4111d2ddf230e94bd18b85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::Camera * MWRender::Water::getReflectionCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a430c8d355ad9755f386d5aaf48db49c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::Camera * MWRender::Water::getRefractionCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -807,26 +854,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ab3aed128044e3af54abda5e9f0fb1bcb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classint.html">int</a> MWRender::Water::CELL_SIZE = 8192</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ae1c64413790eed8b57e37ed2beb3b156"></a>
 <div class="memitem">
 <div class="memproto">
@@ -896,6 +923,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">osg::ref_ptr&lt;osg::Group&gt; MWRender::Water::mParent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae4ab0f1057c0f601b927d3d771092860"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt;osg::Uniform&gt; MWRender::Water::mRainIntensityUniform</td>
         </tr>
       </table>
   </td>
@@ -1007,7 +1054,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a3f697944077bcc21713636d3466c5341"></a>
+<a class="anchor" id="a5f2bab8d3000cd898c114ed8ea5d043f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1015,7 +1062,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classMWRender_1_1RippleSimulation.html">RippleSimulation</a>&gt; MWRender::Water::mSimulation</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classMWRender_1_1RippleSimulation.html">RippleSimulation</a>&gt; MWRender::Water::mSimulation</td>
         </tr>
       </table>
   </td>
@@ -1108,13 +1155,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwrender/<a class="el" href="water_8hpp_source.html">water.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwrender/<a class="el" href="water_8cpp.html">water.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwrender/<a class="el" href="water_8hpp_source.html">water.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwrender/<a class="el" href="water_8cpp.html">water.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:05 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:39 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

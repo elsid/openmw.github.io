@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwworld/action.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwworld/action.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -133,7 +133,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classMWWorld_1_1Action.html#aa50da4c525b43175ccd7071737a5b443">   37</a></span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMWWorld_1_1Action.html#aa50da4c525b43175ccd7071737a5b443">isNullAction</a>() { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classMWWorld_1_1Action.html#aff8076501d1af8d06047220802293b5c">execute</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">Ptr</a>&amp; actor);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classMWWorld_1_1Action.html#a40a02d650fbcc77561d98c2ec4d50b18">execute</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">Ptr</a>&amp; actor, <span class="keywordtype">bool</span> noSound = <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classMWWorld_1_1Action.html#af710c7b43d6ee6f72c4a8e75f6c9e42b">setSound</a> (<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classMWWorld_1_1Action.html#a221a63f80f3909f754076f09caa00e0d">setSoundOffset</a>(<span class="keywordtype">float</span> offset);</div>
@@ -141,27 +141,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classMWWorld_1_1Action_html_af710c7b43d6ee6f72c4a8e75f6c9e42b"><div class="ttname"><a href="classMWWorld_1_1Action.html#af710c7b43d6ee6f72c4a8e75f6c9e42b">MWWorld::Action::setSound</a></div><div class="ttdeci">void setSound(const std::string &amp;id)</div><div class="ttdef"><b>Definition:</b> action.cpp:53</div></div>
+<div class="ttc" id="classMWWorld_1_1Action_html_af710c7b43d6ee6f72c4a8e75f6c9e42b"><div class="ttname"><a href="classMWWorld_1_1Action.html#af710c7b43d6ee6f72c4a8e75f6c9e42b">MWWorld::Action::setSound</a></div><div class="ttdeci">void setSound(const std::string &amp;id)</div><div class="ttdef"><b>Definition:</b> action.cpp:61</div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html_acf9ca088d9c86db719320f4edf4d8166"><div class="ttname"><a href="classMWWorld_1_1Action.html#acf9ca088d9c86db719320f4edf4d8166">MWWorld::Action::mTarget</a></div><div class="ttdeci">Ptr mTarget</div><div class="ttdef"><b>Definition:</b> action.hpp:16</div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html_a1063327216e4c73589d05d5cbdde1c6b"><div class="ttname"><a href="classMWWorld_1_1Action.html#a1063327216e4c73589d05d5cbdde1c6b">MWWorld::Action::Action</a></div><div class="ttdeci">Action(const Action &amp;action)</div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html"><div class="ttname"><a href="classMWWorld_1_1Action.html">MWWorld::Action</a></div><div class="ttdoc">Abstract base for actions. </div><div class="ttdef"><b>Definition:</b> action.hpp:11</div></div>
-<div class="ttc" id="classMWWorld_1_1Action_html_a0350d058e707a3345492f276294f1487"><div class="ttname"><a href="classMWWorld_1_1Action.html#a0350d058e707a3345492f276294f1487">MWWorld::Action::setTarget</a></div><div class="ttdeci">void setTarget(const Ptr &amp;)</div><div class="ttdef"><b>Definition:</b> action.cpp:15</div></div>
-<div class="ttc" id="classMWWorld_1_1Action_html_a221a63f80f3909f754076f09caa00e0d"><div class="ttname"><a href="classMWWorld_1_1Action.html#a221a63f80f3909f754076f09caa00e0d">MWWorld::Action::setSoundOffset</a></div><div class="ttdeci">void setSoundOffset(float offset)</div><div class="ttdef"><b>Definition:</b> action.cpp:58</div></div>
+<div class="ttc" id="classMWWorld_1_1Action_html_a0350d058e707a3345492f276294f1487"><div class="ttname"><a href="classMWWorld_1_1Action.html#a0350d058e707a3345492f276294f1487">MWWorld::Action::setTarget</a></div><div class="ttdeci">void setTarget(const Ptr &amp;)</div><div class="ttdef"><b>Definition:</b> action.cpp:16</div></div>
+<div class="ttc" id="classMWWorld_1_1Action_html_a221a63f80f3909f754076f09caa00e0d"><div class="ttname"><a href="classMWWorld_1_1Action.html#a221a63f80f3909f754076f09caa00e0d">MWWorld::Action::setSoundOffset</a></div><div class="ttdeci">void setSoundOffset(float offset)</div><div class="ttdef"><b>Definition:</b> action.cpp:66</div></div>
 <div class="ttc" id="ptr_8hpp_html"><div class="ttname"><a href="ptr_8hpp.html">ptr.hpp</a></div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html_a7f2cb218d27d413b9db214c469402914"><div class="ttname"><a href="classMWWorld_1_1Action.html#a7f2cb218d27d413b9db214c469402914">MWWorld::Action::mSoundId</a></div><div class="ttdeci">std::string mSoundId</div><div class="ttdef"><b>Definition:</b> action.hpp:13</div></div>
-<div class="ttc" id="classMWWorld_1_1Action_html_a6f251a38ff6fdedac4169c8c4f327088"><div class="ttname"><a href="classMWWorld_1_1Action.html#a6f251a38ff6fdedac4169c8c4f327088">MWWorld::Action::getTarget</a></div><div class="ttdeci">const Ptr &amp; getTarget() const </div><div class="ttdef"><b>Definition:</b> action.cpp:10</div></div>
+<div class="ttc" id="classMWWorld_1_1Action_html_a6f251a38ff6fdedac4169c8c4f327088"><div class="ttname"><a href="classMWWorld_1_1Action.html#a6f251a38ff6fdedac4169c8c4f327088">MWWorld::Action::getTarget</a></div><div class="ttdeci">const Ptr &amp; getTarget() const </div><div class="ttdef"><b>Definition:</b> action.cpp:11</div></div>
+<div class="ttc" id="classMWWorld_1_1Action_html_a40a02d650fbcc77561d98c2ec4d50b18"><div class="ttname"><a href="classMWWorld_1_1Action.html#a40a02d650fbcc77561d98c2ec4d50b18">MWWorld::Action::execute</a></div><div class="ttdeci">void execute(const Ptr &amp;actor, bool noSound=false)</div><div class="ttdef"><b>Definition:</b> action.cpp:26</div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html_a48e5b6d605726f89dc550288cc50a3c2"><div class="ttname"><a href="classMWWorld_1_1Action.html#a48e5b6d605726f89dc550288cc50a3c2">MWWorld::Action::executeImp</a></div><div class="ttdeci">virtual void executeImp(const Ptr &amp;actor)=0</div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html_ac68df534589edb6ffac38225c0b9d852"><div class="ttname"><a href="classMWWorld_1_1Action.html#ac68df534589edb6ffac38225c0b9d852">MWWorld::Action::operator=</a></div><div class="ttdeci">Action &amp; operator=(const Action &amp;action)</div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html_aa50da4c525b43175ccd7071737a5b443"><div class="ttname"><a href="classMWWorld_1_1Action.html#aa50da4c525b43175ccd7071737a5b443">MWWorld::Action::isNullAction</a></div><div class="ttdeci">virtual bool isNullAction()</div><div class="ttdoc">Is running this action a no-op? (default false) </div><div class="ttdef"><b>Definition:</b> action.hpp:37</div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html_a6f875c9cff8a9b43b74fa869dca4c9c2"><div class="ttname"><a href="classMWWorld_1_1Action.html#a6f875c9cff8a9b43b74fa869dca4c9c2">MWWorld::Action::mKeepSound</a></div><div class="ttdeci">bool mKeepSound</div><div class="ttdef"><b>Definition:</b> action.hpp:14</div></div>
-<div class="ttc" id="classMWWorld_1_1Action_html_a3ce6247bd49896daaa15f40479c4efea"><div class="ttname"><a href="classMWWorld_1_1Action.html#a3ce6247bd49896daaa15f40479c4efea">MWWorld::Action::~Action</a></div><div class="ttdeci">virtual ~Action()</div><div class="ttdef"><b>Definition:</b> action.cpp:23</div></div>
+<div class="ttc" id="classMWWorld_1_1Action_html_a3ce6247bd49896daaa15f40479c4efea"><div class="ttname"><a href="classMWWorld_1_1Action.html#a3ce6247bd49896daaa15f40479c4efea">MWWorld::Action::~Action</a></div><div class="ttdeci">virtual ~Action()</div><div class="ttdef"><b>Definition:</b> action.cpp:24</div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html_a2d7c2be08e723ecf45bcdc922b010407"><div class="ttname"><a href="classMWWorld_1_1Action.html#a2d7c2be08e723ecf45bcdc922b010407">MWWorld::Action::mSoundOffset</a></div><div class="ttdeci">float mSoundOffset</div><div class="ttdef"><b>Definition:</b> action.hpp:15</div></div>
 <div class="ttc" id="classMWWorld_1_1Ptr_html"><div class="ttname"><a href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a></div><div class="ttdoc">Pointer to a LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:19</div></div>
-<div class="ttc" id="classMWWorld_1_1Action_html_aff8076501d1af8d06047220802293b5c"><div class="ttname"><a href="classMWWorld_1_1Action.html#aff8076501d1af8d06047220802293b5c">MWWorld::Action::execute</a></div><div class="ttdeci">void execute(const Ptr &amp;actor)</div><div class="ttdef"><b>Definition:</b> action.cpp:25</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:51 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:23 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

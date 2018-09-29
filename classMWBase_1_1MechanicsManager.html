@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWBase::MechanicsManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager__inherit__graph.svg" width="254" height="758"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager__inherit__graph.svg" width="254" height="771"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -185,6 +185,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60aee9bf34cd677ca376affd12527377"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a60aee9bf34cd677ca376affd12527377">setPlayerClass</a> (const <a class="el" href="structESM_1_1Class.html">ESM::Class</a> &amp;class_)=0</td></tr>
 <tr class="memdesc:a60aee9bf34cd677ca376affd12527377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set player class to custom class.  <a href="#a60aee9bf34cd677ca376affd12527377">More...</a><br/></td></tr>
 <tr class="separator:a60aee9bf34cd677ca376affd12527377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a448971fe8bd6a39cbb39dfdaa70aa06e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a448971fe8bd6a39cbb39dfdaa70aa06e">restoreDynamicStats</a> (<a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> actor, <a class="el" href="classbool.html">bool</a> sleep)=0</td></tr>
+<tr class="separator:a448971fe8bd6a39cbb39dfdaa70aa06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6432650a81b2068ae4f8e3dd4ec78bd0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a6432650a81b2068ae4f8e3dd4ec78bd0">rest</a> (<a class="el" href="classbool.html">bool</a> sleep)=0</td></tr>
 <tr class="separator:a6432650a81b2068ae4f8e3dd4ec78bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74959bf6c413284791fb32eb1146f8fa"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a74959bf6c413284791fb32eb1146f8fa">getHoursToRest</a> () const =0</td></tr>
@@ -211,8 +213,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a04f6dd8f0a23dfe228c458784ac2ad88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a296e9033acc707700d9325ece86f0cc4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a296e9033acc707700d9325ece86f0cc4">actorKilled</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;victim, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;attacker)=0</td></tr>
 <tr class="separator:a296e9033acc707700d9325ece86f0cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8257493a6d404187c59864b777b81161"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a8257493a6d404187c59864b777b81161">itemTaken</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;item, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;container, <a class="el" href="classint.html">int</a> count)=0</td></tr>
-<tr class="separator:a8257493a6d404187c59864b777b81161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef39c1f9cf7af3cffdc52345d0d71274"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#aef39c1f9cf7af3cffdc52345d0d71274">itemTaken</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;item, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;container, <a class="el" href="classint.html">int</a> count, <a class="el" href="classbool.html">bool</a> alarm=true)=0</td></tr>
+<tr class="separator:aef39c1f9cf7af3cffdc52345d0d71274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c1838e316597408520690cdb7e8b10b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a3c1838e316597408520690cdb7e8b10b">objectOpened</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;item)=0</td></tr>
 <tr class="memdesc:a3c1838e316597408520690cdb7e8b10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility to check if opening (i.e. unlocking) this object is illegal and calling commitCrime if so.  <a href="#a3c1838e316597408520690cdb7e8b10b">More...</a><br/></td></tr>
 <tr class="separator:a3c1838e316597408520690cdb7e8b10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,6 +245,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acd3ab086a5a15bbc7e31498c25184b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada011f026816c5b5c817cfac3dd36731"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#ada011f026816c5b5c817cfac3dd36731">getActorsInRange</a> (const osg::Vec3f &amp;position, float radius, std::vector&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt; &amp;objects)=0</td></tr>
 <tr class="separator:ada011f026816c5b5c817cfac3dd36731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12ca645f1f44586638a4fc19d5237161"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a12ca645f1f44586638a4fc19d5237161">isAnyActorInRange</a> (const osg::Vec3f &amp;position, float radius)=0</td></tr>
+<tr class="memdesc:a12ca645f1f44586638a4fc19d5237161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if there are actors in selected range.  <a href="#a12ca645f1f44586638a4fc19d5237161">More...</a><br/></td></tr>
+<tr class="separator:a12ca645f1f44586638a4fc19d5237161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25d7fcfabfe6e2461b3696253315a4f0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="bsatool_8cpp.html#a6e7f1179c5854ac3883506e79162011b">std::list</a>&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a25d7fcfabfe6e2461b3696253315a4f0">getActorsSidingWith</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor)=0</td></tr>
 <tr class="memdesc:a25d7fcfabfe6e2461b3696253315a4f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of actors which are siding with the given actor in fights.  <a href="#a25d7fcfabfe6e2461b3696253315a4f0">More...</a><br/></td></tr>
 <tr class="separator:a25d7fcfabfe6e2461b3696253315a4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -275,18 +280,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ded1629794d493de5418f327db4fced"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a1ded1629794d493de5418f327db4fced">keepPlayerAlive</a> ()=0</td></tr>
 <tr class="memdesc:a1ded1629794d493de5418f327db4fced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resurrects the player if necessary.  <a href="#a1ded1629794d493de5418f327db4fced">More...</a><br/></td></tr>
 <tr class="separator:a1ded1629794d493de5418f327db4fced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f1e20cfcdf4bdef087513f2d466fcd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a98f1e20cfcdf4bdef087513f2d466fcd">isCastingSpell</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr) const =0</td></tr>
+<tr class="separator:a98f1e20cfcdf4bdef087513f2d466fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62519536f13256e12292f46facfb5a81"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a62519536f13256e12292f46facfb5a81">isReadyToBlock</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr) const =0</td></tr>
 <tr class="separator:a62519536f13256e12292f46facfb5a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af558d77591d89f80eae646cbc22e16b7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#af558d77591d89f80eae646cbc22e16b7">isAttackingOrSpell</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr) const =0</td></tr>
+<tr class="separator:af558d77591d89f80eae646cbc22e16b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd28f5c0e3c9a5e5d4dbfd9bfc1f269"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#abdd28f5c0e3c9a5e5d4dbfd9bfc1f269">castSpell</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, const std::string spellId, <a class="el" href="classbool.html">bool</a> manualSpell)=0</td></tr>
+<tr class="separator:abdd28f5c0e3c9a5e5d4dbfd9bfc1f269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c8bb1c943c7afb25bc3c60e8d25409"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a65c8bb1c943c7afb25bc3c60e8d25409">isActorDetected</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;observer)=0</td></tr>
+<tr class="separator:a65c8bb1c943c7afb25bc3c60e8d25409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0a7e826a5b9623050b7e24abeaa9ef5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#ae0a7e826a5b9623050b7e24abeaa9ef5">confiscateStolenItems</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;player, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;targetContainer)=0</td></tr>
 <tr class="separator:ae0a7e826a5b9623050b7e24abeaa9ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adca0673ebad3f7e0f6aab8d86ccce710"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair<br class="typebreak"/>
 &lt; std::string, <a class="el" href="classint.html">int</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#adca0673ebad3f7e0f6aab8d86ccce710">getStolenItemOwners</a> (const std::string &amp;itemid)=0</td></tr>
 <tr class="separator:adca0673ebad3f7e0f6aab8d86ccce710"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e3db0f7927d362100b967947b54b0f5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a0e3db0f7927d362100b967947b54b0f5">isItemStolenFrom</a> (const std::string &amp;itemid, const std::string &amp;ownerid)=0</td></tr>
-<tr class="memdesc:a0e3db0f7927d362100b967947b54b0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Has the player stolen this item from the given owner?  <a href="#a0e3db0f7927d362100b967947b54b0f5">More...</a><br/></td></tr>
-<tr class="separator:a0e3db0f7927d362100b967947b54b0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93074939809db131c0daf763ae80a599"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a93074939809db131c0daf763ae80a599">isAllowedToUse</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, const <a class="el" href="classMWWorld_1_1CellRef.html">MWWorld::CellRef</a> &amp;cellref, <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;victim)=0</td></tr>
-<tr class="separator:a93074939809db131c0daf763ae80a599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46e2c484b71e1624648916548f8eaf67"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a46e2c484b71e1624648916548f8eaf67">isItemStolenFrom</a> (const std::string &amp;itemid, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr)=0</td></tr>
+<tr class="memdesc:a46e2c484b71e1624648916548f8eaf67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Has the player stolen this item from the given owner?  <a href="#a46e2c484b71e1624648916548f8eaf67">More...</a><br/></td></tr>
+<tr class="separator:a46e2c484b71e1624648916548f8eaf67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0873151b37f67afaf5d06fcfbd27e400"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a0873151b37f67afaf5d06fcfbd27e400">isBoundItem</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;item)=0</td></tr>
+<tr class="separator:a0873151b37f67afaf5d06fcfbd27e400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cdb409bc3980d7ce7d0f6a52a6914a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#aa7cdb409bc3980d7ce7d0f6a52a6914a">isAllowedToUse</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;target, <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;victim)=0</td></tr>
+<tr class="separator:aa7cdb409bc3980d7ce7d0f6a52a6914a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacd62341021b2f40f788e3f00a32facc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#aacd62341021b2f40f788e3f00a32facc">setWerewolf</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, <a class="el" href="classbool.html">bool</a> werewolf)=0</td></tr>
 <tr class="memdesc:aacd62341021b2f40f788e3f00a32facc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn actor into werewolf or normal form.  <a href="#aacd62341021b2f40f788e3f00a32facc">More...</a><br/></td></tr>
 <tr class="separator:aacd62341021b2f40f788e3f00a32facc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,6 +309,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab3d1eac7c96ab571772c4a5210086867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1410272f70526ce01eeda8a1176b279"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#aa1410272f70526ce01eeda8a1176b279">cleanupSummonedCreature</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;caster, <a class="el" href="classint.html">int</a> creatureActorId)=0</td></tr>
 <tr class="separator:aa1410272f70526ce01eeda8a1176b279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa8a23bf084f3b41d4641b06d8b19aed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#afa8a23bf084f3b41d4641b06d8b19aed">confiscateStolenItemToOwner</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;player, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;item, const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;victim, <a class="el" href="classint.html">int</a> count)=0</td></tr>
+<tr class="separator:afa8a23bf084f3b41d4641b06d8b19aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b76efdaec31d39d0ed40f8fbec12946"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a0b76efdaec31d39d0ed40f8fbec12946">isAttackPreparing</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr)=0</td></tr>
+<tr class="separator:a0b76efdaec31d39d0ed40f8fbec12946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a9f5f35c57fa896ac3461fe33a32bd0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#a7a9f5f35c57fa896ac3461fe33a32bd0">isRunning</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr)=0</td></tr>
+<tr class="separator:a7a9f5f35c57fa896ac3461fe33a32bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07176c3dd50ce636813e317c75872f9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1MechanicsManager.html#ab07176c3dd50ce636813e317c75872f9">isSneaking</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr)=0</td></tr>
+<tr class="separator:ab07176c3dd50ce636813e317c75872f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -553,7 +576,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_af7c582ab8154859c6ac8de69c62b5158_icgraph.svg" width="782" height="347"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_af7c582ab8154859c6ac8de69c62b5158_icgraph.svg" width="782" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -668,10 +691,52 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ad4cf9151488f6d826b0a45e5e56fb8dc_icgraph.svg" width="995" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ad4cf9151488f6d826b0a45e5e56fb8dc_icgraph.svg" width="1056" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="abdd28f5c0e3c9a5e5d4dbfd9bfc1f269"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MWBase::MechanicsManager::castSpell </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>spellId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>manualSpell</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#ae2783504c7a4894b0250a75fcc3227eb">MWMechanics::MechanicsManager</a>.</p>
 
 </div>
 </div>
@@ -860,7 +925,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a584da9ad109bd6bebc1325671ab20508_icgraph.svg" width="1195" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a584da9ad109bd6bebc1325671ab20508_icgraph.svg" width="731" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -905,6 +970,62 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ae0a7e826a5b9623050b7e24abeaa9ef5_icgraph.svg" width="1168" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afa8a23bf084f3b41d4641b06d8b19aed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MWBase::MechanicsManager::confiscateStolenItemToOwner </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>victim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#aa5d870d6413175e80ba1bb7904c25a8f">MWMechanics::MechanicsManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_afa8a23bf084f3b41d4641b06d8b19aed_icgraph.svg" width="926" height="188"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1009,7 +1130,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ab2a36be44f6076c5950773d159fda088_icgraph.svg" width="1219" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ab2a36be44f6076c5950773d159fda088_icgraph.svg" width="710" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1045,7 +1166,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a3db0e12a32e05e190f26b4dc64535d04_icgraph.svg" width="1568" height="460"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a3db0e12a32e05e190f26b4dc64535d04_icgraph.svg" width="1568" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1116,7 +1237,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a1e2576bcdda57599ad5083e8c9b88d9e_icgraph.svg" width="1096" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a1e2576bcdda57599ad5083e8c9b88d9e_icgraph.svg" width="872" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1264,6 +1385,14 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a6fde5ca1541b97a7f55396f440fe2755">MWMechanics::MechanicsManager</a>.</p>
 
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a25d7fcfabfe6e2461b3696253315a4f0_icgraph.svg" width="683" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a9bc9f8883af454da2d904d65617cb5a8"></a>
@@ -1347,7 +1476,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a9c08bc46cec81a7f65f47ef060680eb4_icgraph.svg" width="1934" height="1159"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a9c08bc46cec81a7f65f47ef060680eb4_icgraph.svg" width="1936" height="715"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1393,7 +1522,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a653a0e3317b68219781bac0234e8ed73_icgraph.svg" width="915" height="312"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a653a0e3317b68219781bac0234e8ed73_icgraph.svg" width="1107" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1427,7 +1556,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a35bb8fd97c6470b3882fe9a5983417eb_icgraph.svg" width="899" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a35bb8fd97c6470b3882fe9a5983417eb_icgraph.svg" width="456" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1618,6 +1747,51 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a65c8bb1c943c7afb25bc3c60e8d25409"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::MechanicsManager::isActorDetected </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>observer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check if the target actor was detected by an observer If the observer is a non-NPC, check all actors in AI processing distance as observers </p>
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a6b29a96133e886d93e4e8c66dcd30db2">MWMechanics::MechanicsManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a65c8bb1c943c7afb25bc3c60e8d25409_icgraph.svg" width="478" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a4366029cace62cbfd8a3afea2c8aa16d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1685,9 +1859,17 @@ Here is the caller graph for this function:</div>
 
 <p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#aaa3c1952f6eb168e0c53d4fb7de5cc39">MWMechanics::MechanicsManager</a>.</p>
 
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ab83e215181f4aaf18f7ffeac18708ea6_icgraph.svg" width="928" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<a class="anchor" id="a93074939809db131c0daf763ae80a599"></a>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7cdb409bc3980d7ce7d0f6a52a6914a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1703,8 +1885,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classMWWorld_1_1CellRef.html">MWWorld::CellRef</a> &amp;&#160;</td>
-          <td class="paramname"><em>cellref</em>, </td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1725,19 +1907,185 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a5b146544cc0e8c185eb9243ddb87fe83">MWMechanics::MechanicsManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a5a9be9c685214b98d63f796640347994">MWMechanics::MechanicsManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a93074939809db131c0daf763ae80a599_icgraph.svg" width="1422" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_aa7cdb409bc3980d7ce7d0f6a52a6914a_icgraph.svg" width="1160" height="136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a0e3db0f7927d362100b967947b54b0f5"></a>
+<a class="anchor" id="a12ca645f1f44586638a4fc19d5237161"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::MechanicsManager::isAnyActorInRange </td>
+          <td>(</td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if there are actors in selected range. </p>
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a4dbaa76e140695fdfb1e1a9aa62070bd">MWMechanics::MechanicsManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a12ca645f1f44586638a4fc19d5237161_icgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af558d77591d89f80eae646cbc22e16b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::MechanicsManager::isAttackingOrSpell </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a3c8c5d33e186bc2b131f1d2a19fba084">MWMechanics::MechanicsManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_af558d77591d89f80eae646cbc22e16b7_icgraph.svg" width="1214" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0b76efdaec31d39d0ed40f8fbec12946"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::MechanicsManager::isAttackPreparing </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a40ad66a025692e2b9973a1f802d5f6e2">MWMechanics::MechanicsManager</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0873151b37f67afaf5d06fcfbd27e400"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::MechanicsManager::isBoundItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#af0532eddf87f9e52304bf530c28871e0">MWMechanics::MechanicsManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a0873151b37f67afaf5d06fcfbd27e400_icgraph.svg" width="478" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a98f1e20cfcdf4bdef087513f2d466fcd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::MechanicsManager::isCastingSpell </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#ad250cd41d428cd54000296a8b9daf6c2">MWMechanics::MechanicsManager</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a46e2c484b71e1624648916548f8eaf67"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1753,8 +2101,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>ownerid</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1771,12 +2119,12 @@ Here is the caller graph for this function:</div>
 
 <p>Has the player stolen this item from the given owner? </p>
 
-<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a64ce8df494563c5d98c96743a104c41e">MWMechanics::MechanicsManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a06a7bbea80ada06c48a1a11a011cc4c1">MWMechanics::MechanicsManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a0e3db0f7927d362100b967947b54b0f5_icgraph.svg" width="635" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a46e2c484b71e1624648916548f8eaf67_icgraph.svg" width="838" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1809,7 +2157,75 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a8257493a6d404187c59864b777b81161"></a>
+<a class="anchor" id="a7a9f5f35c57fa896ac3461fe33a32bd0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::MechanicsManager::isRunning </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a2ffabdb1c1a0a8a136345a0ed30ee5b4">MWMechanics::MechanicsManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a7a9f5f35c57fa896ac3461fe33a32bd0_icgraph.svg" width="454" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab07176c3dd50ce636813e317c75872f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::MechanicsManager::isSneaking </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a6a92b5ebf549cd849324592b4a8852d3">MWMechanics::MechanicsManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ab07176c3dd50ce636813e317c75872f9_icgraph.svg" width="464" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aef39c1f9cf7af3cffdc52345d0d71274"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1838,7 +2254,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>alarm</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1860,12 +2282,12 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a4bd88c829695528534252955ac6ceeaf">MWMechanics::MechanicsManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a9c01b3db81f6689dcdc2dc5d7f819fb4">MWMechanics::MechanicsManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a8257493a6d404187c59864b777b81161_icgraph.svg" width="1219" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_aef39c1f9cf7af3cffdc52345d0d71274_icgraph.svg" width="920" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1900,7 +2322,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a1ded1629794d493de5418f327db4fced_icgraph.svg" width="2192" height="1312"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a1ded1629794d493de5418f327db4fced_icgraph.svg" width="2224" height="1150"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2192,7 +2614,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a83d3a00e88dbd2bdd0dd00b244cadbf7_icgraph.svg" width="2179" height="278"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a83d3a00e88dbd2bdd0dd00b244cadbf7_icgraph.svg" width="763" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2233,7 +2655,51 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a6432650a81b2068ae4f8e3dd4ec78bd0_icgraph.svg" width="1128" height="247"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a6432650a81b2068ae4f8e3dd4ec78bd0_icgraph.svg" width="886" height="247"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a448971fe8bd6a39cbb39dfdaa70aa06e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MWBase::MechanicsManager::restoreDynamicStats </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&#160;</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>sleep</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWMechanics_1_1MechanicsManager.html#a720f61b57b3294d61fb40cfd2e0fae12">MWMechanics::MechanicsManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a448971fe8bd6a39cbb39dfdaa70aa06e_icgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2269,7 +2735,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_adbe3e0a087db75579b4c6783c498f6e9_icgraph.svg" width="1643" height="1344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_adbe3e0a087db75579b4c6783c498f6e9_icgraph.svg" width="1643" height="875"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2305,7 +2771,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a152cdcedaa8829b72e545de833f0275a_icgraph.svg" width="1888" height="1344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a152cdcedaa8829b72e545de833f0275a_icgraph.svg" width="1888" height="875"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2369,7 +2835,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_af7924a2fc8b6e7f4b44a03c136e1f16f_icgraph.svg" width="1403" height="1344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_af7924a2fc8b6e7f4b44a03c136e1f16f_icgraph.svg" width="1403" height="874"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2427,7 +2893,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a8bf8fa1c62691847511286c8f73596f7_icgraph.svg" width="1643" height="1344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a8bf8fa1c62691847511286c8f73596f7_icgraph.svg" width="1643" height="875"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2722,7 +3188,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ab400434daf87ec6a4f581895f6d8726e_icgraph.svg" width="1262" height="251"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_ab400434daf87ec6a4f581895f6d8726e_icgraph.svg" width="752" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2757,7 +3223,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a492b6773c7481ee98bebe185695ba915_icgraph.svg" width="1467" height="312"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_a492b6773c7481ee98bebe185695ba915_icgraph.svg" width="1467" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2792,7 +3258,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_aec39afa8600f5030f60736aaa0f2c54d_icgraph.svg" width="1280" height="326"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1MechanicsManager_aec39afa8600f5030f60736aaa0f2c54d_icgraph.svg" width="782" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2844,12 +3310,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwbase/<a class="el" href="mechanicsmanager_8hpp_source.html">mechanicsmanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwbase/<a class="el" href="mechanicsmanager_8hpp_source.html">mechanicsmanager.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

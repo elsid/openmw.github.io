@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/essimporter/converter.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/essimporter/converter.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,16 +103,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="converter_8hpp_source.html">converter.hpp</a>&quot;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
+<code>#include &lt;algorithm&gt;</code><br/>
 <code>#include &lt;osgDB/WriteFile&gt;</code><br/>
 <code>#include &lt;<a class="el" href="creaturestate_8hpp_source.html">components/esm/creaturestate.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="containerstate_8hpp_source.html">components/esm/containerstate.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="constants_8hpp_source.html">components/misc/constants.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="convertcrec_8hpp_source.html">convertcrec.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="convertcntc_8hpp_source.html">convertcntc.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="convertscri_8hpp_source.html">convertscri.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for converter.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="converter_8cpp__incl.svg" width="6171" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="converter_8cpp__incl.svg" width="6610" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -136,11 +138,15 @@ Functions</h2></td></tr>
 <tr class="separator:ac462e5ed85f10ee3e4361bd929660756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac699bd590d64f01f6ba6e3134d4b3630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02converter_8cpp_03.html#ac699bd590d64f01f6ba6e3134d4b3630">anonymous_namespace{converter.cpp}::isIndexedRefId</a> (const std::string &amp;indexedRefId)</td></tr>
 <tr class="separator:ac699bd590d64f01f6ba6e3134d4b3630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f68048414455302bf66e9ba01d6cff9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02converter_8cpp_03.html#a9f68048414455302bf66e9ba01d6cff9">anonymous_namespace{converter.cpp}::splitIndexedRefId</a> (const std::string &amp;indexedRefId, <a class="el" href="classint.html">int</a> &amp;refIndex, std::string &amp;refId)</td></tr>
+<tr class="separator:a9f68048414455302bf66e9ba01d6cff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d82d21b5a440324628df8b25861a3d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02converter_8cpp_03.html#a1d82d21b5a440324628df8b25861a3d6">anonymous_namespace{converter.cpp}::convertActorId</a> (const std::string &amp;indexedRefId, <a class="el" href="structESSImport_1_1Context.html">ESSImport::Context</a> &amp;context)</td></tr>
+<tr class="separator:a1d82d21b5a440324628df8b25861a3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

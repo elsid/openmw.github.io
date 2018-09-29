@@ -1,24 +1,29 @@
 <map id="MWMechanics::Spells::rebuildEffects" name="MWMechanics::Spells::rebuildEffects">
-<area shape="rect" id="node2" href="$classMWMechanics_1_1Spells.html#a5eda5c39e118d8df6c8d2924a03bb5e5" title="Return sum of magic effects resulting from abilities, blights, deseases and curses. " alt="" coords="211,169,368,210"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1Spells.html#a6dd7e130d5bf716af0a691b8eec9c64a" title="MWMechanics::Spells\l::visitEffectSources" alt="" coords="211,299,368,341"/>
-<area shape="rect" id="node3" href="$classMWMechanics_1_1Actors.html#ae564959119ba88f7956b901c357e2758" title="MWMechanics::Actors\l::adjustMagicEffects" alt="" coords="416,103,576,145"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="624,5,784,46"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="624,70,784,111"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="624,135,784,177"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1MechanicsManager.html#a0d59b750f6336af8a3db5007a3509054" title="MWMechanics::MechanicsManager\l::rest" alt="" coords="832,70,1075,111"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#afc410b78620c72d4ec2447b495430128" title="MWMechanics::MechanicsManager\l::updateMagicEffects" alt="" coords="832,135,1075,177"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1SpellIcons.html#ad1a1586837925af84958253a49d1bc13" title="MWGui::SpellIcons::\lupdateWidgets" alt="" coords="423,331,569,373"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1HUD.html#a3e030180492b74b5e54016b989d5f07e" title="MWGui::HUD::update" alt="" coords="626,465,782,492"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1SpellWindow.html#a64c73bc5d18dad5728499158d3449b48" title="MWGui::SpellWindow\l::updateSpells" alt="" coords="629,331,779,373"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1WindowManager.html#ad5ec44de27deec8fd33e4e2160360f94" title="MWGui::WindowManager\l::update" alt="" coords="865,527,1041,569"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1SpellWindow.html#a2351dfe057b8a3d9aae23d3a55bf587e" title="Notify that window has been made visible. " alt="" coords="878,397,1029,438"/>
-<area shape="rect" id="node15" href="$classMWGui_1_1SpellWindow.html#a0456e57ed643afd53a8a2e16bd9a7ab4" title="MWGui::SpellWindow\l::onEnchantedItemSelected" alt="" coords="854,462,1053,503"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1SpellWindow.html#a8709851ec5cea18a39bad6b66a819c24" title="MWGui::SpellWindow\l::onSpellSelected" alt="" coords="878,266,1029,307"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1SpellWindow.html#a09c11de36a84739b10425640f7f4b8f5" title="MWGui::SpellWindow\l::onDeleteSpellAccept" alt="" coords="872,201,1035,242"/>
-<area shape="rect" id="node23" href="$classMWGui_1_1WindowManager.html#a0613d50e6d7cefe6bbe488e6c5573e7c" title="MWGui::WindowManager\l::updateSpellWindow" alt="" coords="865,331,1041,373"/>
-<area shape="rect" id="node16" href="$classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" title="MWGui::SpellWindow\l::onModelIndexSelected" alt="" coords="1323,266,1498,307"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1SpellWindow.html#afca63da3134b4eac91d9802d8e078f8b" title="Cycle to next/previous spell. " alt="" coords="1123,349,1274,390"/>
-<area shape="rect" id="node17" href="$classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" title="MWGui::SpellWindow\l::SpellWindow" alt="" coords="1547,266,1698,307"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#a42618aab1fe6b391027243676cf35535" title="Cycle to next or previous spell. " alt="" coords="1323,349,1499,390"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1SpellWindow.html#a7d5efb2b6e2294d40675dd88beace37e" title="MWGui::SpellWindow\l::askDeleteSpell" alt="" coords="1123,205,1274,246"/>
+<area shape="rect" id="node2" href="$classMWMechanics_1_1Spells.html#a5eda5c39e118d8df6c8d2924a03bb5e5" title="Return sum of magic effects resulting from abilities, blights, deseases and curses. " alt="" coords="211,131,368,173"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1Spells.html#a6dd7e130d5bf716af0a691b8eec9c64a" title="MWMechanics::Spells\l::visitEffectSources" alt="" coords="211,223,368,265"/>
+<area shape="rect" id="node3" href="$classMWMechanics_1_1Actors.html#ae564959119ba88f7956b901c357e2758" title="MWMechanics::Actors\l::adjustMagicEffects" alt="" coords="443,103,603,145"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="703,5,863,46"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="703,70,863,111"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="703,135,863,177"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1MechanicsManager.html#a0d59b750f6336af8a3db5007a3509054" title="MWMechanics::MechanicsManager\l::rest" alt="" coords="936,70,1179,111"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#afc410b78620c72d4ec2447b495430128" title="MWMechanics::MechanicsManager\l::updateMagicEffects" alt="" coords="936,135,1179,177"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1SpellIcons.html#ad1a1586837925af84958253a49d1bc13" title="MWGui::SpellIcons::\lupdateWidgets" alt="" coords="450,463,595,505"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1World.html#a6ab0029af5fd5f6e5bc7b5520416c953" title="MWWorld::World::applyLooping\lParticles" alt="" coords="417,223,629,265"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1HUD.html#a884b7d30a63c3ee4de03adf2f6911531" title="Called every frame if the window is in an active GUI mode. " alt="" coords="699,500,866,527"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1SpellWindow.html#a9d43976a56543723f66c1cea8c46f7a5" title="Called every frame if the window is in an active GUI mode. " alt="" coords="707,551,858,593"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1SpellWindow.html#a64c73bc5d18dad5728499158d3449b48" title="MWGui::SpellWindow\l::updateSpells" alt="" coords="707,434,858,475"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1WindowManager.html#a2f52c12d86d6bb31adc62b06cef3de19" title="MWGui::WindowManager\l::onFrame" alt="" coords="969,630,1145,671"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1SpellWindow.html#a778b6cb6ac33cdb6cc1d3c25ef27905b" title="Notify that window has been made visible. " alt="" coords="982,369,1133,410"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1SpellWindow.html#a0456e57ed643afd53a8a2e16bd9a7ab4" title="MWGui::SpellWindow\l::onEnchantedItemSelected" alt="" coords="958,434,1157,475"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1SpellWindow.html#a8709851ec5cea18a39bad6b66a819c24" title="MWGui::SpellWindow\l::onSpellSelected" alt="" coords="982,499,1133,541"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1SpellWindow.html#a09c11de36a84739b10425640f7f4b8f5" title="MWGui::SpellWindow\l::onDeleteSpellAccept" alt="" coords="976,565,1139,606"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1WindowManager.html#a0613d50e6d7cefe6bbe488e6c5573e7c" title="MWGui::WindowManager\l::updateSpellWindow" alt="" coords="969,303,1145,345"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1SpellWindow.html#ae02dae08beb91af85c48c6737332c6dc" title="MWGui::SpellWindow\l::onModelIndexSelected" alt="" coords="1427,510,1602,551"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1SpellWindow.html#afca63da3134b4eac91d9802d8e078f8b" title="Cycle to next/previous spell. " alt="" coords="1227,447,1378,489"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1SpellWindow.html#a5ad7c776ade4fb177e5c45c758f3ba5b" title="MWGui::SpellWindow\l::SpellWindow" alt="" coords="1651,510,1802,551"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1WindowManager.html#a42618aab1fe6b391027243676cf35535" title="Cycle to next or previous spell. " alt="" coords="1427,445,1603,486"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1SpellWindow.html#a7d5efb2b6e2294d40675dd88beace37e" title="MWGui::SpellWindow\l::askDeleteSpell" alt="" coords="1227,565,1378,606"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1World.html#a9d8e3dad4d86185e440cb86957dd5c6b" title="MWWorld::World::renderPlayer" alt="" coords="678,231,887,257"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1World.html#a33b8441f680734ed2de7679bc614d172" title="MWWorld::World::startNewGame" alt="" coords="945,201,1169,228"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1World.html#a7d0ab2f8828263def8994634d3aee770" title="MWWorld::World::createRecord" alt="" coords="951,252,1163,279"/>
 </map>

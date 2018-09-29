@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,10 +103,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#ae4ec405d3108b4542af3d5b114ab87e2">fillVertexBuffers</a>(int lodLevel, float size, const osg::Vec2f &amp;center, osg::ref_ptr&lt; osg::Vec3Array &gt; positions, osg::ref_ptr&lt; osg::Vec3Array &gt; normals, osg::ref_ptr&lt; osg::Vec4Array &gt; colours)=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#a7ca62818dc53dffde2e7247b0017c793">getBlendmaps</a>(float chunkSize, const osg::Vec2f &amp;chunkCenter, bool pack, ImageVector &amp;blendmaps, std::vector&lt; LayerInfo &gt; &amp;layerList)=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#a4cfdc79294004cb12208b8b55b8e11d5">getBounds</a>(float &amp;minX, float &amp;maxX, float &amp;minY, float &amp;maxY)=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#acdb70cbe39f265a5825d0cfd202e53d3">getCellVertices</a>()=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#a8f8ed3c3ba822e0264edf115a226fba4">getCellWorldSize</a>()=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#a5b0abbe7708a782623cd6c84a6fb19e2">getDefaultLayer</a>()=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#ac549a203dc430a24e25ce010b7b82e8a">getBlendmapScale</a>(float chunkSize)=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#a4cfdc79294004cb12208b8b55b8e11d5">getBounds</a>(float &amp;minX, float &amp;maxX, float &amp;minY, float &amp;maxY)=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#acdb70cbe39f265a5825d0cfd202e53d3">getCellVertices</a>()=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#a8f8ed3c3ba822e0264edf115a226fba4">getCellWorldSize</a>()=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#a17d3d2423581b3e90217cb245f475426">getHeightAt</a>(const osg::Vec3f &amp;worldPos)=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#acfbec50c7fd444292cd4b4f2244204b7">getMinMaxHeights</a>(float size, const osg::Vec2f &amp;center, float &amp;min, float &amp;max)=0</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classTerrain_1_1Storage.html#a34c9fbfcbb07c8711498b769e05c9ee3">ImageVector</a> typedef</td><td class="entry"><a class="el" href="classTerrain_1_1Storage.html">Terrain::Storage</a></td><td class="entry"></td></tr>
@@ -114,7 +114,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,13 +107,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for SceneUtil::WorkItem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkItem__inherit__graph.svg" width="906" height="590"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkItem__inherit__graph.svg" width="1606" height="662"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for SceneUtil::WorkItem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkItem__coll__graph.svg" width="422" height="304"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkItem__coll__graph.svg" width="422" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -134,6 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ed5ebbb0ac8c14ff7660e162a8ae6dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1WorkItem.html#a8ed5ebbb0ac8c14ff7660e162a8ae6dc">signalDone</a> ()</td></tr>
 <tr class="memdesc:a8ed5ebbb0ac8c14ff7660e162a8ae6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal use by the <a class="el" href="classSceneUtil_1_1WorkQueue.html" title="A work queue that users can push work items onto, to be completed by one or more background threads...">WorkQueue</a>.  <a href="#a8ed5ebbb0ac8c14ff7660e162a8ae6dc">More...</a><br/></td></tr>
 <tr class="separator:a8ed5ebbb0ac8c14ff7660e162a8ae6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a284acee9dd8550c41736d25faeb14e81"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1WorkItem.html#a284acee9dd8550c41736d25faeb14e81">abort</a> ()</td></tr>
+<tr class="memdesc:a284acee9dd8550c41736d25faeb14e81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set abort flag in order to return from <a class="el" href="classSceneUtil_1_1WorkItem.html#a544cd1fb295211394503c83533503aec" title="Override in a derived WorkItem to perform actual work. ">doWork()</a> as soon as possible. May not be respected by all WorkItems.  <a href="#a284acee9dd8550c41736d25faeb14e81">More...</a><br/></td></tr>
+<tr class="separator:a284acee9dd8550c41736d25faeb14e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -184,6 +187,33 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a284acee9dd8550c41736d25faeb14e81"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SceneUtil::WorkItem::abort </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set abort flag in order to return from <a class="el" href="classSceneUtil_1_1WorkItem.html#a544cd1fb295211394503c83533503aec" title="Override in a derived WorkItem to perform actual work. ">doWork()</a> as soon as possible. May not be respected by all WorkItems. </p>
+
+<p>Reimplemented in <a class="el" href="classMWWorld_1_1TerrainPreloadItem.html#a08549c5ad30151db316c371a2bfa253b">MWWorld::TerrainPreloadItem</a>, and <a class="el" href="classMWWorld_1_1PreloadItem.html#a677b04c35bc579fac67b710b4fdec84c">MWWorld::PreloadItem</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a544cd1fb295211394503c83533503aec"></a>
 <div class="memitem">
 <div class="memproto">
@@ -207,7 +237,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Override in a derived <a class="el" href="classSceneUtil_1_1WorkItem.html">WorkItem</a> to perform actual work. </p>
 
-<p>Reimplemented in <a class="el" href="classMWWorld_1_1UpdateCacheItem.html#a6b6c3b06c7f24bf4d97829f1709f1729">MWWorld::UpdateCacheItem</a>, <a class="el" href="classMWRender_1_1PreloadCommonAssetsWorkItem.html#abe7ce2ed9089b68b583a692c5a5e58d6">MWRender::PreloadCommonAssetsWorkItem</a>, <a class="el" href="classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990">MWWorld::PreloadItem</a>, and <a class="el" href="classSceneUtil_1_1UnrefWorkItem.html#a281fc189f2416ca20aebb80faed07788">SceneUtil::UnrefWorkItem</a>.</p>
+<p>Reimplemented in <a class="el" href="classMWWorld_1_1PreloadMeshItem.html#a247684d1d2a51b1d8c9cb26d00ac54eb">MWWorld::PreloadMeshItem</a>, <a class="el" href="classMWWorld_1_1TerrainPreloadItem.html#aa6dbe79610709e53d5c84571fde58ceb">MWWorld::TerrainPreloadItem</a>, <a class="el" href="classMWWorld_1_1UpdateCacheItem.html#a6b6c3b06c7f24bf4d97829f1709f1729">MWWorld::UpdateCacheItem</a>, <a class="el" href="classMWRender_1_1PreloadCommonAssetsWorkItem.html#abe7ce2ed9089b68b583a692c5a5e58d6">MWRender::PreloadCommonAssetsWorkItem</a>, <a class="el" href="classMWRender_1_1CreateMapWorkItem.html#a5a77e5b4d941ed62f35adc7a98105317">MWRender::CreateMapWorkItem</a>, <a class="el" href="classMWWorld_1_1PreloadItem.html#aeeb59859079ca1443a470503b6e22990">MWWorld::PreloadItem</a>, and <a class="el" href="classSceneUtil_1_1UnrefWorkItem.html#a926d7cd41ae2d40e8e24f74a7bc8e707">SceneUtil::UnrefWorkItem</a>.</p>
 
 </div>
 </div>
@@ -322,13 +352,13 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="workqueue_8hpp_source.html">workqueue.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="workqueue_8cpp.html">workqueue.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="workqueue_8hpp_source.html">workqueue.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="workqueue_8cpp.html">workqueue.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

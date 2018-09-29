@@ -11,9 +11,9 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-421 694,-421 694,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0.5,-200 0.5,-230 121.5,-230 121.5,-200 0.5,-200"/>
-<text text-anchor="start" x="8.5" y="-218" font-family="FreeSans" font-size="10.00">MWRender::Animation</text>
-<text text-anchor="middle" x="61" y="-207" font-family="FreeSans" font-size="10.00">::addExtraLight</text>
+<polygon fill="#bfbfbf" stroke="black" points="0.5,-197 0.5,-227 121.5,-227 121.5,-197 0.5,-197"/>
+<text text-anchor="start" x="8.5" y="-215" font-family="FreeSans" font-size="10.00">MWRender::Animation</text>
+<text text-anchor="middle" x="61" y="-204" font-family="FreeSans" font-size="10.00">::addExtraLight</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -25,8 +25,8 @@
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M65.9752,-230.122C75.6461,-263.831 103.691,-345.426 158,-387 161.02,-389.312 164.274,-391.359 167.682,-393.171"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="166.456,-396.46 177.005,-397.443 169.371,-390.096 166.456,-396.46"/>
+<path fill="none" stroke="midnightblue" d="M65.8225,-227.126C75.2587,-261.254 102.985,-344.565 158,-387 161.011,-389.323 164.259,-391.378 167.661,-393.198"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="166.426,-396.483 176.974,-397.483 169.352,-390.124 166.426,-396.483"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -39,8 +39,8 @@
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M69.8587,-230.29C83.9815,-256.267 116.127,-309.015 158,-338 161.051,-340.112 164.288,-342.051 167.643,-343.831"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="166.224,-347.032 176.757,-348.18 169.239,-340.714 166.224,-347.032"/>
+<path fill="none" stroke="midnightblue" d="M69.5387,-227.244C83.3949,-253.708 115.436,-308.169 158,-338 161.039,-340.13 164.266,-342.083 167.613,-343.874"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="166.181,-347.069 176.711,-348.246 169.213,-340.76 166.181,-347.069"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -52,157 +52,170 @@
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M74.6581,-230.082C91.6285,-249.297 123.624,-282.15 158,-300 162.555,-302.365 167.408,-304.441 172.387,-306.262"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="171.475,-309.646 182.068,-309.458 173.67,-302.999 171.475,-309.646"/>
+<path fill="none" stroke="midnightblue" d="M74.3232,-227.048C91.1686,-246.609 123.281,-280.454 158,-299 163.177,-301.766 168.748,-304.158 174.454,-306.227"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="173.545,-309.612 184.138,-309.41 175.731,-302.962 173.545,-309.612"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classFallback_1_1Map.html#a30a49201e32a712607d5bdcfc88f6f0a" target="_top" xlink:title="Fallback::Map::getFallbackBool">
-<polygon fill="white" stroke="black" points="158.5,-271.5 158.5,-290.5 319.5,-290.5 319.5,-271.5 158.5,-271.5"/>
-<text text-anchor="middle" x="239" y="-278.5" font-family="FreeSans" font-size="10.00">Fallback::Map::getFallbackBool</text>
+<polygon fill="white" stroke="black" points="158.5,-221.5 158.5,-240.5 319.5,-240.5 319.5,-221.5 158.5,-221.5"/>
+<text text-anchor="middle" x="239" y="-228.5" font-family="FreeSans" font-size="10.00">Fallback::Map::getFallbackBool</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M89.5051,-230.013C108.362,-239.845 134.18,-252.415 158,-261 166.035,-263.896 174.669,-266.528 183.187,-268.862"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="182.529,-272.308 193.091,-271.463 184.308,-265.538 182.529,-272.308"/>
-</g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classFallback_1_1Map.html#a5e52e347392db20d8d54bc1e163051d1" target="_top" xlink:title="Fallback::Map::getFallback\lFloat">
-<polygon fill="white" stroke="black" points="169,-222 169,-252 309,-252 309,-222 169,-222"/>
-<text text-anchor="start" x="177" y="-240" font-family="FreeSans" font-size="10.00">Fallback::Map::getFallback</text>
-<text text-anchor="middle" x="239" y="-229" font-family="FreeSans" font-size="10.00">Float</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M121.586,-222.448C133.546,-223.943 146.292,-225.536 158.797,-227.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="158.399,-230.577 168.756,-228.344 159.267,-223.631 158.399,-230.577"/>
+<path fill="none" stroke="midnightblue" d="M121.586,-218.433C130.135,-219.356 139.086,-220.322 148.064,-221.291"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="147.873,-224.791 158.191,-222.384 148.625,-217.831 147.873,-224.791"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classMWWorld_1_1Ptr.html#a9a321d959c8bf56a29ad35f0bbdefe75" target="_top" xlink:title="MWWorld::Ptr::isInCell">
+<g id="a_node8"><a xlink:href="classFallback_1_1Map.html#a5e52e347392db20d8d54bc1e163051d1" target="_top" xlink:title="Fallback::Map::getFallback\lFloat">
+<polygon fill="white" stroke="black" points="169,-260 169,-290 309,-290 309,-260 169,-260"/>
+<text text-anchor="start" x="177" y="-278" font-family="FreeSans" font-size="10.00">Fallback::Map::getFallback</text>
+<text text-anchor="middle" x="239" y="-267" font-family="FreeSans" font-size="10.00">Float</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M98.2295,-227.075C116.104,-234.324 138.059,-242.948 158,-250 164.452,-252.282 171.234,-254.569 178.006,-256.782"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="177.29,-260.229 187.882,-259.963 179.436,-253.566 177.29,-260.229"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="classMWWorld_1_1Ptr.html#a9a321d959c8bf56a29ad35f0bbdefe75" target="_top" xlink:title="MWWorld::Ptr::isInCell">
 <polygon fill="white" stroke="black" points="180.5,-183.5 180.5,-202.5 297.5,-202.5 297.5,-183.5 180.5,-183.5"/>
 <text text-anchor="middle" x="239" y="-190.5" font-family="FreeSans" font-size="10.00">MWWorld::Ptr::isInCell</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M121.586,-207.552C137.129,-205.609 153.996,-203.5 169.942,-201.507"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="170.776,-204.93 180.264,-200.217 169.907,-197.984 170.776,-204.93"/>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M121.586,-205.567C137.129,-203.89 153.996,-202.069 169.942,-200.347"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="170.698,-203.786 180.264,-199.233 169.946,-196.826 170.698,-203.786"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" target="_top" xlink:title="MWWorld::Ptr::getCell">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" target="_top" xlink:title="MWWorld::Ptr::getCell">
 <polygon fill="white" stroke="black" points="180.5,-145.5 180.5,-164.5 297.5,-164.5 297.5,-145.5 180.5,-145.5"/>
 <text text-anchor="middle" x="239" y="-152.5" font-family="FreeSans" font-size="10.00">MWWorld::Ptr::getCell</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge9" class="edge"><title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M93.4764,-199.947C111.969,-191.512 135.969,-181.262 158,-174 165.711,-171.458 173.944,-169.108 182.087,-166.99"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="183.084,-170.348 191.934,-164.524 181.383,-163.558 183.084,-170.348"/>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge10" class="edge"><title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M96.6743,-196.877C114.734,-189.36 137.312,-180.514 158,-174 166.025,-171.473 174.595,-169.103 183.034,-166.951"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="183.971,-170.324 192.84,-164.528 182.292,-163.529 183.971,-170.324"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" target="_top" xlink:title="MWWorld::CellStore\l::getCell">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" target="_top" xlink:title="MWWorld::CellStore\l::getCell">
 <polygon fill="white" stroke="black" points="185,-96 185,-126 293,-126 293,-96 185,-96"/>
 <text text-anchor="start" x="193" y="-114" font-family="FreeSans" font-size="10.00">MWWorld::CellStore</text>
 <text text-anchor="middle" x="239" y="-103" font-family="FreeSans" font-size="10.00">::getCell</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node10 -->
-<g id="edge10" class="edge"><title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M76.6088,-199.841C94.3537,-182.222 125.913,-153.351 158,-136 163.46,-133.048 169.321,-130.385 175.299,-127.997"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="176.603,-131.247 184.747,-124.47 174.155,-124.689 176.603,-131.247"/>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge11" class="edge"><title>Node1&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M77.3614,-196.845C95.3248,-179.877 126.615,-152.59 158,-136 163.488,-133.099 169.367,-130.471 175.357,-128.105"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="176.655,-131.357 184.818,-124.602 174.224,-124.792 176.655,-131.357"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" target="_top" xlink:title="ESM::Cell::isExterior">
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="structESM_1_1Cell.html#a81fbb05c7c9f739f7d81504aabf7bb6b" target="_top" xlink:title="ESM::Cell::isExterior">
 <polygon fill="white" stroke="black" points="183.5,-57.5 183.5,-76.5 294.5,-76.5 294.5,-57.5 183.5,-57.5"/>
 <text text-anchor="middle" x="239" y="-64.5" font-family="FreeSans" font-size="10.00">ESM::Cell::isExterior</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node11 -->
-<g id="edge11" class="edge"><title>Node1&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M69.0851,-199.685C82.448,-172.561 114.032,-116.194 158,-87 162.89,-83.7532 168.266,-81.0334 173.846,-78.755"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="175.158,-82.0028 183.381,-75.3224 172.786,-75.4166 175.158,-82.0028"/>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge12" class="edge"><title>Node1&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M69.3984,-196.623C83.0376,-169.977 114.754,-115.36 158,-87 162.908,-83.7812 168.297,-81.0804 173.885,-78.8142"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="175.195,-82.0628 183.429,-75.3961 172.835,-75.4727 175.195,-82.0628"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="namespaceSceneUtil.html#a15ab4e76c6eef20fc0944eb8510e09f0" target="_top" xlink:title="Convert an ESM::Light to a SceneUtil::LightSource, and add it to a sub graph. ">
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="namespaceSceneUtil.html#a15ab4e76c6eef20fc0944eb8510e09f0" target="_top" xlink:title="Convert an ESM::Light to a SceneUtil::LightSource, and add it to a sub graph. ">
 <polygon fill="white" stroke="black" points="184,-19.5 184,-38.5 294,-38.5 294,-19.5 184,-19.5"/>
 <text text-anchor="middle" x="239" y="-26.5" font-family="FreeSans" font-size="10.00">SceneUtil::addLight</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node12 -->
-<g id="edge12" class="edge"><title>Node1&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M66.2262,-199.769C76.2402,-166.637 104.666,-87.8034 158,-48 162.837,-44.39 168.259,-41.4542 173.94,-39.0684"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="175.47,-42.2372 183.688,-35.5504 173.094,-35.6528 175.47,-42.2372"/>
+<!-- Node1&#45;&gt;Node13 -->
+<g id="edge13" class="edge"><title>Node1&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M66.465,-196.545C76.781,-163.716 105.495,-86.8636 158,-48 162.851,-44.4091 168.282,-41.486 173.969,-39.1082"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="175.499,-42.2775 183.725,-35.5996 173.13,-35.6906 175.499,-42.2775"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classFallback_1_1Map.html#a9e3f96a700edb3ba7aa39f7edc6fa59f" target="_top" xlink:title="Fallback::Map::getFallback\lString">
-<polygon fill="white" stroke="black" points="364,-244 364,-274 504,-274 504,-244 364,-244"/>
-<text text-anchor="start" x="372" y="-262" font-family="FreeSans" font-size="10.00">Fallback::Map::getFallback</text>
-<text text-anchor="middle" x="434" y="-251" font-family="FreeSans" font-size="10.00">String</text>
+<polygon fill="white" stroke="black" points="364,-260 364,-290 504,-290 504,-260 364,-260"/>
+<text text-anchor="start" x="372" y="-278" font-family="FreeSans" font-size="10.00">Fallback::Map::getFallback</text>
+<text text-anchor="middle" x="434" y="-267" font-family="FreeSans" font-size="10.00">String</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M319.615,-271.925C330.824,-270.647 342.347,-269.333 353.554,-268.056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="354.199,-271.505 363.738,-266.895 353.406,-264.55 354.199,-271.505"/>
+<path fill="none" stroke="midnightblue" d="M281.878,-240.547C303.802,-245.545 331.334,-251.822 356.871,-257.644"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="356.39,-261.124 366.918,-259.935 357.946,-254.299 356.39,-261.124"/>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M309.132,-244.88C323.545,-246.523 338.846,-248.267 353.596,-249.949"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="353.37,-253.446 363.702,-251.101 354.162,-246.491 353.37,-253.446"/>
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="namespaceFallback.html#a4359bdf8e5918e6a720b3c920802c279" target="_top" xlink:title="Fallback::stob">
+<polygon fill="white" stroke="black" points="393.5,-221.5 393.5,-240.5 474.5,-240.5 474.5,-221.5 393.5,-221.5"/>
+<text text-anchor="middle" x="434" y="-228.5" font-family="FreeSans" font-size="10.00">Fallback::stob</text>
+</a>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="namespaceSceneUtil.html#ab4101e89561fd7d0a78dff3f98f57bb0" target="_top" xlink:title="Convert an ESM::Light to a SceneUtil::LightSource, and return it. ">
+</g>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M319.615,-231C341.179,-231 363.904,-231 383.301,-231"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="383.41,-234.5 393.41,-231 383.41,-227.5 383.41,-234.5"/>
+</g>
+<!-- Node8&#45;&gt;Node6 -->
+<g id="edge8" class="edge"><title>Node8&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M309.132,-275C323.545,-275 338.846,-275 353.596,-275"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="353.702,-278.5 363.702,-275 353.702,-271.5 353.702,-278.5"/>
+</g>
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="namespaceSceneUtil.html#ab4101e89561fd7d0a78dff3f98f57bb0" target="_top" xlink:title="Convert an ESM::Light to a SceneUtil::LightSource, and return it. ">
 <polygon fill="white" stroke="black" points="356,-19.5 356,-38.5 512,-38.5 512,-19.5 356,-19.5"/>
 <text text-anchor="middle" x="434" y="-26.5" font-family="FreeSans" font-size="10.00">SceneUtil::createLightSource</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
-<g id="edge13" class="edge"><title>Node12&#45;&gt;Node13</title>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge14" class="edge"><title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M294.018,-29C310.052,-29 328.041,-29 345.622,-29"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="345.909,-32.5001 355.909,-29 345.909,-25.5001 345.909,-32.5001"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="namespaceSceneUtil.html#a468be0d881700c63e1fcb7517845a573" target="_top" xlink:title="SceneUtil::configureLight">
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="namespaceSceneUtil.html#a468be0d881700c63e1fcb7517845a573" target="_top" xlink:title="SceneUtil::configureLight">
 <polygon fill="white" stroke="black" points="551,-38.5 551,-57.5 687,-57.5 687,-38.5 551,-38.5"/>
 <text text-anchor="middle" x="619" y="-45.5" font-family="FreeSans" font-size="10.00">SceneUtil::configureLight</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
-<g id="edge14" class="edge"><title>Node13&#45;&gt;Node14</title>
+<!-- Node14&#45;&gt;Node15 -->
+<g id="edge15" class="edge"><title>Node14&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M512.078,-37.0026C521.547,-37.9858 531.227,-38.9908 540.7,-39.9743"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="540.568,-43.4794 550.876,-41.0309 541.291,-36.5168 540.568,-43.4794"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="namespaceSceneUtil.html#a3e99b767c8b0ad8b26ca105e4a0a3916" target="_top" xlink:title="SceneUtil::colourFromRGB">
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="namespaceSceneUtil.html#a3e99b767c8b0ad8b26ca105e4a0a3916" target="_top" xlink:title="SceneUtil::colourFromRGB">
 <polygon fill="white" stroke="black" points="548,-0.5 548,-19.5 690,-19.5 690,-0.5 548,-0.5"/>
 <text text-anchor="middle" x="619" y="-7.5" font-family="FreeSans" font-size="10.00">SceneUtil::colourFromRGB</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node15 -->
-<g id="edge15" class="edge"><title>Node13&#45;&gt;Node15</title>
+<!-- Node14&#45;&gt;Node16 -->
+<g id="edge16" class="edge"><title>Node14&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M512.078,-20.9974C520.643,-20.1081 529.382,-19.2008 537.983,-18.3078"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="538.412,-21.7821 547.998,-17.268 537.69,-14.8195 538.412,-21.7821"/>
 </g>

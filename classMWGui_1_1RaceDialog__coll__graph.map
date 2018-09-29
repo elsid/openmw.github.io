@@ -1,22 +1,22 @@
 <map id="MWGui::RaceDialog" name="MWGui::RaceDialog">
-<area shape="rect" id="node2" href="$classMWGui_1_1WindowModal.html" title="{MWGui::WindowModal\n||+ WindowModal()\l+ open()\l+ close()\l+ exit()\l}" alt="" coords="491,3054,649,3175"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html" title="{MWGui::WindowBase\n||+ WindowBase()\l+ open()\l+ close()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l}" alt="" coords="363,2811,515,2976"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1Layout.html" title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}" alt="" coords="347,2453,463,2662"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="2126,157,2212,235"/>
-<area shape="rect" id="node28" href="$classResource_1_1SceneManager.html" title="Handles loading and caching of scenes, e.g. .nif files or .osg files. " alt="" coords="1419,1395,1621,1663"/>
-<area shape="rect" id="node43" href="$classMWRender_1_1CharacterPreview.html" title="{MWRender::CharacterPreview\n||+ CharacterPreview()\l+ ~CharacterPreview()\l+ getTextureWidth()\l+ getTextureHeight()\l+ redraw()\l+ rebuild()\l+ getTexture()\l# renderHeadOnly()\l# onSetup()\l&#45; CharacterPreview()\l&#45; operator=()\l}" alt="" coords="1994,2445,2200,2669"/>
-<area shape="rect" id="node45" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ getRecordType()\l}" alt="" coords="2404,1439,2548,1619"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="2101,6,2237,98"/>
-<area shape="rect" id="node42" href="$classMWRender_1_1RaceSelectionPreview.html" title="{MWRender::RaceSelectionPreview\n||+ RaceSelectionPreview()\l+ ~RaceSelectionPreview()\l+ setAngle()\l+ getPrototype()\l+ setPrototype()\l# renderHeadOnly()\l# onSetup()\l}" alt="" coords="2101,2811,2335,2976"/>
-<area shape="rect" id="node14" href="$classint.html" title="{int\n||}" alt="" coords="2202,1139,2240,1216"/>
-<area shape="rect" id="node15" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="879,2099,1088,2352"/>
-<area shape="rect" id="node17" href="$classResource_1_1ImageManager.html" title="Handles loading/caching of Images. " alt="" coords="924,1102,1108,1253"/>
-<area shape="rect" id="node18" href="$classResource_1_1ResourceManager.html" title="Base class for managers that require a virtual file system and object cache. " alt="" coords="708,901,911,1037"/>
-<area shape="rect" id="node34" href="$classResource_1_1NifFileManager.html" title="Handles caching of NIFFiles. " alt="" coords="719,1124,900,1231"/>
-<area shape="rect" id="node38" href="$classResource_1_1KeyframeManager.html" title="Managing of keyframe resources. " alt="" coords="490,1124,693,1231"/>
-<area shape="rect" id="node19" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="726,525,892,720"/>
-<area shape="rect" id="node21" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="1425,150,1503,242"/>
-<area shape="rect" id="node22" href="$classbool.html" title="{bool\n||}" alt="" coords="2359,315,2408,392"/>
-<area shape="rect" id="node24" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="45,150,175,242"/>
-<area shape="rect" id="node44" href="$structMWWorld_1_1LiveCellRef.html" title="{MWWorld::LiveCellRef\l\&lt; ESM::NPC \&gt;\n||+ LiveCellRef()\l+ LiveCellRef()\l+ load()\l+ save()\l+ checkState()\l}" alt="" coords="2339,1923,2492,2074"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1WindowModal.html" title="{MWGui::WindowModal\n||+ WindowModal()\l+ onOpen()\l+ onClose()\l+ exit()\l}" alt="" coords="842,3265,1000,3386"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html" title="{MWGui::WindowBase\n||+ WindowBase()\l+ getDefaultKeyFocus()\l+ setPtr()\l+ onFrame()\l+ onOpen()\l+ onClose()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l+ clear()\l+ onResChange()\l}" alt="" coords="739,2947,912,3186"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1Layout.html" title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}" alt="" coords="743,2581,859,2790"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="1863,157,1949,235"/>
+<area shape="rect" id="node25" href="$classResource_1_1SceneManager.html" title="Handles loading and caching of scenes, e.g. .nif files or .osg files. " alt="" coords="1631,1470,1833,1738"/>
+<area shape="rect" id="node46" href="$classMWRender_1_1CharacterPreview.html" title="{MWRender::CharacterPreview\n||+ CharacterPreview()\l+ ~CharacterPreview()\l+ getTextureWidth()\l+ getTextureHeight()\l+ redraw()\l+ rebuild()\l+ getTexture()\l# renderHeadOnly()\l# setBlendMode()\l# onSetup()\l&#45; CharacterPreview()\l&#45; operator=()\l}" alt="" coords="2389,2566,2595,2805"/>
+<area shape="rect" id="node48" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ blankNpdt()\l+ getRecordType()\l}" alt="" coords="2813,1507,2957,1701"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="1838,6,1975,98"/>
+<area shape="rect" id="node45" href="$classMWRender_1_1RaceSelectionPreview.html" title="{MWRender::RaceSelectionPreview\n||+ RaceSelectionPreview()\l+ ~RaceSelectionPreview()\l+ setAngle()\l+ getPrototype()\l+ setPrototype()\l# renderHeadOnly()\l# onSetup()\l}" alt="" coords="2499,2984,2732,3149"/>
+<area shape="rect" id="node16" href="$classint.html" title="{int\n||}" alt="" coords="2466,1207,2504,1284"/>
+<area shape="rect" id="node17" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="1133,2174,1343,2471"/>
+<area shape="rect" id="node18" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="767,526,933,735"/>
+<area shape="rect" id="node26" href="$classResource_1_1ResourceManager.html" title="Base class for managers that require a virtual file system and object cache. " alt="" coords="749,918,952,1098"/>
+<area shape="rect" id="node20" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="1271,150,1349,242"/>
+<area shape="rect" id="node21" href="$classbool.html" title="{bool\n||}" alt="" coords="2701,315,2749,392"/>
+<area shape="rect" id="node23" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="45,150,175,242"/>
+<area shape="rect" id="node29" href="$classResource_1_1ImageManager.html" title="Handles loading/caching of Images. " alt="" coords="540,1163,724,1328"/>
+<area shape="rect" id="node34" href="$classResource_1_1NifFileManager.html" title="Handles caching of NIFFiles. " alt="" coords="1028,1185,1209,1306"/>
+<area shape="rect" id="node38" href="$classResource_1_1KeyframeManager.html" title="Managing of keyframe resources. " alt="" coords="749,1185,952,1306"/>
+<area shape="rect" id="node47" href="$structMWWorld_1_1LiveCellRef.html" title="{MWWorld::LiveCellRef\l\&lt; ESM::NPC \&gt;\n||+ LiveCellRef()\l+ LiveCellRef()\l+ load()\l+ save()\l+ checkState()\l}" alt="" coords="2866,1998,3019,2149"/>
 </map>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/resource/keyframemanager.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/resource/keyframemanager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,39 +103,40 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;osg/ref_ptr&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="resourcemanager_8hpp.html">resourcemanager.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="nifloader_8hpp.html">components/nifosg/nifloader.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>NifOsg</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">class </span>KeyframeHolder;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="resourcemanager_8hpp.html">resourcemanager.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>Resource</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>Resource</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classResource_1_1KeyframeManager.html">   19</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classResource_1_1KeyframeManager.html">KeyframeManager</a> : <span class="keyword">public</span> <a class="code" href="classResource_1_1ResourceManager.html">ResourceManager</a></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classResource_1_1KeyframeManager.html#ad7f2e16ec0acf96a9747fc0e2d4040db">KeyframeManager</a>(<span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* vfs);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classResource_1_1KeyframeManager.html#afc9d3c8344a4259d9c63c8c484b3c2b2">~KeyframeManager</a>();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        osg::ref_ptr&lt;const NifOsg::KeyframeHolder&gt; <span class="keyword">get</span>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classResource_1_1KeyframeManager_html"><div class="ttname"><a href="classResource_1_1KeyframeManager.html">Resource::KeyframeManager</a></div><div class="ttdoc">Managing of keyframe resources. </div><div class="ttdef"><b>Definition:</b> keyframemanager.hpp:19</div></div>
-<div class="ttc" id="classResource_1_1KeyframeManager_html_ad7f2e16ec0acf96a9747fc0e2d4040db"><div class="ttname"><a href="classResource_1_1KeyframeManager.html#ad7f2e16ec0acf96a9747fc0e2d4040db">Resource::KeyframeManager::KeyframeManager</a></div><div class="ttdeci">KeyframeManager(const VFS::Manager *vfs)</div><div class="ttdef"><b>Definition:</b> keyframemanager.cpp:11</div></div>
-<div class="ttc" id="classResource_1_1KeyframeManager_html_afc9d3c8344a4259d9c63c8c484b3c2b2"><div class="ttname"><a href="classResource_1_1KeyframeManager.html#afc9d3c8344a4259d9c63c8c484b3c2b2">Resource::KeyframeManager::~KeyframeManager</a></div><div class="ttdeci">~KeyframeManager()</div><div class="ttdef"><b>Definition:</b> keyframemanager.cpp:16</div></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classResource_1_1KeyframeManager.html">   16</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classResource_1_1KeyframeManager.html">KeyframeManager</a> : <span class="keyword">public</span> <a class="code" href="classResource_1_1ResourceManager.html">ResourceManager</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="classResource_1_1KeyframeManager.html#ad7f2e16ec0acf96a9747fc0e2d4040db">KeyframeManager</a>(<span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* vfs);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="classResource_1_1KeyframeManager.html#afc9d3c8344a4259d9c63c8c484b3c2b2">~KeyframeManager</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        osg::ref_ptr&lt;const NifOsg::KeyframeHolder&gt; <span class="keyword">get</span>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classResource_1_1KeyframeManager.html#af9873384c1b00c5b0ff257da53b918bb">reportStats</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> frameNumber, osg::Stats* stats) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    };</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classResource_1_1KeyframeManager_html_af9873384c1b00c5b0ff257da53b918bb"><div class="ttname"><a href="classResource_1_1KeyframeManager.html#af9873384c1b00c5b0ff257da53b918bb">Resource::KeyframeManager::reportStats</a></div><div class="ttdeci">void reportStats(unsigned int frameNumber, osg::Stats *stats) const </div><div class="ttdef"><b>Definition:</b> keyframemanager.cpp:37</div></div>
+<div class="ttc" id="classResource_1_1KeyframeManager_html"><div class="ttname"><a href="classResource_1_1KeyframeManager.html">Resource::KeyframeManager</a></div><div class="ttdoc">Managing of keyframe resources. </div><div class="ttdef"><b>Definition:</b> keyframemanager.hpp:16</div></div>
+<div class="ttc" id="classResource_1_1KeyframeManager_html_ad7f2e16ec0acf96a9747fc0e2d4040db"><div class="ttname"><a href="classResource_1_1KeyframeManager.html#ad7f2e16ec0acf96a9747fc0e2d4040db">Resource::KeyframeManager::KeyframeManager</a></div><div class="ttdeci">KeyframeManager(const VFS::Manager *vfs)</div><div class="ttdef"><b>Definition:</b> keyframemanager.cpp:10</div></div>
+<div class="ttc" id="classResource_1_1KeyframeManager_html_afc9d3c8344a4259d9c63c8c484b3c2b2"><div class="ttname"><a href="classResource_1_1KeyframeManager.html#afc9d3c8344a4259d9c63c8c484b3c2b2">Resource::KeyframeManager::~KeyframeManager</a></div><div class="ttdeci">~KeyframeManager()</div><div class="ttdef"><b>Definition:</b> keyframemanager.cpp:15</div></div>
 <div class="ttc" id="resourcemanager_8hpp_html"><div class="ttname"><a href="resourcemanager_8hpp.html">resourcemanager.hpp</a></div></div>
 <div class="ttc" id="classVFS_1_1Manager_html"><div class="ttname"><a href="classVFS_1_1Manager.html">VFS::Manager</a></div><div class="ttdoc">The main class responsible for loading files from a virtual file system. </div><div class="ttdef"><b>Definition:</b> manager.hpp:20</div></div>
-<div class="ttc" id="classResource_1_1ResourceManager_html"><div class="ttname"><a href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></div><div class="ttdoc">Base class for managers that require a virtual file system and object cache. </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:17</div></div>
-<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:59</div></div>
+<div class="ttc" id="classResource_1_1ResourceManager_html"><div class="ttname"><a href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></div><div class="ttdoc">Base class for managers that require a virtual file system and object cache. </div><div class="ttdef"><b>Definition:</b> resourcemanager.hpp:23</div></div>
+<div class="ttc" id="nifloader_8hpp_html"><div class="ttname"><a href="nifloader_8hpp.html">nifloader.hpp</a></div></div>
+<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

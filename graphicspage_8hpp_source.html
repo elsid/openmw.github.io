@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/launcher/graphicspage.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/launcher/graphicspage.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -106,60 +106,63 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="settings_8hpp.html">components/settings/settings.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>Files { <span class="keyword">struct </span>ConfigurationManager; }</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="sdlinit_8hpp.html">sdlinit.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Launcher</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">class </span>GraphicsSettings;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classLauncher_1_1GraphicsPage.html">   16</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classLauncher_1_1GraphicsPage.html">GraphicsPage</a> : <span class="keyword">public</span> <a class="code" href="classQWidget.html">QWidget</a>, <span class="keyword">private</span> Ui::GraphicsPage</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        Q_OBJECT</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="classLauncher_1_1GraphicsPage.html#a70a3f6a9f511fabc861d832d235d76bd">GraphicsPage</a>(<a class="code" href="structFiles_1_1ConfigurationManager.html">Files::ConfigurationManager</a> &amp;cfg, <a class="code" href="classSettings_1_1Manager.html">Settings::Manager</a> &amp;engineSettings, <a class="code" href="classQWidget.html">QWidget</a> *parent = 0);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#a0068741f1e83f371d1318e891783b8a9">saveSettings</a>();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#aa62a2007856d917a18d90b2f20de93cb">loadSettings</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#a15d01883096264e29af0242a4d68b297">screenChanged</a>(<span class="keywordtype">int</span> screen);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#a071162d2d89e1ab381788edd93272040">slotFullScreenChanged</a>(<span class="keywordtype">int</span> state);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#afd245cb02932132c6c8b5b092e06de9b">slotStandardToggled</a>(<span class="keywordtype">bool</span> checked);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classLauncher_1_1GraphicsPage.html#aa7a3026f73e7e2788176d2b00aa1dc7b">   34</a></span>&#160;        <a class="code" href="structFiles_1_1ConfigurationManager.html">Files::ConfigurationManager</a> &amp;<a class="code" href="classLauncher_1_1GraphicsPage.html#aa7a3026f73e7e2788176d2b00aa1dc7b">mCfgMgr</a>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classLauncher_1_1GraphicsPage.html#a6d105e34aafbc688f023e159bc850dca">   35</a></span>&#160;        <a class="code" href="classSettings_1_1Manager.html">Settings::Manager</a> &amp;<a class="code" href="classLauncher_1_1GraphicsPage.html#a6d105e34aafbc688f023e159bc850dca">mEngineSettings</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        QStringList <a class="code" href="classLauncher_1_1GraphicsPage.html#a714a96b630f87b1be38025be2ea28aa8">getAvailableResolutions</a>(<span class="keywordtype">int</span> screen);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        QRect <a class="code" href="classLauncher_1_1GraphicsPage.html#ac3be0893f37a0581ce6445d1e19566c2">getMaximumResolution</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#a17dba07a7108c63800cbc162c9f0df21">setupSDL</a>();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    };</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_afd245cb02932132c6c8b5b092e06de9b"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#afd245cb02932132c6c8b5b092e06de9b">Launcher::GraphicsPage::slotStandardToggled</a></div><div class="ttdeci">void slotStandardToggled(bool checked)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:248</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_ac3be0893f37a0581ce6445d1e19566c2"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#ac3be0893f37a0581ce6445d1e19566c2">Launcher::GraphicsPage::getMaximumResolution</a></div><div class="ttdeci">QRect getMaximumResolution()</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:209</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a071162d2d89e1ab381788edd93272040"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a071162d2d89e1ab381788edd93272040">Launcher::GraphicsPage::slotFullScreenChanged</a></div><div class="ttdeci">void slotFullScreenChanged(int state)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:232</div></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Files { <span class="keyword">struct </span>ConfigurationManager; }</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>Launcher</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">class </span>GraphicsSettings;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classLauncher_1_1GraphicsPage.html">   18</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classLauncher_1_1GraphicsPage.html">GraphicsPage</a> : <span class="keyword">public</span> <a class="code" href="classQWidget.html">QWidget</a>, <span class="keyword">private</span> Ui::GraphicsPage</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        Q_OBJECT</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classLauncher_1_1GraphicsPage.html#a70a3f6a9f511fabc861d832d235d76bd">GraphicsPage</a>(<a class="code" href="structFiles_1_1ConfigurationManager.html">Files::ConfigurationManager</a> &amp;cfg, <a class="code" href="classSettings_1_1Manager.html">Settings::Manager</a> &amp;engineSettings, <a class="code" href="classQWidget.html">QWidget</a> *parent = 0);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#a0068741f1e83f371d1318e891783b8a9">saveSettings</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#aa62a2007856d917a18d90b2f20de93cb">loadSettings</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#a15d01883096264e29af0242a4d68b297">screenChanged</a>(<span class="keywordtype">int</span> screen);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#a071162d2d89e1ab381788edd93272040">slotFullScreenChanged</a>(<span class="keywordtype">int</span> state);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#afd245cb02932132c6c8b5b092e06de9b">slotStandardToggled</a>(<span class="keywordtype">bool</span> checked);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classLauncher_1_1GraphicsPage.html#aa7a3026f73e7e2788176d2b00aa1dc7b">   36</a></span>&#160;        <a class="code" href="structFiles_1_1ConfigurationManager.html">Files::ConfigurationManager</a> &amp;<a class="code" href="classLauncher_1_1GraphicsPage.html#aa7a3026f73e7e2788176d2b00aa1dc7b">mCfgMgr</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classLauncher_1_1GraphicsPage.html#a6d105e34aafbc688f023e159bc850dca">   37</a></span>&#160;        <a class="code" href="classSettings_1_1Manager.html">Settings::Manager</a> &amp;<a class="code" href="classLauncher_1_1GraphicsPage.html#a6d105e34aafbc688f023e159bc850dca">mEngineSettings</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        QStringList <a class="code" href="classLauncher_1_1GraphicsPage.html#a714a96b630f87b1be38025be2ea28aa8">getAvailableResolutions</a>(<span class="keywordtype">int</span> screen);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        QRect <a class="code" href="classLauncher_1_1GraphicsPage.html#ac3be0893f37a0581ce6445d1e19566c2">getMaximumResolution</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classLauncher_1_1GraphicsPage.html#a17dba07a7108c63800cbc162c9f0df21">setupSDL</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    };</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_afd245cb02932132c6c8b5b092e06de9b"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#afd245cb02932132c6c8b5b092e06de9b">Launcher::GraphicsPage::slotStandardToggled</a></div><div class="ttdeci">void slotStandardToggled(bool checked)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:257</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_ac3be0893f37a0581ce6445d1e19566c2"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#ac3be0893f37a0581ce6445d1e19566c2">Launcher::GraphicsPage::getMaximumResolution</a></div><div class="ttdeci">QRect getMaximumResolution()</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:218</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a071162d2d89e1ab381788edd93272040"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a071162d2d89e1ab381788edd93272040">Launcher::GraphicsPage::slotFullScreenChanged</a></div><div class="ttdeci">void slotFullScreenChanged(int state)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:241</div></div>
 <div class="ttc" id="classQWidget_html"><div class="ttname"><a href="classQWidget.html">QWidget</a></div></div>
 <div class="ttc" id="structFiles_1_1ConfigurationManager_html"><div class="ttname"><a href="structFiles_1_1ConfigurationManager.html">Files::ConfigurationManager</a></div><div class="ttdef"><b>Definition:</b> configurationmanager.hpp:20</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a6d105e34aafbc688f023e159bc850dca"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a6d105e34aafbc688f023e159bc850dca">Launcher::GraphicsPage::mEngineSettings</a></div><div class="ttdeci">Settings::Manager &amp; mEngineSettings</div><div class="ttdef"><b>Definition:</b> graphicspage.hpp:35</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a6d105e34aafbc688f023e159bc850dca"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a6d105e34aafbc688f023e159bc850dca">Launcher::GraphicsPage::mEngineSettings</a></div><div class="ttdeci">Settings::Manager &amp; mEngineSettings</div><div class="ttdef"><b>Definition:</b> graphicspage.hpp:37</div></div>
+<div class="ttc" id="sdlinit_8hpp_html"><div class="ttname"><a href="sdlinit_8hpp.html">sdlinit.hpp</a></div></div>
 <div class="ttc" id="settings_8hpp_html"><div class="ttname"><a href="settings_8hpp.html">settings.hpp</a></div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_aa62a2007856d917a18d90b2f20de93cb"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#aa62a2007856d917a18d90b2f20de93cb">Launcher::GraphicsPage::loadSettings</a></div><div class="ttdeci">bool loadSettings()</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:78</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a70a3f6a9f511fabc861d832d235d76bd"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a70a3f6a9f511fabc861d832d235d76bd">Launcher::GraphicsPage::GraphicsPage</a></div><div class="ttdeci">GraphicsPage(Files::ConfigurationManager &amp;cfg, Settings::Manager &amp;engineSettings, QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:35</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html">Launcher::GraphicsPage</a></div><div class="ttdef"><b>Definition:</b> graphicspage.hpp:16</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a0068741f1e83f371d1318e891783b8a9"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a0068741f1e83f371d1318e891783b8a9">Launcher::GraphicsPage::saveSettings</a></div><div class="ttdeci">void saveSettings()</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:118</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a17dba07a7108c63800cbc162c9f0df21"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a17dba07a7108c63800cbc162c9f0df21">Launcher::GraphicsPage::setupSDL</a></div><div class="ttdeci">bool setupSDL()</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:54</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_aa7a3026f73e7e2788176d2b00aa1dc7b"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#aa7a3026f73e7e2788176d2b00aa1dc7b">Launcher::GraphicsPage::mCfgMgr</a></div><div class="ttdeci">Files::ConfigurationManager &amp; mCfgMgr</div><div class="ttdef"><b>Definition:</b> graphicspage.hpp:34</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a15d01883096264e29af0242a4d68b297"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a15d01883096264e29af0242a4d68b297">Launcher::GraphicsPage::screenChanged</a></div><div class="ttdeci">void screenChanged(int screen)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:224</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_aa62a2007856d917a18d90b2f20de93cb"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#aa62a2007856d917a18d90b2f20de93cb">Launcher::GraphicsPage::loadSettings</a></div><div class="ttdeci">bool loadSettings()</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:87</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a70a3f6a9f511fabc861d832d235d76bd"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a70a3f6a9f511fabc861d832d235d76bd">Launcher::GraphicsPage::GraphicsPage</a></div><div class="ttdeci">GraphicsPage(Files::ConfigurationManager &amp;cfg, Settings::Manager &amp;engineSettings, QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:31</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html">Launcher::GraphicsPage</a></div><div class="ttdef"><b>Definition:</b> graphicspage.hpp:18</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a0068741f1e83f371d1318e891783b8a9"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a0068741f1e83f371d1318e891783b8a9">Launcher::GraphicsPage::saveSettings</a></div><div class="ttdeci">void saveSettings()</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:127</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a17dba07a7108c63800cbc162c9f0df21"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a17dba07a7108c63800cbc162c9f0df21">Launcher::GraphicsPage::setupSDL</a></div><div class="ttdeci">bool setupSDL()</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:50</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_aa7a3026f73e7e2788176d2b00aa1dc7b"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#aa7a3026f73e7e2788176d2b00aa1dc7b">Launcher::GraphicsPage::mCfgMgr</a></div><div class="ttdeci">Files::ConfigurationManager &amp; mCfgMgr</div><div class="ttdef"><b>Definition:</b> graphicspage.hpp:36</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a15d01883096264e29af0242a4d68b297"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a15d01883096264e29af0242a4d68b297">Launcher::GraphicsPage::screenChanged</a></div><div class="ttdeci">void screenChanged(int screen)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:233</div></div>
 <div class="ttc" id="classSettings_1_1Manager_html"><div class="ttname"><a href="classSettings_1_1Manager.html">Settings::Manager</a></div><div class="ttdoc">Settings management (can change during runtime) </div><div class="ttdef"><b>Definition:</b> settings.hpp:17</div></div>
-<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a714a96b630f87b1be38025be2ea28aa8"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a714a96b630f87b1be38025be2ea28aa8">Launcher::GraphicsPage::getAvailableResolutions</a></div><div class="ttdeci">QStringList getAvailableResolutions(int screen)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:162</div></div>
+<div class="ttc" id="classLauncher_1_1GraphicsPage_html_a714a96b630f87b1be38025be2ea28aa8"><div class="ttname"><a href="classLauncher_1_1GraphicsPage.html#a714a96b630f87b1be38025be2ea28aa8">Launcher::GraphicsPage::getAvailableResolutions</a></div><div class="ttdeci">QStringList getAvailableResolutions(int screen)</div><div class="ttdef"><b>Definition:</b> graphicspage.cpp:171</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:47 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,6 +1,16 @@
 <map id="MWScript::Sound::OpGetSoundPlaying::execute" name="MWScript::Sound::OpGetSoundPlaying::execute">
-<area shape="rect" id="node2" href="$classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64" title="pop stack " alt="" coords="281,5,463,32"/>
-<area shape="rect" id="node3" href="$classInterpreter_1_1Runtime.html#a891b8bca22d1cee61ff80f9ce7939bde" title="push data on stack " alt="" coords="297,57,447,98"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="275,123,469,149"/>
-<area shape="rect" id="node5" href="$classInterpreter_1_1Runtime.html#a48ee08f88ec29e0b2f5432b685b89f83" title="Interpreter::Runtime\l::getStringLiteral" alt="" coords="297,174,447,215"/>
+<area shape="rect" id="node2" href="$classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64" title="pop stack " alt="" coords="289,5,471,32"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="283,56,477,83"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="297,107,463,149"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1SoundManager.html#a5ac8e6ada561edf62b0b7aa713fa3bbb" title="MWBase::SoundManager\l::getSoundPlaying" alt="" coords="289,173,471,214"/>
+<area shape="rect" id="node6" href="$classInterpreter_1_1Runtime.html#a48ee08f88ec29e0b2f5432b685b89f83" title="Interpreter::Runtime\l::getStringLiteral" alt="" coords="305,238,455,279"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#a7e0b302dd59b86df5730fe6d90e575b0" title="May return a 0&#45;pointer, if reference is not in a container. " alt="" coords="283,303,477,345"/>
+<area shape="rect" id="node8" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="297,369,463,410"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1World.html#ad188a08a3cd9fd86c4a5420aec08375e" title="MWBase::World::findContainer" alt="" coords="275,435,485,461"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="299,485,461,512"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="297,536,463,563"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a23032de169e9d4dc8932bae21e46e9b0" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="275,587,485,629"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="276,653,484,694"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1InventoryStore.html#a680c3e2ce035f75127d16b25044d9488" title="Utility function, returns true if the given item is equipped in any slot. " alt="" coords="290,718,470,759"/>
+<area shape="rect" id="node15" href="$classInterpreter_1_1Runtime.html#a891b8bca22d1cee61ff80f9ce7939bde" title="push data on stack " alt="" coords="305,783,455,825"/>
 </map>

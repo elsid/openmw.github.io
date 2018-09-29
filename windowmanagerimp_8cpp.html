@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwgui/windowmanagerimp.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwgui/windowmanagerimp.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -94,7 +94,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">windowmanagerimp.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -114,21 +115,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;MyGUI_Gui.h&gt;</code><br/>
 <code>#include &lt;MyGUI_ClipboardManager.h&gt;</code><br/>
 <code>#include &lt;MyGUI_RenderManager.h&gt;</code><br/>
+<code>#include &lt;MyGUI_WidgetManager.h&gt;</code><br/>
 <code>#include &lt;SDL_keyboard.h&gt;</code><br/>
 <code>#include &lt;SDL_clipboard.h&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="sdlcursormanager_8hpp_source.html">components/sdlutil/sdlcursormanager.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="esmreader_8hpp_source.html">components/esm/esmreader.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="esmwriter_8hpp_source.html">components/esm/esmwriter.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="fontloader_8hpp_source.html">components/fontloader/fontloader.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="resourcesystem_8hpp_source.html">components/resource/resourcesystem.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="imagemanager_8hpp_source.html">components/resource/imagemanager.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="workqueue_8hpp_source.html">components/sceneutil/workqueue.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="translation_8hpp_source.html">components/translation/translation.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="myguiplatform_8hpp_source.html">components/myguiplatform/myguiplatform.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="myguidatamanager_8hpp_source.html">components/myguiplatform/myguidatamanager.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="myguirendermanager_8hpp_source.html">components/myguiplatform/myguirendermanager.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="additivelayer_8hpp_source.html">components/myguiplatform/additivelayer.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="scalinglayer_8hpp_source.html">components/myguiplatform/scalinglayer.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="manager_8hpp_source.html">components/vfs/manager.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="components_2widgets_2widgets_8hpp_source.html">components/widgets/widgets.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="tags_8hpp_source.html">components/widgets/tags.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="resourcehelpers_8hpp_source.html">components/misc/resourcehelpers.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="inputmanager_8hpp_source.html">../mwbase/inputmanager.hpp</a>&quot;</code><br/>
@@ -141,7 +145,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="esmstore_8hpp_source.html">../mwworld/esmstore.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="stat_8hpp_source.html">../mwmechanics/stat.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwmechanics_2npcstats_8hpp_source.html">../mwmechanics/npcstats.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="actorutil_8hpp_source.html">../mwmechanics/actorutil.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="apps_2openmw_2mwmechanics_2actorutil_8hpp_source.html">../mwmechanics/actorutil.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="localmap_8hpp_source.html">../mwrender/localmap.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="console_8hpp_source.html">console.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="journalwindow_8hpp_source.html">journalwindow.hpp</a>&quot;</code><br/>
@@ -190,16 +194,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="controllers_8hpp_source.html">controllers.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="jailscreen_8hpp_source.html">jailscreen.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="itemchargeview_8hpp_source.html">itemchargeview.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="keyboardnavigation_8hpp_source.html">keyboardnavigation.hpp</a>&quot;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespaceanonymous__namespace_02windowmanagerimp_8cpp_03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02windowmanagerimp_8cpp_03.html">anonymous_namespace{windowmanagerimp.cpp}</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceMWGui"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWGui.html">MWGui</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8df1f81fb890bd8c9a344e54aa6c03a3"><td class="memItemLeft" align="right" valign="top">MyGUI::Colour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02windowmanagerimp_8cpp_03.html#a8df1f81fb890bd8c9a344e54aa6c03a3">anonymous_namespace{windowmanagerimp.cpp}::getTextColour</a> (const std::string &amp;type)</td></tr>
+<tr class="separator:a8df1f81fb890bd8c9a344e54aa6c03a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

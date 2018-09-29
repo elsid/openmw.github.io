@@ -213,44 +213,45 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" target="_top" xlink:title="Notify that window has been made visible. ">
-<polygon fill="white" stroke="black" points="358,-172.5 358,-191.5 502,-191.5 502,-172.5 358,-172.5"/>
-<text text-anchor="middle" x="430" y="-179.5" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::open</text>
+<g id="a_node15"><a xlink:href="classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" target="_top" xlink:title="Notify that window has been made visible. ">
+<polygon fill="white" stroke="black" points="370,-162 370,-192 490,-192 490,-162 370,-162"/>
+<text text-anchor="start" x="378" y="-180" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
+<text text-anchor="middle" x="430" y="-169" font-family="FreeSans" font-size="10.00">onOpen</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node15 -->
 <g id="edge16" class="edge"><title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M296.173,-187.534C312.476,-186.855 330.449,-186.106 347.765,-185.385"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="348.022,-188.877 357.868,-184.964 347.73,-181.883 348.022,-188.877"/>
+<path fill="none" stroke="midnightblue" d="M296.173,-185.993C316.247,-184.634 338.853,-183.104 359.648,-181.696"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="359.951,-185.183 369.692,-181.016 359.478,-178.199 359.951,-185.183"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" target="_top" xlink:title="Notify that window has been hidden. ">
-<polygon fill="white" stroke="black" points="370,-123 370,-153 490,-153 490,-123 370,-123"/>
-<text text-anchor="start" x="378" y="-141" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
-<text text-anchor="middle" x="430" y="-130" font-family="FreeSans" font-size="10.00">close</text>
+<g id="a_node16"><a xlink:href="classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" target="_top" xlink:title="Notify that window has been hidden. ">
+<polygon fill="white" stroke="black" points="370,-113 370,-143 490,-143 490,-113 370,-113"/>
+<text text-anchor="start" x="378" y="-131" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
+<text text-anchor="middle" x="430" y="-120" font-family="FreeSans" font-size="10.00">onClose</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node16 -->
 <g id="edge17" class="edge"><title>Node14&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M292.534,-174.959C314.823,-168.923 340.674,-161.922 363.843,-155.647"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="364.853,-158.999 373.59,-153.007 363.023,-152.243 364.853,-158.999"/>
+<path fill="none" stroke="midnightblue" d="M277.951,-174.939C297.286,-167.99 320.736,-159.795 342,-153 349.368,-150.646 357.119,-148.272 364.832,-145.975"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="365.949,-149.294 374.552,-143.111 363.971,-142.58 365.949,-149.294"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
 <g id="a_node17"><a xlink:href="classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" target="_top" xlink:title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. ">
-<polygon fill="white" stroke="black" points="360,-74 360,-104 500,-104 500,-74 360,-74"/>
-<text text-anchor="start" x="368" y="-92" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
-<text text-anchor="middle" x="430" y="-81" font-family="FreeSans" font-size="10.00">::setKeyFocusWidget</text>
+<polygon fill="white" stroke="black" points="360,-64 360,-94 500,-94 500,-64 360,-64"/>
+<text text-anchor="start" x="368" y="-82" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
+<text text-anchor="middle" x="430" y="-71" font-family="FreeSans" font-size="10.00">::setKeyFocusWidget</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node17 -->
 <g id="edge20" class="edge"><title>Node14&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M289.294,-174.996C295.217,-172.174 300.936,-168.865 306,-165 328.056,-148.168 319.386,-130.075 342,-114 344.84,-111.981 347.841,-110.125 350.953,-108.417"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="352.542,-111.536 359.978,-103.99 349.459,-105.252 352.542,-111.536"/>
+<path fill="none" stroke="midnightblue" d="M290.662,-174.865C296.149,-172.086 301.392,-168.824 306,-165 330.226,-144.898 317.106,-123.27 342,-104 344.755,-101.867 347.686,-99.9162 350.741,-98.1317"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="352.363,-101.233 359.637,-93.5303 349.147,-95.0158 352.363,-101.233"/>
 </g>
 </g>
 </svg>

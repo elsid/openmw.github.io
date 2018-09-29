@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/world/refiddata.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/world/refiddata.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -285,7 +285,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> RecordT&gt;</div>
 <div class="line"><a name="l00190"></a><span class="lineno"><a class="line" href="structCSMWorld_1_1RefIdDataContainer.html#af6a2eea292c1ea16cd7785abaed8aaf9">  190</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structCSMWorld_1_1RefIdDataContainer.html#af6a2eea292c1ea16cd7785abaed8aaf9">RefIdDataContainer&lt;RecordT&gt;::erase</a> (<span class="keywordtype">int</span> index, <span class="keywordtype">int</span> count)</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">if</span> (index&lt;0 || index+count&gt;getSize())</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">if</span> (index&lt;0 || index+count&gt;<a class="code" href="namespaceSceneUtil.html#a0389569fb8943b64c40b178f92ce93aa">getSize</a>())</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">throw</span> std::runtime_error (<span class="stringliteral">&quot;invalid RefIdDataContainer index&quot;</span>);</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        mContainer.erase (mContainer.begin()+index, mContainer.begin()+index+count);</div>
@@ -412,7 +412,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structCSMWorld_1_1RefIdDataContainerBase_html_a2f85d804b170261b1ee369bff7cc563c"><div class="ttname"><a href="structCSMWorld_1_1RefIdDataContainerBase.html#a2f85d804b170261b1ee369bff7cc563c">CSMWorld::RefIdDataContainerBase::erase</a></div><div class="ttdeci">virtual void erase(int index, int count)=0</div></div>
 <div class="ttc" id="structCSMWorld_1_1RefIdDataContainerBase_html_aa5fb8e3ffd435ac70002498b69146b3c"><div class="ttname"><a href="structCSMWorld_1_1RefIdDataContainerBase.html#aa5fb8e3ffd435ac70002498b69146b3c">CSMWorld::RefIdDataContainerBase::load</a></div><div class="ttdeci">virtual int load(ESM::ESMReader &amp;reader, bool base)=0</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdData_html_a025abb8a39f565c5342b7991f05ac053"><div class="ttname"><a href="classCSMWorld_1_1RefIdData.html#a025abb8a39f565c5342b7991f05ac053">CSMWorld::RefIdData::getContainers</a></div><div class="ttdeci">const RefIdDataContainer&lt; ESM::Container &gt; &amp; getContainers() const </div><div class="ttdef"><b>Definition:</b> refiddata.cpp:300</div></div>
-<div class="ttc" id="classMisc_1_1StringUtils_html_a0f8cb0ac134191ba8417f74ab7dc4de6"><div class="ttname"><a href="classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6">Misc::StringUtils::ciEqual</a></div><div class="ttdeci">static bool ciEqual(const std::string &amp;x, const std::string &amp;y)</div><div class="ttdef"><b>Definition:</b> stringops.hpp:62</div></div>
+<div class="ttc" id="classMisc_1_1StringUtils_html_a0f8cb0ac134191ba8417f74ab7dc4de6"><div class="ttname"><a href="classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6">Misc::StringUtils::ciEqual</a></div><div class="ttdeci">static bool ciEqual(const std::string &amp;x, const std::string &amp;y)</div><div class="ttdef"><b>Definition:</b> stringops.hpp:129</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdData_html_aada5797676ff266523073b9b75d0a05a"><div class="ttname"><a href="classCSMWorld_1_1RefIdData.html#aada5797676ff266523073b9b75d0a05a">CSMWorld::RefIdData::getRecordId</a></div><div class="ttdeci">std::string getRecordId(const LocalIndex &amp;index) const </div><div class="ttdef"><b>Definition:</b> refiddata.cpp:9</div></div>
 <div class="ttc" id="structCSMWorld_1_1RefIdDataContainer_html"><div class="ttname"><a href="structCSMWorld_1_1RefIdDataContainer.html">CSMWorld::RefIdDataContainer</a></div><div class="ttdef"><b>Definition:</b> refiddata.hpp:65</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdData_html_ae74bf683527ae77a58665c3e307f96d4"><div class="ttname"><a href="classCSMWorld_1_1RefIdData.html#ae74bf683527ae77a58665c3e307f96d4">CSMWorld::RefIdData::mRecordContainers</a></div><div class="ttdeci">std::map&lt; UniversalId::Type, RefIdDataContainerBase * &gt; mRecordContainers</div><div class="ttdef"><b>Definition:</b> refiddata.hpp:250</div></div>
@@ -507,6 +507,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classESM_1_1ESMWriter_html_aa9773ad75705c3078f4c4d7be8d90acb"><div class="ttname"><a href="classESM_1_1ESMWriter.html#aa9773ad75705c3078f4c4d7be8d90acb">ESM::ESMWriter::endRecord</a></div><div class="ttdeci">void endRecord(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> esmwriter.cpp:132</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdData_html_a3021fdd401da393ca1989dd3fa840be9"><div class="ttname"><a href="classCSMWorld_1_1RefIdData.html#a3021fdd401da393ca1989dd3fa840be9">CSMWorld::RefIdData::mBooks</a></div><div class="ttdeci">RefIdDataContainer&lt; ESM::Book &gt; mBooks</div><div class="ttdef"><b>Definition:</b> refiddata.hpp:231</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdData_html_a7e549c2dfee82d47322c66eb27226f4f"><div class="ttname"><a href="classCSMWorld_1_1RefIdData.html#a7e549c2dfee82d47322c66eb27226f4f">CSMWorld::RefIdData::insertRecord</a></div><div class="ttdeci">void insertRecord(CSMWorld::RecordBase &amp;record, CSMWorld::UniversalId::Type type, const std::string &amp;id)</div><div class="ttdef"><b>Definition:</b> refiddata.cpp:370</div></div>
+<div class="ttc" id="namespaceSceneUtil_html_a0389569fb8943b64c40b178f92ce93aa"><div class="ttname"><a href="namespaceSceneUtil.html#a0389569fb8943b64c40b178f92ce93aa">SceneUtil::getSize</a></div><div class="ttdeci">unsigned int getSize(const osg::Array *a)</div><div class="ttdoc">Shortcut to get size of an array, even if pointer is NULL. </div><div class="ttdef"><b>Definition:</b> optimizer.cpp:1004</div></div>
 <div class="ttc" id="esmwriter_8hpp_html"><div class="ttname"><a href="esmwriter_8hpp.html">esmwriter.hpp</a></div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdData_html_aa7f27022198365685601a3e93d568e84"><div class="ttname"><a href="classCSMWorld_1_1RefIdData.html#aa7f27022198365685601a3e93d568e84">CSMWorld::RefIdData::mStatics</a></div><div class="ttdeci">RefIdDataContainer&lt; ESM::Static &gt; mStatics</div><div class="ttdef"><b>Definition:</b> refiddata.hpp:245</div></div>
 <div class="ttc" id="structCSMWorld_1_1RefIdDataContainerBase_html_a9976b1cd259d0d9530376d552f7b97d9"><div class="ttname"><a href="structCSMWorld_1_1RefIdDataContainerBase.html#a9976b1cd259d0d9530376d552f7b97d9">CSMWorld::RefIdDataContainerBase::getId</a></div><div class="ttdeci">virtual std::string getId(int index) const =0</div></div>
@@ -528,7 +529,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:20 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

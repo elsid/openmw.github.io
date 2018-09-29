@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/sceneutil/unrefqueue.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/sceneutil/unrefqueue.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,45 +100,58 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="unrefqueue_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENMW_COMPONENTS_UNREFQUEUE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENMW_COMPONENTS_UNREFQUEUE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;osg/ref_ptr&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;osg/Referenced&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>osg</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">class </span>Object;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>SceneUtil</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">class </span>WorkQueue;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">class </span>UnrefWorkItem;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1UnrefQueue.html">   19</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1UnrefQueue.html">UnrefQueue</a> : <span class="keyword">public</span> osg::Referenced</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classSceneUtil_1_1UnrefQueue.html#a8128d025347e417ada5892c4771f1e4c">UnrefQueue</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1UnrefQueue.html#aa7f8d161b2d03ce5b58de643fdcd6eec">push</a>(<span class="keyword">const</span> osg::Object* obj);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1UnrefQueue.html#abebb9897b312c05c164cfbfdabc48c03">flush</a>(<a class="code" href="classSceneUtil_1_1WorkQueue.html">SceneUtil::WorkQueue</a>* workQueue);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1UnrefQueue.html#a9f0396f978168c5dc633a6cb22d0571a">   32</a></span>&#160;        osg::ref_ptr&lt;UnrefWorkItem&gt; <a class="code" href="classSceneUtil_1_1UnrefQueue.html#a9f0396f978168c5dc633a6cb22d0571a">mWorkItem</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classSceneUtil_1_1WorkQueue_html"><div class="ttname"><a href="classSceneUtil_1_1WorkQueue.html">SceneUtil::WorkQueue</a></div><div class="ttdoc">A work queue that users can push work items onto, to be completed by one or more background threads...</div><div class="ttdef"><b>Definition:</b> workqueue.hpp:45</div></div>
-<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_abebb9897b312c05c164cfbfdabc48c03"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#abebb9897b312c05c164cfbfdabc48c03">SceneUtil::UnrefQueue::flush</a></div><div class="ttdeci">void flush(SceneUtil::WorkQueue *workQueue)</div><div class="ttdef"><b>Definition:</b> unrefqueue.cpp:38</div></div>
-<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_aa7f8d161b2d03ce5b58de643fdcd6eec"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#aa7f8d161b2d03ce5b58de643fdcd6eec">SceneUtil::UnrefQueue::push</a></div><div class="ttdeci">void push(const osg::Object *obj)</div><div class="ttdoc">Adds an object to the list of objects to be unreferenced. Call from the main thread. </div><div class="ttdef"><b>Definition:</b> unrefqueue.cpp:33</div></div>
-<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html">SceneUtil::UnrefQueue</a></div><div class="ttdoc">Handles unreferencing of objects through the WorkQueue. Typical use scenario would be the main thread...</div><div class="ttdef"><b>Definition:</b> unrefqueue.hpp:19</div></div>
-<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_a8128d025347e417ada5892c4771f1e4c"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#a8128d025347e417ada5892c4771f1e4c">SceneUtil::UnrefQueue::UnrefQueue</a></div><div class="ttdeci">UnrefQueue()</div><div class="ttdef"><b>Definition:</b> unrefqueue.cpp:28</div></div>
-<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_a9f0396f978168c5dc633a6cb22d0571a"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#a9f0396f978168c5dc633a6cb22d0571a">SceneUtil::UnrefQueue::mWorkItem</a></div><div class="ttdeci">osg::ref_ptr&lt; UnrefWorkItem &gt; mWorkItem</div><div class="ttdef"><b>Definition:</b> unrefqueue.hpp:32</div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;deque&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;osg/ref_ptr&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;osg/Referenced&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="workqueue_8hpp.html">components/sceneutil/workqueue.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>SceneUtil</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">class </span>WorkQueue;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1UnrefWorkItem.html">   15</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1UnrefWorkItem.html">UnrefWorkItem</a> : <span class="keyword">public</span> <a class="code" href="classSceneUtil_1_1WorkItem.html">SceneUtil::WorkItem</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1UnrefWorkItem.html#abe71737a2c7df04cfcb529f18f419b3a">   18</a></span>&#160;        std::deque&lt;osg::ref_ptr&lt;const osg::Referenced&gt; &gt; <a class="code" href="classSceneUtil_1_1UnrefWorkItem.html#abe71737a2c7df04cfcb529f18f419b3a">mObjects</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1UnrefWorkItem.html#a926d7cd41ae2d40e8e24f74a7bc8e707">doWork</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    };</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1UnrefQueue.html">   24</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1UnrefQueue.html">UnrefQueue</a> : <span class="keyword">public</span> osg::Referenced</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classSceneUtil_1_1UnrefQueue.html#a8128d025347e417ada5892c4771f1e4c">UnrefQueue</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1UnrefQueue.html#aee28534c430391f6f5c928edb9444a74">push</a>(<span class="keyword">const</span> osg::Referenced* obj);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1UnrefQueue.html#abebb9897b312c05c164cfbfdabc48c03">flush</a>(<a class="code" href="classSceneUtil_1_1WorkQueue.html">SceneUtil::WorkQueue</a>* workQueue);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classSceneUtil_1_1UnrefQueue.html#af0b8ef22d0375028811203dc8471c80f">getNumItems</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1UnrefQueue.html#a9f0396f978168c5dc633a6cb22d0571a">   39</a></span>&#160;        osg::ref_ptr&lt;UnrefWorkItem&gt; <a class="code" href="classSceneUtil_1_1UnrefQueue.html#a9f0396f978168c5dc633a6cb22d0571a">mWorkItem</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    };</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_aee28534c430391f6f5c928edb9444a74"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#aee28534c430391f6f5c928edb9444a74">SceneUtil::UnrefQueue::push</a></div><div class="ttdeci">void push(const osg::Referenced *obj)</div><div class="ttdoc">Adds an object to the list of objects to be unreferenced. Call from the main thread. </div><div class="ttdef"><b>Definition:</b> unrefqueue.cpp:19</div></div>
+<div class="ttc" id="classSceneUtil_1_1WorkQueue_html"><div class="ttname"><a href="classSceneUtil_1_1WorkQueue.html">SceneUtil::WorkQueue</a></div><div class="ttdoc">A work queue that users can push work items onto, to be completed by one or more background threads...</div><div class="ttdef"><b>Definition:</b> workqueue.hpp:48</div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_abebb9897b312c05c164cfbfdabc48c03"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#abebb9897b312c05c164cfbfdabc48c03">SceneUtil::UnrefQueue::flush</a></div><div class="ttdeci">void flush(SceneUtil::WorkQueue *workQueue)</div><div class="ttdef"><b>Definition:</b> unrefqueue.cpp:24</div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefWorkItem_html"><div class="ttname"><a href="classSceneUtil_1_1UnrefWorkItem.html">SceneUtil::UnrefWorkItem</a></div><div class="ttdef"><b>Definition:</b> unrefqueue.hpp:15</div></div>
+<div class="ttc" id="classSceneUtil_1_1WorkItem_html"><div class="ttname"><a href="classSceneUtil_1_1WorkItem.html">SceneUtil::WorkItem</a></div><div class="ttdef"><b>Definition:</b> workqueue.hpp:17</div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefWorkItem_html_abe71737a2c7df04cfcb529f18f419b3a"><div class="ttname"><a href="classSceneUtil_1_1UnrefWorkItem.html#abe71737a2c7df04cfcb529f18f419b3a">SceneUtil::UnrefWorkItem::mObjects</a></div><div class="ttdeci">std::deque&lt; osg::ref_ptr&lt; const osg::Referenced &gt; &gt; mObjects</div><div class="ttdef"><b>Definition:</b> unrefqueue.hpp:18</div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_af0b8ef22d0375028811203dc8471c80f"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#af0b8ef22d0375028811203dc8471c80f">SceneUtil::UnrefQueue::getNumItems</a></div><div class="ttdeci">unsigned int getNumItems() const </div><div class="ttdef"><b>Definition:</b> unrefqueue.cpp:34</div></div>
+<div class="ttc" id="workqueue_8hpp_html"><div class="ttname"><a href="workqueue_8hpp.html">workqueue.hpp</a></div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html">SceneUtil::UnrefQueue</a></div><div class="ttdoc">Handles unreferencing of objects through the WorkQueue. Typical use scenario would be the main thread...</div><div class="ttdef"><b>Definition:</b> unrefqueue.hpp:24</div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_a8128d025347e417ada5892c4771f1e4c"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#a8128d025347e417ada5892c4771f1e4c">SceneUtil::UnrefQueue::UnrefQueue</a></div><div class="ttdeci">UnrefQueue()</div><div class="ttdef"><b>Definition:</b> unrefqueue.cpp:14</div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefWorkItem_html_a926d7cd41ae2d40e8e24f74a7bc8e707"><div class="ttname"><a href="classSceneUtil_1_1UnrefWorkItem.html#a926d7cd41ae2d40e8e24f74a7bc8e707">SceneUtil::UnrefWorkItem::doWork</a></div><div class="ttdeci">virtual void doWork()</div><div class="ttdoc">Override in a derived WorkItem to perform actual work. </div><div class="ttdef"><b>Definition:</b> unrefqueue.cpp:9</div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html_a9f0396f978168c5dc633a6cb22d0571a"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html#a9f0396f978168c5dc633a6cb22d0571a">SceneUtil::UnrefQueue::mWorkItem</a></div><div class="ttdeci">osg::ref_ptr&lt; UnrefWorkItem &gt; mWorkItem</div><div class="ttdef"><b>Definition:</b> unrefqueue.hpp:39</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

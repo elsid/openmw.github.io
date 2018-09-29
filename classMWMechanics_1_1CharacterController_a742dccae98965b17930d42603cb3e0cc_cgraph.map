@@ -1,20 +1,21 @@
 <map id="MWMechanics::CharacterController::unpersistAnimationState" name="MWMechanics::CharacterController::unpersistAnimationState">
 <area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="330,5,513,32"/>
 <area shape="rect" id="node3" href="$classMWWorld_1_1RefData.html#a81ce13f5e23951f911669fd4757c3aa2" title="MWWorld::RefData::getAnimation\lState" alt="" coords="306,57,537,98"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1CharacterController.html#a91cf734388359775935c4f22fdbd05fc" title="MWMechanics::CharacterController\l::clearAnimQueue" alt="" coords="299,122,543,163"/>
-<area shape="rect" id="node5" href="$classMWRender_1_1Animation.html#ae52ecaea6bbf327d968e6d388f37bf44" title="MWRender::Animation\l::disable" alt="" coords="605,122,766,163"/>
-<area shape="rect" id="node11" href="$classMWRender_1_1Animation.html#a79d86f263710ea5aa972be1e5da78fc2" title="Get the absolute position in the animation track of the text key. " alt="" coords="341,239,502,281"/>
-<area shape="rect" id="node12" href="$classMWRender_1_1Animation.html#af375135ae7834445da7479dde42b7528" title="MWRender::Animation\l::play" alt="" coords="341,327,502,369"/>
-<area shape="rect" id="node6" href="$classMWRender_1_1Animation.html#a94cc64915a580e0d9818d7aa50acc3d5" title="MWRender::Animation\l::resetActiveGroups" alt="" coords="859,151,1021,193"/>
-<area shape="rect" id="node7" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="1325,122,1486,163"/>
-<area shape="rect" id="node8" href="$classMWRender_1_1Animation.html#a459a7199da8cad0d9fe4a7fd1571f3cb" title="MWRender::Animation\l::addControllers" alt="" coords="1102,181,1263,222"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1322,188,1489,215"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="1313,239,1498,265"/>
-<area shape="rect" id="node13" href="$classMWRender_1_1Animation.html#a78dd036addc4f13e9b47805643f10247" title="MWRender::Animation\l::reset" alt="" coords="605,290,766,331"/>
-<area shape="rect" id="node14" href="$structMWRender_1_1Animation_1_1AnimState.html#a31b0a6dacb33aaed30137588db536ee6" title="MWRender::Animation\l::AnimState::setTime" alt="" coords="859,243,1021,285"/>
-<area shape="rect" id="node15" href="$structMWRender_1_1Animation_1_1AnimState.html#a53d70c3f75d4b3dbdcbf0e47ce705b9e" title="MWRender::Animation\l::AnimState::getTime" alt="" coords="859,331,1021,373"/>
-<area shape="rect" id="node16" href="$classMWRender_1_1Animation.html#ab7236ec1b0d9e4a328d1415324692188" title="MWRender::Animation\l::handleTextKey" alt="" coords="605,407,766,449"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="598,473,773,500"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="592,524,779,551"/>
-<area shape="rect" id="node17" href="$classMWRender_1_1Animation_1_1TextKeyListener.html#a67153739c95c33dc40ccad0eb47fd741" title="MWRender::Animation\l::TextKeyListener::handleTextKey" alt="" coords="827,407,1053,449"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1CharacterController.html#a3e28f5b1f8b8b553e104aba11e7b26e3" title="MWMechanics::CharacterController\l::clearAnimQueue" alt="" coords="299,122,543,163"/>
+<area shape="rect" id="node8" href="$classMWRender_1_1Animation.html#ae52ecaea6bbf327d968e6d388f37bf44" title="MWRender::Animation\l::disable" alt="" coords="634,169,795,210"/>
+<area shape="rect" id="node14" href="$classMWRender_1_1Animation.html#a79d86f263710ea5aa972be1e5da78fc2" title="Get the absolute position in the animation track of the text key. " alt="" coords="341,239,502,281"/>
+<area shape="rect" id="node15" href="$classMWRender_1_1Animation.html#af375135ae7834445da7479dde42b7528" title="MWRender::Animation\l::play" alt="" coords="341,326,502,367"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1CharacterController.html#ab1b93fb328749639129fa8e5412d7150" title="MWMechanics::CharacterController\l::isPersistentAnimPlaying" alt="" coords="593,103,837,145"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1CharacterController.html#a11a69e83f382cb057369e705f9c0782f" title="MWMechanics::CharacterController\l::isAnimPlaying" alt="" coords="886,103,1130,145"/>
+<area shape="rect" id="node7" href="$classMWRender_1_1Animation.html#a5b8f16b3c1ae5e7d515a5f9be97df6a4" title="MWRender::Animation\l::isPlaying" alt="" coords="1179,103,1341,145"/>
+<area shape="rect" id="node9" href="$classMWRender_1_1Animation.html#a94cc64915a580e0d9818d7aa50acc3d5" title="MWRender::Animation\l::resetActiveGroups" alt="" coords="927,217,1089,258"/>
+<area shape="rect" id="node10" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="1402,187,1563,229"/>
+<area shape="rect" id="node11" href="$classMWRender_1_1Animation.html#a459a7199da8cad0d9fe4a7fd1571f3cb" title="MWRender::Animation\l::addControllers" alt="" coords="1179,246,1341,287"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1399,253,1566,280"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="1390,304,1575,331"/>
+<area shape="rect" id="node16" href="$classMWRender_1_1Animation.html#a78dd036addc4f13e9b47805643f10247" title="MWRender::Animation\l::reset" alt="" coords="634,337,795,378"/>
+<area shape="rect" id="node17" href="$structMWRender_1_1Animation_1_1AnimState.html#a31b0a6dacb33aaed30137588db536ee6" title="MWRender::Animation\l::AnimState::setTime" alt="" coords="927,290,1089,331"/>
+<area shape="rect" id="node18" href="$structMWRender_1_1Animation_1_1AnimState.html#a53d70c3f75d4b3dbdcbf0e47ce705b9e" title="MWRender::Animation\l::AnimState::getTime" alt="" coords="927,370,1089,411"/>
+<area shape="rect" id="node19" href="$classMWRender_1_1Animation.html#ab7236ec1b0d9e4a328d1415324692188" title="MWRender::Animation\l::handleTextKey" alt="" coords="634,454,795,495"/>
+<area shape="rect" id="node20" href="$classMWRender_1_1Animation_1_1TextKeyListener.html#a67153739c95c33dc40ccad0eb47fd741" title="MWRender::Animation\l::TextKeyListener::handleTextKey" alt="" coords="895,454,1121,495"/>
 </map>

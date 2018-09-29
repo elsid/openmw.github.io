@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwgui/referenceinterface.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwgui/referenceinterface.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -112,25 +112,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1ReferenceInterface.html#a0415f58af8911132bc9a202ed19601fa">checkReferenceAvailable</a>(); </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMWGui_1_1ReferenceInterface.html#acd257d28d0e649519d027839aee636de">   20</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1ReferenceInterface.html#acd257d28d0e649519d027839aee636de">resetReference</a>() { <a class="code" href="classMWGui_1_1ReferenceInterface.html#a52362feeb024d7db14952f5b1275a67d">mPtr</a> = <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>(); <a class="code" href="classMWGui_1_1ReferenceInterface.html#ad7ee21983d3ef5ed56fa5a61daeaf7e5">mCurrentPlayerCell</a> = NULL; }</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMWGui_1_1ReferenceInterface.html#acd257d28d0e649519d027839aee636de">   20</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1ReferenceInterface.html#acd257d28d0e649519d027839aee636de">resetReference</a>() { <a class="code" href="classMWGui_1_1ReferenceInterface.html#a52362feeb024d7db14952f5b1275a67d">mPtr</a> = <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>(); }</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1ReferenceInterface.html#ab818d05cd37598c7f371ef4ef92cfd48">onReferenceUnavailable</a>() = 0; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classMWGui_1_1ReferenceInterface.html#a52362feeb024d7db14952f5b1275a67d">   25</a></span>&#160;        <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> <a class="code" href="classMWGui_1_1ReferenceInterface.html#a52362feeb024d7db14952f5b1275a67d">mPtr</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classMWGui_1_1ReferenceInterface.html#ad7ee21983d3ef5ed56fa5a61daeaf7e5">   28</a></span>&#160;        <a class="code" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a>* <a class="code" href="classMWGui_1_1ReferenceInterface.html#ad7ee21983d3ef5ed56fa5a61daeaf7e5">mCurrentPlayerCell</a>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    };</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classMWGui_1_1ReferenceInterface_html_aa5bc392ed44249d66ced31b8bf9f4095"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#aa5bc392ed44249d66ced31b8bf9f4095">MWGui::ReferenceInterface::~ReferenceInterface</a></div><div class="ttdeci">virtual ~ReferenceInterface()</div><div class="ttdef"><b>Definition:</b> referenceinterface.cpp:15</div></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classMWGui_1_1ReferenceInterface_html_aa5bc392ed44249d66ced31b8bf9f4095"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#aa5bc392ed44249d66ced31b8bf9f4095">MWGui::ReferenceInterface::~ReferenceInterface</a></div><div class="ttdeci">virtual ~ReferenceInterface()</div><div class="ttdef"><b>Definition:</b> referenceinterface.cpp:9</div></div>
 <div class="ttc" id="classMWGui_1_1ReferenceInterface_html_a52362feeb024d7db14952f5b1275a67d"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#a52362feeb024d7db14952f5b1275a67d">MWGui::ReferenceInterface::mPtr</a></div><div class="ttdeci">MWWorld::Ptr mPtr</div><div class="ttdef"><b>Definition:</b> referenceinterface.hpp:25</div></div>
-<div class="ttc" id="classMWWorld_1_1CellStore_html"><div class="ttname"><a href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a></div><div class="ttdoc">Mutable state of a cell. </div><div class="ttdef"><b>Definition:</b> cellstore.hpp:53</div></div>
-<div class="ttc" id="classMWGui_1_1ReferenceInterface_html_ad7ee21983d3ef5ed56fa5a61daeaf7e5"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#ad7ee21983d3ef5ed56fa5a61daeaf7e5">MWGui::ReferenceInterface::mCurrentPlayerCell</a></div><div class="ttdeci">MWWorld::CellStore * mCurrentPlayerCell</div><div class="ttdef"><b>Definition:</b> referenceinterface.hpp:28</div></div>
-<div class="ttc" id="classMWGui_1_1ReferenceInterface_html_a0415f58af8911132bc9a202ed19601fa"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#a0415f58af8911132bc9a202ed19601fa">MWGui::ReferenceInterface::checkReferenceAvailable</a></div><div class="ttdeci">void checkReferenceAvailable()</div><div class="ttdoc">closes the window, if the MW-reference has become unavailable </div><div class="ttdef"><b>Definition:</b> referenceinterface.cpp:19</div></div>
-<div class="ttc" id="classMWGui_1_1ReferenceInterface_html_aed56466e80fa4292c1323d5fa01afb60"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#aed56466e80fa4292c1323d5fa01afb60">MWGui::ReferenceInterface::ReferenceInterface</a></div><div class="ttdeci">ReferenceInterface()</div><div class="ttdef"><b>Definition:</b> referenceinterface.cpp:10</div></div>
+<div class="ttc" id="classMWGui_1_1ReferenceInterface_html_a0415f58af8911132bc9a202ed19601fa"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#a0415f58af8911132bc9a202ed19601fa">MWGui::ReferenceInterface::checkReferenceAvailable</a></div><div class="ttdeci">void checkReferenceAvailable()</div><div class="ttdoc">closes the window, if the MW-reference has become unavailable </div><div class="ttdef"><b>Definition:</b> referenceinterface.cpp:13</div></div>
+<div class="ttc" id="classMWGui_1_1ReferenceInterface_html_aed56466e80fa4292c1323d5fa01afb60"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#aed56466e80fa4292c1323d5fa01afb60">MWGui::ReferenceInterface::ReferenceInterface</a></div><div class="ttdeci">ReferenceInterface()</div><div class="ttdef"><b>Definition:</b> referenceinterface.cpp:5</div></div>
 <div class="ttc" id="classMWGui_1_1ReferenceInterface_html"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html">MWGui::ReferenceInterface</a></div><div class="ttdoc">this class is intended for GUI interfaces that access an MW-Reference for example dialogue window acc...</div><div class="ttdef"><b>Definition:</b> referenceinterface.hpp:12</div></div>
 <div class="ttc" id="classMWWorld_1_1Ptr_html"><div class="ttname"><a href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a></div><div class="ttdoc">Pointer to a LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:19</div></div>
 <div class="ttc" id="classMWGui_1_1ReferenceInterface_html_ab818d05cd37598c7f371ef4ef92cfd48"><div class="ttname"><a href="classMWGui_1_1ReferenceInterface.html#ab818d05cd37598c7f371ef4ef92cfd48">MWGui::ReferenceInterface::onReferenceUnavailable</a></div><div class="ttdeci">virtual void onReferenceUnavailable()=0</div><div class="ttdoc">called when reference has become unavailable </div></div>
@@ -138,7 +133,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:50 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:21 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

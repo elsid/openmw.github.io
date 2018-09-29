@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,13 +110,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for CSVWorld::Creator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSVWorld_1_1Creator__inherit__graph.svg" width="1878" height="1318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSVWorld_1_1Creator__inherit__graph.svg" width="2532" height="1363"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CSVWorld::Creator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSVWorld_1_1Creator__coll__graph.svg" width="150" height="302"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSVWorld_1_1Creator__coll__graph.svg" width="150" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a936f18c2de620a5b557c14f4ac83f436"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a040bee4d8d2fb5d3450d0811db8236d6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSVWorld_1_1Creator.html#a040bee4d8d2fb5d3450d0811db8236d6">cloneMode</a> (const std::string &amp;originId, const <a class="el" href="classCSMWorld_1_1UniversalId.html#ad68e402e074c03aeffc692e97a7457b2">CSMWorld::UniversalId::Type</a> type)=0</td></tr>
 <tr class="separator:a040bee4d8d2fb5d3450d0811db8236d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a93b06d102d6c247c283fbb43f1169"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSVWorld_1_1Creator.html#a92a93b06d102d6c247c283fbb43f1169">touch</a> (const std::vector&lt; <a class="el" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a> &gt; &amp;ids)=0</td></tr>
+<tr class="memdesc:a92a93b06d102d6c247c283fbb43f1169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Touches a record, if the creator supports it.  <a href="#a92a93b06d102d6c247c283fbb43f1169">More...</a><br/></td></tr>
+<tr class="separator:a92a93b06d102d6c247c283fbb43f1169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8ad82ce436c8a3916be9c436b44920b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSVWorld_1_1Creator.html#aa8ad82ce436c8a3916be9c436b44920b">setEditLock</a> (<a class="el" href="classbool.html">bool</a> locked)=0</td></tr>
 <tr class="separator:aa8ad82ce436c8a3916be9c436b44920b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56b5c45b94071a6f4683363630af0816"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSVWorld_1_1Creator.html#a56b5c45b94071a6f4683363630af0816">toggleWidgets</a> (<a class="el" href="classbool.html">bool</a> active=true)=0</td></tr>
@@ -205,7 +208,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classCSVWorld_1_1GenericCreator.html#a4e3b14f4b905be096ad08d524b26b7da">CSVWorld::GenericCreator</a>, <a class="el" href="classCSVWorld_1_1StartScriptCreator.html#a50b89ca85db86697fe45155612a4af31">CSVWorld::StartScriptCreator</a>, <a class="el" href="classCSVWorld_1_1ReferenceCreator.html#aafe2ea9619e1239e8a470af73119c1c5">CSVWorld::ReferenceCreator</a>, <a class="el" href="classCSVWorld_1_1CellCreator.html#a674b87784ba3b76a85a4592166fd366b">CSVWorld::CellCreator</a>, <a class="el" href="classCSVWorld_1_1InfoCreator.html#ad0f2324ed02a7ff5e06d21a16dbba83f">CSVWorld::InfoCreator</a>, and <a class="el" href="classCSVWorld_1_1ReferenceableCreator.html#adc8076ddbd9bde6a4e45e3db25c49528">CSVWorld::ReferenceableCreator</a>.</p>
+<p>Implemented in <a class="el" href="classCSVWorld_1_1GenericCreator.html#a4e3b14f4b905be096ad08d524b26b7da">CSVWorld::GenericCreator</a>, <a class="el" href="classCSVWorld_1_1PathgridCreator.html#a378fa686d503ad4985dc0c578f4b4e7e">CSVWorld::PathgridCreator</a>, <a class="el" href="classCSVWorld_1_1StartScriptCreator.html#a50b89ca85db86697fe45155612a4af31">CSVWorld::StartScriptCreator</a>, <a class="el" href="classCSVWorld_1_1ReferenceCreator.html#aafe2ea9619e1239e8a470af73119c1c5">CSVWorld::ReferenceCreator</a>, <a class="el" href="classCSVWorld_1_1CellCreator.html#a674b87784ba3b76a85a4592166fd366b">CSVWorld::CellCreator</a>, <a class="el" href="classCSVWorld_1_1InfoCreator.html#ad0f2324ed02a7ff5e06d21a16dbba83f">CSVWorld::InfoCreator</a>, <a class="el" href="classCSVWorld_1_1ReferenceableCreator.html#adc8076ddbd9bde6a4e45e3db25c49528">CSVWorld::ReferenceableCreator</a>, <a class="el" href="classCSVWorld_1_1LandCreator.html#a7d26534d657c598914fbf660683a9ed8">CSVWorld::LandCreator</a>, and <a class="el" href="classCSVWorld_1_1LandTextureCreator.html#a531457ffda8b873d1b0761916a6f06ee">CSVWorld::LandTextureCreator</a>.</p>
 
 </div>
 </div>
@@ -263,7 +266,7 @@ Here is the caller graph for this function:</div>
 
 <p>Focus main input widget. </p>
 
-<p>Implemented in <a class="el" href="classCSVWorld_1_1GenericCreator.html#abfbcfb29acb1f3734e37c9913acc0062">CSVWorld::GenericCreator</a>, <a class="el" href="classCSVWorld_1_1StartScriptCreator.html#aa1ff5397c9740ac31e1f36d16fba53cb">CSVWorld::StartScriptCreator</a>, <a class="el" href="classCSVWorld_1_1ReferenceCreator.html#a7a607173f4d4390a141b657ceec1c1c9">CSVWorld::ReferenceCreator</a>, and <a class="el" href="classCSVWorld_1_1InfoCreator.html#ad09e9f27e7301a6f3ea01e57e48c8509">CSVWorld::InfoCreator</a>.</p>
+<p>Implemented in <a class="el" href="classCSVWorld_1_1GenericCreator.html#abfbcfb29acb1f3734e37c9913acc0062">CSVWorld::GenericCreator</a>, <a class="el" href="classCSVWorld_1_1PathgridCreator.html#a9cdd4ae15a5dd61f1f95485dd8796784">CSVWorld::PathgridCreator</a>, <a class="el" href="classCSVWorld_1_1StartScriptCreator.html#aa1ff5397c9740ac31e1f36d16fba53cb">CSVWorld::StartScriptCreator</a>, <a class="el" href="classCSVWorld_1_1ReferenceCreator.html#a7a607173f4d4390a141b657ceec1c1c9">CSVWorld::ReferenceCreator</a>, <a class="el" href="classCSVWorld_1_1InfoCreator.html#ad09e9f27e7301a6f3ea01e57e48c8509">CSVWorld::InfoCreator</a>, <a class="el" href="classCSVWorld_1_1LandCreator.html#a3af919339fda27cfaef3181e8e437b36">CSVWorld::LandCreator</a>, and <a class="el" href="classCSVWorld_1_1LandTextureCreator.html#a165b88dc2d4f199eb51aca34abc6cbb3">CSVWorld::LandTextureCreator</a>.</p>
 
 </div>
 </div>
@@ -313,7 +316,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classCSVWorld_1_1GenericCreator.html#af2a9fc7255a96b2d52a4638385ceb4b8">CSVWorld::GenericCreator</a>, <a class="el" href="classCSVWorld_1_1StartScriptCreator.html#aaa08fe44c026f81693d2895a0804e811">CSVWorld::StartScriptCreator</a>, <a class="el" href="classCSVWorld_1_1ReferenceCreator.html#a4e4f905210c0fc674bcd2a5a96ae0c2b">CSVWorld::ReferenceCreator</a>, <a class="el" href="classCSVWorld_1_1InfoCreator.html#aac9551229fab49344def789c7a3a6c56">CSVWorld::InfoCreator</a>, <a class="el" href="classCSVWorld_1_1CellCreator.html#a12c1ea18e48e30eca3eeb0891348b7d2">CSVWorld::CellCreator</a>, and <a class="el" href="classCSVWorld_1_1ReferenceableCreator.html#a06eb7c12419c7634047d39d54be80aeb">CSVWorld::ReferenceableCreator</a>.</p>
+<p>Implemented in <a class="el" href="classCSVWorld_1_1GenericCreator.html#af2a9fc7255a96b2d52a4638385ceb4b8">CSVWorld::GenericCreator</a>, <a class="el" href="classCSVWorld_1_1PathgridCreator.html#a1ea80984873bac830bbce8174e97c389">CSVWorld::PathgridCreator</a>, <a class="el" href="classCSVWorld_1_1StartScriptCreator.html#aaa08fe44c026f81693d2895a0804e811">CSVWorld::StartScriptCreator</a>, <a class="el" href="classCSVWorld_1_1ReferenceCreator.html#a4e4f905210c0fc674bcd2a5a96ae0c2b">CSVWorld::ReferenceCreator</a>, <a class="el" href="classCSVWorld_1_1BodyPartCreator.html#a6d8c9cb4a85231b1eda1bc09ffa6a644">CSVWorld::BodyPartCreator</a>, <a class="el" href="classCSVWorld_1_1InfoCreator.html#aac9551229fab49344def789c7a3a6c56">CSVWorld::InfoCreator</a>, <a class="el" href="classCSVWorld_1_1CellCreator.html#a12c1ea18e48e30eca3eeb0891348b7d2">CSVWorld::CellCreator</a>, <a class="el" href="classCSVWorld_1_1LandCreator.html#ac2bb1f0b2395f1203e70a8e9e1dbec47">CSVWorld::LandCreator</a>, <a class="el" href="classCSVWorld_1_1LandTextureCreator.html#a055fb8ac276814757eb25b91589b8fdb">CSVWorld::LandTextureCreator</a>, and <a class="el" href="classCSVWorld_1_1ReferenceableCreator.html#a06eb7c12419c7634047d39d54be80aeb">CSVWorld::ReferenceableCreator</a>.</p>
 
 </div>
 </div>
@@ -397,14 +400,42 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a92a93b06d102d6c247c283fbb43f1169"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CSVWorld::Creator::touch </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ids</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Touches a record, if the creator supports it. </p>
+
+<p>Implemented in <a class="el" href="classCSVWorld_1_1GenericCreator.html#af7b58cc3f0765f9df470824972e7eaa5">CSVWorld::GenericCreator</a>, and <a class="el" href="classCSVWorld_1_1LandCreator.html#a517ca793e1390581685e804a4cfe5142">CSVWorld::LandCreator</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/view/world/<a class="el" href="creator_8hpp_source.html">creator.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/view/world/<a class="el" href="creator_8cpp.html">creator.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/view/world/<a class="el" href="creator_8hpp_source.html">creator.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/view/world/<a class="el" href="creator_8cpp.html">creator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:58 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:31 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

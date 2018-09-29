@@ -16,7 +16,7 @@
 <area shape="rect" id="node33" href="$classMWWorld_1_1TimeStamp.html#a2221697709e434937c7457d4a657a280" title="MWWorld::TimeStamp\l::getHour" alt="" coords="273,1306,433,1347"/>
 <area shape="rect" id="node34" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="262,1372,445,1398"/>
 <area shape="rect" id="node35" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="264,1422,443,1449"/>
-<area shape="rect" id="node36" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="252,1473,455,1500"/>
+<area shape="rect" id="node36" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="272,1473,435,1500"/>
 <area shape="rect" id="node37" href="$classMWBase_1_1World.html#acf3c64ff91d67e429dd2be7b26a76b01" title="MWBase::World::getCurrent\lWeather" alt="" coords="256,1524,451,1566"/>
 <area shape="rect" id="node38" href="$classMWWorld_1_1Class.html#a93babe591b0f7b9bb79adbdeccff099a" title="MWWorld::Class::isNpc" alt="" coords="272,1590,435,1617"/>
 <area shape="rect" id="node39" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="249,1641,457,1668"/>
@@ -35,17 +35,17 @@
 <area shape="rect" id="node6" href="$classMWMechanics_1_1CreatureStats.html#ae962c8518e43e517e2aec4d89a5aafe2" title="MWMechanics::CreatureStats\l::getFatigue" alt="" coords="534,206,743,247"/>
 <area shape="rect" id="node7" href="$classMWMechanics_1_1DynamicStat.html#ae0d63da7d2ef44216a8535b68c581bd0" title="MWMechanics::DynamicStat\l::getBase" alt="" coords="537,271,740,312"/>
 <area shape="rect" id="node8" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="537,584,740,626"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1DynamicStat.html#abc22a236f06b223eb3451b5607d5f5ef" title="Set modified value an adjust base accordingly. " alt="" coords="537,336,740,378"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1DynamicStat.html#abc22a236f06b223eb3451b5607d5f5ef" title="Set modified value and adjust base accordingly. " alt="" coords="537,336,740,378"/>
 <area shape="rect" id="node10" href="$classMWMechanics_1_1DynamicStat.html#a5341e59c91e5cc6782ef8f8fa1177bda" title="MWMechanics::DynamicStat\l::getModified" alt="" coords="537,402,740,443"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1DynamicStat.html#abb00fb02a2face04357f86ec5117d2ec" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="1071,643,1273,684"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1DynamicStat.html#af114d4cb38a9d185a77154a620528049" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="1071,643,1273,684"/>
 <area shape="rect" id="node12" href="$classMWMechanics_1_1CreatureStats.html#a670dcf81e6b972c3e15b045bc866a769" title="MWMechanics::CreatureStats\l::setFatigue" alt="" coords="534,519,743,560"/>
 <area shape="rect" id="node13" href="$classMWMechanics_1_1CreatureStats.html#a2887c6613153d6c33d2458e2eb08ade6" title="MWMechanics::CreatureStats\l::setDynamic" alt="" coords="803,702,1013,743"/>
 <area shape="rect" id="node19" href="$classMWMechanics_1_1CreatureStats.html#a6b391d11a5122da96a2ddf2acef0ead9" title="MWMechanics::CreatureStats\l::getDynamic" alt="" coords="534,752,743,794"/>
 <area shape="rect" id="node22" href="$classMWWorld_1_1Class.html#a23032de169e9d4dc8932bae21e46e9b0" title="Does this object have an inventory store, i.e. equipment slots? (default implementation: false) ..." alt="" coords="533,1190,744,1231"/>
 <area shape="rect" id="node23" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="535,1255,743,1296"/>
 <area shape="rect" id="node24" href="$classMWWorld_1_1InventoryStore.html#a00638734d306421a8aa211947d759e65" title="MWWorld::InventoryStore\l::getSlot" alt="" coords="549,1320,729,1362"/>
-<area shape="rect" id="node25" href="$classMWWorld_1_1ContainerStore.html#ab7165a7ef4e2053f7c0b712d017a9f5d" title="MWWorld::ContainerStore::end" alt="" coords="531,1386,746,1413"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1ContainerStoreIterator.html#ade481e714cb243516fd8895e649c85f3" title="MWWorld::ContainerStoreIterator\l::getType" alt="" coords="523,1022,754,1063"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1ContainerStore.html#af12bf9cfbe2b86e1d053036f38a2afc7" title="MWWorld::ContainerStore::end" alt="" coords="531,1386,746,1413"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1ContainerStoreIteratorBase.html#ab70e81fa7a0643d21ad2cef734391074" title="MWWorld::ContainerStoreIterator\lBase::getType" alt="" coords="523,1022,754,1063"/>
 <area shape="rect" id="node27" href="$classMWWorld_1_1Class.html#a6689ca20c9048824b3da7832c156dc10" title="MWWorld::Class::hasItemHealth" alt="" coords="527,1088,750,1114"/>
 <area shape="rect" id="node28" href="$classMWWorld_1_1Class.html#a5537c9812ceb8e5a8100652eac05ec63" title="Return current item health or throw an exception if class does not have item health. " alt="" coords="529,1138,749,1165"/>
 </map>

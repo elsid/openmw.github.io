@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/sceneutil/attach.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/sceneutil/attach.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,21 +107,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>osg</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">class </span>Node;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>SceneUtil</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    osg::ref_ptr&lt;osg::Node&gt; <a class="code" href="namespaceSceneUtil.html#adf3d43bd1d5448e97f38204d9152a408">attach</a>(osg::ref_ptr&lt;osg::Node&gt; toAttach, osg::Node* master, <span class="keyword">const</span> std::string&amp; filter, <span class="keyword">const</span> std::string&amp; attachNode);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="namespaceSceneUtil_html_adf3d43bd1d5448e97f38204d9152a408"><div class="ttname"><a href="namespaceSceneUtil.html#adf3d43bd1d5448e97f38204d9152a408">SceneUtil::attach</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Node &gt; attach(osg::ref_ptr&lt; osg::Node &gt; toAttach, osg::Node *master, const std::string &amp;filter, const std::string &amp;attachNode)</div><div class="ttdef"><b>Definition:</b> attach.cpp:66</div></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">class </span>Group;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>SceneUtil</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    osg::ref_ptr&lt;osg::Node&gt; <a class="code" href="namespaceSceneUtil.html#a126984f1b01640ae528b45d3bee5982c">attach</a>(osg::ref_ptr&lt;osg::Node&gt; toAttach, osg::Node* master, <span class="keyword">const</span> std::string&amp; filter, osg::Group* attachNode);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="namespaceSceneUtil_html_a126984f1b01640ae528b45d3bee5982c"><div class="ttname"><a href="namespaceSceneUtil.html#a126984f1b01640ae528b45d3bee5982c">SceneUtil::attach</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Node &gt; attach(osg::ref_ptr&lt; osg::Node &gt; toAttach, osg::Node *master, const std::string &amp;filter, osg::Group *attachNode)</div><div class="ttdef"><b>Definition:</b> attach.cpp:96</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,3 +1,41 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structMWWorld_1_1CellRefList.html" title="MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;" alt="" coords="6,5,167,46"/>
+<area shape="rect" id="node1" href="$classMWWorld_1_1ContainerStoreListener.html" title="MWWorld::ContainerStoreListener" alt="" coords="147,208,381,235"/>
+<area shape="rect" id="node2" href="$classMWRender_1_1ActorAnimation.html" title="MWRender::ActorAnimation" alt="" coords="456,259,651,285"/>
+<area shape="rect" id="node3" href="$classMWRender_1_1CreatureAnimation.html" title="MWRender::CreatureAnimation" alt="" coords="726,259,943,285"/>
+<area shape="rect" id="node4" href="$classMWRender_1_1CreatureWeaponAnimation.html" title="MWRender::CreatureWeapon\lAnimation" alt="" coords="733,74,936,115"/>
+<area shape="rect" id="node5" href="$classMWRender_1_1NpcAnimation.html" title="MWRender::NpcAnimation" alt="" coords="741,140,928,167"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1InventoryStoreListener.html" title="Variant of the ContainerStore for NPCs. " alt="" coords="438,107,669,133"/>
+<area shape="rect" id="node8" href="$classCSVRender_1_1CellNodeContainer.html" title="CSVRender::CellNodeContainer" alt="" coords="154,360,374,387"/>
+<area shape="rect" id="node9" href="$classCSVRender_1_1TagBase.html" title="CSVRender::TagBase" alt="" coords="187,411,341,437"/>
+<area shape="rect" id="node15" href="$classMWRender_1_1Animation.html" title="MWRender::Animation" alt="" coords="183,309,345,336"/>
+<area shape="rect" id="node17" href="$classResource_1_1MultiObjectCache.html" title="Cache for &quot;non reusable&quot; objects. " alt="" coords="165,461,363,488"/>
+<area shape="rect" id="node18" href="$classResource_1_1ObjectCache.html" title="Resource::ObjectCache" alt="" coords="179,512,349,539"/>
+<area shape="rect" id="node19" href="$structSceneUtil_1_1Optimizer_1_1IsOperationPermissibleForObjectCallback.html" title="SceneUtil::Optimizer\l::IsOperationPermissibleFor\lObjectCallback" alt="" coords="166,563,362,619"/>
+<area shape="rect" id="node21" href="$structSceneUtil_1_1RigGeometry_1_1InfluenceMap.html" title="SceneUtil::RigGeometry\l::InfluenceMap" alt="" coords="177,642,351,683"/>
+<area shape="rect" id="node22" href="$classSceneUtil_1_1UnrefQueue.html" title="Handles unreferencing of objects through the WorkQueue. Typical use scenario would be the main thread..." alt="" coords="180,708,348,735"/>
+<area shape="rect" id="node23" href="$classSceneUtil_1_1WorkItem.html" title="SceneUtil::WorkItem" alt="" coords="189,759,339,785"/>
+<area shape="rect" id="node31" href="$classSceneUtil_1_1WorkQueue.html" title="A work queue that users can push work items onto, to be completed by one or more background threads..." alt="" coords="183,809,345,836"/>
+<area shape="rect" id="node32" href="$structSDLUtil_1_1GraphicsWindowSDL2_1_1WindowData.html" title="SDLUtil::GraphicsWindowSDL2\l::WindowData" alt="" coords="157,861,371,902"/>
+<area shape="rect" id="node33" href="$classTerrain_1_1CompositeMap.html" title="Terrain::CompositeMap" alt="" coords="180,927,348,953"/>
+<area shape="rect" id="node34" href="$classTerrain_1_1LodCallback.html" title="Terrain::LodCallback" alt="" coords="190,56,338,83"/>
+<area shape="rect" id="node36" href="$classTerrain_1_1View.html" title="A View is a collection of rendering objects that are visible from a given camera/intersection. The base View class is part of the interface for usage in conjunction with preload feature. " alt="" coords="213,157,315,184"/>
+<area shape="rect" id="node39" href="$classTerrain_1_1ViewDataMap.html" title="Terrain::ViewDataMap" alt="" coords="185,259,343,285"/>
+<area shape="rect" id="node10" href="$classCSVRender_1_1CellArrowTag.html" title="CSVRender::CellArrowTag" alt="" coords="463,461,644,488"/>
+<area shape="rect" id="node11" href="$classCSVRender_1_1CellMarkerTag.html" title="CSVRender::CellMarkerTag" alt="" coords="459,512,648,539"/>
+<area shape="rect" id="node12" href="$classCSVRender_1_1ObjectTag.html" title="CSVRender::ObjectTag" alt="" coords="472,360,635,387"/>
+<area shape="rect" id="node14" href="$classCSVRender_1_1PathgridTag.html" title="CSVRender::PathgridTag" alt="" coords="466,411,641,437"/>
+<area shape="rect" id="node13" href="$classCSVRender_1_1ObjectMarkerTag.html" title="CSVRender::ObjectMarkerTag" alt="" coords="731,360,938,387"/>
+<area shape="rect" id="node16" href="$classMWRender_1_1ObjectAnimation.html" title="MWRender::ObjectAnimation" alt="" coords="452,309,655,336"/>
+<area shape="rect" id="node20" href="$classResource_1_1CanOptimizeCallback.html" title="Resource::CanOptimizeCallback" alt="" coords="442,571,665,597"/>
+<area shape="rect" id="node24" href="$classMWRender_1_1CreateMapWorkItem.html" title="MWRender::CreateMapWorkItem" alt="" coords="441,875,666,901"/>
+<area shape="rect" id="node25" href="$classMWRender_1_1PreloadCommonAssetsWorkItem.html" title="MWRender::PreloadCommonAssets\lWorkItem" alt="" coords="430,926,677,967"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1PreloadItem.html" title="Worker thread item: preload models in a cell. " alt="" coords="472,621,635,648"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1PreloadMeshItem.html" title="MWWorld::PreloadMeshItem" alt="" coords="455,672,652,699"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1TerrainPreloadItem.html" title="MWWorld::TerrainPreloadItem" alt="" coords="451,723,656,749"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1UpdateCacheItem.html" title="Worker thread item: update the resource system&#39;s cache, effectively deleting unused entries..." alt="" coords="452,773,655,800"/>
+<area shape="rect" id="node30" href="$classSceneUtil_1_1UnrefWorkItem.html" title="SceneUtil::UnrefWorkItem" alt="" coords="461,824,646,851"/>
+<area shape="rect" id="node35" href="$classTerrain_1_1DefaultLodCallback.html" title="Terrain::DefaultLodCallback" alt="" coords="456,5,651,32"/>
+<area shape="rect" id="node37" href="$classTerrain_1_1MyView.html" title="Terrain::MyView" alt="" coords="494,157,613,184"/>
+<area shape="rect" id="node38" href="$classTerrain_1_1ViewData.html" title="Terrain::ViewData" alt="" coords="487,208,619,235"/>
+<area shape="rect" id="node40" href="$classMWRender_1_1WeaponAnimation.html" title="Handles attach &amp; release of projectiles for ranged weapons. " alt="" coords="448,56,659,83"/>
 </map>

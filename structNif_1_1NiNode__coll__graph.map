@@ -1,23 +1,21 @@
 <map id="Nif::NiNode" name="Nif::NiNode">
-<area shape="rect" id="node2" href="$classNif_1_1Node.html" title="{Nif::Node\n||+ read()\l+ post()\l+ makeRootBone()\l+ makeBone()\l}" alt="" coords="1004,1321,1148,1442"/>
-<area shape="rect" id="node3" href="$classNif_1_1Named.html" title="Has name, extra&#45;data and controller. " alt="" coords="578,1112,672,1189"/>
-<area shape="rect" id="node4" href="$classNif_1_1Controlled.html" title="Anything that has a controller. " alt="" coords="339,747,449,839"/>
-<area shape="rect" id="node17" href="$classNif_1_1RecordPtrT.html" title="{Nif::RecordPtrT\&lt; Controlled \&gt;\n||+ RecordPtrT()\l+ read()\l+ post()\l+ getPtr()\l+ getPtr()\l+ get()\l+ get()\l+ operator&#45;\&gt;()\l+ operator&#45;\&gt;()\l+ empty()\l}" alt="" coords="241,1046,451,1255"/>
-<area shape="rect" id="node5" href="$classNif_1_1Extra.html" title="{Nif::Extra\n||+ read()\l+ post()\l}" alt="" coords="355,569,433,661"/>
-<area shape="rect" id="node11" href="$classNif_1_1RecordPtrT.html" title="{Nif::RecordPtrT\&lt; Extra \&gt;\n||+ RecordPtrT()\l+ read()\l+ post()\l+ getPtr()\l+ getPtr()\l+ get()\l+ get()\l+ operator&#45;\&gt;()\l+ operator&#45;\&gt;()\l+ empty()\l}" alt="" coords="241,294,420,503"/>
-<area shape="rect" id="node6" href="$structNif_1_1Record.html" title="Base class for all records. " alt="" coords="444,338,545,459"/>
-<area shape="rect" id="node15" href="$classNif_1_1Controller.html" title="{Nif::Controller\n||+ read()\l+ post()\l}" alt="" coords="403,1335,512,1427"/>
-<area shape="rect" id="node8" href="$classint.html" title="{int\n||}" alt="" coords="185,151,223,228"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="481,151,567,228"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="455,6,592,98"/>
-<area shape="rect" id="node12" href="$classintptr__t.html" title="{intptr_t\n||}" alt="" coords="45,151,112,228"/>
-<area shape="rect" id="node14" href="$classNif_1_1RecordPtrT.html" title="{Nif::RecordPtrT\&lt; Controller \&gt;\n||+ RecordPtrT()\l+ read()\l+ post()\l+ getPtr()\l+ getPtr()\l+ get()\l+ get()\l+ operator&#45;\&gt;()\l+ operator&#45;\&gt;()\l+ empty()\l}" alt="" coords="410,1507,616,1717"/>
-<area shape="rect" id="node20" href="$classNif_1_1RecordPtrT.html" title="{Nif::RecordPtrT\&lt; X \&gt;\n||+ RecordPtrT()\l+ read()\l+ post()\l+ getPtr()\l+ getPtr()\l+ get()\l+ get()\l+ operator&#45;\&gt;()\l+ operator&#45;\&gt;()\l+ empty()\l}" alt="" coords="1574,294,1727,503"/>
-<area shape="rect" id="node23" href="$structNif_1_1Matrix3.html" title="{Nif::Matrix3\n||+ Matrix3()\l+ isIdentity()\l}" alt="" coords="1156,569,1260,661"/>
-<area shape="rect" id="node26" href="$structNif_1_1Transformation.html" title="{Nif::Transformation\n||+ toMatrix()\l+ isIdentity()\l+ getIdentity()\l}" alt="" coords="1005,740,1147,847"/>
-<area shape="rect" id="node27" href="$structNif_1_1NiSkinData_1_1BoneInfo.html" title="{Nif::NiSkinData::BoneInfo\n||}" alt="" coords="1223,1112,1405,1189"/>
-<area shape="rect" id="node29" href="$structNif_1_1NiSkinData_1_1VertWeight.html" title="{Nif::NiSkinData::VertWeight\n||}" alt="" coords="1415,576,1609,653"/>
-<area shape="rect" id="node18" href="$classNif_1_1RecordListT.html" title="{Nif::RecordListT\&lt; Property \&gt;\n||+ read()\l+ post()\l+ operator[]()\l+ operator[]()\l+ length()\l}" alt="" coords="1564,885,1767,1021"/>
-<area shape="rect" id="node31" href="$classNif_1_1RecordListT.html" title="{Nif::RecordListT\&lt; Node \&gt;\n||+ read()\l+ post()\l+ operator[]()\l+ operator[]()\l+ length()\l}" alt="" coords="1713,725,1895,861"/>
-<area shape="rect" id="node24" href="$classbool.html" title="{bool\n||}" alt="" coords="911,1112,960,1189"/>
+<area shape="rect" id="node2" href="$classNif_1_1Node.html" title="{Nif::Node\n||+ read()\l+ post()\l+ setBone()\l}" alt="" coords="1042,1419,1141,1525"/>
+<area shape="rect" id="node3" href="$classNif_1_1Named.html" title="Has name, extra&#45;data and controller. " alt="" coords="606,1191,700,1268"/>
+<area shape="rect" id="node4" href="$classNif_1_1Controlled.html" title="Anything that has a controller. " alt="" coords="452,775,563,867"/>
+<area shape="rect" id="node17" href="$classNif_1_1RecordPtrT.html" title="{Nif::RecordPtrT\&lt; Controlled \&gt;\n||+ RecordPtrT()\l+ RecordPtrT()\l+ read()\l+ post()\l+ getPtr()\l+ getPtr()\l+ get()\l+ get()\l+ operator&#45;\&gt;()\l+ operator&#45;\&gt;()\l+ empty()\l}" alt="" coords="320,1117,529,1341"/>
+<area shape="rect" id="node5" href="$classNif_1_1Extra.html" title="{Nif::Extra\n||+ read()\l+ post()\l}" alt="" coords="467,582,545,674"/>
+<area shape="rect" id="node11" href="$classNif_1_1RecordPtrT.html" title="{Nif::RecordPtrT\&lt; Extra \&gt;\n||+ RecordPtrT()\l+ RecordPtrT()\l+ read()\l+ post()\l+ getPtr()\l+ getPtr()\l+ get()\l+ get()\l+ operator&#45;\&gt;()\l+ operator&#45;\&gt;()\l+ empty()\l}" alt="" coords="441,293,620,517"/>
+<area shape="rect" id="node6" href="$structNif_1_1Record.html" title="Base class for all records. " alt="" coords="127,345,228,466"/>
+<area shape="rect" id="node15" href="$classNif_1_1Controller.html" title="{Nif::Controller\n||+ read()\l+ post()\l}" alt="" coords="112,1426,221,1518"/>
+<area shape="rect" id="node8" href="$classint.html" title="{int\n||}" alt="" coords="19,151,57,228"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="551,151,637,228"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="526,6,663,98"/>
+<area shape="rect" id="node14" href="$classNif_1_1RecordPtrT.html" title="{Nif::RecordPtrT\&lt; Controller \&gt;\n||+ RecordPtrT()\l+ RecordPtrT()\l+ read()\l+ post()\l+ getPtr()\l+ getPtr()\l+ get()\l+ get()\l+ operator&#45;\&gt;()\l+ operator&#45;\&gt;()\l+ empty()\l}" alt="" coords="155,1589,361,1813"/>
+<area shape="rect" id="node20" href="$classNif_1_1RecordPtrT.html" title="{Nif::RecordPtrT\&lt; X \&gt;\n||+ RecordPtrT()\l+ RecordPtrT()\l+ read()\l+ post()\l+ getPtr()\l+ getPtr()\l+ get()\l+ get()\l+ operator&#45;\&gt;()\l+ operator&#45;\&gt;()\l+ empty()\l}" alt="" coords="798,293,951,517"/>
+<area shape="rect" id="node13" href="$classintptr__t.html" title="{intptr_t\n||}" alt="" coords="742,151,809,228"/>
+<area shape="rect" id="node22" href="$structNif_1_1Matrix3.html" title="{Nif::Matrix3\n||+ Matrix3()\l+ isIdentity()\l}" alt="" coords="929,775,1033,867"/>
+<area shape="rect" id="node25" href="$structNif_1_1Transformation.html" title="{Nif::Transformation\n||+ toMatrix()\l+ isIdentity()\l+ getIdentity()\l}" alt="" coords="901,1176,1043,1283"/>
+<area shape="rect" id="node18" href="$classNif_1_1RecordListT.html" title="{Nif::RecordListT\&lt; Property \&gt;\n||+ RecordListT()\l+ RecordListT()\l+ read()\l+ post()\l+ operator[]()\l+ operator[]()\l+ length()\l}" alt="" coords="1117,928,1320,1093"/>
+<area shape="rect" id="node26" href="$classNif_1_1RecordListT.html" title="{Nif::RecordListT\&lt; Node \&gt;\n||+ RecordListT()\l+ RecordListT()\l+ read()\l+ post()\l+ operator[]()\l+ operator[]()\l+ length()\l}" alt="" coords="1263,739,1445,904"/>
+<area shape="rect" id="node23" href="$classbool.html" title="{bool\n||}" alt="" coords="1295,1191,1344,1268"/>
 </map>

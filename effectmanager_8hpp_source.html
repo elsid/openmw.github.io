@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwrender/effectmanager.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwrender/effectmanager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,82 +100,81 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="effectmanager_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENMW_MWRENDER_EFFECTMANAGER_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENMW_MWRENDER_EFFECTMANAGER_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;osg/ref_ptr&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;boost/shared_ptr.hpp&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>osg</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">class </span>Group;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">class </span>Vec3f;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">class </span>PositionAttitudeTransform;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span>Resource</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">class </span>ResourceSystem;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span>MWRender</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">class </span>EffectAnimationTime;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">// Note: effects attached to another object should be managed by MWRender::Animation::addEffect.</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">// This class manages &quot;free&quot; effects, i.e. attached to a dedicated scene node in the world.</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html">   29</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMWRender_1_1EffectManager.html">EffectManager</a></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classMWRender_1_1EffectManager.html#a95dd588aca7c34371805284e1cb963f8">EffectManager</a>(osg::ref_ptr&lt;osg::Group&gt; parent, <a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* resourceSystem);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="classMWRender_1_1EffectManager.html#a38cb07a1de1602d8097dc19cdef7289f">~EffectManager</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1EffectManager.html#ae0fca51c4858dc2be1e7f9175b3b0225">addEffect</a> (<span class="keyword">const</span> std::string&amp; model, <span class="keyword">const</span> std::string&amp; textureOverride, <span class="keyword">const</span> osg::Vec3f&amp; worldPosition, <span class="keywordtype">float</span> scale, <span class="keywordtype">bool</span> isMagicVFX = <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1EffectManager.html#ad8a908cf599a129b9d7e41a570a79d78">update</a>(<span class="keywordtype">float</span> dt);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1EffectManager.html#a1e3a9cb8aa84c9ca844a56d3126b6265">clear</a>();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="structMWRender_1_1EffectManager_1_1Effect.html">   44</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structMWRender_1_1EffectManager_1_1Effect.html">Effect</a></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="structMWRender_1_1EffectManager_1_1Effect.html#a1ee48bb60a2dd1956bf2ce5a8ff55ce4">   46</a></span>&#160;            <span class="keywordtype">float</span> <a class="code" href="structMWRender_1_1EffectManager_1_1Effect.html#a1ee48bb60a2dd1956bf2ce5a8ff55ce4">mMaxControllerLength</a>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="structMWRender_1_1EffectManager_1_1Effect.html#a9b28c42af02cff3bd2d7d8a5d51dbb0e">   47</a></span>&#160;            boost::shared_ptr&lt;EffectAnimationTime&gt; <a class="code" href="structMWRender_1_1EffectManager_1_1Effect.html#a9b28c42af02cff3bd2d7d8a5d51dbb0e">mAnimTime</a>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        };</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html#a76e7432f1472bcd9c5a8d9acbdebdab0">   50</a></span>&#160;        <span class="keyword">typedef</span> std::map&lt;osg::ref_ptr&lt;osg::PositionAttitudeTransform&gt;, <a class="code" href="structMWRender_1_1EffectManager_1_1Effect.html">Effect</a>&gt; <a class="code" href="classMWRender_1_1EffectManager.html#a76e7432f1472bcd9c5a8d9acbdebdab0">EffectMap</a>;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html#a0592395347ccbe46b666dbab871f0983">   51</a></span>&#160;        <a class="code" href="classMWRender_1_1EffectManager.html#a76e7432f1472bcd9c5a8d9acbdebdab0">EffectMap</a> <a class="code" href="classMWRender_1_1EffectManager.html#a0592395347ccbe46b666dbab871f0983">mEffects</a>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html#aa0c5349d3a9eb7b45a3bc0943844ad85">   53</a></span>&#160;        osg::ref_ptr&lt;osg::Group&gt; <a class="code" href="classMWRender_1_1EffectManager.html#aa0c5349d3a9eb7b45a3bc0943844ad85">mParentNode</a>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html#a40b8b20641fd71037c75c87a80618dd3">   54</a></span>&#160;        <a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* <a class="code" href="classMWRender_1_1EffectManager.html#a40b8b20641fd71037c75c87a80618dd3">mResourceSystem</a>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="classMWRender_1_1EffectManager.html#a95dd588aca7c34371805284e1cb963f8">EffectManager</a>(<span class="keyword">const</span> <a class="code" href="classMWRender_1_1EffectManager.html">EffectManager</a>&amp;);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1EffectManager.html#a1ead77be96d4fb9f82e5ba505a8a2fd6">operator=</a>(<span class="keyword">const</span> <a class="code" href="classMWRender_1_1EffectManager.html">EffectManager</a>&amp;);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    };</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classResource_1_1ResourceSystem_html"><div class="ttname"><a href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a></div><div class="ttdoc">Wrapper class that constructs and provides access to the most commonly used resource subsystems...</div><div class="ttdef"><b>Definition:</b> resourcesystem.hpp:24</div></div>
-<div class="ttc" id="structMWRender_1_1EffectManager_1_1Effect_html"><div class="ttname"><a href="structMWRender_1_1EffectManager_1_1Effect.html">MWRender::EffectManager::Effect</a></div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:44</div></div>
-<div class="ttc" id="structMWRender_1_1EffectManager_1_1Effect_html_a1ee48bb60a2dd1956bf2ce5a8ff55ce4"><div class="ttname"><a href="structMWRender_1_1EffectManager_1_1Effect.html#a1ee48bb60a2dd1956bf2ce5a8ff55ce4">MWRender::EffectManager::Effect::mMaxControllerLength</a></div><div class="ttdeci">float mMaxControllerLength</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:46</div></div>
-<div class="ttc" id="classMWRender_1_1EffectManager_html"><div class="ttname"><a href="classMWRender_1_1EffectManager.html">MWRender::EffectManager</a></div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:29</div></div>
-<div class="ttc" id="classMWRender_1_1EffectManager_html_a76e7432f1472bcd9c5a8d9acbdebdab0"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a76e7432f1472bcd9c5a8d9acbdebdab0">MWRender::EffectManager::EffectMap</a></div><div class="ttdeci">std::map&lt; osg::ref_ptr&lt; osg::PositionAttitudeTransform &gt;, Effect &gt; EffectMap</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:50</div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;osg/ref_ptr&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>osg</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">class </span>Group;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">class </span>Vec3f;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">class </span>PositionAttitudeTransform;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>Resource</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">class </span>ResourceSystem;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span>MWRender</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">class </span>EffectAnimationTime;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="comment">// Note: effects attached to another object should be managed by MWRender::Animation::addEffect.</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">// This class manages &quot;free&quot; effects, i.e. attached to a dedicated scene node in the world.</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html">   28</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMWRender_1_1EffectManager.html">EffectManager</a></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="classMWRender_1_1EffectManager.html#a95dd588aca7c34371805284e1cb963f8">EffectManager</a>(osg::ref_ptr&lt;osg::Group&gt; parent, <a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* resourceSystem);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classMWRender_1_1EffectManager.html#a38cb07a1de1602d8097dc19cdef7289f">~EffectManager</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1EffectManager.html#ae0fca51c4858dc2be1e7f9175b3b0225">addEffect</a> (<span class="keyword">const</span> std::string&amp; model, <span class="keyword">const</span> std::string&amp; textureOverride, <span class="keyword">const</span> osg::Vec3f&amp; worldPosition, <span class="keywordtype">float</span> scale, <span class="keywordtype">bool</span> isMagicVFX = <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1EffectManager.html#ad8a908cf599a129b9d7e41a570a79d78">update</a>(<span class="keywordtype">float</span> dt);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1EffectManager.html#a1e3a9cb8aa84c9ca844a56d3126b6265">clear</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="structMWRender_1_1EffectManager_1_1Effect.html">   43</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structMWRender_1_1EffectManager_1_1Effect.html">Effect</a></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        {</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="structMWRender_1_1EffectManager_1_1Effect.html#a1ee48bb60a2dd1956bf2ce5a8ff55ce4">   45</a></span>&#160;            <span class="keywordtype">float</span> <a class="code" href="structMWRender_1_1EffectManager_1_1Effect.html#a1ee48bb60a2dd1956bf2ce5a8ff55ce4">mMaxControllerLength</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="structMWRender_1_1EffectManager_1_1Effect.html#adbe9217b16925fd3a509e83871ba2fc6">   46</a></span>&#160;            std::shared_ptr&lt;EffectAnimationTime&gt; <a class="code" href="structMWRender_1_1EffectManager_1_1Effect.html#adbe9217b16925fd3a509e83871ba2fc6">mAnimTime</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        };</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html#a76e7432f1472bcd9c5a8d9acbdebdab0">   49</a></span>&#160;        <span class="keyword">typedef</span> std::map&lt;osg::ref_ptr&lt;osg::PositionAttitudeTransform&gt;, <a class="code" href="structMWRender_1_1EffectManager_1_1Effect.html">Effect</a>&gt; <a class="code" href="classMWRender_1_1EffectManager.html#a76e7432f1472bcd9c5a8d9acbdebdab0">EffectMap</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html#a0592395347ccbe46b666dbab871f0983">   50</a></span>&#160;        <a class="code" href="classMWRender_1_1EffectManager.html#a76e7432f1472bcd9c5a8d9acbdebdab0">EffectMap</a> <a class="code" href="classMWRender_1_1EffectManager.html#a0592395347ccbe46b666dbab871f0983">mEffects</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html#aa0c5349d3a9eb7b45a3bc0943844ad85">   52</a></span>&#160;        osg::ref_ptr&lt;osg::Group&gt; <a class="code" href="classMWRender_1_1EffectManager.html#aa0c5349d3a9eb7b45a3bc0943844ad85">mParentNode</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMWRender_1_1EffectManager.html#a40b8b20641fd71037c75c87a80618dd3">   53</a></span>&#160;        <a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* <a class="code" href="classMWRender_1_1EffectManager.html#a40b8b20641fd71037c75c87a80618dd3">mResourceSystem</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="classMWRender_1_1EffectManager.html#a95dd588aca7c34371805284e1cb963f8">EffectManager</a>(<span class="keyword">const</span> <a class="code" href="classMWRender_1_1EffectManager.html">EffectManager</a>&amp;);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1EffectManager.html#a1ead77be96d4fb9f82e5ba505a8a2fd6">operator=</a>(<span class="keyword">const</span> <a class="code" href="classMWRender_1_1EffectManager.html">EffectManager</a>&amp;);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    };</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classResource_1_1ResourceSystem_html"><div class="ttname"><a href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a></div><div class="ttdoc">Wrapper class that constructs and provides access to the most commonly used resource subsystems...</div><div class="ttdef"><b>Definition:</b> resourcesystem.hpp:30</div></div>
+<div class="ttc" id="structMWRender_1_1EffectManager_1_1Effect_html"><div class="ttname"><a href="structMWRender_1_1EffectManager_1_1Effect.html">MWRender::EffectManager::Effect</a></div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:43</div></div>
+<div class="ttc" id="structMWRender_1_1EffectManager_1_1Effect_html_a1ee48bb60a2dd1956bf2ce5a8ff55ce4"><div class="ttname"><a href="structMWRender_1_1EffectManager_1_1Effect.html#a1ee48bb60a2dd1956bf2ce5a8ff55ce4">MWRender::EffectManager::Effect::mMaxControllerLength</a></div><div class="ttdeci">float mMaxControllerLength</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:45</div></div>
+<div class="ttc" id="classMWRender_1_1EffectManager_html"><div class="ttname"><a href="classMWRender_1_1EffectManager.html">MWRender::EffectManager</a></div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:28</div></div>
+<div class="ttc" id="classMWRender_1_1EffectManager_html_a76e7432f1472bcd9c5a8d9acbdebdab0"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a76e7432f1472bcd9c5a8d9acbdebdab0">MWRender::EffectManager::EffectMap</a></div><div class="ttdeci">std::map&lt; osg::ref_ptr&lt; osg::PositionAttitudeTransform &gt;, Effect &gt; EffectMap</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:49</div></div>
 <div class="ttc" id="classMWRender_1_1EffectManager_html_ae0fca51c4858dc2be1e7f9175b3b0225"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#ae0fca51c4858dc2be1e7f9175b3b0225">MWRender::EffectManager::addEffect</a></div><div class="ttdeci">void addEffect(const std::string &amp;model, const std::string &amp;textureOverride, const osg::Vec3f &amp;worldPosition, float scale, bool isMagicVFX=true)</div><div class="ttdoc">Add an effect. When it&#39;s finished playing, it will be removed automatically. </div><div class="ttdef"><b>Definition:</b> effectmanager.cpp:28</div></div>
-<div class="ttc" id="structMWRender_1_1EffectManager_1_1Effect_html_a9b28c42af02cff3bd2d7d8a5d51dbb0e"><div class="ttname"><a href="structMWRender_1_1EffectManager_1_1Effect.html#a9b28c42af02cff3bd2d7d8a5d51dbb0e">MWRender::EffectManager::Effect::mAnimTime</a></div><div class="ttdeci">boost::shared_ptr&lt; EffectAnimationTime &gt; mAnimTime</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:47</div></div>
-<div class="ttc" id="classMWRender_1_1EffectManager_html_a0592395347ccbe46b666dbab871f0983"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a0592395347ccbe46b666dbab871f0983">MWRender::EffectManager::mEffects</a></div><div class="ttdeci">EffectMap mEffects</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:51</div></div>
-<div class="ttc" id="classMWRender_1_1EffectManager_html_a1e3a9cb8aa84c9ca844a56d3126b6265"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a1e3a9cb8aa84c9ca844a56d3126b6265">MWRender::EffectManager::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Remove all effects. </div><div class="ttdef"><b>Definition:</b> effectmanager.cpp:76</div></div>
+<div class="ttc" id="classMWRender_1_1EffectManager_html_a0592395347ccbe46b666dbab871f0983"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a0592395347ccbe46b666dbab871f0983">MWRender::EffectManager::mEffects</a></div><div class="ttdeci">EffectMap mEffects</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:50</div></div>
+<div class="ttc" id="classMWRender_1_1EffectManager_html_a1e3a9cb8aa84c9ca844a56d3126b6265"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a1e3a9cb8aa84c9ca844a56d3126b6265">MWRender::EffectManager::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Remove all effects. </div><div class="ttdef"><b>Definition:</b> effectmanager.cpp:75</div></div>
 <div class="ttc" id="classMWRender_1_1EffectManager_html_a38cb07a1de1602d8097dc19cdef7289f"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a38cb07a1de1602d8097dc19cdef7289f">MWRender::EffectManager::~EffectManager</a></div><div class="ttdeci">~EffectManager()</div><div class="ttdef"><b>Definition:</b> effectmanager.cpp:23</div></div>
-<div class="ttc" id="classMWRender_1_1EffectManager_html_a40b8b20641fd71037c75c87a80618dd3"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a40b8b20641fd71037c75c87a80618dd3">MWRender::EffectManager::mResourceSystem</a></div><div class="ttdeci">Resource::ResourceSystem * mResourceSystem</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:54</div></div>
+<div class="ttc" id="classMWRender_1_1EffectManager_html_a40b8b20641fd71037c75c87a80618dd3"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a40b8b20641fd71037c75c87a80618dd3">MWRender::EffectManager::mResourceSystem</a></div><div class="ttdeci">Resource::ResourceSystem * mResourceSystem</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:53</div></div>
 <div class="ttc" id="classMWRender_1_1EffectManager_html_a95dd588aca7c34371805284e1cb963f8"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a95dd588aca7c34371805284e1cb963f8">MWRender::EffectManager::EffectManager</a></div><div class="ttdeci">EffectManager(osg::ref_ptr&lt; osg::Group &gt; parent, Resource::ResourceSystem *resourceSystem)</div><div class="ttdef"><b>Definition:</b> effectmanager.cpp:17</div></div>
 <div class="ttc" id="classMWRender_1_1EffectManager_html_a1ead77be96d4fb9f82e5ba505a8a2fd6"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#a1ead77be96d4fb9f82e5ba505a8a2fd6">MWRender::EffectManager::operator=</a></div><div class="ttdeci">void operator=(const EffectManager &amp;)</div></div>
-<div class="ttc" id="classMWRender_1_1EffectManager_html_ad8a908cf599a129b9d7e41a570a79d78"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#ad8a908cf599a129b9d7e41a570a79d78">MWRender::EffectManager::update</a></div><div class="ttdeci">void update(float dt)</div><div class="ttdef"><b>Definition:</b> effectmanager.cpp:60</div></div>
-<div class="ttc" id="classMWRender_1_1EffectManager_html_aa0c5349d3a9eb7b45a3bc0943844ad85"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#aa0c5349d3a9eb7b45a3bc0943844ad85">MWRender::EffectManager::mParentNode</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Group &gt; mParentNode</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:53</div></div>
+<div class="ttc" id="classMWRender_1_1EffectManager_html_ad8a908cf599a129b9d7e41a570a79d78"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#ad8a908cf599a129b9d7e41a570a79d78">MWRender::EffectManager::update</a></div><div class="ttdeci">void update(float dt)</div><div class="ttdef"><b>Definition:</b> effectmanager.cpp:59</div></div>
+<div class="ttc" id="structMWRender_1_1EffectManager_1_1Effect_html_adbe9217b16925fd3a509e83871ba2fc6"><div class="ttname"><a href="structMWRender_1_1EffectManager_1_1Effect.html#adbe9217b16925fd3a509e83871ba2fc6">MWRender::EffectManager::Effect::mAnimTime</a></div><div class="ttdeci">std::shared_ptr&lt; EffectAnimationTime &gt; mAnimTime</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:46</div></div>
+<div class="ttc" id="classMWRender_1_1EffectManager_html_aa0c5349d3a9eb7b45a3bc0943844ad85"><div class="ttname"><a href="classMWRender_1_1EffectManager.html#aa0c5349d3a9eb7b45a3bc0943844ad85">MWRender::EffectManager::mParentNode</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Group &gt; mParentNode</div><div class="ttdef"><b>Definition:</b> effectmanager.hpp:52</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:51 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:22 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

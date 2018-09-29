@@ -5,10 +5,10 @@
  -->
 <!-- Title: MWBase::World::getMonthName Pages: 1 -->
 <svg width="1416pt" height="321pt"
- viewBox="0.00 0.00 1416.00 321.13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 317.133)">
+ viewBox="0.00 0.00 1416.00 320.72" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 316.721)">
 <title>MWBase::World::getMonthName</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-317.133 1412,-317.133 1412,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-316.721 1412,-316.721 1412,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-174.5 0,-193.5 170,-193.5 170,-174.5 0,-174.5"/>
@@ -44,16 +44,17 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classMWGui_1_1WaitDialog.html#a4598c0c45657caabb4125c87c2c32aa7" target="_top" xlink:title="Notify that window has been made visible. ">
-<polygon fill="white" stroke="black" points="218,-130.5 218,-149.5 352,-149.5 352,-130.5 218,-130.5"/>
-<text text-anchor="middle" x="285" y="-137.5" font-family="FreeSans" font-size="10.00">MWGui::WaitDialog::open</text>
+<g id="a_node15"><a xlink:href="classMWGui_1_1WaitDialog.html#abffa82e7707e73361ee6ea50d11e2f57" target="_top" xlink:title="Notify that window has been made visible. ">
+<polygon fill="white" stroke="black" points="230,-120 230,-150 340,-150 340,-120 230,-120"/>
+<text text-anchor="start" x="238" y="-138" font-family="FreeSans" font-size="10.00">MWGui::WaitDialog::</text>
+<text text-anchor="middle" x="285" y="-127" font-family="FreeSans" font-size="10.00">onOpen</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node15 -->
 <g id="edge24" class="edge"><title>Node1&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M139.028,-172.216C170.991,-165.113 211.172,-156.184 241.121,-149.529"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="137.966,-168.867 128.963,-174.453 139.484,-175.7 137.966,-168.867"/>
+<path fill="none" stroke="midnightblue" d="M134.492,-172C163.314,-164.867 199.937,-155.804 229.722,-148.432"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="133.513,-168.636 124.646,-174.436 135.194,-175.431 133.513,-168.636"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -66,8 +67,8 @@
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M358.461,-204.099C360.376,-205.323 362.228,-206.622 364,-208 388.254,-226.851 374.637,-249.671 400,-267 490.197,-328.627 532.76,-310 642,-310 642,-310 642,-310 992,-310 1101.92,-310 1133.04,-302.474 1234,-259 1267.48,-244.582 1301.27,-218.588 1320.89,-202.094"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="360.15,-201.033 349.717,-199.189 356.723,-207.137 360.15,-201.033"/>
+<path fill="none" stroke="midnightblue" d="M358.3,-204.023C360.271,-205.27 362.177,-206.594 364,-208 388.026,-226.527 374.918,-248.93 400,-266 490.374,-327.507 532.681,-310 642,-310 642,-310 642,-310 992,-310 1101.92,-310 1133.04,-302.474 1234,-259 1267.48,-244.582 1301.27,-218.588 1320.89,-202.094"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="359.741,-200.82 349.297,-199.034 356.348,-206.942 359.741,-200.82"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -127,10 +128,10 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classMWGui_1_1SaveGameDialog.html#a39206a7f0a2deb7d7257d1ed161b719f" target="_top" xlink:title="Notify that window has been made visible. ">
+<g id="a_node12"><a xlink:href="classMWGui_1_1SaveGameDialog.html#a83e3853a36d8a3c0598fb78814a348b4" target="_top" xlink:title="Notify that window has been made visible. ">
 <polygon fill="white" stroke="black" points="574,-0 574,-30 712,-30 712,-0 574,-0"/>
 <text text-anchor="start" x="582" y="-18" font-family="FreeSans" font-size="10.00">MWGui::SaveGameDialog</text>
-<text text-anchor="middle" x="643" y="-7" font-family="FreeSans" font-size="10.00">::open</text>
+<text text-anchor="middle" x="643" y="-7" font-family="FreeSans" font-size="10.00">::onOpen</text>
 </a>
 </g>
 </g>

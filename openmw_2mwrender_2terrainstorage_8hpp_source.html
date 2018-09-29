@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwrender/terrainstorage.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwrender/terrainstorage.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,41 +100,60 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="openmw_2mwrender_2terrainstorage_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MWRENDER_TERRAINSTORAGE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MWRENDER_TERRAINSTORAGE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="esmterrain_2storage_8hpp.html">components/esmterrain/storage.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>MWRender</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMWRender_1_1TerrainStorage.html">   10</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMWRender_1_1TerrainStorage.html">TerrainStorage</a> : <span class="keyword">public</span> <a class="code" href="classESMTerrain_1_1Storage.html">ESMTerrain::Storage</a></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="structESM_1_1Land.html">ESM::Land</a>* <a class="code" href="classMWRender_1_1TerrainStorage.html#a5ed91a2107904cd30b7d98701114d4d5">getLand</a> (<span class="keywordtype">int</span> cellX, <span class="keywordtype">int</span> cellY);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="structESM_1_1LandTexture.html">ESM::LandTexture</a>* <a class="code" href="classMWRender_1_1TerrainStorage.html#a39535c08fbac6b6b2ae8da95ecd7178a">getLandTexture</a>(<span class="keywordtype">int</span> index, <span class="keywordtype">short</span> plugin);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="classMWRender_1_1TerrainStorage.html#a06f95192ea431078711b7a875456b349">TerrainStorage</a>(<span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* vfs, <span class="keyword">const</span> std::string&amp; normalMapPattern = <span class="stringliteral">&quot;&quot;</span>, <span class="keyword">const</span> std::string&amp; normalHeightMapPatteern = <span class="stringliteral">&quot;&quot;</span>, <span class="keywordtype">bool</span> autoUseNormalMaps = <span class="keyword">false</span>, <span class="keyword">const</span> std::string&amp; specularMapPattern = <span class="stringliteral">&quot;&quot;</span>, <span class="keywordtype">bool</span> autoUseSpecularMaps = <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1TerrainStorage.html#a2cb7b7f22ec2a4bf47a9cdcbb15756cd">getBounds</a>(<span class="keywordtype">float</span>&amp; minX, <span class="keywordtype">float</span>&amp; maxX, <span class="keywordtype">float</span>&amp; minY, <span class="keywordtype">float</span>&amp; maxY);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    };</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="esmterrain_2storage_8hpp.html">components/esmterrain/storage.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="resourcesystem_8hpp.html">components/resource/resourcesystem.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>MWRender</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">class </span>LandManager;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMWRender_1_1TerrainStorage.html">   16</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMWRender_1_1TerrainStorage.html">TerrainStorage</a> : <span class="keyword">public</span> <a class="code" href="classESMTerrain_1_1Storage.html">ESMTerrain::Storage</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="classMWRender_1_1TerrainStorage.html#a29eaeee9040ff2fdf2c0327d9aeb2071">TerrainStorage</a>(<a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* resourceSystem, <span class="keyword">const</span> std::string&amp; normalMapPattern = <span class="stringliteral">&quot;&quot;</span>, <span class="keyword">const</span> std::string&amp; normalHeightMapPatteern = <span class="stringliteral">&quot;&quot;</span>, <span class="keywordtype">bool</span> autoUseNormalMaps = <span class="keyword">false</span>, <span class="keyword">const</span> std::string&amp; specularMapPattern = <span class="stringliteral">&quot;&quot;</span>, <span class="keywordtype">bool</span> autoUseSpecularMaps = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="classMWRender_1_1TerrainStorage.html#a55d08926ade78dfc6d31e508c99ff6d2">~TerrainStorage</a>();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">virtual</span> osg::ref_ptr&lt;const ESMTerrain::LandObject&gt; <a class="code" href="classMWRender_1_1TerrainStorage.html#afe4191e32ba99bf195a515e209e55806">getLand</a> (<span class="keywordtype">int</span> cellX, <span class="keywordtype">int</span> cellY);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="structESM_1_1LandTexture.html">ESM::LandTexture</a>* <a class="code" href="classMWRender_1_1TerrainStorage.html#a39535c08fbac6b6b2ae8da95ecd7178a">getLandTexture</a>(<span class="keywordtype">int</span> index, <span class="keywordtype">short</span> plugin);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a5ed91a2107904cd30b7d98701114d4d5"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a5ed91a2107904cd30b7d98701114d4d5">MWRender::TerrainStorage::getLand</a></div><div class="ttdeci">virtual const ESM::Land * getLand(int cellX, int cellY)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:42</div></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWRender_1_1TerrainStorage.html#a2cb7b7f22ec2a4bf47a9cdcbb15756cd">getBounds</a>(<span class="keywordtype">float</span>&amp; minX, <span class="keywordtype">float</span>&amp; maxX, <span class="keywordtype">float</span>&amp; minY, <span class="keywordtype">float</span>&amp; maxY);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="classMWRender_1_1LandManager.html">LandManager</a>* <a class="code" href="classMWRender_1_1TerrainStorage.html#abda4a493442311e42e2a4f278e2d57cc">getLandManager</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classMWRender_1_1TerrainStorage.html#aa8ecee45855503ae4dbb129285eb6361">   32</a></span>&#160;       std::unique_ptr&lt;LandManager&gt; <a class="code" href="classMWRender_1_1TerrainStorage.html#aa8ecee45855503ae4dbb129285eb6361">mLandManager</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classMWRender_1_1TerrainStorage.html#a52e6b77ca43aed5882484a09dd18c794">   34</a></span>&#160;       <a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* <a class="code" href="classMWRender_1_1TerrainStorage.html#a52e6b77ca43aed5882484a09dd18c794">mResourceSystem</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    };</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classResource_1_1ResourceSystem_html"><div class="ttname"><a href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a></div><div class="ttdoc">Wrapper class that constructs and provides access to the most commonly used resource subsystems...</div><div class="ttdef"><b>Definition:</b> resourcesystem.hpp:30</div></div>
+<div class="ttc" id="resourcesystem_8hpp_html"><div class="ttname"><a href="resourcesystem_8hpp.html">resourcesystem.hpp</a></div></div>
+<div class="ttc" id="classMWRender_1_1LandManager_html"><div class="ttname"><a href="classMWRender_1_1LandManager.html">MWRender::LandManager</a></div><div class="ttdef"><b>Definition:</b> landmanager.hpp:17</div></div>
 <div class="ttc" id="structESM_1_1LandTexture_html"><div class="ttname"><a href="structESM_1_1LandTexture.html">ESM::LandTexture</a></div><div class="ttdef"><b>Definition:</b> loadltex.hpp:28</div></div>
-<div class="ttc" id="structESM_1_1Land_html"><div class="ttname"><a href="structESM_1_1Land.html">ESM::Land</a></div><div class="ttdef"><b>Definition:</b> loadland.hpp:20</div></div>
-<div class="ttc" id="classMWRender_1_1TerrainStorage_html"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html">MWRender::TerrainStorage</a></div><div class="ttdoc">Connects the ESM Store used in OpenMW with the ESMTerrain storage. </div><div class="ttdef"><b>Definition:</b> terrainstorage.hpp:10</div></div>
-<div class="ttc" id="classESMTerrain_1_1Storage_html"><div class="ttname"><a href="classESMTerrain_1_1Storage.html">ESMTerrain::Storage</a></div><div class="ttdoc">Feeds data from ESM terrain records (ESM::Land, ESM::LandTexture) into the terrain component...</div><div class="ttdef"><b>Definition:</b> storage.hpp:21</div></div>
-<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a39535c08fbac6b6b2ae8da95ecd7178a"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a39535c08fbac6b6b2ae8da95ecd7178a">MWRender::TerrainStorage::getLandTexture</a></div><div class="ttdeci">virtual const ESM::LandTexture * getLandTexture(int index, short plugin)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:59</div></div>
-<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a06f95192ea431078711b7a875456b349"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a06f95192ea431078711b7a875456b349">MWRender::TerrainStorage::TerrainStorage</a></div><div class="ttdeci">TerrainStorage(const VFS::Manager *vfs, const std::string &amp;normalMapPattern=&quot;&quot;, const std::string &amp;normalHeightMapPatteern=&quot;&quot;, bool autoUseNormalMaps=false, const std::string &amp;specularMapPattern=&quot;&quot;, bool autoUseSpecularMaps=false)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:12</div></div>
-<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a2cb7b7f22ec2a4bf47a9cdcbb15756cd"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a2cb7b7f22ec2a4bf47a9cdcbb15756cd">MWRender::TerrainStorage::getBounds</a></div><div class="ttdeci">virtual void getBounds(float &amp;minX, float &amp;maxX, float &amp;minY, float &amp;maxY)</div><div class="ttdoc">Get bounds of the whole terrain in cell units. </div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:17</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html"><div class="ttname"><a href="classVFS_1_1Manager.html">VFS::Manager</a></div><div class="ttdoc">The main class responsible for loading files from a virtual file system. </div><div class="ttdef"><b>Definition:</b> manager.hpp:20</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html_aa8ecee45855503ae4dbb129285eb6361"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#aa8ecee45855503ae4dbb129285eb6361">MWRender::TerrainStorage::mLandManager</a></div><div class="ttdeci">std::unique_ptr&lt; LandManager &gt; mLandManager</div><div class="ttdef"><b>Definition:</b> terrainstorage.hpp:32</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html_abda4a493442311e42e2a4f278e2d57cc"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#abda4a493442311e42e2a4f278e2d57cc">MWRender::TerrainStorage::getLandManager</a></div><div class="ttdeci">LandManager * getLandManager() const </div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:52</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html">MWRender::TerrainStorage</a></div><div class="ttdoc">Connects the ESM Store used in OpenMW with the ESMTerrain storage. </div><div class="ttdef"><b>Definition:</b> terrainstorage.hpp:16</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a55d08926ade78dfc6d31e508c99ff6d2"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a55d08926ade78dfc6d31e508c99ff6d2">MWRender::TerrainStorage::~TerrainStorage</a></div><div class="ttdeci">~TerrainStorage()</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:22</div></div>
+<div class="ttc" id="classESMTerrain_1_1Storage_html"><div class="ttname"><a href="classESMTerrain_1_1Storage.html">ESMTerrain::Storage</a></div><div class="ttdoc">Feeds data from ESM terrain records (ESM::Land, ESM::LandTexture) into the terrain component...</div><div class="ttdef"><b>Definition:</b> storage.hpp:44</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a29eaeee9040ff2fdf2c0327d9aeb2071"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a29eaeee9040ff2fdf2c0327d9aeb2071">MWRender::TerrainStorage::TerrainStorage</a></div><div class="ttdeci">TerrainStorage(Resource::ResourceSystem *resourceSystem, const std::string &amp;normalMapPattern=&quot;&quot;, const std::string &amp;normalHeightMapPatteern=&quot;&quot;, bool autoUseNormalMaps=false, const std::string &amp;specularMapPattern=&quot;&quot;, bool autoUseSpecularMaps=false)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:14</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a39535c08fbac6b6b2ae8da95ecd7178a"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a39535c08fbac6b6b2ae8da95ecd7178a">MWRender::TerrainStorage::getLandTexture</a></div><div class="ttdeci">virtual const ESM::LandTexture * getLandTexture(int index, short plugin)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:62</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a2cb7b7f22ec2a4bf47a9cdcbb15756cd"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a2cb7b7f22ec2a4bf47a9cdcbb15756cd">MWRender::TerrainStorage::getBounds</a></div><div class="ttdeci">virtual void getBounds(float &amp;minX, float &amp;maxX, float &amp;minY, float &amp;maxY)</div><div class="ttdoc">Get bounds of the whole terrain in cell units. </div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:27</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html_a52e6b77ca43aed5882484a09dd18c794"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#a52e6b77ca43aed5882484a09dd18c794">MWRender::TerrainStorage::mResourceSystem</a></div><div class="ttdeci">Resource::ResourceSystem * mResourceSystem</div><div class="ttdef"><b>Definition:</b> terrainstorage.hpp:34</div></div>
+<div class="ttc" id="classMWRender_1_1TerrainStorage_html_afe4191e32ba99bf195a515e209e55806"><div class="ttname"><a href="classMWRender_1_1TerrainStorage.html#afe4191e32ba99bf195a515e209e55806">MWRender::TerrainStorage::getLand</a></div><div class="ttdeci">virtual osg::ref_ptr&lt; const ESMTerrain::LandObject &gt; getLand(int cellX, int cellY)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:57</div></div>
 <div class="ttc" id="esmterrain_2storage_8hpp_html"><div class="ttname"><a href="esmterrain_2storage_8hpp.html">storage.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:49 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:20 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/view/world/creator.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/view/world/creator.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -129,86 +129,89 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#a040bee4d8d2fb5d3450d0811db8236d6">cloneMode</a>(<span class="keyword">const</span> std::string&amp; originId,</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                   <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html#ad68e402e074c03aeffc692e97a7457b2">CSMWorld::UniversalId::Type</a> type) = 0;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#aa8ad82ce436c8a3916be9c436b44920b">setEditLock</a> (<span class="keywordtype">bool</span> locked) = 0;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#a56b5c45b94071a6f4683363630af0816">toggleWidgets</a>(<span class="keywordtype">bool</span> active = <span class="keyword">true</span>) = 0;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#ae11f03864c53b4df959df4fed1035308">setScope</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> scope);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#a92a93b06d102d6c247c283fbb43f1169">touch</a>(<span class="keyword">const</span> std::vector&lt;CSMWorld::UniversalId&gt;&amp; ids) = 0;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#aa8ad82ce436c8a3916be9c436b44920b">setEditLock</a> (<span class="keywordtype">bool</span> locked) = 0;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#a56b5c45b94071a6f4683363630af0816">toggleWidgets</a>(<span class="keywordtype">bool</span> active = <span class="keyword">true</span>) = 0;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#afdfe62e7a088f19f2464ef4dc303c35c">focus</a>() = 0;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#ae11f03864c53b4df959df4fed1035308">setScope</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> scope);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="crashcatcher_8cpp.html#acfd5a39eb1691178d0e18865b4bce90e">signals</a>:</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#a77a550d70f4b6e2cff8a339f4c288abc">done</a>();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#a70cae6dcdb8069ec962c1015aa2f9ffa">requestFocus</a> (<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    };</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classCSVWorld_1_1CreatorFactoryBase.html">   54</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html">CreatorFactoryBase</a></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html#ad894fc810b3481d8ff2adb5724be3d1f">~CreatorFactoryBase</a>();</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classCSVWorld_1_1Creator.html">Creator</a> *<a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html#a5f96d0013f516b0511d4657b6a520cec">makeCreator</a> (<a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; document, <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    };</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classCSVWorld_1_1NullCreatorFactory.html">   68</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSVWorld_1_1NullCreatorFactory.html">NullCreatorFactory</a> : <span class="keyword">public</span> <a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html">CreatorFactoryBase</a></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classCSVWorld_1_1Creator.html">Creator</a> *<a class="code" href="classCSVWorld_1_1NullCreatorFactory.html#adbb57cfcf3c7dbc2eae1739bef5d89c5">makeCreator</a> (<a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; document, <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    };</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">class</span> CreatorT, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> scope = CSMWorld::Scope_Content&gt;</div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classCSVWorld_1_1CreatorFactory.html">   79</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSVWorld_1_1CreatorFactory.html">CreatorFactory</a> : <span class="keyword">public</span> <a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html">CreatorFactoryBase</a></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classCSVWorld_1_1Creator.html">Creator</a> *<a class="code" href="classCSVWorld_1_1CreatorFactory.html#a0386c1b5c472df13d4609becdc120d69">makeCreator</a> (<a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; document, <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    };</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">class</span> CreatorT, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> scope&gt;</div>
-<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="classCSVWorld_1_1CreatorFactory.html#a0386c1b5c472df13d4609becdc120d69">   91</a></span>&#160;    <a class="code" href="classCSVWorld_1_1Creator.html">Creator</a> *<a class="code" href="classCSVWorld_1_1CreatorFactory.html#a0386c1b5c472df13d4609becdc120d69">CreatorFactory&lt;CreatorT, scope&gt;::makeCreator</a> (<a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; document,</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                                           <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <span class="keywordtype">id</span>)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        std::auto_ptr&lt;CreatorT&gt; creator (<span class="keyword">new</span> CreatorT (document.<a class="code" href="classCSMDoc_1_1Document.html#a3d2c0634e7eec5055abc612006da7763">getData</a>(), document.<a class="code" href="classCSMDoc_1_1Document.html#a957f3e6dda44e1e37da75b2a4555eb8f">getUndoStack</a>(), id));</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        creator-&gt;setScope (scope);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> creator.release();</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#afdfe62e7a088f19f2464ef4dc303c35c">focus</a>() = 0;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="crashcatcher_8cpp.html#a11433616918edf8c8674dc3dff31df8b">signals</a>:</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#a77a550d70f4b6e2cff8a339f4c288abc">done</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSVWorld_1_1Creator.html#a70cae6dcdb8069ec962c1015aa2f9ffa">requestFocus</a> (<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    };</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classCSVWorld_1_1CreatorFactoryBase.html">   57</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html">CreatorFactoryBase</a></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html#ad894fc810b3481d8ff2adb5724be3d1f">~CreatorFactoryBase</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classCSVWorld_1_1Creator.html">Creator</a> *<a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html#a5f96d0013f516b0511d4657b6a520cec">makeCreator</a> (<a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; document, <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    };</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classCSVWorld_1_1NullCreatorFactory.html">   71</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSVWorld_1_1NullCreatorFactory.html">NullCreatorFactory</a> : <span class="keyword">public</span> <a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html">CreatorFactoryBase</a></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classCSVWorld_1_1Creator.html">Creator</a> *<a class="code" href="classCSVWorld_1_1NullCreatorFactory.html#adbb57cfcf3c7dbc2eae1739bef5d89c5">makeCreator</a> (<a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; document, <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    };</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">class</span> CreatorT, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> scope = CSMWorld::Scope_Content&gt;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classCSVWorld_1_1CreatorFactory.html">   82</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSVWorld_1_1CreatorFactory.html">CreatorFactory</a> : <span class="keyword">public</span> <a class="code" href="classCSVWorld_1_1CreatorFactoryBase.html">CreatorFactoryBase</a></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classCSVWorld_1_1Creator.html">Creator</a> *<a class="code" href="classCSVWorld_1_1CreatorFactory.html#a0386c1b5c472df13d4609becdc120d69">makeCreator</a> (<a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; document, <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    };</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">class</span> CreatorT, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> scope&gt;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="classCSVWorld_1_1CreatorFactory.html#a0386c1b5c472df13d4609becdc120d69">   94</a></span>&#160;    <a class="code" href="classCSVWorld_1_1Creator.html">Creator</a> *<a class="code" href="classCSVWorld_1_1CreatorFactory.html#a0386c1b5c472df13d4609becdc120d69">CreatorFactory&lt;CreatorT, scope&gt;::makeCreator</a> (<a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; document,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                                           <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a>&amp; <span class="keywordtype">id</span>)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        std::unique_ptr&lt;CreatorT&gt; creator (<span class="keyword">new</span> CreatorT (document.<a class="code" href="classCSMDoc_1_1Document.html#a3d2c0634e7eec5055abc612006da7763">getData</a>(), document.<a class="code" href="classCSMDoc_1_1Document.html#a957f3e6dda44e1e37da75b2a4555eb8f">getUndoStack</a>(), id));</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        creator-&gt;setScope (scope);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> creator.release();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html"><div class="ttname"><a href="classCSVWorld_1_1Creator.html">CSVWorld::Creator</a></div><div class="ttdoc">Record creator UI base class. </div><div class="ttdef"><b>Definition:</b> creator.hpp:21</div></div>
 <div class="ttc" id="classCSVWorld_1_1CreatorFactoryBase_html_a5f96d0013f516b0511d4657b6a520cec"><div class="ttname"><a href="classCSVWorld_1_1CreatorFactoryBase.html#a5f96d0013f516b0511d4657b6a520cec">CSVWorld::CreatorFactoryBase::makeCreator</a></div><div class="ttdeci">virtual Creator * makeCreator(CSMDoc::Document &amp;document, const CSMWorld::UniversalId &amp;id) const =0</div></div>
-<div class="ttc" id="crashcatcher_8cpp_html_acfd5a39eb1691178d0e18865b4bce90e"><div class="ttname"><a href="crashcatcher_8cpp.html#acfd5a39eb1691178d0e18865b4bce90e">signals</a></div><div class="ttdeci">static const struct @2 signals[]</div></div>
 <div class="ttc" id="classCSVWorld_1_1NullCreatorFactory_html_adbb57cfcf3c7dbc2eae1739bef5d89c5"><div class="ttname"><a href="classCSVWorld_1_1NullCreatorFactory.html#adbb57cfcf3c7dbc2eae1739bef5d89c5">CSVWorld::NullCreatorFactory::makeCreator</a></div><div class="ttdeci">virtual Creator * makeCreator(CSMDoc::Document &amp;document, const CSMWorld::UniversalId &amp;id) const </div><div class="ttdef"><b>Definition:</b> creator.cpp:17</div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_a936f18c2de620a5b557c14f4ac83f436"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#a936f18c2de620a5b557c14f4ac83f436">CSVWorld::Creator::reset</a></div><div class="ttdeci">virtual void reset()=0</div></div>
+<div class="ttc" id="crashcatcher_8cpp_html_a11433616918edf8c8674dc3dff31df8b"><div class="ttname"><a href="crashcatcher_8cpp.html#a11433616918edf8c8674dc3dff31df8b">signals</a></div><div class="ttdeci">static const struct @8 signals[]</div></div>
 <div class="ttc" id="classQWidget_html"><div class="ttname"><a href="classQWidget.html">QWidget</a></div></div>
 <div class="ttc" id="classCSMWorld_1_1UniversalId_html_ad68e402e074c03aeffc692e97a7457b2"><div class="ttname"><a href="classCSMWorld_1_1UniversalId.html#ad68e402e074c03aeffc692e97a7457b2">CSMWorld::UniversalId::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> universalid.hpp:40</div></div>
+<div class="ttc" id="classCSVWorld_1_1Creator_html_a92a93b06d102d6c247c283fbb43f1169"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#a92a93b06d102d6c247c283fbb43f1169">CSVWorld::Creator::touch</a></div><div class="ttdeci">virtual void touch(const std::vector&lt; CSMWorld::UniversalId &gt; &amp;ids)=0</div><div class="ttdoc">Touches a record, if the creator supports it. </div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_a77a550d70f4b6e2cff8a339f4c288abc"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#a77a550d70f4b6e2cff8a339f4c288abc">CSVWorld::Creator::done</a></div><div class="ttdeci">void done()</div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_ada5614d369a5776b30baf7ac0b23151b"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#ada5614d369a5776b30baf7ac0b23151b">CSVWorld::Creator::~Creator</a></div><div class="ttdeci">virtual ~Creator()</div><div class="ttdef"><b>Definition:</b> creator.cpp:5</div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_a70cae6dcdb8069ec962c1015aa2f9ffa"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#a70cae6dcdb8069ec962c1015aa2f9ffa">CSVWorld::Creator::requestFocus</a></div><div class="ttdeci">void requestFocus(const std::string &amp;id)</div></div>
 <div class="ttc" id="classCSVWorld_1_1CreatorFactoryBase_html_ad894fc810b3481d8ff2adb5724be3d1f"><div class="ttname"><a href="classCSVWorld_1_1CreatorFactoryBase.html#ad894fc810b3481d8ff2adb5724be3d1f">CSVWorld::CreatorFactoryBase::~CreatorFactoryBase</a></div><div class="ttdeci">virtual ~CreatorFactoryBase()</div><div class="ttdef"><b>Definition:</b> creator.cpp:14</div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_a040bee4d8d2fb5d3450d0811db8236d6"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#a040bee4d8d2fb5d3450d0811db8236d6">CSVWorld::Creator::cloneMode</a></div><div class="ttdeci">virtual void cloneMode(const std::string &amp;originId, const CSMWorld::UniversalId::Type type)=0</div></div>
-<div class="ttc" id="classCSVWorld_1_1CreatorFactoryBase_html"><div class="ttname"><a href="classCSVWorld_1_1CreatorFactoryBase.html">CSVWorld::CreatorFactoryBase</a></div><div class="ttdoc">Base class for Creator factory. </div><div class="ttdef"><b>Definition:</b> creator.hpp:54</div></div>
+<div class="ttc" id="classCSVWorld_1_1CreatorFactoryBase_html"><div class="ttname"><a href="classCSVWorld_1_1CreatorFactoryBase.html">CSVWorld::CreatorFactoryBase</a></div><div class="ttdoc">Base class for Creator factory. </div><div class="ttdef"><b>Definition:</b> creator.hpp:57</div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_ae11f03864c53b4df959df4fed1035308"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#ae11f03864c53b4df959df4fed1035308">CSVWorld::Creator::setScope</a></div><div class="ttdeci">virtual void setScope(unsigned int scope)</div><div class="ttdoc">Default implementation: Throw an exception if scope!=Scope_Content. </div><div class="ttdef"><b>Definition:</b> creator.cpp:7</div></div>
-<div class="ttc" id="classCSVWorld_1_1CreatorFactory_html"><div class="ttname"><a href="classCSVWorld_1_1CreatorFactory.html">CSVWorld::CreatorFactory</a></div><div class="ttdef"><b>Definition:</b> creator.hpp:79</div></div>
+<div class="ttc" id="classCSVWorld_1_1CreatorFactory_html"><div class="ttname"><a href="classCSVWorld_1_1CreatorFactory.html">CSVWorld::CreatorFactory</a></div><div class="ttdef"><b>Definition:</b> creator.hpp:82</div></div>
 <div class="ttc" id="classCSMDoc_1_1Document_html"><div class="ttname"><a href="classCSMDoc_1_1Document.html">CSMDoc::Document</a></div><div class="ttdef"><b>Definition:</b> document.hpp:57</div></div>
-<div class="ttc" id="classCSMDoc_1_1Document_html_a3d2c0634e7eec5055abc612006da7763"><div class="ttname"><a href="classCSMDoc_1_1Document.html#a3d2c0634e7eec5055abc612006da7763">CSMDoc::Document::getData</a></div><div class="ttdeci">const CSMWorld::Data &amp; getData() const </div><div class="ttdef"><b>Definition:</b> document.cpp:451</div></div>
-<div class="ttc" id="classCSMDoc_1_1Document_html_a957f3e6dda44e1e37da75b2a4555eb8f"><div class="ttname"><a href="classCSMDoc_1_1Document.html#a957f3e6dda44e1e37da75b2a4555eb8f">CSMDoc::Document::getUndoStack</a></div><div class="ttdeci">QUndoStack &amp; getUndoStack()</div><div class="ttdef"><b>Definition:</b> document.cpp:344</div></div>
-<div class="ttc" id="classCSVWorld_1_1CreatorFactory_html_a0386c1b5c472df13d4609becdc120d69"><div class="ttname"><a href="classCSVWorld_1_1CreatorFactory.html#a0386c1b5c472df13d4609becdc120d69">CSVWorld::CreatorFactory::makeCreator</a></div><div class="ttdeci">virtual Creator * makeCreator(CSMDoc::Document &amp;document, const CSMWorld::UniversalId &amp;id) const </div><div class="ttdef"><b>Definition:</b> creator.hpp:91</div></div>
+<div class="ttc" id="classCSMDoc_1_1Document_html_a3d2c0634e7eec5055abc612006da7763"><div class="ttname"><a href="classCSMDoc_1_1Document.html#a3d2c0634e7eec5055abc612006da7763">CSMDoc::Document::getData</a></div><div class="ttdeci">const CSMWorld::Data &amp; getData() const </div><div class="ttdef"><b>Definition:</b> document.cpp:450</div></div>
+<div class="ttc" id="classCSMDoc_1_1Document_html_a957f3e6dda44e1e37da75b2a4555eb8f"><div class="ttname"><a href="classCSMDoc_1_1Document.html#a957f3e6dda44e1e37da75b2a4555eb8f">CSMDoc::Document::getUndoStack</a></div><div class="ttdeci">QUndoStack &amp; getUndoStack()</div><div class="ttdef"><b>Definition:</b> document.cpp:343</div></div>
+<div class="ttc" id="classCSVWorld_1_1CreatorFactory_html_a0386c1b5c472df13d4609becdc120d69"><div class="ttname"><a href="classCSVWorld_1_1CreatorFactory.html#a0386c1b5c472df13d4609becdc120d69">CSVWorld::CreatorFactory::makeCreator</a></div><div class="ttdeci">virtual Creator * makeCreator(CSMDoc::Document &amp;document, const CSMWorld::UniversalId &amp;id) const </div><div class="ttdef"><b>Definition:</b> creator.hpp:94</div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_afdfe62e7a088f19f2464ef4dc303c35c"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#afdfe62e7a088f19f2464ef4dc303c35c">CSVWorld::Creator::focus</a></div><div class="ttdeci">virtual void focus()=0</div><div class="ttdoc">Focus main input widget. </div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_a56b5c45b94071a6f4683363630af0816"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#a56b5c45b94071a6f4683363630af0816">CSVWorld::Creator::toggleWidgets</a></div><div class="ttdeci">virtual void toggleWidgets(bool active=true)=0</div></div>
 <div class="ttc" id="classCSVWorld_1_1Creator_html_aa8ad82ce436c8a3916be9c436b44920b"><div class="ttname"><a href="classCSVWorld_1_1Creator.html#aa8ad82ce436c8a3916be9c436b44920b">CSVWorld::Creator::setEditLock</a></div><div class="ttdeci">virtual void setEditLock(bool locked)=0</div></div>
-<div class="ttc" id="classCSVWorld_1_1NullCreatorFactory_html"><div class="ttname"><a href="classCSVWorld_1_1NullCreatorFactory.html">CSVWorld::NullCreatorFactory</a></div><div class="ttdoc">Creator factory that does not produces any creator. </div><div class="ttdef"><b>Definition:</b> creator.hpp:68</div></div>
+<div class="ttc" id="classCSVWorld_1_1NullCreatorFactory_html"><div class="ttname"><a href="classCSVWorld_1_1NullCreatorFactory.html">CSVWorld::NullCreatorFactory</a></div><div class="ttdoc">Creator factory that does not produces any creator. </div><div class="ttdef"><b>Definition:</b> creator.hpp:71</div></div>
 <div class="ttc" id="classCSMWorld_1_1UniversalId_html"><div class="ttname"><a href="classCSMWorld_1_1UniversalId.html">CSMWorld::UniversalId</a></div><div class="ttdef"><b>Definition:</b> universalid.hpp:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:49 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:20 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

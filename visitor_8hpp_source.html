@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/sceneutil/visitor.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/sceneutil/visitor.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,57 +100,156 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="visitor_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENMW_COMPONENTS_SCENEUTIL_VISITOR_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENMW_COMPONENTS_SCENEUTIL_VISITOR_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;osg/NodeVisitor&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Commonly used scene graph visitors</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>SceneUtil</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="comment">// Find a Group by name, case-insensitive</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="comment">// If not found, mFoundNode will be NULL</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByNameVisitor.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1FindByNameVisitor.html">FindByNameVisitor</a> : <span class="keyword">public</span> osg::NodeVisitor</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByNameVisitor.html#aa67c4e30b7543507bb67f30534466424">   15</a></span>&#160;        <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aa67c4e30b7543507bb67f30534466424">FindByNameVisitor</a>(<span class="keyword">const</span> std::string&amp; nameToFind)</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            : osg::NodeVisitor(TRAVERSE_ALL_CHILDREN)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            , <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aa697d2e591e20738915e9de2dd9ec893">mNameToFind</a>(nameToFind)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            , <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aef1f955725886e7ac683c52e0acc0daf">mFoundNode</a>(NULL)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        }</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#a2d34d2a4edcf56f4af0d21f2b9051b33">apply</a>(osg::Group&amp; group);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByNameVisitor.html#aa697d2e591e20738915e9de2dd9ec893">   24</a></span>&#160;        std::string <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aa697d2e591e20738915e9de2dd9ec893">mNameToFind</a>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByNameVisitor.html#aef1f955725886e7ac683c52e0acc0daf">   25</a></span>&#160;        osg::Group* <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aef1f955725886e7ac683c52e0acc0daf">mFoundNode</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">// Disable freezeOnCull for all visited particlesystems</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html">   29</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html">DisableFreezeOnCullVisitor</a> : <span class="keyword">public</span> osg::NodeVisitor</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#a70ecb2391467d743ee78c0e47994416c">   32</a></span>&#160;        <a class="code" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#a70ecb2391467d743ee78c0e47994416c">DisableFreezeOnCullVisitor</a>()</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            : osg::NodeVisitor(TRAVERSE_ALL_CHILDREN)</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#a59b2134e006b4a6b549c4e754817870a">apply</a>(osg::Drawable&amp; drw);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    };</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;osg/MatrixTransform&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;osg/NodeVisitor&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// Commonly used scene graph visitors</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>SceneUtil</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="comment">// Find a Group by name, case-insensitive</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="comment">// If not found, mFoundNode will be NULL</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByNameVisitor.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1FindByNameVisitor.html">FindByNameVisitor</a> : <span class="keyword">public</span> osg::NodeVisitor</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByNameVisitor.html#aa67c4e30b7543507bb67f30534466424">   16</a></span>&#160;        <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aa67c4e30b7543507bb67f30534466424">FindByNameVisitor</a>(<span class="keyword">const</span> std::string&amp; nameToFind)</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            : osg::NodeVisitor(TRAVERSE_ALL_CHILDREN)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            , <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aa697d2e591e20738915e9de2dd9ec893">mNameToFind</a>(nameToFind)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            , <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aef1f955725886e7ac683c52e0acc0daf">mFoundNode</a>(NULL)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#a2d34d2a4edcf56f4af0d21f2b9051b33">apply</a>(osg::Group&amp; group);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#a2d34d2a4edcf56f4af0d21f2b9051b33">apply</a>(osg::MatrixTransform&amp; node);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#a2d34d2a4edcf56f4af0d21f2b9051b33">apply</a>(osg::Geometry&amp; node);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aaa6bd1658a7a16d9130dafb8c1b2757b">checkGroup</a>(osg::Group&amp; group);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByNameVisitor.html#aa697d2e591e20738915e9de2dd9ec893">   29</a></span>&#160;        std::string <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aa697d2e591e20738915e9de2dd9ec893">mNameToFind</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByNameVisitor.html#aef1f955725886e7ac683c52e0acc0daf">   30</a></span>&#160;        osg::Group* <a class="code" href="classSceneUtil_1_1FindByNameVisitor.html#aef1f955725886e7ac683c52e0acc0daf">mFoundNode</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    };</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByClassVisitor.html">   33</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1FindByClassVisitor.html">FindByClassVisitor</a> : <span class="keyword">public</span> osg::NodeVisitor</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByClassVisitor.html#af6f9c558ef3a17b274b5c55735e6d8ae">   36</a></span>&#160;        <a class="code" href="classSceneUtil_1_1FindByClassVisitor.html#af6f9c558ef3a17b274b5c55735e6d8ae">FindByClassVisitor</a>(<span class="keyword">const</span> std::string&amp; nameToFind)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            : osg::NodeVisitor(TRAVERSE_ALL_CHILDREN)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            , <a class="code" href="classSceneUtil_1_1FindByClassVisitor.html#a4ac7addf2005a250c3e4971ea3227d8e">mNameToFind</a>(nameToFind)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html">SceneUtil::FindByNameVisitor</a></div><div class="ttdef"><b>Definition:</b> visitor.hpp:12</div></div>
-<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_aa67c4e30b7543507bb67f30534466424"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#aa67c4e30b7543507bb67f30534466424">SceneUtil::FindByNameVisitor::FindByNameVisitor</a></div><div class="ttdeci">FindByNameVisitor(const std::string &amp;nameToFind)</div><div class="ttdef"><b>Definition:</b> visitor.hpp:15</div></div>
-<div class="ttc" id="classSceneUtil_1_1DisableFreezeOnCullVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html">SceneUtil::DisableFreezeOnCullVisitor</a></div><div class="ttdef"><b>Definition:</b> visitor.hpp:29</div></div>
-<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_a2d34d2a4edcf56f4af0d21f2b9051b33"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#a2d34d2a4edcf56f4af0d21f2b9051b33">SceneUtil::FindByNameVisitor::apply</a></div><div class="ttdeci">virtual void apply(osg::Group &amp;group)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:10</div></div>
-<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_aef1f955725886e7ac683c52e0acc0daf"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#aef1f955725886e7ac683c52e0acc0daf">SceneUtil::FindByNameVisitor::mFoundNode</a></div><div class="ttdeci">osg::Group * mFoundNode</div><div class="ttdef"><b>Definition:</b> visitor.hpp:25</div></div>
-<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_aa697d2e591e20738915e9de2dd9ec893"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#aa697d2e591e20738915e9de2dd9ec893">SceneUtil::FindByNameVisitor::mNameToFind</a></div><div class="ttdeci">std::string mNameToFind</div><div class="ttdef"><b>Definition:</b> visitor.hpp:24</div></div>
-<div class="ttc" id="classSceneUtil_1_1DisableFreezeOnCullVisitor_html_a59b2134e006b4a6b549c4e754817870a"><div class="ttname"><a href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#a59b2134e006b4a6b549c4e754817870a">SceneUtil::DisableFreezeOnCullVisitor::apply</a></div><div class="ttdeci">virtual void apply(osg::Drawable &amp;drw)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:20</div></div>
-<div class="ttc" id="classSceneUtil_1_1DisableFreezeOnCullVisitor_html_a70ecb2391467d743ee78c0e47994416c"><div class="ttname"><a href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#a70ecb2391467d743ee78c0e47994416c">SceneUtil::DisableFreezeOnCullVisitor::DisableFreezeOnCullVisitor</a></div><div class="ttdeci">DisableFreezeOnCullVisitor()</div><div class="ttdef"><b>Definition:</b> visitor.hpp:32</div></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1FindByClassVisitor.html#a8aaebebe8ba8fb90c3560b2eb61e4042">apply</a>(osg::Node &amp;node);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByClassVisitor.html#a4ac7addf2005a250c3e4971ea3227d8e">   44</a></span>&#160;        std::string <a class="code" href="classSceneUtil_1_1FindByClassVisitor.html#a4ac7addf2005a250c3e4971ea3227d8e">mNameToFind</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1FindByClassVisitor.html#ac2be8960dc5675267572f24e9bde030b">   45</a></span>&#160;        std::vector&lt;osg::Node *&gt; <a class="code" href="classSceneUtil_1_1FindByClassVisitor.html#ac2be8960dc5675267572f24e9bde030b">mFoundNodes</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    };</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">// Disable freezeOnCull for all visited particlesystems</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html">   49</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html">DisableFreezeOnCullVisitor</a> : <span class="keyword">public</span> osg::NodeVisitor</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#a70ecb2391467d743ee78c0e47994416c">   52</a></span>&#160;        <a class="code" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#a70ecb2391467d743ee78c0e47994416c">DisableFreezeOnCullVisitor</a>()</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            : osg::NodeVisitor(TRAVERSE_ALL_CHILDREN)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#afd5bcdd74b5ab078e6e65cead5bdaf6c">apply</a>(osg::MatrixTransform&amp; node);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#afd5bcdd74b5ab078e6e65cead5bdaf6c">apply</a>(osg::Drawable&amp; drw);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    };</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1NodeMapVisitor.html">   63</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1NodeMapVisitor.html">NodeMapVisitor</a> : <span class="keyword">public</span> osg::NodeVisitor</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1NodeMapVisitor.html#acdb18277fe7979b8278b135dbb530f0c">   66</a></span>&#160;        <span class="keyword">typedef</span> std::map&lt;std::string, osg::ref_ptr&lt;osg::MatrixTransform&gt; &gt; <a class="code" href="classSceneUtil_1_1NodeMapVisitor.html#acdb18277fe7979b8278b135dbb530f0c">NodeMap</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1NodeMapVisitor.html#a1a971dfe7d4acdbf532d07becc11b052">   68</a></span>&#160;        <a class="code" href="classSceneUtil_1_1NodeMapVisitor.html#a1a971dfe7d4acdbf532d07becc11b052">NodeMapVisitor</a>(<a class="code" href="classSceneUtil_1_1NodeMapVisitor.html#acdb18277fe7979b8278b135dbb530f0c">NodeMap</a>&amp; map)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            : osg::NodeVisitor(osg::NodeVisitor::TRAVERSE_ALL_CHILDREN)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            , <a class="code" href="classSceneUtil_1_1NodeMapVisitor.html#a07fbdd94a0c6e3c51f9036968faf32a5">mMap</a>(map)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1NodeMapVisitor.html#a7d11d52abf44154d41e5860825d28854">apply</a>(osg::MatrixTransform&amp; trans);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1NodeMapVisitor.html#a07fbdd94a0c6e3c51f9036968faf32a5">   77</a></span>&#160;        <a class="code" href="classSceneUtil_1_1NodeMapVisitor.html#acdb18277fe7979b8278b135dbb530f0c">NodeMap</a>&amp; <a class="code" href="classSceneUtil_1_1NodeMapVisitor.html#a07fbdd94a0c6e3c51f9036968faf32a5">mMap</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    };</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1RemoveVisitor.html">   83</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1RemoveVisitor.html">RemoveVisitor</a> : <span class="keyword">public</span> osg::NodeVisitor</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1RemoveVisitor.html#a050ab7847f4f651d1339877727154137">   86</a></span>&#160;        <a class="code" href="classSceneUtil_1_1RemoveVisitor.html#a050ab7847f4f651d1339877727154137">RemoveVisitor</a>()</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            : osg::NodeVisitor(TRAVERSE_ALL_CHILDREN)</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">void</span> <span class="keyword">remove</span>();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="comment">// &lt;node to remove, parent node to remove it from&gt;</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1RemoveVisitor.html#a0bb371d27456d3d71576b469b4b5ff6f">   95</a></span>&#160;        <span class="keyword">typedef</span> std::vector&lt;std::pair&lt;osg::Node*, osg::Group*&gt; &gt; <a class="code" href="classSceneUtil_1_1RemoveVisitor.html#a0bb371d27456d3d71576b469b4b5ff6f">RemoveVec</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1RemoveVisitor.html#af249e2e4c8f7a1302c89665d6c1906be">   96</a></span>&#160;        std::vector&lt;std::pair&lt;osg::Node*, osg::Group*&gt; &gt; <a class="code" href="classSceneUtil_1_1RemoveVisitor.html#af249e2e4c8f7a1302c89665d6c1906be">mToRemove</a>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    };</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="comment">// Removes all drawables from a graph.</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1CleanObjectRootVisitor.html">  100</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1CleanObjectRootVisitor.html">CleanObjectRootVisitor</a> : <span class="keyword">public</span> <a class="code" href="classSceneUtil_1_1RemoveVisitor.html">RemoveVisitor</a></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1CleanObjectRootVisitor.html#a86d368f9e73ccef548bb3826f426eb08">apply</a>(osg::Drawable&amp; drw);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1CleanObjectRootVisitor.html#a86d368f9e73ccef548bb3826f426eb08">apply</a>(osg::Group&amp; node);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1CleanObjectRootVisitor.html#a86d368f9e73ccef548bb3826f426eb08">apply</a>(osg::MatrixTransform&amp; node);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1CleanObjectRootVisitor.html#a86d368f9e73ccef548bb3826f426eb08">apply</a>(osg::Node&amp; node);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1CleanObjectRootVisitor.html#a27c8c19a098007a8f927fcc4108cdb27">applyNode</a>(osg::Node&amp; node);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1CleanObjectRootVisitor.html#a9e6456bd5c6e58a865c617923be0e1af">applyDrawable</a>(osg::Node&amp; node);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    };</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="classSceneUtil_1_1RemoveTriBipVisitor.html">  112</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classSceneUtil_1_1RemoveTriBipVisitor.html">RemoveTriBipVisitor</a> : <span class="keyword">public</span> <a class="code" href="classSceneUtil_1_1RemoveVisitor.html">RemoveVisitor</a></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1RemoveTriBipVisitor.html#a8d3644a91b666d0ef362a9880fb68b81">apply</a>(osg::Drawable&amp; drw);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1RemoveTriBipVisitor.html#a8d3644a91b666d0ef362a9880fb68b81">apply</a>(osg::Group&amp; node);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1RemoveTriBipVisitor.html#a8d3644a91b666d0ef362a9880fb68b81">apply</a>(osg::MatrixTransform&amp; node);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classSceneUtil_1_1RemoveTriBipVisitor.html#adac9d1bda4bbd9aede2e87d03a79ccb5">applyImpl</a>(osg::Node&amp; node);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    };</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html">SceneUtil::FindByNameVisitor</a></div><div class="ttdef"><b>Definition:</b> visitor.hpp:13</div></div>
+<div class="ttc" id="classSceneUtil_1_1CleanObjectRootVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1CleanObjectRootVisitor.html">SceneUtil::CleanObjectRootVisitor</a></div><div class="ttdef"><b>Definition:</b> visitor.hpp:100</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_aa67c4e30b7543507bb67f30534466424"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#aa67c4e30b7543507bb67f30534466424">SceneUtil::FindByNameVisitor::FindByNameVisitor</a></div><div class="ttdeci">FindByNameVisitor(const std::string &amp;nameToFind)</div><div class="ttdef"><b>Definition:</b> visitor.hpp:16</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByClassVisitor_html_ac2be8960dc5675267572f24e9bde030b"><div class="ttname"><a href="classSceneUtil_1_1FindByClassVisitor.html#ac2be8960dc5675267572f24e9bde030b">SceneUtil::FindByClassVisitor::mFoundNodes</a></div><div class="ttdeci">std::vector&lt; osg::Node * &gt; mFoundNodes</div><div class="ttdef"><b>Definition:</b> visitor.hpp:45</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByClassVisitor_html_af6f9c558ef3a17b274b5c55735e6d8ae"><div class="ttname"><a href="classSceneUtil_1_1FindByClassVisitor.html#af6f9c558ef3a17b274b5c55735e6d8ae">SceneUtil::FindByClassVisitor::FindByClassVisitor</a></div><div class="ttdeci">FindByClassVisitor(const std::string &amp;nameToFind)</div><div class="ttdef"><b>Definition:</b> visitor.hpp:36</div></div>
+<div class="ttc" id="classSceneUtil_1_1NodeMapVisitor_html_acdb18277fe7979b8278b135dbb530f0c"><div class="ttname"><a href="classSceneUtil_1_1NodeMapVisitor.html#acdb18277fe7979b8278b135dbb530f0c">SceneUtil::NodeMapVisitor::NodeMap</a></div><div class="ttdeci">std::map&lt; std::string, osg::ref_ptr&lt; osg::MatrixTransform &gt; &gt; NodeMap</div><div class="ttdef"><b>Definition:</b> visitor.hpp:66</div></div>
+<div class="ttc" id="classSceneUtil_1_1RemoveVisitor_html_a0bb371d27456d3d71576b469b4b5ff6f"><div class="ttname"><a href="classSceneUtil_1_1RemoveVisitor.html#a0bb371d27456d3d71576b469b4b5ff6f">SceneUtil::RemoveVisitor::RemoveVec</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; osg::Node *, osg::Group * &gt; &gt; RemoveVec</div><div class="ttdef"><b>Definition:</b> visitor.hpp:95</div></div>
+<div class="ttc" id="classSceneUtil_1_1CleanObjectRootVisitor_html_a86d368f9e73ccef548bb3826f426eb08"><div class="ttname"><a href="classSceneUtil_1_1CleanObjectRootVisitor.html#a86d368f9e73ccef548bb3826f426eb08">SceneUtil::CleanObjectRootVisitor::apply</a></div><div class="ttdeci">virtual void apply(osg::Drawable &amp;drw)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:81</div></div>
+<div class="ttc" id="classSceneUtil_1_1DisableFreezeOnCullVisitor_html_afd5bcdd74b5ab078e6e65cead5bdaf6c"><div class="ttname"><a href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#afd5bcdd74b5ab078e6e65cead5bdaf6c">SceneUtil::DisableFreezeOnCullVisitor::apply</a></div><div class="ttdeci">virtual void apply(osg::MatrixTransform &amp;node)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:49</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByClassVisitor_html_a8aaebebe8ba8fb90c3560b2eb61e4042"><div class="ttname"><a href="classSceneUtil_1_1FindByClassVisitor.html#a8aaebebe8ba8fb90c3560b2eb61e4042">SceneUtil::FindByClassVisitor::apply</a></div><div class="ttdeci">virtual void apply(osg::Node &amp;node)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:25</div></div>
+<div class="ttc" id="classSceneUtil_1_1CleanObjectRootVisitor_html_a9e6456bd5c6e58a865c617923be0e1af"><div class="ttname"><a href="classSceneUtil_1_1CleanObjectRootVisitor.html#a9e6456bd5c6e58a865c617923be0e1af">SceneUtil::CleanObjectRootVisitor::applyDrawable</a></div><div class="ttdeci">void applyDrawable(osg::Node &amp;node)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:112</div></div>
+<div class="ttc" id="classSceneUtil_1_1RemoveVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1RemoveVisitor.html">SceneUtil::RemoveVisitor</a></div><div class="ttdoc">Base class for visitors that remove nodes from a scene graph. Subclasses need to fill the mToRemove v...</div><div class="ttdef"><b>Definition:</b> visitor.hpp:83</div></div>
+<div class="ttc" id="classSceneUtil_1_1CleanObjectRootVisitor_html_a27c8c19a098007a8f927fcc4108cdb27"><div class="ttname"><a href="classSceneUtil_1_1CleanObjectRootVisitor.html#a27c8c19a098007a8f927fcc4108cdb27">SceneUtil::CleanObjectRootVisitor::applyNode</a></div><div class="ttdeci">void applyNode(osg::Node &amp;node)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:101</div></div>
+<div class="ttc" id="classSceneUtil_1_1DisableFreezeOnCullVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html">SceneUtil::DisableFreezeOnCullVisitor</a></div><div class="ttdef"><b>Definition:</b> visitor.hpp:49</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_a2d34d2a4edcf56f4af0d21f2b9051b33"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#a2d34d2a4edcf56f4af0d21f2b9051b33">SceneUtil::FindByNameVisitor::apply</a></div><div class="ttdeci">virtual void apply(osg::Group &amp;group)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:33</div></div>
+<div class="ttc" id="classSceneUtil_1_1RemoveTriBipVisitor_html_adac9d1bda4bbd9aede2e87d03a79ccb5"><div class="ttname"><a href="classSceneUtil_1_1RemoveTriBipVisitor.html#adac9d1bda4bbd9aede2e87d03a79ccb5">SceneUtil::RemoveTriBipVisitor::applyImpl</a></div><div class="ttdeci">void applyImpl(osg::Node &amp;node)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:149</div></div>
+<div class="ttc" id="classSceneUtil_1_1RemoveTriBipVisitor_html_a8d3644a91b666d0ef362a9880fb68b81"><div class="ttname"><a href="classSceneUtil_1_1RemoveTriBipVisitor.html#a8d3644a91b666d0ef362a9880fb68b81">SceneUtil::RemoveTriBipVisitor::apply</a></div><div class="ttdeci">virtual void apply(osg::Drawable &amp;drw)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:134</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_aef1f955725886e7ac683c52e0acc0daf"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#aef1f955725886e7ac683c52e0acc0daf">SceneUtil::FindByNameVisitor::mFoundNode</a></div><div class="ttdeci">osg::Group * mFoundNode</div><div class="ttdef"><b>Definition:</b> visitor.hpp:30</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_aaa6bd1658a7a16d9130dafb8c1b2757b"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#aaa6bd1658a7a16d9130dafb8c1b2757b">SceneUtil::FindByNameVisitor::checkGroup</a></div><div class="ttdeci">bool checkGroup(osg::Group &amp;group)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:15</div></div>
+<div class="ttc" id="classSceneUtil_1_1NodeMapVisitor_html_a1a971dfe7d4acdbf532d07becc11b052"><div class="ttname"><a href="classSceneUtil_1_1NodeMapVisitor.html#a1a971dfe7d4acdbf532d07becc11b052">SceneUtil::NodeMapVisitor::NodeMapVisitor</a></div><div class="ttdeci">NodeMapVisitor(NodeMap &amp;map)</div><div class="ttdef"><b>Definition:</b> visitor.hpp:68</div></div>
+<div class="ttc" id="classSceneUtil_1_1RemoveVisitor_html_a050ab7847f4f651d1339877727154137"><div class="ttname"><a href="classSceneUtil_1_1RemoveVisitor.html#a050ab7847f4f651d1339877727154137">SceneUtil::RemoveVisitor::RemoveVisitor</a></div><div class="ttdeci">RemoveVisitor()</div><div class="ttdef"><b>Definition:</b> visitor.hpp:86</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByNameVisitor_html_aa697d2e591e20738915e9de2dd9ec893"><div class="ttname"><a href="classSceneUtil_1_1FindByNameVisitor.html#aa697d2e591e20738915e9de2dd9ec893">SceneUtil::FindByNameVisitor::mNameToFind</a></div><div class="ttdeci">std::string mNameToFind</div><div class="ttdef"><b>Definition:</b> visitor.hpp:29</div></div>
+<div class="ttc" id="classSceneUtil_1_1RemoveVisitor_html_af249e2e4c8f7a1302c89665d6c1906be"><div class="ttname"><a href="classSceneUtil_1_1RemoveVisitor.html#af249e2e4c8f7a1302c89665d6c1906be">SceneUtil::RemoveVisitor::mToRemove</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; osg::Node *, osg::Group * &gt; &gt; mToRemove</div><div class="ttdef"><b>Definition:</b> visitor.hpp:96</div></div>
+<div class="ttc" id="classSceneUtil_1_1NodeMapVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1NodeMapVisitor.html">SceneUtil::NodeMapVisitor</a></div><div class="ttdoc">Maps names to nodes. </div><div class="ttdef"><b>Definition:</b> visitor.hpp:63</div></div>
+<div class="ttc" id="classSceneUtil_1_1NodeMapVisitor_html_a7d11d52abf44154d41e5860825d28854"><div class="ttname"><a href="classSceneUtil_1_1NodeMapVisitor.html#a7d11d52abf44154d41e5860825d28854">SceneUtil::NodeMapVisitor::apply</a></div><div class="ttdeci">void apply(osg::MatrixTransform &amp;trans)</div><div class="ttdef"><b>Definition:</b> visitor.cpp:60</div></div>
+<div class="ttc" id="classSceneUtil_1_1RemoveTriBipVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1RemoveTriBipVisitor.html">SceneUtil::RemoveTriBipVisitor</a></div><div class="ttdef"><b>Definition:</b> visitor.hpp:112</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByClassVisitor_html"><div class="ttname"><a href="classSceneUtil_1_1FindByClassVisitor.html">SceneUtil::FindByClassVisitor</a></div><div class="ttdef"><b>Definition:</b> visitor.hpp:33</div></div>
+<div class="ttc" id="classSceneUtil_1_1NodeMapVisitor_html_a07fbdd94a0c6e3c51f9036968faf32a5"><div class="ttname"><a href="classSceneUtil_1_1NodeMapVisitor.html#a07fbdd94a0c6e3c51f9036968faf32a5">SceneUtil::NodeMapVisitor::mMap</a></div><div class="ttdeci">NodeMap &amp; mMap</div><div class="ttdef"><b>Definition:</b> visitor.hpp:77</div></div>
+<div class="ttc" id="classSceneUtil_1_1FindByClassVisitor_html_a4ac7addf2005a250c3e4971ea3227d8e"><div class="ttname"><a href="classSceneUtil_1_1FindByClassVisitor.html#a4ac7addf2005a250c3e4971ea3227d8e">SceneUtil::FindByClassVisitor::mNameToFind</a></div><div class="ttdeci">std::string mNameToFind</div><div class="ttdef"><b>Definition:</b> visitor.hpp:44</div></div>
+<div class="ttc" id="classSceneUtil_1_1DisableFreezeOnCullVisitor_html_a70ecb2391467d743ee78c0e47994416c"><div class="ttname"><a href="classSceneUtil_1_1DisableFreezeOnCullVisitor.html#a70ecb2391467d743ee78c0e47994416c">SceneUtil::DisableFreezeOnCullVisitor::DisableFreezeOnCullVisitor</a></div><div class="ttdeci">DisableFreezeOnCullVisitor()</div><div class="ttdef"><b>Definition:</b> visitor.hpp:52</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

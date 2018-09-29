@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -96,8 +96,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classGui_1_1ImageButton-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Gui::ImageButton Class Reference</div>  </div>
@@ -111,13 +114,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for Gui::ImageButton:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton__inherit__graph.svg" width="216" height="331"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton__inherit__graph.svg" width="216" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Gui::ImageButton:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton__coll__graph.svg" width="322" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton__coll__graph.svg" width="484" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -125,9 +128,16 @@ Collaboration diagram for Gui::ImageButton:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adaeda67f6086d272469deb0cc46fa424"><td class="memItemLeft" align="right" valign="top">MyGUI::IntSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#adaeda67f6086d272469deb0cc46fa424">getRequestedSize</a> ()</td></tr>
 <tr class="separator:adaeda67f6086d272469deb0cc46fa424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90358d1af6b09d931e81c49ee46b7400"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#a90358d1af6b09d931e81c49ee46b7400">ImageButton</a> ()</td></tr>
+<tr class="separator:a90358d1af6b09d931e81c49ee46b7400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a924a22f07f87e8efdb2810bd6cd19189"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#a924a22f07f87e8efdb2810bd6cd19189">setImage</a> (const std::string &amp;image)</td></tr>
 <tr class="memdesc:a924a22f07f87e8efdb2810bd6cd19189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set mImageNormal, mImageHighlighted and mImagePushed based on file convention (image_idle.ext, image_over.ext and image_pressed.ext)  <a href="#a924a22f07f87e8efdb2810bd6cd19189">More...</a><br/></td></tr>
 <tr class="separator:a924a22f07f87e8efdb2810bd6cd19189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ad015cfe3f7ec5501415a5d13a6970028"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#ad015cfe3f7ec5501415a5d13a6970028">setDefaultNeedKeyFocus</a> (<a class="el" href="classbool.html">bool</a> enabled)</td></tr>
+<tr class="separator:ad015cfe3f7ec5501415a5d13a6970028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -141,6 +151,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a05103e890e0e1cb63e9ecce4e5d54be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aede797d1a499fbb7e655f9bbc7998976"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#aede797d1a499fbb7e655f9bbc7998976">onMouseButtonReleased</a> (<a class="el" href="classint.html">int</a> _left, <a class="el" href="classint.html">int</a> _top, MyGUI::MouseButton _id)</td></tr>
 <tr class="separator:aede797d1a499fbb7e655f9bbc7998976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d468909e1f3d5040dee60c66473a66a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#a3d468909e1f3d5040dee60c66473a66a">onKeySetFocus</a> (MyGUI::Widget *_old)</td></tr>
+<tr class="separator:a3d468909e1f3d5040dee60c66473a66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2b4ba8883bb237166c0a49f0a8e4a6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#abd2b4ba8883bb237166c0a49f0a8e4a6">onKeyLostFocus</a> (MyGUI::Widget *_new)</td></tr>
+<tr class="separator:abd2b4ba8883bb237166c0a49f0a8e4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -150,10 +164,42 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a9b0159c33f308e5558add311de1219ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56ea98b12e12a9ac8f638ab2b99fb751"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#a56ea98b12e12a9ac8f638ab2b99fb751">mImagePushed</a></td></tr>
 <tr class="separator:a56ea98b12e12a9ac8f638ab2b99fb751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8d86d9952a2739e600d4f91e22a95d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#a0e8d86d9952a2739e600d4f91e22a95d">mMouseFocus</a></td></tr>
+<tr class="separator:a0e8d86d9952a2739e600d4f91e22a95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6babcb64745bc749e6d09557e7de8ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#ab6babcb64745bc749e6d09557e7de8ad">mMousePress</a></td></tr>
+<tr class="separator:ab6babcb64745bc749e6d09557e7de8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac53f9e1e3ec0f6599942fb295fc07759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#ac53f9e1e3ec0f6599942fb295fc07759">mKeyFocus</a></td></tr>
+<tr class="separator:ac53f9e1e3ec0f6599942fb295fc07759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:adeb0970f5f99c2063b7552063b1fbd34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#adeb0970f5f99c2063b7552063b1fbd34">updateImage</a> ()</td></tr>
+<tr class="separator:adeb0970f5f99c2063b7552063b1fbd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ac5f3d0a29deaa1f641bb9c1b778ce89e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui_1_1ImageButton.html#ac5f3d0a29deaa1f641bb9c1b778ce89e">sDefaultNeedKeyFocus</a> = true</td></tr>
+<tr class="separator:ac5f3d0a29deaa1f641bb9c1b778ce89e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>allows using different image textures depending on the button state </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a90358d1af6b09d931e81c49ee46b7400"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gui::ImageButton::ImageButton </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="adaeda67f6086d272469deb0cc46fa424"></a>
 <div class="memitem">
 <div class="memproto">
@@ -170,7 +216,71 @@ Protected Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_adaeda67f6086d272469deb0cc46fa424_icgraph.svg" width="1531" height="1344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_adaeda67f6086d272469deb0cc46fa424_icgraph.svg" width="827" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abd2b4ba8883bb237166c0a49f0a8e4a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Gui::ImageButton::onKeyLostFocus </td>
+          <td>(</td>
+          <td class="paramtype">MyGUI::Widget *&#160;</td>
+          <td class="paramname"><em>_new</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_abd2b4ba8883bb237166c0a49f0a8e4a6_cgraph.svg" width="454" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d468909e1f3d5040dee60c66473a66a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Gui::ImageButton::onKeySetFocus </td>
+          <td>(</td>
+          <td class="paramtype">MyGUI::Widget *&#160;</td>
+          <td class="paramname"><em>_old</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_a3d468909e1f3d5040dee60c66473a66a_cgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -215,6 +325,14 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_a05103e890e0e1cb63e9ecce4e5d54be4_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="aede797d1a499fbb7e655f9bbc7998976"></a>
@@ -255,6 +373,14 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_aede797d1a499fbb7e655f9bbc7998976_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a4f16c521cdab12ffb5c566ddc0e6b701"></a>
@@ -279,6 +405,14 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_a4f16c521cdab12ffb5c566ddc0e6b701_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a8f90d7c2cfb6f4cc095684382dead0f8"></a>
@@ -302,6 +436,46 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_a8f90d7c2cfb6f4cc095684382dead0f8_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad015cfe3f7ec5501415a5d13a6970028"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Gui::ImageButton::setDefaultNeedKeyFocus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_ad015cfe3f7ec5501415a5d13a6970028_icgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -362,6 +536,37 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adeb0970f5f99c2063b7552063b1fbd34"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Gui::ImageButton::updateImage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGui_1_1ImageButton_adeb0970f5f99c2063b7552063b1fbd34_icgraph.svg" width="454" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -426,14 +631,94 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ac53f9e1e3ec0f6599942fb295fc07759"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Gui::ImageButton::mKeyFocus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0e8d86d9952a2739e600d4f91e22a95d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Gui::ImageButton::mMouseFocus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab6babcb64745bc749e6d09557e7de8ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Gui::ImageButton::mMousePress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac5f3d0a29deaa1f641bb9c1b778ce89e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Gui::ImageButton::sDefaultNeedKeyFocus = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/widgets/<a class="el" href="imagebutton_8hpp_source.html">imagebutton.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/widgets/<a class="el" href="imagebutton_8cpp.html">imagebutton.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/widgets/<a class="el" href="imagebutton_8hpp_source.html">imagebutton.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/widgets/<a class="el" href="imagebutton_8cpp.html">imagebutton.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

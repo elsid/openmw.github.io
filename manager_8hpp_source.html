@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/vfs/manager.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/vfs/manager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -118,51 +118,55 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classVFS_1_1Manager.html#a6d49b67170250a7a0793f49c62e6e413">~Manager</a>();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classVFS_1_1Manager.html#a34cac25d028aac318d1ed41be26c48dc">addArchive</a>(<a class="code" href="classVFS_1_1Archive.html">Archive</a>* archive);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classVFS_1_1Manager.html#ad641d4af3945cf68a8857afa7ffa841a">buildIndex</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="comment">// Empty the file index and unregister archives.</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classVFS_1_1Manager.html#a54349edcdb63d08d748e942f226ae8b2">reset</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classVFS_1_1Manager.html#a34cac25d028aac318d1ed41be26c48dc">addArchive</a>(<a class="code" href="classVFS_1_1Archive.html">Archive</a>* archive);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc">exists</a>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keyword">const</span> std::map&lt;std::string, File*&gt;&amp; <a class="code" href="classVFS_1_1Manager.html#a20f115d6d26ea9c4dffaf8a4d1e76fa1">getIndex</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479">normalizeFilename</a>(std::string&amp; name) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="namespaceFiles.html#aba837ada2130f11d385768dcd8f0a950">Files::IStreamPtr</a> <span class="keyword">get</span>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="namespaceFiles.html#aba837ada2130f11d385768dcd8f0a950">Files::IStreamPtr</a> <a class="code" href="classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc">getNormalized</a>(<span class="keyword">const</span> std::string&amp; normalizedName) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classVFS_1_1Manager.html#a239f08a8df8bcf51c2c0bb92b2965c7a">   59</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classVFS_1_1Manager.html#a239f08a8df8bcf51c2c0bb92b2965c7a">mStrict</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classVFS_1_1Manager.html#ad641d4af3945cf68a8857afa7ffa841a">buildIndex</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc">exists</a>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">const</span> std::map&lt;std::string, File*&gt;&amp; <a class="code" href="classVFS_1_1Manager.html#a20f115d6d26ea9c4dffaf8a4d1e76fa1">getIndex</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479">normalizeFilename</a>(std::string&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a> <span class="keyword">get</span>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a> <a class="code" href="classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc">getNormalized</a>(<span class="keyword">const</span> std::string&amp; normalizedName) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="classVFS_1_1Manager.html#a4548c62bfe7ce8b57336cab08aeaf6df">   61</a></span>&#160;        std::vector&lt;Archive*&gt; <a class="code" href="classVFS_1_1Manager.html#a4548c62bfe7ce8b57336cab08aeaf6df">mArchives</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classVFS_1_1Manager.html#a7068bbeb321a388446f8a393a9a88c7f">   63</a></span>&#160;        std::map&lt;std::string, File*&gt; <a class="code" href="classVFS_1_1Manager.html#a7068bbeb321a388446f8a393a9a88c7f">mIndex</a>;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    };</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classVFS_1_1Manager.html#a239f08a8df8bcf51c2c0bb92b2965c7a">   62</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classVFS_1_1Manager.html#a239f08a8df8bcf51c2c0bb92b2965c7a">mStrict</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classVFS_1_1Manager.html#a4548c62bfe7ce8b57336cab08aeaf6df">   64</a></span>&#160;        std::vector&lt;Archive*&gt; <a class="code" href="classVFS_1_1Manager.html#a4548c62bfe7ce8b57336cab08aeaf6df">mArchives</a>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classVFS_1_1Manager.html#a7068bbeb321a388446f8a393a9a88c7f">   66</a></span>&#160;        std::map&lt;std::string, File*&gt; <a class="code" href="classVFS_1_1Manager.html#a7068bbeb321a388446f8a393a9a88c7f">mIndex</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    };</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classVFS_1_1Manager_html_a6d49b67170250a7a0793f49c62e6e413"><div class="ttname"><a href="classVFS_1_1Manager.html#a6d49b67170250a7a0793f49c62e6e413">VFS::Manager::~Manager</a></div><div class="ttdeci">~Manager()</div><div class="ttdef"><b>Definition:</b> manager.cpp:40</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_a04ff23609a5f3799f655506d7c535afc"><div class="ttname"><a href="classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc">VFS::Manager::exists</a></div><div class="ttdeci">bool exists(const std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> manager.cpp:76</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_a239f08a8df8bcf51c2c0bb92b2965c7a"><div class="ttname"><a href="classVFS_1_1Manager.html#a239f08a8df8bcf51c2c0bb92b2965c7a">VFS::Manager::mStrict</a></div><div class="ttdeci">bool mStrict</div><div class="ttdef"><b>Definition:</b> manager.hpp:59</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_a3722fa539b98563021bea9fc4a8511bc"><div class="ttname"><a href="classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc">VFS::Manager::getNormalized</a></div><div class="ttdeci">Files::IStreamPtr getNormalized(const std::string &amp;normalizedName) const </div><div class="ttdef"><b>Definition:</b> manager.cpp:68</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a04ff23609a5f3799f655506d7c535afc"><div class="ttname"><a href="classVFS_1_1Manager.html#a04ff23609a5f3799f655506d7c535afc">VFS::Manager::exists</a></div><div class="ttdeci">bool exists(const std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> manager.cpp:82</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a239f08a8df8bcf51c2c0bb92b2965c7a"><div class="ttname"><a href="classVFS_1_1Manager.html#a239f08a8df8bcf51c2c0bb92b2965c7a">VFS::Manager::mStrict</a></div><div class="ttdeci">bool mStrict</div><div class="ttdef"><b>Definition:</b> manager.hpp:62</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a3722fa539b98563021bea9fc4a8511bc"><div class="ttname"><a href="classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc">VFS::Manager::getNormalized</a></div><div class="ttdeci">Files::IStreamPtr getNormalized(const std::string &amp;normalizedName) const </div><div class="ttdef"><b>Definition:</b> manager.cpp:74</div></div>
 <div class="ttc" id="constrainedfilestream_8hpp_html"><div class="ttname"><a href="constrainedfilestream_8hpp.html">constrainedfilestream.hpp</a></div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_a20f115d6d26ea9c4dffaf8a4d1e76fa1"><div class="ttname"><a href="classVFS_1_1Manager.html#a20f115d6d26ea9c4dffaf8a4d1e76fa1">VFS::Manager::getIndex</a></div><div class="ttdeci">const std::map&lt; std::string, File * &gt; &amp; getIndex() const </div><div class="ttdef"><b>Definition:</b> manager.cpp:84</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_a4548c62bfe7ce8b57336cab08aeaf6df"><div class="ttname"><a href="classVFS_1_1Manager.html#a4548c62bfe7ce8b57336cab08aeaf6df">VFS::Manager::mArchives</a></div><div class="ttdeci">std::vector&lt; Archive * &gt; mArchives</div><div class="ttdef"><b>Definition:</b> manager.hpp:61</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_a34cac25d028aac318d1ed41be26c48dc"><div class="ttname"><a href="classVFS_1_1Manager.html#a34cac25d028aac318d1ed41be26c48dc">VFS::Manager::addArchive</a></div><div class="ttdeci">void addArchive(Archive *archive)</div><div class="ttdef"><b>Definition:</b> manager.cpp:47</div></div>
+<div class="ttc" id="namespaceFiles_html_a2301289b6d0689e463cde816497d0a72"><div class="ttname"><a href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a></div><div class="ttdeci">std::shared_ptr&lt; std::istream &gt; IStreamPtr</div><div class="ttdef"><b>Definition:</b> constrainedfilestream.hpp:21</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a20f115d6d26ea9c4dffaf8a4d1e76fa1"><div class="ttname"><a href="classVFS_1_1Manager.html#a20f115d6d26ea9c4dffaf8a4d1e76fa1">VFS::Manager::getIndex</a></div><div class="ttdeci">const std::map&lt; std::string, File * &gt; &amp; getIndex() const </div><div class="ttdef"><b>Definition:</b> manager.cpp:90</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a4548c62bfe7ce8b57336cab08aeaf6df"><div class="ttname"><a href="classVFS_1_1Manager.html#a4548c62bfe7ce8b57336cab08aeaf6df">VFS::Manager::mArchives</a></div><div class="ttdeci">std::vector&lt; Archive * &gt; mArchives</div><div class="ttdef"><b>Definition:</b> manager.hpp:64</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a34cac25d028aac318d1ed41be26c48dc"><div class="ttname"><a href="classVFS_1_1Manager.html#a34cac25d028aac318d1ed41be26c48dc">VFS::Manager::addArchive</a></div><div class="ttdeci">void addArchive(Archive *archive)</div><div class="ttdef"><b>Definition:</b> manager.cpp:53</div></div>
 <div class="ttc" id="classVFS_1_1Archive_html"><div class="ttname"><a href="classVFS_1_1Archive.html">VFS::Archive</a></div><div class="ttdef"><b>Definition:</b> archive.hpp:19</div></div>
-<div class="ttc" id="namespaceFiles_html_aba837ada2130f11d385768dcd8f0a950"><div class="ttname"><a href="namespaceFiles.html#aba837ada2130f11d385768dcd8f0a950">Files::IStreamPtr</a></div><div class="ttdeci">boost::shared_ptr&lt; std::istream &gt; IStreamPtr</div><div class="ttdef"><b>Definition:</b> constrainedfilestream.hpp:20</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_a7068bbeb321a388446f8a393a9a88c7f"><div class="ttname"><a href="classVFS_1_1Manager.html#a7068bbeb321a388446f8a393a9a88c7f">VFS::Manager::mIndex</a></div><div class="ttdeci">std::map&lt; std::string, File * &gt; mIndex</div><div class="ttdef"><b>Definition:</b> manager.hpp:63</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a7068bbeb321a388446f8a393a9a88c7f"><div class="ttname"><a href="classVFS_1_1Manager.html#a7068bbeb321a388446f8a393a9a88c7f">VFS::Manager::mIndex</a></div><div class="ttdeci">std::map&lt; std::string, File * &gt; mIndex</div><div class="ttdef"><b>Definition:</b> manager.hpp:66</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a54349edcdb63d08d748e942f226ae8b2"><div class="ttname"><a href="classVFS_1_1Manager.html#a54349edcdb63d08d748e942f226ae8b2">VFS::Manager::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdef"><b>Definition:</b> manager.cpp:45</div></div>
 <div class="ttc" id="classVFS_1_1Manager_html_a36e4d3e83b469d992c616b2e62b35b3a"><div class="ttname"><a href="classVFS_1_1Manager.html#a36e4d3e83b469d992c616b2e62b35b3a">VFS::Manager::Manager</a></div><div class="ttdeci">Manager(bool strict)</div><div class="ttdef"><b>Definition:</b> manager.cpp:34</div></div>
 <div class="ttc" id="classVFS_1_1Manager_html"><div class="ttname"><a href="classVFS_1_1Manager.html">VFS::Manager</a></div><div class="ttdoc">The main class responsible for loading files from a virtual file system. </div><div class="ttdef"><b>Definition:</b> manager.hpp:20</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_ad641d4af3945cf68a8857afa7ffa841a"><div class="ttname"><a href="classVFS_1_1Manager.html#ad641d4af3945cf68a8857afa7ffa841a">VFS::Manager::buildIndex</a></div><div class="ttdeci">void buildIndex()</div><div class="ttdoc">Build the file index. Should be called when all archives have been registered. </div><div class="ttdef"><b>Definition:</b> manager.cpp:52</div></div>
-<div class="ttc" id="classVFS_1_1Manager_html_a2c8881f46b17c4afc707e5923621a479"><div class="ttname"><a href="classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479">VFS::Manager::normalizeFilename</a></div><div class="ttdeci">void normalizeFilename(std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> manager.cpp:89</div></div>
-<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:59</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_ad641d4af3945cf68a8857afa7ffa841a"><div class="ttname"><a href="classVFS_1_1Manager.html#ad641d4af3945cf68a8857afa7ffa841a">VFS::Manager::buildIndex</a></div><div class="ttdeci">void buildIndex()</div><div class="ttdoc">Build the file index. Should be called when all archives have been registered. </div><div class="ttdef"><b>Definition:</b> manager.cpp:58</div></div>
+<div class="ttc" id="classVFS_1_1Manager_html_a2c8881f46b17c4afc707e5923621a479"><div class="ttname"><a href="classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479">VFS::Manager::normalizeFilename</a></div><div class="ttdeci">void normalizeFilename(std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> manager.cpp:95</div></div>
+<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

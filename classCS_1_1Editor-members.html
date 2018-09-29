@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a1cc2d55381cfb8455811eed5d16ff08e">documentAboutToBeRemoved</a>(CSMDoc::Document *document)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#afe8d14cd8303fb2619f99d93656f08a3">documentAdded</a>(CSMDoc::Document *document)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
   <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#aeb3f96085fbbac32a86e539701b1fba9">Editor</a>(const Editor &amp;)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a701b91f2c0861ef47d14af08c16d33a7">Editor</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a71be7e25f47cca93cfcbbf60727cc349">Editor</a>(int argc, char **argv)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a64f07f60785e3473f3d5ec8f6fd2491e">lastDocumentDeleted</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#afec79bc8ba7ac226e2a47d959cbf6576">loadDocument</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
   <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a709356dd109ac1703830b038879a1388">makeIPCServer</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"></td></tr>
@@ -133,20 +133,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#abe44b42876b4aad9330b5cde07403fb3">mSettings</a></td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a4f333fa36ea85847e03529e4062c4b30">mSettingsState</a></td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a0007b9da66607f1f26a4b017a9de73f0">mStartup</a></td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a01e1c1802b29fae518b304f08f2b3e9a">mVFS</a></td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a4b673f7eed60f4946f86df792a7099c5">mViewManager</a></td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#abe2808fc00b82e139334f492439fb46f">openFiles</a>(const boost::filesystem::path &amp;path)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a02c9b1cb12c1dcd8399de40ae27c5c86">operator=</a>(const Editor &amp;)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a49a624947531d54c02083094fb0ca729">readConfig</a>(bool quiet=false)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a531c543c5a8d6b17cfffe3cdffa09392">run</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a208bcfc1f98bf0bdcc7e08559c437f17">setupDataFiles</a>(const Files::PathContainer &amp;dataDirs)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#ada64cf43723ec10d92226e672f66535f">showSettings</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#aa497af33eb130593a12cf4c2ff2ef439">showStartup</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a486941478a7b2be306c08b29528d9e08">~Editor</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a4b673f7eed60f4946f86df792a7099c5">mViewManager</a></td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#abe2808fc00b82e139334f492439fb46f">openFiles</a>(const boost::filesystem::path &amp;path)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a02c9b1cb12c1dcd8399de40ae27c5c86">operator=</a>(const Editor &amp;)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a49a624947531d54c02083094fb0ca729">readConfig</a>(bool quiet=false)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a531c543c5a8d6b17cfffe3cdffa09392">run</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#a208bcfc1f98bf0bdcc7e08559c437f17">setupDataFiles</a>(const Files::PathContainer &amp;dataDirs)</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#ada64cf43723ec10d92226e672f66535f">showSettings</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classCS_1_1Editor.html#aa497af33eb130593a12cf4c2ff2ef439">showStartup</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCS_1_1Editor.html#a486941478a7b2be306c08b29528d9e08">~Editor</a>()</td><td class="entry"><a class="el" href="classCS_1_1Editor.html">CS::Editor</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:56 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:28 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

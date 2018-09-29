@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwgui/videowidget.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwgui/videowidget.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -121,49 +121,52 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        MYGUI_RTTI_DERIVED(<a class="code" href="classMWGui_1_1VideoWidget.html">VideoWidget</a>)</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classMWGui_1_1VideoWidget.html#a223dcbc37b0d0d06d11247a14153c6ee">VideoWidget</a>();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a2fad0ac576de6c8147f0bf4af8fd6435">setVFS</a>(<span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* vfs);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a324da88bef8a9994dfa95964bf39b0c8">playVideo</a> (<span class="keyword">const</span> std::string&amp; video);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="classMWGui_1_1VideoWidget.html#abd75b3304055d2e125b21ade571d5bed">~VideoWidget</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a2fad0ac576de6c8147f0bf4af8fd6435">setVFS</a>(<span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* vfs);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a2f74c2f2064863b358be56e6bf20e337">getVideoWidth</a>();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a6863091a3308cc62ee10c37bad1cd61c">getVideoHeight</a>();</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classMWGui_1_1VideoWidget.html#adf4240d4e89150252666f916eb754099">update</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a17d9473b819abfb47db0647cbb260647">hasAudioStream</a>();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1VideoWidget.html#ae098b70eac89c4cb96bdac8cc7c54eba">stop</a>();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1VideoWidget.html#abaad403ce4a036af41fe395b0a78e203">autoResize</a> (<span class="keywordtype">bool</span> stretch);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMWGui_1_1VideoWidget.html#a672ea410a451a4505433bbeb8bd7cbab">   53</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* <a class="code" href="classMWGui_1_1VideoWidget.html#a672ea410a451a4505433bbeb8bd7cbab">mVFS</a>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classMWGui_1_1VideoWidget.html#a050e2d578d998bf40892674206b491d2">   54</a></span>&#160;        std::auto_ptr&lt;MyGUI::ITexture&gt; <a class="code" href="classMWGui_1_1VideoWidget.html#a050e2d578d998bf40892674206b491d2">mTexture</a>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classMWGui_1_1VideoWidget.html#a5ab66e6ab02901fa9c0b0fc196617b7d">   55</a></span>&#160;        std::auto_ptr&lt;Video::VideoPlayer&gt; <a class="code" href="classMWGui_1_1VideoWidget.html#a5ab66e6ab02901fa9c0b0fc196617b7d">mPlayer</a>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    };</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a324da88bef8a9994dfa95964bf39b0c8">playVideo</a> (<span class="keyword">const</span> std::string&amp; video);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a2f74c2f2064863b358be56e6bf20e337">getVideoWidth</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a6863091a3308cc62ee10c37bad1cd61c">getVideoHeight</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classMWGui_1_1VideoWidget.html#adf4240d4e89150252666f916eb754099">update</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classMWGui_1_1VideoWidget.html#a17d9473b819abfb47db0647cbb260647">hasAudioStream</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1VideoWidget.html#ae098b70eac89c4cb96bdac8cc7c54eba">stop</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1VideoWidget.html#abaad403ce4a036af41fe395b0a78e203">autoResize</a> (<span class="keywordtype">bool</span> stretch);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classMWGui_1_1VideoWidget.html#a672ea410a451a4505433bbeb8bd7cbab">   55</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classVFS_1_1Manager.html">VFS::Manager</a>* <a class="code" href="classMWGui_1_1VideoWidget.html#a672ea410a451a4505433bbeb8bd7cbab">mVFS</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classMWGui_1_1VideoWidget.html#a055e6d0401e27e307c934f16270b48e2">   56</a></span>&#160;        std::unique_ptr&lt;MyGUI::ITexture&gt; <a class="code" href="classMWGui_1_1VideoWidget.html#a055e6d0401e27e307c934f16270b48e2">mTexture</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classMWGui_1_1VideoWidget.html#aed9088d31feb5f37acd603da2d7bf37d">   57</a></span>&#160;        std::unique_ptr&lt;Video::VideoPlayer&gt; <a class="code" href="classMWGui_1_1VideoWidget.html#aed9088d31feb5f37acd603da2d7bf37d">mPlayer</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    };</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classMWGui_1_1VideoWidget_html"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html">MWGui::VideoWidget</a></div><div class="ttdef"><b>Definition:</b> videowidget.hpp:22</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a5ab66e6ab02901fa9c0b0fc196617b7d"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a5ab66e6ab02901fa9c0b0fc196617b7d">MWGui::VideoWidget::mPlayer</a></div><div class="ttdeci">std::auto_ptr&lt; Video::VideoPlayer &gt; mPlayer</div><div class="ttdef"><b>Definition:</b> videowidget.hpp:55</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a672ea410a451a4505433bbeb8bd7cbab"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a672ea410a451a4505433bbeb8bd7cbab">MWGui::VideoWidget::mVFS</a></div><div class="ttdeci">const VFS::Manager * mVFS</div><div class="ttdef"><b>Definition:</b> videowidget.hpp:53</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_abaad403ce4a036af41fe395b0a78e203"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#abaad403ce4a036af41fe395b0a78e203">MWGui::VideoWidget::autoResize</a></div><div class="ttdeci">void autoResize(bool stretch)</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:81</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a223dcbc37b0d0d06d11247a14153c6ee"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a223dcbc37b0d0d06d11247a14153c6ee">MWGui::VideoWidget::VideoWidget</a></div><div class="ttdeci">VideoWidget()</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:17</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a17d9473b819abfb47db0647cbb260647"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a17d9473b819abfb47db0647cbb260647">MWGui::VideoWidget::hasAudioStream</a></div><div class="ttdeci">bool hasAudioStream()</div><div class="ttdoc">Return true if a video is currently playing and it has an audio stream. </div><div class="ttdef"><b>Definition:</b> videowidget.cpp:76</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a050e2d578d998bf40892674206b491d2"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a050e2d578d998bf40892674206b491d2">MWGui::VideoWidget::mTexture</a></div><div class="ttdeci">std::auto_ptr&lt; MyGUI::ITexture &gt; mTexture</div><div class="ttdef"><b>Definition:</b> videowidget.hpp:54</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_adf4240d4e89150252666f916eb754099"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#adf4240d4e89150252666f916eb754099">MWGui::VideoWidget::update</a></div><div class="ttdeci">bool update()</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:66</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a324da88bef8a9994dfa95964bf39b0c8"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a324da88bef8a9994dfa95964bf39b0c8">MWGui::VideoWidget::playVideo</a></div><div class="ttdeci">void playVideo(const std::string &amp;video)</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:29</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_ae098b70eac89c4cb96bdac8cc7c54eba"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#ae098b70eac89c4cb96bdac8cc7c54eba">MWGui::VideoWidget::stop</a></div><div class="ttdeci">void stop()</div><div class="ttdoc">Stop video and free resources (done automatically on destruction) </div><div class="ttdef"><b>Definition:</b> videowidget.cpp:71</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_a055e6d0401e27e307c934f16270b48e2"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a055e6d0401e27e307c934f16270b48e2">MWGui::VideoWidget::mTexture</a></div><div class="ttdeci">std::unique_ptr&lt; MyGUI::ITexture &gt; mTexture</div><div class="ttdef"><b>Definition:</b> videowidget.hpp:56</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_a672ea410a451a4505433bbeb8bd7cbab"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a672ea410a451a4505433bbeb8bd7cbab">MWGui::VideoWidget::mVFS</a></div><div class="ttdeci">const VFS::Manager * mVFS</div><div class="ttdef"><b>Definition:</b> videowidget.hpp:55</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_abaad403ce4a036af41fe395b0a78e203"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#abaad403ce4a036af41fe395b0a78e203">MWGui::VideoWidget::autoResize</a></div><div class="ttdeci">void autoResize(bool stretch)</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:84</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_a223dcbc37b0d0d06d11247a14153c6ee"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a223dcbc37b0d0d06d11247a14153c6ee">MWGui::VideoWidget::VideoWidget</a></div><div class="ttdeci">VideoWidget()</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:18</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_a17d9473b819abfb47db0647cbb260647"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a17d9473b819abfb47db0647cbb260647">MWGui::VideoWidget::hasAudioStream</a></div><div class="ttdeci">bool hasAudioStream()</div><div class="ttdoc">Return true if a video is currently playing and it has an audio stream. </div><div class="ttdef"><b>Definition:</b> videowidget.cpp:79</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_abd75b3304055d2e125b21ade571d5bed"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#abd75b3304055d2e125b21ade571d5bed">MWGui::VideoWidget::~VideoWidget</a></div><div class="ttdeci">~VideoWidget()</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_adf4240d4e89150252666f916eb754099"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#adf4240d4e89150252666f916eb754099">MWGui::VideoWidget::update</a></div><div class="ttdeci">bool update()</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:69</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_a324da88bef8a9994dfa95964bf39b0c8"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a324da88bef8a9994dfa95964bf39b0c8">MWGui::VideoWidget::playVideo</a></div><div class="ttdeci">void playVideo(const std::string &amp;video)</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:32</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_ae098b70eac89c4cb96bdac8cc7c54eba"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#ae098b70eac89c4cb96bdac8cc7c54eba">MWGui::VideoWidget::stop</a></div><div class="ttdeci">void stop()</div><div class="ttdoc">Stop video and free resources (done automatically on destruction) </div><div class="ttdef"><b>Definition:</b> videowidget.cpp:74</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_aed9088d31feb5f37acd603da2d7bf37d"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#aed9088d31feb5f37acd603da2d7bf37d">MWGui::VideoWidget::mPlayer</a></div><div class="ttdeci">std::unique_ptr&lt; Video::VideoPlayer &gt; mPlayer</div><div class="ttdef"><b>Definition:</b> videowidget.hpp:57</div></div>
 <div class="ttc" id="classVFS_1_1Manager_html"><div class="ttname"><a href="classVFS_1_1Manager.html">VFS::Manager</a></div><div class="ttdoc">The main class responsible for loading files from a virtual file system. </div><div class="ttdef"><b>Definition:</b> manager.hpp:20</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a6863091a3308cc62ee10c37bad1cd61c"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a6863091a3308cc62ee10c37bad1cd61c">MWGui::VideoWidget::getVideoHeight</a></div><div class="ttdeci">int getVideoHeight()</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:61</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a2fad0ac576de6c8147f0bf4af8fd6435"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a2fad0ac576de6c8147f0bf4af8fd6435">MWGui::VideoWidget::setVFS</a></div><div class="ttdeci">void setVFS(const VFS::Manager *vfs)</div><div class="ttdoc">Set the VFS (virtual file system) to find the videos on. </div><div class="ttdef"><b>Definition:</b> videowidget.cpp:24</div></div>
-<div class="ttc" id="classMWGui_1_1VideoWidget_html_a2f74c2f2064863b358be56e6bf20e337"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a2f74c2f2064863b358be56e6bf20e337">MWGui::VideoWidget::getVideoWidth</a></div><div class="ttdeci">int getVideoWidth()</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:56</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_a6863091a3308cc62ee10c37bad1cd61c"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a6863091a3308cc62ee10c37bad1cd61c">MWGui::VideoWidget::getVideoHeight</a></div><div class="ttdeci">int getVideoHeight()</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:64</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_a2fad0ac576de6c8147f0bf4af8fd6435"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a2fad0ac576de6c8147f0bf4af8fd6435">MWGui::VideoWidget::setVFS</a></div><div class="ttdeci">void setVFS(const VFS::Manager *vfs)</div><div class="ttdoc">Set the VFS (virtual file system) to find the videos on. </div><div class="ttdef"><b>Definition:</b> videowidget.cpp:27</div></div>
+<div class="ttc" id="classMWGui_1_1VideoWidget_html_a2f74c2f2064863b358be56e6bf20e337"><div class="ttname"><a href="classMWGui_1_1VideoWidget.html#a2f74c2f2064863b358be56e6bf20e337">MWGui::VideoWidget::getVideoWidth</a></div><div class="ttdeci">int getVideoWidth()</div><div class="ttdef"><b>Definition:</b> videowidget.cpp:59</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:50 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:22 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

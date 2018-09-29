@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/mergestate.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/mergestate.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structCSMTools_1_1MergeState.html">   13</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structCSMTools_1_1MergeState.html">MergeState</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structCSMTools_1_1MergeState.html#a1b65a6a65ea05149c96adb7ca8343ec7">   15</a></span>&#160;        std::auto_ptr&lt;CSMDoc::Document&gt; <a class="code" href="structCSMTools_1_1MergeState.html#a1b65a6a65ea05149c96adb7ca8343ec7">mTarget</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structCSMTools_1_1MergeState.html#a4f437177138ba29b9f661662f19022a8">   15</a></span>&#160;        std::unique_ptr&lt;CSMDoc::Document&gt; <a class="code" href="structCSMTools_1_1MergeState.html#a4f437177138ba29b9f661662f19022a8">mTarget</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structCSMTools_1_1MergeState.html#a7bcee6c67e4145dde8adb9c37a097cf1">   16</a></span>&#160;        <a class="code" href="classCSMDoc_1_1Document.html">CSMDoc::Document</a>&amp; <a class="code" href="structCSMTools_1_1MergeState.html#a7bcee6c67e4145dde8adb9c37a097cf1">mSource</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structCSMTools_1_1MergeState.html#ac486b8c89bec6ff819c39a77a1fc65cf">   17</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="structCSMTools_1_1MergeState.html#ac486b8c89bec6ff819c39a77a1fc65cf">mCompleted</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structCSMTools_1_1MergeState.html#a33594ca6677e59d7775b01d6e48fb160">   18</a></span>&#160;        std::map&lt;std::pair&lt;uint16_t, int&gt;, <span class="keywordtype">int</span>&gt; <a class="code" href="structCSMTools_1_1MergeState.html#a33594ca6677e59d7775b01d6e48fb160">mTextureIndices</a>; <span class="comment">// (texture, content file) -&gt; new texture</span></div>
@@ -121,8 +121,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="structCSMTools_1_1MergeState_html_a1b65a6a65ea05149c96adb7ca8343ec7"><div class="ttname"><a href="structCSMTools_1_1MergeState.html#a1b65a6a65ea05149c96adb7ca8343ec7">CSMTools::MergeState::mTarget</a></div><div class="ttdeci">std::auto_ptr&lt; CSMDoc::Document &gt; mTarget</div><div class="ttdef"><b>Definition:</b> mergestate.hpp:15</div></div>
 <div class="ttc" id="structCSMTools_1_1MergeState_html_a4151ada17e07427faade7d5f3badad8a"><div class="ttname"><a href="structCSMTools_1_1MergeState.html#a4151ada17e07427faade7d5f3badad8a">CSMTools::MergeState::MergeState</a></div><div class="ttdeci">MergeState(CSMDoc::Document &amp;source)</div><div class="ttdef"><b>Definition:</b> mergestate.hpp:20</div></div>
+<div class="ttc" id="structCSMTools_1_1MergeState_html_a4f437177138ba29b9f661662f19022a8"><div class="ttname"><a href="structCSMTools_1_1MergeState.html#a4f437177138ba29b9f661662f19022a8">CSMTools::MergeState::mTarget</a></div><div class="ttdeci">std::unique_ptr&lt; CSMDoc::Document &gt; mTarget</div><div class="ttdef"><b>Definition:</b> mergestate.hpp:15</div></div>
 <div class="ttc" id="classCSMDoc_1_1Document_html"><div class="ttname"><a href="classCSMDoc_1_1Document.html">CSMDoc::Document</a></div><div class="ttdef"><b>Definition:</b> document.hpp:57</div></div>
 <div class="ttc" id="structCSMTools_1_1MergeState_html_a7bcee6c67e4145dde8adb9c37a097cf1"><div class="ttname"><a href="structCSMTools_1_1MergeState.html#a7bcee6c67e4145dde8adb9c37a097cf1">CSMTools::MergeState::mSource</a></div><div class="ttdeci">CSMDoc::Document &amp; mSource</div><div class="ttdef"><b>Definition:</b> mergestate.hpp:16</div></div>
 <div class="ttc" id="structCSMTools_1_1MergeState_html_a33594ca6677e59d7775b01d6e48fb160"><div class="ttname"><a href="structCSMTools_1_1MergeState.html#a33594ca6677e59d7775b01d6e48fb160">CSMTools::MergeState::mTextureIndices</a></div><div class="ttdeci">std::map&lt; std::pair&lt; uint16_t, int &gt;, int &gt; mTextureIndices</div><div class="ttdef"><b>Definition:</b> mergestate.hpp:18</div></div>
@@ -131,7 +131,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

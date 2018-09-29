@@ -5,7 +5,7 @@ var searchData=
   ['default_5fheight',['DEFAULT_HEIGHT',['../structESM_1_1Land.html#a85445ce556826888dfb92018d0d99eb9',1,'ESM::Land']]],
   ['defaultheight',['defaultHeight',['../namespaceESMTerrain.html#aaf142ebae09c404a4d9c819af718f578',1,'ESMTerrain']]],
   ['defaulttextures',['defaultTextures',['../namespaceShader.html#a0a58bc3f08cfa60f355481a2e97d619d',1,'Shader']]],
-  ['desc',['desc',['../structESM_1_1Header_1_1Data.html#a552d8cf8070beafa9a6485026631385e',1,'ESM::Header::Data']]],
+  ['desc',['desc',['../structESM_1_1Data.html#a38f16518f57c9b8651cc7bff10ce495b',1,'ESM::Data']]],
   ['description',['description',['../structESMData.html#af10e03ef1e819ca8095a70d8e2eff02b',1,'ESMData']]],
   ['dest',['dest',['../structMWBase_1_1World_1_1DoorMarker.html#a38fa02be14afd54c200f1928731e1ccb',1,'MWBase::World::DoorMarker']]],
   ['destination_5ftolerance',['DESTINATION_TOLERANCE',['../namespaceMWMechanics.html#acf08fabea132b4791f40f6e29f641c2a',1,'MWMechanics']]],
@@ -28,9 +28,16 @@ var searchData=
   ['diffuse',['diffuse',['../structNif_1_1NiLight.html#afb6ea974817f83772dbe5ba6def03b09',1,'Nif::NiLight::diffuse()'],['../structNif_1_1S__MaterialProperty.html#adc61ac21e27f50125ffa975a91551685',1,'Nif::S_MaterialProperty::diffuse()']]],
   ['dimmer',['dimmer',['../structNif_1_1NiLight.html#acb4c34e7ecd51b909833bde13c0a56b9',1,'Nif::NiLight']]],
   ['dist_5fsame_5fspot',['DIST_SAME_SPOT',['../namespaceMWMechanics.html#a6c302f785eb1f23c4a775110fca0a408',1,'MWMechanics']]],
+  ['dlinteriorfogend',['DLInteriorFogEnd',['../namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#a0d2b824099c5b150afbbc861f5c1f8e2',1,'anonymous_namespace{renderingmanager.cpp}']]],
+  ['dlinteriorfogstart',['DLInteriorFogStart',['../namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#af503bd5913a4a36762001bb2099f6c9f',1,'anonymous_namespace{renderingmanager.cpp}']]],
+  ['dllandfogend',['DLLandFogEnd',['../namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#a2bf22ed0a4d852f5aab5f0a7bb815d21',1,'anonymous_namespace{renderingmanager.cpp}']]],
+  ['dllandfogstart',['DLLandFogStart',['../namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#a1b26ee067f87e02de85d510de9dabd18',1,'anonymous_namespace{renderingmanager.cpp}']]],
+  ['dlunderwaterfogend',['DLUnderwaterFogEnd',['../namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#a7ed1211b15ca27b5b73077edc5d60689',1,'anonymous_namespace{renderingmanager.cpp}']]],
+  ['dlunderwaterfogstart',['DLUnderwaterFogStart',['../namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#aa23b2f9ff85de4701ebc3e899455fd59',1,'anonymous_namespace{renderingmanager.cpp}']]],
   ['door_5fcheck_5finterval',['DOOR_CHECK_INTERVAL',['../namespaceMWMechanics.html#aa56a635e799cc9a219aa9b51084fac75',1,'MWMechanics']]],
   ['drawmode',['drawMode',['../structNif_1_1S__StencilProperty.html#a1ef5728f545999e756069a99b5c5af7a',1,'Nif::S_StencilProperty']]],
   ['dummylistener',['dummyListener',['../test__store_8cpp.html#a7c4d29e09e9cd3f397e10bcbb2adea16',1,'test_store.cpp']]],
   ['duration_5fsame_5fspot',['DURATION_SAME_SPOT',['../namespaceMWMechanics.html#a824528446b8c9f05518b53f212c8a926',1,'MWMechanics']]],
-  ['duration_5fto_5fevade',['DURATION_TO_EVADE',['../namespaceMWMechanics.html#abdbf7ad44b6b5d5a7d6a9564febba84a',1,'MWMechanics']]]
+  ['duration_5fto_5fevade',['DURATION_TO_EVADE',['../namespaceMWMechanics.html#abdbf7ad44b6b5d5a7d6a9564febba84a',1,'MWMechanics']]],
+  ['dxtcsupported',['DXTCSupported',['../namespaceCursorDecompression.html#a11e2f20aca048a4825b881ac20de0d46',1,'CursorDecompression']]]
 ];

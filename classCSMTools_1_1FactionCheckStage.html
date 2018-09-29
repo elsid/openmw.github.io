@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,13 +110,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for CSMTools::FactionCheckStage:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1FactionCheckStage__inherit__graph.svg" width="222" height="272"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1FactionCheckStage__inherit__graph.svg" width="222" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CSMTools::FactionCheckStage:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1FactionCheckStage__coll__graph.svg" width="836" height="1299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1FactionCheckStage__coll__graph.svg" width="838" height="1328"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -138,6 +138,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a4b32edc2af6fae4ec3a5f95874849d51"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection</a><br class="typebreak"/>
 &lt; <a class="el" href="structESM_1_1Faction.html">ESM::Faction</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMTools_1_1FactionCheckStage.html#a4b32edc2af6fae4ec3a5f95874849d51">mFactions</a></td></tr>
 <tr class="separator:a4b32edc2af6fae4ec3a5f95874849d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214b90661e4574c5fe11f2122237b341"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMTools_1_1FactionCheckStage.html#a214b90661e4574c5fe11f2122237b341">mIgnoreBaseRecords</a></td></tr>
+<tr class="separator:a214b90661e4574c5fe11f2122237b341"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>VerifyStage: make sure that faction records are internally consistent. </p>
@@ -192,14 +194,14 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Messages resulting from this tage will be appended to <em>messages</em>. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>check data members that can't be edited in the table view </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>check data members that can't be edited in the table view </dd></dl>
 
 <p>Implements <a class="el" href="classCSMDoc_1_1Stage.html#ad1a745da9092f2fb6ac7a4942a2a2bf7">CSMDoc::Stage</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1FactionCheckStage_a2e3ff4e0202c3db0f0bf6ee6e483162c_cgraph.svg" width="1200" height="259"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1FactionCheckStage_a2e3ff4e0202c3db0f0bf6ee6e483162c_cgraph.svg" width="454" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -230,6 +232,14 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classCSMDoc_1_1Stage.html#ae20cbb129eb111328df48dbd42092db2">CSMDoc::Stage</a>.</p>
 
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1FactionCheckStage_a0258f18ccd26bde4a0ce333d2cc4a8f7_cgraph.svg" width="587" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -253,14 +263,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a214b90661e4574c5fe11f2122237b341"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> CSMTools::FactionCheckStage::mIgnoreBaseRecords</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/tools/<a class="el" href="factioncheck_8hpp_source.html">factioncheck.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/tools/<a class="el" href="factioncheck_8cpp.html">factioncheck.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/tools/<a class="el" href="factioncheck_8hpp_source.html">factioncheck.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/tools/<a class="el" href="factioncheck_8cpp.html">factioncheck.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:56 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:28 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

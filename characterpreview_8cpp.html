@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwrender/characterpreview.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwrender/characterpreview.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -101,8 +101,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="characterpreview_8hpp_source.html">characterpreview.hpp</a>&quot;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;cmath&gt;</code><br/>
+<code>#include &lt;osg/Material&gt;</code><br/>
 <code>#include &lt;osg/Fog&gt;</code><br/>
+<code>#include &lt;osg/BlendFunc&gt;</code><br/>
 <code>#include &lt;osg/Texture2D&gt;</code><br/>
 <code>#include &lt;osg/Camera&gt;</code><br/>
 <code>#include &lt;osg/PositionAttitudeTransform&gt;</code><br/>
@@ -110,24 +112,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;osg/LightSource&gt;</code><br/>
 <code>#include &lt;osgUtil/IntersectionVisitor&gt;</code><br/>
 <code>#include &lt;osgUtil/LineSegmentIntersector&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="fallback_8hpp_source.html">components/fallback/fallback.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="lightmanager_8hpp_source.html">components/sceneutil/lightmanager.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="environment_8hpp_source.html">../mwbase/environment.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwbase_2world_8hpp_source.html">../mwbase/world.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="mwworld_2class_8hpp_source.html">../mwworld/class.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="inventorystore_8hpp_source.html">../mwworld/inventorystore.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="actorutil_8hpp_source.html">../mwmechanics/actorutil.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="apps_2openmw_2mwmechanics_2actorutil_8hpp_source.html">../mwmechanics/actorutil.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="npcanimation_8hpp_source.html">npcanimation.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="vismask_8hpp_source.html">vismask.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for characterpreview.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="characterpreview_8cpp__incl.svg" width="2976" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="characterpreview_8cpp__incl.svg" width="3694" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1DrawOnceCallback.html">MWRender::DrawOnceCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1SetUpBlendVisitor.html">MWRender::SetUpBlendVisitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1UpdateCameraCallback.html">MWRender::UpdateCameraCallback</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,7 +147,7 @@ Namespaces</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

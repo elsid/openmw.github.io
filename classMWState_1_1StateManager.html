@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8408f7f546ca490a0da8bc1964cbf9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2495a8e8b992c839ebf08016e7f2b11d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWState_1_1StateManager.html#a2495a8e8b992c839ebf08016e7f2b11d">endGame</a> ()</td></tr>
 <tr class="separator:a2495a8e8b992c839ebf08016e7f2b11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a76ee290444f1ddb22215d57a99320"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWState_1_1StateManager.html#a51a76ee290444f1ddb22215d57a99320">resumeGame</a> ()</td></tr>
+<tr class="separator:a51a76ee290444f1ddb22215d57a99320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ea31ca7daf12f4c5f223759e999d7a9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWState_1_1StateManager.html#a2ea31ca7daf12f4c5f223759e999d7a9">deleteGame</a> (const <a class="el" href="classMWState_1_1Character.html">MWState::Character</a> *character, const <a class="el" href="structMWState_1_1Slot.html">MWState::Slot</a> *slot)</td></tr>
 <tr class="memdesc:a2ea31ca7daf12f4c5f223759e999d7a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a saved game slot from this character. If all save slots are deleted, the character will be deleted too.  <a href="#a2ea31ca7daf12f4c5f223759e999d7a9">More...</a><br/></td></tr>
 <tr class="separator:a2ea31ca7daf12f4c5f223759e999d7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -623,7 +625,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWState_1_1StateManager_a8408f7f546ca490a0da8bc1964cbf9e6_cgraph.svg" width="1352" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWState_1_1StateManager_a8408f7f546ca490a0da8bc1964cbf9e6_cgraph.svg" width="1352" height="786"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -694,7 +696,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWState_1_1StateManager_a8ae371191aede7ce856a5730044b7464_cgraph.svg" width="432" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWState_1_1StateManager_a8ae371191aede7ce856a5730044b7464_cgraph.svg" width="678" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -723,6 +725,31 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classMWBase_1_1StateManager.html#ae8a1eca6279998ed614775a77a20eea1">MWBase::StateManager</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a51a76ee290444f1ddb22215d57a99320"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWState::StateManager::resumeGame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classMWBase_1_1StateManager.html#abea516e683812e2eda789c36adc352bb">MWBase::StateManager</a>.</p>
 
 </div>
 </div>
@@ -964,13 +991,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwstate/<a class="el" href="statemanagerimp_8hpp_source.html">statemanagerimp.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwstate/<a class="el" href="statemanagerimp_8cpp.html">statemanagerimp.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwstate/<a class="el" href="statemanagerimp_8hpp_source.html">statemanagerimp.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwstate/<a class="el" href="statemanagerimp_8cpp.html">statemanagerimp.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:06 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:39 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

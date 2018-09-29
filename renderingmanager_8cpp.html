@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwrender/renderingmanager.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwrender/renderingmanager.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -96,7 +96,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">renderingmanager.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -104,19 +105,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &quot;<a class="el" href="renderingmanager_8hpp_source.html">renderingmanager.hpp</a>&quot;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
 <code>#include &lt;limits&gt;</code><br/>
+<code>#include &lt;cstdlib&gt;</code><br/>
 <code>#include &lt;osg/Light&gt;</code><br/>
 <code>#include &lt;osg/LightModel&gt;</code><br/>
 <code>#include &lt;osg/Fog&gt;</code><br/>
+<code>#include &lt;osg/Material&gt;</code><br/>
 <code>#include &lt;osg/PolygonMode&gt;</code><br/>
 <code>#include &lt;osg/Group&gt;</code><br/>
 <code>#include &lt;osg/UserDataContainer&gt;</code><br/>
 <code>#include &lt;osg/ComputeBoundsVisitor&gt;</code><br/>
+<code>#include &lt;osg/ShapeDrawable&gt;</code><br/>
+<code>#include &lt;osg/TextureCubeMap&gt;</code><br/>
 <code>#include &lt;osgUtil/LineSegmentIntersector&gt;</code><br/>
 <code>#include &lt;osgUtil/IncrementalCompileOperation&gt;</code><br/>
+<code>#include &lt;osg/ImageUtils&gt;</code><br/>
 <code>#include &lt;osgViewer/Viewer&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="resourcesystem_8hpp_source.html">components/resource/resourcesystem.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="imagemanager_8hpp_source.html">components/resource/imagemanager.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="scenemanager_8hpp_source.html">components/resource/scenemanager.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="keyframemanager_8hpp_source.html">components/resource/keyframemanager.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="shadermanager_8hpp_source.html">components/shader/shadermanager.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="settings_8hpp_source.html">components/settings/settings.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="components_2sceneutil_2util_8hpp_source.html">components/sceneutil/util.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="lightmanager_8hpp_source.html">components/sceneutil/lightmanager.hpp</a>&gt;</code><br/>
@@ -124,10 +133,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;<a class="el" href="positionattitudetransform_8hpp_source.html">components/sceneutil/positionattitudetransform.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="workqueue_8hpp_source.html">components/sceneutil/workqueue.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="unrefqueue_8hpp_source.html">components/sceneutil/unrefqueue.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="writescene_8hpp_source.html">components/sceneutil/writescene.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="terraingrid_8hpp_source.html">components/terrain/terraingrid.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="quadtreeworld_8hpp_source.html">components/terrain/quadtreeworld.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="loadcell_8hpp_source.html">components/esm/loadcell.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="fallback_8hpp_source.html">components/fallback/fallback.hpp</a>&gt;</code><br/>
+<code>#include &lt;boost/algorithm/string.hpp&gt;</code><br/>
 <code>#include &quot;<a class="el" href="cellstore_8hpp_source.html">../mwworld/cellstore.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="mwworld_2class_8hpp_source.html">../mwworld/class.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="loadingscreen_8hpp_source.html">../mwgui/loadingscreen.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="environment_8hpp_source.html">../mwbase/environment.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="windowmanager_8hpp_source.html">../mwbase/windowmanager.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="sky_8hpp_source.html">sky.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="effectmanager_8hpp_source.html">effectmanager.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="npcanimation_8hpp_source.html">npcanimation.hpp</a>&quot;</code><br/>
@@ -137,12 +153,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="water_8hpp_source.html">water.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="openmw_2mwrender_2terrainstorage_8hpp_source.html">terrainstorage.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwrender_2util_8hpp_source.html">util.hpp</a>&quot;</code><br/>
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for renderingmanager.cpp:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="renderingmanager_8cpp__incl.svg" width="6252" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -155,6 +165,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespaceanonymous__namespace_02renderingmanager_8cpp_03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02renderingmanager_8cpp_03.html">anonymous_namespace{renderingmanager.cpp}</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceMWRender"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWRender.html">MWRender</a></td></tr>
 <tr class="memdesc:namespaceMWRender"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rendering. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,14 +175,26 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ae93791e4cd672c782c733acb9d2b3a07"><td class="memItemLeft" align="right" valign="top">RenderingManager::RayResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWRender.html#ae93791e4cd672c782c733acb9d2b3a07">MWRender::getIntersectionResult</a> (osgUtil::LineSegmentIntersector *intersector)</td></tr>
 <tr class="separator:ae93791e4cd672c782c733acb9d2b3a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47aa3b83fca246c07596969cdbfe7db5"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
-&lt; osgUtil::IntersectionVisitor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWRender.html#a47aa3b83fca246c07596969cdbfe7db5">MWRender::createIntersectionVisitor</a> (osgUtil::Intersector *intersector, <a class="el" href="classbool.html">bool</a> ignorePlayer, <a class="el" href="classbool.html">bool</a> ignoreActors)</td></tr>
-<tr class="separator:a47aa3b83fca246c07596969cdbfe7db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a1b26ee067f87e02de85d510de9dabd18"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#a1b26ee067f87e02de85d510de9dabd18">anonymous_namespace{renderingmanager.cpp}::DLLandFogStart</a></td></tr>
+<tr class="separator:a1b26ee067f87e02de85d510de9dabd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bf22ed0a4d852f5aab5f0a7bb815d21"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#a2bf22ed0a4d852f5aab5f0a7bb815d21">anonymous_namespace{renderingmanager.cpp}::DLLandFogEnd</a></td></tr>
+<tr class="separator:a2bf22ed0a4d852f5aab5f0a7bb815d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa23b2f9ff85de4701ebc3e899455fd59"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#aa23b2f9ff85de4701ebc3e899455fd59">anonymous_namespace{renderingmanager.cpp}::DLUnderwaterFogStart</a></td></tr>
+<tr class="separator:aa23b2f9ff85de4701ebc3e899455fd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed1211b15ca27b5b73077edc5d60689"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#a7ed1211b15ca27b5b73077edc5d60689">anonymous_namespace{renderingmanager.cpp}::DLUnderwaterFogEnd</a></td></tr>
+<tr class="separator:a7ed1211b15ca27b5b73077edc5d60689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af503bd5913a4a36762001bb2099f6c9f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#af503bd5913a4a36762001bb2099f6c9f">anonymous_namespace{renderingmanager.cpp}::DLInteriorFogStart</a></td></tr>
+<tr class="separator:af503bd5913a4a36762001bb2099f6c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d2b824099c5b150afbbc861f5c1f8e2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02renderingmanager_8cpp_03.html#a0d2b824099c5b150afbbc861f5c1f8e2">anonymous_namespace{renderingmanager.cpp}::DLInteriorFogEnd</a></td></tr>
+<tr class="separator:a0d2b824099c5b150afbbc861f5c1f8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

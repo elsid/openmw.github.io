@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwworld/actionequip.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwworld/actionequip.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -101,31 +101,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GAME_MWWORLD_ACTIONEQUIP_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="action_8hpp.html">action.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ptr_8hpp.html">ptr.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>MWWorld</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMWWorld_1_1ActionEquip.html">    9</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMWWorld_1_1ActionEquip.html">ActionEquip</a> : <span class="keyword">public</span> <a class="code" href="classMWWorld_1_1Action.html">Action</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWWorld_1_1ActionEquip.html#a9fdc99b6c82601b54208471637d0d78e">executeImp</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">Ptr</a>&amp; actor);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <a class="code" href="classMWWorld_1_1ActionEquip.html#ae6b0f8f9a423d68c843b4d46e5114169">ActionEquip</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">Ptr</a>&amp; <span class="keywordtype">object</span>);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    };</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>MWWorld</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classMWWorld_1_1ActionEquip.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMWWorld_1_1ActionEquip.html">ActionEquip</a> : <span class="keyword">public</span> <a class="code" href="classMWWorld_1_1Action.html">Action</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMWWorld_1_1ActionEquip.html#aa963c8a400d549a84214b7c8def01016">   10</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classMWWorld_1_1ActionEquip.html#aa963c8a400d549a84214b7c8def01016">mForce</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWWorld_1_1ActionEquip.html#a9fdc99b6c82601b54208471637d0d78e">executeImp</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">Ptr</a>&amp; actor);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="classMWWorld_1_1ActionEquip.html#a7892eb716676e1b9ff29d95f3076c6ca">ActionEquip</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">Ptr</a>&amp; <span class="keywordtype">object</span>, <span class="keywordtype">bool</span> force=<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    };</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="action_8hpp_html"><div class="ttname"><a href="action_8hpp.html">action.hpp</a></div></div>
 <div class="ttc" id="classMWWorld_1_1Action_html"><div class="ttname"><a href="classMWWorld_1_1Action.html">MWWorld::Action</a></div><div class="ttdoc">Abstract base for actions. </div><div class="ttdef"><b>Definition:</b> action.hpp:11</div></div>
-<div class="ttc" id="classMWWorld_1_1ActionEquip_html_ae6b0f8f9a423d68c843b4d46e5114169"><div class="ttname"><a href="classMWWorld_1_1ActionEquip.html#ae6b0f8f9a423d68c843b4d46e5114169">MWWorld::ActionEquip::ActionEquip</a></div><div class="ttdeci">ActionEquip(const Ptr &amp;object)</div><div class="ttdef"><b>Definition:</b> actionequip.cpp:17</div></div>
-<div class="ttc" id="ptr_8hpp_html"><div class="ttname"><a href="ptr_8hpp.html">ptr.hpp</a></div></div>
-<div class="ttc" id="classMWWorld_1_1ActionEquip_html_a9fdc99b6c82601b54208471637d0d78e"><div class="ttname"><a href="classMWWorld_1_1ActionEquip.html#a9fdc99b6c82601b54208471637d0d78e">MWWorld::ActionEquip::executeImp</a></div><div class="ttdeci">virtual void executeImp(const Ptr &amp;actor)</div><div class="ttdef"><b>Definition:</b> actionequip.cpp:21</div></div>
+<div class="ttc" id="classMWWorld_1_1ActionEquip_html_a9fdc99b6c82601b54208471637d0d78e"><div class="ttname"><a href="classMWWorld_1_1ActionEquip.html#a9fdc99b6c82601b54208471637d0d78e">MWWorld::ActionEquip::executeImp</a></div><div class="ttdeci">virtual void executeImp(const Ptr &amp;actor)</div><div class="ttdef"><b>Definition:</b> actionequip.cpp:23</div></div>
+<div class="ttc" id="classMWWorld_1_1ActionEquip_html_a7892eb716676e1b9ff29d95f3076c6ca"><div class="ttname"><a href="classMWWorld_1_1ActionEquip.html#a7892eb716676e1b9ff29d95f3076c6ca">MWWorld::ActionEquip::ActionEquip</a></div><div class="ttdeci">ActionEquip(const Ptr &amp;object, bool force=false)</div><div class="ttdef"><b>Definition:</b> actionequip.cpp:17</div></div>
 <div class="ttc" id="classMWWorld_1_1Ptr_html"><div class="ttname"><a href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a></div><div class="ttdoc">Pointer to a LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:19</div></div>
-<div class="ttc" id="classMWWorld_1_1ActionEquip_html"><div class="ttname"><a href="classMWWorld_1_1ActionEquip.html">MWWorld::ActionEquip</a></div><div class="ttdef"><b>Definition:</b> actionequip.hpp:9</div></div>
+<div class="ttc" id="classMWWorld_1_1ActionEquip_html_aa963c8a400d549a84214b7c8def01016"><div class="ttname"><a href="classMWWorld_1_1ActionEquip.html#aa963c8a400d549a84214b7c8def01016">MWWorld::ActionEquip::mForce</a></div><div class="ttdeci">bool mForce</div><div class="ttdef"><b>Definition:</b> actionequip.hpp:10</div></div>
+<div class="ttc" id="classMWWorld_1_1ActionEquip_html"><div class="ttname"><a href="classMWWorld_1_1ActionEquip.html">MWWorld::ActionEquip</a></div><div class="ttdef"><b>Definition:</b> actionequip.hpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:51 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:23 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

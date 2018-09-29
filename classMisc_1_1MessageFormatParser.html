@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -132,15 +132,48 @@ Protected Types</h2></td></tr>
 <a class="el" href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cdea8b6c0435abf52e3e950a792fdc6ef1b2">FloatPlaceholder</a>
  }</td></tr>
 <tr class="separator:a4dc484949dfbe5186afd1f8d47969cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba304db05dfa950ff91fd673fe3dda0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0">Notation</a> { <a class="el" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0a1244cc4bace9b7c10c5a49662a0c8df7">FixedNotation</a>, 
+<a class="el" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0af7e8f671160ec3be2874a5383eb01c86">ScientificNotation</a>, 
+<a class="el" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0a1f99806b600889d9a0f5c87c8bf3a4f6">ShortestNotation</a>
+ }</td></tr>
+<tr class="separator:a1ba304db05dfa950ff91fd673fe3dda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a3f578a1b6d459b19aff35f76cb9eaa77"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1MessageFormatParser.html#a3f578a1b6d459b19aff35f76cb9eaa77">visitedPlaceholder</a> (<a class="el" href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cde">Placeholder</a> placeholder, char padding, <a class="el" href="classint.html">int</a> width, <a class="el" href="classint.html">int</a> precision)=0</td></tr>
-<tr class="separator:a3f578a1b6d459b19aff35f76cb9eaa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a6ba1daf27689b59f7a752c4890463a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1MessageFormatParser.html#a5a6ba1daf27689b59f7a752c4890463a">visitedPlaceholder</a> (<a class="el" href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cde">Placeholder</a> placeholder, char padding, <a class="el" href="classint.html">int</a> width, <a class="el" href="classint.html">int</a> precision, <a class="el" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0">Notation</a> notation)=0</td></tr>
+<tr class="separator:a5a6ba1daf27689b59f7a752c4890463a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f581eaacc47479e2bcf0e1e62ac105d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1MessageFormatParser.html#a5f581eaacc47479e2bcf0e1e62ac105d">visitedCharacter</a> (char c)=0</td></tr>
 <tr class="separator:a5f581eaacc47479e2bcf0e1e62ac105d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a1ba304db05dfa950ff91fd673fe3dda0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0">Misc::MessageFormatParser::Notation</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a1ba304db05dfa950ff91fd673fe3dda0a1244cc4bace9b7c10c5a49662a0c8df7"></a>FixedNotation</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a1ba304db05dfa950ff91fd673fe3dda0af7e8f671160ec3be2874a5383eb01c86"></a>ScientificNotation</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a1ba304db05dfa950ff91fd673fe3dda0a1f99806b600889d9a0f5c87c8bf3a4f6"></a>ShortestNotation</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="a4dc484949dfbe5186afd1f8d47969cde"></a>
 <div class="memitem">
 <div class="memproto">
@@ -216,7 +249,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classCompiler_1_1GetArgumentsFromMessageFormat.html#acff008e801035f06330a0d2f7d20e485">Compiler::GetArgumentsFromMessageFormat</a>, and <a class="el" href="classInterpreter_1_1RuntimeMessageFormatter.html#a15a1af2a34ef5c417a1425cd746432ac">Interpreter::RuntimeMessageFormatter</a>.</p>
+<p>Reimplemented in <a class="el" href="classInterpreter_1_1RuntimeMessageFormatter.html#a15a1af2a34ef5c417a1425cd746432ac">Interpreter::RuntimeMessageFormatter</a>, and <a class="el" href="classCompiler_1_1GetArgumentsFromMessageFormat.html#acff008e801035f06330a0d2f7d20e485">Compiler::GetArgumentsFromMessageFormat</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -258,7 +291,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classCompiler_1_1GetArgumentsFromMessageFormat.html#a186803612c6ac734e4c88329bd5fc2be">Compiler::GetArgumentsFromMessageFormat</a>, and <a class="el" href="classInterpreter_1_1RuntimeMessageFormatter.html#a4773cbb98af7def87633c111f1d4bc63">Interpreter::RuntimeMessageFormatter</a>.</p>
+<p>Implemented in <a class="el" href="classInterpreter_1_1RuntimeMessageFormatter.html#a4773cbb98af7def87633c111f1d4bc63">Interpreter::RuntimeMessageFormatter</a>, and <a class="el" href="classCompiler_1_1GetArgumentsFromMessageFormat.html#a186803612c6ac734e4c88329bd5fc2be">Compiler::GetArgumentsFromMessageFormat</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -270,7 +303,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a3f578a1b6d459b19aff35f76cb9eaa77"></a>
+<a class="anchor" id="a5a6ba1daf27689b59f7a752c4890463a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -299,7 +332,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>precision</em>&#160;</td>
+          <td class="paramname"><em>precision</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0">Notation</a>&#160;</td>
+          <td class="paramname"><em>notation</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -314,12 +353,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classCompiler_1_1GetArgumentsFromMessageFormat.html#a8957a6aad01b0cfe362e67451c316b11">Compiler::GetArgumentsFromMessageFormat</a>, and <a class="el" href="classInterpreter_1_1RuntimeMessageFormatter.html#a090d9393ad34597fcc518552c56f12b9">Interpreter::RuntimeMessageFormatter</a>.</p>
+<p>Implemented in <a class="el" href="classCompiler_1_1GetArgumentsFromMessageFormat.html#a24a0907aa9adf7a5d80408b5780cb57e">Compiler::GetArgumentsFromMessageFormat</a>, and <a class="el" href="classInterpreter_1_1RuntimeMessageFormatter.html#a49e4a89c6a6dae942c90371e5478c7c5">Interpreter::RuntimeMessageFormatter</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1MessageFormatParser_a3f578a1b6d459b19aff35f76cb9eaa77_icgraph.svg" width="2019" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1MessageFormatParser_a5a6ba1daf27689b59f7a752c4890463a_icgraph.svg" width="2019" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -327,13 +366,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/misc/<a class="el" href="messageformatparser_8hpp_source.html">messageformatparser.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/misc/<a class="el" href="messageformatparser_8cpp.html">messageformatparser.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/misc/<a class="el" href="messageformatparser_8hpp_source.html">messageformatparser.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/misc/<a class="el" href="messageformatparser_8cpp.html">messageformatparser.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

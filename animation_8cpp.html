@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwrender/animation.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwrender/animation.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,8 +109,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;osg/MatrixTransform&gt;</code><br/>
 <code>#include &lt;osg/BlendFunc&gt;</code><br/>
 <code>#include &lt;osg/Material&gt;</code><br/>
+<code>#include &lt;osg/PositionAttitudeTransform&gt;</code><br/>
 <code>#include &lt;osgParticle/ParticleSystem&gt;</code><br/>
 <code>#include &lt;osgParticle/ParticleProcessor&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="nifloader_8hpp_source.html">components/nifosg/nifloader.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="resourcesystem_8hpp_source.html">components/resource/resourcesystem.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="scenemanager_8hpp_source.html">components/resource/scenemanager.hpp</a>&gt;</code><br/>
@@ -124,6 +126,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;<a class="el" href="lightutil_8hpp_source.html">components/sceneutil/lightutil.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="skeleton_8hpp_source.html">components/sceneutil/skeleton.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="positionattitudetransform_8hpp_source.html">components/sceneutil/positionattitudetransform.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="settings_8hpp_source.html">components/settings/settings.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="fallback_8hpp_source.html">components/fallback/fallback.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="environment_8hpp_source.html">../mwbase/environment.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwbase_2world_8hpp_source.html">../mwbase/world.hpp</a>&quot;</code><br/>
@@ -137,7 +140,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for animation.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="animation_8cpp__incl.svg" width="4610" height="488"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="animation_8cpp__incl.svg" width="4102" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -146,12 +149,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02animation_8cpp_03_1_1RemoveParticlesVisitor.html">anonymous_namespace{animation.cpp}::RemoveParticlesVisitor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all particle systems and related nodes in a subgraph.  <a href="classanonymous__namespace_02animation_8cpp_03_1_1RemoveParticlesVisitor.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02animation_8cpp_03_1_1NodeMapVisitor.html">anonymous_namespace{animation.cpp}::NodeMapVisitor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02animation_8cpp_03_1_1RemoveVisitor.html">anonymous_namespace{animation.cpp}::RemoveVisitor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for visitors that remove nodes from a scene graph. Subclasses need to fill the mToRemove vector. To use, node-&gt;accept(removeVisitor); removeVisitor.remove();.  <a href="classanonymous__namespace_02animation_8cpp_03_1_1RemoveVisitor.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02animation_8cpp_03_1_1RemoveDrawableVisitor.html">anonymous_namespace{animation.cpp}::RemoveDrawableVisitor</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02animation_8cpp_03_1_1RemoveFinishedCallbackVisitor.html">anonymous_namespace{animation.cpp}::RemoveFinishedCallbackVisitor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02animation_8cpp_03_1_1FindVfxCallbacksVisitor.html">anonymous_namespace{animation.cpp}::FindVfxCallbacksVisitor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02animation_8cpp_03_1_1CleanObjectRootVisitor.html">anonymous_namespace{animation.cpp}::CleanObjectRootVisitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02animation_8cpp_03_1_1RemoveTriBipVisitor.html">anonymous_namespace{animation.cpp}::RemoveTriBipVisitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,11 +183,13 @@ Functions</h2></td></tr>
 <tr class="separator:a1621e3d167ededdfbe43af8640a8b3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee65bd9e38cba8e86715fd7323e203b8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02animation_8cpp_03.html#aee65bd9e38cba8e86715fd7323e203b8">anonymous_namespace{animation.cpp}::calcAnimVelocity</a> (const std::multimap&lt; float, std::string &gt; &amp;keys, <a class="el" href="classNifOsg_1_1KeyframeController.html">NifOsg::KeyframeController</a> *nonaccumctrl, const osg::Vec3f &amp;accum, const std::string &amp;groupname)</td></tr>
 <tr class="separator:aee65bd9e38cba8e86715fd7323e203b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d867278c06118bab07e756d3229134"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWRender.html#ae4d867278c06118bab07e756d3229134">MWRender::getModelInstance</a> (<a class="el" href="classResource_1_1SceneManager.html">Resource::SceneManager</a> *sceneMgr, const std::string &amp;model, <a class="el" href="classbool.html">bool</a> baseonly)</td></tr>
+<tr class="separator:ae4d867278c06118bab07e756d3229134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

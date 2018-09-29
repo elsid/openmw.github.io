@@ -1,17 +1,19 @@
 <map id="MWGui::LoadingScreen::draw" name="MWGui::LoadingScreen::draw">
-<area shape="rect" id="node2" href="$classMWGui_1_1LoadingScreen.html#ae1a57a785cc4da791b5d866664563e90" title="MWGui::LoadingScreen\l::needToDrawLoadingScreen" alt="" coords="221,107,424,149"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="472,5,667,32"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#ae60832df5f6fa126b04ebae43e075bfd" title="MWBase::Environment\l::getStateManager" alt="" coords="487,57,652,98"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1StateManager.html#a6a3c99c541f6498df017949596cc44d3" title="MWBase::StateManager\l::getState" alt="" coords="482,122,657,163"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1LoadingScreen.html#aceabeb054ee5f9026176e4a9ac003732" title="MWGui::LoadingScreen\l::changeWallpaper" alt="" coords="239,225,407,266"/>
-<area shape="rect" id="node15" href="$classMWBase_1_1Environment.html#a4c428318d9f8a484ee5a3538e84103ba" title="MWBase::Environment\l::getInputManager" alt="" coords="240,290,405,331"/>
-<area shape="rect" id="node16" href="$classMWBase_1_1InputManager.html#a65efcc527fcdb07474ff26b9b4cbde1c" title="MWBase::InputManager\l::update" alt="" coords="237,355,409,397"/>
-<area shape="rect" id="node7" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="501,188,638,215"/>
-<area shape="rect" id="node8" href="$classSettings_1_1Manager.html#a7e998aa8bd957a6852d4232facb801a2" title="Settings::Manager::\lgetBool" alt="" coords="496,239,643,281"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1BackgroundImage.html#a10934e520869bff494fd13cf91137231" title="MWGui::BackgroundImage\l::setBackgroundImage" alt="" coords="475,305,664,346"/>
-<area shape="rect" id="node9" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="715,239,907,281"/>
-<area shape="rect" id="node12" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="737,174,884,215"/>
-<area shape="rect" id="node10" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="955,239,1087,281"/>
-<area shape="rect" id="node11" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1137,239,1269,281"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1BackgroundImage.html#a9e913540cfc421d84a254373211c702a" title="MWGui::BackgroundImage\l::adjustSize" alt="" coords="716,305,905,346"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1LoadingScreen.html#ae1a57a785cc4da791b5d866664563e90" title="MWGui::LoadingScreen\l::needToDrawLoadingScreen" alt="" coords="237,13,440,54"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="741,71,936,97"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1LoadingScreen.html#aceabeb054ee5f9026176e4a9ac003732" title="MWGui::LoadingScreen\l::changeWallpaper" alt="" coords="255,151,423,193"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1LoadingScreen.html#ab30ac93ecb007df26e01cc6c36c142bf" title="MWGui::LoadingScreen\l::setupCopyFramebufferToTexture\lCallback" alt="" coords="221,216,456,272"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1Environment.html#a4c428318d9f8a484ee5a3538e84103ba" title="MWBase::Environment\l::getInputManager" alt="" coords="256,295,421,337"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1InputManager.html#a65efcc527fcdb07474ff26b9b4cbde1c" title="MWBase::InputManager\l::update" alt="" coords="253,361,425,402"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1LoadingScreen.html#a1c42c6588cb32ebe7e2a98afef3686df" title="MWGui::LoadingScreen\l::getTargetFrameRate" alt="" coords="515,13,683,54"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a2a267e581a9a3dad3d4870233bee0b88" title="MWBase::Environment\l::getFrameRateLimit" alt="" coords="756,5,921,46"/>
+<area shape="rect" id="node7" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="530,129,667,156"/>
+<area shape="rect" id="node8" href="$classSettings_1_1Manager.html#a7e998aa8bd957a6852d4232facb801a2" title="Settings::Manager::\lgetBool" alt="" coords="525,181,672,222"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1BackgroundImage.html#a10934e520869bff494fd13cf91137231" title="MWGui::BackgroundImage\l::setBackgroundImage" alt="" coords="504,246,693,287"/>
+<area shape="rect" id="node9" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="743,122,935,163"/>
+<area shape="rect" id="node12" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="765,187,912,229"/>
+<area shape="rect" id="node10" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="987,122,1119,163"/>
+<area shape="rect" id="node11" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1171,122,1303,163"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1BackgroundImage.html#a9e913540cfc421d84a254373211c702a" title="MWGui::BackgroundImage\l::adjustSize" alt="" coords="744,253,933,294"/>
+<area shape="rect" id="node15" href="$namespaceSceneUtil.html#a0389569fb8943b64c40b178f92ce93aa" title="Shortcut to get size of an array, even if pointer is NULL. " alt="" coords="984,260,1123,287"/>
 </map>

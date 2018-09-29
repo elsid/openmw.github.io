@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwgui/layout.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwgui/layout.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -104,79 +104,95 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;MyGUI_WidgetDefines.h&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;MyGUI_Widget.h&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>MWGui</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html">   13</a></span>&#160;  <span class="keyword">class </span><a class="code" href="classMWGui_1_1Layout.html">Layout</a></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a491b72b8d974a982dada0f3ca2d07179">   16</a></span>&#160;    <a class="code" href="classMWGui_1_1Layout.html#a491b72b8d974a982dada0f3ca2d07179">Layout</a>(<span class="keyword">const</span> std::string &amp; _layout, MyGUI::Widget* _parent = <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;      : <a class="code" href="classMWGui_1_1Layout.html#aa8ba3299301937e4a8a580dda3326ac0">mMainWidget</a>(nullptr)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    { <a class="code" href="classMWGui_1_1Layout.html#a202869f712225a243762916ee1acf1f8">initialise</a>(_layout, _parent); }</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a9a3dace6bc597a2d2cab885adc546f6c">   19</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classMWGui_1_1Layout.html#a9a3dace6bc597a2d2cab885adc546f6c">~Layout</a>() { <a class="code" href="classMWGui_1_1Layout.html#a045634092487aa403283c0ffe5179655">shutdown</a>();  }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    MyGUI::Widget* <a class="code" href="classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab">getWidget</a>(<span class="keyword">const</span> std::string&amp; _name);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">   24</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">getWidget</a>(T * &amp; _widget, <span class="keyword">const</span> std::string &amp; _name)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        MyGUI::Widget* w = <a class="code" href="classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab">getWidget</a>(_name);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        T* cast = w-&gt;castType&lt;T&gt;(<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span> (!cast)</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            MYGUI_EXCEPT(<span class="stringliteral">&quot;Error cast : dest type = &#39;&quot;</span> &lt;&lt; T::getClassTypeName()</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                         &lt;&lt; <span class="stringliteral">&quot;&#39; source name = &#39;&quot;</span> &lt;&lt; w-&gt;getName()</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                         &lt;&lt; <span class="stringliteral">&quot;&#39; source type = &#39;&quot;</span> &lt;&lt; w-&gt;getTypeName() &lt;&lt; <span class="stringliteral">&quot;&#39; in layout &#39;&quot;</span> &lt;&lt; <a class="code" href="classMWGui_1_1Layout.html#a6766c1965a540e7056fa79021437b896">mLayoutName</a> &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            _widget = cast;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a202869f712225a243762916ee1acf1f8">initialise</a>(<span class="keyword">const</span> std::string &amp; _layout,</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                    MyGUI::Widget* _parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a045634092487aa403283c0ffe5179655">shutdown</a>();</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#ac725a2afd1a0ad240bcf35b7d0238d79">setCoord</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a1d974cfc62acd4303a19b589f32042c3">setVisible</a>(<span class="keywordtype">bool</span> b);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a448b1b006a4cd5d846130e60485c1a60">setText</a>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>, <span class="keyword">const</span> std::string&amp; caption);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// NOTE: this assume that mMainWidget is of type Window.</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a95cf301d890af66d557d93c836089844">setTitle</a>(<span class="keyword">const</span> std::string&amp; title);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="debuglog_8hpp.html">components/debug/debuglog.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>MWGui</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html">   15</a></span>&#160;  <span class="keyword">class </span><a class="code" href="classMWGui_1_1Layout.html">Layout</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a491b72b8d974a982dada0f3ca2d07179">   18</a></span>&#160;    <a class="code" href="classMWGui_1_1Layout.html#a491b72b8d974a982dada0f3ca2d07179">Layout</a>(<span class="keyword">const</span> std::string &amp; _layout, MyGUI::Widget* _parent = <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      : <a class="code" href="classMWGui_1_1Layout.html#aa8ba3299301937e4a8a580dda3326ac0">mMainWidget</a>(nullptr)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    { <a class="code" href="classMWGui_1_1Layout.html#a202869f712225a243762916ee1acf1f8">initialise</a>(_layout, _parent); }</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a9a3dace6bc597a2d2cab885adc546f6c">   21</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classMWGui_1_1Layout.html#a9a3dace6bc597a2d2cab885adc546f6c">~Layout</a>()</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <a class="code" href="classMWGui_1_1Layout.html#a045634092487aa403283c0ffe5179655">shutdown</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">catch</span>(<span class="keyword">const</span> MyGUI::Exception&amp; e)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="classLog.html">Log</a>(<a class="code" href="namespaceDebug.html#ace4ffe62c9cedc3322c1f2fd2097f1c4a84c6ea9e411b9a465c18af311547f156">Debug::Error</a>) &lt;&lt; <span class="stringliteral">&quot;Error in the destructor: &quot;</span> &lt;&lt; e.what();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    MyGUI::Widget* <a class="code" href="classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab">getWidget</a>(<span class="keyword">const</span> std::string&amp; _name);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">   36</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">getWidget</a>(<a class="code" href="classGui_1_1T.html">T</a> * &amp; _widget, <span class="keyword">const</span> std::string &amp; _name)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        MyGUI::Widget* w = <a class="code" href="classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab">getWidget</a>(_name);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classGui_1_1T.html">T</a>* cast = w-&gt;castType&lt;<a class="code" href="classGui_1_1T.html">T</a>&gt;(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> (!cast)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            MYGUI_EXCEPT(<span class="stringliteral">&quot;Error cast : dest type = &#39;&quot;</span> &lt;&lt; T::getClassTypeName()</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                         &lt;&lt; <span class="stringliteral">&quot;&#39; source name = &#39;&quot;</span> &lt;&lt; w-&gt;getName()</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                         &lt;&lt; <span class="stringliteral">&quot;&#39; source type = &#39;&quot;</span> &lt;&lt; w-&gt;getTypeName() &lt;&lt; <span class="stringliteral">&quot;&#39; in layout &#39;&quot;</span> &lt;&lt; <a class="code" href="classMWGui_1_1Layout.html#a6766c1965a540e7056fa79021437b896">mLayoutName</a> &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            _widget = cast;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a202869f712225a243762916ee1acf1f8">initialise</a>(<span class="keyword">const</span> std::string &amp; _layout,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                    MyGUI::Widget* _parent = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#aa8ba3299301937e4a8a580dda3326ac0">   54</a></span>&#160;    MyGUI::Widget* <a class="code" href="classMWGui_1_1Layout.html#aa8ba3299301937e4a8a580dda3326ac0">mMainWidget</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a045634092487aa403283c0ffe5179655">shutdown</a>();</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a55f0f4818242120d3b0c590263816414">   58</a></span>&#160;    std::string <a class="code" href="classMWGui_1_1Layout.html#a55f0f4818242120d3b0c590263816414">mPrefix</a>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a6766c1965a540e7056fa79021437b896">   59</a></span>&#160;    std::string <a class="code" href="classMWGui_1_1Layout.html#a6766c1965a540e7056fa79021437b896">mLayoutName</a>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#ab013ca862b7d378f52b6043a9646c029">   60</a></span>&#160;    MyGUI::VectorWidgetPtr <a class="code" href="classMWGui_1_1Layout.html#ab013ca862b7d378f52b6043a9646c029">mListWindowRoot</a>;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  };</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classMWGui_1_1Layout_html_a4c85204e5043a8ecf5e052c80ff9d759"><div class="ttname"><a href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">MWGui::Layout::getWidget</a></div><div class="ttdeci">void getWidget(T *&amp;_widget, const std::string &amp;_name)</div><div class="ttdef"><b>Definition:</b> layout.hpp:24</div></div>
-<div class="ttc" id="classMWGui_1_1Layout_html_a491b72b8d974a982dada0f3ca2d07179"><div class="ttname"><a href="classMWGui_1_1Layout.html#a491b72b8d974a982dada0f3ca2d07179">MWGui::Layout::Layout</a></div><div class="ttdeci">Layout(const std::string &amp;_layout, MyGUI::Widget *_parent=nullptr)</div><div class="ttdef"><b>Definition:</b> layout.hpp:16</div></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#ac725a2afd1a0ad240bcf35b7d0238d79">setCoord</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a1d974cfc62acd4303a19b589f32042c3">setVisible</a>(<span class="keywordtype">bool</span> b);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a448b1b006a4cd5d846130e60485c1a60">setText</a>(<span class="keyword">const</span> std::string&amp; <a class="code" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>, <span class="keyword">const</span> std::string&amp; caption);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// NOTE: this assume that mMainWidget is of type Window.</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Layout.html#a95cf301d890af66d557d93c836089844">setTitle</a>(<span class="keyword">const</span> std::string&amp; title);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#aa8ba3299301937e4a8a580dda3326ac0">   66</a></span>&#160;    MyGUI::Widget* <a class="code" href="classMWGui_1_1Layout.html#aa8ba3299301937e4a8a580dda3326ac0">mMainWidget</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a55f0f4818242120d3b0c590263816414">   70</a></span>&#160;    std::string <a class="code" href="classMWGui_1_1Layout.html#a55f0f4818242120d3b0c590263816414">mPrefix</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#a6766c1965a540e7056fa79021437b896">   71</a></span>&#160;    std::string <a class="code" href="classMWGui_1_1Layout.html#a6766c1965a540e7056fa79021437b896">mLayoutName</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classMWGui_1_1Layout.html#ab013ca862b7d378f52b6043a9646c029">   72</a></span>&#160;    MyGUI::VectorWidgetPtr <a class="code" href="classMWGui_1_1Layout.html#ab013ca862b7d378f52b6043a9646c029">mListWindowRoot</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  };</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classMWGui_1_1Layout_html_a4c85204e5043a8ecf5e052c80ff9d759"><div class="ttname"><a href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">MWGui::Layout::getWidget</a></div><div class="ttdeci">void getWidget(T *&amp;_widget, const std::string &amp;_name)</div><div class="ttdef"><b>Definition:</b> layout.hpp:36</div></div>
+<div class="ttc" id="classMWGui_1_1Layout_html_a491b72b8d974a982dada0f3ca2d07179"><div class="ttname"><a href="classMWGui_1_1Layout.html#a491b72b8d974a982dada0f3ca2d07179">MWGui::Layout::Layout</a></div><div class="ttdeci">Layout(const std::string &amp;_layout, MyGUI::Widget *_parent=nullptr)</div><div class="ttdef"><b>Definition:</b> layout.hpp:18</div></div>
 <div class="ttc" id="classMWGui_1_1Layout_html_a448b1b006a4cd5d846130e60485c1a60"><div class="ttname"><a href="classMWGui_1_1Layout.html#a448b1b006a4cd5d846130e60485c1a60">MWGui::Layout::setText</a></div><div class="ttdeci">void setText(const std::string &amp;name, const std::string &amp;caption)</div><div class="ttdef"><b>Definition:</b> layout.cpp:52</div></div>
-<div class="ttc" id="classMWGui_1_1Layout_html_a9a3dace6bc597a2d2cab885adc546f6c"><div class="ttname"><a href="classMWGui_1_1Layout.html#a9a3dace6bc597a2d2cab885adc546f6c">MWGui::Layout::~Layout</a></div><div class="ttdeci">virtual ~Layout()</div><div class="ttdef"><b>Definition:</b> layout.hpp:19</div></div>
-<div class="ttc" id="classMWGui_1_1Layout_html_aa8ba3299301937e4a8a580dda3326ac0"><div class="ttname"><a href="classMWGui_1_1Layout.html#aa8ba3299301937e4a8a580dda3326ac0">MWGui::Layout::mMainWidget</a></div><div class="ttdeci">MyGUI::Widget * mMainWidget</div><div class="ttdef"><b>Definition:</b> layout.hpp:54</div></div>
+<div class="ttc" id="classMWGui_1_1Layout_html_a9a3dace6bc597a2d2cab885adc546f6c"><div class="ttname"><a href="classMWGui_1_1Layout.html#a9a3dace6bc597a2d2cab885adc546f6c">MWGui::Layout::~Layout</a></div><div class="ttdeci">virtual ~Layout()</div><div class="ttdef"><b>Definition:</b> layout.hpp:21</div></div>
+<div class="ttc" id="namespaceDebug_html_ace4ffe62c9cedc3322c1f2fd2097f1c4a84c6ea9e411b9a465c18af311547f156"><div class="ttname"><a href="namespaceDebug.html#ace4ffe62c9cedc3322c1f2fd2097f1c4a84c6ea9e411b9a465c18af311547f156">Debug::Error</a></div><div class="ttdef"><b>Definition:</b> debuglog.hpp:12</div></div>
+<div class="ttc" id="classMWGui_1_1Layout_html_aa8ba3299301937e4a8a580dda3326ac0"><div class="ttname"><a href="classMWGui_1_1Layout.html#aa8ba3299301937e4a8a580dda3326ac0">MWGui::Layout::mMainWidget</a></div><div class="ttdeci">MyGUI::Widget * mMainWidget</div><div class="ttdef"><b>Definition:</b> layout.hpp:66</div></div>
 <div class="ttc" id="classMWGui_1_1Layout_html_ab4904cbbaf603f098aa0842ce8357aab"><div class="ttname"><a href="classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab">MWGui::Layout::getWidget</a></div><div class="ttdeci">MyGUI::Widget * getWidget(const std::string &amp;_name)</div><div class="ttdef"><b>Definition:</b> layout.cpp:64</div></div>
-<div class="ttc" id="classMWGui_1_1Layout_html_a6766c1965a540e7056fa79021437b896"><div class="ttname"><a href="classMWGui_1_1Layout.html#a6766c1965a540e7056fa79021437b896">MWGui::Layout::mLayoutName</a></div><div class="ttdeci">std::string mLayoutName</div><div class="ttdef"><b>Definition:</b> layout.hpp:59</div></div>
+<div class="ttc" id="classLog_html"><div class="ttname"><a href="classLog.html">Log</a></div><div class="ttdef"><b>Definition:</b> debuglog.hpp:22</div></div>
+<div class="ttc" id="classMWGui_1_1Layout_html_a6766c1965a540e7056fa79021437b896"><div class="ttname"><a href="classMWGui_1_1Layout.html#a6766c1965a540e7056fa79021437b896">MWGui::Layout::mLayoutName</a></div><div class="ttdeci">std::string mLayoutName</div><div class="ttdef"><b>Definition:</b> layout.hpp:71</div></div>
+<div class="ttc" id="classGui_1_1T_html"><div class="ttname"><a href="classGui_1_1T.html">T</a></div></div>
 <div class="ttc" id="classMWGui_1_1Layout_html_a045634092487aa403283c0ffe5179655"><div class="ttname"><a href="classMWGui_1_1Layout.html#a045634092487aa403283c0ffe5179655">MWGui::Layout::shutdown</a></div><div class="ttdeci">void shutdown()</div><div class="ttdef"><b>Definition:</b> layout.cpp:36</div></div>
 <div class="ttc" id="classMWGui_1_1Layout_html_a202869f712225a243762916ee1acf1f8"><div class="ttname"><a href="classMWGui_1_1Layout.html#a202869f712225a243762916ee1acf1f8">MWGui::Layout::initialise</a></div><div class="ttdeci">void initialise(const std::string &amp;_layout, MyGUI::Widget *_parent=nullptr)</div><div class="ttdef"><b>Definition:</b> layout.cpp:11</div></div>
-<div class="ttc" id="classMWGui_1_1Layout_html_a55f0f4818242120d3b0c590263816414"><div class="ttname"><a href="classMWGui_1_1Layout.html#a55f0f4818242120d3b0c590263816414">MWGui::Layout::mPrefix</a></div><div class="ttdeci">std::string mPrefix</div><div class="ttdef"><b>Definition:</b> layout.hpp:58</div></div>
-<div class="ttc" id="classMWGui_1_1Layout_html_ab013ca862b7d378f52b6043a9646c029"><div class="ttname"><a href="classMWGui_1_1Layout.html#ab013ca862b7d378f52b6043a9646c029">MWGui::Layout::mListWindowRoot</a></div><div class="ttdeci">MyGUI::VectorWidgetPtr mListWindowRoot</div><div class="ttdef"><b>Definition:</b> layout.hpp:60</div></div>
-<div class="ttc" id="classMWGui_1_1Layout_html"><div class="ttname"><a href="classMWGui_1_1Layout.html">MWGui::Layout</a></div><div class="ttdef"><b>Definition:</b> layout.hpp:13</div></div>
+<div class="ttc" id="classMWGui_1_1Layout_html_a55f0f4818242120d3b0c590263816414"><div class="ttname"><a href="classMWGui_1_1Layout.html#a55f0f4818242120d3b0c590263816414">MWGui::Layout::mPrefix</a></div><div class="ttdeci">std::string mPrefix</div><div class="ttdef"><b>Definition:</b> layout.hpp:70</div></div>
+<div class="ttc" id="classMWGui_1_1Layout_html_ab013ca862b7d378f52b6043a9646c029"><div class="ttname"><a href="classMWGui_1_1Layout.html#ab013ca862b7d378f52b6043a9646c029">MWGui::Layout::mListWindowRoot</a></div><div class="ttdeci">MyGUI::VectorWidgetPtr mListWindowRoot</div><div class="ttdef"><b>Definition:</b> layout.hpp:72</div></div>
+<div class="ttc" id="classMWGui_1_1Layout_html"><div class="ttname"><a href="classMWGui_1_1Layout.html">MWGui::Layout</a></div><div class="ttdef"><b>Definition:</b> layout.hpp:15</div></div>
 <div class="ttc" id="classMWGui_1_1Layout_html_a1d974cfc62acd4303a19b589f32042c3"><div class="ttname"><a href="classMWGui_1_1Layout.html#a1d974cfc62acd4303a19b589f32042c3">MWGui::Layout::setVisible</a></div><div class="ttdeci">virtual void setVisible(bool b)</div><div class="ttdef"><b>Definition:</b> layout.cpp:47</div></div>
 <div class="ttc" id="classMWGui_1_1Layout_html_a95cf301d890af66d557d93c836089844"><div class="ttname"><a href="classMWGui_1_1Layout.html#a95cf301d890af66d557d93c836089844">MWGui::Layout::setTitle</a></div><div class="ttdeci">void setTitle(const std::string &amp;title)</div><div class="ttdef"><b>Definition:</b> layout.cpp:59</div></div>
 <div class="ttc" id="classMWGui_1_1Layout_html_ac725a2afd1a0ad240bcf35b7d0238d79"><div class="ttname"><a href="classMWGui_1_1Layout.html#ac725a2afd1a0ad240bcf35b7d0238d79">MWGui::Layout::setCoord</a></div><div class="ttdeci">void setCoord(int x, int y, int w, int h)</div><div class="ttdef"><b>Definition:</b> layout.cpp:42</div></div>
-<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:59</div></div>
+<div class="ttc" id="debuglog_8hpp_html"><div class="ttname"><a href="debuglog_8hpp.html">debuglog.hpp</a></div></div>
+<div class="ttc" id="crashcatcher_8cpp_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> crashcatcher.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:50 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:21 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -15,18 +15,18 @@
 <text text-anchor="middle" x="80" y="-177.5" font-family="FreeSans" font-size="10.00">SceneUtil::LightStateAttribute</text>
 <polyline fill="none" stroke="black" points="0,-170.5 160,-170.5 "/>
 <text text-anchor="start" x="8" y="-158.5" font-family="FreeSans" font-size="10.00">+ modelViewMatrix</text>
-<text text-anchor="start" x="8" y="-147.5" font-family="FreeSans" font-size="10.00">&#45; mIndex</text>
-<text text-anchor="start" x="8" y="-136.5" font-family="FreeSans" font-size="10.00">&#45; mLights</text>
-<polyline fill="none" stroke="black" points="0,-129.5 160,-129.5 "/>
-<text text-anchor="start" x="8" y="-117.5" font-family="FreeSans" font-size="10.00">+ LightStateAttribute()</text>
+<text text-anchor="start" x="8" y="-147.5" font-family="FreeSans" font-size="10.00">+ cache</text>
+<text text-anchor="start" x="8" y="-136.5" font-family="FreeSans" font-size="10.00">&#45; mIndex</text>
+<text text-anchor="start" x="8" y="-125.5" font-family="FreeSans" font-size="10.00">&#45; mLights</text>
+<polyline fill="none" stroke="black" points="0,-118.5 160,-118.5 "/>
 <text text-anchor="start" x="8" y="-106.5" font-family="FreeSans" font-size="10.00">+ LightStateAttribute()</text>
 <text text-anchor="start" x="8" y="-95.5" font-family="FreeSans" font-size="10.00">+ LightStateAttribute()</text>
-<text text-anchor="start" x="8" y="-84.5" font-family="FreeSans" font-size="10.00">+ getMember()</text>
-<text text-anchor="start" x="8" y="-73.5" font-family="FreeSans" font-size="10.00">+ getModeUsage()</text>
-<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00">+ compare()</text>
-<text text-anchor="start" x="8" y="-51.5" font-family="FreeSans" font-size="10.00">+ applyModelViewMatrix()</text>
-<text text-anchor="start" x="8" y="-40.5" font-family="FreeSans" font-size="10.00">+ for()</text>
-<text text-anchor="start" x="8" y="-29.5" font-family="FreeSans" font-size="10.00">+ get()</text>
+<text text-anchor="start" x="8" y="-84.5" font-family="FreeSans" font-size="10.00">+ LightStateAttribute()</text>
+<text text-anchor="start" x="8" y="-73.5" font-family="FreeSans" font-size="10.00">+ getMember()</text>
+<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00">+ getModeUsage()</text>
+<text text-anchor="start" x="8" y="-51.5" font-family="FreeSans" font-size="10.00">+ compare()</text>
+<text text-anchor="start" x="8" y="-40.5" font-family="FreeSans" font-size="10.00">+ applyModelViewMatrix()</text>
+<text text-anchor="start" x="8" y="-29.5" font-family="FreeSans" font-size="10.00">+ for()</text>
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">+ applyModelViewMatrix()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">+ applyLight()</text>
 </g>

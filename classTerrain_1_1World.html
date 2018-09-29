@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,34 +110,50 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for Terrain::World:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World__inherit__graph.svg" width="251" height="611"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World__inherit__graph.svg" width="348" height="683"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Terrain::World:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World__coll__graph.svg" width="2655" height="2491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World__coll__graph.svg" width="3947" height="3214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1f185bef92598e2ccd065cffaca67738"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a1f185bef92598e2ccd065cffaca67738">World</a> (osg::Group *parent, <a class="el" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a> *resourceSystem, osgUtil::IncrementalCompileOperation *ico, <a class="el" href="classTerrain_1_1Storage.html">Storage</a> *storage, <a class="el" href="classint.html">int</a> nodeMask)</td></tr>
-<tr class="separator:a1f185bef92598e2ccd065cffaca67738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05818fa7422dbb753ec0cd5fc0231315"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a05818fa7422dbb753ec0cd5fc0231315">World</a> (osg::Group *parent, osg::Group *compileRoot, <a class="el" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a> *resourceSystem, <a class="el" href="classTerrain_1_1Storage.html">Storage</a> *storage, <a class="el" href="classint.html">int</a> nodeMask, <a class="el" href="classint.html">int</a> preCompileMask, <a class="el" href="classint.html">int</a> borderMask)</td></tr>
+<tr class="separator:a05818fa7422dbb753ec0cd5fc0231315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45b929a730af498646d3e3927207d54b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a45b929a730af498646d3e3927207d54b">~World</a> ()</td></tr>
 <tr class="separator:a45b929a730af498646d3e3927207d54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18622f9d7af85dca6584f9484efffcac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a18622f9d7af85dca6584f9484efffcac">updateTextureFiltering</a> ()</td></tr>
-<tr class="separator:a18622f9d7af85dca6584f9484efffcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a839174ce6cd4e1bd57c59297f2f90c6a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a839174ce6cd4e1bd57c59297f2f90c6a">updateCache</a> ()</td></tr>
-<tr class="separator:a839174ce6cd4e1bd57c59297f2f90c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada5cfce83f147417ef28f5fa6a061cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#aada5cfce83f147417ef28f5fa6a061cc">setTargetFrameRate</a> (float rate)</td></tr>
+<tr class="memdesc:aada5cfce83f147417ef28f5fa6a061cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">See <a class="el" href="classTerrain_1_1CompositeMapRenderer.html#a06f15d91612ad875ab81f3d3666b7456" title="If current frame rate is higher than this, the extra time will be set aside to do more compiling...">CompositeMapRenderer::setTargetFrameRate</a>.  <a href="#aada5cfce83f147417ef28f5fa6a061cc">More...</a><br/></td></tr>
+<tr class="separator:aada5cfce83f147417ef28f5fa6a061cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e62556da3a3114c4401e4d27e9b6bf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a5e62556da3a3114c4401e4d27e9b6bf8">updateTextureFiltering</a> ()</td></tr>
+<tr class="separator:a5e62556da3a3114c4401e4d27e9b6bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f2db51b57d5a25abb669873b4c75c97"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a4f2db51b57d5a25abb669873b4c75c97">getHeightAt</a> (const osg::Vec3f &amp;worldPos)</td></tr>
 <tr class="separator:a4f2db51b57d5a25abb669873b4c75c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff54d59dcdff6cb5dc09350892cdf5fb"><td class="memItemLeft" align="right" valign="top">virtual osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#aff54d59dcdff6cb5dc09350892cdf5fb">cacheCell</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y)</td></tr>
-<tr class="separator:aff54d59dcdff6cb5dc09350892cdf5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec5d631cc4847db2558472d976ce9f5d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#aec5d631cc4847db2558472d976ce9f5d">loadCell</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y)</td></tr>
-<tr class="separator:aec5d631cc4847db2558472d976ce9f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dba579baa8e0320e08a8a30a653f217"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a2dba579baa8e0320e08a8a30a653f217">unloadCell</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y)</td></tr>
-<tr class="separator:a2dba579baa8e0320e08a8a30a653f217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d77411a61f8286aca4a3eaecd83b2f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a4d77411a61f8286aca4a3eaecd83b2f3">clearAssociatedCaches</a> ()</td></tr>
+<tr class="separator:a4d77411a61f8286aca4a3eaecd83b2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d137c58482557ca516d00e6baa662b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#ac9d137c58482557ca516d00e6baa662b">cacheCell</a> (<a class="el" href="classTerrain_1_1View.html">View</a> *view, <a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y)</td></tr>
+<tr class="separator:ac9d137c58482557ca516d00e6baa662b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53bfd7f4885bdccbe8af4f01f80156a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a53bfd7f4885bdccbe8af4f01f80156a0">loadCell</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y)</td></tr>
+<tr class="separator:a53bfd7f4885bdccbe8af4f01f80156a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d5aca7abb82517f23fbc4c4344fc6a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a91d5aca7abb82517f23fbc4c4344fc6a">unloadCell</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y)</td></tr>
+<tr class="separator:a91d5aca7abb82517f23fbc4c4344fc6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eec550e39a27393f9bceb0ed58193d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a3eec550e39a27393f9bceb0ed58193d9">enable</a> (<a class="el" href="classbool.html">bool</a> enabled)</td></tr>
+<tr class="separator:a3eec550e39a27393f9bceb0ed58193d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0f4da96cbb2a8bac5090c5f1dc25f93"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#af0f4da96cbb2a8bac5090c5f1dc25f93">setBordersVisible</a> (<a class="el" href="classbool.html">bool</a> visible)</td></tr>
+<tr class="separator:af0f4da96cbb2a8bac5090c5f1dc25f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5751c62de3d2704b57119700d74f9d2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTerrain_1_1View.html">View</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#ac5751c62de3d2704b57119700d74f9d2">createView</a> ()</td></tr>
+<tr class="separator:ac5751c62de3d2704b57119700d74f9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1f730604cddbad163dfd4fdfad131ca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#ab1f730604cddbad163dfd4fdfad131ca">preload</a> (<a class="el" href="classTerrain_1_1View.html">View</a> *view, const osg::Vec3f &amp;eyePoint)</td></tr>
+<tr class="separator:ab1f730604cddbad163dfd4fdfad131ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37614100804d30a3547032eaad3655b2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a37614100804d30a3547032eaad3655b2">reportStats</a> (unsigned <a class="el" href="classint.html">int</a> frameNumber, osg::Stats *stats)</td></tr>
+<tr class="separator:a37614100804d30a3547032eaad3655b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a987cb77c2ebe62727fc81506018e6323"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a987cb77c2ebe62727fc81506018e6323">setDefaultViewer</a> (osg::Object *obj)</td></tr>
+<tr class="memdesc:a987cb77c2ebe62727fc81506018e6323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default viewer (usually a Camera), used as viewpoint for any viewers that don't use their own viewpoint.  <a href="#a987cb77c2ebe62727fc81506018e6323">More...</a><br/></td></tr>
+<tr class="separator:a987cb77c2ebe62727fc81506018e6323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11585076093ea42a61dd9442a2452130"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTerrain_1_1Storage.html">Storage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a11585076093ea42a61dd9442a2452130">getStorage</a> ()</td></tr>
 <tr class="separator:a11585076093ea42a61dd9442a2452130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -149,16 +165,29 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a232e2309053341f7331f13029b924408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8c99ef3111235201586f9ee5bd5d9be"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Group &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#ac8c99ef3111235201586f9ee5bd5d9be">mTerrainRoot</a></td></tr>
 <tr class="separator:ac8c99ef3111235201586f9ee5bd5d9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ac5974787def0cf42fc24fa893770ed"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Group &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a6ac5974787def0cf42fc24fa893770ed">mCompositeMapCamera</a></td></tr>
+<tr class="separator:a6ac5974787def0cf42fc24fa893770ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e679b9ff22e09cf6cb112d3c1a8fb73"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classTerrain_1_1CompositeMapRenderer.html">CompositeMapRenderer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a5e679b9ff22e09cf6cb112d3c1a8fb73">mCompositeMapRenderer</a></td></tr>
+<tr class="separator:a5e679b9ff22e09cf6cb112d3c1a8fb73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07ac67d9a18f2ae8b077e14e413748c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a07ac67d9a18f2ae8b077e14e413748c5">mResourceSystem</a></td></tr>
 <tr class="separator:a07ac67d9a18f2ae8b077e14e413748c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad99322e1bcac0fc20b1691aec1b9d531"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
-&lt; osgUtil::IncrementalCompileOperation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#ad99322e1bcac0fc20b1691aec1b9d531">mIncrementalCompileOperation</a></td></tr>
-<tr class="separator:ad99322e1bcac0fc20b1691aec1b9d531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac05721c489f01221a7b0f6356782e7c6"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classTerrain_1_1TextureManager.html">TextureManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#ac05721c489f01221a7b0f6356782e7c6">mTextureManager</a></td></tr>
+<tr class="separator:ac05721c489f01221a7b0f6356782e7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf1964199e3f010fed20975558ed634f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classTerrain_1_1ChunkManager.html">ChunkManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#aaf1964199e3f010fed20975558ed634f">mChunkManager</a></td></tr>
+<tr class="separator:aaf1964199e3f010fed20975558ed634f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307f55d8e0942bca5dda5401196f2761"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classMWRender_1_1CellBorder.html">MWRender::CellBorder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a307f55d8e0942bca5dda5401196f2761">mCellBorder</a></td></tr>
+<tr class="separator:a307f55d8e0942bca5dda5401196f2761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b340646f55e92df6c8463c463cd9ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#ad6b340646f55e92df6c8463c463cd9ed">mBorderVisible</a></td></tr>
+<tr class="separator:ad6b340646f55e92df6c8463c463cd9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0266bb5592aa6945f254d20dd5625085"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; <a class="el" href="classint.html">int</a>, <a class="el" href="classint.html">int</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerrain_1_1World.html#a0266bb5592aa6945f254d20dd5625085">mLoadedCells</a></td></tr>
+<tr class="separator:a0266bb5592aa6945f254d20dd5625085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The basic interface for a terrain world. How the terrain chunks are paged and displayed is up to the implementation. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a1f185bef92598e2ccd065cffaca67738"></a>
+<a class="anchor" id="a05818fa7422dbb753ec0cd5fc0231315"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -171,14 +200,14 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a> *&#160;</td>
-          <td class="paramname"><em>resourceSystem</em>, </td>
+          <td class="paramtype">osg::Group *&#160;</td>
+          <td class="paramname"><em>compileRoot</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">osgUtil::IncrementalCompileOperation *&#160;</td>
-          <td class="paramname"><em>ico</em>, </td>
+          <td class="paramtype"><a class="el" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a> *&#160;</td>
+          <td class="paramname"><em>resourceSystem</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -190,7 +219,19 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>nodeMask</em>&#160;</td>
+          <td class="paramname"><em>nodeMask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>preCompileMask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>borderMask</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -202,11 +243,20 @@ Protected Attributes</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>takes ownership of <em>storage</em> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">storage</td><td><a class="el" href="classTerrain_1_1Storage.html" title="We keep storage of terrain data abstract here since we need different implementations for game and ed...">Storage</a> instance to get terrain data from (heights, normals, colors, textures..) </td></tr>
+    <tr><td class="paramname">storage</td><td><a class="el" href="classTerrain_1_1Storage.html">Storage</a> instance to get terrain data from (heights, normals, colors, textures..) </td></tr>
     <tr><td class="paramname">nodeMask</td><td>mask for the terrain root </td></tr>
+    <tr><td class="paramname">preCompileMask</td><td>mask for pre compiling textures </td></tr>
   </table>
   </dd>
 </dl>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_a05818fa7422dbb753ec0cd5fc0231315_cgraph.svg" width="403" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -231,10 +281,18 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_a45b929a730af498646d3e3927207d54b_cgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aff54d59dcdff6cb5dc09350892cdf5fb"></a>
+<a class="anchor" id="ac9d137c58482557ca516d00e6baa662b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -242,8 +300,14 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual osg::ref_ptr&lt;osg::Node&gt; Terrain::World::cacheCell </td>
+          <td class="memname">virtual void Terrain::World::cacheCell </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="classTerrain_1_1View.html">View</a> *&#160;</td>
+          <td class="paramname"><em>view</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
@@ -265,16 +329,104 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Load a terrain cell at maximum LOD and store it in the <a class="el" href="classTerrain_1_1View.html" title="A View is a collection of rendering objects that are visible from a given camera/intersection. The base View class is part of the interface for usage in conjunction with preload feature. ">View</a> for later use. </p>
+<dl class="section note"><dt>Note</dt><dd>Thread safe. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classTerrain_1_1TerrainGrid.html#abe6710e4ae0237481d701f097018a3d6">Terrain::TerrainGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classTerrain_1_1QuadTreeWorld.html#a52fad60e2d66be128a8904516d805b70">Terrain::QuadTreeWorld</a>, and <a class="el" href="classTerrain_1_1TerrainGrid.html#afb6572d5639e45820014fad0eebe8181">Terrain::TerrainGrid</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_aff54d59dcdff6cb5dc09350892cdf5fb_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_ac9d137c58482557ca516d00e6baa662b_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a4d77411a61f8286aca4a3eaecd83b2f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Terrain::World::clearAssociatedCaches </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Clears the cached land and landtexture data. </p>
+<dl class="section note"><dt>Note</dt><dd>Thread safe. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac5751c62de3d2704b57119700d74f9d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classTerrain_1_1View.html">View</a>* Terrain::World::createView </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Create a <a class="el" href="classTerrain_1_1View.html" title="A View is a collection of rendering objects that are visible from a given camera/intersection. The base View class is part of the interface for usage in conjunction with preload feature. ">View</a> to use with preload feature. The caller is responsible for deleting the view. </p>
+<dl class="section note"><dt>Note</dt><dd>Thread safe. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classTerrain_1_1QuadTreeWorld.html#a656bd33c7a3c7f036e05e9197e6c4365">Terrain::QuadTreeWorld</a>, and <a class="el" href="classTerrain_1_1TerrainGrid.html#ac36fa8a056a131399d80fcb8a335b379">Terrain::TerrainGrid</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_ac5751c62de3d2704b57119700d74f9d2_icgraph.svg" width="440" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3eec550e39a27393f9bceb0ed58193d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Terrain::World::enable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classTerrain_1_1QuadTreeWorld.html#ad09453f46cf0d5951bc8cf7a1d51b037">Terrain::QuadTreeWorld</a>.</p>
 
 </div>
 </div>
@@ -296,6 +448,14 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_a4f2db51b57d5a25abb669873b4c75c97_cgraph.svg" width="459" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_a4f2db51b57d5a25abb669873b4c75c97_icgraph.svg" width="454" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -325,7 +485,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="aec5d631cc4847db2558472d976ce9f5d"></a>
+<a class="anchor" id="a53bfd7f4885bdccbe8af4f01f80156a0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -333,7 +493,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Terrain::World::loadCell </td>
+          <td class="memname">void Terrain::World::loadCell </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -352,16 +512,18 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Load the cell into the scene graph. </p>
+<dl class="section note"><dt>Note</dt><dd>Not thread safe. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classTerrain_1_1TerrainGrid.html#a6a543c9e8c6fc523e6915279ddeda093">Terrain::TerrainGrid</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2dba579baa8e0320e08a8a30a653f217"></a>
+<a class="anchor" id="ab1f730604cddbad163dfd4fdfad131ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -369,16 +531,16 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Terrain::World::unloadCell </td>
+          <td class="memname">virtual void Terrain::World::preload </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramtype"><a class="el" href="classTerrain_1_1View.html">View</a> *&#160;</td>
+          <td class="paramname"><em>view</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>eyePoint</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -392,45 +554,21 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>Thread safe, as long as you do not attempt to load into the same view from multiple threads. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classTerrain_1_1TerrainGrid.html#aa294852327ce1dfb06348fefe800fd68">Terrain::TerrainGrid</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a839174ce6cd4e1bd57c59297f2f90c6a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Terrain::World::updateCache </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classTerrain_1_1TerrainGrid.html#a54410a059d1673e394e3fbb3f2e66a3b">Terrain::TerrainGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classTerrain_1_1QuadTreeWorld.html#a8522cbd91d37f33815a6f176b748c097">Terrain::QuadTreeWorld</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_a839174ce6cd4e1bd57c59297f2f90c6a_icgraph.svg" width="462" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_ab1f730604cddbad163dfd4fdfad131ca_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a18622f9d7af85dca6584f9484efffcac"></a>
+<a class="anchor" id="a37614100804d30a3547032eaad3655b2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -438,9 +576,70 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Terrain::World::updateTextureFiltering </td>
+          <td class="memname">virtual void Terrain::World::reportStats </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">unsigned <a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>frameNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">osg::Stats *&#160;</td>
+          <td class="paramname"><em>stats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classTerrain_1_1QuadTreeWorld.html#a42de7e5a3749ca22494456d73ab5b36f">Terrain::QuadTreeWorld</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af0f4da96cbb2a8bac5090c5f1dc25f93"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Terrain::World::setBordersVisible </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>visible</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a987cb77c2ebe62727fc81506018e6323"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Terrain::World::setDefaultViewer </td>
+          <td>(</td>
+          <td class="paramtype">osg::Object *&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -451,12 +650,31 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classTerrain_1_1TerrainGrid.html#a6ca7a626685bde8f497b833294b97fe4">Terrain::TerrainGrid</a>.</p>
+<p>Set the default viewer (usually a Camera), used as viewpoint for any viewers that don't use their own viewpoint. </p>
+
+<p>Reimplemented in <a class="el" href="classTerrain_1_1QuadTreeWorld.html#a873f84dd5dcc76b171c0fab01bb47e67">Terrain::QuadTreeWorld</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ad99322e1bcac0fc20b1691aec1b9d531"></a>
+<a class="anchor" id="aada5cfce83f147417ef28f5fa6a061cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Terrain::World::setTargetFrameRate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>See <a class="el" href="classTerrain_1_1CompositeMapRenderer.html#a06f15d91612ad875ab81f3d3666b7456" title="If current frame rate is higher than this, the extra time will be set aside to do more compiling...">CompositeMapRenderer::setTargetFrameRate</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a91d5aca7abb82517f23fbc4c4344fc6a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -464,7 +682,171 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">osg::ref_ptr&lt;osgUtil::IncrementalCompileOperation&gt; Terrain::World::mIncrementalCompileOperation</td>
+          <td class="memname">void Terrain::World::unloadCell </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Remove the cell from the scene graph. </p>
+<dl class="section note"><dt>Note</dt><dd>Not thread safe. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classTerrain_1_1TerrainGrid.html#aa294852327ce1dfb06348fefe800fd68">Terrain::TerrainGrid</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTerrain_1_1World_a91d5aca7abb82517f23fbc4c4344fc6a_icgraph.svg" width="571" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e62556da3a3114c4401e4d27e9b6bf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Terrain::World::updateTextureFiltering </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Apply the scene manager's texture filtering settings to all cached textures. </p>
+<dl class="section note"><dt>Note</dt><dd>Thread safe. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ad6b340646f55e92df6c8463c463cd9ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Terrain::World::mBorderVisible</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a307f55d8e0942bca5dda5401196f2761"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classMWRender_1_1CellBorder.html">MWRender::CellBorder</a>&gt; Terrain::World::mCellBorder</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaf1964199e3f010fed20975558ed634f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classTerrain_1_1ChunkManager.html">ChunkManager</a>&gt; Terrain::World::mChunkManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ac5974787def0cf42fc24fa893770ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt;osg::Group&gt; Terrain::World::mCompositeMapCamera</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5e679b9ff22e09cf6cb112d3c1a8fb73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt;<a class="el" href="classTerrain_1_1CompositeMapRenderer.html">CompositeMapRenderer</a>&gt; Terrain::World::mCompositeMapRenderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0266bb5592aa6945f254d20dd5625085"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt;std::pair&lt;<a class="el" href="classint.html">int</a>,<a class="el" href="classint.html">int</a>&gt; &gt; Terrain::World::mLoadedCells</td>
         </tr>
       </table>
   </td>
@@ -556,14 +938,34 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ac05721c489f01221a7b0f6356782e7c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classTerrain_1_1TextureManager.html">TextureManager</a>&gt; Terrain::World::mTextureManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/terrain/<a class="el" href="components_2terrain_2world_8hpp_source.html">world.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/terrain/<a class="el" href="world_8cpp.html">world.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/terrain/<a class="el" href="components_2terrain_2world_8hpp_source.html">world.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/terrain/<a class="el" href="world_8cpp.html">world.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:09 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

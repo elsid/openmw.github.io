@@ -1,0 +1,29 @@
+<map id="MWWorld::ProjectileManager::launchMagicBolt" name="MWWorld::ProjectileManager::launchMagicBolt">
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="271,5,454,32"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="255,56,470,83"/>
+<area shape="rect" id="node4" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="281,107,444,133"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="554,25,721,52"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="277,500,449,527"/>
+<area shape="rect" id="node7" href="$classMWPhysics_1_1PhysicsSystem.html#a3629b8f88060fda6d4a405241f496dcd" title="Get physical half extents (scaled) of the given actor. " alt="" coords="265,551,460,593"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="540,244,735,271"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="285,617,441,644"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="260,669,465,710"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1CreatureStats.html#a461bce247ab87237abd9238051f9bdee" title="Will generate an actor ID, if the actor does not have one yet. " alt="" coords="258,734,467,775"/>
+<area shape="rect" id="node14" href="$namespaceanonymous__namespace_02projectilemanager_8cpp_03.html#a2b86d4049fd79e76a28a6617356496ec" title="anonymous_namespace\l\{projectilemanager::\lcpp\}::getMagicBoltData" alt="" coords="273,208,452,264"/>
+<area shape="rect" id="node21" href="$namespaceanonymous__namespace_02projectilemanager_8cpp_03.html#a2c95f02ad79dfbf7ddeaca213383b93d" title="anonymous_namespace\l\{projectilemanager::\lcpp\}::getMagicBoltLightDiffuse\lColor" alt="" coords="253,339,472,410"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1ProjectileManager.html#a1dd1d3fcab7df217bad61f34f3f6964d" title="MWWorld::ProjectileManager\l::createModel" alt="" coords="263,434,463,475"/>
+<area shape="rect" id="node28" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="280,799,445,841"/>
+<area shape="rect" id="node8" href="$classMWPhysics_1_1PhysicsSystem.html#a41f7de8a899eabcc878655c0d8012ab5" title="MWPhysics::PhysicsSystem\l::getActor" alt="" coords="540,855,735,897"/>
+<area shape="rect" id="node9" href="$classMWPhysics_1_1Actor.html#a64f5ca6f7d516f392b03a574f310d322" title="MWPhysics::Actor::getHalf\lExtents" alt="" coords="544,790,731,831"/>
+<area shape="rect" id="node15" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="555,295,720,337"/>
+<area shape="rect" id="node16" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="546,361,729,388"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="548,412,727,439"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1ManualRef.html#ad240ee3ca28fcd482deefe7e56728d14" title="MWWorld::ManualRef\l::getPtr" alt="" coords="562,77,713,118"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="520,143,755,169"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html#a369a75a58f3c116f19e7a4365ba49ae9" title="MWWorld::Class::getName" alt="" coords="543,193,731,220"/>
+<area shape="rect" id="node23" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="540,463,735,505"/>
+<area shape="rect" id="node24" href="$classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b" title="Resource::SceneManager\l::getInstance" alt="" coords="545,529,729,570"/>
+<area shape="rect" id="node25" href="$classSceneUtil_1_1LightSource.html#acf7eea40d79d1848944287f04c01ffa3" title="The LightSource will affect objects within this radius. " alt="" coords="554,594,721,635"/>
+<area shape="rect" id="node26" href="$classSceneUtil_1_1LightSource.html#a5996a83ebe673a5d390b24f9874ebbc5" title="SceneUtil::LightSource\l::setLight" alt="" coords="554,659,721,701"/>
+<area shape="rect" id="node27" href="$namespaceMWRender.html#add8c2ed3ee5a5b2d525c32dc9c8b7a74" title="MWRender::overrideFirstRoot\lTexture" alt="" coords="536,725,739,766"/>
+</map>

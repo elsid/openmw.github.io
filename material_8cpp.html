@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/terrain/material.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/terrain/material.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -94,6 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -101,39 +102,55 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="material_8hpp_source.html">material.hpp</a>&quot;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
+<code>#include &lt;osg/Fog&gt;</code><br/>
 <code>#include &lt;osg/Depth&gt;</code><br/>
 <code>#include &lt;osg/TexEnvCombine&gt;</code><br/>
 <code>#include &lt;osg/Texture2D&gt;</code><br/>
 <code>#include &lt;osg/TexMat&gt;</code><br/>
 <code>#include &lt;osg/Material&gt;</code><br/>
+<code>#include &lt;osg/BlendFunc&gt;</code><br/>
 <code>#include &lt;<a class="el" href="shadermanager_8hpp_source.html">components/shader/shadermanager.hpp</a>&gt;</code><br/>
+<code>#include &lt;mutex&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for material.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="material_8cpp__incl.svg" width="1516" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="material_8cpp__incl.svg" width="1572" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02material_8cpp_03_1_1BlendmapTexMat.html">anonymous_namespace{material.cpp}::BlendmapTexMat</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02material_8cpp_03_1_1LayerTexMat.html">anonymous_namespace{material.cpp}::LayerTexMat</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02material_8cpp_03_1_1EqualDepth.html">anonymous_namespace{material.cpp}::EqualDepth</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02material_8cpp_03_1_1LequalDepth.html">anonymous_namespace{material.cpp}::LequalDepth</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02material_8cpp_03_1_1BlendFunc.html">anonymous_namespace{material.cpp}::BlendFunc</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02material_8cpp_03_1_1TexEnvCombine.html">anonymous_namespace{material.cpp}::TexEnvCombine</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespaceanonymous__namespace_02material_8cpp_03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02material_8cpp_03.html">anonymous_namespace{material.cpp}</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceTerrain"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTerrain.html">Terrain</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6167dbe11c0d7a7fbaec07fd014fe2ff"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::TexMat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTerrain.html#a6167dbe11c0d7a7fbaec07fd014fe2ff">Terrain::getBlendmapTexMat</a> (<a class="el" href="classint.html">int</a> blendmapScale)</td></tr>
-<tr class="separator:a6167dbe11c0d7a7fbaec07fd014fe2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad98735dee5c21d6e72ea24154e2c459b"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::TexMat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTerrain.html#ad98735dee5c21d6e72ea24154e2c459b">Terrain::getLayerTexMat</a> (float layerTileSize)</td></tr>
-<tr class="separator:ad98735dee5c21d6e72ea24154e2c459b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad358b86cb9cc5645ab2a45ba5f010970"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Depth &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTerrain.html#ad358b86cb9cc5645ab2a45ba5f010970">Terrain::getEqualDepth</a> ()</td></tr>
-<tr class="separator:ad358b86cb9cc5645ab2a45ba5f010970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acb5008a69580bf4bb41e95284620a7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; osg::ref_ptr<br class="typebreak"/>
+&lt; osg::StateSet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTerrain.html#a0acb5008a69580bf4bb41e95284620a7">Terrain::createPasses</a> (<a class="el" href="classbool.html">bool</a> useShaders, <a class="el" href="classbool.html">bool</a> forcePerPixelLighting, <a class="el" href="classbool.html">bool</a> clampLighting, <a class="el" href="classShader_1_1ShaderManager.html">Shader::ShaderManager</a> *shaderManager, const std::vector&lt; TextureLayer &gt; &amp;layers, const std::vector&lt; osg::ref_ptr&lt; osg::Texture2D &gt; &gt; &amp;blendmaps, <a class="el" href="classint.html">int</a> blendmapScale, float layerTileSize)</td></tr>
+<tr class="separator:a0acb5008a69580bf4bb41e95284620a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

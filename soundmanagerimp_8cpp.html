@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwsound/soundmanagerimp.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwsound/soundmanagerimp.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,28 +102,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="soundmanagerimp_8hpp_source.html">soundmanagerimp.hpp</a>&quot;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;algorithm&gt;</code><br/>
 <code>#include &lt;map&gt;</code><br/>
+<code>#include &lt;numeric&gt;</code><br/>
 <code>#include &lt;osg/Matrixf&gt;</code><br/>
 <code>#include &lt;<a class="el" href="rng_8hpp_source.html">components/misc/rng.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="manager_8hpp_source.html">components/vfs/manager.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="environment_8hpp_source.html">../mwbase/environment.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwbase_2world_8hpp_source.html">../mwbase/world.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="statemanager_8hpp_source.html">../mwbase/statemanager.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="esmstore_8hpp_source.html">../mwworld/esmstore.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="cellstore_8hpp_source.html">../mwworld/cellstore.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="actorutil_8hpp_source.html">../mwmechanics/actorutil.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="sound__output_8hpp_source.html">sound_output.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="apps_2openmw_2mwmechanics_2actorutil_8hpp_source.html">../mwmechanics/actorutil.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="sound__buffer_8hpp_source.html">sound_buffer.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="sound__decoder_8hpp_source.html">sound_decoder.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="sound__output_8hpp_source.html">sound_output.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="sound_8hpp_source.html">sound.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="openal__output_8hpp_source.html">openal_output.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="ffmpeg__decoder_8hpp_source.html">ffmpeg_decoder.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for soundmanagerimp.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="soundmanagerimp_8cpp__incl.svg" width="4154" height="606"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="soundmanagerimp_8cpp__incl.svg" width="3607" height="606"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -135,13 +136,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a14fbfea275a8724184f028de65fa7e3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="soundmanagerimp_8cpp.html#a14fbfea275a8724184f028de65fa7e3a">SOUND_OUT</a>&#160;&#160;&#160;&quot;OpenAL&quot;</td></tr>
-<tr class="separator:a14fbfea275a8724184f028de65fa7e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ed8c42b26f16cf61c45a91211b6313e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="soundmanagerimp_8cpp.html#a5ed8c42b26f16cf61c45a91211b6313e">SOUND_IN</a>&#160;&#160;&#160;&quot;FFmpeg&quot;</td></tr>
-<tr class="separator:a5ed8c42b26f16cf61c45a91211b6313e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affde14445f49f65ff4f5b592e44ee71a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="soundmanagerimp_8cpp.html#affde14445f49f65ff4f5b592e44ee71a">LIKELY</a>(x)&#160;&#160;&#160;(<a class="el" href="classbool.html">bool</a>)(x)</td></tr>
+<tr class="separator:affde14445f49f65ff4f5b592e44ee71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab10d0a221f4d7a706701b806c8135fd7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="soundmanagerimp_8cpp.html#ab10d0a221f4d7a706701b806c8135fd7">UNLIKELY</a>(x)&#160;&#160;&#160;(<a class="el" href="classbool.html">bool</a>)(x)</td></tr>
+<tr class="separator:ab10d0a221f4d7a706701b806c8135fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a3af446be272050527d106f329b5c819f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a3af446be272050527d106f329b5c819f">MWSound::operator|</a> (PlayMode a, Type b)</td></tr>
+<tr class="separator:a3af446be272050527d106f329b5c819f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69cfe6726b4339dda91e38356dae23a6"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a69cfe6726b4339dda91e38356dae23a6">MWSound::getSampleTypeName</a> (SampleType type)</td></tr>
 <tr class="separator:a69cfe6726b4339dda91e38356dae23a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac820781bf6c123885f7f6f9fd985fbc0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#ac820781bf6c123885f7f6f9fd985fbc0">MWSound::getChannelConfigName</a> (ChannelConfig config)</td></tr>
@@ -152,24 +155,32 @@ Functions</h2></td></tr>
 <tr class="separator:a99ab2efdb1acfb7182559af342c84715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a5ed8c42b26f16cf61c45a91211b6313e"></a>
+<a class="anchor" id="affde14445f49f65ff4f5b592e44ee71a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SOUND_IN&#160;&#160;&#160;&quot;FFmpeg&quot;</td>
+          <td class="memname">#define LIKELY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="classbool.html">bool</a>)(x)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a14fbfea275a8724184f028de65fa7e3a"></a>
+<a class="anchor" id="ab10d0a221f4d7a706701b806c8135fd7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SOUND_OUT&#160;&#160;&#160;&quot;OpenAL&quot;</td>
+          <td class="memname">#define UNLIKELY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="classbool.html">bool</a>)(x)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -179,7 +190,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

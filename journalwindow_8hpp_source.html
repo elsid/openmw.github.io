@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwgui/journalwindow.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwgui/journalwindow.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,33 +100,44 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="journalwindow_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MWGUI_JOURNAL_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MWGUI_JOURNAL_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;boost/shared_ptr.hpp&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="windowbase_8hpp.html">windowbase.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>MWBase { <span class="keyword">class </span>WindowManager; }</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="to__utf8_8hpp.html">components/to_utf8/to_utf8.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>MWGui</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">struct </span>JournalViewModel;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>MWBase { <span class="keyword">class </span>WindowManager; }</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structMWGui_1_1JournalWindow.html">   12</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structMWGui_1_1JournalWindow.html">JournalWindow</a></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">static</span> <a class="code" href="structMWGui_1_1JournalWindow.html">JournalWindow</a> * <a class="code" href="structMWGui_1_1JournalWindow.html#add0e93fb6002441d6d846d55a5b91405">create</a> (boost::shared_ptr &lt;JournalViewModel&gt; Model, <span class="keywordtype">bool</span> questList);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structMWGui_1_1JournalWindow.html#a1df238ca77f27cdc68e2270950596788">   18</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="structMWGui_1_1JournalWindow.html#a1df238ca77f27cdc68e2270950596788">~JournalWindow</a> () {};</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>MWGui</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">struct </span>JournalViewModel;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structMWGui_1_1JournalWindow.html">   16</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structMWGui_1_1JournalWindow.html">JournalWindow</a> : <span class="keyword">public</span> <a class="code" href="classMWGui_1_1WindowBase.html">WindowBase</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="structMWGui_1_1JournalWindow.html#a96b399d202a7f09017d7bb0594c55a4b">JournalWindow</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structMWGui_1_1JournalWindow.html#a4e63872853b1fe4ffecafe83ce189f8d">setVisible</a> (<span class="keywordtype">bool</span> newValue) = 0;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    };</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">static</span> <a class="code" href="structMWGui_1_1JournalWindow.html">JournalWindow</a> * <a class="code" href="structMWGui_1_1JournalWindow.html#aead0212db91323e002031251252bed55">create</a> (std::shared_ptr &lt;JournalViewModel&gt; Model, <span class="keywordtype">bool</span> questList, <a class="code" href="namespaceToUTF8.html#af49c9c5fac0f53ebef744a9f42caec4f">ToUTF8::FromType</a> encoding);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="structMWGui_1_1JournalWindow.html#a1df238ca77f27cdc68e2270950596788">   24</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="structMWGui_1_1JournalWindow.html#a1df238ca77f27cdc68e2270950596788">~JournalWindow</a> () {};</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structMWGui_1_1JournalWindow.html#a4e63872853b1fe4ffecafe83ce189f8d">setVisible</a> (<span class="keywordtype">bool</span> newValue) = 0;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="windowbase_8hpp_html"><div class="ttname"><a href="windowbase_8hpp.html">windowbase.hpp</a></div></div>
+<div class="ttc" id="structMWGui_1_1JournalWindow_html_a96b399d202a7f09017d7bb0594c55a4b"><div class="ttname"><a href="structMWGui_1_1JournalWindow.html#a96b399d202a7f09017d7bb0594c55a4b">MWGui::JournalWindow::JournalWindow</a></div><div class="ttdeci">JournalWindow()</div><div class="ttdef"><b>Definition:</b> journalwindow.cpp:668</div></div>
+<div class="ttc" id="structMWGui_1_1JournalWindow_html_aead0212db91323e002031251252bed55"><div class="ttname"><a href="structMWGui_1_1JournalWindow.html#aead0212db91323e002031251252bed55">MWGui::JournalWindow::create</a></div><div class="ttdeci">static JournalWindow * create(std::shared_ptr&lt; JournalViewModel &gt; Model, bool questList, ToUTF8::FromType encoding)</div><div class="ttdoc">construct a new instance of the one JournalWindow implementation </div><div class="ttdef"><b>Definition:</b> journalwindow.cpp:663</div></div>
+<div class="ttc" id="namespaceToUTF8_html_af49c9c5fac0f53ebef744a9f42caec4f"><div class="ttname"><a href="namespaceToUTF8.html#af49c9c5fac0f53ebef744a9f42caec4f">ToUTF8::FromType</a></div><div class="ttdeci">FromType</div><div class="ttdef"><b>Definition:</b> to_utf8.hpp:11</div></div>
+<div class="ttc" id="classMWGui_1_1WindowBase_html"><div class="ttname"><a href="classMWGui_1_1WindowBase.html">MWGui::WindowBase</a></div><div class="ttdef"><b>Definition:</b> windowbase.hpp:21</div></div>
 <div class="ttc" id="structMWGui_1_1JournalWindow_html_a4e63872853b1fe4ffecafe83ce189f8d"><div class="ttname"><a href="structMWGui_1_1JournalWindow.html#a4e63872853b1fe4ffecafe83ce189f8d">MWGui::JournalWindow::setVisible</a></div><div class="ttdeci">virtual void setVisible(bool newValue)=0</div><div class="ttdoc">show/hide the journal window </div></div>
-<div class="ttc" id="structMWGui_1_1JournalWindow_html"><div class="ttname"><a href="structMWGui_1_1JournalWindow.html">MWGui::JournalWindow</a></div><div class="ttdef"><b>Definition:</b> journalwindow.hpp:12</div></div>
-<div class="ttc" id="structMWGui_1_1JournalWindow_html_add0e93fb6002441d6d846d55a5b91405"><div class="ttname"><a href="structMWGui_1_1JournalWindow.html#add0e93fb6002441d6d846d55a5b91405">MWGui::JournalWindow::create</a></div><div class="ttdeci">static JournalWindow * create(boost::shared_ptr&lt; JournalViewModel &gt; Model, bool questList)</div><div class="ttdoc">construct a new instance of the one JournalWindow implementation </div><div class="ttdef"><b>Definition:</b> journalwindow.cpp:570</div></div>
-<div class="ttc" id="structMWGui_1_1JournalWindow_html_a1df238ca77f27cdc68e2270950596788"><div class="ttname"><a href="structMWGui_1_1JournalWindow.html#a1df238ca77f27cdc68e2270950596788">MWGui::JournalWindow::~JournalWindow</a></div><div class="ttdeci">virtual ~JournalWindow()</div><div class="ttdoc">destroy this instance of the JournalWindow implementation </div><div class="ttdef"><b>Definition:</b> journalwindow.hpp:18</div></div>
+<div class="ttc" id="to__utf8_8hpp_html"><div class="ttname"><a href="to__utf8_8hpp.html">to_utf8.hpp</a></div></div>
+<div class="ttc" id="structMWGui_1_1JournalWindow_html"><div class="ttname"><a href="structMWGui_1_1JournalWindow.html">MWGui::JournalWindow</a></div><div class="ttdef"><b>Definition:</b> journalwindow.hpp:16</div></div>
+<div class="ttc" id="structMWGui_1_1JournalWindow_html_a1df238ca77f27cdc68e2270950596788"><div class="ttname"><a href="structMWGui_1_1JournalWindow.html#a1df238ca77f27cdc68e2270950596788">MWGui::JournalWindow::~JournalWindow</a></div><div class="ttdeci">virtual ~JournalWindow()</div><div class="ttdoc">destroy this instance of the JournalWindow implementation </div><div class="ttdef"><b>Definition:</b> journalwindow.hpp:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:50 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:21 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

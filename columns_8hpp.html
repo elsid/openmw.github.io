@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/world/columns.hpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/world/columns.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,13 +107,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for columns.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="columns_8hpp__incl.svg" width="503" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="columns_8hpp__incl.svg" width="486" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="columns_8hpp__dep__incl.svg" width="7634" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="columns_8hpp__dep__incl.svg" width="6887" height="483"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -228,7 +228,7 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cabf000ea979c52518b7ddca851d917f31">CSMWorld::Columns::ColumnId_ArmorType</a> = 77, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca77798b4ca3eb0e2db6471ea5114c3f85">CSMWorld::Columns::ColumnId_Health</a> = 78, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caee0a88597431a384d62e707848ab5626">CSMWorld::Columns::ColumnId_ArmorValue</a> = 79, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca5f88762bf03fe445ae840ec756f0fbbe">CSMWorld::Columns::ColumnId_Scroll</a> = 80, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca488b578ffa7bc07151a064eb5904a42f">CSMWorld::Columns::ColumnId_BookType</a> = 80, 
 <br/>
 &#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caf0ebdbf950754c7bffe9b1810f4e321d">CSMWorld::Columns::ColumnId_ClothingType</a> = 81, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca732fa89c350b8c8c4ca888d79bb27f52">CSMWorld::Columns::ColumnId_WeightCapacity</a> = 82, 
@@ -237,7 +237,7 @@ Enumerations</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae86a18673f8431bab01fc452c23be693">CSMWorld::Columns::ColumnId_CreatureType</a> = 85, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca18bcd330f9d3c5588a2f78c86efef6b4">CSMWorld::Columns::ColumnId_SoulPoints</a> = 86, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caed78cd4af32c2110700c70df4a28d6b2">CSMWorld::Columns::ColumnId_OriginalCreature</a> = 87, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca44001aaf78b62bd67e218725d9bd352e">CSMWorld::Columns::ColumnId_ParentCreature</a> = 87, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca08e1b1e9595a243825decb2c5d9f67c3">CSMWorld::Columns::ColumnId_Biped</a> = 88, 
 <br/>
 &#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caa08eddce399cde496fef47da3f60c463">CSMWorld::Columns::ColumnId_HasWeapon</a> = 89, 
@@ -246,24 +246,19 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca2b9da536930c3d7d1ea008863e8926ed">CSMWorld::Columns::ColumnId_Walks</a> = 93, 
 <br/>
 &#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca03ce13eabafce680c4ee858fae2b2ae5">CSMWorld::Columns::ColumnId_Essential</a> = 94, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca972650149d77adf94bddb84783297369">CSMWorld::Columns::ColumnId_SkeletonBlood</a> = 95, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cabcc79e1048f5e3e97e8f40e428a1af7e">CSMWorld::Columns::ColumnId_MetalBlood</a> = 96, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca49a04d94e32541b706c555c65f2d5a25">CSMWorld::Columns::ColumnId_BloodType</a> = 95, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cac6c1eccb00b47c223b3b79fc7f260c78">CSMWorld::Columns::ColumnId_OpenSound</a> = 97, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca05776a56e1241fb7b12ab71f2f9ea246">CSMWorld::Columns::ColumnId_CloseSound</a> = 98, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca05776a56e1241fb7b12ab71f2f9ea246">CSMWorld::Columns::ColumnId_CloseSound</a> = 98, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca4dc841da75a737856e2b7f5baa5bd3cd">CSMWorld::Columns::ColumnId_Duration</a> = 99, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca4dc841da75a737856e2b7f5baa5bd3cd">CSMWorld::Columns::ColumnId_Duration</a> = 99, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cac5900e6889dc5c04a1add895cbfeef5d">CSMWorld::Columns::ColumnId_Radius</a> = 100, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca38fc76430acef3ac44e07c019cf5dde6">CSMWorld::Columns::ColumnId_Colour</a> = 101, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caaacaf88de73ed93abddbc659c3e12ad4">CSMWorld::Columns::ColumnId_Sound</a> = 102, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caaacaf88de73ed93abddbc659c3e12ad4">CSMWorld::Columns::ColumnId_Sound</a> = 102, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caad4fef654e6a3426e27c1c568928e847">CSMWorld::Columns::ColumnId_Dynamic</a> = 103, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caad4fef654e6a3426e27c1c568928e847">CSMWorld::Columns::ColumnId_Dynamic</a> = 103, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca39ba11ef87c03fbdde71c2c9b6b9119e">CSMWorld::Columns::ColumnId_Portable</a> = 104, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca53c4948b773facfe639df2dec25a7c61">CSMWorld::Columns::ColumnId_NegativeLight</a> = 105, 
-<br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca11df90b9ade71d481bd3e06089f85461">CSMWorld::Columns::ColumnId_Flickering</a> = 106, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae8152559850cfa81b25211c96e5a4df0">CSMWorld::Columns::ColumnId_SlowFlickering</a> = 107, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cac3b39818600c745a9579e343d4278104">CSMWorld::Columns::ColumnId_Pulsing</a> = 108, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca4d4e7e3ffb5795cdb5c250e0c5f69ab2">CSMWorld::Columns::ColumnId_SlowPulsing</a> = 109, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca534ee3bdddc6958861622af7ec93020c">CSMWorld::Columns::ColumnId_EmitterType</a> = 106, 
 <br/>
 &#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca3a1d20aa3cf636491f7045c1ec7e5496">CSMWorld::Columns::ColumnId_Fire</a> = 110, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca896cc597824a81bf91b6cc8ce4f0c2d7">CSMWorld::Columns::ColumnId_OffByDefault</a> = 111, 
@@ -440,85 +435,97 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caa2dd82ad745e78632bd4854461d817e3">CSMWorld::Columns::ColumnId_Level</a> = 252, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caa72623dbaaad29360daa2386ccabc5f8">CSMWorld::Columns::ColumnId_NpcFactionID</a> = 253, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cafd84d06ca8e2dff4ebb0c9381541963d">CSMWorld::Columns::ColumnId_Mana</a> = 255, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca8972806a97b70eb5e409b1013b400b2e">CSMWorld::Columns::ColumnId_GenderNpc</a> = 254, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cafd84d06ca8e2dff4ebb0c9381541963d">CSMWorld::Columns::ColumnId_Mana</a> = 255, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caf86bfb245484eb0a10a8d71aa2baa643">CSMWorld::Columns::ColumnId_Fatigue</a> = 256, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca9edeb448e928f70f558f48764316ba3d">CSMWorld::Columns::ColumnId_NpcDisposition</a> = 257, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cabd5bc09d817c4e00df92dc7bd6f7e8dd">CSMWorld::Columns::ColumnId_NpcReputation</a> = 258, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cab1d6eae247e5f7a27b0807208d19f353">CSMWorld::Columns::ColumnId_NpcRank</a> = 259, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cabd5bc09d817c4e00df92dc7bd6f7e8dd">CSMWorld::Columns::ColumnId_NpcReputation</a> = 258, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cab1d6eae247e5f7a27b0807208d19f353">CSMWorld::Columns::ColumnId_NpcRank</a> = 259, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caa4fdcc79ad59c2e3e030bf4ba698da09">CSMWorld::Columns::ColumnId_Gold</a> = 260, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca2294f6ce5fa4075e9040ea1889cf73b4">CSMWorld::Columns::ColumnId_NpcPersistence</a> = 261, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca81e99d6fec5f248cc732d25a4809d221">CSMWorld::Columns::ColumnId_RaceAttributes</a> = 262, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caab637bb2e7e17027952b8f6debbb9543">CSMWorld::Columns::ColumnId_Male</a> = 263, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca81e99d6fec5f248cc732d25a4809d221">CSMWorld::Columns::ColumnId_RaceAttributes</a> = 262, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caab637bb2e7e17027952b8f6debbb9543">CSMWorld::Columns::ColumnId_Male</a> = 263, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca40d17b03710fedd036cfc2f8def089ae">CSMWorld::Columns::ColumnId_RaceSkillBonus</a> = 265, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca5193848a29a4d8d64b7a7f1f5b148af0">CSMWorld::Columns::ColumnId_RaceBonus</a> = 267, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca30a42537520d47b1ae19fa416d80406d">CSMWorld::Columns::ColumnId_Interior</a> = 268, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca680c2406b86162f9c753f029c00aaa29">CSMWorld::Columns::ColumnId_Ambient</a> = 269, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca30a42537520d47b1ae19fa416d80406d">CSMWorld::Columns::ColumnId_Interior</a> = 268, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca680c2406b86162f9c753f029c00aaa29">CSMWorld::Columns::ColumnId_Ambient</a> = 269, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca61b386615eef15b9ad26f710dd34cc0d">CSMWorld::Columns::ColumnId_Sunlight</a> = 270, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cada9b80a37e884bd29e1b2e850fdede14">CSMWorld::Columns::ColumnId_Fog</a> = 271, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cace0d27de3b03fc4076fcbdafaa0ff179">CSMWorld::Columns::ColumnId_FogDensity</a> = 272, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca7b29765e0def7874543863301ff28d43">CSMWorld::Columns::ColumnId_WaterLevel</a> = 273, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cace0d27de3b03fc4076fcbdafaa0ff179">CSMWorld::Columns::ColumnId_FogDensity</a> = 272, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca7b29765e0def7874543863301ff28d43">CSMWorld::Columns::ColumnId_WaterLevel</a> = 273, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca23ad5b13e4918cd2a438479f48212b4e">CSMWorld::Columns::ColumnId_MapColor</a> = 274, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca6019ed710c47548c9393f4ba468dd36b">CSMWorld::Columns::ColumnId_FileFormat</a> = 275, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cacafa4f1cc82a00804aedeb1b68dc81a5">CSMWorld::Columns::ColumnId_FileDescription</a> = 276, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae607daad3ea03dd1b88fe5de6e44c8bd">CSMWorld::Columns::ColumnId_Author</a> = 277, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cacafa4f1cc82a00804aedeb1b68dc81a5">CSMWorld::Columns::ColumnId_FileDescription</a> = 276, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae607daad3ea03dd1b88fe5de6e44c8bd">CSMWorld::Columns::ColumnId_Author</a> = 277, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caa625c6cba8c0150d5a850d4b7b835c1c">CSMWorld::Columns::ColumnId_MinMagnitude</a> = 278, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca8b37bb7fd204af04f79b3b47f3b3623a">CSMWorld::Columns::ColumnId_MaxMagnitude</a> = 279, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cac13609a972880bd9e9da712eca017a04">CSMWorld::Columns::ColumnId_CreatureAttributes</a> = 280, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca9cf9b23de88447f77c129e1d5483e6b5">CSMWorld::Columns::ColumnId_AttributeValue</a> = 281, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cac13609a972880bd9e9da712eca017a04">CSMWorld::Columns::ColumnId_CreatureAttributes</a> = 280, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca9cf9b23de88447f77c129e1d5483e6b5">CSMWorld::Columns::ColumnId_AttributeValue</a> = 281, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cab49eff4f928e34ab3dc46ca94ebc99f1">CSMWorld::Columns::ColumnId_CreatureAttack</a> = 282, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca0ce5987d63e5469d5371b579f55cf720">CSMWorld::Columns::ColumnId_MinAttack</a> = 283, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cac280a58f12d40d15d4774b4f7f211604">CSMWorld::Columns::ColumnId_MaxAttack</a> = 284, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca30a526a1e480645da0327e4e9eb06d1f">CSMWorld::Columns::ColumnId_CreatureMisc</a> = 285, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cac280a58f12d40d15d4774b4f7f211604">CSMWorld::Columns::ColumnId_MaxAttack</a> = 284, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca30a526a1e480645da0327e4e9eb06d1f">CSMWorld::Columns::ColumnId_CreatureMisc</a> = 285, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca0bdc7764ba48ad8a55b7365073546ca6">CSMWorld::Columns::ColumnId_Idle1</a> = 286, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca456f0392597837fc2957595016cc08df">CSMWorld::Columns::ColumnId_Idle2</a> = 287, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca758fa27453b740b53eaf3caecab3d680">CSMWorld::Columns::ColumnId_Idle3</a> = 288, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae0ce776df9f95f929fe13ef497ae32b7">CSMWorld::Columns::ColumnId_Idle4</a> = 289, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca758fa27453b740b53eaf3caecab3d680">CSMWorld::Columns::ColumnId_Idle3</a> = 288, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae0ce776df9f95f929fe13ef497ae32b7">CSMWorld::Columns::ColumnId_Idle4</a> = 289, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca1ca40f73088de2cb49ce10f5425301be">CSMWorld::Columns::ColumnId_Idle5</a> = 290, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae1f88e7118e37b52d9e0887d1792c84d">CSMWorld::Columns::ColumnId_Idle6</a> = 291, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca3e0ea9709d07f7d99e2da11dd0f45fca">CSMWorld::Columns::ColumnId_Idle7</a> = 292, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca4628f319a20c6d0f816c3534c34a02fb">CSMWorld::Columns::ColumnId_Idle8</a> = 293, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca3e0ea9709d07f7d99e2da11dd0f45fca">CSMWorld::Columns::ColumnId_Idle7</a> = 292, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca4628f319a20c6d0f816c3534c34a02fb">CSMWorld::Columns::ColumnId_Idle8</a> = 293, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cad8ee4cc59abe06cab1c80bee92f776e6">CSMWorld::Columns::ColumnId_RegionWeather</a> = 294, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cad04b0553f3767b27f542c25e06d0d167">CSMWorld::Columns::ColumnId_WeatherName</a> = 295, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca899e8075b87b6047388d8db9a124b519">CSMWorld::Columns::ColumnId_WeatherChance</a> = 296, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca37aeea4273ceb18e12c7933be811caec">CSMWorld::Columns::ColumnId_Text</a> = 297, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca899e8075b87b6047388d8db9a124b519">CSMWorld::Columns::ColumnId_WeatherChance</a> = 296, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca37aeea4273ceb18e12c7933be811caec">CSMWorld::Columns::ColumnId_Text</a> = 297, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca255878ba525acb4d849cd42cf3a36cb6">CSMWorld::Columns::ColumnId_TextureNickname</a> = 298, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caf8e1cd37f9a03f35161174b130f46ef0">CSMWorld::Columns::ColumnId_PluginIndex</a> = 299, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca84795289901b300a196c201443076b46">CSMWorld::Columns::ColumnId_TextureIndex</a> = 300, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cacff34e872cdf991ee1065c1bd3a54d28">CSMWorld::Columns::ColumnId_LandMapLodIndex</a> = 301, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae4ded375fa01a82fe2e19a5c5173625e">CSMWorld::Columns::ColumnId_LandNormalsIndex</a> = 302, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cadeb3a4da994a2361be546e293a49e30a">CSMWorld::Columns::ColumnId_LandHeightsIndex</a> = 303, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca2615e6b4d1084dcba0d88268f4f36757">CSMWorld::Columns::ColumnId_LandColoursIndex</a> = 304, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca9a09d979cfa3a800dfa0512c8ea071c2">CSMWorld::Columns::ColumnId_LandTexturesIndex</a> = 305, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca92ba9ebe09cc28183c63e59fca2c0f31">CSMWorld::Columns::ColumnId_UseValue1</a> = 0x10000, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca65a300a1b30716354cda515ca8dedcc6">CSMWorld::Columns::ColumnId_UseValue2</a> = 0x10001, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caeba8f9a7e57abdc7999e68fef2d46f32">CSMWorld::Columns::ColumnId_UseValue3</a> = 0x10002, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca8adfca8d1b9be5f392a5341d1f953d5b">CSMWorld::Columns::ColumnId_UseValue4</a> = 0x10003, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caeba8f9a7e57abdc7999e68fef2d46f32">CSMWorld::Columns::ColumnId_UseValue3</a> = 0x10002, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca8adfca8d1b9be5f392a5341d1f953d5b">CSMWorld::Columns::ColumnId_UseValue4</a> = 0x10003, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca84cc54ebf0eae53a8515143982077a8a">CSMWorld::Columns::ColumnId_Attribute1</a> = 0x20000, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca69ad459cd739815d798329086cc749ab">CSMWorld::Columns::ColumnId_Attribute2</a> = 0x20001, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca972c47777254b2d8cceaad14aa8e2c87">CSMWorld::Columns::ColumnId_MajorSkill1</a> = 0x30000, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cad7a26ba79e83ea8ea1b48d305e7542a3">CSMWorld::Columns::ColumnId_MajorSkill2</a> = 0x30001, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca972c47777254b2d8cceaad14aa8e2c87">CSMWorld::Columns::ColumnId_MajorSkill1</a> = 0x30000, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cad7a26ba79e83ea8ea1b48d305e7542a3">CSMWorld::Columns::ColumnId_MajorSkill2</a> = 0x30001, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cac82321b117bc2449a0f67720fcd792e8">CSMWorld::Columns::ColumnId_MajorSkill3</a> = 0x30002, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca92dd87081cfd496824c5cb6a7afa28fe">CSMWorld::Columns::ColumnId_MajorSkill4</a> = 0x30003, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca4d302cb763efd77e4867a71a63bd3e9f">CSMWorld::Columns::ColumnId_MajorSkill5</a> = 0x30004, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca1a5d7893df3ed6b17c2c7eff15f560d3">CSMWorld::Columns::ColumnId_MinorSkill1</a> = 0x40000, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca4d302cb763efd77e4867a71a63bd3e9f">CSMWorld::Columns::ColumnId_MajorSkill5</a> = 0x30004, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca1a5d7893df3ed6b17c2c7eff15f560d3">CSMWorld::Columns::ColumnId_MinorSkill1</a> = 0x40000, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca75147678d936640c7598b5afe1394e47">CSMWorld::Columns::ColumnId_MinorSkill2</a> = 0x40001, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cab427991039dcc81bc455f53f437be036">CSMWorld::Columns::ColumnId_MinorSkill3</a> = 0x40002, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca8c34880cc8938533c73cb9bbf1dd8203">CSMWorld::Columns::ColumnId_MinorSkill4</a> = 0x40003, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caf52291444ee93e708b715db086bcf22a">CSMWorld::Columns::ColumnId_MinorSkill5</a> = 0x40004, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca8c34880cc8938533c73cb9bbf1dd8203">CSMWorld::Columns::ColumnId_MinorSkill4</a> = 0x40003, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caf52291444ee93e708b715db086bcf22a">CSMWorld::Columns::ColumnId_MinorSkill5</a> = 0x40004, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca05d562b7d826fa9b9dc3c0f373746e77">CSMWorld::Columns::ColumnId_Skill1</a> = 0x50000, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caee0c23eb606059bef6b1002dddfdbb41">CSMWorld::Columns::ColumnId_Skill2</a> = 0x50001, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae1222ae253c0076d3e3e2c87ab648914">CSMWorld::Columns::ColumnId_Skill3</a> = 0x50002, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca9237f005f34695b521fcc700ca122c0a">CSMWorld::Columns::ColumnId_Skill4</a> = 0x50003, 
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8cae1222ae253c0076d3e3e2c87ab648914">CSMWorld::Columns::ColumnId_Skill3</a> = 0x50002, 
+<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca9237f005f34695b521fcc700ca122c0a">CSMWorld::Columns::ColumnId_Skill4</a> = 0x50003, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caa46dbce9561b0baeed29f967452511d5">CSMWorld::Columns::ColumnId_Skill5</a> = 0x50004, 
 <a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8ca324c623b377baf7fbe65dab51db301f3">CSMWorld::Columns::ColumnId_Skill6</a> = 0x50005, 
-<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caf5e8bc843256d9767d9a8e6b18e2da38">CSMWorld::Columns::ColumnId_Skill7</a> = 0x50006
+<br/>
+&#160;&#160;<a class="el" href="namespaceCSMWorld_1_1Columns.html#aa425a67eda4e539203e6f14bde658e8caf5e8bc843256d9767d9a8e6b18e2da38">CSMWorld::Columns::ColumnId_Skill7</a> = 0x50006
 <br/>
  }</td></tr>
 <tr class="separator:aa425a67eda4e539203e6f14bde658e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -539,7 +546,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

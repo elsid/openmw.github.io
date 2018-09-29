@@ -1,0 +1,51 @@
+<map id="MWMechanics::Actors::updateDrowning" name="MWMechanics::Actors::updateDrowning">
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="245,89,411,116"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="224,140,432,167"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="787,319,981,345"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="801,370,967,411"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="237,941,419,968"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="239,992,417,1019"/>
+<area shape="rect" id="node8" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="247,1043,409,1069"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1NpcStats.html#a9ca62ee3506f7d75b04cf51d4d241187" title="MWMechanics::NpcStats\l::getTimeToStartDrowning" alt="" coords="235,1094,421,1135"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1NpcStats.html#aa964e50fecdffb41f25694738ad762fc" title="MWMechanics::NpcStats\l::setTimeToStartDrowning" alt="" coords="235,1159,421,1201"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="225,1225,431,1266"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1CreatureStats.html#a41095b0401003a54a35299813ed2909f" title="MWMechanics::CreatureStats\l::getAiSequence" alt="" coords="223,1290,433,1331"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1AiSequence.html#a37cd79acd4ac66c554dec862b8fe3074" title="Returns currently executing AiPackage type. " alt="" coords="511,410,705,451"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1AiSequence.html#aaf3a6fc0797cb952d027f374c2a325af" title="MWMechanics::AiSequence\l::stack" alt="" coords="231,723,425,765"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="517,1168,699,1195"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="501,1219,715,1245"/>
+<area shape="rect" id="node25" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="527,1269,689,1296"/>
+<area shape="rect" id="node30" href="$classMWBase_1_1World.html#a0948a6dc379f460a865b37d1d81ec531" title="MWBase::World::isUnderwater" alt="" coords="223,1356,433,1383"/>
+<area shape="rect" id="node31" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="250,1407,406,1433"/>
+<area shape="rect" id="node32" href="$classMWBase_1_1World.html#aef8c9b39bccc4e5629c86249ac78b680" title="Is the head of the creature underwater? " alt="" coords="223,1457,433,1484"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1CreatureStats.html#a2b7019ffe2ea9ecaace020bd12845e68" title="MWMechanics::CreatureStats\l::getMagicEffects" alt="" coords="223,1509,433,1550"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="214,1575,442,1601"/>
+<area shape="rect" id="node35" href="$structMWMechanics_1_1EffectParam.html#a1bb9e5f90a32bab2fa1d7e5d08360a51" title="Get the total magnitude including base and modifier. " alt="" coords="230,1626,426,1667"/>
+<area shape="rect" id="node36" href="$classMWBase_1_1World.html#a334bfed31b22c0fd742e910f24bfd30f" title="MWBase::World::getGodMode\lState" alt="" coords="224,1691,432,1733"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1CreatureStats.html#a1c6f3d56e990e9ab329b7cc52a4947c8" title="MWMechanics::CreatureStats\l::getHealth" alt="" coords="223,1757,433,1798"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1DynamicStat.html#af114d4cb38a9d185a77154a620528049" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="783,253,985,294"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="227,1822,429,1863"/>
+<area shape="rect" id="node40" href="$classMWMechanics_1_1CreatureStats.html#ac2dce1e426c133341b70c14b850e1cf5" title="MWMechanics::CreatureStats\l::setHealth" alt="" coords="223,191,433,233"/>
+<area shape="rect" id="node46" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="245,1887,411,1929"/>
+<area shape="rect" id="node47" href="$classMWBase_1_1SoundManager.html#a5ac8e6ada561edf62b0b7aa713fa3bbb" title="MWBase::SoundManager\l::getSoundPlaying" alt="" coords="237,1953,419,1994"/>
+<area shape="rect" id="node48" href="$classMWBase_1_1SoundManager.html#a8d1c492f97504786ce42225af0471af3" title="MWBase::SoundManager\l::playSound3D" alt="" coords="237,2018,419,2059"/>
+<area shape="rect" id="node49" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="245,2083,411,2125"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1WindowManager.html#a86e986a547d57e557dc82b1543c023c6" title="MWBase::WindowManager\l::activateHitOverlay" alt="" coords="235,2149,421,2190"/>
+<area shape="rect" id="node15" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="519,985,697,1012"/>
+<area shape="rect" id="node17" href="$namespaceMWMechanics.html#a794ad3ada7ff83ab435c368a224c6fbd" title="MWMechanics::isActualAiPackage" alt="" coords="491,541,725,568"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1AiPackage.html#a65efe0a8b26a64a972e1e88f8231900d" title="MWMechanics::AiPackage\l::getTypeId" alt="" coords="516,593,700,634"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1AiSequence.html#a351aa9dce91b9e9eac5f8de555997a8d" title="Removes all combat packages until first non&#45;combat or stack empty. " alt="" coords="511,658,705,699"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1AiSequence.html#a384b331bd40753450d599e3411e49a75" title="Does this AI sequence have the given package type? " alt="" coords="511,723,705,765"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1AiSequence.html#a6fd12b64e3605085c64157f205d8d928" title="Return the current active package. " alt="" coords="511,789,705,830"/>
+<area shape="rect" id="node22" href="$classMWMechanics_1_1AiPackage.html#ad8831fc3660926f8635630f13ba3c800" title="Get the destination point of the AI package (not applicable to all AI packages, default return (0..." alt="" coords="516,854,700,895"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1AiPackage.html#ac4a9ff2150d84e42700e3e348ed93a8b" title="Upon adding this Ai package, should the Ai Sequence attempt to cancel previous Ai packages (default t..." alt="" coords="516,919,700,961"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1AiPackage.html#a799403fa700b84b157560cc018bf979d" title="Higher number is higher priority (0 being the lowest) " alt="" coords="516,1037,700,1078"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1AiPackage.html#accc18823204668ac8865b2919f001252" title="Clones the package. " alt="" coords="516,1102,700,1143"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1DerivedClassStorage.html#a116a8f3f9bb7540a206aba3986239543" title="takes ownership of the passed object " alt="" coords="507,475,709,517"/>
+<area shape="rect" id="node16" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="782,985,986,1012"/>
+<area shape="rect" id="node41" href="$classMWMechanics_1_1CreatureStats.html#a2887c6613153d6c33d2458e2eb08ade6" title="MWMechanics::CreatureStats\l::setDynamic" alt="" coords="503,189,713,230"/>
+<area shape="rect" id="node42" href="$classMWBase_1_1World.html#afedfaa8a949d00d5905eb8ae070492fe" title="Return current in&#45;game time stamp. " alt="" coords="773,5,995,32"/>
+<area shape="rect" id="node43" href="$classMWMechanics_1_1DynamicStat.html#aa1bf19302339be678e237f6cdaf2554b" title="MWMechanics::DynamicStat\l::setModifier" alt="" coords="783,57,985,98"/>
+<area shape="rect" id="node44" href="$classMWMechanics_1_1DynamicStat.html#ab9a41102193562350a182bad2f3c9602" title="MWMechanics::DynamicStat\l::setCurrentModifier" alt="" coords="783,122,985,163"/>
+<area shape="rect" id="node45" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="797,187,971,229"/>
+</map>

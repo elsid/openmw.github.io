@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/pathgridcheck.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/pathgridcheck.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -124,37 +124,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1SubCellCollection.html">CSMWorld::SubCellCollection</a>&lt;<a class="code" href="structCSMWorld_1_1Pathgrid.html">CSMWorld::Pathgrid</a>,</div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classCSMTools_1_1PathgridCheckStage.html#a9906a44132209e92403810f717f56d78">   27</a></span>&#160;              <a class="code" href="structCSMWorld_1_1IdAccessor.html">CSMWorld::IdAccessor&lt;CSMWorld::Pathgrid&gt;</a> &gt;&amp; <a class="code" href="classCSMTools_1_1PathgridCheckStage.html#a9906a44132209e92403810f717f56d78">mPathgrids</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="classCSMTools_1_1PathgridCheckStage.html#a22c5e2d1512a8cb548e776795bcc32a6">PathgridCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1SubCellCollection.html">CSMWorld::SubCellCollection</a>&lt;<a class="code" href="structCSMWorld_1_1Pathgrid.html">CSMWorld::Pathgrid</a>,</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <a class="code" href="structCSMWorld_1_1IdAccessor.html">CSMWorld::IdAccessor&lt;CSMWorld::Pathgrid&gt;</a> &gt;&amp; pathgrids);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1PathgridCheckStage.html#a80341b26db3a60f31f1597ec584dd75b">setup</a>();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1PathgridCheckStage.html#a82cc765a9130975ae573979ea13bb105">perform</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif // CSM_TOOLS_PATHGRIDCHECK_H</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classCSMTools_1_1PathgridCheckStage.html#ad3947d035bb9e5d35d9cbd06c64ac0ad">   28</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classCSMTools_1_1PathgridCheckStage.html#ad3947d035bb9e5d35d9cbd06c64ac0ad">mIgnoreBaseRecords</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classCSMTools_1_1PathgridCheckStage.html#a22c5e2d1512a8cb548e776795bcc32a6">PathgridCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1SubCellCollection.html">CSMWorld::SubCellCollection</a>&lt;<a class="code" href="structCSMWorld_1_1Pathgrid.html">CSMWorld::Pathgrid</a>,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="structCSMWorld_1_1IdAccessor.html">CSMWorld::IdAccessor&lt;CSMWorld::Pathgrid&gt;</a> &gt;&amp; pathgrids);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1PathgridCheckStage.html#a80341b26db3a60f31f1597ec584dd75b">setup</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1PathgridCheckStage.html#a82cc765a9130975ae573979ea13bb105">perform</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    };</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif // CSM_TOOLS_PATHGRIDCHECK_H</span></div>
 <div class="ttc" id="structCSMTools_1_1Point_html_a2cb2f20858d659832af0b380c635a9f7"><div class="ttname"><a href="structCSMTools_1_1Point.html#a2cb2f20858d659832af0b380c635a9f7">CSMTools::Point::Point</a></div><div class="ttdeci">Point()</div><div class="ttdef"><b>Definition:</b> pathgridcheck.hpp:21</div></div>
-<div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html_a22c5e2d1512a8cb548e776795bcc32a6"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html#a22c5e2d1512a8cb548e776795bcc32a6">CSMTools::PathgridCheckStage::PathgridCheckStage</a></div><div class="ttdeci">PathgridCheckStage(const CSMWorld::SubCellCollection&lt; CSMWorld::Pathgrid, CSMWorld::IdAccessor&lt; CSMWorld::Pathgrid &gt; &gt; &amp;pathgrids)</div><div class="ttdef"><b>Definition:</b> pathgridcheck.cpp:11</div></div>
+<div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html_ad3947d035bb9e5d35d9cbd06c64ac0ad"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html#ad3947d035bb9e5d35d9cbd06c64ac0ad">CSMTools::PathgridCheckStage::mIgnoreBaseRecords</a></div><div class="ttdeci">bool mIgnoreBaseRecords</div><div class="ttdef"><b>Definition:</b> pathgridcheck.hpp:28</div></div>
+<div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html_a22c5e2d1512a8cb548e776795bcc32a6"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html#a22c5e2d1512a8cb548e776795bcc32a6">CSMTools::PathgridCheckStage::PathgridCheckStage</a></div><div class="ttdeci">PathgridCheckStage(const CSMWorld::SubCellCollection&lt; CSMWorld::Pathgrid, CSMWorld::IdAccessor&lt; CSMWorld::Pathgrid &gt; &gt; &amp;pathgrids)</div><div class="ttdef"><b>Definition:</b> pathgridcheck.cpp:13</div></div>
 <div class="ttc" id="classCSMDoc_1_1Messages_html"><div class="ttname"><a href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:38</div></div>
 <div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html_a9906a44132209e92403810f717f56d78"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html#a9906a44132209e92403810f717f56d78">CSMTools::PathgridCheckStage::mPathgrids</a></div><div class="ttdeci">const CSMWorld::SubCellCollection&lt; CSMWorld::Pathgrid, CSMWorld::IdAccessor&lt; CSMWorld::Pathgrid &gt; &gt; &amp; mPathgrids</div><div class="ttdef"><b>Definition:</b> pathgridcheck.hpp:27</div></div>
-<div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html_a80341b26db3a60f31f1597ec584dd75b"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html#a80341b26db3a60f31f1597ec584dd75b">CSMTools::PathgridCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> pathgridcheck.cpp:15</div></div>
+<div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html_a80341b26db3a60f31f1597ec584dd75b"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html#a80341b26db3a60f31f1597ec584dd75b">CSMTools::PathgridCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> pathgridcheck.cpp:19</div></div>
 <div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html">CSMTools::PathgridCheckStage</a></div><div class="ttdef"><b>Definition:</b> pathgridcheck.hpp:24</div></div>
 <div class="ttc" id="classCSMDoc_1_1Stage_html"><div class="ttname"><a href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div><div class="ttdef"><b>Definition:</b> stage.hpp:15</div></div>
 <div class="ttc" id="structCSMTools_1_1Point_html_a3a26a5273ed98a29ef12ebe4d5271ae9"><div class="ttname"><a href="structCSMTools_1_1Point.html#a3a26a5273ed98a29ef12ebe4d5271ae9">CSMTools::Point::mOtherIndex</a></div><div class="ttdeci">std::vector&lt; int &gt; mOtherIndex</div><div class="ttdef"><b>Definition:</b> pathgridcheck.hpp:20</div></div>
 <div class="ttc" id="structCSMTools_1_1Point_html"><div class="ttname"><a href="structCSMTools_1_1Point.html">CSMTools::Point</a></div><div class="ttdef"><b>Definition:</b> pathgridcheck.hpp:17</div></div>
 <div class="ttc" id="structCSMWorld_1_1Pathgrid_html"><div class="ttname"><a href="structCSMWorld_1_1Pathgrid.html">CSMWorld::Pathgrid</a></div><div class="ttdoc">Wrapper for Pathgrid record. </div><div class="ttdef"><b>Definition:</b> pathgrid.hpp:19</div></div>
 <div class="ttc" id="classCSMWorld_1_1SubCellCollection_html"><div class="ttname"><a href="classCSMWorld_1_1SubCellCollection.html">CSMWorld::SubCellCollection</a></div><div class="ttdoc">Single type collection of top level records that are associated with cells. </div><div class="ttdef"><b>Definition:</b> pathgridcheck.hpp:12</div></div>
-<div class="ttc" id="structCSMWorld_1_1IdAccessor_html"><div class="ttname"><a href="structCSMWorld_1_1IdAccessor.html">CSMWorld::IdAccessor</a></div><div class="ttdoc">Access to ID field in records. </div><div class="ttdef"><b>Definition:</b> collection.hpp:23</div></div>
-<div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html_a82cc765a9130975ae573979ea13bb105"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html#a82cc765a9130975ae573979ea13bb105">CSMTools::PathgridCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this stage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> pathgridcheck.cpp:20</div></div>
+<div class="ttc" id="structCSMWorld_1_1IdAccessor_html"><div class="ttname"><a href="structCSMWorld_1_1IdAccessor.html">CSMWorld::IdAccessor</a></div><div class="ttdoc">Access to ID field in records. </div><div class="ttdef"><b>Definition:</b> collection.hpp:25</div></div>
+<div class="ttc" id="classCSMTools_1_1PathgridCheckStage_html_a82cc765a9130975ae573979ea13bb105"><div class="ttname"><a href="classCSMTools_1_1PathgridCheckStage.html#a82cc765a9130975ae573979ea13bb105">CSMTools::PathgridCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this stage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> pathgridcheck.cpp:26</div></div>
 <div class="ttc" id="structCSMTools_1_1Point_html_a3dac46e961f6b376def61f939cb52cfc"><div class="ttname"><a href="structCSMTools_1_1Point.html#a3dac46e961f6b376def61f939cb52cfc">CSMTools::Point::mConnectionNum</a></div><div class="ttdeci">unsigned char mConnectionNum</div><div class="ttdef"><b>Definition:</b> pathgridcheck.hpp:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

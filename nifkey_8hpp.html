@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/nif/nifkey.hpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/nif/nifkey.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -104,18 +104,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &quot;<a class="el" href="nifstream_8hpp_source.html">nifstream.hpp</a>&quot;</code><br/>
 <code>#include &lt;sstream&gt;</code><br/>
 <code>#include &lt;map&gt;</code><br/>
-<code>#include &lt;boost/shared_ptr.hpp&gt;</code><br/>
 <code>#include &quot;<a class="el" href="niffile_8hpp_source.html">niffile.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for nifkey.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="nifkey_8hpp__incl.svg" width="1519" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="nifkey_8hpp__incl.svg" width="1432" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="nifkey_8hpp__dep__incl.svg" width="3383" height="587"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="nifkey_8hpp__dep__incl.svg" width="3470" height="691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -152,23 +151,23 @@ Typedefs</h2></td></tr>
 <tr class="separator:a4589cf3c98b6683890ed1721a32fde55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaad65fc391dfb4a965c12870ba7454e"><td class="memItemLeft" align="right" valign="top">typedef KeyMapT&lt; osg::Quat,&amp;NIFStream::getQuaternion &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#afaad65fc391dfb4a965c12870ba7454e">Nif::QuaternionKeyMap</a></td></tr>
 <tr class="separator:afaad65fc391dfb4a965c12870ba7454e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5487c2119c7df207c40909168b688410"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; FloatKeyMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a5487c2119c7df207c40909168b688410">Nif::FloatKeyMapPtr</a></td></tr>
-<tr class="separator:a5487c2119c7df207c40909168b688410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f6824f37a74341c4d1d07629e78a511"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; Vector3KeyMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a4f6824f37a74341c4d1d07629e78a511">Nif::Vector3KeyMapPtr</a></td></tr>
-<tr class="separator:a4f6824f37a74341c4d1d07629e78a511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a821c83cc0f12a02db04cec7b15cef421"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; Vector4KeyMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a821c83cc0f12a02db04cec7b15cef421">Nif::Vector4KeyMapPtr</a></td></tr>
-<tr class="separator:a821c83cc0f12a02db04cec7b15cef421"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c80ddfd73860e69bf5e11dbd9dd35fb"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; QuaternionKeyMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a4c80ddfd73860e69bf5e11dbd9dd35fb">Nif::QuaternionKeyMapPtr</a></td></tr>
-<tr class="separator:a4c80ddfd73860e69bf5e11dbd9dd35fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cf4cb384867163e665955c972eed6d2"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
+&lt; FloatKeyMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a0cf4cb384867163e665955c972eed6d2">Nif::FloatKeyMapPtr</a></td></tr>
+<tr class="separator:a0cf4cb384867163e665955c972eed6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfc865bbed7c6fdc43297f0ec1c626c"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
+&lt; Vector3KeyMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#aebfc865bbed7c6fdc43297f0ec1c626c">Nif::Vector3KeyMapPtr</a></td></tr>
+<tr class="separator:aebfc865bbed7c6fdc43297f0ec1c626c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a4d78ae9b24afd4c8f2de7fba3b666d"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
+&lt; Vector4KeyMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a3a4d78ae9b24afd4c8f2de7fba3b666d">Nif::Vector4KeyMapPtr</a></td></tr>
+<tr class="separator:a3a4d78ae9b24afd4c8f2de7fba3b666d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432dc8065fadf3e04bbf841188ecf8b0"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
+&lt; QuaternionKeyMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNif.html#a432dc8065fadf3e04bbf841188ecf8b0">Nif::QuaternionKeyMapPtr</a></td></tr>
+<tr class="separator:a432dc8065fadf3e04bbf841188ecf8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

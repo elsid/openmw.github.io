@@ -1,40 +1,36 @@
 <map id="MWWorld::ActionRead::executeImp" name="MWWorld::ActionRead::executeImp">
-<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="237,141,416,168"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="765,154,960,181"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="511,294,676,335"/>
-<area shape="rect" id="node6" href="$namespaceMWMechanics.html#ad3ebcc5a4e39de4a4feada34a9e7db17" title="MWMechanics::isPlayerInCombat" alt="" coords="211,242,442,269"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Action.html#a6f251a38ff6fdedac4169c8c4f327088" title="MWWorld::Action::getTarget" alt="" coords="229,688,424,714"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="243,738,410,765"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="221,790,432,831"/>
-<area shape="rect" id="node15" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="511,359,676,400"/>
-<area shape="rect" id="node16" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="500,424,687,466"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1Ptr.html#a7e0b302dd59b86df5730fe6d90e575b0" title="May return a 0&#45;pointer, if reference is not in a container. " alt="" coords="229,855,424,896"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="260,921,393,948"/>
-<area shape="rect" id="node21" href="$classMWBase_1_1WindowManager.html#a3277b993a67fcae11c0499a1b1b78845" title="MWBase::WindowManager\l::showScroll" alt="" coords="233,972,420,1014"/>
-<area shape="rect" id="node22" href="$classMWBase_1_1WindowManager.html#a7c6e1eaddd94730d5f7633d46b1245aa" title="MWBase::WindowManager\l::showBook" alt="" coords="233,1038,420,1079"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="223,1104,431,1130"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1NpcStats.html#ae48ec63346f34160ad58688f9474e9f4" title="MWMechanics::NpcStats\l::hasBeenUsed" alt="" coords="237,1155,416,1196"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="502,840,685,866"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="504,890,683,917"/>
-<area shape="rect" id="node27" href="$classMWMechanics_1_1NpcStats.html#aa4b982d9c7187a867fbb63d34479081e" title="MWMechanics::NpcStats\l::increaseSkill" alt="" coords="237,520,416,562"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1NpcStats.html#a8c78494ae640a82e3a5cd9556e8d0784" title="MWMechanics::NpcStats\l::flagAsUsed" alt="" coords="237,1220,416,1262"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="491,90,695,117"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="500,141,687,168"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1Player.html#a7533d17cd001e77f8da787da60f070ef" title="Checks all nearby actors to see if anyone has an aipackage against you. " alt="" coords="491,242,696,269"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="775,323,950,364"/>
-<area shape="rect" id="node10" href="$classMWBase_1_1MechanicsManager.html#a5af69c9bad603f6637b473f0acd78e90" title="Returns a list of actors who are fighting the given actor within the fAlarmDistance. " alt="" coords="759,206,966,247"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1Player.html#af44444776d68e15a21c03bb321aaaf88" title="MWWorld::Player::getPlayer" alt="" coords="766,272,959,298"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="493,941,693,968"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="755,941,971,968"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="517,541,669,568"/>
-<area shape="rect" id="node29" href="$structESM_1_1GameSetting.html#a1fcd19eb4d50405ecf1e9b4920a48f9d" title="Throws an exception if GMST is not of type int or float. " alt="" coords="499,592,687,618"/>
-<area shape="rect" id="node31" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="511,643,676,684"/>
-<area shape="rect" id="node32" href="$classMWBase_1_1SoundManager.html#a86faa2600e30cc6fd9b127e12d1c12bc" title="MWBase::SoundManager\l::playSound" alt="" coords="503,708,684,750"/>
-<area shape="rect" id="node33" href="$namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77" title="Compiler::Generator\l::message" alt="" coords="517,774,669,815"/>
-<area shape="rect" id="node30" href="$classESM_1_1Variant.html#aad77cad9a160b176ea71e09ecf2c55a5" title="ESM::Variant::getInteger" alt="" coords="774,592,951,618"/>
-<area shape="rect" id="node34" href="$classCompiler_1_1Literals.html#a0b6e9a75cce648bb5d73903331f0c050" title="add string literal and return value. " alt="" coords="796,708,929,750"/>
-<area shape="rect" id="node35" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a0724d9b01fecb5cea0724bfe2858faf6" title="anonymous_namespace\l\{generator::cpp\}::opPushInt" alt="" coords="761,774,964,815"/>
-<area shape="rect" id="node37" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a61853ee8c763da4c1a3902667634f487" title="anonymous_namespace\l\{generator::cpp\}::opMessageBox" alt="" coords="744,839,981,880"/>
-<area shape="rect" id="node36" href="$namespaceCompiler_1_1Generator.html#a41cbce5d9c7de795e8aca7cf37ad893a" title="Compiler::Generator\l::segment0" alt="" coords="1029,774,1181,815"/>
-<area shape="rect" id="node38" href="$namespaceCompiler_1_1Generator.html#a865353bbdbfb10c7aeae9de35960aba2" title="Compiler::Generator\l::segment3" alt="" coords="1029,839,1181,880"/>
+<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="237,372,416,399"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="765,229,960,256"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="511,281,676,322"/>
+<area shape="rect" id="node6" href="$namespaceMWMechanics.html#ad3ebcc5a4e39de4a4feada34a9e7db17" title="MWMechanics::isPlayerInCombat" alt="" coords="211,229,442,256"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Action.html#a6f251a38ff6fdedac4169c8c4f327088" title="MWWorld::Action::getTarget" alt="" coords="229,740,424,767"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="243,791,410,817"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="221,842,432,883"/>
+<area shape="rect" id="node15" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="511,449,676,490"/>
+<area shape="rect" id="node16" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="500,514,687,555"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="260,908,393,935"/>
+<area shape="rect" id="node20" href="$classMWBase_1_1WindowManager.html#a032fb5482e330180b67d927816204327" title="MWBase::WindowManager\l::pushGuiMode" alt="" coords="233,959,420,1001"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="223,1025,431,1052"/>
+<area shape="rect" id="node22" href="$classMWMechanics_1_1NpcStats.html#ae48ec63346f34160ad58688f9474e9f4" title="MWMechanics::NpcStats\l::hasBeenUsed" alt="" coords="237,1077,416,1118"/>
+<area shape="rect" id="node23" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="502,864,685,891"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="504,915,683,941"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1NpcStats.html#a382a0d158fcaca9b95a60790c8f57424" title="MWMechanics::NpcStats\l::increaseSkill" alt="" coords="237,573,416,614"/>
+<area shape="rect" id="node35" href="$classMWMechanics_1_1NpcStats.html#a8c78494ae640a82e3a5cd9556e8d0784" title="MWMechanics::NpcStats\l::flagAsUsed" alt="" coords="237,1142,416,1183"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="491,347,695,373"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="500,179,687,205"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Player.html#a7533d17cd001e77f8da787da60f070ef" title="Checks all nearby actors to see if anyone has an aipackage against you. " alt="" coords="491,77,696,104"/>
+<area shape="rect" id="node9" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="775,5,950,46"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1MechanicsManager.html#a5af69c9bad603f6637b473f0acd78e90" title="Returns a list of actors who are fighting the given actor within the fAlarmDistance. " alt="" coords="759,70,966,111"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Player.html#af44444776d68e15a21c03bb321aaaf88" title="MWWorld::Player::getPlayer" alt="" coords="766,136,959,163"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="493,965,693,992"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="755,965,971,992"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="517,763,669,789"/>
+<area shape="rect" id="node27" href="$classESM_1_1Variant.html#aad77cad9a160b176ea71e09ecf2c55a5" title="ESM::Variant::getInteger" alt="" coords="505,813,682,840"/>
+<area shape="rect" id="node28" href="$classMWBase_1_1WindowManager.html#ad3a14c537b57b319388d629ea01e2386" title="MWBase::WindowManager\l::playSound" alt="" coords="500,631,687,673"/>
+<area shape="rect" id="node29" href="$namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77" title="Compiler::Generator\l::message" alt="" coords="517,697,669,738"/>
+<area shape="rect" id="node30" href="$classCompiler_1_1Literals.html#a0b6e9a75cce648bb5d73903331f0c050" title="add string literal and return value. " alt="" coords="796,631,929,673"/>
+<area shape="rect" id="node31" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a0724d9b01fecb5cea0724bfe2858faf6" title="anonymous_namespace\l\{generator::cpp\}::opPushInt" alt="" coords="761,697,964,738"/>
+<area shape="rect" id="node33" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a61853ee8c763da4c1a3902667634f487" title="anonymous_namespace\l\{generator::cpp\}::opMessageBox" alt="" coords="744,762,981,803"/>
+<area shape="rect" id="node32" href="$namespaceCompiler_1_1Generator.html#a41cbce5d9c7de795e8aca7cf37ad893a" title="Compiler::Generator\l::segment0" alt="" coords="1029,697,1181,738"/>
+<area shape="rect" id="node34" href="$namespaceCompiler_1_1Generator.html#a865353bbdbfb10c7aeae9de35960aba2" title="Compiler::Generator\l::segment3" alt="" coords="1029,762,1181,803"/>
 </map>

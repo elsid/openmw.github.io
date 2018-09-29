@@ -1,28 +1,40 @@
 <map id="MWBase::World::isOnGround" name="MWBase::World::isOnGround">
-<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#ae01a6ef4f53e34c74b86a5fcaba872a7" title="MWClass::Creature::\lgetSndGenTypeFromName" alt="" coords="282,53,475,94"/>
-<area shape="rect" id="node4" href="$classMWClass_1_1Npc.html#ae64fa6b9a127eded92227a43503d4527" title="Returns the sound ID for ptr of the given soundgen type. " alt="" coords="283,130,475,171"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="257,195,501,237"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#a2839aaaa7ce0a8024f6ba2daa3ce45a5" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="257,285,500,326"/>
-<area shape="rect" id="node27" href="$classMWScript_1_1Misc_1_1OpGetPcJumping.html#a30efc6c4cde4339398f09f2528c986b6" title="MWScript::Misc::OpGetPcJumping\l::execute" alt="" coords="263,350,495,391"/>
-<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a6e3814ff043a3f48ad24dddd5e305204" title="Returns the sound ID for ptr of the given soundgen type. " alt="" coords="581,5,760,46"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1151,93,1311,134"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1379,93,1621,134"/>
-<area shape="rect" id="node9" href="$namespaceMWMechanics.html#a8addb1cc9040a8e5c061c1a1136a7284" title="MWMechanics::canFight" alt="" coords="585,195,757,221"/>
-<area shape="rect" id="node13" href="$namespaceMWMechanics.html#a0eca898ae05a994e8463ec1705205788" title="Get the chance (in percent) for attacker to successfully hit victim with a given weapon skill value..." alt="" coords="567,299,774,325"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1MechanicsManager.html#a3fa51ec4329cd8a71916c19a76b457b0" title="MWMechanics::MechanicsManager\l::commitCrime" alt="" coords="549,471,792,513"/>
-<area shape="rect" id="node26" href="$classMWMechanics_1_1MechanicsManager.html#aac554cc4280a59bcb2381e653c3f7b36" title="Turn actor into werewolf or normal form. " alt="" coords="549,537,792,578"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1Actors.html#a499f6bbd42387ac60a06e80c78f41dc5" title="MWMechanics::Actors\l::engageCombat" alt="" coords="881,122,1041,163"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="870,187,1053,229"/>
-<area shape="rect" id="node12" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="1139,187,1322,229"/>
-<area shape="rect" id="node14" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="878,253,1045,280"/>
-<area shape="rect" id="node15" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="894,304,1029,331"/>
-<area shape="rect" id="node16" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="864,355,1059,381"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="1131,347,1331,389"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="1400,347,1600,389"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="1669,347,1869,389"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1MechanicsManager.html#ad141d9d144db43c95491ecf5ab52762a" title="MWMechanics::MechanicsManager\l::sleepInBed" alt="" coords="840,406,1083,447"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1MechanicsManager.html#addb42f0c5d68deeaeafb8c763a3d67d1" title="Utility to check if opening (i.e. unlocking) this object is illegal and calling commitCrime if so..." alt="" coords="840,471,1083,513"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1MechanicsManager.html#a4bd88c829695528534252955ac6ceeaf" title="MWMechanics::MechanicsManager\l::itemTaken" alt="" coords="840,537,1083,578"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1MechanicsManager.html#ac0295fc090e45cda7afb12f54cdb3ff4" title="MWMechanics::MechanicsManager\l::actorAttacked" alt="" coords="840,602,1083,643"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1MechanicsManager.html#a3d920d72d10bae37ab7b70ce39d17a93" title="MWMechanics::MechanicsManager\l::actorKilled" alt="" coords="840,667,1083,709"/>
+<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#ae01a6ef4f53e34c74b86a5fcaba872a7" title="MWClass::Creature::\lgetSndGenTypeFromName" alt="" coords="281,5,474,46"/>
+<area shape="rect" id="node4" href="$classMWClass_1_1Npc.html#ae64fa6b9a127eded92227a43503d4527" title="Returns the sound ID for ptr of the given soundgen type. " alt="" coords="281,70,473,111"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="1654,125,1898,166"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#a2839aaaa7ce0a8024f6ba2daa3ce45a5" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="256,437,499,478"/>
+<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a6e3814ff043a3f48ad24dddd5e305204" title="Returns the sound ID for ptr of the given soundgen type. " alt="" coords="579,5,757,46"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="2719,195,2879,237"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="2939,195,3181,237"/>
+<area shape="rect" id="node9" href="$namespaceMWMechanics.html#a8addb1cc9040a8e5c061c1a1136a7284" title="MWMechanics::canFight" alt="" coords="2225,203,2397,229"/>
+<area shape="rect" id="node13" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="861,495,1056,521"/>
+<area shape="rect" id="node18" href="$namespaceMWMechanics.html#a0eca898ae05a994e8463ec1705205788" title="Get the chance (in percent) for attacker to successfully hit victim with a given weapon skill value..." alt="" coords="565,419,771,445"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1MechanicsManager.html#a3fa51ec4329cd8a71916c19a76b457b0" title="MWMechanics::MechanicsManager\l::commitCrime" alt="" coords="547,677,789,718"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1MechanicsManager.html#aac554cc4280a59bcb2381e653c3f7b36" title="Turn actor into werewolf or normal form. " alt="" coords="547,521,789,562"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1Actors.html#aba986ac5e52d128852febb4a882eb4d3" title="MWMechanics::Actors\l::engageCombat" alt="" coords="2481,195,2641,237"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="2470,389,2653,430"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="2707,389,2890,430"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="1143,647,1343,689"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1World.html#ae5903ca0dd09782dc14695a7f3c7d99c" title="MWWorld::World::launchProjectile" alt="" coords="1129,596,1357,623"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="1405,647,1605,689"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="1676,647,1876,689"/>
+<area shape="rect" id="node19" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="875,343,1042,369"/>
+<area shape="rect" id="node20" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="891,393,1026,420"/>
+<area shape="rect" id="node21" href="$namespaceMWMechanics.html#a34361714bc630a0c921be69cf14f6aa5" title="MWMechanics::rateWeapon" alt="" coords="861,444,1056,471"/>
+<area shape="rect" id="node22" href="$namespaceMWMechanics.html#a830c73b5935624c014c7f8c28cce9aff" title="MWMechanics::prepareNext\lAction" alt="" coords="2211,413,2410,454"/>
+<area shape="rect" id="node23" href="$namespaceMWMechanics.html#a2063cb7e43a9a94667efe9865bcae60f" title="MWMechanics::getBestAction\lRating" alt="" coords="2206,285,2415,326"/>
+<area shape="rect" id="node25" href="$namespaceMWMechanics.html#a2c14c536d3440ca240707db7bf78b2ea" title="MWMechanics::rateAmmo" alt="" coords="1149,393,1337,420"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1AiSequence.html#afcefe571332a2f759ce594c9e95c43ee" title="Execute current package, switching if needed. " alt="" coords="2464,277,2659,318"/>
+<area shape="rect" id="node26" href="$namespaceMWMechanics.html#ab7eadd05e39e29738227aeb394c096ec" title="MWMechanics::rateEffect" alt="" coords="1415,393,1596,420"/>
+<area shape="rect" id="node31" href="$namespaceMWMechanics.html#afb3891c89c0574755a4cbe5f94748ef1" title="MWMechanics::rateAmmo" alt="" coords="1411,292,1599,319"/>
+<area shape="rect" id="node27" href="$namespaceMWMechanics.html#a2d6e40b5807589d4725ad64e263dfe1f" title="MWMechanics::rateEffects" alt="" coords="1682,393,1870,420"/>
+<area shape="rect" id="node28" href="$namespaceMWMechanics.html#aec953882946f6e11ec708949f7a1d0da" title="MWMechanics::ratePotion" alt="" coords="1959,444,2145,471"/>
+<area shape="rect" id="node29" href="$namespaceMWMechanics.html#a9ea06096b26b59bb714ecbd570d51e23" title="MWMechanics::rateSpell" alt="" coords="1964,393,2140,420"/>
+<area shape="rect" id="node30" href="$namespaceMWMechanics.html#a9586872bfeceb99e5f4fc2399c5011fb" title="MWMechanics::rateMagicItem" alt="" coords="1947,343,2157,369"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1MechanicsManager.html#ad141d9d144db43c95491ecf5ab52762a" title="MWMechanics::MechanicsManager\l::sleepInBed" alt="" coords="837,546,1080,587"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1MechanicsManager.html#addb42f0c5d68deeaeafb8c763a3d67d1" title="Utility to check if opening (i.e. unlocking) this object is illegal and calling commitCrime if so..." alt="" coords="837,611,1080,653"/>
+<area shape="rect" id="node35" href="$classMWMechanics_1_1MechanicsManager.html#aa5d870d6413175e80ba1bb7904c25a8f" title="MWMechanics::MechanicsManager\l::confiscateStolenItemToOwner" alt="" coords="837,677,1080,718"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1MechanicsManager.html#a9c01b3db81f6689dcdc2dc5d7f819fb4" title="MWMechanics::MechanicsManager\l::itemTaken" alt="" coords="837,742,1080,783"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1MechanicsManager.html#ac0295fc090e45cda7afb12f54cdb3ff4" title="MWMechanics::MechanicsManager\l::actorAttacked" alt="" coords="837,807,1080,849"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1MechanicsManager.html#a3d920d72d10bae37ab7b70ce39d17a93" title="MWMechanics::MechanicsManager\l::actorKilled" alt="" coords="837,873,1080,914"/>
 </map>

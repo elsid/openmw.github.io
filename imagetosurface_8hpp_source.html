@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/sdlutil/imagetosurface.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/sdlutil/imagetosurface.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,26 +100,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="imagetosurface_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENMW_COMPONENTS_SDLUTIL_IMAGETOSURFACE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENMW_COMPONENTS_SDLUTIL_IMAGETOSURFACE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">struct </span>SDL_Surface;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>osg</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">class </span>Image;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>SDLUtil</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    SDL_Surface* <a class="code" href="namespaceSDLUtil.html#ae5d7bfb88b60e031d423cb7cef205213">imageToSurface</a>(osg::Image* image, <span class="keywordtype">bool</span> flip=<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">struct </span>SDL_Surface;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>osg</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">class </span>Image;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>SDLUtil</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">   15</a></span>&#160;    <span class="keyword">typedef</span> std::unique_ptr&lt;SDL_Surface, void (*)(SDL_Surface *)&gt; <a class="code" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SurfaceUniquePtr</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SurfaceUniquePtr</a> <a class="code" href="namespaceSDLUtil.html#ab576b4a3aeda5ff29a7a73154e10e0b4">imageToSurface</a>(osg::Image* image, <span class="keywordtype">bool</span> flip=<span class="keyword">false</span>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="namespaceSDLUtil_html_ae5d7bfb88b60e031d423cb7cef205213"><div class="ttname"><a href="namespaceSDLUtil.html#ae5d7bfb88b60e031d423cb7cef205213">SDLUtil::imageToSurface</a></div><div class="ttdeci">SDL_Surface * imageToSurface(osg::Image *image, bool flip)</div><div class="ttdef"><b>Definition:</b> imagetosurface.cpp:9</div></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="namespaceSDLUtil_html_aeac21feec99878ccd1828ebe5f3803e4"><div class="ttname"><a href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SDLUtil::SurfaceUniquePtr</a></div><div class="ttdeci">std::unique_ptr&lt; SDL_Surface, void(*)(SDL_Surface *)&gt; SurfaceUniquePtr</div><div class="ttdef"><b>Definition:</b> imagetosurface.hpp:15</div></div>
+<div class="ttc" id="namespaceSDLUtil_html_ab576b4a3aeda5ff29a7a73154e10e0b4"><div class="ttname"><a href="namespaceSDLUtil.html#ab576b4a3aeda5ff29a7a73154e10e0b4">SDLUtil::imageToSurface</a></div><div class="ttdeci">SurfaceUniquePtr imageToSurface(osg::Image *image, bool flip)</div><div class="ttdoc">Convert an osg::Image to an SDL_Surface. </div><div class="ttdef"><b>Definition:</b> imagetosurface.cpp:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

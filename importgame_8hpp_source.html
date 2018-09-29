@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/essimporter/importgame.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/essimporter/importgame.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -112,13 +112,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html">   15</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structESSImport_1_1GAME_1_1GMDT.html">GMDT</a></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        {</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#a877486358c276c9b9d3ea3325dbd8c7a">   17</a></span>&#160;           <span class="keywordtype">char</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#a877486358c276c9b9d3ea3325dbd8c7a">mCellName</a>[64];</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#ac11a3e3709b16c15a17388ff6e36bfcb">   18</a></span>&#160;           <span class="keywordtype">int</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#ac11a3e3709b16c15a17388ff6e36bfcb">mFogColour</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#afeff95d51869fd3aa2af5df99f5146df">   19</a></span>&#160;           <span class="keywordtype">float</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#afeff95d51869fd3aa2af5df99f5146df">mFogDensity</a>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#a8e712f30b58d7904b32aab7410b4748a">   20</a></span>&#160;           <span class="keywordtype">int</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#ad4c3bb5c098990da2f3b8490236b9a26">mCurrentWeather</a>, <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#a8e712f30b58d7904b32aab7410b4748a">mNextWeather</a>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#abb0351f92dafca5dcd2e5d304df962fa">   21</a></span>&#160;           <span class="keywordtype">int</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#abb0351f92dafca5dcd2e5d304df962fa">mWeatherTransition</a>; <span class="comment">// 0-100 transition between weathers, top 3 bytes may be garbage</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#a1a412fbb12112f3d505588f622f9f63c">   22</a></span>&#160;           <span class="keywordtype">float</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#a1a412fbb12112f3d505588f622f9f63c">mTimeOfNextTransition</a>; <span class="comment">// weather changes when gamehour == timeOfNextTransition</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#a95f0e42c0d86817654ed60676b02b6a3">   23</a></span>&#160;           <span class="keywordtype">int</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#aeab45061fb6999996595a789e4e7a698">mMasserPhase</a>, <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#a95f0e42c0d86817654ed60676b02b6a3">mSecundaPhase</a>; <span class="comment">// top 3 bytes may be garbage</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#a877486358c276c9b9d3ea3325dbd8c7a">   17</a></span>&#160;           <span class="keywordtype">char</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#a877486358c276c9b9d3ea3325dbd8c7a">mCellName</a>[64] {};</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#ac11a3e3709b16c15a17388ff6e36bfcb">   18</a></span>&#160;           <span class="keywordtype">int</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#ac11a3e3709b16c15a17388ff6e36bfcb">mFogColour</a> {0};</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#afeff95d51869fd3aa2af5df99f5146df">   19</a></span>&#160;           <span class="keywordtype">float</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#afeff95d51869fd3aa2af5df99f5146df">mFogDensity</a> {0.f};</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#a8e712f30b58d7904b32aab7410b4748a">   20</a></span>&#160;           <span class="keywordtype">int</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#ad4c3bb5c098990da2f3b8490236b9a26">mCurrentWeather</a> {0}, <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#a8e712f30b58d7904b32aab7410b4748a">mNextWeather</a> {0};</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#abb0351f92dafca5dcd2e5d304df962fa">   21</a></span>&#160;           <span class="keywordtype">int</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#abb0351f92dafca5dcd2e5d304df962fa">mWeatherTransition</a> {0}; <span class="comment">// 0-100 transition between weathers, top 3 bytes may be garbage</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#a1a412fbb12112f3d505588f622f9f63c">   22</a></span>&#160;           <span class="keywordtype">float</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#a1a412fbb12112f3d505588f622f9f63c">mTimeOfNextTransition</a> {0.f}; <span class="comment">// weather changes when gamehour == timeOfNextTransition</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME_1_1GMDT.html#a95f0e42c0d86817654ed60676b02b6a3">   23</a></span>&#160;           <span class="keywordtype">int</span> <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#aeab45061fb6999996595a789e4e7a698">mMasserPhase</a> {0}, <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html#a95f0e42c0d86817654ed60676b02b6a3">mSecundaPhase</a> {0}; <span class="comment">// top 3 bytes may be garbage</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        };</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structESSImport_1_1GAME.html#aa93ab285ea5b63abaef696d257e97ea5">   26</a></span>&#160;        <a class="code" href="structESSImport_1_1GAME_1_1GMDT.html">GMDT</a> <a class="code" href="structESSImport_1_1GAME.html#aa93ab285ea5b63abaef696d257e97ea5">mGMDT</a>;</div>
@@ -146,7 +146,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:47 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

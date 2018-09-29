@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -108,13 +108,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for CSMPrefs::EnumSetting:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMPrefs_1_1EnumSetting__inherit__graph.svg" width="184" height="691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMPrefs_1_1EnumSetting__inherit__graph.svg" width="184" height="736"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CSMPrefs::EnumSetting:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMPrefs_1_1EnumSetting__coll__graph.svg" width="3510" height="2384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMPrefs_1_1EnumSetting__coll__graph.svg" width="3520" height="2446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 *, <a class="el" href="classQWidget.html">QWidget</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMPrefs_1_1EnumSetting.html#a4a3d8403bfe726013a74df5f2491044b">makeWidgets</a> (<a class="el" href="classQWidget.html">QWidget</a> *parent)</td></tr>
 <tr class="memdesc:a4a3d8403bfe726013a74df5f2491044b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return label, input widget.  <a href="#a4a3d8403bfe726013a74df5f2491044b">More...</a><br/></td></tr>
 <tr class="separator:a4a3d8403bfe726013a74df5f2491044b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff2b0ec13c2f3c491e1767d4b880918e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMPrefs_1_1EnumSetting.html#aff2b0ec13c2f3c491e1767d4b880918e">updateWidget</a> ()</td></tr>
+<tr class="separator:aff2b0ec13c2f3c491e1767d4b880918e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classCSMPrefs_1_1Setting"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classCSMPrefs_1_1Setting')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classCSMPrefs_1_1Setting.html">CSMPrefs::Setting</a></td></tr>
 <tr class="memitem:a4d2992c002fe7c7725327e2d1761537d inherit pub_methods_classCSMPrefs_1_1Setting"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMPrefs_1_1Setting.html#a4d2992c002fe7c7725327e2d1761537d">Setting</a> (<a class="el" href="classCSMPrefs_1_1Category.html">Category</a> *parent, <a class="el" href="classSettings_1_1Manager.html">Settings::Manager</a> *values, QMutex *mutex, const std::string &amp;key, const std::string &amp;label)</td></tr>
 <tr class="separator:a4d2992c002fe7c7725327e2d1761537d inherit pub_methods_classCSMPrefs_1_1Setting"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +171,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0381f5f7570749e1b2a87d025655410a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ff668fcc68ac6f597259fa9f7ae4e0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCSMPrefs_1_1EnumValues.html">EnumValues</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMPrefs_1_1EnumSetting.html#a6ff668fcc68ac6f597259fa9f7ae4e0c">mValues</a></td></tr>
 <tr class="separator:a6ff668fcc68ac6f597259fa9f7ae4e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee12c6c7678197500ab39f536b0ff2a"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMPrefs_1_1EnumSetting.html#a8ee12c6c7678197500ab39f536b0ff2a">mWidget</a></td></tr>
+<tr class="separator:a8ee12c6c7678197500ab39f536b0ff2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -332,6 +336,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aff2b0ec13c2f3c491e1767d4b880918e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CSMPrefs::EnumSetting::updateWidget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Updates the widget returned by <a class="el" href="classCSMPrefs_1_1EnumSetting.html#a4a3d8403bfe726013a74df5f2491044b" title="Return label, input widget. ">makeWidgets()</a> to the current setting.</p>
+<dl class="section note"><dt>Note</dt><dd>If make_widgets() has not been called yet then nothing happens. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classCSMPrefs_1_1Setting.html#ac1dd663acf0352ec8b5f594cfab8f61d">CSMPrefs::Setting</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab8fa061a16cf0891bc09dcecc6e27edd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -417,14 +448,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8ee12c6c7678197500ab39f536b0ff2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QComboBox* CSMPrefs::EnumSetting::mWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/prefs/<a class="el" href="enumsetting_8hpp_source.html">enumsetting.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/prefs/<a class="el" href="enumsetting_8cpp.html">enumsetting.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/prefs/<a class="el" href="enumsetting_8hpp_source.html">enumsetting.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/prefs/<a class="el" href="enumsetting_8cpp.html">enumsetting.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:56 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:28 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -108,13 +108,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for NifOsg::FindGroupByRecIndex:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex__inherit__graph.svg" width="219" height="259"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex__inherit__graph.svg" width="219" height="302"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NifOsg::FindGroupByRecIndex:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex__coll__graph.svg" width="446" height="246"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex__coll__graph.svg" width="446" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -122,8 +122,14 @@ Collaboration diagram for NifOsg::FindGroupByRecIndex:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afb5a3f21f2064b057801f1a54cdfce9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1FindGroupByRecIndex.html#afb5a3f21f2064b057801f1a54cdfce9e">FindGroupByRecIndex</a> (<a class="el" href="classint.html">int</a> recIndex)</td></tr>
 <tr class="separator:afb5a3f21f2064b057801f1a54cdfce9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87624f25ca14801aa1c9d7370f817619"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1FindGroupByRecIndex.html#a87624f25ca14801aa1c9d7370f817619">apply</a> (osg::Node &amp;searchNode)</td></tr>
-<tr class="separator:a87624f25ca14801aa1c9d7370f817619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a579a2a957ac3bc35a0036a290692d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1FindGroupByRecIndex.html#a54a579a2a957ac3bc35a0036a290692d">apply</a> (osg::Node &amp;node)</td></tr>
+<tr class="separator:a54a579a2a957ac3bc35a0036a290692d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31fa7f2f45816ef1b9e7cf8de8b8c514"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1FindGroupByRecIndex.html#a31fa7f2f45816ef1b9e7cf8de8b8c514">apply</a> (osg::MatrixTransform &amp;node)</td></tr>
+<tr class="separator:a31fa7f2f45816ef1b9e7cf8de8b8c514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a604bcfad7f1b2f474091c850c5b8c8a7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1FindGroupByRecIndex.html#a604bcfad7f1b2f474091c850c5b8c8a7">apply</a> (osg::Geometry &amp;node)</td></tr>
+<tr class="separator:a604bcfad7f1b2f474091c850c5b8c8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9272caec3c0ad78bfac9bc286217a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNifOsg_1_1FindGroupByRecIndex.html#a6c9272caec3c0ad78bfac9bc286217a1">applyNode</a> (osg::Node &amp;searchNode)</td></tr>
+<tr class="separator:a6c9272caec3c0ad78bfac9bc286217a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -155,7 +161,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a87624f25ca14801aa1c9d7370f817619"></a>
+<a class="anchor" id="a54a579a2a957ac3bc35a0036a290692d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -166,7 +172,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void NifOsg::FindGroupByRecIndex::apply </td>
           <td>(</td>
           <td class="paramtype">osg::Node &amp;&#160;</td>
-          <td class="paramname"><em>searchNode</em></td><td>)</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -176,6 +182,110 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex_a54a579a2a957ac3bc35a0036a290692d_cgraph.svg" width="1054" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a31fa7f2f45816ef1b9e7cf8de8b8c514"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NifOsg::FindGroupByRecIndex::apply </td>
+          <td>(</td>
+          <td class="paramtype">osg::MatrixTransform &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex_a31fa7f2f45816ef1b9e7cf8de8b8c514_cgraph.svg" width="1054" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a604bcfad7f1b2f474091c850c5b8c8a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NifOsg::FindGroupByRecIndex::apply </td>
+          <td>(</td>
+          <td class="paramtype">osg::Geometry &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex_a604bcfad7f1b2f474091c850c5b8c8a7_cgraph.svg" width="1054" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c9272caec3c0ad78bfac9bc286217a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NifOsg::FindGroupByRecIndex::applyNode </td>
+          <td>(</td>
+          <td class="paramtype">osg::Node &amp;&#160;</td>
+          <td class="paramname"><em>searchNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex_a6c9272caec3c0ad78bfac9bc286217a1_cgraph.svg" width="798" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNifOsg_1_1FindGroupByRecIndex_a6c9272caec3c0ad78bfac9bc286217a1_icgraph.svg" width="475" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -225,13 +335,13 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/nifosg/<a class="el" href="particle_8hpp_source.html">particle.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/nifosg/<a class="el" href="particle_8cpp.html">particle.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/nifosg/<a class="el" href="particle_8hpp_source.html">particle.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/nifosg/<a class="el" href="particle_8cpp.html">particle.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

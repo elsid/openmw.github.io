@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwsound/openal_output.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwsound/openal_output.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -97,7 +97,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -106,11 +105,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;cstring&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;memory&gt;</code><br/>
-<code>#include &lt;cstring&gt;</code><br/>
+<code>#include &lt;array&gt;</code><br/>
 <code>#include &lt;stdint.h&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="constants_8hpp_source.html">components/misc/constants.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="manager_8hpp_source.html">components/vfs/manager.hpp</a>&gt;</code><br/>
 <code>#include &lt;OpenThreads/Thread&gt;</code><br/>
 <code>#include &lt;OpenThreads/Condition&gt;</code><br/>
@@ -121,10 +122,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="sound_8hpp_source.html">sound.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="soundmanagerimp_8hpp_source.html">soundmanagerimp.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="loudness_8hpp_source.html">loudness.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="efx-presets_8h_source.html">efx-presets.h</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for openal_output.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="openal__output_8cpp__incl.svg" width="2842" height="862"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="openal__output_8cpp__incl.svg" width="3231" height="755"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -147,59 +149,34 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:ac254f19954bd74cab4046415ddea276e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#ac254f19954bd74cab4046415ddea276e">ALC_ALL_DEVICES_SPECIFIER</a>&#160;&#160;&#160;0x1013</td></tr>
 <tr class="separator:ac254f19954bd74cab4046415ddea276e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49a4bcd899e11bc9504e07fd6db35f63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a49a4bcd899e11bc9504e07fd6db35f63">ALC_SOFT_HRTF</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a49a4bcd899e11bc9504e07fd6db35f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94ea35f7acd8fc16d23065720e10a46b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a94ea35f7acd8fc16d23065720e10a46b">ALC_HRTF_SOFT</a>&#160;&#160;&#160;0x1992</td></tr>
-<tr class="separator:a94ea35f7acd8fc16d23065720e10a46b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19ecbd5acb9e908eadf5d0c736f31a5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a19ecbd5acb9e908eadf5d0c736f31a5b">ALC_DONT_CARE_SOFT</a>&#160;&#160;&#160;0x0002</td></tr>
-<tr class="separator:a19ecbd5acb9e908eadf5d0c736f31a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ca1b4cc44fba62ee512448fe648bab6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a5ca1b4cc44fba62ee512448fe648bab6">ALC_HRTF_STATUS_SOFT</a>&#160;&#160;&#160;0x1993</td></tr>
-<tr class="separator:a5ca1b4cc44fba62ee512448fe648bab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32233a23e7e5fa14d24ad7d3a865ea0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a32233a23e7e5fa14d24ad7d3a865ea0c">ALC_HRTF_DISABLED_SOFT</a>&#160;&#160;&#160;0x0000</td></tr>
-<tr class="separator:a32233a23e7e5fa14d24ad7d3a865ea0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac819ac78b1d155adb12ca443a34391c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#aac819ac78b1d155adb12ca443a34391c">ALC_HRTF_ENABLED_SOFT</a>&#160;&#160;&#160;0x0001</td></tr>
-<tr class="separator:aac819ac78b1d155adb12ca443a34391c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5a1be155a49d14ab633d22bdeb72c62"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#aa5a1be155a49d14ab633d22bdeb72c62">ALC_HRTF_DENIED_SOFT</a>&#160;&#160;&#160;0x0002</td></tr>
-<tr class="separator:aa5a1be155a49d14ab633d22bdeb72c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39a6ff4a350a71c1911dd351a1db443e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a39a6ff4a350a71c1911dd351a1db443e">ALC_HRTF_REQUIRED_SOFT</a>&#160;&#160;&#160;0x0003</td></tr>
-<tr class="separator:a39a6ff4a350a71c1911dd351a1db443e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8398b586fefa6e5ee2037865c8cb0961"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a8398b586fefa6e5ee2037865c8cb0961">ALC_HRTF_HEADPHONES_DETECTED_SOFT</a>&#160;&#160;&#160;0x0004</td></tr>
-<tr class="separator:a8398b586fefa6e5ee2037865c8cb0961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ecebace97f44c53a492201efedc2dd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a4ecebace97f44c53a492201efedc2dd3">ALC_HRTF_UNSUPPORTED_FORMAT_SOFT</a>&#160;&#160;&#160;0x0005</td></tr>
-<tr class="separator:a4ecebace97f44c53a492201efedc2dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf0b85ecc1e1070d2cff69369e40c234"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#aaf0b85ecc1e1070d2cff69369e40c234">ALC_NUM_HRTF_SPECIFIERS_SOFT</a>&#160;&#160;&#160;0x1994</td></tr>
-<tr class="separator:aaf0b85ecc1e1070d2cff69369e40c234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4031857030602db758cdcacf52bed835"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a4031857030602db758cdcacf52bed835">ALC_HRTF_SPECIFIER_SOFT</a>&#160;&#160;&#160;0x1995</td></tr>
-<tr class="separator:a4031857030602db758cdcacf52bed835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2ea38db43d54769382c307b5117a891"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#ae2ea38db43d54769382c307b5117a891">ALC_HRTF_ID_SOFT</a>&#160;&#160;&#160;0x1996</td></tr>
-<tr class="separator:ae2ea38db43d54769382c307b5117a891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3315867761990490fe9c1b5d411b8be3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a3315867761990490fe9c1b5d411b8be3">MAKE_PTRID</a>(id)&#160;&#160;&#160;((void*)(uintptr_t)id)</td></tr>
 <tr class="separator:a3315867761990490fe9c1b5d411b8be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfff2e83b1fbf6007f303723e7a6884e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#abfff2e83b1fbf6007f303723e7a6884e">GET_PTRID</a>(ptr)&#160;&#160;&#160;((ALuint)(uintptr_t)ptr)</td></tr>
 <tr class="separator:abfff2e83b1fbf6007f303723e7a6884e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a0f95df323217b073424a554903bc142a"><td class="memItemLeft" align="right" valign="top">typedef const ALCchar <br class="typebreak"/>
-*(ALC_APIENTRY *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a0f95df323217b073424a554903bc142a">LPALCGETSTRINGISOFT</a> )(ALCdevice *device, ALCenum paramName, ALCsizei index)</td></tr>
-<tr class="separator:a0f95df323217b073424a554903bc142a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76c52fd2e809fa36abbda3e8f0e8e1e0"><td class="memItemLeft" align="right" valign="top">typedef ALCboolean(ALC_APIENTRY *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#a76c52fd2e809fa36abbda3e8f0e8e1e0">LPALCRESETDEVICESOFT</a> )(ALCdevice *device, const ALCint *attribs)</td></tr>
-<tr class="separator:a76c52fd2e809fa36abbda3e8f0e8e1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afebe49caf9d2e257a1ece9ac12359750"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#afebe49caf9d2e257a1ece9ac12359750">getALCError</a>(d)&#160;&#160;&#160;checkALCError((d), __FUNCTION__, __LINE__)</td></tr>
+<tr class="separator:afebe49caf9d2e257a1ece9ac12359750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1aed5fab5ca6d992ff1978c4d185325"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#ac1aed5fab5ca6d992ff1978c4d185325">getALError</a>()&#160;&#160;&#160;checkALError(__FUNCTION__, __LINE__)</td></tr>
+<tr class="separator:ac1aed5fab5ca6d992ff1978c4d185325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9c1b649e09f68530538457e42b123d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="openal__output_8cpp.html#afb9c1b649e09f68530538457e42b123d">LOAD_FUNC</a>(x)&#160;&#160;&#160;getALFunc(x, #x)</td></tr>
+<tr class="separator:afb9c1b649e09f68530538457e42b123d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aacc4ae96ac487f18b8161afcd8939c6b"><td class="memItemLeft" align="right" valign="top">ALCenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#aacc4ae96ac487f18b8161afcd8939c6b">anonymous_namespace{openal_output.cpp}::checkALCError</a> (ALCdevice *device, const char *func, <a class="el" href="classint.html">int</a> line)</td></tr>
+<tr class="separator:aacc4ae96ac487f18b8161afcd8939c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7383ae4b6ad5a29e661089e9177090"><td class="memItemLeft" align="right" valign="top">ALenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#aaf7383ae4b6ad5a29e661089e9177090">anonymous_namespace{openal_output.cpp}::checkALError</a> (const char *func, <a class="el" href="classint.html">int</a> line)</td></tr>
+<tr class="separator:aaf7383ae4b6ad5a29e661089e9177090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ccf08f61621d4a77c90431231687a5e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename R &gt; </td></tr>
-<tr class="memitem:a9ccf08f61621d4a77c90431231687a5e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a9ccf08f61621d4a77c90431231687a5e">anonymous_namespace{openal_output.cpp}::convertPointer</a> (T &amp;dest, R src)</td></tr>
+<tr class="memitem:a9ccf08f61621d4a77c90431231687a5e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a9ccf08f61621d4a77c90431231687a5e">anonymous_namespace{openal_output.cpp}::convertPointer</a> (<a class="el" href="classGui_1_1T.html">T</a> &amp;dest, R src)</td></tr>
 <tr class="separator:a9ccf08f61621d4a77c90431231687a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13a607d6096a45c57aa2cec9891c11dd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a13a607d6096a45c57aa2cec9891c11dd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a13a607d6096a45c57aa2cec9891c11dd">anonymous_namespace{openal_output.cpp}::getFunc</a> (T &amp;func, ALCdevice *device, const char *<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</td></tr>
-<tr class="separator:a13a607d6096a45c57aa2cec9891c11dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5af807129994f7f0a49c40d728843e5c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a5af807129994f7f0a49c40d728843e5c">MWSound::fail</a> (const std::string &amp;msg)</td></tr>
-<tr class="separator:a5af807129994f7f0a49c40d728843e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaab278b695a178135dbed2aacf92b631"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#aaab278b695a178135dbed2aacf92b631">MWSound::throwALCerror</a> (ALCdevice *device)</td></tr>
-<tr class="separator:aaab278b695a178135dbed2aacf92b631"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96d38e803898cb4ed4a7c517bfce1744"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a96d38e803898cb4ed4a7c517bfce1744">MWSound::throwALerror</a> ()</td></tr>
-<tr class="separator:a96d38e803898cb4ed4a7c517bfce1744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd5b9b17dca77f1eba45e9545e35a7ac"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afd5b9b17dca77f1eba45e9545e35a7ac"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#afd5b9b17dca77f1eba45e9545e35a7ac">anonymous_namespace{openal_output.cpp}::getALCFunc</a> (<a class="el" href="classGui_1_1T.html">T</a> &amp;func, ALCdevice *device, const char *<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</td></tr>
+<tr class="separator:afd5b9b17dca77f1eba45e9545e35a7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66bb21f28e7d68c079f616b43ac44cf5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a66bb21f28e7d68c079f616b43ac44cf5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a66bb21f28e7d68c079f616b43ac44cf5">anonymous_namespace{openal_output.cpp}::getALFunc</a> (<a class="el" href="classGui_1_1T.html">T</a> &amp;func, const char *<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</td></tr>
+<tr class="separator:a66bb21f28e7d68c079f616b43ac44cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4700e0b4240a641b26ec6d1b74153d6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a4700e0b4240a641b26ec6d1b74153d6d">anonymous_namespace{openal_output.cpp}::LoadEffect</a> (ALuint effect, const <a class="el" href="structEFXEAXREVERBPROPERTIES.html">EFXEAXREVERBPROPERTIES</a> &amp;props)</td></tr>
+<tr class="separator:a4700e0b4240a641b26ec6d1b74153d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a108b519e814dffc847e9751551465c49"><td class="memItemLeft" align="right" valign="top">static ALenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWSound.html#a108b519e814dffc847e9751551465c49">MWSound::getALFormat</a> (ChannelConfig chans, SampleType type)</td></tr>
 <tr class="separator:a108b519e814dffc847e9751551465c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -207,6 +184,72 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a88827e671e7a3e18c1128b4b268a8faa"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a88827e671e7a3e18c1128b4b268a8faa">anonymous_namespace{openal_output.cpp}::sLoudnessFPS</a> = 20</td></tr>
 <tr class="separator:a88827e671e7a3e18c1128b4b268a8faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace36a223620bee1904fc803745144a39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#afeab0ceeeb62a422704d3dab38d6c3a4">LPALGENEFFECTS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#ace36a223620bee1904fc803745144a39">anonymous_namespace{openal_output.cpp}::alGenEffects</a></td></tr>
+<tr class="separator:ace36a223620bee1904fc803745144a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c63f283d7066c3e4b757c6a606860ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#af8184a2c9aedd77aeadf5dee0b97b5a5">LPALDELETEEFFECTS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a4c63f283d7066c3e4b757c6a606860ef">anonymous_namespace{openal_output.cpp}::alDeleteEffects</a></td></tr>
+<tr class="separator:a4c63f283d7066c3e4b757c6a606860ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11ee151be75f3af8c030aae80ac061d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a61b6788897f957ff75421e789b171a70">LPALISEFFECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a11ee151be75f3af8c030aae80ac061d1">anonymous_namespace{openal_output.cpp}::alIsEffect</a></td></tr>
+<tr class="separator:a11ee151be75f3af8c030aae80ac061d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeadf85003c09a33ffff040ff98be9158"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#aea9d7dee0afb4cb2aa8def1acdddb0ee">LPALEFFECTI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#aeadf85003c09a33ffff040ff98be9158">anonymous_namespace{openal_output.cpp}::alEffecti</a></td></tr>
+<tr class="separator:aeadf85003c09a33ffff040ff98be9158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce9afab5c64c5edc5d1e7c08f1df695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a083e65b1f2f8a61699d749c67bc33201">LPALEFFECTIV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a1ce9afab5c64c5edc5d1e7c08f1df695">anonymous_namespace{openal_output.cpp}::alEffectiv</a></td></tr>
+<tr class="separator:a1ce9afab5c64c5edc5d1e7c08f1df695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad433ae72a17ea7cd7dae7d13af8c1d4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a865375328120c1de83e5d62bb04d6a7f">LPALEFFECTF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#ad433ae72a17ea7cd7dae7d13af8c1d4d">anonymous_namespace{openal_output.cpp}::alEffectf</a></td></tr>
+<tr class="separator:ad433ae72a17ea7cd7dae7d13af8c1d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a222e256d480f4934054bc5c921b1092d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#af54a49f7593a1f452df3b04fe4b11cde">LPALEFFECTFV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a222e256d480f4934054bc5c921b1092d">anonymous_namespace{openal_output.cpp}::alEffectfv</a></td></tr>
+<tr class="separator:a222e256d480f4934054bc5c921b1092d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28bed9cf8247e2c816b023d1f488a57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#aef7f45f061772474b55d90b7417252d3">LPALGETEFFECTI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#ab28bed9cf8247e2c816b023d1f488a57">anonymous_namespace{openal_output.cpp}::alGetEffecti</a></td></tr>
+<tr class="separator:ab28bed9cf8247e2c816b023d1f488a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a073d8c567f409e4defe333dec1ab9539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a6a236e973e3aa1a748405c2e3ced06f1">LPALGETEFFECTIV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a073d8c567f409e4defe333dec1ab9539">anonymous_namespace{openal_output.cpp}::alGetEffectiv</a></td></tr>
+<tr class="separator:a073d8c567f409e4defe333dec1ab9539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7cfd8d5f5e527a2172a7b0b460734c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a18bc4dab2471f161da1054abf05b665c">LPALGETEFFECTF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a8c7cfd8d5f5e527a2172a7b0b460734c">anonymous_namespace{openal_output.cpp}::alGetEffectf</a></td></tr>
+<tr class="separator:a8c7cfd8d5f5e527a2172a7b0b460734c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32525ac9856d825ae5ab15789a7551f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a3d6b57b6f66b5fb17e62fd51c90653e2">LPALGETEFFECTFV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a32525ac9856d825ae5ab15789a7551f4">anonymous_namespace{openal_output.cpp}::alGetEffectfv</a></td></tr>
+<tr class="separator:a32525ac9856d825ae5ab15789a7551f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a215cfe6e557fab23e35ed553d458de07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a342f40896df2aa9fb3aada4707a32a1a">LPALGENFILTERS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a215cfe6e557fab23e35ed553d458de07">anonymous_namespace{openal_output.cpp}::alGenFilters</a></td></tr>
+<tr class="separator:a215cfe6e557fab23e35ed553d458de07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0badbd66364fffd7180f4e3e3e717a32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#ac07c2be62aa99f2e9a2d01bfa93157b4">LPALDELETEFILTERS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a0badbd66364fffd7180f4e3e3e717a32">anonymous_namespace{openal_output.cpp}::alDeleteFilters</a></td></tr>
+<tr class="separator:a0badbd66364fffd7180f4e3e3e717a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf11aa8f6f0de91dc32b4c2477fcef56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a7251d9e5bb8fa281ce1fdbee4f652d3f">LPALISFILTER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#abf11aa8f6f0de91dc32b4c2477fcef56">anonymous_namespace{openal_output.cpp}::alIsFilter</a></td></tr>
+<tr class="separator:abf11aa8f6f0de91dc32b4c2477fcef56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f286ad5794c909d6119dbebb317089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#acf934214349e70d1a9ab6ac2fe9c89a2">LPALFILTERI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a73f286ad5794c909d6119dbebb317089">anonymous_namespace{openal_output.cpp}::alFilteri</a></td></tr>
+<tr class="separator:a73f286ad5794c909d6119dbebb317089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab298c76e5b0ef4868fcf00791858492e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#ac8669a48db347ef9438c1cd59ed042b4">LPALFILTERIV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#ab298c76e5b0ef4868fcf00791858492e">anonymous_namespace{openal_output.cpp}::alFilteriv</a></td></tr>
+<tr class="separator:ab298c76e5b0ef4868fcf00791858492e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b56d19940bb4b4bab8115058e3661bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a073f8670f06c0a4275d9b2009b20fd44">LPALFILTERF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a2b56d19940bb4b4bab8115058e3661bd">anonymous_namespace{openal_output.cpp}::alFilterf</a></td></tr>
+<tr class="separator:a2b56d19940bb4b4bab8115058e3661bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce52c3749efb3df66e836401a8de6cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a0df7bac1f8b3dd2c3376f79b32df7499">LPALFILTERFV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#adce52c3749efb3df66e836401a8de6cb">anonymous_namespace{openal_output.cpp}::alFilterfv</a></td></tr>
+<tr class="separator:adce52c3749efb3df66e836401a8de6cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7a808502f91209aac74a0a381e50ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a3352ca282f33aa57f64646417e530a99">LPALGETFILTERI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a9c7a808502f91209aac74a0a381e50ff">anonymous_namespace{openal_output.cpp}::alGetFilteri</a></td></tr>
+<tr class="separator:a9c7a808502f91209aac74a0a381e50ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c2772a8d50887d8563268ea9b1830c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#aecec8107dd622f950c4b8acd420d1ac1">LPALGETFILTERIV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a35c2772a8d50887d8563268ea9b1830c">anonymous_namespace{openal_output.cpp}::alGetFilteriv</a></td></tr>
+<tr class="separator:a35c2772a8d50887d8563268ea9b1830c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abccea7cf0403fe3493fd976fb1cef941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a88c8a0be95777c68a08d789cb273efe6">LPALGETFILTERF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#abccea7cf0403fe3493fd976fb1cef941">anonymous_namespace{openal_output.cpp}::alGetFilterf</a></td></tr>
+<tr class="separator:abccea7cf0403fe3493fd976fb1cef941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c763264c51164c181be68b96a85edc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a5846f512491eb9fb526cd1a61655ce9a">LPALGETFILTERFV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a9c763264c51164c181be68b96a85edc7">anonymous_namespace{openal_output.cpp}::alGetFilterfv</a></td></tr>
+<tr class="separator:a9c763264c51164c181be68b96a85edc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f854a868760e311a8c9bab95e9e93d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a3c84fc7ceacd3eef35c6e74669cdba53">LPALGENAUXILIARYEFFECTSLOTS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#aa6f854a868760e311a8c9bab95e9e93d">anonymous_namespace{openal_output.cpp}::alGenAuxiliaryEffectSlots</a></td></tr>
+<tr class="separator:aa6f854a868760e311a8c9bab95e9e93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8dfef4a97ccd8806fafda2d9f5d125e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#ad58bc21e3839ba02086bab200193833d">LPALDELETEAUXILIARYEFFECTSLOTS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#af8dfef4a97ccd8806fafda2d9f5d125e">anonymous_namespace{openal_output.cpp}::alDeleteAuxiliaryEffectSlots</a></td></tr>
+<tr class="separator:af8dfef4a97ccd8806fafda2d9f5d125e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0baf5aaa5ca7c8f6789e826e644bfc70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#af6af956e3701b1806839254258bb81d8">LPALISAUXILIARYEFFECTSLOT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a0baf5aaa5ca7c8f6789e826e644bfc70">anonymous_namespace{openal_output.cpp}::alIsAuxiliaryEffectSlot</a></td></tr>
+<tr class="separator:a0baf5aaa5ca7c8f6789e826e644bfc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af828cb5f55efe515ae758cf6c1dce55a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#aea4d0698d3ea92970dfbaae701d326a6">LPALAUXILIARYEFFECTSLOTI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#af828cb5f55efe515ae758cf6c1dce55a">anonymous_namespace{openal_output.cpp}::alAuxiliaryEffectSloti</a></td></tr>
+<tr class="separator:af828cb5f55efe515ae758cf6c1dce55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e8298d3cfb9b1ba414473d69be359d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#acfad5947fbd95b75b01a2ffa170149dd">LPALAUXILIARYEFFECTSLOTIV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a7e8298d3cfb9b1ba414473d69be359d7">anonymous_namespace{openal_output.cpp}::alAuxiliaryEffectSlotiv</a></td></tr>
+<tr class="separator:a7e8298d3cfb9b1ba414473d69be359d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3348c79d8b0cd33f52088621001ed738"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#af6357a5f4f298a779b511de57b0a5b8a">LPALAUXILIARYEFFECTSLOTF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a3348c79d8b0cd33f52088621001ed738">anonymous_namespace{openal_output.cpp}::alAuxiliaryEffectSlotf</a></td></tr>
+<tr class="separator:a3348c79d8b0cd33f52088621001ed738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d077f85614c9f8c6b5b95ecd85dc8b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#ac84f42baacfa2c7721bdefc554aaba0a">LPALAUXILIARYEFFECTSLOTFV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a5d077f85614c9f8c6b5b95ecd85dc8b1">anonymous_namespace{openal_output.cpp}::alAuxiliaryEffectSlotfv</a></td></tr>
+<tr class="separator:a5d077f85614c9f8c6b5b95ecd85dc8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27fd5e2d31fbaaede96ee7d15f3edb92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a7b18cea134e3e438b2a9007b94d13f8d">LPALGETAUXILIARYEFFECTSLOTI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a27fd5e2d31fbaaede96ee7d15f3edb92">anonymous_namespace{openal_output.cpp}::alGetAuxiliaryEffectSloti</a></td></tr>
+<tr class="separator:a27fd5e2d31fbaaede96ee7d15f3edb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa82f6b14355ca51eeb642605db776f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#a3b38b36d36a1623fe8347dd624a2bf02">LPALGETAUXILIARYEFFECTSLOTIV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a0aa82f6b14355ca51eeb642605db776f">anonymous_namespace{openal_output.cpp}::alGetAuxiliaryEffectSlotiv</a></td></tr>
+<tr class="separator:a0aa82f6b14355ca51eeb642605db776f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925dd93e0a513fe55af71841034c88e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#aad000bb4e3f3f0fe4c24e0c3ab359382">LPALGETAUXILIARYEFFECTSLOTF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a925dd93e0a513fe55af71841034c88e4">anonymous_namespace{openal_output.cpp}::alGetAuxiliaryEffectSlotf</a></td></tr>
+<tr class="separator:a925dd93e0a513fe55af71841034c88e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a268a9bb504c13a6479f3b4cc0e897055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="efx_8h.html#aeb6db5f1ce15e6e309d78156d7719cb1">LPALGETAUXILIARYEFFECTSLOTFV</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02openal__output_8cpp_03.html#a268a9bb504c13a6479f3b4cc0e897055">anonymous_namespace{openal_output.cpp}::alGetAuxiliaryEffectSlotfv</a></td></tr>
+<tr class="separator:a268a9bb504c13a6479f3b4cc0e897055"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ac254f19954bd74cab4046415ddea276e"></a>
@@ -215,162 +258,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define ALC_ALL_DEVICES_SPECIFIER&#160;&#160;&#160;0x1013</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a19ecbd5acb9e908eadf5d0c736f31a5b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_DONT_CARE_SOFT&#160;&#160;&#160;0x0002</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa5a1be155a49d14ab633d22bdeb72c62"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_DENIED_SOFT&#160;&#160;&#160;0x0002</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a32233a23e7e5fa14d24ad7d3a865ea0c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_DISABLED_SOFT&#160;&#160;&#160;0x0000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aac819ac78b1d155adb12ca443a34391c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_ENABLED_SOFT&#160;&#160;&#160;0x0001</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8398b586fefa6e5ee2037865c8cb0961"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_HEADPHONES_DETECTED_SOFT&#160;&#160;&#160;0x0004</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae2ea38db43d54769382c307b5117a891"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_ID_SOFT&#160;&#160;&#160;0x1996</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a39a6ff4a350a71c1911dd351a1db443e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_REQUIRED_SOFT&#160;&#160;&#160;0x0003</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a94ea35f7acd8fc16d23065720e10a46b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_SOFT&#160;&#160;&#160;0x1992</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4031857030602db758cdcacf52bed835"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_SPECIFIER_SOFT&#160;&#160;&#160;0x1995</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5ca1b4cc44fba62ee512448fe648bab6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_STATUS_SOFT&#160;&#160;&#160;0x1993</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4ecebace97f44c53a492201efedc2dd3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_HRTF_UNSUPPORTED_FORMAT_SOFT&#160;&#160;&#160;0x0005</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aaf0b85ecc1e1070d2cff69369e40c234"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_NUM_HRTF_SPECIFIERS_SOFT&#160;&#160;&#160;0x1994</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a49a4bcd899e11bc9504e07fd6db35f63"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALC_SOFT_HRTF&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -393,6 +280,53 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afebe49caf9d2e257a1ece9ac12359750"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getALCError</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">d</td><td>)</td>
+          <td>&#160;&#160;&#160;checkALCError((d), __FUNCTION__, __LINE__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac1aed5fab5ca6d992ff1978c4d185325"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getALError</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;checkALError(__FUNCTION__, __LINE__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afb9c1b649e09f68530538457e42b123d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOAD_FUNC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;getALFunc(x, #x)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a3315867761990490fe9c1b5d411b8be3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -409,35 +343,10 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a0f95df323217b073424a554903bc142a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef const ALCchar*(ALC_APIENTRY* LPALCGETSTRINGISOFT)(ALCdevice *device, ALCenum paramName, ALCsizei index)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a76c52fd2e809fa36abbda3e8f0e8e1e0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef ALCboolean(ALC_APIENTRY* LPALCRESETDEVICESOFT)(ALCdevice *device, const ALCint *attribs)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

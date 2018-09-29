@@ -30,23 +30,23 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWWorld_1_1CellRef.html#a87052b284f51199644dfc7fcc15bdca1" target="_top" xlink:title="MWWorld::CellRef::setLock\lLevel">
-<polygon fill="white" stroke="black" points="148.5,-49 148.5,-79 287.5,-79 287.5,-49 148.5,-49"/>
-<text text-anchor="start" x="156.5" y="-67" font-family="FreeSans" font-size="10.00">MWWorld::CellRef::setLock</text>
+<g id="a_node3"><a xlink:href="classMWWorld_1_1CellRef.html#af460188f6ef3dda8eee3ece8a412e3c4" target="_top" xlink:title="MWWorld::CellRef::getLock\lLevel">
+<polygon fill="white" stroke="black" points="148,-49 148,-79 288,-79 288,-49 148,-49"/>
+<text text-anchor="start" x="156" y="-67" font-family="FreeSans" font-size="10.00">MWWorld::CellRef::getLock</text>
 <text text-anchor="middle" x="218" y="-56" font-family="FreeSans" font-size="10.00">Level</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M111.615,-64C120.232,-64 129.287,-64 138.319,-64"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="138.483,-67.5001 148.483,-64 138.483,-60.5001 138.483,-67.5001"/>
+<path fill="none" stroke="midnightblue" d="M111.615,-64C120.1,-64 129.01,-64 137.905,-64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="137.918,-67.5001 147.918,-64 137.918,-60.5001 137.918,-67.5001"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWWorld_1_1CellRef.html#af460188f6ef3dda8eee3ece8a412e3c4" target="_top" xlink:title="MWWorld::CellRef::getLock\lLevel">
-<polygon fill="white" stroke="black" points="148,-0 148,-30 288,-30 288,-0 148,-0"/>
-<text text-anchor="start" x="156" y="-18" font-family="FreeSans" font-size="10.00">MWWorld::CellRef::getLock</text>
+<g id="a_node4"><a xlink:href="classMWWorld_1_1CellRef.html#a87052b284f51199644dfc7fcc15bdca1" target="_top" xlink:title="MWWorld::CellRef::setLock\lLevel">
+<polygon fill="white" stroke="black" points="148.5,-0 148.5,-30 287.5,-30 287.5,-0 148.5,-0"/>
+<text text-anchor="start" x="156.5" y="-18" font-family="FreeSans" font-size="10.00">MWWorld::CellRef::setLock</text>
 <text text-anchor="middle" x="218" y="-7" font-family="FreeSans" font-size="10.00">Level</text>
 </a>
 </g>

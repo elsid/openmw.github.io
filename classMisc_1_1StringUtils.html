@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,7 +107,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for Misc::StringUtils:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils__coll__graph.svg" width="168" height="163"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils__coll__graph.svg" width="182" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -115,11 +115,17 @@ Collaboration diagram for Misc::StringUtils:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMisc_1_1StringUtils_1_1ci.html">ci</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMisc_1_1StringUtils_1_1CiComp.html">CiComp</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0759adb102842ee3bced227707eb6949"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949">toLower</a> (char c)</td></tr>
 <tr class="separator:a0759adb102842ee3bced227707eb6949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5214324259b3c58304c1f22b4d7e6d17"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classUtf8Stream.html#a00e128710f619274aebf3ccaa344d7dd">Utf8Stream::UnicodeChar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1StringUtils.html#a5214324259b3c58304c1f22b4d7e6d17">toLowerUtf8</a> (<a class="el" href="classUtf8Stream.html#a00e128710f619274aebf3ccaa344d7dd">Utf8Stream::UnicodeChar</a> ch)</td></tr>
+<tr class="separator:a5214324259b3c58304c1f22b4d7e6d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33165a614fd0bf06e658c461008ff7bb"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1StringUtils.html#a33165a614fd0bf06e658c461008ff7bb">lowerCaseUtf8</a> (const std::string str)</td></tr>
+<tr class="separator:a33165a614fd0bf06e658c461008ff7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a770932f1a7e4a76b29537f0bd15d13c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1StringUtils.html#a770932f1a7e4a76b29537f0bd15d13c4">ciLess</a> (const std::string &amp;x, const std::string &amp;y)</td></tr>
 <tr class="separator:a770932f1a7e4a76b29537f0bd15d13c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f8cb0ac134191ba8417f74ab7dc4de6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6">ciEqual</a> (const std::string &amp;x, const std::string &amp;y)</td></tr>
@@ -132,6 +138,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2982264998fde90a8e01ebab4bd69e14"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14">lowerCase</a> (const std::string &amp;in)</td></tr>
 <tr class="memdesc:a2982264998fde90a8e01ebab4bd69e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns lower case copy of input string.  <a href="#a2982264998fde90a8e01ebab4bd69e14">More...</a><br/></td></tr>
 <tr class="separator:a2982264998fde90a8e01ebab4bd69e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38bf9c666160c24e2172150a8c27d62"><td class="memTemplParams" colspan="2">template&lt;typename Iterator , typename T &gt; </td></tr>
+<tr class="memitem:ac38bf9c666160c24e2172150a8c27d62"><td class="memTemplItemLeft" align="right" valign="top">static Iterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMisc_1_1StringUtils.html#ac38bf9c666160c24e2172150a8c27d62">partialBinarySearch</a> (Iterator begin, Iterator end, const <a class="el" href="classGui_1_1T.html">T</a> &amp;key)</td></tr>
+<tr class="memdesc:ac38bf9c666160c24e2172150a8c27d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a binary search on a sorted container for a string that 'key' starts with.  <a href="#ac38bf9c666160c24e2172150a8c27d62">More...</a><br/></td></tr>
+<tr class="separator:ac38bf9c666160c24e2172150a8c27d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926eba1c50b651676ccce06769b4dfef"><td class="memItemLeft" align="right" valign="top">static std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMisc_1_1StringUtils.html#a926eba1c50b651676ccce06769b4dfef">replaceAll</a> (std::string &amp;str, const char *what, const char *with, std::size_t whatLen=std::string::npos, std::size_t withLen=std::string::npos)</td></tr>
+<tr class="memdesc:a926eba1c50b651676ccce06769b4dfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces all occurrences of a string in another string.  <a href="#a926eba1c50b651676ccce06769b4dfef">More...</a><br/></td></tr>
+<tr class="separator:a926eba1c50b651676ccce06769b4dfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a09a6483fa1e7a3a0fdf141a37edc2196"></a>
@@ -183,7 +196,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a09a6483fa1e7a3a0fdf141a37edc2196_icgraph.svg" width="398" height="146"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a09a6483fa1e7a3a0fdf141a37edc2196_icgraph.svg" width="1715" height="374"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -267,7 +280,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a770932f1a7e4a76b29537f0bd15d13c4_icgraph.svg" width="1480" height="312"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a770932f1a7e4a76b29537f0bd15d13c4_icgraph.svg" width="1510" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -343,7 +356,180 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a249dcf40e5ef16618daf8bf5d2098c54_icgraph.svg" width="1040" height="2046"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a249dcf40e5ef16618daf8bf5d2098c54_icgraph.svg" width="968" height="2144"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a33165a614fd0bf06e658c461008ff7bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string Misc::StringUtils::lowerCaseUtf8 </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a33165a614fd0bf06e658c461008ff7bb_cgraph.svg" width="326" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a33165a614fd0bf06e658c461008ff7bb_icgraph.svg" width="344" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac38bf9c666160c24e2172150a8c27d62"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Iterator , typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Iterator Misc::StringUtils::partialBinarySearch </td>
+          <td>(</td>
+          <td class="paramtype">Iterator&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Iterator&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classGui_1_1T.html">T</a> &amp;&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs a binary search on a sorted container for a string that 'key' starts with. </p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_ac38bf9c666160c24e2172150a8c27d62_cgraph.svg" width="2347" height="1398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_ac38bf9c666160c24e2172150a8c27d62_icgraph.svg" width="715" height="123"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a926eba1c50b651676ccce06769b4dfef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string&amp; Misc::StringUtils::replaceAll </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>what</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>with</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>whatLen</em> = <code>std::string::npos</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>withLen</em> = <code>std::string::npos</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replaces all occurrences of a string in another string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to operate on. </td></tr>
+    <tr><td class="paramname">what</td><td>The string to replace. </td></tr>
+    <tr><td class="paramname">with</td><td>The replacement string. </td></tr>
+    <tr><td class="paramname">whatLen</td><td>The length of the string to replace. </td></tr>
+    <tr><td class="paramname">withLen</td><td>The length of the replacement string.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the string passed in <code>str</code>. </dd></dl>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a926eba1c50b651676ccce06769b4dfef_icgraph.svg" width="547" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -376,7 +562,39 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a0759adb102842ee3bced227707eb6949_icgraph.svg" width="899" height="2430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a0759adb102842ee3bced227707eb6949_icgraph.svg" width="894" height="2482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5214324259b3c58304c1f22b4d7e6d17"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classUtf8Stream.html#a00e128710f619274aebf3ccaa344d7dd">Utf8Stream::UnicodeChar</a> Misc::StringUtils::toLowerUtf8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classUtf8Stream.html#a00e128710f619274aebf3ccaa344d7dd">Utf8Stream::UnicodeChar</a>&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMisc_1_1StringUtils_a5214324259b3c58304c1f22b4d7e6d17_icgraph.svg" width="603" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -384,12 +602,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/misc/<a class="el" href="stringops_8hpp_source.html">stringops.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/misc/<a class="el" href="stringops_8hpp_source.html">stringops.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,33 +1,34 @@
 <map id="MWWorld::CellStore::listRefs" name="MWWorld::CellStore::listRefs">
-<area shape="rect" id="node2" href="$structESM_1_1Cell.html#af812968bd998cb0b96f7940171b77609" title="ESM::Cell::restore" alt="" coords="222,113,357,140"/>
-<area shape="rect" id="node7" href="$structESM_1_1Cell.html#a16416e62fedafd8315bf3a2317a6bef4" title="ESM::Cell::getNextRef" alt="" coords="210,240,369,267"/>
-<area shape="rect" id="node28" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="223,291,355,333"/>
-<area shape="rect" id="node31" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="217,357,361,398"/>
-<area shape="rect" id="node32" href="$structESM_1_1Cell.html#a12ba0ed5b1a64c3bb26b19c4ce16b28a" title="Return a short string describing the cell (mostly used for debugging/logging purpose) ..." alt="" coords="198,423,381,449"/>
-<area shape="rect" id="node3" href="$classESM_1_1ESMReader.html#ace62de398c94b922144f2d694cb0e766" title="ESM::ESMReader::restoreContext" alt="" coords="429,12,664,39"/>
-<area shape="rect" id="node4" href="$classESM_1_1ESMReader.html#aec84cf1e1b4d63ed1b334fea4ad76966" title="ESM::ESMReader::openRaw" alt="" coords="728,12,923,39"/>
-<area shape="rect" id="node5" href="$classESM_1_1ESMReader.html#a8d9023ee65e81dd049f1a2ed3ec77c55" title="ESM::ESMReader::close" alt="" coords="1017,12,1188,39"/>
+<area shape="rect" id="node2" href="$structESM_1_1Cell.html#af812968bd998cb0b96f7940171b77609" title="ESM::Cell::restore" alt="" coords="222,181,357,208"/>
+<area shape="rect" id="node8" href="$structESM_1_1Cell.html#a16416e62fedafd8315bf3a2317a6bef4" title="ESM::Cell::getNextRef" alt="" coords="210,311,369,337"/>
+<area shape="rect" id="node29" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="223,362,355,403"/>
+<area shape="rect" id="node32" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="217,427,361,469"/>
+<area shape="rect" id="node33" href="$structESM_1_1Cell.html#a12ba0ed5b1a64c3bb26b19c4ce16b28a" title="Return a short string describing the cell (mostly used for debugging/logging purpose) ..." alt="" coords="198,493,381,520"/>
+<area shape="rect" id="node3" href="$classESM_1_1ESMReader.html#ace62de398c94b922144f2d694cb0e766" title="ESM::ESMReader::restoreContext" alt="" coords="429,76,664,103"/>
+<area shape="rect" id="node4" href="$classESM_1_1ESMReader.html#aec84cf1e1b4d63ed1b334fea4ad76966" title="ESM::ESMReader::openRaw" alt="" coords="728,72,923,99"/>
+<area shape="rect" id="node5" href="$classESM_1_1ESMReader.html#a8d9023ee65e81dd049f1a2ed3ec77c55" title="ESM::ESMReader::close" alt="" coords="1017,71,1188,97"/>
 <area shape="rect" id="node6" href="$classESM_1_1FIXED__STRING__BASE.html#a154bd4f88b7711e6ebb709f6fbbb7dfe" title="ESM::FIXED_STRING_BASE\l::clear" alt="" coords="1267,5,1458,46"/>
-<area shape="rect" id="node8" href="$classESM_1_1ESMReader.html#abfd3da13c7227ed9d445ceed1a70f874" title="ESM::ESMReader::hasMoreSubs" alt="" coords="434,164,659,191"/>
-<area shape="rect" id="node9" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="724,316,927,343"/>
-<area shape="rect" id="node16" href="$classESM_1_1ESMReader.html#a1499e8005481bc7f13f4de0c2f3b9ee4" title="ESM::ESMReader::getHT" alt="" coords="737,215,913,241"/>
-<area shape="rect" id="node19" href="$classESM_1_1ESMReader.html#a45b4c4d5076772a527726f6d22b08759" title="ESM::ESMReader::getHNOT" alt="" coords="449,265,645,292"/>
-<area shape="rect" id="node20" href="$namespaceanonymous__namespace_02loadcell_8cpp_03.html#ad8e82b9eb9700b2719fe35d4852e069e" title="&lt; Translate 8bit/24bit code (stored in refNum.mIndex) into a proper refNum " alt="" coords="439,418,654,459"/>
-<area shape="rect" id="node23" href="$classESM_1_1ESMReader.html#a7ba6d4076f766ae7cac77542fa0634c2" title="ESM::ESMReader::skipRecord" alt="" coords="443,63,650,89"/>
-<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#a2421d4c0ab8b6ca62d5d7aa1afcc9841" title="ESM::ESMReader::peekNextSub" alt="" coords="713,367,937,393"/>
-<area shape="rect" id="node27" href="$classESM_1_1CellRef.html#ac25512f415f0f907d1331508d4b3229c" title="Calls loadId and loadData. " alt="" coords="479,113,614,140"/>
-<area shape="rect" id="node10" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="991,367,1214,393"/>
-<area shape="rect" id="node11" href="$classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" title="ESM::FIXED_STRING_BASE\l::data_size" alt="" coords="1267,305,1458,346"/>
-<area shape="rect" id="node12" href="$classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" title="ESM::ESMReader::getExact" alt="" coords="1507,253,1701,280"/>
-<area shape="rect" id="node15" href="$structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data" alt="" coords="1283,370,1442,411"/>
-<area shape="rect" id="node13" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="1750,203,1906,229"/>
-<area shape="rect" id="node14" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="1955,195,2146,237"/>
-<area shape="rect" id="node17" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="987,203,1218,229"/>
-<area shape="rect" id="node18" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1279,253,1446,280"/>
-<area shape="rect" id="node21" href="$classESM_1_1ESMReader.html#aa22b2e3b0a3c0899445c293f290f4702" title="ESM::ESMReader::getGameFiles" alt="" coords="713,468,938,495"/>
-<area shape="rect" id="node22" href="$classESM_1_1ESMReader.html#a8ffa599f7b71a3964d4fc3ea0da160ac" title="ESM::ESMReader::getIndex" alt="" coords="729,417,922,444"/>
-<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="744,63,907,89"/>
-<area shape="rect" id="node25" href="$classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" title="Get the current position in the file. Make sure that the file has been opened! " alt="" coords="994,63,1211,89"/>
-<area shape="rect" id="node29" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="481,501,613,542"/>
-<area shape="rect" id="node30" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="759,519,891,561"/>
+<area shape="rect" id="node7" href="$structESM_1_1Header.html#aac52065005e89d529724f71c85c6954f" title="ESM::Header::blank" alt="" coords="1289,71,1436,97"/>
+<area shape="rect" id="node9" href="$classESM_1_1ESMReader.html#abfd3da13c7227ed9d445ceed1a70f874" title="ESM::ESMReader::hasMoreSubs" alt="" coords="434,235,659,261"/>
+<area shape="rect" id="node10" href="$classESM_1_1ESMReader.html#a73984859aa2bc49103b828b2d0a1b43e" title="ESM::ESMReader::isNextSub" alt="" coords="724,285,927,312"/>
+<area shape="rect" id="node17" href="$classESM_1_1ESMReader.html#a1499e8005481bc7f13f4de0c2f3b9ee4" title="ESM::ESMReader::getHT" alt="" coords="737,352,913,379"/>
+<area shape="rect" id="node20" href="$classESM_1_1ESMReader.html#a45b4c4d5076772a527726f6d22b08759" title="ESM::ESMReader::getHNOT" alt="" coords="449,336,645,363"/>
+<area shape="rect" id="node21" href="$namespaceanonymous__namespace_02loadcell_8cpp_03.html#ad8e82b9eb9700b2719fe35d4852e069e" title="&lt; Translate 8bit/24bit code (stored in refNum.mIndex) into a proper refNum " alt="" coords="439,438,654,479"/>
+<area shape="rect" id="node24" href="$classESM_1_1ESMReader.html#a7ba6d4076f766ae7cac77542fa0634c2" title="ESM::ESMReader::skipRecord" alt="" coords="443,504,650,531"/>
+<area shape="rect" id="node27" href="$classESM_1_1ESMReader.html#a2421d4c0ab8b6ca62d5d7aa1afcc9841" title="ESM::ESMReader::peekNextSub" alt="" coords="713,156,937,183"/>
+<area shape="rect" id="node28" href="$classESM_1_1CellRef.html#ac25512f415f0f907d1331508d4b3229c" title="Calls loadId and loadData. " alt="" coords="479,184,614,211"/>
+<area shape="rect" id="node11" href="$classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" title="ESM::ESMReader::getSubName" alt="" coords="991,180,1214,207"/>
+<area shape="rect" id="node12" href="$classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" title="ESM::FIXED_STRING_BASE\l::data_size" alt="" coords="1267,238,1458,279"/>
+<area shape="rect" id="node13" href="$classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" title="ESM::ESMReader::getExact" alt="" coords="1507,304,1701,331"/>
+<area shape="rect" id="node16" href="$structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data" alt="" coords="1283,173,1442,214"/>
+<area shape="rect" id="node14" href="$classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" title="Used for error handling. " alt="" coords="1750,355,1906,381"/>
+<area shape="rect" id="node15" href="$classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" title="ESM::FIXED_STRING_BASE\l::toString" alt="" coords="1955,347,2146,389"/>
+<area shape="rect" id="node18" href="$classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" title="ESM::ESMReader::getSubHeader" alt="" coords="987,355,1218,381"/>
+<area shape="rect" id="node19" href="$classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" title="ESM::ESMReader::getT" alt="" coords="1279,304,1446,331"/>
+<area shape="rect" id="node22" href="$classESM_1_1ESMReader.html#aa22b2e3b0a3c0899445c293f290f4702" title="ESM::ESMReader::getGameFiles" alt="" coords="713,453,938,480"/>
+<area shape="rect" id="node23" href="$classESM_1_1ESMReader.html#a8ffa599f7b71a3964d4fc3ea0da160ac" title="ESM::ESMReader::getIndex" alt="" coords="729,403,922,429"/>
+<area shape="rect" id="node25" href="$classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" title="ESM::ESMReader::skip" alt="" coords="744,504,907,531"/>
+<area shape="rect" id="node26" href="$classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" title="Get the current position in the file. Make sure that the file has been opened! " alt="" coords="994,504,1211,531"/>
+<area shape="rect" id="node30" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="481,555,613,597"/>
+<area shape="rect" id="node31" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="759,555,891,597"/>
 </map>

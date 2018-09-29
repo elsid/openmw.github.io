@@ -56,20 +56,22 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="structMWMechanics_1_1AiFollowStorage.html" target="_top" xlink:title="{MWMechanics::AiFollowStorage\n|+ mTimer\l+ mMoving\l|+ AiFollowStorage()\l}">
-<polygon fill="white" stroke="black" points="192.5,-100 192.5,-168 357.5,-168 357.5,-100 192.5,-100"/>
-<text text-anchor="middle" x="275" y="-156" font-family="FreeSans" font-size="10.00">MWMechanics::AiFollowStorage</text>
-<polyline fill="none" stroke="black" points="192.5,-149 357.5,-149 "/>
-<text text-anchor="start" x="200.5" y="-137" font-family="FreeSans" font-size="10.00">+ mTimer</text>
-<text text-anchor="start" x="200.5" y="-126" font-family="FreeSans" font-size="10.00">+ mMoving</text>
-<polyline fill="none" stroke="black" points="192.5,-119 357.5,-119 "/>
-<text text-anchor="start" x="200.5" y="-107" font-family="FreeSans" font-size="10.00">+ AiFollowStorage()</text>
+<g id="a_node3"><a xlink:href="structMWMechanics_1_1AiFollowStorage.html" target="_top" xlink:title="{MWMechanics::AiFollowStorage\n|+ mTimer\l+ mMoving\l+ mTargetAngleRadians\l+ mTurnActorToTarget\l|+ AiFollowStorage()\l}">
+<polygon fill="white" stroke="black" points="192.5,-89 192.5,-179 357.5,-179 357.5,-89 192.5,-89"/>
+<text text-anchor="middle" x="275" y="-167" font-family="FreeSans" font-size="10.00">MWMechanics::AiFollowStorage</text>
+<polyline fill="none" stroke="black" points="192.5,-160 357.5,-160 "/>
+<text text-anchor="start" x="200.5" y="-148" font-family="FreeSans" font-size="10.00">+ mTimer</text>
+<text text-anchor="start" x="200.5" y="-137" font-family="FreeSans" font-size="10.00">+ mMoving</text>
+<text text-anchor="start" x="200.5" y="-126" font-family="FreeSans" font-size="10.00">+ mTargetAngleRadians</text>
+<text text-anchor="start" x="200.5" y="-115" font-family="FreeSans" font-size="10.00">+ mTurnActorToTarget</text>
+<polyline fill="none" stroke="black" points="192.5,-108 357.5,-108 "/>
+<text text-anchor="start" x="200.5" y="-96" font-family="FreeSans" font-size="10.00">+ AiFollowStorage()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M275,-293.959C275,-257.503 275,-203.028 275,-168.259"/>
+<path fill="none" stroke="midnightblue" d="M275,-294.1C275,-261.323 275,-213.904 275,-179.366"/>
 <polygon fill="none" stroke="midnightblue" points="271.5,-294.193 275,-304.193 278.5,-294.193 271.5,-294.193"/>
 </g>
 <!-- Node4 -->

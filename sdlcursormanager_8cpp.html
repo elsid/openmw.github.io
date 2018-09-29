@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/sdlutil/sdlcursormanager.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/sdlutil/sdlcursormanager.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -96,7 +96,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">sdlcursormanager.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -105,42 +106,54 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;cassert&gt;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
 <code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;cstdlib&gt;</code><br/>
 <code>#include &lt;SDL_mouse.h&gt;</code><br/>
 <code>#include &lt;SDL_endian.h&gt;</code><br/>
+<code>#include &lt;SDL_render.h&gt;</code><br/>
+<code>#include &lt;SDL_hints.h&gt;</code><br/>
 <code>#include &lt;osg/GraphicsContext&gt;</code><br/>
 <code>#include &lt;osg/Geometry&gt;</code><br/>
 <code>#include &lt;osg/Texture2D&gt;</code><br/>
 <code>#include &lt;osg/TexMat&gt;</code><br/>
+<code>#include &lt;osg/Version&gt;</code><br/>
 <code>#include &lt;osgViewer/GraphicsWindow&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="imagetosurface_8hpp_source.html">imagetosurface.hpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for sdlcursormanager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sdlcursormanager_8cpp__incl.svg" width="1739" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sdlcursormanager_8cpp__incl.svg" width="2410" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02sdlcursormanager_8cpp_03_1_1MyGraphicsContext.html">anonymous_namespace{sdlcursormanager.cpp}::MyGraphicsContext</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCursorDecompression_1_1MyGraphicsContext.html">CursorDecompression::MyGraphicsContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceanonymous__namespace_02sdlcursormanager_8cpp_03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02sdlcursormanager_8cpp_03.html">anonymous_namespace{sdlcursormanager.cpp}</a></td></tr>
+<tr class="memitem:namespaceCursorDecompression"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCursorDecompression.html">CursorDecompression</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceSDLUtil"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSDLUtil.html">SDLUtil</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8cd00475e7e93866c15377b7da301e14"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Image &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02sdlcursormanager_8cpp_03.html#a8cd00475e7e93866c15377b7da301e14">anonymous_namespace{sdlcursormanager.cpp}::decompress</a> (osg::ref_ptr&lt; osg::Image &gt; source, float rotDegrees)</td></tr>
-<tr class="separator:a8cd00475e7e93866c15377b7da301e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f02daf3dbb9cd589dc896199cd76780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SDLUtil::SurfaceUniquePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCursorDecompression.html#a8f02daf3dbb9cd589dc896199cd76780">CursorDecompression::hardwareDecompress</a> (osg::ref_ptr&lt; osg::Image &gt; source, float rotDegrees)</td></tr>
+<tr class="separator:a8f02daf3dbb9cd589dc896199cd76780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677046f1f8143188cb082cdcc2750485"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SDLUtil::SurfaceUniquePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCursorDecompression.html#a677046f1f8143188cb082cdcc2750485">CursorDecompression::softwareDecompress</a> (osg::ref_ptr&lt; osg::Image &gt; source, float rotDegrees)</td></tr>
+<tr class="separator:a677046f1f8143188cb082cdcc2750485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a11e2f20aca048a4825b881ac20de0d46"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCursorDecompression.html#a11e2f20aca048a4825b881ac20de0d46">CursorDecompression::DXTCSupported</a> = false</td></tr>
+<tr class="separator:a11e2f20aca048a4825b881ac20de0d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -11,23 +11,37 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-83 700,-83 700,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0,-24 0,-54 134,-54 134,-24 0,-24"/>
-<text text-anchor="start" x="8" y="-42" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="67" y="-31" font-family="FreeSans" font-size="10.00">::dragItem</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-22 0,-52 134,-52 134,-22 0,-22"/>
+<text text-anchor="start" x="8" y="-40" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="67" y="-29" font-family="FreeSans" font-size="10.00">::dragItem</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classMWGui_1_1InventoryWindow.html#a5b889ff5cadf8ed97fbb98cfe123055d" target="_top" xlink:title="MWGui::InventoryWindow\l::onItemSelectedFromSourceModel">
-<polygon fill="white" stroke="black" points="170.5,-24 170.5,-54 355.5,-54 355.5,-24 170.5,-24"/>
-<text text-anchor="start" x="178.5" y="-42" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="263" y="-31" font-family="FreeSans" font-size="10.00">::onItemSelectedFromSourceModel</text>
+<polygon fill="white" stroke="black" points="170.5,-44 170.5,-74 355.5,-74 355.5,-44 170.5,-44"/>
+<text text-anchor="start" x="178.5" y="-62" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="263" y="-51" font-family="FreeSans" font-size="10.00">::onItemSelectedFromSourceModel</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M144.458,-39C152.955,-39 161.672,-39 170.333,-39"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="144.221,-35.5001 134.221,-39 144.221,-42.5001 144.221,-35.5001"/>
+<path fill="none" stroke="midnightblue" d="M144.178,-45.6387C152.763,-46.6123 161.577,-47.6118 170.333,-48.6047"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="144.552,-42.1588 134.221,-44.5096 143.763,-49.1142 144.552,-42.1588"/>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="classMWGui_1_1InventoryWindow.html#ac0cf452b697e42ebb942910bdc98db4c" target="_top" xlink:title="MWGui::InventoryWindow\l::onAvatarClicked">
+<polygon fill="white" stroke="black" points="392,-0 392,-30 526,-30 526,-0 392,-0"/>
+<text text-anchor="start" x="400" y="-18" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="459" y="-7" font-family="FreeSans" font-size="10.00">::onAvatarClicked</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge6" class="edge"><title>Node1&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M144.528,-32.683C216.581,-28.6185 323.386,-22.5936 391.844,-18.7319"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="143.945,-29.2103 134.158,-33.268 144.339,-36.1991 143.945,-29.2103"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -40,22 +54,13 @@
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M365.673,-52.1021C374.586,-53.2507 383.446,-54.3925 391.952,-55.4886"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="365.968,-48.6114 355.603,-50.8045 365.074,-55.554 365.968,-48.6114"/>
-</g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classMWGui_1_1InventoryWindow.html#ac0cf452b697e42ebb942910bdc98db4c" target="_top" xlink:title="MWGui::InventoryWindow\l::onAvatarClicked">
-<polygon fill="white" stroke="black" points="392,-0 392,-30 526,-30 526,-0 392,-0"/>
-<text text-anchor="start" x="400" y="-18" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="459" y="-7" font-family="FreeSans" font-size="10.00">::onAvatarClicked</text>
-</a>
-</g>
+<path fill="none" stroke="midnightblue" d="M365.673,-61.6204C374.586,-61.8501 383.446,-62.0785 391.952,-62.2977"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="365.69,-58.1198 355.603,-61.3609 365.51,-65.1175 365.69,-58.1198"/>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M365.673,-26.4219C374.586,-25.3193 383.446,-24.2232 391.952,-23.1709"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="365.098,-22.9663 355.603,-27.6677 365.957,-29.9133 365.098,-22.9663"/>
+<path fill="none" stroke="midnightblue" d="M340.138,-41.7316C357.187,-37.8648 375.138,-33.7934 391.748,-30.0262"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="339.199,-38.3555 330.221,-43.9808 340.748,-45.1821 339.199,-38.3555"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>

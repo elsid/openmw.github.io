@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,13 +107,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for CSMTools::ReferenceCheckStage:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1ReferenceCheckStage__inherit__graph.svg" width="203" height="347"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1ReferenceCheckStage__inherit__graph.svg" width="203" height="360"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CSMTools::ReferenceCheckStage:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1ReferenceCheckStage__coll__graph.svg" width="7070" height="1435"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1ReferenceCheckStage__coll__graph.svg" width="7192" height="1478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -134,8 +134,8 @@ Public Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a9499cc55ec59c3678246d02ba294ee52"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCSMWorld_1_1RefCollection.html">CSMWorld::RefCollection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMTools_1_1ReferenceCheckStage.html#a9499cc55ec59c3678246d02ba294ee52">mReferences</a></td></tr>
 <tr class="separator:a9499cc55ec59c3678246d02ba294ee52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dd5a781ce934d8a28e0e7984ea2c939"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMTools_1_1ReferenceCheckStage.html#a7dd5a781ce934d8a28e0e7984ea2c939">mReferencables</a></td></tr>
-<tr class="separator:a7dd5a781ce934d8a28e0e7984ea2c939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd5fa5e869ed635615758628c86faeb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMTools_1_1ReferenceCheckStage.html#afdd5fa5e869ed635615758628c86faeb">mObjects</a></td></tr>
+<tr class="separator:afdd5fa5e869ed635615758628c86faeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75f0bdc6678c7cb71fc469324464822d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCSMWorld_1_1RefIdData.html">CSMWorld::RefIdData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMTools_1_1ReferenceCheckStage.html#a75f0bdc6678c7cb71fc469324464822d">mDataSet</a></td></tr>
 <tr class="separator:a75f0bdc6678c7cb71fc469324464822d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a949fb84ce46dadd6a1c3d8f8b50482d7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection</a><br class="typebreak"/>
@@ -144,6 +144,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8e72c8f289f41e25335ca13e111a94cb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection</a><br class="typebreak"/>
 &lt; <a class="el" href="structESM_1_1Faction.html">ESM::Faction</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMTools_1_1ReferenceCheckStage.html#a8e72c8f289f41e25335ca13e111a94cb">mFactions</a></td></tr>
 <tr class="separator:a8e72c8f289f41e25335ca13e111a94cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acabbba426fba3c420c334409abf48361"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMTools_1_1ReferenceCheckStage.html#acabbba426fba3c420c334409abf48361">mIgnoreBaseRecords</a></td></tr>
+<tr class="separator:acabbba426fba3c420c334409abf48361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ae8051e7df01272f6313f9889d859ddc1"></a>
@@ -224,7 +226,7 @@ Private Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1ReferenceCheckStage_ae656a80515e48545d75c3359c09b6084_cgraph.svg" width="1179" height="371"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1ReferenceCheckStage_ae656a80515e48545d75c3359c09b6084_cgraph.svg" width="432" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -254,6 +256,14 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>number of steps </dd></dl>
 
 <p>Implements <a class="el" href="classCSMDoc_1_1Stage.html#ae20cbb129eb111328df48dbd42092db2">CSMDoc::Stage</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMTools_1_1ReferenceCheckStage_a5f79094328f6f88d3a78478e6934a4e8_cgraph.svg" width="566" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -318,7 +328,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a7dd5a781ce934d8a28e0e7984ea2c939"></a>
+<a class="anchor" id="acabbba426fba3c420c334409abf48361"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -326,7 +336,27 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a>&amp; CSMTools::ReferenceCheckStage::mReferencables</td>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> CSMTools::ReferenceCheckStage::mIgnoreBaseRecords</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afdd5fa5e869ed635615758628c86faeb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a>&amp; CSMTools::ReferenceCheckStage::mObjects</td>
         </tr>
       </table>
   </td>
@@ -359,13 +389,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/tools/<a class="el" href="referencecheck_8hpp_source.html">referencecheck.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/tools/<a class="el" href="referencecheck_8cpp.html">referencecheck.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/tools/<a class="el" href="referencecheck_8hpp_source.html">referencecheck.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/tools/<a class="el" href="referencecheck_8cpp.html">referencecheck.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:56 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:29 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

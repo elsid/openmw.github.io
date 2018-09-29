@@ -116,7 +116,23 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="structNif_1_1KeyMapT.html" target="_top" xlink:title="{Nif::KeyMapT\&lt; T, getValue \&gt;\n||+ KeyMapT()\l+ read()\l&#45; readValue()\l&#45; readQuadratic()\l&#45; readQuadratic()\l&#45; readTBC()\l}">
+<polygon fill="white" stroke="#bfbfbf" points="298,-411 298,-479 420,-479 420,-411 298,-411"/>
+<text text-anchor="start" x="306" y="-467" font-family="FreeSans" font-size="10.00">shared_ptr&lt; const Nif</text>
+<text text-anchor="middle" x="359" y="-456" font-family="FreeSans" font-size="10.00">::Vector3KeyMap &gt;</text>
+<polyline fill="none" stroke="#bfbfbf" points="298,-449 420,-449 "/>
+<text text-anchor="middle" x="359" y="-437" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="298,-430 420,-430 "/>
+<text text-anchor="middle" x="359" y="-418" font-family="FreeSans" font-size="10.00"> </text>
+</g>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node7&#45;&gt;Node6</title>
+<path fill="none" stroke="#404040" d="M358.883,-410.903C358.912,-389.525 359.146,-361.112 360,-336 360.254,-328.535 360.603,-320.705 360.998,-312.945"/>
+<polygon fill="none" stroke="#404040" points="361.003,-312.853 357.334,-306.646 361.653,-300.871 365.322,-307.079 361.003,-312.853"/>
+<text text-anchor="middle" x="379.5" y="-350.5" font-family="FreeSans" font-size="10.00"> &#45;mKeys</text>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="structNif_1_1KeyMapT.html" target="_top" xlink:title="{Nif::KeyMapT\&lt; T, getValue \&gt;\n||+ KeyMapT()\l+ read()\l&#45; readValue()\l&#45; readQuadratic()\l&#45; readQuadratic()\l&#45; readTBC()\l}">
 <polygon fill="white" stroke="black" points="440.5,-389 440.5,-501 593.5,-501 593.5,-389 440.5,-389"/>
 <text text-anchor="middle" x="517" y="-489" font-family="FreeSans" font-size="10.00">Nif::KeyMapT&lt; T, getValue &gt;</text>
 <polyline fill="none" stroke="black" points="440.5,-482 593.5,-482 "/>
@@ -131,8 +147,8 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node6</title>
+<!-- Node8&#45;&gt;Node6 -->
+<g id="edge7" class="edge"><title>Node8&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M452.84,-388.743C446.9,-382.649 441.177,-376.347 436,-370 421.373,-352.069 407.715,-330.812 396.362,-311.261"/>
 <polygon fill="none" stroke="#404040" points="396.234,-311.036 389.79,-307.799 390.3,-300.606 396.744,-303.843 396.234,-311.036"/>
 <text text-anchor="middle" x="472.5" y="-361.5" font-family="FreeSans" font-size="10.00"> &#45;mDefaultVal</text>
@@ -156,8 +172,8 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node13 -->
-<g id="edge13" class="edge"><title>Node7&#45;&gt;Node13</title>
+<!-- Node8&#45;&gt;Node13 -->
+<g id="edge14" class="edge"><title>Node8&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M575.273,-388.925C580.827,-382.747 586.178,-376.376 591,-370 601.442,-356.193 597.296,-347.759 610,-336 624.01,-323.032 632.874,-328.218 649,-318 651.389,-316.486 653.783,-314.908 656.175,-313.279"/>
 <polygon fill="none" stroke="#404040" points="656.178,-313.277 658.753,-306.542 665.961,-306.329 663.386,-313.064 656.178,-313.277"/>
 <text text-anchor="middle" x="646.5" y="-361.5" font-family="FreeSans" font-size="10.00"> &#45;mDefaultVal</text>
@@ -180,94 +196,78 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node15 -->
-<g id="edge16" class="edge"><title>Node7&#45;&gt;Node15</title>
+<!-- Node8&#45;&gt;Node15 -->
+<g id="edge16" class="edge"><title>Node8&#45;&gt;Node15</title>
 <path fill="none" stroke="#404040" d="M513.077,-388.825C513.041,-371.723 514.22,-352.928 518,-336 519.804,-327.922 522.436,-319.691 525.494,-311.688"/>
 <polygon fill="none" stroke="#404040" points="525.503,-311.666 524.082,-304.596 530.061,-300.565 531.482,-307.635 525.503,-311.666"/>
 <text text-anchor="middle" x="554.5" y="-361.5" font-family="FreeSans" font-size="10.00"> &#45;mDefaultVal</text>
 <text text-anchor="middle" x="554.5" y="-350.5" font-family="FreeSans" font-size="10.00">&#45;mLastHighKey</text>
 <text text-anchor="middle" x="554.5" y="-339.5" font-family="FreeSans" font-size="10.00">&#45;mLastLowKey</text>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<polygon fill="white" stroke="#bfbfbf" points="403.5,-595 403.5,-663 522.5,-663 522.5,-595 403.5,-595"/>
-<text text-anchor="start" x="411.5" y="-651" font-family="FreeSans" font-size="10.00">std::map&lt; float, KeyT</text>
-<text text-anchor="middle" x="463" y="-640" font-family="FreeSans" font-size="10.00">&lt; T &gt; &gt;</text>
-<polyline fill="none" stroke="#bfbfbf" points="403.5,-633 522.5,-633 "/>
-<text text-anchor="middle" x="463" y="-621" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="403.5,-614 522.5,-614 "/>
-<text text-anchor="middle" x="463" y="-602" font-family="FreeSans" font-size="10.00"> </text>
-</g>
-<!-- Node8&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node8&#45;&gt;Node7</title>
-<path fill="none" stroke="#404040" d="M472.904,-594.618C479.671,-571.811 488.872,-540.8 497.119,-513.006"/>
-<polygon fill="none" stroke="#404040" points="497.172,-512.828 495.044,-505.938 500.585,-501.324 502.713,-508.214 497.172,-512.828"/>
-<text text-anchor="middle" x="515.5" y="-545.5" font-family="FreeSans" font-size="10.00"> +mKeys</text>
-</g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<polygon fill="white" stroke="#bfbfbf" points="409,-712.5 409,-769.5 447,-769.5 447,-712.5 409,-712.5"/>
-<text text-anchor="middle" x="428" y="-757.5" font-family="FreeSans" font-size="10.00">float</text>
-<polyline fill="none" stroke="#bfbfbf" points="409,-750.5 447,-750.5 "/>
-<text text-anchor="middle" x="428" y="-738.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="409,-731.5 447,-731.5 "/>
-<text text-anchor="middle" x="428" y="-719.5" font-family="FreeSans" font-size="10.00"> </text>
+<polygon fill="white" stroke="#bfbfbf" points="392.5,-595 392.5,-663 511.5,-663 511.5,-595 392.5,-595"/>
+<text text-anchor="start" x="400.5" y="-651" font-family="FreeSans" font-size="10.00">std::map&lt; float, KeyT</text>
+<text text-anchor="middle" x="452" y="-640" font-family="FreeSans" font-size="10.00">&lt; T &gt; &gt;</text>
+<polyline fill="none" stroke="#bfbfbf" points="392.5,-633 511.5,-633 "/>
+<text text-anchor="middle" x="452" y="-621" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="392.5,-614 511.5,-614 "/>
+<text text-anchor="middle" x="452" y="-602" font-family="FreeSans" font-size="10.00"> </text>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
 <g id="edge8" class="edge"><title>Node9&#45;&gt;Node8</title>
-<path fill="none" stroke="#404040" d="M433.805,-712.332C436.065,-702.652 438.868,-691.765 442,-682 442.809,-679.477 443.684,-676.902 444.601,-674.315"/>
-<polygon fill="none" stroke="#404040" points="444.62,-674.263 442.973,-667.243 448.82,-663.022 450.467,-670.042 444.62,-674.263"/>
-<text text-anchor="middle" x="459" y="-685.5" font-family="FreeSans" font-size="10.00"> +keys</text>
+<path fill="none" stroke="#404040" d="M462.112,-594.703C468.796,-573.244 477.962,-544.817 487,-520 487.906,-517.513 488.843,-514.985 489.803,-512.437"/>
+<polygon fill="none" stroke="#404040" points="489.819,-512.394 488.236,-505.359 494.121,-501.191 495.704,-508.227 489.819,-512.394"/>
+<text text-anchor="middle" x="508.5" y="-545.5" font-family="FreeSans" font-size="10.00"> +mKeys</text>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<polygon fill="white" stroke="#bfbfbf" points="465,-712.5 465,-769.5 531,-769.5 531,-712.5 465,-712.5"/>
-<text text-anchor="middle" x="498" y="-757.5" font-family="FreeSans" font-size="10.00">KeyT&lt; T &gt;</text>
-<polyline fill="none" stroke="#bfbfbf" points="465,-750.5 531,-750.5 "/>
-<text text-anchor="middle" x="498" y="-738.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="465,-731.5 531,-731.5 "/>
-<text text-anchor="middle" x="498" y="-719.5" font-family="FreeSans" font-size="10.00"> </text>
+<polygon fill="white" stroke="#bfbfbf" points="398,-712.5 398,-769.5 436,-769.5 436,-712.5 398,-712.5"/>
+<text text-anchor="middle" x="417" y="-757.5" font-family="FreeSans" font-size="10.00">float</text>
+<polyline fill="none" stroke="#bfbfbf" points="398,-750.5 436,-750.5 "/>
+<text text-anchor="middle" x="417" y="-738.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="398,-731.5 436,-731.5 "/>
+<text text-anchor="middle" x="417" y="-719.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node10&#45;&gt;Node8 -->
-<g id="edge9" class="edge"><title>Node10&#45;&gt;Node8</title>
-<path fill="none" stroke="#404040" d="M489.168,-712.242C485.577,-700.956 481.334,-687.622 477.322,-675.013"/>
-<polygon fill="none" stroke="#404040" points="477.214,-674.672 471.583,-670.167 473.575,-663.237 479.206,-667.742 477.214,-674.672"/>
-<text text-anchor="middle" x="510.5" y="-685.5" font-family="FreeSans" font-size="10.00"> +elements</text>
+<!-- Node10&#45;&gt;Node9 -->
+<g id="edge9" class="edge"><title>Node10&#45;&gt;Node9</title>
+<path fill="none" stroke="#404040" d="M422.805,-712.332C425.065,-702.652 427.868,-691.765 431,-682 431.809,-679.477 432.684,-676.902 433.601,-674.315"/>
+<polygon fill="none" stroke="#404040" points="433.62,-674.263 431.973,-667.243 437.82,-663.022 439.467,-670.042 433.62,-674.263"/>
+<text text-anchor="middle" x="448" y="-685.5" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<polygon fill="white" stroke="#bfbfbf" points="541,-600.5 541,-657.5 601,-657.5 601,-600.5 541,-600.5"/>
-<text text-anchor="middle" x="571" y="-645.5" font-family="FreeSans" font-size="10.00">unsigned</text>
-<polyline fill="none" stroke="#bfbfbf" points="541,-638.5 601,-638.5 "/>
-<text text-anchor="middle" x="571" y="-626.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="541,-619.5 601,-619.5 "/>
-<text text-anchor="middle" x="571" y="-607.5" font-family="FreeSans" font-size="10.00"> </text>
+<polygon fill="white" stroke="#bfbfbf" points="454,-712.5 454,-769.5 520,-769.5 520,-712.5 454,-712.5"/>
+<text text-anchor="middle" x="487" y="-757.5" font-family="FreeSans" font-size="10.00">KeyT&lt; T &gt;</text>
+<polyline fill="none" stroke="#bfbfbf" points="454,-750.5 520,-750.5 "/>
+<text text-anchor="middle" x="487" y="-738.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="454,-731.5 520,-731.5 "/>
+<text text-anchor="middle" x="487" y="-719.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node11&#45;&gt;Node7 -->
-<g id="edge10" class="edge"><title>Node11&#45;&gt;Node7</title>
-<path fill="none" stroke="#404040" d="M563.678,-600.385C557.793,-578.508 549.186,-547.207 541,-520 540.286,-517.626 539.55,-515.211 538.8,-512.775"/>
-<polygon fill="none" stroke="#404040" points="538.788,-512.734 533.182,-508.198 535.213,-501.278 540.819,-505.814 538.788,-512.734"/>
-<text text-anchor="middle" x="616.5" y="-567.5" font-family="FreeSans" font-size="10.00"> +mInterpolationType</text>
-<text text-anchor="middle" x="616.5" y="-556.5" font-family="FreeSans" font-size="10.00">+sTBCInterpolation</text>
-<text text-anchor="middle" x="616.5" y="-545.5" font-family="FreeSans" font-size="10.00">+sLinearInterpolation</text>
-<text text-anchor="middle" x="616.5" y="-534.5" font-family="FreeSans" font-size="10.00">+sXYZInterpolation</text>
-<text text-anchor="middle" x="616.5" y="-523.5" font-family="FreeSans" font-size="10.00">+sQuadraticInterpolation</text>
+<!-- Node11&#45;&gt;Node9 -->
+<g id="edge10" class="edge"><title>Node11&#45;&gt;Node9</title>
+<path fill="none" stroke="#404040" d="M478.168,-712.242C474.577,-700.956 470.334,-687.622 466.322,-675.013"/>
+<polygon fill="none" stroke="#404040" points="466.214,-674.672 460.583,-670.167 462.575,-663.237 468.206,-667.742 466.214,-674.672"/>
+<text text-anchor="middle" x="499.5" y="-685.5" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<polygon fill="white" stroke="#bfbfbf" points="298,-411 298,-479 420,-479 420,-411 298,-411"/>
-<text text-anchor="start" x="306" y="-467" font-family="FreeSans" font-size="10.00">shared_ptr&lt; const Nif</text>
-<text text-anchor="middle" x="359" y="-456" font-family="FreeSans" font-size="10.00">::Vector3KeyMap &gt;</text>
-<polyline fill="none" stroke="#bfbfbf" points="298,-449 420,-449 "/>
-<text text-anchor="middle" x="359" y="-437" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="298,-430 420,-430 "/>
-<text text-anchor="middle" x="359" y="-418" font-family="FreeSans" font-size="10.00"> </text>
+<polygon fill="white" stroke="#bfbfbf" points="530,-600.5 530,-657.5 590,-657.5 590,-600.5 530,-600.5"/>
+<text text-anchor="middle" x="560" y="-645.5" font-family="FreeSans" font-size="10.00">unsigned</text>
+<polyline fill="none" stroke="#bfbfbf" points="530,-638.5 590,-638.5 "/>
+<text text-anchor="middle" x="560" y="-626.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="530,-619.5 590,-619.5 "/>
+<text text-anchor="middle" x="560" y="-607.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node12&#45;&gt;Node6 -->
-<g id="edge11" class="edge"><title>Node12&#45;&gt;Node6</title>
-<path fill="none" stroke="#404040" d="M358.883,-410.903C358.912,-389.525 359.146,-361.112 360,-336 360.254,-328.535 360.603,-320.705 360.998,-312.945"/>
-<polygon fill="none" stroke="#404040" points="361.003,-312.853 357.334,-306.646 361.653,-300.871 365.322,-307.079 361.003,-312.853"/>
-<text text-anchor="middle" x="379.5" y="-350.5" font-family="FreeSans" font-size="10.00"> &#45;mKeys</text>
+<!-- Node12&#45;&gt;Node8 -->
+<g id="edge11" class="edge"><title>Node12&#45;&gt;Node8</title>
+<path fill="none" stroke="#404040" d="M553.469,-600.358C547.994,-577.182 539.946,-543.121 532.803,-512.888"/>
+<polygon fill="none" stroke="#404040" points="532.774,-512.763 527.501,-507.843 530.014,-501.084 535.287,-506.004 532.774,-512.763"/>
+<text text-anchor="middle" x="607.5" y="-567.5" font-family="FreeSans" font-size="10.00"> +mInterpolationType</text>
+<text text-anchor="middle" x="607.5" y="-556.5" font-family="FreeSans" font-size="10.00">+sTBCInterpolation</text>
+<text text-anchor="middle" x="607.5" y="-545.5" font-family="FreeSans" font-size="10.00">+sLinearInterpolation</text>
+<text text-anchor="middle" x="607.5" y="-534.5" font-family="FreeSans" font-size="10.00">+sXYZInterpolation</text>
+<text text-anchor="middle" x="607.5" y="-523.5" font-family="FreeSans" font-size="10.00">+sQuadraticInterpolation</text>
 </g>
 <!-- Node13&#45;&gt;Node1 -->
 <g id="edge12" class="edge"><title>Node13&#45;&gt;Node1</title>
@@ -286,7 +286,7 @@
 <text text-anchor="middle" x="850" y="-418" font-family="FreeSans" font-size="10.00"> </text>
 </g>
 <!-- Node14&#45;&gt;Node13 -->
-<g id="edge14" class="edge"><title>Node14&#45;&gt;Node13</title>
+<g id="edge13" class="edge"><title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M829.199,-410.822C813.051,-385.065 790.147,-348.533 770.313,-316.896"/>
 <polygon fill="none" stroke="#404040" points="770.092,-316.544 763.516,-313.585 763.718,-306.377 770.294,-309.336 770.092,-316.544"/>
 <text text-anchor="middle" x="819.5" y="-350.5" font-family="FreeSans" font-size="10.00"> &#45;mKeys</text>

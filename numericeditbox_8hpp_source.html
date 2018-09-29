@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/widgets/numericeditbox.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/widgets/numericeditbox.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,61 +102,71 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;MyGUI_EditBox.h&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>Gui</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGui_1_1NumericEditBox.html">NumericEditBox</a> : <span class="keyword">public</span> MyGUI::EditBox</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        MYGUI_RTTI_DERIVED(<a class="code" href="classGui_1_1NumericEditBox.html">NumericEditBox</a>)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a8e60d2de67a9bb661f7f8ad972a51b4d">   17</a></span>&#160;        <a class="code" href="classGui_1_1NumericEditBox.html#a8e60d2de67a9bb661f7f8ad972a51b4d">NumericEditBox</a>()</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            : <a class="code" href="classGui_1_1NumericEditBox.html#a65d07baae707b61c184f565a1368688d">mValue</a>(0), <a class="code" href="classGui_1_1NumericEditBox.html#a41d0668a22019ffaacdf8ce7a4835797">mMinValue</a>(std::numeric_limits&lt;<a class="code" href="classint.html">int</a>&gt;::min()),</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <a class="code" href="classGui_1_1NumericEditBox.html#a116e78741140f6c163b89dc0f4c274ab">mMaxValue</a>(std::numeric_limits&lt;<a class="code" href="classint.html">int</a>&gt;::max())</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        {}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#aad4d6d1c5bbcccd7a88d1c67d2a696f3">initialiseOverride</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a1b99566924e336f8b1c40997354865ea">shutdownOverride</a>();</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="fontwrapper_8hpp.html">fontwrapper.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>Gui</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGui_1_1NumericEditBox.html">NumericEditBox</a> : <span class="keyword">public</span> <a class="code" href="classGui_1_1FontWrapper.html">FontWrapper</a>&lt;MyGUI::EditBox&gt;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        MYGUI_RTTI_DERIVED(<a class="code" href="classGui_1_1NumericEditBox.html">NumericEditBox</a>)</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a8e60d2de67a9bb661f7f8ad972a51b4d">   19</a></span>&#160;        <a class="code" href="classGui_1_1NumericEditBox.html#a8e60d2de67a9bb661f7f8ad972a51b4d">NumericEditBox</a>()</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            : <a class="code" href="classGui_1_1NumericEditBox.html#a65d07baae707b61c184f565a1368688d">mValue</a>(0), <a class="code" href="classGui_1_1NumericEditBox.html#a41d0668a22019ffaacdf8ce7a4835797">mMinValue</a>(std::numeric_limits&lt;<a class="code" href="classint.html">int</a>&gt;::min()),</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <a class="code" href="classGui_1_1NumericEditBox.html#a116e78741140f6c163b89dc0f4c274ab">mMaxValue</a>(std::numeric_limits&lt;<a class="code" href="classint.html">int</a>&gt;::max())</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#aa5acd6e48958bb9fb2fb18800c995243">   25</a></span>&#160;        <span class="keyword">typedef</span> MyGUI::delegates::CMultiDelegate1&lt;int&gt; <a class="code" href="classGui_1_1NumericEditBox.html#aa5acd6e48958bb9fb2fb18800c995243">EventHandle_ValueChanged</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a94c9e888d5a8a3ccab1f2cdc15db4870">   26</a></span>&#160;        <a class="code" href="classGui_1_1NumericEditBox.html#aa5acd6e48958bb9fb2fb18800c995243">EventHandle_ValueChanged</a> <a class="code" href="classGui_1_1NumericEditBox.html#a94c9e888d5a8a3ccab1f2cdc15db4870">eventValueChanged</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#aad4d6d1c5bbcccd7a88d1c67d2a696f3">initialiseOverride</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a1b99566924e336f8b1c40997354865ea">shutdownOverride</a>();</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#ab6befad079d96d9a4f1be04d399ff67b">setValue</a> (<span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#aa5acd6e48958bb9fb2fb18800c995243">   28</a></span>&#160;        <span class="keyword">typedef</span> MyGUI::delegates::CMultiDelegate1&lt;int&gt; <a class="code" href="classGui_1_1NumericEditBox.html#aa5acd6e48958bb9fb2fb18800c995243">EventHandle_ValueChanged</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a94c9e888d5a8a3ccab1f2cdc15db4870">   29</a></span>&#160;        <a class="code" href="classGui_1_1NumericEditBox.html#aa5acd6e48958bb9fb2fb18800c995243">EventHandle_ValueChanged</a> <a class="code" href="classGui_1_1NumericEditBox.html#a94c9e888d5a8a3ccab1f2cdc15db4870">eventValueChanged</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a1230bea2719fd4864fb233d300994854">setMinValue</a>(<span class="keywordtype">int</span> minValue);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a5d4bab459c2909f2dceddeb5a8c49dd8">setMaxValue</a>(<span class="keywordtype">int</span> maxValue);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#aeff90c9d7e34bfc63ef4bbcde79de5fb">onEditTextChange</a>(MyGUI::EditBox* sender);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a217182cf741d22e4cb8b39cad458b9e3">onKeyLostFocus</a>(MyGUI::Widget* _new);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a65d07baae707b61c184f565a1368688d">   37</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classGui_1_1NumericEditBox.html#a65d07baae707b61c184f565a1368688d">mValue</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a41d0668a22019ffaacdf8ce7a4835797">   39</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classGui_1_1NumericEditBox.html#a41d0668a22019ffaacdf8ce7a4835797">mMinValue</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a116e78741140f6c163b89dc0f4c274ab">   40</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classGui_1_1NumericEditBox.html#a116e78741140f6c163b89dc0f4c274ab">mMaxValue</a>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    };</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html"><div class="ttname"><a href="classGui_1_1NumericEditBox.html">Gui::NumericEditBox</a></div><div class="ttdoc">A variant of the EditBox that only allows integer inputs. </div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:12</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_a94c9e888d5a8a3ccab1f2cdc15db4870"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a94c9e888d5a8a3ccab1f2cdc15db4870">Gui::NumericEditBox::eventValueChanged</a></div><div class="ttdeci">EventHandle_ValueChanged eventValueChanged</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:26</div></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#ab6befad079d96d9a4f1be04d399ff67b">setValue</a> (<span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classGui_1_1NumericEditBox.html#ae1ec1765689db9a9bab1607ac6e72006">getValue</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a1230bea2719fd4864fb233d300994854">setMinValue</a>(<span class="keywordtype">int</span> minValue);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a5d4bab459c2909f2dceddeb5a8c49dd8">setMaxValue</a>(<span class="keywordtype">int</span> maxValue);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#aeff90c9d7e34bfc63ef4bbcde79de5fb">onEditTextChange</a>(MyGUI::EditBox* sender);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a217182cf741d22e4cb8b39cad458b9e3">onKeyLostFocus</a>(MyGUI::Widget* _new);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGui_1_1NumericEditBox.html#a7c5b157f2230dd4697d4e8c57583705c">onKeyButtonPressed</a>(<a class="code" href="namespaceOIS.html#a57ec2284dc740774ba7c93889881613e">MyGUI::KeyCode</a> key, MyGUI::Char character);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a65d07baae707b61c184f565a1368688d">   42</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classGui_1_1NumericEditBox.html#a65d07baae707b61c184f565a1368688d">mValue</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a41d0668a22019ffaacdf8ce7a4835797">   44</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classGui_1_1NumericEditBox.html#a41d0668a22019ffaacdf8ce7a4835797">mMinValue</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classGui_1_1NumericEditBox.html#a116e78741140f6c163b89dc0f4c274ab">   45</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classGui_1_1NumericEditBox.html#a116e78741140f6c163b89dc0f4c274ab">mMaxValue</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    };</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html"><div class="ttname"><a href="classGui_1_1NumericEditBox.html">Gui::NumericEditBox</a></div><div class="ttdoc">A variant of the EditBox that only allows integer inputs. </div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:14</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a94c9e888d5a8a3ccab1f2cdc15db4870"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a94c9e888d5a8a3ccab1f2cdc15db4870">Gui::NumericEditBox::eventValueChanged</a></div><div class="ttdeci">EventHandle_ValueChanged eventValueChanged</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:29</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a7c5b157f2230dd4697d4e8c57583705c"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a7c5b157f2230dd4697d4e8c57583705c">Gui::NumericEditBox::onKeyButtonPressed</a></div><div class="ttdeci">void onKeyButtonPressed(MyGUI::KeyCode key, MyGUI::Char character)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:83</div></div>
+<div class="ttc" id="fontwrapper_8hpp_html"><div class="ttname"><a href="fontwrapper_8hpp.html">fontwrapper.hpp</a></div></div>
 <div class="ttc" id="classGui_1_1NumericEditBox_html_a1b99566924e336f8b1c40997354865ea"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a1b99566924e336f8b1c40997354865ea">Gui::NumericEditBox::shutdownOverride</a></div><div class="ttdeci">void shutdownOverride()</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:17</div></div>
 <div class="ttc" id="classGui_1_1NumericEditBox_html_aeff90c9d7e34bfc63ef4bbcde79de5fb"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#aeff90c9d7e34bfc63ef4bbcde79de5fb">Gui::NumericEditBox::onEditTextChange</a></div><div class="ttdeci">void onEditTextChange(MyGUI::EditBox *sender)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:23</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_a1230bea2719fd4864fb233d300994854"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a1230bea2719fd4864fb233d300994854">Gui::NumericEditBox::setMinValue</a></div><div class="ttdeci">void setMinValue(int minValue)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:58</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_aa5acd6e48958bb9fb2fb18800c995243"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#aa5acd6e48958bb9fb2fb18800c995243">Gui::NumericEditBox::EventHandle_ValueChanged</a></div><div class="ttdeci">MyGUI::delegates::CMultiDelegate1&lt; int &gt; EventHandle_ValueChanged</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:25</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_a217182cf741d22e4cb8b39cad458b9e3"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a217182cf741d22e4cb8b39cad458b9e3">Gui::NumericEditBox::onKeyLostFocus</a></div><div class="ttdeci">void onKeyLostFocus(MyGUI::Widget *_new)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:68</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_ab6befad079d96d9a4f1be04d399ff67b"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#ab6befad079d96d9a4f1be04d399ff67b">Gui::NumericEditBox::setValue</a></div><div class="ttdeci">void setValue(int value)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:49</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_a5d4bab459c2909f2dceddeb5a8c49dd8"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a5d4bab459c2909f2dceddeb5a8c49dd8">Gui::NumericEditBox::setMaxValue</a></div><div class="ttdeci">void setMaxValue(int maxValue)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:63</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_a116e78741140f6c163b89dc0f4c274ab"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a116e78741140f6c163b89dc0f4c274ab">Gui::NumericEditBox::mMaxValue</a></div><div class="ttdeci">int mMaxValue</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:40</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_a65d07baae707b61c184f565a1368688d"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a65d07baae707b61c184f565a1368688d">Gui::NumericEditBox::mValue</a></div><div class="ttdeci">int mValue</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:37</div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_a41d0668a22019ffaacdf8ce7a4835797"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a41d0668a22019ffaacdf8ce7a4835797">Gui::NumericEditBox::mMinValue</a></div><div class="ttdeci">int mMinValue</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:39</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a1230bea2719fd4864fb233d300994854"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a1230bea2719fd4864fb233d300994854">Gui::NumericEditBox::setMinValue</a></div><div class="ttdeci">void setMinValue(int minValue)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:67</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_aa5acd6e48958bb9fb2fb18800c995243"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#aa5acd6e48958bb9fb2fb18800c995243">Gui::NumericEditBox::EventHandle_ValueChanged</a></div><div class="ttdeci">MyGUI::delegates::CMultiDelegate1&lt; int &gt; EventHandle_ValueChanged</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:28</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a217182cf741d22e4cb8b39cad458b9e3"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a217182cf741d22e4cb8b39cad458b9e3">Gui::NumericEditBox::onKeyLostFocus</a></div><div class="ttdeci">void onKeyLostFocus(MyGUI::Widget *_new)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:77</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_ae1ec1765689db9a9bab1607ac6e72006"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#ae1ec1765689db9a9bab1607ac6e72006">Gui::NumericEditBox::getValue</a></div><div class="ttdeci">int getValue()</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:62</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_ab6befad079d96d9a4f1be04d399ff67b"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#ab6befad079d96d9a4f1be04d399ff67b">Gui::NumericEditBox::setValue</a></div><div class="ttdeci">void setValue(int value)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:53</div></div>
+<div class="ttc" id="classGui_1_1FontWrapper_html"><div class="ttname"><a href="classGui_1_1FontWrapper.html">Gui::FontWrapper</a></div><div class="ttdef"><b>Definition:</b> fontwrapper.hpp:11</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a5d4bab459c2909f2dceddeb5a8c49dd8"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a5d4bab459c2909f2dceddeb5a8c49dd8">Gui::NumericEditBox::setMaxValue</a></div><div class="ttdeci">void setMaxValue(int maxValue)</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:72</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a116e78741140f6c163b89dc0f4c274ab"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a116e78741140f6c163b89dc0f4c274ab">Gui::NumericEditBox::mMaxValue</a></div><div class="ttdeci">int mMaxValue</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:45</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a65d07baae707b61c184f565a1368688d"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a65d07baae707b61c184f565a1368688d">Gui::NumericEditBox::mValue</a></div><div class="ttdeci">int mValue</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:42</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a41d0668a22019ffaacdf8ce7a4835797"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a41d0668a22019ffaacdf8ce7a4835797">Gui::NumericEditBox::mMinValue</a></div><div class="ttdeci">int mMinValue</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:44</div></div>
 <div class="ttc" id="classGui_1_1NumericEditBox_html_aad4d6d1c5bbcccd7a88d1c67d2a696f3"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#aad4d6d1c5bbcccd7a88d1c67d2a696f3">Gui::NumericEditBox::initialiseOverride</a></div><div class="ttdeci">void initialiseOverride()</div><div class="ttdef"><b>Definition:</b> numericeditbox.cpp:8</div></div>
 <div class="ttc" id="classint_html"><div class="ttname"><a href="classint.html">int</a></div></div>
-<div class="ttc" id="classGui_1_1NumericEditBox_html_a8e60d2de67a9bb661f7f8ad972a51b4d"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a8e60d2de67a9bb661f7f8ad972a51b4d">Gui::NumericEditBox::NumericEditBox</a></div><div class="ttdeci">NumericEditBox()</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:17</div></div>
+<div class="ttc" id="classGui_1_1NumericEditBox_html_a8e60d2de67a9bb661f7f8ad972a51b4d"><div class="ttname"><a href="classGui_1_1NumericEditBox.html#a8e60d2de67a9bb661f7f8ad972a51b4d">Gui::NumericEditBox::NumericEditBox</a></div><div class="ttdeci">NumericEditBox()</div><div class="ttdef"><b>Definition:</b> numericeditbox.hpp:19</div></div>
+<div class="ttc" id="namespaceOIS_html_a57ec2284dc740774ba7c93889881613e"><div class="ttname"><a href="namespaceOIS.html#a57ec2284dc740774ba7c93889881613e">OIS::KeyCode</a></div><div class="ttdeci">KeyCode</div><div class="ttdoc">Keyboard scan codes. </div><div class="ttdef"><b>Definition:</b> OISCompat.hpp:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

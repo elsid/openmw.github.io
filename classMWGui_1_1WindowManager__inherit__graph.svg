@@ -16,38 +16,38 @@
 <polyline fill="none" stroke="black" points="-0.5,-380 142.5,-380 "/>
 <text text-anchor="start" x="7.5" y="-368" font-family="FreeSans" font-size="10.00">&#45; mStore</text>
 <text text-anchor="start" x="7.5" y="-357" font-family="FreeSans" font-size="10.00">&#45; mResourceSystem</text>
-<text text-anchor="start" x="7.5" y="-346" font-family="FreeSans" font-size="10.00">&#45; mGuiPlatform</text>
-<text text-anchor="start" x="7.5" y="-335" font-family="FreeSans" font-size="10.00">&#45; mViewer</text>
-<text text-anchor="start" x="7.5" y="-324" font-family="FreeSans" font-size="10.00">&#45; mFontLoader</text>
-<text text-anchor="start" x="7.5" y="-313" font-family="FreeSans" font-size="10.00">&#45; mConsoleOnlyScripts</text>
-<text text-anchor="start" x="7.5" y="-302" font-family="FreeSans" font-size="10.00">&#45; mTrackedWindows</text>
-<text text-anchor="start" x="7.5" y="-291" font-family="FreeSans" font-size="10.00">&#45; mSelectedSpell</text>
-<text text-anchor="start" x="7.5" y="-280" font-family="FreeSans" font-size="10.00">&#45; mCurrentModals</text>
-<text text-anchor="start" x="7.5" y="-269" font-family="FreeSans" font-size="10.00">&#45; mCustomMarkers</text>
-<text text-anchor="start" x="7.5" y="-258" font-family="FreeSans" font-size="10.00">and 70 more...</text>
+<text text-anchor="start" x="7.5" y="-346" font-family="FreeSans" font-size="10.00">&#45; mWorkQueue</text>
+<text text-anchor="start" x="7.5" y="-335" font-family="FreeSans" font-size="10.00">&#45; mGuiPlatform</text>
+<text text-anchor="start" x="7.5" y="-324" font-family="FreeSans" font-size="10.00">&#45; mViewer</text>
+<text text-anchor="start" x="7.5" y="-313" font-family="FreeSans" font-size="10.00">&#45; mFontLoader</text>
+<text text-anchor="start" x="7.5" y="-302" font-family="FreeSans" font-size="10.00">&#45; mConsoleOnlyScripts</text>
+<text text-anchor="start" x="7.5" y="-291" font-family="FreeSans" font-size="10.00">&#45; mTrackedWindows</text>
+<text text-anchor="start" x="7.5" y="-280" font-family="FreeSans" font-size="10.00">&#45; mSelectedSpell</text>
+<text text-anchor="start" x="7.5" y="-269" font-family="FreeSans" font-size="10.00">&#45; mSelectedEnchantItem</text>
+<text text-anchor="start" x="7.5" y="-258" font-family="FreeSans" font-size="10.00">and 65 more...</text>
 <polyline fill="none" stroke="black" points="-0.5,-251 142.5,-251 "/>
 <text text-anchor="start" x="7.5" y="-239" font-family="FreeSans" font-size="10.00">+ WindowManager()</text>
 <text text-anchor="start" x="7.5" y="-228" font-family="FreeSans" font-size="10.00">+ ~WindowManager()</text>
 <text text-anchor="start" x="7.5" y="-217" font-family="FreeSans" font-size="10.00">+ setStore()</text>
 <text text-anchor="start" x="7.5" y="-206" font-family="FreeSans" font-size="10.00">+ initUI()</text>
-<text text-anchor="start" x="7.5" y="-195" font-family="FreeSans" font-size="10.00">+ renderWorldMap()</text>
+<text text-anchor="start" x="7.5" y="-195" font-family="FreeSans" font-size="10.00">+ loadUserFonts()</text>
 <text text-anchor="start" x="7.5" y="-184" font-family="FreeSans" font-size="10.00">+ getLoadingScreen()</text>
 <text text-anchor="start" x="7.5" y="-173" font-family="FreeSans" font-size="10.00">+ playVideo()</text>
-<text text-anchor="start" x="7.5" y="-162" font-family="FreeSans" font-size="10.00">+ update()</text>
-<text text-anchor="start" x="7.5" y="-151" font-family="FreeSans" font-size="10.00">+ setKeyFocusWidget()</text>
-<text text-anchor="start" x="7.5" y="-140" font-family="FreeSans" font-size="10.00">+ setNewGame()</text>
-<text text-anchor="start" x="7.5" y="-129" font-family="FreeSans" font-size="10.00">and 128 more...</text>
+<text text-anchor="start" x="7.5" y="-162" font-family="FreeSans" font-size="10.00">+ setKeyFocusWidget()</text>
+<text text-anchor="start" x="7.5" y="-151" font-family="FreeSans" font-size="10.00">+ setNewGame()</text>
+<text text-anchor="start" x="7.5" y="-140" font-family="FreeSans" font-size="10.00">+ pushGuiMode()</text>
+<text text-anchor="start" x="7.5" y="-129" font-family="FreeSans" font-size="10.00">and 122 more...</text>
 <text text-anchor="start" x="7.5" y="-118" font-family="FreeSans" font-size="10.00">&#45; trackWindow()</text>
 <text text-anchor="start" x="7.5" y="-107" font-family="FreeSans" font-size="10.00">&#45; onWindowChangeCoord()</text>
-<text text-anchor="start" x="7.5" y="-96" font-family="FreeSans" font-size="10.00">&#45; setCursorVisible()</text>
-<text text-anchor="start" x="7.5" y="-85" font-family="FreeSans" font-size="10.00">&#45; cleanupGarbage()</text>
-<text text-anchor="start" x="7.5" y="-74" font-family="FreeSans" font-size="10.00">&#45; updateVisible()</text>
-<text text-anchor="start" x="7.5" y="-63" font-family="FreeSans" font-size="10.00">&#45; updateMap()</text>
-<text text-anchor="start" x="7.5" y="-52" font-family="FreeSans" font-size="10.00">&#45; onRetrieveTag()</text>
-<text text-anchor="start" x="7.5" y="-41" font-family="FreeSans" font-size="10.00">&#45; onCursorChange()</text>
-<text text-anchor="start" x="7.5" y="-30" font-family="FreeSans" font-size="10.00">&#45; onKeyFocusChanged()</text>
-<text text-anchor="start" x="7.5" y="-19" font-family="FreeSans" font-size="10.00">&#45; onVideoKeyPressed()</text>
-<text text-anchor="start" x="7.5" y="-8" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="7.5" y="-96" font-family="FreeSans" font-size="10.00">&#45; loadFontDelegate()</text>
+<text text-anchor="start" x="7.5" y="-85" font-family="FreeSans" font-size="10.00">&#45; setCursorVisible()</text>
+<text text-anchor="start" x="7.5" y="-74" font-family="FreeSans" font-size="10.00">&#45; cleanupGarbage()</text>
+<text text-anchor="start" x="7.5" y="-63" font-family="FreeSans" font-size="10.00">&#45; updateVisible()</text>
+<text text-anchor="start" x="7.5" y="-52" font-family="FreeSans" font-size="10.00">&#45; updateMap()</text>
+<text text-anchor="start" x="7.5" y="-41" font-family="FreeSans" font-size="10.00">&#45; onRetrieveTag()</text>
+<text text-anchor="start" x="7.5" y="-30" font-family="FreeSans" font-size="10.00">&#45; onCursorChange()</text>
+<text text-anchor="start" x="7.5" y="-19" font-family="FreeSans" font-size="10.00">&#45; onKeyFocusChanged()</text>
+<text text-anchor="start" x="7.5" y="-8" font-family="FreeSans" font-size="10.00">and 8 more...</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -59,15 +59,15 @@
 <polyline fill="none" stroke="black" points="1,-587.5 141,-587.5 "/>
 <text text-anchor="start" x="9" y="-575.5" font-family="FreeSans" font-size="10.00">+ WindowManager()</text>
 <text text-anchor="start" x="9" y="-564.5" font-family="FreeSans" font-size="10.00">+ ~WindowManager()</text>
-<text text-anchor="start" x="9" y="-553.5" font-family="FreeSans" font-size="10.00">+ update()</text>
-<text text-anchor="start" x="9" y="-542.5" font-family="FreeSans" font-size="10.00">+ playVideo()</text>
-<text text-anchor="start" x="9" y="-531.5" font-family="FreeSans" font-size="10.00">+ setNewGame()</text>
+<text text-anchor="start" x="9" y="-553.5" font-family="FreeSans" font-size="10.00">+ playVideo()</text>
+<text text-anchor="start" x="9" y="-542.5" font-family="FreeSans" font-size="10.00">+ setNewGame()</text>
+<text text-anchor="start" x="9" y="-531.5" font-family="FreeSans" font-size="10.00">+ pushGuiMode()</text>
 <text text-anchor="start" x="9" y="-520.5" font-family="FreeSans" font-size="10.00">+ pushGuiMode()</text>
 <text text-anchor="start" x="9" y="-509.5" font-family="FreeSans" font-size="10.00">+ popGuiMode()</text>
 <text text-anchor="start" x="9" y="-498.5" font-family="FreeSans" font-size="10.00">+ removeGuiMode()</text>
 <text text-anchor="start" x="9" y="-487.5" font-family="FreeSans" font-size="10.00">+ goToJail()</text>
 <text text-anchor="start" x="9" y="-476.5" font-family="FreeSans" font-size="10.00">+ updatePlayer()</text>
-<text text-anchor="start" x="9" y="-465.5" font-family="FreeSans" font-size="10.00">and 125 more...</text>
+<text text-anchor="start" x="9" y="-465.5" font-family="FreeSans" font-size="10.00">and 120 more...</text>
 <text text-anchor="start" x="9" y="-454.5" font-family="FreeSans" font-size="10.00">&#45; WindowManager()</text>
 <text text-anchor="start" x="9" y="-443.5" font-family="FreeSans" font-size="10.00">&#45; operator=()</text>
 </a>

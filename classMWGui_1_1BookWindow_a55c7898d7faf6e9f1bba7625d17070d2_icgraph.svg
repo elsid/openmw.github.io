@@ -17,10 +17,10 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWGui_1_1BookWindow.html#a7fb0a320c55277dab7f456340445f9ed" target="_top" xlink:title="MWGui::BookWindow::\lopenBook">
+<g id="a_node2"><a xlink:href="classMWGui_1_1BookWindow.html#a901d8e634f6628f84afd72128fdc6eb2" target="_top" xlink:title="Open this object in the GUI, for windows that support it. ">
 <polygon fill="white" stroke="black" points="156.5,-147 156.5,-177 275.5,-177 275.5,-147 156.5,-147"/>
 <text text-anchor="start" x="164.5" y="-165" font-family="FreeSans" font-size="10.00">MWGui::BookWindow::</text>
-<text text-anchor="middle" x="216" y="-154" font-family="FreeSans" font-size="10.00">openBook</text>
+<text text-anchor="middle" x="216" y="-154" font-family="FreeSans" font-size="10.00">setPtr</text>
 </a>
 </g>
 </g>
@@ -29,17 +29,17 @@
 <path fill="none" stroke="midnightblue" d="M118.386,-131.259C134.629,-136.427 152.119,-141.992 167.695,-146.948"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="119.052,-127.798 108.462,-128.101 116.93,-134.469 119.052,-127.798"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWGui_1_1BookWindow.html#ac4531b9e3670aa6e16054f44f030add6" target="_top" xlink:title="MWGui::BookWindow::\lnextPage">
+<!-- Node3 -->
+<g id="node3" class="node"><title>Node3</title>
+<g id="a_node3"><a xlink:href="classMWGui_1_1BookWindow.html#ac4531b9e3670aa6e16054f44f030add6" target="_top" xlink:title="MWGui::BookWindow::\lnextPage">
 <polygon fill="white" stroke="black" points="156.5,-98 156.5,-128 275.5,-128 275.5,-98 156.5,-98"/>
 <text text-anchor="start" x="164.5" y="-116" font-family="FreeSans" font-size="10.00">MWGui::BookWindow::</text>
 <text text-anchor="middle" x="216" y="-105" font-family="FreeSans" font-size="10.00">nextPage</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M129.894,-113C138.691,-113 147.631,-113 156.248,-113"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="129.66,-109.5 119.66,-113 129.66,-116.5 129.66,-109.5"/>
 </g>
@@ -53,73 +53,83 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node8</title>
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M118.386,-94.7409C134.629,-89.5727 152.119,-84.0076 167.695,-79.0516"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="116.93,-91.5312 108.462,-97.8986 119.052,-98.2017 116.93,-91.5312"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWGui_1_1WindowManager.html#a640e56036082e46aad138012cc3e364e" target="_top" xlink:title="MWGui::WindowManager\l::showBook">
-<polygon fill="white" stroke="black" points="316,-147 316,-177 448,-177 448,-147 316,-147"/>
-<text text-anchor="start" x="324" y="-165" font-family="FreeSans" font-size="10.00">MWGui::WindowManager</text>
-<text text-anchor="middle" x="382" y="-154" font-family="FreeSans" font-size="10.00">::showBook</text>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="classMWGui_1_1BookWindow.html#a7396bd2a9d8b557f769c8685886383bf" target="_top" xlink:title="MWGui::BookWindow::\lonMouseWheel">
+<polygon fill="white" stroke="black" points="322.5,-98 322.5,-128 441.5,-128 441.5,-98 322.5,-98"/>
+<text text-anchor="start" x="330.5" y="-116" font-family="FreeSans" font-size="10.00">MWGui::BookWindow::</text>
+<text text-anchor="middle" x="382" y="-105" font-family="FreeSans" font-size="10.00">onMouseWheel</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M285.984,-162C295.926,-162 306.129,-162 315.99,-162"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="285.745,-158.5 275.745,-162 285.745,-165.5 285.745,-158.5"/>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M285.838,-113C297.995,-113 310.548,-113 322.39,-113"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="285.745,-109.5 275.745,-113 285.745,-116.5 285.745,-109.5"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classMWGui_1_1BookWindow.html#a7396bd2a9d8b557f769c8685886383bf" target="_top" xlink:title="MWGui::BookWindow::\lonMouseWheel">
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="classMWGui_1_1BookWindow.html#a9d74397bd474e6161711a275ad3cc23c" target="_top" xlink:title="MWGui::BookWindow::\lonKeyButtonPressed">
 <polygon fill="white" stroke="black" points="322.5,-49 322.5,-79 441.5,-79 441.5,-49 322.5,-49"/>
 <text text-anchor="start" x="330.5" y="-67" font-family="FreeSans" font-size="10.00">MWGui::BookWindow::</text>
-<text text-anchor="middle" x="382" y="-56" font-family="FreeSans" font-size="10.00">onMouseWheel</text>
+<text text-anchor="middle" x="382" y="-56" font-family="FreeSans" font-size="10.00">onKeyButtonPressed</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node3&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node3&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M277.134,-95.033C294.706,-89.783 313.723,-84.1011 330.623,-79.0516"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="276.123,-91.6822 267.544,-97.8986 278.127,-98.3892 276.123,-91.6822"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classMWGui_1_1BookWindow.html#a2e4273455ff9e1a52ea8e518404a1011" target="_top" xlink:title="MWGui::BookWindow::\lonNextPageButtonClicked">
-<polygon fill="white" stroke="black" points="312,-98 312,-128 452,-128 452,-98 312,-98"/>
-<text text-anchor="start" x="320" y="-116" font-family="FreeSans" font-size="10.00">MWGui::BookWindow::</text>
-<text text-anchor="middle" x="382" y="-105" font-family="FreeSans" font-size="10.00">onNextPageButtonClicked</text>
+<polygon fill="white" stroke="black" points="312,-147 312,-177 452,-177 452,-147 312,-147"/>
+<text text-anchor="start" x="320" y="-165" font-family="FreeSans" font-size="10.00">MWGui::BookWindow::</text>
+<text text-anchor="middle" x="382" y="-154" font-family="FreeSans" font-size="10.00">onNextPageButtonClicked</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node4&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M286.013,-113C294.53,-113 303.24,-113 311.76,-113"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="285.745,-109.5 275.745,-113 285.745,-116.5 285.745,-109.5"/>
+<!-- Node3&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node3&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M277.134,-130.967C294.706,-136.217 313.723,-141.899 330.623,-146.948"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="278.127,-127.611 267.544,-128.101 276.123,-134.318 278.127,-127.611"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classMWGui_1_1BookWindow.html#a9b9a94b6a555a8c61933dbda327b1e44" target="_top" xlink:title="MWGui::BookWindow::\lBookWindow">
-<polygon fill="white" stroke="black" points="488.5,-49 488.5,-79 607.5,-79 607.5,-49 488.5,-49"/>
-<text text-anchor="start" x="496.5" y="-67" font-family="FreeSans" font-size="10.00">MWGui::BookWindow::</text>
-<text text-anchor="middle" x="548" y="-56" font-family="FreeSans" font-size="10.00">BookWindow</text>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="classMWGui_1_1BookWindow.html#a9b9a94b6a555a8c61933dbda327b1e44" target="_top" xlink:title="MWGui::BookWindow::\lBookWindow">
+<polygon fill="white" stroke="black" points="488.5,-73 488.5,-103 607.5,-103 607.5,-73 488.5,-73"/>
+<text text-anchor="start" x="496.5" y="-91" font-family="FreeSans" font-size="10.00">MWGui::BookWindow::</text>
+<text text-anchor="middle" x="548" y="-80" font-family="FreeSans" font-size="10.00">BookWindow</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M451.838,-64C463.995,-64 476.548,-64 488.39,-64"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="451.745,-60.5001 441.745,-64 451.745,-67.5001 451.745,-60.5001"/>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M451.838,-102.506C463.995,-100.653 476.548,-98.7397 488.39,-96.9344"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="451.103,-99.0779 441.745,-104.045 452.158,-105.998 451.103,-99.0779"/>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M443.134,-95.033C460.706,-89.783 479.723,-84.1011 496.623,-79.0516"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="442.123,-91.6822 433.544,-97.8986 444.127,-98.3892 442.123,-91.6822"/>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M451.838,-74.0739C463.995,-75.8529 476.548,-77.6899 488.39,-79.4229"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="452.146,-70.5817 441.745,-72.5968 451.132,-77.508 452.146,-70.5817"/>
 </g>
-<!-- Node8&#45;&gt;Node5 -->
-<g id="edge9" class="edge"><title>Node8&#45;&gt;Node5</title>
+<!-- Node7&#45;&gt;Node5 -->
+<g id="edge8" class="edge"><title>Node7&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M436.572,-143.362C441.822,-141.305 447.038,-139.168 452,-137 475.468,-126.747 501.24,-113.309 520.013,-103.1"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="435.228,-140.129 427.136,-146.967 437.726,-146.668 435.228,-140.129"/>
+</g>
+<!-- Node8&#45;&gt;Node4 -->
+<g id="edge10" class="edge"><title>Node8&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M277.134,-81.967C294.706,-87.217 313.723,-92.8989 330.623,-97.9484"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="278.127,-78.6108 267.544,-79.1014 276.123,-85.3178 278.127,-78.6108"/>
+</g>
+<!-- Node8&#45;&gt;Node6 -->
+<g id="edge11" class="edge"><title>Node8&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M285.838,-64C297.995,-64 310.548,-64 322.39,-64"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="285.745,-60.5001 275.745,-64 285.745,-67.5001 285.745,-60.5001"/>
 </g>
@@ -133,14 +143,14 @@
 </g>
 </g>
 <!-- Node8&#45;&gt;Node9 -->
-<g id="edge10" class="edge"><title>Node8&#45;&gt;Node9</title>
+<g id="edge12" class="edge"><title>Node8&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M277.134,-46.033C294.706,-40.783 313.723,-35.1011 330.623,-30.0516"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="276.123,-42.6822 267.544,-48.8986 278.127,-49.3892 276.123,-42.6822"/>
 </g>
-<!-- Node9&#45;&gt;Node6 -->
-<g id="edge11" class="edge"><title>Node9&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M443.134,-32.967C460.706,-38.217 479.723,-43.8989 496.623,-48.9484"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="444.127,-29.6108 433.544,-30.1014 442.123,-36.3178 444.127,-29.6108"/>
+<!-- Node9&#45;&gt;Node5 -->
+<g id="edge13" class="edge"><title>Node9&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M439.052,-33.7416C443.462,-35.4452 447.823,-37.2068 452,-39 475.533,-49.1017 501.301,-62.5513 520.055,-72.804"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="439.962,-30.3451 429.37,-30.1149 437.507,-36.9003 439.962,-30.3451"/>
 </g>
 </g>
 </svg>

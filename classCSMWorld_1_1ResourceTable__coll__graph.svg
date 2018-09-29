@@ -26,7 +26,7 @@
 <text text-anchor="start" x="225.5" y="-40.5" font-family="FreeSans" font-size="10.00">+ flags()</text>
 <text text-anchor="start" x="225.5" y="-29.5" font-family="FreeSans" font-size="10.00">+ index()</text>
 <text text-anchor="start" x="225.5" y="-18.5" font-family="FreeSans" font-size="10.00">+ parent()</text>
-<text text-anchor="start" x="225.5" y="-7.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="225.5" y="-7.5" font-family="FreeSans" font-size="10.00">and 8 more...</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -86,25 +86,26 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCSMWorld_1_1Resources.html" target="_top" xlink:title="{CSMWorld::Resources\n||+ Resources()\l+ getSize()\l+ getId()\l+ getIndex()\l+ searchId()\l+ getType()\l}">
-<polygon fill="white" stroke="black" points="308.5,-228 308.5,-340 427.5,-340 427.5,-228 308.5,-228"/>
-<text text-anchor="middle" x="368" y="-328" font-family="FreeSans" font-size="10.00">CSMWorld::Resources</text>
-<polyline fill="none" stroke="black" points="308.5,-321 427.5,-321 "/>
-<text text-anchor="middle" x="368" y="-309" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="308.5,-302 427.5,-302 "/>
-<text text-anchor="start" x="316.5" y="-290" font-family="FreeSans" font-size="10.00">+ Resources()</text>
-<text text-anchor="start" x="316.5" y="-279" font-family="FreeSans" font-size="10.00">+ getSize()</text>
-<text text-anchor="start" x="316.5" y="-268" font-family="FreeSans" font-size="10.00">+ getId()</text>
-<text text-anchor="start" x="316.5" y="-257" font-family="FreeSans" font-size="10.00">+ getIndex()</text>
-<text text-anchor="start" x="316.5" y="-246" font-family="FreeSans" font-size="10.00">+ searchId()</text>
-<text text-anchor="start" x="316.5" y="-235" font-family="FreeSans" font-size="10.00">+ getType()</text>
+<g id="a_node5"><a xlink:href="classCSMWorld_1_1Resources.html" target="_top" xlink:title="{CSMWorld::Resources\n||+ Resources()\l+ recreate()\l+ getSize()\l+ getId()\l+ getIndex()\l+ searchId()\l+ getType()\l}">
+<polygon fill="white" stroke="black" points="308.5,-222.5 308.5,-345.5 427.5,-345.5 427.5,-222.5 308.5,-222.5"/>
+<text text-anchor="middle" x="368" y="-333.5" font-family="FreeSans" font-size="10.00">CSMWorld::Resources</text>
+<polyline fill="none" stroke="black" points="308.5,-326.5 427.5,-326.5 "/>
+<text text-anchor="middle" x="368" y="-314.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="308.5,-307.5 427.5,-307.5 "/>
+<text text-anchor="start" x="316.5" y="-295.5" font-family="FreeSans" font-size="10.00">+ Resources()</text>
+<text text-anchor="start" x="316.5" y="-284.5" font-family="FreeSans" font-size="10.00">+ recreate()</text>
+<text text-anchor="start" x="316.5" y="-273.5" font-family="FreeSans" font-size="10.00">+ getSize()</text>
+<text text-anchor="start" x="316.5" y="-262.5" font-family="FreeSans" font-size="10.00">+ getId()</text>
+<text text-anchor="start" x="316.5" y="-251.5" font-family="FreeSans" font-size="10.00">+ getIndex()</text>
+<text text-anchor="start" x="316.5" y="-240.5" font-family="FreeSans" font-size="10.00">+ searchId()</text>
+<text text-anchor="start" x="316.5" y="-229.5" font-family="FreeSans" font-size="10.00">+ getType()</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge"><title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M345.158,-227.846C338.882,-212.692 331.895,-195.819 324.984,-179.132"/>
-<polygon fill="none" stroke="#404040" points="324.813,-178.719 318.822,-174.706 320.221,-167.632 326.213,-171.645 324.813,-178.719"/>
+<path fill="none" stroke="#404040" d="M342.84,-222.248C337.138,-208.479 330.952,-193.543 324.831,-178.763"/>
+<polygon fill="none" stroke="#404040" points="324.764,-178.601 318.773,-174.588 320.172,-167.514 326.164,-171.527 324.764,-178.601"/>
 <text text-anchor="middle" x="365" y="-189.5" font-family="FreeSans" font-size="10.00"> &#45;mResources</text>
 </g>
 <!-- Node6 -->
@@ -119,8 +120,8 @@
 </g>
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="#404040" d="M291.353,-400.984C297.591,-390.988 304.519,-380.008 311,-370 315.12,-363.638 319.449,-357.037 323.804,-350.452"/>
-<polygon fill="none" stroke="#404040" points="324.003,-350.151 323.99,-342.94 330.641,-340.155 330.654,-347.366 324.003,-350.151"/>
+<path fill="none" stroke="#404040" d="M291.353,-400.984C297.591,-390.988 304.519,-380.008 311,-370 313.959,-365.43 317.027,-360.737 320.134,-356.015"/>
+<polygon fill="none" stroke="#404040" points="320.356,-355.678 320.328,-348.467 326.973,-345.668 327.002,-352.879 320.356,-355.678"/>
 <text text-anchor="middle" x="332.5" y="-373.5" font-family="FreeSans" font-size="10.00"> &#45;mIndex</text>
 </g>
 <!-- Node7 -->
@@ -155,8 +156,8 @@
 </g>
 <!-- Node8&#45;&gt;Node5 -->
 <g id="edge9" class="edge"><title>Node8&#45;&gt;Node5</title>
-<path fill="none" stroke="#404040" d="M368,-518.068C368,-478.845 368,-406.225 368,-352.43"/>
-<polygon fill="none" stroke="#404040" points="368,-352.227 364,-346.227 368,-340.227 372,-346.227 368,-352.227"/>
+<path fill="none" stroke="#404040" d="M368,-518.068C368,-480.126 368,-410.933 368,-357.759"/>
+<polygon fill="none" stroke="#404040" points="368,-357.648 364,-351.648 368,-345.648 372,-351.648 368,-357.648"/>
 <text text-anchor="middle" x="410.5" y="-432.5" font-family="FreeSans" font-size="10.00"> &#45;mBaseDirectory</text>
 </g>
 <!-- Node8&#45;&gt;Node6 -->

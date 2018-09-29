@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -97,6 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -113,13 +114,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for SceneUtil::RigGeometry:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry__inherit__graph.svg" width="214" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry__inherit__graph.svg" width="214" height="582"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for SceneUtil::RigGeometry:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry__coll__graph.svg" width="2319" height="1054"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry__coll__graph.svg" width="2120" height="1080"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -134,18 +135,30 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3e41bece3dc58e5718662e09cfe8b5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabbc71c44690c89ebf8c0c242d4ef4f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#aabbc71c44690c89ebf8c0c242d4ef4f3">RigGeometry</a> (const <a class="el" href="classSceneUtil_1_1RigGeometry.html">RigGeometry</a> &amp;copy, const osg::CopyOp &amp;copyop)</td></tr>
 <tr class="separator:aabbc71c44690c89ebf8c0c242d4ef4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1875f35ed2c7281a482a0d36a8d0446e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a1875f35ed2c7281a482a0d36a8d0446e">META_Object</a> (SceneUtil, <a class="el" href="classSceneUtil_1_1RigGeometry.html">RigGeometry</a>) struct BoneInfluence</td></tr>
-<tr class="separator:a1875f35ed2c7281a482a0d36a8d0446e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2339c86334d3ff09711ac04e3e20632f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a2339c86334d3ff09711ac04e3e20632f">setInfluenceMap</a> (osg::ref_ptr&lt; <a class="el" href="structSceneUtil_1_1RigGeometry_1_1InfluenceMap.html">InfluenceMap</a> &gt; influenceMap)</td></tr>
 <tr class="separator:a2339c86334d3ff09711ac04e3e20632f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dffc80b2dd3a44155cf2bde64849077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a7dffc80b2dd3a44155cf2bde64849077">setRigTransforms</a> (osg::Matrixf &amp;transform)</td></tr>
+<tr class="separator:a7dffc80b2dd3a44155cf2bde64849077"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6eb71ad7d1fae89e042d41dd8a67fc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#ad6eb71ad7d1fae89e042d41dd8a67fc4">setSourceGeometry</a> (osg::ref_ptr&lt; osg::Geometry &gt; sourceGeom)</td></tr>
 <tr class="separator:ad6eb71ad7d1fae89e042d41dd8a67fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9f1e89c5b207ea9c0624dc3fe4600c1"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Geometry &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#ad9f1e89c5b207ea9c0624dc3fe4600c1">getSourceGeometry</a> ()</td></tr>
 <tr class="separator:ad9f1e89c5b207ea9c0624dc3fe4600c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d062b4c2d8e86dd51a09ac19ba8f8b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a1d062b4c2d8e86dd51a09ac19ba8f8b9">update</a> (osg::NodeVisitor *nv)</td></tr>
-<tr class="separator:a1d062b4c2d8e86dd51a09ac19ba8f8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a474007d984516e71951a33c492e2e311"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a474007d984516e71951a33c492e2e311">updateBounds</a> (osg::NodeVisitor *nv)</td></tr>
-<tr class="separator:a474007d984516e71951a33c492e2e311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a149a7f215019df5738004e42e27f365d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a149a7f215019df5738004e42e27f365d">accept</a> (osg::NodeVisitor &amp;nv)</td></tr>
+<tr class="separator:a149a7f215019df5738004e42e27f365d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedb8e728893ee4792c002498aa56247a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#aedb8e728893ee4792c002498aa56247a">supports</a> (const osg::PrimitiveFunctor &amp;) const </td></tr>
+<tr class="separator:aedb8e728893ee4792c002498aa56247a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96af2fcc94c7a629ee25f0b7cfbde9a7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a96af2fcc94c7a629ee25f0b7cfbde9a7">accept</a> (osg::PrimitiveFunctor &amp;) const </td></tr>
+<tr class="separator:a96af2fcc94c7a629ee25f0b7cfbde9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aba3140fb07fd073a7d89dd21ba6e432e"><td class="memItemLeft" align="right" valign="top">META_Object(SceneUtil, <br class="typebreak"/>
+<a class="el" href="classSceneUtil_1_1RigGeometry.html">RigGeometry</a>) virtual void <br class="typebreak"/>
+compileGLObjects(osg <br class="typebreak"/>
+osg::BoundingSpheref&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#aba3140fb07fd073a7d89dd21ba6e432e">mBoundSphere</a></td></tr>
+<tr class="separator:aba3140fb07fd073a7d89dd21ba6e432e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc1ac2a3d149200df198882e324a04a"><td class="memItemLeft" align="right" valign="top">std::map&lt; unsigned short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#abdc1ac2a3d149200df198882e324a04a">mWeights</a></td></tr>
+<tr class="separator:abdc1ac2a3d149200df198882e324a04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -167,6 +180,12 @@ short &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a025f8ec16b031fbbf778791e8353a3af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a025f8ec16b031fbbf778791e8353a3af">cull</a> (osg::NodeVisitor *nv)</td></tr>
+<tr class="separator:a025f8ec16b031fbbf778791e8353a3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474007d984516e71951a33c492e2e311"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a474007d984516e71951a33c492e2e311">updateBounds</a> (osg::NodeVisitor *nv)</td></tr>
+<tr class="separator:a474007d984516e71951a33c492e2e311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d953036bc22fbbbb5a34b9d2b591ebf"><td class="memItemLeft" align="right" valign="top">osg::Geometry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a7d953036bc22fbbbb5a34b9d2b591ebf">getGeometry</a> (unsigned <a class="el" href="classint.html">int</a> frame) const </td></tr>
+<tr class="separator:a7d953036bc22fbbbb5a34b9d2b591ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4edb1d2cd030125a96d3087879918000"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a4edb1d2cd030125a96d3087879918000">initFromParentSkeleton</a> (osg::NodeVisitor *nv)</td></tr>
 <tr class="separator:a4edb1d2cd030125a96d3087879918000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a128f82fc71fcbf4dcea2952cc6974557"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a128f82fc71fcbf4dcea2952cc6974557">updateGeomToSkelMatrix</a> (const osg::NodePath &amp;nodePath)</td></tr>
@@ -174,18 +193,21 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:abf65f00629d441c2e1bf7c4ee36daa30"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Geometry &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#abf65f00629d441c2e1bf7c4ee36daa30">mGeometry</a> [2]</td></tr>
+<tr class="separator:abf65f00629d441c2e1bf7c4ee36daa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ee55494c7105de1f72924fff1255ecb"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Geometry &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a1ee55494c7105de1f72924fff1255ecb">mSourceGeometry</a></td></tr>
 <tr class="separator:a1ee55494c7105de1f72924fff1255ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa24315bbe33028ecdf7d7f35586a6aa6"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Vec4Array &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#aa24315bbe33028ecdf7d7f35586a6aa6">mSourceTangents</a></td></tr>
-<tr class="separator:aa24315bbe33028ecdf7d7f35586a6aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a09f4e6f738df191f279e80421ca9c"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; const <br class="typebreak"/>
+osg::Vec4Array &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#af1a09f4e6f738df191f279e80421ca9c">mSourceTangents</a></td></tr>
+<tr class="separator:af1a09f4e6f738df191f279e80421ca9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a570a768552585e6c31e258ddb64f24ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneUtil_1_1Skeleton.html">Skeleton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a570a768552585e6c31e258ddb64f24ae">mSkeleton</a></td></tr>
 <tr class="separator:a570a768552585e6c31e258ddb64f24ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f5d3b7b2c464b77040b812e3b7313c0"><td class="memItemLeft" align="right" valign="top">osg::NodePath&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a6f5d3b7b2c464b77040b812e3b7313c0">mSkelToGeomPath</a></td></tr>
-<tr class="separator:a6f5d3b7b2c464b77040b812e3b7313c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac010508d3f4d2cbd770f9e72261fdcdd"><td class="memItemLeft" align="right" valign="top">osg::Matrixf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#ac010508d3f4d2cbd770f9e72261fdcdd">mGeomToSkelMatrix</a></td></tr>
-<tr class="separator:ac010508d3f4d2cbd770f9e72261fdcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fa12a6d777aa9e5b241efc08838c03c"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::RefMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a8fa12a6d777aa9e5b241efc08838c03c">mGeomToSkelMatrix</a></td></tr>
+<tr class="separator:a8fa12a6d777aa9e5b241efc08838c03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1d8b9c29fc2b0b6d5644ba546dccbd"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; <a class="el" href="structSceneUtil_1_1RigGeometry_1_1InfluenceMap.html">InfluenceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a7c1d8b9c29fc2b0b6d5644ba546dccbd">mInfluenceMap</a></td></tr>
 <tr class="separator:a7c1d8b9c29fc2b0b6d5644ba546dccbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21efa177242f5dccad617716c7d853d2"><td class="memItemLeft" align="right" valign="top">osg::Matrixf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a21efa177242f5dccad617716c7d853d2">mRigTransforms</a></td></tr>
+<tr class="separator:a21efa177242f5dccad617716c7d853d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4931065a32d1c5da4061c3d713f235b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a927dd77668a3149b66539a90e05c4d4c">Bone2VertexMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#af4931065a32d1c5da4061c3d713f235b">mBone2VertexMap</a></td></tr>
 <tr class="separator:af4931065a32d1c5da4061c3d713f235b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df4458358af4585772eb9539b21d166"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneUtil_1_1RigGeometry.html#ad6e4086185599afe0fd3d0d2299171a7">BoneSphereMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1RigGeometry.html#a7df4458358af4585772eb9539b21d166">mBoneSphereMap</a></td></tr>
@@ -199,7 +221,7 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Mesh skinning implementation. </p>
 <dl class="section note"><dt>Note</dt><dd>A <a class="el" href="classSceneUtil_1_1RigGeometry.html" title="Mesh skinning implementation. ">RigGeometry</a> may be attached directly to a <a class="el" href="classSceneUtil_1_1Skeleton.html" title="Handles the bone matrices for any number of child RigGeometries. ">Skeleton</a>, or somewhere below a <a class="el" href="classSceneUtil_1_1Skeleton.html" title="Handles the bone matrices for any number of child RigGeometries. ">Skeleton</a>. Note though that the <a class="el" href="classSceneUtil_1_1RigGeometry.html" title="Mesh skinning implementation. ">RigGeometry</a> ignores any transforms below the <a class="el" href="classSceneUtil_1_1Skeleton.html" title="Handles the bone matrices for any number of child RigGeometries. ">Skeleton</a>, so the attachment point is not that important. </dd>
 <dd>
-To avoid race conditions, the rig geometry needs to be double buffered. This can be done using a FrameSwitch node that has two <a class="el" href="classSceneUtil_1_1RigGeometry.html" title="Mesh skinning implementation. ">RigGeometry</a> children. In the future we may want to consider implementing the double buffering inside <a class="el" href="classSceneUtil_1_1RigGeometry.html" title="Mesh skinning implementation. ">RigGeometry</a>. </dd></dl>
+The internal Geometry used for rendering is double buffered, this allows updates to be done in a thread safe way while not compromising rendering performance. This is crucial when using osg's default threading model of DrawThreadPerContext. </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a927dd77668a3149b66539a90e05c4d4c"></a>
 <div class="memitem">
@@ -344,7 +366,7 @@ To avoid race conditions, the rig geometry needs to be double buffered. This can
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_aabbc71c44690c89ebf8c0c242d4ef4f3_cgraph.svg" width="1611" height="2042"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_aabbc71c44690c89ebf8c0c242d4ef4f3_cgraph.svg" width="1611" height="2040"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -352,6 +374,142 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a149a7f215019df5738004e42e27f365d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneUtil::RigGeometry::accept </td>
+          <td>(</td>
+          <td class="paramtype">osg::NodeVisitor &amp;&#160;</td>
+          <td class="paramname"><em>nv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a149a7f215019df5738004e42e27f365d_cgraph.svg" width="675" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a96af2fcc94c7a629ee25f0b7cfbde9a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneUtil::RigGeometry::accept </td>
+          <td>(</td>
+          <td class="paramtype">osg::PrimitiveFunctor &amp;&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a96af2fcc94c7a629ee25f0b7cfbde9a7_cgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a025f8ec16b031fbbf778791e8353a3af"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneUtil::RigGeometry::cull </td>
+          <td>(</td>
+          <td class="paramtype">osg::NodeVisitor *&#160;</td>
+          <td class="paramname"><em>nv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a025f8ec16b031fbbf778791e8353a3af_cgraph.svg" width="414" height="260"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a025f8ec16b031fbbf778791e8353a3af_icgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7d953036bc22fbbbb5a34b9d2b591ebf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::Geometry * SceneUtil::RigGeometry::getGeometry </td>
+          <td>(</td>
+          <td class="paramtype">unsigned <a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>frame</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a7d953036bc22fbbbb5a34b9d2b591ebf_icgraph.svg" width="635" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="ad9f1e89c5b207ea9c0624dc3fe4600c1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -364,14 +522,6 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_ad9f1e89c5b207ea9c0624dc3fe4600c1_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -400,44 +550,10 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a4edb1d2cd030125a96d3087879918000_icgraph.svg" width="667" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a4edb1d2cd030125a96d3087879918000_icgraph.svg" width="638" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="a1875f35ed2c7281a482a0d36a8d0446e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">SceneUtil::RigGeometry::META_Object </td>
-          <td>(</td>
-          <td class="paramtype">SceneUtil&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSceneUtil_1_1RigGeometry.html">RigGeometry</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -450,6 +566,22 @@ Here is the caller graph for this function:</div>
           <td>(</td>
           <td class="paramtype">osg::ref_ptr&lt; <a class="el" href="structSceneUtil_1_1RigGeometry_1_1InfluenceMap.html">InfluenceMap</a> &gt;&#160;</td>
           <td class="paramname"><em>influenceMap</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7dffc80b2dd3a44155cf2bde64849077"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneUtil::RigGeometry::setRigTransforms </td>
+          <td>(</td>
+          <td class="paramtype">osg::Matrixf &amp;&#160;</td>
+          <td class="paramname"><em>transform</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -476,7 +608,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_ad6eb71ad7d1fae89e042d41dd8a67fc4_cgraph.svg" width="1387" height="2042"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_ad6eb71ad7d1fae89e042d41dd8a67fc4_cgraph.svg" width="1387" height="2040"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -484,40 +616,43 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_ad6eb71ad7d1fae89e042d41dd8a67fc4_icgraph.svg" width="411" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_ad6eb71ad7d1fae89e042d41dd8a67fc4_icgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a1d062b4c2d8e86dd51a09ac19ba8f8b9"></a>
+<a class="anchor" id="aedb8e728893ee4792c002498aa56247a"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SceneUtil::RigGeometry::update </td>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> SceneUtil::RigGeometry::supports </td>
           <td>(</td>
-          <td class="paramtype">osg::NodeVisitor *&#160;</td>
-          <td class="paramname"><em>nv</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const osg::PrimitiveFunctor &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a1d062b4c2d8e86dd51a09ac19ba8f8b9_cgraph.svg" width="440" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
 <a class="anchor" id="a474007d984516e71951a33c492e2e311"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void SceneUtil::RigGeometry::updateBounds </td>
@@ -527,6 +662,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><div class="dynheader">
@@ -540,7 +680,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a474007d984516e71951a33c492e2e311_icgraph.svg" width="440" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a474007d984516e71951a33c492e2e311_icgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -572,7 +712,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a128f82fc71fcbf4dcea2952cc6974557_icgraph.svg" width="683" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1RigGeometry_a128f82fc71fcbf4dcea2952cc6974557_icgraph.svg" width="654" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -640,7 +780,19 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ac010508d3f4d2cbd770f9e72261fdcdd"></a>
+<a class="anchor" id="aba3140fb07fd073a7d89dd21ba6e432e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">META_Object (SceneUtil, <a class="el" href="classSceneUtil_1_1RigGeometry.html">RigGeometry</a>) virtual void compileGLObjects(osg osg::BoundingSpheref SceneUtil::RigGeometry::mBoundSphere</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abf65f00629d441c2e1bf7c4ee36daa30"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -648,7 +800,27 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">osg::Matrixf SceneUtil::RigGeometry::mGeomToSkelMatrix</td>
+          <td class="memname">osg::ref_ptr&lt;osg::Geometry&gt; SceneUtil::RigGeometry::mGeometry[2]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8fa12a6d777aa9e5b241efc08838c03c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt;osg::RefMatrix&gt; SceneUtil::RigGeometry::mGeomToSkelMatrix</td>
         </tr>
       </table>
   </td>
@@ -700,7 +872,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a570a768552585e6c31e258ddb64f24ae"></a>
+<a class="anchor" id="a21efa177242f5dccad617716c7d853d2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -708,7 +880,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSceneUtil_1_1Skeleton.html">Skeleton</a>* SceneUtil::RigGeometry::mSkeleton</td>
+          <td class="memname">osg::Matrixf SceneUtil::RigGeometry::mRigTransforms</td>
         </tr>
       </table>
   </td>
@@ -720,7 +892,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a6f5d3b7b2c464b77040b812e3b7313c0"></a>
+<a class="anchor" id="a570a768552585e6c31e258ddb64f24ae"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -728,7 +900,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">osg::NodePath SceneUtil::RigGeometry::mSkelToGeomPath</td>
+          <td class="memname"><a class="el" href="classSceneUtil_1_1Skeleton.html">Skeleton</a>* SceneUtil::RigGeometry::mSkeleton</td>
         </tr>
       </table>
   </td>
@@ -760,7 +932,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="aa24315bbe33028ecdf7d7f35586a6aa6"></a>
+<a class="anchor" id="af1a09f4e6f738df191f279e80421ca9c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -768,7 +940,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">osg::ref_ptr&lt;osg::Vec4Array&gt; SceneUtil::RigGeometry::mSourceTangents</td>
+          <td class="memname">osg::ref_ptr&lt;const osg::Vec4Array&gt; SceneUtil::RigGeometry::mSourceTangents</td>
         </tr>
       </table>
   </td>
@@ -780,14 +952,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="abdc1ac2a3d149200df198882e324a04a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;unsigned short, float&gt; SceneUtil::RigGeometry::mWeights</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="riggeometry_8hpp_source.html">riggeometry.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="riggeometry_8cpp.html">riggeometry.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="riggeometry_8hpp_source.html">riggeometry.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="riggeometry_8cpp.html">riggeometry.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

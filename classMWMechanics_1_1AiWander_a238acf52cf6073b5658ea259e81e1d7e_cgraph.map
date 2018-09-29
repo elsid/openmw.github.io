@@ -1,27 +1,27 @@
 <map id="MWMechanics::AiWander::setPathToAnAllowedNode" name="MWMechanics::AiWander::setPathToAnAllowedNode">
 <area shape="rect" id="node2" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="291,5,429,32"/>
 <area shape="rect" id="node3" href="$classMWMechanics_1_1AiWander.html#a4645f47848fae60ac175f6e2f8453d81" title="convert point from local (i.e. cell) to world coordinates " alt="" coords="271,57,449,98"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="849,38,993,79"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1PathFinder.html#af4b18be8e6c7038c820d0f65e6bdec7b" title="utility function to convert a osg::Vec3f to a Pathgrid::Point " alt="" coords="267,174,453,215"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1PathFinder.html#a38621ef0eb2f21ab07b589c27c0319aa" title="MWMechanics::PathFinder\l::buildSyncedPath" alt="" coords="267,239,453,281"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="282,305,438,332"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1PathFinder.html#ac7a8e1e52719974f331b9196c84b9f07" title="MWMechanics::PathFinder\l::isPathConstructed" alt="" coords="267,357,453,398"/>
-<area shape="rect" id="node26" href="$structMWMechanics_1_1AiWanderStorage.html#a6e58e95cfa05b2206f844fd9b711358a" title="MWMechanics::AiWanderStorage\l::setState" alt="" coords="245,422,475,463"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1CellStore.html#a6b204d54fa4c8dc58ead29c86e2362ba" title="MWWorld::CellStore\l::getCell" alt="" coords="857,115,1001,157"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1PathFinder.html#af4b18be8e6c7038c820d0f65e6bdec7b" title="utility function to convert a osg::Vec3f to a Pathgrid::Point " alt="" coords="267,305,453,346"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1PathFinder.html#a88faf756bc5e0c49e8792f978a26eaa4" title="MWMechanics::PathFinder\l::buildSyncedPath" alt="" coords="267,239,453,281"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="282,371,438,397"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1AiPackage.html#a417f3af3bb5fbd59d1eda1267a3dba78" title="MWMechanics::AiPackage\l::getPathGridGraph" alt="" coords="268,174,452,215"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1PathFinder.html#ac7a8e1e52719974f331b9196c84b9f07" title="MWMechanics::PathFinder\l::isPathConstructed" alt="" coords="267,422,453,463"/>
+<area shape="rect" id="node26" href="$structMWMechanics_1_1AiWanderStorage.html#a30e897eef4dd25aa8d05e31b796d18a5" title="MWMechanics::AiWanderStorage\l::setState" alt="" coords="245,487,475,529"/>
 <area shape="rect" id="node4" href="$classMWMechanics_1_1CoordinateConverter.html#af6581b1a748aaa577be66e085b21e420" title="in&#45;place conversion from local to world " alt="" coords="523,57,775,98"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1PathFinder.html#aac12d57b54eaae75303823ff3a032b9d" title="MWMechanics::PathFinder\l::buildPath" alt="" coords="557,239,742,281"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1PathFinder.html#a2e830e840e2a26110a2bb3aebd0e5371" title="MWMechanics::PathFinder\l::getPath" alt="" coords="557,305,742,346"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="824,104,1019,131"/>
-<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="839,155,1004,197"/>
-<area shape="rect" id="node11" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="830,221,1013,248"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="832,272,1011,299"/>
-<area shape="rect" id="node13" href="$classMWMechanics_1_1PathFinder.html#a0bbefecc679b5643c7815c71887d35c4" title="MWMechanics::PathFinder\l::GetClosestPoint" alt="" coords="829,323,1014,365"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1PathFinder.html#ac2afb31f2440ef6b292867a8dff73f7b" title="MWMechanics::PathFinder\l::DistanceSquared" alt="" coords="1079,382,1265,423"/>
-<area shape="rect" id="node16" href="$namespaceanonymous__namespace_02pathfinding_8cpp_03.html#a3f136d16e6f62a03136eef371ff82104" title="anonymous_namespace\l\{pathfinding::cpp\}::\lgetClosestReachablePoint" alt="" coords="828,440,1015,496"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1CellStore.html#ac5fb79c65ebd65db7de0eef76c136852" title="MWWorld::CellStore\l::aStarSearch" alt="" coords="849,519,993,561"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1PathFinder.html#a6935863f8ff0315fd494c1537cf4e530" title="MWMechanics::PathFinder\l::MakeOsgVec3" alt="" coords="1338,382,1523,423"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1CellStore.html#aee9ec496615920a7bc3cd2a506ca4d3e" title="MWWorld::CellStore\l::isPointConnected" alt="" coords="1100,450,1244,491"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1PathgridGraph.html#a1b2cccdadc62894dbf0f82b8f0adb007" title="MWMechanics::PathgridGraph\l::isPointConnected" alt="" coords="1325,451,1536,493"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1PathgridGraph.html#a0f0191bbc4a5c3c23dcec8842463751b" title="MWMechanics::PathgridGraph\l::aStarSearch" alt="" coords="1067,517,1277,558"/>
-<area shape="rect" id="node21" href="$namespaceanonymous__namespace_02pathgrid_8cpp_03.html#a405ea66c19a5735ede1af55fca912d4b" title="anonymous_namespace\l\{pathgrid::cpp\}::costAStar" alt="" coords="1334,517,1527,558"/>
-<area shape="rect" id="node22" href="$namespaceanonymous__namespace_02pathgrid_8cpp_03.html#aa6cea2ebc49ec4c251b2e72e50d89462" title="anonymous_namespace\l\{pathgrid::cpp\}::manhattan" alt="" coords="1585,517,1786,558"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1PathFinder.html#a643017e50118cb6c4c0d53d47f78172e" title="MWMechanics::PathFinder\l::buildPath" alt="" coords="557,349,742,390"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1PathFinder.html#a2e830e840e2a26110a2bb3aebd0e5371" title="MWMechanics::PathFinder\l::getPath" alt="" coords="557,275,742,317"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1PathgridGraph.html#a71041c2ba68fb49183ce1a4505d152f2" title="MWMechanics::PathgridGraph\l::getPathgrid" alt="" coords="824,181,1035,222"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1PathFinder.html#a0bbefecc679b5643c7815c71887d35c4" title="MWMechanics::PathFinder\l::GetClosestPoint" alt="" coords="837,349,1022,390"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1PathFinder.html#ac2afb31f2440ef6b292867a8dff73f7b" title="MWMechanics::PathFinder\l::DistanceSquared" alt="" coords="1095,323,1281,365"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1PathFinder.html#a6935863f8ff0315fd494c1537cf4e530" title="MWMechanics::PathFinder\l::MakeOsgVec3" alt="" coords="1350,282,1535,323"/>
+<area shape="rect" id="node13" href="$namespaceanonymous__namespace_02pathfinding_8cpp_03.html#abffb096999c71d394753d9d871a308a1" title="anonymous_namespace\l\{pathfinding::cpp\}::\lgetClosestReachablePoint" alt="" coords="836,413,1023,469"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1PathgridGraph.html#a0f0191bbc4a5c3c23dcec8842463751b" title="MWMechanics::PathgridGraph\l::aStarSearch" alt="" coords="824,493,1035,534"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="832,559,1027,585"/>
+<area shape="rect" id="node19" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="847,610,1012,651"/>
+<area shape="rect" id="node20" href="$classMWBase_1_1World.html#ac219fe7ecc69feaa82edc81e45c34481" title="cast a Ray and return true if there is an object in the ray path. " alt="" coords="841,676,1017,703"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1PathgridGraph.html#a1b2cccdadc62894dbf0f82b8f0adb007" title="MWMechanics::PathgridGraph\l::isPointConnected" alt="" coords="1083,425,1293,466"/>
+<area shape="rect" id="node16" href="$namespaceanonymous__namespace_02pathgrid_8cpp_03.html#a405ea66c19a5735ede1af55fca912d4b" title="anonymous_namespace\l\{pathgrid::cpp\}::costAStar" alt="" coords="1091,493,1285,534"/>
+<area shape="rect" id="node17" href="$namespaceanonymous__namespace_02pathgrid_8cpp_03.html#aa6cea2ebc49ec4c251b2e72e50d89462" title="anonymous_namespace\l\{pathgrid::cpp\}::manhattan" alt="" coords="1342,493,1543,534"/>
+<area shape="rect" id="node24" href="$structESM_1_1Cell.html#a58a4c9b472106cf719b869ac3243d17f" title="ESM::Cell::getCellId" alt="" coords="577,224,721,251"/>
 </map>

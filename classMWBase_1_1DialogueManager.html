@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -95,6 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classMWBase_1_1DialogueManager-members.html">List of all members</a>  </div>
@@ -110,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWBase::DialogueManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager__inherit__graph.svg" width="243" height="830"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager__inherit__graph.svg" width="230" height="787"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -120,6 +121,11 @@ Collaboration diagram for MWBase::DialogueManager:</div>
 </div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5b0429af1e05c0803fa66f0c74fda1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#ad5b0429af1e05c0803fa66f0c74fda1c">DialogueManager</a> ()</td></tr>
@@ -130,30 +136,37 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a76f3468239fdb00ee58b179b4249ec0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02d7b210500ecfadf80c9d8e4851f4e2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a02d7b210500ecfadf80c9d8e4851f4e2">isInChoice</a> () const =0</td></tr>
 <tr class="separator:a02d7b210500ecfadf80c9d8e4851f4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeee35bef31914e28ff70e360ade932d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#afeee35bef31914e28ff70e360ade932d">startDialogue</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor)=0</td></tr>
-<tr class="separator:afeee35bef31914e28ff70e360ade932d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfd151b0a2f2214173d34ef61bb4c6e9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#abfd151b0a2f2214173d34ef61bb4c6e9">startDialogue</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, <a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *callback)=0</td></tr>
+<tr class="separator:abfd151b0a2f2214173d34ef61bb4c6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60c838c45a8e10d09a3c39e7929a7bbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a60c838c45a8e10d09a3c39e7929a7bbd">addTopic</a> (const std::string &amp;topic)=0</td></tr>
 <tr class="separator:a60c838c45a8e10d09a3c39e7929a7bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09ffcfd98f1a447ff36f3494d210e548"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a09ffcfd98f1a447ff36f3494d210e548">askQuestion</a> (const std::string &amp;question, <a class="el" href="classint.html">int</a> choice)=0</td></tr>
-<tr class="separator:a09ffcfd98f1a447ff36f3494d210e548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73355394ddcd29e1a96cfe6f5584c1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#aa73355394ddcd29e1a96cfe6f5584c1f">addChoice</a> (const std::string &amp;text, <a class="el" href="classint.html">int</a> choice)=0</td></tr>
+<tr class="separator:aa73355394ddcd29e1a96cfe6f5584c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e0aabf644837e579ba80502312ed86"><td class="memItemLeft" align="right" valign="top">virtual const std::vector<br class="typebreak"/>
+&lt; std::pair&lt; std::string, <a class="el" href="classint.html">int</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a78e0aabf644837e579ba80502312ed86">getChoices</a> ()=0</td></tr>
+<tr class="separator:a78e0aabf644837e579ba80502312ed86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ced20306276491a6523fd2f11e5be25"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a3ced20306276491a6523fd2f11e5be25">isGoodbye</a> ()=0</td></tr>
+<tr class="separator:a3ced20306276491a6523fd2f11e5be25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa4c183cf9f2b85bd15e67e6cf9857c1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#afa4c183cf9f2b85bd15e67e6cf9857c1">goodbye</a> ()=0</td></tr>
 <tr class="separator:afa4c183cf9f2b85bd15e67e6cf9857c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53bae48eb57d93ca5a10831a63a34b1a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a53bae48eb57d93ca5a10831a63a34b1a">say</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, const std::string &amp;topic) const =0</td></tr>
-<tr class="separator:a53bae48eb57d93ca5a10831a63a34b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32fb9f672fb59fefc47ab574121c38e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a32fb9f672fb59fefc47ab574121c38e6">keywordSelected</a> (const std::string &amp;keyword)=0</td></tr>
-<tr class="separator:a32fb9f672fb59fefc47ab574121c38e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790eec4592dd2b7ee4bba10486c75b0e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a790eec4592dd2b7ee4bba10486c75b0e">say</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;actor, const std::string &amp;topic)=0</td></tr>
+<tr class="separator:a790eec4592dd2b7ee4bba10486c75b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d95018b85926a7a9fb1f6a577af668"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a75d95018b85926a7a9fb1f6a577af668">keywordSelected</a> (const std::string &amp;keyword, <a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *callback)=0</td></tr>
+<tr class="separator:a75d95018b85926a7a9fb1f6a577af668"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e7411f3934cf921daee77ad8bdcf456"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a5e7411f3934cf921daee77ad8bdcf456">goodbyeSelected</a> ()=0</td></tr>
 <tr class="separator:a5e7411f3934cf921daee77ad8bdcf456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff14c55daa08a214541463c2c40fcb35"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#aff14c55daa08a214541463c2c40fcb35">questionAnswered</a> (<a class="el" href="classint.html">int</a> answer)=0</td></tr>
-<tr class="separator:aff14c55daa08a214541463c2c40fcb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04c18890e0239437bf4583ce4073a38f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a04c18890e0239437bf4583ce4073a38f">checkServiceRefused</a> ()=0</td></tr>
-<tr class="separator:a04c18890e0239437bf4583ce4073a38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a702c0af58694da573838f415822dd60a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a702c0af58694da573838f415822dd60a">persuade</a> (<a class="el" href="classint.html">int</a> type)=0</td></tr>
-<tr class="separator:a702c0af58694da573838f415822dd60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65cabd007bc7ce814bf123297e2d08fc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a65cabd007bc7ce814bf123297e2d08fc">questionAnswered</a> (<a class="el" href="classint.html">int</a> answer, <a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *callback)=0</td></tr>
+<tr class="separator:a65cabd007bc7ce814bf123297e2d08fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b2997af9667f81c214fd8263c84670"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="bsatool_8cpp.html#a6e7f1179c5854ac3883506e79162011b">std::list</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#ac9b2997af9667f81c214fd8263c84670">getAvailableTopics</a> ()=0</td></tr>
+<tr class="separator:ac9b2997af9667f81c214fd8263c84670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca0fb90dc7c873c8e5755b5d18631d07"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#aca0fb90dc7c873c8e5755b5d18631d07">checkServiceRefused</a> (<a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *callback)=0</td></tr>
+<tr class="separator:aca0fb90dc7c873c8e5755b5d18631d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2818feadf45c8b6fe1dc42891e2ab9a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a2818feadf45c8b6fe1dc42891e2ab9a8">persuade</a> (<a class="el" href="classint.html">int</a> type, <a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *callback)=0</td></tr>
+<tr class="separator:a2818feadf45c8b6fe1dc42891e2ab9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a983111f847f6fdbc0e0b619ef1cabeec"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a983111f847f6fdbc0e0b619ef1cabeec">getTemporaryDispositionChange</a> () const =0</td></tr>
 <tr class="separator:a983111f847f6fdbc0e0b619ef1cabeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a066c659e5f7c0f6da2bb59dab8ce6ddd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a066c659e5f7c0f6da2bb59dab8ce6ddd">applyDispositionChange</a> (<a class="el" href="classint.html">int</a> delta)=0</td></tr>
-<tr class="separator:a066c659e5f7c0f6da2bb59dab8ce6ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4cacbf054f4356663370ea7ebc8198"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a0a4cacbf054f4356663370ea7ebc8198">applyBarterDispositionChange</a> (<a class="el" href="classint.html">int</a> delta)=0</td></tr>
+<tr class="separator:a0a4cacbf054f4356663370ea7ebc8198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ab5e06656132dcd9b2d45065e9f3b9c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a6ab5e06656132dcd9b2d45065e9f3b9c">countSavedGameRecords</a> () const =0</td></tr>
 <tr class="separator:a6ab5e06656132dcd9b2d45065e9f3b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a507028be75a970b8682b333e4d7d7f41"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWBase_1_1DialogueManager.html#a507028be75a970b8682b333e4d7d7f41">write</a> (<a class="el" href="classESM_1_1ESMWriter.html">ESM::ESMWriter</a> &amp;writer, <a class="el" href="classLoading_1_1Listener.html">Loading::Listener</a> &amp;progress) const =0</td></tr>
@@ -256,6 +269,50 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa73355394ddcd29e1a96cfe6f5584c1f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MWBase::DialogueManager::addChoice </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>choice</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#aff8892878fc75990d0b7375018cc1db6">MWDialogue::DialogueManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_aa73355394ddcd29e1a96cfe6f5584c1f_icgraph.svg" width="408" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a60c838c45a8e10d09a3c39e7929a7bbd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -290,7 +347,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a066c659e5f7c0f6da2bb59dab8ce6ddd"></a>
+<a class="anchor" id="a0a4cacbf054f4356663370ea7ebc8198"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -298,7 +355,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MWBase::DialogueManager::applyDispositionChange </td>
+          <td class="memname">virtual void MWBase::DialogueManager::applyBarterDispositionChange </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>delta</em></td><td>)</td>
@@ -311,65 +368,21 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section note"><dt>Note</dt><dd>This change is temporary and gets discarded when dialogue ends. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Controlled by an option, gets discarded when dialogue ends by default </dd></dl>
 
-<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#ab0ac63e16c310f1f77c0d114b3c56b71">MWDialogue::DialogueManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a6893c316bad5bcf40331e16154aa1b58">MWDialogue::DialogueManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a066c659e5f7c0f6da2bb59dab8ce6ddd_icgraph.svg" width="624" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a0a4cacbf054f4356663370ea7ebc8198_icgraph.svg" width="854" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a09ffcfd98f1a447ff36f3494d210e548"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MWBase::DialogueManager::askQuestion </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>question</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>choice</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a6842e0e89bf7378cdfba8dcb51212df3">MWDialogue::DialogueManager</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a09ffcfd98f1a447ff36f3494d210e548_icgraph.svg" width="408" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a04c18890e0239437bf4583ce4073a38f"></a>
+<a class="anchor" id="aca0fb90dc7c873c8e5755b5d18631d07"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -379,7 +392,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::DialogueManager::checkServiceRefused </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -390,7 +404,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a08d435c6bda96b8802456a26131338ca">MWDialogue::DialogueManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a0a70aba90f927d10b86ed5f9ad9dda43">MWDialogue::DialogueManager</a>.</p>
 
 </div>
 </div>
@@ -496,6 +510,64 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ac9b2997af9667f81c214fd8263c84670"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="bsatool_8cpp.html#a6e7f1179c5854ac3883506e79162011b">std::list</a>&lt;std::string&gt; MWBase::DialogueManager::getAvailableTopics </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#ac03046279816c57c6d0ea9d20aeb61ef">MWDialogue::DialogueManager</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a78e0aabf644837e579ba80502312ed86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const std::vector&lt;std::pair&lt;std::string, <a class="el" href="classint.html">int</a>&gt; &gt;&amp; MWBase::DialogueManager::getChoices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#aba9cc8b3bc0d438269191c89a1bac5e1">MWDialogue::DialogueManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a78e0aabf644837e579ba80502312ed86_icgraph.svg" width="2051" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a297ec9095755a34a31900e9a9d277cec"></a>
 <div class="memitem">
 <div class="memproto">
@@ -534,7 +606,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a297ec9095755a34a31900e9a9d277cec_icgraph.svg" width="1080" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a297ec9095755a34a31900e9a9d277cec_icgraph.svg" width="1371" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -567,7 +639,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a983111f847f6fdbc0e0b619ef1cabeec_icgraph.svg" width="1120" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a983111f847f6fdbc0e0b619ef1cabeec_icgraph.svg" width="1411" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -633,7 +705,40 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a5e7411f3934cf921daee77ad8bdcf456_icgraph.svg" width="1134" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a5e7411f3934cf921daee77ad8bdcf456_icgraph.svg" width="2275" height="483"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3ced20306276491a6523fd2f11e5be25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::DialogueManager::isGoodbye </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a1b9ec1f3dc5409ad100f695dbbad2fe2">MWDialogue::DialogueManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a3ced20306276491a6523fd2f11e5be25_icgraph.svg" width="2051" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -666,14 +771,14 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a02d7b210500ecfadf80c9d8e4851f4e2_icgraph.svg" width="1734" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a02d7b210500ecfadf80c9d8e4851f4e2_icgraph.svg" width="2051" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a32fb9f672fb59fefc47ab574121c38e6"></a>
+<a class="anchor" id="a75d95018b85926a7a9fb1f6a577af668"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -684,8 +789,18 @@ Here is the caller graph for this function:</div>
           <td class="memname">virtual void MWBase::DialogueManager::keywordSelected </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>keyword</em></td><td>)</td>
+          <td class="paramname"><em>keyword</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -695,12 +810,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a06ee1184e48a0c987a081a01aa85d2eb">MWDialogue::DialogueManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a5f528ef507d6c7c9aa645208979e8d7a">MWDialogue::DialogueManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a32fb9f672fb59fefc47ab574121c38e6_icgraph.svg" width="656" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a75d95018b85926a7a9fb1f6a577af668_icgraph.svg" width="2499" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -785,7 +900,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a702c0af58694da573838f415822dd60a"></a>
+<a class="anchor" id="a2818feadf45c8b6fe1dc42891e2ab9a8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -796,8 +911,18 @@ Here is the caller graph for this function:</div>
           <td class="memname">virtual void MWBase::DialogueManager::persuade </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -807,19 +932,19 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a6e9503322396b5610945e461164d4468">MWDialogue::DialogueManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a577a67d85d48d878f74e0037524a4801">MWDialogue::DialogueManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a702c0af58694da573838f415822dd60a_icgraph.svg" width="672" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a2818feadf45c8b6fe1dc42891e2ab9a8_icgraph.svg" width="672" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="aff14c55daa08a214541463c2c40fcb35"></a>
+<a class="anchor" id="a65cabd007bc7ce814bf123297e2d08fc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -830,8 +955,18 @@ Here is the caller graph for this function:</div>
           <td class="memname">virtual void MWBase::DialogueManager::questionAnswered </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>answer</em></td><td>)</td>
+          <td class="paramname"><em>answer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -841,12 +976,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#abe193ad66133d216a04d99427b702c3e">MWDialogue::DialogueManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a36d60c956e4ac472f921b601a4583a00">MWDialogue::DialogueManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_aff14c55daa08a214541463c2c40fcb35_icgraph.svg" width="440" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a65cabd007bc7ce814bf123297e2d08fc_icgraph.svg" width="2275" height="420"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -897,7 +1032,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a53bae48eb57d93ca5a10831a63a34b1a"></a>
+<a class="anchor" id="a790eec4592dd2b7ee4bba10486c75b0e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -919,7 +1054,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -929,12 +1064,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a0b82ce69a1da5c135835622d91f86f3b">MWDialogue::DialogueManager</a>.</p>
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a94736e9eec4efc82bd86daf2e5d7b2e8">MWDialogue::DialogueManager</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a53bae48eb57d93ca5a10831a63a34b1a_icgraph.svg" width="1400" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_a790eec4592dd2b7ee4bba10486c75b0e_icgraph.svg" width="1400" height="652"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -991,7 +1126,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="afeee35bef31914e28ff70e360ade932d"></a>
+<a class="anchor" id="abfd151b0a2f2214173d34ef61bb4c6e9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -999,11 +1134,21 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MWBase::DialogueManager::startDialogue </td>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> MWBase::DialogueManager::startDialogue </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
-          <td class="paramname"><em>actor</em></td><td>)</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMWBase_1_1DialogueManager_1_1ResponseCallback.html">ResponseCallback</a> *&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1013,15 +1158,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a2a537be1a3a201dfbede541ac70f42b5">MWDialogue::DialogueManager</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWBase_1_1DialogueManager_afeee35bef31914e28ff70e360ade932d_icgraph.svg" width="454" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
+<p>Implemented in <a class="el" href="classMWDialogue_1_1DialogueManager.html#a868d037ce15fb41dbe6d30844beb4a35">MWDialogue::DialogueManager</a>.</p>
 
 </div>
 </div>
@@ -1070,12 +1207,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwbase/<a class="el" href="dialoguemanager_8hpp_source.html">dialoguemanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwbase/<a class="el" href="dialoguemanager_8hpp_source.html">dialoguemanager.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

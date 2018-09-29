@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwworld/worldimp.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwworld/worldimp.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -104,12 +104,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &quot;<a class="el" href="worldimp_8hpp_source.html">worldimp.hpp</a>&quot;</code><br/>
 <code>#include &lt;osg/Group&gt;</code><br/>
 <code>#include &lt;osg/ComputeBoundsVisitor&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="esmreader_8hpp_source.html">components/esm/esmreader.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="esmwriter_8hpp_source.html">components/esm/esmwriter.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="cellid_8hpp_source.html">components/esm/cellid.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="constants_8hpp_source.html">components/misc/constants.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="resourcehelpers_8hpp_source.html">components/misc/resourcehelpers.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="rng_8hpp_source.html">components/misc/rng.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="collections_8hpp_source.html">components/files/collections.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="resourcehelpers_8hpp_source.html">components/misc/resourcehelpers.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="resourcesystem_8hpp_source.html">components/resource/resourcesystem.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="positionattitudetransform_8hpp_source.html">components/sceneutil/positionattitudetransform.hpp</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="environment_8hpp_source.html">../mwbase/environment.hpp</a>&quot;</code><br/>
@@ -125,6 +127,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="combat_8hpp_source.html">../mwmechanics/combat.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="aiavoiddoor_8hpp_source.html">../mwmechanics/aiavoiddoor.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="animation_8hpp_source.html">../mwrender/animation.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="npcanimation_8hpp_source.html">../mwrender/npcanimation.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="renderingmanager_8hpp_source.html">../mwrender/renderingmanager.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="camera_8hpp_source.html">../mwrender/camera.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="vismask_8hpp_source.html">../mwrender/vismask.hpp</a>&quot;</code><br/>
@@ -132,7 +135,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="globalscripts_8hpp_source.html">../mwscript/globalscripts.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="door_8hpp_source.html">../mwclass/door.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="physicssystem_8hpp_source.html">../mwphysics/physicssystem.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="mwphysics_2actor_8hpp_source.html">../mwphysics/actor.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="openmw_2mwphysics_2actor_8hpp_source.html">../mwphysics/actor.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="collisiontype_8hpp_source.html">../mwphysics/collisiontype.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwworld_2player_8hpp_source.html">player.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="manualref_8hpp_source.html">manualref.hpp</a>&quot;</code><br/>
@@ -147,7 +150,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for worldimp.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="worldimp_8cpp__incl.svg" width="6756" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="worldimp_8cpp__incl.svg" width="8066" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -180,11 +183,13 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:aacd578f071894e1a665b58b4f61532f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02worldimp_8cpp_03.html#aacd578f071894e1a665b58b4f61532f2">anonymous_namespace{worldimp.cpp}::wrap</a> (float &amp;rad)</td></tr>
 <tr class="separator:aacd578f071894e1a665b58b4f61532f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af02d878306bccf238ba293983fd422b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWWorld.html#af02d878306bccf238ba293983fd422b9">MWWorld::preload</a> (<a class="el" href="classMWWorld_1_1Scene.html">MWWorld::Scene</a> *scene, const ESMStore &amp;store, const std::string &amp;obj)</td></tr>
+<tr class="separator:af02d878306bccf238ba293983fd422b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

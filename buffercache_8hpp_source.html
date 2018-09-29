@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/terrain/buffercache.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/terrain/buffercache.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -112,42 +112,41 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classTerrain_1_1BufferCache.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classTerrain_1_1BufferCache.html">BufferCache</a></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classTerrain_1_1BufferCache.html#a232aa036a1d2905a5599415e7be77d99">   17</a></span>&#160;        <a class="code" href="classTerrain_1_1BufferCache.html#a232aa036a1d2905a5599415e7be77d99">BufferCache</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numVerts) : <a class="code" href="classTerrain_1_1BufferCache.html#af6dde016ee7d423cfa79d846699ee929">mNumVerts</a>(numVerts) {}</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        osg::ref_ptr&lt;osg::DrawElements&gt; <a class="code" href="classTerrain_1_1BufferCache.html#a8aff8a55f2533773d6ef6620ee85b001">getIndexBuffer</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> flags);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        osg::ref_ptr&lt;osg::Vec2Array&gt; <a class="code" href="classTerrain_1_1BufferCache.html#a1ba42107c4b89013864114a609c1bc83">getUVBuffer</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        osg::ref_ptr&lt;osg::DrawElements&gt; <a class="code" href="classTerrain_1_1BufferCache.html#a7899c193bb99b6efe1fb4b2518a82803">getIndexBuffer</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numVerts, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> flags);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        osg::ref_ptr&lt;osg::Vec2Array&gt; <a class="code" href="classTerrain_1_1BufferCache.html#a68423f9919b815a96942d68ef7a6d3ea">getUVBuffer</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numVerts);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classTerrain_1_1BufferCache.html#a4ea4cbf68bfb37b502c3861b812c6245">clearCache</a>();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="comment">// TODO: add releaseGLObjects() for our vertex/element buffer objects</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classTerrain_1_1BufferCache.html#a67c90156b34a851f85828fe1c883c5b2">releaseGLObjects</a>(<a class="code" href="namespaceCSMDoc.html#a46ff3c989b498a8d4aba49fea84a560a">osg::State</a>* state);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="comment">// Index buffers are shared across terrain batches where possible. There is one index buffer for each</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="comment">// combination of LOD deltas and index buffer LOD we may need.</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classTerrain_1_1BufferCache.html#a496b5d14867762ef1c2eec60103e7ba5">   32</a></span>&#160;        std::map&lt;int, osg::ref_ptr&lt;osg::DrawElements&gt; &gt; <a class="code" href="classTerrain_1_1BufferCache.html#a496b5d14867762ef1c2eec60103e7ba5">mIndexBufferMap</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classTerrain_1_1BufferCache.html#a3ea7b632e57274dc57eb13a63c1f305d">   32</a></span>&#160;        std::map&lt;std::pair&lt;int, int&gt;, osg::ref_ptr&lt;osg::DrawElements&gt; &gt; <a class="code" href="classTerrain_1_1BufferCache.html#a3ea7b632e57274dc57eb13a63c1f305d">mIndexBufferMap</a>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classTerrain_1_1BufferCache.html#a5ede08607001a6b4af467495398be5a3">   33</a></span>&#160;        OpenThreads::Mutex <a class="code" href="classTerrain_1_1BufferCache.html#a5ede08607001a6b4af467495398be5a3">mIndexBufferMutex</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classTerrain_1_1BufferCache.html#a6ddc65b1a1ba9f3e2a05e060b7a09ded">   35</a></span>&#160;        std::map&lt;int, osg::ref_ptr&lt;osg::Vec2Array&gt; &gt; <a class="code" href="classTerrain_1_1BufferCache.html#a6ddc65b1a1ba9f3e2a05e060b7a09ded">mUvBufferMap</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classTerrain_1_1BufferCache.html#a73c77ccc4ee41382a20cbfe5dd6f59c3">   36</a></span>&#160;        OpenThreads::Mutex <a class="code" href="classTerrain_1_1BufferCache.html#a73c77ccc4ee41382a20cbfe5dd6f59c3">mUvBufferMutex</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classTerrain_1_1BufferCache.html#af6dde016ee7d423cfa79d846699ee929">   38</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classTerrain_1_1BufferCache.html#af6dde016ee7d423cfa79d846699ee929">mNumVerts</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    };</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classTerrain_1_1BufferCache_html_a3ea7b632e57274dc57eb13a63c1f305d"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a3ea7b632e57274dc57eb13a63c1f305d">Terrain::BufferCache::mIndexBufferMap</a></div><div class="ttdeci">std::map&lt; std::pair&lt; int, int &gt;, osg::ref_ptr&lt; osg::DrawElements &gt; &gt; mIndexBufferMap</div><div class="ttdef"><b>Definition:</b> buffercache.hpp:32</div></div>
+<div class="ttc" id="classTerrain_1_1BufferCache_html_a67c90156b34a851f85828fe1c883c5b2"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a67c90156b34a851f85828fe1c883c5b2">Terrain::BufferCache::releaseGLObjects</a></div><div class="ttdeci">void releaseGLObjects(osg::State *state)</div><div class="ttdef"><b>Definition:</b> buffercache.cpp:246</div></div>
 <div class="ttc" id="classTerrain_1_1BufferCache_html"><div class="ttname"><a href="classTerrain_1_1BufferCache.html">Terrain::BufferCache</a></div><div class="ttdoc">Implements creation and caching of vertex buffers for terrain chunks. </div><div class="ttdef"><b>Definition:</b> buffercache.hpp:14</div></div>
 <div class="ttc" id="classTerrain_1_1BufferCache_html_a6ddc65b1a1ba9f3e2a05e060b7a09ded"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a6ddc65b1a1ba9f3e2a05e060b7a09ded">Terrain::BufferCache::mUvBufferMap</a></div><div class="ttdeci">std::map&lt; int, osg::ref_ptr&lt; osg::Vec2Array &gt; &gt; mUvBufferMap</div><div class="ttdef"><b>Definition:</b> buffercache.hpp:35</div></div>
+<div class="ttc" id="classTerrain_1_1BufferCache_html_a68423f9919b815a96942d68ef7a6d3ea"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a68423f9919b815a96942d68ef7a6d3ea">Terrain::BufferCache::getUVBuffer</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Vec2Array &gt; getUVBuffer(unsigned int numVerts)</div><div class="ttdef"><b>Definition:</b> buffercache.cpp:181</div></div>
 <div class="ttc" id="classTerrain_1_1BufferCache_html_a5ede08607001a6b4af467495398be5a3"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a5ede08607001a6b4af467495398be5a3">Terrain::BufferCache::mIndexBufferMutex</a></div><div class="ttdeci">OpenThreads::Mutex mIndexBufferMutex</div><div class="ttdef"><b>Definition:</b> buffercache.hpp:33</div></div>
-<div class="ttc" id="classTerrain_1_1BufferCache_html_af6dde016ee7d423cfa79d846699ee929"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#af6dde016ee7d423cfa79d846699ee929">Terrain::BufferCache::mNumVerts</a></div><div class="ttdeci">unsigned int mNumVerts</div><div class="ttdef"><b>Definition:</b> buffercache.hpp:38</div></div>
-<div class="ttc" id="classTerrain_1_1BufferCache_html_a1ba42107c4b89013864114a609c1bc83"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a1ba42107c4b89013864114a609c1bc83">Terrain::BufferCache::getUVBuffer</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Vec2Array &gt; getUVBuffer()</div><div class="ttdef"><b>Definition:</b> buffercache.cpp:181</div></div>
-<div class="ttc" id="classTerrain_1_1BufferCache_html_a8aff8a55f2533773d6ef6620ee85b001"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a8aff8a55f2533773d6ef6620ee85b001">Terrain::BufferCache::getIndexBuffer</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::DrawElements &gt; getIndexBuffer(unsigned int flags)</div><div class="ttdef"><b>Definition:</b> buffercache.cpp:210</div></div>
 <div class="ttc" id="classTerrain_1_1BufferCache_html_a73c77ccc4ee41382a20cbfe5dd6f59c3"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a73c77ccc4ee41382a20cbfe5dd6f59c3">Terrain::BufferCache::mUvBufferMutex</a></div><div class="ttdeci">OpenThreads::Mutex mUvBufferMutex</div><div class="ttdef"><b>Definition:</b> buffercache.hpp:36</div></div>
-<div class="ttc" id="classTerrain_1_1BufferCache_html_a496b5d14867762ef1c2eec60103e7ba5"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a496b5d14867762ef1c2eec60103e7ba5">Terrain::BufferCache::mIndexBufferMap</a></div><div class="ttdeci">std::map&lt; int, osg::ref_ptr&lt; osg::DrawElements &gt; &gt; mIndexBufferMap</div><div class="ttdef"><b>Definition:</b> buffercache.hpp:32</div></div>
-<div class="ttc" id="classTerrain_1_1BufferCache_html_a232aa036a1d2905a5599415e7be77d99"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a232aa036a1d2905a5599415e7be77d99">Terrain::BufferCache::BufferCache</a></div><div class="ttdeci">BufferCache(unsigned int numVerts)</div><div class="ttdef"><b>Definition:</b> buffercache.hpp:17</div></div>
+<div class="ttc" id="namespaceCSMDoc_html_a46ff3c989b498a8d4aba49fea84a560a"><div class="ttname"><a href="namespaceCSMDoc.html#a46ff3c989b498a8d4aba49fea84a560a">CSMDoc::State</a></div><div class="ttdeci">State</div><div class="ttdef"><b>Definition:</b> state.hpp:6</div></div>
+<div class="ttc" id="classTerrain_1_1BufferCache_html_a7899c193bb99b6efe1fb4b2518a82803"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a7899c193bb99b6efe1fb4b2518a82803">Terrain::BufferCache::getIndexBuffer</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::DrawElements &gt; getIndexBuffer(unsigned int numVerts, unsigned int flags)</div><div class="ttdef"><b>Definition:</b> buffercache.cpp:210</div></div>
+<div class="ttc" id="classTerrain_1_1BufferCache_html_a4ea4cbf68bfb37b502c3861b812c6245"><div class="ttname"><a href="classTerrain_1_1BufferCache.html#a4ea4cbf68bfb37b502c3861b812c6245">Terrain::BufferCache::clearCache</a></div><div class="ttdeci">void clearCache()</div><div class="ttdef"><b>Definition:</b> buffercache.cpp:234</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for Resource::ResourceSystem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem__coll__graph.svg" width="1923" height="2219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem__coll__graph.svg" width="2202" height="2339"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -131,6 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a434ef9dcd8aecc649c518d3041a649d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfc7c6c86748447763aaffd41cce29e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#abfc7c6c86748447763aaffd41cce29e8">updateCache</a> (double referenceTime)</td></tr>
 <tr class="separator:abfc7c6c86748447763aaffd41cce29e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7b9154f75f038827d36eba97003310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a1f7b9154f75f038827d36eba97003310">clearCache</a> ()</td></tr>
+<tr class="separator:a1f7b9154f75f038827d36eba97003310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee4e8bf931db456be9e5766aac2e6352"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#aee4e8bf931db456be9e5766aac2e6352">addResourceManager</a> (<a class="el" href="classResource_1_1ResourceManager.html">ResourceManager</a> *resourceMgr)</td></tr>
 <tr class="separator:aee4e8bf931db456be9e5766aac2e6352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e446f72c36d2016ac8419a6dca6efa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a2e446f72c36d2016ac8419a6dca6efa0">removeResourceManager</a> (<a class="el" href="classResource_1_1ResourceManager.html">ResourceManager</a> *resourceMgr)</td></tr>
@@ -140,6 +142,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4813ccafbac98154e6583cb2ee6ee59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33391822ee610422b7fa907d39f0d37c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a33391822ee610422b7fa907d39f0d37c">getVFS</a> () const </td></tr>
 <tr class="separator:a33391822ee610422b7fa907d39f0d37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e95a016e7f470b2563d360ca4dbd897"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a6e95a016e7f470b2563d360ca4dbd897">reportStats</a> (unsigned <a class="el" href="classint.html">int</a> frameNumber, osg::Stats *stats) const </td></tr>
+<tr class="separator:a6e95a016e7f470b2563d360ca4dbd897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55d513887c8da6043b3798acfcd9327a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a55d513887c8da6043b3798acfcd9327a">releaseGLObjects</a> (osg::State *state)</td></tr>
+<tr class="memdesc:a55d513887c8da6043b3798acfcd9327a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call releaseGLObjects for each resource manager.  <a href="#a55d513887c8da6043b3798acfcd9327a">More...</a><br/></td></tr>
+<tr class="separator:a55d513887c8da6043b3798acfcd9327a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -150,14 +157,14 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a3b8e7c712fae1eb789a8a7978f350d04"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; <a class="el" href="classResource_1_1SceneManager.html">SceneManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a3b8e7c712fae1eb789a8a7978f350d04">mSceneManager</a></td></tr>
-<tr class="separator:a3b8e7c712fae1eb789a8a7978f350d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ddb33f46c2bda2250e31b8b24d1fa2f"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; <a class="el" href="classResource_1_1ImageManager.html">ImageManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a3ddb33f46c2bda2250e31b8b24d1fa2f">mImageManager</a></td></tr>
-<tr class="separator:a3ddb33f46c2bda2250e31b8b24d1fa2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab720ccdc4d7bdf1f6b5791c540434a37"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; <a class="el" href="classResource_1_1NifFileManager.html">NifFileManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#ab720ccdc4d7bdf1f6b5791c540434a37">mNifFileManager</a></td></tr>
-<tr class="separator:ab720ccdc4d7bdf1f6b5791c540434a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adab0624ef4909ae3db36e81529e9960b"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; <a class="el" href="classResource_1_1KeyframeManager.html">KeyframeManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#adab0624ef4909ae3db36e81529e9960b">mKeyframeManager</a></td></tr>
-<tr class="separator:adab0624ef4909ae3db36e81529e9960b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a084068c5112606b0379185d6aebcade5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classResource_1_1SceneManager.html">SceneManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a084068c5112606b0379185d6aebcade5">mSceneManager</a></td></tr>
+<tr class="separator:a084068c5112606b0379185d6aebcade5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68948bbc1201f75444f1277091ce0152"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classResource_1_1ImageManager.html">ImageManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a68948bbc1201f75444f1277091ce0152">mImageManager</a></td></tr>
+<tr class="separator:a68948bbc1201f75444f1277091ce0152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34aac3f6d1134c97a00c6e9ef28201ec"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classResource_1_1NifFileManager.html">NifFileManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a34aac3f6d1134c97a00c6e9ef28201ec">mNifFileManager</a></td></tr>
+<tr class="separator:a34aac3f6d1134c97a00c6e9ef28201ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac179bc7bc72bc8a6d4e1c264c2ef5a9d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classResource_1_1KeyframeManager.html">KeyframeManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#ac179bc7bc72bc8a6d4e1c264c2ef5a9d">mKeyframeManager</a></td></tr>
+<tr class="separator:ac179bc7bc72bc8a6d4e1c264c2ef5a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf7607aad0d6a3e9d49bb95c09854675"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classResource_1_1ResourceManager.html">ResourceManager</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#aaf7607aad0d6a3e9d49bb95c09854675">mResourceManagers</a></td></tr>
 <tr class="separator:aaf7607aad0d6a3e9d49bb95c09854675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a055cebcafdb374df6ab36d77857ef7ab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html#a055cebcafdb374df6ab36d77857ef7ab">mVFS</a></td></tr>
@@ -250,10 +257,27 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_aee4e8bf931db456be9e5766aac2e6352_icgraph.svg" width="448" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_aee4e8bf931db456be9e5766aac2e6352_icgraph.svg" width="448" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a1f7b9154f75f038827d36eba97003310"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::ResourceSystem::clearCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Indicates to each resource manager to clear the entire cache. </p>
+<dl class="section note"><dt>Note</dt><dd>May be called from any thread if you do not add or remove resource managers at that point. </dd></dl>
 
 </div>
 </div>
@@ -273,7 +297,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_ac9829e6c125ba11b7615b1e5c566b641_icgraph.svg" width="1630" height="1070"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_ac9829e6c125ba11b7615b1e5c566b641_icgraph.svg" width="1630" height="1180"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -296,7 +320,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_a434ef9dcd8aecc649c518d3041a649d1_icgraph.svg" width="2088" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_a434ef9dcd8aecc649c518d3041a649d1_icgraph.svg" width="2619" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -334,7 +358,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_a08d6f53366084e39ff8f5d336ba74b5f_icgraph.svg" width="1694" height="1492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_a08d6f53366084e39ff8f5d336ba74b5f_icgraph.svg" width="1928" height="1911"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -358,7 +382,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_a33391822ee610422b7fa907d39f0d37c_icgraph.svg" width="2192" height="986"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_a33391822ee610422b7fa907d39f0d37c_icgraph.svg" width="2667" height="934"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -389,6 +413,24 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a55d513887c8da6043b3798acfcd9327a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::ResourceSystem::releaseGLObjects </td>
+          <td>(</td>
+          <td class="paramtype">osg::State *&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Call releaseGLObjects for each resource manager. </p>
+
+</div>
+</div>
 <a class="anchor" id="a2e446f72c36d2016ac8419a6dca6efa0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -409,10 +451,36 @@ Does not delete resourceMgr. </dd></dl>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_a2e446f72c36d2016ac8419a6dca6efa0_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ResourceSystem_a2e446f72c36d2016ac8419a6dca6efa0_icgraph.svg" width="448" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a6e95a016e7f470b2563d360ca4dbd897"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::ResourceSystem::reportStats </td>
+          <td>(</td>
+          <td class="paramtype">unsigned <a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>frameNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">osg::Stats *&#160;</td>
+          <td class="paramname"><em>stats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -469,7 +537,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a3ddb33f46c2bda2250e31b8b24d1fa2f"></a>
+<a class="anchor" id="a68948bbc1201f75444f1277091ce0152"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -477,7 +545,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classResource_1_1ImageManager.html">ImageManager</a>&gt; Resource::ResourceSystem::mImageManager</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classResource_1_1ImageManager.html">ImageManager</a>&gt; Resource::ResourceSystem::mImageManager</td>
         </tr>
       </table>
   </td>
@@ -489,7 +557,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="adab0624ef4909ae3db36e81529e9960b"></a>
+<a class="anchor" id="ac179bc7bc72bc8a6d4e1c264c2ef5a9d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -497,7 +565,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classResource_1_1KeyframeManager.html">KeyframeManager</a>&gt; Resource::ResourceSystem::mKeyframeManager</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classResource_1_1KeyframeManager.html">KeyframeManager</a>&gt; Resource::ResourceSystem::mKeyframeManager</td>
         </tr>
       </table>
   </td>
@@ -509,7 +577,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ab720ccdc4d7bdf1f6b5791c540434a37"></a>
+<a class="anchor" id="a34aac3f6d1134c97a00c6e9ef28201ec"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -517,7 +585,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classResource_1_1NifFileManager.html">NifFileManager</a>&gt; Resource::ResourceSystem::mNifFileManager</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classResource_1_1NifFileManager.html">NifFileManager</a>&gt; Resource::ResourceSystem::mNifFileManager</td>
         </tr>
       </table>
   </td>
@@ -549,7 +617,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a3b8e7c712fae1eb789a8a7978f350d04"></a>
+<a class="anchor" id="a084068c5112606b0379185d6aebcade5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -557,7 +625,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classResource_1_1SceneManager.html">SceneManager</a>&gt; Resource::ResourceSystem::mSceneManager</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classResource_1_1SceneManager.html">SceneManager</a>&gt; Resource::ResourceSystem::mSceneManager</td>
         </tr>
       </table>
   </td>
@@ -590,13 +658,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="resourcesystem_8hpp_source.html">resourcesystem.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="resourcesystem_8cpp.html">resourcesystem.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="resourcesystem_8hpp_source.html">resourcesystem.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="resourcesystem_8cpp.html">resourcesystem.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

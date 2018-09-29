@@ -21,21 +21,21 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWMechanics_1_1CharacterController.html" target="_top" xlink:title="{MWMechanics::CharacterController\n|&#45; mPtr\l&#45; mAnimation\l&#45; mAnimQueue\l&#45; mIdleState\l&#45; mCurrentIdle\l&#45; mMovementState\l&#45; mCurrentMovement\l&#45; mMovementAnimSpeed\l&#45; mAdjustMovementAnimSpeed\l&#45; mHasMovedInXY\land 19 more...\l|+ CharacterController()\l+ ~CharacterController()\l+ handleTextKey()\l+ updateContinuousVfx()\l+ updatePtr()\l+ update()\l+ persistAnimationState()\l+ unpersistAnimationState()\l+ playGroup()\l+ skipAnim()\land 16 more...\l+ setAttackTypeRandomly()\l&#45; setAttackTypeBasedOnMovement()\l&#45; refreshCurrentAnims()\l&#45; refreshHitRecoilAnims()\l&#45; refreshJumpAnims()\l&#45; refreshMovementAnims()\l&#45; refreshIdleAnims()\l&#45; clearAnimQueue()\l&#45; updateWeaponState()\l&#45; updateCreatureState()\l&#45; updateIdleStormState()\land 8 more...\l}">
+<g id="a_node2"><a xlink:href="classMWMechanics_1_1CharacterController.html" target="_top" xlink:title="{MWMechanics::CharacterController\n|&#45; mPtr\l&#45; mWeapon\l&#45; mAnimation\l&#45; mAnimQueue\l&#45; mIdleState\l&#45; mCurrentIdle\l&#45; mMovementState\l&#45; mCurrentMovement\l&#45; mMovementAnimSpeed\l&#45; mAdjustMovementAnimSpeed\land 22 more...\l|+ CharacterController()\l+ ~CharacterController()\l+ handleTextKey()\l+ updateContinuousVfx()\l+ updatePtr()\l+ update()\l+ persistAnimationState()\l+ unpersistAnimationState()\l+ playGroup()\l+ skipAnim()\land 24 more...\l+ setAttackTypeRandomly()\l&#45; setAttackTypeBasedOnMovement()\l&#45; refreshCurrentAnims()\l&#45; refreshHitRecoilAnims()\l&#45; refreshJumpAnims()\l&#45; refreshMovementAnims()\l&#45; refreshIdleAnims()\l&#45; clearAnimQueue()\l&#45; updateWeaponState()\l&#45; updateCreatureState()\l&#45; updateIdleStormState()\land 11 more...\l}">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-409.5 192,-409.5 192,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="96" y="-397.5" font-family="FreeSans" font-size="10.00">MWMechanics::CharacterController</text>
 <polyline fill="none" stroke="black" points="0,-390.5 192,-390.5 "/>
 <text text-anchor="start" x="8" y="-378.5" font-family="FreeSans" font-size="10.00">&#45; mPtr</text>
-<text text-anchor="start" x="8" y="-367.5" font-family="FreeSans" font-size="10.00">&#45; mAnimation</text>
-<text text-anchor="start" x="8" y="-356.5" font-family="FreeSans" font-size="10.00">&#45; mAnimQueue</text>
-<text text-anchor="start" x="8" y="-345.5" font-family="FreeSans" font-size="10.00">&#45; mIdleState</text>
-<text text-anchor="start" x="8" y="-334.5" font-family="FreeSans" font-size="10.00">&#45; mCurrentIdle</text>
-<text text-anchor="start" x="8" y="-323.5" font-family="FreeSans" font-size="10.00">&#45; mMovementState</text>
-<text text-anchor="start" x="8" y="-312.5" font-family="FreeSans" font-size="10.00">&#45; mCurrentMovement</text>
-<text text-anchor="start" x="8" y="-301.5" font-family="FreeSans" font-size="10.00">&#45; mMovementAnimSpeed</text>
-<text text-anchor="start" x="8" y="-290.5" font-family="FreeSans" font-size="10.00">&#45; mAdjustMovementAnimSpeed</text>
-<text text-anchor="start" x="8" y="-279.5" font-family="FreeSans" font-size="10.00">&#45; mHasMovedInXY</text>
-<text text-anchor="start" x="8" y="-268.5" font-family="FreeSans" font-size="10.00">and 19 more...</text>
+<text text-anchor="start" x="8" y="-367.5" font-family="FreeSans" font-size="10.00">&#45; mWeapon</text>
+<text text-anchor="start" x="8" y="-356.5" font-family="FreeSans" font-size="10.00">&#45; mAnimation</text>
+<text text-anchor="start" x="8" y="-345.5" font-family="FreeSans" font-size="10.00">&#45; mAnimQueue</text>
+<text text-anchor="start" x="8" y="-334.5" font-family="FreeSans" font-size="10.00">&#45; mIdleState</text>
+<text text-anchor="start" x="8" y="-323.5" font-family="FreeSans" font-size="10.00">&#45; mCurrentIdle</text>
+<text text-anchor="start" x="8" y="-312.5" font-family="FreeSans" font-size="10.00">&#45; mMovementState</text>
+<text text-anchor="start" x="8" y="-301.5" font-family="FreeSans" font-size="10.00">&#45; mCurrentMovement</text>
+<text text-anchor="start" x="8" y="-290.5" font-family="FreeSans" font-size="10.00">&#45; mMovementAnimSpeed</text>
+<text text-anchor="start" x="8" y="-279.5" font-family="FreeSans" font-size="10.00">&#45; mAdjustMovementAnimSpeed</text>
+<text text-anchor="start" x="8" y="-268.5" font-family="FreeSans" font-size="10.00">and 22 more...</text>
 <polyline fill="none" stroke="black" points="0,-261.5 192,-261.5 "/>
 <text text-anchor="start" x="8" y="-249.5" font-family="FreeSans" font-size="10.00">+ CharacterController()</text>
 <text text-anchor="start" x="8" y="-238.5" font-family="FreeSans" font-size="10.00">+ ~CharacterController()</text>
@@ -47,7 +47,7 @@
 <text text-anchor="start" x="8" y="-172.5" font-family="FreeSans" font-size="10.00">+ unpersistAnimationState()</text>
 <text text-anchor="start" x="8" y="-161.5" font-family="FreeSans" font-size="10.00">+ playGroup()</text>
 <text text-anchor="start" x="8" y="-150.5" font-family="FreeSans" font-size="10.00">+ skipAnim()</text>
-<text text-anchor="start" x="8" y="-139.5" font-family="FreeSans" font-size="10.00">and 16 more...</text>
+<text text-anchor="start" x="8" y="-139.5" font-family="FreeSans" font-size="10.00">and 24 more...</text>
 <text text-anchor="start" x="8" y="-128.5" font-family="FreeSans" font-size="10.00">+ setAttackTypeRandomly()</text>
 <text text-anchor="start" x="8" y="-117.5" font-family="FreeSans" font-size="10.00">&#45; setAttackTypeBasedOnMovement()</text>
 <text text-anchor="start" x="8" y="-106.5" font-family="FreeSans" font-size="10.00">&#45; refreshCurrentAnims()</text>
@@ -59,7 +59,7 @@
 <text text-anchor="start" x="8" y="-40.5" font-family="FreeSans" font-size="10.00">&#45; updateWeaponState()</text>
 <text text-anchor="start" x="8" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; updateCreatureState()</text>
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; updateIdleStormState()</text>
-<text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">and 8 more...</text>
+<text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">and 11 more...</text>
 </a>
 </g>
 </g>

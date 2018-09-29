@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -106,7 +106,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MwIniImporter:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter__coll__graph.svg" width="572" height="720"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter__coll__graph.svg" width="572" height="766"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -118,6 +118,10 @@ std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr class="memitem:a9c8698d8cf8fa141e17d3236b17fd0be"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <br class="typebreak"/>
 std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a9c8698d8cf8fa141e17d3236b17fd0be">multistrmap</a></td></tr>
 <tr class="separator:a9c8698d8cf8fa141e17d3236b17fd0be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472ea0ef062e6c0fe2d45e2bc8263197"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; std::pair<br class="typebreak"/>
+&lt; std::string, std::vector<br class="typebreak"/>
+&lt; std::string &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a472ea0ef062e6c0fe2d45e2bc8263197">dependencyList</a></td></tr>
+<tr class="separator:a472ea0ef062e6c0fe2d45e2bc8263197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -144,13 +148,20 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aeef36d1fa901915ffe05c8821606f76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af34ad698fd645f64f37f714ef4639a8a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#af34ad698fd645f64f37f714ef4639a8a">writeToFile</a> (std::ostream &amp;out, const <a class="el" href="classMwIniImporter.html#a9c8698d8cf8fa141e17d3236b17fd0be">multistrmap</a> &amp;cfg)</td></tr>
 <tr class="separator:af34ad698fd645f64f37f714ef4639a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47eae1befa90366865f87e96b52b81c2"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a47eae1befa90366865f87e96b52b81c2">dependencySort</a> (<a class="el" href="classMwIniImporter.html#a472ea0ef062e6c0fe2d45e2bc8263197">MwIniImporter::dependencyList</a> source)</td></tr>
+<tr class="separator:a47eae1befa90366865f87e96b52b81c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a26e4c73304ee9b3c6aeb82d708bf6418"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a26e4c73304ee9b3c6aeb82d708bf6418">dependencySortStep</a> (std::string &amp;element, <a class="el" href="classMwIniImporter.html#a472ea0ef062e6c0fe2d45e2bc8263197">MwIniImporter::dependencyList</a> &amp;source, std::vector&lt; std::string &gt; &amp;result)</td></tr>
+<tr class="separator:a26e4c73304ee9b3c6aeb82d708bf6418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aacec29be0406b175959a81f8bdfc25"><td class="memItemLeft" align="right" valign="top">static std::vector<br class="typebreak"/>
+&lt; std::string &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a8aacec29be0406b175959a81f8bdfc25">findString</a> (std::vector&lt; std::string &gt; &amp;source, const std::string &amp;string)</td></tr>
+<tr class="separator:a8aacec29be0406b175959a81f8bdfc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2464db24baacc47d8dedde89c7a6ed34"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a2464db24baacc47d8dedde89c7a6ed34">insertMultistrmap</a> (<a class="el" href="classMwIniImporter.html#a9c8698d8cf8fa141e17d3236b17fd0be">multistrmap</a> &amp;cfg, const std::string &amp;key, const std::string &amp;value)</td></tr>
 <tr class="separator:a2464db24baacc47d8dedde89c7a6ed34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d885574fcdbd1bc391546ef631f6a05"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a9d885574fcdbd1bc391546ef631f6a05">numberToString</a> (<a class="el" href="classint.html">int</a> n)</td></tr>
-<tr class="separator:a9d885574fcdbd1bc391546ef631f6a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86454786e6d62b85e8de4539faf74374"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a86454786e6d62b85e8de4539faf74374">addPaths</a> (std::vector&lt; boost::filesystem::path &gt; &amp;output, std::vector&lt; std::string &gt; input)</td></tr>
+<tr class="separator:a86454786e6d62b85e8de4539faf74374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a687323b9f44aed55aeb2c3efe3f2b07e"><td class="memItemLeft" align="right" valign="top">static std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMwIniImporter.html#a687323b9f44aed55aeb2c3efe3f2b07e">lastWriteTime</a> (const boost::filesystem::path &amp;filename, std::time_t defaultTime)</td></tr>
 <tr class="separator:a687323b9f44aed55aeb2c3efe3f2b07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -166,6 +177,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae619b72ac3c9239b9ebff3faf3f4f030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a472ea0ef062e6c0fe2d45e2bc8263197"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt; std::pair&lt; std::string, std::vector&lt;std::string&gt; &gt; &gt; <a class="el" href="classMwIniImporter.html#a472ea0ef062e6c0fe2d45e2bc8263197">MwIniImporter::dependencyList</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a9c8698d8cf8fa141e17d3236b17fd0be"></a>
 <div class="memitem">
 <div class="memproto">
@@ -207,6 +230,186 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a86454786e6d62b85e8de4539faf74374"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MwIniImporter::addPaths </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; boost::filesystem::path &gt; &amp;&#160;</td>
+          <td class="paramname"><em>output</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>input</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a86454786e6d62b85e8de4539faf74374_icgraph.svg" width="542" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a47eae1befa90366865f87e96b52b81c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; MwIniImporter::dependencySort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMwIniImporter.html#a472ea0ef062e6c0fe2d45e2bc8263197">MwIniImporter::dependencyList</a>&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a47eae1befa90366865f87e96b52b81c2_cgraph.svg" width="480" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a47eae1befa90366865f87e96b52b81c2_icgraph.svg" width="587" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a26e4c73304ee9b3c6aeb82d708bf6418"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MwIniImporter::dependencySortStep </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMwIniImporter.html#a472ea0ef062e6c0fe2d45e2bc8263197">MwIniImporter::dependencyList</a> &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a26e4c73304ee9b3c6aeb82d708bf6418_icgraph.svg" width="832" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8aacec29be0406b175959a81f8bdfc25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt;::iterator MwIniImporter::findString </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a8aacec29be0406b175959a81f8bdfc25_cgraph.svg" width="555" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a8aacec29be0406b175959a81f8bdfc25_icgraph.svg" width="544" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a260eb8a84dd024b6a9a81e90b284765d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -230,14 +433,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a260eb8a84dd024b6a9a81e90b284765d_cgraph.svg" width="496" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -282,7 +477,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a705fbe8295a3669b6a9b7d3f5d70071d_cgraph.svg" width="662" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a705fbe8295a3669b6a9b7d3f5d70071d_cgraph.svg" width="2776" height="1091"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -536,38 +731,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a9d885574fcdbd1bc391546ef631f6a05"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MwIniImporter::numberToString </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMwIniImporter_a9d885574fcdbd1bc391546ef631f6a05_icgraph.svg" width="600" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
 <a class="anchor" id="ae81dc333b37ec01d51b591c918aa2550"></a>
 <div class="memitem">
 <div class="memproto">
@@ -740,13 +903,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/mwiniimporter/<a class="el" href="mwiniimporter_2importer_8hpp_source.html">importer.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/mwiniimporter/<a class="el" href="mwiniimporter_2importer_8cpp.html">importer.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/mwiniimporter/<a class="el" href="mwiniimporter_2importer_8hpp_source.html">importer.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/mwiniimporter/<a class="el" href="mwiniimporter_2importer_8cpp.html">importer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:55 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:27 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

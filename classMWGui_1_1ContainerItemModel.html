@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,13 +110,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWGui::ContainerItemModel:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel__inherit__graph.svg" width="214" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel__inherit__graph.svg" width="214" height="595"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWGui::ContainerItemModel:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel__coll__graph.svg" width="6394" height="2816"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel__coll__graph.svg" width="5562" height="2803"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -126,6 +126,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5fc6849a9be743641c59efd73b607566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1197be96c7170a7470a12725ec8eeef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerItemModel.html#ac1197be96c7170a7470a12725ec8eeef">ContainerItemModel</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;source)</td></tr>
 <tr class="separator:ac1197be96c7170a7470a12725ec8eeef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ce49112d075e95a3b4dde4d378a2e4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerItemModel.html#ac5ce49112d075e95a3b4dde4d378a2e4">allowedToUseItems</a> () const </td></tr>
+<tr class="memdesc:ac5ce49112d075e95a3b4dde4d378a2e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the player allowed to use items from this item model? (default true)  <a href="#ac5ce49112d075e95a3b4dde4d378a2e4">More...</a><br/></td></tr>
+<tr class="separator:ac5ce49112d075e95a3b4dde4d378a2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe56456067726dc55c103e3f6c7f4859"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerItemModel.html#abe56456067726dc55c103e3f6c7f4859">onDropItem</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;item, <a class="el" href="classint.html">int</a> count)</td></tr>
+<tr class="separator:abe56456067726dc55c103e3f6c7f4859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab36b3384a30f40e2881d7dbc19e2ec2f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerItemModel.html#ab36b3384a30f40e2881d7dbc19e2ec2f">onTakeItem</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;item, <a class="el" href="classint.html">int</a> count)</td></tr>
+<tr class="separator:ab36b3384a30f40e2881d7dbc19e2ec2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ace14d52f8ea4b0d483303d71e8042f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMWGui_1_1ItemStack.html">ItemStack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ContainerItemModel.html#a4ace14d52f8ea4b0d483303d71e8042f">getItem</a> (<a class="el" href="classMWGui_1_1ItemModel.html#ad2b42bcc76d06891a032a0fe2a1853fb">ModelIndex</a> index)</td></tr>
 <tr class="memdesc:a4ace14d52f8ea4b0d483303d71e8042f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throws for invalid index or out of range index.  <a href="#a4ace14d52f8ea4b0d483303d71e8042f">More...</a><br/></td></tr>
 <tr class="separator:a4ace14d52f8ea4b0d483303d71e8042f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,9 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aacf273c18404dd2fdc8c35aded7d384c inherit pub_methods_classMWGui_1_1ItemModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8294f78b05efd0a558889df5ec4d32b inherit pub_methods_classMWGui_1_1ItemModel"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ItemModel.html#ad8294f78b05efd0a558889df5ec4d32b">moveItem</a> (const <a class="el" href="structMWGui_1_1ItemStack.html">ItemStack</a> &amp;item, size_t count, <a class="el" href="classMWGui_1_1ItemModel.html">ItemModel</a> *otherModel)</td></tr>
 <tr class="separator:ad8294f78b05efd0a558889df5ec4d32b inherit pub_methods_classMWGui_1_1ItemModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e761658ce55b88e4b35d29b5bfb4bde inherit pub_methods_classMWGui_1_1ItemModel"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ItemModel.html#a2e761658ce55b88e4b35d29b5bfb4bde">allowedToInsertItems</a> () const </td></tr>
-<tr class="memdesc:a2e761658ce55b88e4b35d29b5bfb4bde inherit pub_methods_classMWGui_1_1ItemModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the player allowed to insert items into this model? (default true)  <a href="#a2e761658ce55b88e4b35d29b5bfb4bde">More...</a><br/></td></tr>
-<tr class="separator:a2e761658ce55b88e4b35d29b5bfb4bde inherit pub_methods_classMWGui_1_1ItemModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3943b3c10986df4577587a3d3b2918d inherit pub_methods_classMWGui_1_1ItemModel"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1ItemModel.html#ab3943b3c10986df4577587a3d3b2918d">onClose</a> ()</td></tr>
+<tr class="separator:ab3943b3c10986df4577587a3d3b2918d inherit pub_methods_classMWGui_1_1ItemModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -214,6 +220,41 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac5ce49112d075e95a3b4dde4d378a2e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWGui::ContainerItemModel::allowedToUseItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Is the player allowed to use items from this item model? (default true) </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1ItemModel.html#a0daeebe85d5478312a5d9c6fc016e906">MWGui::ItemModel</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel_ac5ce49112d075e95a3b4dde4d378a2e4_cgraph.svg" width="723" height="224"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a9d3d7c12a1d09da3bb4602d666721a8c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +304,7 @@ Additional Inherited Members</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel_a9d3d7c12a1d09da3bb4602d666721a8c_cgraph.svg" width="1507" height="1411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel_a9d3d7c12a1d09da3bb4602d666721a8c_cgraph.svg" width="1507" height="1319"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -349,6 +390,94 @@ Here is the call graph for this function:</div>
 <p>The number of items in the model, this specifies the range of indices you can pass to the getItem function (but this range is only valid until the next call to <a class="el" href="classMWGui_1_1ContainerItemModel.html#a36cc5bd5a3dce89090446db419ce4a8a" title="Rebuild the item model, this will invalidate existing model indices. ">update()</a>) </p>
 
 <p>Implements <a class="el" href="classMWGui_1_1ItemModel.html#a2ba1d3f6b927de7f7c9c802d0a798f24">MWGui::ItemModel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abe56456067726dc55c103e3f6c7f4859"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWGui::ContainerItemModel::onDropItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1ItemModel.html#ad1402f237157d050103210682362a420">MWGui::ItemModel</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel_abe56456067726dc55c103e3f6c7f4859_cgraph.svg" width="1011" height="468"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab36b3384a30f40e2881d7dbc19e2ec2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWGui::ContainerItemModel::onTakeItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1ItemModel.html#ac65edb0fe77ea5c868e72e94023e4b3d">MWGui::ItemModel</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1ContainerItemModel_ab36b3384a30f40e2881d7dbc19e2ec2f_cgraph.svg" width="726" height="452"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -493,13 +622,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="containeritemmodel_8hpp_source.html">containeritemmodel.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="containeritemmodel_8cpp.html">containeritemmodel.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="containeritemmodel_8hpp_source.html">containeritemmodel.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="containeritemmodel_8cpp.html">containeritemmodel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:02 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:35 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

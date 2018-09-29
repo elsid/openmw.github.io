@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,7 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWWorld::Scene:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene__coll__graph.svg" width="8823" height="2326"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene__coll__graph.svg" width="8644" height="1875"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -124,6 +124,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace36031bee22c1defddbef9ce9b4d42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12bba959a15becbcd7dc0ac0abff2d87"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a12bba959a15becbcd7dc0ac0abff2d87">~Scene</a> ()</td></tr>
 <tr class="separator:a12bba959a15becbcd7dc0ac0abff2d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd4970786339585108760a58f5b8991b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#afd4970786339585108760a58f5b8991b">preloadCell</a> (<a class="el" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a> *cell, <a class="el" href="classbool.html">bool</a> preloadSurrounding=false)</td></tr>
+<tr class="separator:afd4970786339585108760a58f5b8991b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad128634e174283a6332df4b837752539"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#ad128634e174283a6332df4b837752539">preloadTerrain</a> (const osg::Vec3f &amp;pos)</td></tr>
+<tr class="separator:ad128634e174283a6332df4b837752539"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4b71a9fcc611e96db8d1cbec1c60f71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#aa4b71a9fcc611e96db8d1cbec1c60f71">unloadCell</a> (CellStoreCollection::iterator iter)</td></tr>
 <tr class="separator:aa4b71a9fcc611e96db8d1cbec1c60f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cea9a8146344cd711dcea1af1737b95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a8cea9a8146344cd711dcea1af1737b95">loadCell</a> (<a class="el" href="classMWWorld_1_1CellStore.html">CellStore</a> *cell, <a class="el" href="classLoading_1_1Listener.html">Loading::Listener</a> *loadingListener, <a class="el" href="classbool.html">bool</a> respawn)</td></tr>
@@ -143,9 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4fe84b7d74d5d597e79e14d2a57b5496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa839931bb3be7256993237b5b5b886ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#aa839931bb3be7256993237b5b5b886ce">changeToExteriorCell</a> (const <a class="el" href="structESM_1_1Position.html">ESM::Position</a> &amp;position, <a class="el" href="classbool.html">bool</a> adjustPlayerPos, <a class="el" href="classbool.html">bool</a> changeEvent=true)</td></tr>
 <tr class="separator:aa839931bb3be7256993237b5b5b886ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84baa662c7d6f19a2096b0cf14f9a2ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a84baa662c7d6f19a2096b0cf14f9a2ab">changeToVoid</a> ()</td></tr>
-<tr class="memdesc:a84baa662c7d6f19a2096b0cf14f9a2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change into a void.  <a href="#a84baa662c7d6f19a2096b0cf14f9a2ab">More...</a><br/></td></tr>
-<tr class="separator:a84baa662c7d6f19a2096b0cf14f9a2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42256b7cee8c48e111aed9abc9c93a92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a42256b7cee8c48e111aed9abc9c93a92">clear</a> ()</td></tr>
+<tr class="memdesc:a42256b7cee8c48e111aed9abc9c93a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change into a void.  <a href="#a42256b7cee8c48e111aed9abc9c93a92">More...</a><br/></td></tr>
+<tr class="separator:a42256b7cee8c48e111aed9abc9c93a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c7a12edb1452c6654756057da7b7001"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a3c7a12edb1452c6654756057da7b7001">markCellAsUnchanged</a> ()</td></tr>
 <tr class="separator:a3c7a12edb1452c6654756057da7b7001"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcd28bc757b3ff53e90f1036bd6fbcab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#abcd28bc757b3ff53e90f1036bd6fbcab">update</a> (float duration, <a class="el" href="classbool.html">bool</a> paused)</td></tr>
@@ -164,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0f4541dd07ea65824dabd191441393bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcf6eca8c3905e9eef4c8f9cb2958a7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWWorld_1_1Ptr.html">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#adcf6eca8c3905e9eef4c8f9cb2958a7b">searchPtrViaActorId</a> (<a class="el" href="classint.html">int</a> actorId)</td></tr>
 <tr class="separator:adcf6eca8c3905e9eef4c8f9cb2958a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afecac88cbf2612534ec35b415fd5291f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#afecac88cbf2612534ec35b415fd5291f">preload</a> (const std::string &amp;mesh, <a class="el" href="classbool.html">bool</a> useAnim=false)</td></tr>
+<tr class="separator:afecac88cbf2612534ec35b415fd5291f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -173,16 +179,14 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a18f42f1ea372caa82458e8c331937c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b484895cb5c58e43593a4cf6518ad51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a9b484895cb5c58e43593a4cf6518ad51">getGridCenter</a> (<a class="el" href="classint.html">int</a> &amp;cellX, <a class="el" href="classint.html">int</a> &amp;cellY)</td></tr>
 <tr class="separator:a9b484895cb5c58e43593a4cf6518ad51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0dc6f6ee62dc7489794435496bbce11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#ad0dc6f6ee62dc7489794435496bbce11">preloadCells</a> ()</td></tr>
-<tr class="separator:ad0dc6f6ee62dc7489794435496bbce11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41df31c189eab0e4e76237848e265068"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a41df31c189eab0e4e76237848e265068">preloadTeleportDoorDestinations</a> ()</td></tr>
-<tr class="separator:a41df31c189eab0e4e76237848e265068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addcaeaf2c40d068f40404f26a578492d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#addcaeaf2c40d068f40404f26a578492d">preloadExteriorGrid</a> ()</td></tr>
-<tr class="separator:addcaeaf2c40d068f40404f26a578492d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc1207f7d92f034b2640ab0dfc9aeda4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#afc1207f7d92f034b2640ab0dfc9aeda4">preloadFastTravelDestinations</a> ()</td></tr>
-<tr class="separator:afc1207f7d92f034b2640ab0dfc9aeda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd4970786339585108760a58f5b8991b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#afd4970786339585108760a58f5b8991b">preloadCell</a> (<a class="el" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a> *cell, <a class="el" href="classbool.html">bool</a> preloadSurrounding=false)</td></tr>
-<tr class="separator:afd4970786339585108760a58f5b8991b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4629dc42739f9d8ff1183a59aac5fe85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a4629dc42739f9d8ff1183a59aac5fe85">preloadCells</a> (float dt)</td></tr>
+<tr class="separator:a4629dc42739f9d8ff1183a59aac5fe85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a777f9aae5eec3590fe1fca97352d48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a3a777f9aae5eec3590fe1fca97352d48">preloadTeleportDoorDestinations</a> (const osg::Vec3f &amp;playerPos, const osg::Vec3f &amp;predictedPos, std::vector&lt; osg::Vec3f &gt; &amp;exteriorPositions)</td></tr>
+<tr class="separator:a3a777f9aae5eec3590fe1fca97352d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef3b7c0255d841dbc859f72147b80ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#acef3b7c0255d841dbc859f72147b80ad">preloadExteriorGrid</a> (const osg::Vec3f &amp;playerPos, const osg::Vec3f &amp;predictedPos)</td></tr>
+<tr class="separator:acef3b7c0255d841dbc859f72147b80ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64821a8e8cb791101296de46f930a6ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a64821a8e8cb791101296de46f930a6ad">preloadFastTravelDestinations</a> (const osg::Vec3f &amp;playerPos, const osg::Vec3f &amp;predictedPos, std::vector&lt; osg::Vec3f &gt; &amp;exteriorPositions)</td></tr>
+<tr class="separator:a64821a8e8cb791101296de46f930a6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -196,8 +200,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a5724957d0532ab9e262a152eb971dc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53792e8c5bdc49581687b999e1a57cd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWRender_1_1RenderingManager.html">MWRender::RenderingManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a53792e8c5bdc49581687b999e1a57cd2">mRendering</a></td></tr>
 <tr class="separator:a53792e8c5bdc49581687b999e1a57cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7534322f4a43065b9562b73cb8adbf92"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; <a class="el" href="classMWWorld_1_1CellPreloader.html">CellPreloader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a7534322f4a43065b9562b73cb8adbf92">mPreloader</a></td></tr>
-<tr class="separator:a7534322f4a43065b9562b73cb8adbf92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9aecfcea2ae18aefbeeebc3bb4de52"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMWWorld_1_1CellPreloader.html">CellPreloader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#aee9aecfcea2ae18aefbeeebc3bb4de52">mPreloader</a></td></tr>
+<tr class="separator:aee9aecfcea2ae18aefbeeebc3bb4de52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1428b022006df4ab0ed37fb30df5e00"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#ae1428b022006df4ab0ed37fb30df5e00">mPreloadTimer</a></td></tr>
 <tr class="separator:ae1428b022006df4ab0ed37fb30df5e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc94a2a0f06bb30b4a38dd7b26937df0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#abc94a2a0f06bb30b4a38dd7b26937df0">mHalfGridSize</a></td></tr>
@@ -214,6 +218,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a5881fb427d03cb7e1c146dd3c104cac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac67a751814a0f38cef866b4eddb259d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#ac67a751814a0f38cef866b4eddb259d0">mPreloadFastTravel</a></td></tr>
 <tr class="separator:ac67a751814a0f38cef866b4eddb259d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f889f7714b6aecdc50282d6b411814d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#a9f889f7714b6aecdc50282d6b411814d">mPredictionTime</a></td></tr>
+<tr class="separator:a9f889f7714b6aecdc50282d6b411814d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b454f125efeae6252972b933ef459e"><td class="memItemLeft" align="right" valign="top">osg::Vec3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Scene.html#af1b454f125efeae6252972b933ef459e">mLastPlayerPos</a></td></tr>
+<tr class="separator:af1b454f125efeae6252972b933ef459e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a0a647273b467b2882a5367cc77a08c17"></a>
@@ -256,7 +264,7 @@ Private Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_ace36031bee22c1defddbef9ce9b4d42a_cgraph.svg" width="1056" height="671"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_ace36031bee22c1defddbef9ce9b4d42a_cgraph.svg" width="1056" height="736"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -298,15 +306,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a53eb5bcf1b9ea13fad66f82968d3bbf3_cgraph.svg" width="1712" height="904"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a53eb5bcf1b9ea13fad66f82968d3bbf3_icgraph.svg" width="1022" height="311"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a53eb5bcf1b9ea13fad66f82968d3bbf3_cgraph.svg" width="1715" height="1203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -354,7 +354,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a18f42f1ea372caa82458e8c331937c27_cgraph.svg" width="1822" height="1475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a18f42f1ea372caa82458e8c331937c27_cgraph.svg" width="1822" height="1396"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -362,7 +362,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a18f42f1ea372caa82458e8c331937c27_icgraph.svg" width="1011" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a18f42f1ea372caa82458e8c331937c27_icgraph.svg" width="486" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -402,7 +402,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a2a39ef756e94909c0624a61ea5652f06_cgraph.svg" width="520" height="707"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a2a39ef756e94909c0624a61ea5652f06_cgraph.svg" width="718" height="823"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -410,7 +410,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a2a39ef756e94909c0624a61ea5652f06_icgraph.svg" width="1006" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a2a39ef756e94909c0624a61ea5652f06_icgraph.svg" width="496" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -457,15 +457,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_aa839931bb3be7256993237b5b5b886ce_cgraph.svg" width="1587" height="1812"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_aa839931bb3be7256993237b5b5b886ce_icgraph.svg" width="731" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_aa839931bb3be7256993237b5b5b886ce_cgraph.svg" width="1587" height="1663"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -518,27 +510,19 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a4fe84b7d74d5d597e79e14d2a57b5496_cgraph.svg" width="1320" height="1992"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a4fe84b7d74d5d597e79e14d2a57b5496_icgraph.svg" width="715" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a4fe84b7d74d5d597e79e14d2a57b5496_cgraph.svg" width="1320" height="2002"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a84baa662c7d6f19a2096b0cf14f9a2ab"></a>
+<a class="anchor" id="a42256b7cee8c48e111aed9abc9c93a92"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MWWorld::Scene::changeToVoid </td>
+          <td class="memname">void MWWorld::Scene::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -547,14 +531,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Change into a void. </p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a84baa662c7d6f19a2096b0cf14f9a2ab_icgraph.svg" width="440" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -571,14 +547,6 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a8e7fe9842580d381aeb00f1dd5dd78d1_icgraph.svg" width="1936" height="604"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a986689a377ce4de5075a3308d92703a0"></a>
@@ -593,14 +561,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a986689a377ce4de5075a3308d92703a0_icgraph.svg" width="766" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -660,14 +620,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Has the set of active cells changed, since the last frame? </p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_aca0ff6575862e9bf43e19ef91e888a71_icgraph.svg" width="528" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -733,14 +685,6 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a0f4541dd07ea65824dabd191441393bd_icgraph.svg" width="1264" height="256"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a8cea9a8146344cd711dcea1af1737b95"></a>
@@ -772,12 +716,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000070">Todo:</a></b></dt><dd>rescale depending on the state of a new GMST </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000066">Todo:</a></b></dt><dd>rescale depending on the state of a new GMST </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a8cea9a8146344cd711dcea1af1737b95_cgraph.svg" width="1299" height="1450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a8cea9a8146344cd711dcea1af1737b95_cgraph.svg" width="1843" height="1734"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -785,7 +729,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a8cea9a8146344cd711dcea1af1737b95_icgraph.svg" width="947" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a8cea9a8146344cd711dcea1af1737b95_icgraph.svg" width="438" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -804,14 +748,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a3c7a12edb1452c6654756057da7b7001_icgraph.svg" width="435" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -837,10 +773,44 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
+</div>
+</div>
+<a class="anchor" id="afecac88cbf2612534ec35b415fd5291f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWWorld::Scene::preload </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>useAnim</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_afecac88cbf2612534ec35b415fd5291f_cgraph.svg" width="1451" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a7fb9fd50fca21a9fd75bb654fd97e753_icgraph.svg" width="480" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_afecac88cbf2612534ec35b415fd5291f_icgraph.svg" width="1392" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -850,9 +820,6 @@ Here is the caller graph for this function:</div>
 <a class="anchor" id="afd4970786339585108760a58f5b8991b"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MWWorld::Scene::preloadCell </td>
@@ -872,11 +839,6 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p><div class="dynheader">
@@ -897,7 +859,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ad0dc6f6ee62dc7489794435496bbce11"></a>
+<a class="anchor" id="a4629dc42739f9d8ff1183a59aac5fe85"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -907,7 +869,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void MWWorld::Scene::preloadCells </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -921,14 +884,14 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_ad0dc6f6ee62dc7489794435496bbce11_cgraph.svg" width="1606" height="1044"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a4629dc42739f9d8ff1183a59aac5fe85_cgraph.svg" width="1606" height="1226"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="addcaeaf2c40d068f40404f26a578492d"></a>
+<a class="anchor" id="acef3b7c0255d841dbc859f72147b80ad"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -938,8 +901,19 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void MWWorld::Scene::preloadExteriorGrid </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>playerPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>predictedPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -952,7 +926,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_addcaeaf2c40d068f40404f26a578492d_cgraph.svg" width="1003" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_acef3b7c0255d841dbc859f72147b80ad_cgraph.svg" width="1003" height="355"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -960,14 +934,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_addcaeaf2c40d068f40404f26a578492d_icgraph.svg" width="531" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_acef3b7c0255d841dbc859f72147b80ad_icgraph.svg" width="531" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="afc1207f7d92f034b2640ab0dfc9aeda4"></a>
+<a class="anchor" id="a64821a8e8cb791101296de46f930a6ad"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -977,8 +951,25 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void MWWorld::Scene::preloadFastTravelDestinations </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>playerPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>predictedPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; osg::Vec3f &gt; &amp;&#160;</td>
+          <td class="paramname"><em>exteriorPositions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -991,7 +982,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_afc1207f7d92f034b2640ab0dfc9aeda4_cgraph.svg" width="1286" height="630"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a64821a8e8cb791101296de46f930a6ad_cgraph.svg" width="1286" height="630"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -999,14 +990,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_afc1207f7d92f034b2640ab0dfc9aeda4_icgraph.svg" width="480" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a64821a8e8cb791101296de46f930a6ad_icgraph.svg" width="480" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a41df31c189eab0e4e76237848e265068"></a>
+<a class="anchor" id="a3a777f9aae5eec3590fe1fca97352d48"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1016,8 +1007,25 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void MWWorld::Scene::preloadTeleportDoorDestinations </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>playerPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>predictedPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; osg::Vec3f &gt; &amp;&#160;</td>
+          <td class="paramname"><em>exteriorPositions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1030,7 +1038,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a41df31c189eab0e4e76237848e265068_cgraph.svg" width="971" height="724"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a3a777f9aae5eec3590fe1fca97352d48_cgraph.svg" width="971" height="671"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1038,10 +1046,26 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a41df31c189eab0e4e76237848e265068_icgraph.svg" width="504" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a3a777f9aae5eec3590fe1fca97352d48_icgraph.svg" width="504" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="ad128634e174283a6332df4b837752539"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWWorld::Scene::preloadTerrain </td>
+          <td>(</td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1069,14 +1093,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a129a14f344a895a854b697fcdf49a591_icgraph.svg" width="1880" height="140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="adcf6eca8c3905e9eef4c8f9cb2958a7b"></a>
@@ -1092,14 +1108,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_adcf6eca8c3905e9eef4c8f9cb2958a7b_icgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -1128,7 +1136,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_aa4b71a9fcc611e96db8d1cbec1c60f71_icgraph.svg" width="963" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_aa4b71a9fcc611e96db8d1cbec1c60f71_icgraph.svg" width="454" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1159,14 +1167,6 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_abcd28bc757b3ff53e90f1036bd6fbcab_icgraph.svg" width="672" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a6ee5ba76699d229e2f39786b2959158c"></a>
@@ -1196,15 +1196,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a6ee5ba76699d229e2f39786b2959158c_cgraph.svg" width="1027" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a6ee5ba76699d229e2f39786b2959158c_icgraph.svg" width="1808" height="355"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a6ee5ba76699d229e2f39786b2959158c_cgraph.svg" width="1296" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1229,14 +1221,6 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a58cb1dbd27bc48b2d0f9c60083b2adaf_cgraph.svg" width="1027" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Scene_a58cb1dbd27bc48b2d0f9c60083b2adaf_icgraph.svg" width="1014" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1344,6 +1328,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="af1b454f125efeae6252972b933ef459e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::Vec3f MWWorld::Scene::mLastPlayerPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a5724957d0532ab9e262a152eb971dc3f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1353,6 +1357,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html">MWPhysics::PhysicsSystem</a>* MWWorld::Scene::mPhysics</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9f889f7714b6aecdc50282d6b411814d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MWWorld::Scene::mPredictionTime</td>
         </tr>
       </table>
   </td>
@@ -1424,7 +1448,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a7534322f4a43065b9562b73cb8adbf92"></a>
+<a class="anchor" id="aee9aecfcea2ae18aefbeeebc3bb4de52"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1432,7 +1456,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classMWWorld_1_1CellPreloader.html">CellPreloader</a>&gt; MWWorld::Scene::mPreloader</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classMWWorld_1_1CellPreloader.html">CellPreloader</a>&gt; MWWorld::Scene::mPreloader</td>
         </tr>
       </table>
   </td>
@@ -1525,13 +1549,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="scene_8hpp_source.html">scene.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="scene_8cpp.html">scene.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="scene_8hpp_source.html">scene.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="scene_8cpp.html">scene.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:07 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:41 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

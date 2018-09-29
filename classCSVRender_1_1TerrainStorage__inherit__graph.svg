@@ -37,21 +37,21 @@
 <text text-anchor="start" x="7.5" y="-353" font-family="FreeSans" font-size="10.00">&#45; mAutoUseSpecularMaps</text>
 <polyline fill="none" stroke="black" points="-0.5,-346 154.5,-346 "/>
 <text text-anchor="start" x="7.5" y="-334" font-family="FreeSans" font-size="10.00">+ Storage()</text>
-<text text-anchor="start" x="7.5" y="-323" font-family="FreeSans" font-size="10.00">+ getLandData()</text>
-<text text-anchor="start" x="7.5" y="-312" font-family="FreeSans" font-size="10.00">+ getBounds()</text>
-<text text-anchor="start" x="7.5" y="-301" font-family="FreeSans" font-size="10.00">+ getMinMaxHeights()</text>
-<text text-anchor="start" x="7.5" y="-290" font-family="FreeSans" font-size="10.00">+ fillVertexBuffers()</text>
-<text text-anchor="start" x="7.5" y="-279" font-family="FreeSans" font-size="10.00">+ getBlendmaps()</text>
-<text text-anchor="start" x="7.5" y="-268" font-family="FreeSans" font-size="10.00">+ getHeightAt()</text>
-<text text-anchor="start" x="7.5" y="-257" font-family="FreeSans" font-size="10.00">+ getDefaultLayer()</text>
+<text text-anchor="start" x="7.5" y="-323" font-family="FreeSans" font-size="10.00">+ getLand()</text>
+<text text-anchor="start" x="7.5" y="-312" font-family="FreeSans" font-size="10.00">+ getLandTexture()</text>
+<text text-anchor="start" x="7.5" y="-301" font-family="FreeSans" font-size="10.00">+ getBounds()</text>
+<text text-anchor="start" x="7.5" y="-290" font-family="FreeSans" font-size="10.00">+ getMinMaxHeights()</text>
+<text text-anchor="start" x="7.5" y="-279" font-family="FreeSans" font-size="10.00">+ fillVertexBuffers()</text>
+<text text-anchor="start" x="7.5" y="-268" font-family="FreeSans" font-size="10.00">+ getBlendmaps()</text>
+<text text-anchor="start" x="7.5" y="-257" font-family="FreeSans" font-size="10.00">+ getHeightAt()</text>
 <text text-anchor="start" x="7.5" y="-246" font-family="FreeSans" font-size="10.00">+ getCellWorldSize()</text>
 <text text-anchor="start" x="7.5" y="-235" font-family="FreeSans" font-size="10.00">+ getCellVertices()</text>
-<text text-anchor="start" x="7.5" y="-224" font-family="FreeSans" font-size="10.00">&#45; getLand()</text>
-<text text-anchor="start" x="7.5" y="-213" font-family="FreeSans" font-size="10.00">&#45; getLandTexture()</text>
-<text text-anchor="start" x="7.5" y="-202" font-family="FreeSans" font-size="10.00">&#45; fixNormal()</text>
-<text text-anchor="start" x="7.5" y="-191" font-family="FreeSans" font-size="10.00">&#45; fixColour()</text>
-<text text-anchor="start" x="7.5" y="-180" font-family="FreeSans" font-size="10.00">&#45; averageNormal()</text>
-<text text-anchor="start" x="7.5" y="-169" font-family="FreeSans" font-size="10.00">&#45; getVertexHeight()</text>
+<text text-anchor="start" x="7.5" y="-224" font-family="FreeSans" font-size="10.00">+ getBlendmapScale()</text>
+<text text-anchor="start" x="7.5" y="-213" font-family="FreeSans" font-size="10.00">&#45; fixNormal()</text>
+<text text-anchor="start" x="7.5" y="-202" font-family="FreeSans" font-size="10.00">&#45; fixColour()</text>
+<text text-anchor="start" x="7.5" y="-191" font-family="FreeSans" font-size="10.00">&#45; averageNormal()</text>
+<text text-anchor="start" x="7.5" y="-180" font-family="FreeSans" font-size="10.00">&#45; getVertexHeight()</text>
+<text text-anchor="start" x="7.5" y="-169" font-family="FreeSans" font-size="10.00">&#45; getLand()</text>
 <text text-anchor="start" x="7.5" y="-158" font-family="FreeSans" font-size="10.00">&#45; getVtexIndexAt()</text>
 <text text-anchor="start" x="7.5" y="-147" font-family="FreeSans" font-size="10.00">&#45; getTextureName()</text>
 <text text-anchor="start" x="7.5" y="-136" font-family="FreeSans" font-size="10.00">&#45; getLayerInfo()</text>
@@ -65,21 +65,21 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classTerrain_1_1Storage.html" target="_top" xlink:title="We keep storage of terrain data abstract here since we need different implementations for game and ed...">
-<polygon fill="white" stroke="black" points="15,-498.5 15,-643.5 139,-643.5 139,-498.5 15,-498.5"/>
+<g id="a_node3"><a xlink:href="classTerrain_1_1Storage.html" target="_top" xlink:title="{Terrain::Storage\n||+ ~Storage()\l+ getBounds()\l+ getMinMaxHeights()\l+ fillVertexBuffers()\l+ getBlendmaps()\l+ getHeightAt()\l+ getCellWorldSize()\l+ getCellVertices()\l+ getBlendmapScale()\l}">
+<polygon fill="white" stroke="black" points="14,-498.5 14,-643.5 140,-643.5 140,-498.5 14,-498.5"/>
 <text text-anchor="middle" x="77" y="-631.5" font-family="FreeSans" font-size="10.00">Terrain::Storage</text>
-<polyline fill="none" stroke="black" points="15,-624.5 139,-624.5 "/>
+<polyline fill="none" stroke="black" points="14,-624.5 140,-624.5 "/>
 <text text-anchor="middle" x="77" y="-612.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="15,-605.5 139,-605.5 "/>
-<text text-anchor="start" x="23" y="-593.5" font-family="FreeSans" font-size="10.00">+ ~Storage()</text>
-<text text-anchor="start" x="23" y="-582.5" font-family="FreeSans" font-size="10.00">+ getBounds()</text>
-<text text-anchor="start" x="23" y="-571.5" font-family="FreeSans" font-size="10.00">+ getMinMaxHeights()</text>
-<text text-anchor="start" x="23" y="-560.5" font-family="FreeSans" font-size="10.00">+ fillVertexBuffers()</text>
-<text text-anchor="start" x="23" y="-549.5" font-family="FreeSans" font-size="10.00">+ getBlendmaps()</text>
-<text text-anchor="start" x="23" y="-538.5" font-family="FreeSans" font-size="10.00">+ getHeightAt()</text>
-<text text-anchor="start" x="23" y="-527.5" font-family="FreeSans" font-size="10.00">+ getDefaultLayer()</text>
-<text text-anchor="start" x="23" y="-516.5" font-family="FreeSans" font-size="10.00">+ getCellWorldSize()</text>
-<text text-anchor="start" x="23" y="-505.5" font-family="FreeSans" font-size="10.00">+ getCellVertices()</text>
+<polyline fill="none" stroke="black" points="14,-605.5 140,-605.5 "/>
+<text text-anchor="start" x="22" y="-593.5" font-family="FreeSans" font-size="10.00">+ ~Storage()</text>
+<text text-anchor="start" x="22" y="-582.5" font-family="FreeSans" font-size="10.00">+ getBounds()</text>
+<text text-anchor="start" x="22" y="-571.5" font-family="FreeSans" font-size="10.00">+ getMinMaxHeights()</text>
+<text text-anchor="start" x="22" y="-560.5" font-family="FreeSans" font-size="10.00">+ fillVertexBuffers()</text>
+<text text-anchor="start" x="22" y="-549.5" font-family="FreeSans" font-size="10.00">+ getBlendmaps()</text>
+<text text-anchor="start" x="22" y="-538.5" font-family="FreeSans" font-size="10.00">+ getHeightAt()</text>
+<text text-anchor="start" x="22" y="-527.5" font-family="FreeSans" font-size="10.00">+ getCellWorldSize()</text>
+<text text-anchor="start" x="22" y="-516.5" font-family="FreeSans" font-size="10.00">+ getCellVertices()</text>
+<text text-anchor="start" x="22" y="-505.5" font-family="FreeSans" font-size="10.00">+ getBlendmapScale()</text>
 </a>
 </g>
 </g>

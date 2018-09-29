@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -101,17 +101,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>This is the complete list of members for <a class="el" href="classMWRender_1_1RainFader.html">MWRender::RainFader</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html#a851806e4bf1cc224a8d319d07cf50b2f">AlphaFader</a>()</td><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html">MWRender::AlphaFader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html#a16615d1ba2a57a425a93064ea05ed29e">apply</a>(osg::StateSet *stateset, osg::NodeVisitor *nv)</td><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html">MWRender::AlphaFader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html#ab3e1061fbfe05368eb08bee870749db9">reset</a>()</td><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html">SceneUtil::StateSetUpdater</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html#a0d3d62467c1bb4f5dc7b18fdc5332891">setAlpha</a>(float alpha)</td><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html">MWRender::AlphaFader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1RainFader.html#a7e7ca2cf9b311b4e90bf8bba4db57b6b">setDefaults</a>(osg::StateSet *stateset)</td><td class="entry"><a class="el" href="classMWRender_1_1RainFader.html">MWRender::RainFader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html#ad19ffc763a046d84c44182b831b2bc13">StateSetUpdater</a>()</td><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html">SceneUtil::StateSetUpdater</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html#a5b6db2d93fd17d7f5c4f01b71dc46676">StateSetUpdater</a>(const StateSetUpdater &amp;copy, const osg::CopyOp &amp;copyop)</td><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html">SceneUtil::StateSetUpdater</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html#add353af127126284141cea6d77d9ca42">AlphaFader</a>(float *alphaUpdate)</td><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html">MWRender::AlphaFader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWRender_1_1RainFader.html#aba8c597f5451a55c0b77544a0e829202">apply</a>(osg::StateSet *stateset, osg::NodeVisitor *nv)</td><td class="entry"><a class="el" href="classMWRender_1_1RainFader.html">MWRender::RainFader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html#a0f47e0d0b56130698cd487849d688f7b">mAlpha</a></td><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html">MWRender::AlphaFader</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html#ab99a58bcaaeb990085b6248469a4490c">mAlphaUpdate</a></td><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html">MWRender::AlphaFader</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1RainFader.html#a37148ff60e7de64c7cdc5b9cd0ad5612">RainFader</a>(float *alphaUpdate)</td><td class="entry"><a class="el" href="classMWRender_1_1RainFader.html">MWRender::RainFader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html#ab3e1061fbfe05368eb08bee870749db9">reset</a>()</td><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html">SceneUtil::StateSetUpdater</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html#a0d3d62467c1bb4f5dc7b18fdc5332891">setAlpha</a>(float alpha)</td><td class="entry"><a class="el" href="classMWRender_1_1AlphaFader.html">MWRender::AlphaFader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMWRender_1_1RainFader.html#a7e7ca2cf9b311b4e90bf8bba4db57b6b">setDefaults</a>(osg::StateSet *stateset)</td><td class="entry"><a class="el" href="classMWRender_1_1RainFader.html">MWRender::RainFader</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html#ad19ffc763a046d84c44182b831b2bc13">StateSetUpdater</a>()</td><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html">SceneUtil::StateSetUpdater</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html#a5b6db2d93fd17d7f5c4f01b71dc46676">StateSetUpdater</a>(const StateSetUpdater &amp;copy, const osg::CopyOp &amp;copyop)</td><td class="entry"><a class="el" href="classSceneUtil_1_1StateSetUpdater.html">SceneUtil::StateSetUpdater</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:05 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:38 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

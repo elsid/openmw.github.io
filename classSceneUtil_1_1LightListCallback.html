@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,13 +107,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for SceneUtil::LightListCallback:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1LightListCallback__inherit__graph.svg" width="208" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1LightListCallback__inherit__graph.svg" width="208" height="302"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for SceneUtil::LightListCallback:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1LightListCallback__coll__graph.svg" width="1411" height="1104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1LightListCallback__coll__graph.svg" width="1411" height="1120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -123,10 +123,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aadf5cbd11fb24d8eadb10691cbd0f485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af06aa3667e10344006bccc048db46dde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1LightListCallback.html#af06aa3667e10344006bccc048db46dde">LightListCallback</a> (const <a class="el" href="classSceneUtil_1_1LightListCallback.html">LightListCallback</a> &amp;copy, const osg::CopyOp &amp;copyop)</td></tr>
 <tr class="separator:af06aa3667e10344006bccc048db46dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a158aa4075347f76fbf0cada156e12286"><td class="memItemLeft" align="right" valign="top">META_Object(SceneUtil, <br class="typebreak"/>
+<tr class="memitem:a46f1962d8d0a92fb6dac0d9ef0338cd9"><td class="memItemLeft" align="right" valign="top">META_Object(SceneUtil, <br class="typebreak"/>
 <a class="el" href="classSceneUtil_1_1LightListCallback.html">LightListCallback</a>) void <br class="typebreak"/>
-operator()(osg&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1LightListCallback.html#a158aa4075347f76fbf0cada156e12286">getIgnoredLightSources</a> () std::set&lt; <a class="el" href="classSceneUtil_1_1LightSource.html">SceneUtil::LightSource</a> * &gt; &amp;</td></tr>
-<tr class="separator:a158aa4075347f76fbf0cada156e12286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+operator()(osg&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1LightListCallback.html#a46f1962d8d0a92fb6dac0d9ef0338cd9">pushLightState</a> (osg::Node *node, osgUtil::CullVisitor *nv) <a class="el" href="classbool.html">bool</a></td></tr>
+<tr class="separator:a46f1962d8d0a92fb6dac0d9ef0338cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f8a41aee19297ad9ce03b8e924eb11e"><td class="memItemLeft" align="right" valign="top">std::set<br class="typebreak"/>
+&lt; <a class="el" href="classSceneUtil_1_1LightSource.html">SceneUtil::LightSource</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1LightListCallback.html#a4f8a41aee19297ad9ce03b8e924eb11e">getIgnoredLightSources</a> ()</td></tr>
+<tr class="separator:a4f8a41aee19297ad9ce03b8e924eb11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -143,7 +146,9 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>To receive lighting, objects must be decorated by a <a class="el" href="classSceneUtil_1_1LightListCallback.html">LightListCallback</a>. Light list callbacks must be added via node-&gt;addCullCallback(new LightListCallback). Once a light list callback is added to a node, that node and all its child nodes can receive lighting. </p>
 <dl class="section user"><dt>The placement of these LightListCallbacks affects the granularity of light lists. Having too fine grained</dt><dd>light lists can result in degraded performance. Too coarse grained light lists can result in lights no longer rendering when the size of a light list exceeds the OpenGL limit on the number of concurrent lights (8). A good starting point is to attach a <a class="el" href="classSceneUtil_1_1LightListCallback.html">LightListCallback</a> to each game object's base node. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Not thread safe for CullThreadPerCamera threading mode. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Not thread safe for CullThreadPerCamera threading mode. </dd>
+<dd>
+Due to lack of OSG support, the callback does not work on Drawables. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aadf5cbd11fb24d8eadb10691cbd0f485"></a>
 <div class="memitem">
@@ -203,7 +208,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a158aa4075347f76fbf0cada156e12286"></a>
+<a class="anchor" id="a4f8a41aee19297ad9ce03b8e924eb11e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -211,7 +216,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">META_Object (SceneUtil, <a class="el" href="classSceneUtil_1_1LightListCallback.html">LightListCallback</a>) void operator()(osg  SceneUtil::LightListCallback::getIgnoredLightSources </td>
+          <td class="memname">std::set&lt;<a class="el" href="classSceneUtil_1_1LightSource.html">SceneUtil::LightSource</a>*&gt;&amp; SceneUtil::LightListCallback::getIgnoredLightSources </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -223,6 +228,40 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a46f1962d8d0a92fb6dac0d9ef0338cd9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> SceneUtil::LightListCallback::pushLightState </td>
+          <td>(</td>
+          <td class="paramtype">osg::Node *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">osgUtil::CullVisitor *&#160;</td>
+          <td class="paramname"><em>nv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1LightListCallback_a46f1962d8d0a92fb6dac0d9ef0338cd9_cgraph.svg" width="723" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -307,13 +346,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="lightmanager_8hpp_source.html">lightmanager.hpp</a></li>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="lightmanager_8hpp_source.html">lightmanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="lightmanager_8cpp.html">lightmanager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

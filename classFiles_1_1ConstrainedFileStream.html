@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -96,6 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classFiles_1_1ConstrainedFileStream-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Files::ConstrainedFileStream Class Reference</div>  </div>
@@ -115,53 +116,42 @@ Inheritance diagram for Files::ConstrainedFileStream:</div>
 <div class="dynheader">
 Collaboration diagram for Files::ConstrainedFileStream:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classFiles_1_1ConstrainedFileStream__coll__graph.svg" width="214" height="622"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classFiles_1_1ConstrainedFileStream__coll__graph.svg" width="322" height="675"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af0136fb8c3bbc2ed91a6d1bcdfc72863"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFiles_1_1ConstrainedFileStream.html#af0136fb8c3bbc2ed91a6d1bcdfc72863">ConstrainedFileStream</a> (const char *filename, size_t start=0, size_t length=0xFFFFFFFF)</td></tr>
-<tr class="separator:af0136fb8c3bbc2ed91a6d1bcdfc72863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b209cc0e4977856c750f2861cc48d4e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFiles_1_1ConstrainedFileStream.html#a5b209cc0e4977856c750f2861cc48d4e">~ConstrainedFileStream</a> ()</td></tr>
-<tr class="separator:a5b209cc0e4977856c750f2861cc48d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e7478eba8a982a562e848d8be30887c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFiles_1_1ConstrainedFileStream.html#a1e7478eba8a982a562e848d8be30887c">ConstrainedFileStream</a> (std::unique_ptr&lt; std::streambuf &gt; <a class="el" href="crashcatcher_8cpp.html#ac75fce8692fd1d41a8985f6aacc4a175">buf</a>)</td></tr>
+<tr class="separator:a1e7478eba8a982a562e848d8be30887c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93520eabbed6e837ada2eaec4fdaa609"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFiles_1_1ConstrainedFileStream.html#a93520eabbed6e837ada2eaec4fdaa609">~ConstrainedFileStream</a> ()</td></tr>
+<tr class="separator:a93520eabbed6e837ada2eaec4fdaa609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac4a60c9e4c1e9ea7579ca4b17309db58"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; std::streambuf &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFiles_1_1ConstrainedFileStream.html#ac4a60c9e4c1e9ea7579ca4b17309db58">mBuf</a></td></tr>
+<tr class="separator:ac4a60c9e4c1e9ea7579ca4b17309db58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A file stream constrained to a specific region in the file, specified by the 'start' and 'length' parameters. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="af0136fb8c3bbc2ed91a6d1bcdfc72863"></a>
+<a class="anchor" id="a1e7478eba8a982a562e848d8be30887c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">Files::ConstrainedFileStream::ConstrainedFileStream </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>filename</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::unique_ptr&lt; std::streambuf &gt;&#160;</td>
+          <td class="paramname"><em>buf</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>start</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>length</em> = <code>0xFFFFFFFF</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a5b209cc0e4977856c750f2861cc48d4e"></a>
+<a class="anchor" id="a93520eabbed6e837ada2eaec4fdaa609"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -169,7 +159,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Files::ConstrainedFileStream::~ConstrainedFileStream </td>
+          <td class="memname">virtual Files::ConstrainedFileStream::~ConstrainedFileStream </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -177,7 +167,28 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ac4a60c9e4c1e9ea7579ca4b17309db58"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;std::streambuf&gt; Files::ConstrainedFileStream::mBuf</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -185,13 +196,13 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/files/<a class="el" href="constrainedfilestream_8hpp_source.html">constrainedfilestream.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/files/<a class="el" href="constrainedfilestream_8cpp.html">constrainedfilestream.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/files/<a class="el" href="constrainedfilestream_8hpp_source.html">constrainedfilestream.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/files/<a class="el" href="constrainedfilestream_8cpp.html">constrainedfilestream.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

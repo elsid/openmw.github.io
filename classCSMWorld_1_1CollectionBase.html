@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for CSMWorld::CollectionBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1CollectionBase__inherit__graph.svg" width="5667" height="1355"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1CollectionBase__inherit__graph.svg" width="5838" height="1368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -154,6 +154,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add1a8ae1d4ff5dfb4d16dd4086f97757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a654c93a6f83fb6b4f179402c221bbbb8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1CollectionBase.html#a654c93a6f83fb6b4f179402c221bbbb8">cloneRecord</a> (const std::string &amp;origin, const std::string &amp;destination, const <a class="el" href="classCSMWorld_1_1UniversalId.html#ad68e402e074c03aeffc692e97a7457b2">UniversalId::Type</a> type)=0</td></tr>
 <tr class="separator:a654c93a6f83fb6b4f179402c221bbbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39b410d2da993627209491c68c416a8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1CollectionBase.html#ae39b410d2da993627209491c68c416a8">touchRecord</a> (const std::string &amp;id)=0</td></tr>
+<tr class="separator:ae39b410d2da993627209491c68c416a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ea608ef12c5f1f3fb226be82737fbb9"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="structCSMWorld_1_1RecordBase.html">RecordBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1CollectionBase.html#a7ea608ef12c5f1f3fb226be82737fbb9">getRecord</a> (const std::string &amp;id) const =0</td></tr>
 <tr class="separator:a7ea608ef12c5f1f3fb226be82737fbb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb100b33d7d99e18212c1ae7c1a75476"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="structCSMWorld_1_1RecordBase.html">RecordBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1CollectionBase.html#abb100b33d7d99e18212c1ae7c1a75476">getRecord</a> (<a class="el" href="classint.html">int</a> index) const =0</td></tr>
@@ -362,7 +364,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; ESXRecordT, IdAccessorT &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; CSMWorld::Cell &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; CellRef &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; Info, IdAccessor&lt; Info &gt; &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; CSMWorld::MetaData &gt;</a>, and <a class="el" href="classCSMWorld_1_1RefIdCollection.html#a22339fe2b4ee9f67bfb90c2372305607">CSMWorld::RefIdCollection</a>.</p>
+<p>Implemented in <a class="el" href="classCSMWorld_1_1Collection.html#ad0a6d02641efc26a919416702e05b62a">CSMWorld::Collection&lt; ESXRecordT, IdAccessorT &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; ESXRecordT, IdAccessorT &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; CSMWorld::Cell &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; CellRef &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; Info, IdAccessor&lt; Info &gt; &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#a24001bf23f0713d0fa3b2ee6dd6ed113">CSMWorld::Collection&lt; CSMWorld::MetaData &gt;</a>, and <a class="el" href="classCSMWorld_1_1RefIdCollection.html#a22339fe2b4ee9f67bfb90c2372305607">CSMWorld::RefIdCollection</a>.</p>
 
 </div>
 </div>
@@ -384,7 +386,7 @@ Private Member Functions</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1CollectionBase_ab6f513b08a3f7b86222f3bd3717571a8_icgraph.svg" width="619" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1CollectionBase_ab6f513b08a3f7b86222f3bd3717571a8_icgraph.svg" width="1699" height="1114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -939,14 +941,40 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ae39b410d2da993627209491c68c416a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbool.html">bool</a> CSMWorld::CollectionBase::touchRecord </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classCSMWorld_1_1Collection.html#a77fc2944192bb949e8ef46f4bf59743d">CSMWorld::Collection&lt; ESXRecordT, IdAccessorT &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#af71704fe7a93107d119d2b077ca86cb1">CSMWorld::Collection&lt; ESXRecordT, IdAccessorT &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#af71704fe7a93107d119d2b077ca86cb1">CSMWorld::Collection&lt; CSMWorld::Cell &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#af71704fe7a93107d119d2b077ca86cb1">CSMWorld::Collection&lt; CellRef &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#af71704fe7a93107d119d2b077ca86cb1">CSMWorld::Collection&lt; Info, IdAccessor&lt; Info &gt; &gt;</a>, <a class="el" href="classCSMWorld_1_1Collection.html#af71704fe7a93107d119d2b077ca86cb1">CSMWorld::Collection&lt; CSMWorld::MetaData &gt;</a>, and <a class="el" href="classCSMWorld_1_1RefIdCollection.html#af3b60b4251232040fcb4bd8965472be2">CSMWorld::RefIdCollection</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/world/<a class="el" href="collectionbase_8hpp_source.html">collectionbase.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/world/<a class="el" href="collectionbase_8cpp.html">collectionbase.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/world/<a class="el" href="collectionbase_8hpp_source.html">collectionbase.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/world/<a class="el" href="collectionbase_8cpp.html">collectionbase.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:57 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:29 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

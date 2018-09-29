@@ -1,27 +1,34 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classGui_1_1AutoSizedWidget.html" title="Gui::AutoSizedWidget" alt="" coords="6,69,165,96"/>
-<area shape="rect" id="node2" href="$classGui_1_1AutoSizedButton.html" title="Gui::AutoSizedButton" alt="" coords="222,107,381,133"/>
-<area shape="rect" id="node3" href="$classGui_1_1AutoSizedEditBox.html" title="Gui::AutoSizedEditBox" alt="" coords="219,208,383,235"/>
-<area shape="rect" id="node4" href="$classGui_1_1AutoSizedTextBox.html" title="Gui::AutoSizedTextBox" alt="" coords="219,5,384,32"/>
-<area shape="rect" id="node5" href="$classGui_1_1Box.html" title="A container widget that automatically sizes its children. " alt="" coords="264,56,339,83"/>
-<area shape="rect" id="node6" href="$classGui_1_1HBox.html" title="Gui::HBox" alt="" coords="513,31,599,57"/>
-<area shape="rect" id="node7" href="$classGui_1_1VBox.html" title="Gui::VBox" alt="" coords="514,81,598,108"/>
-<area shape="rect" id="node9" href="$classGui_1_1SharedStateButton.html" title="A button that applies its own state changes to other widgets, to do this you define it as part of a B..." alt="" coords="214,157,389,184"/>
-<area shape="rect" id="node11" href="$classGui_1_1NumericEditBox.html" title="A variant of the EditBox that only allows integer inputs. " alt="" coords="225,259,378,285"/>
-<area shape="rect" id="node12" href="$classGui_1_1WindowCaption.html" title="Gui::WindowCaption" alt="" coords="228,309,375,336"/>
-<area shape="rect" id="node15" href="$classanonymous__namespace_02mapwindow_8cpp_03_1_1MarkerWidget.html" title="A widget that changes its color when hovered. " alt="" coords="439,437,673,478"/>
-<area shape="rect" id="node16" href="$classGui_1_1MWList.html" title="a very simple list widget that supports word&#45;wrapping entries " alt="" coords="509,503,603,529"/>
-<area shape="rect" id="node17" href="$classMWGui_1_1BookPage.html" title="An interface to the BookPage widget. " alt="" coords="488,553,624,580"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1ItemChargeView.html" title="MWGui::ItemChargeView" alt="" coords="467,604,645,631"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1ItemView.html" title="MWGui::ItemView" alt="" coords="491,655,621,681"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1ItemWidget.html" title="A widget that shows an icon for an MWWorld::Ptr. " alt="" coords="483,705,629,732"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1SpellView.html" title="Displays a SpellModel in a list widget. " alt="" coords="489,756,623,783"/>
-<area shape="rect" id="node23" href="$classMWGui_1_1VideoWidget.html" title="MWGui::VideoWidget" alt="" coords="480,807,632,833"/>
-<area shape="rect" id="node24" href="$classMWGui_1_1Widgets_1_1MWAttribute.html" title="MWGui::Widgets::MWAttribute" alt="" coords="452,132,660,159"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1Widgets_1_1MWDynamicStat.html" title="MWGui::Widgets::MWDynamicStat" alt="" coords="438,183,674,209"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1Widgets_1_1MWEffectList.html" title="MWGui::Widgets::MWEffectList" alt="" coords="451,233,661,260"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1Widgets_1_1MWSkill.html" title="MWGui::Widgets::MWSkill" alt="" coords="467,284,645,311"/>
-<area shape="rect" id="node28" href="$classMWGui_1_1Widgets_1_1MWSpell.html" title="MWGui::Widgets::MWSpell" alt="" coords="464,335,648,361"/>
-<area shape="rect" id="node29" href="$classMWGui_1_1Widgets_1_1MWSpellEffect.html" title="MWGui::Widgets::MWSpellEffect" alt="" coords="446,385,666,412"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1BookPageImpl.html" title="MWGui::BookPageImpl" alt="" coords="723,553,885,580"/>
+<area shape="rect" id="node1" href="$classGui_1_1AutoSizedWidget.html" title="Gui::AutoSizedWidget" alt="" coords="369,56,527,83"/>
+<area shape="rect" id="node2" href="$classGui_1_1AutoSizedButton.html" title="Gui::AutoSizedButton" alt="" coords="587,5,746,32"/>
+<area shape="rect" id="node3" href="$classGui_1_1AutoSizedEditBox.html" title="Gui::AutoSizedEditBox" alt="" coords="585,157,749,184"/>
+<area shape="rect" id="node4" href="$classGui_1_1AutoSizedTextBox.html" title="Gui::AutoSizedTextBox" alt="" coords="584,241,749,268"/>
+<area shape="rect" id="node5" href="$classGui_1_1Box.html" title="A container widget that automatically sizes its children. " alt="" coords="629,56,704,83"/>
+<area shape="rect" id="node8" href="$classGui_1_1Spacer.html" title="Gui::Spacer" alt="" coords="868,107,964,133"/>
+<area shape="rect" id="node6" href="$classGui_1_1HBox.html" title="Gui::HBox" alt="" coords="873,56,959,83"/>
+<area shape="rect" id="node7" href="$classGui_1_1VBox.html" title="Gui::VBox" alt="" coords="874,5,958,32"/>
+<area shape="rect" id="node10" href="$classGui_1_1FontWrapper.html" title="Gui::FontWrapper\&lt; MyGUI\l::Button \&gt;" alt="" coords="125,42,312,83"/>
+<area shape="rect" id="node11" href="$classGui_1_1Button.html" title="Gui::Button" alt="" coords="401,5,495,32"/>
+<area shape="rect" id="node12" href="$classGui_1_1SharedStateButton.html" title="A button that applies its own state changes to other widgets, to do this you define it as part of a B..." alt="" coords="361,107,535,133"/>
+<area shape="rect" id="node14" href="$classGui_1_1FontWrapper.html" title="Gui::FontWrapper\&lt; MyGUI\l::EditBox \&gt;" alt="" coords="125,150,312,191"/>
+<area shape="rect" id="node17" href="$classGui_1_1WindowCaption.html" title="Gui::WindowCaption" alt="" coords="145,216,292,243"/>
+<area shape="rect" id="node15" href="$classGui_1_1EditBox.html" title="Gui::EditBox" alt="" coords="399,157,497,184"/>
+<area shape="rect" id="node16" href="$classGui_1_1NumericEditBox.html" title="A variant of the EditBox that only allows integer inputs. " alt="" coords="371,208,525,235"/>
+<area shape="rect" id="node19" href="$classGui_1_1FontWrapper.html" title="Gui::FontWrapper\&lt; MyGUI\l::TextBox \&gt;" alt="" coords="125,267,312,309"/>
+<area shape="rect" id="node20" href="$classGui_1_1TextBox.html" title="Gui::TextBox" alt="" coords="398,267,498,293"/>
+<area shape="rect" id="node22" href="$classanonymous__namespace_02mapwindow_8cpp_03_1_1MarkerWidget.html" title="A widget that changes its color when hovered. " alt="" coords="799,614,1033,655"/>
+<area shape="rect" id="node23" href="$classGui_1_1MWList.html" title="a very simple list widget that supports word&#45;wrapping entries " alt="" coords="869,680,963,707"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1BookPage.html" title="An interface to the BookPage widget. " alt="" coords="848,731,984,757"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1ItemChargeView.html" title="MWGui::ItemChargeView" alt="" coords="827,781,1005,808"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1ItemView.html" title="MWGui::ItemView" alt="" coords="851,832,981,859"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1ItemWidget.html" title="A widget that shows an icon for an MWWorld::Ptr. " alt="" coords="843,157,989,184"/>
+<area shape="rect" id="node29" href="$classMWGui_1_1SpellView.html" title="Displays a SpellModel in a list widget. " alt="" coords="849,208,983,235"/>
+<area shape="rect" id="node30" href="$classMWGui_1_1VideoWidget.html" title="MWGui::VideoWidget" alt="" coords="840,259,992,285"/>
+<area shape="rect" id="node31" href="$classMWGui_1_1Widgets_1_1MWAttribute.html" title="MWGui::Widgets::MWAttribute" alt="" coords="812,309,1020,336"/>
+<area shape="rect" id="node32" href="$classMWGui_1_1Widgets_1_1MWDynamicStat.html" title="MWGui::Widgets::MWDynamicStat" alt="" coords="798,360,1034,387"/>
+<area shape="rect" id="node33" href="$classMWGui_1_1Widgets_1_1MWEffectList.html" title="MWGui::Widgets::MWEffectList" alt="" coords="811,411,1021,437"/>
+<area shape="rect" id="node34" href="$classMWGui_1_1Widgets_1_1MWSkill.html" title="MWGui::Widgets::MWSkill" alt="" coords="827,461,1005,488"/>
+<area shape="rect" id="node35" href="$classMWGui_1_1Widgets_1_1MWSpell.html" title="MWGui::Widgets::MWSpell" alt="" coords="824,512,1008,539"/>
+<area shape="rect" id="node36" href="$classMWGui_1_1Widgets_1_1MWSpellEffect.html" title="MWGui::Widgets::MWSpellEffect" alt="" coords="806,563,1026,589"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1BookPageImpl.html" title="MWGui::BookPageImpl" alt="" coords="1083,731,1245,757"/>
 </map>

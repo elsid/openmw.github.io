@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/misc/messageformatparser.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/misc/messageformatparser.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -114,31 +114,42 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cdea8b6c0435abf52e3e950a792fdc6ef1b2">   15</a></span>&#160;                <a class="code" href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cdea8b6c0435abf52e3e950a792fdc6ef1b2">FloatPlaceholder</a></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            };</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#a3f578a1b6d459b19aff35f76cb9eaa77">visitedPlaceholder</a>(<a class="code" href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cde">Placeholder</a> placeholder, <span class="keywordtype">char</span> padding, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> precision) = 0;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#a5f581eaacc47479e2bcf0e1e62ac105d">visitedCharacter</a>(<span class="keywordtype">char</span> c) = 0;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#ad1b235b6ef4356858047154a1112f2f9">~MessageFormatParser</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#aee09497a59888b6599183871936dce9f">process</a>(<span class="keyword">const</span> std::string&amp; <a class="code" href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">message</a>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    };</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0">   18</a></span>&#160;            <span class="keyword">enum</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0">Notation</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0a1244cc4bace9b7c10c5a49662a0c8df7">   20</a></span>&#160;                <a class="code" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0a1244cc4bace9b7c10c5a49662a0c8df7">FixedNotation</a>,</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0af7e8f671160ec3be2874a5383eb01c86">   21</a></span>&#160;                <a class="code" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0af7e8f671160ec3be2874a5383eb01c86">ScientificNotation</a>,</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0a1f99806b600889d9a0f5c87c8bf3a4f6">   22</a></span>&#160;                <a class="code" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0a1f99806b600889d9a0f5c87c8bf3a4f6">ShortestNotation</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            };</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#a5a6ba1daf27689b59f7a752c4890463a">visitedPlaceholder</a>(<a class="code" href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cde">Placeholder</a> placeholder, <span class="keywordtype">char</span> padding, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> precision, <a class="code" href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0">Notation</a> notation) = 0;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#a5f581eaacc47479e2bcf0e1e62ac105d">visitedCharacter</a>(<span class="keywordtype">char</span> c) = 0;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keyword">virtual</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#ad1b235b6ef4356858047154a1112f2f9">~MessageFormatParser</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMisc_1_1MessageFormatParser.html#aee09497a59888b6599183871936dce9f">process</a>(<span class="keyword">const</span> std::string&amp; <a class="code" href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">message</a>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    };</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classMisc_1_1MessageFormatParser_html_ad1b235b6ef4356858047154a1112f2f9"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#ad1b235b6ef4356858047154a1112f2f9">Misc::MessageFormatParser::~MessageFormatParser</a></div><div class="ttdeci">virtual ~MessageFormatParser()</div><div class="ttdef"><b>Definition:</b> messageformatparser.cpp:5</div></div>
 <div class="ttc" id="namespaceCompiler_1_1Generator_html_ac2c59268b5bf1bf561fda12fdd27eb77"><div class="ttname"><a href="namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77">Compiler::Generator::message</a></div><div class="ttdeci">void message(CodeContainer &amp;code, Literals &amp;literals, const std::string &amp;message, int buttons)</div><div class="ttdef"><b>Definition:</b> generator.cpp:537</div></div>
+<div class="ttc" id="classMisc_1_1MessageFormatParser_html_a1ba304db05dfa950ff91fd673fe3dda0af7e8f671160ec3be2874a5383eb01c86"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0af7e8f671160ec3be2874a5383eb01c86">Misc::MessageFormatParser::ScientificNotation</a></div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:21</div></div>
 <div class="ttc" id="classMisc_1_1MessageFormatParser_html_a4dc484949dfbe5186afd1f8d47969cde"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cde">Misc::MessageFormatParser::Placeholder</a></div><div class="ttdeci">Placeholder</div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:11</div></div>
 <div class="ttc" id="classMisc_1_1MessageFormatParser_html_aee09497a59888b6599183871936dce9f"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#aee09497a59888b6599183871936dce9f">Misc::MessageFormatParser::process</a></div><div class="ttdeci">virtual void process(const std::string &amp;message)</div><div class="ttdef"><b>Definition:</b> messageformatparser.cpp:7</div></div>
 <div class="ttc" id="classMisc_1_1MessageFormatParser_html_a4dc484949dfbe5186afd1f8d47969cdeaaa0397efbc5d6391e5b0a16fff478cf6"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cdeaaa0397efbc5d6391e5b0a16fff478cf6">Misc::MessageFormatParser::StringPlaceholder</a></div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:13</div></div>
 <div class="ttc" id="classMisc_1_1MessageFormatParser_html_a4dc484949dfbe5186afd1f8d47969cdea8b6c0435abf52e3e950a792fdc6ef1b2"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cdea8b6c0435abf52e3e950a792fdc6ef1b2">Misc::MessageFormatParser::FloatPlaceholder</a></div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:15</div></div>
+<div class="ttc" id="classMisc_1_1MessageFormatParser_html_a5a6ba1daf27689b59f7a752c4890463a"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a5a6ba1daf27689b59f7a752c4890463a">Misc::MessageFormatParser::visitedPlaceholder</a></div><div class="ttdeci">virtual void visitedPlaceholder(Placeholder placeholder, char padding, int width, int precision, Notation notation)=0</div></div>
 <div class="ttc" id="classMisc_1_1MessageFormatParser_html_a5f581eaacc47479e2bcf0e1e62ac105d"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a5f581eaacc47479e2bcf0e1e62ac105d">Misc::MessageFormatParser::visitedCharacter</a></div><div class="ttdeci">virtual void visitedCharacter(char c)=0</div></div>
-<div class="ttc" id="classMisc_1_1MessageFormatParser_html_a3f578a1b6d459b19aff35f76cb9eaa77"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a3f578a1b6d459b19aff35f76cb9eaa77">Misc::MessageFormatParser::visitedPlaceholder</a></div><div class="ttdeci">virtual void visitedPlaceholder(Placeholder placeholder, char padding, int width, int precision)=0</div></div>
 <div class="ttc" id="classMisc_1_1MessageFormatParser_html"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html">Misc::MessageFormatParser</a></div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:8</div></div>
 <div class="ttc" id="classMisc_1_1MessageFormatParser_html_a4dc484949dfbe5186afd1f8d47969cdea1735000ef05e94d4f0514ff3fc9e3b64"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a4dc484949dfbe5186afd1f8d47969cdea1735000ef05e94d4f0514ff3fc9e3b64">Misc::MessageFormatParser::IntegerPlaceholder</a></div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:14</div></div>
+<div class="ttc" id="classMisc_1_1MessageFormatParser_html_a1ba304db05dfa950ff91fd673fe3dda0a1f99806b600889d9a0f5c87c8bf3a4f6"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0a1f99806b600889d9a0f5c87c8bf3a4f6">Misc::MessageFormatParser::ShortestNotation</a></div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:22</div></div>
+<div class="ttc" id="classMisc_1_1MessageFormatParser_html_a1ba304db05dfa950ff91fd673fe3dda0"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0">Misc::MessageFormatParser::Notation</a></div><div class="ttdeci">Notation</div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:18</div></div>
+<div class="ttc" id="classMisc_1_1MessageFormatParser_html_a1ba304db05dfa950ff91fd673fe3dda0a1244cc4bace9b7c10c5a49662a0c8df7"><div class="ttname"><a href="classMisc_1_1MessageFormatParser.html#a1ba304db05dfa950ff91fd673fe3dda0a1244cc4bace9b7c10c5a49662a0c8df7">Misc::MessageFormatParser::FixedNotation</a></div><div class="ttdef"><b>Definition:</b> messageformatparser.hpp:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

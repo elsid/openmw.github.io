@@ -82,20 +82,6 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="186.5,-679 186.5,-737 215.5,-737 215.5,-679 186.5,-679"/>
-<polyline fill="none" stroke="#bfbfbf" points="186.5,-717 215.5,-717 "/>
-<text text-anchor="middle" x="201" y="-705" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="186.5,-698 215.5,-698 "/>
-<text text-anchor="middle" x="201" y="-686" font-family="FreeSans" font-size="10.00"> </text>
-</g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="#404040" d="M195.335,-678.937C189.316,-642.75 183.033,-578.472 202,-528 203.918,-522.896 206.584,-517.958 209.67,-513.289"/>
-<polygon fill="none" stroke="#404040" points="209.778,-513.145 210.172,-505.945 216.969,-503.539 216.576,-510.739 209.778,-513.145"/>
-<text text-anchor="middle" x="219" y="-586.5" font-family="FreeSans" font-size="10.00"> +@20</text>
-</g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
 <polygon fill="white" stroke="#bfbfbf" points="17,-679.5 17,-736.5 55,-736.5 55,-679.5 17,-679.5"/>
 <text text-anchor="middle" x="36" y="-724.5" font-family="FreeSans" font-size="10.00">char</text>
 <polyline fill="none" stroke="#bfbfbf" points="17,-717.5 55,-717.5 "/>
@@ -103,14 +89,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="17,-698.5 55,-698.5 "/>
 <text text-anchor="middle" x="36" y="-686.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node1 -->
-<g id="edge18" class="edge"><title>Node6&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node1 -->
+<g id="edge18" class="edge"><title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#404040" d="M28.8876,-679.481C18.3961,-636.402 0,-550.277 0,-476 0,-476 0,-476 0,-212 0,-87.1286 439.941,-70.5242 616.221,-68.8831"/>
 <polygon fill="none" stroke="#404040" points="616.448,-68.8814 622.417,-64.8356 628.447,-68.7895 622.478,-72.8354 616.448,-68.8814"/>
 <text text-anchor="middle" x="21.5" y="-338.5" font-family="FreeSans" font-size="10.00"> +mType</text>
 </g>
-<!-- Node6&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node4</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M41.5324,-679.36C50.7352,-640.34 72.8269,-569.269 118,-528 135.746,-511.788 146.635,-518.808 169,-510 170.469,-509.421 171.951,-508.832 173.443,-508.233"/>
 <polygon fill="none" stroke="#404040" points="173.902,-508.046 177.94,-502.071 185.008,-503.5 180.97,-509.475 173.902,-508.046"/>
 <text text-anchor="middle" x="152" y="-603" font-family="FreeSans" font-size="10.00"> +mPCrank</text>
@@ -118,9 +104,9 @@
 <text text-anchor="middle" x="152" y="-581" font-family="FreeSans" font-size="10.00">+mRank</text>
 <text text-anchor="middle" x="152" y="-570" font-family="FreeSans" font-size="10.00">+mUnknown2</text>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classint.html" target="_top" xlink:title="{int\n||}">
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="classint.html" target="_top" xlink:title="{int\n||}">
 <polygon fill="white" stroke="black" points="290.5,-679.5 290.5,-736.5 319.5,-736.5 319.5,-679.5 290.5,-679.5"/>
 <text text-anchor="middle" x="305" y="-724.5" font-family="FreeSans" font-size="10.00">int</text>
 <polyline fill="none" stroke="black" points="290.5,-717.5 319.5,-717.5 "/>
@@ -130,19 +116,33 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node3 -->
-<g id="edge14" class="edge"><title>Node7&#45;&gt;Node3</title>
+<!-- Node6&#45;&gt;Node3 -->
+<g id="edge14" class="edge"><title>Node6&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M319.606,-687.241C326.523,-676.737 334.108,-663.277 338,-650 362.206,-567.412 361.529,-467.073 357.677,-403.857"/>
 <polygon fill="none" stroke="#404040" points="357.666,-403.698 353.277,-397.977 356.87,-391.724 361.259,-397.446 357.666,-403.698"/>
 <text text-anchor="middle" x="389" y="-472.5" font-family="FreeSans" font-size="10.00"> +sRecordId</text>
 </g>
-<!-- Node7&#45;&gt;Node4 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node4</title>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge5" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M290.131,-693.604C279.407,-682.951 265.689,-667.046 259,-650 241.883,-606.378 241.076,-551.911 243.114,-515.652"/>
 <polygon fill="none" stroke="#404040" points="243.117,-515.605 239.534,-509.348 243.932,-503.633 247.515,-509.891 243.117,-515.605"/>
 <text text-anchor="middle" x="298.5" y="-597.5" font-family="FreeSans" font-size="10.00"> +mJournalIndex</text>
 <text text-anchor="middle" x="298.5" y="-586.5" font-family="FreeSans" font-size="10.00">+mUnknown1</text>
 <text text-anchor="middle" x="298.5" y="-575.5" font-family="FreeSans" font-size="10.00">+mDisposition</text>
+</g>
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<polygon fill="white" stroke="#bfbfbf" points="186.5,-679 186.5,-737 215.5,-737 215.5,-679 186.5,-679"/>
+<polyline fill="none" stroke="#bfbfbf" points="186.5,-717 215.5,-717 "/>
+<text text-anchor="middle" x="201" y="-705" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="186.5,-698 215.5,-698 "/>
+<text text-anchor="middle" x="201" y="-686" font-family="FreeSans" font-size="10.00"> </text>
+</g>
+<!-- Node7&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node7&#45;&gt;Node4</title>
+<path fill="none" stroke="#404040" d="M195.335,-678.937C189.316,-642.75 183.033,-578.472 202,-528 203.918,-522.896 206.584,-517.958 209.67,-513.289"/>
+<polygon fill="none" stroke="#404040" points="209.778,-513.145 210.172,-505.945 216.969,-503.539 216.576,-510.739 209.778,-513.145"/>
+<text text-anchor="middle" x="219" y="-586.5" font-family="FreeSans" font-size="10.00"> +@23</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>

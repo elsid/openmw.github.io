@@ -1,46 +1,50 @@
 <map id="MWGui::SaveGameDialog::SaveGameDialog" name="MWGui::SaveGameDialog::SaveGameDialog">
-<area shape="rect" id="node2" href="$classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab" title="MWGui::Layout::getWidget" alt="" coords="238,519,426,546"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1SaveGameDialog.html#a9c9a8986a61321f24386d6a6063f7247" title="MWGui::SaveGameDialog\l::onOkButtonClicked" alt="" coords="475,648,659,689"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1SaveGameDialog.html#a3651fdd6be62f461ac1311dba253176e" title="MWGui::SaveGameDialog\l::onCancelButtonClicked" alt="" coords="475,362,659,404"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1SaveGameDialog.html#a41f7a0971df38cb57418f6cfaaa000cd" title="MWGui::SaveGameDialog\l::onDeleteButtonClicked" alt="" coords="240,804,424,845"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1SaveGameDialog.html#a2fe28da1d982c2876863c81fbb0c4c2c" title="MWGui::SaveGameDialog\l::onSlotSelected" alt="" coords="1417,1285,1601,1326"/>
-<area shape="rect" id="node37" href="$classMWGui_1_1SaveGameDialog.html#acb500f0132909a7c5bd94c2e13fc2e5b" title="MWGui::SaveGameDialog\l::onCharacterSelected" alt="" coords="944,1158,1128,1200"/>
-<area shape="rect" id="node41" href="$classMWGui_1_1SaveGameDialog.html#a6522022ba221e2509fbf2cc8fc27ab4f" title="MWGui::SaveGameDialog\l::onSlotMouseClick" alt="" coords="240,921,424,962"/>
-<area shape="rect" id="node42" href="$classMWGui_1_1SaveGameDialog.html#a9b4b71fd79fc8bdd73aa13e1a1c2586b" title="MWGui::SaveGameDialog\l::onSlotActivated" alt="" coords="475,862,659,904"/>
-<area shape="rect" id="node43" href="$classMWGui_1_1SaveGameDialog.html#a1cf5a8197298f665ac7934c98a4b48ce" title="MWGui::SaveGameDialog\l::onKeyButtonPressed" alt="" coords="240,738,424,780"/>
-<area shape="rect" id="node44" href="$classMWGui_1_1SaveGameDialog.html#ab920053df7c50ae029efe694f93e0dc3" title="MWGui::SaveGameDialog\l::onEditSelectAccept" alt="" coords="240,621,424,662"/>
-<area shape="rect" id="node45" href="$classMWGui_1_1SaveGameDialog.html#a0d8ac938b2d282d4fb478b6820673fa1" title="MWGui::SaveGameDialog\l::onSaveNameChanged" alt="" coords="707,1521,891,1562"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1SaveGameDialog.html#aa25940916c10ed75e16b62e5e013b857" title="MWGui::SaveGameDialog\l::accept" alt="" coords="707,424,891,465"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1669,950,1864,976"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="1427,774,1592,816"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="1416,584,1603,625"/>
-<area shape="rect" id="node8" href="$classMWBase_1_1WindowManager.html#a44278ba1956ea9dea0dc636983291834" title="MWBase::WindowManager\l::getConfirmationDialog" alt="" coords="943,657,1129,698"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1ConfirmationDialog.html#a586c6ab382eaddb22b5819b3b782a23d" title="MWGui::ConfirmationDialog\l::askForConfirmation" alt="" coords="939,489,1133,530"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea" title="Sets the visibility of the window. " alt="" coords="1193,314,1353,356"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1SaveGameDialog.html#aec975d9c2b51a8b80b22e20b3915d1cc" title="MWGui::SaveGameDialog\l::onConfirmationGiven" alt="" coords="944,424,1128,465"/>
-<area shape="rect" id="node15" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="943,60,1129,101"/>
-<area shape="rect" id="node16" href="$classMWBase_1_1WindowManager.html#ab36f5f1555718fb7cdfa2683a5779356" title="can be anywhere in the stack " alt="" coords="943,125,1129,166"/>
-<area shape="rect" id="node17" href="$classMWBase_1_1Environment.html#ae60832df5f6fa126b04ebae43e075bfd" title="MWBase::Environment\l::getStateManager" alt="" coords="1191,926,1356,968"/>
-<area shape="rect" id="node18" href="$classMWBase_1_1StateManager.html#a99de4d766e4b9bd71eff4634f9e1d571" title="MWBase::StateManager\l::saveGame" alt="" coords="949,190,1123,232"/>
-<area shape="rect" id="node19" href="$classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93" title="MWBase::StateManager\l::loadGame" alt="" coords="949,256,1123,297"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c" title="MWGui::WindowBase::\lcenter" alt="" coords="1193,489,1353,530"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" title="Notify that window has been made visible. " alt="" coords="1413,351,1605,378"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" title="Notify that window has been hidden. " alt="" coords="1429,285,1589,326"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1SaveGameDialog.html#aa2e7df45d9b943336269a5a6fe1aab99" title="Gracefully exits the window. " alt="" coords="707,154,891,196"/>
-<area shape="rect" id="node23" href="$classMWGui_1_1SaveGameDialog.html#a12b83b22ef352e7cbd178edc48bb2e5e" title="MWGui::SaveGameDialog\l::confirmDeleteSave" alt="" coords="475,741,659,782"/>
-<area shape="rect" id="node24" href="$classMWGui_1_1SaveGameDialog.html#a543fc51bed00e2f3f0cccd04699e9bfc" title="MWGui::SaveGameDialog\l::onDeleteSlotConfirmed" alt="" coords="707,982,891,1024"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1StateManager.html#a551779a4b0d452753ce081f7bc573040" title="MWBase::StateManager\l::deleteGame" alt="" coords="949,1041,1123,1082"/>
-<area shape="rect" id="node40" href="$classMWGui_1_1SaveGameDialog.html#a915ec7166a1a42ffda585336d647ecc4" title="MWGui::SaveGameDialog\l::fillSaveList" alt="" coords="1181,1044,1365,1085"/>
-<area shape="rect" id="node27" href="$classMWState_1_1Character.html#a46d862d1d655b0732474635994d57bbb" title="Any call to createSlot and updateSlot can invalidate the returned iterator. " alt="" coords="1691,1117,1842,1158"/>
-<area shape="rect" id="node28" href="$classMWState_1_1Character.html#af3c9879ded43ca7f911247d91119adab" title="MWState::Character::end" alt="" coords="1675,1059,1858,1086"/>
-<area shape="rect" id="node29" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1684,1197,1849,1238"/>
-<area shape="rect" id="node30" href="$classMWBase_1_1World.html#a7796036e96d42bbe0e3117ce0e089b28" title="Return name of month (&#45;1: current month) " alt="" coords="1653,1263,1880,1290"/>
-<area shape="rect" id="node31" href="$classSettings_1_1Manager.html#a7e998aa8bd957a6852d4232facb801a2" title="Settings::Manager::\lgetBool" alt="" coords="1693,1314,1840,1356"/>
-<area shape="rect" id="node36" href="$namespaceMWGui.html#a6a744b5d80973c41992f394b17dfd328" title="MWGui::formatTimeplayed" alt="" coords="1672,1380,1861,1407"/>
-<area shape="rect" id="node32" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="1928,1281,2120,1322"/>
-<area shape="rect" id="node35" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="1951,1346,2097,1388"/>
-<area shape="rect" id="node33" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="2169,1281,2301,1322"/>
-<area shape="rect" id="node34" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="2350,1281,2482,1322"/>
-<area shape="rect" id="node38" href="$classMWBase_1_1StateManager.html#aa737a1cbe9de84a99cc19c3881071cf6" title="MWBase::StateManager\l::characterBegin" alt="" coords="1186,1226,1361,1268"/>
-<area shape="rect" id="node39" href="$classMWBase_1_1StateManager.html#a08aee180fce373e834603b2ca481bdd4" title="MWBase::StateManager\l::characterEnd" alt="" coords="1186,1161,1361,1202"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab" title="MWGui::Layout::getWidget" alt="" coords="238,5,426,32"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1SaveGameDialog.html#a9c9a8986a61321f24386d6a6063f7247" title="MWGui::SaveGameDialog\l::onOkButtonClicked" alt="" coords="240,1053,424,1094"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1SaveGameDialog.html#a3651fdd6be62f461ac1311dba253176e" title="MWGui::SaveGameDialog\l::onCancelButtonClicked" alt="" coords="476,1751,660,1793"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1SaveGameDialog.html#a41f7a0971df38cb57418f6cfaaa000cd" title="MWGui::SaveGameDialog\l::onDeleteButtonClicked" alt="" coords="240,733,424,774"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1SaveGameDialog.html#a2fe28da1d982c2876863c81fbb0c4c2c" title="MWGui::SaveGameDialog\l::onSlotSelected" alt="" coords="1419,259,1603,301"/>
+<area shape="rect" id="node38" href="$classMWGui_1_1SaveGameDialog.html#acb500f0132909a7c5bd94c2e13fc2e5b" title="MWGui::SaveGameDialog\l::onCharacterSelected" alt="" coords="952,333,1136,374"/>
+<area shape="rect" id="node43" href="$classMWGui_1_1SaveGameDialog.html#a1714b8246b4dde5ad6aaa7c5731ce89c" title="MWGui::SaveGameDialog\l::onCharacterAccept" alt="" coords="952,835,1136,877"/>
+<area shape="rect" id="node44" href="$classMWGui_1_1SaveGameDialog.html#a6522022ba221e2509fbf2cc8fc27ab4f" title="MWGui::SaveGameDialog\l::onSlotMouseClick" alt="" coords="240,537,424,578"/>
+<area shape="rect" id="node45" href="$classMWGui_1_1SaveGameDialog.html#a9b4b71fd79fc8bdd73aa13e1a1c2586b" title="MWGui::SaveGameDialog\l::onSlotActivated" alt="" coords="240,667,424,709"/>
+<area shape="rect" id="node46" href="$classMWGui_1_1SaveGameDialog.html#a1cf5a8197298f665ac7934c98a4b48ce" title="MWGui::SaveGameDialog\l::onKeyButtonPressed" alt="" coords="240,602,424,643"/>
+<area shape="rect" id="node47" href="$classMWGui_1_1SaveGameDialog.html#ab920053df7c50ae029efe694f93e0dc3" title="MWGui::SaveGameDialog\l::onEditSelectAccept" alt="" coords="240,1627,424,1669"/>
+<area shape="rect" id="node49" href="$classMWGui_1_1SaveGameDialog.html#a0d8ac938b2d282d4fb478b6820673fa1" title="MWGui::SaveGameDialog\l::onSaveNameChanged" alt="" coords="476,107,660,149"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1SaveGameDialog.html#aa25940916c10ed75e16b62e5e013b857" title="MWGui::SaveGameDialog\l::accept" alt="" coords="476,1235,660,1277"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1667,843,1861,869"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="1195,1163,1360,1205"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="1184,894,1371,935"/>
+<area shape="rect" id="node8" href="$classMWBase_1_1WindowManager.html#a44278ba1956ea9dea0dc636983291834" title="MWBase::WindowManager\l::getConfirmationDialog" alt="" coords="713,871,900,913"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1ConfirmationDialog.html#aab75f39a7f7857b3bae9d0380b50ac37" title="MWGui::ConfirmationDialog\l::askForConfirmation" alt="" coords="709,1046,904,1087"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea" title="Sets the visibility of the window. " alt="" coords="964,1701,1124,1742"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1SaveGameDialog.html#aec975d9c2b51a8b80b22e20b3915d1cc" title="MWGui::SaveGameDialog\l::onConfirmationGiven" alt="" coords="715,1265,899,1306"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1SaveGameDialog.html#a112c15bbaae110184cd2757a7e6ba4e7" title="MWGui::SaveGameDialog\l::onConfirmationCancel" alt="" coords="952,1222,1136,1263"/>
+<area shape="rect" id="node16" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="713,1330,900,1371"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1Environment.html#ae60832df5f6fa126b04ebae43e075bfd" title="MWBase::Environment\l::getStateManager" alt="" coords="1195,566,1360,607"/>
+<area shape="rect" id="node18" href="$classMWBase_1_1StateManager.html#a6a3c99c541f6498df017949596cc44d3" title="MWBase::StateManager\l::getState" alt="" coords="719,1395,894,1437"/>
+<area shape="rect" id="node19" href="$classMWBase_1_1WindowManager.html#a06cceabaf883f8f8d017398f8b349c6a" title="can be anywhere in the stack " alt="" coords="713,1461,900,1502"/>
+<area shape="rect" id="node20" href="$classMWBase_1_1StateManager.html#a99de4d766e4b9bd71eff4634f9e1d571" title="MWBase::StateManager\l::saveGame" alt="" coords="719,1526,894,1567"/>
+<area shape="rect" id="node21" href="$classMWBase_1_1StateManager.html#aa51b82861d3d7bfbb52d8852785b5b93" title="MWBase::StateManager\l::loadGame" alt="" coords="719,1591,894,1633"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c" title="MWGui::WindowBase::\lcenter" alt="" coords="964,1054,1124,1095"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" title="Notify that window has been made visible. " alt="" coords="1197,1606,1357,1647"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" title="Notify that window has been hidden. " alt="" coords="1197,1671,1357,1713"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1SaveGameDialog.html#a12b83b22ef352e7cbd178edc48bb2e5e" title="MWGui::SaveGameDialog\l::confirmDeleteSave" alt="" coords="476,711,660,753"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1SaveGameDialog.html#a543fc51bed00e2f3f0cccd04699e9bfc" title="MWGui::SaveGameDialog\l::onDeleteSlotConfirmed" alt="" coords="715,493,899,534"/>
+<area shape="rect" id="node42" href="$classMWGui_1_1SaveGameDialog.html#aa9fbee4c400b1d388315aeae782f555c" title="MWGui::SaveGameDialog\l::onDeleteSlotCancel" alt="" coords="952,770,1136,811"/>
+<area shape="rect" id="node26" href="$classMWBase_1_1StateManager.html#a551779a4b0d452753ce081f7bc573040" title="MWBase::StateManager\l::deleteGame" alt="" coords="957,551,1131,593"/>
+<area shape="rect" id="node41" href="$classMWGui_1_1SaveGameDialog.html#a915ec7166a1a42ffda585336d647ecc4" title="MWGui::SaveGameDialog\l::fillSaveList" alt="" coords="1185,449,1369,490"/>
+<area shape="rect" id="node28" href="$classMWState_1_1Character.html#a46d862d1d655b0732474635994d57bbb" title="Any call to createSlot and updateSlot can invalidate the returned iterator. " alt="" coords="1689,379,1839,421"/>
+<area shape="rect" id="node29" href="$classMWState_1_1Character.html#af3c9879ded43ca7f911247d91119adab" title="MWState::Character::end" alt="" coords="1673,448,1855,475"/>
+<area shape="rect" id="node30" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1681,143,1847,185"/>
+<area shape="rect" id="node31" href="$classMWBase_1_1World.html#a7796036e96d42bbe0e3117ce0e089b28" title="Return name of month (&#45;1: current month) " alt="" coords="1651,209,1877,236"/>
+<area shape="rect" id="node32" href="$classSettings_1_1Manager.html#a7e998aa8bd957a6852d4232facb801a2" title="Settings::Manager::\lgetBool" alt="" coords="1691,261,1837,302"/>
+<area shape="rect" id="node37" href="$namespaceMWGui.html#a6a744b5d80973c41992f394b17dfd328" title="MWGui::formatTimeplayed" alt="" coords="1669,327,1859,353"/>
+<area shape="rect" id="node33" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="1925,227,2117,269"/>
+<area shape="rect" id="node36" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="1948,293,2095,334"/>
+<area shape="rect" id="node34" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="2166,227,2298,269"/>
+<area shape="rect" id="node35" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="2347,227,2479,269"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1StateManager.html#aa737a1cbe9de84a99cc19c3881071cf6" title="MWBase::StateManager\l::characterBegin" alt="" coords="1190,318,1365,359"/>
+<area shape="rect" id="node40" href="$classMWBase_1_1StateManager.html#a08aee180fce373e834603b2ca481bdd4" title="MWBase::StateManager\l::characterEnd" alt="" coords="1190,383,1365,425"/>
+<area shape="rect" id="node48" href="$classMWBase_1_1WindowManager.html#ac60913d1e24735ffe17cb7adfe76c22e" title="MWBase::WindowManager\l::injectKeyRelease" alt="" coords="475,1686,661,1727"/>
 </map>

@@ -1,21 +1,25 @@
 <map id="MWGui::ItemView::setModel" name="MWGui::ItemView::setModel">
-<area shape="rect" id="node2" href="$classMWGui_1_1ContainerWindow.html#a91ae27e6c44e4485e6e2be2d93191299" title="MWGui::ContainerWindow\l::openContainer" alt="" coords="261,5,443,46"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1ContainerWindow.html#a74d7368fb0e82d4f92d63eeae71192be" title="MWGui::ContainerWindow\l::resetReference" alt="" coords="261,70,443,111"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1AlchemyWindow.html#a966b6a80cf844ee7d748f051f05ab84d" title="Notify that window has been made visible. " alt="" coords="265,135,439,177"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1CompanionWindow.html#aca450f1bd162b6a90b9b5a72a71e4c8b" title="MWGui::CompanionWindow\l::openCompanion" alt="" coords="255,331,449,373"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1CompanionWindow.html#a5e9b5e2ddb4e2122733208fabbdfc37d" title="MWGui::CompanionWindow\l::resetReference" alt="" coords="255,201,449,242"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1InventoryWindow.html#ac5f6f76f63fb66965502782ba35f39ec" title="MWGui::InventoryWindow\l::updatePlayer" alt="" coords="263,397,441,438"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1ItemSelectionDialog.html#acb5ba5d63dfa2e98b12a4f8064fe3d8f" title="MWGui::ItemSelectionDialog\l::openContainer" alt="" coords="251,494,453,535"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1TradeWindow.html#ac73ae6dffb80f0f6977d8f99d14adafa" title="MWGui::TradeWindow\l::startTrade" alt="" coords="275,591,429,633"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1TradeWindow.html#a2efc58e97b839b8b692b5717bfac4bdc" title="MWGui::TradeWindow\l::resetReference" alt="" coords="275,266,429,307"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1WindowManager.html#aad6ad9c6fd5953271278ae322ba590dd" title="MWGui::WindowManager\l::openContainer" alt="" coords="505,5,681,46"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1WindowManager.html#a9825efe2509280a4e509c80fdb140513" title="Clear all savegame&#45;specific data. " alt="" coords="505,201,681,242"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1WindowManager.html#a678823d516ff55e041cc33a93f3add8c" title="MWGui::WindowManager\l::showCompanionWindow" alt="" coords="502,314,685,355"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1WindowManager.html#a0473842e2a7a08cf0b0e0e9d7e70be8e" title="MWGui::WindowManager\l::updatePlayer" alt="" coords="505,379,681,421"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1EnchantingDialog.html#aa778386295ae9f821c33ba9da98956bb" title="MWGui::EnchantingDialog\l::onSelectItem" alt="" coords="501,445,685,486"/>
-<area shape="rect" id="node15" href="$classMWGui_1_1EnchantingDialog.html#aa4cabca3a6b66a5492f1fe1fc86a47d6" title="MWGui::EnchantingDialog\l::onSelectSoul" alt="" coords="501,510,685,551"/>
-<area shape="rect" id="node16" href="$classMWGui_1_1QuickKeysMenu.html#afbef74b29d3ecb69d2b71374465bb480" title="MWGui::QuickKeysMenu\l::onItemButtonClicked" alt="" coords="507,575,679,617"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1EnchantingDialog.html#a15630e6153b49f15b018e7432a8cb1d2" title="MWGui::EnchantingDialog\l::EnchantingDialog" alt="" coords="749,478,933,519"/>
-<area shape="rect" id="node17" href="$classMWGui_1_1QuickKeysMenuAssign.html#a446a40f6d521517f2579049f81940a64" title="MWGui::QuickKeysMenuAssign\l::QuickKeysMenuAssign" alt="" coords="734,575,949,617"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#a4b7027f6a09b5ab6a55cd57862afc16d" title="MWGui::WindowManager\l::startTrade" alt="" coords="505,641,681,682"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1ContainerWindow.html#ad7ba4403c54159736b016b5343935f9b" title="Open this object in the GUI, for windows that support it. " alt="" coords="261,5,443,46"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1ContainerWindow.html#a74d7368fb0e82d4f92d63eeae71192be" title="MWGui::ContainerWindow\l::resetReference" alt="" coords="261,70,443,111"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1AlchemyWindow.html#a81bd2ae3af336bd34f55c2ce34298ae6" title="Notify that window has been made visible. " alt="" coords="265,135,439,177"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1CompanionWindow.html#a52f4515aace3f078cea11e428d143d9c" title="Open this object in the GUI, for windows that support it. " alt="" coords="255,201,449,242"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1CompanionWindow.html#a5e9b5e2ddb4e2122733208fabbdfc37d" title="MWGui::CompanionWindow\l::resetReference" alt="" coords="255,266,449,307"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1InventoryWindow.html#ac5f6f76f63fb66965502782ba35f39ec" title="MWGui::InventoryWindow\l::updatePlayer" alt="" coords="263,331,441,373"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1InventoryWindow.html#acaf9b7d88773a0087da4095ab1bb0ec6" title="Clear any state specific to the running game. " alt="" coords="263,397,441,438"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1ItemSelectionDialog.html#acb5ba5d63dfa2e98b12a4f8064fe3d8f" title="MWGui::ItemSelectionDialog\l::openContainer" alt="" coords="251,462,453,503"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1TradeWindow.html#a456eb7b22f9a5d6624b82ed0e6c7d587" title="Open this object in the GUI, for windows that support it. " alt="" coords="275,527,429,569"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1TradeWindow.html#a2efc58e97b839b8b692b5717bfac4bdc" title="MWGui::TradeWindow\l::resetReference" alt="" coords="275,618,429,659"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1ContainerWindow.html#a8e4e9e374ff29f3081c5e629f781e318" title="Clear any state specific to the running game. " alt="" coords="523,70,706,111"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1CompanionWindow.html#aa4e015a14da2085dc30cf8713d1d04b4" title="Clear any state specific to the running game. " alt="" coords="518,239,711,281"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1WindowManager.html#a0473842e2a7a08cf0b0e0e9d7e70be8e" title="MWGui::WindowManager\l::updatePlayer" alt="" coords="527,305,703,346"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1Repair.html#a7b39efc414bc60173431ca193443b1de" title="MWGui::Repair::onSelectItem" alt="" coords="512,371,717,397"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1EnchantingDialog.html#aa778386295ae9f821c33ba9da98956bb" title="MWGui::EnchantingDialog\l::onSelectItem" alt="" coords="523,422,707,463"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1EnchantingDialog.html#aa4cabca3a6b66a5492f1fe1fc86a47d6" title="MWGui::EnchantingDialog\l::onSelectSoul" alt="" coords="523,487,707,529"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1QuickKeysMenu.html#afbef74b29d3ecb69d2b71374465bb480" title="MWGui::QuickKeysMenu\l::onItemButtonClicked" alt="" coords="529,553,701,594"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1Recharge.html#ad589e0c8d7e68899bd55828d4f573bd3" title="MWGui::Recharge::onSelectItem" alt="" coords="502,619,727,645"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1Repair.html#aac4c82f62b3fd95b0e5caf0747f37edd" title="MWGui::Repair::Repair" alt="" coords="805,371,963,397"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1EnchantingDialog.html#a15630e6153b49f15b018e7432a8cb1d2" title="MWGui::EnchantingDialog\l::EnchantingDialog" alt="" coords="792,455,976,497"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1QuickKeysMenuAssign.html#a446a40f6d521517f2579049f81940a64" title="MWGui::QuickKeysMenuAssign\l::QuickKeysMenuAssign" alt="" coords="777,553,991,594"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1Recharge.html#ac784d7f3d77e54934047e5c4e5db8815" title="MWGui::Recharge::Recharge" alt="" coords="785,619,983,645"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1TradeWindow.html#a51d01f388c01f43013b8cb6e29e19e5a" title="Clear any state specific to the running game. " alt="" coords="537,670,692,711"/>
 </map>

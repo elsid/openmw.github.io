@@ -1,30 +1,25 @@
 <map id="MWSound::SoundManager" name="MWSound::SoundManager">
-<area shape="rect" id="node35" href="$classMWSound_1_1Sound__Output.html" title="{MWSound::Sound_Output\n||+ ~Sound_Output()\l+ isInitialized()\l# Sound_Output()\l&#45; enumerate()\l&#45; init()\l&#45; deinit()\l&#45; enumerateHrtf()\l&#45; enableHrtf()\l&#45; disableHrtf()\l&#45; loadSound()\l&#45; unloadSound()\l&#45; getSoundDataSize()\l&#45; playSound()\land 19 more...\l}" alt="" coords="1990,2531,2175,2799"/>
-<area shape="rect" id="node2" href="$classMWBase_1_1SoundManager.html" title="Interface for sound manager (implemented in MWSound) " alt="" coords="4393,1704,4599,1957"/>
-<area shape="rect" id="node5" href="$classMWSound_1_1Sound__Buffer.html" title="{MWSound::Sound_Buffer\n||+ Sound_Buffer()\l}" alt="" coords="215,865,393,943"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1CellStore.html" title="Mutable state of a cell. " alt="" coords="2387,719,2545,1089"/>
-<area shape="rect" id="node32" href="$classMWWorld_1_1ContainerStore.html" title="{MWWorld::ContainerStore\n|+ Type_Potion\l+ Type_Weapon\l+ Type_Last\l+ Type_All\l|+ ContainerStore()\l+ ~ContainerStore()\l+ clone()\l+ begin()\l+ end()\l+ add()\l+ add()\l+ remove()\l+ remove()\l+ unstack()\land 13 more...\l+ getType()\l# addNewStack()\l# flagAsModified()\l&#45; addImp()\l&#45; addInitialItem()\l&#45; getState()\l&#45; storeState()\l&#45; storeStates()\l&#45; storeEquipmentState()\l&#45; readEquipmentState()\l}" alt="" coords="1558,697,1740,1111"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="713,157,799,235"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="687,6,824,98"/>
-<area shape="rect" id="node11" href="$classFallback_1_1Map.html" title="contains settings imported from the Morrowind INI file. " alt="" coords="1291,1136,1449,1301"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1ConstPtr.html" title="Pointer to a const LiveCellRef. " alt="" coords="2062,1325,2244,1579"/>
-<area shape="rect" id="node17" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2169,401,2329,522"/>
-<area shape="rect" id="node18" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Ingredient \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1817,401,1969,522"/>
-<area shape="rect" id="node19" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::CreatureLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2939,401,3127,522"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1PathgridGraph.html" title="{MWMechanics::PathgridGraph\n||+ PathgridGraph()\l+ load()\l+ isPointConnected()\l+ aStarSearch()\l&#45; recursiveStrongConnect()\l&#45; buildConnectedPoints()\l}" alt="" coords="3152,386,3361,537"/>
-<area shape="rect" id="node21" href="$classint.html" title="{int\n||}" alt="" coords="1819,157,1857,235"/>
-<area shape="rect" id="node23" href="$classMWWorld_1_1ESMStore.html" title="{MWWorld::ESMStore\n||+ begin()\l+ end()\l+ find()\l+ ESMStore()\l+ clearDynamic()\l+ movePlayerRecord()\l+ load()\l+ get()\l+ insert()\l+ overrideRecord()\l+ insertStatic()\l+ setUp()\l+ countSavedGameRecords()\l+ write()\l+ readRecord()\l}" alt="" coords="2703,320,2915,603"/>
-<area shape="rect" id="node22" href="$classbool.html" title="{bool\n||}" alt="" coords="4043,157,4092,235"/>
-<area shape="rect" id="node40" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="4211,807,4377,1001"/>
-<area shape="rect" id="node24" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Weapon \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2529,401,2679,522"/>
-<area shape="rect" id="node25" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Container \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3387,401,3537,522"/>
-<area shape="rect" id="node26" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Lockpick \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2354,401,2504,522"/>
-<area shape="rect" id="node27" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Static \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3562,401,3712,522"/>
-<area shape="rect" id="node28" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Creature \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="3737,401,3887,522"/>
-<area shape="rect" id="node29" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Clothing \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1467,401,1617,522"/>
-<area shape="rect" id="node30" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Book \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1642,401,1792,522"/>
-<area shape="rect" id="node33" href="$structMWWorld_1_1LiveCellRefBase.html" title="Used to create pointers to hold any type of LiveCellRef&lt;&gt; object. " alt="" coords="2061,821,2245,987"/>
-<area shape="rect" id="node37" title="STL class. " alt="" coords="2438,1413,2564,1491"/>
-<area shape="rect" id="node42" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="4359,150,4437,242"/>
-<area shape="rect" id="node44" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="4476,150,4605,242"/>
+<area shape="rect" id="node4" href="$classMWSound_1_1Sound__Output.html" title="{MWSound::Sound_Output\n||+ ~Sound_Output()\l+ isInitialized()\l# Sound_Output()\l&#45; enumerate()\l&#45; init()\l&#45; deinit()\l&#45; enumerateHrtf()\l&#45; setHrtf()\l&#45; loadSound()\l&#45; unloadSound()\l&#45; playSound()\l&#45; playSound3D()\l&#45; finishSound()\land 17 more...\l}" alt="" coords="2943,2579,3128,2847"/>
+<area shape="rect" id="node2" href="$classMWBase_1_1SoundManager.html" title="Interface for sound manager (implemented in MWSound) " alt="" coords="3082,1781,3288,2035"/>
+<area shape="rect" id="node5" href="$classbool.html" title="{bool\n||}" alt="" coords="1187,489,1236,567"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1CellStore.html" title="Mutable state of a cell. " alt="" coords="1925,764,2084,1135"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1ContainerStore.html" title="{MWWorld::ContainerStore\n|+ Type_Potion\l+ Type_Weapon\l+ Type_Last\l+ Type_All\l|+ ContainerStore()\l+ ~ContainerStore()\l+ clone()\l+ cbegin()\l+ cend()\l+ begin()\l+ end()\l+ begin()\l+ end()\l+ add()\land 19 more...\l+ getType()\l# addNewStack()\l# flagAsModified()\l&#45; addImp()\l&#45; addInitialItem()\l&#45; getState()\l&#45; storeState()\l&#45; storeStates()\l&#45; storeEquipmentState()\l&#45; readEquipmentState()\l}" alt="" coords="2382,742,2564,1157"/>
+<area shape="rect" id="node32" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="815,845,981,1054"/>
+<area shape="rect" id="node6" href="$classFallback_1_1Map.html" title="contains settings imported from the Morrowind INI file. " alt="" coords="3101,1181,3259,1347"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="3021,157,3107,235"/>
+<area shape="rect" id="node38" href="$classMWSound_1_1Sound__Buffer.html" title="{MWSound::Sound_Buffer\n||+ Sound_Buffer()\l}" alt="" coords="457,489,636,567"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="2995,6,3132,98"/>
+<area shape="rect" id="node13" href="$classMWSound_1_1Stream.html" title="{MWSound::Stream\n||+ Stream()\l&#45; operator=()\l&#45; Stream()\l&#45; Stream()\l}" alt="" coords="1419,889,1559,1010"/>
+<area shape="rect" id="node14" href="$classMWSound_1_1SoundBase.html" title="{MWSound::SoundBase\n||+ setPosition()\l+ setVolume()\l+ setBaseVolume()\l+ setFadeout()\l+ updateFade()\l+ getPosition()\l+ getRealVolume()\l+ getPitch()\l+ getMinDistance()\l+ getMaxDistance()\land 8 more...\l&#45; operator=()\l&#45; SoundBase()\l&#45; SoundBase()\l}" alt="" coords="997,394,1163,662"/>
+<area shape="rect" id="node44" href="$classMWSound_1_1Sound.html" title="{MWSound::Sound\n||+ Sound()\l&#45; operator=()\l&#45; Sound()\l&#45; Sound()\l}" alt="" coords="1013,889,1147,1010"/>
+<area shape="rect" id="node16" href="$classint.html" title="{int\n||}" alt="" coords="2471,157,2509,235"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1ESMStore.html" title="{MWWorld::ESMStore\n||+ begin()\l+ end()\l+ find()\l+ ESMStore()\l+ clearDynamic()\l+ movePlayerRecord()\l+ load()\l+ get()\l+ insert()\l+ overrideRecord()\l+ insertStatic()\l+ setUp()\l+ countSavedGameRecords()\l+ write()\l+ readRecord()\l&#45; validate()\l}" alt="" coords="1893,379,2104,677"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1ConstPtr.html" title="Pointer to a const LiveCellRef. " alt="" coords="2382,1371,2564,1639"/>
+<area shape="rect" id="node22" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1495,467,1656,589"/>
+<area shape="rect" id="node23" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Ingredient \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2129,467,2281,589"/>
+<area shape="rect" id="node24" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::CreatureLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1681,467,1868,589"/>
+<area shape="rect" id="node27" href="$structMWWorld_1_1LiveCellRefBase.html" title="Used to create pointers to hold any type of LiveCellRef&lt;&gt; object. " alt="" coords="2173,867,2357,1032"/>
+<area shape="rect" id="node28" title="STL class. " alt="" coords="2034,1467,2160,1544"/>
+<area shape="rect" id="node34" href="$classVFS_1_1File.html" title="{VFS::File\n||+ ~File()\l+ open()\l}" alt="" coords="1013,150,1091,242"/>
+<area shape="rect" id="node36" href="$classVFS_1_1Archive.html" title="{VFS::Archive\n||+ ~Archive()\l+ listResources()\l}" alt="" coords="45,150,175,242"/>
 </map>

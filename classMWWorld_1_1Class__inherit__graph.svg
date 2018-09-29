@@ -27,7 +27,7 @@
 <text text-anchor="start" x="1491" y="-647.5" font-family="FreeSans" font-size="10.00">+ hasToolTip()</text>
 <text text-anchor="start" x="1491" y="-636.5" font-family="FreeSans" font-size="10.00">+ getToolTipInfo()</text>
 <text text-anchor="start" x="1491" y="-625.5" font-family="FreeSans" font-size="10.00">+ showsInInventory()</text>
-<text text-anchor="start" x="1491" y="-614.5" font-family="FreeSans" font-size="10.00">and 78 more...</text>
+<text text-anchor="start" x="1491" y="-614.5" font-family="FreeSans" font-size="10.00">and 81 more...</text>
 <text text-anchor="start" x="1491" y="-603.5" font-family="FreeSans" font-size="10.00">+ get()</text>
 <text text-anchor="start" x="1491" y="-592.5" font-family="FreeSans" font-size="10.00">+ registerClass()</text>
 <text text-anchor="start" x="1491" y="-581.5" font-family="FreeSans" font-size="10.00"># Class()</text>
@@ -38,57 +38,60 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWClass_1_1Activator.html" target="_top" xlink:title="{MWClass::Activator\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ hasToolTip()\l+ allowTelekinesis()\l+ getToolTipInfo()\l+ getScript()\l+ activate()\l+ getModel()\l+ registerSelf()\l&#45; copyToCellImpl()\l}">
-<polygon fill="white" stroke="black" points="0,-293.5 0,-460.5 140,-460.5 140,-293.5 0,-293.5"/>
-<text text-anchor="middle" x="70" y="-448.5" font-family="FreeSans" font-size="10.00">MWClass::Activator</text>
-<polyline fill="none" stroke="black" points="0,-441.5 140,-441.5 "/>
-<text text-anchor="middle" x="70" y="-429.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="0,-422.5 140,-422.5 "/>
-<text text-anchor="start" x="8" y="-410.5" font-family="FreeSans" font-size="10.00">+ insertObjectRendering()</text>
-<text text-anchor="start" x="8" y="-399.5" font-family="FreeSans" font-size="10.00">+ insertObject()</text>
-<text text-anchor="start" x="8" y="-388.5" font-family="FreeSans" font-size="10.00">+ getName()</text>
-<text text-anchor="start" x="8" y="-377.5" font-family="FreeSans" font-size="10.00">+ hasToolTip()</text>
-<text text-anchor="start" x="8" y="-366.5" font-family="FreeSans" font-size="10.00">+ allowTelekinesis()</text>
-<text text-anchor="start" x="8" y="-355.5" font-family="FreeSans" font-size="10.00">+ getToolTipInfo()</text>
-<text text-anchor="start" x="8" y="-344.5" font-family="FreeSans" font-size="10.00">+ getScript()</text>
-<text text-anchor="start" x="8" y="-333.5" font-family="FreeSans" font-size="10.00">+ activate()</text>
-<text text-anchor="start" x="8" y="-322.5" font-family="FreeSans" font-size="10.00">+ getModel()</text>
-<text text-anchor="start" x="8" y="-311.5" font-family="FreeSans" font-size="10.00">+ registerSelf()</text>
-<text text-anchor="start" x="8" y="-300.5" font-family="FreeSans" font-size="10.00">&#45; copyToCellImpl()</text>
+<g id="a_node2"><a xlink:href="classMWClass_1_1Activator.html" target="_top" xlink:title="{MWClass::Activator\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ hasToolTip()\l+ allowTelekinesis()\l+ getToolTipInfo()\l+ getScript()\l+ activate()\l+ getModel()\l+ useAnim()\l+ isActivator()\l+ registerSelf()\l&#45; copyToCellImpl()\l}">
+<polygon fill="white" stroke="black" points="0,-282.5 0,-471.5 140,-471.5 140,-282.5 0,-282.5"/>
+<text text-anchor="middle" x="70" y="-459.5" font-family="FreeSans" font-size="10.00">MWClass::Activator</text>
+<polyline fill="none" stroke="black" points="0,-452.5 140,-452.5 "/>
+<text text-anchor="middle" x="70" y="-440.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="0,-433.5 140,-433.5 "/>
+<text text-anchor="start" x="8" y="-421.5" font-family="FreeSans" font-size="10.00">+ insertObjectRendering()</text>
+<text text-anchor="start" x="8" y="-410.5" font-family="FreeSans" font-size="10.00">+ insertObject()</text>
+<text text-anchor="start" x="8" y="-399.5" font-family="FreeSans" font-size="10.00">+ getName()</text>
+<text text-anchor="start" x="8" y="-388.5" font-family="FreeSans" font-size="10.00">+ hasToolTip()</text>
+<text text-anchor="start" x="8" y="-377.5" font-family="FreeSans" font-size="10.00">+ allowTelekinesis()</text>
+<text text-anchor="start" x="8" y="-366.5" font-family="FreeSans" font-size="10.00">+ getToolTipInfo()</text>
+<text text-anchor="start" x="8" y="-355.5" font-family="FreeSans" font-size="10.00">+ getScript()</text>
+<text text-anchor="start" x="8" y="-344.5" font-family="FreeSans" font-size="10.00">+ activate()</text>
+<text text-anchor="start" x="8" y="-333.5" font-family="FreeSans" font-size="10.00">+ getModel()</text>
+<text text-anchor="start" x="8" y="-322.5" font-family="FreeSans" font-size="10.00">+ useAnim()</text>
+<text text-anchor="start" x="8" y="-311.5" font-family="FreeSans" font-size="10.00">+ isActivator()</text>
+<text text-anchor="start" x="8" y="-300.5" font-family="FreeSans" font-size="10.00">+ registerSelf()</text>
+<text text-anchor="start" x="8" y="-289.5" font-family="FreeSans" font-size="10.00">&#45; copyToCellImpl()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M1472.51,-656.288C1208.72,-652.644 374.292,-630.351 149,-494 135.034,-485.547 122.967,-473.574 112.761,-460.501"/>
+<path fill="none" stroke="midnightblue" d="M1472.51,-656.288C1208.72,-652.644 374.292,-630.351 149,-494 139.099,-488.007 130.152,-480.245 122.146,-471.576"/>
 <polygon fill="none" stroke="midnightblue" points="1472.73,-659.791 1482.78,-656.424 1472.83,-652.792 1472.73,-659.791"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classMWClass_1_1Actor.html" target="_top" xlink:title="Class holding functionality common to Creature and NPC. ">
-<polygon fill="white" stroke="black" points="158.5,-288 158.5,-466 279.5,-466 279.5,-288 158.5,-288"/>
-<text text-anchor="middle" x="219" y="-454" font-family="FreeSans" font-size="10.00">MWClass::Actor</text>
-<polyline fill="none" stroke="black" points="158.5,-447 279.5,-447 "/>
-<text text-anchor="middle" x="219" y="-435" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="158.5,-428 279.5,-428 "/>
-<text text-anchor="start" x="166.5" y="-416" font-family="FreeSans" font-size="10.00">+ ~Actor()</text>
-<text text-anchor="start" x="166.5" y="-405" font-family="FreeSans" font-size="10.00">+ adjustPosition()</text>
-<text text-anchor="start" x="166.5" y="-394" font-family="FreeSans" font-size="10.00">+ insertObject()</text>
-<text text-anchor="start" x="166.5" y="-383" font-family="FreeSans" font-size="10.00">+ block()</text>
-<text text-anchor="start" x="166.5" y="-372" font-family="FreeSans" font-size="10.00">+ getRotationVector()</text>
-<text text-anchor="start" x="166.5" y="-361" font-family="FreeSans" font-size="10.00">+ getEncumbrance()</text>
-<text text-anchor="start" x="166.5" y="-350" font-family="FreeSans" font-size="10.00">+ allowTelekinesis()</text>
-<text text-anchor="start" x="166.5" y="-339" font-family="FreeSans" font-size="10.00">+ isActor()</text>
-<text text-anchor="start" x="166.5" y="-328" font-family="FreeSans" font-size="10.00">+ canBeActivated()</text>
-<text text-anchor="start" x="166.5" y="-317" font-family="FreeSans" font-size="10.00">+ Actor()</text>
-<text text-anchor="start" x="166.5" y="-306" font-family="FreeSans" font-size="10.00">+ operator=()</text>
-<text text-anchor="start" x="166.5" y="-295" font-family="FreeSans" font-size="10.00"># Actor()</text>
+<polygon fill="white" stroke="black" points="158.5,-282.5 158.5,-471.5 279.5,-471.5 279.5,-282.5 158.5,-282.5"/>
+<text text-anchor="middle" x="219" y="-459.5" font-family="FreeSans" font-size="10.00">MWClass::Actor</text>
+<polyline fill="none" stroke="black" points="158.5,-452.5 279.5,-452.5 "/>
+<text text-anchor="middle" x="219" y="-440.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="158.5,-433.5 279.5,-433.5 "/>
+<text text-anchor="start" x="166.5" y="-421.5" font-family="FreeSans" font-size="10.00">+ ~Actor()</text>
+<text text-anchor="start" x="166.5" y="-410.5" font-family="FreeSans" font-size="10.00">+ adjustPosition()</text>
+<text text-anchor="start" x="166.5" y="-399.5" font-family="FreeSans" font-size="10.00">+ insertObject()</text>
+<text text-anchor="start" x="166.5" y="-388.5" font-family="FreeSans" font-size="10.00">+ useAnim()</text>
+<text text-anchor="start" x="166.5" y="-377.5" font-family="FreeSans" font-size="10.00">+ block()</text>
+<text text-anchor="start" x="166.5" y="-366.5" font-family="FreeSans" font-size="10.00">+ getRotationVector()</text>
+<text text-anchor="start" x="166.5" y="-355.5" font-family="FreeSans" font-size="10.00">+ getEncumbrance()</text>
+<text text-anchor="start" x="166.5" y="-344.5" font-family="FreeSans" font-size="10.00">+ allowTelekinesis()</text>
+<text text-anchor="start" x="166.5" y="-333.5" font-family="FreeSans" font-size="10.00">+ isActor()</text>
+<text text-anchor="start" x="166.5" y="-322.5" font-family="FreeSans" font-size="10.00">+ canBeActivated()</text>
+<text text-anchor="start" x="166.5" y="-311.5" font-family="FreeSans" font-size="10.00">+ Actor()</text>
+<text text-anchor="start" x="166.5" y="-300.5" font-family="FreeSans" font-size="10.00">+ operator=()</text>
+<text text-anchor="start" x="166.5" y="-289.5" font-family="FreeSans" font-size="10.00"># Actor()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M1472.36,-655.593C1225.63,-649.92 485.734,-622.345 289,-494 277.771,-486.674 268.072,-476.86 259.779,-466.029"/>
+<path fill="none" stroke="midnightblue" d="M1472.36,-655.593C1225.63,-649.92 485.734,-622.345 289,-494 279.741,-487.96 271.522,-480.227 264.274,-471.628"/>
 <polygon fill="none" stroke="midnightblue" points="1472.61,-659.099 1482.69,-655.824 1472.77,-652.101 1472.61,-659.099"/>
 </g>
 <!-- Node6 -->
@@ -235,7 +238,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classMWClass_1_1Container.html" target="_top" xlink:title="{MWClass::Container\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ activate()\l+ hasToolTip()\l+ getToolTipInfo()\l+ getContainerStore()\l+ getScript()\l+ getCapacity()\l+ getEncumbrance()\land 8 more...\l+ registerSelf()\l&#45; ensureCustomData()\l&#45; copyToCellImpl()\l}">
+<g id="a_node11"><a xlink:href="classMWClass_1_1Container.html" target="_top" xlink:title="{MWClass::Container\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ activate()\l+ hasToolTip()\l+ getToolTipInfo()\l+ getContainerStore()\l+ getScript()\l+ getCapacity()\l+ getEncumbrance()\land 9 more...\l+ registerSelf()\l&#45; ensureCustomData()\l&#45; copyToCellImpl()\l}">
 <polygon fill="white" stroke="black" points="1088,-277 1088,-477 1228,-477 1228,-277 1088,-277"/>
 <text text-anchor="middle" x="1158" y="-465" font-family="FreeSans" font-size="10.00">MWClass::Container</text>
 <polyline fill="none" stroke="black" points="1088,-458 1228,-458 "/>
@@ -251,7 +254,7 @@
 <text text-anchor="start" x="1096" y="-350" font-family="FreeSans" font-size="10.00">+ getScript()</text>
 <text text-anchor="start" x="1096" y="-339" font-family="FreeSans" font-size="10.00">+ getCapacity()</text>
 <text text-anchor="start" x="1096" y="-328" font-family="FreeSans" font-size="10.00">+ getEncumbrance()</text>
-<text text-anchor="start" x="1096" y="-317" font-family="FreeSans" font-size="10.00">and 8 more...</text>
+<text text-anchor="start" x="1096" y="-317" font-family="FreeSans" font-size="10.00">and 9 more...</text>
 <text text-anchor="start" x="1096" y="-306" font-family="FreeSans" font-size="10.00">+ registerSelf()</text>
 <text text-anchor="start" x="1096" y="-295" font-family="FreeSans" font-size="10.00">&#45; ensureCustomData()</text>
 <text text-anchor="start" x="1096" y="-284" font-family="FreeSans" font-size="10.00">&#45; copyToCellImpl()</text>
@@ -289,7 +292,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classMWClass_1_1Door.html" target="_top" xlink:title="{MWClass::Door\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ activate()\l+ hasToolTip()\l+ getToolTipInfo()\l+ lock()\l+ unlock()\l+ canLock()\l+ allowTelekinesis()\land 6 more...\l+ getDestination()\l+ registerSelf()\l&#45; ensureCustomData()\l&#45; copyToCellImpl()\l}">
+<g id="a_node13"><a xlink:href="classMWClass_1_1Door.html" target="_top" xlink:title="{MWClass::Door\n||+ insertObjectRendering()\l+ insertObject()\l+ isDoor()\l+ useAnim()\l+ getName()\l+ activate()\l+ hasToolTip()\l+ getToolTipInfo()\l+ lock()\l+ unlock()\land 8 more...\l+ getDestination()\l+ registerSelf()\l&#45; ensureCustomData()\l&#45; copyToCellImpl()\l}">
 <polygon fill="white" stroke="black" points="1404,-271.5 1404,-482.5 1544,-482.5 1544,-271.5 1404,-271.5"/>
 <text text-anchor="middle" x="1474" y="-470.5" font-family="FreeSans" font-size="10.00">MWClass::Door</text>
 <polyline fill="none" stroke="black" points="1404,-463.5 1544,-463.5 "/>
@@ -297,15 +300,15 @@
 <polyline fill="none" stroke="black" points="1404,-444.5 1544,-444.5 "/>
 <text text-anchor="start" x="1412" y="-432.5" font-family="FreeSans" font-size="10.00">+ insertObjectRendering()</text>
 <text text-anchor="start" x="1412" y="-421.5" font-family="FreeSans" font-size="10.00">+ insertObject()</text>
-<text text-anchor="start" x="1412" y="-410.5" font-family="FreeSans" font-size="10.00">+ getName()</text>
-<text text-anchor="start" x="1412" y="-399.5" font-family="FreeSans" font-size="10.00">+ activate()</text>
-<text text-anchor="start" x="1412" y="-388.5" font-family="FreeSans" font-size="10.00">+ hasToolTip()</text>
-<text text-anchor="start" x="1412" y="-377.5" font-family="FreeSans" font-size="10.00">+ getToolTipInfo()</text>
-<text text-anchor="start" x="1412" y="-366.5" font-family="FreeSans" font-size="10.00">+ lock()</text>
-<text text-anchor="start" x="1412" y="-355.5" font-family="FreeSans" font-size="10.00">+ unlock()</text>
-<text text-anchor="start" x="1412" y="-344.5" font-family="FreeSans" font-size="10.00">+ canLock()</text>
-<text text-anchor="start" x="1412" y="-333.5" font-family="FreeSans" font-size="10.00">+ allowTelekinesis()</text>
-<text text-anchor="start" x="1412" y="-322.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="1412" y="-410.5" font-family="FreeSans" font-size="10.00">+ isDoor()</text>
+<text text-anchor="start" x="1412" y="-399.5" font-family="FreeSans" font-size="10.00">+ useAnim()</text>
+<text text-anchor="start" x="1412" y="-388.5" font-family="FreeSans" font-size="10.00">+ getName()</text>
+<text text-anchor="start" x="1412" y="-377.5" font-family="FreeSans" font-size="10.00">+ activate()</text>
+<text text-anchor="start" x="1412" y="-366.5" font-family="FreeSans" font-size="10.00">+ hasToolTip()</text>
+<text text-anchor="start" x="1412" y="-355.5" font-family="FreeSans" font-size="10.00">+ getToolTipInfo()</text>
+<text text-anchor="start" x="1412" y="-344.5" font-family="FreeSans" font-size="10.00">+ lock()</text>
+<text text-anchor="start" x="1412" y="-333.5" font-family="FreeSans" font-size="10.00">+ unlock()</text>
+<text text-anchor="start" x="1412" y="-322.5" font-family="FreeSans" font-size="10.00">and 8 more...</text>
 <text text-anchor="start" x="1412" y="-311.5" font-family="FreeSans" font-size="10.00">+ getDestination()</text>
 <text text-anchor="start" x="1412" y="-300.5" font-family="FreeSans" font-size="10.00">+ registerSelf()</text>
 <text text-anchor="start" x="1412" y="-289.5" font-family="FreeSans" font-size="10.00">&#45; ensureCustomData()</text>
@@ -371,7 +374,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classMWClass_1_1Light.html" target="_top" xlink:title="{MWClass::Light\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ hasToolTip()\l+ getToolTipInfo()\l+ showsInInventory()\l+ activate()\l+ getScript()\l+ getEquipmentSlots()\l+ getValue()\land 11 more...\l+ registerSelf()\l&#45; copyToCellImpl()\l}">
+<g id="a_node16"><a xlink:href="classMWClass_1_1Light.html" target="_top" xlink:title="{MWClass::Light\n||+ insertObjectRendering()\l+ insertObject()\l+ useAnim()\l+ getName()\l+ hasToolTip()\l+ getToolTipInfo()\l+ showsInInventory()\l+ activate()\l+ getScript()\l+ getEquipmentSlots()\land 12 more...\l+ registerSelf()\l&#45; copyToCellImpl()\l}">
 <polygon fill="white" stroke="black" points="1858,-282.5 1858,-471.5 1998,-471.5 1998,-282.5 1858,-282.5"/>
 <text text-anchor="middle" x="1928" y="-459.5" font-family="FreeSans" font-size="10.00">MWClass::Light</text>
 <polyline fill="none" stroke="black" points="1858,-452.5 1998,-452.5 "/>
@@ -379,15 +382,15 @@
 <polyline fill="none" stroke="black" points="1858,-433.5 1998,-433.5 "/>
 <text text-anchor="start" x="1866" y="-421.5" font-family="FreeSans" font-size="10.00">+ insertObjectRendering()</text>
 <text text-anchor="start" x="1866" y="-410.5" font-family="FreeSans" font-size="10.00">+ insertObject()</text>
-<text text-anchor="start" x="1866" y="-399.5" font-family="FreeSans" font-size="10.00">+ getName()</text>
-<text text-anchor="start" x="1866" y="-388.5" font-family="FreeSans" font-size="10.00">+ hasToolTip()</text>
-<text text-anchor="start" x="1866" y="-377.5" font-family="FreeSans" font-size="10.00">+ getToolTipInfo()</text>
-<text text-anchor="start" x="1866" y="-366.5" font-family="FreeSans" font-size="10.00">+ showsInInventory()</text>
-<text text-anchor="start" x="1866" y="-355.5" font-family="FreeSans" font-size="10.00">+ activate()</text>
-<text text-anchor="start" x="1866" y="-344.5" font-family="FreeSans" font-size="10.00">+ getScript()</text>
-<text text-anchor="start" x="1866" y="-333.5" font-family="FreeSans" font-size="10.00">+ getEquipmentSlots()</text>
-<text text-anchor="start" x="1866" y="-322.5" font-family="FreeSans" font-size="10.00">+ getValue()</text>
-<text text-anchor="start" x="1866" y="-311.5" font-family="FreeSans" font-size="10.00">and 11 more...</text>
+<text text-anchor="start" x="1866" y="-399.5" font-family="FreeSans" font-size="10.00">+ useAnim()</text>
+<text text-anchor="start" x="1866" y="-388.5" font-family="FreeSans" font-size="10.00">+ getName()</text>
+<text text-anchor="start" x="1866" y="-377.5" font-family="FreeSans" font-size="10.00">+ hasToolTip()</text>
+<text text-anchor="start" x="1866" y="-366.5" font-family="FreeSans" font-size="10.00">+ getToolTipInfo()</text>
+<text text-anchor="start" x="1866" y="-355.5" font-family="FreeSans" font-size="10.00">+ showsInInventory()</text>
+<text text-anchor="start" x="1866" y="-344.5" font-family="FreeSans" font-size="10.00">+ activate()</text>
+<text text-anchor="start" x="1866" y="-333.5" font-family="FreeSans" font-size="10.00">+ getScript()</text>
+<text text-anchor="start" x="1866" y="-322.5" font-family="FreeSans" font-size="10.00">+ getEquipmentSlots()</text>
+<text text-anchor="start" x="1866" y="-311.5" font-family="FreeSans" font-size="10.00">and 12 more...</text>
 <text text-anchor="start" x="1866" y="-300.5" font-family="FreeSans" font-size="10.00">+ registerSelf()</text>
 <text text-anchor="start" x="1866" y="-289.5" font-family="FreeSans" font-size="10.00">&#45; copyToCellImpl()</text>
 </a>
@@ -400,7 +403,7 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classMWClass_1_1Lockpick.html" target="_top" xlink:title="{MWClass::Lockpick\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ activate()\l+ hasToolTip()\l+ getToolTipInfo()\l+ getScript()\l+ getEquipmentSlots()\l+ getValue()\l+ getUpSoundId()\land 8 more...\l+ registerSelf()\l&#45; copyToCellImpl()\l}">
+<g id="a_node17"><a xlink:href="classMWClass_1_1Lockpick.html" target="_top" xlink:title="{MWClass::Lockpick\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ activate()\l+ hasToolTip()\l+ getToolTipInfo()\l+ getScript()\l+ getEquipmentSlots()\l+ getValue()\l+ getUpSoundId()\land 9 more...\l+ registerSelf()\l&#45; copyToCellImpl()\l}">
 <polygon fill="white" stroke="black" points="2016,-282.5 2016,-471.5 2156,-471.5 2156,-282.5 2016,-282.5"/>
 <text text-anchor="middle" x="2086" y="-459.5" font-family="FreeSans" font-size="10.00">MWClass::Lockpick</text>
 <polyline fill="none" stroke="black" points="2016,-452.5 2156,-452.5 "/>
@@ -416,7 +419,7 @@
 <text text-anchor="start" x="2024" y="-344.5" font-family="FreeSans" font-size="10.00">+ getEquipmentSlots()</text>
 <text text-anchor="start" x="2024" y="-333.5" font-family="FreeSans" font-size="10.00">+ getValue()</text>
 <text text-anchor="start" x="2024" y="-322.5" font-family="FreeSans" font-size="10.00">+ getUpSoundId()</text>
-<text text-anchor="start" x="2024" y="-311.5" font-family="FreeSans" font-size="10.00">and 8 more...</text>
+<text text-anchor="start" x="2024" y="-311.5" font-family="FreeSans" font-size="10.00">and 9 more...</text>
 <text text-anchor="start" x="2024" y="-300.5" font-family="FreeSans" font-size="10.00">+ registerSelf()</text>
 <text text-anchor="start" x="2024" y="-289.5" font-family="FreeSans" font-size="10.00">&#45; copyToCellImpl()</text>
 </a>
@@ -490,7 +493,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classMWClass_1_1Probe.html" target="_top" xlink:title="{MWClass::Probe\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ activate()\l+ hasToolTip()\l+ getToolTipInfo()\l+ getScript()\l+ getEquipmentSlots()\l+ getValue()\l+ getUpSoundId()\land 8 more...\l+ registerSelf()\l&#45; copyToCellImpl()\l}">
+<g id="a_node20"><a xlink:href="classMWClass_1_1Probe.html" target="_top" xlink:title="{MWClass::Probe\n||+ insertObjectRendering()\l+ insertObject()\l+ getName()\l+ activate()\l+ hasToolTip()\l+ getToolTipInfo()\l+ getScript()\l+ getEquipmentSlots()\l+ getValue()\l+ getUpSoundId()\land 9 more...\l+ registerSelf()\l&#45; copyToCellImpl()\l}">
 <polygon fill="white" stroke="black" points="2490,-282.5 2490,-471.5 2630,-471.5 2630,-282.5 2490,-282.5"/>
 <text text-anchor="middle" x="2560" y="-459.5" font-family="FreeSans" font-size="10.00">MWClass::Probe</text>
 <polyline fill="none" stroke="black" points="2490,-452.5 2630,-452.5 "/>
@@ -506,7 +509,7 @@
 <text text-anchor="start" x="2498" y="-344.5" font-family="FreeSans" font-size="10.00">+ getEquipmentSlots()</text>
 <text text-anchor="start" x="2498" y="-333.5" font-family="FreeSans" font-size="10.00">+ getValue()</text>
 <text text-anchor="start" x="2498" y="-322.5" font-family="FreeSans" font-size="10.00">+ getUpSoundId()</text>
-<text text-anchor="start" x="2498" y="-311.5" font-family="FreeSans" font-size="10.00">and 8 more...</text>
+<text text-anchor="start" x="2498" y="-311.5" font-family="FreeSans" font-size="10.00">and 9 more...</text>
 <text text-anchor="start" x="2498" y="-300.5" font-family="FreeSans" font-size="10.00">+ registerSelf()</text>
 <text text-anchor="start" x="2498" y="-289.5" font-family="FreeSans" font-size="10.00">&#45; copyToCellImpl()</text>
 </a>
@@ -626,8 +629,8 @@
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M187.655,-277.861C181.945,-259.984 175.954,-241.226 170.143,-223.031"/>
-<polygon fill="none" stroke="midnightblue" points="184.419,-279.232 190.796,-287.693 191.087,-277.102 184.419,-279.232"/>
+<path fill="none" stroke="midnightblue" d="M185.866,-272.26C180.742,-256.217 175.434,-239.597 170.265,-223.414"/>
+<polygon fill="none" stroke="midnightblue" points="182.653,-273.704 189.03,-282.165 189.321,-271.574 182.653,-273.704"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -657,8 +660,8 @@
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M250.253,-278.147C256.526,-258.508 263.141,-237.796 269.487,-217.928"/>
-<polygon fill="none" stroke="midnightblue" points="246.913,-277.102 247.204,-287.693 253.581,-279.232 246.913,-277.102"/>
+<path fill="none" stroke="midnightblue" d="M252.136,-272.253C257.883,-254.26 263.861,-235.541 269.615,-217.527"/>
+<polygon fill="none" stroke="midnightblue" points="248.679,-271.574 248.97,-282.165 255.347,-273.704 248.679,-271.574"/>
 </g>
 </g>
 </svg>

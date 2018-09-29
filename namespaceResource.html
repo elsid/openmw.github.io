@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -134,6 +134,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceSystem.html">ResourceSystem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper class that constructs and provides access to the most commonly used resource subsystems.  <a href="classResource_1_1ResourceSystem.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SharedStateManager.html">SharedStateManager</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SetFilterSettingsControllerVisitor.html">SetFilterSettingsControllerVisitor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set texture filtering settings on textures contained in a FlipController.  <a href="classResource_1_1SetFilterSettingsControllerVisitor.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,20 +145,66 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ImageReadCallback.html">ImageReadCallback</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to read image files from the <a class="el" href="namespaceVFS.html">VFS</a>.  <a href="classResource_1_1ImageReadCallback.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1CanOptimizeCallback.html">CanOptimizeCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1TemplateRef.html">TemplateRef</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html">SceneManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles loading and caching of scenes, e.g. .nif files or .osg files.  <a href="classResource_1_1SceneManager.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceStatsTextDrawCallback.html">ResourceStatsTextDrawCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1Profiler.html">Profiler</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1StatsHandler.html">StatsHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aa5ab19a4e8cb1a0cbdd5c5a99f794ace"><td class="memItemLeft" align="right" valign="top">static std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#aa5ab19a4e8cb1a0cbdd5c5a99f794ace">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="structResource_1_1TriangleMeshShape.html">TriangleMeshShape</a> &amp;value)</td></tr>
+<tr class="separator:aa5ab19a4e8cb1a0cbdd5c5a99f794ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb63265a91ae8cfcdbd3778777498df9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#abb63265a91ae8cfcdbd3778777498df9">operator==</a> (const <a class="el" href="classResource_1_1BulletShape.html">Resource::BulletShape</a> &amp;lhs, const <a class="el" href="classResource_1_1BulletShape.html">Resource::BulletShape</a> &amp;rhs)</td></tr>
+<tr class="separator:abb63265a91ae8cfcdbd3778777498df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a795b6a8f2ca742fa4dace89f28f3e"><td class="memItemLeft" align="right" valign="top">static std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#aa5a795b6a8f2ca742fa4dace89f28f3e">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="classResource_1_1BulletShape.html">Resource::BulletShape</a> &amp;value)</td></tr>
+<tr class="separator:aa5a795b6a8f2ca742fa4dace89f28f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a348671c1b817ff6d44215a8ef0887350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a348671c1b817ff6d44215a8ef0887350">checkSupported</a> (osg::Image *image, const std::string &amp;filename)</td></tr>
 <tr class="separator:a348671c1b817ff6d44215a8ef0887350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87a9a3a76a3d5435fe50a7ed833cc58f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a87a9a3a76a3d5435fe50a7ed833cc58f">getFileExtension</a> (const std::string &amp;file)</td></tr>
 <tr class="separator:a87a9a3a76a3d5435fe50a7ed833cc58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1597cf6af8ffec1e4e0ae7a0fe7a10c6"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a1597cf6af8ffec1e4e0ae7a0fe7a10c6">load</a> (<a class="el" href="namespaceFiles.html#aba837ada2130f11d385768dcd8f0a950">Files::IStreamPtr</a> file, const std::string &amp;normalizedFilename, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager, <a class="el" href="classResource_1_1NifFileManager.html">Resource::NifFileManager</a> *nifFileManager)</td></tr>
+<tr class="memitem:a1597cf6af8ffec1e4e0ae7a0fe7a10c6"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a1597cf6af8ffec1e4e0ae7a0fe7a10c6">load</a> (<a class="el" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a> file, const std::string &amp;normalizedFilename, <a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *imageManager, <a class="el" href="classResource_1_1NifFileManager.html">Resource::NifFileManager</a> *nifFileManager)</td></tr>
 <tr class="separator:a1597cf6af8ffec1e4e0ae7a0fe7a10c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265f95228cebbc4aafd91f5f7eeb21e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#a265f95228cebbc4aafd91f5f7eeb21e6">canOptimize</a> (const std::string &amp;filename)</td></tr>
+<tr class="separator:a265f95228cebbc4aafd91f5f7eeb21e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac460d7775e0e6651446ad0b5d319b16f"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#ac460d7775e0e6651446ad0b5d319b16f">getOptimizationOptions</a> ()</td></tr>
+<tr class="separator:ac460d7775e0e6651446ad0b5d319b16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0871e0a5e0c0a3d28e01c03c94e4693"><td class="memItemLeft" align="right" valign="top">osg::Geometry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceResource.html#ae0871e0a5e0c0a3d28e01c03c94e4693">createBackgroundRectangle</a> (const osg::Vec3 &amp;pos, const float width, const float height, osg::Vec4 &amp;color)</td></tr>
+<tr class="separator:ae0871e0a5e0c0a3d28e01c03c94e4693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a265f95228cebbc4aafd91f5f7eeb21e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Resource::canOptimize </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a265f95228cebbc4aafd91f5f7eeb21e6_icgraph.svg" width="1430" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a348671c1b817ff6d44215a8ef0887350"></a>
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +232,53 @@ Functions</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a348671c1b817ff6d44215a8ef0887350_icgraph.svg" width="1526" height="1276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a348671c1b817ff6d44215a8ef0887350_icgraph.svg" width="1555" height="1276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0871e0a5e0c0a3d28e01c03c94e4693"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::Geometry* Resource::createBackgroundRectangle </td>
+          <td>(</td>
+          <td class="paramtype">const osg::Vec3 &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">osg::Vec4 &amp;&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_ae0871e0a5e0c0a3d28e01c03c94e4693_icgraph.svg" width="880" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -208,7 +302,30 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a87a9a3a76a3d5435fe50a7ed833cc58f_icgraph.svg" width="2624" height="1384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a87a9a3a76a3d5435fe50a7ed833cc58f_icgraph.svg" width="1616" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac460d7775e0e6651446ad0b5d319b16f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classint.html">int</a> Resource::getOptimizationOptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_ac460d7775e0e6651446ad0b5d319b16f_icgraph.svg" width="1454" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -222,7 +339,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">osg::ref_ptr&lt;osg::Node&gt; Resource::load </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceFiles.html#aba837ada2130f11d385768dcd8f0a950">Files::IStreamPtr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a>&#160;</td>
           <td class="paramname"><em>file</em>, </td>
         </tr>
         <tr>
@@ -254,7 +371,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a1597cf6af8ffec1e4e0ae7a0fe7a10c6_cgraph.svg" width="2246" height="2052"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a1597cf6af8ffec1e4e0ae7a0fe7a10c6_cgraph.svg" width="2483" height="1959"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -262,7 +379,125 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a1597cf6af8ffec1e4e0ae7a0fe7a10c6_icgraph.svg" width="2384" height="1384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_a1597cf6af8ffec1e4e0ae7a0fe7a10c6_icgraph.svg" width="1376" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa5ab19a4e8cb1a0cbdd5c5a99f794ace"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::ostream&amp; Resource::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TriangleMeshShape &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_aa5ab19a4e8cb1a0cbdd5c5a99f794ace_cgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa5a795b6a8f2ca742fa4dace89f28f3e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::ostream&amp; Resource::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classResource_1_1BulletShape.html">Resource::BulletShape</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abb63265a91ae8cfcdbd3778777498df9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classbool.html">bool</a> Resource::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classResource_1_1BulletShape.html">Resource::BulletShape</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classResource_1_1BulletShape.html">Resource::BulletShape</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceResource_abb63265a91ae8cfcdbd3778777498df9_cgraph.svg" width="403" height="64"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -272,7 +507,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,13 +109,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for Resource::ObjectCache:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ObjectCache__inherit__graph.svg" width="254" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ObjectCache__inherit__graph.svg" width="254" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Resource::ObjectCache:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ObjectCache__coll__graph.svg" width="483" height="678"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1ObjectCache__coll__graph.svg" width="483" height="723"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -135,10 +135,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3919aeca02d38d1254bebe8772cd57f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46bbcdde2b4d6366f23aee7a33bec5ea"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ObjectCache.html#a46bbcdde2b4d6366f23aee7a33bec5ea">getRefFromObjectCache</a> (const std::string &amp;fileName)</td></tr>
 <tr class="separator:a46bbcdde2b4d6366f23aee7a33bec5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81068bad1d1c4356bac378c3623beb76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ObjectCache.html#a81068bad1d1c4356bac378c3623beb76">checkInObjectCache</a> (const std::string &amp;fileName, double timeStamp)</td></tr>
+<tr class="separator:a81068bad1d1c4356bac378c3623beb76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ecdcc7233272ea2810294a2b7eae3a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ObjectCache.html#a7ecdcc7233272ea2810294a2b7eae3a2">releaseGLObjects</a> (osg::State *state)</td></tr>
 <tr class="separator:a7ecdcc7233272ea2810294a2b7eae3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adea1f3fe3b788f847a2ea48d668b769d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ObjectCache.html#adea1f3fe3b788f847a2ea48d668b769d">accept</a> (osg::NodeVisitor &amp;nv)</td></tr>
 <tr class="separator:adea1f3fe3b788f847a2ea48d668b769d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a9a18d8d7412f45d111eeeb4b0aaaa"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
+<tr class="memitem:a16a9a18d8d7412f45d111eeeb4b0aaaa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classResource_1_1ObjectCache.html#a16a9a18d8d7412f45d111eeeb4b0aaaa">call</a> (Functor &amp;f)</td></tr>
+<tr class="separator:a16a9a18d8d7412f45d111eeeb4b0aaaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d70b5b4aa6d3510367ec93d8b65061"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ObjectCache.html#a13d70b5b4aa6d3510367ec93d8b65061">getCacheSize</a> () const </td></tr>
+<tr class="separator:a13d70b5b4aa6d3510367ec93d8b65061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
 Protected Types</h2></td></tr>
@@ -293,6 +300,60 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a16a9a18d8d7412f45d111eeeb4b0aaaa"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Functor &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::ObjectCache::call </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>call operator()(osg::Object*) for each object in the cache. </p>
+
+</div>
+</div>
+<a class="anchor" id="a81068bad1d1c4356bac378c3623beb76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Resource::ObjectCache::checkInObjectCache </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>timeStamp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Check if an object is in the cache, and if it is, update its usage time stamp. </p>
+
+</div>
+</div>
 <a class="anchor" id="ad69dc55c4e7376937486d96e36aa8b40"></a>
 <div class="memitem">
 <div class="memproto">
@@ -306,6 +367,22 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Remove all objects in the cache regardless of having external references or expiry times. </p>
+
+</div>
+</div>
+<a class="anchor" id="a13d70b5b4aa6d3510367ec93d8b65061"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classint.html">int</a> Resource::ObjectCache::getCacheSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the number of objects in the cache. </p>
 
 </div>
 </div>
@@ -428,7 +505,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -436,13 +513,13 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="objectcache_8hpp_source.html">objectcache.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="objectcache_8cpp.html">objectcache.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="objectcache_8hpp_source.html">objectcache.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="objectcache_8cpp.html">objectcache.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

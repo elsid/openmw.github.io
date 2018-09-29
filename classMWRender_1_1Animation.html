@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -113,13 +113,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWRender::Animation:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation__inherit__graph.svg" width="719" height="1427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation__inherit__graph.svg" width="719" height="1523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWRender::Animation:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation__coll__graph.svg" width="6220" height="1886"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation__coll__graph.svg" width="6188" height="1878"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -133,8 +133,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWRender_1_1Animation_1_1AnimSource.html">AnimSource</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWRender_1_1Animation_1_1AnimState.html">AnimState</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMWRender_1_1Animation_1_1EffectParams.html">EffectParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation_1_1NullAnimationTime.html">NullAnimationTime</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,18 +166,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acc30f84a40d0be2c2ccd66a728f4268e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#acc30f84a40d0be2c2ccd66a728f4268e">Animation</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, osg::ref_ptr&lt; osg::Group &gt; parentNode, <a class="el" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a> *resourceSystem)</td></tr>
 <tr class="separator:acc30f84a40d0be2c2ccd66a728f4268e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29ed29a359c49105b3c972651d4fec28"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a29ed29a359c49105b3c972651d4fec28">~Animation</a> ()</td></tr>
+<tr class="memdesc:a29ed29a359c49105b3c972651d4fec28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be thread safe.  <a href="#a29ed29a359c49105b3c972651d4fec28">More...</a><br/></td></tr>
 <tr class="separator:a29ed29a359c49105b3c972651d4fec28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9dba3f97e8dce7c03f69a2cde298377"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#af9dba3f97e8dce7c03f69a2cde298377">getPtr</a> () const </td></tr>
 <tr class="separator:af9dba3f97e8dce7c03f69a2cde298377"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ca609f50b7ed1f17bb8b93d655f7195"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a6ca609f50b7ed1f17bb8b93d655f7195">setActive</a> (<a class="el" href="classbool.html">bool</a> active)</td></tr>
-<tr class="separator:a6ca609f50b7ed1f17bb8b93d655f7195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8cbbf8a3c2cbf9078e36d7aa1a1284"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#afd8cbbf8a3c2cbf9078e36d7aa1a1284">getPtr</a> ()</td></tr>
+<tr class="separator:afd8cbbf8a3c2cbf9078e36d7aa1a1284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d6c80950dcf5d7db1582ddcf5b8464"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a48d6c80950dcf5d7db1582ddcf5b8464">setActive</a> (<a class="el" href="classint.html">int</a> active)</td></tr>
+<tr class="separator:a48d6c80950dcf5d7db1582ddcf5b8464"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f0b6110dcd146911bb5ffa776be8280"><td class="memItemLeft" align="right" valign="top">osg::Group *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a4f0b6110dcd146911bb5ffa776be8280">getOrCreateObjectRoot</a> ()</td></tr>
 <tr class="separator:a4f0b6110dcd146911bb5ffa776be8280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4405abf862ed9d019b7342052ee7430"><td class="memItemLeft" align="right" valign="top">osg::Group *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#ad4405abf862ed9d019b7342052ee7430">getObjectRoot</a> ()</td></tr>
 <tr class="separator:ad4405abf862ed9d019b7342052ee7430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ad2390344ae9c1560289082c500be9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a1ad2390344ae9c1560289082c500be9e">addEffect</a> (const std::string &amp;model, <a class="el" href="classint.html">int</a> effectId, <a class="el" href="classbool.html">bool</a> loop=false, const std::string &amp;bonename=&quot;&quot;, std::string texture=&quot;&quot;)</td></tr>
-<tr class="memdesc:a1ad2390344ae9c1560289082c500be9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an effect mesh attached to a bone or the insert scene node.  <a href="#a1ad2390344ae9c1560289082c500be9e">More...</a><br/></td></tr>
-<tr class="separator:a1ad2390344ae9c1560289082c500be9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8100b647609f31d4ecbdc0a78028e69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#aa8100b647609f31d4ecbdc0a78028e69">addEffect</a> (const std::string &amp;model, <a class="el" href="classint.html">int</a> effectId, <a class="el" href="classbool.html">bool</a> loop=false, const std::string &amp;bonename=&quot;&quot;, const std::string &amp;texture=&quot;&quot;, float scale=1.0f)</td></tr>
+<tr class="memdesc:aa8100b647609f31d4ecbdc0a78028e69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an effect mesh attached to a bone or the insert scene node.  <a href="#aa8100b647609f31d4ecbdc0a78028e69">More...</a><br/></td></tr>
+<tr class="separator:aa8100b647609f31d4ecbdc0a78028e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e3cf398c2863d9d03128461eb06d13b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a7e3cf398c2863d9d03128461eb06d13b">removeEffect</a> (<a class="el" href="classint.html">int</a> effectId)</td></tr>
 <tr class="separator:a7e3cf398c2863d9d03128461eb06d13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0ef7b31a16546dca522652660fc68ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#ab0ef7b31a16546dca522652660fc68ee">getLoopingEffects</a> (std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;out) const </td></tr>
@@ -222,9 +223,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a94ac28687434bbcd3ad5d97eb594bc4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16d4b189ab5994be4c553ba9933f4c54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a16d4b189ab5994be4c553ba9933f4c54">setLoopingEnabled</a> (const std::string &amp;groupname, <a class="el" href="classbool.html">bool</a> enabled)</td></tr>
 <tr class="separator:a16d4b189ab5994be4c553ba9933f4c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe9eebb1a1cd7d4fdae6d82f3b2c2b6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#abe9eebb1a1cd7d4fdae6d82f3b2c2b6b">updateEffects</a> (float duration)</td></tr>
-<tr class="memdesc:abe9eebb1a1cd7d4fdae6d82f3b2c2b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is typically called as part of runAnimation, but may be called manually if needed.  <a href="#abe9eebb1a1cd7d4fdae6d82f3b2c2b6b">More...</a><br/></td></tr>
-<tr class="separator:abe9eebb1a1cd7d4fdae6d82f3b2c2b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1980924c1dff6d33f7b387aa0ff99268"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a1980924c1dff6d33f7b387aa0ff99268">updateEffects</a> ()</td></tr>
+<tr class="memdesc:a1980924c1dff6d33f7b387aa0ff99268"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is typically called as part of runAnimation, but may be called manually if needed.  <a href="#a1980924c1dff6d33f7b387aa0ff99268">More...</a><br/></td></tr>
+<tr class="separator:a1980924c1dff6d33f7b387aa0ff99268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad57fd81691e7f2d877800c88e784d21c"><td class="memItemLeft" align="right" valign="top">const osg::Node *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#ad57fd81691e7f2d877800c88e784d21c">getNode</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>) const </td></tr>
 <tr class="separator:ad57fd81691e7f2d877800c88e784d21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad875681c2ae7caf51ef14e40a7bf6b31"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#ad875681c2ae7caf51ef14e40a7bf6b31">showWeapons</a> (<a class="el" href="classbool.html">bool</a> showWeapon)</td></tr>
@@ -269,10 +270,9 @@ Protected Types</h2></td></tr>
 <tr class="memitem:a10ae9d09ca5a96f0ce4332e8f8c6742b"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <br class="typebreak"/>
 <a class="el" href="structMWRender_1_1Animation_1_1AnimState.html">AnimState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a10ae9d09ca5a96f0ce4332e8f8c6742b">AnimStateMap</a></td></tr>
 <tr class="separator:a10ae9d09ca5a96f0ce4332e8f8c6742b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c5153a3e6552bc28e8b2c84d2138d7f"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
-&lt; boost::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="structMWRender_1_1Animation_1_1AnimSource.html">AnimSource</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a9c5153a3e6552bc28e8b2c84d2138d7f">AnimSourceList</a></td></tr>
-<tr class="separator:a9c5153a3e6552bc28e8b2c84d2138d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a30242020bec15e995f4e8fb8e37531"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
+&lt; std::shared_ptr&lt; <a class="el" href="structMWRender_1_1Animation_1_1AnimSource.html">AnimSource</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a7a30242020bec15e995f4e8fb8e37531">AnimSourceList</a></td></tr>
+<tr class="separator:a7a30242020bec15e995f4e8fb8e37531"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a900bd9e9d0c06f88ef283c9b4d14175b"><td class="memItemLeft" align="right" valign="top">typedef std::multimap<br class="typebreak"/>
 &lt; osg::ref_ptr&lt; osg::Node &gt;<br class="typebreak"/>
 , osg::ref_ptr<br class="typebreak"/>
@@ -299,8 +299,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ab7236ec1b0d9e4a328d1415324692188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79899e050e52d610acfeb3840d5a31d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a79899e050e52d610acfeb3840d5a31d4">setObjectRoot</a> (const std::string &amp;model, <a class="el" href="classbool.html">bool</a> forceskeleton, <a class="el" href="classbool.html">bool</a> baseonly, <a class="el" href="classbool.html">bool</a> isCreature)</td></tr>
 <tr class="separator:a79899e050e52d610acfeb3840d5a31d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff362c03830efca83a352ab456362110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#aff362c03830efca83a352ab456362110">addAnimSource</a> (const std::string &amp;model)</td></tr>
-<tr class="separator:aff362c03830efca83a352ab456362110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7921bbab6cc09786b2ec14e0220af7b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a7921bbab6cc09786b2ec14e0220af7b5">loadAllAnimationsInFolder</a> (const std::string &amp;model, const std::string &amp;baseModel)</td></tr>
+<tr class="separator:a7921bbab6cc09786b2ec14e0220af7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ce28ac5b7bb50847af133b85ae406ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a3ce28ac5b7bb50847af133b85ae406ce">addAnimSource</a> (const std::string &amp;model, const std::string &amp;baseModel)</td></tr>
+<tr class="separator:a3ce28ac5b7bb50847af133b85ae406ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ccd533606e5ffcdc9d5b3409b6d0fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#af2ccd533606e5ffcdc9d5b3409b6d0fb">addSingleAnimSource</a> (const std::string &amp;model, const std::string &amp;baseModel)</td></tr>
+<tr class="separator:af2ccd533606e5ffcdc9d5b3409b6d0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0644f979264f7161317510295bf7de85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a0644f979264f7161317510295bf7de85">addExtraLight</a> (osg::ref_ptr&lt; osg::Group &gt; parent, const <a class="el" href="structESM_1_1Light.html">ESM::Light</a> *light)</td></tr>
 <tr class="separator:a0644f979264f7161317510295bf7de85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5739caddf776d68d560e24f912e9379"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#aa5739caddf776d68d560e24f912e9379">clearAnimSources</a> ()</td></tr>
@@ -319,7 +323,7 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a6db71a8c8d5705eb4979ca22a5a7251d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWRender_1_1Animation.html#a10ae9d09ca5a96f0ce4332e8f8c6742b">AnimStateMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a6db71a8c8d5705eb4979ca22a5a7251d">mStates</a></td></tr>
 <tr class="separator:a6db71a8c8d5705eb4979ca22a5a7251d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a700b235b78d3d510cc315d29392209f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWRender_1_1Animation.html#a9c5153a3e6552bc28e8b2c84d2138d7f">AnimSourceList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a700b235b78d3d510cc315d29392209f7">mAnimSources</a></td></tr>
+<tr class="memitem:a700b235b78d3d510cc315d29392209f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWRender_1_1Animation.html#a7a30242020bec15e995f4e8fb8e37531">AnimSourceList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a700b235b78d3d510cc315d29392209f7">mAnimSources</a></td></tr>
 <tr class="separator:a700b235b78d3d510cc315d29392209f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85f133370af14c41faf4e76459c7e8e7"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Group &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a85f133370af14c41faf4e76459c7e8e7">mInsert</a></td></tr>
 <tr class="separator:a85f133370af14c41faf4e76459c7e8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,8 +341,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a57b67243cf4de2de33f9c68ead8f94f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6fdfbc2b9df0e8dd3e9f9054f86152"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWRender_1_1Animation.html#a900bd9e9d0c06f88ef283c9b4d14175b">ControllerMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#ace6fdfbc2b9df0e8dd3e9f9054f86152">mActiveControllers</a></td></tr>
 <tr class="separator:ace6fdfbc2b9df0e8dd3e9f9054f86152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a41dccfd3faddb08d55f4969709290e"><td class="memItemLeft" align="right" valign="top">boost::shared_ptr&lt; <a class="el" href="classMWRender_1_1Animation_1_1AnimationTime.html">AnimationTime</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a0a41dccfd3faddb08d55f4969709290e">mAnimationTimePtr</a> [<a class="el" href="classMWRender_1_1Animation.html#aa6cfd2a56081852c464dd539bde6b67e">sNumBlendMasks</a>]</td></tr>
-<tr class="separator:a0a41dccfd3faddb08d55f4969709290e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3986a9714f8f2ac00e86c504f77c2a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMWRender_1_1Animation_1_1AnimationTime.html">AnimationTime</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a3a3986a9714f8f2ac00e86c504f77c2a">mAnimationTimePtr</a> [<a class="el" href="classMWRender_1_1Animation.html#aa6cfd2a56081852c464dd539bde6b67e">sNumBlendMasks</a>]</td></tr>
+<tr class="separator:a3a3986a9714f8f2ac00e86c504f77c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96f05540d0108a53a73de01a818976fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWRender_1_1Animation.html#aa8824ba2d3bdf20bd150636db6136d44">NodeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a96f05540d0108a53a73de01a818976fc">mNodeMap</a></td></tr>
 <tr class="separator:a96f05540d0108a53a73de01a818976fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaa57c83d75a1c612021721e33822236"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#aaaa57c83d75a1c612021721e33822236">mNodeMapCreated</a></td></tr>
@@ -349,8 +353,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af05b9d076e0a1f9e3d491f7676eedc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97548c7d37f5d8b273d1698e1b7e6989"><td class="memItemLeft" align="right" valign="top">osg::Vec3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a97548c7d37f5d8b273d1698e1b7e6989">mAccumulate</a></td></tr>
 <tr class="separator:a97548c7d37f5d8b273d1698e1b7e6989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9629e5a9f6d3dd99cd93fceabf3ef24d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMWRender_1_1Animation_1_1EffectParams.html">EffectParams</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a9629e5a9f6d3dd99cd93fceabf3ef24d">mEffects</a></td></tr>
-<tr class="separator:a9629e5a9f6d3dd99cd93fceabf3ef24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e975b0aea27624603ce093a8850b8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWRender_1_1Animation_1_1TextKeyListener.html">TextKeyListener</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a10e975b0aea27624603ce093a8850b8d">mTextKeyListener</a></td></tr>
 <tr class="separator:a10e975b0aea27624603ce093a8850b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9846b7598c9ee10576327225cad36e0c"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; <a class="el" href="classMWRender_1_1RotateController.html">RotateController</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a9846b7598c9ee10576327225cad36e0c">mHeadController</a></td></tr>
@@ -359,6 +361,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a77f0647c690d6796cc82e6f8cfe4b089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0abba9afee3fe6a019db7ededb228b01"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a0abba9afee3fe6a019db7ededb228b01">mHeadPitchRadians</a></td></tr>
 <tr class="separator:a0abba9afee3fe6a019db7ededb228b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a032cf9a78a7d319ef9a290ff9f9a4072"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a032cf9a78a7d319ef9a290ff9f9a4072">mHasMagicEffects</a></td></tr>
+<tr class="separator:a032cf9a78a7d319ef9a290ff9f9a4072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2b877ca457993b60bc56bcb290f46f0"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
 &lt; <a class="el" href="classSceneUtil_1_1LightSource.html">SceneUtil::LightSource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#ab2b877ca457993b60bc56bcb290f46f0">mGlowLight</a></td></tr>
 <tr class="separator:ab2b877ca457993b60bc56bcb290f46f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -366,9 +370,13 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a22c8a5756b8c389097d1cf89b2d5118c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a9d0cd2b8fc9b4cb0abed662f7a7f87"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a0a9d0cd2b8fc9b4cb0abed662f7a7f87">mAlpha</a></td></tr>
 <tr class="separator:a0a9d0cd2b8fc9b4cb0abed662f7a7f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68dab10dc0cf9afd3a0aa52b130a200b"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a68dab10dc0cf9afd3a0aa52b130a200b">mAnimVelocities</a></td></tr>
+<tr class="separator:a68dab10dc0cf9afd3a0aa52b130a200b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a584983f1317ead4a78c72d2b6d4c5d9d"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
 &lt; <a class="el" href="classSceneUtil_1_1LightListCallback.html">SceneUtil::LightListCallback</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#a584983f1317ead4a78c72d2b6d4c5d9d">mLightListCallback</a></td></tr>
 <tr class="separator:a584983f1317ead4a78c72d2b6d4c5d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71ccb0bdef74c47f4bb723ea68bc7c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWRender_1_1Animation.html#ae71ccb0bdef74c47f4bb723ea68bc7c3">mUseAdditionalSources</a></td></tr>
+<tr class="separator:ae71ccb0bdef74c47f4bb723ea68bc7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -378,7 +386,7 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ae752d8dfea2ba2b500b0e2cf9bf1955f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a9c5153a3e6552bc28e8b2c84d2138d7f"></a>
+<a class="anchor" id="a7a30242020bec15e995f4e8fb8e37531"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -386,7 +394,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt;boost::shared_ptr&lt;<a class="el" href="structMWRender_1_1Animation_1_1AnimSource.html">AnimSource</a>&gt; &gt; <a class="el" href="classMWRender_1_1Animation.html#a9c5153a3e6552bc28e8b2c84d2138d7f">MWRender::Animation::AnimSourceList</a></td>
+          <td class="memname">typedef std::vector&lt;std::shared_ptr&lt;<a class="el" href="structMWRender_1_1Animation_1_1AnimSource.html">AnimSource</a>&gt; &gt; <a class="el" href="classMWRender_1_1Animation.html#a7a30242020bec15e995f4e8fb8e37531">MWRender::Animation::AnimSourceList</a></td>
         </tr>
       </table>
   </td>
@@ -541,7 +549,7 @@ Private Member Functions</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_acc30f84a40d0be2c2ccd66a728f4268e_cgraph.svg" width="595" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_acc30f84a40d0be2c2ccd66a728f4268e_cgraph.svg" width="987" height="247"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -568,6 +576,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Must be thread safe. </p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -604,7 +614,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aff362c03830efca83a352ab456362110"></a>
+<a class="anchor" id="a3ce28ac5b7bb50847af133b85ae406ce"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -615,8 +625,18 @@ Here is the call graph for this function:</div>
           <td class="memname">void MWRender::Animation::addAnimSource </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>model</em></td><td>)</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>baseModel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -625,13 +645,20 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Adds the keyframe controllers in the specified model as a new animation source. Note that the .nif file extension will be replaced with .kf. </p>
+<p>Adds the keyframe controllers in the specified model as a new animation source. </p>
 <dl class="section note"><dt>Note</dt><dd>Later added animation sources have the highest priority when it comes to finding a particular animation. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">model</td><td>The file to add the keyframes for. Note that the .nif file extension will be replaced with .kf. </td></tr>
+    <tr><td class="paramname">baseModel</td><td>The filename of the mObjectRoot, only used for error messages. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_aff362c03830efca83a352ab456362110_cgraph.svg" width="1576" height="1983"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a3ce28ac5b7bb50847af133b85ae406ce_cgraph.svg" width="2416" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -639,7 +666,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_aff362c03830efca83a352ab456362110_icgraph.svg" width="1838" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a3ce28ac5b7bb50847af133b85ae406ce_icgraph.svg" width="1838" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -688,7 +715,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a1ad2390344ae9c1560289082c500be9e"></a>
+<a class="anchor" id="aa8100b647609f31d4ecbdc0a78028e69"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -719,8 +746,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>texture</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>texture</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scale</em> = <code>1.0f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -746,7 +779,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a1ad2390344ae9c1560289082c500be9e_cgraph.svg" width="1915" height="1520"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_aa8100b647609f31d4ecbdc0a78028e69_cgraph.svg" width="790" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -754,7 +787,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a1ad2390344ae9c1560289082c500be9e_icgraph.svg" width="1632" height="872"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_aa8100b647609f31d4ecbdc0a78028e69_icgraph.svg" width="1632" height="872"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -853,7 +886,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_aee82ebb9884fbd0f8b563d8e0c2465fb_cgraph.svg" width="1536" height="1896"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_aee82ebb9884fbd0f8b563d8e0c2465fb_cgraph.svg" width="1408" height="674"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -861,7 +894,57 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_aee82ebb9884fbd0f8b563d8e0c2465fb_icgraph.svg" width="1808" height="1251"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_aee82ebb9884fbd0f8b563d8e0c2465fb_icgraph.svg" width="1808" height="1318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af2ccd533606e5ffcdc9d5b3409b6d0fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWRender::Animation::addSingleAnimSource </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>baseModel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_af2ccd533606e5ffcdc9d5b3409b6d0fb_cgraph.svg" width="1958" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_af2ccd533606e5ffcdc9d5b3409b6d0fb_icgraph.svg" width="2299" height="524"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -895,7 +978,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_abed989fb7189cb08942784a17bdc1261_cgraph.svg" width="1747" height="1862"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_abed989fb7189cb08942784a17bdc1261_cgraph.svg" width="1619" height="674"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1034,7 +1117,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_ae52fc572b53558ea36c015d318a0e58b_icgraph.svg" width="2048" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_ae52fc572b53558ea36c015d318a0e58b_icgraph.svg" width="2510" height="524"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1309,7 +1392,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_acf25405ac8a19025bd2ab392ff5eea7f_icgraph.svg" width="1259" height="247"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_acf25405ac8a19025bd2ab392ff5eea7f_icgraph.svg" width="1552" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1367,7 +1450,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_ad57fd81691e7f2d877800c88e784d21c_icgraph.svg" width="2400" height="391"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_ad57fd81691e7f2d877800c88e784d21c_icgraph.svg" width="2400" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1398,7 +1481,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a652a215abe4aac70d9c916a5ce3d503d_icgraph.svg" width="1872" height="1767"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a652a215abe4aac70d9c916a5ce3d503d_icgraph.svg" width="1870" height="1788"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1458,6 +1541,21 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="afd8cbbf8a3c2cbf9078e36d7aa1a1284"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> MWRender::Animation::getPtr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a7c31edcb94c36e6d7971bbcafcfecb0b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1511,7 +1609,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a79d86f263710ea5aa972be1e5da78fc2_icgraph.svg" width="1259" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a79d86f263710ea5aa972be1e5da78fc2_icgraph.svg" width="1259" height="247"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1638,7 +1736,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a38d2545a992af8eef9199a7c1b5f74eb_icgraph.svg" width="1846" height="527"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a38d2545a992af8eef9199a7c1b5f74eb_icgraph.svg" width="1846" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1663,7 +1761,57 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a5b8f16b3c1ae5e7d515a5f9be97df6a4_icgraph.svg" width="1552" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a5b8f16b3c1ae5e7d515a5f9be97df6a4_icgraph.svg" width="1931" height="706"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7921bbab6cc09786b2ec14e0220af7b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWRender::Animation::loadAllAnimationsInFolder </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>baseModel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a7921bbab6cc09786b2ec14e0220af7b5_cgraph.svg" width="2206" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a7921bbab6cc09786b2ec14e0220af7b5_icgraph.svg" width="2080" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1785,7 +1933,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_af375135ae7834445da7479dde42b7528_cgraph.svg" width="918" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_af375135ae7834445da7479dde42b7528_cgraph.svg" width="894" height="339"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2004,7 +2152,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a94ac28687434bbcd3ad5d97eb594bc4c_cgraph.svg" width="910" height="656"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a94ac28687434bbcd3ad5d97eb594bc4c_cgraph.svg" width="910" height="730"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2077,26 +2225,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a6ca609f50b7ed1f17bb8b93d655f7195"></a>
+<a class="anchor" id="a48d6c80950dcf5d7db1582ddcf5b8464"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void MWRender::Animation::setActive </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>active</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Set active flag on the object skeleton, if one exists. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSceneUtil_1_1Skeleton.html#aaf5392e6ae95cdecf14826241b57b64e">SceneUtil::Skeleton::setActive</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSceneUtil_1_1Skeleton.html#a1c98ae3f2b42031191411b523ffc025d">SceneUtil::Skeleton::setActive</a> 0 = Inactive, 1 = Active in place, 2 = Active </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a6ca609f50b7ed1f17bb8b93d655f7195_cgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a48d6c80950dcf5d7db1582ddcf5b8464_cgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2104,7 +2252,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a6ca609f50b7ed1f17bb8b93d655f7195_icgraph.svg" width="467" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a48d6c80950dcf5d7db1582ddcf5b8464_icgraph.svg" width="966" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2130,7 +2278,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a465d81ec38f8a6212b1642195eaa7688_cgraph.svg" width="627" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a465d81ec38f8a6212b1642195eaa7688_cgraph.svg" width="910" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2275,7 +2423,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a16d4b189ab5994be4c553ba9933f4c54_icgraph.svg" width="1259" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a16d4b189ab5994be4c553ba9933f4c54_icgraph.svg" width="1259" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2338,7 +2486,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a79899e050e52d610acfeb3840d5a31d4_cgraph.svg" width="2000" height="1974"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a79899e050e52d610acfeb3840d5a31d4_cgraph.svg" width="664" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2582,15 +2730,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="abe9eebb1a1cd7d4fdae6d82f3b2c2b6b"></a>
+<a class="anchor" id="a1980924c1dff6d33f7b387aa0ff99268"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void MWRender::Animation::updateEffects </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>duration</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2601,7 +2748,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_abe9eebb1a1cd7d4fdae6d82f3b2c2b6b_icgraph.svg" width="1176" height="312"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a1980924c1dff6d33f7b387aa0ff99268_icgraph.svg" width="1176" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2683,7 +2830,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_ae4627a2cd19846ca585f42d0365c23fe_icgraph.svg" width="408" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_ae4627a2cd19846ca585f42d0365c23fe_icgraph.svg" width="408" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2708,7 +2855,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a7861978e3d74c0d1462ad0fb41118c35_icgraph.svg" width="726" height="236"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWRender_1_1Animation_a7861978e3d74c0d1462ad0fb41118c35_icgraph.svg" width="726" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2816,7 +2963,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a0a41dccfd3faddb08d55f4969709290e"></a>
+<a class="anchor" id="a3a3986a9714f8f2ac00e86c504f77c2a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2824,7 +2971,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::shared_ptr&lt;<a class="el" href="classMWRender_1_1Animation_1_1AnimationTime.html">AnimationTime</a>&gt; MWRender::Animation::mAnimationTimePtr[<a class="el" href="classMWRender_1_1Animation.html#aa6cfd2a56081852c464dd539bde6b67e">sNumBlendMasks</a>]</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMWRender_1_1Animation_1_1AnimationTime.html">AnimationTime</a>&gt; MWRender::Animation::mAnimationTimePtr[<a class="el" href="classMWRender_1_1Animation.html#aa6cfd2a56081852c464dd539bde6b67e">sNumBlendMasks</a>]</td>
         </tr>
       </table>
   </td>
@@ -2844,7 +2991,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMWRender_1_1Animation.html#a9c5153a3e6552bc28e8b2c84d2138d7f">AnimSourceList</a> MWRender::Animation::mAnimSources</td>
+          <td class="memname"><a class="el" href="classMWRender_1_1Animation.html#a7a30242020bec15e995f4e8fb8e37531">AnimSourceList</a> MWRender::Animation::mAnimSources</td>
         </tr>
       </table>
   </td>
@@ -2856,7 +3003,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a9629e5a9f6d3dd99cd93fceabf3ef24d"></a>
+<a class="anchor" id="a68dab10dc0cf9afd3a0aa52b130a200b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2864,12 +3011,12 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structMWRender_1_1Animation_1_1EffectParams.html">EffectParams</a>&gt; MWRender::Animation::mEffects</td>
+          <td class="memname">std::map&lt;std::string, float&gt; MWRender::Animation::mAnimVelocities</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2905,6 +3052,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">osg::ref_ptr&lt;<a class="el" href="classMWRender_1_1GlowUpdater.html">GlowUpdater</a>&gt; MWRender::Animation::mGlowUpdater</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a032cf9a78a7d319ef9a290ff9f9a4072"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWRender::Animation::mHasMagicEffects</td>
         </tr>
       </table>
   </td>
@@ -3196,6 +3363,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ae71ccb0bdef74c47f4bb723ea68bc7c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWRender::Animation::mUseAdditionalSources</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aa6cfd2a56081852c464dd539bde6b67e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3217,13 +3404,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwrender/<a class="el" href="animation_8hpp_source.html">animation.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwrender/<a class="el" href="animation_8cpp.html">animation.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwrender/<a class="el" href="animation_8hpp_source.html">animation.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwrender/<a class="el" href="animation_8cpp.html">animation.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:05 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:38 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

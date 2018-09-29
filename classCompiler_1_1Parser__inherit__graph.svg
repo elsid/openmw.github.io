@@ -355,34 +355,38 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classCSVWorld_1_1ScriptHighlighter.html" target="_top" xlink:title="{CSVWorld::ScriptHighlighter\n|&#45; mErrorHandler\l&#45; mExtensions\l&#45; mContext\l&#45; mScheme\l&#45; mMode\l|+ ScriptHighlighter()\l+ highlightBlock()\l+ invalidateIds()\l+ settingChanged()\l&#45; parseInt()\l&#45; parseFloat()\l&#45; parseName()\l&#45; parseKeyword()\l&#45; parseSpecial()\l&#45; parseComment()\l&#45; parseEOF()\l&#45; highlight()\l}">
-<polygon fill="white" stroke="black" points="1600,-111 1600,-333 1748,-333 1748,-111 1600,-111"/>
-<text text-anchor="middle" x="1674" y="-321" font-family="FreeSans" font-size="10.00">CSVWorld::ScriptHighlighter</text>
-<polyline fill="none" stroke="black" points="1600,-314 1748,-314 "/>
-<text text-anchor="start" x="1608" y="-302" font-family="FreeSans" font-size="10.00">&#45; mErrorHandler</text>
-<text text-anchor="start" x="1608" y="-291" font-family="FreeSans" font-size="10.00">&#45; mExtensions</text>
-<text text-anchor="start" x="1608" y="-280" font-family="FreeSans" font-size="10.00">&#45; mContext</text>
-<text text-anchor="start" x="1608" y="-269" font-family="FreeSans" font-size="10.00">&#45; mScheme</text>
-<text text-anchor="start" x="1608" y="-258" font-family="FreeSans" font-size="10.00">&#45; mMode</text>
+<g id="a_node13"><a xlink:href="classCSVWorld_1_1ScriptHighlighter.html" target="_top" xlink:title="{CSVWorld::ScriptHighlighter\n|&#45; mErrorHandler\l&#45; mExtensions\l&#45; mContext\l&#45; mScheme\l&#45; mMode\l&#45; mMarkOccurrences\l&#45; mMarkedWord\l|+ ScriptHighlighter()\l+ highlightBlock()\l+ setMarkOccurrences()\l+ setMarkedWord()\l+ invalidateIds()\l+ settingChanged()\l&#45; parseInt()\l&#45; parseFloat()\l&#45; parseName()\l&#45; parseKeyword()\l&#45; parseSpecial()\l&#45; parseComment()\l&#45; parseEOF()\l&#45; highlight()\l}">
+<polygon fill="white" stroke="black" points="1600,-89 1600,-355 1748,-355 1748,-89 1600,-89"/>
+<text text-anchor="middle" x="1674" y="-343" font-family="FreeSans" font-size="10.00">CSVWorld::ScriptHighlighter</text>
+<polyline fill="none" stroke="black" points="1600,-336 1748,-336 "/>
+<text text-anchor="start" x="1608" y="-324" font-family="FreeSans" font-size="10.00">&#45; mErrorHandler</text>
+<text text-anchor="start" x="1608" y="-313" font-family="FreeSans" font-size="10.00">&#45; mExtensions</text>
+<text text-anchor="start" x="1608" y="-302" font-family="FreeSans" font-size="10.00">&#45; mContext</text>
+<text text-anchor="start" x="1608" y="-291" font-family="FreeSans" font-size="10.00">&#45; mScheme</text>
+<text text-anchor="start" x="1608" y="-280" font-family="FreeSans" font-size="10.00">&#45; mMode</text>
+<text text-anchor="start" x="1608" y="-269" font-family="FreeSans" font-size="10.00">&#45; mMarkOccurrences</text>
+<text text-anchor="start" x="1608" y="-258" font-family="FreeSans" font-size="10.00">&#45; mMarkedWord</text>
 <polyline fill="none" stroke="black" points="1600,-251 1748,-251 "/>
 <text text-anchor="start" x="1608" y="-239" font-family="FreeSans" font-size="10.00">+ ScriptHighlighter()</text>
 <text text-anchor="start" x="1608" y="-228" font-family="FreeSans" font-size="10.00">+ highlightBlock()</text>
-<text text-anchor="start" x="1608" y="-217" font-family="FreeSans" font-size="10.00">+ invalidateIds()</text>
-<text text-anchor="start" x="1608" y="-206" font-family="FreeSans" font-size="10.00">+ settingChanged()</text>
-<text text-anchor="start" x="1608" y="-195" font-family="FreeSans" font-size="10.00">&#45; parseInt()</text>
-<text text-anchor="start" x="1608" y="-184" font-family="FreeSans" font-size="10.00">&#45; parseFloat()</text>
-<text text-anchor="start" x="1608" y="-173" font-family="FreeSans" font-size="10.00">&#45; parseName()</text>
-<text text-anchor="start" x="1608" y="-162" font-family="FreeSans" font-size="10.00">&#45; parseKeyword()</text>
-<text text-anchor="start" x="1608" y="-151" font-family="FreeSans" font-size="10.00">&#45; parseSpecial()</text>
-<text text-anchor="start" x="1608" y="-140" font-family="FreeSans" font-size="10.00">&#45; parseComment()</text>
-<text text-anchor="start" x="1608" y="-129" font-family="FreeSans" font-size="10.00">&#45; parseEOF()</text>
-<text text-anchor="start" x="1608" y="-118" font-family="FreeSans" font-size="10.00">&#45; highlight()</text>
+<text text-anchor="start" x="1608" y="-217" font-family="FreeSans" font-size="10.00">+ setMarkOccurrences()</text>
+<text text-anchor="start" x="1608" y="-206" font-family="FreeSans" font-size="10.00">+ setMarkedWord()</text>
+<text text-anchor="start" x="1608" y="-195" font-family="FreeSans" font-size="10.00">+ invalidateIds()</text>
+<text text-anchor="start" x="1608" y="-184" font-family="FreeSans" font-size="10.00">+ settingChanged()</text>
+<text text-anchor="start" x="1608" y="-173" font-family="FreeSans" font-size="10.00">&#45; parseInt()</text>
+<text text-anchor="start" x="1608" y="-162" font-family="FreeSans" font-size="10.00">&#45; parseFloat()</text>
+<text text-anchor="start" x="1608" y="-151" font-family="FreeSans" font-size="10.00">&#45; parseName()</text>
+<text text-anchor="start" x="1608" y="-140" font-family="FreeSans" font-size="10.00">&#45; parseKeyword()</text>
+<text text-anchor="start" x="1608" y="-129" font-family="FreeSans" font-size="10.00">&#45; parseSpecial()</text>
+<text text-anchor="start" x="1608" y="-118" font-family="FreeSans" font-size="10.00">&#45; parseComment()</text>
+<text text-anchor="start" x="1608" y="-107" font-family="FreeSans" font-size="10.00">&#45; parseEOF()</text>
+<text text-anchor="start" x="1608" y="-96" font-family="FreeSans" font-size="10.00">&#45; highlight()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node13 -->
 <g id="edge12" class="edge"><title>Node1&#45;&gt;Node13</title>
-<path fill="none" stroke="#8b1a1a" d="M953.481,-614.182C1114.46,-591.055 1495.04,-528.657 1590,-444 1622.17,-415.32 1642.08,-372.988 1654.38,-333.028"/>
+<path fill="none" stroke="#8b1a1a" d="M953.481,-614.182C1114.46,-591.055 1495.04,-528.657 1590,-444 1616.27,-420.578 1634.37,-388.051 1646.82,-355.147"/>
 <polygon fill="none" stroke="#8b1a1a" points="952.606,-610.771 943.201,-615.648 953.595,-617.701 952.606,-610.771"/>
 </g>
 </g>

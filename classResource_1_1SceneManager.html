@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,13 +111,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for Resource::SceneManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager__inherit__graph.svg" width="216" height="640"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager__inherit__graph.svg" width="216" height="686"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Resource::SceneManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager__coll__graph.svg" width="2032" height="1603"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager__coll__graph.svg" width="2268" height="1678"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -156,23 +156,30 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e22681833f0658b3587214c01abd258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae390b83e30d69ded03adc29df354dbd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ae390b83e30d69ded03adc29df354dbd5">setShaderPath</a> (const std::string &amp;path)</td></tr>
 <tr class="separator:ae390b83e30d69ded03adc29df354dbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a658eb2b72de41d36a1430d8b480c299a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a658eb2b72de41d36a1430d8b480c299a">checkLoaded</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>, double referenceTime)</td></tr>
+<tr class="memdesc:a658eb2b72de41d36a1430d8b480c299a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a given scene is loaded and if so, update its usage timestamp to prevent it from being unloaded.  <a href="#a658eb2b72de41d36a1430d8b480c299a">More...</a><br/></td></tr>
+<tr class="separator:a658eb2b72de41d36a1430d8b480c299a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01903b2038c6bcda25436eccb0d10b04"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; const osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a01903b2038c6bcda25436eccb0d10b04">getTemplate</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</td></tr>
 <tr class="separator:a01903b2038c6bcda25436eccb0d10b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eaac56a5cc1669b3a75e2acd142264e"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a5eaac56a5cc1669b3a75e2acd142264e">cacheInstance</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</td></tr>
 <tr class="separator:a5eaac56a5cc1669b3a75e2acd142264e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b3d33cb5ff1935dcb2ef16b649878e2"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a0b3d33cb5ff1935dcb2ef16b649878e2">createInstance</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</td></tr>
+<tr class="separator:a0b3d33cb5ff1935dcb2ef16b649878e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d870b71eaa7f5653d46c294a51e0282"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a8d870b71eaa7f5653d46c294a51e0282">createInstance</a> (const osg::Node *base)</td></tr>
+<tr class="separator:a8d870b71eaa7f5653d46c294a51e0282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae146e6f78ef122d5e8701b1162cbb47b"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b">getInstance</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</td></tr>
 <tr class="separator:ae146e6f78ef122d5e8701b1162cbb47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e86b6f2121a6dae71edd662577d80d2"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a8e86b6f2121a6dae71edd662577d80d2">getInstance</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>, osg::Group *parentNode)</td></tr>
 <tr class="separator:a8e86b6f2121a6dae71edd662577d80d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20d58eb3d36af76533aa72abe67e920a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a20d58eb3d36af76533aa72abe67e920a">attachTo</a> (osg::Node *instance, osg::Group *parentNode) const </td></tr>
 <tr class="separator:a20d58eb3d36af76533aa72abe67e920a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec80b2c3b34e4d81950174068c062dc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#aec80b2c3b34e4d81950174068c062dc5">releaseGLObjects</a> (osg::State *state)</td></tr>
-<tr class="separator:aec80b2c3b34e4d81950174068c062dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82d8cfaf5e1c596d5607222129f769f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a82d8cfaf5e1c596d5607222129f769f6">releaseGLObjects</a> (osg::State *state) override</td></tr>
+<tr class="separator:a82d8cfaf5e1c596d5607222129f769f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a830854cf8c9b04d9fe97992a367bebd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a830854cf8c9b04d9fe97992a367bebd4">setIncrementalCompileOperation</a> (osgUtil::IncrementalCompileOperation *ico)</td></tr>
 <tr class="memdesc:a830854cf8c9b04d9fe97992a367bebd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up an IncrementalCompileOperation for background compiling of loaded scenes.  <a href="#a830854cf8c9b04d9fe97992a367bebd4">More...</a><br/></td></tr>
 <tr class="separator:a830854cf8c9b04d9fe97992a367bebd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96e65585a983f8fec94ff0c1e825edb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a96e65585a983f8fec94ff0c1e825edb2">notifyAttached</a> (osg::Node *node) const </td></tr>
-<tr class="separator:a96e65585a983f8fec94ff0c1e825edb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7fe08692b09f17eea0ffdc6bde0fbb"><td class="memItemLeft" align="right" valign="top">osgUtil::IncrementalCompileOperation *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#adb7fe08692b09f17eea0ffdc6bde0fbb">getIncrementalCompileOperation</a> ()</td></tr>
+<tr class="separator:adb7fe08692b09f17eea0ffdc6bde0fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc434a2e89e2c4f87c784611ef3ec60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a9fc434a2e89e2c4f87c784611ef3ec60">getImageManager</a> ()</td></tr>
 <tr class="separator:a9fc434a2e89e2c4f87c784611ef3ec60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49f1477e7dd9e5c08d5bc1c7916b8e33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a49f1477e7dd9e5c08d5bc1c7916b8e33">setParticleSystemMask</a> (unsigned <a class="el" href="classint.html">int</a> mask)</td></tr>
@@ -183,8 +190,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1fe71df9797650ddcb35b7d6dc8eb894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a416293f231dc0c38525f91cd2a6b7c74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a416293f231dc0c38525f91cd2a6b7c74">setUnRefImageDataAfterApply</a> (<a class="el" href="classbool.html">bool</a> unref)</td></tr>
 <tr class="separator:a416293f231dc0c38525f91cd2a6b7c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a241e177b80267035e00a550a853e3b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a3a241e177b80267035e00a550a853e3b">updateCache</a> (double referenceTime)</td></tr>
-<tr class="separator:a3a241e177b80267035e00a550a853e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9632fe21d921bc3dfafe1f5069b58372"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a9632fe21d921bc3dfafe1f5069b58372">updateCache</a> (double referenceTime) override</td></tr>
+<tr class="separator:a9632fe21d921bc3dfafe1f5069b58372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2855f0c3af41e51e83000c314d76e11a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a2855f0c3af41e51e83000c314d76e11a">clearCache</a> () override</td></tr>
+<tr class="memdesc:a2855f0c3af41e51e83000c314d76e11a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all cache entries.  <a href="#a2855f0c3af41e51e83000c314d76e11a">More...</a><br/></td></tr>
+<tr class="separator:a2855f0c3af41e51e83000c314d76e11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab57856c253830ed33de93a97e2d284cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ab57856c253830ed33de93a97e2d284cc">reportStats</a> (unsigned <a class="el" href="classint.html">int</a> frameNumber, osg::Stats *stats) const override</td></tr>
+<tr class="separator:ab57856c253830ed33de93a97e2d284cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classResource_1_1ResourceManager"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classResource_1_1ResourceManager')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classResource_1_1ResourceManager.html">Resource::ResourceManager</a></td></tr>
 <tr class="memitem:a93e234fca2a9ebded0ce220d44fb6a98 inherit pub_methods_classResource_1_1ResourceManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1ResourceManager.html#a93e234fca2a9ebded0ce220d44fb6a98">ResourceManager</a> (const <a class="el" href="classVFS_1_1Manager.html">VFS::Manager</a> *vfs)</td></tr>
 <tr class="separator:a93e234fca2a9ebded0ce220d44fb6a98 inherit pub_methods_classResource_1_1ResourceManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,8 +210,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a0b3d33cb5ff1935dcb2ef16b649878e2"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a0b3d33cb5ff1935dcb2ef16b649878e2">createInstance</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</td></tr>
-<tr class="separator:a0b3d33cb5ff1935dcb2ef16b649878e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac10ac1e77ab3b6ab2351f3089c33fc8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classShader_1_1ShaderVisitor.html">Shader::ShaderVisitor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ac10ac1e77ab3b6ab2351f3089c33fc8f">createShaderVisitor</a> ()</td></tr>
+<tr class="separator:ac10ac1e77ab3b6ab2351f3089c33fc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79716ee8691dfae51cc44465b7ec4a54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a79716ee8691dfae51cc44465b7ec4a54">SceneManager</a> (const <a class="el" href="classResource_1_1SceneManager.html">SceneManager</a> &amp;)</td></tr>
 <tr class="separator:a79716ee8691dfae51cc44465b7ec4a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc1500cc8e714f51ac2a5bdccdc8146e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#adc1500cc8e714f51ac2a5bdccdc8146e">operator=</a> (const <a class="el" href="classResource_1_1SceneManager.html">SceneManager</a> &amp;)</td></tr>
@@ -207,9 +219,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab529bc856079897cb0347d0847974a47"><td class="memItemLeft" align="right" valign="top">std::auto_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classShader_1_1ShaderManager.html">Shader::ShaderManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ab529bc856079897cb0347d0847974a47">mShaderManager</a></td></tr>
-<tr class="separator:ab529bc856079897cb0347d0847974a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04863ae6020f5fac450cb327d9f671e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classShader_1_1ShaderManager.html">Shader::ShaderManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ac04863ae6020f5fac450cb327d9f671e">mShaderManager</a></td></tr>
+<tr class="separator:ac04863ae6020f5fac450cb327d9f671e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b21e6728fbf1dc506095436560e354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ae3b21e6728fbf1dc506095436560e354">mForceShaders</a></td></tr>
 <tr class="separator:ae3b21e6728fbf1dc506095436560e354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9d387095a47f70f335c81ca1c951ffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ab9d387095a47f70f335c81ca1c951ffa">mClampLighting</a></td></tr>
@@ -228,6 +240,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aae2fc4e609986cb63a25e07374f0c07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a871f5dcb519e3633e199a7209074cedc"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; <a class="el" href="classResource_1_1MultiObjectCache.html">MultiObjectCache</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a871f5dcb519e3633e199a7209074cedc">mInstanceCache</a></td></tr>
 <tr class="separator:a871f5dcb519e3633e199a7209074cedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94a54bc42e040abe98e4afde9908aeb"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classResource_1_1SharedStateManager.html">Resource::SharedStateManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#ab94a54bc42e040abe98e4afde9908aeb">mSharedStateManager</a></td></tr>
+<tr class="separator:ab94a54bc42e040abe98e4afde9908aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0875f1f329aee9cf896c354f31481397"><td class="memItemLeft" align="right" valign="top">OpenThreads::Mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a0875f1f329aee9cf896c354f31481397">mSharedStateMutex</a></td></tr>
 <tr class="separator:a0875f1f329aee9cf896c354f31481397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42582ecc372d60cf134b8a10fc901f85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classResource_1_1ImageManager.html">Resource::ImageManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResource_1_1SceneManager.html#a42582ecc372d60cf134b8a10fc901f85">mImageManager</a></td></tr>
@@ -353,7 +368,7 @@ Additional Inherited Members</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a1fe71df9797650ddcb35b7d6dc8eb894_icgraph.svg" width="1846" height="1304"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a1fe71df9797650ddcb35b7d6dc8eb894_icgraph.svg" width="1832" height="1383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -390,22 +405,6 @@ Assumes the given instance was not attached to any parents before. </dd>
 <dd>
 Not thread safe, unless parentNode is not part of the main scene graph yet. </dd></dl>
 
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a20d58eb3d36af76533aa72abe67e920a_cgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a20d58eb3d36af76533aa72abe67e920a_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a5eaac56a5cc1669b3a75e2acd142264e"></a>
@@ -429,7 +428,7 @@ Thread safe. </dd></dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a5eaac56a5cc1669b3a75e2acd142264e_cgraph.svg" width="1779" height="1568"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a5eaac56a5cc1669b3a75e2acd142264e_cgraph.svg" width="1187" height="159"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -437,7 +436,86 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a5eaac56a5cc1669b3a75e2acd142264e_icgraph.svg" width="406" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a5eaac56a5cc1669b3a75e2acd142264e_icgraph.svg" width="491" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a658eb2b72de41d36a1430d8b480c299a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Resource::SceneManager::checkLoaded </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>referenceTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if a given scene is loaded and if so, update its usage timestamp to prevent it from being unloaded. </p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a658eb2b72de41d36a1430d8b480c299a_cgraph.svg" width="1187" height="146"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a658eb2b72de41d36a1430d8b480c299a_icgraph.svg" width="1624" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2855f0c3af41e51e83000c314d76e11a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::SceneManager::clearCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear all cache entries. </p>
+
+<p>Reimplemented from <a class="el" href="classResource_1_1ResourceManager.html#a0c1b31cb5bf2c5da3cde79d1f85a909e">Resource::ResourceManager</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a2855f0c3af41e51e83000c314d76e11a_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -447,15 +525,62 @@ Here is the caller graph for this function:</div>
 <a class="anchor" id="a0b3d33cb5ff1935dcb2ef16b649878e2"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">osg::ref_ptr&lt; osg::Node &gt; Resource::SceneManager::createInstance </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a0b3d33cb5ff1935dcb2ef16b649878e2_icgraph.svg" width="2414" height="524"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8d870b71eaa7f5653d46c294a51e0282"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt; osg::Node &gt; Resource::SceneManager::createInstance </td>
+          <td>(</td>
+          <td class="paramtype">const osg::Node *&#160;</td>
+          <td class="paramname"><em>base</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a8d870b71eaa7f5653d46c294a51e0282_cgraph.svg" width="1504" height="2040"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac10ac1e77ab3b6ab2351f3089c33fc8f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classShader_1_1ShaderVisitor.html">Shader::ShaderVisitor</a> * Resource::SceneManager::createShaderVisitor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -469,7 +594,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a0b3d33cb5ff1935dcb2ef16b649878e2_cgraph.svg" width="1547" height="2319"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ac10ac1e77ab3b6ab2351f3089c33fc8f_cgraph.svg" width="456" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -477,7 +602,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a0b3d33cb5ff1935dcb2ef16b649878e2_icgraph.svg" width="1878" height="1292"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ac10ac1e77ab3b6ab2351f3089c33fc8f_icgraph.svg" width="2576" height="1218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -500,7 +625,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a911a29e81896686ba624bfd8894b6b71_icgraph.svg" width="574" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a911a29e81896686ba624bfd8894b6b71_icgraph.svg" width="1776" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -523,7 +648,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ab6242b2be2b3693f12177c0586af73a1_icgraph.svg" width="576" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ab6242b2be2b3693f12177c0586af73a1_icgraph.svg" width="1779" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -546,7 +671,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_acefc440fd18a4ac39cee1e15f1b1deb0_icgraph.svg" width="979" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_acefc440fd18a4ac39cee1e15f1b1deb0_icgraph.svg" width="1859" height="292"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -569,7 +694,30 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a9fc434a2e89e2c4f87c784611ef3ec60_icgraph.svg" width="1643" height="146"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a9fc434a2e89e2c4f87c784611ef3ec60_icgraph.svg" width="2008" height="315"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adb7fe08692b09f17eea0ffdc6bde0fbb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">osgUtil::IncrementalCompileOperation * Resource::SceneManager::getIncrementalCompileOperation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_adb7fe08692b09f17eea0ffdc6bde0fbb_icgraph.svg" width="1339" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -594,17 +742,9 @@ Here is the caller graph for this function:</div>
 <dl class="section note"><dt>Note</dt><dd>Thread safe. </dd></dl>
 
 <p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ae146e6f78ef122d5e8701b1162cbb47b_cgraph.svg" width="1779" height="1568"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ae146e6f78ef122d5e8701b1162cbb47b_icgraph.svg" width="1646" height="1310"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ae146e6f78ef122d5e8701b1162cbb47b_icgraph.svg" width="1646" height="1372"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -638,14 +778,6 @@ Here is the caller graph for this function:</div>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classResource_1_1SceneManager.html#a01903b2038c6bcda25436eccb0d10b04">getTemplate</a> </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Not thread safe, unless parentNode is not part of the main scene graph yet. </dd></dl>
 
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a8e86b6f2121a6dae71edd662577d80d2_cgraph.svg" width="2011" height="1908"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="ad8dd7d348244183c8c5647177a83acdd"></a>
@@ -664,7 +796,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ad8dd7d348244183c8c5647177a83acdd_icgraph.svg" width="979" height="146"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ad8dd7d348244183c8c5647177a83acdd_icgraph.svg" width="1859" height="280"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -692,7 +824,7 @@ Thread safe. </dd></dl>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a01903b2038c6bcda25436eccb0d10b04_cgraph.svg" width="2443" height="1795"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a01903b2038c6bcda25436eccb0d10b04_cgraph.svg" width="1899" height="1344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -700,32 +832,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a01903b2038c6bcda25436eccb0d10b04_icgraph.svg" width="2222" height="1384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a96e65585a983f8fec94ff0c1e825edb2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Resource::SceneManager::notifyAttached </td>
-          <td>(</td>
-          <td class="paramtype">osg::Node *&#160;</td>
-          <td class="paramname"><em>node</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="classResource_1_1SceneManager.html#a20d58eb3d36af76533aa72abe67e920a">SceneManager::attachTo</a> calls this method automatically, only needs to be called by users if manually attaching </dd></dl>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a96e65585a983f8fec94ff0c1e825edb2_icgraph.svg" width="2846" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a01903b2038c6bcda25436eccb0d10b04_icgraph.svg" width="1214" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -775,7 +882,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ac01af19b79e0f46bd186fef974e6fea1_cgraph.svg" width="406" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ac01af19b79e0f46bd186fef974e6fea1_cgraph.svg" width="688" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -783,16 +890,19 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ac01af19b79e0f46bd186fef974e6fea1_icgraph.svg" width="2896" height="1020"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ac01af19b79e0f46bd186fef974e6fea1_icgraph.svg" width="2355" height="1118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="aec80b2c3b34e4d81950174068c062dc5"></a>
+<a class="anchor" id="a82d8cfaf5e1c596d5607222129f769f6"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Resource::SceneManager::releaseGLObjects </td>
@@ -802,8 +912,51 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Manually release created OpenGL objects for the given graphics context. This may be required in cases where multiple contexts are used over the lifetime of the application. </p>
+
+<p>Reimplemented from <a class="el" href="classResource_1_1ResourceManager.html#a10277aa6a185c8d7528b0d553fb4d795">Resource::ResourceManager</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab57856c253830ed33de93a97e2d284cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Resource::SceneManager::reportStats </td>
+          <td>(</td>
+          <td class="paramtype">unsigned <a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>frameNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">osg::Stats *&#160;</td>
+          <td class="paramname"><em>stats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classResource_1_1ResourceManager.html#a641a1d586312f5fb0e50bdefef8973e3">Resource::ResourceManager</a>.</p>
 
 </div>
 </div>
@@ -921,7 +1074,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ab6b15c2f2ead8f01fdf606424ac766b7_icgraph.svg" width="1006" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_ab6b15c2f2ead8f01fdf606424ac766b7_icgraph.svg" width="723" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1149,7 +1302,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a3a241e177b80267035e00a550a853e3b"></a>
+<a class="anchor" id="a9632fe21d921bc3dfafe1f5069b58372"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1166,7 +1319,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1177,7 +1330,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a3a241e177b80267035e00a550a853e3b_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classResource_1_1SceneManager_a9632fe21d921bc3dfafe1f5069b58372_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1485,7 +1638,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ab529bc856079897cb0347d0847974a47"></a>
+<a class="anchor" id="ac04863ae6020f5fac450cb327d9f671e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1493,7 +1646,27 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classShader_1_1ShaderManager.html">Shader::ShaderManager</a>&gt; Resource::SceneManager::mShaderManager</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classShader_1_1ShaderManager.html">Shader::ShaderManager</a>&gt; Resource::SceneManager::mShaderManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab94a54bc42e040abe98e4afde9908aeb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">osg::ref_ptr&lt;<a class="el" href="classResource_1_1SharedStateManager.html">Resource::SharedStateManager</a>&gt; Resource::SceneManager::mSharedStateManager</td>
         </tr>
       </table>
   </td>
@@ -1518,7 +1691,7 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1566,13 +1739,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="scenemanager_8hpp_source.html">scenemanager.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/resource/<a class="el" href="scenemanager_8cpp.html">scenemanager.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="scenemanager_8hpp_source.html">scenemanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/resource/<a class="el" href="scenemanager_8cpp.html">scenemanager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

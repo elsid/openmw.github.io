@@ -3,11 +3,11 @@
 <area shape="rect" id="node7" href="$classMWRender_1_1Water.html#a5383f96e35af4dffe3d517a2c2e09ce9" title="MWRender::Water::createShader\lWaterStateSet" alt="" coords="275,351,501,393"/>
 <area shape="rect" id="node17" href="$classMWRender_1_1Water.html#ab50b20b00ac80cec728d3a622a089883" title="MWRender::Water::createSimple\lWaterStateSet" alt="" coords="275,775,501,817"/>
 <area shape="rect" id="node30" href="$classFallback_1_1Map.html#a5e52e347392db20d8d54bc1e163051d1" title="Fallback::Map::getFallback\lFloat" alt="" coords="563,1074,749,1115"/>
-<area shape="rect" id="node35" href="$classMWRender_1_1Water.html#adb32ce5542d9700611d5d35a985c263d" title="MWRender::Water::updateVisible" alt="" coords="275,892,501,919"/>
+<area shape="rect" id="node43" href="$classMWRender_1_1Water.html#adb32ce5542d9700611d5d35a985c263d" title="MWRender::Water::updateVisible" alt="" coords="275,892,501,919"/>
 <area shape="rect" id="node3" href="$namespaceanonymous__namespace_02settings_8cpp_03.html#a5aacf12d76082c18b9cf940ab0daed73" title="anonymous_namespace\l\{settings::cpp\}::parseBool" alt="" coords="560,5,752,46"/>
 <area shape="rect" id="node6" href="$classSettings_1_1Manager.html#ae09758032359a72e34df4085f7bd252e" title="Settings::Manager::\lgetString" alt="" coords="583,70,729,111"/>
-<area shape="rect" id="node4" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="1150,190,1282,231"/>
-<area shape="rect" id="node5" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1622,662,1754,703"/>
+<area shape="rect" id="node4" href="$classMisc_1_1StringUtils.html#a0f8cb0ac134191ba8417f74ab7dc4de6" title="Misc::StringUtils::\lciEqual" alt="" coords="1411,375,1543,417"/>
+<area shape="rect" id="node5" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1622,613,1754,654"/>
 <area shape="rect" id="node8" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="559,514,753,555"/>
 <area shape="rect" id="node9" href="$classResource_1_1SceneManager.html#ad8dd7d348244183c8c5647177a83acdd" title="Resource::SceneManager\l::getShaderManager" alt="" coords="564,135,748,177"/>
 <area shape="rect" id="node10" href="$classShader_1_1ShaderManager.html#a69dec5f576798666a5d93f920d30ce26" title="Shader::ShaderManager\l::getShader" alt="" coords="567,201,745,242"/>
@@ -25,12 +25,20 @@
 <area shape="rect" id="node31" href="$classResource_1_1SceneManager.html#acefc440fd18a4ac39cee1e15f1b1deb0" title="Resource::SceneManager\l::getForceShaders" alt="" coords="564,579,748,621"/>
 <area shape="rect" id="node32" href="$classResource_1_1SceneManager.html#a365bef56063b4ba9b7959a0195dc15fd" title="Resource::SceneManager\l::setForceShaders" alt="" coords="564,645,748,686"/>
 <area shape="rect" id="node33" href="$classResource_1_1SceneManager.html#ac01af19b79e0f46bd186fef974e6fea1" title="Re&#45;create shaders for this node, need to call this if texture stages or vertex color mode have change..." alt="" coords="564,710,748,751"/>
-<area shape="rect" id="node23" href="$classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" title="VFS::Manager::normalizeFilename" alt="" coords="811,888,1050,915"/>
-<area shape="rect" id="node27" href="$classVFS_1_1Manager.html#ac59e8f07d1b254b5e763cb34e3906c64" title="VFS::Manager::get" alt="" coords="861,787,1001,813"/>
-<area shape="rect" id="node29" href="$namespaceResource.html#a348671c1b817ff6d44215a8ef0887350" title="Resource::checkSupported" alt="" coords="835,837,1027,864"/>
-<area shape="rect" id="node24" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#afff51e54666db5317a601da81b18897a" title="anonymous_namespace\l\{manager::cpp\}::normalize_path" alt="" coords="1099,809,1333,850"/>
-<area shape="rect" id="node25" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#a43766ad9c2dc269c62c8ec100bfd3b36" title="anonymous_namespace\l\{manager::cpp\}::strict\l_normalize_char" alt="" coords="1388,721,1567,777"/>
-<area shape="rect" id="node26" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#a0760071e5091c65283088c802ce83396" title="anonymous_namespace\l\{manager::cpp\}::nonstrict\l_normalize_char" alt="" coords="1382,801,1573,857"/>
-<area shape="rect" id="node28" href="$classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc" title="VFS::Manager::getNormalized" alt="" coords="1109,757,1323,784"/>
-<area shape="rect" id="node34" href="$classShader_1_1ShaderVisitor.html#a0e7546ca276948dc8b4f0d0201c256c1" title="Shader::ShaderVisitor\l::setForceShaders" alt="" coords="849,710,1012,751"/>
+<area shape="rect" id="node23" href="$classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" title="VFS::Manager::normalizeFilename" alt="" coords="811,899,1050,925"/>
+<area shape="rect" id="node27" href="$classVFS_1_1Manager.html#ac59e8f07d1b254b5e763cb34e3906c64" title="VFS::Manager::get" alt="" coords="861,797,1001,824"/>
+<area shape="rect" id="node29" href="$namespaceResource.html#a348671c1b817ff6d44215a8ef0887350" title="Resource::checkSupported" alt="" coords="835,848,1027,875"/>
+<area shape="rect" id="node24" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#afff51e54666db5317a601da81b18897a" title="anonymous_namespace\l\{manager::cpp\}::normalize_path" alt="" coords="1099,849,1333,890"/>
+<area shape="rect" id="node25" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#a43766ad9c2dc269c62c8ec100bfd3b36" title="anonymous_namespace\l\{manager::cpp\}::strict\l_normalize_char" alt="" coords="1388,761,1567,817"/>
+<area shape="rect" id="node26" href="$namespaceanonymous__namespace_02manager_8cpp_03.html#a0760071e5091c65283088c802ce83396" title="anonymous_namespace\l\{manager::cpp\}::nonstrict\l_normalize_char" alt="" coords="1382,841,1573,897"/>
+<area shape="rect" id="node28" href="$classVFS_1_1Manager.html#a3722fa539b98563021bea9fc4a8511bc" title="VFS::Manager::getNormalized" alt="" coords="1109,797,1323,824"/>
+<area shape="rect" id="node34" href="$classResource_1_1SceneManager.html#ac10ac1e77ab3b6ab2351f3089c33fc8f" title="Resource::SceneManager\l::createShaderVisitor" alt="" coords="839,535,1023,577"/>
+<area shape="rect" id="node35" href="$classShader_1_1ShaderVisitor.html#a0e7546ca276948dc8b4f0d0201c256c1" title="Shader::ShaderVisitor\l::setForceShaders" alt="" coords="1135,470,1297,511"/>
+<area shape="rect" id="node36" href="$classShader_1_1ShaderVisitor.html#a2b3e28e7877531d6c9c69713dba15c0b" title="Set whether lighting is clamped for visual compatibility with the fixed function pipeline. " alt="" coords="1135,535,1297,577"/>
+<area shape="rect" id="node37" href="$classShader_1_1ShaderVisitor.html#af88f27792b77ab2363cd5d5521f752ff" title="Shader::ShaderVisitor\l::setForcePerPixelLighting" alt="" coords="1123,601,1309,642"/>
+<area shape="rect" id="node38" href="$classShader_1_1ShaderVisitor.html#a1524ce4961fb84170dd381ada7ea037c" title="Automatically use normal maps if a file with suitable name exists (see normal map pattern)..." alt="" coords="1123,666,1309,707"/>
+<area shape="rect" id="node39" href="$classShader_1_1ShaderVisitor.html#a6197c06ef8008b86383cd8f7dbc97072" title="Shader::ShaderVisitor\l::setNormalMapPattern" alt="" coords="1131,731,1301,773"/>
+<area shape="rect" id="node40" href="$classShader_1_1ShaderVisitor.html#a44e8c44a427b1c6c69ff461ddb44d0cb" title="Shader::ShaderVisitor\l::setNormalHeightMapPattern" alt="" coords="1110,274,1322,315"/>
+<area shape="rect" id="node41" href="$classShader_1_1ShaderVisitor.html#ae2281da9dab92a4f967aa19cc4e19af0" title="Shader::ShaderVisitor\l::setAutoUseSpecularMaps" alt="" coords="1119,339,1313,381"/>
+<area shape="rect" id="node42" href="$classShader_1_1ShaderVisitor.html#ab35bafccba0645c81bbd2d2f05b6fd50" title="Shader::ShaderVisitor\l::setSpecularMapPattern" alt="" coords="1127,405,1305,446"/>
 </map>

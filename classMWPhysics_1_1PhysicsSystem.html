@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWPhysics::PhysicsSystem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem__coll__graph.svg" width="4431" height="2131"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem__coll__graph.svg" width="4444" height="2400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -155,8 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7a279147539d9081ecd464d977758f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a169a2b1b885ab0695d57cb704c30d410"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a169a2b1b885ab0695d57cb704c30d410">updatePosition</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr)</td></tr>
 <tr class="separator:a169a2b1b885ab0695d57cb704c30d410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a06c8a379be437f04b46aa651c1c49e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a9a06c8a379be437f04b46aa651c1c49e">addHeightField</a> (const float *heights, <a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y, float triSize, float sqrtVerts)</td></tr>
-<tr class="separator:a9a06c8a379be437f04b46aa651c1c49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab68748b916a2d3cbfbf4cf8203056ee8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ab68748b916a2d3cbfbf4cf8203056ee8">addHeightField</a> (const float *heights, <a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y, float triSize, float sqrtVerts, float minH, float maxH, const osg::Object *holdObject)</td></tr>
+<tr class="separator:ab68748b916a2d3cbfbf4cf8203056ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af14e18de1b7db63963d69dd529b8ec2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#af14e18de1b7db63963d69dd529b8ec2e">removeHeightField</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y)</td></tr>
 <tr class="separator:af14e18de1b7db63963d69dd529b8ec2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a001607547b189825580c330906ebaf9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a001607547b189825580c330906ebaf9f">toggleCollisionMode</a> ()</td></tr>
@@ -168,15 +168,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73b3e0f9a277200d7ff4deaaa64b86e8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a73b3e0f9a277200d7ff4deaaa64b86e8">getCollisions</a> (const <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;ptr, <a class="el" href="classint.html">int</a> collisionGroup, <a class="el" href="classint.html">int</a> collisionMask) const </td></tr>
 <tr class="memdesc:a73b3e0f9a277200d7ff4deaaa64b86e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">get handles this object collides with  <a href="#a73b3e0f9a277200d7ff4deaaa64b86e8">More...</a><br/></td></tr>
 <tr class="separator:a73b3e0f9a277200d7ff4deaaa64b86e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b5a96d26485849698b3e1da776924d3"><td class="memItemLeft" align="right" valign="top">osg::Vec3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a2b5a96d26485849698b3e1da776924d3">traceDown</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, float maxHeight)</td></tr>
-<tr class="separator:a2b5a96d26485849698b3e1da776924d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6129da6a0decae5ac65db23f36d74a2a"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>, <br class="typebreak"/>
-osg::Vec3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a6129da6a0decae5ac65db23f36d74a2a">getHitContact</a> (const <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;actor, const osg::Vec3f &amp;origin, const osg::Quat &amp;orientation, float queryDistance)</td></tr>
-<tr class="separator:a6129da6a0decae5ac65db23f36d74a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276ea96b7199ee90db843d7ae08e4ac1"><td class="memItemLeft" align="right" valign="top">osg::Vec3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a276ea96b7199ee90db843d7ae08e4ac1">traceDown</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr, const osg::Vec3f &amp;position, float maxHeight)</td></tr>
+<tr class="separator:a276ea96b7199ee90db843d7ae08e4ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43c763aa562c7644f7b334baa66a488"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>, <br class="typebreak"/>
+osg::Vec3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ac43c763aa562c7644f7b334baa66a488">getHitContact</a> (const <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;actor, const osg::Vec3f &amp;origin, const osg::Quat &amp;orientation, float queryDistance, std::vector&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt; targets=std::vector&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt;())</td></tr>
+<tr class="separator:ac43c763aa562c7644f7b334baa66a488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ee32e78b01b06640f73a40dc423c41"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a37ee32e78b01b06640f73a40dc423c41">getHitDistance</a> (const osg::Vec3f &amp;point, const <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;target) const </td></tr>
 <tr class="separator:a37ee32e78b01b06640f73a40dc423c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d689bf63239c88145e0f38e7bfa2c16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMWPhysics_1_1PhysicsSystem_1_1RayResult.html">RayResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a2d689bf63239c88145e0f38e7bfa2c16">castRay</a> (const osg::Vec3f &amp;from, const osg::Vec3f &amp;to, <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> ignore=<a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a>(), <a class="el" href="classint.html">int</a> mask=<a class="el" href="namespaceMWPhysics.html#a3e99532701fddf2c9f8d83c2629c99eeaa3fddf9f56c989868350e64e32f6a1e8">CollisionType_World</a>|<a class="el" href="namespaceMWPhysics.html#a3e99532701fddf2c9f8d83c2629c99eea4f85fb38527ad51d8311b5612b9af22e">CollisionType_HeightMap</a>|<a class="el" href="namespaceMWPhysics.html#a3e99532701fddf2c9f8d83c2629c99eea20d1f66275ab2c0c91a65b0ad9e2fffa">CollisionType_Actor</a>|<a class="el" href="namespaceMWPhysics.html#a3e99532701fddf2c9f8d83c2629c99eea359e29899b3e64638b92141b35185fca">CollisionType_Door</a>, <a class="el" href="classint.html">int</a> group=0xff) const </td></tr>
-<tr class="separator:a2d689bf63239c88145e0f38e7bfa2c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6011c42fad11eeb00f30a64672566b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMWPhysics_1_1PhysicsSystem_1_1RayResult.html">RayResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a5f6011c42fad11eeb00f30a64672566b">castRay</a> (const osg::Vec3f &amp;from, const osg::Vec3f &amp;to, const <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;ignore=<a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a>(), std::vector&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt; targets=std::vector&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt;(), <a class="el" href="classint.html">int</a> mask=<a class="el" href="namespaceMWPhysics.html#a3e99532701fddf2c9f8d83c2629c99eeaa3fddf9f56c989868350e64e32f6a1e8">CollisionType_World</a>|<a class="el" href="namespaceMWPhysics.html#a3e99532701fddf2c9f8d83c2629c99eea4f85fb38527ad51d8311b5612b9af22e">CollisionType_HeightMap</a>|<a class="el" href="namespaceMWPhysics.html#a3e99532701fddf2c9f8d83c2629c99eea20d1f66275ab2c0c91a65b0ad9e2fffa">CollisionType_Actor</a>|<a class="el" href="namespaceMWPhysics.html#a3e99532701fddf2c9f8d83c2629c99eea359e29899b3e64638b92141b35185fca">CollisionType_Door</a>, <a class="el" href="classint.html">int</a> group=0xff) const </td></tr>
+<tr class="separator:a5f6011c42fad11eeb00f30a64672566b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad78ad82016390f34a93f7671658e6eda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMWPhysics_1_1PhysicsSystem_1_1RayResult.html">RayResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ad78ad82016390f34a93f7671658e6eda">castSphere</a> (const osg::Vec3f &amp;from, const osg::Vec3f &amp;to, float radius)</td></tr>
 <tr class="separator:ad78ad82016390f34a93f7671658e6eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe7f262b2bfd87644311029c227b8912"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#afe7f262b2bfd87644311029c227b8912">getLineOfSight</a> (const <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;actor1, const <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;actor2) const </td></tr>
@@ -257,9 +257,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a920c465258aa66c54dabb1cecac2bbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c3b8b08985c54a6694725f23a82884b"><td class="memItemLeft" align="right" valign="top">btCollisionWorld *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a0c3b8b08985c54a6694725f23a82884b">mCollisionWorld</a></td></tr>
 <tr class="separator:a0c3b8b08985c54a6694725f23a82884b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade3ba824dc9c91bbd8971e91538bd682"><td class="memItemLeft" align="right" valign="top">std::auto_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classResource_1_1BulletShapeManager.html">Resource::BulletShapeManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ade3ba824dc9c91bbd8971e91538bd682">mShapeManager</a></td></tr>
-<tr class="separator:ade3ba824dc9c91bbd8971e91538bd682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae652aefef3b4637729fec68ebc411eec"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classResource_1_1BulletShapeManager.html">Resource::BulletShapeManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ae652aefef3b4637729fec68ebc411eec">mShapeManager</a></td></tr>
+<tr class="separator:ae652aefef3b4637729fec68ebc411eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad955daf3c776f387517dc78b50c59536"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ad955daf3c776f387517dc78b50c59536">mResourceSystem</a></td></tr>
 <tr class="separator:ad955daf3c776f387517dc78b50c59536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a116efb466b1e16756a83db2e98adb095"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#af893288b35c8887e3fd4d0f8bbfb669b">ObjectMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a116efb466b1e16756a83db2e98adb095">mObjects</a></td></tr>
@@ -282,17 +282,20 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aba6c42159883fe051ca7c1c18f1937c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00faadd7d47d76c248ee13208949bdd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ae00faadd7d47d76c248ee13208949bdd">mWaterHeight</a></td></tr>
 <tr class="separator:ae00faadd7d47d76c248ee13208949bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cbf8e6158d678c24d4d30f89a604301"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a4cbf8e6158d678c24d4d30f89a604301">mWaterEnabled</a></td></tr>
-<tr class="separator:a4cbf8e6158d678c24d4d30f89a604301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac17125b219b1fb70517dfd6018da9f"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; btCollisionObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#aaac17125b219b1fb70517dfd6018da9f">mWaterCollisionObject</a></td></tr>
-<tr class="separator:aaac17125b219b1fb70517dfd6018da9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae641d4bc249de2d0abb0d39b4591cdc2"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; btCollisionShape &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ae641d4bc249de2d0abb0d39b4591cdc2">mWaterCollisionShape</a></td></tr>
-<tr class="separator:ae641d4bc249de2d0abb0d39b4591cdc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6189b2582d429d32f0ac6a72b241f123"><td class="memItemLeft" align="right" valign="top">std::auto_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classMWRender_1_1DebugDrawer.html">MWRender::DebugDrawer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a6189b2582d429d32f0ac6a72b241f123">mDebugDrawer</a></td></tr>
-<tr class="separator:a6189b2582d429d32f0ac6a72b241f123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c982e18e3b9a2d542251d17f661d4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ac8c982e18e3b9a2d542251d17f661d4e">mWaterEnabled</a></td></tr>
+<tr class="separator:ac8c982e18e3b9a2d542251d17f661d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae060f577d1a2811ca0b30d9e1d220f5e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; btCollisionObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#ae060f577d1a2811ca0b30d9e1d220f5e">mWaterCollisionObject</a></td></tr>
+<tr class="separator:ae060f577d1a2811ca0b30d9e1d220f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a626c636caa5b43995b78ee856607e6dd"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; btCollisionShape &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a626c636caa5b43995b78ee856607e6dd">mWaterCollisionShape</a></td></tr>
+<tr class="separator:a626c636caa5b43995b78ee856607e6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98eabb6d42a22e4651f59ac5e9329fd2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classMWRender_1_1DebugDrawer.html">MWRender::DebugDrawer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a98eabb6d42a22e4651f59ac5e9329fd2">mDebugDrawer</a></td></tr>
+<tr class="separator:a98eabb6d42a22e4651f59ac5e9329fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed751c8bb4b5aa8961966d4cd3f94c82"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; osg::Group &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#aed751c8bb4b5aa8961966d4cd3f94c82">mParentNode</a></td></tr>
 <tr class="separator:aed751c8bb4b5aa8961966d4cd3f94c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1325cd0f9bf48d6af6417421c78f4e57"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWPhysics_1_1PhysicsSystem.html#a1325cd0f9bf48d6af6417421c78f4e57">mPhysicsDt</a></td></tr>
+<tr class="separator:a1325cd0f9bf48d6af6417421c78f4e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aa3c94bed22fe3a78961e44a561e0b80e"></a>
@@ -485,14 +488,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_abb8c02bd793c076f9fc57edb151277b2_icgraph.svg" width="736" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_abb8c02bd793c076f9fc57edb151277b2_icgraph.svg" width="459" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a9a06c8a379be437f04b46aa651c1c49e"></a>
+<a class="anchor" id="ab68748b916a2d3cbfbf4cf8203056ee8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -524,7 +527,25 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>sqrtVerts</em>&#160;</td>
+          <td class="paramname"><em>sqrtVerts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const osg::Object *&#160;</td>
+          <td class="paramname"><em>holdObject</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -537,7 +558,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a9a06c8a379be437f04b46aa651c1c49e_cgraph.svg" width="424" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_ab68748b916a2d3cbfbf4cf8203056ee8_cgraph.svg" width="424" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -611,15 +632,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a9277c35247eb2b649168b77e62cad326_cgraph.svg" width="1214" height="2068"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a9277c35247eb2b649168b77e62cad326_icgraph.svg" width="928" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a9277c35247eb2b649168b77e62cad326_cgraph.svg" width="1000" height="1955"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -661,14 +674,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a856170e0d93ca4b8b99d83e7137735bf_icgraph.svg" width="1198" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a856170e0d93ca4b8b99d83e7137735bf_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a2d689bf63239c88145e0f38e7bfa2c16"></a>
+<a class="anchor" id="a5f6011c42fad11eeb00f30a64672566b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -687,8 +700,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;&#160;</td>
           <td class="paramname"><em>ignore</em> = <code><a class="el" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a>()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt;&#160;</td>
+          <td class="paramname"><em>targets</em> = <code>std::vector&lt;<a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&gt;()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -711,7 +730,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">me</td><td>Optional, a Ptr to ignore in the list of results </td></tr>
+    <tr><td class="paramname">me</td><td>Optional, a Ptr to ignore in the list of results. targets are actors to filter for, ignoring all other actors. </td></tr>
   </table>
   </dd>
 </dl>
@@ -719,7 +738,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a2d689bf63239c88145e0f38e7bfa2c16_cgraph.svg" width="470" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a5f6011c42fad11eeb00f30a64672566b_cgraph.svg" width="470" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -727,7 +746,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a2d689bf63239c88145e0f38e7bfa2c16_icgraph.svg" width="971" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a5f6011c42fad11eeb00f30a64672566b_icgraph.svg" width="950" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -772,14 +791,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_ad78ad82016390f34a93f7671658e6eda_icgraph.svg" width="950" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a9b48460734d0e0a761175ac1f67619ca"></a>
@@ -797,14 +808,6 @@ Here is the caller graph for this function:</div>
 
 <p>Clear the queued movements list without applying. </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a9b48460734d0e0a761175ac1f67619ca_icgraph.svg" width="715" height="146"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a08a65db8aed784c62588a3e0493ba9d9"></a>
@@ -819,14 +822,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a08a65db8aed784c62588a3e0493ba9d9_icgraph.svg" width="928" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -894,7 +889,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a41f7de8a899eabcc878655c0d8012ab5_icgraph.svg" width="1752" height="1042"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a41f7de8a899eabcc878655c0d8012ab5_icgraph.svg" width="1192" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -951,14 +946,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_ae180315dc008f429bb11c0c640c25f98_icgraph.svg" width="462" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a7d0c50dececb39c332d711d6c638dc0c"></a>
@@ -987,14 +974,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the handle of all actors standing on <em>object</em> in this frame. </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a7d0c50dececb39c332d711d6c638dc0c_icgraph.svg" width="464" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="aa3a291d5e009e66689df519592365e37"></a>
@@ -1017,14 +996,6 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_aa3a291d5e009e66689df519592365e37_cgraph.svg" width="656" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_aa3a291d5e009e66689df519592365e37_icgraph.svg" width="459" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1066,7 +1037,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a73b3e0f9a277200d7ff4deaaa64b86e8_icgraph.svg" width="1208" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a73b3e0f9a277200d7ff4deaaa64b86e8_icgraph.svg" width="448" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1100,14 +1071,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a3629b8f88060fda6d4a405241f496dcd_icgraph.svg" width="960" height="322"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a3629b8f88060fda6d4a405241f496dcd_icgraph.svg" width="454" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a6129da6a0decae5ac65db23f36d74a2a"></a>
+<a class="anchor" id="ac43c763aa562c7644f7b334baa66a488"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1133,7 +1104,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>queryDistance</em>&#160;</td>
+          <td class="paramname"><em>queryDistance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &gt;&#160;</td>
+          <td class="paramname"><em>targets</em> = <code>std::vector&lt;<a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&gt;()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1146,15 +1123,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a6129da6a0decae5ac65db23f36d74a2a_cgraph.svg" width="680" height="606"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a6129da6a0decae5ac65db23f36d74a2a_icgraph.svg" width="472" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_ac43c763aa562c7644f7b334baa66a488_cgraph.svg" width="712" height="688"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1195,14 +1164,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a37ee32e78b01b06640f73a40dc423c41_icgraph.svg" width="478" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="afe7f262b2bfd87644311029c227b8912"></a>
@@ -1239,14 +1200,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_afe7f262b2bfd87644311029c227b8912_icgraph.svg" width="430" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="abe498f01b40a80ca03616eb4b40828b4"></a>
@@ -1266,7 +1219,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_abe498f01b40a80ca03616eb4b40828b4_icgraph.svg" width="1214" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_abe498f01b40a80ca03616eb4b40828b4_icgraph.svg" width="1192" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1292,14 +1245,6 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a1821e490fe84df6eaea4564503afe688_cgraph.svg" width="480" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a1821e490fe84df6eaea4564503afe688_icgraph.svg" width="1494" height="303"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1362,14 +1307,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a9fb6a91543707b9ba50d414594d57949_icgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="ad950e53b0f3b35d4116e2873b3bf8812"></a>
@@ -1397,14 +1334,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Return true if <em>actor</em> has been standing on <em>object</em> in this frame This will trigger whenever the object is directly below the actor. It doesn't matter if the actor is stationary or moving. </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_ad950e53b0f3b35d4116e2873b3bf8812_icgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="afb214fa95a8da74a1347964f6e9f9b6f"></a>
@@ -1424,15 +1353,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_afb214fa95a8da74a1347964f6e9f9b6f_cgraph.svg" width="744" height="379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_afb214fa95a8da74a1347964f6e9f9b6f_icgraph.svg" width="1200" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_afb214fa95a8da74a1347964f6e9f9b6f_cgraph.svg" width="480" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1461,14 +1382,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_ade211c1aef1a924f36f61467049ee178_icgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="afd1d120ddfd0d48039a31ca8af7ee38c"></a>
@@ -1485,14 +1398,6 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p>Mark the given object as a 'non-solid' object. A non-solid object means that <em>isOnSolidGround</em> will return false for actors standing on that object. </p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_afd1d120ddfd0d48039a31ca8af7ee38c_icgraph.svg" width="464" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -1545,14 +1450,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Queues velocity movement for a Ptr. If a Ptr is already queued, its velocity will be overwritten. Valid until the next call to applyQueuedMovement. </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a865342308e7db23434cc6128d9429b3c_icgraph.svg" width="491" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="ae2ed01c839d5e913afa685b016a82ef1"></a>
@@ -1572,7 +1469,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_ae2ed01c839d5e913afa685b016a82ef1_icgraph.svg" width="2166" height="278"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_ae2ed01c839d5e913afa685b016a82ef1_icgraph.svg" width="478" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1651,14 +1548,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_aabc3a62d0613576588b02b3287297e66_icgraph.svg" width="438" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a3823df40486f7e911ac0d51097f90491"></a>
@@ -1674,14 +1563,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a3823df40486f7e911ac0d51097f90491_icgraph.svg" width="928" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -1706,14 +1587,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a001607547b189825580c330906ebaf9f_icgraph.svg" width="510" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a18fc17c86e1daa2ace325206e3344b87"></a>
@@ -1729,17 +1602,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a18fc17c86e1daa2ace325206e3344b87_icgraph.svg" width="502" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a2b5a96d26485849698b3e1da776924d3"></a>
+<a class="anchor" id="a276ea96b7199ee90db843d7ae08e4ac1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1748,6 +1613,12 @@ Here is the caller graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;&#160;</td>
           <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const osg::Vec3f &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1766,15 +1637,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a2b5a96d26485849698b3e1da776924d3_cgraph.svg" width="1000" height="439"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a2b5a96d26485849698b3e1da776924d3_icgraph.svg" width="744" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a276ea96b7199ee90db843d7ae08e4ac1_cgraph.svg" width="1000" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1822,7 +1685,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a87352b3830b58e2990d166bf447de613_icgraph.svg" width="702" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a87352b3830b58e2990d166bf447de613_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1847,14 +1710,6 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a169a2b1b885ab0695d57cb704c30d410_cgraph.svg" width="470" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a169a2b1b885ab0695d57cb704c30d410_icgraph.svg" width="459" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1893,14 +1748,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a963d66b5ea03d21174ced2412958d8d6_icgraph.svg" width="459" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a7a279147539d9081ecd464d977758f45"></a>
@@ -1928,7 +1775,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a7a279147539d9081ecd464d977758f45_icgraph.svg" width="2302" height="355"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a7a279147539d9081ecd464d977758f45_icgraph.svg" width="726" height="64"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1960,7 +1807,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_aeb1ee45bb8d4ad6effe4e64383135787_icgraph.svg" width="1507" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_aeb1ee45bb8d4ad6effe4e64383135787_icgraph.svg" width="726" height="64"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1991,7 +1838,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a1d699befa03a49a27c842add6c004c4d_icgraph.svg" width="680" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWPhysics_1_1PhysicsSystem_a1d699befa03a49a27c842add6c004c4d_icgraph.svg" width="448" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2119,7 +1966,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a6189b2582d429d32f0ac6a72b241f123"></a>
+<a class="anchor" id="a98eabb6d42a22e4651f59ac5e9329fd2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2127,7 +1974,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classMWRender_1_1DebugDrawer.html">MWRender::DebugDrawer</a>&gt; MWPhysics::PhysicsSystem::mDebugDrawer</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classMWRender_1_1DebugDrawer.html">MWRender::DebugDrawer</a>&gt; MWPhysics::PhysicsSystem::mDebugDrawer</td>
         </tr>
       </table>
   </td>
@@ -2259,6 +2106,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a1325cd0f9bf48d6af6417421c78f4e57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MWPhysics::PhysicsSystem::mPhysicsDt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ad955daf3c776f387517dc78b50c59536"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2279,7 +2146,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ade3ba824dc9c91bbd8971e91538bd682"></a>
+<a class="anchor" id="ae652aefef3b4637729fec68ebc411eec"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2287,7 +2154,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classResource_1_1BulletShapeManager.html">Resource::BulletShapeManager</a>&gt; MWPhysics::PhysicsSystem::mShapeManager</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classResource_1_1BulletShapeManager.html">Resource::BulletShapeManager</a>&gt; MWPhysics::PhysicsSystem::mShapeManager</td>
         </tr>
       </table>
   </td>
@@ -2359,7 +2226,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="aaac17125b219b1fb70517dfd6018da9f"></a>
+<a class="anchor" id="ae060f577d1a2811ca0b30d9e1d220f5e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2367,7 +2234,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;btCollisionObject&gt; MWPhysics::PhysicsSystem::mWaterCollisionObject</td>
+          <td class="memname">std::unique_ptr&lt;btCollisionObject&gt; MWPhysics::PhysicsSystem::mWaterCollisionObject</td>
         </tr>
       </table>
   </td>
@@ -2379,7 +2246,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ae641d4bc249de2d0abb0d39b4591cdc2"></a>
+<a class="anchor" id="a626c636caa5b43995b78ee856607e6dd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2387,7 +2254,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;btCollisionShape&gt; MWPhysics::PhysicsSystem::mWaterCollisionShape</td>
+          <td class="memname">std::unique_ptr&lt;btCollisionShape&gt; MWPhysics::PhysicsSystem::mWaterCollisionShape</td>
         </tr>
       </table>
   </td>
@@ -2399,7 +2266,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a4cbf8e6158d678c24d4d30f89a604301"></a>
+<a class="anchor" id="ac8c982e18e3b9a2d542251d17f661d4e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2407,7 +2274,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float MWPhysics::PhysicsSystem::mWaterEnabled</td>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWPhysics::PhysicsSystem::mWaterEnabled</td>
         </tr>
       </table>
   </td>
@@ -2440,13 +2307,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwphysics/<a class="el" href="physicssystem_8hpp_source.html">physicssystem.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwphysics/<a class="el" href="physicssystem_8cpp.html">physicssystem.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwphysics/<a class="el" href="physicssystem_8hpp_source.html">physicssystem.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwphysics/<a class="el" href="physicssystem_8cpp.html">physicssystem.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:04 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:38 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

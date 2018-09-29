@@ -1,51 +1,51 @@
 <map id="Compiler::LineParser::parseSpecial" name="Compiler::LineParser::parseSpecial">
-<area shape="rect" id="node2" href="$classCompiler_1_1Parser.html#a6a2b2f04d341c6fc90e691fb2188ffe2" title="Return error handler. " alt="" coords="640,43,827,85"/>
-<area shape="rect" id="node3" href="$classCompiler_1_1ErrorHandler.html#a8e0dfa362392d5b038467fd9c5634ca9" title="Generate a warning message. " alt="" coords="1216,43,1384,85"/>
-<area shape="rect" id="node6" href="$classCompiler_1_1LineParser.html#a54bdebe99cc067dc18aece40880190a3" title="Compiler::LineParser\l::parseExpression" alt="" coords="209,561,362,602"/>
-<area shape="rect" id="node37" href="$classCompiler_1_1Parser.html#a282f90e670b07e6303662793010965ca" title="Compiler::Parser::parseSpecial" alt="" coords="897,560,1114,587"/>
-<area shape="rect" id="node38" href="$classCompiler_1_1Scanner.html#a44feea592a0773f895c4bf53dca1d70b" title="put back a special token " alt="" coords="1226,487,1374,529"/>
-<area shape="rect" id="node48" href="$namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77" title="Compiler::Generator\l::message" alt="" coords="929,1623,1081,1665"/>
-<area shape="rect" id="node4" href="$classCompiler_1_1ErrorHandler.html#ac53ce58d40afab69709d78ce5192306f" title="Report error to the user. " alt="" coords="1683,73,1851,114"/>
-<area shape="rect" id="node5" href="$classCompiler_1_1ErrorHandler.html#ae9df94e7ebfba1abd1f4744de29c4466" title="Generate an error message. " alt="" coords="1467,102,1635,143"/>
-<area shape="rect" id="node7" href="$classCompiler_1_1ExprParser.html#a87d73feae3d31c197763ca221cc2d6ad" title="Reset parser to clean state. " alt="" coords="423,1279,577,1321"/>
-<area shape="rect" id="node9" href="$classCompiler_1_1ExprParser.html#a59c09bdb767489a2eb5e14e94f81e012" title="Compiler::ExprParser\l::parseName" alt="" coords="423,1011,577,1053"/>
-<area shape="rect" id="node36" href="$classCompiler_1_1ExprParser.html#ac71a6c2adcbe49bce2ff5dd1e2f21382" title="Compiler::ExprParser\l::parseSpecial" alt="" coords="423,371,577,413"/>
-<area shape="rect" id="node43" href="$classCompiler_1_1Scanner.html#abbdc26c7dc6e07140a4ffa300603505f" title="Scan a token and deliver it to the parser. " alt="" coords="411,571,589,597"/>
-<area shape="rect" id="node45" href="$classCompiler_1_1ExprParser.html#a58d943ecf220e6bf960b291d54fad7f6" title="Compiler::ExprParser\l::append" alt="" coords="423,141,577,182"/>
-<area shape="rect" id="node46" href="$namespaceCompiler_1_1Generator.html#a05eca84f2394e8df27ee410757f3ee2e" title="Compiler::Generator\l::report" alt="" coords="929,903,1081,945"/>
-<area shape="rect" id="node8" href="$classCompiler_1_1Parser.html#a0682c0b0d8dc86311456911ac2330c0c" title="Reset parser to clean state. " alt="" coords="649,1460,817,1487"/>
-<area shape="rect" id="node10" href="$classCompiler_1_1ExprParser.html#a629535cc3ac94109fab73c5230e5aefd" title="Compiler::ExprParser\l::handleMemberAccess" alt="" coords="648,1099,819,1141"/>
-<area shape="rect" id="node11" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="939,969,1071,1010"/>
-<area shape="rect" id="node13" href="$classCompiler_1_1Parser.html#ac15389fe631495ca68ec687dce291c41" title="Return context. " alt="" coords="902,1231,1109,1257"/>
-<area shape="rect" id="node19" href="$classCompiler_1_1Parser.html#a397cd594eeb58b15523fac465fb23eb4" title="Compiler::Parser::parseName" alt="" coords="900,673,1111,700"/>
-<area shape="rect" id="node21" href="$classCompiler_1_1Scanner.html#acb281333e2d70fc35d94d2da0eb4a34f" title="put back a name token " alt="" coords="1226,699,1374,741"/>
-<area shape="rect" id="node22" href="$classCompiler_1_1Parser.html#a2ea9df5f86ab3c61f225357ee5835228" title="Mark parser as non&#45;empty (at least one token has been parser). " alt="" coords="651,1216,816,1243"/>
-<area shape="rect" id="node23" href="$classCompiler_1_1Locals.html#a1b857fe1df392c43cd7e3b75ba5028e8" title="&#39;s&#39;: short, &#39;l&#39;: long, &#39;f&#39;: float, &#39; &#39;: does not exist. " alt="" coords="641,880,825,907"/>
-<area shape="rect" id="node26" href="$namespaceCompiler_1_1Generator.html#ae647c26f610125df64d7a20f932aa22a" title="Compiler::Generator\l::fetchLocal" alt="" coords="657,1343,809,1385"/>
-<area shape="rect" id="node30" href="$classCompiler_1_1Locals.html#aebe469cce39e686bd3c5709ec8eea4ae" title="return index for local variable name (&#45;1: does not exist). " alt="" coords="638,829,829,856"/>
-<area shape="rect" id="node31" href="$classCompiler_1_1Context.html#a7df5003f2dc2a3c66e100ee778c8a8d1" title="&#39;l: long, &#39;s&#39;: short, &#39;f&#39;: float, &#39; &#39;: does not exist. " alt="" coords="661,982,806,1023"/>
-<area shape="rect" id="node32" href="$namespaceCompiler_1_1Generator.html#ae6460f25420f9c30f7934813eb05c2f0" title="Compiler::Generator\l::fetchGlobal" alt="" coords="929,1034,1081,1075"/>
-<area shape="rect" id="node34" href="$namespaceCompiler_1_1Generator.html#a0c631d1b2570e6d6f98e70edba09e253" title="Compiler::Generator\l::pushString" alt="" coords="929,1558,1081,1599"/>
-<area shape="rect" id="node35" href="$classCompiler_1_1Context.html#a016f080d5acf93e95c2d7a9766c5e9b7" title="Does name match an ID, that can be referenced? " alt="" coords="650,1165,817,1192"/>
-<area shape="rect" id="node14" href="$classCompiler_1_1Context.html#a8a715805e6dd7bba7d40000b8eb162d8" title="Compiler::Context::\lgetMemberType" alt="" coords="933,1099,1078,1141"/>
-<area shape="rect" id="node15" href="$namespaceCompiler_1_1Generator.html#a978577865acf09ff523baaa74ab1864c" title="Compiler::Generator\l::fetchMember" alt="" coords="929,1165,1081,1206"/>
-<area shape="rect" id="node12" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1234,969,1366,1010"/>
-<area shape="rect" id="node16" href="$classCompiler_1_1Literals.html#a0b6e9a75cce648bb5d73903331f0c050" title="add string literal and return value. " alt="" coords="1233,1165,1367,1206"/>
-<area shape="rect" id="node17" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a0724d9b01fecb5cea0724bfe2858faf6" title="anonymous_namespace\l\{generator::cpp\}::opPushInt" alt="" coords="1199,1365,1401,1406"/>
-<area shape="rect" id="node18" href="$namespaceCompiler_1_1Generator.html#a41cbce5d9c7de795e8aca7cf37ad893a" title="Compiler::Generator\l::segment0" alt="" coords="1475,1365,1627,1406"/>
-<area shape="rect" id="node20" href="$classCompiler_1_1Parser.html#adb01de7ed3ea7712ce40c48d2a3fa9b8" title="Report the error and throw a exception. " alt="" coords="1213,553,1387,594"/>
-<area shape="rect" id="node24" href="$classCompiler_1_1Locals.html#a07bab8ce4672e61815b0dfc1c4bcec3b" title="Compiler::Locals::search" alt="" coords="916,852,1095,879"/>
-<area shape="rect" id="node25" href="$classCompiler_1_1Locals.html#aeb6209774c1fd3249565aacead47af2c" title="Compiler::Locals::search\lIndex" alt="" coords="1211,815,1389,857"/>
-<area shape="rect" id="node27" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a3cf05e81c3969c3c5fc93b4d5f2f5bdd" title="anonymous_namespace\l\{generator::cpp\}::opFetchLocal\lFloat" alt="" coords="894,1281,1117,1337"/>
-<area shape="rect" id="node28" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a6bce5e18efb980ffb9f86addcf231faa" title="anonymous_namespace\l\{generator::cpp\}::opFetchLocal\lShort" alt="" coords="894,1361,1117,1417"/>
-<area shape="rect" id="node29" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a82098ed567be84183846101529d0c4ed" title="anonymous_namespace\l\{generator::cpp\}::opFetchLocalLong" alt="" coords="878,1441,1133,1482"/>
-<area shape="rect" id="node33" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#af53ee32b3b17e2c38bcffb33071c098c" title="anonymous_namespace\l\{generator::cpp\}::opFetchGlobal\lFloat" alt="" coords="1185,1033,1415,1089"/>
-<area shape="rect" id="node39" href="$classCompiler_1_1ExprParser.html#a75186d1f1ddd9c3ae1cf6681827a7a98" title="Compiler::ExprParser\l::isOpen" alt="" coords="656,211,811,253"/>
-<area shape="rect" id="node40" href="$classCompiler_1_1ExprParser.html#aba87ccf14718e634efdda6af325ce038" title="Compiler::ExprParser\l::close" alt="" coords="656,277,811,318"/>
-<area shape="rect" id="node42" href="$classCompiler_1_1ExprParser.html#a1217787183b175728ad5c435aa615a41" title="Compiler::ExprParser\l::pushBinaryOperator" alt="" coords="654,342,813,383"/>
-<area shape="rect" id="node41" href="$classCompiler_1_1ExprParser.html#ac8fe0b7ea204f555a5c92170876e7ea0" title="Compiler::ExprParser::pop" alt="" coords="912,284,1099,311"/>
-<area shape="rect" id="node44" href="$classCompiler_1_1Scanner.html#a7c2553ca11e30c983dc1a3e795a41a89" title="Compiler::Scanner::\lscanToken" alt="" coords="659,611,807,653"/>
-<area shape="rect" id="node47" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a999a9071ace87741214d9ef95f8cc839" title="anonymous_namespace\l\{generator::cpp\}::opReport" alt="" coords="1201,903,1399,945"/>
-<area shape="rect" id="node49" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a61853ee8c763da4c1a3902667634f487" title="anonymous_namespace\l\{generator::cpp\}::opMessageBox" alt="" coords="1181,1623,1419,1665"/>
-<area shape="rect" id="node50" href="$namespaceCompiler_1_1Generator.html#a865353bbdbfb10c7aeae9de35960aba2" title="Compiler::Generator\l::segment3" alt="" coords="1475,1623,1627,1665"/>
+<area shape="rect" id="node2" href="$classCompiler_1_1Parser.html#a6a2b2f04d341c6fc90e691fb2188ffe2" title="Return error handler. " alt="" coords="640,94,827,135"/>
+<area shape="rect" id="node3" href="$classCompiler_1_1ErrorHandler.html#a8e0dfa362392d5b038467fd9c5634ca9" title="Generate a warning message. " alt="" coords="1216,94,1384,135"/>
+<area shape="rect" id="node6" href="$classCompiler_1_1LineParser.html#a54bdebe99cc067dc18aece40880190a3" title="Compiler::LineParser\l::parseExpression" alt="" coords="209,742,362,783"/>
+<area shape="rect" id="node36" href="$classCompiler_1_1Parser.html#a282f90e670b07e6303662793010965ca" title="Compiler::Parser::parseSpecial" alt="" coords="897,640,1114,667"/>
+<area shape="rect" id="node37" href="$classCompiler_1_1Scanner.html#a44feea592a0773f895c4bf53dca1d70b" title="put back a special token " alt="" coords="1226,385,1374,426"/>
+<area shape="rect" id="node48" href="$namespaceCompiler_1_1Generator.html#ac2c59268b5bf1bf561fda12fdd27eb77" title="Compiler::Generator\l::message" alt="" coords="929,1607,1081,1649"/>
+<area shape="rect" id="node4" href="$classCompiler_1_1ErrorHandler.html#ac53ce58d40afab69709d78ce5192306f" title="Report error to the user. " alt="" coords="1683,123,1851,165"/>
+<area shape="rect" id="node5" href="$classCompiler_1_1ErrorHandler.html#ae9df94e7ebfba1abd1f4744de29c4466" title="Generate an error message. " alt="" coords="1467,153,1635,194"/>
+<area shape="rect" id="node7" href="$classCompiler_1_1ExprParser.html#a87d73feae3d31c197763ca221cc2d6ad" title="Reset parser to clean state. " alt="" coords="423,421,577,462"/>
+<area shape="rect" id="node9" href="$classCompiler_1_1ExprParser.html#a59c09bdb767489a2eb5e14e94f81e012" title="Compiler::ExprParser\l::parseName" alt="" coords="423,1085,577,1126"/>
+<area shape="rect" id="node35" href="$classCompiler_1_1ExprParser.html#ac71a6c2adcbe49bce2ff5dd1e2f21382" title="Compiler::ExprParser\l::parseSpecial" alt="" coords="423,542,577,583"/>
+<area shape="rect" id="node42" href="$classCompiler_1_1Scanner.html#abbdc26c7dc6e07140a4ffa300603505f" title="Scan a token and deliver it to the parser. " alt="" coords="411,749,589,776"/>
+<area shape="rect" id="node44" href="$classCompiler_1_1ExprParser.html#a58d943ecf220e6bf960b291d54fad7f6" title="Compiler::ExprParser\l::append" alt="" coords="423,203,577,245"/>
+<area shape="rect" id="node46" href="$namespaceCompiler_1_1Generator.html#a05eca84f2394e8df27ee410757f3ee2e" title="Compiler::Generator\l::report" alt="" coords="929,1542,1081,1583"/>
+<area shape="rect" id="node8" href="$classCompiler_1_1Parser.html#a0682c0b0d8dc86311456911ac2330c0c" title="Reset parser to clean state. " alt="" coords="649,341,817,368"/>
+<area shape="rect" id="node10" href="$classCompiler_1_1ExprParser.html#a629535cc3ac94109fab73c5230e5aefd" title="Compiler::ExprParser\l::handleMemberAccess" alt="" coords="648,1346,819,1387"/>
+<area shape="rect" id="node11" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="939,1229,1071,1270"/>
+<area shape="rect" id="node13" href="$classCompiler_1_1Parser.html#ac15389fe631495ca68ec687dce291c41" title="Return context. " alt="" coords="902,1295,1109,1321"/>
+<area shape="rect" id="node19" href="$classCompiler_1_1Parser.html#a397cd594eeb58b15523fac465fb23eb4" title="Compiler::Parser::parseName" alt="" coords="900,751,1111,777"/>
+<area shape="rect" id="node21" href="$classCompiler_1_1Scanner.html#acb281333e2d70fc35d94d2da0eb4a34f" title="put back a name token " alt="" coords="1226,991,1374,1033"/>
+<area shape="rect" id="node22" href="$classCompiler_1_1Parser.html#a2ea9df5f86ab3c61f225357ee5835228" title="Mark parser as non&#45;empty (at least one token has been parser). " alt="" coords="651,1244,816,1271"/>
+<area shape="rect" id="node23" href="$classCompiler_1_1Locals.html#a1b857fe1df392c43cd7e3b75ba5028e8" title="&#39;s&#39;: short, &#39;l&#39;: long, &#39;f&#39;: float, &#39; &#39;: does not exist. " alt="" coords="641,1143,825,1169"/>
+<area shape="rect" id="node26" href="$namespaceCompiler_1_1Generator.html#ae647c26f610125df64d7a20f932aa22a" title="Compiler::Generator\l::fetchLocal" alt="" coords="657,925,809,966"/>
+<area shape="rect" id="node30" href="$classCompiler_1_1Locals.html#aebe469cce39e686bd3c5709ec8eea4ae" title="return index for local variable name (&#45;1: does not exist). " alt="" coords="638,1092,829,1119"/>
+<area shape="rect" id="node31" href="$classCompiler_1_1Context.html#a7df5003f2dc2a3c66e100ee778c8a8d1" title="&#39;l: long, &#39;s&#39;: short, &#39;f&#39;: float, &#39; &#39;: does not exist. " alt="" coords="661,859,806,901"/>
+<area shape="rect" id="node32" href="$namespaceCompiler_1_1Generator.html#ae6460f25420f9c30f7934813eb05c2f0" title="Compiler::Generator\l::fetchGlobal" alt="" coords="929,1411,1081,1453"/>
+<area shape="rect" id="node34" href="$classCompiler_1_1Context.html#a016f080d5acf93e95c2d7a9766c5e9b7" title="Does name match an ID, that can be referenced? " alt="" coords="650,991,817,1017"/>
+<area shape="rect" id="node14" href="$classCompiler_1_1Context.html#a8a715805e6dd7bba7d40000b8eb162d8" title="Compiler::Context::\lgetMemberType" alt="" coords="933,1346,1078,1387"/>
+<area shape="rect" id="node15" href="$namespaceCompiler_1_1Generator.html#a978577865acf09ff523baaa74ab1864c" title="Compiler::Generator\l::fetchMember" alt="" coords="929,1477,1081,1518"/>
+<area shape="rect" id="node12" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1234,1229,1366,1270"/>
+<area shape="rect" id="node16" href="$classCompiler_1_1Literals.html#a0b6e9a75cce648bb5d73903331f0c050" title="add string literal and return value. " alt="" coords="1233,1509,1367,1550"/>
+<area shape="rect" id="node17" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a0724d9b01fecb5cea0724bfe2858faf6" title="anonymous_namespace\l\{generator::cpp\}::opPushInt" alt="" coords="1199,1443,1401,1485"/>
+<area shape="rect" id="node18" href="$namespaceCompiler_1_1Generator.html#a41cbce5d9c7de795e8aca7cf37ad893a" title="Compiler::Generator\l::segment0" alt="" coords="1475,1443,1627,1485"/>
+<area shape="rect" id="node20" href="$classCompiler_1_1Parser.html#adb01de7ed3ea7712ce40c48d2a3fa9b8" title="Report the error and throw a exception. " alt="" coords="1213,742,1387,783"/>
+<area shape="rect" id="node24" href="$classCompiler_1_1Locals.html#a07bab8ce4672e61815b0dfc1c4bcec3b" title="Compiler::Locals::search" alt="" coords="916,1177,1095,1204"/>
+<area shape="rect" id="node25" href="$classCompiler_1_1Locals.html#aeb6209774c1fd3249565aacead47af2c" title="Compiler::Locals::search\lIndex" alt="" coords="1211,1097,1389,1138"/>
+<area shape="rect" id="node27" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a3cf05e81c3969c3c5fc93b4d5f2f5bdd" title="anonymous_namespace\l\{generator::cpp\}::opFetchLocal\lFloat" alt="" coords="894,945,1117,1001"/>
+<area shape="rect" id="node28" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a6bce5e18efb980ffb9f86addcf231faa" title="anonymous_namespace\l\{generator::cpp\}::opFetchLocal\lShort" alt="" coords="894,801,1117,857"/>
+<area shape="rect" id="node29" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a82098ed567be84183846101529d0c4ed" title="anonymous_namespace\l\{generator::cpp\}::opFetchLocalLong" alt="" coords="878,881,1133,922"/>
+<area shape="rect" id="node33" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#af53ee32b3b17e2c38bcffb33071c098c" title="anonymous_namespace\l\{generator::cpp\}::opFetchGlobal\lFloat" alt="" coords="1185,1364,1415,1420"/>
+<area shape="rect" id="node38" href="$classCompiler_1_1ExprParser.html#a75186d1f1ddd9c3ae1cf6681827a7a98" title="Compiler::ExprParser\l::isOpen" alt="" coords="656,574,811,615"/>
+<area shape="rect" id="node39" href="$classCompiler_1_1ExprParser.html#aba87ccf14718e634efdda6af325ce038" title="Compiler::ExprParser\l::close" alt="" coords="656,509,811,550"/>
+<area shape="rect" id="node41" href="$classCompiler_1_1ExprParser.html#a1217787183b175728ad5c435aa615a41" title="Compiler::ExprParser\l::pushBinaryOperator" alt="" coords="654,443,813,485"/>
+<area shape="rect" id="node40" href="$classCompiler_1_1ExprParser.html#ac8fe0b7ea204f555a5c92170876e7ea0" title="Compiler::ExprParser::pop" alt="" coords="912,451,1099,477"/>
+<area shape="rect" id="node43" href="$classCompiler_1_1Scanner.html#a7c2553ca11e30c983dc1a3e795a41a89" title="Compiler::Scanner::\lscanToken" alt="" coords="659,742,807,783"/>
+<area shape="rect" id="node45" href="$namespaceanonymous__namespace_02testbulletnifloader_8cpp_03.html#a1b04c33613d9f0c8a6bff603d0fb681e" title="anonymous_namespace\l\{testbulletnifloader\l::cpp\}::copy" alt="" coords="644,261,823,317"/>
+<area shape="rect" id="node47" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a999a9071ace87741214d9ef95f8cc839" title="anonymous_namespace\l\{generator::cpp\}::opReport" alt="" coords="1201,1574,1399,1615"/>
+<area shape="rect" id="node49" href="$namespaceanonymous__namespace_02generator_8cpp_03.html#a61853ee8c763da4c1a3902667634f487" title="anonymous_namespace\l\{generator::cpp\}::opMessageBox" alt="" coords="1181,1639,1419,1681"/>
+<area shape="rect" id="node50" href="$namespaceCompiler_1_1Generator.html#a865353bbdbfb10c7aeae9de35960aba2" title="Compiler::Generator\l::segment3" alt="" coords="1475,1639,1627,1681"/>
 </map>

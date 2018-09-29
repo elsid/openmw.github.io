@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -116,7 +116,7 @@ Inheritance diagram for MWGui::PageDisplay:</div>
 <div class="dynheader">
 Collaboration diagram for MWGui::PageDisplay:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1PageDisplay__coll__graph.svg" width="1443" height="1112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1PageDisplay__coll__graph.svg" width="1720" height="1267"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -133,9 +133,10 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a938ea7569526ca58aa72ea0e5a95a0eb"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structMWGui_1_1TypesetBookImpl_1_1StyleImpl.html">TypesetBookImpl::StyleImpl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a938ea7569526ca58aa72ea0e5a95a0eb">Style</a></td></tr>
 <tr class="separator:a938ea7569526ca58aa72ea0e5a95a0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4f2b400e6c8ef4145089082e7a2f368"><td class="memItemLeft" align="right" valign="top">typedef std::map<br class="typebreak"/>
-&lt; <a class="el" href="structMWGui_1_1PageDisplay_1_1TextFormat.html#ab8c829a81849dceeea5858d0c817dc74">TextFormat::Id</a>, <a class="el" href="structMWGui_1_1PageDisplay_1_1TextFormat.html">TextFormat</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#ac4f2b400e6c8ef4145089082e7a2f368">ActiveTextFormats</a></td></tr>
-<tr class="separator:ac4f2b400e6c8ef4145089082e7a2f368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ad8deafa33bfa4f08a48876abfe898"><td class="memItemLeft" align="right" valign="top">typedef std::map<br class="typebreak"/>
+&lt; <a class="el" href="structMWGui_1_1PageDisplay_1_1TextFormat.html#ab8c829a81849dceeea5858d0c817dc74">TextFormat::Id</a>, <br class="typebreak"/>
+std::unique_ptr&lt; <a class="el" href="structMWGui_1_1PageDisplay_1_1TextFormat.html">TextFormat</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#ab1ad8deafa33bfa4f08a48876abfe898">ActiveTextFormats</a></td></tr>
+<tr class="separator:ab1ad8deafa33bfa4f08a48876abfe898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -151,10 +152,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aef5b9dcb494154c6f19c0389cfbcceec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d23d450abd296e5362756d08e857117"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a9d23d450abd296e5362756d08e857117">onMouseButtonReleased</a> (<a class="el" href="classint.html">int</a> left, <a class="el" href="classint.html">int</a> top, MyGUI::MouseButton id)</td></tr>
 <tr class="separator:a9d23d450abd296e5362756d08e857117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f70ccd17452de5a9b57f700dba5297b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a4f70ccd17452de5a9b57f700dba5297b">showPage</a> (<a class="el" href="structMWGui_1_1TypesetBook.html#ad7cc7bdcdba8c95906e8f2772cbbc3f1">TypesetBook::Ptr</a> <a class="el" href="namespaceMWGui.html#a8872c9f1aa16803604eaf5a9a833c8d6">book</a>, size_t newPage)</td></tr>
+<tr class="memitem:a4f70ccd17452de5a9b57f700dba5297b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a4f70ccd17452de5a9b57f700dba5297b">showPage</a> (<a class="el" href="structMWGui_1_1TypesetBook.html#a26a0196228b192150a77091dc98d8b91">TypesetBook::Ptr</a> <a class="el" href="namespaceMWGui.html#a8872c9f1aa16803604eaf5a9a833c8d6">book</a>, size_t newPage)</td></tr>
 <tr class="separator:a4f70ccd17452de5a9b57f700dba5297b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55987bb8561f530edd9a093e080c3a92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a55987bb8561f530edd9a093e080c3a92">createActiveFormats</a> (boost::shared_ptr&lt; <a class="el" href="structMWGui_1_1TypesetBookImpl.html">TypesetBookImpl</a> &gt; newBook)</td></tr>
-<tr class="separator:a55987bb8561f530edd9a093e080c3a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8e5bb32645a4bd34e614472f548938"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#abb8e5bb32645a4bd34e614472f548938">createActiveFormats</a> (std::shared_ptr&lt; <a class="el" href="structMWGui_1_1TypesetBookImpl.html">TypesetBookImpl</a> &gt; newBook)</td></tr>
+<tr class="separator:abb8e5bb32645a4bd34e614472f548938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae37cc73758a92a7922d19a3fad6f8d30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#ae37cc73758a92a7922d19a3fad6f8d30">setVisible</a> (<a class="el" href="classbool.html">bool</a> newVisible)</td></tr>
 <tr class="separator:ae37cc73758a92a7922d19a3fad6f8d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94396e55c47ca491a328ce3f58a9d8bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a94396e55c47ca491a328ce3f58a9d8bc">createDrawItem</a> (MyGUI::ITexture *texture, MyGUI::ILayerNode *node)</td></tr>
@@ -182,14 +183,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac7bd85983b0bef8322fd3370ff6b1180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a94f59062ff6a6f65c3f69411f3903"><td class="memItemLeft" align="right" valign="top">MyGUI::MouseButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a99a94f59062ff6a6f65c3f69411f3903">mLastDown</a></td></tr>
 <tr class="separator:a99a94f59062ff6a6f65c3f69411f3903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5829c99cb84d3dfe5b7933a24040bf28"><td class="memItemLeft" align="right" valign="top">boost::function&lt; void(<a class="el" href="classintptr__t.html">intptr_t</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a5829c99cb84d3dfe5b7933a24040bf28">mLinkClicked</a></td></tr>
-<tr class="separator:a5829c99cb84d3dfe5b7933a24040bf28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9bae1b91da129261dc471d4cf079236"><td class="memItemLeft" align="right" valign="top">boost::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="structMWGui_1_1TypesetBookImpl.html">TypesetBookImpl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#ae9bae1b91da129261dc471d4cf079236">mBook</a></td></tr>
-<tr class="separator:ae9bae1b91da129261dc471d4cf079236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839e624fec102bd6e08d4faa1f8feac7"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="classintptr__t.html">intptr_t</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a839e624fec102bd6e08d4faa1f8feac7">mLinkClicked</a></td></tr>
+<tr class="separator:a839e624fec102bd6e08d4faa1f8feac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acff97aacbbf857d59a336b718e21523b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="structMWGui_1_1TypesetBookImpl.html">TypesetBookImpl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#acff97aacbbf857d59a336b718e21523b">mBook</a></td></tr>
+<tr class="separator:acff97aacbbf857d59a336b718e21523b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e31f6ef800067550114cd96b2e70e34"><td class="memItemLeft" align="right" valign="top">MyGUI::ILayerNode *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#a5e31f6ef800067550114cd96b2e70e34">mNode</a></td></tr>
 <tr class="separator:a5e31f6ef800067550114cd96b2e70e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfce57648e3efd612956e3a79255e8e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWGui_1_1PageDisplay.html#ac4f2b400e6c8ef4145089082e7a2f368">ActiveTextFormats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#adfce57648e3efd612956e3a79255e8e9">mActiveTextFormats</a></td></tr>
+<tr class="memitem:adfce57648e3efd612956e3a79255e8e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMWGui_1_1PageDisplay.html#ab1ad8deafa33bfa4f08a48876abfe898">ActiveTextFormats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1PageDisplay.html#adfce57648e3efd612956e3a79255e8e9">mActiveTextFormats</a></td></tr>
 <tr class="separator:adfce57648e3efd612956e3a79255e8e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
@@ -218,12 +218,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a3f329ba6ee2bb46b831a7a0054291f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="ac4f2b400e6c8ef4145089082e7a2f368"></a>
+<a class="anchor" id="ab1ad8deafa33bfa4f08a48876abfe898"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::map&lt;<a class="el" href="structMWGui_1_1PageDisplay_1_1TextFormat.html#ab8c829a81849dceeea5858d0c817dc74">TextFormat::Id</a>, <a class="el" href="structMWGui_1_1PageDisplay_1_1TextFormat.html">TextFormat</a>*&gt; <a class="el" href="classMWGui_1_1PageDisplay.html#ac4f2b400e6c8ef4145089082e7a2f368">MWGui::PageDisplay::ActiveTextFormats</a></td>
+          <td class="memname">typedef std::map&lt;<a class="el" href="structMWGui_1_1PageDisplay_1_1TextFormat.html#ab8c829a81849dceeea5858d0c817dc74">TextFormat::Id</a>, std::unique_ptr&lt;<a class="el" href="structMWGui_1_1PageDisplay_1_1TextFormat.html">TextFormat</a>&gt; &gt; <a class="el" href="classMWGui_1_1PageDisplay.html#ab1ad8deafa33bfa4f08a48876abfe898">MWGui::PageDisplay::ActiveTextFormats</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -381,7 +381,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a55987bb8561f530edd9a093e080c3a92"></a>
+<a class="anchor" id="abb8e5bb32645a4bd34e614472f548938"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -391,7 +391,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void MWGui::PageDisplay::createActiveFormats </td>
           <td>(</td>
-          <td class="paramtype">boost::shared_ptr&lt; <a class="el" href="structMWGui_1_1TypesetBookImpl.html">TypesetBookImpl</a> &gt;&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structMWGui_1_1TypesetBookImpl.html">TypesetBookImpl</a> &gt;&#160;</td>
           <td class="paramname"><em>newBook</em></td><td>)</td>
           <td></td>
         </tr>
@@ -406,7 +406,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1PageDisplay_a55987bb8561f530edd9a093e080c3a92_icgraph.svg" width="584" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1PageDisplay_abb8e5bb32645a4bd34e614472f548938_icgraph.svg" width="584" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -886,7 +886,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void MWGui::PageDisplay::showPage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structMWGui_1_1TypesetBook.html#ad7cc7bdcdba8c95906e8f2772cbbc3f1">TypesetBook::Ptr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structMWGui_1_1TypesetBook.html#a26a0196228b192150a77091dc98d8b91">TypesetBook::Ptr</a>&#160;</td>
           <td class="paramname"><em>book</em>, </td>
         </tr>
         <tr>
@@ -932,19 +932,19 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMWGui_1_1PageDisplay.html#ac4f2b400e6c8ef4145089082e7a2f368">ActiveTextFormats</a> MWGui::PageDisplay::mActiveTextFormats</td>
+          <td class="memname"><a class="el" href="classMWGui_1_1PageDisplay.html#ab1ad8deafa33bfa4f08a48876abfe898">ActiveTextFormats</a> MWGui::PageDisplay::mActiveTextFormats</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ae9bae1b91da129261dc471d4cf079236"></a>
+<a class="anchor" id="acff97aacbbf857d59a336b718e21523b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boost::shared_ptr&lt;<a class="el" href="structMWGui_1_1TypesetBookImpl.html">TypesetBookImpl</a>&gt; MWGui::PageDisplay::mBook</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="structMWGui_1_1TypesetBookImpl.html">TypesetBookImpl</a>&gt; MWGui::PageDisplay::mBook</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1007,12 +1007,12 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a5829c99cb84d3dfe5b7933a24040bf28"></a>
+<a class="anchor" id="a839e624fec102bd6e08d4faa1f8feac7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boost::function&lt;void (<a class="el" href="classintptr__t.html">intptr_t</a>)&gt; MWGui::PageDisplay::mLinkClicked</td>
+          <td class="memname">std::function&lt;void (<a class="el" href="classintptr__t.html">intptr_t</a>)&gt; MWGui::PageDisplay::mLinkClicked</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1076,12 +1076,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="bookpage_8cpp.html">bookpage.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="bookpage_8cpp.html">bookpage.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:01 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:34 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

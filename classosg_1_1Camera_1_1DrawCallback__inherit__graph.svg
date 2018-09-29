@@ -20,24 +20,22 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMWGui_1_1CopyFramebufferToTextureCallback.html" target="_top" xlink:title="{MWGui::CopyFramebufferTo\lTextureCallback\n|&#45; mTexture\l&#45; mWidth\l&#45; mHeight\l|+ CopyFramebufferToTexture\lCallback()\l+ operator()()\l}">
-<polygon fill="white" stroke="black" points="0,-1 0,-113 154,-113 154,-1 0,-1"/>
-<text text-anchor="start" x="8" y="-101" font-family="FreeSans" font-size="10.00">MWGui::CopyFramebufferTo</text>
-<text text-anchor="middle" x="77" y="-90" font-family="FreeSans" font-size="10.00">TextureCallback</text>
-<polyline fill="none" stroke="black" points="0,-83 154,-83 "/>
-<text text-anchor="start" x="8" y="-71" font-family="FreeSans" font-size="10.00">&#45; mTexture</text>
-<text text-anchor="start" x="8" y="-60" font-family="FreeSans" font-size="10.00">&#45; mWidth</text>
-<text text-anchor="start" x="8" y="-49" font-family="FreeSans" font-size="10.00">&#45; mHeight</text>
-<polyline fill="none" stroke="black" points="0,-42 154,-42 "/>
-<text text-anchor="start" x="8" y="-30" font-family="FreeSans" font-size="10.00">+ CopyFramebufferToTexture</text>
-<text text-anchor="start" x="8" y="-19" font-family="FreeSans" font-size="10.00">Callback()</text>
-<text text-anchor="start" x="8" y="-8" font-family="FreeSans" font-size="10.00">+ operator()()</text>
+<g id="a_node2"><a xlink:href="classMWGui_1_1CopyFramebufferToTextureCallback.html" target="_top" xlink:title="{MWGui::CopyFramebufferTo\lTextureCallback\n|&#45; mTexture\l|+ CopyFramebufferToTexture\lCallback()\l+ operator()()\l}">
+<polygon fill="white" stroke="black" points="0,-12 0,-102 154,-102 154,-12 0,-12"/>
+<text text-anchor="start" x="8" y="-90" font-family="FreeSans" font-size="10.00">MWGui::CopyFramebufferTo</text>
+<text text-anchor="middle" x="77" y="-79" font-family="FreeSans" font-size="10.00">TextureCallback</text>
+<polyline fill="none" stroke="black" points="0,-72 154,-72 "/>
+<text text-anchor="start" x="8" y="-60" font-family="FreeSans" font-size="10.00">&#45; mTexture</text>
+<polyline fill="none" stroke="black" points="0,-53 154,-53 "/>
+<text text-anchor="start" x="8" y="-41" font-family="FreeSans" font-size="10.00">+ CopyFramebufferToTexture</text>
+<text text-anchor="start" x="8" y="-30" font-family="FreeSans" font-size="10.00">Callback()</text>
+<text text-anchor="start" x="8" y="-19" font-family="FreeSans" font-size="10.00">+ operator()()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M141.682,-142.368C134.68,-133.235 126.983,-123.195 119.415,-113.324"/>
+<path fill="none" stroke="midnightblue" d="M141.765,-142.476C132.114,-129.888 121.132,-115.564 110.989,-102.333"/>
 <polygon fill="none" stroke="midnightblue" points="139.031,-144.663 147.893,-150.47 144.587,-140.404 139.031,-144.663"/>
 </g>
 <!-- Node3 -->

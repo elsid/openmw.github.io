@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -158,8 +158,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4611cd26308038bcd7244df54f9ad5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3cf20fdb2e3f8b80ff8bb7084fa3e1e"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterpreter_1_1Context.html#aa3cf20fdb2e3f8b80ff8bb7084fa3e1e">getActionBinding</a> (const std::string &amp;action) const =0</td></tr>
 <tr class="separator:aa3cf20fdb2e3f8b80ff8bb7084fa3e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0cccf27acc82f6b8625cda7f6f32e69"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterpreter_1_1Context.html#ad0cccf27acc82f6b8625cda7f6f32e69">getNPCName</a> () const =0</td></tr>
-<tr class="separator:ad0cccf27acc82f6b8625cda7f6f32e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a236765b83fa494d3f1a2c068ff8488df"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterpreter_1_1Context.html#a236765b83fa494d3f1a2c068ff8488df">getActorName</a> () const =0</td></tr>
+<tr class="separator:a236765b83fa494d3f1a2c068ff8488df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cf9b83ea2ba708103addfb03b63dd1b"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterpreter_1_1Context.html#a2cf9b83ea2ba708103addfb03b63dd1b">getNPCRace</a> () const =0</td></tr>
 <tr class="separator:a2cf9b83ea2ba708103addfb03b63dd1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39270b64b659ea7f5ebed79ec78979e9"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterpreter_1_1Context.html#a39270b64b659ea7f5ebed79ec78979e9">getNPCClass</a> () const =0</td></tr>
@@ -334,6 +334,39 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classInterpreter_1_1Context_aa3cf20fdb2e3f8b80ff8bb7084fa3e1e_icgraph.svg" width="1195" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a236765b83fa494d3f1a2c068ff8488df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string Interpreter::Context::getActorName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classMWScript_1_1InterpreterContext.html#a45d627dc6123bc8854c4d782728fff61">MWScript::InterpreterContext</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classInterpreter_1_1Context_a236765b83fa494d3f1a2c068ff8488df_icgraph.svg" width="1195" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -904,39 +937,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ad0cccf27acc82f6b8625cda7f6f32e69"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string Interpreter::Context::getNPCName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classMWScript_1_1InterpreterContext.html#a2e2ef2246468531b72952ef6759bf3e3">MWScript::InterpreterContext</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classInterpreter_1_1Context_ad0cccf27acc82f6b8625cda7f6f32e69_icgraph.svg" width="1195" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
 <a class="anchor" id="a2cf9b83ea2ba708103addfb03b63dd1b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1471,7 +1471,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classInterpreter_1_1Context_ad4de91942e1ec50ee951c96a9e78f1bd_icgraph.svg" width="699" height="1684"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classInterpreter_1_1Context_ad4de91942e1ec50ee951c96a9e78f1bd_icgraph.svg" width="699" height="1946"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1989,12 +1989,12 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/interpreter/<a class="el" href="interpreter_2context_8hpp_source.html">context.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/interpreter/<a class="el" href="interpreter_2context_8hpp_source.html">context.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:00 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:33 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -5,285 +5,290 @@
  -->
 <!-- Title: MWGui::InventoryWindow::getModel Pages: 1 -->
 <svg width="1054pt" height="338pt"
- viewBox="0.00 0.00 1054.00 338.10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 334.104)">
+ viewBox="0.00 0.00 1054.00 337.77" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 333.765)">
 <title>MWGui::InventoryWindow::getModel</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-334.104 1050,-334.104 1050,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-333.765 1050,-333.765 1050,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0,-172 0,-202 134,-202 134,-172 0,-172"/>
-<text text-anchor="start" x="8" y="-190" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="67" y="-179" font-family="FreeSans" font-size="10.00">::getModel</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-122 0,-152 134,-152 134,-122 0,-122"/>
+<text text-anchor="start" x="8" y="-140" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="67" y="-129" font-family="FreeSans" font-size="10.00">::getModel</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classMWGui_1_1ContainerWindow.html#a02e1c3c58e2f8440c7506ae2093af2dc" target="_top" xlink:title="MWGui::ContainerWindow\l::onTakeAllButtonClicked">
-<polygon fill="white" stroke="black" points="330.5,-253 330.5,-283 467.5,-283 467.5,-253 330.5,-253"/>
-<text text-anchor="start" x="338.5" y="-271" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
-<text text-anchor="middle" x="399" y="-260" font-family="FreeSans" font-size="10.00">::onTakeAllButtonClicked</text>
+<polygon fill="white" stroke="black" points="330.5,-284 330.5,-314 467.5,-314 467.5,-284 330.5,-284"/>
+<text text-anchor="start" x="338.5" y="-302" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
+<text text-anchor="middle" x="399" y="-291" font-family="FreeSans" font-size="10.00">::onTakeAllButtonClicked</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M139.265,-204.492C198.134,-218.942 280.824,-239.239 336.752,-252.966"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="139.843,-201.03 129.297,-202.046 138.174,-207.829 139.843,-201.03"/>
+<path fill="none" stroke="midnightblue" d="M108.101,-156.686C174.83,-189.444 307.24,-254.445 367.209,-283.884"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="109.268,-153.36 98.7493,-152.095 106.184,-159.644 109.268,-153.36"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classMWGui_1_1DragAndDrop.html#a8b9f6b0644355ccd05ee84c3125c5e7d" target="_top" xlink:title="MWGui::DragAndDrop\l::startDrag">
-<polygon fill="white" stroke="black" points="170,-131 170,-161 290,-161 290,-131 170,-131"/>
-<text text-anchor="start" x="178" y="-149" font-family="FreeSans" font-size="10.00">MWGui::DragAndDrop</text>
-<text text-anchor="middle" x="230" y="-138" font-family="FreeSans" font-size="10.00">::startDrag</text>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="classMWGui_1_1DragAndDrop.html#a8b9f6b0644355ccd05ee84c3125c5e7d" target="_top" xlink:title="MWGui::DragAndDrop\l::startDrag">
+<polygon fill="white" stroke="black" points="170,-122 170,-152 290,-152 290,-122 170,-122"/>
+<text text-anchor="start" x="178" y="-140" font-family="FreeSans" font-size="10.00">MWGui::DragAndDrop</text>
+<text text-anchor="middle" x="230" y="-129" font-family="FreeSans" font-size="10.00">::startDrag</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M137.01,-169.426C147.986,-166.631 159.252,-163.762 169.971,-161.032"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="135.863,-166.106 127.036,-171.966 137.591,-172.89 135.863,-166.106"/>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge5" class="edge"><title>Node1&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M144.429,-137C153.004,-137 161.641,-137 169.949,-137"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="144.414,-133.5 134.414,-137 144.414,-140.5 144.414,-133.5"/>
+</g>
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="classMWGui_1_1InventoryWindow.html#ac0cf452b697e42ebb942910bdc98db4c" target="_top" xlink:title="MWGui::InventoryWindow\l::onAvatarClicked">
+<polygon fill="white" stroke="black" points="736,-0 736,-30 870,-30 870,-0 736,-0"/>
+<text text-anchor="start" x="744" y="-18" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="803" y="-7" font-family="FreeSans" font-size="10.00">::onAvatarClicked</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node15 -->
+<g id="edge23" class="edge"><title>Node1&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M109.39,-117.68C159.534,-95.127 247.112,-58.4435 326,-39 468.804,-3.80318 642.781,-5.91274 735.795,-10.4908"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="107.838,-114.541 100.174,-121.856 110.727,-120.917 107.838,-114.541"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classMWGui_1_1ContainerWindow.html#acfb914937a6eb3a24bde7ea54266dbcd" target="_top" xlink:title="MWGui::ContainerWindow\l::ContainerWindow">
-<polygon fill="white" stroke="black" points="734.5,-253 734.5,-283 871.5,-283 871.5,-253 734.5,-253"/>
-<text text-anchor="start" x="742.5" y="-271" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
-<text text-anchor="middle" x="803" y="-260" font-family="FreeSans" font-size="10.00">::ContainerWindow</text>
+<polygon fill="white" stroke="black" points="734.5,-284 734.5,-314 871.5,-314 871.5,-284 734.5,-284"/>
+<text text-anchor="start" x="742.5" y="-302" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
+<text text-anchor="middle" x="803" y="-291" font-family="FreeSans" font-size="10.00">::ContainerWindow</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M434.099,-288.015C454.73,-298.947 481.997,-311.377 508,-317 588.799,-334.472 613.201,-334.472 694,-317 723.985,-310.516 755.652,-294.98 776.885,-283.126"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="435.572,-284.831 425.115,-283.126 432.226,-290.98 435.572,-284.831"/>
+<path fill="none" stroke="midnightblue" d="M466.556,-316.177C480.176,-319.016 494.48,-321.516 508,-323 590.173,-332.02 611.827,-332.02 694,-323 710.802,-321.156 728.814,-317.743 745.219,-314.059"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="467.295,-312.756 456.781,-314.059 465.813,-319.597 467.295,-312.756"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWGui_1_1ContainerWindow.html#a2bef0b9d5e5f4814fdb45123f5a9a3ab" target="_top" xlink:title="MWGui::ContainerWindow\l::onKeyPressed">
-<polygon fill="white" stroke="black" points="532.5,-278 532.5,-308 669.5,-308 669.5,-278 532.5,-278"/>
-<text text-anchor="start" x="540.5" y="-296" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
-<text text-anchor="middle" x="601" y="-285" font-family="FreeSans" font-size="10.00">::onKeyPressed</text>
+<g id="a_node4"><a xlink:href="classMWGui_1_1ContainerWindow.html#ad9e57628fe744aa644abf4dbd6e5b931" target="_top" xlink:title="MWGui::ContainerWindow\l::onDisposeCorpseButtonClicked">
+<polygon fill="white" stroke="black" points="514.5,-284 514.5,-314 687.5,-314 687.5,-284 514.5,-284"/>
+<text text-anchor="start" x="522.5" y="-302" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
+<text text-anchor="middle" x="601" y="-291" font-family="FreeSans" font-size="10.00">::onDisposeCorpseButtonClicked</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M477.874,-277.734C495.859,-279.982 514.851,-282.356 532.359,-284.545"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="478.068,-274.231 467.711,-276.464 477.2,-281.177 478.068,-274.231"/>
-</g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classMWGui_1_1ContainerWindow.html#ad9e57628fe744aa644abf4dbd6e5b931" target="_top" xlink:title="MWGui::ContainerWindow\l::onDisposeCorpseButtonClicked">
-<polygon fill="white" stroke="black" points="514.5,-229 514.5,-259 687.5,-259 687.5,-229 514.5,-229"/>
-<text text-anchor="start" x="522.5" y="-247" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
-<text text-anchor="middle" x="601" y="-236" font-family="FreeSans" font-size="10.00">::onDisposeCorpseButtonClicked</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M477.666,-258.68C489.664,-257.24 502.113,-255.746 514.275,-254.287"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="477.223,-255.208 467.711,-259.875 478.057,-262.158 477.223,-255.208"/>
+<path fill="none" stroke="midnightblue" d="M478.026,-299C489.913,-299 502.235,-299 514.275,-299"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="477.711,-295.5 467.711,-299 477.711,-302.5 477.711,-295.5"/>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M679.874,-283.266C697.859,-281.018 716.851,-278.644 734.359,-276.455"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="679.2,-279.823 669.711,-284.536 680.068,-286.769 679.2,-279.823"/>
+<path fill="none" stroke="midnightblue" d="M697.968,-299C710.248,-299 722.608,-299 734.308,-299"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="697.688,-295.5 687.688,-299 697.688,-302.5 697.688,-295.5"/>
 </g>
-<!-- Node5&#45;&gt;Node3 -->
-<g id="edge6" class="edge"><title>Node5&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M697.968,-255.516C710.248,-256.99 722.608,-258.473 734.308,-259.877"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="698.034,-251.999 687.688,-254.283 697.2,-258.949 698.034,-251.999"/>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="classMWGui_1_1ContainerWindow.html#a07b86358cb427c9724ec72ae75b5997b" target="_top" xlink:title="MWGui::ContainerWindow\l::dragItem">
+<polygon fill="white" stroke="black" points="330.5,-216 330.5,-246 467.5,-246 467.5,-216 330.5,-216"/>
+<text text-anchor="start" x="338.5" y="-234" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
+<text text-anchor="middle" x="399" y="-223" font-family="FreeSans" font-size="10.00">::dragItem</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node5&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M266.685,-157.086C298.017,-174.722 342.897,-199.984 371.235,-215.935"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="268.263,-153.958 257.831,-152.103 264.829,-160.058 268.263,-153.958"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="classMWGui_1_1CompanionWindow.html#a851d11022cb4c99762fd6e17eab3d264" target="_top" xlink:title="MWGui::CompanionWindow\l::dragItem">
+<polygon fill="white" stroke="black" points="326.5,-98 326.5,-128 471.5,-128 471.5,-98 326.5,-98"/>
+<text text-anchor="start" x="334.5" y="-116" font-family="FreeSans" font-size="10.00">MWGui::CompanionWindow</text>
+<text text-anchor="middle" x="399" y="-105" font-family="FreeSans" font-size="10.00">::dragItem</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node8 -->
+<g id="edge9" class="edge"><title>Node5&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M300.297,-127.041C308.871,-125.809 317.651,-124.547 326.261,-123.31"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="299.749,-123.584 290.348,-128.471 300.744,-130.513 299.749,-123.584"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="classMWGui_1_1InventoryWindow.html#a5f8042a02153694f39525c94ccf7f388" target="_top" xlink:title="MWGui::InventoryWindow\l::dragItem">
+<polygon fill="white" stroke="black" points="332,-49 332,-79 466,-79 466,-49 332,-49"/>
+<text text-anchor="start" x="340" y="-67" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="399" y="-56" font-family="FreeSans" font-size="10.00">::dragItem</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node11 -->
+<g id="edge12" class="edge"><title>Node5&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M266.3,-117.139C283.926,-107.651 305.759,-96.5333 326,-88 333.406,-84.8777 341.371,-81.8806 349.207,-79.1265"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="264.608,-114.075 257.497,-121.93 267.954,-120.224 264.608,-114.075"/>
+</g>
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="classMWGui_1_1InventoryWindow.html#a217f522ca43031e4a82dac0c62067e92" target="_top" xlink:title="MWGui::InventoryWindow\l::pickUpObject">
+<polygon fill="white" stroke="black" points="332,-147 332,-177 466,-177 466,-147 332,-147"/>
+<text text-anchor="start" x="340" y="-165" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="399" y="-154" font-family="FreeSans" font-size="10.00">::pickUpObject</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node16 -->
+<g id="edge19" class="edge"><title>Node5&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M300.549,-147.412C310.872,-148.957 321.487,-150.546 331.74,-152.081"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="300.756,-143.904 290.348,-145.884 299.72,-150.826 300.756,-143.904"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classMWGui_1_1ContainerWindow.html#a07b86358cb427c9724ec72ae75b5997b" target="_top" xlink:title="MWGui::ContainerWindow\l::dragItem">
-<polygon fill="white" stroke="black" points="330.5,-180 330.5,-210 467.5,-210 467.5,-180 330.5,-180"/>
-<text text-anchor="start" x="338.5" y="-198" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
-<text text-anchor="middle" x="399" y="-187" font-family="FreeSans" font-size="10.00">::dragItem</text>
+<g id="a_node7"><a xlink:href="classMWGui_1_1ContainerWindow.html#a4ffe65e3e73969e3f9928b622cbc20c6" target="_top" xlink:title="MWGui::ContainerWindow\l::onItemSelected">
+<polygon fill="white" stroke="black" points="532.5,-235 532.5,-265 669.5,-265 669.5,-235 532.5,-235"/>
+<text text-anchor="start" x="540.5" y="-253" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
+<text text-anchor="middle" x="601" y="-242" font-family="FreeSans" font-size="10.00">::onItemSelected</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
-<g id="edge8" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M292.234,-163.967C310.127,-169.217 329.492,-174.899 346.702,-179.948"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="293.049,-160.559 282.468,-161.101 291.078,-167.275 293.049,-160.559"/>
+<g id="edge7" class="edge"><title>Node6&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M477.874,-238.398C495.859,-240.107 514.851,-241.911 532.359,-243.574"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="477.997,-234.894 467.711,-237.433 477.335,-241.863 477.997,-234.894"/>
+</g>
+<!-- Node7&#45;&gt;Node3 -->
+<g id="edge8" class="edge"><title>Node7&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M673.334,-267.477C695.378,-272.877 719.451,-278.776 740.75,-283.994"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="673.911,-264.015 663.366,-265.035 672.246,-270.814 673.911,-264.015"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classMWGui_1_1CompanionWindow.html#a851d11022cb4c99762fd6e17eab3d264" target="_top" xlink:title="MWGui::CompanionWindow\l::dragItem">
-<polygon fill="white" stroke="black" points="326.5,-131 326.5,-161 471.5,-161 471.5,-131 326.5,-131"/>
-<text text-anchor="start" x="334.5" y="-149" font-family="FreeSans" font-size="10.00">MWGui::CompanionWindow</text>
-<text text-anchor="middle" x="399" y="-138" font-family="FreeSans" font-size="10.00">::dragItem</text>
+<g id="a_node9"><a xlink:href="classMWGui_1_1CompanionWindow.html#a642ee0f71a0a5ebb344b38d4cdf1b2ef" target="_top" xlink:title="MWGui::CompanionWindow\l::onItemSelected">
+<polygon fill="white" stroke="black" points="528.5,-98 528.5,-128 673.5,-128 673.5,-98 528.5,-98"/>
+<text text-anchor="start" x="536.5" y="-116" font-family="FreeSans" font-size="10.00">MWGui::CompanionWindow</text>
+<text text-anchor="middle" x="601" y="-105" font-family="FreeSans" font-size="10.00">::onItemSelected</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node9 -->
-<g id="edge11" class="edge"><title>Node6&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M300.576,-146C309.062,-146 317.745,-146 326.261,-146"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="300.348,-142.5 290.348,-146 300.348,-149.5 300.348,-142.5"/>
-</g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classMWGui_1_1InventoryWindow.html#a5f8042a02153694f39525c94ccf7f388" target="_top" xlink:title="MWGui::InventoryWindow\l::dragItem">
-<polygon fill="white" stroke="black" points="332,-82 332,-112 466,-112 466,-82 332,-82"/>
-<text text-anchor="start" x="340" y="-100" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="399" y="-89" font-family="FreeSans" font-size="10.00">::dragItem</text>
-</a>
-</g>
-</g>
-<!-- Node6&#45;&gt;Node12 -->
-<g id="edge14" class="edge"><title>Node6&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M292.234,-128.033C310.127,-122.783 329.492,-117.101 346.702,-112.052"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="291.078,-124.725 282.468,-130.899 293.049,-131.441 291.078,-124.725"/>
-</g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classMWGui_1_1InventoryWindow.html#a217f522ca43031e4a82dac0c62067e92" target="_top" xlink:title="MWGui::InventoryWindow\l::pickUpObject">
-<polygon fill="white" stroke="black" points="332,-28 332,-58 466,-58 466,-28 332,-28"/>
-<text text-anchor="start" x="340" y="-46" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="399" y="-35" font-family="FreeSans" font-size="10.00">::pickUpObject</text>
-</a>
-</g>
-</g>
-<!-- Node6&#45;&gt;Node17 -->
-<g id="edge20" class="edge"><title>Node6&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M255.347,-123.931C273.775,-108.024 300.232,-86.8338 326,-72 334.993,-66.8232 345.09,-62.1369 354.813,-58.1145"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="252.692,-121.603 247.476,-130.825 257.305,-126.869 252.692,-121.603"/>
-</g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classMWGui_1_1ContainerWindow.html#a4ffe65e3e73969e3f9928b622cbc20c6" target="_top" xlink:title="MWGui::ContainerWindow\l::onItemSelected">
-<polygon fill="white" stroke="black" points="532.5,-180 532.5,-210 669.5,-210 669.5,-180 532.5,-180"/>
-<text text-anchor="start" x="540.5" y="-198" font-family="FreeSans" font-size="10.00">MWGui::ContainerWindow</text>
-<text text-anchor="middle" x="601" y="-187" font-family="FreeSans" font-size="10.00">::onItemSelected</text>
-</a>
-</g>
-</g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge9" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M477.874,-195C495.859,-195 514.851,-195 532.359,-195"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="477.711,-191.5 467.711,-195 477.711,-198.5 477.711,-191.5"/>
-</g>
-<!-- Node8&#45;&gt;Node3 -->
-<g id="edge10" class="edge"><title>Node8&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M672.664,-213.017C679.918,-215.219 687.139,-217.559 694,-220 720.678,-229.49 749.977,-242.697 771.319,-252.856"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="673.365,-209.574 662.783,-210.103 671.385,-216.288 673.365,-209.574"/>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge10" class="edge"><title>Node8&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M481.668,-113C497.084,-113 513.102,-113 528.188,-113"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="481.64,-109.5 471.64,-113 481.64,-116.5 481.64,-109.5"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classMWGui_1_1CompanionWindow.html#a642ee0f71a0a5ebb344b38d4cdf1b2ef" target="_top" xlink:title="MWGui::CompanionWindow\l::onItemSelected">
-<polygon fill="white" stroke="black" points="528.5,-131 528.5,-161 673.5,-161 673.5,-131 528.5,-131"/>
-<text text-anchor="start" x="536.5" y="-149" font-family="FreeSans" font-size="10.00">MWGui::CompanionWindow</text>
-<text text-anchor="middle" x="601" y="-138" font-family="FreeSans" font-size="10.00">::onItemSelected</text>
+<g id="a_node10"><a xlink:href="classMWGui_1_1CompanionWindow.html#a3cfb5477756f65fbcb82ad9452c9399e" target="_top" xlink:title="MWGui::CompanionWindow\l::CompanionWindow">
+<polygon fill="white" stroke="black" points="730.5,-98 730.5,-128 875.5,-128 875.5,-98 730.5,-98"/>
+<text text-anchor="start" x="738.5" y="-116" font-family="FreeSans" font-size="10.00">MWGui::CompanionWindow</text>
+<text text-anchor="middle" x="803" y="-105" font-family="FreeSans" font-size="10.00">::CompanionWindow</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node10 -->
-<g id="edge12" class="edge"><title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M481.668,-146C497.084,-146 513.102,-146 528.188,-146"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="481.64,-142.5 471.64,-146 481.64,-149.5 481.64,-142.5"/>
+<g id="edge11" class="edge"><title>Node9&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M683.668,-113C699.084,-113 715.102,-113 730.188,-113"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="683.64,-109.5 673.64,-113 683.64,-116.5 683.64,-109.5"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classMWGui_1_1CompanionWindow.html#a3cfb5477756f65fbcb82ad9452c9399e" target="_top" xlink:title="MWGui::CompanionWindow\l::CompanionWindow">
-<polygon fill="white" stroke="black" points="730.5,-137 730.5,-167 875.5,-167 875.5,-137 730.5,-137"/>
-<text text-anchor="start" x="738.5" y="-155" font-family="FreeSans" font-size="10.00">MWGui::CompanionWindow</text>
-<text text-anchor="middle" x="803" y="-144" font-family="FreeSans" font-size="10.00">::CompanionWindow</text>
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="classMWGui_1_1InventoryWindow.html#a5b889ff5cadf8ed97fbb98cfe123055d" target="_top" xlink:title="MWGui::InventoryWindow\l::onItemSelectedFromSourceModel">
+<polygon fill="white" stroke="black" points="508.5,-49 508.5,-79 693.5,-79 693.5,-49 508.5,-49"/>
+<text text-anchor="start" x="516.5" y="-67" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="601" y="-56" font-family="FreeSans" font-size="10.00">::onItemSelectedFromSourceModel</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node11 -->
-<g id="edge13" class="edge"><title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M683.668,-148.45C699.084,-148.913 715.102,-149.393 730.188,-149.846"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="683.74,-144.951 673.64,-148.149 683.53,-151.948 683.74,-144.951"/>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge13" class="edge"><title>Node11&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M476.355,-64C486.809,-64 497.628,-64 508.319,-64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="476.042,-60.5001 466.042,-64 476.042,-67.5001 476.042,-60.5001"/>
+</g>
+<!-- Node11&#45;&gt;Node15 -->
+<g id="edge18" class="edge"><title>Node11&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M467.959,-46.6801C481.173,-43.7635 494.968,-41.0292 508,-39 585.8,-26.8862 676.196,-20.6663 735.995,-17.6302"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="466.969,-43.3155 457.989,-48.9372 468.515,-50.1427 466.969,-43.3155"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classMWGui_1_1InventoryWindow.html#a5b889ff5cadf8ed97fbb98cfe123055d" target="_top" xlink:title="MWGui::InventoryWindow\l::onItemSelectedFromSourceModel">
-<polygon fill="white" stroke="black" points="508.5,-82 508.5,-112 693.5,-112 693.5,-82 508.5,-82"/>
-<text text-anchor="start" x="516.5" y="-100" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="601" y="-89" font-family="FreeSans" font-size="10.00">::onItemSelectedFromSourceModel</text>
+<g id="a_node13"><a xlink:href="classMWGui_1_1InventoryWindow.html#abbdeec7917453c0625d82da5adf58b7d" target="_top" xlink:title="MWGui::InventoryWindow\l::onItemSelected">
+<polygon fill="white" stroke="black" points="736,-49 736,-79 870,-79 870,-49 736,-49"/>
+<text text-anchor="start" x="744" y="-67" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="803" y="-56" font-family="FreeSans" font-size="10.00">::onItemSelected</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node13 -->
-<g id="edge15" class="edge"><title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M476.355,-97C486.809,-97 497.628,-97 508.319,-97"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="476.042,-93.5001 466.042,-97 476.042,-100.5 476.042,-93.5001"/>
+<g id="edge14" class="edge"><title>Node12&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M703.589,-64C714.569,-64 725.524,-64 735.923,-64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="703.513,-60.5001 693.513,-64 703.513,-67.5001 703.513,-60.5001"/>
+</g>
+<!-- Node12&#45;&gt;Node15 -->
+<g id="edge16" class="edge"><title>Node12&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M673.334,-46.5232C695.378,-41.1225 719.451,-35.2245 740.75,-30.0062"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="672.246,-43.1862 663.366,-48.9654 673.911,-49.9851 672.246,-43.1862"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classMWGui_1_1InventoryWindow.html#abbdeec7917453c0625d82da5adf58b7d" target="_top" xlink:title="MWGui::InventoryWindow\l::onItemSelected">
-<polygon fill="white" stroke="black" points="736,-88 736,-118 870,-118 870,-88 736,-88"/>
-<text text-anchor="start" x="744" y="-106" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="803" y="-95" font-family="FreeSans" font-size="10.00">::onItemSelected</text>
+<g id="a_node14"><a xlink:href="classMWGui_1_1InventoryWindow.html#a12e661e522f594464ed49a782220998f" target="_top" xlink:title="MWGui::InventoryWindow\l::InventoryWindow">
+<polygon fill="white" stroke="black" points="912,-24 912,-54 1046,-54 1046,-24 912,-24"/>
+<text text-anchor="start" x="920" y="-42" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
+<text text-anchor="middle" x="979" y="-31" font-family="FreeSans" font-size="10.00">::InventoryWindow</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
-<g id="edge16" class="edge"><title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M703.589,-100.048C714.569,-100.377 725.524,-100.706 735.923,-101.018"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="703.613,-96.5469 693.513,-99.7454 703.404,-103.544 703.613,-96.5469"/>
+<g id="edge15" class="edge"><title>Node13&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M880.293,-53.0383C890.828,-51.5247 901.576,-49.9804 911.906,-48.4963"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="879.679,-49.5906 870.278,-54.4773 880.674,-56.5194 879.679,-49.5906"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classMWGui_1_1InventoryWindow.html#ac0cf452b697e42ebb942910bdc98db4c" target="_top" xlink:title="MWGui::InventoryWindow\l::onAvatarClicked">
-<polygon fill="white" stroke="black" points="736,-39 736,-69 870,-69 870,-39 736,-39"/>
-<text text-anchor="start" x="744" y="-57" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="803" y="-46" font-family="FreeSans" font-size="10.00">::onAvatarClicked</text>
+<!-- Node15&#45;&gt;Node14 -->
+<g id="edge17" class="edge"><title>Node15&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M880.293,-25.5232C890.828,-26.9763 901.576,-28.4588 911.906,-29.8836"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="880.663,-22.0411 870.278,-24.1418 879.706,-28.9755 880.663,-22.0411"/>
+</g>
+<!-- Node17 -->
+<g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:href="classMWGui_1_1HUD.html#a7371a5a68d01bcecc0574b4ced993df6" target="_top" xlink:title="MWGui::HUD::onWorldClicked">
+<polygon fill="white" stroke="black" points="523.5,-196.5 523.5,-215.5 678.5,-215.5 678.5,-196.5 523.5,-196.5"/>
+<text text-anchor="middle" x="601" y="-203.5" font-family="FreeSans" font-size="10.00">MWGui::HUD::onWorldClicked</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node16 -->
-<g id="edge18" class="edge"><title>Node13&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M681.79,-79.8452C699.695,-75.9956 718.503,-71.9519 735.785,-68.2363"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="680.991,-76.4368 671.95,-81.9607 682.463,-83.2804 680.991,-76.4368"/>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge20" class="edge"><title>Node16&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M476.032,-178.942C486.763,-181.32 497.659,-183.727 508,-186 523.645,-189.439 540.794,-193.176 556.003,-196.479"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="476.764,-175.52 466.243,-176.771 475.248,-182.354 476.764,-175.52"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classMWGui_1_1InventoryWindow.html#a12e661e522f594464ed49a782220998f" target="_top" xlink:title="MWGui::InventoryWindow\l::InventoryWindow">
-<polygon fill="white" stroke="black" points="912,-63 912,-93 1046,-93 1046,-63 912,-63"/>
-<text text-anchor="start" x="920" y="-81" font-family="FreeSans" font-size="10.00">MWGui::InventoryWindow</text>
-<text text-anchor="middle" x="979" y="-70" font-family="FreeSans" font-size="10.00">::InventoryWindow</text>
+<!-- Node19 -->
+<g id="node19" class="node"><title>Node19</title>
+<g id="a_node19"><a xlink:href="classMWWorld_1_1ActionTake.html#a9b205e51e6e4affafe912a87ddffe333" target="_top" xlink:title="MWWorld::ActionTake\l::executeImp">
+<polygon fill="white" stroke="black" points="543,-147 543,-177 659,-177 659,-147 543,-147"/>
+<text text-anchor="start" x="551" y="-165" font-family="FreeSans" font-size="10.00">MWWorld::ActionTake</text>
+<text text-anchor="middle" x="601" y="-154" font-family="FreeSans" font-size="10.00">::executeImp</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node15 -->
-<g id="edge17" class="edge"><title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M880.293,-92.0383C890.828,-90.5247 901.576,-88.9804 911.906,-87.4963"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="879.679,-88.5906 870.278,-93.4773 880.674,-95.5194 879.679,-88.5906"/>
-</g>
-<!-- Node16&#45;&gt;Node15 -->
-<g id="edge19" class="edge"><title>Node16&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M880.293,-64.5232C890.828,-65.9763 901.576,-67.4588 911.906,-68.8836"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="880.663,-61.0411 870.278,-63.1418 879.706,-67.9755 880.663,-61.0411"/>
+<!-- Node16&#45;&gt;Node19 -->
+<g id="edge22" class="edge"><title>Node16&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M476.075,-162C498.204,-162 521.993,-162 542.753,-162"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="476.042,-158.5 466.042,-162 476.042,-165.5 476.042,-158.5"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="classMWGui_1_1HUD.html#a7371a5a68d01bcecc0574b4ced993df6" target="_top" xlink:title="MWGui::HUD::onWorldClicked">
-<polygon fill="white" stroke="black" points="523.5,-22.5 523.5,-41.5 678.5,-41.5 678.5,-22.5 523.5,-22.5"/>
-<text text-anchor="middle" x="601" y="-29.5" font-family="FreeSans" font-size="10.00">MWGui::HUD::onWorldClicked</text>
+<g id="a_node18"><a xlink:href="classMWGui_1_1HUD.html#a461afa538370aed6d6283441e44dedd2" target="_top" xlink:title="MWGui::HUD::HUD">
+<polygon fill="white" stroke="black" points="750,-196.5 750,-215.5 856,-215.5 856,-196.5 750,-196.5"/>
+<text text-anchor="middle" x="803" y="-203.5" font-family="FreeSans" font-size="10.00">MWGui::HUD::HUD</text>
 </a>
 </g>
 </g>
 <!-- Node17&#45;&gt;Node18 -->
 <g id="edge21" class="edge"><title>Node17&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M476.067,-38.8163C491.526,-37.9661 507.795,-37.0713 523.277,-36.2198"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="475.834,-35.3237 466.042,-39.3677 476.219,-42.3132 475.834,-35.3237"/>
-</g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classMWGui_1_1HUD.html#a461afa538370aed6d6283441e44dedd2" target="_top" xlink:title="MWGui::HUD::HUD">
-<polygon fill="white" stroke="black" points="750,-0.5 750,-19.5 856,-19.5 856,-0.5 750,-0.5"/>
-<text text-anchor="middle" x="803" y="-7.5" font-family="FreeSans" font-size="10.00">MWGui::HUD::HUD</text>
-</a>
-</g>
-</g>
-<!-- Node18&#45;&gt;Node19 -->
-<g id="edge22" class="edge"><title>Node18&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M688.886,-22.4426C709.684,-20.1547 731.253,-17.7821 749.909,-15.73"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="688.311,-18.9846 678.753,-23.5571 689.076,-25.9427 688.311,-18.9846"/>
+<path fill="none" stroke="midnightblue" d="M688.886,-206C709.684,-206 731.253,-206 749.909,-206"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="688.753,-202.5 678.753,-206 688.753,-209.5 688.753,-202.5"/>
 </g>
 </g>
 </svg>

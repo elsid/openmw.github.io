@@ -43,20 +43,20 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="structESM_1_1Locals.html" target="_top" xlink:title="Storage structure for local variables (only used in saved games) ">
-<polygon fill="white" stroke="black" points="294,-275 294,-343 368,-343 368,-275 294,-275"/>
-<text text-anchor="middle" x="331" y="-331" font-family="FreeSans" font-size="10.00">ESM::Locals</text>
-<polyline fill="none" stroke="black" points="294,-324 368,-324 "/>
-<text text-anchor="middle" x="331" y="-312" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="294,-305 368,-305 "/>
-<text text-anchor="start" x="302" y="-293" font-family="FreeSans" font-size="10.00">+ load()</text>
-<text text-anchor="start" x="302" y="-282" font-family="FreeSans" font-size="10.00">+ save()</text>
+<polygon fill="white" stroke="black" points="276,-275 276,-343 350,-343 350,-275 276,-275"/>
+<text text-anchor="middle" x="313" y="-331" font-family="FreeSans" font-size="10.00">ESM::Locals</text>
+<polyline fill="none" stroke="black" points="276,-324 350,-324 "/>
+<text text-anchor="middle" x="313" y="-312" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="276,-305 350,-305 "/>
+<text text-anchor="start" x="284" y="-293" font-family="FreeSans" font-size="10.00">+ load()</text>
+<text text-anchor="start" x="284" y="-282" font-family="FreeSans" font-size="10.00">+ save()</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#404040" d="M357.597,-274.777C371.579,-258.976 389.784,-240.79 409,-228 442.595,-205.639 484.66,-188.844 518.781,-177.54"/>
-<polygon fill="none" stroke="#404040" points="519.069,-177.447 523.555,-171.801 530.492,-173.77 526.006,-179.416 519.069,-177.447"/>
+<path fill="none" stroke="#404040" d="M347.422,-274.712C364.869,-259.083 386.985,-241.066 409,-228 443.458,-207.55 485.191,-190.879 518.92,-179.163"/>
+<polygon fill="none" stroke="#404040" points="519.13,-179.091 523.522,-173.372 530.491,-175.227 526.099,-180.946 519.13,-179.091"/>
 <text text-anchor="middle" x="435" y="-231.5" font-family="FreeSans" font-size="10.00"> +mLocals</text>
 </g>
 <!-- Node4 -->
@@ -71,9 +71,9 @@
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="#404040" d="M284.046,-451.672C293.157,-424.182 306.166,-384.931 316.181,-354.712"/>
-<polygon fill="none" stroke="#404040" points="316.22,-354.595 314.311,-347.641 319.995,-343.204 321.905,-350.158 316.22,-354.595"/>
-<text text-anchor="middle" x="340.5" y="-397.5" font-family="FreeSans" font-size="10.00"> +mVariables</text>
+<path fill="none" stroke="#404040" d="M280.618,-451.672C286.873,-424.304 295.794,-385.278 302.688,-355.114"/>
+<polygon fill="none" stroke="#404040" points="302.737,-354.902 300.174,-348.162 305.411,-343.204 307.973,-349.944 302.737,-354.902"/>
+<text text-anchor="middle" x="329.5" y="-397.5" font-family="FreeSans" font-size="10.00"> +mVariables</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -200,9 +200,9 @@
 <text text-anchor="middle" x="933.5" y="-586" font-family="FreeSans" font-size="10.00">+mChargeIntRemainder</text>
 <text text-anchor="middle" x="933.5" y="-575" font-family="FreeSans" font-size="10.00">+mChargeFloat</text>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="structESM_1_1Position.html" target="_top" xlink:title="{ESM::Position\n||+ asVec3()\l}">
+<!-- Node17 -->
+<g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:href="structESM_1_1Position.html" target="_top" xlink:title="{ESM::Position\n||+ asVec3()\l}">
 <polygon fill="white" stroke="black" points="1169.5,-457.5 1169.5,-514.5 1250.5,-514.5 1250.5,-457.5 1169.5,-457.5"/>
 <text text-anchor="middle" x="1210" y="-502.5" font-family="FreeSans" font-size="10.00">ESM::Position</text>
 <polyline fill="none" stroke="black" points="1169.5,-495.5 1250.5,-495.5 "/>
@@ -212,12 +212,12 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node18 -->
-<g id="edge23" class="edge"><title>Node10&#45;&gt;Node18</title>
+<!-- Node10&#45;&gt;Node17 -->
+<g id="edge22" class="edge"><title>Node10&#45;&gt;Node17</title>
 <path fill="none" stroke="#404040" d="M895.082,-802.567C943.976,-802.931 1074.83,-796.863 1145,-726 1198.25,-672.227 1209,-579.437 1210.52,-526.687"/>
 <polygon fill="none" stroke="#404040" points="1210.53,-526.498 1206.63,-520.431 1210.73,-514.5 1214.63,-520.567 1210.53,-526.498"/>
-<text text-anchor="middle" x="1202.5" y="-694" font-family="FreeSans" font-size="10.00"> +pos</text>
-<text text-anchor="middle" x="1202.5" y="-683" font-family="FreeSans" font-size="10.00">+rot</text>
+<text text-anchor="middle" x="1201.5" y="-694" font-family="FreeSans" font-size="10.00"> +pos</text>
+<text text-anchor="middle" x="1201.5" y="-683" font-family="FreeSans" font-size="10.00">+rot</text>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
@@ -250,7 +250,7 @@
 <text text-anchor="middle" x="330" y="-747.5" font-family="FreeSans" font-size="10.00"> +mAbsolute</text>
 </g>
 <!-- Node11&#45;&gt;Node15 -->
-<g id="edge20" class="edge"><title>Node11&#45;&gt;Node15</title>
+<g id="edge19" class="edge"><title>Node11&#45;&gt;Node15</title>
 <path fill="none" stroke="#404040" d="M167.592,-799.912C210.245,-795.14 318.434,-783.144 409,-774 430.208,-771.859 585.236,-771.376 600,-756 615.875,-739.466 605.833,-572.332 611,-550 629.719,-469.093 624.788,-436.227 684,-378 715.747,-346.781 763.727,-329.299 800.295,-319.905"/>
 <polygon fill="none" stroke="#404040" points="800.555,-319.842 805.446,-314.544 812.219,-317.022 807.327,-322.32 800.555,-319.842"/>
 <text text-anchor="middle" x="640.5" y="-591.5" font-family="FreeSans" font-size="10.00"> +mTeleport</text>
@@ -274,7 +274,7 @@
 <text text-anchor="middle" x="589.5" y="-747.5" font-family="FreeSans" font-size="10.00"> +mGroup</text>
 </g>
 <!-- Node12&#45;&gt;Node15 -->
-<g id="edge21" class="edge"><title>Node12&#45;&gt;Node15</title>
+<g id="edge20" class="edge"><title>Node12&#45;&gt;Node15</title>
 <path fill="none" stroke="#404040" d="M675.558,-774.487C697.476,-743.283 730.808,-689.965 744,-638 753.623,-600.091 764.373,-583.386 744,-550 734.889,-535.068 718.111,-546.932 709,-532 673.348,-473.574 672.443,-435.864 709,-378 728.985,-346.367 768.143,-329.149 800.437,-319.959"/>
 <polygon fill="none" stroke="#404040" points="800.815,-319.86 805.605,-314.469 812.423,-316.817 807.634,-322.208 800.815,-319.86"/>
 <text text-anchor="middle" x="799.5" y="-630" font-family="FreeSans" font-size="10.00"> +mDestCell</text>
@@ -329,7 +329,7 @@
 <text text-anchor="middle" x="1086" y="-397.5" font-family="FreeSans" font-size="10.00"> +mCount</text>
 </g>
 <!-- Node14&#45;&gt;Node15 -->
-<g id="edge19" class="edge"><title>Node14&#45;&gt;Node15</title>
+<g id="edge18" class="edge"><title>Node14&#45;&gt;Node15</title>
 <path fill="none" stroke="#404040" d="M1120.11,-662.373C1117.13,-626.505 1110.14,-566.532 1096,-550 1080.38,-531.733 1061.68,-549.309 1045,-532 995.256,-480.373 1044.12,-432.03 997,-378 972.611,-350.036 934.247,-332.748 903.105,-322.605"/>
 <polygon fill="none" stroke="#404040" points="903.038,-322.584 896.128,-324.645 891.567,-319.06 898.477,-316.998 903.038,-322.584"/>
 <text text-anchor="middle" x="1083" y="-500" font-family="FreeSans" font-size="10.00"> +mGoldValue</text>
@@ -379,32 +379,32 @@
 <polygon fill="none" stroke="#404040" points="800.816,-322.214 805.338,-316.597 812.263,-318.612 807.74,-324.228 800.816,-322.214"/>
 <text text-anchor="middle" x="773" y="-397.5" font-family="FreeSans" font-size="10.00"> +mReferenceBlocked</text>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
+<!-- Node17&#45;&gt;Node2 -->
+<g id="edge27" class="edge"><title>Node17&#45;&gt;Node2</title>
+<path fill="none" stroke="#404040" d="M1212.45,-457.14C1213.35,-434.913 1212.23,-403.402 1202,-378 1169.7,-297.761 1153.57,-270.074 1078,-228 1004.77,-187.23 760.681,-169.326 644.074,-162.951"/>
+<polygon fill="none" stroke="#404040" points="643.832,-162.939 637.628,-166.614 631.849,-162.3 638.053,-158.625 643.832,-162.939"/>
+<text text-anchor="middle" x="1222.5" y="-306.5" font-family="FreeSans" font-size="10.00"> +mPosition</text>
+</g>
+<!-- Node17&#45;&gt;Node15 -->
+<g id="edge21" class="edge"><title>Node17&#45;&gt;Node15</title>
+<path fill="none" stroke="#404040" d="M1173.08,-457.245C1160.98,-447.021 1148.07,-434.791 1138,-422 1124.35,-404.661 1132.28,-391.721 1115,-378 1053.58,-329.231 960.975,-315.128 903.62,-311.233"/>
+<polygon fill="none" stroke="#404040" points="903.57,-311.23 897.347,-314.873 891.59,-310.53 897.813,-306.887 903.57,-311.23"/>
+<text text-anchor="middle" x="1170" y="-403" font-family="FreeSans" font-size="10.00"> +mPos</text>
+<text text-anchor="middle" x="1170" y="-392" font-family="FreeSans" font-size="10.00">+mDoorDest</text>
+</g>
+<!-- Node18 -->
+<g id="node18" class="node"><title>Node18</title>
 <polygon fill="white" stroke="#bfbfbf" points="802.5,-457 802.5,-515 831.5,-515 831.5,-457 802.5,-457"/>
 <polyline fill="none" stroke="#bfbfbf" points="802.5,-495 831.5,-495 "/>
 <text text-anchor="middle" x="817" y="-483" font-family="FreeSans" font-size="10.00"> </text>
 <polyline fill="none" stroke="#bfbfbf" points="802.5,-476 831.5,-476 "/>
 <text text-anchor="middle" x="817" y="-464" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node17&#45;&gt;Node15 -->
-<g id="edge18" class="edge"><title>Node17&#45;&gt;Node15</title>
+<!-- Node18&#45;&gt;Node15 -->
+<g id="edge23" class="edge"><title>Node18&#45;&gt;Node15</title>
 <path fill="none" stroke="#404040" d="M822.882,-456.787C825.132,-445.918 827.707,-433.386 830,-422 833.273,-405.746 836.757,-388.152 839.964,-371.831"/>
 <polygon fill="none" stroke="#404040" points="840.045,-371.417 837.275,-364.76 842.354,-359.642 845.125,-366.299 840.045,-371.417"/>
-<text text-anchor="middle" x="856" y="-397.5" font-family="FreeSans" font-size="10.00"> +@15</text>
-</g>
-<!-- Node18&#45;&gt;Node2 -->
-<g id="edge27" class="edge"><title>Node18&#45;&gt;Node2</title>
-<path fill="none" stroke="#404040" d="M1212.45,-457.14C1213.35,-434.913 1212.23,-403.402 1202,-378 1169.7,-297.761 1153.57,-270.074 1078,-228 1004.77,-187.23 760.681,-169.326 644.074,-162.951"/>
-<polygon fill="none" stroke="#404040" points="643.832,-162.939 637.628,-166.614 631.849,-162.3 638.053,-158.625 643.832,-162.939"/>
-<text text-anchor="middle" x="1223.5" y="-306.5" font-family="FreeSans" font-size="10.00"> +mPosition</text>
-</g>
-<!-- Node18&#45;&gt;Node15 -->
-<g id="edge22" class="edge"><title>Node18&#45;&gt;Node15</title>
-<path fill="none" stroke="#404040" d="M1173.08,-457.245C1160.98,-447.021 1148.07,-434.791 1138,-422 1124.35,-404.661 1132.28,-391.721 1115,-378 1053.58,-329.231 960.975,-315.128 903.62,-311.233"/>
-<polygon fill="none" stroke="#404040" points="903.57,-311.23 897.347,-314.873 891.59,-310.53 897.813,-306.887 903.57,-311.23"/>
-<text text-anchor="middle" x="1170" y="-403" font-family="FreeSans" font-size="10.00"> +mPos</text>
-<text text-anchor="middle" x="1170" y="-392" font-family="FreeSans" font-size="10.00">+mDoorDest</text>
+<text text-anchor="middle" x="856" y="-397.5" font-family="FreeSans" font-size="10.00"> +@18</text>
 </g>
 <!-- Node19&#45;&gt;Node15 -->
 <g id="edge24" class="edge"><title>Node19&#45;&gt;Node15</title>

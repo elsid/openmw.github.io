@@ -1,47 +1,36 @@
 <map id="MWGui::Widgets::MWAttribute::getAttributeId" name="MWGui::Widgets::MWAttribute::getAttributeId">
-<area shape="rect" id="node2" href="$classMWGui_1_1CreateClassDialog.html#a486620eeb44ada4c68d1b9c3f1decda2" title="MWGui::CreateClassDialog\l::update" alt="" coords="271,718,462,759"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1CreateClassDialog.html#a5240421931374450caaa47dd6ebd6678" title="MWGui::CreateClassDialog\l::onAttributeSelected" alt="" coords="530,777,721,818"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1CreateClassDialog.html#a3f820557b803a156c166f92de173e63d" title="MWGui::CreateClassDialog\l::getFavoriteAttributes" alt="" coords="271,835,462,877"/>
-<area shape="rect" id="node45" href="$classMWGui_1_1SelectAttributeDialog.html#a2339e852fe3a9bc1bdf3d6255069d7ab" title="MWGui::SelectAttributeDialog\l::SelectAttributeDialog" alt="" coords="521,930,730,971"/>
-<area shape="rect" id="node46" href="$classMWGui_1_1SelectAttributeDialog.html#a1045801860ebe4bbf59e12416b98d490" title="MWGui::SelectAttributeDialog\l::onAttributeClicked" alt="" coords="262,953,471,994"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1CreateClassDialog.html#a41c1dd3ded265c90fce09fdf1ff11cf2" title="MWGui::CreateClassDialog\l::CreateClassDialog" alt="" coords="1025,718,1215,759"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1CreateClassDialog.html#a334ba312d625d478d00191cd4a71b8d6" title="MWGui::CreateClassDialog\l::onSkillSelected" alt="" coords="530,659,721,701"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1CreateClassDialog.html#a062c10ea2c61282b04d7bd5358d92f11" title="MWGui::CreateClassDialog\l::onAttributeClicked" alt="" coords="782,777,973,818"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1CreateClassDialog.html#a1dd2eb2cf5215c45ba87fccac2ac7bc2" title="MWGui::CreateClassDialog\l::onSkillClicked" alt="" coords="782,659,973,701"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1CharacterCreation.html#adb61ad4f8b5b48671626b439c5ef2492" title="MWGui::CharacterCreation\l::selectCreatedClass" alt="" coords="530,842,721,883"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1CharacterCreation.html#a6374550941226fee10e79ef3ee48d120" title="MWGui::CharacterCreation\l::onCreateClassDialogDone" alt="" coords="779,907,976,949"/>
-<area shape="rect" id="node44" href="$classMWGui_1_1CharacterCreation.html#aaf437d564b1c85f6965df525396cd272" title="MWGui::CharacterCreation\l::onCreateClassDialogBack" alt="" coords="780,842,975,883"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1CharacterCreation.html#a56a9e33b81417cbf53bb8006908c2296" title="MWGui::CharacterCreation\l::spawnDialog" alt="" coords="1025,874,1215,915"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1WindowManager.html#ab9fdbfdc3d3b76fe9813cbb743d334da" title="MWGui::WindowManager\l::updateVisible" alt="" coords="1264,874,1440,915"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1WindowManager.html#a2066d296aa345dcb4008cbd07d3c52c2" title="MWGui::WindowManager\l::initUI" alt="" coords="1489,191,1665,233"/>
-<area shape="rect" id="node15" href="$classMWGui_1_1WindowManager.html#a044fcf2ab107f7c97dbf184ab0e3e868" title="MWGui::WindowManager\l::interactiveMessageBox" alt="" coords="1488,449,1667,490"/>
-<area shape="rect" id="node16" href="$classMWGui_1_1WindowManager.html#a0767a1ab9cb727c7bd0243c35226b428" title="MWGui::WindowManager\l::pushGuiMode" alt="" coords="1489,514,1665,555"/>
-<area shape="rect" id="node30" href="$classMWGui_1_1WindowManager.html#a0b79ceda0174bec3ff9efc8ee03ea336" title="MWGui::WindowManager\l::popGuiMode" alt="" coords="1489,645,1665,686"/>
-<area shape="rect" id="node31" href="$classMWGui_1_1WindowManager.html#a6162cf9ad2be7221c1b83ce122af4851" title="can be anywhere in the stack " alt="" coords="1489,710,1665,751"/>
-<area shape="rect" id="node33" href="$classMWGui_1_1WindowManager.html#aeb2d42ff40077e3b3513c5ed67732fc5" title="Allow one or more windows. " alt="" coords="1489,775,1665,817"/>
-<area shape="rect" id="node35" href="$classMWGui_1_1WindowManager.html#a9f2fb85060c4d0ff97fc8e8be332192d" title="Disallow all inventory mode windows. " alt="" coords="1489,841,1665,882"/>
-<area shape="rect" id="node36" href="$classMWGui_1_1WindowManager.html#a19dfd4c859d0d058631664bdb3317d58" title="MWGui::WindowManager\l::toggleVisible" alt="" coords="1489,906,1665,947"/>
-<area shape="rect" id="node37" href="$classMWGui_1_1WindowManager.html#a8c06ac694968e2167fd0180621c5fde1" title="MWGui::WindowManager\l::forceHide" alt="" coords="1489,1037,1665,1078"/>
-<area shape="rect" id="node39" href="$classMWGui_1_1WindowManager.html#ae9b8cc0be0202b8db35cde4268a5980f" title="MWGui::WindowManager\l::unsetForceHide" alt="" coords="1489,971,1665,1013"/>
-<area shape="rect" id="node40" href="$classMWGui_1_1WindowManager.html#a905661719f4bec66a53d06005ee4c185" title="Turn visibility of all GUI elements on or off (HUD and all windows, except the console) ..." alt="" coords="1489,1102,1665,1143"/>
-<area shape="rect" id="node41" href="$classMWGui_1_1WindowManager.html#afb89d5bc0e8f5c530bc1e40e151877c1" title="MWGui::WindowManager\l::showSoulgemDialog" alt="" coords="1489,1167,1665,1209"/>
-<area shape="rect" id="node42" href="$classMWGui_1_1WindowManager.html#a9825efe2509280a4e509c80fdb140513" title="Clear all savegame&#45;specific data. " alt="" coords="1489,1233,1665,1274"/>
-<area shape="rect" id="node43" href="$classMWGui_1_1WindowManager.html#a2ebf9d8952c285e995a7a3681bfb2c30" title="MWGui::WindowManager\l::pinWindow" alt="" coords="1489,1298,1665,1339"/>
-<area shape="rect" id="node14" href="$classOMW_1_1Engine.html#a9edab665083b0f5db2cda761f3e9c2c3" title="Prepare engine for game play. " alt="" coords="1715,5,1920,32"/>
-<area shape="rect" id="node17" href="$classMWGui_1_1WindowManager.html#a601bb982ab0708ae59f272cf67cfd9e7" title="MWGui::WindowManager\l::goToJail" alt="" coords="1729,318,1905,359"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1WindowManager.html#ab27b3a1d079d81ff649d0a301d781b95" title="MWGui::WindowManager\l::startSpellMaking" alt="" coords="1729,383,1905,425"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#a169ee28e16d96b8e085726ad4c095880" title="MWGui::WindowManager\l::startEnchanting" alt="" coords="1729,449,1905,490"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1WindowManager.html#acb3621cc1a80db64e1ac0b9352233a73" title="MWGui::WindowManager\l::startTraining" alt="" coords="1729,514,1905,555"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1WindowManager.html#aade231b3374027ad04211629868f83bf" title="MWGui::WindowManager\l::startRepair" alt="" coords="1729,579,1905,621"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1WindowManager.html#a2c4b9b3d62012f7a1e4bf23a7205f734" title="MWGui::WindowManager\l::startRepairItem" alt="" coords="1729,645,1905,686"/>
-<area shape="rect" id="node23" href="$classMWGui_1_1WindowManager.html#a678823d516ff55e041cc33a93f3add8c" title="MWGui::WindowManager\l::showCompanionWindow" alt="" coords="1726,710,1909,751"/>
-<area shape="rect" id="node24" href="$classMWGui_1_1WindowManager.html#ad9a458d0b83ce7784c76194f41534454" title="MWGui::WindowManager\l::startTravel" alt="" coords="1729,775,1905,817"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1WindowManager.html#a0d6f0bf76209bdcc312f2fc983b1b542" title="MWGui::WindowManager\l::startSpellBuying" alt="" coords="1729,841,1905,882"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1WindowManager.html#a4b7027f6a09b5ab6a55cd57862afc16d" title="MWGui::WindowManager\l::startTrade" alt="" coords="1729,57,1905,98"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1WindowManager.html#aad6ad9c6fd5953271278ae322ba590dd" title="MWGui::WindowManager\l::openContainer" alt="" coords="1729,122,1905,163"/>
-<area shape="rect" id="node28" href="$classMWGui_1_1WindowManager.html#a640e56036082e46aad138012cc3e364e" title="MWGui::WindowManager\l::showBook" alt="" coords="1729,187,1905,229"/>
-<area shape="rect" id="node29" href="$classMWGui_1_1WindowManager.html#aba92b46f5e255bdc1b11540f0cf7b239" title="MWGui::WindowManager\l::showScroll" alt="" coords="1729,253,1905,294"/>
-<area shape="rect" id="node32" href="$classMWGui_1_1WindowManager.html#a1d29eb164660e2bd45cb5641a90ac867" title="Gracefully attempts to exit the topmost GUI mode. " alt="" coords="1729,906,1905,947"/>
-<area shape="rect" id="node34" href="$classMWGui_1_1WindowManager.html#a924de31f311b3a886d4b9fb8ba9806c6" title="MWGui::WindowManager\l::setNewGame" alt="" coords="1729,971,1905,1013"/>
-<area shape="rect" id="node38" href="$classMWGui_1_1WindowManager.html#a0473842e2a7a08cf0b0e0e9d7e70be8e" title="MWGui::WindowManager\l::updatePlayer" alt="" coords="1729,1037,1905,1078"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1CreateClassDialog.html#a486620eeb44ada4c68d1b9c3f1decda2" title="MWGui::CreateClassDialog\l::update" alt="" coords="271,255,462,297"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1CreateClassDialog.html#a5240421931374450caaa47dd6ebd6678" title="MWGui::CreateClassDialog\l::onAttributeSelected" alt="" coords="530,190,721,231"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1CreateClassDialog.html#a3f820557b803a156c166f92de173e63d" title="MWGui::CreateClassDialog\l::getFavoriteAttributes" alt="" coords="271,321,462,362"/>
+<area shape="rect" id="node34" href="$classMWGui_1_1SelectAttributeDialog.html#a2339e852fe3a9bc1bdf3d6255069d7ab" title="MWGui::SelectAttributeDialog\l::SelectAttributeDialog" alt="" coords="521,441,730,482"/>
+<area shape="rect" id="node35" href="$classMWGui_1_1SelectAttributeDialog.html#a1045801860ebe4bbf59e12416b98d490" title="MWGui::SelectAttributeDialog\l::onAttributeClicked" alt="" coords="262,386,471,427"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1CreateClassDialog.html#a41c1dd3ded265c90fce09fdf1ff11cf2" title="MWGui::CreateClassDialog\l::CreateClassDialog" alt="" coords="1025,255,1215,297"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1CreateClassDialog.html#a334ba312d625d478d00191cd4a71b8d6" title="MWGui::CreateClassDialog\l::onSkillSelected" alt="" coords="530,255,721,297"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1CreateClassDialog.html#a062c10ea2c61282b04d7bd5358d92f11" title="MWGui::CreateClassDialog\l::onAttributeClicked" alt="" coords="782,190,973,231"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1CreateClassDialog.html#a1dd2eb2cf5215c45ba87fccac2ac7bc2" title="MWGui::CreateClassDialog\l::onSkillClicked" alt="" coords="782,255,973,297"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1CharacterCreation.html#adb61ad4f8b5b48671626b439c5ef2492" title="MWGui::CharacterCreation\l::selectCreatedClass" alt="" coords="530,373,721,414"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1CharacterCreation.html#a6374550941226fee10e79ef3ee48d120" title="MWGui::CharacterCreation\l::onCreateClassDialogDone" alt="" coords="779,373,976,414"/>
+<area shape="rect" id="node33" href="$classMWGui_1_1CharacterCreation.html#aaf437d564b1c85f6965df525396cd272" title="MWGui::CharacterCreation\l::onCreateClassDialogBack" alt="" coords="780,438,975,479"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1CharacterCreation.html#a56a9e33b81417cbf53bb8006908c2296" title="MWGui::CharacterCreation\l::spawnDialog" alt="" coords="1025,405,1215,446"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1WindowManager.html#ab9fdbfdc3d3b76fe9813cbb743d334da" title="MWGui::WindowManager\l::updateVisible" alt="" coords="1264,405,1440,446"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1WindowManager.html#a2066d296aa345dcb4008cbd07d3c52c2" title="MWGui::WindowManager\l::initUI" alt="" coords="1489,6,1665,47"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1WindowManager.html#a044fcf2ab107f7c97dbf184ab0e3e868" title="MWGui::WindowManager\l::interactiveMessageBox" alt="" coords="1488,71,1667,113"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1WindowManager.html#a1c324aaf572326e89420cfec288b433c" title="MWGui::WindowManager\l::pushGuiMode" alt="" coords="1489,306,1665,347"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1WindowManager.html#a8f63377cbff070264ed7da37076040c1" title="MWGui::WindowManager\l::popGuiMode" alt="" coords="1489,189,1665,230"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1WindowManager.html#a6b2a76f33e841032740681216f2fcc7b" title="can be anywhere in the stack " alt="" coords="1729,117,1905,158"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1WindowManager.html#a9825efe2509280a4e509c80fdb140513" title="Clear all savegame&#45;specific data. " alt="" coords="1729,182,1905,223"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1WindowManager.html#aeb2d42ff40077e3b3513c5ed67732fc5" title="Allow one or more windows. " alt="" coords="1489,371,1665,413"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1WindowManager.html#a9f2fb85060c4d0ff97fc8e8be332192d" title="Disallow all inventory mode windows. " alt="" coords="1489,437,1665,478"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1WindowManager.html#a19dfd4c859d0d058631664bdb3317d58" title="MWGui::WindowManager\l::toggleVisible" alt="" coords="1489,502,1665,543"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1WindowManager.html#a8c06ac694968e2167fd0180621c5fde1" title="MWGui::WindowManager\l::forceHide" alt="" coords="1489,567,1665,609"/>
+<area shape="rect" id="node29" href="$classMWGui_1_1WindowManager.html#ae9b8cc0be0202b8db35cde4268a5980f" title="MWGui::WindowManager\l::unsetForceHide" alt="" coords="1489,633,1665,674"/>
+<area shape="rect" id="node30" href="$classMWGui_1_1WindowManager.html#a0af4fdd65c849f2481367a76d9dc54da" title="Turn visibility of HUD on or off. " alt="" coords="1489,698,1665,739"/>
+<area shape="rect" id="node31" href="$classMWGui_1_1WindowManager.html#afb89d5bc0e8f5c530bc1e40e151877c1" title="MWGui::WindowManager\l::showSoulgemDialog" alt="" coords="1489,763,1665,805"/>
+<area shape="rect" id="node32" href="$classMWGui_1_1WindowManager.html#a2ebf9d8952c285e995a7a3681bfb2c30" title="MWGui::WindowManager\l::pinWindow" alt="" coords="1489,829,1665,870"/>
+<area shape="rect" id="node14" href="$classOMW_1_1Engine.html#a9edab665083b0f5db2cda761f3e9c2c3" title="Prepare engine for game play. " alt="" coords="1715,13,1920,40"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1WindowManager.html#a1d29eb164660e2bd45cb5641a90ac867" title="Gracefully attempts to exit the topmost GUI mode. " alt="" coords="1729,247,1905,289"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1WindowManager.html#a0767a1ab9cb727c7bd0243c35226b428" title="MWGui::WindowManager\l::pushGuiMode" alt="" coords="1729,313,1905,354"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#a601bb982ab0708ae59f272cf67cfd9e7" title="MWGui::WindowManager\l::goToJail" alt="" coords="1729,378,1905,419"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1WindowManager.html#a924de31f311b3a886d4b9fb8ba9806c6" title="MWGui::WindowManager\l::setNewGame" alt="" coords="1729,443,1905,485"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1WindowManager.html#a0473842e2a7a08cf0b0e0e9d7e70be8e" title="MWGui::WindowManager\l::updatePlayer" alt="" coords="1729,567,1905,609"/>
 </map>

@@ -1,10 +1,11 @@
 var searchData=
 [
   ['walks',['Walks',['../structESM_1_1Creature.html#a8fadcc93ae6d63b342ff3f7581ca7c05aa5599e5fb81597518cb671c4eaeebbfa',1,'ESM::Creature']]],
-  ['wander_5fchooseaction',['Wander_ChooseAction',['../classMWMechanics_1_1AiWander.html#a386f2e4992312e60b9fb58cc4f0ff491af2c7f0ef9d0f54e309d96ce57b12b0aa',1,'MWMechanics::AiWander']]],
-  ['wander_5fidlenow',['Wander_IdleNow',['../classMWMechanics_1_1AiWander.html#a386f2e4992312e60b9fb58cc4f0ff491acbeebe15a1c50e0c49b53044454536f8',1,'MWMechanics::AiWander']]],
-  ['wander_5fmovenow',['Wander_MoveNow',['../classMWMechanics_1_1AiWander.html#a386f2e4992312e60b9fb58cc4f0ff491aeba869083fa3abcbdac193ea5c0a6835',1,'MWMechanics::AiWander']]],
-  ['wander_5fwalking',['Wander_Walking',['../classMWMechanics_1_1AiWander.html#a386f2e4992312e60b9fb58cc4f0ff491ae22798d0902812facc5017e6f57e4d35',1,'MWMechanics::AiWander']]],
+  ['wander_5fchooseaction',['Wander_ChooseAction',['../structMWMechanics_1_1AiWanderStorage.html#ad90f618a22ace790572fc4179c99fd22a86587b6a4cd62c816ed0c327fdfd5abb',1,'MWMechanics::AiWanderStorage']]],
+  ['wander_5fidlenow',['Wander_IdleNow',['../structMWMechanics_1_1AiWanderStorage.html#ad90f618a22ace790572fc4179c99fd22aebb6b1003fa4957b41f5b0afc7c357e4',1,'MWMechanics::AiWanderStorage']]],
+  ['wander_5fmovenow',['Wander_MoveNow',['../structMWMechanics_1_1AiWanderStorage.html#ad90f618a22ace790572fc4179c99fd22a27690434d0bc7af1ed0e39cefe753b0f',1,'MWMechanics::AiWanderStorage']]],
+  ['wander_5fwalking',['Wander_Walking',['../structMWMechanics_1_1AiWanderStorage.html#ad90f618a22ace790572fc4179c99fd22ae61e29dc4690cfe70d1b6d396b577d16',1,'MWMechanics::AiWanderStorage']]],
+  ['warning',['Warning',['../namespaceDebug.html#ace4ffe62c9cedc3322c1f2fd2097f1c4a5f9964e5d1d0c948704f783d10ce46c4',1,'Debug']]],
   ['warningmessage',['WarningMessage',['../classCompiler_1_1ErrorHandler.html#a2aa56cded3ac6c154e0c0319cfcce658a73f0634f26621161f4e38642f86d14ff',1,'Compiler::ErrorHandler']]],
   ['waterbreathing',['WaterBreathing',['../structESM_1_1MagicEffect.html#ad713b064a04784c527a6b87471d9b277afe3837839cbf746cce2fa83b2ec1eae5',1,'ESM::MagicEffect']]],
   ['waterwalking',['WaterWalking',['../structESM_1_1MagicEffect.html#ad713b064a04784c527a6b87471d9b277a28c68405ea5e96e6982620ae896feedd',1,'ESM::MagicEffect']]],

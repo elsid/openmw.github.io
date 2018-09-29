@@ -1,51 +1,51 @@
 <map id="MWMechanics::MechanicsManager::setPlayerClass" name="MWMechanics::MechanicsManager::setPlayerClass">
-<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1400,693,1595,719"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1415,331,1580,372"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1World.html#ae1e491bc2cff01e1f0c3aac65ab2a89c" title="MWBase::World::createRecord" alt="" coords="312,1990,523,2017"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="854,105,1058,131"/>
-<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="627,105,760,131"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1MechanicsManager.html#ac23cfdb32ea2282daf63c0c6f2f8b86e" title="MWMechanics::MechanicsManager\l::buildPlayer" alt="" coords="296,927,539,968"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1127,79,1327,106"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1389,79,1605,106"/>
-<area shape="rect" id="node10" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="604,206,783,233"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1143,946,1310,973"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="591,1431,796,1472"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="1123,1473,1331,1499"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1CreatureStats.html#ab23e788ebcc0dad9613a42904c8e1976" title="MWMechanics::CreatureStats\l::setLevel" alt="" coords="589,1496,798,1537"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="589,1561,798,1603"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1Spells.html#aba624b8db38ca69d0e6e52f98f9b656d" title="Remove all spells of al types. " alt="" coords="615,1627,772,1668"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1CreatureStats.html#a1f2eb44c0507917a0ea6ea038f46c9c0" title="Set Modifier for each magic effect according to effects. Does not touch Base values. " alt="" coords="589,1692,798,1733"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1NpcStats.html#ab1e372c44ef1d0159a4c5041ca5a0b57" title="MWMechanics::NpcStats\l::getSkill" alt="" coords="604,1757,783,1799"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1AttributeValue.html#a134d708bb240e7baa1958b68efcafcdf" title="MWMechanics::AttributeValue\l::setBase" alt="" coords="588,1823,799,1864"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#a8283f726e62dfd0744e115143e68c294" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="589,1095,798,1136"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="851,1408,1061,1449"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1DynamicStat.html#a5341e59c91e5cc6782ef8f8fa1177bda" title="MWMechanics::DynamicStat\l::getModified" alt="" coords="855,1473,1057,1515"/>
-<area shape="rect" id="node31" href="$classMWMechanics_1_1DynamicStat.html#abb00fb02a2face04357f86ec5117d2ec" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="1396,1349,1599,1391"/>
-<area shape="rect" id="node33" href="$classMWMechanics_1_1CreatureStats.html#a2887c6613153d6c33d2458e2eb08ade6" title="MWMechanics::CreatureStats\l::setDynamic" alt="" coords="1122,997,1331,1039"/>
-<area shape="rect" id="node34" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1135,541,1318,567"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1137,743,1316,770"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1Spells.html#acb995a57e484a88c9360893e3aa3113b" title="Adding a spell that is already listed in *this is a no&#45;op. " alt="" coords="599,723,788,750"/>
-<area shape="rect" id="node38" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="600,1889,787,1915"/>
-<area shape="rect" id="node39" href="$classMWWorld_1_1Player.html#a43d1a5007ab5075a2e430a15dd92ecf3" title="MWWorld::Player::getBirthSign" alt="" coords="587,257,799,283"/>
-<area shape="rect" id="node40" href="$classMWMechanics_1_1AttributeValue.html#aaf2aaa6848d18ab931777fb9096e0d45" title="MWMechanics::AttributeValue\l::getBase" alt="" coords="588,308,799,349"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1IndexedStore.html#a703ecf9329ff25f114b19fc9d4a65644" title="MWWorld::IndexedStore\l::begin" alt="" coords="608,373,779,415"/>
-<area shape="rect" id="node42" href="$classMWWorld_1_1IndexedStore.html#affc60f57b3d38ce244616dc2ef79ed10" title="MWWorld::IndexedStore::end" alt="" coords="592,439,795,466"/>
-<area shape="rect" id="node43" href="$namespaceMWMechanics.html#ae79ddc3d38fe2c742d20d474453677b1" title="MWMechanics::autoCalcPlayer\lSpells" alt="" coords="849,679,1063,720"/>
-<area shape="rect" id="node46" href="$classMWMechanics_1_1Actors.html#a2c9ef0e9aab4d686c6aa393bdb9e9f5b" title="Updates an actor with a new Ptr. " alt="" coords="613,541,773,583"/>
-<area shape="rect" id="node47" href="$classMWMechanics_1_1CreatureStats.html#a6b391d11a5122da96a2ddf2acef0ead9" title="MWMechanics::CreatureStats\l::getDynamic" alt="" coords="589,607,798,648"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="589,927,797,968"/>
-<area shape="rect" id="node49" href="$classMWWorld_1_1InventoryStore.html#a91fcfb6a444b62f134a6abc30e64fab2" title="Unequip all currently equipped items. " alt="" coords="603,1263,783,1304"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1InventoryStore.html#ace68a9487faec33c6b060e4e9b60474c" title="Auto equip items according to stats and item value. " alt="" coords="866,796,1046,837"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="1113,1655,1341,1682"/>
-<area shape="rect" id="node19" href="$structMWMechanics_1_1EffectParam.html#aefc5526bf3a40d198fa4dbfc0ae11561" title="MWMechanics::EffectParam\l::getModifier" alt="" coords="1129,1736,1325,1777"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1MagicEffects.html#a8309f10f3f5c22045c780b9f6f37e739" title="Copy Modifier values from effects, but keep original mBase values. " alt="" coords="857,1692,1055,1733"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="851,1160,1061,1201"/>
-<area shape="rect" id="node26" href="$classMWMechanics_1_1CreatureStats.html#ae962c8518e43e517e2aec4d89a5aafe2" title="MWMechanics::CreatureStats\l::getFatigue" alt="" coords="851,1225,1061,1267"/>
-<area shape="rect" id="node27" href="$classMWMechanics_1_1DynamicStat.html#ae0d63da7d2ef44216a8535b68c581bd0" title="MWMechanics::DynamicStat\l::getBase" alt="" coords="855,1291,1057,1332"/>
-<area shape="rect" id="node28" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="855,1029,1057,1071"/>
-<area shape="rect" id="node29" href="$classMWMechanics_1_1DynamicStat.html#abc22a236f06b223eb3451b5607d5f5ef" title="Set modified value an adjust base accordingly. " alt="" coords="855,1095,1057,1136"/>
-<area shape="rect" id="node32" href="$classMWMechanics_1_1CreatureStats.html#a670dcf81e6b972c3e15b045bc866a769" title="MWMechanics::CreatureStats\l::setFatigue" alt="" coords="851,964,1061,1005"/>
-<area shape="rect" id="node37" href="$classMWMechanics_1_1Spells.html#a24959d02a1baaff2b2e44d8278872c15" title="Get spell from ID, throws exception if not found. " alt="" coords="877,541,1035,583"/>
-<area shape="rect" id="node44" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="1125,794,1328,821"/>
-<area shape="rect" id="node45" href="$classMWWorld_1_1Store.html#a83317619858aa87c8c8d72e644139b16" title="MWWorld::Store::begin" alt="" coords="1145,642,1309,669"/>
+<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1396,863,1591,889"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1411,450,1576,491"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1World.html#ae1e491bc2cff01e1f0c3aac65ab2a89c" title="MWBase::World::createRecord" alt="" coords="312,2099,523,2125"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="857,144,1061,171"/>
+<area shape="rect" id="node6" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="1163,1863,1296,1889"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1MechanicsManager.html#ac23cfdb32ea2282daf63c0c6f2f8b86e" title="MWMechanics::MechanicsManager\l::buildPlayer" alt="" coords="296,1027,539,1069"/>
+<area shape="rect" id="node7" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1393,1449,1593,1476"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1643,1449,1859,1476"/>
+<area shape="rect" id="node10" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="605,211,784,237"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1146,1283,1313,1309"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="592,1714,797,1755"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="1125,1795,1333,1821"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1CreatureStats.html#a52bb5b898cdbbfb981ea8fb62e8e7128" title="MWMechanics::CreatureStats\l::setNeedRecalcDynamicStats" alt="" coords="587,1779,802,1821"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#ab23e788ebcc0dad9613a42904c8e1976" title="MWMechanics::CreatureStats\l::setLevel" alt="" coords="590,145,799,186"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="590,379,799,421"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1Spells.html#aba624b8db38ca69d0e6e52f98f9b656d" title="Remove all spells of al types. " alt="" coords="616,445,773,486"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1CreatureStats.html#a1f2eb44c0507917a0ea6ea038f46c9c0" title="Set Modifier for each magic effect according to effects. Does not touch Base values. " alt="" coords="590,262,799,303"/>
+<area shape="rect" id="node22" href="$classMWMechanics_1_1NpcStats.html#ab1e372c44ef1d0159a4c5041ca5a0b57" title="MWMechanics::NpcStats\l::getSkill" alt="" coords="605,613,784,654"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1AttributeValue.html#a134d708bb240e7baa1958b68efcafcdf" title="MWMechanics::AttributeValue\l::setBase" alt="" coords="589,678,800,719"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1CreatureStats.html#a8283f726e62dfd0744e115143e68c294" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="590,1466,799,1507"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="854,1778,1063,1819"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1DynamicStat.html#a5341e59c91e5cc6782ef8f8fa1177bda" title="MWMechanics::DynamicStat\l::getModified" alt="" coords="857,1086,1060,1127"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1DynamicStat.html#af114d4cb38a9d185a77154a620528049" title="MWMechanics::DynamicStat\l::setCurrent" alt="" coords="1392,1719,1595,1761"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1CreatureStats.html#a2887c6613153d6c33d2458e2eb08ade6" title="MWMechanics::CreatureStats\l::setDynamic" alt="" coords="1125,1334,1334,1375"/>
+<area shape="rect" id="node35" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1138,559,1321,585"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1140,609,1319,636"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1Spells.html#acb995a57e484a88c9360893e3aa3113b" title="Adding a spell that is already listed in *this is a no&#45;op. " alt="" coords="600,511,789,537"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="601,744,788,771"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1Player.html#a43d1a5007ab5075a2e430a15dd92ecf3" title="MWWorld::Player::getBirthSign" alt="" coords="589,947,801,973"/>
+<area shape="rect" id="node41" href="$classMWMechanics_1_1AttributeValue.html#aaf2aaa6848d18ab931777fb9096e0d45" title="MWMechanics::AttributeValue\l::getBase" alt="" coords="589,998,800,1039"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1IndexedStore.html#a703ecf9329ff25f114b19fc9d4a65644" title="MWWorld::IndexedStore\l::begin" alt="" coords="609,1115,780,1157"/>
+<area shape="rect" id="node43" href="$classMWWorld_1_1IndexedStore.html#affc60f57b3d38ce244616dc2ef79ed10" title="MWWorld::IndexedStore::end" alt="" coords="593,1232,796,1259"/>
+<area shape="rect" id="node44" href="$namespaceMWMechanics.html#ae79ddc3d38fe2c742d20d474453677b1" title="MWMechanics::autoCalcPlayer\lSpells" alt="" coords="851,678,1066,719"/>
+<area shape="rect" id="node46" href="$classMWMechanics_1_1Actors.html#a2c9ef0e9aab4d686c6aa393bdb9e9f5b" title="Updates an actor with a new Ptr. " alt="" coords="615,1283,775,1325"/>
+<area shape="rect" id="node47" href="$classMWMechanics_1_1CreatureStats.html#a6b391d11a5122da96a2ddf2acef0ead9" title="MWMechanics::CreatureStats\l::getDynamic" alt="" coords="590,1401,799,1442"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1Class.html#a852b8ee3c98947449511b85dfa479b28" title="MWWorld::Class::getInventory\lStore" alt="" coords="591,1531,799,1573"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1InventoryStore.html#a91fcfb6a444b62f134a6abc30e64fab2" title="Unequip all currently equipped items. " alt="" coords="605,1597,785,1638"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1InventoryStore.html#ace68a9487faec33c6b060e4e9b60474c" title="Auto equip items according to stats and item value. " alt="" coords="869,830,1049,871"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1MagicEffects.html#aa9771d1e0e2d3fa1378fc3bb0c338a28" title="This function can safely be used for keys that are not present. " alt="" coords="1115,325,1343,352"/>
+<area shape="rect" id="node20" href="$structMWMechanics_1_1EffectParam.html#aefc5526bf3a40d198fa4dbfc0ae11561" title="MWMechanics::EffectParam\l::getModifier" alt="" coords="1131,377,1327,418"/>
+<area shape="rect" id="node21" href="$classMWMechanics_1_1MagicEffects.html#a8309f10f3f5c22045c780b9f6f37e739" title="Copy Modifier values from effects, but keep original mBase values. " alt="" coords="859,347,1058,389"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="853,1595,1064,1637"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1CreatureStats.html#ae962c8518e43e517e2aec4d89a5aafe2" title="MWMechanics::CreatureStats\l::getFatigue" alt="" coords="854,1661,1063,1702"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1DynamicStat.html#ae0d63da7d2ef44216a8535b68c581bd0" title="MWMechanics::DynamicStat\l::getBase" alt="" coords="857,1399,1060,1441"/>
+<area shape="rect" id="node29" href="$classMWMechanics_1_1DynamicStat.html#a396a1a67b23dde7489b7afa6bcdc2dee" title="MWMechanics::DynamicStat\l::getCurrent" alt="" coords="857,1465,1060,1506"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1DynamicStat.html#abc22a236f06b223eb3451b5607d5f5ef" title="Set modified value and adjust base accordingly. " alt="" coords="857,1530,1060,1571"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1CreatureStats.html#a670dcf81e6b972c3e15b045bc866a769" title="MWMechanics::CreatureStats\l::setFatigue" alt="" coords="854,1334,1063,1375"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1Spells.html#a24959d02a1baaff2b2e44d8278872c15" title="Get spell from ID, throws exception if not found. " alt="" coords="880,465,1037,506"/>
+<area shape="rect" id="node45" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="1148,761,1311,788"/>
 </map>

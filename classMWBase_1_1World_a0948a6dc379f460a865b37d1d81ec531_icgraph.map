@@ -1,21 +1,31 @@
 <map id="MWBase::World::isUnderwater" name="MWBase::World::isUnderwater">
-<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#ae01a6ef4f53e34c74b86a5fcaba872a7" title="MWClass::Creature::\lgetSndGenTypeFromName" alt="" coords="269,5,462,46"/>
-<area shape="rect" id="node4" href="$classMWClass_1_1Npc.html#ae64fa6b9a127eded92227a43503d4527" title="Returns the sound ID for ptr of the given soundgen type. " alt="" coords="269,70,461,111"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#ae46f7c57519d942338677fd6a0915b54" title="MWMechanics::Actors\l::updateDrowning" alt="" coords="285,135,445,177"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1AiWander.html#ae8e0106ea4536a74f13dfa2a9b0ff805" title="MWMechanics::AiWander\l::destinationIsAtWater" alt="" coords="276,201,455,242"/>
-<area shape="rect" id="node13" href="$classMWPhysics_1_1PhysicsSystem.html#a9277c35247eb2b649168b77e62cad326" title="Apply all queued movements, then clear the list. " alt="" coords="268,266,463,307"/>
-<area shape="rect" id="node17" href="$classMWRender_1_1RippleSimulation.html#a24092577f425b5aac6071f8be6d00570" title="MWRender::RippleSimulation\l::update" alt="" coords="264,331,467,373"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="265,397,465,438"/>
-<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a6e3814ff043a3f48ad24dddd5e305204" title="Returns the sound ID for ptr of the given soundgen type. " alt="" coords="525,5,704,46"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1Actors.html#a2ad05c57d27bc2b1609f6e99b34c90d0" title="MWMechanics::Actors\l::updateNpc" alt="" coords="535,135,695,177"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="783,135,943,177"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1011,135,1253,177"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1AiWander.html#a746e34db98b7e11d7b080ed83fb8cd37" title="MWMechanics::AiWander\l::wanderNearStart" alt="" coords="525,201,704,242"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1AiWander.html#a5e3c9c52cd020409ce338b1eae76224d" title="MWMechanics::AiWander\l::reactionTimeActions" alt="" coords="773,201,952,242"/>
-<area shape="rect" id="node12" href="$classMWMechanics_1_1AiWander.html#a77aa326ba83d5024ec4cc5ebd207fa92" title="MWMechanics::AiWander\l::execute" alt="" coords="1043,201,1221,242"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1World.html#a2f5d290bb1dd1000c604b0bd488567c7" title="Run physics simulation and modify world accordingly. " alt="" coords="519,273,710,300"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1World.html#abf77486e8f0325210afe56bbe2021960" title="MWWorld::World::update" alt="" coords="776,273,949,300"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1World.html#ab658191aa2c94a4ea8256db10678c102" title="MWWorld::World::createRecord" alt="" coords="1026,273,1238,300"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="515,397,715,438"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="763,397,963,438"/>
+<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#ae01a6ef4f53e34c74b86a5fcaba872a7" title="MWClass::Creature::\lgetSndGenTypeFromName" alt="" coords="282,5,475,46"/>
+<area shape="rect" id="node4" href="$classMWClass_1_1Npc.html#ae64fa6b9a127eded92227a43503d4527" title="Returns the sound ID for ptr of the given soundgen type. " alt="" coords="283,70,475,111"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#ab5d608ec19c46ad4f6eb27fdc79490a7" title="MWMechanics::Actors\l::updateDrowning" alt="" coords="1572,149,1732,190"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1AiWander.html#ae8e0106ea4536a74f13dfa2a9b0ff805" title="MWMechanics::AiWander\l::destinationIsAtWater" alt="" coords="289,238,468,279"/>
+<area shape="rect" id="node12" href="$namespaceMWMechanics.html#ab7eadd05e39e29738227aeb394c096ec" title="MWMechanics::rateEffect" alt="" coords="288,329,469,356"/>
+<area shape="rect" id="node22" href="$namespaceMWMechanics.html#a34361714bc630a0c921be69cf14f6aa5" title="MWMechanics::rateWeapon" alt="" coords="792,405,987,432"/>
+<area shape="rect" id="node25" href="$classMWPhysics_1_1PhysicsSystem.html#a9277c35247eb2b649168b77e62cad326" title="Apply all queued movements, then clear the list. " alt="" coords="281,431,476,473"/>
+<area shape="rect" id="node26" href="$classMWRender_1_1RippleSimulation.html#a24092577f425b5aac6071f8be6d00570" title="MWRender::RippleSimulation\l::update" alt="" coords="277,497,480,538"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="279,562,479,603"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1World.html#ae5903ca0dd09782dc14695a7f3c7d99c" title="MWWorld::World::launchProjectile" alt="" coords="265,628,493,655"/>
+<area shape="rect" id="node3" href="$classMWClass_1_1Creature.html#a6e3814ff043a3f48ad24dddd5e305204" title="Returns the sound ID for ptr of the given soundgen type. " alt="" coords="552,5,731,46"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1809,225,1969,266"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="2029,225,2272,266"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1AiWander.html#a746e34db98b7e11d7b080ed83fb8cd37" title="MWMechanics::AiWander\l::wanderNearStart" alt="" coords="552,213,731,254"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1AiWander.html#a5e3c9c52cd020409ce338b1eae76224d" title="MWMechanics::AiWander\l::reactionTimeActions" alt="" coords="800,187,979,229"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1AiWander.html#a77aa326ba83d5024ec4cc5ebd207fa92" title="MWMechanics::AiWander\l::execute" alt="" coords="1053,187,1232,229"/>
+<area shape="rect" id="node13" href="$namespaceMWMechanics.html#a2d6e40b5807589d4725ad64e263dfe1f" title="MWMechanics::rateEffects" alt="" coords="547,304,735,331"/>
+<area shape="rect" id="node14" href="$namespaceMWMechanics.html#aec953882946f6e11ec708949f7a1d0da" title="MWMechanics::ratePotion" alt="" coords="797,253,982,280"/>
+<area shape="rect" id="node18" href="$namespaceMWMechanics.html#a9ea06096b26b59bb714ecbd570d51e23" title="MWMechanics::rateSpell" alt="" coords="1055,304,1231,331"/>
+<area shape="rect" id="node21" href="$namespaceMWMechanics.html#a9586872bfeceb99e5f4fc2399c5011fb" title="MWMechanics::rateMagicItem" alt="" coords="1037,355,1248,381"/>
+<area shape="rect" id="node15" href="$namespaceMWMechanics.html#a830c73b5935624c014c7f8c28cce9aff" title="MWMechanics::prepareNext\lAction" alt="" coords="1302,329,1501,370"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="1561,329,1743,370"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="1798,329,1981,370"/>
+<area shape="rect" id="node19" href="$namespaceMWMechanics.html#a2063cb7e43a9a94667efe9865bcae60f" title="MWMechanics::getBestAction\lRating" alt="" coords="1297,394,1506,435"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1AiSequence.html#afcefe571332a2f759ce594c9e95c43ee" title="Execute current package, switching if needed. " alt="" coords="1555,394,1749,435"/>
+<area shape="rect" id="node23" href="$namespaceMWMechanics.html#a2c14c536d3440ca240707db7bf78b2ea" title="MWMechanics::rateAmmo" alt="" coords="1049,507,1237,533"/>
+<area shape="rect" id="node24" href="$namespaceMWMechanics.html#afb3891c89c0574755a4cbe5f94748ef1" title="MWMechanics::rateAmmo" alt="" coords="1307,507,1495,533"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="541,562,741,603"/>
+<area shape="rect" id="node29" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="789,562,989,603"/>
 </map>

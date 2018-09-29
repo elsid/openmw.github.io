@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/soundgencheck.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/soundgencheck.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,35 +110,37 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundGenCheckStage.html#a8a28cd19f0644f62da3226118d8809f6">   13</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::SoundGenerator&gt;</a> &amp;<a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#a8a28cd19f0644f62da3226118d8809f6">mSoundGens</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundGenCheckStage.html#ac8425a3a4be2fcd8a94cfd4a5232755a">   14</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Sound&gt;</a> &amp;<a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#ac8425a3a4be2fcd8a94cfd4a5232755a">mSounds</a>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundGenCheckStage.html#af18701ba793b09822f2935731461e9d4">   15</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a> &amp;<a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#af18701ba793b09822f2935731461e9d4">mReferenceables</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#ab09be3f8134fce978ea665f321751878">SoundGenCheckStage</a>(<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::SoundGenerator&gt;</a> &amp;soundGens,</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Sound&gt;</a> &amp;sounds,</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a> &amp;referenceables);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#acd0a115bac8109bd39c77ca4c59c50ad">setup</a>();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#a9095fe03dcff191ec5de794c5b6f0346">perform</a>(<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a> &amp;messages);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    };</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundGenCheckStage.html#a83ebe67484a42b2de2e8fb56a02cd0a0">   15</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a> &amp;<a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#a83ebe67484a42b2de2e8fb56a02cd0a0">mObjects</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCSMTools_1_1SoundGenCheckStage.html#a8848a9d84cf3def8e14bdee3915132cf">   16</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#a8848a9d84cf3def8e14bdee3915132cf">mIgnoreBaseRecords</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#a3aba861f66aa1f3c26b237f8555d6e98">SoundGenCheckStage</a>(<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::SoundGenerator&gt;</a> &amp;soundGens,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Sound&gt;</a> &amp;sounds,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a> &amp;objects);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#acd0a115bac8109bd39c77ca4c59c50ad">setup</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1SoundGenCheckStage.html#a9095fe03dcff191ec5de794c5b6f0346">perform</a>(<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a> &amp;messages);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSMWorld_1_1IdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt; ESM::SoundGenerator &gt;</a></div></div>
+<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_a83ebe67484a42b2de2e8fb56a02cd0a0"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#a83ebe67484a42b2de2e8fb56a02cd0a0">CSMTools::SoundGenCheckStage::mObjects</a></div><div class="ttdeci">const CSMWorld::RefIdCollection &amp; mObjects</div><div class="ttdef"><b>Definition:</b> soundgencheck.hpp:15</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_a3aba861f66aa1f3c26b237f8555d6e98"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#a3aba861f66aa1f3c26b237f8555d6e98">CSMTools::SoundGenCheckStage::SoundGenCheckStage</a></div><div class="ttdeci">SoundGenCheckStage(const CSMWorld::IdCollection&lt; ESM::SoundGenerator &gt; &amp;soundGens, const CSMWorld::IdCollection&lt; ESM::Sound &gt; &amp;sounds, const CSMWorld::RefIdCollection &amp;objects)</div><div class="ttdef"><b>Definition:</b> soundgencheck.cpp:8</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_a8848a9d84cf3def8e14bdee3915132cf"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#a8848a9d84cf3def8e14bdee3915132cf">CSMTools::SoundGenCheckStage::mIgnoreBaseRecords</a></div><div class="ttdeci">bool mIgnoreBaseRecords</div><div class="ttdef"><b>Definition:</b> soundgencheck.hpp:16</div></div>
 <div class="ttc" id="classCSMDoc_1_1Messages_html"><div class="ttname"><a href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:38</div></div>
-<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_ab09be3f8134fce978ea665f321751878"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#ab09be3f8134fce978ea665f321751878">CSMTools::SoundGenCheckStage::SoundGenCheckStage</a></div><div class="ttdeci">SoundGenCheckStage(const CSMWorld::IdCollection&lt; ESM::SoundGenerator &gt; &amp;soundGens, const CSMWorld::IdCollection&lt; ESM::Sound &gt; &amp;sounds, const CSMWorld::RefIdCollection &amp;referenceables)</div><div class="ttdef"><b>Definition:</b> soundgencheck.cpp:8</div></div>
 <div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_ac8425a3a4be2fcd8a94cfd4a5232755a"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#ac8425a3a4be2fcd8a94cfd4a5232755a">CSMTools::SoundGenCheckStage::mSounds</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::Sound &gt; &amp; mSounds</div><div class="ttdef"><b>Definition:</b> soundgencheck.hpp:14</div></div>
-<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_acd0a115bac8109bd39c77ca4c59c50ad"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#acd0a115bac8109bd39c77ca4c59c50ad">CSMTools::SoundGenCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> soundgencheck.cpp:16</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_acd0a115bac8109bd39c77ca4c59c50ad"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#acd0a115bac8109bd39c77ca4c59c50ad">CSMTools::SoundGenCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> soundgencheck.cpp:18</div></div>
 <div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_a8a28cd19f0644f62da3226118d8809f6"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#a8a28cd19f0644f62da3226118d8809f6">CSMTools::SoundGenCheckStage::mSoundGens</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::SoundGenerator &gt; &amp; mSoundGens</div><div class="ttdef"><b>Definition:</b> soundgencheck.hpp:13</div></div>
 <div class="ttc" id="classCSMDoc_1_1Stage_html"><div class="ttname"><a href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div><div class="ttdef"><b>Definition:</b> stage.hpp:15</div></div>
 <div class="ttc" id="classCSMWorld_1_1RefIdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1RefIdCollection.html">CSMWorld::RefIdCollection</a></div><div class="ttdef"><b>Definition:</b> refidcollection.hpp:40</div></div>
-<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_af18701ba793b09822f2935731461e9d4"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#af18701ba793b09822f2935731461e9d4">CSMTools::SoundGenCheckStage::mReferenceables</a></div><div class="ttdeci">const CSMWorld::RefIdCollection &amp; mReferenceables</div><div class="ttdef"><b>Definition:</b> soundgencheck.hpp:15</div></div>
 <div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html">CSMTools::SoundGenCheckStage</a></div><div class="ttdoc">VerifyStage: make sure that sound gen records are internally consistent. </div><div class="ttdef"><b>Definition:</b> soundgencheck.hpp:11</div></div>
-<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_a9095fe03dcff191ec5de794c5b6f0346"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#a9095fe03dcff191ec5de794c5b6f0346">CSMTools::SoundGenCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this stage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> soundgencheck.cpp:21</div></div>
+<div class="ttc" id="classCSMTools_1_1SoundGenCheckStage_html_a9095fe03dcff191ec5de794c5b6f0346"><div class="ttname"><a href="classCSMTools_1_1SoundGenCheckStage.html#a9095fe03dcff191ec5de794c5b6f0346">CSMTools::SoundGenCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this stage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> soundgencheck.cpp:25</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

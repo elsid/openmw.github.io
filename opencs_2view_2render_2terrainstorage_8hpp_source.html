@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/view/render/terrainstorage.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/view/render/terrainstorage.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -114,7 +114,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classCSVRender_1_1TerrainStorage.html#a419bb1bc5a27408911754059856f4a48">   19</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Data.html">CSMWorld::Data</a>&amp; <a class="code" href="classCSVRender_1_1TerrainStorage.html#a419bb1bc5a27408911754059856f4a48">mData</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="structESM_1_1Land.html">ESM::Land</a>* <a class="code" href="classCSVRender_1_1TerrainStorage.html#ab35fd7da5d35ffcdc29e7e9d4363f5f3">getLand</a> (<span class="keywordtype">int</span> cellX, <span class="keywordtype">int</span> cellY);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">virtual</span> osg::ref_ptr&lt;const ESMTerrain::LandObject&gt; <a class="code" href="classCSVRender_1_1TerrainStorage.html#a943edb64a02415308aa0c84181029d0a">getLand</a> (<span class="keywordtype">int</span> cellX, <span class="keywordtype">int</span> cellY);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="structESM_1_1LandTexture.html">ESM::LandTexture</a>* <a class="code" href="classCSVRender_1_1TerrainStorage.html#a471b0cb8afffb5590600c67ce671318d">getLandTexture</a>(<span class="keywordtype">int</span> index, <span class="keywordtype">short</span> plugin);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSVRender_1_1TerrainStorage.html#a38a21d30ca7a58ca6ee99536a6c4fe56">getBounds</a>(<span class="keywordtype">float</span>&amp; minX, <span class="keywordtype">float</span>&amp; maxX, <span class="keywordtype">float</span>&amp; minY, <span class="keywordtype">float</span>&amp; maxY);</div>
@@ -126,18 +126,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classCSVRender_1_1TerrainStorage_html_a419bb1bc5a27408911754059856f4a48"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#a419bb1bc5a27408911754059856f4a48">CSVRender::TerrainStorage::mData</a></div><div class="ttdeci">const CSMWorld::Data &amp; mData</div><div class="ttdef"><b>Definition:</b> terrainstorage.hpp:19</div></div>
 <div class="ttc" id="classCSVRender_1_1TerrainStorage_html"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html">CSVRender::TerrainStorage</a></div><div class="ttdoc">A bridge between the terrain component and OpenCS&#39;s terrain data storage. </div><div class="ttdef"><b>Definition:</b> terrainstorage.hpp:14</div></div>
 <div class="ttc" id="structESM_1_1LandTexture_html"><div class="ttname"><a href="structESM_1_1LandTexture.html">ESM::LandTexture</a></div><div class="ttdef"><b>Definition:</b> loadltex.hpp:28</div></div>
-<div class="ttc" id="structESM_1_1Land_html"><div class="ttname"><a href="structESM_1_1Land.html">ESM::Land</a></div><div class="ttdef"><b>Definition:</b> loadland.hpp:20</div></div>
-<div class="ttc" id="classCSVRender_1_1TerrainStorage_html_a38a21d30ca7a58ca6ee99536a6c4fe56"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#a38a21d30ca7a58ca6ee99536a6c4fe56">CSVRender::TerrainStorage::getBounds</a></div><div class="ttdeci">virtual void getBounds(float &amp;minX, float &amp;maxX, float &amp;minY, float &amp;maxY)</div><div class="ttdoc">Get bounds of the whole terrain in cell units. </div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:43</div></div>
-<div class="ttc" id="classCSVRender_1_1TerrainStorage_html_ab35fd7da5d35ffcdc29e7e9d4363f5f3"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#ab35fd7da5d35ffcdc29e7e9d4363f5f3">CSVRender::TerrainStorage::getLand</a></div><div class="ttdeci">virtual const ESM::Land * getLand(int cellX, int cellY)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:12</div></div>
-<div class="ttc" id="classCSVRender_1_1TerrainStorage_html_a471b0cb8afffb5590600c67ce671318d"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#a471b0cb8afffb5590600c67ce671318d">CSVRender::TerrainStorage::getLandTexture</a></div><div class="ttdeci">virtual const ESM::LandTexture * getLandTexture(int index, short plugin)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:29</div></div>
-<div class="ttc" id="classESMTerrain_1_1Storage_html"><div class="ttname"><a href="classESMTerrain_1_1Storage.html">ESMTerrain::Storage</a></div><div class="ttdoc">Feeds data from ESM terrain records (ESM::Land, ESM::LandTexture) into the terrain component...</div><div class="ttdef"><b>Definition:</b> storage.hpp:21</div></div>
-<div class="ttc" id="classCSVRender_1_1TerrainStorage_html_a5009e6a228b54326d621b56956ed9a7a"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#a5009e6a228b54326d621b56956ed9a7a">CSVRender::TerrainStorage::TerrainStorage</a></div><div class="ttdeci">TerrainStorage(const CSMWorld::Data &amp;data)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:6</div></div>
-<div class="ttc" id="classCSMWorld_1_1Data_html"><div class="ttname"><a href="classCSMWorld_1_1Data.html">CSMWorld::Data</a></div><div class="ttdef"><b>Definition:</b> data.hpp:77</div></div>
+<div class="ttc" id="classCSVRender_1_1TerrainStorage_html_a38a21d30ca7a58ca6ee99536a6c4fe56"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#a38a21d30ca7a58ca6ee99536a6c4fe56">CSVRender::TerrainStorage::getBounds</a></div><div class="ttdeci">virtual void getBounds(float &amp;minX, float &amp;maxX, float &amp;minY, float &amp;maxY)</div><div class="ttdoc">Get bounds of the whole terrain in cell units. </div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:36</div></div>
+<div class="ttc" id="classCSVRender_1_1TerrainStorage_html_a943edb64a02415308aa0c84181029d0a"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#a943edb64a02415308aa0c84181029d0a">CSVRender::TerrainStorage::getLand</a></div><div class="ttdeci">virtual osg::ref_ptr&lt; const ESMTerrain::LandObject &gt; getLand(int cellX, int cellY)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:15</div></div>
+<div class="ttc" id="classCSVRender_1_1TerrainStorage_html_a471b0cb8afffb5590600c67ce671318d"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#a471b0cb8afffb5590600c67ce671318d">CSVRender::TerrainStorage::getLandTexture</a></div><div class="ttdeci">virtual const ESM::LandTexture * getLandTexture(int index, short plugin)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:27</div></div>
+<div class="ttc" id="classESMTerrain_1_1Storage_html"><div class="ttname"><a href="classESMTerrain_1_1Storage.html">ESMTerrain::Storage</a></div><div class="ttdoc">Feeds data from ESM terrain records (ESM::Land, ESM::LandTexture) into the terrain component...</div><div class="ttdef"><b>Definition:</b> storage.hpp:44</div></div>
+<div class="ttc" id="classCSVRender_1_1TerrainStorage_html_a5009e6a228b54326d621b56956ed9a7a"><div class="ttname"><a href="classCSVRender_1_1TerrainStorage.html#a5009e6a228b54326d621b56956ed9a7a">CSVRender::TerrainStorage::TerrainStorage</a></div><div class="ttdeci">TerrainStorage(const CSMWorld::Data &amp;data)</div><div class="ttdef"><b>Definition:</b> terrainstorage.cpp:9</div></div>
+<div class="ttc" id="classCSMWorld_1_1Data_html"><div class="ttname"><a href="classCSMWorld_1_1Data.html">CSMWorld::Data</a></div><div class="ttdef"><b>Definition:</b> data.hpp:80</div></div>
 <div class="ttc" id="esmterrain_2storage_8hpp_html"><div class="ttname"><a href="esmterrain_2storage_8hpp.html">storage.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:49 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:20 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

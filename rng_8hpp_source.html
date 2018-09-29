@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/misc/rng.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/misc/rng.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -101,41 +101,45 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENMW_COMPONENTS_MISC_RNG_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>Misc</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">  Provides central implementation of the RNG logic</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMisc_1_1Rng.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMisc_1_1Rng.html">Rng</a></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classMisc_1_1Rng.html#a507ea1ffa05d16ce6709392cb9d9fd65">init</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code" href="classMisc_1_1Rng.html#acfb4783fdcff26c8210356209520dd17">rollProbability</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code" href="classMisc_1_1Rng.html#af6b612debb560b1f231a7f9df8b6ecce">rollClosedProbability</a>();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208">rollDice</a>(<span class="keywordtype">int</span> max);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1">   29</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1">roll0to99</a>() { <span class="keywordflow">return</span> <a class="code" href="classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208">rollDice</a>(100); }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;random&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>Misc</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">  Provides central implementation of the RNG logic</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMisc_1_1Rng.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMisc_1_1Rng.html">Rng</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMisc_1_1Rng.html#ab012788d2250c3e8a08a84157fe9cf62">   18</a></span>&#160;    <span class="keyword">static</span> std::mt19937 <a class="code" href="classMisc_1_1Rng.html#ab012788d2250c3e8a08a84157fe9cf62">generator</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classMisc_1_1Rng.html#a507ea1ffa05d16ce6709392cb9d9fd65">init</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code" href="classMisc_1_1Rng.html#acfb4783fdcff26c8210356209520dd17">rollProbability</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code" href="classMisc_1_1Rng.html#af6b612debb560b1f231a7f9df8b6ecce">rollClosedProbability</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208">rollDice</a>(<span class="keywordtype">int</span> max);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classMisc_1_1Rng_html_a507ea1ffa05d16ce6709392cb9d9fd65"><div class="ttname"><a href="classMisc_1_1Rng.html#a507ea1ffa05d16ce6709392cb9d9fd65">Misc::Rng::init</a></div><div class="ttdeci">static void init()</div><div class="ttdoc">seed the RNG </div><div class="ttdef"><b>Definition:</b> rng.cpp:8</div></div>
-<div class="ttc" id="classMisc_1_1Rng_html_af6b612debb560b1f231a7f9df8b6ecce"><div class="ttname"><a href="classMisc_1_1Rng.html#af6b612debb560b1f231a7f9df8b6ecce">Misc::Rng::rollClosedProbability</a></div><div class="ttdeci">static float rollClosedProbability()</div><div class="ttdoc">return value in range [0.0f, 1.0f] &lt;- note closed upper range. </div><div class="ttdef"><b>Definition:</b> rng.cpp:18</div></div>
-<div class="ttc" id="classMisc_1_1Rng_html_aea7920431866f89996a152900e5d4208"><div class="ttname"><a href="classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208">Misc::Rng::rollDice</a></div><div class="ttdeci">static int rollDice(int max)</div><div class="ttdoc">return value in range [0, max) &lt;- note open upper range. </div><div class="ttdef"><b>Definition:</b> rng.cpp:23</div></div>
-<div class="ttc" id="classMisc_1_1Rng_html_aec419b288e293d8e9a64eccbc96713f1"><div class="ttname"><a href="classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1">Misc::Rng::roll0to99</a></div><div class="ttdeci">static int roll0to99()</div><div class="ttdoc">return value in range [0, 99] </div><div class="ttdef"><b>Definition:</b> rng.hpp:29</div></div>
-<div class="ttc" id="classMisc_1_1Rng_html_acfb4783fdcff26c8210356209520dd17"><div class="ttname"><a href="classMisc_1_1Rng.html#acfb4783fdcff26c8210356209520dd17">Misc::Rng::rollProbability</a></div><div class="ttdeci">static float rollProbability()</div><div class="ttdoc">return value in range [0.0f, 1.0f) &lt;- note open upper range. </div><div class="ttdef"><b>Definition:</b> rng.cpp:13</div></div>
-<div class="ttc" id="classMisc_1_1Rng_html"><div class="ttname"><a href="classMisc_1_1Rng.html">Misc::Rng</a></div><div class="ttdef"><b>Definition:</b> rng.hpp:12</div></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1">   33</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1">roll0to99</a>() { <span class="keywordflow">return</span> <a class="code" href="classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208">rollDice</a>(100); }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classMisc_1_1Rng_html_a507ea1ffa05d16ce6709392cb9d9fd65"><div class="ttname"><a href="classMisc_1_1Rng.html#a507ea1ffa05d16ce6709392cb9d9fd65">Misc::Rng::init</a></div><div class="ttdeci">static void init()</div><div class="ttdoc">seed the RNG </div><div class="ttdef"><b>Definition:</b> rng.cpp:11</div></div>
+<div class="ttc" id="classMisc_1_1Rng_html_af6b612debb560b1f231a7f9df8b6ecce"><div class="ttname"><a href="classMisc_1_1Rng.html#af6b612debb560b1f231a7f9df8b6ecce">Misc::Rng::rollClosedProbability</a></div><div class="ttdeci">static float rollClosedProbability()</div><div class="ttdoc">return value in range [0.0f, 1.0f] &lt;- note closed upper range. </div><div class="ttdef"><b>Definition:</b> rng.cpp:21</div></div>
+<div class="ttc" id="classMisc_1_1Rng_html_aea7920431866f89996a152900e5d4208"><div class="ttname"><a href="classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208">Misc::Rng::rollDice</a></div><div class="ttdeci">static int rollDice(int max)</div><div class="ttdoc">return value in range [0, max) &lt;- note open upper range. </div><div class="ttdef"><b>Definition:</b> rng.cpp:26</div></div>
+<div class="ttc" id="classMisc_1_1Rng_html_aec419b288e293d8e9a64eccbc96713f1"><div class="ttname"><a href="classMisc_1_1Rng.html#aec419b288e293d8e9a64eccbc96713f1">Misc::Rng::roll0to99</a></div><div class="ttdeci">static int roll0to99()</div><div class="ttdoc">return value in range [0, 99] </div><div class="ttdef"><b>Definition:</b> rng.hpp:33</div></div>
+<div class="ttc" id="classMisc_1_1Rng_html_acfb4783fdcff26c8210356209520dd17"><div class="ttname"><a href="classMisc_1_1Rng.html#acfb4783fdcff26c8210356209520dd17">Misc::Rng::rollProbability</a></div><div class="ttdeci">static float rollProbability()</div><div class="ttdoc">return value in range [0.0f, 1.0f) &lt;- note open upper range. </div><div class="ttdef"><b>Definition:</b> rng.cpp:16</div></div>
+<div class="ttc" id="classMisc_1_1Rng_html"><div class="ttname"><a href="classMisc_1_1Rng.html">Misc::Rng</a></div><div class="ttdef"><b>Definition:</b> rng.hpp:13</div></div>
+<div class="ttc" id="classMisc_1_1Rng_html_ab012788d2250c3e8a08a84157fe9cf62"><div class="ttname"><a href="classMisc_1_1Rng.html#ab012788d2250c3e8a08a84157fe9cf62">Misc::Rng::generator</a></div><div class="ttdeci">static std::mt19937 generator</div><div class="ttdoc">create a RNG </div><div class="ttdef"><b>Definition:</b> rng.hpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

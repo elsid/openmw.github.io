@@ -1,44 +1,43 @@
 <map id="MWGui::ContainerItemModel::copyItem" name="MWGui::ContainerItemModel::copyItem">
-<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#a7e0b302dd59b86df5730fe6d90e575b0" title="May return a 0&#45;pointer, if reference is not in a container. " alt="" coords="267,674,461,715"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#a7e0b302dd59b86df5730fe6d90e575b0" title="May return a 0&#45;pointer, if reference is not in a container. " alt="" coords="267,597,461,638"/>
 <area shape="rect" id="node3" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="553,5,719,32"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="259,842,469,883"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1ContainerStore.html#aef17774531fe45f818b105edafecb7ae" title="MWWorld::ContainerStore::add" alt="" coords="257,791,471,817"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1307,259,1501,285"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1073,142,1239,183"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1World.html#ac06bcccda0f3e8626dea1d273676f72a" title="MWWorld::World::getPlayerPtr" alt="" coords="533,791,739,817"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="815,613,990,640"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1CellRef.html#a081ffa75eac6cf345f83b4b22b589267" title="MWWorld::CellRef::getOwner" alt="" coords="537,841,735,868"/>
-<area shape="rect" id="node12" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="813,99,992,125"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1CellRef.html#ad93ef305a11039fe3de2accee764d727" title="MWWorld::CellRef::setOwner" alt="" coords="538,892,734,919"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="809,765,996,792"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="811,816,994,843"/>
-<area shape="rect" id="node17" href="$classMWWorld_1_1RefData.html#a98e329b61a94ec5b96025638ba549bae" title="Set base node (can be a null pointer). " alt="" coords="521,943,751,969"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1CellRef.html#aa0f4d94c7ead6f42cdc125d747236a36" title="MWWorld::CellRef::setPosition" alt="" coords="533,993,739,1020"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1CellRef.html#a113a1d6f67df0559c4c5f023a3770230" title="MWWorld::CellRef::resetGlobal\lVariable" alt="" coords="531,1045,741,1086"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1CellRef.html#a19d6b142ec4dc80eec631433cd5781b2" title="MWWorld::CellRef::setFaction" alt="" coords="535,1111,737,1137"/>
-<area shape="rect" id="node21" href="$classMWWorld_1_1CellRef.html#a198046f38ee4bde16d091fbf0496cb22" title="MWWorld::CellRef::setFactionRank" alt="" coords="520,1161,752,1188"/>
-<area shape="rect" id="node22" href="$classMWWorld_1_1CellRef.html#a7ad79c01ec9dae7db8b7b88c4ff9464b" title="MWWorld::CellRef::unsetRefNum" alt="" coords="525,1212,747,1239"/>
-<area shape="rect" id="node24" href="$classMWWorld_1_1Class.html#a752c1c8b8184d383b275cb685ce8d8bb" title="MWWorld::Class::getScript" alt="" coords="543,1263,729,1289"/>
-<area shape="rect" id="node25" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="558,1313,714,1340"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1World.html#af1839330c6cf58d1f69dc3a6ad14f546" title="MWWorld::World::getLocal\lScripts" alt="" coords="545,1365,727,1406"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1LocalScripts.html#a028c7c13eb31ceb45e165fd18ceec3b2" title="Add script to collection of active local scripts. " alt="" coords="539,639,733,665"/>
-<area shape="rect" id="node36" href="$classMWWorld_1_1RefData.html#a15273a5feefb6fe708a0e1eb9607d18e" title="MWWorld::RefData::getLocals" alt="" coords="533,56,739,83"/>
-<area shape="rect" id="node37" href="$classMWScript_1_1Locals.html#a280019b496848a01c61d9120eb009cd6" title="MWScript::Locals::setVar\lByInt" alt="" coords="547,454,725,495"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1Player.html#af44444776d68e15a21c03bb321aaaf88" title="MWWorld::Player::getPlayer" alt="" coords="806,867,999,893"/>
-<area shape="rect" id="node13" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1054,40,1258,67"/>
-<area shape="rect" id="node23" href="$structESM_1_1RefNum.html#a1cf1145eb3267ade9c3623436107dcfd" title="ESM::RefNum::unset" alt="" coords="827,1212,979,1239"/>
-<area shape="rect" id="node28" href="$classMWWorld_1_1RefData.html#a4b3388fa5bdd578cbcc9916c0351c21b" title="MWWorld::RefData::setLocals" alt="" coords="801,664,1005,691"/>
-<area shape="rect" id="node34" href="$bsatool_8cpp.html#a6e7f1179c5854ac3883506e79162011b" title="list" alt="" coords="883,715,923,741"/>
-<area shape="rect" id="node29" href="$classMWScript_1_1Locals.html#afaccf4a124742a5956ab860f4cc81bb2" title="MWScript::Locals::configure" alt="" coords="1058,461,1254,488"/>
-<area shape="rect" id="node33" href="$classMWScript_1_1Locals.html#ac29aa7734891b5fa814a71da42572ef2" title="MWScript::Locals::isEmpty" alt="" coords="1062,664,1250,691"/>
-<area shape="rect" id="node30" href="$classMWBase_1_1Environment.html#a42b9fbc80ab94bbc51cbdd26e58b5150" title="MWBase::Environment\l::getScriptManager" alt="" coords="1321,395,1487,437"/>
-<area shape="rect" id="node31" href="$classMWBase_1_1ScriptManager.html#a2cc1d7ad2030821ad8cff82207db85c3" title="Return locals for script name. " alt="" coords="1315,513,1493,554"/>
-<area shape="rect" id="node32" href="$classCompiler_1_1Locals.html#aa5ef1fa478a271d24f9143c0cc170166" title="Compiler::Locals::get" alt="" coords="1326,461,1482,488"/>
-<area shape="rect" id="node35" href="$classBsa_1_1BSAFile.html#ad7972a16602af590be0ed8401b9413c2" title="Bsa::BSAFile::getList" alt="" coords="1080,715,1232,741"/>
-<area shape="rect" id="node38" href="$classMWScript_1_1Locals.html#a13b8e8222477f5ba02e09f4e514e2571" title="MWScript::Locals::ensure" alt="" coords="812,360,993,387"/>
-<area shape="rect" id="node40" href="$classCompiler_1_1Locals.html#aebe469cce39e686bd3c5709ec8eea4ae" title="return index for local variable name (&#45;1: does not exist). " alt="" coords="1061,563,1251,589"/>
-<area shape="rect" id="node42" href="$classCompiler_1_1Locals.html#a1b857fe1df392c43cd7e3b75ba5028e8" title="&#39;s&#39;: short, &#39;l&#39;: long, &#39;f&#39;: float, &#39; &#39;: does not exist. " alt="" coords="811,563,995,589"/>
-<area shape="rect" id="node39" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1065,360,1247,387"/>
-<area shape="rect" id="node41" href="$classCompiler_1_1Locals.html#aeb6209774c1fd3249565aacead47af2c" title="Compiler::Locals::search\lIndex" alt="" coords="1315,591,1493,633"/>
-<area shape="rect" id="node43" href="$classCompiler_1_1Locals.html#a07bab8ce4672e61815b0dfc1c4bcec3b" title="Compiler::Locals::search" alt="" coords="1067,613,1245,640"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Class.html#af1209aa1b5a2bf560a182fcc8a9e8547" title="MWWorld::Class::getContainer\lStore" alt="" coords="259,765,469,806"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1ContainerStore.html#aef17774531fe45f818b105edafecb7ae" title="MWWorld::ContainerStore::add" alt="" coords="257,713,471,740"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1307,376,1501,403"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1073,259,1239,301"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1World.html#ac9b9843e0fe6692cf34f54dce5aa9aa5" title="MWWorld::World::getPlayerPtr" alt="" coords="533,815,739,841"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="815,731,990,757"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1CellRef.html#a081ffa75eac6cf345f83b4b22b589267" title="MWWorld::CellRef::getOwner" alt="" coords="537,865,735,892"/>
+<area shape="rect" id="node11" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="813,216,992,243"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1CellRef.html#ad93ef305a11039fe3de2accee764d727" title="MWWorld::CellRef::setOwner" alt="" coords="538,916,734,943"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="809,883,996,909"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="811,933,994,960"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1RefData.html#a98e329b61a94ec5b96025638ba549bae" title="Set base node (can be a null pointer). " alt="" coords="521,967,751,993"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1CellRef.html#aa0f4d94c7ead6f42cdc125d747236a36" title="MWWorld::CellRef::setPosition" alt="" coords="533,1017,739,1044"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1CellRef.html#a113a1d6f67df0559c4c5f023a3770230" title="MWWorld::CellRef::resetGlobal\lVariable" alt="" coords="531,1069,741,1110"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1CellRef.html#a19d6b142ec4dc80eec631433cd5781b2" title="MWWorld::CellRef::setFaction" alt="" coords="535,1135,737,1161"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1CellRef.html#a198046f38ee4bde16d091fbf0496cb22" title="MWWorld::CellRef::setFactionRank" alt="" coords="520,1185,752,1212"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1CellRef.html#a7ad79c01ec9dae7db8b7b88c4ff9464b" title="MWWorld::CellRef::unsetRefNum" alt="" coords="525,1236,747,1263"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Class.html#a752c1c8b8184d383b275cb685ce8d8bb" title="MWWorld::Class::getScript" alt="" coords="543,1287,729,1313"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1Ptr.html#a7a006fb41119a0e944c7fe47dab928a1" title="MWWorld::Ptr::getCell" alt="" coords="558,56,714,83"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1World.html#addd65ab064faa474e6e6585ae999d2b0" title="MWWorld::World::getLocal\lScripts" alt="" coords="545,107,727,149"/>
+<area shape="rect" id="node26" href="$classMWWorld_1_1LocalScripts.html#a028c7c13eb31ceb45e165fd18ceec3b2" title="Add script to collection of active local scripts. " alt="" coords="539,663,733,689"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1RefData.html#a15273a5feefb6fe708a0e1eb9607d18e" title="MWWorld::RefData::getLocals" alt="" coords="533,173,739,200"/>
+<area shape="rect" id="node36" href="$classMWScript_1_1Locals.html#a280019b496848a01c61d9120eb009cd6" title="MWScript::Locals::setVar\lByInt" alt="" coords="547,546,725,587"/>
+<area shape="rect" id="node12" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1054,157,1258,184"/>
+<area shape="rect" id="node22" href="$structESM_1_1RefNum.html#a1cf1145eb3267ade9c3623436107dcfd" title="ESM::RefNum::unset" alt="" coords="827,1236,979,1263"/>
+<area shape="rect" id="node27" href="$classMWWorld_1_1RefData.html#a4b3388fa5bdd578cbcc9916c0351c21b" title="MWWorld::RefData::setLocals" alt="" coords="801,781,1005,808"/>
+<area shape="rect" id="node33" href="$bsatool_8cpp.html#a6e7f1179c5854ac3883506e79162011b" title="list" alt="" coords="883,832,923,859"/>
+<area shape="rect" id="node28" href="$classMWScript_1_1Locals.html#afaccf4a124742a5956ab860f4cc81bb2" title="MWScript::Locals::configure" alt="" coords="1058,680,1254,707"/>
+<area shape="rect" id="node32" href="$classMWScript_1_1Locals.html#ac29aa7734891b5fa814a71da42572ef2" title="MWScript::Locals::isEmpty" alt="" coords="1062,781,1250,808"/>
+<area shape="rect" id="node29" href="$classMWBase_1_1Environment.html#a42b9fbc80ab94bbc51cbdd26e58b5150" title="MWBase::Environment\l::getScriptManager" alt="" coords="1321,731,1487,773"/>
+<area shape="rect" id="node30" href="$classMWBase_1_1ScriptManager.html#a2cc1d7ad2030821ad8cff82207db85c3" title="Return locals for script name. " alt="" coords="1315,614,1493,655"/>
+<area shape="rect" id="node31" href="$classCompiler_1_1Locals.html#aa5ef1fa478a271d24f9143c0cc170166" title="Compiler::Locals::get" alt="" coords="1326,680,1482,707"/>
+<area shape="rect" id="node34" href="$classBsa_1_1BSAFile.html#ad7972a16602af590be0ed8401b9413c2" title="Bsa::BSAFile::getList" alt="" coords="1080,832,1232,859"/>
+<area shape="rect" id="node37" href="$classMWScript_1_1Locals.html#a13b8e8222477f5ba02e09f4e514e2571" title="MWScript::Locals::ensure" alt="" coords="812,477,993,504"/>
+<area shape="rect" id="node39" href="$classCompiler_1_1Locals.html#aebe469cce39e686bd3c5709ec8eea4ae" title="return index for local variable name (&#45;1: does not exist). " alt="" coords="1061,528,1251,555"/>
+<area shape="rect" id="node41" href="$classCompiler_1_1Locals.html#a1b857fe1df392c43cd7e3b75ba5028e8" title="&#39;s&#39;: short, &#39;l&#39;: long, &#39;f&#39;: float, &#39; &#39;: does not exist. " alt="" coords="811,579,995,605"/>
+<area shape="rect" id="node38" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1065,477,1247,504"/>
+<area shape="rect" id="node40" href="$classCompiler_1_1Locals.html#aeb6209774c1fd3249565aacead47af2c" title="Compiler::Locals::search\lIndex" alt="" coords="1315,534,1493,575"/>
+<area shape="rect" id="node42" href="$classCompiler_1_1Locals.html#a07bab8ce4672e61815b0dfc1c4bcec3b" title="Compiler::Locals::search" alt="" coords="1067,579,1245,605"/>
 </map>

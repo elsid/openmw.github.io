@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -143,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a020dc115bd07d124526759e677de1c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8761be45abeb6f9d73c362ea03f01d6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structESM_1_1Cell.html">ESM::Cell</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Store_3_01ESM_1_1Cell_01_4.html#aa8761be45abeb6f9d73c362ea03f01d6">find</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y) const </td></tr>
 <tr class="separator:aa8761be45abeb6f9d73c362ea03f01d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33cfe7d26dbb6d0d32cec91c76ac081"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Store_3_01ESM_1_1Cell_01_4.html#ac33cfe7d26dbb6d0d32cec91c76ac081">clearDynamic</a> ()</td></tr>
+<tr class="separator:ac33cfe7d26dbb6d0d32cec91c76ac081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fe4b52a9f5926935ad56c920d15464f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Store_3_01ESM_1_1Cell_01_4.html#a3fe4b52a9f5926935ad56c920d15464f">setUp</a> ()</td></tr>
 <tr class="separator:a3fe4b52a9f5926935ad56c920d15464f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16d1991d9cb36a5e2c827e508d386407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMWWorld_1_1RecordId.html">RecordId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1Store_3_01ESM_1_1Cell_01_4.html#a16d1991d9cb36a5e2c827e508d386407">load</a> (<a class="el" href="classESM_1_1ESMReader.html">ESM::ESMReader</a> &amp;esm)</td></tr>
@@ -179,8 +181,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1b9e0662301bde17c9eb2cff1602abe6 inherit pub_methods_classMWWorld_1_1StoreBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65f35b8a6336fa581c638bdb4f978596 inherit pub_methods_classMWWorld_1_1StoreBase"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1StoreBase.html#a65f35b8a6336fa581c638bdb4f978596">eraseStatic</a> (const std::string &amp;id)</td></tr>
 <tr class="separator:a65f35b8a6336fa581c638bdb4f978596 inherit pub_methods_classMWWorld_1_1StoreBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a88c1df5713ca4a6e2a137c38bcda30 inherit pub_methods_classMWWorld_1_1StoreBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1StoreBase.html#a5a88c1df5713ca4a6e2a137c38bcda30">clearDynamic</a> ()</td></tr>
-<tr class="separator:a5a88c1df5713ca4a6e2a137c38bcda30 inherit pub_methods_classMWWorld_1_1StoreBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0030f9c6a643737e4d871d2a18761df inherit pub_methods_classMWWorld_1_1StoreBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1StoreBase.html#ad0030f9c6a643737e4d871d2a18761df">write</a> (<a class="el" href="classESM_1_1ESMWriter.html">ESM::ESMWriter</a> &amp;writer, <a class="el" href="classLoading_1_1Listener.html">Loading::Listener</a> &amp;progress) const </td></tr>
 <tr class="separator:ad0030f9c6a643737e4d871d2a18761df inherit pub_methods_classMWWorld_1_1StoreBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af573152a653d3090741c4716bf44091d inherit pub_methods_classMWWorld_1_1StoreBase"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMWWorld_1_1RecordId.html">RecordId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1StoreBase.html#af573152a653d3090741c4716bf44091d">read</a> (<a class="el" href="classESM_1_1ESMReader.html">ESM::ESMReader</a> &amp;reader)</td></tr>
@@ -273,6 +273,39 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac33cfe7d26dbb6d0d32cec91c76ac081"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMWWorld_1_1Store.html">MWWorld::Store</a>&lt; <a class="el" href="structESM_1_1Cell.html">ESM::Cell</a> &gt;::clearDynamic </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMWWorld_1_1StoreBase.html#a5a88c1df5713ca4a6e2a137c38bcda30">MWWorld::StoreBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1Store_3_01ESM_1_1Cell_01_4_ac33cfe7d26dbb6d0d32cec91c76ac081_cgraph.svg" width="392" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a64ffef15cbcdca9784f4b0aab9bd6282"></a>
 <div class="memitem">
 <div class="memproto">
@@ -953,13 +986,13 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="store_8hpp_source.html">store.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="store_8cpp.html">store.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="store_8hpp_source.html">store.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="store_8cpp.html">store.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:07 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:41 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -136,9 +136,9 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" target="_top" xlink:title="Throws an exception if GMST is not of type int or float. ">
-<polygon fill="white" stroke="black" points="200,-147.5 200,-166.5 352,-166.5 352,-147.5 200,-147.5"/>
-<text text-anchor="middle" x="276" y="-154.5" font-family="FreeSans" font-size="10.00">ESM::GameSetting::getFloat</text>
+<g id="a_node13"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
+<polygon fill="white" stroke="black" points="215,-147.5 215,-166.5 337,-166.5 337,-147.5 215,-147.5"/>
+<text text-anchor="middle" x="276" y="-154.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
 </a>
 </g>
 </g>
@@ -147,47 +147,47 @@
 <path fill="none" stroke="midnightblue" d="M91.5206,-261.705C110.724,-239.306 149.696,-197.874 192,-176 196.561,-173.642 201.412,-171.574 206.391,-169.76"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="207.672,-173.024 216.08,-166.578 205.487,-166.373 207.672,-173.024"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" target="_top" xlink:title="MWWorld::Class::getCreature\lStats">
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" target="_top" xlink:title="MWWorld::Class::getCreature\lStats">
 <polygon fill="white" stroke="black" points="199,-98 199,-128 353,-128 353,-98 199,-98"/>
 <text text-anchor="start" x="207" y="-116" font-family="FreeSans" font-size="10.00">MWWorld::Class::getCreature</text>
 <text text-anchor="middle" x="276" y="-105" font-family="FreeSans" font-size="10.00">Stats</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node15 -->
-<g id="edge15" class="edge"><title>Node1&#45;&gt;Node15</title>
+<!-- Node1&#45;&gt;Node14 -->
+<g id="edge14" class="edge"><title>Node1&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M87.1029,-261.96C103.232,-233.45 142.137,-171.414 192,-138 195.055,-135.953 198.283,-134.068 201.624,-132.335"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="203.116,-135.501 210.686,-128.089 200.146,-129.162 203.116,-135.501"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" target="_top" xlink:title="MWMechanics::CreatureStats\l::getAttribute">
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" target="_top" xlink:title="MWMechanics::CreatureStats\l::getAttribute">
 <polygon fill="white" stroke="black" points="197.5,-49 197.5,-79 354.5,-79 354.5,-49 197.5,-49"/>
 <text text-anchor="start" x="205.5" y="-67" font-family="FreeSans" font-size="10.00">MWMechanics::CreatureStats</text>
 <text text-anchor="middle" x="276" y="-56" font-family="FreeSans" font-size="10.00">::getAttribute</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node16 -->
-<g id="edge16" class="edge"><title>Node1&#45;&gt;Node16</title>
+<!-- Node1&#45;&gt;Node15 -->
+<g id="edge15" class="edge"><title>Node1&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M83.8576,-261.738C96.0285,-225.977 131.282,-136.229 192,-89 194.339,-87.1809 196.808,-85.4938 199.375,-83.929"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="201.275,-86.8819 208.428,-79.0667 197.962,-80.7152 201.275,-86.8819"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" target="_top" xlink:title="MWMechanics::AttributeValue\l::getModified">
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" target="_top" xlink:title="MWMechanics::AttributeValue\l::getModified">
 <polygon fill="white" stroke="black" points="197,-0 197,-30 355,-30 355,-0 197,-0"/>
 <text text-anchor="start" x="205" y="-18" font-family="FreeSans" font-size="10.00">MWMechanics::AttributeValue</text>
 <text text-anchor="middle" x="276" y="-7" font-family="FreeSans" font-size="10.00">::getModified</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node17 -->
-<g id="edge17" class="edge"><title>Node1&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M81.7781,-261.943C90.2786,-220.179 119.876,-101.895 192,-40 193.949,-38.3278 196.006,-36.7674 198.149,-35.3113"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="199.969,-38.3017 206.793,-30.197 196.404,-32.2773 199.969,-38.3017"/>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge16" class="edge"><title>Node1&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M81.7223,-261.839C90.0779,-219.794 119.335,-100.766 192,-39 193.375,-37.8312 194.804,-36.7192 196.279,-35.6614"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="198.5,-38.4038 205.174,-30.1748 194.825,-32.4461 198.5,-38.4038"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
@@ -220,19 +220,6 @@
 <g id="edge7" class="edge"><title>Node5&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M322.227,-387.491C342.507,-383.227 367.071,-378.062 390.388,-373.159"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="391.223,-376.56 400.289,-371.078 389.783,-369.71 391.223,-376.56"/>
-</g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" target="_top" xlink:title="Will throw an exception, if value can not be represented as a float value. ">
-<polygon fill="white" stroke="black" points="412,-147.5 412,-166.5 534,-166.5 534,-147.5 412,-147.5"/>
-<text text-anchor="middle" x="473" y="-154.5" font-family="FreeSans" font-size="10.00">ESM::Variant::getFloat</text>
-</a>
-</g>
-</g>
-<!-- Node13&#45;&gt;Node14 -->
-<g id="edge14" class="edge"><title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M352.113,-157C368.307,-157 385.372,-157 401.387,-157"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="401.74,-160.5 411.74,-157 401.74,-153.5 401.74,-160.5"/>
 </g>
 </g>
 </svg>

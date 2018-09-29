@@ -15,6 +15,8 @@ var searchData=
   ['videowidget_2ehpp',['videowidget.hpp',['../videowidget_8hpp.html',1,'']]],
   ['view_2ecpp',['view.cpp',['../view_8cpp.html',1,'']]],
   ['view_2ehpp',['view.hpp',['../view_8hpp.html',1,'']]],
+  ['viewdata_2ecpp',['viewdata.cpp',['../viewdata_8cpp.html',1,'']]],
+  ['viewdata_2ehpp',['viewdata.hpp',['../viewdata_8hpp.html',1,'']]],
   ['viewmanager_2ecpp',['viewmanager.cpp',['../viewmanager_8cpp.html',1,'']]],
   ['viewmanager_2ehpp',['viewmanager.hpp',['../viewmanager_8hpp.html',1,'']]],
   ['visitor_2ecpp',['visitor.cpp',['../visitor_8cpp.html',1,'']]],

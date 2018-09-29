@@ -11,8 +11,8 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-807 1234,-807 1234,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0,-437.5 0,-456.5 98,-456.5 98,-437.5 0,-437.5"/>
-<text text-anchor="middle" x="49" y="-444.5" font-family="FreeSans" font-size="10.00">ESM::Script::load</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-399.5 0,-418.5 98,-418.5 98,-399.5 0,-399.5"/>
+<text text-anchor="middle" x="49" y="-406.5" font-family="FreeSans" font-size="10.00">ESM::Script::load</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -24,422 +24,419 @@
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M51.2253,-456.655C57.5704,-505.195 88.1719,-722.1 134,-769 137.746,-772.834 142.059,-776.067 146.711,-778.791"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="145.504,-782.1 156.015,-783.429 148.626,-775.835 145.504,-782.1"/>
+<path fill="none" stroke="midnightblue" d="M50.9494,-418.732C56.2149,-470.78 83.4394,-715.896 134,-769 137.633,-772.815 141.826,-776.037 146.361,-778.756"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="144.947,-781.964 155.445,-783.39 148.127,-775.728 144.947,-781.964"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classESM_1_1ESMReader.html#aa47320943a7a01bccbec8bab921b0df7" target="_top" xlink:title="ESM::ESMReader::getSubName">
-<polygon fill="white" stroke="black" points="135.5,-630.5 135.5,-649.5 302.5,-649.5 302.5,-630.5 135.5,-630.5"/>
-<text text-anchor="middle" x="219" y="-637.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getSubName</text>
+<polygon fill="white" stroke="black" points="135.5,-592.5 135.5,-611.5 302.5,-611.5 302.5,-592.5 135.5,-592.5"/>
+<text text-anchor="middle" x="219" y="-599.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getSubName</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M58.3311,-456.571C84.9223,-487.119 168.044,-582.61 202.646,-622.361"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="200.413,-625.127 209.619,-630.371 205.693,-620.531 200.413,-625.127"/>
+<path fill="none" stroke="midnightblue" d="M53.4172,-418.777C62.7322,-444.242 90.7976,-513.574 134,-556 147.983,-569.731 166.896,-580.57 183.236,-588.268"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="181.947,-591.526 192.503,-592.436 184.819,-585.142 181.947,-591.526"/>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" target="_top" xlink:title="ESM::ESMReader::getExact">
+<polygon fill="white" stroke="black" points="750,-478.5 750,-497.5 896,-497.5 896,-478.5 750,-478.5"/>
+<text text-anchor="middle" x="823" y="-485.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getExact</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge32" class="edge"><title>Node1&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M57.0486,-418.555C70.0877,-435.391 99.7862,-469.979 134,-485 356.946,-582.883 661.072,-526.784 775.732,-499.864"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="776.674,-503.238 785.588,-497.512 775.049,-496.429 776.674,-503.238"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classESM_1_1ESMReader.html#a641a33a8cba2fc61d6431505391c5975" target="_top" xlink:title="Used for error handling. ">
-<polygon fill="white" stroke="black" points="932.5,-361.5 932.5,-380.5 1049.5,-380.5 1049.5,-361.5 932.5,-361.5"/>
-<text text-anchor="middle" x="991" y="-368.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::fail</text>
+<polygon fill="white" stroke="black" points="932.5,-292.5 932.5,-311.5 1049.5,-311.5 1049.5,-292.5 932.5,-292.5"/>
+<text text-anchor="middle" x="991" y="-299.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::fail</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
-<g id="edge44" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M50.9876,-437.434C55.0526,-402.224 73.2536,-277.843 134,-200 224.01,-84.6564 279.692,-48 426,-48 426,-48 426,-48 633,-48 815.455,-48 946.328,-282.858 980.922,-352.043"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="977.934,-353.899 985.482,-361.333 984.218,-350.814 977.934,-353.899"/>
+<g id="edge45" class="edge"><title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M51.0303,-418.534C55.0797,-451.405 72.8175,-561.257 134,-621 231.742,-716.442 289.388,-717 426,-717 426,-717 426,-717 633,-717 844.471,-717 958.033,-403.479 984.127,-321.449"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="987.485,-322.437 987.113,-311.849 980.801,-320.358 987.485,-322.437"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classESM_1_1FIXED__STRING__BASE.html#ac6bed15d6c4aa261d961420d4af645c7" target="_top" xlink:title="ESM::FIXED_STRING_BASE\l::toString">
-<polygon fill="white" stroke="black" points="1086.5,-356 1086.5,-386 1229.5,-386 1229.5,-356 1086.5,-356"/>
-<text text-anchor="start" x="1094.5" y="-374" font-family="FreeSans" font-size="10.00">ESM::FIXED_STRING_BASE</text>
-<text text-anchor="middle" x="1158" y="-363" font-family="FreeSans" font-size="10.00">::toString</text>
+<polygon fill="white" stroke="black" points="1086.5,-287 1086.5,-317 1229.5,-317 1229.5,-287 1086.5,-287"/>
+<text text-anchor="start" x="1094.5" y="-305" font-family="FreeSans" font-size="10.00">ESM::FIXED_STRING_BASE</text>
+<text text-anchor="middle" x="1158" y="-294" font-family="FreeSans" font-size="10.00">::toString</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge16" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M51.0303,-456.534C55.0797,-489.405 72.8175,-599.257 134,-659 231.742,-754.442 289.388,-755 426,-755 426,-755 426,-755 824,-755 1015.02,-755 1121.09,-480.431 1149.3,-395.639"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1152.65,-396.646 1152.42,-386.053 1145.99,-394.477 1152.65,-396.646"/>
+<path fill="none" stroke="midnightblue" d="M49.8404,-418.644C49.7451,-457.721 54.8101,-605.774 134,-681 231.066,-773.207 292.12,-755 426,-755 426,-755 426,-755 824,-755 1038.29,-755 1129.94,-421.848 1151.7,-326.95"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1155.14,-327.595 1153.91,-317.072 1148.31,-326.068 1155.14,-327.595"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
 <g id="a_node9"><a xlink:href="classESM_1_1ESMReader.html#afe83c43d1818dd2c3815307d97beae45" target="_top" xlink:title="ESM::ESMReader::retSubName">
-<polygon fill="white" stroke="black" points="136.5,-0.5 136.5,-19.5 301.5,-19.5 301.5,-0.5 136.5,-0.5"/>
-<text text-anchor="middle" x="219" y="-7.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::retSubName</text>
+<polygon fill="white" stroke="black" points="136.5,-76.5 136.5,-95.5 301.5,-95.5 301.5,-76.5 136.5,-76.5"/>
+<text text-anchor="middle" x="219" y="-83.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::retSubName</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M50.6296,-437.365C54.4918,-381.152 76.7306,-95.8982 134,-34 137.425,-30.2983 141.377,-27.1534 145.662,-24.483"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="147.642,-27.3959 154.862,-19.6417 144.382,-21.2013 147.642,-27.3959"/>
+<path fill="none" stroke="midnightblue" d="M49.5904,-399.347C48.393,-358.117 49.3559,-195.019 134,-110 137.782,-106.201 142.121,-102.994 146.791,-100.287"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="148.707,-103.244 156.12,-95.6747 145.604,-96.9692 148.707,-103.244"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
 <g id="a_node10"><a xlink:href="classESM_1_1ESMReader.html#a1499e8005481bc7f13f4de0c2f3b9ee4" target="_top" xlink:title="ESM::ESMReader::getHT">
-<polygon fill="white" stroke="black" points="153,-456.5 153,-475.5 285,-475.5 285,-456.5 153,-456.5"/>
-<text text-anchor="middle" x="219" y="-463.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getHT</text>
+<polygon fill="white" stroke="black" points="153,-418.5 153,-437.5 285,-437.5 285,-418.5 153,-418.5"/>
+<text text-anchor="middle" x="219" y="-425.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getHT</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
 <g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M98.1421,-452.445C112.007,-454.013 127.477,-455.762 142.574,-457.47"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="142.612,-460.996 152.942,-458.642 143.398,-454.041 142.612,-460.996"/>
+<path fill="none" stroke="midnightblue" d="M98.1421,-414.445C112.007,-416.013 127.477,-417.762 142.574,-419.47"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="142.612,-422.996 152.942,-420.642 143.398,-416.041 142.612,-422.996"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" target="_top" xlink:title="ESM::ESMReader::getSubHeader">
+<polygon fill="white" stroke="black" points="340.5,-342.5 340.5,-361.5 513.5,-361.5 513.5,-342.5 340.5,-342.5"/>
+<text text-anchor="middle" x="427" y="-349.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getSubHeader</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge28" class="edge"><title>Node1&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M98.234,-401.872C149.336,-394.299 232.374,-381.935 304,-371 320.495,-368.482 338.239,-365.738 354.948,-363.139"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="355.854,-366.54 365.197,-361.543 354.777,-359.623 355.854,-366.54"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
 <g id="a_node13"><a xlink:href="classESM_1_1Script.html#ae203ba3938df708bd4ecde9c2ba9e18a" target="_top" xlink:title="ESM::Script::loadSCVR">
-<polygon fill="white" stroke="black" points="157,-209.5 157,-228.5 281,-228.5 281,-209.5 157,-209.5"/>
-<text text-anchor="middle" x="219" y="-216.5" font-family="FreeSans" font-size="10.00">ESM::Script::loadSCVR</text>
+<polygon fill="white" stroke="black" points="157,-190.5 157,-209.5 281,-209.5 281,-190.5 157,-190.5"/>
+<text text-anchor="middle" x="219" y="-197.5" font-family="FreeSans" font-size="10.00">ESM::Script::loadSCVR</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node13 -->
 <g id="edge17" class="edge"><title>Node1&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M57.0049,-437.493C82.6212,-402.728 171.462,-282.158 205.025,-236.609"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="207.851,-238.674 210.965,-228.547 202.216,-234.522 207.851,-238.674"/>
+<path fill="none" stroke="midnightblue" d="M57.2814,-399.27C71.6857,-380.087 104.942,-336.108 134,-300 157.651,-270.611 186.04,-237.183 203.019,-217.381"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="205.892,-219.407 209.755,-209.542 200.583,-214.845 205.892,-219.407"/>
+</g>
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="classESM_1_1ESMReader.html#aee231c113f51bd7c28f3b99067af626b" target="_top" xlink:title="ESM::ESMReader::getSubSize">
+<polygon fill="white" stroke="black" points="348,-38.5 348,-57.5 506,-57.5 506,-38.5 348,-38.5"/>
+<text text-anchor="middle" x="427" y="-45.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getSubSize</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node14 -->
+<g id="edge29" class="edge"><title>Node1&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M50.4845,-399.487C52.7932,-364.599 65.6429,-242.516 134,-181 191.931,-128.866 242.413,-185.759 304,-138 330.404,-117.524 313.847,-92.7962 340,-72 345.38,-67.7218 351.477,-64.2056 357.88,-61.3159"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="359.436,-64.4636 367.434,-57.5144 356.848,-57.9596 359.436,-64.4636"/>
+</g>
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" target="_top" xlink:title="Get the current position in the file. Make sure that the file has been opened! ">
+<polygon fill="white" stroke="black" points="550.5,-216.5 550.5,-235.5 713.5,-235.5 713.5,-216.5 550.5,-216.5"/>
+<text text-anchor="middle" x="632" y="-223.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getFileOffset</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge31" class="edge"><title>Node1&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M57.6416,-399.281C71.1545,-382.82 100.976,-349.626 134,-333 287.836,-255.548 346.232,-295.964 514,-257 538.495,-251.311 565.657,-244.167 587.639,-238.171"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="588.629,-241.528 597.346,-235.506 586.776,-234.778 588.629,-241.528"/>
+</g>
+<!-- Node17 -->
+<g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:href="classESM_1_1ESMReader.html#a3446177572508dd219cb3a0bf6e95c2b" target="_top" xlink:title="ESM::ESMReader::getName">
+<polygon fill="white" stroke="black" points="352.5,-0.5 352.5,-19.5 501.5,-19.5 501.5,-0.5 352.5,-0.5"/>
+<text text-anchor="middle" x="427" y="-7.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getName</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node17 -->
+<g id="edge30" class="edge"><title>Node1&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M49.7363,-399.264C49.2373,-359.836 52.953,-210.673 134,-138 191.303,-86.6177 243.201,-152.194 304,-105 333.525,-82.0821 310.772,-52.2955 340,-29 342.093,-27.3322 344.301,-25.8036 346.599,-24.403"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="348.585,-27.3163 355.858,-19.6116 345.368,-21.0994 348.585,-27.3163"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classESM_1_1ESMReader.html#ae682dd0473dd84c4e7155c3be70a3a02" target="_top" xlink:title="ESM::ESMReader::getHExact">
-<polygon fill="white" stroke="black" points="142.5,-418.5 142.5,-437.5 295.5,-437.5 295.5,-418.5 142.5,-418.5"/>
-<text text-anchor="middle" x="219" y="-425.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getHExact</text>
+<g id="a_node19"><a xlink:href="classESM_1_1ESMReader.html#ab0b044c1028b117dfb0aae39135af948" target="_top" xlink:title="ESM::ESMReader::getHString">
+<polygon fill="white" stroke="black" points="141.5,-456.5 141.5,-475.5 296.5,-475.5 296.5,-456.5 141.5,-456.5"/>
+<text text-anchor="middle" x="219" y="-463.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getHString</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node19 -->
-<g id="edge28" class="edge"><title>Node1&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M98.1421,-441.555C108.791,-440.351 120.387,-439.04 132.032,-437.723"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="132.714,-441.168 142.257,-436.566 131.927,-434.212 132.714,-441.168"/>
+<g id="edge33" class="edge"><title>Node1&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M68.2491,-418.557C84.9795,-427.002 110.63,-439.161 134,-447 141.76,-449.603 150.042,-451.961 158.269,-454.061"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="157.692,-457.523 168.236,-456.493 159.351,-450.722 157.692,-457.523"/>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classESM_1_1ESMReader.html#ab0b044c1028b117dfb0aae39135af948" target="_top" xlink:title="ESM::ESMReader::getHString">
-<polygon fill="white" stroke="black" points="141.5,-513.5 141.5,-532.5 296.5,-532.5 296.5,-513.5 141.5,-513.5"/>
-<text text-anchor="middle" x="219" y="-520.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getHString</text>
+<!-- Node25 -->
+<g id="node25" class="node"><title>Node25</title>
+<g id="a_node25"><a xlink:href="classESM_1_1ESMReader.html#a1b4ca455240f53cfa6d49f9a4a084354" target="_top" xlink:title="ESM::ESMReader::skipHSub">
+<polygon fill="white" stroke="black" points="144.5,-342.5 144.5,-361.5 293.5,-361.5 293.5,-342.5 144.5,-342.5"/>
+<text text-anchor="middle" x="219" y="-349.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::skipHSub</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node20 -->
-<g id="edge32" class="edge"><title>Node1&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M71.2773,-456.625C100.69,-469.931 153.938,-494.02 187.556,-509.228"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="186.342,-512.52 196.895,-513.453 189.227,-506.142 186.342,-512.52"/>
-</g>
-<!-- Node26 -->
-<g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="classESM_1_1ESMReader.html#a1b4ca455240f53cfa6d49f9a4a084354" target="_top" xlink:title="ESM::ESMReader::skipHSub">
-<polygon fill="white" stroke="black" points="144.5,-380.5 144.5,-399.5 293.5,-399.5 293.5,-380.5 144.5,-380.5"/>
-<text text-anchor="middle" x="219" y="-387.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::skipHSub</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node26 -->
-<g id="edge41" class="edge"><title>Node1&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M68.2491,-437.443C84.9795,-428.998 110.63,-416.839 134,-409 141.76,-406.397 150.042,-404.039 158.269,-401.939"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="159.351,-405.278 168.236,-399.507 157.692,-398.477 159.351,-405.278"/>
+<!-- Node1&#45;&gt;Node25 -->
+<g id="edge42" class="edge"><title>Node1&#45;&gt;Node25</title>
+<path fill="none" stroke="midnightblue" d="M72.5992,-399.439C89.3851,-392.505 112.925,-383.132 134,-376 146.243,-371.857 159.643,-367.813 172.074,-364.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="173.116,-367.603 181.794,-361.525 171.22,-360.865 173.116,-367.603"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classESM_1_1FIXED__STRING__BASE.html#ab142a6277b602eba117776eb8e4c508c" target="_top" xlink:title="ESM::FIXED_STRING_BASE\l::data_size">
-<polygon fill="white" stroke="black" points="355.5,-696 355.5,-726 498.5,-726 498.5,-696 355.5,-696"/>
-<text text-anchor="start" x="363.5" y="-714" font-family="FreeSans" font-size="10.00">ESM::FIXED_STRING_BASE</text>
-<text text-anchor="middle" x="427" y="-703" font-family="FreeSans" font-size="10.00">::data_size</text>
+<polygon fill="white" stroke="black" points="355.5,-658 355.5,-688 498.5,-688 498.5,-658 355.5,-658"/>
+<text text-anchor="start" x="363.5" y="-676" font-family="FreeSans" font-size="10.00">ESM::FIXED_STRING_BASE</text>
+<text text-anchor="middle" x="427" y="-665" font-family="FreeSans" font-size="10.00">::data_size</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M243.245,-649.571C267.268,-659.306 305.953,-674.548 340,-686 347.07,-688.378 354.511,-690.743 361.935,-693.016"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="361.068,-696.41 371.653,-695.945 363.088,-689.708 361.068,-696.41"/>
-</g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classESM_1_1ESMReader.html#a623f3d4d7107adf94aeb7c234d01bc9e" target="_top" xlink:title="ESM::ESMReader::getExact">
-<polygon fill="white" stroke="black" points="750,-494.5 750,-513.5 896,-513.5 896,-494.5 750,-494.5"/>
-<text text-anchor="middle" x="823" y="-501.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getExact</text>
-</a>
-</g>
+<path fill="none" stroke="midnightblue" d="M243.245,-611.571C267.268,-621.306 305.953,-636.548 340,-648 347.07,-650.378 354.511,-652.743 361.935,-655.016"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="361.068,-658.41 371.653,-657.945 363.088,-651.708 361.068,-658.41"/>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M302.587,-635.103C423.138,-627.117 640.896,-609.281 714,-581 749.864,-567.126 784.894,-538.588 804.918,-520.42"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="807.353,-522.935 812.303,-513.567 802.592,-517.804 807.353,-522.935"/>
+<path fill="none" stroke="midnightblue" d="M302.853,-598.945C423.206,-593.718 640.086,-581.102 714,-556 747.962,-544.466 782.156,-520.33 802.709,-504.141"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="805.052,-506.748 810.643,-497.749 800.66,-501.297 805.052,-506.748"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="structESM_1_1FIXED__STRING_3_014_01_4.html#a71af1f5e0756f2fa5b587bda6fc64ec3" target="_top" xlink:title="ESM::FIXED_STRING\&lt;\l 4 \&gt;::rw_data">
-<polygon fill="white" stroke="black" points="367.5,-647 367.5,-677 486.5,-677 486.5,-647 367.5,-647"/>
-<text text-anchor="start" x="375.5" y="-665" font-family="FreeSans" font-size="10.00">ESM::FIXED_STRING&lt;</text>
-<text text-anchor="middle" x="427" y="-654" font-family="FreeSans" font-size="10.00"> 4 &gt;::rw_data</text>
+<polygon fill="white" stroke="black" points="367.5,-609 367.5,-639 486.5,-639 486.5,-609 367.5,-609"/>
+<text text-anchor="start" x="375.5" y="-627" font-family="FreeSans" font-size="10.00">ESM::FIXED_STRING&lt;</text>
+<text text-anchor="middle" x="427" y="-616" font-family="FreeSans" font-size="10.00"> 4 &gt;::rw_data</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node3&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M302.601,-648.821C320.754,-650.76 339.787,-652.793 357.322,-654.665"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="357.14,-658.166 367.455,-655.748 357.883,-651.205 357.14,-658.166"/>
+<path fill="none" stroke="midnightblue" d="M302.601,-610.821C320.754,-612.76 339.787,-614.793 357.322,-616.665"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="357.14,-620.166 367.455,-617.748 357.883,-613.205 357.14,-620.166"/>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M835.938,-494.435C864.037,-471.922 934.608,-415.38 969.631,-387.32"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="972.106,-389.821 977.722,-380.837 967.729,-384.358 972.106,-389.821"/>
+<path fill="none" stroke="midnightblue" d="M877.059,-478.497C883.847,-475.822 890.377,-472.393 896,-468 945.689,-429.177 973.462,-356.282 984.434,-321.469"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="987.875,-322.181 987.412,-311.596 981.173,-320.159 987.875,-322.181"/>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M1049.71,-371C1058.28,-371 1067.25,-371 1076.2,-371"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1076.26,-374.5 1086.26,-371 1076.26,-367.5 1076.26,-374.5"/>
+<path fill="none" stroke="midnightblue" d="M1049.71,-302C1058.28,-302 1067.25,-302 1076.2,-302"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1076.26,-305.5 1086.26,-302 1076.26,-298.5 1076.26,-305.5"/>
 </g>
 <!-- Node10&#45;&gt;Node6 -->
 <g id="edge14" class="edge"><title>Node10&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M285.074,-460.941C405.937,-451.066 673.057,-426.994 896,-391 910.182,-388.71 925.458,-385.698 939.487,-382.709"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="940.419,-386.088 949.449,-380.547 938.934,-379.248 940.419,-386.088"/>
-</g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classESM_1_1ESMReader.html#a365650896a89c3dcb43b2f240e6d5653" target="_top" xlink:title="ESM::ESMReader::getSubHeader">
-<polygon fill="white" stroke="black" points="340.5,-380.5 340.5,-399.5 513.5,-399.5 513.5,-380.5 340.5,-380.5"/>
-<text text-anchor="middle" x="427" y="-387.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getSubHeader</text>
-</a>
-</g>
+<path fill="none" stroke="midnightblue" d="M285.302,-421.008C360.03,-412.035 476.883,-394.746 514,-371 537.066,-356.243 525.903,-334.007 550,-321 612.329,-287.356 814.902,-292.458 922.076,-297.845"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="921.975,-301.345 932.142,-298.366 922.337,-294.354 921.975,-301.345"/>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge10" class="edge"><title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M270.24,-456.487C281.478,-453.849 293.249,-450.68 304,-447 338.172,-435.304 375.531,-416.966 399.785,-404.262"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="401.517,-407.305 408.713,-399.529 398.238,-401.121 401.517,-407.305"/>
+<path fill="none" stroke="midnightblue" d="M265.234,-418.485C278.143,-414.872 291.963,-410.109 304,-404 322.075,-394.826 321.897,-385.118 340,-376 349.232,-371.35 359.49,-367.494 369.614,-364.334"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="370.627,-367.684 379.24,-361.514 368.659,-360.966 370.627,-367.684"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
 <g id="a_node12"><a xlink:href="classESM_1_1ESMReader.html#a04b4761b24d98c455289c437d28baea8" target="_top" xlink:title="ESM::ESMReader::getT">
-<polygon fill="white" stroke="black" points="569.5,-494.5 569.5,-513.5 694.5,-513.5 694.5,-494.5 569.5,-494.5"/>
-<text text-anchor="middle" x="632" y="-501.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getT</text>
+<polygon fill="white" stroke="black" points="569.5,-418.5 569.5,-437.5 694.5,-437.5 694.5,-418.5 569.5,-418.5"/>
+<text text-anchor="middle" x="632" y="-425.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getT</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node12 -->
 <g id="edge15" class="edge"><title>Node10&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M285.038,-473.994C302.844,-476.072 322.155,-478.224 340,-480 414.591,-487.425 500.103,-494.28 559.032,-498.746"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="559.116,-502.262 569.351,-499.524 559.642,-495.282 559.116,-502.262"/>
+<path fill="none" stroke="midnightblue" d="M285.124,-428C359.751,-428 481.688,-428 559.06,-428"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="559.204,-431.5 569.204,-428 559.204,-424.5 559.204,-431.5"/>
 </g>
 <!-- Node11&#45;&gt;Node6 -->
 <g id="edge11" class="edge"><title>Node11&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M513.661,-387.104C625.658,-383.318 819.594,-376.761 922.05,-373.297"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="922.4,-376.788 932.276,-372.952 922.163,-369.792 922.4,-376.788"/>
+<path fill="none" stroke="midnightblue" d="M480.461,-342.434C492.034,-338.968 503.856,-334.29 514,-328 534.327,-315.396 528.151,-297.731 550,-288 686.249,-227.32 870.465,-267.291 950.337,-289.719"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="949.423,-293.098 960.001,-292.492 951.354,-286.37 949.423,-293.098"/>
 </g>
 <!-- Node11&#45;&gt;Node12 -->
 <g id="edge12" class="edge"><title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M444.959,-399.523C480.483,-419.473 562.91,-465.762 605.102,-489.456"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="603.514,-492.579 613.947,-494.423 606.942,-486.475 603.514,-492.579"/>
+<path fill="none" stroke="midnightblue" d="M448.435,-361.566C472.437,-372.6 513.605,-390.901 550,-404 561.536,-408.152 574.175,-412.152 585.966,-415.655"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="585.049,-419.034 595.629,-418.475 587.01,-412.314 585.049,-419.034"/>
 </g>
 <!-- Node12&#45;&gt;Node5 -->
 <g id="edge13" class="edge"><title>Node12&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M694.624,-504C708.978,-504 724.488,-504 739.58,-504"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="739.943,-507.5 749.943,-504 739.943,-500.5 739.943,-507.5"/>
+<path fill="none" stroke="midnightblue" d="M668.814,-437.525C683.018,-441.584 699.413,-446.623 714,-452 730.429,-458.055 733.52,-462.085 750,-468 757.639,-470.742 765.845,-473.338 773.884,-475.696"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="772.981,-479.078 783.557,-478.448 774.897,-472.345 772.981,-479.078"/>
 </g>
 <!-- Node13&#45;&gt;Node5 -->
 <g id="edge21" class="edge"><title>Node13&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M281.383,-218.805C398.026,-219.588 646.123,-227.138 714,-276 785.439,-327.426 811.272,-438.621 819.077,-484.051"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="815.651,-484.788 820.69,-494.108 822.562,-483.68 815.651,-484.788"/>
+<path fill="none" stroke="midnightblue" d="M239.869,-209.674C263.596,-221.172 304.532,-240.835 340,-257 416.789,-291.997 444.612,-284.972 514,-333 532.865,-346.058 530.047,-358.674 550,-370 615.156,-406.985 653.382,-364.969 714,-409 738.854,-427.053 725.489,-449.485 750,-468 753.17,-470.395 756.612,-472.503 760.216,-474.358"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="758.885,-477.597 769.443,-478.471 761.734,-471.203 758.885,-477.597"/>
 </g>
 <!-- Node13&#45;&gt;Node6 -->
 <g id="edge20" class="edge"><title>Node13&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M281.099,-211.034C375.837,-200.768 562.99,-188.858 714,-231 814.947,-259.171 922.299,-325.693 967.688,-355.767"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="965.907,-358.786 976.164,-361.439 969.8,-352.969 965.907,-358.786"/>
+<path fill="none" stroke="midnightblue" d="M281.174,-196.294C374.844,-191.648 559.237,-186.565 714,-207 796.715,-217.922 818.035,-223.293 896,-253 920.569,-262.361 946.99,-276.534 965.545,-287.233"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="963.831,-290.286 974.229,-292.319 967.369,-284.245 963.831,-290.286"/>
 </g>
 <!-- Node13&#45;&gt;Node7 -->
 <g id="edge26" class="edge"><title>Node13&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M224.584,-209.213C237.994,-181.752 280.02,-103.607 340,-67 452.495,1.65697 499.209,-10 631,-10 631,-10 631,-10 824,-10 1007.57,-10 1117.9,-265.319 1148.34,-346.518"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1145.07,-347.77 1151.81,-355.948 1151.64,-345.354 1145.07,-347.77"/>
+<path fill="none" stroke="midnightblue" d="M273.408,-190.383C284.356,-186.6 295.207,-181.332 304,-174 330.566,-151.848 311.021,-123.885 340,-105 448.586,-34.2367 501.391,-86 631,-86 631,-86 631,-86 824,-86 964.594,-86 1092.6,-223.198 1138.78,-278.906"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1136.2,-281.28 1145.24,-286.811 1141.62,-276.852 1136.2,-281.28"/>
 </g>
 <!-- Node13&#45;&gt;Node11 -->
 <g id="edge18" class="edge"><title>Node13&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M229.127,-228.755C248.527,-249.236 295.718,-297.734 340,-333 359.688,-348.679 383.671,-364.318 401.304,-375.238"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="399.533,-378.257 409.889,-380.493 403.187,-372.287 399.533,-378.257"/>
-</g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classESM_1_1ESMReader.html#aee231c113f51bd7c28f3b99067af626b" target="_top" xlink:title="ESM::ESMReader::getSubSize">
-<polygon fill="white" stroke="black" points="348,-114.5 348,-133.5 506,-133.5 506,-114.5 348,-114.5"/>
-<text text-anchor="middle" x="427" y="-121.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getSubSize</text>
-</a>
-</g>
+<path fill="none" stroke="midnightblue" d="M232.554,-209.537C254.33,-226.054 300.558,-260.996 340,-290 361.719,-305.971 386.737,-323.962 404.17,-336.434"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="402.365,-339.446 412.537,-342.413 406.435,-333.751 402.365,-339.446"/>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge19" class="edge"><title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M232.162,-209.243C252.987,-193.026 297.366,-160.575 340,-143 346.269,-140.416 352.946,-138.157 359.702,-136.188"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="360.88,-139.495 369.619,-133.507 359.053,-132.738 360.88,-139.495"/>
+<path fill="none" stroke="midnightblue" d="M280.698,-190.338C289.266,-186.897 297.391,-182.256 304,-176 339.524,-142.376 304.373,-105.514 340,-72 344.163,-68.0835 348.912,-64.7973 353.99,-62.0412"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="355.853,-65.0339 363.433,-57.6308 352.891,-58.6916 355.853,-65.0339"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
 <g id="a_node15"><a xlink:href="classESM_1_1ESMReader.html#aabf8a943cb8d5ff5a2656333ff02b660" target="_top" xlink:title="ESM::ESMReader::skip">
-<polygon fill="white" stroke="black" points="366,-304.5 366,-323.5 488,-323.5 488,-304.5 366,-304.5"/>
-<text text-anchor="middle" x="427" y="-311.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::skip</text>
+<polygon fill="white" stroke="black" points="366,-228.5 366,-247.5 488,-247.5 488,-228.5 366,-228.5"/>
+<text text-anchor="middle" x="427" y="-235.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::skip</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node15 -->
 <g id="edge22" class="edge"><title>Node13&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M233.415,-228.542C254.963,-243.491 299.031,-272.524 340,-290 350.587,-294.516 362.267,-298.431 373.515,-301.714"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="372.678,-305.115 383.251,-304.436 374.563,-298.373 372.678,-305.115"/>
-</g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classESM_1_1ESMReader.html#a9e81c5238f123a9c0f554390d9677172" target="_top" xlink:title="Get the current position in the file. Make sure that the file has been opened! ">
-<polygon fill="white" stroke="black" points="550.5,-285.5 550.5,-304.5 713.5,-304.5 713.5,-285.5 550.5,-285.5"/>
-<text text-anchor="middle" x="632" y="-292.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getFileOffset</text>
-</a>
-</g>
+<path fill="none" stroke="midnightblue" d="M271.717,-209.54C299.756,-214.712 334.602,-221.14 364.079,-226.578"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="363.793,-230.084 374.262,-228.456 365.063,-223.2 363.793,-230.084"/>
 </g>
 <!-- Node13&#45;&gt;Node16 -->
 <g id="edge27" class="edge"><title>Node13&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M250.826,-228.591C274.916,-235.815 309.343,-245.545 340,-252 406.472,-265.997 482.429,-277.057 540.069,-284.454"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="539.886,-287.959 550.247,-285.746 540.768,-281.014 539.886,-287.959"/>
-</g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classESM_1_1ESMReader.html#a3446177572508dd219cb3a0bf6e95c2b" target="_top" xlink:title="ESM::ESMReader::getName">
-<polygon fill="white" stroke="black" points="352.5,-76.5 352.5,-95.5 501.5,-95.5 501.5,-76.5 352.5,-76.5"/>
-<text text-anchor="middle" x="427" y="-83.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getName</text>
-</a>
-</g>
+<path fill="none" stroke="midnightblue" d="M281.087,-203.864C349.57,-208.197 461.318,-215.266 540.072,-220.248"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="540.273,-223.767 550.474,-220.906 540.715,-216.781 540.273,-223.767"/>
 </g>
 <!-- Node13&#45;&gt;Node17 -->
 <g id="edge24" class="edge"><title>Node13&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M227.175,-209.229C244.109,-186.927 289,-132.111 340,-105 344.329,-102.699 348.922,-100.676 353.647,-98.8979"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="355.126,-102.093 363.483,-95.5812 352.889,-95.4597 355.126,-102.093"/>
+<path fill="none" stroke="midnightblue" d="M239.044,-190.486C258.069,-180.062 286.879,-161.632 304,-138 333.932,-96.6852 302.14,-63.1978 340,-29 341.706,-27.4594 343.507,-26.0342 345.388,-24.7162"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="347.243,-27.6856 354.088,-19.5982 343.694,-21.6523 347.243,-27.6856"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
 <g id="a_node18"><a xlink:href="classESM_1_1ESMReader.html#a5a6937e8a2d8fbc7e4bf6ddfc0342d4e" target="_top" xlink:title="ESM::ESMReader::getContext">
-<polygon fill="white" stroke="black" points="348.5,-152.5 348.5,-171.5 505.5,-171.5 505.5,-152.5 348.5,-152.5"/>
-<text text-anchor="middle" x="427" y="-159.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getContext</text>
+<polygon fill="white" stroke="black" points="348.5,-114.5 348.5,-133.5 505.5,-133.5 505.5,-114.5 348.5,-114.5"/>
+<text text-anchor="middle" x="427" y="-121.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getContext</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node18 -->
 <g id="edge25" class="edge"><title>Node13&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M254.48,-209.459C289.387,-199.801 343.51,-184.825 381.604,-174.284"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="382.703,-177.612 391.408,-171.572 380.836,-170.865 382.703,-177.612"/>
+<path fill="none" stroke="midnightblue" d="M265.234,-190.485C278.143,-186.872 291.963,-182.109 304,-176 322.075,-166.826 321.897,-157.118 340,-148 349.232,-143.35 359.49,-139.494 369.614,-136.334"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="370.627,-139.684 379.24,-133.514 368.659,-132.966 370.627,-139.684"/>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
 <g id="edge23" class="edge"><title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M488.083,-308.376C504.404,-306.849 522.45,-305.16 540.067,-303.511"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="540.743,-306.963 550.373,-302.546 540.091,-299.994 540.743,-306.963"/>
+<path fill="none" stroke="midnightblue" d="M488.083,-234.448C504.404,-233.484 522.45,-232.417 540.067,-231.375"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="540.597,-234.85 550.373,-230.766 540.184,-227.862 540.597,-234.85"/>
 </g>
 <!-- Node19&#45;&gt;Node5 -->
-<g id="edge31" class="edge"><title>Node19&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M295.503,-435.307C392.561,-445.022 566.201,-463.492 714,-485 729.454,-487.249 746.094,-490.008 761.572,-492.718"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="761.094,-496.188 771.551,-494.487 762.316,-489.295 761.094,-496.188"/>
-</g>
-<!-- Node19&#45;&gt;Node6 -->
-<g id="edge30" class="edge"><title>Node19&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M282.138,-418.36C289.765,-415.913 297.243,-412.846 304,-409 324.219,-397.492 318.629,-380.192 340,-371 442.943,-326.721 777.384,-351.147 922.164,-364.324"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="921.976,-367.821 932.254,-365.252 922.617,-360.851 921.976,-367.821"/>
+<g id="edge35" class="edge"><title>Node19&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M270.612,-475.546C291.949,-479.171 317.103,-482.924 340,-485 479.914,-497.685 643.61,-495.023 739.723,-491.687"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="740.088,-495.176 749.956,-491.321 739.837,-488.181 740.088,-495.176"/>
 </g>
 <!-- Node19&#45;&gt;Node11 -->
-<g id="edge29" class="edge"><title>Node19&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M271.717,-418.46C299.756,-413.288 334.602,-406.86 364.079,-401.422"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="365.063,-404.8 374.262,-399.544 363.793,-397.916 365.063,-404.8"/>
+<g id="edge34" class="edge"><title>Node19&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M278.06,-456.39C286.969,-453.92 295.891,-450.838 304,-447 346.357,-426.954 387.675,-390.074 409.676,-368.639"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="412.238,-371.027 416.874,-361.5 407.309,-366.057 412.238,-371.027"/>
+</g>
+<!-- Node20 -->
+<g id="node20" class="node"><title>Node20</title>
+<g id="a_node20"><a xlink:href="classESM_1_1ESMReader.html#a8743de63f7c4cb6d89d82f38ba452127" target="_top" xlink:title="ESM::ESMReader::getString">
+<polygon fill="white" stroke="black" points="353,-456.5 353,-475.5 501,-475.5 501,-456.5 353,-456.5"/>
+<text text-anchor="middle" x="427" y="-463.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getString</text>
+</a>
+</g>
+</g>
+<!-- Node19&#45;&gt;Node20 -->
+<g id="edge36" class="edge"><title>Node19&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M296.707,-466C311.671,-466 327.428,-466 342.597,-466"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="342.987,-469.5 352.987,-466 342.987,-462.5 342.987,-469.5"/>
 </g>
 <!-- Node20&#45;&gt;Node5 -->
-<g id="edge34" class="edge"><title>Node20&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M296.767,-527.125C394.06,-531.406 566.831,-535.847 714,-523 731.757,-521.45 750.971,-518.492 768.201,-515.364"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="768.906,-518.793 778.091,-513.512 767.617,-511.913 768.906,-518.793"/>
-</g>
-<!-- Node20&#45;&gt;Node11 -->
-<g id="edge33" class="edge"><title>Node20&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M245.036,-513.499C262.159,-506.568 285.091,-496.417 304,-485 343.501,-461.149 384.959,-426.497 407.937,-406.302"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="410.374,-408.819 415.529,-399.563 405.727,-403.584 410.374,-408.819"/>
+<g id="edge37" class="edge"><title>Node20&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M501.185,-470.086C568.848,-473.865 669.284,-479.473 739.707,-483.405"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="739.693,-486.91 749.872,-483.973 740.083,-479.92 739.693,-486.91"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classESM_1_1ESMReader.html#a8743de63f7c4cb6d89d82f38ba452127" target="_top" xlink:title="ESM::ESMReader::getString">
-<polygon fill="white" stroke="black" points="353,-570.5 353,-589.5 501,-589.5 501,-570.5 353,-570.5"/>
-<text text-anchor="middle" x="427" y="-577.5" font-family="FreeSans" font-size="10.00">ESM::ESMReader::getString</text>
+<g id="a_node21"><a xlink:href="classToUTF8_1_1Utf8Encoder.html#a69a05afd17b7270edf61c1e5edce79e9" target="_top" xlink:title="ToUTF8::Utf8Encoder\l::getUtf8">
+<polygon fill="white" stroke="black" points="574,-331 574,-361 690,-361 690,-331 574,-331"/>
+<text text-anchor="start" x="582" y="-349" font-family="FreeSans" font-size="10.00">ToUTF8::Utf8Encoder</text>
+<text text-anchor="middle" x="632" y="-338" font-family="FreeSans" font-size="10.00">::getUtf8</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node21 -->
-<g id="edge35" class="edge"><title>Node20&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M254.48,-532.541C289.387,-542.199 343.51,-557.175 381.604,-567.716"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="380.836,-571.135 391.408,-570.428 382.703,-564.388 380.836,-571.135"/>
-</g>
-<!-- Node21&#45;&gt;Node5 -->
-<g id="edge36" class="edge"><title>Node21&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M501.26,-581.129C559.807,-580.306 643.454,-575.237 714,-556 744.431,-547.702 776.686,-531.001 797.939,-518.757"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="799.765,-521.743 806.609,-513.656 796.215,-515.71 799.765,-521.743"/>
+<g id="edge38" class="edge"><title>Node20&#45;&gt;Node21</title>
+<path fill="none" stroke="midnightblue" d="M444.269,-456.383C477.277,-436.871 552.724,-392.272 596.952,-366.127"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="598.797,-369.102 605.624,-361 595.235,-363.076 598.797,-369.102"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classToUTF8_1_1Utf8Encoder.html#a69a05afd17b7270edf61c1e5edce79e9" target="_top" xlink:title="ToUTF8::Utf8Encoder\l::getUtf8">
-<polygon fill="white" stroke="black" points="574,-647 574,-677 690,-677 690,-647 574,-647"/>
-<text text-anchor="start" x="582" y="-665" font-family="FreeSans" font-size="10.00">ToUTF8::Utf8Encoder</text>
-<text text-anchor="middle" x="632" y="-654" font-family="FreeSans" font-size="10.00">::getUtf8</text>
+<g id="a_node22"><a xlink:href="classToUTF8_1_1Utf8Encoder.html#a1dd97261b538a0a33218d31c82c37f74" target="_top" xlink:title="ToUTF8::Utf8Encoder\l::getLength">
+<polygon fill="white" stroke="black" points="765,-331 765,-361 881,-361 881,-331 765,-331"/>
+<text text-anchor="start" x="773" y="-349" font-family="FreeSans" font-size="10.00">ToUTF8::Utf8Encoder</text>
+<text text-anchor="middle" x="823" y="-338" font-family="FreeSans" font-size="10.00">::getLength</text>
 </a>
 </g>
 </g>
 <!-- Node21&#45;&gt;Node22 -->
-<g id="edge37" class="edge"><title>Node21&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M451.684,-589.567C484.092,-602.658 542.951,-626.433 584.375,-643.166"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="583.134,-646.44 593.717,-646.94 585.756,-639.949 583.134,-646.44"/>
+<g id="edge39" class="edge"><title>Node21&#45;&gt;Node22</title>
+<path fill="none" stroke="midnightblue" d="M690.219,-346C710.574,-346 733.676,-346 754.791,-346"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="754.975,-349.5 764.975,-346 754.975,-342.5 754.975,-349.5"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="classToUTF8_1_1Utf8Encoder.html#a1dd97261b538a0a33218d31c82c37f74" target="_top" xlink:title="ToUTF8::Utf8Encoder\l::getLength">
-<polygon fill="white" stroke="black" points="765,-696 765,-726 881,-726 881,-696 765,-696"/>
-<text text-anchor="start" x="773" y="-714" font-family="FreeSans" font-size="10.00">ToUTF8::Utf8Encoder</text>
-<text text-anchor="middle" x="823" y="-703" font-family="FreeSans" font-size="10.00">::getLength</text>
+<g id="a_node23"><a xlink:href="classToUTF8_1_1Utf8Encoder.html#a80b3e05967c1f28c1ce5325093bda679" target="_top" xlink:title="ToUTF8::Utf8Encoder\l::resize">
+<polygon fill="white" stroke="black" points="765,-429 765,-459 881,-459 881,-429 765,-429"/>
+<text text-anchor="start" x="773" y="-447" font-family="FreeSans" font-size="10.00">ToUTF8::Utf8Encoder</text>
+<text text-anchor="middle" x="823" y="-436" font-family="FreeSans" font-size="10.00">::resize</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
-<g id="edge38" class="edge"><title>Node22&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M690.219,-676.835C710.666,-682.136 733.886,-688.156 755.078,-693.65"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="754.417,-697.094 764.975,-696.216 756.174,-690.318 754.417,-697.094"/>
+<!-- Node21&#45;&gt;Node23 -->
+<g id="edge40" class="edge"><title>Node21&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M685.983,-361.09C695.762,-365.108 705.544,-370.036 714,-376 734.369,-390.365 729.485,-404.845 750,-419 752.864,-420.976 755.899,-422.81 759.041,-424.51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="757.599,-427.701 768.119,-428.954 760.676,-421.414 757.599,-427.701"/>
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="classToUTF8_1_1Utf8Encoder.html#a80b3e05967c1f28c1ce5325093bda679" target="_top" xlink:title="ToUTF8::Utf8Encoder\l::resize">
-<polygon fill="white" stroke="black" points="765,-647 765,-677 881,-677 881,-647 765,-647"/>
-<text text-anchor="start" x="773" y="-665" font-family="FreeSans" font-size="10.00">ToUTF8::Utf8Encoder</text>
-<text text-anchor="middle" x="823" y="-654" font-family="FreeSans" font-size="10.00">::resize</text>
+<g id="a_node24"><a xlink:href="classToUTF8_1_1Utf8Encoder.html#a203f6c96dde89ec98b709f3e4f95c1f6" target="_top" xlink:title="ToUTF8::Utf8Encoder\l::copyFromArray">
+<polygon fill="white" stroke="black" points="765,-380 765,-410 881,-410 881,-380 765,-380"/>
+<text text-anchor="start" x="773" y="-398" font-family="FreeSans" font-size="10.00">ToUTF8::Utf8Encoder</text>
+<text text-anchor="middle" x="823" y="-387" font-family="FreeSans" font-size="10.00">::copyFromArray</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node24 -->
-<g id="edge39" class="edge"><title>Node22&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M690.219,-662C710.574,-662 733.676,-662 754.791,-662"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="754.975,-665.5 764.975,-662 754.975,-658.5 754.975,-665.5"/>
+<!-- Node21&#45;&gt;Node24 -->
+<g id="edge41" class="edge"><title>Node21&#45;&gt;Node24</title>
+<path fill="none" stroke="midnightblue" d="M690.219,-360.835C710.666,-366.136 733.886,-372.156 755.078,-377.65"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="754.417,-381.094 764.975,-380.216 756.174,-374.318 754.417,-381.094"/>
 </g>
-<!-- Node25 -->
-<g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="classToUTF8_1_1Utf8Encoder.html#a203f6c96dde89ec98b709f3e4f95c1f6" target="_top" xlink:title="ToUTF8::Utf8Encoder\l::copyFromArray">
-<polygon fill="white" stroke="black" points="765,-598 765,-628 881,-628 881,-598 765,-598"/>
-<text text-anchor="start" x="773" y="-616" font-family="FreeSans" font-size="10.00">ToUTF8::Utf8Encoder</text>
-<text text-anchor="middle" x="823" y="-605" font-family="FreeSans" font-size="10.00">::copyFromArray</text>
-</a>
+<!-- Node25&#45;&gt;Node11 -->
+<g id="edge43" class="edge"><title>Node25&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M293.789,-352C305.604,-352 317.979,-352 330.217,-352"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="330.449,-355.5 340.449,-352 330.449,-348.5 330.449,-355.5"/>
 </g>
-</g>
-<!-- Node22&#45;&gt;Node25 -->
-<g id="edge40" class="edge"><title>Node22&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M690.219,-647.165C710.666,-641.864 733.886,-635.844 755.078,-630.35"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="756.174,-633.682 764.975,-627.784 754.417,-626.906 756.174,-633.682"/>
-</g>
-<!-- Node26&#45;&gt;Node11 -->
-<g id="edge42" class="edge"><title>Node26&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M293.789,-390C305.604,-390 317.979,-390 330.217,-390"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="330.449,-393.5 340.449,-390 330.449,-386.5 330.449,-393.5"/>
-</g>
-<!-- Node26&#45;&gt;Node15 -->
-<g id="edge43" class="edge"><title>Node26&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M240.045,-380.307C263.602,-369.153 304.045,-350.74 340,-338 352.105,-333.711 365.383,-329.684 377.806,-326.199"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="378.83,-329.548 387.548,-323.526 376.978,-322.797 378.83,-329.548"/>
+<!-- Node25&#45;&gt;Node15 -->
+<g id="edge44" class="edge"><title>Node25&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M237.209,-342.477C273.259,-322.527 356.904,-276.238 399.719,-252.544"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="401.64,-255.481 408.695,-247.577 398.251,-249.356 401.64,-255.481"/>
 </g>
 </g>
 </svg>

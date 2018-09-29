@@ -2,7 +2,7 @@ var searchData=
 [
   ['detectiontype',['DetectionType',['../classMWBase_1_1World.html#a6811498fd389ff3193ab6292ed955498',1,'MWBase::World']]],
   ['dialogs',['Dialogs',['../classMWGui_1_1ReviewDialog.html#abe52b5b570711823cefc31966722479a',1,'MWGui::ReviewDialog']]],
-  ['direction',['Direction',['../classCSVRender_1_1CellArrow.html#a1d6d80e02834d6abbc060ca7d4bd54a7',1,'CSVRender::CellArrow::Direction()'],['../namespaceTerrain.html#a03a671d11e0a9266a93801de8ba78f75',1,'Terrain::Direction()']]],
+  ['direction',['Direction',['../classCSVRender_1_1CellArrow.html#a1d6d80e02834d6abbc060ca7d4bd54a7',1,'CSVRender::CellArrow::Direction()'],['../namespaceMWGui.html#a7631b10545f05a1d5ec6ef3050c0af98',1,'MWGui::Direction()'],['../namespaceTerrain.html#a03a671d11e0a9266a93801de8ba78f75',1,'Terrain::Direction()']]],
   ['display',['Display',['../structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560',1,'CSMWorld::ColumnBase']]],
   ['displaymode',['DisplayMode',['../classCSVWorld_1_1DataDisplayDelegate.html#a12b6179ac6839dd3a90a28ed38326df6',1,'CSVWorld::DataDisplayDelegate::DisplayMode()'],['../classMWGui_1_1ItemChargeView.html#aa31282f45e4f6bfa7e53983ad750e674',1,'MWGui::ItemChargeView::DisplayMode()']]],
   ['doubleclickaction',['DoubleClickAction',['../classCSVTools_1_1ReportTable.html#aad04cd20bb01f8ce11c4be68166cd343',1,'CSVTools::ReportTable::DoubleClickAction()'],['../classCSVWorld_1_1Table.html#ade564a57d49af5cd5b44e9470b5c9d78',1,'CSVWorld::Table::DoubleClickAction()']]],

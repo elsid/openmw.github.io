@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwrender/objects.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwrender/objects.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -114,113 +114,109 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">class </span>Group;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="namespaceosgUtil.html">   18</a></span>&#160;<span class="keyword">namespace </span>osgUtil</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span>Resource</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">class </span>IncrementalCompileOperation;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">class </span>ResourceSystem;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span>Resource</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span>MWWorld</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">class </span>ResourceSystem;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">class </span>CellStore;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span>MWWorld</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span>SceneUtil</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">class </span>CellStore;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">class </span>UnrefQueue;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span>SceneUtil</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">class </span>UnrefQueue;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">namespace </span>MWRender{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">class </span>Animation;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classMWRender_1_1PtrHolder.html">   42</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMWRender_1_1PtrHolder.html">PtrHolder</a> : <span class="keyword">public</span> osg::Object</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classMWRender_1_1PtrHolder.html#a39e66f1839d2f27ddb6e32526279d11e">   45</a></span>&#160;    <a class="code" href="classMWRender_1_1PtrHolder.html#a39e66f1839d2f27ddb6e32526279d11e">PtrHolder</a>(<a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> ptr)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        : mPtr(ptr)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMWRender_1_1PtrHolder.html#a5e736229e1335a619e9289ddfaa77eec">   50</a></span>&#160;    <a class="code" href="classMWRender_1_1PtrHolder.html#a5e736229e1335a619e9289ddfaa77eec">PtrHolder</a>()</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span>MWRender{</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">class </span>Animation;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classMWRender_1_1PtrHolder.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMWRender_1_1PtrHolder.html">PtrHolder</a> : <span class="keyword">public</span> osg::Object</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classMWRender_1_1PtrHolder.html#a11397ea85f676b567ff1c1f6046dda1d">   40</a></span>&#160;    <a class="code" href="classMWRender_1_1PtrHolder.html#a11397ea85f676b567ff1c1f6046dda1d">PtrHolder</a>(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        : mPtr(ptr)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classMWRender_1_1PtrHolder.html#a5e736229e1335a619e9289ddfaa77eec">   45</a></span>&#160;    <a class="code" href="classMWRender_1_1PtrHolder.html#a5e736229e1335a619e9289ddfaa77eec">PtrHolder</a>()</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classMWRender_1_1PtrHolder.html#aeabd960b65a31a38f855da002fc4e8a3">   49</a></span>&#160;    <a class="code" href="classMWRender_1_1PtrHolder.html#aeabd960b65a31a38f855da002fc4e8a3">PtrHolder</a>(<span class="keyword">const</span> <a class="code" href="classMWRender_1_1PtrHolder.html">PtrHolder</a>&amp; <a class="code" href="namespaceanonymous__namespace_02testbulletnifloader_8cpp_03.html#a1b04c33613d9f0c8a6bff603d0fb681e">copy</a>, <span class="keyword">const</span> osg::CopyOp&amp; copyop)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        : mPtr(copy.mPtr)</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classMWRender_1_1PtrHolder.html#aeabd960b65a31a38f855da002fc4e8a3">   54</a></span>&#160;    <a class="code" href="classMWRender_1_1PtrHolder.html#aeabd960b65a31a38f855da002fc4e8a3">PtrHolder</a>(<span class="keyword">const</span> <a class="code" href="classMWRender_1_1PtrHolder.html">PtrHolder</a>&amp; copy, <span class="keyword">const</span> osg::CopyOp&amp; copyop)</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        : mPtr(copy.mPtr)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    META_Object(MWRender, <a class="code" href="classMWRender_1_1PtrHolder.html">PtrHolder</a>)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    MWWorld::Ptr mPtr;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;};</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    META_Object(MWRender, <a class="code" href="classMWRender_1_1PtrHolder.html">PtrHolder</a>)</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    MWWorld::Ptr mPtr;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;};</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html">   64</a></span>&#160;class <a class="code" href="classMWRender_1_1Objects.html">Objects</a>{</div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#a1777786a4c5fceeb3f1a7d9f77f48350">   65</a></span>&#160;    <span class="keyword">typedef</span> std::map&lt;MWWorld::ConstPtr,Animation*&gt; <a class="code" href="classMWRender_1_1Objects.html#a1777786a4c5fceeb3f1a7d9f77f48350">PtrAnimationMap</a>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#aa61a7154cb8981ca1f5a9f607289a473">   67</a></span>&#160;    <span class="keyword">typedef</span> std::map&lt;const MWWorld::CellStore*, osg::ref_ptr&lt;osg::Group&gt; &gt; <a class="code" href="classMWRender_1_1Objects.html#aa61a7154cb8981ca1f5a9f607289a473">CellMap</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#a094028f793fb710dc49b761ac6a7135d">   68</a></span>&#160;    CellMap <a class="code" href="classMWRender_1_1Objects.html#a094028f793fb710dc49b761ac6a7135d">mCellSceneNodes</a>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#aa97f5cbe0f38dfb43bf3ffb86b1514a7">   69</a></span>&#160;    PtrAnimationMap <a class="code" href="classMWRender_1_1Objects.html#aa97f5cbe0f38dfb43bf3ffb86b1514a7">mObjects</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#a60f7569377ddacba278ada05066c10cb">   71</a></span>&#160;    osg::ref_ptr&lt;osg::Group&gt; <a class="code" href="classMWRender_1_1Objects.html#a60f7569377ddacba278ada05066c10cb">mRootNode</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#ac429adf95d069ecf49568b491186ece4">   73</a></span>&#160;    <a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* <a class="code" href="classMWRender_1_1Objects.html#ac429adf95d069ecf49568b491186ece4">mResourceSystem</a>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#a7683ea631109ee5b1134f74ca1b96a96">   75</a></span>&#160;    osg::ref_ptr&lt;SceneUtil::UnrefQueue&gt; <a class="code" href="classMWRender_1_1Objects.html#a7683ea631109ee5b1134f74ca1b96a96">mUnrefQueue</a>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> insertBegin(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    Objects(<a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* resourceSystem, osg::ref_ptr&lt;osg::Group&gt; rootNode, <a class="code" href="classSceneUtil_1_1UnrefQueue.html">SceneUtil::UnrefQueue</a>* unrefQueue);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    ~Objects();</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> insertModel(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr, <span class="keyword">const</span> std::string &amp;model, <span class="keywordtype">bool</span> animated=<span class="keyword">false</span>, <span class="keywordtype">bool</span> allowLight=<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">void</span> insertNPC(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">void</span> insertCreature (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr, <span class="keyword">const</span> std::string&amp; model, <span class="keywordtype">bool</span> weaponsShields);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="classMWRender_1_1Animation.html">Animation</a>* getAnimation(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keyword">const</span> <a class="code" href="classMWRender_1_1Animation.html">Animation</a>* getAnimation(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;ptr) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html">   59</a></span>&#160;class <a class="code" href="classMWRender_1_1Objects.html">Objects</a>{</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#ae82f861d99ca7330be8e6c57659b9ab9">   60</a></span>&#160;    <span class="keyword">typedef</span> std::map&lt;MWWorld::ConstPtr,osg::ref_ptr&lt;Animation&gt; &gt; <a class="code" href="classMWRender_1_1Objects.html#ae82f861d99ca7330be8e6c57659b9ab9">PtrAnimationMap</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#aa61a7154cb8981ca1f5a9f607289a473">   62</a></span>&#160;    <span class="keyword">typedef</span> std::map&lt;const MWWorld::CellStore*, osg::ref_ptr&lt;osg::Group&gt; &gt; <a class="code" href="classMWRender_1_1Objects.html#aa61a7154cb8981ca1f5a9f607289a473">CellMap</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#a094028f793fb710dc49b761ac6a7135d">   63</a></span>&#160;    CellMap <a class="code" href="classMWRender_1_1Objects.html#a094028f793fb710dc49b761ac6a7135d">mCellSceneNodes</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#aa97f5cbe0f38dfb43bf3ffb86b1514a7">   64</a></span>&#160;    PtrAnimationMap <a class="code" href="classMWRender_1_1Objects.html#aa97f5cbe0f38dfb43bf3ffb86b1514a7">mObjects</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#a60f7569377ddacba278ada05066c10cb">   66</a></span>&#160;    osg::ref_ptr&lt;osg::Group&gt; <a class="code" href="classMWRender_1_1Objects.html#a60f7569377ddacba278ada05066c10cb">mRootNode</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#ac429adf95d069ecf49568b491186ece4">   68</a></span>&#160;    <a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* <a class="code" href="classMWRender_1_1Objects.html#ac429adf95d069ecf49568b491186ece4">mResourceSystem</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classMWRender_1_1Objects.html#a7683ea631109ee5b1134f74ca1b96a96">   70</a></span>&#160;    osg::ref_ptr&lt;SceneUtil::UnrefQueue&gt; <a class="code" href="classMWRender_1_1Objects.html#a7683ea631109ee5b1134f74ca1b96a96">mUnrefQueue</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> insertBegin(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    Objects(<a class="code" href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a>* resourceSystem, osg::ref_ptr&lt;osg::Group&gt; rootNode, <a class="code" href="classSceneUtil_1_1UnrefQueue.html">SceneUtil::UnrefQueue</a>* unrefQueue);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    ~Objects();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> insertModel(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr, <span class="keyword">const</span> std::string &amp;model, <span class="keywordtype">bool</span> animated=<span class="keyword">false</span>, <span class="keywordtype">bool</span> allowLight=<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> insertNPC(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">void</span> insertCreature (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr, <span class="keyword">const</span> std::string&amp; model, <span class="keywordtype">bool</span> weaponsShields);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="classMWRender_1_1Animation.html">Animation</a>* getAnimation(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keyword">const</span> <a class="code" href="classMWRender_1_1Animation.html">Animation</a>* getAnimation(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a> &amp;ptr) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">bool</span> removeObject (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">void</span> removeCell(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a>* store);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">bool</span> removeObject (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">void</span> updatePtr(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;old, <span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;cur);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">void</span> removeCell(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a>* store);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">void</span> updatePtr(<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;old, <span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;cur);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> operator = (<span class="keyword">const</span> Objects&amp;);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    Objects(<span class="keyword">const</span> Objects&amp;);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;};</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classMWRender_1_1PtrHolder_html"><div class="ttname"><a href="classMWRender_1_1PtrHolder.html">MWRender::PtrHolder</a></div><div class="ttdef"><b>Definition:</b> objects.hpp:42</div></div>
-<div class="ttc" id="classResource_1_1ResourceSystem_html"><div class="ttname"><a href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a></div><div class="ttdoc">Wrapper class that constructs and provides access to the most commonly used resource subsystems...</div><div class="ttdef"><b>Definition:</b> resourcesystem.hpp:24</div></div>
-<div class="ttc" id="classMWRender_1_1Animation_html"><div class="ttname"><a href="classMWRender_1_1Animation.html">MWRender::Animation</a></div><div class="ttdef"><b>Definition:</b> animation.hpp:77</div></div>
-<div class="ttc" id="classMWRender_1_1PtrHolder_html_aeabd960b65a31a38f855da002fc4e8a3"><div class="ttname"><a href="classMWRender_1_1PtrHolder.html#aeabd960b65a31a38f855da002fc4e8a3">MWRender::PtrHolder::PtrHolder</a></div><div class="ttdeci">PtrHolder(const PtrHolder &amp;copy, const osg::CopyOp &amp;copyop)</div><div class="ttdef"><b>Definition:</b> objects.hpp:54</div></div>
-<div class="ttc" id="classMWRender_1_1PtrHolder_html_a39e66f1839d2f27ddb6e32526279d11e"><div class="ttname"><a href="classMWRender_1_1PtrHolder.html#a39e66f1839d2f27ddb6e32526279d11e">MWRender::PtrHolder::PtrHolder</a></div><div class="ttdeci">PtrHolder(MWWorld::Ptr ptr)</div><div class="ttdef"><b>Definition:</b> objects.hpp:45</div></div>
-<div class="ttc" id="classMWRender_1_1Objects_html_a1777786a4c5fceeb3f1a7d9f77f48350"><div class="ttname"><a href="classMWRender_1_1Objects.html#a1777786a4c5fceeb3f1a7d9f77f48350">MWRender::Objects::PtrAnimationMap</a></div><div class="ttdeci">std::map&lt; MWWorld::ConstPtr, Animation * &gt; PtrAnimationMap</div><div class="ttdef"><b>Definition:</b> objects.hpp:65</div></div>
-<div class="ttc" id="classMWRender_1_1Objects_html_aa97f5cbe0f38dfb43bf3ffb86b1514a7"><div class="ttname"><a href="classMWRender_1_1Objects.html#aa97f5cbe0f38dfb43bf3ffb86b1514a7">MWRender::Objects::mObjects</a></div><div class="ttdeci">PtrAnimationMap mObjects</div><div class="ttdef"><b>Definition:</b> objects.hpp:69</div></div>
-<div class="ttc" id="classMWRender_1_1Objects_html_a60f7569377ddacba278ada05066c10cb"><div class="ttname"><a href="classMWRender_1_1Objects.html#a60f7569377ddacba278ada05066c10cb">MWRender::Objects::mRootNode</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Group &gt; mRootNode</div><div class="ttdef"><b>Definition:</b> objects.hpp:71</div></div>
-<div class="ttc" id="classMWWorld_1_1CellStore_html"><div class="ttname"><a href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a></div><div class="ttdoc">Mutable state of a cell. </div><div class="ttdef"><b>Definition:</b> cellstore.hpp:53</div></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">void</span> operator = (<span class="keyword">const</span> Objects&amp;);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    Objects(<span class="keyword">const</span> Objects&amp;);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;};</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classMWRender_1_1PtrHolder_html"><div class="ttname"><a href="classMWRender_1_1PtrHolder.html">MWRender::PtrHolder</a></div><div class="ttdef"><b>Definition:</b> objects.hpp:37</div></div>
+<div class="ttc" id="classResource_1_1ResourceSystem_html"><div class="ttname"><a href="classResource_1_1ResourceSystem.html">Resource::ResourceSystem</a></div><div class="ttdoc">Wrapper class that constructs and provides access to the most commonly used resource subsystems...</div><div class="ttdef"><b>Definition:</b> resourcesystem.hpp:30</div></div>
+<div class="ttc" id="namespaceanonymous__namespace_02testbulletnifloader_8cpp_03_html_a1b04c33613d9f0c8a6bff603d0fb681e"><div class="ttname"><a href="namespaceanonymous__namespace_02testbulletnifloader_8cpp_03.html#a1b04c33613d9f0c8a6bff603d0fb681e">anonymous_namespace{testbulletnifloader.cpp}::copy</a></div><div class="ttdeci">void copy(const btTransform &amp;src, Nif::Transformation &amp;dst)</div><div class="ttdef"><b>Definition:</b> testbulletnifloader.cpp:269</div></div>
+<div class="ttc" id="classMWRender_1_1Animation_html"><div class="ttname"><a href="classMWRender_1_1Animation.html">MWRender::Animation</a></div><div class="ttdef"><b>Definition:</b> animation.hpp:85</div></div>
+<div class="ttc" id="classMWRender_1_1PtrHolder_html_aeabd960b65a31a38f855da002fc4e8a3"><div class="ttname"><a href="classMWRender_1_1PtrHolder.html#aeabd960b65a31a38f855da002fc4e8a3">MWRender::PtrHolder::PtrHolder</a></div><div class="ttdeci">PtrHolder(const PtrHolder &amp;copy, const osg::CopyOp &amp;copyop)</div><div class="ttdef"><b>Definition:</b> objects.hpp:49</div></div>
+<div class="ttc" id="classMWRender_1_1Objects_html_ae82f861d99ca7330be8e6c57659b9ab9"><div class="ttname"><a href="classMWRender_1_1Objects.html#ae82f861d99ca7330be8e6c57659b9ab9">MWRender::Objects::PtrAnimationMap</a></div><div class="ttdeci">std::map&lt; MWWorld::ConstPtr, osg::ref_ptr&lt; Animation &gt; &gt; PtrAnimationMap</div><div class="ttdef"><b>Definition:</b> objects.hpp:60</div></div>
+<div class="ttc" id="classMWRender_1_1Objects_html_aa97f5cbe0f38dfb43bf3ffb86b1514a7"><div class="ttname"><a href="classMWRender_1_1Objects.html#aa97f5cbe0f38dfb43bf3ffb86b1514a7">MWRender::Objects::mObjects</a></div><div class="ttdeci">PtrAnimationMap mObjects</div><div class="ttdef"><b>Definition:</b> objects.hpp:64</div></div>
+<div class="ttc" id="classMWRender_1_1Objects_html_a60f7569377ddacba278ada05066c10cb"><div class="ttname"><a href="classMWRender_1_1Objects.html#a60f7569377ddacba278ada05066c10cb">MWRender::Objects::mRootNode</a></div><div class="ttdeci">osg::ref_ptr&lt; osg::Group &gt; mRootNode</div><div class="ttdef"><b>Definition:</b> objects.hpp:66</div></div>
+<div class="ttc" id="classMWWorld_1_1CellStore_html"><div class="ttname"><a href="classMWWorld_1_1CellStore.html">MWWorld::CellStore</a></div><div class="ttdoc">Mutable state of a cell. </div><div class="ttdef"><b>Definition:</b> cellstore.hpp:51</div></div>
 <div class="ttc" id="classMWWorld_1_1ConstPtr_html"><div class="ttname"><a href="classMWWorld_1_1ConstPtr.html">MWWorld::ConstPtr</a></div><div class="ttdoc">Pointer to a const LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:90</div></div>
-<div class="ttc" id="classMWRender_1_1Objects_html_a094028f793fb710dc49b761ac6a7135d"><div class="ttname"><a href="classMWRender_1_1Objects.html#a094028f793fb710dc49b761ac6a7135d">MWRender::Objects::mCellSceneNodes</a></div><div class="ttdeci">CellMap mCellSceneNodes</div><div class="ttdef"><b>Definition:</b> objects.hpp:68</div></div>
-<div class="ttc" id="classMWRender_1_1PtrHolder_html_a5e736229e1335a619e9289ddfaa77eec"><div class="ttname"><a href="classMWRender_1_1PtrHolder.html#a5e736229e1335a619e9289ddfaa77eec">MWRender::PtrHolder::PtrHolder</a></div><div class="ttdeci">PtrHolder()</div><div class="ttdef"><b>Definition:</b> objects.hpp:50</div></div>
-<div class="ttc" id="classMWRender_1_1Objects_html_aa61a7154cb8981ca1f5a9f607289a473"><div class="ttname"><a href="classMWRender_1_1Objects.html#aa61a7154cb8981ca1f5a9f607289a473">MWRender::Objects::CellMap</a></div><div class="ttdeci">std::map&lt; const MWWorld::CellStore *, osg::ref_ptr&lt; osg::Group &gt; &gt; CellMap</div><div class="ttdef"><b>Definition:</b> objects.hpp:67</div></div>
-<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html">SceneUtil::UnrefQueue</a></div><div class="ttdoc">Handles unreferencing of objects through the WorkQueue. Typical use scenario would be the main thread...</div><div class="ttdef"><b>Definition:</b> unrefqueue.hpp:19</div></div>
-<div class="ttc" id="classMWRender_1_1Objects_html_ac429adf95d069ecf49568b491186ece4"><div class="ttname"><a href="classMWRender_1_1Objects.html#ac429adf95d069ecf49568b491186ece4">MWRender::Objects::mResourceSystem</a></div><div class="ttdeci">Resource::ResourceSystem * mResourceSystem</div><div class="ttdef"><b>Definition:</b> objects.hpp:73</div></div>
+<div class="ttc" id="classMWRender_1_1Objects_html_a094028f793fb710dc49b761ac6a7135d"><div class="ttname"><a href="classMWRender_1_1Objects.html#a094028f793fb710dc49b761ac6a7135d">MWRender::Objects::mCellSceneNodes</a></div><div class="ttdeci">CellMap mCellSceneNodes</div><div class="ttdef"><b>Definition:</b> objects.hpp:63</div></div>
+<div class="ttc" id="classMWRender_1_1PtrHolder_html_a5e736229e1335a619e9289ddfaa77eec"><div class="ttname"><a href="classMWRender_1_1PtrHolder.html#a5e736229e1335a619e9289ddfaa77eec">MWRender::PtrHolder::PtrHolder</a></div><div class="ttdeci">PtrHolder()</div><div class="ttdef"><b>Definition:</b> objects.hpp:45</div></div>
+<div class="ttc" id="classMWRender_1_1PtrHolder_html_a11397ea85f676b567ff1c1f6046dda1d"><div class="ttname"><a href="classMWRender_1_1PtrHolder.html#a11397ea85f676b567ff1c1f6046dda1d">MWRender::PtrHolder::PtrHolder</a></div><div class="ttdeci">PtrHolder(const MWWorld::Ptr &amp;ptr)</div><div class="ttdef"><b>Definition:</b> objects.hpp:40</div></div>
+<div class="ttc" id="classMWRender_1_1Objects_html_aa61a7154cb8981ca1f5a9f607289a473"><div class="ttname"><a href="classMWRender_1_1Objects.html#aa61a7154cb8981ca1f5a9f607289a473">MWRender::Objects::CellMap</a></div><div class="ttdeci">std::map&lt; const MWWorld::CellStore *, osg::ref_ptr&lt; osg::Group &gt; &gt; CellMap</div><div class="ttdef"><b>Definition:</b> objects.hpp:62</div></div>
+<div class="ttc" id="classSceneUtil_1_1UnrefQueue_html"><div class="ttname"><a href="classSceneUtil_1_1UnrefQueue.html">SceneUtil::UnrefQueue</a></div><div class="ttdoc">Handles unreferencing of objects through the WorkQueue. Typical use scenario would be the main thread...</div><div class="ttdef"><b>Definition:</b> unrefqueue.hpp:24</div></div>
+<div class="ttc" id="classMWRender_1_1Objects_html_ac429adf95d069ecf49568b491186ece4"><div class="ttname"><a href="classMWRender_1_1Objects.html#ac429adf95d069ecf49568b491186ece4">MWRender::Objects::mResourceSystem</a></div><div class="ttdeci">Resource::ResourceSystem * mResourceSystem</div><div class="ttdef"><b>Definition:</b> objects.hpp:68</div></div>
 <div class="ttc" id="classMWWorld_1_1Ptr_html"><div class="ttname"><a href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a></div><div class="ttdoc">Pointer to a LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:19</div></div>
-<div class="ttc" id="classMWRender_1_1Objects_html_a7683ea631109ee5b1134f74ca1b96a96"><div class="ttname"><a href="classMWRender_1_1Objects.html#a7683ea631109ee5b1134f74ca1b96a96">MWRender::Objects::mUnrefQueue</a></div><div class="ttdeci">osg::ref_ptr&lt; SceneUtil::UnrefQueue &gt; mUnrefQueue</div><div class="ttdef"><b>Definition:</b> objects.hpp:75</div></div>
-<div class="ttc" id="classMWRender_1_1Objects_html"><div class="ttname"><a href="classMWRender_1_1Objects.html">MWRender::Objects</a></div><div class="ttdef"><b>Definition:</b> objects.hpp:64</div></div>
+<div class="ttc" id="classMWRender_1_1Objects_html_a7683ea631109ee5b1134f74ca1b96a96"><div class="ttname"><a href="classMWRender_1_1Objects.html#a7683ea631109ee5b1134f74ca1b96a96">MWRender::Objects::mUnrefQueue</a></div><div class="ttdeci">osg::ref_ptr&lt; SceneUtil::UnrefQueue &gt; mUnrefQueue</div><div class="ttdef"><b>Definition:</b> objects.hpp:70</div></div>
+<div class="ttc" id="classMWRender_1_1Objects_html"><div class="ttname"><a href="classMWRender_1_1Objects.html">MWRender::Objects</a></div><div class="ttdef"><b>Definition:</b> objects.hpp:59</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:51 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:22 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

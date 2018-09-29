@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/vfs/archive.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/vfs/archive.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -112,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classVFS_1_1File.html#a1051501246c91217f08e14465bdbcd7d">   14</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classVFS_1_1File.html#a1051501246c91217f08e14465bdbcd7d">~File</a>() {}</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="namespaceFiles.html#aba837ada2130f11d385768dcd8f0a950">Files::IStreamPtr</a> <a class="code" href="classVFS_1_1File.html#a29eac2fa651710120327097cdf489b55">open</a>() = 0;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a> <a class="code" href="classVFS_1_1File.html#a29eac2fa651710120327097cdf489b55">open</a>() = 0;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    };</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classVFS_1_1Archive.html">   19</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classVFS_1_1Archive.html">Archive</a></div>
@@ -127,17 +127,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="constrainedfilestream_8hpp_html"><div class="ttname"><a href="constrainedfilestream_8hpp.html">constrainedfilestream.hpp</a></div></div>
+<div class="ttc" id="namespaceFiles_html_a2301289b6d0689e463cde816497d0a72"><div class="ttname"><a href="namespaceFiles.html#a2301289b6d0689e463cde816497d0a72">Files::IStreamPtr</a></div><div class="ttdeci">std::shared_ptr&lt; std::istream &gt; IStreamPtr</div><div class="ttdef"><b>Definition:</b> constrainedfilestream.hpp:21</div></div>
 <div class="ttc" id="classVFS_1_1File_html_a29eac2fa651710120327097cdf489b55"><div class="ttname"><a href="classVFS_1_1File.html#a29eac2fa651710120327097cdf489b55">VFS::File::open</a></div><div class="ttdeci">virtual Files::IStreamPtr open()=0</div></div>
 <div class="ttc" id="classVFS_1_1Archive_html_a2c056de9a26afd79e6ecfcd722f4b56f"><div class="ttname"><a href="classVFS_1_1Archive.html#a2c056de9a26afd79e6ecfcd722f4b56f">VFS::Archive::listResources</a></div><div class="ttdeci">virtual void listResources(std::map&lt; std::string, File * &gt; &amp;out, char(*normalize_function)(char))=0</div><div class="ttdoc">List all resources contained in this archive, and run the resource names through the given normalize ...</div></div>
 <div class="ttc" id="classVFS_1_1File_html_a1051501246c91217f08e14465bdbcd7d"><div class="ttname"><a href="classVFS_1_1File.html#a1051501246c91217f08e14465bdbcd7d">VFS::File::~File</a></div><div class="ttdeci">virtual ~File()</div><div class="ttdef"><b>Definition:</b> archive.hpp:14</div></div>
 <div class="ttc" id="classVFS_1_1Archive_html"><div class="ttname"><a href="classVFS_1_1Archive.html">VFS::Archive</a></div><div class="ttdef"><b>Definition:</b> archive.hpp:19</div></div>
 <div class="ttc" id="classVFS_1_1File_html"><div class="ttname"><a href="classVFS_1_1File.html">VFS::File</a></div><div class="ttdef"><b>Definition:</b> archive.hpp:11</div></div>
-<div class="ttc" id="namespaceFiles_html_aba837ada2130f11d385768dcd8f0a950"><div class="ttname"><a href="namespaceFiles.html#aba837ada2130f11d385768dcd8f0a950">Files::IStreamPtr</a></div><div class="ttdeci">boost::shared_ptr&lt; std::istream &gt; IStreamPtr</div><div class="ttdef"><b>Definition:</b> constrainedfilestream.hpp:20</div></div>
 <div class="ttc" id="classVFS_1_1Archive_html_a71e396fa2592571723ec4a9e05a7821a"><div class="ttname"><a href="classVFS_1_1Archive.html#a71e396fa2592571723ec4a9e05a7821a">VFS::Archive::~Archive</a></div><div class="ttdeci">virtual ~Archive()</div><div class="ttdef"><b>Definition:</b> archive.hpp:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:53 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:25 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

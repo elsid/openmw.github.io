@@ -1,51 +1,51 @@
 <map id="MWClass::Npc::getArmorRating" name="MWClass::Npc::getArmorRating">
-<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1437,1776,1632,1803"/>
-<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1452,1014,1617,1055"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1443,1080,1626,1107"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1445,1324,1624,1351"/>
-<area shape="rect" id="node6" href="$classMWClass_1_1Npc.html#a0cc99909b3aa876f47b51f9a2f0787b8" title="Return NPC stats. " alt="" coords="283,2459,482,2485"/>
-<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1155,2400,1355,2427"/>
-<area shape="rect" id="node27" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="1459,2248,1611,2275"/>
-<area shape="rect" id="node28" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="1433,2197,1636,2224"/>
-<area shape="rect" id="node38" href="$classMWClass_1_1Npc.html#a2eecffbe33c55f587deef2c02fe74284" title="Return inventory store. " alt="" coords="858,2367,1057,2409"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1451,2096,1618,2123"/>
-<area shape="rect" id="node45" href="$classMWWorld_1_1Class.html#a2e3500d145670331f2c4763ce4dca40b" title="Get the effective armor rating, factoring in the actor&#39;s skills, for the given armor. " alt="" coords="1153,1127,1356,1169"/>
-<area shape="rect" id="node49" href="$classMWWorld_1_1InventoryStore.html#a00638734d306421a8aa211947d759e65" title="MWWorld::InventoryStore\l::getSlot" alt="" coords="293,2839,473,2881"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1ContainerStore.html#ab7165a7ef4e2053f7c0b712d017a9f5d" title="MWWorld::ContainerStore::end" alt="" coords="275,2905,490,2932"/>
-<area shape="rect" id="node7" href="$classMWClass_1_1Npc.html#ae30c8287ffac6a498be75704ab56b1ce" title="MWClass::Npc::ensureCustomData" alt="" coords="539,1645,783,1672"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="1163,2451,1346,2477"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1RefData.html#a1ef7b41e2a72ec06e8631e42bbd42b85" title="May return a 0&#45;pointer. The ownership of the return data object is not transferred. " alt="" coords="1131,2568,1378,2595"/>
-<area shape="rect" id="node39" href="$classMWWorld_1_1CustomData.html#a8d688fd4da107511883cb318354e8a44" title="MWWorld::CustomData\l::asNpcCustomData" alt="" coords="1171,2502,1338,2543"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="891,2215,1024,2241"/>
-<area shape="rect" id="node13" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#a28a6cc4f774a1bb063b2dce5a2d11e4f" title="anonymous_namespace\l\{npc::cpp\}::autoCalculateAttributes" alt="" coords="832,559,1083,601"/>
-<area shape="rect" id="node23" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#a998e6a19cdcfc69ac766d4c91ea28de7" title="autoCalculateSkills " alt="" coords="847,1346,1067,1387"/>
-<area shape="rect" id="node30" href="$structESM_1_1GameSetting.html#a1fcd19eb4d50405ecf1e9b4920a48f9d" title="Throws an exception if GMST is not of type int or float. " alt="" coords="1441,1936,1629,1963"/>
-<area shape="rect" id="node34" href="$structESM_1_1NPC.html#a1a6d06ae3a7195678a040012984a4a6c" title="ESM::NPC::getFactionRank" alt="" coords="862,1143,1053,1169"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="870,1193,1045,1220"/>
-<area shape="rect" id="node36" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="864,1244,1051,1271"/>
-<area shape="rect" id="node37" href="$classMWWorld_1_1RefData.html#a94031b8ea51ee0c861645eb41d5b6907" title="MWWorld::RefData::setCustomData" alt="" coords="835,1295,1080,1321"/>
-<area shape="rect" id="node40" href="$classMWWorld_1_1InventoryStore.html#ace68a9487faec33c6b060e4e9b60474c" title="Auto equip items according to stats and item value. " alt="" coords="867,1929,1047,1970"/>
-<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1427,2400,1643,2427"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1CreatureStats.html#af985a6ec0b4a8b13f8a4842c8dbffe62" title="MWMechanics::CreatureStats\l::getLevel" alt="" coords="1150,778,1359,819"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#a8283f726e62dfd0744e115143e68c294" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="1150,37,1359,78"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="1430,197,1639,238"/>
-<area shape="rect" id="node19" href="$classMWMechanics_1_1AttributeValue.html#aaf2aaa6848d18ab931777fb9096e0d45" title="MWMechanics::AttributeValue\l::getBase" alt="" coords="1149,843,1360,885"/>
-<area shape="rect" id="node20" href="$namespaceCompiler_1_1Generator.html#a634c38e92425ef8c475cce667f4b65dd" title="Compiler::Generator::add" alt="" coords="1163,508,1347,535"/>
-<area shape="rect" id="node21" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#ae81c6aca067349cf212a7809c6ab8014" title="anonymous_namespace\l\{npc::cpp\}::round_ieee_754" alt="" coords="1153,909,1356,950"/>
-<area shape="rect" id="node22" href="$classMWMechanics_1_1CreatureStats.html#ac2dce1e426c133341b70c14b850e1cf5" title="MWMechanics::CreatureStats\l::setHealth" alt="" coords="1150,559,1359,601"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="1429,5,1640,46"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1CreatureStats.html#ae962c8518e43e517e2aec4d89a5aafe2" title="MWMechanics::CreatureStats\l::getFatigue" alt="" coords="1430,70,1639,111"/>
-<area shape="rect" id="node24" href="$classMWMechanics_1_1NpcStats.html#ab1e372c44ef1d0159a4c5041ca5a0b57" title="MWMechanics::NpcStats\l::getSkill" alt="" coords="1165,1193,1344,1234"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1AttributeValue.html#a134d708bb240e7baa1958b68efcafcdf" title="MWMechanics::AttributeValue\l::setBase" alt="" coords="1149,1258,1360,1299"/>
-<area shape="rect" id="node26" href="$namespaceMWMechanics.html#a4fa98f32d116fa3a5958173c41138dc8" title="MWMechanics::autoCalcNpc\lSpells" alt="" coords="1155,1710,1355,1751"/>
-<area shape="rect" id="node32" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="1150,1375,1359,1417"/>
-<area shape="rect" id="node33" href="$classMWMechanics_1_1Spells.html#acb995a57e484a88c9360893e3aa3113b" title="Adding a spell that is already listed in *this is a no&#45;op. " alt="" coords="1160,1441,1349,1468"/>
-<area shape="rect" id="node29" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="1699,2197,1861,2224"/>
-<area shape="rect" id="node31" href="$classESM_1_1Variant.html#aad77cad9a160b176ea71e09ecf2c55a5" title="ESM::Variant::getInteger" alt="" coords="1691,1936,1869,1963"/>
-<area shape="rect" id="node42" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="1151,2147,1359,2173"/>
-<area shape="rect" id="node43" href="$namespaceanonymous__namespace_02scripttest_8cpp_03.html#a432f46f92d6f83ca6e8a15e5eaa810ba" title="anonymous_namespace\l\{scripttest::cpp\}::test" alt="" coords="1165,1645,1344,1686"/>
-<area shape="rect" id="node44" href="$classMWWorld_1_1Class.html#a25f3a662bba018c9a49c440443c27dbf" title="MWWorld::Class::canBeEquipped" alt="" coords="1141,1827,1368,1853"/>
-<area shape="rect" id="node46" href="$classMWWorld_1_1Class.html#a2a42b6ff7fc3f516327ab9171a6834ba" title="MWWorld::Class::getValue" alt="" coords="1163,1877,1347,1904"/>
-<area shape="rect" id="node47" href="$classMWWorld_1_1Class.html#a52f0c0c5d21fc6c3ba9bc85b923f137b" title="MWWorld::Class::getEquipment\lSlots" alt="" coords="1145,1929,1364,1970"/>
-<area shape="rect" id="node48" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="1153,1995,1356,2021"/>
+<area shape="rect" id="node2" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1435,915,1629,941"/>
+<area shape="rect" id="node3" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1449,966,1615,1007"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1441,1749,1623,1776"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1443,1472,1621,1499"/>
+<area shape="rect" id="node6" href="$classMWClass_1_1Npc.html#a0cc99909b3aa876f47b51f9a2f0787b8" title="Return NPC stats. " alt="" coords="283,2803,482,2829"/>
+<area shape="rect" id="node28" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="1456,1859,1608,1885"/>
+<area shape="rect" id="node29" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="1451,2423,1613,2449"/>
+<area shape="rect" id="node39" href="$classMWClass_1_1Npc.html#a2eecffbe33c55f587deef2c02fe74284" title="Return inventory store. " alt="" coords="858,2753,1057,2794"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1InventoryStore.html#a00638734d306421a8aa211947d759e65" title="MWWorld::InventoryStore\l::getSlot" alt="" coords="293,2854,473,2895"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1ContainerStore.html#af12bf9cfbe2b86e1d053036f38a2afc7" title="MWWorld::ContainerStore::end" alt="" coords="275,2920,490,2947"/>
+<area shape="rect" id="node7" href="$classMWClass_1_1Npc.html#ae30c8287ffac6a498be75704ab56b1ce" title="MWClass::Npc::ensureCustomData" alt="" coords="539,2321,783,2348"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="1163,2752,1346,2779"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1RefData.html#a1ef7b41e2a72ec06e8631e42bbd42b85" title="May return a 0&#45;pointer. The ownership of the return data object is not transferred. " alt="" coords="1131,2803,1378,2829"/>
+<area shape="rect" id="node40" href="$classMWWorld_1_1CustomData.html#a8d688fd4da107511883cb318354e8a44" title="MWWorld::CustomData\l::asNpcCustomData" alt="" coords="1171,2883,1338,2925"/>
+<area shape="rect" id="node10" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="1188,2651,1321,2677"/>
+<area shape="rect" id="node13" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#a28a6cc4f774a1bb063b2dce5a2d11e4f" title="anonymous_namespace\l\{npc::cpp\}::autoCalculateAttributes" alt="" coords="832,535,1083,577"/>
+<area shape="rect" id="node24" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#a998e6a19cdcfc69ac766d4c91ea28de7" title="autoCalculateSkills " alt="" coords="847,1137,1067,1178"/>
+<area shape="rect" id="node30" href="$classESM_1_1Variant.html#aad77cad9a160b176ea71e09ecf2c55a5" title="ESM::Variant::getInteger" alt="" coords="1443,2372,1621,2399"/>
+<area shape="rect" id="node33" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1449,2321,1615,2348"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1Class.html#aad3f1668098dcb555bf9deb185b7ba79" title="MWWorld::Class::isPersistent" alt="" coords="856,2245,1059,2272"/>
+<area shape="rect" id="node35" href="$structESM_1_1NPC.html#a1a6d06ae3a7195678a040012984a4a6c" title="ESM::NPC::getFactionRank" alt="" coords="862,2296,1053,2323"/>
+<area shape="rect" id="node36" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="870,2347,1045,2373"/>
+<area shape="rect" id="node37" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="864,2397,1051,2424"/>
+<area shape="rect" id="node38" href="$classMWWorld_1_1RefData.html#a94031b8ea51ee0c861645eb41d5b6907" title="MWWorld::RefData::setCustomData" alt="" coords="835,1085,1080,1112"/>
+<area shape="rect" id="node41" href="$classMWWorld_1_1InventoryStore.html#ace68a9487faec33c6b060e4e9b60474c" title="Auto equip items according to stats and item value. " alt="" coords="867,2121,1047,2162"/>
+<area shape="rect" id="node11" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1432,2575,1632,2601"/>
+<area shape="rect" id="node12" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1685,2575,1901,2601"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1CreatureStats.html#af985a6ec0b4a8b13f8a4842c8dbffe62" title="MWMechanics::CreatureStats\l::getLevel" alt="" coords="1150,802,1359,843"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CreatureStats.html#a8283f726e62dfd0744e115143e68c294" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="1150,81,1359,122"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="1427,201,1637,242"/>
+<area shape="rect" id="node20" href="$classMWMechanics_1_1AttributeValue.html#aaf2aaa6848d18ab931777fb9096e0d45" title="MWMechanics::AttributeValue\l::getBase" alt="" coords="1149,619,1360,661"/>
+<area shape="rect" id="node21" href="$namespaceCompiler_1_1Generator.html#a634c38e92425ef8c475cce667f4b65dd" title="Compiler::Generator::add" alt="" coords="1163,400,1347,427"/>
+<area shape="rect" id="node22" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#ae81c6aca067349cf212a7809c6ab8014" title="anonymous_namespace\l\{npc::cpp\}::round_ieee_754" alt="" coords="1153,685,1356,726"/>
+<area shape="rect" id="node23" href="$classMWMechanics_1_1CreatureStats.html#ac2dce1e426c133341b70c14b850e1cf5" title="MWMechanics::CreatureStats\l::setHealth" alt="" coords="1150,451,1359,493"/>
+<area shape="rect" id="node17" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="1427,135,1637,177"/>
+<area shape="rect" id="node18" href="$classMWMechanics_1_1CreatureStats.html#ae962c8518e43e517e2aec4d89a5aafe2" title="MWMechanics::CreatureStats\l::getFatigue" alt="" coords="1427,5,1637,46"/>
+<area shape="rect" id="node19" href="$classMWMechanics_1_1DynamicStat.html#ae0d63da7d2ef44216a8535b68c581bd0" title="MWMechanics::DynamicStat\l::getBase" alt="" coords="1431,70,1633,111"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1NpcStats.html#ab1e372c44ef1d0159a4c5041ca5a0b57" title="MWMechanics::NpcStats\l::getSkill" alt="" coords="1165,1254,1344,1295"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1AttributeValue.html#a134d708bb240e7baa1958b68efcafcdf" title="MWMechanics::AttributeValue\l::setBase" alt="" coords="1149,1071,1360,1113"/>
+<area shape="rect" id="node27" href="$namespaceMWMechanics.html#a4fa98f32d116fa3a5958173c41138dc8" title="MWMechanics::autoCalcNpc\lSpells" alt="" coords="1155,1742,1355,1783"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="1150,1137,1359,1178"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1Spells.html#acb995a57e484a88c9360893e3aa3113b" title="Adding a spell that is already listed in *this is a no&#45;op. " alt="" coords="1160,1203,1349,1229"/>
+<area shape="rect" id="node42" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="1151,2011,1359,2037"/>
+<area shape="rect" id="node43" href="$namespaceanonymous__namespace_02scripttest_8cpp_03.html#a432f46f92d6f83ca6e8a15e5eaa810ba" title="anonymous_namespace\l\{scripttest::cpp\}::test" alt="" coords="1165,1523,1344,1565"/>
+<area shape="rect" id="node44" href="$classMWWorld_1_1Class.html#a25f3a662bba018c9a49c440443c27dbf" title="MWWorld::Class::canBeEquipped" alt="" coords="1141,2061,1368,2088"/>
+<area shape="rect" id="node45" href="$classMWWorld_1_1Class.html#a811dcca1a7c70903b056d487ed6b0ede" title="Get the effective armor rating, factoring in the actor&#39;s skills, for the given armor. " alt="" coords="1153,2113,1356,2154"/>
+<area shape="rect" id="node46" href="$classMWWorld_1_1Class.html#a2a42b6ff7fc3f516327ab9171a6834ba" title="MWWorld::Class::getValue" alt="" coords="1163,2179,1347,2205"/>
+<area shape="rect" id="node47" href="$classMWWorld_1_1Class.html#a52f0c0c5d21fc6c3ba9bc85b923f137b" title="MWWorld::Class::getEquipment\lSlots" alt="" coords="1145,2230,1364,2271"/>
+<area shape="rect" id="node48" href="$classMWWorld_1_1RefData.html#aef6884db8233415bc1a322ea531db88d" title="MWWorld::RefData::getCount" alt="" coords="1153,1960,1356,1987"/>
 </map>

@@ -1,14 +1,17 @@
 <map id="MWScript::Cell::OpCOC::execute" name="MWScript::Cell::OpCOC::execute">
-<area shape="rect" id="node2" href="$classInterpreter_1_1Runtime.html#a48ee08f88ec29e0b2f5432b685b89f83" title="Interpreter::Runtime\l::getStringLiteral" alt="" coords="275,5,426,46"/>
-<area shape="rect" id="node3" href="$classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64" title="pop stack " alt="" coords="259,71,442,97"/>
-<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="253,121,448,148"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="268,173,433,214"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a2ce315b257c7352fca67ee810180eb58" title="MWBase::World::getPlayer" alt="" coords="257,239,444,265"/>
-<area shape="rect" id="node7" href="$classMWWorld_1_1Player.html#adfdc7702c2fc6b8a542598cd1821ab6e" title="MWWorld::Player::setTeleported" alt="" coords="241,289,460,316"/>
-<area shape="rect" id="node8" href="$classMWBase_1_1World.html#a1dde3044be8e131865a1527117decb01" title="MWBase::World::findExterior\lPosition" alt="" coords="251,341,450,382"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1World.html#ad40dc9f7558c1b9e28af660062f70c8e" title="MWBase::World::changeToExteriorCell" alt="" coords="221,407,480,433"/>
-<area shape="rect" id="node10" href="$classMWBase_1_1World.html#a0b8ff18bea40c80ba292158185bcad0b" title="Attempt to fix position so that the Ptr is no longer inside collision geometry. " alt="" coords="255,457,446,484"/>
-<area shape="rect" id="node11" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="249,508,453,535"/>
-<area shape="rect" id="node12" href="$classMWBase_1_1World.html#acc224d436061a44e045cca090ef11aec" title="MWBase::World::findInterior\lPosition" alt="" coords="253,559,448,601"/>
-<area shape="rect" id="node13" href="$classMWBase_1_1World.html#a6c7495e783078182b2f0870b31192a7d" title="MWBase::World::changeToInteriorCell" alt="" coords="223,625,478,652"/>
+<area shape="rect" id="node2" href="$classInterpreter_1_1Runtime.html#a48ee08f88ec29e0b2f5432b685b89f83" title="Interpreter::Runtime\l::getStringLiteral" alt="" coords="254,5,405,46"/>
+<area shape="rect" id="node3" href="$classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64" title="pop stack " alt="" coords="238,71,421,97"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="725,405,920,432"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="740,125,905,166"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="721,212,925,239"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1World.html#a1dde3044be8e131865a1527117decb01" title="MWBase::World::findExterior\lPosition" alt="" coords="230,427,429,469"/>
+<area shape="rect" id="node8" href="$classMWWorld_1_1Action.html#a40a02d650fbcc77561d98c2ec4d50b18" title="MWWorld::Action::execute" alt="" coords="237,376,422,403"/>
+<area shape="rect" id="node15" href="$classMWBase_1_1World.html#a31be1c748f329691a3c89d7c641b800f" title="MWBase::World::adjustPosition" alt="" coords="222,704,437,731"/>
+<area shape="rect" id="node16" href="$classMWBase_1_1World.html#acc224d436061a44e045cca090ef11aec" title="MWBase::World::findInterior\lPosition" alt="" coords="232,755,427,797"/>
+<area shape="rect" id="node9" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="489,223,668,249"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="496,457,661,498"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1WindowManager.html#acbea74d90003b269859a0d8c8c2cc5c4" title="MWBase::WindowManager\l::isGuiMode" alt="" coords="485,522,672,563"/>
+<area shape="rect" id="node12" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="496,587,661,629"/>
+<area shape="rect" id="node13" href="$classMWBase_1_1SoundManager.html#a6cbd39be0a33c81c6f6da6ca37267d1a" title="MWBase::SoundManager\l::playSound" alt="" coords="488,274,669,315"/>
+<area shape="rect" id="node14" href="$classMWBase_1_1SoundManager.html#a8d1c492f97504786ce42225af0471af3" title="MWBase::SoundManager\l::playSound3D" alt="" coords="488,339,669,381"/>
 </map>

@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -97,6 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classMWWorld_1_1ESMStore-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -108,7 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWWorld::ESMStore:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore__coll__graph.svg" width="7050" height="1416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore__coll__graph.svg" width="7048" height="1432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -135,27 +136,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a74dd25b4b1f21facc5dd7b9174cf2e74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a74dd25b4b1f21facc5dd7b9174cf2e74">load</a> (<a class="el" href="classESM_1_1ESMReader.html">ESM::ESMReader</a> &amp;esm, <a class="el" href="classLoading_1_1Listener.html">Loading::Listener</a> *listener)</td></tr>
 <tr class="separator:a74dd25b4b1f21facc5dd7b9174cf2e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94ffe201bd012dd41fcdabfb35c69e24"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a94ffe201bd012dd41fcdabfb35c69e24"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classMWWorld_1_1Store.html">Store</a>&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24">get</a> () const </td></tr>
+<tr class="memitem:a94ffe201bd012dd41fcdabfb35c69e24"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classMWWorld_1_1Store.html">Store</a>&lt; <a class="el" href="classGui_1_1T.html">T</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24">get</a> () const </td></tr>
 <tr class="separator:a94ffe201bd012dd41fcdabfb35c69e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1cd84a1e53673631587072d76dc68cb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ab1cd84a1e53673631587072d76dc68cb"><td class="memTemplItemLeft" align="right" valign="top">const T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#ab1cd84a1e53673631587072d76dc68cb">insert</a> (const T &amp;x)</td></tr>
+<tr class="memitem:ab1cd84a1e53673631587072d76dc68cb"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classGui_1_1T.html">T</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#ab1cd84a1e53673631587072d76dc68cb">insert</a> (const <a class="el" href="classGui_1_1T.html">T</a> &amp;x)</td></tr>
 <tr class="memdesc:ab1cd84a1e53673631587072d76dc68cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a custom record (i.e. with a generated ID that will not clash will pre-existing records)  <a href="#ab1cd84a1e53673631587072d76dc68cb">More...</a><br/></td></tr>
 <tr class="separator:ab1cd84a1e53673631587072d76dc68cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a797dacc136cb603cb3e71680b5e715f7"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a797dacc136cb603cb3e71680b5e715f7"><td class="memTemplItemLeft" align="right" valign="top">const T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a797dacc136cb603cb3e71680b5e715f7">overrideRecord</a> (const T &amp;x)</td></tr>
+<tr class="memitem:a797dacc136cb603cb3e71680b5e715f7"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classGui_1_1T.html">T</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a797dacc136cb603cb3e71680b5e715f7">overrideRecord</a> (const <a class="el" href="classGui_1_1T.html">T</a> &amp;x)</td></tr>
 <tr class="memdesc:a797dacc136cb603cb3e71680b5e715f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a record with set ID, and allow it to override a pre-existing static record.  <a href="#a797dacc136cb603cb3e71680b5e715f7">More...</a><br/></td></tr>
 <tr class="separator:a797dacc136cb603cb3e71680b5e715f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a754ff64f14396ec18c380f28f0ce07c8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a754ff64f14396ec18c380f28f0ce07c8"><td class="memTemplItemLeft" align="right" valign="top">const T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a754ff64f14396ec18c380f28f0ce07c8">insertStatic</a> (const T &amp;x)</td></tr>
+<tr class="memitem:a754ff64f14396ec18c380f28f0ce07c8"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classGui_1_1T.html">T</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a754ff64f14396ec18c380f28f0ce07c8">insertStatic</a> (const <a class="el" href="classGui_1_1T.html">T</a> &amp;x)</td></tr>
 <tr class="separator:a754ff64f14396ec18c380f28f0ce07c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87a124e04508d33e5c11a8fec6d7c5cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a87a124e04508d33e5c11a8fec6d7c5cf">setUp</a> ()</td></tr>
-<tr class="separator:a87a124e04508d33e5c11a8fec6d7c5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aded6d469b653d4673f41a9385867a8cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#aded6d469b653d4673f41a9385867a8cf">setUp</a> (<a class="el" href="classbool.html">bool</a> validateRecords=false)</td></tr>
+<tr class="separator:aded6d469b653d4673f41a9385867a8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12cf3fda87d23560f899d4b8109f8955"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a12cf3fda87d23560f899d4b8109f8955">countSavedGameRecords</a> () const </td></tr>
 <tr class="separator:a12cf3fda87d23560f899d4b8109f8955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa13eedee31e00ed726d8dd6633a2d63f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#aa13eedee31e00ed726d8dd6633a2d63f">write</a> (<a class="el" href="classESM_1_1ESMWriter.html">ESM::ESMWriter</a> &amp;writer, <a class="el" href="classLoading_1_1Listener.html">Loading::Listener</a> &amp;progress) const </td></tr>
 <tr class="separator:aa13eedee31e00ed726d8dd6633a2d63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34d11ef2e05bd77c602c205d30bd28c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#a34d11ef2e05bd77c602c205d30bd28c7">readRecord</a> (<a class="el" href="classESM_1_1ESMReader.html">ESM::ESMReader</a> &amp;reader, uint32_t type)</td></tr>
 <tr class="separator:a34d11ef2e05bd77c602c205d30bd28c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aa0414fb939404ab2fc97a8e9d817aedb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1ESMStore.html#aa0414fb939404ab2fc97a8e9d817aedb">validate</a> ()</td></tr>
+<tr class="memdesc:aa0414fb939404ab2fc97a8e9d817aedb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate entries in store after setup.  <a href="#aa0414fb939404ab2fc97a8e9d817aedb">More...</a><br/></td></tr>
+<tr class="separator:aa0414fb939404ab2fc97a8e9d817aedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -262,7 +269,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000068">Todo:</a></b></dt><dd>replace with SharedIterator&lt;StoreBase&gt; </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000064">Todo:</a></b></dt><dd>replace with SharedIterator&lt;StoreBase&gt; </dd></dl>
 
 </div>
 </div>
@@ -475,7 +482,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classMWWorld_1_1Store.html">Store</a>&lt;T&gt;&amp; MWWorld::ESMStore::get </td>
+          <td class="memname">const <a class="el" href="classMWWorld_1_1Store.html">Store</a>&lt;<a class="el" href="classGui_1_1T.html">T</a>&gt;&amp; MWWorld::ESMStore::get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -500,9 +507,9 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const T* MWWorld::ESMStore::insert </td>
+          <td class="memname">const <a class="el" href="classGui_1_1T.html">T</a>* MWWorld::ESMStore::insert </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classGui_1_1T.html">T</a> &amp;&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
           <td></td>
         </tr>
@@ -527,7 +534,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_ab1cd84a1e53673631587072d76dc68cb_icgraph.svg" width="2547" height="942"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_ab1cd84a1e53673631587072d76dc68cb_icgraph.svg" width="2299" height="611"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -544,9 +551,9 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const T* MWWorld::ESMStore::insertStatic </td>
+          <td class="memname">const <a class="el" href="classGui_1_1T.html">T</a>* MWWorld::ESMStore::insertStatic </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classGui_1_1T.html">T</a> &amp;&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
           <td></td>
         </tr>
@@ -599,7 +606,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000067">Todo:</a></b></dt><dd>Move this to somewhere else. ESMReader? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000063">Todo:</a></b></dt><dd>Move this to somewhere else. ESMReader? </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -668,9 +675,9 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const T* MWWorld::ESMStore::overrideRecord </td>
+          <td class="memname">const <a class="el" href="classGui_1_1T.html">T</a>* MWWorld::ESMStore::overrideRecord </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classGui_1_1T.html">T</a> &amp;&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
           <td></td>
         </tr>
@@ -730,7 +737,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_a34d11ef2e05bd77c602c205d30bd28c7_cgraph.svg" width="1635" height="598"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_a34d11ef2e05bd77c602c205d30bd28c7_cgraph.svg" width="1635" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -745,14 +752,15 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a87a124e04508d33e5c11a8fec6d7c5cf"></a>
+<a class="anchor" id="aded6d469b653d4673f41a9385867a8cf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void MWWorld::ESMStore::setUp </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>validateRecords</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -761,7 +769,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_a87a124e04508d33e5c11a8fec6d7c5cf_cgraph.svg" width="424" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_aded6d469b653d4673f41a9385867a8cf_cgraph.svg" width="1190" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -769,7 +777,48 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_a87a124e04508d33e5c11a8fec6d7c5cf_icgraph.svg" width="632" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_aded6d469b653d4673f41a9385867a8cf_icgraph.svg" width="632" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0414fb939404ab2fc97a8e9d817aedb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWWorld::ESMStore::validate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Validate entries in store after setup. </p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_aa0414fb939404ab2fc97a8e9d817aedb_cgraph.svg" width="934" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1ESMStore_aa0414fb939404ab2fc97a8e9d817aedb_icgraph.svg" width="838" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1740,13 +1789,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="esmstore_8hpp_source.html">esmstore.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="esmstore_8cpp.html">esmstore.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="esmstore_8hpp_source.html">esmstore.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="esmstore_8cpp.html">esmstore.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:07 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:40 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

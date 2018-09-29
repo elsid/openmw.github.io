@@ -1,48 +1,51 @@
 <map id="MWGui::EnchantingDialog::onSoulSelected" name="MWGui::EnchantingDialog::onSoulSelected">
-<area shape="rect" id="node2" href="$classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea" title="Sets the visibility of the window. " alt="" coords="276,129,436,171"/>
-<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1279,342,1473,369"/>
-<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="536,217,701,259"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1Enchanting.html#a35320be49d8db95a6b97cf8730a4872f" title="MWMechanics::Enchanting\l::setSoulGem" alt="" coords="1011,1188,1202,1229"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1Enchanting.html#a1f0925cb67c1f797445c37e4850f9059" title="MWMechanics::Enchanting\l::getGemCharge" alt="" coords="1011,487,1202,528"/>
-<area shape="rect" id="node17" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="263,1289,449,1331"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1EnchantingDialog.html#a94dad34d1623948aba9bd6c45e4e080f" title="MWGui::EnchantingDialog\l::setSoulGem" alt="" coords="767,1243,951,1284"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1293,1133,1459,1159"/>
-<area shape="rect" id="node24" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="273,1355,439,1396"/>
-<area shape="rect" id="node25" href="$classMWBase_1_1SoundManager.html#a86faa2600e30cc6fd9b127e12d1c12bc" title="MWBase::SoundManager\l::playSound" alt="" coords="265,1420,447,1461"/>
-<area shape="rect" id="node26" href="$classMWWorld_1_1Class.html#a575e66b5adb143195d5393cc921a81af" title="MWWorld::Class::getDownSoundId" alt="" coords="238,1486,474,1513"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1EnchantingDialog.html#a29006efc3c8f4bbc17f47cf3021160c2" title="MWGui::EnchantingDialog\l::updateLabels" alt="" coords="264,691,448,732"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" title="Notify that window has been made visible. " alt="" coords="523,166,715,193"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" title="Notify that window has been hidden. " alt="" coords="539,35,699,76"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="525,100,712,141"/>
-<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1293,611,1459,652"/>
-<area shape="rect" id="node11" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1285,677,1467,703"/>
-<area shape="rect" id="node12" href="$classMWMechanics_1_1Enchanting.html#a2f063c0a1d3f809364fd0fe82b580715" title="MWMechanics::Enchanting\l::soulEmpty" alt="" coords="1281,545,1471,587"/>
-<area shape="rect" id="node14" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="1289,494,1463,521"/>
-<area shape="rect" id="node15" href="$classMWWorld_1_1CellRef.html#a4f92e5fcdd850e09b8e49a80f7c6f7de" title="MWWorld::CellRef::getSoul" alt="" coords="1283,443,1469,470"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1287,727,1465,754"/>
-<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="1541,1019,1704,1046"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1ItemWidget.html#a5f711291cd5dcf91b47b1471642000dd" title="ptr may be empty " alt="" coords="1030,1331,1183,1372"/>
-<area shape="rect" id="node21" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="1259,1409,1493,1435"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1ItemWidget.html#a337efa47c7a34bd2b5238ccfcee39dc5" title="MWGui::ItemWidget::\lsetFrame" alt="" coords="1299,1460,1453,1501"/>
-<area shape="rect" id="node23" href="$classMWGui_1_1ItemWidget.html#a3f47473fba1f4622712370bc4ee723ad" title="MWGui::ItemWidget::\lsetIcon" alt="" coords="1299,1343,1453,1384"/>
-<area shape="rect" id="node28" href="$classMWMechanics_1_1Enchanting.html#ae97761ee4b4b87f1fe8d5db8ebcafc87" title="MWMechanics::Enchanting\l::getEnchantPoints" alt="" coords="1011,552,1202,593"/>
-<area shape="rect" id="node31" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="524,839,713,880"/>
-<area shape="rect" id="node33" href="$classMWMechanics_1_1Enchanting.html#a4751a5f4d038f973987d9a60c110998a" title="MWMechanics::Enchanting\l::getMaxEnchantValue" alt="" coords="1011,953,1202,995"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1Enchanting.html#ac2b022d8267ca7a20b50b1e7f5b4a7ca" title="MWMechanics::Enchanting\l::getEffectiveCastCost" alt="" coords="523,604,714,645"/>
-<area shape="rect" id="node42" href="$classMWMechanics_1_1Enchanting.html#a57ebf98fec6c3841e333480dda7186d6" title="MWMechanics::Enchanting\l::getEnchantPrice" alt="" coords="763,721,954,763"/>
-<area shape="rect" id="node45" href="$classMWMechanics_1_1Enchanting.html#ac188fd2974df7a2765899c32bbeb7e33" title="MWMechanics::Enchanting\l::getCastStyle" alt="" coords="523,904,714,945"/>
-<area shape="rect" id="node46" href="$classMWGui_1_1EffectEditorBase.html#a9a48918eee9dae0ef698cd243d38f0d8" title="MWGui::EffectEditorBase\l::setConstantEffect" alt="" coords="529,461,708,503"/>
-<area shape="rect" id="node29" href="$structESM_1_1GameSetting.html#adf86d0e6166ce3e4ec8a75ab31380344" title="Throws an exception if GMST is not of type int or float. " alt="" coords="1275,778,1477,805"/>
-<area shape="rect" id="node30" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="1541,778,1704,805"/>
-<area shape="rect" id="node32" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="833,889,884,915"/>
-<area shape="rect" id="node34" href="$classMWMechanics_1_1Enchanting.html#ac414a24f9bb39f6009e6887aa200fd4f" title="MWMechanics::Enchanting\l::itemEmpty" alt="" coords="1281,953,1471,995"/>
-<area shape="rect" id="node35" href="$classMWWorld_1_1Class.html#a7074589a8302359e24d97d306078a637" title="MWWorld::Class::getEnchantment\lPoints" alt="" coords="1259,888,1493,929"/>
-<area shape="rect" id="node37" href="$classMWMechanics_1_1Enchanting.html#a0a4d9212856b6a8eb64c9d21502e4b01" title="MWMechanics::Enchanting\l::getBaseCastCost" alt="" coords="763,604,954,645"/>
-<area shape="rect" id="node38" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="1017,435,1196,462"/>
-<area shape="rect" id="node40" href="$namespaceMWMechanics.html#ac714764a9fca75e0f97d37c3048e81fb" title="MWMechanics::getEffective\lEnchantmentCastCost" alt="" coords="1009,1071,1204,1112"/>
-<area shape="rect" id="node39" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1274,393,1478,419"/>
-<area shape="rect" id="node41" href="$classMWWorld_1_1Class.html#a34eba4af23abc1b06b41fc93bf816b5c" title="MWWorld::Class::getSkill" alt="" coords="1289,1078,1463,1105"/>
-<area shape="rect" id="node43" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="1019,771,1194,812"/>
-<area shape="rect" id="node44" href="$classMWBase_1_1MechanicsManager.html#a9c08bc46cec81a7f65f47ef060680eb4" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="1003,836,1210,877"/>
-<area shape="rect" id="node47" href="$classMWGui_1_1EditEffectDialog.html#a264028f65a8a8e340770c602f4addfa7" title="MWGui::EditEffectDialog\l::setConstantEffect" alt="" coords="772,436,945,477"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea" title="Sets the visibility of the window. " alt="" coords="276,319,436,361"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1293,929,1488,956"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="536,407,701,449"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1Enchanting.html#a3398732c3df0e3a14f74373c89d3fa02" title="MWMechanics::Enchanting\l::setSoulGem" alt="" coords="765,290,955,331"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1Enchanting.html#a1f0925cb67c1f797445c37e4850f9059" title="MWMechanics::Enchanting\l::getGemCharge" alt="" coords="765,551,955,593"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1WindowManager.html#a31b3076552c3c3bfd579d45a5068109a" title="MWBase::WindowManager\l::messageBox" alt="" coords="263,575,449,617"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1EnchantingDialog.html#a94dad34d1623948aba9bd6c45e4e080f" title="MWGui::EnchantingDialog\l::setSoulGem" alt="" coords="527,94,711,135"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1039,812,1206,839"/>
+<area shape="rect" id="node24" href="$classMWBase_1_1WindowManager.html#ad3a14c537b57b319388d629ea01e2386" title="MWBase::WindowManager\l::playSound" alt="" coords="263,762,449,803"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1Class.html#a575e66b5adb143195d5393cc921a81af" title="MWWorld::Class::getDownSoundId" alt="" coords="238,828,474,855"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1EnchantingDialog.html#a29006efc3c8f4bbc17f47cf3021160c2" title="MWGui::EnchantingDialog\l::updateLabels" alt="" coords="264,1090,448,1131"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" title="Notify that window has been made visible. " alt="" coords="539,159,699,201"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" title="Notify that window has been hidden. " alt="" coords="539,225,699,266"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="525,290,712,331"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1308,1191,1473,1233"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1299,1519,1482,1545"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1Enchanting.html#a2f063c0a1d3f809364fd0fe82b580715" title="MWMechanics::Enchanting\l::soulEmpty" alt="" coords="1027,290,1218,331"/>
+<area shape="rect" id="node14" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="1035,457,1210,484"/>
+<area shape="rect" id="node15" href="$classMWWorld_1_1CellRef.html#a4f92e5fcdd850e09b8e49a80f7c6f7de" title="MWWorld::CellRef::getSoul" alt="" coords="1030,508,1215,535"/>
+<area shape="rect" id="node16" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1301,1803,1480,1829"/>
+<area shape="rect" id="node13" href="$classMWWorld_1_1Ptr.html#a0662c1165166221fd0f874e37ac24613" title="MWWorld::Ptr::isEmpty" alt="" coords="1309,297,1472,324"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1ItemWidget.html#a5f711291cd5dcf91b47b1471642000dd" title="ptr may be empty " alt="" coords="783,109,937,150"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1Class.html#a0ebc789aa414ffebfd4d5c86f9523042" title="MWWorld::Class::getEnchantment" alt="" coords="1005,5,1240,32"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1ItemWidget.html#a337efa47c7a34bd2b5238ccfcee39dc5" title="MWGui::ItemWidget::\lsetFrame" alt="" coords="1046,57,1199,98"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1ItemWidget.html#a3f47473fba1f4622712370bc4ee723ad" title="MWGui::ItemWidget::\lsetIcon" alt="" coords="1046,122,1199,163"/>
+<area shape="rect" id="node27" href="$classMWMechanics_1_1Enchanting.html#ae97761ee4b4b87f1fe8d5db8ebcafc87" title="MWMechanics::Enchanting\l::getEnchantPoints" alt="" coords="1027,1905,1218,1946"/>
+<area shape="rect" id="node29" href="$namespaceanonymous__namespace_02character_8cpp_03.html#a551df780ef62c57fe81b128fa596488c" title="anonymous_namespace\l\{character::cpp\}::toString" alt="" coords="524,939,713,981"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1Enchanting.html#a4751a5f4d038f973987d9a60c110998a" title="MWMechanics::Enchanting\l::getMaxEnchantValue" alt="" coords="765,1090,955,1131"/>
+<area shape="rect" id="node34" href="$classMWMechanics_1_1Enchanting.html#a6d98ce0a7bcecc7465bb2fd81be11cc2" title="MWMechanics::Enchanting\l::getEnchantChance" alt="" coords="765,1486,955,1527"/>
+<area shape="rect" id="node40" href="$classMWMechanics_1_1Enchanting.html#ac2b022d8267ca7a20b50b1e7f5b4a7ca" title="MWMechanics::Enchanting\l::getEffectiveCastCost" alt="" coords="523,1031,714,1073"/>
+<area shape="rect" id="node45" href="$classMWMechanics_1_1Enchanting.html#a57ebf98fec6c3841e333480dda7186d6" title="MWMechanics::Enchanting\l::getEnchantPrice" alt="" coords="765,1963,955,2005"/>
+<area shape="rect" id="node48" href="$classMWMechanics_1_1Enchanting.html#ac188fd2974df7a2765899c32bbeb7e33" title="MWMechanics::Enchanting\l::getCastStyle" alt="" coords="523,1719,714,1761"/>
+<area shape="rect" id="node49" href="$classMWGui_1_1EffectEditorBase.html#a9a48918eee9dae0ef698cd243d38f0d8" title="MWGui::EffectEditorBase\l::setConstantEffect" alt="" coords="529,1919,708,1961"/>
+<area shape="rect" id="node28" href="$classESM_1_1Variant.html#aea165a94a08dac002c27cdf5784fabc7" title="Will throw an exception, if value can not be represented as a float value. " alt="" coords="1309,1967,1472,1993"/>
+<area shape="rect" id="node30" href="$gen__iconv_8cpp.html#a47a14d9c2f599fa2591017202978774d" title="num" alt="" coords="835,921,885,948"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1Enchanting.html#ac414a24f9bb39f6009e6887aa200fd4f" title="MWMechanics::Enchanting\l::itemEmpty" alt="" coords="1027,863,1218,905"/>
+<area shape="rect" id="node33" href="$classMWWorld_1_1Class.html#a7074589a8302359e24d97d306078a637" title="MWWorld::Class::getEnchantment\lPoints" alt="" coords="1005,1031,1240,1073"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1Class.html#a288815e0879a88ccd87b4871be64202b" title="MWWorld::Class::getNpcStats" alt="" coords="1019,1569,1227,1596"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1NpcStats.html#ab1e372c44ef1d0159a4c5041ca5a0b57" title="MWMechanics::NpcStats\l::getSkill" alt="" coords="1033,1621,1212,1662"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1AttributeValue.html#a3e84af12530d0e2cf3a45b25fa9b4fc8" title="MWMechanics::AttributeValue\l::getModified" alt="" coords="1017,1686,1228,1727"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CreatureStats.html#a4c54d8a712b5e278a0931b368b6bd0df" title="MWMechanics::CreatureStats\l::getAttribute" alt="" coords="1018,1402,1227,1443"/>
+<area shape="rect" id="node39" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="1047,1468,1199,1495"/>
+<area shape="rect" id="node41" href="$classMWMechanics_1_1Enchanting.html#a0a4d9212856b6a8eb64c9d21502e4b01" title="MWMechanics::Enchanting\l::getBaseCastCost" alt="" coords="765,1551,955,1593"/>
+<area shape="rect" id="node42" href="$namespaceMWMechanics.html#a90645fe67f9b8b658452cd004d2cbb65" title="MWMechanics::getPlayer" alt="" coords="1033,980,1212,1007"/>
+<area shape="rect" id="node44" href="$namespaceMWMechanics.html#ac714764a9fca75e0f97d37c3048e81fb" title="MWMechanics::getEffective\lEnchantmentCastCost" alt="" coords="763,973,957,1014"/>
+<area shape="rect" id="node43" href="$classMWBase_1_1World.html#a95005e26dcb7b1f6dc906eb518b95762" title="MWBase::World::getPlayerPtr" alt="" coords="1289,980,1493,1007"/>
+<area shape="rect" id="node46" href="$classMWBase_1_1Environment.html#a571bbf2793948af02f188c25f0a4ba23" title="MWBase::Environment\l::getMechanicsManager" alt="" coords="1035,2174,1210,2215"/>
+<area shape="rect" id="node47" href="$classMWBase_1_1MechanicsManager.html#a9c08bc46cec81a7f65f47ef060680eb4" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="1019,2239,1226,2281"/>
+<area shape="rect" id="node50" href="$classMWGui_1_1EditEffectDialog.html#a264028f65a8a8e340770c602f4addfa7" title="MWGui::EditEffectDialog\l::setConstantEffect" alt="" coords="773,2029,947,2070"/>
 </map>

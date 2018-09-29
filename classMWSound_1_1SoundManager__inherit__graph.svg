@@ -18,38 +18,38 @@
 <text text-anchor="start" x="7.5" y="-379" font-family="FreeSans" font-size="10.00">&#45; mFallback</text>
 <text text-anchor="start" x="7.5" y="-368" font-family="FreeSans" font-size="10.00">&#45; mOutput</text>
 <text text-anchor="start" x="7.5" y="-357" font-family="FreeSans" font-size="10.00">&#45; mMusicFiles</text>
-<text text-anchor="start" x="7.5" y="-346" font-family="FreeSans" font-size="10.00">&#45; mLastPlayedMusic</text>
-<text text-anchor="start" x="7.5" y="-335" font-family="FreeSans" font-size="10.00">&#45; mMasterVolume</text>
-<text text-anchor="start" x="7.5" y="-324" font-family="FreeSans" font-size="10.00">&#45; mSFXVolume</text>
-<text text-anchor="start" x="7.5" y="-313" font-family="FreeSans" font-size="10.00">&#45; mMusicVolume</text>
-<text text-anchor="start" x="7.5" y="-302" font-family="FreeSans" font-size="10.00">&#45; mVoiceVolume</text>
-<text text-anchor="start" x="7.5" y="-291" font-family="FreeSans" font-size="10.00">&#45; mFootstepsVolume</text>
-<text text-anchor="start" x="7.5" y="-280" font-family="FreeSans" font-size="10.00">and 24 more...</text>
+<text text-anchor="start" x="7.5" y="-346" font-family="FreeSans" font-size="10.00">&#45; mMusicToPlay</text>
+<text text-anchor="start" x="7.5" y="-335" font-family="FreeSans" font-size="10.00">&#45; mLastPlayedMusic</text>
+<text text-anchor="start" x="7.5" y="-324" font-family="FreeSans" font-size="10.00">&#45; mMasterVolume</text>
+<text text-anchor="start" x="7.5" y="-313" font-family="FreeSans" font-size="10.00">&#45; mSFXVolume</text>
+<text text-anchor="start" x="7.5" y="-302" font-family="FreeSans" font-size="10.00">&#45; mMusicVolume</text>
+<text text-anchor="start" x="7.5" y="-291" font-family="FreeSans" font-size="10.00">&#45; mVoiceVolume</text>
+<text text-anchor="start" x="7.5" y="-280" font-family="FreeSans" font-size="10.00">and 30 more...</text>
 <polyline fill="none" stroke="black" points="-0.5,-273 154.5,-273 "/>
 <text text-anchor="start" x="7.5" y="-261" font-family="FreeSans" font-size="10.00">+ SoundManager()</text>
 <text text-anchor="start" x="7.5" y="-250" font-family="FreeSans" font-size="10.00">+ ~SoundManager()</text>
 <text text-anchor="start" x="7.5" y="-239" font-family="FreeSans" font-size="10.00">+ processChangedSettings()</text>
 <text text-anchor="start" x="7.5" y="-228" font-family="FreeSans" font-size="10.00">+ stopMusic()</text>
 <text text-anchor="start" x="7.5" y="-217" font-family="FreeSans" font-size="10.00">+ streamMusic()</text>
-<text text-anchor="start" x="7.5" y="-206" font-family="FreeSans" font-size="10.00">+ startRandomTitle()</text>
-<text text-anchor="start" x="7.5" y="-195" font-family="FreeSans" font-size="10.00">+ isMusicPlaying()</text>
-<text text-anchor="start" x="7.5" y="-184" font-family="FreeSans" font-size="10.00">+ playPlaylist()</text>
+<text text-anchor="start" x="7.5" y="-206" font-family="FreeSans" font-size="10.00">+ isMusicPlaying()</text>
+<text text-anchor="start" x="7.5" y="-195" font-family="FreeSans" font-size="10.00">+ playPlaylist()</text>
+<text text-anchor="start" x="7.5" y="-184" font-family="FreeSans" font-size="10.00">+ say()</text>
 <text text-anchor="start" x="7.5" y="-173" font-family="FreeSans" font-size="10.00">+ say()</text>
-<text text-anchor="start" x="7.5" y="-162" font-family="FreeSans" font-size="10.00">+ say()</text>
-<text text-anchor="start" x="7.5" y="-151" font-family="FreeSans" font-size="10.00">and 22 more...</text>
+<text text-anchor="start" x="7.5" y="-162" font-family="FreeSans" font-size="10.00">+ sayDone()</text>
+<text text-anchor="start" x="7.5" y="-151" font-family="FreeSans" font-size="10.00">and 21 more...</text>
 <text text-anchor="start" x="7.5" y="-140" font-family="FreeSans" font-size="10.00"># getDecoder()</text>
-<text text-anchor="start" x="7.5" y="-129" font-family="FreeSans" font-size="10.00">&#45; insertSound()</text>
-<text text-anchor="start" x="7.5" y="-118" font-family="FreeSans" font-size="10.00">&#45; lookupSound()</text>
-<text text-anchor="start" x="7.5" y="-107" font-family="FreeSans" font-size="10.00">&#45; loadSound()</text>
-<text text-anchor="start" x="7.5" y="-96" font-family="FreeSans" font-size="10.00">&#45; loadVoice()</text>
-<text text-anchor="start" x="7.5" y="-85" font-family="FreeSans" font-size="10.00">&#45; playVoice()</text>
-<text text-anchor="start" x="7.5" y="-74" font-family="FreeSans" font-size="10.00">&#45; streamMusicFull()</text>
-<text text-anchor="start" x="7.5" y="-63" font-family="FreeSans" font-size="10.00">&#45; updateSounds()</text>
-<text text-anchor="start" x="7.5" y="-52" font-family="FreeSans" font-size="10.00">&#45; updateRegionSound()</text>
-<text text-anchor="start" x="7.5" y="-41" font-family="FreeSans" font-size="10.00">&#45; updateWaterSound()</text>
-<text text-anchor="start" x="7.5" y="-30" font-family="FreeSans" font-size="10.00">&#45; volumeFromType()</text>
-<text text-anchor="start" x="7.5" y="-19" font-family="FreeSans" font-size="10.00">&#45; SoundManager()</text>
-<text text-anchor="start" x="7.5" y="-8" font-family="FreeSans" font-size="10.00">&#45; operator=()</text>
+<text text-anchor="start" x="7.5" y="-129" font-family="FreeSans" font-size="10.00"># stopSound()</text>
+<text text-anchor="start" x="7.5" y="-118" font-family="FreeSans" font-size="10.00">&#45; insertSound()</text>
+<text text-anchor="start" x="7.5" y="-107" font-family="FreeSans" font-size="10.00">&#45; lookupSound()</text>
+<text text-anchor="start" x="7.5" y="-96" font-family="FreeSans" font-size="10.00">&#45; loadSound()</text>
+<text text-anchor="start" x="7.5" y="-85" font-family="FreeSans" font-size="10.00">&#45; loadVoice()</text>
+<text text-anchor="start" x="7.5" y="-74" font-family="FreeSans" font-size="10.00">&#45; getSoundRef()</text>
+<text text-anchor="start" x="7.5" y="-63" font-family="FreeSans" font-size="10.00">&#45; getStreamRef()</text>
+<text text-anchor="start" x="7.5" y="-52" font-family="FreeSans" font-size="10.00">&#45; playVoice()</text>
+<text text-anchor="start" x="7.5" y="-41" font-family="FreeSans" font-size="10.00">&#45; streamMusicFull()</text>
+<text text-anchor="start" x="7.5" y="-30" font-family="FreeSans" font-size="10.00">&#45; advanceMusic()</text>
+<text text-anchor="start" x="7.5" y="-19" font-family="FreeSans" font-size="10.00">&#45; startRandomTitle()</text>
+<text text-anchor="start" x="7.5" y="-8" font-family="FreeSans" font-size="10.00">and 7 more...</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -64,12 +64,12 @@
 <text text-anchor="start" x="7.5" y="-575.5" font-family="FreeSans" font-size="10.00">+ processChangedSettings()</text>
 <text text-anchor="start" x="7.5" y="-564.5" font-family="FreeSans" font-size="10.00">+ stopMusic()</text>
 <text text-anchor="start" x="7.5" y="-553.5" font-family="FreeSans" font-size="10.00">+ streamMusic()</text>
-<text text-anchor="start" x="7.5" y="-542.5" font-family="FreeSans" font-size="10.00">+ startRandomTitle()</text>
-<text text-anchor="start" x="7.5" y="-531.5" font-family="FreeSans" font-size="10.00">+ isMusicPlaying()</text>
-<text text-anchor="start" x="7.5" y="-520.5" font-family="FreeSans" font-size="10.00">+ playPlaylist()</text>
+<text text-anchor="start" x="7.5" y="-542.5" font-family="FreeSans" font-size="10.00">+ isMusicPlaying()</text>
+<text text-anchor="start" x="7.5" y="-531.5" font-family="FreeSans" font-size="10.00">+ playPlaylist()</text>
+<text text-anchor="start" x="7.5" y="-520.5" font-family="FreeSans" font-size="10.00">+ say()</text>
 <text text-anchor="start" x="7.5" y="-509.5" font-family="FreeSans" font-size="10.00">+ say()</text>
-<text text-anchor="start" x="7.5" y="-498.5" font-family="FreeSans" font-size="10.00">+ say()</text>
-<text text-anchor="start" x="7.5" y="-487.5" font-family="FreeSans" font-size="10.00">and 22 more...</text>
+<text text-anchor="start" x="7.5" y="-498.5" font-family="FreeSans" font-size="10.00">+ sayDone()</text>
+<text text-anchor="start" x="7.5" y="-487.5" font-family="FreeSans" font-size="10.00">and 21 more...</text>
 <text text-anchor="start" x="7.5" y="-476.5" font-family="FreeSans" font-size="10.00">&#45; SoundManager()</text>
 <text text-anchor="start" x="7.5" y="-465.5" font-family="FreeSans" font-size="10.00">&#45; operator=()</text>
 </a>

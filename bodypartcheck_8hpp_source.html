@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/bodypartcheck.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/bodypartcheck.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -115,37 +115,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCSMTools_1_1BodyPartCheckStage.html#a0471a9b2223aa09b4a60366dfca74b36">   17</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::BodyPart&gt;</a> &amp;<a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#a0471a9b2223aa09b4a60366dfca74b36">mBodyParts</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classCSMTools_1_1BodyPartCheckStage.html#a5386d922901a5668a8f86631eb1e6581">   18</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Resources.html">CSMWorld::Resources</a>                   &amp;<a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#a5386d922901a5668a8f86631eb1e6581">mMeshes</a>;</div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classCSMTools_1_1BodyPartCheckStage.html#a555b61219a2c2e6dfa96c1e065b8d251">   19</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Race&gt;</a>     &amp;<a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#a555b61219a2c2e6dfa96c1e065b8d251">mRaces</a>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#aa62fc7e771f9b3d116fb82c1f2be5c5c">BodyPartCheckStage</a>(</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::BodyPart&gt;</a> &amp;bodyParts,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Resources.html">CSMWorld::Resources</a>                   &amp;meshes,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Race&gt;</a>     &amp;races );</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#a0b379b24ac93e9ca169195400087fc8e">setup</a>();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#a22583390c48b87590895a64470451583">perform</a>( <span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a> &amp;messages );</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    };</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classCSMTools_1_1BodyPartCheckStage.html#aef9695e384d30eaad8e5c26b8fa16430">   20</a></span>&#160;        <span class="keywordtype">bool</span>                                        <a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#aef9695e384d30eaad8e5c26b8fa16430">mIgnoreBaseRecords</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#aa62fc7e771f9b3d116fb82c1f2be5c5c">BodyPartCheckStage</a>(</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::BodyPart&gt;</a> &amp;bodyParts,</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1Resources.html">CSMWorld::Resources</a>                   &amp;meshes,</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Race&gt;</a>     &amp;races );</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#a0b379b24ac93e9ca169195400087fc8e">setup</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1BodyPartCheckStage.html#a22583390c48b87590895a64470451583">perform</a>( <span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a> &amp;messages );</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSMWorld_1_1IdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt; ESM::BodyPart &gt;</a></div></div>
 <div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html">CSMTools::BodyPartCheckStage</a></div><div class="ttdoc">VerifyStage: make sure that body part records are internally consistent. </div><div class="ttdef"><b>Definition:</b> bodypartcheck.hpp:15</div></div>
 <div class="ttc" id="loadbody_8hpp_html"><div class="ttname"><a href="loadbody_8hpp.html">loadbody.hpp</a></div></div>
-<div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_a0b379b24ac93e9ca169195400087fc8e"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#a0b379b24ac93e9ca169195400087fc8e">CSMTools::BodyPartCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> bodypartcheck.cpp:12</div></div>
+<div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_a0b379b24ac93e9ca169195400087fc8e"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#a0b379b24ac93e9ca169195400087fc8e">CSMTools::BodyPartCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> bodypartcheck.cpp:16</div></div>
 <div class="ttc" id="classCSMDoc_1_1Messages_html"><div class="ttname"><a href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:38</div></div>
-<div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_aa62fc7e771f9b3d116fb82c1f2be5c5c"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#aa62fc7e771f9b3d116fb82c1f2be5c5c">CSMTools::BodyPartCheckStage::BodyPartCheckStage</a></div><div class="ttdeci">BodyPartCheckStage(const CSMWorld::IdCollection&lt; ESM::BodyPart &gt; &amp;bodyParts, const CSMWorld::Resources &amp;meshes, const CSMWorld::IdCollection&lt; ESM::Race &gt; &amp;races)</div><div class="ttdef"><b>Definition:</b> bodypartcheck.cpp:3</div></div>
+<div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_aa62fc7e771f9b3d116fb82c1f2be5c5c"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#aa62fc7e771f9b3d116fb82c1f2be5c5c">CSMTools::BodyPartCheckStage::BodyPartCheckStage</a></div><div class="ttdeci">BodyPartCheckStage(const CSMWorld::IdCollection&lt; ESM::BodyPart &gt; &amp;bodyParts, const CSMWorld::Resources &amp;meshes, const CSMWorld::IdCollection&lt; ESM::Race &gt; &amp;races)</div><div class="ttdef"><b>Definition:</b> bodypartcheck.cpp:5</div></div>
 <div class="ttc" id="classCSMWorld_1_1Resources_html"><div class="ttname"><a href="classCSMWorld_1_1Resources.html">CSMWorld::Resources</a></div><div class="ttdef"><b>Definition:</b> resources.hpp:17</div></div>
 <div class="ttc" id="classCSMDoc_1_1Stage_html"><div class="ttname"><a href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div><div class="ttdef"><b>Definition:</b> stage.hpp:15</div></div>
 <div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_a0471a9b2223aa09b4a60366dfca74b36"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#a0471a9b2223aa09b4a60366dfca74b36">CSMTools::BodyPartCheckStage::mBodyParts</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::BodyPart &gt; &amp; mBodyParts</div><div class="ttdef"><b>Definition:</b> bodypartcheck.hpp:17</div></div>
 <div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_a5386d922901a5668a8f86631eb1e6581"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#a5386d922901a5668a8f86631eb1e6581">CSMTools::BodyPartCheckStage::mMeshes</a></div><div class="ttdeci">const CSMWorld::Resources &amp; mMeshes</div><div class="ttdef"><b>Definition:</b> bodypartcheck.hpp:18</div></div>
 <div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_a555b61219a2c2e6dfa96c1e065b8d251"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#a555b61219a2c2e6dfa96c1e065b8d251">CSMTools::BodyPartCheckStage::mRaces</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::Race &gt; &amp; mRaces</div><div class="ttdef"><b>Definition:</b> bodypartcheck.hpp:19</div></div>
 <div class="ttc" id="loadrace_8hpp_html"><div class="ttname"><a href="loadrace_8hpp.html">loadrace.hpp</a></div></div>
-<div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_a22583390c48b87590895a64470451583"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#a22583390c48b87590895a64470451583">CSMTools::BodyPartCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this tage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> bodypartcheck.cpp:17</div></div>
+<div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_a22583390c48b87590895a64470451583"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#a22583390c48b87590895a64470451583">CSMTools::BodyPartCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this tage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> bodypartcheck.cpp:23</div></div>
+<div class="ttc" id="classCSMTools_1_1BodyPartCheckStage_html_aef9695e384d30eaad8e5c26b8fa16430"><div class="ttname"><a href="classCSMTools_1_1BodyPartCheckStage.html#aef9695e384d30eaad8e5c26b8fa16430">CSMTools::BodyPartCheckStage::mIgnoreBaseRecords</a></div><div class="ttdeci">bool mIgnoreBaseRecords</div><div class="ttdef"><b>Definition:</b> bodypartcheck.hpp:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

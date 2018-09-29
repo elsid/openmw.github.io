@@ -1,18 +1,51 @@
 <map id="MWGui::DialogueWindow::addMessageBox" name="MWGui::DialogueWindow::addMessageBox">
-<area shape="rect" id="node2" href="$classMWGui_1_1DialogueWindow.html#a985911ecd207aeafb0c149bb1f628921" title="MWGui::DialogueWindow\l::updateHistory" alt="" coords="229,377,405,418"/>
-<area shape="rect" id="node3" href="$structMWGui_1_1BookTypesetter.html#a5e5140e93c45cbb5f68f4c25bbaf1088" title="A factory function for creating the default implementation of a book typesetter. " alt="" coords="473,5,644,46"/>
-<area shape="rect" id="node4" href="$namespaceanonymous__namespace_02dialogue_8cpp_03.html#af8d1249f2c5eebb1842a1318d2d84ce3" title="anonymous_namespace\l\{dialogue::cpp\}::getDialogue\lTextColour" alt="" coords="455,69,663,125"/>
-<area shape="rect" id="node5" href="$namespaceMWGui.html#a25aa5f87b5491ec83c09f9a8b7f68a8b" title="MWGui::to_utf8_span" alt="" coords="481,149,637,176"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1DialogueWindow.html#a90b9d01d11e6c1b8e098a3b8e970daef" title="MWGui::DialogueWindow\l::goodbye" alt="" coords="471,201,647,242"/>
-<area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="461,267,656,293"/>
-<area shape="rect" id="node8" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="476,318,641,359"/>
-<area shape="rect" id="node9" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="467,384,650,411"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="469,435,648,461"/>
-<area shape="rect" id="node11" href="$structESM_1_1GameSetting.html#a5a65ccb12013396de6a17c3a41051391" title="Throwns an exception if GMST is not of type string. " alt="" coords="453,485,664,512"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1BookPage.html#ac3612490a1cad034b2ad3f4744b80e1a" title="Make the widget display the specified page from the specified book. " alt="" coords="455,536,662,563"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1DialogueWindow.html#a1b77ccb9c5d5a38d3b92052dbf201a25" title="MWGui::DialogueWindow\l::onScrollbarMoved" alt="" coords="471,587,647,629"/>
-<area shape="rect" id="node15" href="$classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab" title="MWGui::Layout::getWidget" alt="" coords="465,653,653,680"/>
-<area shape="rect" id="node16" href="$classMWBase_1_1Environment.html#a772a5fed081fca8ac127ce997c5fa9a3" title="MWBase::Environment\l::getDialogueManager" alt="" coords="476,705,641,746"/>
-<area shape="rect" id="node17" href="$classMWBase_1_1DialogueManager.html#a02d7b210500ecfadf80c9d8e4851f4e2" title="MWBase::DialogueManager\l::isInChoice" alt="" coords="461,770,657,811"/>
-<area shape="rect" id="node12" href="$classESM_1_1Variant.html#a26ca2816c99d80fa9f91c1ad235d9e13" title="Will throw an exception, if value can not be represented as a string. " alt="" coords="712,485,883,512"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1DialogueWindow.html#a985911ecd207aeafb0c149bb1f628921" title="MWGui::DialogueWindow\l::updateHistory" alt="" coords="229,914,405,955"/>
+<area shape="rect" id="node3" href="$structMWGui_1_1BookTypesetter.html#a5e5140e93c45cbb5f68f4c25bbaf1088" title="A factory function for creating the default implementation of a book typesetter. " alt="" coords="472,5,643,46"/>
+<area shape="rect" id="node4" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="1680,248,1875,275"/>
+<area shape="rect" id="node5" href="$classMWBase_1_1Environment.html#aeeef9a580df0312f0a9b7380488dea21" title="MWBase::Environment\l::getWindowManager" alt="" coords="971,375,1136,417"/>
+<area shape="rect" id="node6" href="$classMWBase_1_1WindowManager.html#a0c1de8e5a8725cce3171e53fe3f36b64" title="MWBase::WindowManager\l::getTextColours" alt="" coords="464,238,651,279"/>
+<area shape="rect" id="node7" href="$classMWBase_1_1Environment.html#a772a5fed081fca8ac127ce997c5fa9a3" title="MWBase::Environment\l::getDialogueManager" alt="" coords="1695,342,1860,383"/>
+<area shape="rect" id="node8" href="$classMWBase_1_1DialogueManager.html#a78e0aabf644837e579ba80502312ed86" title="MWBase::DialogueManager\l::getChoices" alt="" coords="459,369,655,410"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1DialogueWindow.html#a1cf62b80a84178025b9d17a91406c280" title="MWGui::DialogueWindow\l::onChoiceActivated" alt="" coords="469,434,645,475"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1DialogueWindow.html#a1053ba783db7bc4994b765acd5bea905" title="MWGui::DialogueWindow\l::onGoodbyeActivated" alt="" coords="720,597,896,638"/>
+<area shape="rect" id="node28" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="1444,1418,1609,1459"/>
+<area shape="rect" id="node29" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="1435,1484,1618,1511"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="1437,1535,1616,1561"/>
+<area shape="rect" id="node33" href="$classESM_1_1Variant.html#a26ca2816c99d80fa9f91c1ad235d9e13" title="Will throw an exception, if value can not be represented as a string. " alt="" coords="1441,1585,1612,1612"/>
+<area shape="rect" id="node45" href="$namespaceMWGui.html#a25aa5f87b5491ec83c09f9a8b7f68a8b" title="MWGui::to_utf8_span" alt="" coords="479,1073,635,1100"/>
+<area shape="rect" id="node46" href="$classMWBase_1_1DialogueManager.html#a3ced20306276491a6523fd2f11e5be25" title="MWBase::DialogueManager\l::isGoodbye" alt="" coords="459,1125,655,1166"/>
+<area shape="rect" id="node47" href="$classMWGui_1_1BookPage.html#ac3612490a1cad034b2ad3f4744b80e1a" title="Make the widget display the specified page from the specified book. " alt="" coords="454,1191,661,1217"/>
+<area shape="rect" id="node48" href="$classMWGui_1_1DialogueWindow.html#a1b77ccb9c5d5a38d3b92052dbf201a25" title="MWGui::DialogueWindow\l::onScrollbarMoved" alt="" coords="469,1242,645,1283"/>
+<area shape="rect" id="node49" href="$classMWBase_1_1DialogueManager.html#a02d7b210500ecfadf80c9d8e4851f4e2" title="MWBase::DialogueManager\l::isInChoice" alt="" coords="459,1307,655,1349"/>
+<area shape="rect" id="node50" href="$classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. " alt="" coords="464,1373,651,1414"/>
+<area shape="rect" id="node14" href="$classMWBase_1_1DialogueManager.html#a65cabd007bc7ce814bf123297e2d08fc" title="MWBase::DialogueManager\l::questionAnswered" alt="" coords="710,289,906,330"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1DialogueWindow.html#adb4fa3fea35ec197ec40f5d44e141657" title="MWGui::DialogueWindow\l::updateTopics" alt="" coords="720,434,896,475"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1DialogueManager.html#a5e7411f3934cf921daee77ad8bdcf456" title="MWBase::DialogueManager\l::goodbyeSelected" alt="" coords="955,659,1151,701"/>
+<area shape="rect" id="node12" href="$classMWBase_1_1WindowManager.html#a06cceabaf883f8f8d017398f8b349c6a" title="can be anywhere in the stack " alt="" coords="960,725,1147,766"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1ReferenceInterface.html#acd257d28d0e649519d027839aee636de" title="MWGui::ReferenceInterface\l::resetReference" alt="" coords="957,790,1149,831"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1DialogueWindow.html#aa2b3989db2f05611ebe3aa53418bf19e" title="MWGui::DialogueWindow\l::setKeywords" alt="" coords="965,594,1141,635"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1DialogueWindow.html#a1fdba7f8fc2038a190de79716dba0698" title="MWGui::DialogueWindow\l::isCompanion" alt="" coords="1439,426,1615,467"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1DialogueWindow.html#a8add8658644d68550a609c0b01b15a08" title="MWGui::DialogueWindow\l::updateTopicsPane" alt="" coords="1200,855,1376,897"/>
+<area shape="rect" id="node19" href="$classGui_1_1MWList.html#a04d2c2053c822a9b2be18bdaee70d0d0" title="Gui::MWList::clear" alt="" coords="1459,980,1594,1007"/>
+<area shape="rect" id="node20" href="$classMWDialogue_1_1KeywordSearch.html#a9c0b9a75125e47609292a1c9a312b459" title="MWDialogue::KeywordSearch\l::clear" alt="" coords="1424,1031,1629,1073"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1443,1148,1610,1175"/>
+<area shape="rect" id="node22" href="$classMWWorld_1_1Class.html#a007d36d1eca30bf3e6efaaf44ce23a72" title="MWWorld::Class::getServices" alt="" coords="1425,1199,1628,1225"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="1677,1341,1877,1368"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="1460,1367,1593,1393"/>
+<area shape="rect" id="node26" href="$structESM_1_1NPC.html#a75c54cc0cd7552cba8ec9eaae618f3d2" title="ESM::NPC::getTransport" alt="" coords="1440,609,1613,636"/>
+<area shape="rect" id="node27" href="$structESM_1_1Creature.html#af96817c9e7ff63268066ed64acf27a44" title="ESM::Creature::getTransport" alt="" coords="1425,660,1628,687"/>
+<area shape="rect" id="node31" href="$classGui_1_1MWList.html#a90cb2818aa58bcaa96e51990d984e8d6" title="Gui::MWList::addItem" alt="" coords="1449,711,1605,737"/>
+<area shape="rect" id="node32" href="$classMWWorld_1_1Store.html#a3ca0f52b3814776b34ecfea3a44ea5ab" title="MWWorld::Store::find" alt="" coords="1451,761,1603,788"/>
+<area shape="rect" id="node34" href="$classGui_1_1MWList.html#a9cf601db8982c3160da48f26f50cdf19" title="Gui::MWList::getItemCount" alt="" coords="1431,812,1622,839"/>
+<area shape="rect" id="node35" href="$classGui_1_1MWList.html#a4e76cdf3100e6e4b18c409130f653908" title="add a seperator between the current and the next item. " alt="" coords="1431,863,1622,889"/>
+<area shape="rect" id="node36" href="$classMWGui_1_1DialogueWindow.html#aee4ad07321e72dedd3f5f9c74c5c9e8a" title="MWGui::DialogueWindow\l::onTopicActivated" alt="" coords="1439,543,1615,585"/>
+<area shape="rect" id="node38" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1461,1250,1593,1291"/>
+<area shape="rect" id="node41" href="$classMWDialogue_1_1KeywordSearch.html#ad60a3d9ab8530271b1d149cc7532ce65" title="MWDialogue::KeywordSearch\l::seed" alt="" coords="1424,914,1629,955"/>
+<area shape="rect" id="node42" href="$classGui_1_1MWList.html#a0f35163fb1e0ea5899634eeb588069d1" title="Gui::MWList::adjustSize" alt="" coords="1442,1097,1611,1124"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1Class.html#a8c909186c99e13e0b819437ba2f7ee1d" title="MWWorld::Class::getTypeName" alt="" coords="1925,1341,2141,1368"/>
+<area shape="rect" id="node37" href="$classMWBase_1_1DialogueManager.html#a75d95018b85926a7a9fb1f6a577af668" title="MWBase::DialogueManager\l::keywordSelected" alt="" coords="1679,543,1875,585"/>
+<area shape="rect" id="node39" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1711,1250,1843,1291"/>
+<area shape="rect" id="node40" href="$classMisc_1_1StringUtils.html#a0759adb102842ee3bced227707eb6949" title="Misc::StringUtils::\ltoLower" alt="" coords="1967,1250,2099,1291"/>
+<area shape="rect" id="node43" href="$classGui_1_1MWList.html#adcace89cf6b2a49cd8e768533b8b9479" title="Gui::MWList::redraw" alt="" coords="1704,1097,1851,1124"/>
+<area shape="rect" id="node44" href="$namespaceCSMWorld_1_1Columns.html#a5f30df1dd13565c4dd4155037a2ed81e" title="CSMWorld::Columns::\lgetName" alt="" coords="1955,1090,2112,1131"/>
 </map>

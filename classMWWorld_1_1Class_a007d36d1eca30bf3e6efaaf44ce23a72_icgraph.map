@@ -1,11 +1,31 @@
 <map id="MWWorld::Class::getServices" name="MWWorld::Class::getServices">
-<area shape="rect" id="node2" href="$classMWGui_1_1TradeItemModel.html#a8fe1ae6eec86028012b13f38b47bdad4" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="257,5,431,46"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1TradeWindow.html#a0e0523cba78d7162375b5fd9e4437d5b" title="MWGui::TradeWindow\l::getMerchantServices" alt="" coords="261,70,427,111"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1InventoryWindow.html#a217f522ca43031e4a82dac0c62067e92" title="MWGui::InventoryWindow\l::pickUpObject" alt="" coords="515,5,693,46"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1HUD.html#a7371a5a68d01bcecc0574b4ced993df6" title="MWGui::HUD::onWorldClicked" alt="" coords="777,12,983,39"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1HUD.html#a461afa538370aed6d6283441e44dedd2" title="MWGui::HUD::HUD" alt="" coords="1051,12,1192,39"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1InventoryWindow.html#a5b889ff5cadf8ed97fbb98cfe123055d" title="MWGui::InventoryWindow\l::onItemSelectedFromSourceModel" alt="" coords="481,70,727,111"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1InventoryWindow.html#abbdeec7917453c0625d82da5adf58b7d" title="MWGui::InventoryWindow\l::onItemSelected" alt="" coords="791,63,969,105"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1InventoryWindow.html#ac0cf452b697e42ebb942910bdc98db4c" title="MWGui::InventoryWindow\l::onAvatarClicked" alt="" coords="791,129,969,170"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1InventoryWindow.html#a12e661e522f594464ed49a782220998f" title="MWGui::InventoryWindow\l::InventoryWindow" alt="" coords="1032,95,1211,137"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1DialogueWindow.html#a8add8658644d68550a609c0b01b15a08" title="MWGui::DialogueWindow\l::updateTopicsPane" alt="" coords="256,265,432,306"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1TradeItemModel.html#a8fe1ae6eec86028012b13f38b47bdad4" title="Rebuild the item model, this will invalidate existing model indices. " alt="" coords="257,408,431,449"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1TradeWindow.html#a0e0523cba78d7162375b5fd9e4437d5b" title="MWGui::TradeWindow\l::getMerchantServices" alt="" coords="261,486,427,528"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1DialogueWindow.html#a50879c49fd5cbcee479adb8a6c2d47b0" title="Open this object in the GUI, for windows that support it. " alt="" coords="1037,265,1213,306"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1DialogueWindow.html#aa2b3989db2f05611ebe3aa53418bf19e" title="MWGui::DialogueWindow\l::setKeywords" alt="" coords="516,206,692,248"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1DialogueWindow.html#adb4fa3fea35ec197ec40f5d44e141657" title="MWGui::DialogueWindow\l::updateTopics" alt="" coords="792,206,968,248"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1ResponseCallback.html#aa0b33e4b2186f583cf849b841f2123e1" title="MWGui::ResponseCallback\l::updateTopics" alt="" coords="1032,32,1219,73"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1DialogueWindow.html#a3c1804612ddbb452fd104465c0914bfd" title="MWGui::DialogueWindow\l::onSelectListItem" alt="" coords="1267,284,1443,325"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1DialogueWindow.html#aee4ad07321e72dedd3f5f9c74c5c9e8a" title="MWGui::DialogueWindow\l::onTopicActivated" alt="" coords="1037,330,1213,372"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1DialogueWindow.html#a1cf62b80a84178025b9d17a91406c280" title="MWGui::DialogueWindow\l::onChoiceActivated" alt="" coords="1037,97,1213,138"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1DialogueWindow.html#a32b742eafd77fcbd43ee10e33a540bcc" title="MWGui::DialogueWindow\l::addResponse" alt="" coords="1491,156,1667,197"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1DialogueWindow.html#a2b245c2f66314b03293e7bc62b325bc2" title="MWGui::DialogueWindow\l::DialogueWindow" alt="" coords="1720,284,1896,325"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1DialogueWindow.html#a985911ecd207aeafb0c149bb1f628921" title="MWGui::DialogueWindow\l::updateHistory" alt="" coords="1267,94,1443,136"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1DialogueWindow.html#a34872a2151f975fa78b4e59ba56e9d31" title="MWGui::DialogueWindow\l::onWindowResize" alt="" coords="1491,222,1667,264"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1DialogueWindow.html#ab3c338f40575b932bf7406ffe1703a1e" title="MWGui::DialogueWindow\l::addMessageBox" alt="" coords="1491,90,1667,132"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1DialogueWindow.html#ad4f0ae6d7a39965bab6f5a0893bfcfdd" title="Called every frame if the window is in an active GUI mode. " alt="" coords="1491,25,1667,66"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1ResponseCallback.html#adad566c5e9c5cb7fca90389cda35763c" title="MWGui::ResponseCallback\l::addResponse" alt="" coords="1715,218,1901,260"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1DialogueWindow.html#a77f0e2615701ec24be9bd0eb0e36f28d" title="MWGui::DialogueWindow\l::onTradeComplete" alt="" coords="1720,153,1896,194"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1WindowManager.html#a2066d296aa345dcb4008cbd07d3c52c2" title="MWGui::WindowManager\l::initUI" alt="" coords="1949,153,2125,194"/>
+<area shape="rect" id="node17" href="$classOMW_1_1Engine.html#a9edab665083b0f5db2cda761f3e9c2c3" title="Prepare engine for game play. " alt="" coords="2173,160,2379,187"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#ab571d396ff35e2266c6d022da31ab2c1" title="MWGui::WindowManager\l::messageBox" alt="" coords="1720,88,1896,129"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1InventoryWindow.html#a217f522ca43031e4a82dac0c62067e92" title="MWGui::InventoryWindow\l::pickUpObject" alt="" coords="515,408,693,449"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1HUD.html#a7371a5a68d01bcecc0574b4ced993df6" title="MWGui::HUD::onWorldClicked" alt="" coords="777,384,983,411"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1ActionTake.html#a9b205e51e6e4affafe912a87ddffe333" title="MWWorld::ActionTake\l::executeImp" alt="" coords="803,436,957,477"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1HUD.html#a461afa538370aed6d6283441e44dedd2" title="MWGui::HUD::HUD" alt="" coords="1055,396,1196,423"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1InventoryWindow.html#a5b889ff5cadf8ed97fbb98cfe123055d" title="MWGui::InventoryWindow\l::onItemSelectedFromSourceModel" alt="" coords="481,501,727,542"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1InventoryWindow.html#abbdeec7917453c0625d82da5adf58b7d" title="MWGui::InventoryWindow\l::onItemSelected" alt="" coords="791,501,969,542"/>
+<area shape="rect" id="node30" href="$classMWGui_1_1InventoryWindow.html#ac0cf452b697e42ebb942910bdc98db4c" title="MWGui::InventoryWindow\l::onAvatarClicked" alt="" coords="791,566,969,608"/>
+<area shape="rect" id="node29" href="$classMWGui_1_1InventoryWindow.html#a12e661e522f594464ed49a782220998f" title="MWGui::InventoryWindow\l::InventoryWindow" alt="" coords="1036,533,1215,574"/>
 </map>

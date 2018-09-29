@@ -1,29 +1,30 @@
 <map id="MWRender::RaceSelectionPreview" name="MWRender::RaceSelectionPreview">
-<area shape="rect" id="node2" href="$classMWRender_1_1CharacterPreview.html" title="{MWRender::CharacterPreview\n||+ CharacterPreview()\l+ ~CharacterPreview()\l+ getTextureWidth()\l+ getTextureHeight()\l+ redraw()\l+ rebuild()\l+ getTexture()\l# renderHeadOnly()\l# onSetup()\l&#45; CharacterPreview()\l&#45; operator=()\l}" alt="" coords="1189,1888,1395,2112"/>
-<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html" title="Pointer to a LiveCellRef. " alt="" coords="2117,1557,2299,1811"/>
-<area shape="rect" id="node5" href="$classMWWorld_1_1CellStore.html" title="Mutable state of a cell. " alt="" coords="1833,1100,1992,1471"/>
-<area shape="rect" id="node6" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1235,826,1396,947"/>
-<area shape="rect" id="node7" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Ingredient \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2088,826,2240,947"/>
-<area shape="rect" id="node16" href="$classMWWorld_1_1ContainerStore.html" title="{MWWorld::ContainerStore\n|+ Type_Potion\l+ Type_Weapon\l+ Type_Last\l+ Type_All\l|+ ContainerStore()\l+ ~ContainerStore()\l+ clone()\l+ begin()\l+ end()\l+ add()\l+ add()\l+ remove()\l+ remove()\l+ unstack()\land 13 more...\l+ getType()\l# addNewStack()\l# flagAsModified()\l&#45; addImp()\l&#45; addInitialItem()\l&#45; getState()\l&#45; storeState()\l&#45; storeStates()\l&#45; storeEquipmentState()\l&#45; readEquipmentState()\l}" alt="" coords="2259,1078,2441,1493"/>
-<area shape="rect" id="node8" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::CreatureLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1421,826,1608,947"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1PathgridGraph.html" title="{MWMechanics::PathgridGraph\n||+ PathgridGraph()\l+ load()\l+ isPointConnected()\l+ aStarSearch()\l&#45; recursiveStrongConnect()\l&#45; buildConnectedPoints()\l}" alt="" coords="1764,811,1973,962"/>
-<area shape="rect" id="node10" href="$classint.html" title="{int\n||}" alt="" coords="3167,299,3205,376"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1RefData.html" title="{MWWorld::RefData\n||+ RefData()\l+ RefData()\l+ RefData()\l+ RefData()\l+ ~RefData()\l+ write()\l+ operator=()\l+ getBaseNode()\l+ getBaseNode()\l+ setBaseNode()\land 21 more...\l&#45; copy()\l&#45; cleanup()\l}" alt="" coords="2964,760,3099,1013"/>
-<area shape="rect" id="node36" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ getRecordType()\l}" alt="" coords="3684,1195,3828,1375"/>
-<area shape="rect" id="node39" href="$structESM_1_1AIData.html" title="{ESM::AIData\n||+ blank()\l}" alt="" coords="3508,848,3609,925"/>
-<area shape="rect" id="node41" href="$structESM_1_1NPC_1_1NPDTstruct12.html" title="{ESM::NPC::NPDTstruct12\n||}" alt="" coords="3964,848,4143,925"/>
-<area shape="rect" id="node43" href="$structESM_1_1NPC_1_1NPDTstruct52.html" title="{ESM::NPC::NPDTstruct52\n|+ mEndurance\l+ mSkills\l|}" alt="" coords="4167,841,4345,933"/>
-<area shape="rect" id="node11" href="$classbool.html" title="{bool\n||}" alt="" coords="2389,299,2437,376"/>
-<area shape="rect" id="node18" href="$classMWWorld_1_1CellRef.html" title="Encapsulated variant of ESM::CellRef with change tracking. " alt="" coords="2799,775,2939,999"/>
-<area shape="rect" id="node26" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="1045,789,1211,984"/>
-<area shape="rect" id="node47" href="$structESM_1_1SpellList.html" title="{ESM::SpellList\n||+ exists()\l+ add()\l+ save()\l}" alt="" coords="3373,833,3483,940"/>
-<area shape="rect" id="node14" title="STL class. " alt="" coords="2735,149,2821,227"/>
-<area shape="rect" id="node20" href="$classMWWorld_1_1Class.html" title="Base class for referenceable esm records. " alt="" coords="3452,409,3639,735"/>
-<area shape="rect" id="node15" title="STL class. " alt="" coords="2710,6,2847,98"/>
-<area shape="rect" id="node17" href="$structMWWorld_1_1LiveCellRefBase.html" title="Used to create pointers to hold any type of LiveCellRef&lt;&gt; object. " alt="" coords="2894,1203,3079,1368"/>
-<area shape="rect" id="node35" href="$structMWWorld_1_1LiveCellRef.html" title="{MWWorld::LiveCellRef\l\&lt; ESM::NPC \&gt;\n||+ LiveCellRef()\l+ LiveCellRef()\l+ load()\l+ save()\l+ checkState()\l}" alt="" coords="2915,1609,3068,1759"/>
-<area shape="rect" id="node24" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="628,1159,837,1412"/>
-<area shape="rect" id="node37" href="$structESM_1_1AIPackageList.html" title="{ESM::AIPackageList\n||+ add()\l+ save()\l}" alt="" coords="3794,841,3939,933"/>
-<area shape="rect" id="node45" href="$structESM_1_1Transport.html" title="List of travel service destination. Shared by CREA and NPC_ records. " alt="" coords="4700,841,4816,933"/>
-<area shape="rect" id="node48" href="$structESM_1_1InventoryList.html" title="InventoryList, NPCO subrecord. " alt="" coords="4861,841,5000,933"/>
+<area shape="rect" id="node2" href="$classMWRender_1_1CharacterPreview.html" title="{MWRender::CharacterPreview\n||+ CharacterPreview()\l+ ~CharacterPreview()\l+ getTextureWidth()\l+ getTextureHeight()\l+ redraw()\l+ rebuild()\l+ getTexture()\l# renderHeadOnly()\l# setBlendMode()\l# onSetup()\l&#45; CharacterPreview()\l&#45; operator=()\l}" alt="" coords="2401,2481,2607,2719"/>
+<area shape="rect" id="node4" href="$classMWWorld_1_1Ptr.html" title="Pointer to a LiveCellRef. " alt="" coords="1913,2149,2095,2403"/>
+<area shape="rect" id="node5" href="$classMWWorld_1_1CellStore.html" title="Mutable state of a cell. " alt="" coords="1895,1692,2053,2063"/>
+<area shape="rect" id="node6" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::ItemLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1447,1395,1608,1517"/>
+<area shape="rect" id="node7" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Ingredient \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2081,1395,2233,1517"/>
+<area shape="rect" id="node31" href="$classMWWorld_1_1ContainerStore.html" title="{MWWorld::ContainerStore\n|+ Type_Potion\l+ Type_Weapon\l+ Type_Last\l+ Type_All\l|+ ContainerStore()\l+ ~ContainerStore()\l+ clone()\l+ cbegin()\l+ cend()\l+ begin()\l+ end()\l+ begin()\l+ end()\l+ add()\land 19 more...\l+ getType()\l# addNewStack()\l# flagAsModified()\l&#45; addImp()\l&#45; addInitialItem()\l&#45; getState()\l&#45; storeState()\l&#45; storeStates()\l&#45; storeEquipmentState()\l&#45; readEquipmentState()\l}" alt="" coords="2361,1670,2543,2085"/>
+<area shape="rect" id="node8" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::CreatureLevList \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1633,1395,1820,1517"/>
+<area shape="rect" id="node9" href="$classMWWorld_1_1ESMStore.html" title="{MWWorld::ESMStore\n||+ begin()\l+ end()\l+ find()\l+ ESMStore()\l+ clearDynamic()\l+ movePlayerRecord()\l+ load()\l+ get()\l+ insert()\l+ overrideRecord()\l+ insertStatic()\l+ setUp()\l+ countSavedGameRecords()\l+ write()\l+ readRecord()\l&#45; validate()\l}" alt="" coords="1845,1307,2056,1605"/>
+<area shape="rect" id="node10" href="$structESM_1_1NPC.html" title="{ESM::NPC\n||+ getFactionRank()\l+ getTransport()\l+ load()\l+ save()\l+ isMale()\l+ setIsMale()\l+ blank()\l+ blankNpdt()\l+ getRecordType()\l}" alt="" coords="849,1019,993,1213"/>
+<area shape="rect" id="node49" href="$structMWWorld_1_1LiveCellRef.html" title="{MWWorld::LiveCellRef\l\&lt; ESM::NPC \&gt;\n||+ LiveCellRef()\l+ LiveCellRef()\l+ load()\l+ save()\l+ checkState()\l}" alt="" coords="999,1802,1152,1953"/>
+<area shape="rect" id="node11" href="$structESM_1_1AIPackageList.html" title="{ESM::AIPackageList\n||+ add()\l+ save()\l}" alt="" coords="275,782,420,874"/>
+<area shape="rect" id="node13" href="$structESM_1_1AIData.html" title="{ESM::AIData\n||+ blank()\l}" alt="" coords="1029,789,1131,867"/>
+<area shape="rect" id="node19" href="$structESM_1_1NPC_1_1NPDTstruct52.html" title="{ESM::NPC::NPDTstruct52\n|+ mWillpower\l+ mEndurance\l+ mLuck\l+ mSkills\l+ mReputation\l|}" alt="" coords="695,760,873,896"/>
+<area shape="rect" id="node15" href="$classint.html" title="{int\n||}" alt="" coords="1405,299,1443,376"/>
+<area shape="rect" id="node34" href="$classMWWorld_1_1RefData.html" title="{MWWorld::RefData\n||+ RefData()\l+ RefData()\l+ RefData()\l+ RefData()\l+ ~RefData()\l+ write()\l+ operator=()\l+ getBaseNode()\l+ getBaseNode()\l+ setBaseNode()\land 21 more...\l&#45; copy()\l&#45; cleanup()\l}" alt="" coords="1295,989,1429,1243"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="2283,149,2369,227"/>
+<area shape="rect" id="node35" href="$classMWWorld_1_1Class.html" title="Base class for referenceable esm records. " alt="" coords="2081,409,2268,735"/>
+<area shape="rect" id="node17" title="STL class. " alt="" coords="2258,6,2395,98"/>
+<area shape="rect" id="node18" href="$classbool.html" title="{bool\n||}" alt="" coords="1773,789,1821,867"/>
+<area shape="rect" id="node33" href="$classMWWorld_1_1CellRef.html" title="Encapsulated variant of ESM::CellRef with change tracking. " alt="" coords="1623,1004,1763,1228"/>
+<area shape="rect" id="node40" href="$classVFS_1_1Manager.html" title="The main class responsible for loading files from a virtual file system. " alt="" coords="2295,1011,2461,1221"/>
+<area shape="rect" id="node22" href="$structESM_1_1Transport.html" title="List of travel service destination. Shared by CREA and NPC_ records. " alt="" coords="80,782,196,874"/>
+<area shape="rect" id="node24" href="$structESM_1_1SpellList.html" title="{ESM::SpellList\n||+ exists()\l+ add()\l+ save()\l}" alt="" coords="1265,775,1375,881"/>
+<area shape="rect" id="node26" href="$structESM_1_1InventoryList.html" title="InventoryList, NPCO subrecord. " alt="" coords="532,782,671,874"/>
+<area shape="rect" id="node28" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Weapon \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="2309,1395,2459,1517"/>
+<area shape="rect" id="node29" href="$structMWWorld_1_1CellRefList.html" title="{MWWorld::CellRefList\l\&lt; ESM::Container \&gt;\n||+ load()\l+ insert()\l+ remove()\l}" alt="" coords="1273,1395,1423,1517"/>
+<area shape="rect" id="node32" href="$structMWWorld_1_1LiveCellRefBase.html" title="Used to create pointers to hold any type of LiveCellRef&lt;&gt; object. " alt="" coords="1011,1373,1196,1539"/>
+<area shape="rect" id="node39" href="$classResource_1_1ResourceSystem.html" title="Wrapper class that constructs and provides access to the most commonly used resource subsystems..." alt="" coords="2832,1307,3041,1605"/>
 </map>

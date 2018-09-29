@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/prefs/doublesetting.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/prefs/doublesetting.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,67 +102,75 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="setting_8hpp.html">setting.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>CSMPrefs</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a> : <span class="keyword">public</span> <a class="code" href="classCSMPrefs_1_1Setting.html">Setting</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            Q_OBJECT</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#a1c812ab008f12cc3f7f3955387904b17">   12</a></span>&#160;            <span class="keywordtype">int</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#a1c812ab008f12cc3f7f3955387904b17">mPrecision</a>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#a6bac69742ed303e4a5430e86721af140">   13</a></span>&#160;            <span class="keywordtype">double</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#a6bac69742ed303e4a5430e86721af140">mMin</a>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#ac6c1a52addd4a0a216e76a4a82d71df0">   14</a></span>&#160;            <span class="keywordtype">double</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#ac6c1a52addd4a0a216e76a4a82d71df0">mMax</a>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#abf225bac903ab8cc298547b17597b744">   15</a></span>&#160;            std::string <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#abf225bac903ab8cc298547b17597b744">mTooltip</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#ab421482a19492c71306f1e9907101129">   16</a></span>&#160;            <span class="keywordtype">double</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#ab421482a19492c71306f1e9907101129">mDefault</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#aaeb581abfdaae654400ca8d5bd034fb9">DoubleSetting</a> (<a class="code" href="classCSMPrefs_1_1Category.html">Category</a> *parent, <a class="code" href="classSettings_1_1Manager.html">Settings::Manager</a> *values,</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                QMutex *mutex, <span class="keyword">const</span> std::string&amp; key, <span class="keyword">const</span> std::string&amp; label,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordtype">double</span> default_);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#acad35d86e1b4a1def28925e08c1a9af8">setPrecision</a> (<span class="keywordtype">int</span> precision);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="comment">// defaults to [0, std::numeric_limits&lt;double&gt;::max()]</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#aa1f30f4208c0618e894f53d3b1bdc763">setRange</a> (<span class="keywordtype">double</span> min, <span class="keywordtype">double</span> max);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span><a class="code" href="classQDoubleSpinBox.html">QDoubleSpinBox</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>CSMPrefs</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html">   10</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a> : <span class="keyword">public</span> <a class="code" href="classCSMPrefs_1_1Setting.html">Setting</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            Q_OBJECT</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#a1c812ab008f12cc3f7f3955387904b17">   14</a></span>&#160;            <span class="keywordtype">int</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#a1c812ab008f12cc3f7f3955387904b17">mPrecision</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#a6bac69742ed303e4a5430e86721af140">   15</a></span>&#160;            <span class="keywordtype">double</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#a6bac69742ed303e4a5430e86721af140">mMin</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#ac6c1a52addd4a0a216e76a4a82d71df0">   16</a></span>&#160;            <span class="keywordtype">double</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#ac6c1a52addd4a0a216e76a4a82d71df0">mMax</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#abf225bac903ab8cc298547b17597b744">   17</a></span>&#160;            std::string <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#abf225bac903ab8cc298547b17597b744">mTooltip</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#ab421482a19492c71306f1e9907101129">   18</a></span>&#160;            <span class="keywordtype">double</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#ab421482a19492c71306f1e9907101129">mDefault</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classCSMPrefs_1_1DoubleSetting.html#aedc6427c54f74d4c524ec51d16d13bef">   19</a></span>&#160;            <a class="code" href="classQDoubleSpinBox.html">QDoubleSpinBox</a>* <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#aedc6427c54f74d4c524ec51d16d13bef">mWidget</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#aaeb581abfdaae654400ca8d5bd034fb9">DoubleSetting</a> (<a class="code" href="classCSMPrefs_1_1Category.html">Category</a> *parent, <a class="code" href="classSettings_1_1Manager.html">Settings::Manager</a> *values,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                QMutex *mutex, <span class="keyword">const</span> std::string&amp; key, <span class="keyword">const</span> std::string&amp; label,</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordtype">double</span> default_);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#acad35d86e1b4a1def28925e08c1a9af8">setPrecision</a> (<span class="keywordtype">int</span> precision);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#a1ad283c6975cad749ed1f96329329d40">setMin</a> (<span class="keywordtype">double</span> min);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#abb22e8b3551f837a7ac66165710a0dfc">setMax</a> (<span class="keywordtype">double</span> max);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#abef7b1722e42219144dec99caea25980">setTooltip</a> (<span class="keyword">const</span> std::string&amp; tooltip);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keyword">virtual</span> std::pair&lt;QWidget *, QWidget *&gt; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#a7a99b73728cca1d83a4ad5c6313e0ef9">makeWidgets</a> (<a class="code" href="classQWidget.html">QWidget</a> *parent);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="comment">// defaults to [0, std::numeric_limits&lt;double&gt;::max()]</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#aa1f30f4208c0618e894f53d3b1bdc763">setRange</a> (<span class="keywordtype">double</span> min, <span class="keywordtype">double</span> max);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#a1ad283c6975cad749ed1f96329329d40">setMin</a> (<span class="keywordtype">double</span> min);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#abb22e8b3551f837a7ac66165710a0dfc">setMax</a> (<span class="keywordtype">double</span> max);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="classCSMPrefs_1_1DoubleSetting.html">DoubleSetting</a>&amp; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#abef7b1722e42219144dec99caea25980">setTooltip</a> (<span class="keyword">const</span> std::string&amp; tooltip);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#aff903460afa30b4be8752552e474d75a">valueChanged</a> (<span class="keywordtype">double</span> value);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    };</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_abf225bac903ab8cc298547b17597b744"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#abf225bac903ab8cc298547b17597b744">CSMPrefs::DoubleSetting::mTooltip</a></div><div class="ttdeci">std::string mTooltip</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:15</div></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keyword">virtual</span> std::pair&lt;QWidget *, QWidget *&gt; <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#a7a99b73728cca1d83a4ad5c6313e0ef9">makeWidgets</a> (<a class="code" href="classQWidget.html">QWidget</a> *parent);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#afd509c9726b45df519677093a92e3fdb">updateWidget</a>();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classCSMPrefs_1_1DoubleSetting.html#aff903460afa30b4be8752552e474d75a">valueChanged</a> (<span class="keywordtype">double</span> value);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    };</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_abf225bac903ab8cc298547b17597b744"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#abf225bac903ab8cc298547b17597b744">CSMPrefs::DoubleSetting::mTooltip</a></div><div class="ttdeci">std::string mTooltip</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:17</div></div>
 <div class="ttc" id="classQWidget_html"><div class="ttname"><a href="classQWidget.html">QWidget</a></div></div>
-<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html">CSMPrefs::DoubleSetting</a></div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:8</div></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_afd509c9726b45df519677093a92e3fdb"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#afd509c9726b45df519677093a92e3fdb">CSMPrefs::DoubleSetting::updateWidget</a></div><div class="ttdeci">virtual void updateWidget()</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:74</div></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html">CSMPrefs::DoubleSetting</a></div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:10</div></div>
 <div class="ttc" id="classCSMPrefs_1_1Category_html"><div class="ttname"><a href="classCSMPrefs_1_1Category.html">CSMPrefs::Category</a></div><div class="ttdef"><b>Definition:</b> category.hpp:12</div></div>
-<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_a6bac69742ed303e4a5430e86721af140"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#a6bac69742ed303e4a5430e86721af140">CSMPrefs::DoubleSetting::mMin</a></div><div class="ttdeci">double mMin</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:13</div></div>
-<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_ac6c1a52addd4a0a216e76a4a82d71df0"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#ac6c1a52addd4a0a216e76a4a82d71df0">CSMPrefs::DoubleSetting::mMax</a></div><div class="ttdeci">double mMax</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:14</div></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_aedc6427c54f74d4c524ec51d16d13bef"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#aedc6427c54f74d4c524ec51d16d13bef">CSMPrefs::DoubleSetting::mWidget</a></div><div class="ttdeci">QDoubleSpinBox * mWidget</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:19</div></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_a6bac69742ed303e4a5430e86721af140"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#a6bac69742ed303e4a5430e86721af140">CSMPrefs::DoubleSetting::mMin</a></div><div class="ttdeci">double mMin</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:15</div></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_ac6c1a52addd4a0a216e76a4a82d71df0"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#ac6c1a52addd4a0a216e76a4a82d71df0">CSMPrefs::DoubleSetting::mMax</a></div><div class="ttdeci">double mMax</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:16</div></div>
 <div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_a1ad283c6975cad749ed1f96329329d40"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#a1ad283c6975cad749ed1f96329329d40">CSMPrefs::DoubleSetting::setMin</a></div><div class="ttdeci">DoubleSetting &amp; setMin(double min)</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:35</div></div>
-<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_a1c812ab008f12cc3f7f3955387904b17"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#a1c812ab008f12cc3f7f3955387904b17">CSMPrefs::DoubleSetting::mPrecision</a></div><div class="ttdeci">int mPrecision</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:12</div></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_a1c812ab008f12cc3f7f3955387904b17"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#a1c812ab008f12cc3f7f3955387904b17">CSMPrefs::DoubleSetting::mPrecision</a></div><div class="ttdeci">int mPrecision</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:14</div></div>
 <div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_abef7b1722e42219144dec99caea25980"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#abef7b1722e42219144dec99caea25980">CSMPrefs::DoubleSetting::setTooltip</a></div><div class="ttdeci">DoubleSetting &amp; setTooltip(const std::string &amp;tooltip)</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:47</div></div>
-<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_ab421482a19492c71306f1e9907101129"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#ab421482a19492c71306f1e9907101129">CSMPrefs::DoubleSetting::mDefault</a></div><div class="ttdeci">double mDefault</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:16</div></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_ab421482a19492c71306f1e9907101129"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#ab421482a19492c71306f1e9907101129">CSMPrefs::DoubleSetting::mDefault</a></div><div class="ttdeci">double mDefault</div><div class="ttdef"><b>Definition:</b> doublesetting.hpp:18</div></div>
 <div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_acad35d86e1b4a1def28925e08c1a9af8"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#acad35d86e1b4a1def28925e08c1a9af8">CSMPrefs::DoubleSetting::setPrecision</a></div><div class="ttdeci">DoubleSetting &amp; setPrecision(int precision)</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:22</div></div>
 <div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_a7a99b73728cca1d83a4ad5c6313e0ef9"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#a7a99b73728cca1d83a4ad5c6313e0ef9">CSMPrefs::DoubleSetting::makeWidgets</a></div><div class="ttdeci">virtual std::pair&lt; QWidget *, QWidget * &gt; makeWidgets(QWidget *parent)</div><div class="ttdoc">Return label, input widget. </div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:53</div></div>
 <div class="ttc" id="classCSMPrefs_1_1Setting_html"><div class="ttname"><a href="classCSMPrefs_1_1Setting.html">CSMPrefs::Setting</a></div><div class="ttdef"><b>Definition:</b> setting.hpp:22</div></div>
 <div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_aaeb581abfdaae654400ca8d5bd034fb9"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#aaeb581abfdaae654400ca8d5bd034fb9">CSMPrefs::DoubleSetting::DoubleSetting</a></div><div class="ttdeci">DoubleSetting(Category *parent, Settings::Manager *values, QMutex *mutex, const std::string &amp;key, const std::string &amp;label, double default_)</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:15</div></div>
 <div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_abb22e8b3551f837a7ac66165710a0dfc"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#abb22e8b3551f837a7ac66165710a0dfc">CSMPrefs::DoubleSetting::setMax</a></div><div class="ttdeci">DoubleSetting &amp; setMax(double max)</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:41</div></div>
+<div class="ttc" id="classQDoubleSpinBox_html"><div class="ttname"><a href="classQDoubleSpinBox.html">QDoubleSpinBox</a></div></div>
 <div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_aa1f30f4208c0618e894f53d3b1bdc763"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#aa1f30f4208c0618e894f53d3b1bdc763">CSMPrefs::DoubleSetting::setRange</a></div><div class="ttdeci">DoubleSetting &amp; setRange(double min, double max)</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:28</div></div>
 <div class="ttc" id="setting_8hpp_html"><div class="ttname"><a href="setting_8hpp.html">setting.hpp</a></div></div>
 <div class="ttc" id="classSettings_1_1Manager_html"><div class="ttname"><a href="classSettings_1_1Manager.html">Settings::Manager</a></div><div class="ttdoc">Settings management (can change during runtime) </div><div class="ttdef"><b>Definition:</b> settings.hpp:17</div></div>
-<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_aff903460afa30b4be8752552e474d75a"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#aff903460afa30b4be8752552e474d75a">CSMPrefs::DoubleSetting::valueChanged</a></div><div class="ttdeci">void valueChanged(double value)</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:74</div></div>
+<div class="ttc" id="classCSMPrefs_1_1DoubleSetting_html_aff903460afa30b4be8752552e474d75a"><div class="ttname"><a href="classCSMPrefs_1_1DoubleSetting.html#aff903460afa30b4be8752552e474d75a">CSMPrefs::DoubleSetting::valueChanged</a></div><div class="ttdeci">void valueChanged(double value)</div><div class="ttdef"><b>Definition:</b> doublesetting.cpp:82</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -29,38 +29,57 @@
 <path fill="none" stroke="midnightblue" d="M147.746,-51.0723C156.581,-52.4442 165.46,-53.823 173.958,-55.1425"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="148.231,-47.6057 137.812,-49.5298 147.156,-54.5228 148.231,-47.6057"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="structESM_1_1ProjectileState.html#a16cbad315f7c23e1b79f97d580a10b30" target="_top" xlink:title="ESM::ProjectileState\l::save">
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="structESM_1_1ProjectileState.html#a16cbad315f7c23e1b79f97d580a10b30" target="_top" xlink:title="ESM::ProjectileState\l::save">
 <polygon fill="white" stroke="black" points="175.5,-0 175.5,-30 288.5,-30 288.5,-0 175.5,-0"/>
 <text text-anchor="start" x="183.5" y="-18" font-family="FreeSans" font-size="10.00">ESM::ProjectileState</text>
 <text text-anchor="middle" x="232" y="-7" font-family="FreeSans" font-size="10.00">::save</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M147.876,-27.3912C157.189,-26.0028 166.55,-24.6075 175.457,-23.2797"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="147.187,-23.9552 137.812,-28.8914 148.219,-30.8787 147.187,-23.9552"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMWWorld_1_1ProjectileManager.html#aa1498772e4b563a9c9473f75b84520bc" target="_top" xlink:title="MWWorld::ProjectileManager\l::write">
-<polygon fill="white" stroke="black" points="326,-24 326,-54 476,-54 476,-24 326,-24"/>
-<text text-anchor="start" x="334" y="-42" font-family="FreeSans" font-size="10.00">MWWorld::ProjectileManager</text>
-<text text-anchor="middle" x="401" y="-31" font-family="FreeSans" font-size="10.00">::write</text>
+<g id="a_node3"><a xlink:href="classESSImport_1_1ConvertPROJ.html#a3a3afae1da5b41a02f3fed00f2bc27a3" target="_top" xlink:title="ESSImport::ConvertPROJ\l::write">
+<polygon fill="white" stroke="black" points="334.5,-49 334.5,-79 467.5,-79 467.5,-49 334.5,-49"/>
+<text text-anchor="start" x="342.5" y="-67" font-family="FreeSans" font-size="10.00">ESSImport::ConvertPROJ</text>
+<text text-anchor="middle" x="401" y="-56" font-family="FreeSans" font-size="10.00">::write</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M300.165,-53.9453C308.61,-52.6812 317.286,-51.3823 325.83,-50.1033"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="299.376,-50.5243 290.005,-55.4663 300.413,-57.4472 299.376,-50.5243"/>
+<path fill="none" stroke="midnightblue" d="M300.202,-64C311.458,-64 323.126,-64 334.343,-64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="300.005,-60.5001 290.005,-64 300.005,-67.5001 300.005,-60.5001"/>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M298.586,-24.4255C307.552,-25.714 316.807,-27.0442 325.912,-28.3526"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="299.005,-20.9498 288.609,-22.9917 298.009,-27.8787 299.005,-20.9498"/>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="classMWWorld_1_1ProjectileManager.html#aa1498772e4b563a9c9473f75b84520bc" target="_top" xlink:title="MWWorld::ProjectileManager\l::write">
+<polygon fill="white" stroke="black" points="326,-0 326,-30 476,-30 476,-0 326,-0"/>
+<text text-anchor="start" x="334" y="-18" font-family="FreeSans" font-size="10.00">MWWorld::ProjectileManager</text>
+<text text-anchor="middle" x="401" y="-7" font-family="FreeSans" font-size="10.00">::write</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M294.234,-46.033C312.127,-40.783 331.492,-35.1011 348.702,-30.0516"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="293.078,-42.7246 284.468,-48.8986 295.049,-49.4415 293.078,-42.7246"/>
+</g>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M294.234,-32.967C312.127,-38.217 331.492,-43.8989 348.702,-48.9484"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="295.049,-29.5585 284.468,-30.1014 293.078,-36.2754 295.049,-29.5585"/>
+</g>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node5&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M298.875,-15C307.751,-15 316.905,-15 325.912,-15"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="298.609,-11.5001 288.609,-15 298.609,-18.5001 298.609,-11.5001"/>
 </g>
 </g>
 </svg>

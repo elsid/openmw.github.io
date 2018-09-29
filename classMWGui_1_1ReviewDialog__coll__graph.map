@@ -1,14 +1,14 @@
 <map id="MWGui::ReviewDialog" name="MWGui::ReviewDialog">
-<area shape="rect" id="node2" href="$classMWGui_1_1WindowModal.html" title="{MWGui::WindowModal\n||+ WindowModal()\l+ open()\l+ close()\l+ exit()\l}" alt="" coords="178,1035,336,1157"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html" title="{MWGui::WindowBase\n||+ WindowBase()\l+ open()\l+ close()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l}" alt="" coords="181,729,333,895"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1Layout.html" title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}" alt="" coords="199,357,315,566"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="501,149,587,227"/>
-<area shape="rect" id="node28" href="$structESM_1_1Class.html" title="{ESM::Class\n||+ load()\l+ save()\l+ blank()\l+ getRecordType()\l}" alt="" coords="2197,751,2336,873"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="475,6,612,98"/>
-<area shape="rect" id="node13" href="$classMWMechanics_1_1SkillValue.html" title="{MWMechanics::SkillValue\n||+ SkillValue()\l+ getProgress()\l+ setProgress()\l+ writeState()\l+ readState()\l}" alt="" coords="724,744,903,880"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1AttributeValue.html" title="{MWMechanics::AttributeValue\n||+ AttributeValue()\l+ getModified()\l+ getBase()\l+ getModifier()\l+ setBase()\l+ setModifier()\l+ damage()\l+ restore()\l+ getDamage()\l+ writeState()\l+ readState()\l}" alt="" coords="708,349,917,573"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1Widgets_1_1MWAttribute.html" title="{MWGui::Widgets::MWAttribute\n||+ MWAttribute()\l+ setAttributeId()\l+ setAttributeValue()\l+ getAttributeId()\l+ getAttributeValue()\l# ~MWAttribute()\l# initialiseOverride()\l# onClicked()\l&#45; updateWidgets()\l}" alt="" coords="1139,715,1347,909"/>
-<area shape="rect" id="node16" href="$classint.html" title="{int\n||}" alt="" coords="1443,149,1481,227"/>
-<area shape="rect" id="node31" href="$structESM_1_1Class_1_1CLDTstruct.html" title="{ESM::Class::CLDTstruct\n||+ getSkill()\l+ getSkill()\l}" alt="" coords="2312,415,2480,507"/>
-<area shape="rect" id="node23" href="$classbool.html" title="{bool\n||}" alt="" coords="1538,1057,1587,1135"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1WindowModal.html" title="{MWGui::WindowModal\n||+ WindowModal()\l+ onOpen()\l+ onClose()\l+ exit()\l}" alt="" coords="210,1081,368,1202"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1WindowBase.html" title="{MWGui::WindowBase\n||+ WindowBase()\l+ getDefaultKeyFocus()\l+ setPtr()\l+ onFrame()\l+ onOpen()\l+ onClose()\l+ exit()\l+ setVisible()\l+ isVisible()\l+ center()\l+ clear()\l+ onResChange()\l}" alt="" coords="203,715,376,954"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1Layout.html" title="{MWGui::Layout\n||+ Layout()\l+ ~Layout()\l+ getWidget()\l+ getWidget()\l+ setCoord()\l+ setVisible()\l+ setText()\l+ setTitle()\l&#45; initialise()\l&#45; shutdown()\l}" alt="" coords="231,357,347,566"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="533,149,619,227"/>
+<area shape="rect" id="node28" href="$structESM_1_1Class.html" title="{ESM::Class\n||+ load()\l+ save()\l+ blank()\l+ getRecordType()\l}" alt="" coords="1879,774,2017,895"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="507,6,644,98"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1SkillValue.html" title="{MWMechanics::SkillValue\n||+ SkillValue()\l+ getProgress()\l+ setProgress()\l+ writeState()\l+ readState()\l}" alt="" coords="803,767,981,903"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1AttributeValue.html" title="{MWMechanics::AttributeValue\n||+ AttributeValue()\l+ getModified()\l+ getBase()\l+ getModifier()\l+ setBase()\l+ setModifier()\l+ damage()\l+ restore()\l+ getDamage()\l+ writeState()\l+ readState()\l}" alt="" coords="791,349,1000,573"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1Widgets_1_1MWAttribute.html" title="{MWGui::Widgets::MWAttribute\n||+ MWAttribute()\l+ setAttributeId()\l+ setAttributeValue()\l+ getAttributeId()\l+ getAttributeValue()\l# ~MWAttribute()\l# initialiseOverride()\l# onClicked()\l&#45; updateWidgets()\l}" alt="" coords="1056,737,1264,932"/>
+<area shape="rect" id="node16" href="$classint.html" title="{int\n||}" alt="" coords="1459,149,1497,227"/>
+<area shape="rect" id="node31" href="$structESM_1_1Class_1_1CLDTstruct.html" title="{ESM::Class::CLDTstruct\n||+ getSkill()\l+ getSkill()\l}" alt="" coords="2253,415,2421,507"/>
+<area shape="rect" id="node23" href="$classbool.html" title="{bool\n||}" alt="" coords="1590,1103,1639,1180"/>
 </map>

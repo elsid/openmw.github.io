@@ -1,21 +1,31 @@
 <map id="MWMechanics::CreatureStats::getSummonedCreatureMap" name="MWMechanics::CreatureStats::getSummonedCreatureMap">
-<area shape="rect" id="node2" href="$namespaceMWMechanics.html#a49e7b752ea4693fbda0e35137a8ede6e" title="MWMechanics::makeFleeDecision" alt="" coords="268,32,503,59"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="296,103,475,145"/>
-<area shape="rect" id="node11" href="$structMWMechanics_1_1UpdateSummonedCreatures.html#aca0efbdf8f6e7359e407a1b78716d96b" title="To call after all effect sources have been visited. " alt="" coords="265,217,506,258"/>
-<area shape="rect" id="node3" href="$namespaceMWMechanics.html#a2f24aadfa3ffbb60450dc007e7143492" title="MWMechanics::prepareNext\lAction" alt="" coords="569,5,767,46"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="838,5,1021,46"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="1107,5,1290,46"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1CastSpell.html#a792b5c30e747b65d6c5f83166d716d59" title="MWMechanics::CastSpell\l::cast" alt="" coords="579,70,757,111"/>
-<area shape="rect" id="node8" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="568,135,768,177"/>
-<area shape="rect" id="node9" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="829,135,1029,177"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="1099,135,1299,177"/>
-<area shape="rect" id="node12" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="555,266,781,307"/>
-<area shape="rect" id="node13" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="849,201,1009,242"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="849,266,1009,307"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="849,331,1009,373"/>
-<area shape="rect" id="node19" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="849,397,1009,438"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1119,266,1279,307"/>
-<area shape="rect" id="node16" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1368,266,1611,307"/>
-<area shape="rect" id="node18" href="$classMWMechanics_1_1MechanicsManager.html#a0d59b750f6336af8a3db5007a3509054" title="MWMechanics::MechanicsManager\l::rest" alt="" coords="1077,331,1320,373"/>
-<area shape="rect" id="node20" href="$classMWMechanics_1_1MechanicsManager.html#afc410b78620c72d4ec2447b495430128" title="MWMechanics::MechanicsManager\l::updateMagicEffects" alt="" coords="1077,397,1320,438"/>
+<area shape="rect" id="node2" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="555,141,781,182"/>
+<area shape="rect" id="node11" href="$namespaceMWMechanics.html#a49e7b752ea4693fbda0e35137a8ede6e" title="MWMechanics::makeFleeDecision" alt="" coords="268,481,503,508"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1CastSpell.html#a0b93caa45a3da548f198f6ed8b3d2be7" title="MWMechanics::CastSpell\l::inflict" alt="" coords="296,270,475,311"/>
+<area shape="rect" id="node20" href="$namespaceMWMechanics.html#ab7eadd05e39e29738227aeb394c096ec" title="MWMechanics::rateEffect" alt="" coords="295,341,476,368"/>
+<area shape="rect" id="node30" href="$structMWMechanics_1_1UpdateSummonedCreatures.html#a04838e49a33a9f99bab3a6da74371508" title="To call after all effect sources have been visited. " alt="" coords="265,202,506,243"/>
+<area shape="rect" id="node3" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="849,70,1009,111"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="1644,221,1804,262"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="849,135,1009,177"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1Actors.html#ae9acc75d922e60bf1ba950e653d045c3" title="MWMechanics::Actors\l::updateMagicEffects" alt="" coords="849,5,1009,46"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1881,267,2041,309"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="2101,267,2344,309"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#a0d59b750f6336af8a3db5007a3509054" title="MWMechanics::MechanicsManager\l::rest" alt="" coords="1077,135,1320,177"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1MechanicsManager.html#afc410b78620c72d4ec2447b495430128" title="MWMechanics::MechanicsManager\l::updateMagicEffects" alt="" coords="1077,5,1320,46"/>
+<area shape="rect" id="node12" href="$namespaceMWMechanics.html#a830c73b5935624c014c7f8c28cce9aff" title="MWMechanics::prepareNext\lAction" alt="" coords="1374,489,1573,530"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1AiCombat.html#a3caa2cf9b536a6d5a8826e3142391855" title="Returns true if combat should end. " alt="" coords="1633,489,1815,530"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1AiCombat.html#aa5b6e62fabdd5c9a59ca540992330bce" title="MWMechanics::AiCombat\l::execute" alt="" coords="1870,489,2053,530"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CastSpell.html#a792b5c30e747b65d6c5f83166d716d59" title="MWMechanics::CastSpell\l::cast" alt="" coords="579,275,757,317"/>
+<area shape="rect" id="node17" href="$classMWWorld_1_1ProjectileManager.html#ad7f820af09ff0d1c510ad52b9db7cefa" title="MWWorld::ProjectileManager\l::moveMagicBolts" alt="" coords="568,210,768,251"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1ProjectileManager.html#a10e1c50b640ed158c9332d75c870c8c5" title="MWWorld::ProjectileManager\l::update" alt="" coords="829,253,1029,294"/>
+<area shape="rect" id="node19" href="$classMWWorld_1_1ProjectileManager.html#a77bced8f0dfc8fec0a492cd753d0c464" title="MWWorld::ProjectileManager\l::moveProjectiles" alt="" coords="1099,253,1299,294"/>
+<area shape="rect" id="node21" href="$namespaceMWMechanics.html#a2d6e40b5807589d4725ad64e263dfe1f" title="MWMechanics::rateEffects" alt="" coords="574,443,762,469"/>
+<area shape="rect" id="node22" href="$namespaceMWMechanics.html#aec953882946f6e11ec708949f7a1d0da" title="MWMechanics::ratePotion" alt="" coords="837,623,1022,649"/>
+<area shape="rect" id="node23" href="$namespaceMWMechanics.html#a9ea06096b26b59bb714ecbd570d51e23" title="MWMechanics::rateSpell" alt="" coords="1111,521,1287,548"/>
+<area shape="rect" id="node26" href="$namespaceMWMechanics.html#a9586872bfeceb99e5f4fc2399c5011fb" title="MWMechanics::rateMagicItem" alt="" coords="1093,420,1304,447"/>
+<area shape="rect" id="node27" href="$namespaceMWMechanics.html#a34361714bc630a0c921be69cf14f6aa5" title="MWMechanics::rateWeapon" alt="" coords="832,392,1027,419"/>
+<area shape="rect" id="node24" href="$namespaceMWMechanics.html#a2063cb7e43a9a94667efe9865bcae60f" title="MWMechanics::getBestAction\lRating" alt="" coords="1369,366,1578,407"/>
+<area shape="rect" id="node25" href="$classMWMechanics_1_1AiSequence.html#afcefe571332a2f759ce594c9e95c43ee" title="Execute current package, switching if needed. " alt="" coords="1627,313,1821,354"/>
+<area shape="rect" id="node28" href="$namespaceMWMechanics.html#a2c14c536d3440ca240707db7bf78b2ea" title="MWMechanics::rateAmmo" alt="" coords="1105,319,1293,345"/>
+<area shape="rect" id="node29" href="$namespaceMWMechanics.html#afb3891c89c0574755a4cbe5f94748ef1" title="MWMechanics::rateAmmo" alt="" coords="1379,315,1567,341"/>
 </map>

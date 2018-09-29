@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,13 +110,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for SceneUtil::WorkQueue:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkQueue__inherit__graph.svg" width="174" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkQueue__inherit__graph.svg" width="200" height="347"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for SceneUtil::WorkQueue:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkQueue__coll__graph.svg" width="622" height="763"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkQueue__coll__graph.svg" width="803" height="806"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -130,6 +130,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae71ff664c3db024902100e5fb1ebd3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac67a98182ff63bdba5b494b6bf103328"><td class="memItemLeft" align="right" valign="top">osg::ref_ptr&lt; <a class="el" href="classSceneUtil_1_1WorkItem.html">WorkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1WorkQueue.html#ac67a98182ff63bdba5b494b6bf103328">removeWorkItem</a> ()</td></tr>
 <tr class="separator:ac67a98182ff63bdba5b494b6bf103328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada570b5bd5973aae30b97ba2c514a7c1"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1WorkQueue.html#ada570b5bd5973aae30b97ba2c514a7c1">getNumItems</a> () const </td></tr>
+<tr class="separator:ada570b5bd5973aae30b97ba2c514a7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfd9faed03a34786d676a990cacc987e"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneUtil_1_1WorkQueue.html#acfd9faed03a34786d676a990cacc987e">getNumActiveThreads</a> () const </td></tr>
+<tr class="separator:acfd9faed03a34786d676a990cacc987e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -216,10 +220,40 @@ Private Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkQueue_ae71ff664c3db024902100e5fb1ebd3b0_icgraph.svg" width="390" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSceneUtil_1_1WorkQueue_ae71ff664c3db024902100e5fb1ebd3b0_icgraph.svg" width="1603" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="acfd9faed03a34786d676a990cacc987e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classint.html">int</a> SceneUtil::WorkQueue::getNumActiveThreads </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ada570b5bd5973aae30b97ba2c514a7c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classint.html">int</a> SceneUtil::WorkQueue::getNumItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -302,7 +336,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -350,13 +384,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="workqueue_8hpp_source.html">workqueue.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/sceneutil/<a class="el" href="workqueue_8cpp.html">workqueue.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="workqueue_8hpp_source.html">workqueue.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/sceneutil/<a class="el" href="workqueue_8cpp.html">workqueue.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

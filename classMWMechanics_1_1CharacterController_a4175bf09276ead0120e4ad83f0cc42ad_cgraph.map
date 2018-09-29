@@ -1,51 +1,51 @@
 <map id="MWMechanics::CharacterController::updateCreatureState" name="MWMechanics::CharacterController::updateCreatureState">
-<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1147,457,1314,484"/>
-<area shape="rect" id="node3" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="319,895,524,936"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1CreatureStats.html#a574d0e9716ba3e0cddcac22a3f943e7a" title="MWMechanics::CreatureStats\l::getDrawState" alt="" coords="317,960,526,1002"/>
-<area shape="rect" id="node5" href="$classMWRender_1_1Animation.html#a5b8f16b3c1ae5e7d515a5f9be97df6a4" title="MWRender::Animation\l::isPlaying" alt="" coords="341,1026,502,1067"/>
-<area shape="rect" id="node6" href="$classMWRender_1_1Animation.html#ae52ecaea6bbf327d968e6d388f37bf44" title="MWRender::Animation\l::disable" alt="" coords="341,384,502,426"/>
-<area shape="rect" id="node11" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="601,450,796,477"/>
-<area shape="rect" id="node12" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="616,903,781,944"/>
-<area shape="rect" id="node13" href="$classMWBase_1_1World.html#a7044be150e5562bc2e4b93735fe48d21" title="MWBase::World::breakInvisibility" alt="" coords="310,1092,533,1118"/>
-<area shape="rect" id="node14" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="317,1143,526,1184"/>
-<area shape="rect" id="node15" href="$classMWMechanics_1_1Spells.html#a33883059fef658d0c88f2ee44f05b8a9" title="May return an empty string. " alt="" coords="343,1208,500,1250"/>
-<area shape="rect" id="node16" href="$classMWBase_1_1World.html#a211373c6972613747e222bd3060965c9" title="startSpellCast attempt to start casting a spell. Might fail immediately if conditions are not met..." alt="" coords="313,1274,529,1301"/>
-<area shape="rect" id="node17" href="$classMWMechanics_1_1CastSpell.html#a4e4369b3c09094115d3bdf6bf14445e9" title="MWMechanics::CastSpell\l::playSpellCastingEffects" alt="" coords="332,676,511,718"/>
-<area shape="rect" id="node18" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="607,969,790,996"/>
-<area shape="rect" id="node19" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="609,1020,788,1046"/>
-<area shape="rect" id="node36" href="$classMWRender_1_1Animation.html#a38d2545a992af8eef9199a7c1b5f74eb" title="MWRender::Animation\l::hasAnimation" alt="" coords="341,1326,502,1367"/>
-<area shape="rect" id="node38" href="$classMWBase_1_1World.html#a9b07ff3baff562944be7895a38f8a6fb" title="MWBase::World::castSpell" alt="" coords="329,1392,513,1418"/>
-<area shape="rect" id="node39" href="$classMisc_1_1Rng.html#aea7920431866f89996a152900e5d4208" title="return value in range [0, max) &lt;&#45; note open upper range. " alt="" coords="353,1442,490,1469"/>
-<area shape="rect" id="node40" href="$classMWRender_1_1Animation.html#af375135ae7834445da7479dde42b7528" title="MWRender::Animation\l::play" alt="" coords="341,231,502,272"/>
-<area shape="rect" id="node48" href="$classMisc_1_1Rng.html#af6b612debb560b1f231a7f9df8b6ecce" title="return value in range [0.0f, 1.0f] &lt;&#45; note closed upper range. " alt="" coords="312,1493,531,1520"/>
-<area shape="rect" id="node49" href="$classMWMechanics_1_1CharacterController.html#a48e34a57416afd5e473da042663fc639" title="MWMechanics::CharacterController\l::playSwishSound" alt="" coords="299,534,543,575"/>
-<area shape="rect" id="node50" href="$classMWRender_1_1Animation.html#acf25405ac8a19025bd2ab392ff5eea7f" title="MWRender::Animation\l::getInfo" alt="" coords="341,1544,502,1586"/>
-<area shape="rect" id="node7" href="$classMWRender_1_1Animation.html#a94cc64915a580e0d9818d7aa50acc3d5" title="MWRender::Animation\l::resetActiveGroups" alt="" coords="618,384,779,426"/>
-<area shape="rect" id="node8" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="1150,563,1311,604"/>
-<area shape="rect" id="node9" href="$classMWRender_1_1Animation.html#a459a7199da8cad0d9fe4a7fd1571f3cb" title="MWRender::Animation\l::addControllers" alt="" coords="886,508,1047,550"/>
-<area shape="rect" id="node10" href="$classMWWorld_1_1Class.html#a2636304bd0f5040a7900cbdd965cf6c1" title="MWWorld::Class::isBipedal" alt="" coords="1138,512,1323,538"/>
-<area shape="rect" id="node20" href="$classMWBase_1_1World.html#aea171eaf012a7d6eaa24c8c474f579dd" title="MWBase::World::getAnimation" alt="" coords="593,852,805,878"/>
-<area shape="rect" id="node21" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="613,684,785,710"/>
-<area shape="rect" id="node22" href="$classMWRender_1_1Animation.html#a1ad2390344ae9c1560289082c500be9e" title="Add an effect mesh attached to a bone or the insert scene node. " alt="" coords="886,727,1047,768"/>
-<area shape="rect" id="node31" href="$classMWRender_1_1Animation.html#abed989fb7189cb08942784a17bdc1261" title="MWRender::Animation\l::addSpellCastGlow" alt="" coords="618,786,779,827"/>
-<area shape="rect" id="node34" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="616,502,781,543"/>
-<area shape="rect" id="node35" href="$classMWBase_1_1SoundManager.html#a29793d56f5aa3902dac261ba34b1cddd" title="MWBase::SoundManager\l::playSound3D" alt="" coords="608,567,789,608"/>
-<area shape="rect" id="node23" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="1165,694,1297,735"/>
-<area shape="rect" id="node25" href="$classResource_1_1ResourceSystem.html#a08d6f53366084e39ff8f5d336ba74b5f" title="Resource::ResourceSystem\l::getSceneManager" alt="" coords="1133,890,1328,931"/>
-<area shape="rect" id="node26" href="$classResource_1_1SceneManager.html#ae146e6f78ef122d5e8701b1162cbb47b" title="Resource::SceneManager\l::getInstance" alt="" coords="1139,759,1323,800"/>
-<area shape="rect" id="node29" href="$classSceneUtil_1_1FindMaxControllerLengthVisitor.html#a368e3299dd11b6f195b4e6fa63c5db48" title="SceneUtil::FindMaxController\lLengthVisitor::getMaxLength" alt="" coords="1128,824,1333,866"/>
-<area shape="rect" id="node30" href="$namespaceMWRender.html#add8c2ed3ee5a5b2d525c32dc9c8b7a74" title="MWRender::overrideFirstRoot\lTexture" alt="" coords="1129,628,1332,670"/>
-<area shape="rect" id="node24" href="$classMisc_1_1StringUtils.html#a249dcf40e5ef16618daf8bf5d2098c54" title="Transforms input string to lower case w/o copy. " alt="" coords="1435,694,1567,735"/>
-<area shape="rect" id="node27" href="$classVFS_1_1Manager.html#a2c8881f46b17c4afc707e5923621a479" title="VFS::Manager::normalizeFilename" alt="" coords="1382,825,1621,852"/>
-<area shape="rect" id="node28" href="$classResource_1_1SceneManager.html#a0b3d33cb5ff1935dcb2ef16b649878e2" title="Resource::SceneManager\l::createInstance" alt="" coords="1409,759,1593,800"/>
-<area shape="rect" id="node32" href="$classMWRender_1_1Animation.html#aee82ebb9884fbd0f8b563d8e0c2465fb" title="MWRender::Animation\l::addGlow" alt="" coords="886,890,1047,931"/>
-<area shape="rect" id="node33" href="$classResource_1_1ResourceSystem.html#ac9829e6c125ba11b7615b1e5c566b641" title="Resource::ResourceSystem\l::getImageManager" alt="" coords="1133,955,1328,996"/>
-<area shape="rect" id="node37" href="$namespaceanonymous__namespace_02animation_8cpp_03.html#a1621e3d167ededdfbe43af8640a8b3d2" title="anonymous_namespace\l\{animation::cpp\}::findGroup\lStart" alt="" coords="597,1318,800,1374"/>
-<area shape="rect" id="node41" href="$classMWRender_1_1Animation.html#a78dd036addc4f13e9b47805643f10247" title="MWRender::Animation\l::reset" alt="" coords="618,202,779,243"/>
-<area shape="rect" id="node42" href="$structMWRender_1_1Animation_1_1AnimState.html#a31b0a6dacb33aaed30137588db536ee6" title="MWRender::Animation\l::AnimState::setTime" alt="" coords="886,166,1047,207"/>
-<area shape="rect" id="node43" href="$structMWRender_1_1Animation_1_1AnimState.html#a53d70c3f75d4b3dbdcbf0e47ce705b9e" title="MWRender::Animation\l::AnimState::getTime" alt="" coords="886,242,1047,283"/>
-<area shape="rect" id="node44" href="$classMWRender_1_1Animation.html#ab7236ec1b0d9e4a328d1415324692188" title="MWRender::Animation\l::handleTextKey" alt="" coords="618,319,779,360"/>
-<area shape="rect" id="node46" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="611,49,786,76"/>
-<area shape="rect" id="node47" href="$classMWWorld_1_1CellRef.html#a2f70b196b33750c0bbc0a11038d2cf72" title="MWWorld::CellRef::getRefId" alt="" coords="605,100,792,126"/>
-<area shape="rect" id="node45" href="$classMWRender_1_1Animation_1_1TextKeyListener.html#a67153739c95c33dc40ccad0eb47fd741" title="MWRender::Animation\l::TextKeyListener::handleTextKey" alt="" coords="853,319,1080,360"/>
+<area shape="rect" id="node2" href="$classMWWorld_1_1Ptr.html#aa2ac4a5579cd19eaa780596f4543ea46" title="MWWorld::Ptr::getClass" alt="" coords="1151,123,1318,149"/>
+<area shape="rect" id="node3" href="$classMWWorld_1_1Class.html#a5095a30e5baa5742b3d393610fd73d60" title="MWWorld::Class::getCreature\lStats" alt="" coords="319,1211,524,1253"/>
+<area shape="rect" id="node4" href="$classMWMechanics_1_1CreatureStats.html#a574d0e9716ba3e0cddcac22a3f943e7a" title="MWMechanics::CreatureStats\l::getDrawState" alt="" coords="317,1277,526,1318"/>
+<area shape="rect" id="node5" href="$classMWRender_1_1Animation.html#a5b8f16b3c1ae5e7d515a5f9be97df6a4" title="MWRender::Animation\l::isPlaying" alt="" coords="341,1342,502,1383"/>
+<area shape="rect" id="node6" href="$classMWRender_1_1Animation.html#ae52ecaea6bbf327d968e6d388f37bf44" title="MWRender::Animation\l::disable" alt="" coords="341,141,502,182"/>
+<area shape="rect" id="node10" href="$classMWBase_1_1Environment.html#a73f12633762b049c03c80fe215873faa" title="Return instance of this class. " alt="" coords="617,700,812,727"/>
+<area shape="rect" id="node11" href="$classMWBase_1_1Environment.html#ae14e166d8f5ff8629be119333d502660" title="MWBase::Environment\l::getWorld" alt="" coords="632,634,797,675"/>
+<area shape="rect" id="node12" href="$classMWBase_1_1World.html#a7044be150e5562bc2e4b93735fe48d21" title="MWBase::World::breakInvisibility" alt="" coords="310,1408,533,1435"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1CreatureStats.html#a5e46d038ec5222e7f6f6e1faf135c22d" title="MWMechanics::CreatureStats\l::getSpells" alt="" coords="317,1459,526,1501"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1Spells.html#a33883059fef658d0c88f2ee44f05b8a9" title="May return an empty string. " alt="" coords="343,1525,500,1566"/>
+<area shape="rect" id="node15" href="$classMWBase_1_1World.html#a211373c6972613747e222bd3060965c9" title="startSpellCast attempt to start casting a spell. Might fail immediately if conditions are not met..." alt="" coords="313,1591,529,1617"/>
+<area shape="rect" id="node16" href="$classMWMechanics_1_1CastSpell.html#a4e4369b3c09094115d3bdf6bf14445e9" title="MWMechanics::CastSpell\l::playSpellCastingEffects" alt="" coords="332,1043,511,1085"/>
+<area shape="rect" id="node17" href="$classMWBase_1_1World.html#a2ba0910cb944786065e37dc5f3fcda35" title="MWBase::World::getStore" alt="" coords="623,1675,806,1701"/>
+<area shape="rect" id="node18" href="$classMWWorld_1_1ESMStore.html#a94ffe201bd012dd41fcdabfb35c69e24" title="MWWorld::ESMStore::get" alt="" coords="625,1725,804,1752"/>
+<area shape="rect" id="node37" href="$classMWRender_1_1Animation.html#a38d2545a992af8eef9199a7c1b5f74eb" title="MWRender::Animation\l::hasAnimation" alt="" coords="905,458,1066,499"/>
+<area shape="rect" id="node39" href="$classMWBase_1_1World.html#af70f1c06a9541a0cb5dead1be865bf26" title="MWBase::World::castSpell" alt="" coords="329,1641,513,1668"/>
+<area shape="rect" id="node40" href="$classMWMechanics_1_1CharacterController.html#a2be2e9af767eaa148d286dd62cdba6ba" title="MWMechanics::CharacterController\l::chooseRandomAttackAnimation" alt="" coords="299,577,543,618"/>
+<area shape="rect" id="node43" href="$classMWRender_1_1Animation.html#af375135ae7834445da7479dde42b7528" title="MWRender::Animation\l::play" alt="" coords="341,265,502,306"/>
+<area shape="rect" id="node48" href="$classMisc_1_1Rng.html#af6b612debb560b1f231a7f9df8b6ecce" title="return value in range [0.0f, 1.0f] &lt;&#45; note closed upper range. " alt="" coords="312,1692,531,1719"/>
+<area shape="rect" id="node49" href="$classMWMechanics_1_1CharacterController.html#a48e34a57416afd5e473da042663fc639" title="MWMechanics::CharacterController\l::playSwishSound" alt="" coords="299,801,543,842"/>
+<area shape="rect" id="node50" href="$classMWRender_1_1Animation.html#acf25405ac8a19025bd2ab392ff5eea7f" title="MWRender::Animation\l::getInfo" alt="" coords="341,1743,502,1785"/>
+<area shape="rect" id="node7" href="$classMWRender_1_1Animation.html#a94cc64915a580e0d9818d7aa50acc3d5" title="MWRender::Animation\l::resetActiveGroups" alt="" coords="634,115,795,157"/>
+<area shape="rect" id="node8" href="$classMWRender_1_1Animation.html#a652a215abe4aac70d9c916a5ce3d503d" title="MWRender::Animation\l::getNodeMap" alt="" coords="1154,174,1315,215"/>
+<area shape="rect" id="node9" href="$classMWRender_1_1Animation.html#a459a7199da8cad0d9fe4a7fd1571f3cb" title="MWRender::Animation\l::addControllers" alt="" coords="905,115,1066,157"/>
+<area shape="rect" id="node19" href="$classMWBase_1_1World.html#aea171eaf012a7d6eaa24c8c474f579dd" title="MWBase::World::getAnimation" alt="" coords="609,1051,821,1077"/>
+<area shape="rect" id="node20" href="$classMWWorld_1_1Ptr.html#aa35780406bea82e5dcff038800bd10e0" title="MWWorld::Ptr::getRefData" alt="" coords="623,1152,806,1179"/>
+<area shape="rect" id="node21" href="$classMWWorld_1_1RefData.html#a32f3f82fc97a20fd3a776751f43ca131" title="MWWorld::RefData::getPosition" alt="" coords="607,1269,822,1296"/>
+<area shape="rect" id="node22" href="$structESM_1_1Position.html#a71dbd95e261f1976f60cbe456d450948" title="ESM::Position::asVec3" alt="" coords="633,1320,796,1347"/>
+<area shape="rect" id="node23" href="$classMWWorld_1_1Class.html#a93babe591b0f7b9bb79adbdeccff099a" title="MWWorld::Class::isNpc" alt="" coords="633,1371,796,1397"/>
+<area shape="rect" id="node24" href="$classMWWorld_1_1Ptr.html#a46a6588d17f16b3047b3d87d1b20eae7" title="MWWorld::Ptr::get" alt="" coords="648,1421,781,1448"/>
+<area shape="rect" id="node26" href="$structESM_1_1NPC.html#a8b7ee1fb404dac430b9c2d2648861b3d" title="ESM::NPC::isMale" alt="" coords="648,1472,781,1499"/>
+<area shape="rect" id="node27" href="$classMWBase_1_1World.html#a9ae4f2f7bc6e38db71ed03e34c73629e" title="Return physical or rendering half extents of the given actor. " alt="" coords="605,1523,825,1549"/>
+<area shape="rect" id="node28" href="$classMWRender_1_1Animation.html#aa8100b647609f31d4ecbdc0a78028e69" title="Add an effect mesh attached to a bone or the insert scene node. " alt="" coords="634,1203,795,1245"/>
+<area shape="rect" id="node30" href="$classMWWorld_1_1Class.html#a52e0d01fba8ae28035c23f85f5579293" title="MWWorld::Class::isActor" alt="" coords="629,1573,801,1600"/>
+<area shape="rect" id="node31" href="$classMWWorld_1_1Ptr.html#acb6d9fb770fd8b8814df2358596ba656" title="MWWorld::Ptr::getCellRef" alt="" coords="627,1624,802,1651"/>
+<area shape="rect" id="node32" href="$classMWWorld_1_1CellRef.html#a82401509b761fe4309a11b7b31e52fe9" title="MWWorld::CellRef::getScale" alt="" coords="619,883,811,909"/>
+<area shape="rect" id="node33" href="$classMWBase_1_1World.html#abeb26abd89932f7559f5a2f04e557db2" title="MWBase::World::spawnEffect" alt="" coords="613,933,816,960"/>
+<area shape="rect" id="node34" href="$classMWRender_1_1Animation.html#abed989fb7189cb08942784a17bdc1261" title="MWRender::Animation\l::addSpellCastGlow" alt="" coords="634,985,795,1026"/>
+<area shape="rect" id="node35" href="$classMWBase_1_1Environment.html#a4506cf05dc1136ff7262f69a7a0860c1" title="MWBase::Environment\l::getSoundManager" alt="" coords="632,817,797,858"/>
+<area shape="rect" id="node36" href="$classMWBase_1_1SoundManager.html#a8d1c492f97504786ce42225af0471af3" title="MWBase::SoundManager\l::playSound3D" alt="" coords="624,751,805,793"/>
+<area shape="rect" id="node25" href="$classMWWorld_1_1Ptr.html#a6c33fb25a2ac50b8360397272070d298" title="MWWorld::Ptr::getTypeName" alt="" coords="885,1421,1085,1448"/>
+<area shape="rect" id="node29" href="$classMisc_1_1StringUtils.html#a2982264998fde90a8e01ebab4bd69e14" title="Returns lower case copy of input string. " alt="" coords="919,1153,1051,1194"/>
+<area shape="rect" id="node38" href="$namespaceanonymous__namespace_02animation_8cpp_03.html#a1621e3d167ededdfbe43af8640a8b3d2" title="anonymous_namespace\l\{animation::cpp\}::findGroup\lStart" alt="" coords="1133,451,1336,507"/>
+<area shape="rect" id="node41" href="$classMWBase_1_1World.html#afcb13e418993a9442cf3a02275fa211d" title="MWBase::World::isSwimming" alt="" coords="613,583,816,609"/>
+<area shape="rect" id="node42" href="$classMWMechanics_1_1CharacterController.html#a19c34bb28bca49127418b526d434def6" title="MWMechanics::CharacterController\l::chooseRandomGroup" alt="" coords="593,517,837,558"/>
+<area shape="rect" id="node44" href="$classMWRender_1_1Animation.html#a78dd036addc4f13e9b47805643f10247" title="MWRender::Animation\l::reset" alt="" coords="634,233,795,274"/>
+<area shape="rect" id="node45" href="$structMWRender_1_1Animation_1_1AnimState.html#a31b0a6dacb33aaed30137588db536ee6" title="MWRender::Animation\l::AnimState::setTime" alt="" coords="905,327,1066,369"/>
+<area shape="rect" id="node46" href="$structMWRender_1_1Animation_1_1AnimState.html#a53d70c3f75d4b3dbdcbf0e47ce705b9e" title="MWRender::Animation\l::AnimState::getTime" alt="" coords="905,233,1066,274"/>
+<area shape="rect" id="node47" href="$classMWRender_1_1Animation.html#ab7236ec1b0d9e4a328d1415324692188" title="MWRender::Animation\l::handleTextKey" alt="" coords="634,298,795,339"/>
 </map>

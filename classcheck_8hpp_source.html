@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/tools/classcheck.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/tools/classcheck.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,31 +111,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ClassCheckStage.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCSMTools_1_1ClassCheckStage.html">ClassCheckStage</a> : <span class="keyword">public</span> <a class="code" href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ClassCheckStage.html#a1700dd72397a62b19d0a8cc42d17c802">   15</a></span>&#160;            <span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Class&gt;</a>&amp; <a class="code" href="classCSMTools_1_1ClassCheckStage.html#a1700dd72397a62b19d0a8cc42d17c802">mClasses</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <a class="code" href="classCSMTools_1_1ClassCheckStage.html#aa6fa1986eb1ce33588a77023b09b8a7d">ClassCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Class&gt;</a>&amp; classes);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1ClassCheckStage.html#a604927259ca83f1c66ec2632b5ae5d46">setup</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1ClassCheckStage.html#a72b7834c3495146305f1e288c690d272">perform</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classCSMTools_1_1ClassCheckStage.html#adf098c07b6574d5bb3b434652e4a61a6">   16</a></span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classCSMTools_1_1ClassCheckStage.html#adf098c07b6574d5bb3b434652e4a61a6">mIgnoreBaseRecords</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="classCSMTools_1_1ClassCheckStage.html#aa6fa1986eb1ce33588a77023b09b8a7d">ClassCheckStage</a> (<span class="keyword">const</span> <a class="code" href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt;ESM::Class&gt;</a>&amp; classes);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classCSMTools_1_1ClassCheckStage.html#a604927259ca83f1c66ec2632b5ae5d46">setup</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classCSMTools_1_1ClassCheckStage.html#a72b7834c3495146305f1e288c690d272">perform</a> (<span class="keywordtype">int</span> stage, <a class="code" href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a>&amp; messages);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    };</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classCSMWorld_1_1IdCollection_html"><div class="ttname"><a href="classCSMWorld_1_1IdCollection.html">CSMWorld::IdCollection&lt; ESM::Class &gt;</a></div></div>
-<div class="ttc" id="classCSMTools_1_1ClassCheckStage_html_a72b7834c3495146305f1e288c690d272"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html#a72b7834c3495146305f1e288c690d272">CSMTools::ClassCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this tage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> classcheck.cpp:20</div></div>
+<div class="ttc" id="classCSMTools_1_1ClassCheckStage_html_a72b7834c3495146305f1e288c690d272"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html#a72b7834c3495146305f1e288c690d272">CSMTools::ClassCheckStage::perform</a></div><div class="ttdeci">virtual void perform(int stage, CSMDoc::Messages &amp;messages)</div><div class="ttdoc">Messages resulting from this tage will be appended to messages. </div><div class="ttdef"><b>Definition:</b> classcheck.cpp:25</div></div>
 <div class="ttc" id="classCSMDoc_1_1Messages_html"><div class="ttname"><a href="classCSMDoc_1_1Messages.html">CSMDoc::Messages</a></div><div class="ttdef"><b>Definition:</b> messages.hpp:38</div></div>
 <div class="ttc" id="classCSMTools_1_1ClassCheckStage_html_a1700dd72397a62b19d0a8cc42d17c802"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html#a1700dd72397a62b19d0a8cc42d17c802">CSMTools::ClassCheckStage::mClasses</a></div><div class="ttdeci">const CSMWorld::IdCollection&lt; ESM::Class &gt; &amp; mClasses</div><div class="ttdef"><b>Definition:</b> classcheck.hpp:15</div></div>
 <div class="ttc" id="loadclas_8hpp_html"><div class="ttname"><a href="loadclas_8hpp.html">loadclas.hpp</a></div></div>
-<div class="ttc" id="classCSMTools_1_1ClassCheckStage_html_aa6fa1986eb1ce33588a77023b09b8a7d"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html#aa6fa1986eb1ce33588a77023b09b8a7d">CSMTools::ClassCheckStage::ClassCheckStage</a></div><div class="ttdeci">ClassCheckStage(const CSMWorld::IdCollection&lt; ESM::Class &gt; &amp;classes)</div><div class="ttdef"><b>Definition:</b> classcheck.cpp:11</div></div>
+<div class="ttc" id="classCSMTools_1_1ClassCheckStage_html_aa6fa1986eb1ce33588a77023b09b8a7d"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html#aa6fa1986eb1ce33588a77023b09b8a7d">CSMTools::ClassCheckStage::ClassCheckStage</a></div><div class="ttdeci">ClassCheckStage(const CSMWorld::IdCollection&lt; ESM::Class &gt; &amp;classes)</div><div class="ttdef"><b>Definition:</b> classcheck.cpp:12</div></div>
 <div class="ttc" id="classCSMTools_1_1ClassCheckStage_html"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html">CSMTools::ClassCheckStage</a></div><div class="ttdoc">VerifyStage: make sure that class records are internally consistent. </div><div class="ttdef"><b>Definition:</b> classcheck.hpp:13</div></div>
 <div class="ttc" id="classCSMDoc_1_1Stage_html"><div class="ttname"><a href="classCSMDoc_1_1Stage.html">CSMDoc::Stage</a></div><div class="ttdef"><b>Definition:</b> stage.hpp:15</div></div>
-<div class="ttc" id="classCSMTools_1_1ClassCheckStage_html_a604927259ca83f1c66ec2632b5ae5d46"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html#a604927259ca83f1c66ec2632b5ae5d46">CSMTools::ClassCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> classcheck.cpp:15</div></div>
+<div class="ttc" id="classCSMTools_1_1ClassCheckStage_html_adf098c07b6574d5bb3b434652e4a61a6"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html#adf098c07b6574d5bb3b434652e4a61a6">CSMTools::ClassCheckStage::mIgnoreBaseRecords</a></div><div class="ttdeci">bool mIgnoreBaseRecords</div><div class="ttdef"><b>Definition:</b> classcheck.hpp:16</div></div>
+<div class="ttc" id="classCSMTools_1_1ClassCheckStage_html_a604927259ca83f1c66ec2632b5ae5d46"><div class="ttname"><a href="classCSMTools_1_1ClassCheckStage.html#a604927259ca83f1c66ec2632b5ae5d46">CSMTools::ClassCheckStage::setup</a></div><div class="ttdeci">virtual int setup()</div><div class="ttdef"><b>Definition:</b> classcheck.cpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:19 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

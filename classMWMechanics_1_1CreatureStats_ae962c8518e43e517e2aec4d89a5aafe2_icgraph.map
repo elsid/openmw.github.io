@@ -1,51 +1,51 @@
 <map id="MWMechanics::CreatureStats::getFatigue" name="MWMechanics::CreatureStats::getFatigue">
-<area shape="rect" id="node2" href="$classMWGui_1_1CharacterCreation.html#a56a9e33b81417cbf53bb8006908c2296" title="MWGui::CharacterCreation\l::spawnDialog" alt="" coords="291,5,482,46"/>
-<area shape="rect" id="node4" href="$classMWMechanics_1_1Actors.html#af347805d67d95cbdcf6afafe6d430cc5" title="MWMechanics::Actors\l::restoreDynamicStats" alt="" coords="895,73,1062,114"/>
-<area shape="rect" id="node6" href="$classMWMechanics_1_1Actors.html#aa845f11827de366ac04fb7c75c18588b" title="MWMechanics::Actors\l::calculateRestoration" alt="" coords="307,667,467,709"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1CharacterController.html#ae7520b5a1c8a260cad126ef7f7799a48" title="MWMechanics::CharacterController\l::refreshHitRecoilAnims" alt="" coords="265,733,509,774"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="857,783,1101,825"/>
-<area shape="rect" id="node12" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1427,842,1669,883"/>
-<area shape="rect" id="node13" href="$namespaceMWMechanics.html#a3a149737334b960ada4aa48228feae47" title="MWMechanics::blockMeleeAttack" alt="" coords="863,1944,1094,1971"/>
-<area shape="rect" id="node16" href="$namespaceMWMechanics.html#a0eca898ae05a994e8463ec1705205788" title="Get the chance (in percent) for attacker to successfully hit victim with a given weapon skill value..." alt="" coords="875,1809,1082,1836"/>
-<area shape="rect" id="node18" href="$namespaceMWMechanics.html#aa9628a68120fe3fbe5e75c0a078389c3" title="Applies damage to attacker based on the victim&#39;s elemental shields. " alt="" coords="1155,1962,1373,2003"/>
-<area shape="rect" id="node19" href="$namespaceMWMechanics.html#a053f75c3b353f20c71cda72ae183c65e" title="Apply the fatigue loss incurred by attacking with the given weapon (weapon may be empty = hand&#45;to&#45;han..." alt="" coords="1150,2079,1378,2105"/>
-<area shape="rect" id="node21" href="$classMWMechanics_1_1CreatureStats.html#a50da4580fdbd7e4f6daec42d92811154" title="Return effective fatigue. " alt="" coords="282,1359,491,1401"/>
-<area shape="rect" id="node33" href="$classMWMechanics_1_1CastSpell.html#a54e54268a860259340cbcca06a8d00fc" title="MWMechanics::CastSpell\l::cast" alt="" coords="889,1126,1068,1167"/>
-<area shape="rect" id="node41" href="$classMWMechanics_1_1CreatureStats.html#a8283f726e62dfd0744e115143e68c294" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="282,387,491,429"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1WindowManager.html#ab9fdbfdc3d3b76fe9813cbb743d334da" title="MWGui::WindowManager\l::updateVisible" alt="" coords="595,5,771,46"/>
-<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="1184,123,1344,165"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="1184,453,1344,494"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1CharacterController.html#a583dc9b83b06b368c48ac9abd1355902" title="MWMechanics::CharacterController\l::refreshCurrentAnims" alt="" coords="561,733,805,774"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1184,783,1344,825"/>
-<area shape="rect" id="node14" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="1465,1911,1631,1937"/>
-<area shape="rect" id="node15" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="1481,1969,1615,1996"/>
-<area shape="rect" id="node17" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="1451,1721,1645,1748"/>
-<area shape="rect" id="node20" href="$classMWRender_1_1WeaponAnimation.html#a7038157f342b82a7146ae852aabf7994" title="MWRender::WeaponAnimation\l::releaseArrow" alt="" coords="1443,2071,1653,2113"/>
-<area shape="rect" id="node22" href="$classMWClass_1_1Npc.html#a9a9f4191138f024f027fff003aac080d" title="Return jump velocity (not accounting for movement) " alt="" coords="597,1184,769,1211"/>
-<area shape="rect" id="node23" href="$classMWMechanics_1_1Repair.html#a4456a1ec25b2bbede4c06df2dbfeacf5" title="MWMechanics::Repair\l::repair" alt="" coords="603,1235,762,1277"/>
-<area shape="rect" id="node24" href="$classMWGui_1_1Recharge.html#a994cd812a36bc0e835f8284306b3576c" title="MWGui::Recharge::onItemClicked" alt="" coords="567,1301,798,1328"/>
-<area shape="rect" id="node25" href="$classMWMechanics_1_1CreatureStats.html#a73a6c44d487a1c5772380479236c257d" title="MWMechanics::CreatureStats\l::getEvasion" alt="" coords="578,1810,787,1851"/>
-<area shape="rect" id="node26" href="$namespaceanonymous__namespace_02mechanicsmanagerimp_8cpp_03.html#a5b2b5d6ec92a783dfe430bdc5e09410f" title="anonymous_namespace\l\{mechanicsmanagerimp\l::cpp\}::getPersuasionRatings" alt="" coords="579,1352,786,1408"/>
-<area shape="rect" id="node27" href="$classMWMechanics_1_1MechanicsManager.html#a42d08c62edb89e75619ebdb65e90c17d" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="561,1431,804,1473"/>
-<area shape="rect" id="node28" href="$classMWMechanics_1_1MechanicsManager.html#a2839aaaa7ce0a8024f6ba2daa3ce45a5" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="561,1627,804,1669"/>
-<area shape="rect" id="node29" href="$classMWMechanics_1_1Pickpocket.html#a70d7156bb64e6333a11a4a9bd60e918b" title="MWMechanics::Pickpocket\l::getChanceModifier" alt="" coords="589,1497,776,1538"/>
-<area shape="rect" id="node30" href="$classMWMechanics_1_1Security.html#a29e6f0ccc5c619b0d123471faa36d7a7" title="MWMechanics::Security\l::Security" alt="" coords="597,1562,768,1603"/>
-<area shape="rect" id="node31" href="$namespaceMWMechanics.html#ae09ef3992b635b2ab37a801b013b3c89" title="MWMechanics::getSpellSuccess\lChance" alt="" coords="571,1067,795,1109"/>
-<area shape="rect" id="node32" href="$namespaceMWMechanics.html#a238e3b05e43db2603c898d50b4be1e9f" title="MWMechanics::getEffectResistance" alt="" coords="857,956,1101,983"/>
-<area shape="rect" id="node39" href="$classMWMechanics_1_1CastSpell.html#ac9c104a8f6efc9e700a61c124c795280" title="MWMechanics::CastSpell\l::cast" alt="" coords="593,1693,772,1734"/>
-<area shape="rect" id="node40" href="$classMWMechanics_1_1Trading.html#a9089cf1b20b1ed39cbd494f96cec5b3b" title="MWMechanics::Trading\l::haggle" alt="" coords="601,1002,765,1043"/>
-<area shape="rect" id="node34" href="$classMWClass_1_1Npc.html#af6723ba6a47b408d1af74c9d34613228" title="MWClass::Npc::apply" alt="" coords="1187,1064,1341,1091"/>
-<area shape="rect" id="node35" href="$namespaceMWMechanics.html#ab90221f566691b0961d8e8d5daea6ddf" title="MWMechanics::applyOnStrike\lEnchantment" alt="" coords="1160,1743,1368,1785"/>
-<area shape="rect" id="node36" href="$classMWMechanics_1_1CastSpell.html#a82cd49d48bac53c79545074d39f207f8" title="MWMechanics::CastSpell\l::cast" alt="" coords="1175,1115,1353,1157"/>
-<area shape="rect" id="node37" href="$classMWScript_1_1Misc_1_1OpCast.html#a99e2d9dcadf9665f1a9797363f202bf0" title="MWScript::Misc::OpCast\l::execute" alt="" coords="1178,1181,1350,1222"/>
-<area shape="rect" id="node38" href="$classMWScript_1_1Misc_1_1OpExplodeSpell.html#a918d78f5dc4f40aff9e75d9497e0eb1d" title="MWScript::Misc::OpExplode\lSpell::execute" alt="" coords="1167,1246,1361,1287"/>
-<area shape="rect" id="node42" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#a28a6cc4f774a1bb063b2dce5a2d11e4f" title="anonymous_namespace\l\{npc::cpp\}::autoCalculateAttributes" alt="" coords="557,289,808,330"/>
-<area shape="rect" id="node43" href="$classMWGui_1_1LevelupDialog.html#a1824392ea2e32d2848a39e0d641bb72a" title="MWGui::LevelupDialog\l::onOkButtonClicked" alt="" coords="601,354,764,395"/>
-<area shape="rect" id="node44" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="865,155,1092,197"/>
-<area shape="rect" id="node45" href="$classMWMechanics_1_1CreatureStats.html#ac9fce0f75622f2c82c87ca1380e45ae8" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="578,419,787,461"/>
-<area shape="rect" id="node46" href="$classMWMechanics_1_1MechanicsManager.html#ac23cfdb32ea2282daf63c0c6f2f8b86e" title="MWMechanics::MechanicsManager\l::buildPlayer" alt="" coords="561,485,804,526"/>
-<area shape="rect" id="node47" href="$namespaceMWMechanics.html#a07f053e380858a1c9dca0b3577789014" title="MWMechanics::effectTick" alt="" coords="593,121,772,148"/>
-<area shape="rect" id="node48" href="$classMWScript_1_1Stats_1_1OpSetAttribute.html#abf57f8de8fa1081e9003e6dce1f66cf5" title="MWScript::Stats::OpSetAttribute\l::execute" alt="" coords="569,550,796,591"/>
-<area shape="rect" id="node49" href="$classMWScript_1_1Stats_1_1OpModAttribute.html#ad059039a821a55b7b920efd3b7584529" title="MWScript::Stats::OpModAttribute\l::execute" alt="" coords="567,615,799,657"/>
-<area shape="rect" id="node50" href="$classMWWorld_1_1Player.html#aa6e49bc6dd4ad7c1cd498d076bc0a857" title="MWWorld::Player::restore\lSkillsAttributes" alt="" coords="593,223,772,265"/>
+<area shape="rect" id="node2" href="$classMWClass_1_1Creature.html#a2b05916462047e35be6006ab8698a36b" title="MWClass::Creature::\lonHit" alt="" coords="311,149,462,190"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1CharacterCreation.html#a56a9e33b81417cbf53bb8006908c2296" title="MWGui::CharacterCreation\l::spawnDialog" alt="" coords="291,214,482,255"/>
+<area shape="rect" id="node5" href="$classMWMechanics_1_1Actors.html#af347805d67d95cbdcf6afafe6d430cc5" title="MWMechanics::Actors\l::restoreDynamicStats" alt="" coords="303,279,470,321"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1Actors.html#aa845f11827de366ac04fb7c75c18588b" title="MWMechanics::Actors\l::calculateRestoration" alt="" coords="307,801,467,842"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1CharacterController.html#af2adf41dc0eeee2b5c02bca8e7856ddb" title="MWMechanics::CharacterController\l::refreshHitRecoilAnims" alt="" coords="265,866,509,907"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1CharacterController.html#a1aa04b41faf6c46eef9310e36e405be5" title="MWMechanics::CharacterController\l::update" alt="" coords="857,917,1101,958"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="1408,975,1651,1017"/>
+<area shape="rect" id="node15" href="$namespaceMWMechanics.html#a3a149737334b960ada4aa48228feae47" title="MWMechanics::blockMeleeAttack" alt="" coords="863,2051,1094,2077"/>
+<area shape="rect" id="node18" href="$namespaceMWMechanics.html#a0eca898ae05a994e8463ec1705205788" title="Get the chance (in percent) for attacker to successfully hit victim with a given weapon skill value..." alt="" coords="875,1789,1082,1816"/>
+<area shape="rect" id="node21" href="$namespaceMWMechanics.html#aa9628a68120fe3fbe5e75c0a078389c3" title="Applies damage to attacker based on the victim&#39;s elemental shields. " alt="" coords="870,2102,1087,2143"/>
+<area shape="rect" id="node22" href="$namespaceMWMechanics.html#a053f75c3b353f20c71cda72ae183c65e" title="Apply the fatigue loss incurred by attacking with the given weapon (weapon may be empty = hand&#45;to&#45;han..." alt="" coords="865,2168,1093,2195"/>
+<area shape="rect" id="node24" href="$classMWMechanics_1_1CreatureStats.html#a50da4580fdbd7e4f6daec42d92811154" title="Return effective fatigue. " alt="" coords="282,1527,491,1569"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1CastSpell.html#a54e54268a860259340cbcca06a8d00fc" title="MWMechanics::CastSpell\l::cast" alt="" coords="889,1077,1068,1118"/>
+<area shape="rect" id="node40" href="$classMWMechanics_1_1CreatureStats.html#a8283f726e62dfd0744e115143e68c294" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="282,501,491,542"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1WindowManager.html#ab9fdbfdc3d3b76fe9813cbb743d334da" title="MWGui::WindowManager\l::updateVisible" alt="" coords="595,5,771,46"/>
+<area shape="rect" id="node6" href="$classMWMechanics_1_1Actors.html#a234a6d86f0ba586ee6f72d0b6e6e8dc1" title="Update actors while the player is waiting or sleeping. This should be called every hour..." alt="" coords="1175,250,1335,291"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1MechanicsManager.html#a720f61b57b3294d61fb40cfd2e0fae12" title="MWMechanics::MechanicsManager\l::restoreDynamicStats" alt="" coords="561,122,804,163"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1Actors.html#a5af95ec37502d80b957ce40234eeb05f" title="MWMechanics::Actors\l::updateActor" alt="" coords="1175,622,1335,663"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1CharacterController.html#a583dc9b83b06b368c48ac9abd1355902" title="MWMechanics::CharacterController\l::refreshCurrentAnims" alt="" coords="561,866,805,907"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="1175,917,1335,958"/>
+<area shape="rect" id="node16" href="$classMWClass_1_1Creature.html#a54d172e02be3b6889d639f23b48add5d" title="MWClass::Creature::hit" alt="" coords="1171,2108,1338,2135"/>
+<area shape="rect" id="node17" href="$classMWClass_1_1Npc.html#a5d266109da673f7fa11d213cb88dfc36" title="MWClass::Npc::hit" alt="" coords="1187,2055,1322,2081"/>
+<area shape="rect" id="node19" href="$namespaceMWMechanics.html#af6ce41ddac20f6fb684311ba807c5948" title="MWMechanics::projectileHit" alt="" coords="1157,1688,1352,1715"/>
+<area shape="rect" id="node20" href="$namespaceMWMechanics.html#a34361714bc630a0c921be69cf14f6aa5" title="MWMechanics::rateWeapon" alt="" coords="1157,1789,1352,1816"/>
+<area shape="rect" id="node23" href="$classMWRender_1_1WeaponAnimation.html#a7038157f342b82a7146ae852aabf7994" title="MWRender::WeaponAnimation\l::releaseArrow" alt="" coords="1149,2161,1360,2202"/>
+<area shape="rect" id="node25" href="$classMWClass_1_1Npc.html#a9a9f4191138f024f027fff003aac080d" title="Return jump velocity (not accounting for movement) " alt="" coords="597,1840,769,1867"/>
+<area shape="rect" id="node26" href="$classMWMechanics_1_1Repair.html#a4456a1ec25b2bbede4c06df2dbfeacf5" title="MWMechanics::Repair\l::repair" alt="" coords="603,1891,762,1933"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1Recharge.html#a994cd812a36bc0e835f8284306b3576c" title="MWGui::Recharge::onItemClicked" alt="" coords="567,1957,798,1984"/>
+<area shape="rect" id="node28" href="$classMWMechanics_1_1CreatureStats.html#a73a6c44d487a1c5772380479236c257d" title="MWMechanics::CreatureStats\l::getEvasion" alt="" coords="578,1723,787,1765"/>
+<area shape="rect" id="node29" href="$namespaceanonymous__namespace_02mechanicsmanagerimp_8cpp_03.html#a5b2b5d6ec92a783dfe430bdc5e09410f" title="anonymous_namespace\l\{mechanicsmanagerimp\l::cpp\}::getPersuasionRatings" alt="" coords="579,1200,786,1256"/>
+<area shape="rect" id="node30" href="$classMWMechanics_1_1MechanicsManager.html#a42d08c62edb89e75619ebdb65e90c17d" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="561,1279,804,1321"/>
+<area shape="rect" id="node31" href="$classMWMechanics_1_1MechanicsManager.html#a2839aaaa7ce0a8024f6ba2daa3ce45a5" title="Check if observer is potentially aware of ptr. Does not do a line of sight check! ..." alt="" coords="561,1527,804,1569"/>
+<area shape="rect" id="node32" href="$classMWMechanics_1_1Pickpocket.html#a70d7156bb64e6333a11a4a9bd60e918b" title="MWMechanics::Pickpocket\l::getChanceModifier" alt="" coords="589,1345,776,1386"/>
+<area shape="rect" id="node33" href="$classMWMechanics_1_1Security.html#a29e6f0ccc5c619b0d123471faa36d7a7" title="MWMechanics::Security\l::Security" alt="" coords="597,1410,768,1451"/>
+<area shape="rect" id="node34" href="$namespaceMWMechanics.html#a65a268ee6f80771d88688cfa0c8b707f" title="MWMechanics::getSpellSuccess\lChance" alt="" coords="571,1135,795,1177"/>
+<area shape="rect" id="node35" href="$namespaceMWMechanics.html#a238e3b05e43db2603c898d50b4be1e9f" title="MWMechanics::getEffectResistance" alt="" coords="857,1335,1101,1361"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1CastSpell.html#ac9c104a8f6efc9e700a61c124c795280" title="MWMechanics::CastSpell\l::cast" alt="" coords="593,1593,772,1634"/>
+<area shape="rect" id="node39" href="$classMWMechanics_1_1Trading.html#a9089cf1b20b1ed39cbd494f96cec5b3b" title="MWMechanics::Trading\l::haggle" alt="" coords="601,1658,765,1699"/>
+<area shape="rect" id="node37" href="$classMWClass_1_1Npc.html#af6723ba6a47b408d1af74c9d34613228" title="MWClass::Npc::apply" alt="" coords="1178,1084,1331,1111"/>
+<area shape="rect" id="node41" href="$namespaceanonymous__namespace_02npc_8cpp_03.html#a28a6cc4f774a1bb063b2dce5a2d11e4f" title="anonymous_namespace\l\{npc::cpp\}::autoCalculateAttributes" alt="" coords="557,239,808,281"/>
+<area shape="rect" id="node42" href="$classMWGui_1_1LevelupDialog.html#a1824392ea2e32d2848a39e0d641bb72a" title="MWGui::LevelupDialog\l::onOkButtonClicked" alt="" coords="601,305,764,346"/>
+<area shape="rect" id="node43" href="$classMWMechanics_1_1Actors.html#aaeb9f8753ca25ab09b5af8630205ce72" title="MWMechanics::Actors\l::calculateCreatureStatModifiers" alt="" coords="865,435,1092,477"/>
+<area shape="rect" id="node44" href="$classMWMechanics_1_1CreatureStats.html#ac9fce0f75622f2c82c87ca1380e45ae8" title="MWMechanics::CreatureStats\l::setAttribute" alt="" coords="578,370,787,411"/>
+<area shape="rect" id="node45" href="$classMWMechanics_1_1MechanicsManager.html#ac23cfdb32ea2282daf63c0c6f2f8b86e" title="MWMechanics::MechanicsManager\l::buildPlayer" alt="" coords="561,435,804,477"/>
+<area shape="rect" id="node46" href="$namespaceMWMechanics.html#a07f053e380858a1c9dca0b3577789014" title="MWMechanics::effectTick" alt="" coords="593,697,772,724"/>
+<area shape="rect" id="node47" href="$classMWScript_1_1Stats_1_1OpSetAttribute.html#abf57f8de8fa1081e9003e6dce1f66cf5" title="MWScript::Stats::OpSetAttribute\l::execute" alt="" coords="569,501,796,542"/>
+<area shape="rect" id="node48" href="$classMWScript_1_1Stats_1_1OpModAttribute.html#ad059039a821a55b7b920efd3b7584529" title="MWScript::Stats::OpModAttribute\l::execute" alt="" coords="567,566,799,607"/>
+<area shape="rect" id="node49" href="$classMWWorld_1_1Player.html#a42a974891cad736d6dd39eb4c17560fc" title="MWWorld::Player::restore\lStats" alt="" coords="593,631,772,673"/>
+<area shape="rect" id="node50" href="$classMWWorld_1_1Player.html#a07b8585e0d7016e84adf70aa3c3f1a20" title="MWWorld::Player::setWerewolf\lStats" alt="" coords="579,749,787,790"/>
 </map>

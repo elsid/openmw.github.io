@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -114,7 +114,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for Compiler::Scanner:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner__coll__graph.svg" width="1775" height="1387"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner__coll__graph.svg" width="1775" height="1416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -206,8 +206,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d9a3c7340027fe39a98ab93cdc33d26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler_1_1Scanner.html#a1d9a3c7340027fe39a98ab93cdc33d26">listKeywords</a> (std::vector&lt; std::string &gt; &amp;keywords)</td></tr>
 <tr class="memdesc:a1d9a3c7340027fe39a98ab93cdc33d26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append all known keywords to <em>keywords</em>.  <a href="#a1d9a3c7340027fe39a98ab93cdc33d26">More...</a><br/></td></tr>
 <tr class="separator:a1d9a3c7340027fe39a98ab93cdc33d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ccc41dab8ccd269ba9413770695999"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler_1_1Scanner.html#ad8ccc41dab8ccd269ba9413770695999">enableIgnoreNewlines</a> ()</td></tr>
+<tr class="separator:ad8ccc41dab8ccd269ba9413770695999"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82017de158936f853188ce611fbffd24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler_1_1Scanner.html#a82017de158936f853188ce611fbffd24">enableStrictKeywords</a> ()</td></tr>
 <tr class="separator:a82017de158936f853188ce611fbffd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12a91d9a15fb46b2d2d0ee86aaf174b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler_1_1Scanner.html#ad12a91d9a15fb46b2d2d0ee86aaf174b">enableTolerantNames</a> ()</td></tr>
+<tr class="separator:ad12a91d9a15fb46b2d2d0ee86aaf174b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -279,6 +283,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2f03b36d4693f140b240b9d30baf8a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3d44b8c0131a286f1e4bc66e12b0f38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler_1_1Scanner.html#ad3d44b8c0131a286f1e4bc66e12b0f38">mStrictKeywords</a></td></tr>
 <tr class="separator:ad3d44b8c0131a286f1e4bc66e12b0f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43b52eaf936658a9cf65191d98c8784"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler_1_1Scanner.html#ac43b52eaf936658a9cf65191d98c8784">mTolerantNames</a></td></tr>
+<tr class="separator:ac43b52eaf936658a9cf65191d98c8784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a802ea1ff6cd9b8c1644119aeac5a23bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler_1_1Scanner.html#a802ea1ff6cd9b8c1644119aeac5a23bd">mIgnoreNewline</a></td></tr>
+<tr class="separator:a802ea1ff6cd9b8c1644119aeac5a23bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classCompiler_1_1Scanner.html" title="Scanner. ">Scanner</a>. </p>
@@ -490,6 +498,31 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ad8ccc41dab8ccd269ba9413770695999"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Compiler::Scanner::enableIgnoreNewlines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Treat newline character as a part of script command.</p>
+<dl class="section attention"><dt>Attention</dt><dd>This mode lasts only until the next keyword is reached. </dd></dl>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_ad8ccc41dab8ccd269ba9413770695999_icgraph.svg" width="2507" height="1638"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a82017de158936f853188ce611fbffd24"></a>
 <div class="memitem">
 <div class="memproto">
@@ -509,6 +542,31 @@ Private Attributes</h2></td></tr>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_a82017de158936f853188ce611fbffd24_icgraph.svg" width="1251" height="136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad12a91d9a15fb46b2d2d0ee86aaf174b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Compiler::Scanner::enableTolerantNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Continue parsing a name when hitting a '.' or a '-'</p>
+<dl class="section attention"><dt>Attention</dt><dd>This mode lasts only until the next newline is reached. </dd></dl>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_ad12a91d9a15fb46b2d2d0ee86aaf174b_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -570,8 +628,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000093">Todo:</a></b></dt><dd>disable this when doing more stricter compiling </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000094">Todo:</a></b></dt><dd>disable this when doing more stricter compiling. Also, find out who is responsible for allowing it in the first place and meet up with that person in a dark alley. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000090">Todo:</a></b></dt><dd>disable this when doing more stricter compiling </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000091">Todo:</a></b></dt><dd>disable this when doing more stricter compiling. Also, find out who is responsible for allowing it in the first place and meet up with that person in a dark alley. </dd></dl>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -904,7 +962,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_abbdc26c7dc6e07140a4ffa300603505f_cgraph.svg" width="2088" height="859"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_abbdc26c7dc6e07140a4ffa300603505f_cgraph.svg" width="2088" height="978"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1013,7 +1071,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>workaround that allows names to begin with digits </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000083">Todo:</a></b></dt><dd>disable </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000080">Todo:</a></b></dt><dd>disable </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1070,12 +1128,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000084">Todo:</a></b></dt><dd>optionally disable </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000081">Todo:</a></b></dt><dd>optionally disable </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_a546ed02c1971493689a2117d206348d1_cgraph.svg" width="1304" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_a546ed02c1971493689a2117d206348d1_cgraph.svg" width="1304" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1121,7 +1179,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_aa58b1dd04a65ceb2fd1887d7776c507c_cgraph.svg" width="808" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_aa58b1dd04a65ceb2fd1887d7776c507c_cgraph.svg" width="808" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1165,21 +1223,21 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000085">Todo:</a></b></dt><dd>option to disable the use of [ as alias for ( </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000086">Todo:</a></b></dt><dd>option to disable the use of ] as alias for ) </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000087">Todo:</a></b></dt><dd>hack to allow a space in comparison operators (add option to disable) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000082">Todo:</a></b></dt><dd>option to disable the use of [ as alias for ( </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000083">Todo:</a></b></dt><dd>option to disable the use of ] as alias for ) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000084">Todo:</a></b></dt><dd>hack to allow a space in comparison operators (add option to disable) </dd></dl>
 <p>Allow = as synonym for ==.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000088">Todo:</a></b></dt><dd>optionally disable for post-1.0 scripting improvements. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000089">Todo:</a></b></dt><dd>hack to allow a space in comparison operators (add option to disable) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000085">Todo:</a></b></dt><dd>optionally disable for post-1.0 scripting improvements. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000086">Todo:</a></b></dt><dd>hack to allow a space in comparison operators (add option to disable) </dd></dl>
 <p>Workaround for some translator who apparently can't keep his minus in order </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000090">Todo:</a></b></dt><dd>disable for later script formats </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000091">Todo:</a></b></dt><dd>hack to allow a space in comparison operators (add option to disable) </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000092">Todo:</a></b></dt><dd>hack to allow a space in comparison operators (add option to disable) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000087">Todo:</a></b></dt><dd>disable for later script formats </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000088">Todo:</a></b></dt><dd>hack to allow a space in comparison operators (add option to disable) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000089">Todo:</a></b></dt><dd>hack to allow a space in comparison operators (add option to disable) </dd></dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_adb2ecadf06516682c3d7bfe42b256e6d_cgraph.svg" width="1550" height="252"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_adb2ecadf06516682c3d7bfe42b256e6d_cgraph.svg" width="1550" height="308"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1219,7 +1277,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_a7c2553ca11e30c983dc1a3e795a41a89_cgraph.svg" width="1862" height="859"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler_1_1Scanner_a7c2553ca11e30c983dc1a3e795a41a89_cgraph.svg" width="1862" height="978"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1264,6 +1322,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="classCompiler_1_1Extensions.html">Extensions</a>* Compiler::Scanner::mExtensions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a802ea1ff6cd9b8c1644119aeac5a23bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Compiler::Scanner::mIgnoreNewline</td>
         </tr>
       </table>
   </td>
@@ -1475,14 +1553,34 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ac43b52eaf936658a9cf65191d98c8784"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> Compiler::Scanner::mTolerantNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/components/compiler/<a class="el" href="scanner_8hpp_source.html">scanner.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/components/compiler/<a class="el" href="scanner_8cpp.html">scanner.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/compiler/<a class="el" href="scanner_8hpp_source.html">scanner.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/components/compiler/<a class="el" href="scanner_8cpp.html">scanner.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:56 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:28 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

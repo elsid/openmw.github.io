@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -98,6 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classMWGui_1_1AlchemyWindow-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MWGui::AlchemyWindow Class Reference</div>  </div>
@@ -108,13 +109,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for MWGui::AlchemyWindow:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow__inherit__graph.svg" width="203" height="854"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow__inherit__graph.svg" width="222" height="1075"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MWGui::AlchemyWindow:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow__coll__graph.svg" width="5078" height="2758"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow__coll__graph.svg" width="3483" height="3203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -122,18 +123,29 @@ Collaboration diagram for MWGui::AlchemyWindow:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab120f82cc37f27f45c7fb142a7c45849"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#ab120f82cc37f27f45c7fb142a7c45849">AlchemyWindow</a> ()</td></tr>
 <tr class="separator:ab120f82cc37f27f45c7fb142a7c45849"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a966b6a80cf844ee7d748f051f05ab84d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a966b6a80cf844ee7d748f051f05ab84d">open</a> ()</td></tr>
-<tr class="memdesc:a966b6a80cf844ee7d748f051f05ab84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been made visible.  <a href="#a966b6a80cf844ee7d748f051f05ab84d">More...</a><br/></td></tr>
-<tr class="separator:a966b6a80cf844ee7d748f051f05ab84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1e5627b88580e7b7fe0287b88866b38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#aa1e5627b88580e7b7fe0287b88866b38">exit</a> ()</td></tr>
-<tr class="memdesc:aa1e5627b88580e7b7fe0287b88866b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gracefully exits the window.  <a href="#aa1e5627b88580e7b7fe0287b88866b38">More...</a><br/></td></tr>
-<tr class="separator:aa1e5627b88580e7b7fe0287b88866b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bd2ae3af336bd34f55c2ce34298ae6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a81bd2ae3af336bd34f55c2ce34298ae6">onOpen</a> ()</td></tr>
+<tr class="memdesc:a81bd2ae3af336bd34f55c2ce34298ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been made visible.  <a href="#a81bd2ae3af336bd34f55c2ce34298ae6">More...</a><br/></td></tr>
+<tr class="separator:a81bd2ae3af336bd34f55c2ce34298ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0f85e4071f6522345f605bda0535a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#afe0f85e4071f6522345f605bda0535a4">onResChange</a> (<a class="el" href="classint.html">int</a>, <a class="el" href="classint.html">int</a>)</td></tr>
+<tr class="memdesc:afe0f85e4071f6522345f605bda0535a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when GUI viewport changes size.  <a href="#afe0f85e4071f6522345f605bda0535a4">More...</a><br/></td></tr>
+<tr class="separator:afe0f85e4071f6522345f605bda0535a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMWGui_1_1WindowBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMWGui_1_1WindowBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMWGui_1_1WindowBase.html">MWGui::WindowBase</a></td></tr>
 <tr class="memitem:a0426d1788782312025173686f25177ae inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a0426d1788782312025173686f25177ae">WindowBase</a> (const std::string &amp;parLayout)</td></tr>
 <tr class="separator:a0426d1788782312025173686f25177ae inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af986f66b831360eceacc01740a0a16fa inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa">close</a> ()</td></tr>
-<tr class="memdesc:af986f66b831360eceacc01740a0a16fa inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been hidden.  <a href="#af986f66b831360eceacc01740a0a16fa">More...</a><br/></td></tr>
-<tr class="separator:af986f66b831360eceacc01740a0a16fa inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa30b109d3b4129faf7b580ff1548aad inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual MyGUI::Widget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#afa30b109d3b4129faf7b580ff1548aad">getDefaultKeyFocus</a> ()</td></tr>
+<tr class="separator:afa30b109d3b4129faf7b580ff1548aad inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbe769f161e068ccb8be68c2d568377b inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#afbe769f161e068ccb8be68c2d568377b">setPtr</a> (const <a class="el" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> &amp;ptr)</td></tr>
+<tr class="memdesc:afbe769f161e068ccb8be68c2d568377b inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open this object in the GUI, for windows that support it.  <a href="#afbe769f161e068ccb8be68c2d568377b">More...</a><br/></td></tr>
+<tr class="separator:afbe769f161e068ccb8be68c2d568377b inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d63b2a9a63bd42ed8dc8a306e761a5 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a13d63b2a9a63bd42ed8dc8a306e761a5">onFrame</a> (float duration)</td></tr>
+<tr class="memdesc:a13d63b2a9a63bd42ed8dc8a306e761a5 inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every frame if the window is in an active GUI mode.  <a href="#a13d63b2a9a63bd42ed8dc8a306e761a5">More...</a><br/></td></tr>
+<tr class="separator:a13d63b2a9a63bd42ed8dc8a306e761a5 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b03bd34ca48db739c6aa7b5fdb194d inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d">onClose</a> ()</td></tr>
+<tr class="memdesc:ac4b03bd34ca48db739c6aa7b5fdb194d inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that window has been hidden.  <a href="#ac4b03bd34ca48db739c6aa7b5fdb194d">More...</a><br/></td></tr>
+<tr class="separator:ac4b03bd34ca48db739c6aa7b5fdb194d inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#afbc46218f9e2b4222bac63f197436570">exit</a> ()</td></tr>
+<tr class="memdesc:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gracefully exits the window.  <a href="#afbc46218f9e2b4222bac63f197436570">More...</a><br/></td></tr>
+<tr class="separator:afbc46218f9e2b4222bac63f197436570 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a4f681670522d795ac3b38f13500ff7ea">setVisible</a> (<a class="el" href="classbool.html">bool</a> visible)</td></tr>
 <tr class="memdesc:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the window.  <a href="#a4f681670522d795ac3b38f13500ff7ea">More...</a><br/></td></tr>
 <tr class="separator:a4f681670522d795ac3b38f13500ff7ea inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,6 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0adf445dca26b8bfb73479a5198b2c3b inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a619c3722639059076d24ae157fdaa18c inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#a619c3722639059076d24ae157fdaa18c">center</a> ()</td></tr>
 <tr class="separator:a619c3722639059076d24ae157fdaa18c inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28d0e410302d90fe067ace11124cc54 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1WindowBase.html#ad28d0e410302d90fe067ace11124cc54">clear</a> ()</td></tr>
+<tr class="memdesc:ad28d0e410302d90fe067ace11124cc54 inherit pub_methods_classMWGui_1_1WindowBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear any state specific to the running game.  <a href="#ad28d0e410302d90fe067ace11124cc54">More...</a><br/></td></tr>
+<tr class="separator:ad28d0e410302d90fe067ace11124cc54 inherit pub_methods_classMWGui_1_1WindowBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMWGui_1_1Layout"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMWGui_1_1Layout')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMWGui_1_1Layout.html">MWGui::Layout</a></td></tr>
 <tr class="memitem:a491b72b8d974a982dada0f3ca2d07179 inherit pub_methods_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#a491b72b8d974a982dada0f3ca2d07179">Layout</a> (const std::string &amp;_layout, MyGUI::Widget *_parent=nullptr)</td></tr>
 <tr class="separator:a491b72b8d974a982dada0f3ca2d07179 inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,7 +165,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4904cbbaf603f098aa0842ce8357aab inherit pub_methods_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">MyGUI::Widget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#ab4904cbbaf603f098aa0842ce8357aab">getWidget</a> (const std::string &amp;_name)</td></tr>
 <tr class="separator:ab4904cbbaf603f098aa0842ce8357aab inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">getWidget</a> (T *&amp;_widget, const std::string &amp;_name)</td></tr>
+<tr class="memitem:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#a4c85204e5043a8ecf5e052c80ff9d759">getWidget</a> (<a class="el" href="classGui_1_1T.html">T</a> *&amp;_widget, const std::string &amp;_name)</td></tr>
 <tr class="separator:a4c85204e5043a8ecf5e052c80ff9d759 inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac725a2afd1a0ad240bcf35b7d0238d79 inherit pub_methods_classMWGui_1_1Layout"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1Layout.html#ac725a2afd1a0ad240bcf35b7d0238d79">setCoord</a> (<a class="el" href="classint.html">int</a> x, <a class="el" href="classint.html">int</a> y, <a class="el" href="classint.html">int</a> w, <a class="el" href="classint.html">int</a> h)</td></tr>
 <tr class="separator:ac725a2afd1a0ad240bcf35b7d0238d79 inherit pub_methods_classMWGui_1_1Layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,10 +182,30 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ab93696d19cb8f6380fbb97fff8691abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6306c2e34063ccce982ada7c1d2df9ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a6306c2e34063ccce982ada7c1d2df9ef">onIngredientSelected</a> (MyGUI::Widget *_sender)</td></tr>
 <tr class="separator:a6306c2e34063ccce982ada7c1d2df9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b564c1fde2e258f16354358da2c5fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a50b564c1fde2e258f16354358da2c5fb">onAccept</a> (MyGUI::EditBox *)</td></tr>
+<tr class="separator:a50b564c1fde2e258f16354358da2c5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0087505a629f7968bae3094214aab197"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a0087505a629f7968bae3094214aab197">onIncreaseButtonPressed</a> (MyGUI::Widget *_sender, <a class="el" href="classint.html">int</a> _left, <a class="el" href="classint.html">int</a> _top, MyGUI::MouseButton _id)</td></tr>
+<tr class="separator:a0087505a629f7968bae3094214aab197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f8888f16c3e4143df2129f3de250c57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a9f8888f16c3e4143df2129f3de250c57">onDecreaseButtonPressed</a> (MyGUI::Widget *_sender, <a class="el" href="classint.html">int</a> _left, <a class="el" href="classint.html">int</a> _top, MyGUI::MouseButton _id)</td></tr>
+<tr class="separator:a9f8888f16c3e4143df2129f3de250c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b30854fae46eca1d0c4c2c4528745a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a15b30854fae46eca1d0c4c2c4528745a">onCountButtonReleased</a> (MyGUI::Widget *_sender, <a class="el" href="classint.html">int</a> _left, <a class="el" href="classint.html">int</a> _top, MyGUI::MouseButton _id)</td></tr>
+<tr class="separator:a15b30854fae46eca1d0c4c2c4528745a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286577ebcce885693aa32cb535d35eaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a286577ebcce885693aa32cb535d35eaa">onCountValueChanged</a> (<a class="el" href="classint.html">int</a> value)</td></tr>
+<tr class="separator:a286577ebcce885693aa32cb535d35eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0313cf80ca6d91af8450303d21a80b7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a0313cf80ca6d91af8450303d21a80b7e">onRepeatClick</a> (MyGUI::Widget *widget, MyGUI::ControllerItem *controller)</td></tr>
+<tr class="separator:a0313cf80ca6d91af8450303d21a80b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5452d98d84fda1bc6798f76c9787ad9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#af5452d98d84fda1bc6798f76c9787ad9">addRepeatController</a> (MyGUI::Widget *widget)</td></tr>
+<tr class="separator:af5452d98d84fda1bc6798f76c9787ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af055084af057c4e7bc91c5f81d14960d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#af055084af057c4e7bc91c5f81d14960d">onIncreaseButtonTriggered</a> ()</td></tr>
+<tr class="separator:af055084af057c4e7bc91c5f81d14960d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89a3f42f83113a9f5f5f1ed48fe8780f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a89a3f42f83113a9f5f5f1ed48fe8780f">onDecreaseButtonTriggered</a> ()</td></tr>
+<tr class="separator:a89a3f42f83113a9f5f5f1ed48fe8780f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b9290672acd4904fb41ddeda58d3e0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a6b9290672acd4904fb41ddeda58d3e0b">onSelectedItem</a> (<a class="el" href="classint.html">int</a> index)</td></tr>
 <tr class="separator:a6b9290672acd4904fb41ddeda58d3e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0431efa0e06b814857380ed090813fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a0431efa0e06b814857380ed090813fe9">removeIngredient</a> (MyGUI::Widget *ingredient)</td></tr>
 <tr class="separator:a0431efa0e06b814857380ed090813fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1397ecac4ed942788beb244e9a49af95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a1397ecac4ed942788beb244e9a49af95">createPotions</a> (<a class="el" href="classint.html">int</a> count)</td></tr>
+<tr class="separator:a1397ecac4ed942788beb244e9a49af95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1bab38729e7102e236d50e79c991fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#aa1bab38729e7102e236d50e79c991fc9">update</a> ()</td></tr>
 <tr class="separator:aa1bab38729e7102e236d50e79c991fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -188,15 +223,28 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a6108421677c8db530bc63929ad92608e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53e477bf7f98cda2f3c8ed3ee098498c"><td class="memItemLeft" align="right" valign="top">MyGUI::Widget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a53e477bf7f98cda2f3c8ed3ee098498c">mEffectsBox</a></td></tr>
 <tr class="separator:a53e477bf7f98cda2f3c8ed3ee098498c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb620c926622fb39fdafc5cf97befcf8"><td class="memItemLeft" align="right" valign="top">MyGUI::Button *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#aeb620c926622fb39fdafc5cf97befcf8">mIncreaseButton</a></td></tr>
+<tr class="separator:aeb620c926622fb39fdafc5cf97befcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3517381b857f2d2ee1c8d4e1b9b5fc"><td class="memItemLeft" align="right" valign="top">MyGUI::Button *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a3c3517381b857f2d2ee1c8d4e1b9b5fc">mDecreaseButton</a></td></tr>
+<tr class="separator:a3c3517381b857f2d2ee1c8d4e1b9b5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9b18a89d0190b5e297197bccc1dac0c"><td class="memItemLeft" align="right" valign="top">MyGUI::EditBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#af9b18a89d0190b5e297197bccc1dac0c">mNameEdit</a></td></tr>
 <tr class="separator:af9b18a89d0190b5e297197bccc1dac0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a065b4a5fb2da7b3c5e1db2c9329df7a7"><td class="memItemLeft" align="right" valign="top">std::auto_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classMWMechanics_1_1Alchemy.html">MWMechanics::Alchemy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a065b4a5fb2da7b3c5e1db2c9329df7a7">mAlchemy</a></td></tr>
-<tr class="separator:a065b4a5fb2da7b3c5e1db2c9329df7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364f1041248e6542d76ae094d67b1dd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGui_1_1NumericEditBox.html">Gui::NumericEditBox</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a364f1041248e6542d76ae094d67b1dd7">mBrewCountEdit</a></td></tr>
+<tr class="separator:a364f1041248e6542d76ae094d67b1dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53ce82dd71eac69bf70eff23c2b7ec9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classMWMechanics_1_1Alchemy.html">MWMechanics::Alchemy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#af53ce82dd71eac69bf70eff23c2b7ec9">mAlchemy</a></td></tr>
+<tr class="separator:af53ce82dd71eac69bf70eff23c2b7ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18eea75f68b1d6813ed52d88388d8ddc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classMWGui_1_1ItemWidget.html">ItemWidget</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a18eea75f68b1d6813ed52d88388d8ddc">mApparatus</a></td></tr>
 <tr class="separator:a18eea75f68b1d6813ed52d88388d8ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf4d03f849fe3ff726365f63c42af5d8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classMWGui_1_1ItemWidget.html">ItemWidget</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#aaf4d03f849fe3ff726365f63c42af5d8">mIngredients</a></td></tr>
 <tr class="separator:aaf4d03f849fe3ff726365f63c42af5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a6a2f64c1f58770341c1fef7b3a442ad9"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a6a2f64c1f58770341c1fef7b3a442ad9">sCountChangeInitialPause</a> = 0.5f</td></tr>
+<tr class="separator:a6a2f64c1f58770341c1fef7b3a442ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff96da643756ec3846bca56684ac6b8"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWGui_1_1AlchemyWindow.html#a9ff96da643756ec3846bca56684ac6b8">sCountChangeInterval</a> = 0.1f</td></tr>
+<tr class="separator:a9ff96da643756ec3846bca56684ac6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -233,7 +281,7 @@ MyGUI::delegates::CMultiDelegate1<br class="typebreak"/>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_ab120f82cc37f27f45c7fb142a7c45849_cgraph.svg" width="2083" height="1122"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_ab120f82cc37f27f45c7fb142a7c45849_cgraph.svg" width="2126" height="1379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -241,7 +289,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa1e5627b88580e7b7fe0287b88866b38"></a>
+<a class="anchor" id="af5452d98d84fda1bc6798f76c9787ad9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -249,27 +297,24 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MWGui::AlchemyWindow::exit </td>
+          <td class="memname">void MWGui::AlchemyWindow::addRepeatController </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">MyGUI::Widget *&#160;</td>
+          <td class="paramname"><em>widget</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gracefully exits the window. </p>
-
-<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#ab5c167ecd1439d4784d87225136b5248">MWGui::WindowBase</a>.</p>
-
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_aa1e5627b88580e7b7fe0287b88866b38_cgraph.svg" width="430" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_af5452d98d84fda1bc6798f76c9787ad9_cgraph.svg" width="1206" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -277,7 +322,87 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_aa1e5627b88580e7b7fe0287b88866b38_icgraph.svg" width="638" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_af5452d98d84fda1bc6798f76c9787ad9_icgraph.svg" width="662" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1397ecac4ed942788beb244e9a49af95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::createPotions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a1397ecac4ed942788beb244e9a49af95_cgraph.svg" width="1803" height="863"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a1397ecac4ed942788beb244e9a49af95_icgraph.svg" width="862" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a50b564c1fde2e258f16354358da2c5fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onAccept </td>
+          <td>(</td>
+          <td class="paramtype">MyGUI::EditBox *&#160;</td>
+          <td class="paramname"><em>sender</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a50b564c1fde2e258f16354358da2c5fb_cgraph.svg" width="2262" height="1010"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a50b564c1fde2e258f16354358da2c5fb_icgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -309,7 +434,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a089fa0dc634f76b46dadb24439460ae8_cgraph.svg" width="656" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a089fa0dc634f76b46dadb24439460ae8_cgraph.svg" width="432" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -318,6 +443,100 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a089fa0dc634f76b46dadb24439460ae8_icgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a15b30854fae46eca1d0c4c2c4528745a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onCountButtonReleased </td>
+          <td>(</td>
+          <td class="paramtype">MyGUI::Widget *&#160;</td>
+          <td class="paramname"><em>_sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>_left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>_top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MyGUI::MouseButton&#160;</td>
+          <td class="paramname"><em>_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a15b30854fae46eca1d0c4c2c4528745a_icgraph.svg" width="419" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a286577ebcce885693aa32cb535d35eaa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onCountValueChanged </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a286577ebcce885693aa32cb535d35eaa_cgraph.svg" width="726" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a286577ebcce885693aa32cb535d35eaa_icgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -349,7 +568,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_ab93696d19cb8f6380fbb97fff8691abd_cgraph.svg" width="1806" height="863"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_ab93696d19cb8f6380fbb97fff8691abd_cgraph.svg" width="2030" height="863"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -357,7 +576,209 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_ab93696d19cb8f6380fbb97fff8691abd_icgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_ab93696d19cb8f6380fbb97fff8691abd_icgraph.svg" width="638" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9f8888f16c3e4143df2129f3de250c57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onDecreaseButtonPressed </td>
+          <td>(</td>
+          <td class="paramtype">MyGUI::Widget *&#160;</td>
+          <td class="paramname"><em>_sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>_left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>_top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MyGUI::MouseButton&#160;</td>
+          <td class="paramname"><em>_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a9f8888f16c3e4143df2129f3de250c57_cgraph.svg" width="1456" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a9f8888f16c3e4143df2129f3de250c57_icgraph.svg" width="438" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a89a3f42f83113a9f5f5f1ed48fe8780f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onDecreaseButtonTriggered </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a89a3f42f83113a9f5f5f1ed48fe8780f_cgraph.svg" width="758" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a89a3f42f83113a9f5f5f1ed48fe8780f_icgraph.svg" width="1142" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0087505a629f7968bae3094214aab197"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onIncreaseButtonPressed </td>
+          <td>(</td>
+          <td class="paramtype">MyGUI::Widget *&#160;</td>
+          <td class="paramname"><em>_sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>_left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>_top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MyGUI::MouseButton&#160;</td>
+          <td class="paramname"><em>_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a0087505a629f7968bae3094214aab197_cgraph.svg" width="1448" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a0087505a629f7968bae3094214aab197_icgraph.svg" width="430" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af055084af057c4e7bc91c5f81d14960d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onIncreaseButtonTriggered </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_af055084af057c4e7bc91c5f81d14960d_cgraph.svg" width="752" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_af055084af057c4e7bc91c5f81d14960d_icgraph.svg" width="1136" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -404,6 +825,137 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a81bd2ae3af336bd34f55c2ce34298ae6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notify that window has been made visible. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a81bd2ae3af336bd34f55c2ce34298ae6_cgraph.svg" width="1630" height="967"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0313cf80ca6d91af8450303d21a80b7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onRepeatClick </td>
+          <td>(</td>
+          <td class="paramtype">MyGUI::Widget *&#160;</td>
+          <td class="paramname"><em>widget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MyGUI::ControllerItem *&#160;</td>
+          <td class="paramname"><em>controller</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a0313cf80ca6d91af8450303d21a80b7e_cgraph.svg" width="982" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a0313cf80ca6d91af8450303d21a80b7e_icgraph.svg" width="886" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afe0f85e4071f6522345f605bda0535a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWGui::AlchemyWindow::onResChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when GUI viewport changes size. </p>
+
+<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#a204f771569a45a200ea417963c28ceec">MWGui::WindowBase</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_afe0f85e4071f6522345f605bda0535a4_cgraph.svg" width="395" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a6b9290672acd4904fb41ddeda58d3e0b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -444,41 +996,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a966b6a80cf844ee7d748f051f05ab84d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MWGui::AlchemyWindow::open </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Notify that window has been made visible. </p>
-
-<p>Reimplemented from <a class="el" href="classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e">MWGui::WindowBase</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a966b6a80cf844ee7d748f051f05ab84d_cgraph.svg" width="1630" height="808"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
 <a class="anchor" id="a0431efa0e06b814857380ed090813fe9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -512,7 +1029,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a0431efa0e06b814857380ed090813fe9_icgraph.svg" width="638" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_a0431efa0e06b814857380ed090813fe9_icgraph.svg" width="1086" height="128"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -551,7 +1068,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_aa1bab38729e7102e236d50e79c991fc9_icgraph.svg" width="862" height="255"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWGui_1_1AlchemyWindow_aa1bab38729e7102e236d50e79c991fc9_icgraph.svg" width="1310" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -559,7 +1076,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a065b4a5fb2da7b3c5e1db2c9329df7a7"></a>
+<a class="anchor" id="af53ce82dd71eac69bf70eff23c2b7ec9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -567,7 +1084,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::auto_ptr&lt;<a class="el" href="classMWMechanics_1_1Alchemy.html">MWMechanics::Alchemy</a>&gt; MWGui::AlchemyWindow::mAlchemy</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classMWMechanics_1_1Alchemy.html">MWMechanics::Alchemy</a>&gt; MWGui::AlchemyWindow::mAlchemy</td>
         </tr>
       </table>
   </td>
@@ -588,6 +1105,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;<a class="el" href="classMWGui_1_1ItemWidget.html">ItemWidget</a>*&gt; MWGui::AlchemyWindow::mApparatus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a364f1041248e6542d76ae094d67b1dd7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classGui_1_1NumericEditBox.html">Gui::NumericEditBox</a>* MWGui::AlchemyWindow::mBrewCountEdit</td>
         </tr>
       </table>
   </td>
@@ -639,6 +1176,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a3c3517381b857f2d2ee1c8d4e1b9b5fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MyGUI::Button* MWGui::AlchemyWindow::mDecreaseButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a53e477bf7f98cda2f3c8ed3ee098498c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -648,6 +1205,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">MyGUI::Widget* MWGui::AlchemyWindow::mEffectsBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeb620c926622fb39fdafc5cf97befcf8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MyGUI::Button* MWGui::AlchemyWindow::mIncreaseButton</td>
         </tr>
       </table>
   </td>
@@ -759,14 +1336,54 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a6a2f64c1f58770341c1fef7b3a442ad9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float MWGui::AlchemyWindow::sCountChangeInitialPause = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9ff96da643756ec3846bca56684ac6b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float MWGui::AlchemyWindow::sCountChangeInterval = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="alchemywindow_8hpp_source.html">alchemywindow.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwgui/<a class="el" href="alchemywindow_8cpp.html">alchemywindow.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="alchemywindow_8hpp_source.html">alchemywindow.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwgui/<a class="el" href="alchemywindow_8cpp.html">alchemywindow.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:01 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:34 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

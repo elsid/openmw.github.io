@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/opencs/model/world/landtexture.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/opencs/model/world/landtexture.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,20 +111,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structCSMWorld_1_1LandTexture.html#ab9a0ecf045d416ad4ee77277e467d9d1">   13</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structCSMWorld_1_1LandTexture.html#ab9a0ecf045d416ad4ee77277e467d9d1">mPluginIndex</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structCSMWorld_1_1LandTexture.html#a5defbd868c7c328b604b6509ca33baaf">load</a> (<a class="code" href="classESM_1_1ESMReader.html">ESM::ESMReader</a> &amp;esm, <span class="keywordtype">bool</span> &amp;isDeleted);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    };</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">static</span> std::string <a class="code" href="structCSMWorld_1_1LandTexture.html#a75204119cefeb840f92a872df870d4e1">createUniqueRecordId</a>(<span class="keywordtype">int</span> plugin, <span class="keywordtype">int</span> index);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="structCSMWorld_1_1LandTexture.html#a38dddc2b91507e69691d7bc02579912a">parseUniqueRecordId</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>, <span class="keywordtype">int</span>&amp; plugin, <span class="keywordtype">int</span>&amp; index);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    };</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classESM_1_1ESMReader_html"><div class="ttname"><a href="classESM_1_1ESMReader.html">ESM::ESMReader</a></div><div class="ttdef"><b>Definition:</b> esmreader.hpp:21</div></div>
 <div class="ttc" id="structCSMWorld_1_1LandTexture_html"><div class="ttname"><a href="structCSMWorld_1_1LandTexture.html">CSMWorld::LandTexture</a></div><div class="ttdoc">Wrapper for LandTexture record, providing info which plugin the LandTexture was loaded from...</div><div class="ttdef"><b>Definition:</b> landtexture.hpp:11</div></div>
 <div class="ttc" id="loadltex_8hpp_html"><div class="ttname"><a href="loadltex_8hpp.html">loadltex.hpp</a></div></div>
 <div class="ttc" id="structESM_1_1LandTexture_html"><div class="ttname"><a href="structESM_1_1LandTexture.html">ESM::LandTexture</a></div><div class="ttdef"><b>Definition:</b> loadltex.hpp:28</div></div>
-<div class="ttc" id="structCSMWorld_1_1LandTexture_html_a5defbd868c7c328b604b6509ca33baaf"><div class="ttname"><a href="structCSMWorld_1_1LandTexture.html#a5defbd868c7c328b604b6509ca33baaf">CSMWorld::LandTexture::load</a></div><div class="ttdeci">void load(ESM::ESMReader &amp;esm, bool &amp;isDeleted)</div><div class="ttdef"><b>Definition:</b> landtexture.cpp:7</div></div>
+<div class="ttc" id="structCSMWorld_1_1LandTexture_html_a5defbd868c7c328b604b6509ca33baaf"><div class="ttname"><a href="structCSMWorld_1_1LandTexture.html#a5defbd868c7c328b604b6509ca33baaf">CSMWorld::LandTexture::load</a></div><div class="ttdeci">void load(ESM::ESMReader &amp;esm, bool &amp;isDeleted)</div><div class="ttdef"><b>Definition:</b> landtexture.cpp:10</div></div>
+<div class="ttc" id="structCSMWorld_1_1LandTexture_html_a38dddc2b91507e69691d7bc02579912a"><div class="ttname"><a href="structCSMWorld_1_1LandTexture.html#a38dddc2b91507e69691d7bc02579912a">CSMWorld::LandTexture::parseUniqueRecordId</a></div><div class="ttdeci">static void parseUniqueRecordId(const std::string &amp;id, int &amp;plugin, int &amp;index)</div><div class="ttdoc">Deconstructs a unique string identifier into plugin and index. </div><div class="ttdef"><b>Definition:</b> landtexture.cpp:24</div></div>
+<div class="ttc" id="structCSMWorld_1_1LandTexture_html_a75204119cefeb840f92a872df870d4e1"><div class="ttname"><a href="structCSMWorld_1_1LandTexture.html#a75204119cefeb840f92a872df870d4e1">CSMWorld::LandTexture::createUniqueRecordId</a></div><div class="ttdeci">static std::string createUniqueRecordId(int plugin, int index)</div><div class="ttdoc">Returns a string identifier that will be unique to any LandTexture. </div><div class="ttdef"><b>Definition:</b> landtexture.cpp:17</div></div>
 <div class="ttc" id="structCSMWorld_1_1LandTexture_html_ab9a0ecf045d416ad4ee77277e467d9d1"><div class="ttname"><a href="structCSMWorld_1_1LandTexture.html#ab9a0ecf045d416ad4ee77277e467d9d1">CSMWorld::LandTexture::mPluginIndex</a></div><div class="ttdeci">int mPluginIndex</div><div class="ttdef"><b>Definition:</b> landtexture.hpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:48 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:20 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

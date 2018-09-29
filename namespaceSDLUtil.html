@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -91,6 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">SDLUtil Namespace Reference</div>  </div>
@@ -119,18 +120,38 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSDLUtil_1_1VideoWrapper.html">VideoWrapper</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aeac21feec99878ccd1828ebe5f3803e4"><td class="memItemLeft" align="right" valign="top">typedef std::unique_ptr<br class="typebreak"/>
+&lt; SDL_Surface, void(*)(SDL_Surface *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SurfaceUniquePtr</a></td></tr>
+<tr class="separator:aeac21feec99878ccd1828ebe5f3803e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae5d7bfb88b60e031d423cb7cef205213"><td class="memItemLeft" align="right" valign="top">SDL_Surface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSDLUtil.html#ae5d7bfb88b60e031d423cb7cef205213">imageToSurface</a> (osg::Image *image, <a class="el" href="classbool.html">bool</a> flip)</td></tr>
-<tr class="separator:ae5d7bfb88b60e031d423cb7cef205213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab576b4a3aeda5ff29a7a73154e10e0b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SurfaceUniquePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSDLUtil.html#ab576b4a3aeda5ff29a7a73154e10e0b4">imageToSurface</a> (osg::Image *image, <a class="el" href="classbool.html">bool</a> flip=false)</td></tr>
+<tr class="memdesc:ab576b4a3aeda5ff29a7a73154e10e0b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an osg::Image to an SDL_Surface.  <a href="#ab576b4a3aeda5ff29a7a73154e10e0b4">More...</a><br/></td></tr>
+<tr class="separator:ab576b4a3aeda5ff29a7a73154e10e0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ae5d7bfb88b60e031d423cb7cef205213"></a>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="aeac21feec99878ccd1828ebe5f3803e4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SDL_Surface * SDLUtil::imageToSurface </td>
+          <td class="memname">typedef std::unique_ptr&lt;SDL_Surface, void (*)(SDL_Surface *)&gt; <a class="el" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SDLUtil::SurfaceUniquePtr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ab576b4a3aeda5ff29a7a73154e10e0b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceSDLUtil.html#aeac21feec99878ccd1828ebe5f3803e4">SurfaceUniquePtr</a> SDLUtil::imageToSurface </td>
           <td>(</td>
           <td class="paramtype">osg::Image *&#160;</td>
           <td class="paramname"><em>image</em>, </td>
@@ -139,7 +160,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
-          <td class="paramname"><em>flip</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>flip</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -148,13 +169,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Convert an osg::Image to an SDL_Surface. </p>
-<dl class="section note"><dt>Note</dt><dd>The returned surface must be freed using SDL_FreeSurface. </dd></dl>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceSDLUtil_ae5d7bfb88b60e031d423cb7cef205213_icgraph.svg" width="1144" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceSDLUtil_ab576b4a3aeda5ff29a7a73154e10e0b4_icgraph.svg" width="1398" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -164,7 +185,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:08 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:42 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -44,7 +44,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classMWBase_1_1WindowManager.html#a0522774cf0e03437edbba607acd0bdb5" target="_top" xlink:title="Fade the screen in, over time seconds. ">
+<g id="a_node4"><a xlink:href="classMWBase_1_1WindowManager.html#a201600cf8f3829f730397a04352465e1" target="_top" xlink:title="Fade the screen in, over time seconds. ">
 <polygon fill="white" stroke="black" points="146,-98 146,-128 286,-128 286,-98 146,-98"/>
 <text text-anchor="start" x="154" y="-116" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
 <text text-anchor="middle" x="216" y="-105" font-family="FreeSans" font-size="10.00">::fadeScreenIn</text>
@@ -72,7 +72,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classMWBase_1_1WindowManager.html#ab36f5f1555718fb7cdfa2683a5779356" target="_top" xlink:title="can be anywhere in the stack ">
+<g id="a_node9"><a xlink:href="classMWBase_1_1WindowManager.html#a06cceabaf883f8f8d017398f8b349c6a" target="_top" xlink:title="can be anywhere in the stack ">
 <polygon fill="white" stroke="black" points="146,-49 146,-79 286,-79 286,-49 146,-49"/>
 <text text-anchor="start" x="154" y="-67" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
 <text text-anchor="middle" x="216" y="-56" font-family="FreeSans" font-size="10.00">::removeGuiMode</text>
@@ -110,44 +110,45 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classMWGui_1_1WindowBase.html#ace3dc06d8e89a926cd05fb5f94ac757e" target="_top" xlink:title="Notify that window has been made visible. ">
-<polygon fill="white" stroke="black" points="323,-152.5 323,-171.5 467,-171.5 467,-152.5 323,-152.5"/>
-<text text-anchor="middle" x="395" y="-159.5" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::open</text>
+<g id="a_node6"><a xlink:href="classMWGui_1_1WindowBase.html#a73a091bb146c2ece2d351185dd4da898" target="_top" xlink:title="Notify that window has been made visible. ">
+<polygon fill="white" stroke="black" points="335,-142 335,-172 455,-172 455,-142 335,-142"/>
+<text text-anchor="start" x="343" y="-160" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
+<text text-anchor="middle" x="395" y="-149" font-family="FreeSans" font-size="10.00">onOpen</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M276.431,-162C288.043,-162 300.406,-162 312.59,-162"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="312.761,-165.5 322.76,-162 312.76,-158.5 312.761,-165.5"/>
+<path fill="none" stroke="midnightblue" d="M276.431,-160.321C291.837,-159.886 308.565,-159.413 324.44,-158.965"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="324.829,-162.455 334.726,-158.674 324.631,-155.458 324.829,-162.455"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classMWGui_1_1WindowBase.html#af986f66b831360eceacc01740a0a16fa" target="_top" xlink:title="Notify that window has been hidden. ">
-<polygon fill="white" stroke="black" points="335,-103 335,-133 455,-133 455,-103 335,-103"/>
-<text text-anchor="start" x="343" y="-121" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
-<text text-anchor="middle" x="395" y="-110" font-family="FreeSans" font-size="10.00">close</text>
+<g id="a_node7"><a xlink:href="classMWGui_1_1WindowBase.html#ac4b03bd34ca48db739c6aa7b5fdb194d" target="_top" xlink:title="Notify that window has been hidden. ">
+<polygon fill="white" stroke="black" points="335,-93 335,-123 455,-123 455,-93 335,-93"/>
+<text text-anchor="start" x="343" y="-111" font-family="FreeSans" font-size="10.00">MWGui::WindowBase::</text>
+<text text-anchor="middle" x="395" y="-100" font-family="FreeSans" font-size="10.00">onClose</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M276.431,-147.226C291.983,-143.36 308.883,-139.159 324.893,-135.179"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="325.866,-138.544 334.726,-132.735 324.177,-131.751 325.866,-138.544"/>
+<path fill="none" stroke="midnightblue" d="M266.304,-146.958C287.6,-140.461 312.691,-132.806 334.969,-126.009"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="336.11,-129.321 344.653,-123.055 334.067,-122.625 336.11,-129.321"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="classMWBase_1_1WindowManager.html#a24725f89bc9b354a0c51d185f20f38a6" target="_top" xlink:title="Warning: do not use MyGUI::InputManager::setKeyFocusWidget directly. Instead use this. ">
-<polygon fill="white" stroke="black" points="325,-54 325,-84 465,-84 465,-54 325,-54"/>
-<text text-anchor="start" x="333" y="-72" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
-<text text-anchor="middle" x="395" y="-61" font-family="FreeSans" font-size="10.00">::setKeyFocusWidget</text>
+<polygon fill="white" stroke="black" points="325,-44 325,-74 465,-74 465,-44 325,-44"/>
+<text text-anchor="start" x="333" y="-62" font-family="FreeSans" font-size="10.00">MWBase::WindowManager</text>
+<text text-anchor="middle" x="395" y="-51" font-family="FreeSans" font-size="10.00">::setKeyFocusWidget</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node8 -->
 <g id="edge9" class="edge"><title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M268.275,-146.913C274.502,-144.087 280.572,-140.799 286,-137 306.42,-122.707 301.485,-108.155 322,-94 324.864,-92.0238 327.899,-90.1898 331.041,-88.4897"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="332.676,-91.5859 340.119,-84.0458 329.599,-85.2986 332.676,-91.5859"/>
+<path fill="none" stroke="midnightblue" d="M269.749,-146.955C275.528,-144.148 281.088,-140.853 286,-137 308.695,-119.197 299.077,-100.508 322,-83 323.829,-81.6029 325.744,-80.2847 327.724,-79.0411"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="329.698,-81.9494 336.763,-74.0537 326.316,-75.8205 329.698,-81.9494"/>
 </g>
 </g>
 </svg>

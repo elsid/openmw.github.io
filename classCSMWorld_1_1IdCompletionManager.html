@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for CSMWorld::IdCompletionManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdCompletionManager__coll__graph.svg" width="464" height="504"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdCompletionManager__coll__graph.svg" width="450" height="504"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -123,8 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a128514cbefc1c189b4a943442434f206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ad684692673075d078332b87ef1b5be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdCompletionManager.html#a0ad684692673075d078332b87ef1b5be">hasCompleterFor</a> (<a class="el" href="structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560">ColumnBase::Display</a> display) const </td></tr>
 <tr class="separator:a0ad684692673075d078332b87ef1b5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac70fb38a6e6d7f3100b6700519578b1e"><td class="memItemLeft" align="right" valign="top">boost::shared_ptr&lt; QCompleter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdCompletionManager.html#ac70fb38a6e6d7f3100b6700519578b1e">getCompleter</a> (<a class="el" href="structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560">ColumnBase::Display</a> display)</td></tr>
-<tr class="separator:ac70fb38a6e6d7f3100b6700519578b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a44d0466c8ecf2c865391aac8acba5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; QCompleter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdCompletionManager.html#a30a44d0466c8ecf2c865391aac8acba5">getCompleter</a> (<a class="el" href="structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560">ColumnBase::Display</a> display)</td></tr>
+<tr class="separator:a30a44d0466c8ecf2c865391aac8acba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -143,9 +143,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a01716ace95b8cc861e95b68669e38893"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560">ColumnBase::Display</a>, <br class="typebreak"/>
-boost::shared_ptr&lt; QCompleter &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdCompletionManager.html#a01716ace95b8cc861e95b68669e38893">mCompleters</a></td></tr>
-<tr class="separator:a01716ace95b8cc861e95b68669e38893"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4b8ec1e7ea614d689757a1c298fa1a1"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560">ColumnBase::Display</a>, <br class="typebreak"/>
+std::shared_ptr&lt; QCompleter &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSMWorld_1_1IdCompletionManager.html#aa4b8ec1e7ea614d689757a1c298fa1a1">mCompleters</a></td></tr>
+<tr class="separator:aa4b8ec1e7ea614d689757a1c298fa1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -230,12 +230,12 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ac70fb38a6e6d7f3100b6700519578b1e"></a>
+<a class="anchor" id="a30a44d0466c8ecf2c865391aac8acba5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boost::shared_ptr&lt; QCompleter &gt; CSMWorld::IdCompletionManager::getCompleter </td>
+          <td class="memname">std::shared_ptr&lt; QCompleter &gt; CSMWorld::IdCompletionManager::getCompleter </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560">ColumnBase::Display</a>&#160;</td>
           <td class="paramname"><em>display</em></td><td>)</td>
@@ -247,7 +247,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdCompletionManager_ac70fb38a6e6d7f3100b6700519578b1e_icgraph.svg" width="528" height="247"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCSMWorld_1_1IdCompletionManager_a30a44d0466c8ecf2c865391aac8acba5_icgraph.svg" width="528" height="312"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -326,7 +326,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a01716ace95b8cc861e95b68669e38893"></a>
+<a class="anchor" id="aa4b8ec1e7ea614d689757a1c298fa1a1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -334,7 +334,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;<a class="el" href="structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560">ColumnBase::Display</a>, boost::shared_ptr&lt;QCompleter&gt; &gt; CSMWorld::IdCompletionManager::mCompleters</td>
+          <td class="memname">std::map&lt;<a class="el" href="structCSMWorld_1_1ColumnBase.html#abf371752910fa5a73a99774a50a5b560">ColumnBase::Display</a>, std::shared_ptr&lt;QCompleter&gt; &gt; CSMWorld::IdCompletionManager::mCompleters</td>
         </tr>
       </table>
   </td>
@@ -367,13 +367,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/world/<a class="el" href="idcompletionmanager_8hpp_source.html">idcompletionmanager.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/opencs/model/world/<a class="el" href="idcompletionmanager_8cpp.html">idcompletionmanager.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/world/<a class="el" href="idcompletionmanager_8hpp_source.html">idcompletionmanager.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/opencs/model/world/<a class="el" href="idcompletionmanager_8cpp.html">idcompletionmanager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:57 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:29 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

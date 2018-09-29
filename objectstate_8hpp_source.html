@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/esm/objectstate.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/esm/objectstate.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -132,20 +132,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structESM_1_1ObjectState.html#ab747846a875142e8e0b446b6a8c08986">   35</a></span>&#160;        <a class="code" href="structESM_1_1AnimationState.html">ESM::AnimationState</a> <a class="code" href="structESM_1_1ObjectState.html#ab747846a875142e8e0b446b6a8c08986">mAnimationState</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structESM_1_1ObjectState.html#ac8149b3176172ac0dce7a93fc974a584">   37</a></span>&#160;        <a class="code" href="structESM_1_1ObjectState.html#ac8149b3176172ac0dce7a93fc974a584">ObjectState</a>() : <a class="code" href="structESM_1_1ObjectState.html#a7a63d98092e069a2ea2e5122ed5f9ec5">mHasCustomState</a>(true), <a class="code" href="structESM_1_1ObjectState.html#a887ab5e81f1ee1ff1226f1f9472dbe1c">mVersion</a>(0)</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        {}</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structESM_1_1ObjectState.html#abbff22222174f0dcc0a2b4d9fe8508eb">load</a> (<a class="code" href="classESM_1_1ESMReader.html">ESMReader</a> &amp;esm);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structESM_1_1ObjectState.html#ae1d1eb3c74151cb3eec08ce50256f768">save</a> (<a class="code" href="classESM_1_1ESMWriter.html">ESMWriter</a> &amp;esm, <span class="keywordtype">bool</span> inInventory = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structESM_1_1ObjectState.html#ac8149b3176172ac0dce7a93fc974a584">   37</a></span>&#160;        <a class="code" href="structESM_1_1ObjectState.html#ac8149b3176172ac0dce7a93fc974a584">ObjectState</a>()</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        : <a class="code" href="structESM_1_1ObjectState.html#af70d01fc9290452247ae0c2193d6eff0">mHasLocals</a>(0), <a class="code" href="structESM_1_1ObjectState.html#a1109c62d3520b5008fadee686568ee8c">mEnabled</a>(0), <a class="code" href="structESM_1_1ObjectState.html#ac97feea369016540c12763dd52ff70ca">mCount</a>(0)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        , <a class="code" href="structESM_1_1ObjectState.html#a5f2c346ab339137fe38e290e347537e2">mFlags</a>(0), <a class="code" href="structESM_1_1ObjectState.html#a7a63d98092e069a2ea2e5122ed5f9ec5">mHasCustomState</a>(true), <a class="code" href="structESM_1_1ObjectState.html#a887ab5e81f1ee1ff1226f1f9472dbe1c">mVersion</a>(0)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        {}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structESM_1_1ObjectState.html#abbff22222174f0dcc0a2b4d9fe8508eb">load</a> (<a class="code" href="classESM_1_1ESMReader.html">ESMReader</a> &amp;esm);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structESM_1_1ObjectState.html#a056fca0773ec3bb98afbd60d568dfaeb">blank</a>();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="structESM_1_1ObjectState.html#a5c21be31bd9bac4539c1b4bcc1e2ff4f">~ObjectState</a>();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    };</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structESM_1_1ObjectState.html#ae1d1eb3c74151cb3eec08ce50256f768">save</a> (<a class="code" href="classESM_1_1ESMWriter.html">ESMWriter</a> &amp;esm, <span class="keywordtype">bool</span> inInventory = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structESM_1_1ObjectState.html#a056fca0773ec3bb98afbd60d568dfaeb">blank</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="structESM_1_1ObjectState.html#a5c21be31bd9bac4539c1b4bcc1e2ff4f">~ObjectState</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    };</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="structESM_1_1ObjectState_html_a7a63d98092e069a2ea2e5122ed5f9ec5"><div class="ttname"><a href="structESM_1_1ObjectState.html#a7a63d98092e069a2ea2e5122ed5f9ec5">ESM::ObjectState::mHasCustomState</a></div><div class="ttdeci">bool mHasCustomState</div><div class="ttdef"><b>Definition:</b> objectstate.hpp:31</div></div>
 <div class="ttc" id="structESM_1_1ObjectState_html_abbff22222174f0dcc0a2b4d9fe8508eb"><div class="ttname"><a href="structESM_1_1ObjectState.html#abbff22222174f0dcc0a2b4d9fe8508eb">ESM::ObjectState::load</a></div><div class="ttdeci">virtual void load(ESMReader &amp;esm)</div><div class="ttdef"><b>Definition:</b> objectstate.cpp:6</div></div>
 <div class="ttc" id="structESM_1_1ObjectState_html_af70d01fc9290452247ae0c2193d6eff0"><div class="ttname"><a href="structESM_1_1ObjectState.html#af70d01fc9290452247ae0c2193d6eff0">ESM::ObjectState::mHasLocals</a></div><div class="ttdeci">unsigned char mHasLocals</div><div class="ttdef"><b>Definition:</b> objectstate.hpp:23</div></div>
@@ -158,7 +160,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="animationstate_8hpp_html"><div class="ttname"><a href="animationstate_8hpp.html">animationstate.hpp</a></div></div>
 <div class="ttc" id="structESM_1_1ObjectState_html"><div class="ttname"><a href="structESM_1_1ObjectState.html">ESM::ObjectState</a></div><div class="ttdoc">&lt; </div><div class="ttdef"><b>Definition:</b> objectstate.hpp:19</div></div>
 <div class="ttc" id="structESM_1_1ObjectState_html_ab88cff0a18babf71f2274878da94a720"><div class="ttname"><a href="structESM_1_1ObjectState.html#ab88cff0a18babf71f2274878da94a720">ESM::ObjectState::mPosition</a></div><div class="ttdeci">ESM::Position mPosition</div><div class="ttdef"><b>Definition:</b> objectstate.hpp:27</div></div>
-<div class="ttc" id="classESM_1_1CellRef_html"><div class="ttname"><a href="classESM_1_1CellRef.html">ESM::CellRef</a></div><div class="ttdef"><b>Definition:</b> cellref.hpp:34</div></div>
+<div class="ttc" id="classESM_1_1CellRef_html"><div class="ttname"><a href="classESM_1_1CellRef.html">ESM::CellRef</a></div><div class="ttdef"><b>Definition:</b> cellref.hpp:36</div></div>
 <div class="ttc" id="structESM_1_1ObjectState_html_ae1d1eb3c74151cb3eec08ce50256f768"><div class="ttname"><a href="structESM_1_1ObjectState.html#ae1d1eb3c74151cb3eec08ce50256f768">ESM::ObjectState::save</a></div><div class="ttdeci">virtual void save(ESMWriter &amp;esm, bool inInventory=false) const </div><div class="ttdef"><b>Definition:</b> objectstate.cpp:44</div></div>
 <div class="ttc" id="structESM_1_1ObjectState_html_a5f2c346ab339137fe38e290e347537e2"><div class="ttname"><a href="structESM_1_1ObjectState.html#a5f2c346ab339137fe38e290e347537e2">ESM::ObjectState::mFlags</a></div><div class="ttdeci">unsigned int mFlags</div><div class="ttdef"><b>Definition:</b> objectstate.hpp:28</div></div>
 <div class="ttc" id="structESM_1_1ObjectState_html_a5c21be31bd9bac4539c1b4bcc1e2ff4f"><div class="ttname"><a href="structESM_1_1ObjectState.html#a5c21be31bd9bac4539c1b4bcc1e2ff4f">ESM::ObjectState::~ObjectState</a></div><div class="ttdeci">virtual ~ObjectState()</div><div class="ttdef"><b>Definition:</b> objectstate.cpp:87</div></div>
@@ -174,7 +176,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

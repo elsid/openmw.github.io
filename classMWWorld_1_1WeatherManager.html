@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for MWWorld::WeatherManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager__coll__graph.svg" width="8150" height="1963"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager__coll__graph.svg" width="8150" height="2067"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -125,10 +125,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae81fe7fdd2f1bae64c256f0e9075b675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adad4c044680f3291b1d6f6425b9a62a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#adad4c044680f3291b1d6f6425b9a62a0">modRegion</a> (const std::string &amp;regionID, const std::vector&lt; char &gt; &amp;chances)</td></tr>
 <tr class="separator:adad4c044680f3291b1d6f6425b9a62a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7a6943c012f7a16d5fbb7a8b0fd4cab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#ab7a6943c012f7a16d5fbb7a8b0fd4cab">playerTeleported</a> ()</td></tr>
-<tr class="separator:ab7a6943c012f7a16d5fbb7a8b0fd4cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6be2dc2e9ee22adf937487728b100f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#af6be2dc2e9ee22adf937487728b100f6">update</a> (float duration, <a class="el" href="classbool.html">bool</a> paused=false)</td></tr>
-<tr class="separator:af6be2dc2e9ee22adf937487728b100f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae540e536e7df878838bcc9df2616524e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#ae540e536e7df878838bcc9df2616524e">playerTeleported</a> (const std::string &amp;playerRegion, <a class="el" href="classbool.html">bool</a> isExterior)</td></tr>
+<tr class="separator:ae540e536e7df878838bcc9df2616524e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad158eea4ae0022e40b11c1c138fc80ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#ad158eea4ae0022e40b11c1c138fc80ab">update</a> (float duration, <a class="el" href="classbool.html">bool</a> paused, const <a class="el" href="classMWWorld_1_1TimeStamp.html">TimeStamp</a> &amp;time, <a class="el" href="classbool.html">bool</a> isExterior)</td></tr>
+<tr class="separator:ad158eea4ae0022e40b11c1c138fc80ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaae29babd5782eb8c3726f0a4943571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#aaaae29babd5782eb8c3726f0a4943571">stopSounds</a> ()</td></tr>
 <tr class="separator:aaaae29babd5782eb8c3726f0a4943571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac482fd20f8f1b7884dda8575628ab1de"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#ac482fd20f8f1b7884dda8575628ab1de">getWindSpeed</a> () const </td></tr>
@@ -142,8 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8cec431e0377e8cdb6ec2978ea1599c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e4b8acd39d0fc11950560c0be383cd3"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a1e4b8acd39d0fc11950560c0be383cd3">getWeatherID</a> () const </td></tr>
 <tr class="separator:a1e4b8acd39d0fc11950560c0be383cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae98537e3096ef225ea2192c59bfe1a21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#ae98537e3096ef225ea2192c59bfe1a21">isDark</a> () const </td></tr>
-<tr class="separator:ae98537e3096ef225ea2192c59bfe1a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcdf22dffa7a48495edd261522fc0237"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#abcdf22dffa7a48495edd261522fc0237">useTorches</a> (float hour) const </td></tr>
+<tr class="separator:abcdf22dffa7a48495edd261522fc0237"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02660a727cf3ee0099fdf05b449a64f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a02660a727cf3ee0099fdf05b449a64f2">write</a> (<a class="el" href="classESM_1_1ESMWriter.html">ESM::ESMWriter</a> &amp;writer, <a class="el" href="classLoading_1_1Listener.html">Loading::Listener</a> &amp;progress)</td></tr>
 <tr class="separator:a02660a727cf3ee0099fdf05b449a64f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6597c14bf8645d88b2f883141d028fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#aa6597c14bf8645d88b2f883141d028fb">readRecord</a> (<a class="el" href="classESM_1_1ESMReader.html">ESM::ESMReader</a> &amp;reader, uint32_t type)</td></tr>
@@ -153,8 +153,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a88674aec961a24e26b5a83a93ddaf4bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a88674aec961a24e26b5a83a93ddaf4bb">addWeather</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>, const <a class="el" href="classFallback_1_1Map.html">Fallback::Map</a> &amp;fallback, const std::string &amp;particleEffect=&quot;&quot;)</td></tr>
-<tr class="separator:a88674aec961a24e26b5a83a93ddaf4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9695a9a185b0f3b38c204ab69b17b3ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a9695a9a185b0f3b38c204ab69b17b3ec">addWeather</a> (const std::string &amp;<a class="el" href="crashcatcher_8cpp.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>, const <a class="el" href="classFallback_1_1Map.html">Fallback::Map</a> &amp;fallback, float dlFactor, float dlOffset, const std::string &amp;particleEffect=&quot;&quot;)</td></tr>
+<tr class="separator:a9695a9a185b0f3b38c204ab69b17b3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeab6f046528ec2183685f595defcc97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#aeeab6f046528ec2183685f595defcc97">importRegions</a> ()</td></tr>
 <tr class="separator:aeeab6f046528ec2183685f595defcc97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e1bb5ff9fa80d362fda031b64adf2ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a4e1bb5ff9fa80d362fda031b64adf2ca">regionalWeatherChanged</a> (const std::string &amp;regionID, <a class="el" href="classMWWorld_1_1RegionWeather.html">RegionWeather</a> &amp;region)</td></tr>
@@ -214,6 +214,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a245ac07d442e7eee8d636afb0aebc99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bf3d74a280ad5d1377f185e818f3362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a7bf3d74a280ad5d1377f185e818f3362">mIsStorm</a></td></tr>
 <tr class="separator:a7bf3d74a280ad5d1377f185e818f3362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac784728fac29667564d2a4928fc3c049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#ac784728fac29667564d2a4928fc3c049">mPrecipitation</a></td></tr>
+<tr class="separator:ac784728fac29667564d2a4928fc3c049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac19e080bd426e8d0f2146832879650c2"><td class="memItemLeft" align="right" valign="top">osg::Vec3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#ac19e080bd426e8d0f2146832879650c2">mStormDirection</a></td></tr>
 <tr class="separator:ac19e080bd426e8d0f2146832879650c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa86c14c873d4c0806a19ea4ba89f532"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#aaa86c14c873d4c0806a19ea4ba89f532">mCurrentRegion</a></td></tr>
@@ -237,8 +239,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:addcddb533d8d9a59866e23f467ee729b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d1543433bb7a402b2e24d332c9d0b23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMWRender_1_1WeatherResult.html">MWRender::WeatherResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a1d1543433bb7a402b2e24d332c9d0b23">mResult</a></td></tr>
 <tr class="separator:a1d1543433bb7a402b2e24d332c9d0b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b4ad1342f173c42c22bf32234d09028"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMWBase.html#a00ffaefcf6bfdfb58240498937f63bdc">MWBase::SoundPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a1b4ad1342f173c42c22bf32234d09028">mAmbientSound</a></td></tr>
-<tr class="separator:a1b4ad1342f173c42c22bf32234d09028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8399ab0b72959e184607227918602910"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMWBase.html#a89ec24b754f974590d17f732a26ef8dc">MWBase::Sound</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#a8399ab0b72959e184607227918602910">mAmbientSound</a></td></tr>
+<tr class="separator:a8399ab0b72959e184607227918602910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa30d08bead83defac3c4449f68931cc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMWWorld_1_1WeatherManager.html#aaa30d08bead83defac3c4449f68931cc">mPlayingSoundID</a></td></tr>
 <tr class="separator:aaa30d08bead83defac3c4449f68931cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -278,7 +280,7 @@ Private Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a1d04ebf7fdca36ebba816fea30d62b82_cgraph.svg" width="910" height="230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a1d04ebf7fdca36ebba816fea30d62b82_cgraph.svg" width="934" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -309,7 +311,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a88674aec961a24e26b5a83a93ddaf4bb"></a>
+<a class="anchor" id="a9695a9a185b0f3b38c204ab69b17b3ec"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -327,6 +329,18 @@ Here is the call graph for this function:</div>
           <td></td>
           <td class="paramtype">const <a class="el" href="classFallback_1_1Map.html">Fallback::Map</a> &amp;&#160;</td>
           <td class="paramname"><em>fallback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dlFactor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dlOffset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -350,7 +364,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a88674aec961a24e26b5a83a93ddaf4bb_cgraph.svg" width="667" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a9695a9a185b0f3b38c204ab69b17b3ec_cgraph.svg" width="432" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -358,7 +372,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a88674aec961a24e26b5a83a93ddaf4bb_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a9695a9a185b0f3b38c204ab69b17b3ec_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -398,7 +412,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a630eae895661f8ca80bae324eebdef4e_icgraph.svg" width="1259" height="178"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a630eae895661f8ca80bae324eebdef4e_icgraph.svg" width="691" height="148"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -428,14 +442,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a8cec431e0377e8cdb6ec2978ea1599c6_icgraph.svg" width="467" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -474,7 +480,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a2ad9f593a269bc1cff7512c80a423198_cgraph.svg" width="712" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a2ad9f593a269bc1cff7512c80a423198_cgraph.svg" width="744" height="130"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -482,7 +488,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a2ad9f593a269bc1cff7512c80a423198_icgraph.svg" width="1691" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a2ad9f593a269bc1cff7512c80a423198_icgraph.svg" width="934" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -524,7 +530,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a2e785f5537f55c31e520a4d6af9bdcc8_cgraph.svg" width="955" height="131"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a2e785f5537f55c31e520a4d6af9bdcc8_cgraph.svg" width="987" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -532,7 +538,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a2e785f5537f55c31e520a4d6af9bdcc8_icgraph.svg" width="1448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a2e785f5537f55c31e520a4d6af9bdcc8_icgraph.svg" width="691" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -580,7 +586,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aa6b8d9eea1b7514f9fc4304c85633403_cgraph.svg" width="1198" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aa6b8d9eea1b7514f9fc4304c85633403_cgraph.svg" width="1230" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -588,7 +594,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aa6b8d9eea1b7514f9fc4304c85633403_icgraph.svg" width="1206" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aa6b8d9eea1b7514f9fc4304c85633403_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -635,14 +641,6 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ae81fe7fdd2f1bae64c256f0e9075b675_icgraph.svg" width="480" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="af5eaf43f1b3cf315e72ca3a6ad9f1a66"></a>
@@ -662,14 +660,6 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_af5eaf43f1b3cf315e72ca3a6ad9f1a66_cgraph.svg" width="1054" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_af5eaf43f1b3cf315e72ca3a6ad9f1a66_icgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -701,7 +691,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a85250c6f5d4efed783abf06b37ec5c20_icgraph.svg" width="1206" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a85250c6f5d4efed783abf06b37ec5c20_icgraph.svg" width="448" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -721,14 +711,6 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a012d2fe296422a35fcd2f288237f6f47_icgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a1e4b8acd39d0fc11950560c0be383cd3"></a>
@@ -744,14 +726,6 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a1e4b8acd39d0fc11950560c0be383cd3_icgraph.svg" width="451" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="ac482fd20f8f1b7884dda8575628ab1de"></a>
@@ -766,14 +740,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ac482fd20f8f1b7884dda8575628ab1de_icgraph.svg" width="475" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -809,7 +775,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aeeab6f046528ec2183685f595defcc97_icgraph.svg" width="696" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aeeab6f046528ec2183685f595defcc97_icgraph.svg" width="448" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -840,39 +806,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ab9f9796b11c6aa22efbec8ced5735f94_icgraph.svg" width="1502" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ae98537e3096ef225ea2192c59bfe1a21"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classbool.html">bool</a> WeatherManager::isDark </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMWWorld_1_1World.html#a5f7f3b7cebd51528002a1318e682c046">World::isDark</a> </dd></dl>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ae98537e3096ef225ea2192c59bfe1a21_cgraph.svg" width="475" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ae98537e3096ef225ea2192c59bfe1a21_icgraph.svg" width="422" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ab9f9796b11c6aa22efbec8ced5735f94_icgraph.svg" width="934" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -893,14 +827,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Are we in an ash or blight storm? </p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_adcabba4e4bae1fe6f2738e46663ad661_icgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
 
 </div>
 </div>
@@ -936,25 +862,28 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_adad4c044680f3291b1d6f6425b9a62a0_icgraph.svg" width="454" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ab7a6943c012f7a16d5fbb7a8b0fd4cab"></a>
+<a class="anchor" id="ae540e536e7df878838bcc9df2616524e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void WeatherManager::playerTeleported </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>playerRegion</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>isExterior</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -962,15 +891,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ab7a6943c012f7a16d5fbb7a8b0fd4cab_cgraph.svg" width="824" height="519"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ab7a6943c012f7a16d5fbb7a8b0fd4cab_icgraph.svg" width="963" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ae540e536e7df878838bcc9df2616524e_cgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1005,14 +926,6 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aa6597c14bf8645d88b2f883141d028fb_cgraph.svg" width="2219" height="668"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aa6597c14bf8645d88b2f883141d028fb_icgraph.svg" width="454" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1062,7 +975,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a4e1bb5ff9fa80d362fda031b64adf2ca_icgraph.svg" width="723" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a4e1bb5ff9fa80d362fda031b64adf2ca_icgraph.svg" width="448" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1093,14 +1006,14 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aaaae29babd5782eb8c3726f0a4943571_icgraph.svg" width="1206" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_aaaae29babd5782eb8c3726f0a4943571_icgraph.svg" width="448" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="af6be2dc2e9ee22adf937487728b100f6"></a>
+<a class="anchor" id="ad158eea4ae0022e40b11c1c138fc80ab"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1114,7 +1027,19 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
-          <td class="paramname"><em>paused</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>paused</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMWWorld_1_1TimeStamp.html">TimeStamp</a> &amp;&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>isExterior</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1135,15 +1060,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_af6be2dc2e9ee22adf937487728b100f6_cgraph.svg" width="1478" height="2219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_af6be2dc2e9ee22adf937487728b100f6_icgraph.svg" width="963" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ad158eea4ae0022e40b11c1c138fc80ab_cgraph.svg" width="1515" height="2067"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1175,7 +1092,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ad477da6b35c1996b5e563692dfcaaa59_icgraph.svg" width="1206" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_ad477da6b35c1996b5e563692dfcaaa59_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1206,7 +1123,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a47e208810883c6f6ec7424891679eff6_icgraph.svg" width="1206" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a47e208810883c6f6ec7424891679eff6_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1246,10 +1163,26 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a706a4d35f70e1b8bd92d4beafecfd9f1_icgraph.svg" width="1206" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a706a4d35f70e1b8bd92d4beafecfd9f1_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="abcdf22dffa7a48495edd261522fc0237"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> WeatherManager::useTorches </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>hour</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1285,18 +1218,10 @@ Here is the call graph for this function:</div>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMWWorld_1_1WeatherManager_a02660a727cf3ee0099fdf05b449a64f2_icgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a1b4ad1342f173c42c22bf32234d09028"></a>
+<a class="anchor" id="a8399ab0b72959e184607227918602910"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1304,7 +1229,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMWBase.html#a00ffaefcf6bfdfb58240498937f63bdc">MWBase::SoundPtr</a> MWWorld::WeatherManager::mAmbientSound</td>
+          <td class="memname"><a class="el" href="namespaceMWBase.html#a89ec24b754f974590d17f732a26ef8dc">MWBase::Sound</a>* MWWorld::WeatherManager::mAmbientSound</td>
         </tr>
       </table>
   </td>
@@ -1485,6 +1410,26 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">std::string MWWorld::WeatherManager::mPlayingSoundID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac784728fac29667564d2a4928fc3c049"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbool.html">bool</a> MWWorld::WeatherManager::mPrecipitation</td>
         </tr>
       </table>
   </td>
@@ -1897,13 +1842,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="weather_8hpp_source.html">weather.hpp</a></li>
-<li>/home/travis/build/OpenMW/openmw/apps/openmw/mwworld/<a class="el" href="weather_8cpp.html">weather.cpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="weather_8hpp_source.html">weather.hpp</a></li>
+<li>/home/travis/build/elsid/openmw/apps/openmw/mwworld/<a class="el" href="weather_8cpp.html">weather.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:06:07 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:41 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

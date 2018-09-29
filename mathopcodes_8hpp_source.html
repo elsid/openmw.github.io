@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/components/interpreter/mathopcodes.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/components/interpreter/mathopcodes.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -115,7 +115,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classInterpreter_1_1OpAddInt.html#a05322adc9cd85817f6b445a3f3d5f42a">   17</a></span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classInterpreter_1_1OpAddInt.html#a05322adc9cd85817f6b445a3f3d5f42a">execute</a> (<a class="code" href="classInterpreter_1_1Runtime.html">Runtime</a>&amp; runtime)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                T result = getData&lt;T&gt; (runtime[1]) + getData&lt;T&gt; (runtime[0]);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <a class="code" href="classGui_1_1T.html">T</a> result = getData&lt;T&gt; (runtime[1]) + getData&lt;T&gt; (runtime[0]);</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                runtime.<a class="code" href="classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64">pop</a>();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                </div>
@@ -130,7 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        </div>
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classInterpreter_1_1OpSubInt.html#aa9ca2da5c1150a7db58d9c5ffebf0bdc">   32</a></span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classInterpreter_1_1OpSubInt.html#aa9ca2da5c1150a7db58d9c5ffebf0bdc">execute</a> (<a class="code" href="classInterpreter_1_1Runtime.html">Runtime</a>&amp; runtime)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                T result = getData&lt;T&gt; (runtime[1]) - getData&lt;T&gt; (runtime[0]);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <a class="code" href="classGui_1_1T.html">T</a> result = getData&lt;T&gt; (runtime[1]) - getData&lt;T&gt; (runtime[0]);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                </div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                runtime.<a class="code" href="classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64">pop</a>();</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
@@ -145,7 +145,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        </div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classInterpreter_1_1OpMulInt.html#ab1460748c332e20ed46a9b78ba08f708">   47</a></span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classInterpreter_1_1OpMulInt.html#ab1460748c332e20ed46a9b78ba08f708">execute</a> (<a class="code" href="classInterpreter_1_1Runtime.html">Runtime</a>&amp; runtime)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                T result = getData&lt;T&gt; (runtime[1]) * getData&lt;T&gt; (runtime[0]);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                <a class="code" href="classGui_1_1T.html">T</a> result = getData&lt;T&gt; (runtime[1]) * getData&lt;T&gt; (runtime[0]);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                runtime.<a class="code" href="classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64">pop</a>();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
@@ -160,12 +160,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        </div>
 <div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classInterpreter_1_1OpDivInt.html#a7b1bedb846be659f538779ebcfa901fa">   62</a></span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classInterpreter_1_1OpDivInt.html#a7b1bedb846be659f538779ebcfa901fa">execute</a> (<a class="code" href="classInterpreter_1_1Runtime.html">Runtime</a>&amp; runtime)</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                T left = getData&lt;T&gt; (runtime[0]);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <a class="code" href="classGui_1_1T.html">T</a> left = getData&lt;T&gt; (runtime[0]);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                <span class="keywordflow">if</span> (left==0)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    <span class="keywordflow">throw</span> std::runtime_error (<span class="stringliteral">&quot;division by zero&quot;</span>);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                T result = getData&lt;T&gt; (runtime[1]) / left;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <a class="code" href="classGui_1_1T.html">T</a> result = getData&lt;T&gt; (runtime[1]) / left;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                runtime.<a class="code" href="classInterpreter_1_1Runtime.html#a51d21562a9d97d65c78410e5d0e43e64">pop</a>();</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
@@ -215,6 +215,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classInterpreter_1_1Opcode0_html"><div class="ttname"><a href="classInterpreter_1_1Opcode0.html">Interpreter::Opcode0</a></div><div class="ttdoc">opcode for 0 arguments </div><div class="ttdef"><b>Definition:</b> opcodes.hpp:9</div></div>
 <div class="ttc" id="classInterpreter_1_1OpDivInt_html_a7b1bedb846be659f538779ebcfa901fa"><div class="ttname"><a href="classInterpreter_1_1OpDivInt.html#a7b1bedb846be659f538779ebcfa901fa">Interpreter::OpDivInt::execute</a></div><div class="ttdeci">virtual void execute(Runtime &amp;runtime)</div><div class="ttdef"><b>Definition:</b> mathopcodes.hpp:62</div></div>
 <div class="ttc" id="interpreter_2opcodes_8hpp_html"><div class="ttname"><a href="interpreter_2opcodes_8hpp.html">opcodes.hpp</a></div></div>
+<div class="ttc" id="classGui_1_1T_html"><div class="ttname"><a href="classGui_1_1T.html">T</a></div></div>
 <div class="ttc" id="classInterpreter_1_1OpMulInt_html"><div class="ttname"><a href="classInterpreter_1_1OpMulInt.html">Interpreter::OpMulInt</a></div><div class="ttdef"><b>Definition:</b> mathopcodes.hpp:43</div></div>
 <div class="ttc" id="runtime_8hpp_html"><div class="ttname"><a href="runtime_8hpp.html">runtime.hpp</a></div></div>
 <div class="ttc" id="classInterpreter_1_1OpSquareRoot_html"><div class="ttname"><a href="classInterpreter_1_1OpSquareRoot.html">Interpreter::OpSquareRoot</a></div><div class="ttdef"><b>Definition:</b> mathopcodes.hpp:77</div></div>
@@ -230,7 +231,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:52 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:24 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

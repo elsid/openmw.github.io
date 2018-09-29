@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwphysics/physicssystem.cpp File Reference</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwphysics/physicssystem.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -118,7 +118,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;<a class="el" href="bulletnifloader_8hpp_source.html">components/nifbullet/bulletnifloader.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="resourcesystem_8hpp_source.html">components/resource/resourcesystem.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="bulletshapemanager_8hpp_source.html">components/resource/bulletshapemanager.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="debuglog_8hpp_source.html">components/debug/debuglog.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="loadgmst_8hpp_source.html">components/esm/loadgmst.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="constants_8hpp_source.html">components/misc/constants.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="positionattitudetransform_8hpp_source.html">components/sceneutil/positionattitudetransform.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="unrefqueue_8hpp_source.html">components/sceneutil/unrefqueue.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="particle_8hpp_source.html">components/nifosg/particle.hpp</a>&gt;</code><br/>
@@ -126,19 +128,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="environment_8hpp_source.html">../mwbase/environment.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="apps_2openmw_2mwmechanics_2creaturestats_8hpp_source.html">../mwmechanics/creaturestats.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="movement_8hpp_source.html">../mwmechanics/movement.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="actorutil_8hpp_source.html">../mwmechanics/actorutil.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="apps_2openmw_2mwmechanics_2actorutil_8hpp_source.html">../mwmechanics/actorutil.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="esmstore_8hpp_source.html">../mwworld/esmstore.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="cellstore_8hpp_source.html">../mwworld/cellstore.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="bulletdebugdraw_8hpp_source.html">../mwrender/bulletdebugdraw.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="mwworld_2class_8hpp_source.html">../mwworld/class.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="collisiontype_8hpp_source.html">collisiontype.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="mwphysics_2actor_8hpp_source.html">actor.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="openmw_2mwphysics_2actor_8hpp_source.html">actor.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="convert_8hpp_source.html">convert.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="trace_8h_source.html">trace.h</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for physicssystem.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="physicssystem_8cpp__incl.svg" width="6051" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="physicssystem_8cpp__incl.svg" width="6434" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -184,13 +186,15 @@ Variables</h2></td></tr>
 <tr class="separator:a922ed0a0ba834d7b0078da9e46fc8126"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6f48313a687232e9701b8f2f874edaf"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWPhysics.html#ac6f48313a687232e9701b8f2f874edaf">MWPhysics::sMinStep</a> = 10.f</td></tr>
 <tr class="separator:ac6f48313a687232e9701b8f2f874edaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7397c1513d521cfeaaae0616052aae"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWPhysics.html#a9e7397c1513d521cfeaaae0616052aae">MWPhysics::sGroundOffset</a> = 1.0f</td></tr>
+<tr class="separator:a9e7397c1513d521cfeaaae0616052aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c3b16a3eb98227d23fc6ca410607c2f"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMWPhysics.html#a3c3b16a3eb98227d23fc6ca410607c2f">MWPhysics::sMaxIterations</a> = 8</td></tr>
 <tr class="separator:a3c3b16a3eb98227d23fc6ca410607c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:54 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:26 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

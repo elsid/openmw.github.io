@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenMW: /home/travis/build/OpenMW/openmw/apps/openmw/mwgui/repair.hpp Source File</title>
+<title>OpenMW: /home/travis/build/elsid/openmw/apps/openmw/mwgui/repair.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,74 +102,87 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="windowbase_8hpp.html">windowbase.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../mwmechanics/repair.hpp&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="itemselection_8hpp.html">itemselection.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>MWGui</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span>ItemWidget;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>ItemChargeView;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMWGui_1_1Repair.html">Repair</a> : <span class="keyword">public</span> <a class="code" href="classMWGui_1_1WindowBase.html">WindowBase</a></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="classMWGui_1_1Repair.html#aac4c82f62b3fd95b0e5caf0747f37edd">Repair</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a3dbcee6b25140165865fcb3a5148118c">open</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a941457544ac695143ef525d8d7167584">exit</a>();</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a3ba74fe7068a545cf6b0a78dab554aa7">startRepairItem</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; item);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a1b0b032640e1468cb0233ffab7c27de2">   26</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemChargeView.html">ItemChargeView</a>* <a class="code" href="classMWGui_1_1Repair.html#a1b0b032640e1468cb0233ffab7c27de2">mRepairBox</a>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#aa4135bee1da82ce8a5b57f655f6b3337">   28</a></span>&#160;    MyGUI::Widget* <a class="code" href="classMWGui_1_1Repair.html#aa4135bee1da82ce8a5b57f655f6b3337">mToolBox</a>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#afad196811dff975cfac787afa136d0cc">   30</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemWidget.html">ItemWidget</a>* <a class="code" href="classMWGui_1_1Repair.html#afad196811dff975cfac787afa136d0cc">mToolIcon</a>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#af1a3554380b3544ec5409b8d4932535f">   32</a></span>&#160;    MyGUI::TextBox* <a class="code" href="classMWGui_1_1Repair.html#af1a3554380b3544ec5409b8d4932535f">mUsesLabel</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a73c0cd198fead453520ec61924903b2d">   33</a></span>&#160;    MyGUI::TextBox* <a class="code" href="classMWGui_1_1Repair.html#a73c0cd198fead453520ec61924903b2d">mQualityLabel</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../mwmechanics/repair.hpp&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>MWGui</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>ItemSelectionDialog;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>ItemWidget;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>ItemChargeView;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMWGui_1_1Repair.html">Repair</a> : <span class="keyword">public</span> <a class="code" href="classMWGui_1_1WindowBase.html">WindowBase</a></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="classMWGui_1_1Repair.html#aac4c82f62b3fd95b0e5caf0747f37edd">Repair</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a07e5378e12c73e95a724e3278d01c740">onOpen</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a914fe62758add7eb26df8cf3362f07cb">setPtr</a> (<span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; item);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a1b0b032640e1468cb0233ffab7c27de2">   27</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemChargeView.html">ItemChargeView</a>* <a class="code" href="classMWGui_1_1Repair.html#a1b0b032640e1468cb0233ffab7c27de2">mRepairBox</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#aa4135bee1da82ce8a5b57f655f6b3337">   29</a></span>&#160;    MyGUI::Widget* <a class="code" href="classMWGui_1_1Repair.html#aa4135bee1da82ce8a5b57f655f6b3337">mToolBox</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#afad196811dff975cfac787afa136d0cc">   31</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemWidget.html">ItemWidget</a>* <a class="code" href="classMWGui_1_1Repair.html#afad196811dff975cfac787afa136d0cc">mToolIcon</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a85f70d840c7d3172dd5cf29b0504c732">   33</a></span>&#160;    <a class="code" href="classMWGui_1_1ItemSelectionDialog.html">ItemSelectionDialog</a>* <a class="code" href="classMWGui_1_1Repair.html#a85f70d840c7d3172dd5cf29b0504c732">mItemSelectionDialog</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a9f3c465b07328d050dd8df6afed89bd9">   35</a></span>&#160;    MyGUI::Button* <a class="code" href="classMWGui_1_1Repair.html#a9f3c465b07328d050dd8df6afed89bd9">mCancelButton</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a10b7405d21116c6151d87b2539c9d002">   37</a></span>&#160;    <a class="code" href="classMWMechanics_1_1Repair.html">MWMechanics::Repair</a> <a class="code" href="classMWGui_1_1Repair.html#a10b7405d21116c6151d87b2539c9d002">mRepair</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a35757775356e652b5704a1ab52acabf4">updateRepairView</a>();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a6c2fdbcbc193b1b301a54813a1ef9222">onRepairItem</a>(MyGUI::Widget* sender, <span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a1adb14810c9108e16566269c9c5463ac">onCancel</a>(MyGUI::Widget* sender);</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#af1a3554380b3544ec5409b8d4932535f">   35</a></span>&#160;    MyGUI::TextBox* <a class="code" href="classMWGui_1_1Repair.html#af1a3554380b3544ec5409b8d4932535f">mUsesLabel</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a73c0cd198fead453520ec61924903b2d">   36</a></span>&#160;    MyGUI::TextBox* <a class="code" href="classMWGui_1_1Repair.html#a73c0cd198fead453520ec61924903b2d">mQualityLabel</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a9f3c465b07328d050dd8df6afed89bd9">   38</a></span>&#160;    MyGUI::Button* <a class="code" href="classMWGui_1_1Repair.html#a9f3c465b07328d050dd8df6afed89bd9">mCancelButton</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classMWGui_1_1Repair.html#a10b7405d21116c6151d87b2539c9d002">   40</a></span>&#160;    <a class="code" href="classMWMechanics_1_1Repair.html">MWMechanics::Repair</a> <a class="code" href="classMWGui_1_1Repair.html#a10b7405d21116c6151d87b2539c9d002">mRepair</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a35757775356e652b5704a1ab52acabf4">updateRepairView</a>();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;};</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a7b39efc414bc60173431ca193443b1de">onSelectItem</a>(MyGUI::Widget* sender);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_aac4c82f62b3fd95b0e5caf0747f37edd"><div class="ttname"><a href="classMWGui_1_1Repair.html#aac4c82f62b3fd95b0e5caf0747f37edd">MWGui::Repair::Repair</a></div><div class="ttdeci">Repair()</div><div class="ttdef"><b>Definition:</b> repair.cpp:30</div></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a7fd049fbbc6e573c50c23a5308098db2">onItemSelected</a>(<a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a> item);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a17cdf6a7370fa1ed0bb23cfedffc0ce0">onItemCancel</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a6c2fdbcbc193b1b301a54813a1ef9222">onRepairItem</a>(MyGUI::Widget* sender, <span class="keyword">const</span> <a class="code" href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a>&amp; ptr);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMWGui_1_1Repair.html#a1adb14810c9108e16566269c9c5463ac">onCancel</a>(MyGUI::Widget* sender);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_aac4c82f62b3fd95b0e5caf0747f37edd"><div class="ttname"><a href="classMWGui_1_1Repair.html#aac4c82f62b3fd95b0e5caf0747f37edd">MWGui::Repair::Repair</a></div><div class="ttdeci">Repair()</div><div class="ttdef"><b>Definition:</b> repair.cpp:28</div></div>
 <div class="ttc" id="windowbase_8hpp_html"><div class="ttname"><a href="windowbase_8hpp.html">windowbase.hpp</a></div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a1b0b032640e1468cb0233ffab7c27de2"><div class="ttname"><a href="classMWGui_1_1Repair.html#a1b0b032640e1468cb0233ffab7c27de2">MWGui::Repair::mRepairBox</a></div><div class="ttdeci">ItemChargeView * mRepairBox</div><div class="ttdef"><b>Definition:</b> repair.hpp:26</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a6c2fdbcbc193b1b301a54813a1ef9222"><div class="ttname"><a href="classMWGui_1_1Repair.html#a6c2fdbcbc193b1b301a54813a1ef9222">MWGui::Repair::onRepairItem</a></div><div class="ttdeci">void onRepairItem(MyGUI::Widget *sender, const MWWorld::Ptr &amp;ptr)</div><div class="ttdef"><b>Definition:</b> repair.cpp:108</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a9f3c465b07328d050dd8df6afed89bd9"><div class="ttname"><a href="classMWGui_1_1Repair.html#a9f3c465b07328d050dd8df6afed89bd9">MWGui::Repair::mCancelButton</a></div><div class="ttdeci">MyGUI::Button * mCancelButton</div><div class="ttdef"><b>Definition:</b> repair.hpp:35</div></div>
+<div class="ttc" id="itemselection_8hpp_html"><div class="ttname"><a href="itemselection_8hpp.html">itemselection.hpp</a></div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a7b39efc414bc60173431ca193443b1de"><div class="ttname"><a href="classMWGui_1_1Repair.html#a7b39efc414bc60173431ca193443b1de">MWGui::Repair::onSelectItem</a></div><div class="ttdeci">void onSelectItem(MyGUI::Widget *sender)</div><div class="ttdef"><b>Definition:</b> repair.cpp:109</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a07e5378e12c73e95a724e3278d01c740"><div class="ttname"><a href="classMWGui_1_1Repair.html#a07e5378e12c73e95a724e3278d01c740">MWGui::Repair::onOpen</a></div><div class="ttdeci">virtual void onOpen()</div><div class="ttdoc">Notify that window has been made visible. </div><div class="ttdef"><b>Definition:</b> repair.cpp:47</div></div>
+<div class="ttc" id="classMWGui_1_1ItemSelectionDialog_html"><div class="ttname"><a href="classMWGui_1_1ItemSelectionDialog.html">MWGui::ItemSelectionDialog</a></div><div class="ttdef"><b>Definition:</b> itemselection.hpp:19</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a1b0b032640e1468cb0233ffab7c27de2"><div class="ttname"><a href="classMWGui_1_1Repair.html#a1b0b032640e1468cb0233ffab7c27de2">MWGui::Repair::mRepairBox</a></div><div class="ttdeci">ItemChargeView * mRepairBox</div><div class="ttdef"><b>Definition:</b> repair.hpp:27</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a6c2fdbcbc193b1b301a54813a1ef9222"><div class="ttname"><a href="classMWGui_1_1Repair.html#a6c2fdbcbc193b1b301a54813a1ef9222">MWGui::Repair::onRepairItem</a></div><div class="ttdeci">void onRepairItem(MyGUI::Widget *sender, const MWWorld::Ptr &amp;ptr)</div><div class="ttdef"><b>Definition:</b> repair.cpp:144</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a9f3c465b07328d050dd8df6afed89bd9"><div class="ttname"><a href="classMWGui_1_1Repair.html#a9f3c465b07328d050dd8df6afed89bd9">MWGui::Repair::mCancelButton</a></div><div class="ttdeci">MyGUI::Button * mCancelButton</div><div class="ttdef"><b>Definition:</b> repair.hpp:38</div></div>
 <div class="ttc" id="classMWMechanics_1_1Repair_html"><div class="ttname"><a href="classMWMechanics_1_1Repair.html">MWMechanics::Repair</a></div><div class="ttdef"><b>Definition:</b> repair.hpp:9</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a941457544ac695143ef525d8d7167584"><div class="ttname"><a href="classMWGui_1_1Repair.html#a941457544ac695143ef525d8d7167584">MWGui::Repair::exit</a></div><div class="ttdeci">virtual void exit()</div><div class="ttdoc">Gracefully exits the window. </div><div class="ttdef"><b>Definition:</b> repair.cpp:58</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a1adb14810c9108e16566269c9c5463ac"><div class="ttname"><a href="classMWGui_1_1Repair.html#a1adb14810c9108e16566269c9c5463ac">MWGui::Repair::onCancel</a></div><div class="ttdeci">void onCancel(MyGUI::Widget *sender)</div><div class="ttdef"><b>Definition:</b> repair.cpp:103</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_afad196811dff975cfac787afa136d0cc"><div class="ttname"><a href="classMWGui_1_1Repair.html#afad196811dff975cfac787afa136d0cc">MWGui::Repair::mToolIcon</a></div><div class="ttdeci">ItemWidget * mToolIcon</div><div class="ttdef"><b>Definition:</b> repair.hpp:30</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_af1a3554380b3544ec5409b8d4932535f"><div class="ttname"><a href="classMWGui_1_1Repair.html#af1a3554380b3544ec5409b8d4932535f">MWGui::Repair::mUsesLabel</a></div><div class="ttdeci">MyGUI::TextBox * mUsesLabel</div><div class="ttdef"><b>Definition:</b> repair.hpp:32</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a10b7405d21116c6151d87b2539c9d002"><div class="ttname"><a href="classMWGui_1_1Repair.html#a10b7405d21116c6151d87b2539c9d002">MWGui::Repair::mRepair</a></div><div class="ttdeci">MWMechanics::Repair mRepair</div><div class="ttdef"><b>Definition:</b> repair.hpp:37</div></div>
-<div class="ttc" id="classMWGui_1_1WindowBase_html"><div class="ttname"><a href="classMWGui_1_1WindowBase.html">MWGui::WindowBase</a></div><div class="ttdef"><b>Definition:</b> windowbase.hpp:16</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a3dbcee6b25140165865fcb3a5148118c"><div class="ttname"><a href="classMWGui_1_1Repair.html#a3dbcee6b25140165865fcb3a5148118c">MWGui::Repair::open</a></div><div class="ttdeci">virtual void open()</div><div class="ttdoc">Notify that window has been made visible. </div><div class="ttdef"><b>Definition:</b> repair.cpp:46</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a1adb14810c9108e16566269c9c5463ac"><div class="ttname"><a href="classMWGui_1_1Repair.html#a1adb14810c9108e16566269c9c5463ac">MWGui::Repair::onCancel</a></div><div class="ttdeci">void onCancel(MyGUI::Widget *sender)</div><div class="ttdef"><b>Definition:</b> repair.cpp:139</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_afad196811dff975cfac787afa136d0cc"><div class="ttname"><a href="classMWGui_1_1Repair.html#afad196811dff975cfac787afa136d0cc">MWGui::Repair::mToolIcon</a></div><div class="ttdeci">ItemWidget * mToolIcon</div><div class="ttdef"><b>Definition:</b> repair.hpp:31</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_af1a3554380b3544ec5409b8d4932535f"><div class="ttname"><a href="classMWGui_1_1Repair.html#af1a3554380b3544ec5409b8d4932535f">MWGui::Repair::mUsesLabel</a></div><div class="ttdeci">MyGUI::TextBox * mUsesLabel</div><div class="ttdef"><b>Definition:</b> repair.hpp:35</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a914fe62758add7eb26df8cf3362f07cb"><div class="ttname"><a href="classMWGui_1_1Repair.html#a914fe62758add7eb26df8cf3362f07cb">MWGui::Repair::setPtr</a></div><div class="ttdeci">void setPtr(const MWWorld::Ptr &amp;item)</div><div class="ttdoc">Open this object in the GUI, for windows that support it. </div><div class="ttdef"><b>Definition:</b> repair.cpp:59</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a10b7405d21116c6151d87b2539c9d002"><div class="ttname"><a href="classMWGui_1_1Repair.html#a10b7405d21116c6151d87b2539c9d002">MWGui::Repair::mRepair</a></div><div class="ttdeci">MWMechanics::Repair mRepair</div><div class="ttdef"><b>Definition:</b> repair.hpp:40</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a85f70d840c7d3172dd5cf29b0504c732"><div class="ttname"><a href="classMWGui_1_1Repair.html#a85f70d840c7d3172dd5cf29b0504c732">MWGui::Repair::mItemSelectionDialog</a></div><div class="ttdeci">ItemSelectionDialog * mItemSelectionDialog</div><div class="ttdef"><b>Definition:</b> repair.hpp:33</div></div>
+<div class="ttc" id="classMWGui_1_1WindowBase_html"><div class="ttname"><a href="classMWGui_1_1WindowBase.html">MWGui::WindowBase</a></div><div class="ttdef"><b>Definition:</b> windowbase.hpp:21</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a17cdf6a7370fa1ed0bb23cfedffc0ce0"><div class="ttname"><a href="classMWGui_1_1Repair.html#a17cdf6a7370fa1ed0bb23cfedffc0ce0">MWGui::Repair::onItemCancel</a></div><div class="ttdeci">void onItemCancel()</div><div class="ttdef"><b>Definition:</b> repair.cpp:134</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a7fd049fbbc6e573c50c23a5308098db2"><div class="ttname"><a href="classMWGui_1_1Repair.html#a7fd049fbbc6e573c50c23a5308098db2">MWGui::Repair::onItemSelected</a></div><div class="ttdeci">void onItemSelected(MWWorld::Ptr item)</div><div class="ttdef"><b>Definition:</b> repair.cpp:120</div></div>
 <div class="ttc" id="classMWWorld_1_1Ptr_html"><div class="ttname"><a href="classMWWorld_1_1Ptr.html">MWWorld::Ptr</a></div><div class="ttdoc">Pointer to a LiveCellRef. </div><div class="ttdef"><b>Definition:</b> ptr.hpp:19</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_aa4135bee1da82ce8a5b57f655f6b3337"><div class="ttname"><a href="classMWGui_1_1Repair.html#aa4135bee1da82ce8a5b57f655f6b3337">MWGui::Repair::mToolBox</a></div><div class="ttdeci">MyGUI::Widget * mToolBox</div><div class="ttdef"><b>Definition:</b> repair.hpp:28</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a73c0cd198fead453520ec61924903b2d"><div class="ttname"><a href="classMWGui_1_1Repair.html#a73c0cd198fead453520ec61924903b2d">MWGui::Repair::mQualityLabel</a></div><div class="ttdeci">MyGUI::TextBox * mQualityLabel</div><div class="ttdef"><b>Definition:</b> repair.hpp:33</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a35757775356e652b5704a1ab52acabf4"><div class="ttname"><a href="classMWGui_1_1Repair.html#a35757775356e652b5704a1ab52acabf4">MWGui::Repair::updateRepairView</a></div><div class="ttdeci">void updateRepairView()</div><div class="ttdef"><b>Definition:</b> repair.cpp:74</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_aa4135bee1da82ce8a5b57f655f6b3337"><div class="ttname"><a href="classMWGui_1_1Repair.html#aa4135bee1da82ce8a5b57f655f6b3337">MWGui::Repair::mToolBox</a></div><div class="ttdeci">MyGUI::Widget * mToolBox</div><div class="ttdef"><b>Definition:</b> repair.hpp:29</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a73c0cd198fead453520ec61924903b2d"><div class="ttname"><a href="classMWGui_1_1Repair.html#a73c0cd198fead453520ec61924903b2d">MWGui::Repair::mQualityLabel</a></div><div class="ttdeci">MyGUI::TextBox * mQualityLabel</div><div class="ttdef"><b>Definition:</b> repair.hpp:36</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html_a35757775356e652b5704a1ab52acabf4"><div class="ttname"><a href="classMWGui_1_1Repair.html#a35757775356e652b5704a1ab52acabf4">MWGui::Repair::updateRepairView</a></div><div class="ttdeci">void updateRepairView()</div><div class="ttdef"><b>Definition:</b> repair.cpp:72</div></div>
 <div class="ttc" id="classMWGui_1_1ItemChargeView_html"><div class="ttname"><a href="classMWGui_1_1ItemChargeView.html">MWGui::ItemChargeView</a></div><div class="ttdef"><b>Definition:</b> itemchargeview.hpp:24</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html"><div class="ttname"><a href="classMWGui_1_1Repair.html">MWGui::Repair</a></div><div class="ttdef"><b>Definition:</b> repair.hpp:14</div></div>
+<div class="ttc" id="classMWGui_1_1Repair_html"><div class="ttname"><a href="classMWGui_1_1Repair.html">MWGui::Repair</a></div><div class="ttdef"><b>Definition:</b> repair.hpp:17</div></div>
 <div class="ttc" id="classMWGui_1_1ItemWidget_html"><div class="ttname"><a href="classMWGui_1_1ItemWidget.html">MWGui::ItemWidget</a></div><div class="ttdoc">A widget that shows an icon for an MWWorld::Ptr. </div><div class="ttdef"><b>Definition:</b> itemwidget.hpp:15</div></div>
-<div class="ttc" id="classMWGui_1_1Repair_html_a3ba74fe7068a545cf6b0a78dab554aa7"><div class="ttname"><a href="classMWGui_1_1Repair.html#a3ba74fe7068a545cf6b0a78dab554aa7">MWGui::Repair::startRepairItem</a></div><div class="ttdeci">void startRepairItem(const MWWorld::Ptr &amp;item)</div><div class="ttdef"><b>Definition:</b> repair.cpp:63</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 24 2017 02:05:49 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 29 2018 14:54:21 for OpenMW by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

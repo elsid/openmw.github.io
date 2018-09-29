@@ -1,15 +1,17 @@
 <map id="MWMechanics::NpcStats::getBaseDisposition" name="MWMechanics::NpcStats::getBaseDisposition">
-<area shape="rect" id="node2" href="$classMWDialogue_1_1DialogueManager.html#a6d5083eaa463b01e86a1594732cf71bc" title="MWDialogue::DialogueManager\l::goodbyeSelected" alt="" coords="246,37,466,78"/>
-<area shape="rect" id="node3" href="$classMWMechanics_1_1MechanicsManager.html#abb57fd9c23912f213038666f1b4f89e2" title="Calculate the diposition of an NPC toward the player. " alt="" coords="235,102,477,143"/>
-<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#ac2c94a31b0bb42c76ad14898027db747" title="MWMechanics::MechanicsManager\l::reportCrime" alt="" coords="235,167,477,209"/>
-<area shape="rect" id="node14" href="$classMWScript_1_1Stats_1_1OpModDisposition.html#a9289171b874d679b70882d5a55fccedb" title="MWScript::Stats::OpModDisposition\l::execute" alt="" coords="233,233,479,274"/>
+<area shape="rect" id="node2" href="$classMWDialogue_1_1DialogueManager.html#a6d5083eaa463b01e86a1594732cf71bc" title="MWDialogue::DialogueManager\l::goodbyeSelected" alt="" coords="246,35,466,77"/>
+<area shape="rect" id="node3" href="$classMWMechanics_1_1MechanicsManager.html#abb57fd9c23912f213038666f1b4f89e2" title="Calculate the diposition of an NPC toward the player. " alt="" coords="235,101,477,142"/>
+<area shape="rect" id="node10" href="$classMWMechanics_1_1MechanicsManager.html#a2b4b3979c744730cc6ff3b2e8ec452dc" title="MWMechanics::MechanicsManager\l::reportCrime" alt="" coords="235,166,477,207"/>
+<area shape="rect" id="node16" href="$classMWScript_1_1Stats_1_1OpModDisposition.html#a9289171b874d679b70882d5a55fccedb" title="MWScript::Stats::OpModDisposition\l::execute" alt="" coords="233,231,479,273"/>
 <area shape="rect" id="node4" href="$classMWMechanics_1_1MechanicsManager.html#a42d08c62edb89e75619ebdb65e90c17d" title="This is used by every service to determine the price of objects given the trading skills of the playe..." alt="" coords="528,5,771,46"/>
 <area shape="rect" id="node5" href="$classMWMechanics_1_1MechanicsManager.html#a2202ea0b067523df1cd2401a9271d659" title="Perform a persuasion action on NPC. " alt="" coords="528,70,771,111"/>
 <area shape="rect" id="node6" href="$classMWMechanics_1_1MechanicsManager.html#a746a8979f34d97dc98422c27ca736f38" title="MWMechanics::MechanicsManager\l::isAggressive" alt="" coords="528,135,771,177"/>
-<area shape="rect" id="node7" href="$classMWMechanics_1_1MechanicsManager.html#ac0295fc090e45cda7afb12f54cdb3ff4" title="MWMechanics::MechanicsManager\l::actorAttacked" alt="" coords="819,118,1061,159"/>
-<area shape="rect" id="node9" href="$classMWMechanics_1_1MechanicsManager.html#a3fa51ec4329cd8a71916c19a76b457b0" title="MWMechanics::MechanicsManager\l::commitCrime" alt="" coords="528,233,771,274"/>
-<area shape="rect" id="node10" href="$classMWMechanics_1_1MechanicsManager.html#ad141d9d144db43c95491ecf5ab52762a" title="MWMechanics::MechanicsManager\l::sleepInBed" alt="" coords="819,183,1061,225"/>
-<area shape="rect" id="node11" href="$classMWMechanics_1_1MechanicsManager.html#addb42f0c5d68deeaeafb8c763a3d67d1" title="Utility to check if opening (i.e. unlocking) this object is illegal and calling commitCrime if so..." alt="" coords="819,249,1061,290"/>
-<area shape="rect" id="node12" href="$classMWMechanics_1_1MechanicsManager.html#a4bd88c829695528534252955ac6ceeaf" title="MWMechanics::MechanicsManager\l::itemTaken" alt="" coords="819,314,1061,355"/>
-<area shape="rect" id="node13" href="$classMWMechanics_1_1MechanicsManager.html#a3d920d72d10bae37ab7b70ce39d17a93" title="MWMechanics::MechanicsManager\l::actorKilled" alt="" coords="819,379,1061,421"/>
+<area shape="rect" id="node7" href="$classMWMechanics_1_1MechanicsManager.html#aa1a6b5568778965da3b75af977750a41" title="MWMechanics::MechanicsManager\l::canCommitCrimeAgainst" alt="" coords="819,133,1061,174"/>
+<area shape="rect" id="node8" href="$classMWMechanics_1_1MechanicsManager.html#ac0295fc090e45cda7afb12f54cdb3ff4" title="MWMechanics::MechanicsManager\l::actorAttacked" alt="" coords="1109,67,1352,109"/>
+<area shape="rect" id="node9" href="$classMWMechanics_1_1MechanicsManager.html#a3d920d72d10bae37ab7b70ce39d17a93" title="MWMechanics::MechanicsManager\l::actorKilled" alt="" coords="1109,133,1352,174"/>
+<area shape="rect" id="node11" href="$classMWMechanics_1_1MechanicsManager.html#a3fa51ec4329cd8a71916c19a76b457b0" title="MWMechanics::MechanicsManager\l::commitCrime" alt="" coords="819,198,1061,239"/>
+<area shape="rect" id="node12" href="$classMWMechanics_1_1MechanicsManager.html#ad141d9d144db43c95491ecf5ab52762a" title="MWMechanics::MechanicsManager\l::sleepInBed" alt="" coords="1109,329,1352,370"/>
+<area shape="rect" id="node13" href="$classMWMechanics_1_1MechanicsManager.html#addb42f0c5d68deeaeafb8c763a3d67d1" title="Utility to check if opening (i.e. unlocking) this object is illegal and calling commitCrime if so..." alt="" coords="1109,394,1352,435"/>
+<area shape="rect" id="node14" href="$classMWMechanics_1_1MechanicsManager.html#aa5d870d6413175e80ba1bb7904c25a8f" title="MWMechanics::MechanicsManager\l::confiscateStolenItemToOwner" alt="" coords="1109,198,1352,239"/>
+<area shape="rect" id="node15" href="$classMWMechanics_1_1MechanicsManager.html#a9c01b3db81f6689dcdc2dc5d7f819fb4" title="MWMechanics::MechanicsManager\l::itemTaken" alt="" coords="1109,263,1352,305"/>
 </map>

@@ -1,51 +1,41 @@
 <map id="MWBase::Environment::getStateManager" name="MWBase::Environment::getStateManager">
-<area shape="rect" id="node2" href="$classMWGui_1_1LoadingScreen.html#a608b318f966a2fcc06428e0518de95e8" title="MWGui::LoadingScreen\l::loadingOn" alt="" coords="260,21,428,62"/>
-<area shape="rect" id="node3" href="$classMWGui_1_1LoadingScreen.html#ae1a57a785cc4da791b5d866664563e90" title="MWGui::LoadingScreen\l::needToDrawLoadingScreen" alt="" coords="243,138,445,179"/>
-<area shape="rect" id="node4" href="$classMWGui_1_1LoadingScreen.html#adae694b1eb024ac706cb76f01f7fcab8" title="MWGui::LoadingScreen\l::draw" alt="" coords="536,109,704,150"/>
-<area shape="rect" id="node7" href="$classMWGui_1_1MainMenu.html#a9b8dbabca6b553407f13ee6f5aed3fa0" title="MWGui::MainMenu::onNewGame\lConfirmed" alt="" coords="230,269,458,310"/>
-<area shape="rect" id="node9" href="$classMWGui_1_1MainMenu.html#a63768cd541bcd3a073defd1f1396b61b" title="MWGui::MainMenu::updateMenu" alt="" coords="779,276,1005,303"/>
-<area shape="rect" id="node17" href="$classMWGui_1_1WindowManager.html#a044fcf2ab107f7c97dbf184ab0e3e868" title="MWGui::WindowManager\l::interactiveMessageBox" alt="" coords="1576,397,1755,438"/>
-<area shape="rect" id="node23" href="$classMWGui_1_1MainMenu.html#a0c10fc42fcf8a3747c36e95a5e1cce44" title="MWGui::MainMenu::onExitConfirmed" alt="" coords="219,335,469,361"/>
-<area shape="rect" id="node24" href="$classMWGui_1_1SaveGameDialog.html#a543fc51bed00e2f3f0cccd04699e9bfc" title="MWGui::SaveGameDialog\l::onDeleteSlotConfirmed" alt="" coords="528,546,712,587"/>
-<area shape="rect" id="node30" href="$classMWGui_1_1SaveGameDialog.html#a39206a7f0a2deb7d7257d1ed161b719f" title="Notify that window has been made visible. " alt="" coords="252,487,436,529"/>
-<area shape="rect" id="node31" href="$classMWGui_1_1SaveGameDialog.html#ac7f6ba5be8eb08ec2cb94458ceaa565a" title="MWGui::SaveGameDialog\l::setLoadOrSave" alt="" coords="252,203,436,245"/>
-<area shape="rect" id="node32" href="$classMWGui_1_1SaveGameDialog.html#aa25940916c10ed75e16b62e5e013b857" title="MWGui::SaveGameDialog\l::accept" alt="" coords="800,727,984,769"/>
-<area shape="rect" id="node37" href="$classMWGui_1_1SaveGameDialog.html#acb500f0132909a7c5bd94c2e13fc2e5b" title="MWGui::SaveGameDialog\l::onCharacterSelected" alt="" coords="252,605,436,646"/>
-<area shape="rect" id="node38" href="$classMWGui_1_1WaitDialog.html#a92339891db903cb7d127eef8d46dca12" title="MWGui::WaitDialog::\lstartWaiting" alt="" coords="271,722,417,763"/>
-<area shape="rect" id="node42" href="$classMWGui_1_1WindowManager.html#a66c57e047d0647ec7186e635d39d1bc1" title="MWGui::WindowManager\l::playVideo" alt="" coords="1348,794,1524,835"/>
-<area shape="rect" id="node43" href="$classMWInput_1_1InputManager.html#a16567ef5ea78ee85c4e36a336f70a749" title="MWInput::InputManager\l::windowClosed" alt="" coords="258,839,430,881"/>
-<area shape="rect" id="node44" href="$classMWInput_1_1InputManager.html#af598485c94ee80f54c22ba9cf0bf0b6d" title="MWInput::InputManager\l::quickLoad" alt="" coords="258,970,430,1011"/>
-<area shape="rect" id="node46" href="$classMWInput_1_1InputManager.html#a3fa13557af6c08d30fcaa3125f27a684" title="MWInput::InputManager\l::quickSave" alt="" coords="258,905,430,946"/>
-<area shape="rect" id="node47" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="264,1035,424,1077"/>
-<area shape="rect" id="node50" href="$classMWSound_1_1SoundManager.html#a4ec845757bc0552608907ae6c14e3b30" title="MWSound::SoundManager\l::update" alt="" coords="249,1101,439,1142"/>
-<area shape="rect" id="node5" href="$classMWGui_1_1LoadingScreen.html#ac5d8f2a22257e77de55f8fffe6027678" title="Set current progress. Valid range is [0, progressRange) " alt="" coords="808,77,976,118"/>
-<area shape="rect" id="node6" href="$classMWGui_1_1LoadingScreen.html#abbfd4b22e86177609503264cc8300f9b" title="Increase current progress, default by 1. " alt="" coords="808,142,976,183"/>
-<area shape="rect" id="node8" href="$classMWGui_1_1MainMenu.html#a45aaa45f93dd684f914565f4823469b6" title="MWGui::MainMenu::onButton\lClicked" alt="" coords="517,269,723,310"/>
-<area shape="rect" id="node10" href="$classMWGui_1_1MainMenu.html#ad9a96304f1823b798d6565b817565b5b" title="MWGui::MainMenu::MainMenu" alt="" coords="1073,259,1284,285"/>
-<area shape="rect" id="node11" href="$classMWGui_1_1MainMenu.html#ad787dee93f8eea19e575e13985c2f607" title="MWGui::MainMenu::onResChange" alt="" coords="1062,309,1295,336"/>
-<area shape="rect" id="node13" href="$classMWGui_1_1MainMenu.html#ab12b857f3e092cda9b49b250536307ed" title="MWGui::MainMenu::setVisible" alt="" coords="1075,208,1282,235"/>
-<area shape="rect" id="node12" href="$classMWGui_1_1WindowManager.html#a435d77e16e340a1da43bbac015005167" title="MWGui::WindowManager\l::windowResized" alt="" coords="1348,298,1524,339"/>
-<area shape="rect" id="node14" href="$classMWGui_1_1WindowManager.html#ab9fdbfdc3d3b76fe9813cbb743d334da" title="MWGui::WindowManager\l::updateVisible" alt="" coords="1348,201,1524,242"/>
-<area shape="rect" id="node15" href="$classMWGui_1_1WindowManager.html#a2066d296aa345dcb4008cbd07d3c52c2" title="MWGui::WindowManager\l::initUI" alt="" coords="1577,135,1753,177"/>
-<area shape="rect" id="node18" href="$classMWGui_1_1WindowManager.html#a0767a1ab9cb727c7bd0243c35226b428" title="MWGui::WindowManager\l::pushGuiMode" alt="" coords="1577,201,1753,242"/>
-<area shape="rect" id="node19" href="$classMWGui_1_1WindowManager.html#a0b79ceda0174bec3ff9efc8ee03ea336" title="MWGui::WindowManager\l::popGuiMode" alt="" coords="1577,266,1753,307"/>
-<area shape="rect" id="node20" href="$classMWGui_1_1WindowManager.html#a6162cf9ad2be7221c1b83ce122af4851" title="can be anywhere in the stack " alt="" coords="1577,331,1753,373"/>
-<area shape="rect" id="node21" href="$classMWGui_1_1WindowManager.html#aeb2d42ff40077e3b3513c5ed67732fc5" title="Allow one or more windows. " alt="" coords="1577,5,1753,46"/>
-<area shape="rect" id="node22" href="$classMWGui_1_1WindowManager.html#a9f2fb85060c4d0ff97fc8e8be332192d" title="Disallow all inventory mode windows. " alt="" coords="1577,70,1753,111"/>
-<area shape="rect" id="node16" href="$classOMW_1_1Engine.html#a9edab665083b0f5db2cda761f3e9c2c3" title="Prepare engine for game play. " alt="" coords="1803,388,2008,415"/>
-<area shape="rect" id="node25" href="$classMWGui_1_1SaveGameDialog.html#a12b83b22ef352e7cbd178edc48bb2e5e" title="MWGui::SaveGameDialog\l::confirmDeleteSave" alt="" coords="800,514,984,555"/>
-<area shape="rect" id="node26" href="$classMWGui_1_1SaveGameDialog.html#a6522022ba221e2509fbf2cc8fc27ab4f" title="MWGui::SaveGameDialog\l::onSlotMouseClick" alt="" coords="1087,415,1271,457"/>
-<area shape="rect" id="node28" href="$classMWGui_1_1SaveGameDialog.html#a41f7a0971df38cb57418f6cfaaa000cd" title="MWGui::SaveGameDialog\l::onDeleteButtonClicked" alt="" coords="1087,481,1271,522"/>
-<area shape="rect" id="node29" href="$classMWGui_1_1SaveGameDialog.html#a1cf5a8197298f665ac7934c98a4b48ce" title="MWGui::SaveGameDialog\l::onKeyButtonPressed" alt="" coords="1087,546,1271,587"/>
-<area shape="rect" id="node27" href="$classMWGui_1_1SaveGameDialog.html#a6da92852a3b511c1387284eea6afb743" title="MWGui::SaveGameDialog\l::SaveGameDialog" alt="" coords="1344,605,1528,646"/>
-<area shape="rect" id="node33" href="$classMWGui_1_1SaveGameDialog.html#a9b4b71fd79fc8bdd73aa13e1a1c2586b" title="MWGui::SaveGameDialog\l::onSlotActivated" alt="" coords="1087,729,1271,770"/>
-<area shape="rect" id="node34" href="$classMWGui_1_1SaveGameDialog.html#ab920053df7c50ae029efe694f93e0dc3" title="MWGui::SaveGameDialog\l::onEditSelectAccept" alt="" coords="1087,794,1271,835"/>
-<area shape="rect" id="node35" href="$classMWGui_1_1SaveGameDialog.html#aec975d9c2b51a8b80b22e20b3915d1cc" title="MWGui::SaveGameDialog\l::onConfirmationGiven" alt="" coords="1087,859,1271,901"/>
-<area shape="rect" id="node36" href="$classMWGui_1_1SaveGameDialog.html#a9c9a8986a61321f24386d6a6063f7247" title="MWGui::SaveGameDialog\l::onOkButtonClicked" alt="" coords="1087,663,1271,705"/>
-<area shape="rect" id="node39" href="$classMWGui_1_1WaitDialog.html#a945bb084cf150a4cc722cda73bb46935" title="MWGui::WaitDialog::\lonUntilHealedButtonClicked" alt="" coords="520,723,720,765"/>
-<area shape="rect" id="node41" href="$classMWGui_1_1WaitDialog.html#abefb0d0ac03e8aa38820ea586d467f3f" title="MWGui::WaitDialog::\lonWaitButtonClicked" alt="" coords="544,790,696,831"/>
-<area shape="rect" id="node40" href="$classMWGui_1_1WaitDialog.html#ad514906581fac95d19990a3fba3d7da6" title="MWGui::WaitDialog::\lWaitDialog" alt="" coords="819,793,965,834"/>
-<area shape="rect" id="node45" href="$classMWInput_1_1InputManager.html#a36df0af06e2c3c1d192cc7f9fccfde5d" title="MWInput::InputManager\l::channelChanged" alt="" coords="534,941,706,982"/>
-<area shape="rect" id="node48" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="540,1035,700,1077"/>
-<area shape="rect" id="node49" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="771,1035,1013,1077"/>
+<area shape="rect" id="node2" href="$classMWGui_1_1LoadingScreen.html#ac3e8b956d766cac817497e8aee0b964c" title="MWGui::LoadingScreen\l::loadingOn" alt="" coords="260,5,428,46"/>
+<area shape="rect" id="node3" href="$classMWGui_1_1MainMenu.html#ab12b857f3e092cda9b49b250536307ed" title="Sets the visibility of the window. " alt="" coords="1075,71,1282,97"/>
+<area shape="rect" id="node4" href="$classMWGui_1_1MainMenu.html#a9b8dbabca6b553407f13ee6f5aed3fa0" title="MWGui::MainMenu::onNewGame\lConfirmed" alt="" coords="230,238,458,279"/>
+<area shape="rect" id="node6" href="$classMWGui_1_1MainMenu.html#a63768cd541bcd3a073defd1f1396b61b" title="MWGui::MainMenu::updateMenu" alt="" coords="779,121,1005,148"/>
+<area shape="rect" id="node9" href="$classMWGui_1_1MainMenu.html#a0c10fc42fcf8a3747c36e95a5e1cce44" title="MWGui::MainMenu::onExitConfirmed" alt="" coords="219,355,469,381"/>
+<area shape="rect" id="node10" href="$classMWGui_1_1MainMenu.html#ad9e6829156502d671c8a53780fb86d29" title="Gracefully exits the window. " alt="" coords="259,304,429,331"/>
+<area shape="rect" id="node11" href="$classMWGui_1_1SaveGameDialog.html#a543fc51bed00e2f3f0cccd04699e9bfc" title="MWGui::SaveGameDialog\l::onDeleteSlotConfirmed" alt="" coords="528,578,712,619"/>
+<area shape="rect" id="node17" href="$classMWGui_1_1SaveGameDialog.html#a83e3853a36d8a3c0598fb78814a348b4" title="Notify that window has been made visible. " alt="" coords="252,406,436,447"/>
+<area shape="rect" id="node18" href="$classMWGui_1_1SaveGameDialog.html#ac7f6ba5be8eb08ec2cb94458ceaa565a" title="MWGui::SaveGameDialog\l::setLoadOrSave" alt="" coords="252,173,436,214"/>
+<area shape="rect" id="node19" href="$classMWGui_1_1SaveGameDialog.html#aa25940916c10ed75e16b62e5e013b857" title="MWGui::SaveGameDialog\l::accept" alt="" coords="800,429,984,470"/>
+<area shape="rect" id="node24" href="$classMWGui_1_1SaveGameDialog.html#acb500f0132909a7c5bd94c2e13fc2e5b" title="MWGui::SaveGameDialog\l::onCharacterSelected" alt="" coords="252,523,436,565"/>
+<area shape="rect" id="node25" href="$classMWGui_1_1WaitDialog.html#a92339891db903cb7d127eef8d46dca12" title="MWGui::WaitDialog::\lstartWaiting" alt="" coords="271,641,417,682"/>
+<area shape="rect" id="node29" href="$classMWGui_1_1WindowManager.html#a044fcf2ab107f7c97dbf184ab0e3e868" title="MWGui::WindowManager\l::interactiveMessageBox" alt="" coords="255,706,433,747"/>
+<area shape="rect" id="node30" href="$classMWGui_1_1WindowManager.html#a66c57e047d0647ec7186e635d39d1bc1" title="MWGui::WindowManager\l::playVideo" alt="" coords="256,771,432,813"/>
+<area shape="rect" id="node32" href="$classMWInput_1_1InputManager.html#a16567ef5ea78ee85c4e36a336f70a749" title="MWInput::InputManager\l::windowClosed" alt="" coords="258,837,430,878"/>
+<area shape="rect" id="node33" href="$classMWInput_1_1InputManager.html#af598485c94ee80f54c22ba9cf0bf0b6d" title="MWInput::InputManager\l::quickLoad" alt="" coords="258,902,430,943"/>
+<area shape="rect" id="node35" href="$classMWInput_1_1InputManager.html#a3fa13557af6c08d30fcaa3125f27a684" title="MWInput::InputManager\l::quickSave" alt="" coords="258,967,430,1009"/>
+<area shape="rect" id="node36" href="$classMWMechanics_1_1Actors.html#a43831198b7ba76efc6e134986d9205e2" title="MWMechanics::Actors\l::killDeadActors" alt="" coords="264,1033,424,1074"/>
+<area shape="rect" id="node39" href="$classMWScript_1_1Stats_1_1OpResurrect.html#a04452b3b484d58812802c5a29224f942" title="MWScript::Stats::OpResurrect\l::execute" alt="" coords="239,1098,449,1139"/>
+<area shape="rect" id="node40" href="$classMWSound_1_1SoundManager.html#a4ec845757bc0552608907ae6c14e3b30" title="MWSound::SoundManager\l::update" alt="" coords="249,1163,439,1205"/>
+<area shape="rect" id="node5" href="$classMWGui_1_1MainMenu.html#a45aaa45f93dd684f914565f4823469b6" title="MWGui::MainMenu::onButton\lClicked" alt="" coords="517,205,723,246"/>
+<area shape="rect" id="node7" href="$classMWGui_1_1MainMenu.html#ad9a96304f1823b798d6565b817565b5b" title="MWGui::MainMenu::MainMenu" alt="" coords="1073,172,1284,199"/>
+<area shape="rect" id="node8" href="$classMWGui_1_1MainMenu.html#ad787dee93f8eea19e575e13985c2f607" title="Called when GUI viewport changes size. " alt="" coords="1062,121,1295,148"/>
+<area shape="rect" id="node12" href="$classMWGui_1_1SaveGameDialog.html#a12b83b22ef352e7cbd178edc48bb2e5e" title="MWGui::SaveGameDialog\l::confirmDeleteSave" alt="" coords="800,611,984,653"/>
+<area shape="rect" id="node13" href="$classMWGui_1_1SaveGameDialog.html#a6522022ba221e2509fbf2cc8fc27ab4f" title="MWGui::SaveGameDialog\l::onSlotMouseClick" alt="" coords="1087,709,1271,750"/>
+<area shape="rect" id="node15" href="$classMWGui_1_1SaveGameDialog.html#a41f7a0971df38cb57418f6cfaaa000cd" title="MWGui::SaveGameDialog\l::onDeleteButtonClicked" alt="" coords="1087,578,1271,619"/>
+<area shape="rect" id="node16" href="$classMWGui_1_1SaveGameDialog.html#a1cf5a8197298f665ac7934c98a4b48ce" title="MWGui::SaveGameDialog\l::onKeyButtonPressed" alt="" coords="1087,643,1271,685"/>
+<area shape="rect" id="node14" href="$classMWGui_1_1SaveGameDialog.html#a6da92852a3b511c1387284eea6afb743" title="MWGui::SaveGameDialog\l::SaveGameDialog" alt="" coords="1344,519,1528,561"/>
+<area shape="rect" id="node20" href="$classMWGui_1_1SaveGameDialog.html#a9b4b71fd79fc8bdd73aa13e1a1c2586b" title="MWGui::SaveGameDialog\l::onSlotActivated" alt="" coords="1087,395,1271,437"/>
+<area shape="rect" id="node21" href="$classMWGui_1_1SaveGameDialog.html#ab920053df7c50ae029efe694f93e0dc3" title="MWGui::SaveGameDialog\l::onEditSelectAccept" alt="" coords="1087,265,1271,306"/>
+<area shape="rect" id="node22" href="$classMWGui_1_1SaveGameDialog.html#aec975d9c2b51a8b80b22e20b3915d1cc" title="MWGui::SaveGameDialog\l::onConfirmationGiven" alt="" coords="1087,461,1271,502"/>
+<area shape="rect" id="node23" href="$classMWGui_1_1SaveGameDialog.html#a9c9a8986a61321f24386d6a6063f7247" title="MWGui::SaveGameDialog\l::onOkButtonClicked" alt="" coords="1087,330,1271,371"/>
+<area shape="rect" id="node26" href="$classMWGui_1_1WaitDialog.html#a945bb084cf150a4cc722cda73bb46935" title="MWGui::WaitDialog::\lonUntilHealedButtonClicked" alt="" coords="520,643,720,685"/>
+<area shape="rect" id="node28" href="$classMWGui_1_1WaitDialog.html#abefb0d0ac03e8aa38820ea586d467f3f" title="MWGui::WaitDialog::\lonWaitButtonClicked" alt="" coords="544,709,696,750"/>
+<area shape="rect" id="node27" href="$classMWGui_1_1WaitDialog.html#ad514906581fac95d19990a3fba3d7da6" title="MWGui::WaitDialog::\lWaitDialog" alt="" coords="819,693,965,734"/>
+<area shape="rect" id="node31" href="$classOMW_1_1Engine.html#a9edab665083b0f5db2cda761f3e9c2c3" title="Prepare engine for game play. " alt="" coords="517,779,723,805"/>
+<area shape="rect" id="node34" href="$classMWInput_1_1InputManager.html#a36df0af06e2c3c1d192cc7f9fccfde5d" title="MWInput::InputManager\l::channelChanged" alt="" coords="534,934,706,975"/>
+<area shape="rect" id="node37" href="$classMWMechanics_1_1Actors.html#a1588180bba8597286a1db1389cee106e" title="Update actor stats and store desired velocity vectors in movement. " alt="" coords="540,1033,700,1074"/>
+<area shape="rect" id="node38" href="$classMWMechanics_1_1MechanicsManager.html#acf3c8c25fff52b890d0d6ced4b456459" title="MWMechanics::MechanicsManager\l::update" alt="" coords="771,1033,1013,1074"/>
 </map>

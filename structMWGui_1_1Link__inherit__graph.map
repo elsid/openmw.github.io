@@ -1,5 +1,5 @@
 <map id="MWGui::Link" name="MWGui::Link">
-<area shape="rect" id="node2" href="$structMWGui_1_1Choice.html" title="{MWGui::Choice\n|+ mChoiceId\l|+ Choice()\l+ activated()\l}" alt="" coords="5,147,120,239"/>
-<area shape="rect" id="node3" href="$structMWGui_1_1Goodbye.html" title="{MWGui::Goodbye\n||+ activated()\l}" alt="" coords="145,155,275,232"/>
-<area shape="rect" id="node4" href="$structMWGui_1_1Topic.html" title="{MWGui::Topic\n|+ mTopicId\l|+ Topic()\l+ activated()\l}" alt="" coords="300,147,407,239"/>
+<area shape="rect" id="node2" href="$structMWGui_1_1Choice.html" title="{MWGui::Choice\n|+ eventChoiceActivated\l+ mChoiceId\l|+ Choice()\l+ activated()\l}" alt="" coords="5,147,181,253"/>
+<area shape="rect" id="node3" href="$structMWGui_1_1Goodbye.html" title="{MWGui::Goodbye\n|+ eventActivated\l|+ activated()\l}" alt="" coords="205,161,339,239"/>
+<area shape="rect" id="node4" href="$structMWGui_1_1Topic.html" title="{MWGui::Topic\n|+ eventTopicActivated\l+ mTopicId\l|+ Topic()\l+ activated()\l}" alt="" coords="363,147,527,253"/>
 </map>
